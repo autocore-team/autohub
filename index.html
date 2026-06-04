@@ -43,10 +43,11 @@
         .input-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
         input { width: 70px; padding: 6px; border: 1px solid #ccc; border-radius: 4px; text-align: center; font-size: 1rem; }
         
+        /* Квадратный холст для идеальных пропорций круга */
         canvas { border: 1px solid #ddd; background: #fff; display: block; margin: 20px auto; border-radius: 8px; max-width: 100%; height: auto;}
+        
         #result { padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 5px solid #007bff; font-weight: bold; line-height: 1.5; margin-bottom: 30px; }
         
-        /* Стили для нового блока пояснений */
         .faq-section { margin-top: 40px; border-top: 2px solid #eee; padding-top: 20px; }
         .faq-item { margin-bottom: 20px; background: #fff; padding: 15px; border-radius: 8px; border: 1px solid #eaeaea; }
         .faq-item h4 { margin: 0 0 8px 0; color: #222; font-size: 1.1rem; }
@@ -79,7 +80,7 @@
         </div>
     </div>
 
-    <canvas id="tireCanvas" width="400" height="240"></canvas>
+    <canvas id="tireCanvas" width="320" height="320"></canvas>
     
     <div id="result">Result will appear here...</div>
 
@@ -127,7 +128,7 @@
                 w: "Largeur (mm)", p: "Profil (%)", d: "Jante (pouces)",
                 res: "Garde au sol: {diff} mm<br>Erreur de vitesse: {err}%",
                 q1: "Qu'est-ce qu'un calculateur de pneus ?", a1: "C'est un outil pour comparer deux dimensions de pneus et voir comment le changement affecte le diamètre total, la largeur, la garde au sol et la précision du compteur de vitesse.",
-                q2: "Comment le diamètre du pneu est-il calculé ?", a2: "La formule est : Diamètre = (Largeur × (Profil / 100) × 2) + (Jante × 25.4). Par exemple, un pneu 205/55R16 a un diamètre de : (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
+                q2: "Comment le diamètre du pneu is-il calculé ?", a2: "La formule est : Diamètre = (Largeur × (Profil / 100) × 2) + (Jante × 25.4). Par exemple, un pneu 205/55R16 a un diamètre de : (205 × 0.55 × 2) + (Jante × 25.4) = 631.9 mm.",
                 q3: "Comment fonctionne l'erreur du compteur ?", a3: "Le compteur calcule la vitesse selon les rotations de la roue. Un pneu plus grand parcourt plus de distance par tour. Si vos nouveaux pneus sont plus grands, vous roulez plus vite que ce que le compteur affiche.",
                 q4: "Puis-je remplacer le 205/55R16 par le 225/45R17 ?", a4: "Oui ! La différence de diamètre n'est que de 0.4% (-2.5 mm de garde au sol). Cela reste bien en dessous de la limite de sécurité de 3% ; c'est un changement très courant et sûr."
             },
@@ -136,7 +137,7 @@
                 w: "Breite (mm)", p: "Profil (%)", d: "Felge (Zoll)",
                 res: "Bodenfreiheit: {diff} mm<br>Tachoabweichung: {err}%",
                 q1: "Was ist ein Reifenrechner?", a1: "Ein Werkzeug zum Vergleichen von zwei Reifengrößen, um zu sehen, wie sich die Änderung auf Durchmesser, Breite, Profilhöhe, Bodenfreiheit und Tachoabweichung auswirkt.",
-                q2: "Wie wird der Reifendurchmesser berechnet?", a2: "Die Formel lautet: Durchmesser = (Breite × (Profil / 100) × 2) + (Felge × 25.4). Zum Beispiel hat ein 205/55R16 Reifen einen Durchmesser von: (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
+                q2: "Wie wird der Reifendurchmesser berechnet?", a2: "Die Formel lautet: Durchmesser = (Breite × (Profil / 100) × 2) + (Felge × 25.4). Zum Beispiel hat ein 205/55R16 Reifen einen Durchmesser von: (205 × 0.55 × 2) + (Felge × 25.4) = 631.9 mm.",
                 q3: "Wie funktioniert die Tachoabweichung?", a3: "Der Tacho misst die Radumdrehungen. Ein größerer Reifen legt pro Drehung mehr Weg zurück. Wenn die neuen Reifen größer sind, fährt das Auto schneller als der Tacho anzeigt.",
                 q4: "Kann ich 205/55R16 durch 225/45R17 ersetzen?", a4: "Ja! Der Durchmesserunterschied beträgt nur ca. 0.4% (-2.5 mm Bodenfreiheit). Das liegt weit innerhalb der sicheren Toleranzgrenze von 3% und ist ein sehr beliebter und sicherer Wechsel."
             }
@@ -161,7 +162,6 @@
             document.getElementById('lbl_p2').innerText = dict[lang].p;
             document.getElementById('lbl_d2').innerText = dict[lang].d;
             
-            // Динамический перевод блока вопросов и ответов
             document.getElementById('q1').innerText = dict[lang].q1;
             document.getElementById('a1').innerText = dict[lang].a1;
             document.getElementById('q2').innerText = dict[lang].q2;
@@ -182,7 +182,11 @@
             const dia1 = getDia(w1, p1, d1);
             const dia2 = getDia(w2, p2, d2);
             
-            draw(dia1, dia2);
+            // Расчет диаметра дисков в мм
+            const rim1 = d1 * 25.4;
+            const rim2 = d2 * 25.4;
+            
+            draw(dia1, rim1, dia2, rim2);
 
             const diff = ((dia2 - dia1) / 2).toFixed(1); 
             const error = ((dia2 / dia1 - 1) * 100).toFixed(1);
@@ -191,32 +195,48 @@
             document.getElementById('result').innerHTML = resText;
         }
 
-        function draw(d1, d2) {
+        function draw(d1, r1, d2, r2) {
             const canvas = document.getElementById('tireCanvas');
             const ctx = canvas.getContext('2d');
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            const scale = 0.35; 
+            const scale = 0.4; // Немного увеличили масштаб для квадрата
             const centerX = canvas.width / 2;
-            const centerY = canvas.height / 2 + 10;
+            const centerY = canvas.height / 2;
 
             ctx.font = "14px Arial";
             ctx.textAlign = "center";
 
+            // 1. Оригинальное колесо (Серое) - Внешняя шина
             ctx.beginPath();
             ctx.arc(centerX, centerY, d1 * scale / 2, 0, 2 * Math.PI);
-            ctx.strokeStyle = '#999';
-            ctx.lineWidth = 3;
+            ctx.strokeStyle = '#b0bec5';
+            ctx.lineWidth = 4;
+            ctx.stroke();
+
+            // Original колесо - Внутренний диск
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, r1 * scale / 2, 0, 2 * Math.PI);
+            ctx.strokeStyle = '#cfd8dc';
+            ctx.lineWidth = 2;
             ctx.stroke();
             
             ctx.fillStyle = '#666';
             ctx.fillText(dict[currentLang].orig, centerX, centerY - (d1 * scale / 2) - 10);
 
+            // 2. Новое колесо (Синее) - Внешняя шина
             ctx.beginPath();
             ctx.arc(centerX, centerY, d2 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#007bff';
-            ctx.lineWidth = 3;
-            ctx.setLineDash([5, 5]); 
+            ctx.lineWidth = 4;
+            ctx.setLineDash([6, 6]); 
+            ctx.stroke();
+
+            // Новое колесо - Внутренний диск
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, r2 * scale / 2, 0, 2 * Math.PI);
+            ctx.strokeStyle = '#64b5f6';
+            ctx.lineWidth = 2;
             ctx.stroke();
             ctx.setLineDash([]); 
             
