@@ -6,7 +6,7 @@
     
     <title>Universal Tire Size Calculator | Wheel Comparison Tool</title>
     <meta name="description" content="Free multi-language tire size calculator. Compare tire dimensions, clearance changes, and speedometer errors. Supports English, Español, Français, Deutsch.">
-    <meta name="keywords" content="tire calculator, calculadora de neumáticos, calculateur de pneus, reifenrechner, wheel size, tire comparison">
+    <meta name="keywords" content="tire calculator, calculadora de neumáticos, calculateur de pneus, reifenrechner, wheel size, tire comparison, 205/55R16, 225/45R17">
     
     <style>
         body { 
@@ -44,7 +44,13 @@
         input { width: 70px; padding: 6px; border: 1px solid #ccc; border-radius: 4px; text-align: center; font-size: 1rem; }
         
         canvas { border: 1px solid #ddd; background: #fff; display: block; margin: 20px auto; border-radius: 8px; max-width: 100%; height: auto;}
-        #result { padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 5px solid #007bff; font-weight: bold; line-height: 1.5; }
+        #result { padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 5px solid #007bff; font-weight: bold; line-height: 1.5; margin-bottom: 30px; }
+        
+        /* Стили для нового блока пояснений */
+        .faq-section { margin-top: 40px; border-top: 2px solid #eee; padding-top: 20px; }
+        .faq-item { margin-bottom: 20px; background: #fff; padding: 15px; border-radius: 8px; border: 1px solid #eaeaea; }
+        .faq-item h4 { margin: 0 0 8px 0; color: #222; font-size: 1.1rem; }
+        .faq-item p { margin: 0; color: #555; font-size: 0.95rem; line-height: 1.4; }
     </style>
 </head>
 <body>
@@ -77,28 +83,62 @@
     
     <div id="result">Result will appear here...</div>
 
+    <div class="faq-section">
+        <div class="faq-item">
+            <h4 id="q1">What is a tire size calculator?</h4>
+            <p id="a1">Content...</p>
+        </div>
+        <div class="faq-item">
+            <h4 id="q2">How tire diameter is calculated?</h4>
+            <p id="a2">Content...</p>
+        </div>
+        <div class="faq-item">
+            <h4 id="q3">How speedometer error works?</h4>
+            <p id="a3">Content...</p>
+        </div>
+        <div class="faq-item">
+            <h4 id="q4">Can I replace 205/55R16 with 225/45R17?</h4>
+            <p id="a4">Content...</p>
+        </div>
+    </div>
+
     <script>
-        // Расширенный словарь для полной мультиязычности
         const dict = {
             en: { 
                 title: "Tire Size Calculator", orig: "Original Size", new: "New Size", 
                 w: "Width (mm)", p: "Profile (%)", d: "Rim (inch)",
-                res: "Clearance change: {diff} mm<br>Speedometer error: {err}%" 
+                res: "Clearance change: {diff} mm<br>Speedometer error: {err}%",
+                q1: "What is a tire size calculator?", a1: "It is a tool to compare two different tire dimensions and easily see how the switch affects the total diameter, width, sidewall height, clearance, and speedometer accuracy.",
+                q2: "How tire diameter is calculated?", a2: "The formula is: Total Diameter = (Width × (Profile / 100) × 2) + (Rim × 25.4). For example, a 205/55R16 tire has a diameter of: (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
+                q3: "How speedometer error works?", a3: "Your speedometer calculates speed based on wheel revolutions. A larger tire travels further in one turn. If your new tires are bigger, your car moves faster than the speedometer shows.",
+                q4: "Can I replace 205/55R16 with 225/45R17?", a4: "Yes! The diameter difference is only about 0.4% (-2.5 mm in clearance). It stays well within the safe 3% tolerance limit and is a very popular and safe upgrade choice."
             },
             es: { 
                 title: "Calculadora de Neumáticos", orig: "Tamaño Original", new: "Nuevo Tamaño", 
                 w: "Ancho (mm)", p: "Perfil (%)", d: "Llanta (pulgadas)",
-                res: "Cambio de altura: {diff} mm<br>Error del velocímetro: {err}%" 
+                res: "Cambio de altura: {diff} mm<br>Error del velocímetro: {err}%",
+                q1: "¿Qué es una calculadora de neumáticos?", a1: "Es una herramienta para comparar dos medidas de neumáticos y ver cómo el cambio afecta el diámetro total, el ancho, la altura del perfil, el despeje y la precisión del velocímetro.",
+                q2: "¿Cómo se calcula el diámetro del neumático?", a2: "La fórmula es: Diámetro = (Ancho × (Perfil / 100) × 2) + (Llanta × 25.4). Por ejemplo, un neumático 205/55R16 tiene un diámetro de: (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
+                q3: "¿Cómo funciona el error del velocímetro?", a3: "El velocímetro mide las revoluciones de la rueda. Un neumático más grande avanza más en cada giro. Si pones neumáticos más grandes, tu coche irá más rápido de lo que marca el velocímetro.",
+                q4: "¿Puedo reemplazar 205/55R16 por 225/45R17?", a4: "¡Sí! La diferencia de diámetro es de solo 0.4% (-2.5 mm de altura). Está muy por debajo del límite de seguridad del 3%, siendo una de las conversiones más comunes y seguras."
             },
             fr: { 
                 title: "Calculateur de Pneus", orig: "Taille d'Origine", new: "Nouvelle Taille", 
                 w: "Largeur (mm)", p: "Profil (%)", d: "Jante (pouces)",
-                res: "Garde au sol: {diff} mm<br>Erreur de vitesse: {err}%" 
+                res: "Garde au sol: {diff} mm<br>Erreur de vitesse: {err}%",
+                q1: "Qu'est-ce qu'un calculateur de pneus ?", a1: "C'est un outil pour comparer deux dimensions de pneus et voir comment le changement affecte le diamètre total, la largeur, la garde au sol et la précision du compteur de vitesse.",
+                q2: "Comment le diamètre du pneu est-il calculé ?", a2: "La formule est : Diamètre = (Largeur × (Profil / 100) × 2) + (Jante × 25.4). Par exemple, un pneu 205/55R16 a un diamètre de : (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
+                q3: "Comment fonctionne l'erreur du compteur ?", a3: "Le compteur calcule la vitesse selon les rotations de la roue. Un pneu plus grand parcourt plus de distance par tour. Si vos nouveaux pneus sont plus grands, vous roulez plus vite que ce que le compteur affiche.",
+                q4: "Puis-je remplacer le 205/55R16 par le 225/45R17 ?", a4: "Oui ! La différence de diamètre n'est que de 0.4% (-2.5 mm de garde au sol). Cela reste bien en dessous de la limite de sécurité de 3% ; c'est un changement très courant et sûr."
             },
             de: { 
                 title: "Reifenrechner", orig: "Originalgröße", new: "Neue Größe", 
                 w: "Breite (mm)", p: "Profil (%)", d: "Felge (Zoll)",
-                res: "Bodenfreiheit: {diff} mm<br>Tachoabweichung: {err}%" 
+                res: "Bodenfreiheit: {diff} mm<br>Tachoabweichung: {err}%",
+                q1: "Was ist ein Reifenrechner?", a1: "Ein Werkzeug zum Vergleichen von zwei Reifengrößen, um zu sehen, wie sich die Änderung auf Durchmesser, Breite, Profilhöhe, Bodenfreiheit und Tachoabweichung auswirkt.",
+                q2: "Wie wird der Reifendurchmesser berechnet?", a2: "Die Formel lautet: Durchmesser = (Breite × (Profil / 100) × 2) + (Felge × 25.4). Zum Beispiel hat ein 205/55R16 Reifen einen Durchmesser von: (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
+                q3: "Wie funktioniert die Tachoabweichung?", a3: "Der Tacho misst die Radumdrehungen. Ein größerer Reifen legt pro Drehung mehr Weg zurück. Wenn die neuen Reifen größer sind, fährt das Auto schneller als der Tacho anzeigt.",
+                q4: "Kann ich 205/55R16 durch 225/45R17 ersetzen?", a4: "Ja! Der Durchmesserunterschied beträgt nur ca. 0.4% (-2.5 mm Bodenfreiheit). Das liegt weit innerhalb der sicheren Toleranzgrenze von 3% und ist ein sehr beliebter und sicherer Wechsel."
             }
         };
 
@@ -107,22 +147,29 @@
         function setLang(lang) {
             currentLang = lang;
             
-            // Подсветка активной кнопки языка
             document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
             document.getElementById('btn-' + lang).classList.add('active');
             
-            // Перевод текстов
             document.getElementById('t_title').innerText = dict[lang].title;
             document.getElementById('t_original').innerText = dict[lang].orig + ":";
             document.getElementById('t_new').innerText = dict[lang].new + ":";
             
-            // Перевод подписей полей ввода
             document.getElementById('lbl_w1').innerText = dict[lang].w;
             document.getElementById('lbl_p1').innerText = dict[lang].p;
             document.getElementById('lbl_d1').innerText = dict[lang].d;
             document.getElementById('lbl_w2').innerText = dict[lang].w;
             document.getElementById('lbl_p2').innerText = dict[lang].p;
             document.getElementById('lbl_d2').innerText = dict[lang].d;
+            
+            // Динамический перевод блока вопросов и ответов
+            document.getElementById('q1').innerText = dict[lang].q1;
+            document.getElementById('a1').innerText = dict[lang].a1;
+            document.getElementById('q2').innerText = dict[lang].q2;
+            document.getElementById('a2').innerText = dict[lang].a2;
+            document.getElementById('q3').innerText = dict[lang].q3;
+            document.getElementById('a3').innerText = dict[lang].a3;
+            document.getElementById('q4').innerText = dict[lang].q4;
+            document.getElementById('a4').innerText = dict[lang].a4;
             
             calculate(); 
         }
@@ -156,7 +203,6 @@
             ctx.font = "14px Arial";
             ctx.textAlign = "center";
 
-            // Старое колесо (серое)
             ctx.beginPath();
             ctx.arc(centerX, centerY, d1 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#999';
@@ -166,7 +212,6 @@
             ctx.fillStyle = '#666';
             ctx.fillText(dict[currentLang].orig, centerX, centerY - (d1 * scale / 2) - 10);
 
-            // Новое колесо (синее пунктирное)
             ctx.beginPath();
             ctx.arc(centerX, centerY, d2 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#007bff';
@@ -179,7 +224,6 @@
             ctx.fillText(dict[currentLang].new, centerX, centerY + (d2 * scale / 2) + 20);
         }
 
-        // Инициализация подписей при первом старте
         setLang('en');
     </script>
 </body>
