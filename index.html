@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Universal Tire Size Calculator | Wheel Comparison Tool</title>
-    <meta name="description" content="Free multi-language tire size calculator. Compare tire dimensions, clearance changes, and speedometer errors. Supports English, Español, Français, Deutsch.">
-    <meta name="keywords" content="tire calculator, calculadora de neumáticos, calculateur de pneus, reifenrechner, wheel size, tire comparison, 205/55R16, 225/45R17">
+    <title>Advanced Tire & Rim Size Calculator | Wheel Fitment Tool</title>
+    <meta name="description" content="Free multi-language tire and rim calculator. Compare dimensions, offsets, clearance changes, and speedometer errors. Supports English, Español, Français, Deutsch.">
+    <meta name="keywords" content="tire calculator, rim calculator, wheel offset, et calculator, reifenrechner, calculadora de neumaticos, calculateur de pneus">
     
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
             padding: 20px; 
-            max-width: 600px; 
+            max-width: 650px; 
             margin: auto; 
             background-color: #f9f9f9;
             color: #333;
@@ -41,13 +41,24 @@
         
         .param-box { background: white; padding: 15px; border-radius: 8px; border: 1px solid #ddd; }
         .input-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-        input { width: 70px; padding: 6px; border: 1px solid #ccc; border-radius: 4px; text-align: center; font-size: 1rem; }
+        .input-row span { font-size: 0.95rem; color: #555; }
+        input { width: 75px; padding: 6px; border: 1px solid #ccc; border-radius: 4px; text-align: center; font-size: 1rem; }
         
-        /* Квадратный холст для идеальных пропорций круга */
         canvas { border: 1px solid #ddd; background: #fff; display: block; margin: 20px auto; border-radius: 8px; max-width: 100%; height: auto;}
         
-        #result { padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 5px solid #007bff; font-weight: bold; line-height: 1.5; margin-bottom: 30px; }
+        #result { padding: 15px; border-radius: 8px; border-left: 5px solid #007bff; font-weight: bold; line-height: 1.6; margin-bottom: 20px; transition: 0.3s; }
+        .status-safe { background: #e8f5e9; border-left-color: #2e7d32 !important; color: #1b5e20; }
+        .status-warning { background: #fff3e0; border-left-color: #ef6c00 !important; color: #e65100; }
         
+        /* Стили для детальной таблицы */
+        table { width: 100%; border-collapse: collapse; margin: 25px 0; background: white; border-radius: 8px; overflow: hidden; border: 1px solid #ddd; font-size: 0.95rem;}
+        th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f4f6f8; font-weight: bold; color: #555; }
+        tr:last-child td { border-bottom: none; }
+        .pos-diff { color: #2e7d32; font-weight: bold; }
+        .neg-diff { color: #c62828; font-weight: bold; }
+        .neu-diff { color: #666; }
+
         .faq-section { margin-top: 40px; border-top: 2px solid #eee; padding-top: 20px; }
         .faq-item { margin-bottom: 20px; background: #fff; padding: 15px; border-radius: 8px; border: 1px solid #eaeaea; }
         .faq-item h4 { margin: 0 0 8px 0; color: #222; font-size: 1.1rem; }
@@ -70,19 +81,36 @@
             <h3 id="t_original" style="color: #666; margin-top:0;">Original Size:</h3>
             <div class="input-row"><span id="lbl_w1">Width</span> <input type="number" id="w1" value="205" oninput="calculate()"></div>
             <div class="input-row"><span id="lbl_p1">Profile</span> <input type="number" id="p1" value="55" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_d1">Rim</span> <input type="number" id="d1" value="16" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_d1">Rim Diameter</span> <input type="number" id="d1" value="16" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_j1">Rim Width (J)</span> <input type="number" step="0.5" id="j1" value="6.5" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_et1">Offset (ET)</span> <input type="number" id="et1" value="45" oninput="calculate()"></div>
         </div>
         <div class="param-box">
             <h3 id="t_new" style="color: #007bff; margin-top:0;">New Size:</h3>
             <div class="input-row"><span id="lbl_w2">Width</span> <input type="number" id="w2" value="225" oninput="calculate()"></div>
             <div class="input-row"><span id="lbl_p2">Profile</span> <input type="number" id="p2" value="45" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_d2">Rim</span> <input type="number" id="d2" value="17" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_d2">Rim Diameter</span> <input type="number" id="d2" value="17" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_j2">Rim Width (J)</span> <input type="number" step="0.5" id="j2" value="7.5" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_et2">Offset (ET)</span> <input type="number" id="et2" value="40" oninput="calculate()"></div>
         </div>
     </div>
 
     <canvas id="tireCanvas" width="320" height="320"></canvas>
     
-    <div id="result">Result will appear here...</div>
+    <div id="result">Calculation...</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th id="th_param">Parameter</th>
+                <th id="th_orig">Original</th>
+                <th id="th_new">New</th>
+                <th id="th_diff">Difference</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            </tbody>
+    </table>
 
     <div class="faq-section">
         <div class="faq-item">
@@ -106,36 +134,64 @@
     <script>
         const dict = {
             en: { 
-                title: "Tire Size Calculator", orig: "Original Size", new: "New Size", 
-                w: "Width (mm)", p: "Profile (%)", d: "Rim (inch)",
+                title: "Tire & Rim Calculator", orig: "Original Size", new: "New Size", 
+                w: "Width (mm)", p: "Profile (%)", d: "Rim (inch)", j: "Rim Width (J)", et: "Offset (ET)",
                 res: "Clearance change: {diff} mm<br>Speedometer error: {err}%",
-                q1: "What is a tire size calculator?", a1: "It is a tool to compare two different tire dimensions and easily see how the switch affects the total diameter, width, sidewall height, clearance, and speedometer accuracy.",
+                safe: "✅ Safe replacement (within 3% tolerance)",
+                unsafe: "⚠️ Warning! Diameter change exceeds 3% limit",
+                th_param: "Parameter", th_orig: "Original", th_new: "New", th_diff: "Difference",
+                p_dia: "Total Diameter", p_width: "Section Width", p_wall: "Sidewall Height", p_circ: "Circumference",
+                p_j: "Rim Width", p_et: "Rim Offset", p_strut: "Strut Clearance", p_fender: "Fender Poke",
+                strut_closer: "{val} mm closer to suspension", strut_further: "{val} mm more clearance",
+                fender_out: "Pokes out {val} mm further", fender_in: "Tucked inside {val} mm",
+                q1: "What is a tire size calculator?", a1: "It is a tool to compare two different tire and rim dimensions and easily see how the switch affects the total diameter, width, sidewall height, clearance, and speedometer accuracy.",
                 q2: "How tire diameter is calculated?", a2: "The formula is: Total Diameter = (Width × (Profile / 100) × 2) + (Rim × 25.4). For example, a 205/55R16 tire has a diameter of: (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
                 q3: "How speedometer error works?", a3: "Your speedometer calculates speed based on wheel revolutions. A larger tire travels further in one turn. If your new tires are bigger, your car moves faster than the speedometer shows.",
                 q4: "Can I replace 205/55R16 with 225/45R17?", a4: "Yes! The diameter difference is only about 0.4% (-2.5 mm in clearance). It stays well within the safe 3% tolerance limit and is a very popular and safe upgrade choice."
             },
             es: { 
-                title: "Calculadora de Neumáticos", orig: "Tamaño Original", new: "Nuevo Tamaño", 
-                w: "Ancho (mm)", p: "Perfil (%)", d: "Llanta (pulgadas)",
+                title: "Calculadora de Neumáticos y Llantas", orig: "Tamaño Original", new: "Nuevo Tamaño", 
+                w: "Ancho (mm)", p: "Perfil (%)", d: "Llanta (pulgadas)", j: "Ancho Llanta (J)", et: "Bombeo (ET)",
                 res: "Cambio de altura: {diff} mm<br>Error del velocímetro: {err}%",
+                safe: "✅ Conversión segura (dentro del límite de 3%)",
+                unsafe: "⚠️ ¡Atención! El diámetro supera el límite del 3%",
+                th_param: "Parámetro", th_orig: "Original", th_new: "Nuevo", th_diff: "Diferencia",
+                p_dia: "Diámetro Total", p_width: "Ancho de Sección", p_wall: "Altura Perfil", p_circ: "Circunferencia",
+                p_j: "Ancho de Llanta", p_et: "Desplazamiento (ET)", p_strut: "Distancia Suspensión", p_fender: "Distancia Guardabarros",
+                strut_closer: "{val} mm más cerca del amortiguador", strut_further: "{val} mm más de espacio libre",
+                fender_out: "Sobresale {val} mm más", fender_in: "Se mete {val} mm hacia dentro",
                 q1: "¿Qué es una calculadora de neumáticos?", a1: "Es una herramienta para comparar dos medidas de neumáticos y ver cómo el cambio afecta el diámetro total, el ancho, la altura del perfil, el despeje y la precisión del velocímetro.",
                 q2: "¿Cómo se calcula el diámetro del neumático?", a2: "La fórmula es: Diámetro = (Ancho × (Perfil / 100) × 2) + (Llanta × 25.4). Por ejemplo, un neumático 205/55R16 tiene un diámetro de: (205 × 0.55 × 2) + (16 × 25.4) = 631.9 mm.",
                 q3: "¿Cómo funciona el error del velocímetro?", a3: "El velocímetro mide las revoluciones de la rueda. Un neumático más grande avanza más en cada giro. Si pones neumáticos más grandes, tu coche irá más rápido de lo que marca el velocímetro.",
                 q4: "¿Puedo reemplazar 205/55R16 por 225/45R17?", a4: "¡Sí! La diferencia de diámetro es de solo 0.4% (-2.5 mm de altura). Está muy por debajo del límite de seguridad del 3%, siendo una de las conversiones más comunes y seguras."
             },
             fr: { 
-                title: "Calculateur de Pneus", orig: "Taille d'Origine", new: "Nouvelle Taille", 
-                w: "Largeur (mm)", p: "Profil (%)", d: "Jante (pouces)",
+                title: "Calculateur de Pneus et Jantes", orig: "Taille d'Origine", new: "Nouvelle Taille", 
+                w: "Largeur (mm)", p: "Profil (%)", d: "Jante (pouces)", j: "Largeur Jante (J)", et: "Déport (ET)",
                 res: "Garde au sol: {diff} mm<br>Erreur de vitesse: {err}%",
+                safe: "✅ Remplacement sûr (dans la tolérance de 3%)",
+                unsafe: "⚠️ Attention ! L'écart de diamètre dépasse les 3%",
+                th_param: "Paramètre", th_orig: "D'origine", th_new: "Nouveau", th_diff: "Différence",
+                p_dia: "Diamètre Total", p_width: "Largeur de Pneu", p_wall: "Hauteur du Flanc", p_circ: "Circonférence",
+                p_j: "Largeur Jante", p_et: "Déport Jante", p_strut: "Espace Amortisseur", p_fender: "Espace Aile",
+                strut_closer: "{val} mm plus près de la suspension", strut_further: "{val} mm d'espace supplémentaire",
+                fender_out: "Ressort de {val} mm vers l'extérieur", fender_in: "Rentre de {val} mm vers l'intérieur",
                 q1: "Qu'est-ce qu'un calculateur de pneus ?", a1: "C'est un outil pour comparer deux dimensions de pneus et voir comment le changement affecte le diamètre total, la largeur, la garde au sol et la précision du compteur de vitesse.",
                 q2: "Comment le diamètre du pneu is-il calculé ?", a2: "La formule est : Diamètre = (Largeur × (Profil / 100) × 2) + (Jante × 25.4). Par exemple, un pneu 205/55R16 a un diamètre de : (205 × 0.55 × 2) + (Jante × 25.4) = 631.9 mm.",
                 q3: "Comment fonctionne l'erreur du compteur ?", a3: "Le compteur calcule la vitesse selon les rotations de la roue. Un pneu plus grand parcourt plus de distance par tour. Si vos nouveaux pneus sont plus grands, vous roulez plus vite que ce que le compteur affiche.",
                 q4: "Puis-je remplacer le 205/55R16 par le 225/45R17 ?", a4: "Oui ! La différence de diamètre n'est que de 0.4% (-2.5 mm de garde au sol). Cela reste bien en dessous de la limite de sécurité de 3% ; c'est un changement très courant et sûr."
             },
             de: { 
-                title: "Reifenrechner", orig: "Originalgröße", new: "Neue Größe", 
-                w: "Breite (mm)", p: "Profil (%)", d: "Felge (Zoll)",
+                title: "Reifen- und Felgenrechner", orig: "Originalgröße", new: "Neue Größe", 
+                w: "Breite (mm)", p: "Profil (%)", d: "Felge (Zoll)", j: "Felgenbreite (J)", et: "Einpresstiefe (ET)",
                 res: "Bodenfreiheit: {diff} mm<br>Tachoabweichung: {err}%",
+                safe: "✅ Sicherer Wechsel (innerhalb der 3%-Toleranz)",
+                unsafe: "⚠️ Warnung! Durchmesseränderung übersteigt 3%",
+                th_param: "Parameter", th_orig: "Original", th_new: "Neu", th_diff: "Differenz",
+                p_dia: "Gesamtdurchmesser", p_width: "Reifenbreite", p_wall: "Flankenhöhe", p_circ: "Umfang",
+                p_j: "Felgenbreite", p_et: "Einpresstiefe (ET)", p_strut: "Federbein-Abstand", p_fender: "Kotflügel-Abstand",
+                strut_closer: "{val} mm näher am Fahrwerk", strut_further: "{val} mm mehr Freigängigkeit",
+                fender_out: "{val} mm weiter nach außen", fender_in: "{val} mm weiter nach innen",
                 q1: "Was ist ein Reifenrechner?", a1: "Ein Werkzeug zum Vergleichen von zwei Reifengrößen, um zu sehen, wie sich die Änderung auf Durchmesser, Breite, Profilhöhe, Bodenfreiheit und Tachoabweichung auswirkt.",
                 q2: "Wie wird der Reifendurchmesser berechnet?", a2: "Die Formel lautet: Durchmesser = (Breite × (Profil / 100) × 2) + (Felge × 25.4). Zum Beispiel hat ein 205/55R16 Reifen einen Durchmesser von: (205 × 0.55 × 2) + (Felge × 25.4) = 631.9 mm.",
                 q3: "Wie funktioniert die Tachoabweichung?", a3: "Der Tacho misst die Radumdrehungen. Ein größerer Reifen legt pro Drehung mehr Weg zurück. Wenn die neuen Reifen größer sind, fährt das Auto schneller als der Tacho anzeigt.",
@@ -144,6 +200,59 @@
         };
 
         let currentLang = 'en';
+
+        // Функция 1: Чтение параметров из адресной строки при загрузке
+        function loadParamsFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('w1')) document.getElementById('w1').value = params.get('w1');
+            if (params.has('p1')) document.getElementById('p1').value = params.get('p1');
+            if (params.has('d1')) document.getElementById('d1').value = params.get('d1');
+            if (params.has('j1')) document.getElementById('j1').value = params.get('j1');
+            if (params.has('et1')) document.getElementById('et1').value = params.get('et1');
+            
+            if (params.has('w2')) document.getElementById('w2').value = params.get('w2');
+            if (params.has('p2')) document.getElementById('p2').value = params.get('p2');
+            if (params.has('d2')) document.getElementById('d2').value = params.get('d2');
+            if (params.has('j2')) document.getElementById('j2').value = params.get('j2');
+            if (params.has('et2')) document.getElementById('et2').value = params.get('et2');
+            
+            if (params.has('lang')) currentLang = params.get('lang');
+        }
+
+        // Функция 2: Сохранение параметров в URL (без перезагрузки)
+        function updateURL() {
+            const params = new URLSearchParams({
+                w1: document.getElementById('w1').value, p1: document.getElementById('p1').value, d1: document.getElementById('d1').value,
+                j1: document.getElementById('j1').value, et1: document.getElementById('et1').value,
+                w2: document.getElementById('w2').value, p2: document.getElementById('p2').value, d2: document.getElementById('d2').value,
+                j2: document.getElementById('j2').value, et2: document.getElementById('et2').value,
+                lang: currentLang
+            });
+            window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
+        }
+
+        // Функция 3: Динамическое обновление микроразметки FAQ для Google
+        function updateFAQSchema() {
+            let oldSchema = document.getElementById('jsonld-faq');
+            if (oldSchema) oldSchema.remove();
+            
+            const schema = {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    { "@type": "Question", "name": dict[currentLang].q1, "acceptedAnswer": { "@type": "Answer", "text": dict[currentLang].a1 } },
+                    { "@type": "Question", "name": dict[currentLang].q2, "acceptedAnswer": { "@type": "Answer", "text": dict[currentLang].a2 } },
+                    { "@type": "Question", "name": dict[currentLang].q3, "acceptedAnswer": { "@type": "Answer", "text": dict[currentLang].a3 } },
+                    { "@type": "Question", "name": dict[currentLang].q4, "acceptedAnswer": { "@type": "Answer", "text": dict[currentLang].a4 } }
+                ]
+            };
+            
+            const script = document.createElement('script');
+            script.id = 'jsonld-faq';
+            script.type = 'application/ld+json';
+            script.innerHTML = JSON.stringify(schema);
+            document.head.appendChild(script);
+        }
 
         function setLang(lang) {
             currentLang = lang;
@@ -155,44 +264,94 @@
             document.getElementById('t_original').innerText = dict[lang].orig + ":";
             document.getElementById('t_new').innerText = dict[lang].new + ":";
             
-            document.getElementById('lbl_w1').innerText = dict[lang].w;
-            document.getElementById('lbl_p1').innerText = dict[lang].p;
-            document.getElementById('lbl_d1').innerText = dict[lang].d;
-            document.getElementById('lbl_w2').innerText = dict[lang].w;
-            document.getElementById('lbl_p2').innerText = dict[lang].p;
-            document.getElementById('lbl_d2').innerText = dict[lang].d;
+            document.getElementById('lbl_w1').innerText = dict[lang].w; document.getElementById('lbl_p1').innerText = dict[lang].p;
+            document.getElementById('lbl_d1').innerText = dict[lang].d; document.getElementById('lbl_j1').innerText = dict[lang].j;
+            document.getElementById('lbl_et1').innerText = dict[lang].et;
             
-            document.getElementById('q1').innerText = dict[lang].q1;
-            document.getElementById('a1').innerText = dict[lang].a1;
-            document.getElementById('q2').innerText = dict[lang].q2;
-            document.getElementById('a2').innerText = dict[lang].a2;
-            document.getElementById('q3').innerText = dict[lang].q3;
-            document.getElementById('a3').innerText = dict[lang].a3;
-            document.getElementById('q4').innerText = dict[lang].q4;
-            document.getElementById('a4').innerText = dict[lang].a4;
+            document.getElementById('lbl_w2').innerText = dict[lang].w; document.getElementById('lbl_p2').innerText = dict[lang].p;
+            document.getElementById('lbl_d2').innerText = dict[lang].d; document.getElementById('lbl_j2').innerText = dict[lang].j;
+            document.getElementById('lbl_et2').innerText = dict[lang].et;
+            
+            document.getElementById('th_param').innerText = dict[lang].th_param;
+            document.getElementById('th_orig').innerText = dict[lang].th_orig;
+            document.getElementById('th_new').innerText = dict[lang].th_new;
+            document.getElementById('th_diff').innerText = dict[lang].th_diff;
+            
+            document.getElementById('q1').innerText = dict[lang].q1; document.getElementById('a1').innerText = dict[lang].a1;
+            document.getElementById('q2').innerText = dict[lang].q2; document.getElementById('a2').innerText = dict[lang].a2;
+            document.getElementById('q3').innerText = dict[lang].q3; document.getElementById('a3').innerText = dict[lang].a3;
+            document.getElementById('q4').innerText = dict[lang].q4; document.getElementById('a4').innerText = dict[lang].a4;
             
             calculate(); 
         }
 
         function calculate() {
-            const w1 = document.getElementById('w1').value, p1 = document.getElementById('p1').value, d1 = document.getElementById('d1').value;
-            const w2 = document.getElementById('w2').value, p2 = document.getElementById('p2').value, d2 = document.getElementById('d2').value;
-
-            const getDia = (w, p, d) => (w * (p / 100) * 2) + (d * 25.4);
-            const dia1 = getDia(w1, p1, d1);
-            const dia2 = getDia(w2, p2, d2);
+            const w1 = parseFloat(document.getElementById('w1').value), p1 = parseFloat(document.getElementById('p1').value), d1 = parseFloat(document.getElementById('d1').value);
+            const j1 = parseFloat(document.getElementById('j1').value), et1 = parseFloat(document.getElementById('et1').value);
             
-            // Расчет диаметра дисков в мм
-            const rim1 = d1 * 25.4;
-            const rim2 = d2 * 25.4;
+            const w2 = parseFloat(document.getElementById('w2').value), p2 = parseFloat(document.getElementById('p2').value), d2 = parseFloat(document.getElementById('d2').value);
+            const j2 = parseFloat(document.getElementById('j2').value), et2 = parseFloat(document.getElementById('et2').value);
+
+            // Базовые расчеты диаметров
+            const dia1 = (w1 * (p1 / 100) * 2) + (d1 * 25.4);
+            const dia2 = (w2 * (p2 / 100) * 2) + (d2 * 25.4);
+            const r1 = d1 * 25.4;
+            const r2 = d2 * 25.4;
             
-            draw(dia1, rim1, dia2, rim2);
+            draw(dia1, r1, dia2, r2);
 
-            const diff = ((dia2 - dia1) / 2).toFixed(1); 
-            const error = ((dia2 / dia1 - 1) * 100).toFixed(1);
+            const wall1 = w1 * (p1 / 100);
+            const wall2 = w2 * (p2 / 100);
+            const circ1 = dia1 * Math.PI;
+            const circ2 = dia2 * Math.PI;
+            
+            // Расчеты вылетов дисков (изменения зазоров)
+            const strutChange = (j2 - j1) * 12.7 + (et2 - et1);
+            const fenderChange = (j2 - j1) * 12.7 - (et2 - et1);
 
-            let resText = dict[currentLang].res.replace('{diff}', (diff > 0 ? '+' : '') + diff).replace('{err}', (error > 0 ? '+' : '') + error);
-            document.getElementById('result').innerHTML = resText;
+            const diffDia = dia2 - dia1;
+            const errorPct = ((dia2 / dia1 - 1) * 100);
+            const diffClearance = diffDia / 2;
+
+            // Вывод вердикта безопасности
+            const isSafe = Math.abs(errorPct) <= 3;
+            const resBox = document.getElementById('result');
+            let baseResText = dict[currentLang].res.replace('{diff}', (diffClearance > 0 ? '+' : '') + diffClearance.toFixed(1)).replace('{err}', (errorPct > 0 ? '+' : '') + errorPct.toFixed(1));
+            
+            if (isSafe) {
+                resBox.className = 'status-safe';
+                resBox.innerHTML = `<div><strong>${dict[currentLang].safe}</strong></div>` + baseResText;
+            } else {
+                resBox.className = 'status-warning';
+                resBox.innerHTML = `<div><strong>${dict[currentLang].unsafe}</strong></div>` + baseResText;
+            }
+
+            // Форматирование чисел для детальной таблицы
+            const formatDiff = (val, unit = 'mm') => {
+                if (val === 0) return `<span class="neu-diff">0 ${unit}</span>`;
+                return val > 0 ? `<span class="pos-diff">+${val.toFixed(1)} ${unit}</span>` : `<span class="neg-diff">${val.toFixed(1)} ${unit}</span>`;
+            };
+
+            const d = dict[currentLang];
+            let strutText = strutChange > 0 ? d.strut_closer.replace('{val}', strutChange.toFixed(1)) : d.strut_further.replace('{val}', Math.abs(strutChange).toFixed(1));
+            let fenderText = fenderChange > 0 ? d.fender_out.replace('{val}', fenderChange.toFixed(1)) : d.fender_in.replace('{val}', Math.abs(fenderChange).toFixed(1));
+            if (strutChange === 0) strutText = "0 mm";
+            if (fenderChange === 0) fenderText = "0 mm";
+
+            // Генерация строк таблицы
+            document.getElementById('tableBody').innerHTML = `
+                <tr><td>${d.p_dia}</td><td>${dia1.toFixed(1)} mm</td><td>${dia2.toFixed(1)} mm</td><td>${formatDiff(diffDia)}</td></tr>
+                <tr><td>${d.p_width}</td><td>${w1} mm</td><td>${w2} mm</td><td>${formatDiff(w2 - w1)}</td></tr>
+                <tr><td>${d.p_wall}</td><td>${wall1.toFixed(1)} mm</td><td>${wall2.toFixed(1)} mm</td><td>${formatDiff(wall2 - wall1)}</td></tr>
+                <tr><td>${d.p_circ}</td><td>${circ1.toFixed(0)} mm</td><td>${circ2.toFixed(0)} mm</td><td>${formatDiff(circ2 - circ1)}</td></tr>
+                <tr><td>${d.p_j}</td><td>${j1}″</td><td>${j2}″</td><td>${formatDiff((j2 - j1)*25.4)}</td></tr>
+                <tr><td>${d.p_et}</td><td>ET ${et1}</td><td>ET ${et2}</td><td>${formatDiff(et1 - et2)}</td></tr>
+                <tr><td>${d.p_strut}</td><td colspan="2" style="text-align:center; color:#999;">-</td><td>${strutChange === 0 ? '0 mm' : (strutChange > 0 ? `<span class="neg-diff">${strutText}</span>` : `<span class="pos-diff">${strutText}</span>`)}</td></tr>
+                <tr><td>${d.p_fender}</td><td colspan="2" style="text-align:center; color:#999;">-</td><td>${fenderChange === 0 ? '0 mm' : (fenderChange > 0 ? `<span class="pos-diff">${fenderText}</span>` : `<span class="neu-diff">${fenderText}</span>`)}</td></tr>
+            `;
+
+            updateURL();
+            updateFAQSchema();
         }
 
         function draw(d1, r1, d2, r2) {
@@ -200,21 +359,20 @@
             const ctx = canvas.getContext('2d');
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            const scale = 0.4; // Немного увеличили масштаб для квадрата
+            const scale = 0.4; 
             const centerX = canvas.width / 2;
             const centerY = canvas.height / 2;
 
             ctx.font = "14px Arial";
             ctx.textAlign = "center";
 
-            // 1. Оригинальное колесо (Серое) - Внешняя шина
+            // Оригинальное колесо (Серое)
             ctx.beginPath();
             ctx.arc(centerX, centerY, d1 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#b0bec5';
             ctx.lineWidth = 4;
             ctx.stroke();
 
-            // Original колесо - Внутренний диск
             ctx.beginPath();
             ctx.arc(centerX, centerY, r1 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#cfd8dc';
@@ -224,7 +382,7 @@
             ctx.fillStyle = '#666';
             ctx.fillText(dict[currentLang].orig, centerX, centerY - (d1 * scale / 2) - 10);
 
-            // 2. Новое колесо (Синее) - Внешняя шина
+            // Новое колесо (Синее пунктирное)
             ctx.beginPath();
             ctx.arc(centerX, centerY, d2 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#007bff';
@@ -232,7 +390,6 @@
             ctx.setLineDash([6, 6]); 
             ctx.stroke();
 
-            // Новое колесо - Внутренний диск
             ctx.beginPath();
             ctx.arc(centerX, centerY, r2 * scale / 2, 0, 2 * Math.PI);
             ctx.strokeStyle = '#64b5f6';
@@ -244,7 +401,9 @@
             ctx.fillText(dict[currentLang].new, centerX, centerY + (d2 * scale / 2) + 20);
         }
 
-        setLang('en');
+        // Запуск инициализации при загрузке страницы
+        loadParamsFromURL();
+        setLang(currentLang);
     </script>
 </body>
 </html>
