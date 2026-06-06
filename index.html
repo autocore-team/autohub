@@ -200,8 +200,10 @@ select:focus {
     <script>
         const dict = {
             en: { 
-                title: "Tire & Rim Calculator", orig: "Original Size", new: "New Size", 
-                w: "Width (mm)", p: "Profile (%)", d: "Rim (inch)", j: "Rim Width (J)", et: "Offset (ET)",
+                title: "Tire & Rim Calculator", orig: "Original Size", new: "New Size",
+                nav_calc: "Tire Calculator",
+                nav_pcd: "Bolt Pattern (PCD)",
+                w: "Width (mm)", p: "Profile (%)",
                 res: "Clearance change: {diff} mm<br>Speedometer error: {err}%",
                 safe: "✅ Safe replacement (within 3% tolerance)",
                 unsafe: "⚠️ Warning! Diameter change exceeds 3% limit",
@@ -215,8 +217,7 @@ select:focus {
                 q3: "How speedometer error works?", a3: "Your speedometer calculates speed based on wheel revolutions. A larger tire travels further in one turn. If your new tires are bigger, your car moves faster than the speedometer shows.",
                 q4: "Can I replace 205/55R16 with 225/45R17?", a4: "Yes! The diameter difference is only about 0.4% (-2.5 mm in clearance). It stays well within the safe 3% tolerance limit and is a very popular and safe upgrade choice.",
                 q4: "Can I replace 205/55R16 with 225/45R17?", a4: "Yes! The diameter difference is only about 0.4% (-2.5 mm in clearance).",
-        nav_calc: "Tire Calculator",
-        nav_pcd: "Bolt Pattern (PCD)"
+       
     },
     es: {
         title: "Calculadora de Neumáticos y Llantas", orig: "Tamaño Original", new: "Nuevo Tamaño",
@@ -257,9 +258,7 @@ select:focus {
                 q2: "Wie wird der Reifendurchmesser berechnet?", a2: "Die Formel lautet: Durchmesser = (Breite × (Profil / 100) × 2) + (Felge × 25.4). Zum Beispiel hat ein 205/55R16 Reifen einen Durchmesser von: (205 × 0.55 × 2) + (Felge × 25.4) = 631.9 mm.",
                 q3: "Wie funktioniert die Tachoabweichung?", a3: "Der Tacho misst die Radumdrehungen. Ein größerer Reifen legt pro Drehung mehr Weg zurück. Wenn die neuen Reifen größer sind, fährt das Auto schneller als der Tacho anzeigt.",
                 q4: "Kann ich 205/55R16 durch 225/45R17 ersetzen?", a4: "Ja! Der Durchmesserunterschied beträgt nur ca. 0.4% (-2.5 mm Bodenfreiheit). Das liegt weit innerhalb der sicheren Toleranzgrenze von 3% und ist ein sehr beliebter und sicherer Wechsel.",
-                nav_calc: "Reifenrechner",
-                nav_pcd: "Lochkreis (PCD)",
-        }
+               
         };
 
         let currentLang = 'en';
