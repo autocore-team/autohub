@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoHub - Справочник разболтовки колес (PCD & DIA)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Шапка ХАБа (Навигация) */
+        .hub-header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e1e4e8;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .hub-logo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .hub-nav a {
+            text-decoration: none;
+            color: #555;
+            margin-left: 20px;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        .hub-nav a:hover {
+            color: #007bff;
+            background-color: #f0f4f8;
+        }
+        .hub-nav a.active {
+            color: #ffffff;
+            background-color: #007bff;
+        }
+
+        /* Основной контейнер */
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+            color: #222;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Стили выпадающих списков выбора */
+        .select-group {
+            margin-bottom: 20px;
+        }
+        .select-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #444;
+        }
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background-color: #fff;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        select:disabled {
+            background-color: #f5f5f5;
+            cursor: not-allowed;
+            color: #aaa;
+        }
+
+        /* Блок вывода результатов */
+        .result-box {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-left: 5px solid #007bff;
+            border-radius: 6px;
+            display: none;
+        }
+        .result-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #111;
+        }
+        .param-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #edeef0;
+        }
+        .param-row:last-child {
+            border-bottom: none;
+        }
+        .param-label {
+            font-weight: 500;
+            color: #666;
+        }
+        .param-value {
+            font-weight: bold;
+            color: #222;
+        }
+
+        /* Кнопка перехода в калькулятор */
+        .calc-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+        .calc-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hub-header">
+        <a href="index.html" class="hub-logo">AutoHub</a>
+        <nav class="hub-nav">
+            <a href="index.html">Калькулятор шин</a>
+            <a href="pcd.html" class="active">Разболтовка (PCD)</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Справочник параметров ступицы</h2>
+        <p class="subtitle">Найдите разболтовку (PCD), ЦО (DIA) и размеры крепежа по марке авто</p>
+
+        <div class="select-group">
+            <label for="brandSelect">1. Выберите марку:</label>
+            <select id="brandSelect" onchange="updateModels()">
+                <option value="" selected disabled>-- Выберите марку --</option>
+                <option value="audi">Audi</option>
+                <option value="bmw">BMW</option>
+                <option value="toyota">Toyota</option>
+                <option value="volkswagen">Volkswagen</option>
+            </select>
+        </div>
+
+        <div class="select-group">
+            <label for="modelSelect">2. Выберите модель и поколение:</label>
+            <select id="modelSelect" onchange="showSpecs()" disabled>
+                <option value="" selected disabled>-- Сначала выберите марку --</option>
+            </select>
+        </div>
+
+        <div id="resultBox" class="result-box">
+            <div class="result-title" id="carTitle">Параметры автомобиля</div>
+            
+            <div class="param-row">
+                <span class="param-label">Разболтовка (PCD):</span>
+                <span class="param-value" id="resPcd">-</span>
+            </div>
+            <div class="param-row">
+                <span class="param-label">Центральное отверстие (DIA):</span>
+                <span class="param-value" id="resDia">- мм</span>
+            </div>
+            <div class="param-row">
+                <span class="param-label">Тип крепежа:</span>
+                <span class="param-value" id="resFastener">-</span>
+            </div>
+            <div class="param-row">
+                <span class="param-label">Заводской размер шин:</span>
+                <span class="param-value" id="resOEM">-</span>
+            </div>
+
+            <a href="#" id="toCalcBtn" class="calc-btn">⚙️ Примерить шины в калькуляторе</a>
+        </div>
+    </div>
+
+    <script>
+        // Демонстрационная встроенная база данных
+        const database = {
+            audi: {
+                "A4 (B8) [2008-2015]": { pcd: "5x112", dia: "66.6", fastener: "Болт M14x1.5", oem: "225/55 R16", link: "index.html?w1=225&p1=55&d1=16&j1=7.5&et1=45" },
+                "A6 (C7) [2011-2018]": { pcd: "5x112", dia: "66.6", fastener: "Болт M14x1.5", oem: "225/55 R17", link: "index.html?w1=225&p1=55&d1=17&j1=8.0&et1=39" }
+            },
+            bmw: {
+                "3 Series (E90) [2005-2013]": { pcd: "5x120", dia: "72.6", fastener: "Болт M12x1.5", oem: "205/55 R16", link: "index.html?w1=205&p1=55&d1=16&j1=7.0&et1=34" },
+                "5 Series (E60) [2003-2010]": { pcd: "5x120", dia: "72.6", fastener: "Болт M12x1.5", oem: "225/50 R17", link: "index.html?w1=225&p1=50&d1=17&j1=7.5&et1=20" },
+                "5 Series (G30) [2017-2023]": { pcd: "5x112", dia: "66.6", fastener: "Болт M14x1.25", oem: "225/55 R17", link: "index.html?w1=225&p1=55&d1=17&j1=7.5&et1=27" }
+            },
+            toyota: {
+                "Camry (XV50) [2011-2017]": { pcd: "5x114.3", dia: "60.1", fastener: "Гайка M12x1.5", oem: "215/60 R16", link: "index.html?w1=215&p1=60&d1=16&j1=6.5&et1=45" },
+                "RAV4 (XA40) [2013-2018]": { pcd: "5x114.3", dia: "60.1", fastener: "Гайка M12x1.5", oem: "225/65 R17", link: "index.html?w1=225&p1=65&d1=17&j1=7.0&et1=39" }
+            },
+            volkswagen: {
+                "Golf 7 [2012-2020]": { pcd: "5x112", dia: "57.1", fastener: "Болт M14x1.5", oem: "195/65 R15", link: "index.html?w1=195&p1=65&d1=15&j1=6.0&et1=43" },
+                "Passat (B8) [2014-2023]": { pcd: "5x112", dia: "57.1", fastener: "Болт M14x1.5", oem: "215/60 R16", link: "index.html?w1=215&p1=60&d1=16&j1=6.5&et1=41" }
+            }
+        };
+
+        // Функция обновления списка моделей при выборе марки
+        function updateModels() {
+            const brandSelect = document.getElementById('brandSelect');
+            const modelSelect = document.getElementById('modelSelect');
+            const resultBox = document.getElementById('resultBox');
+            
+            const selectedBrand = brandSelect.value;
+            
+            // Очищаем старые модели
+            modelSelect.innerHTML = '<option value="" selected disabled>-- Выберите модель --</option>';
+            resultBox.style.display = 'none'; // прячем прошлый результат
+
+            if (selectedBrand && database[selectedBrand]) {
+                const models = database[selectedBrand];
+                
+                // Наполняем выпадающий список моделями
+                for (let modelName in models) {
+                    let option = document.createElement('option');
+                    option.value = modelName;
+                    option.textContent = modelName;
+                    modelSelect.appendChild(option);
+                }
+                
+                // Активируем список моделей
+                modelSelect.disabled = false;
+            }
+        }
+
+        // Функция показа итоговых параметров
+        function showSpecs() {
+            const brandSelect = document.getElementById('brandSelect');
+            const modelSelect = document.getElementById('modelSelect');
+            const resultBox = document.getElementById('resultBox');
+            
+            const brand = brandSelect.value;
+            const model = modelSelect.value;
+            
+            if (brand && model && database[brand][model]) {
+                const carData = database[brand][model];
+                
+                // Заполняем данные на экране
+                document.getElementById('carTitle').textContent = brandSelect.options[brandSelect.selectedIndex].text + ' ' + model;
+                document.getElementById('resPcd').textContent = carData.pcd;
+                document.getElementById('resDia').textContent = carData.dia + ' мм';
+                document.getElementById('resFastener').textContent = carData.fastener;
+                document.getElementById('resOEM').textContent = carData.oem;
+                
+                // Передаем ссылку на калькулятор с готовыми параметрами
+                document.getElementById('toCalcBtn').href = carData.link;
+                
+                // Показываем блок результата с красивым эффектом
+                resultBox.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
