@@ -246,6 +246,7 @@
     </section>
   </main>
 
+  <script src="pcd-data.js"></script>
   <script>
     const translations = {
       en: {
@@ -342,50 +343,7 @@
       }
     };
 
-    const data = [
-      {
-        name: 'Audi',
-        models: [
-          {
-            name: 'A3',
-            records: [
-              ['8L', '1996-2003', '5x100', '57.1', 'M14x1.5', 'bolts', 'ET32-42', 'needs_review'],
-              ['8P / 8V', '2003-2020', '5x112', '57.1', 'M14x1.5', 'bolts', 'ET45-56', 'needs_review']
-            ]
-          },
-          {
-            name: 'A4',
-            records: [
-              ['B5 / B6 / B7', '1995-2008', '5x112', '57.1', 'M14x1.5', 'bolts', 'ET35-45', 'needs_review'],
-              ['B8 / B9', '2008-2024', '5x112', '66.6', 'M14x1.5', 'bolts', 'ET35-50', 'needs_review']
-            ]
-          }
-        ]
-      },
-      {
-        name: 'Volkswagen',
-        models: [
-          {
-            name: 'Golf',
-            records: [
-              ['Mk4', '1997-2006', '5x100', '57.1', 'M14x1.5', 'bolts', 'ET35-42', 'needs_review'],
-              ['Mk5 / Mk6 / Mk7 / Mk8', '2003-2026', '5x112', '57.1', 'M14x1.5', 'bolts', 'ET45-51', 'needs_review']
-            ]
-          }
-        ]
-      },
-      {
-        name: 'Toyota',
-        models: [
-          {
-            name: 'Corolla',
-            records: [
-              ['E110-E210', '1995-2026', '5x100', '54.1', 'M12x1.5', 'nuts', 'ET35-45', 'needs_review']
-            ]
-          }
-        ]
-      }
-    ];
+    const data = typeof PCD_DATA !== 'undefined' ? PCD_DATA : [];
 
     let lang = 'en';
     let selectedBrand = null;
@@ -460,14 +418,14 @@
       }
       const rows = selectedModel.records.map(record => `
         <tr>
-          <td>${record[0]}</td>
-          <td>${record[1]}</td>
-          <td><strong>${record[2]}</strong></td>
-          <td>${record[3]} mm</td>
-          <td>${record[4]}</td>
-          <td>${record[5]}</td>
-          <td>${record[6]}</td>
-          <td><span class="tag">${record[7]}</span></td>
+          <td>${record.generation || ''}</td>
+          <td>${record.years || ''}</td>
+          <td><strong>${record.pcd || ''}</strong></td>
+          <td>${record.centerBore || ''} mm</td>
+          <td>${record.thread || ''}</td>
+          <td>${record.fastener || ''}</td>
+          <td>${record.offset || ''}</td>
+          <td><span class="tag">${record.status || 'needs_review'}</span></td>
         </tr>
       `).join('');
       detailsEl.innerHTML = `
