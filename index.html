@@ -93,21 +93,62 @@ select:focus {
     <h2 id="t_title">Tire Size Calculator</h2>
     
     <div class="controls">
-        <div class="param-box">
+       <div class="param-box">
             <h3 id="t_original" style="color: #666; margin-top:0;">Original Size:</h3>
-            <div class="input-row"><span id="lbl_w1">Width</span> <input type="number" id="w1" value="205" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_p1">Profile</span> <input type="number" id="p1" value="55" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_d1">Rim Diameter</span> <input type="number" id="d1" value="16" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_j1">Rim Width (J)</span> <input type="number" step="0.5" id="j1" value="6.5" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_et1">Offset (ET)</span> <input type="number" id="et1" value="45" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_w1">Width</span> 
+                <select id="w1" onchange="calculate()">
+                    <option value="175">175</option><option value="185">185</option><option value="195">195</option><option value="205" selected>205</option><option value="215">215</option><option value="225">225</option><option value="235">235</option><option value="245">245</option><option value="255">255</option><option value="265">265</option><option value="275">275</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_p1">Profile</span> 
+                <select id="p1" onchange="calculate()">
+                    <option value="35">35</option><option value="40">40</option><option value="45">45</option><option value="50">50</option><option value="55" selected>55</option><option value="60">60</option><option value="65">65</option><option value="70">70</option><option value="75">75</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_d1">Rim Diameter</span> 
+                <select id="d1" onchange="calculate()">
+                    <option value="14">14</option><option value="15">15</option><option value="16" selected>16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_j1">Rim Width (J)</span> 
+                <select id="j1" onchange="calculate()">
+                    <option value="5.5">5.5</option><option value="6.0">6.0</option><option value="6.5" selected>6.5</option><option value="7.0">7.0</option><option value="7.5">7.5</option><option value="8.0">8.0</option><option value="8.5">8.5</option><option value="9.0">9.0</option><option value="9.5">9.5</option><option value="10.0">10.0</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_et1">Offset (ET)</span> 
+                <select id="et1" onchange="calculate()">
+                    <option value="25">25</option><option value="30">30</option><option value="35">35</option><option value="40">40</option><option value="45" selected>45</option><option value="50">50</option><option value="55">55</option><option value="60">60</option>
+                </select>
+            </div>
         </div>
+        
         <div class="param-box">
             <h3 id="t_new" style="color: #007bff; margin-top:0;">New Size:</h3>
-            <div class="input-row"><span id="lbl_w2">Width</span> <input type="number" id="w2" value="225" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_p2">Profile</span> <input type="number" id="p2" value="45" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_d2">Rim Diameter</span> <input type="number" id="d2" value="17" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_j2">Rim Width (J)</span> <input type="number" step="0.5" id="j2" value="7.5" oninput="calculate()"></div>
-            <div class="input-row"><span id="lbl_et2">Offset (ET)</span> <input type="number" id="et2" value="40" oninput="calculate()"></div>
+            <div class="input-row"><span id="lbl_w2">Width</span> 
+                <select id="w2" onchange="calculate()">
+                    <option value="175">175</option><option value="185">185</option><option value="195">195</option><option value="205">205</option><option value="215">215</option><option value="225" selected>225</option><option value="235">235</option><option value="245">245</option><option value="255">255</option><option value="265">265</option><option value="275">275</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_p2">Profile</span> 
+                <select id="p2" onchange="calculate()">
+                    <option value="35">35</option><option value="40">40</option><option value="45" selected>45</option><option value="50">50</option><option value="55">55</option><option value="60">60</option><option value="65">65</option><option value="70">70</option><option value="75">75</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_d2">Rim Diameter</span> 
+                <select id="d2" onchange="calculate()">
+                    <option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17" selected>17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_j2">Rim Width (J)</span> 
+                <select id="j2" onchange="calculate()">
+                    <option value="5.5">5.5</option><option value="6.0">6.0</option><option value="6.5">6.5</option><option value="7.0">7.0</option><option value="7.5" selected>7.5</option><option value="8.0">8.0</option><option value="8.5">8.5</option><option value="9.0">9.0</option><option value="9.5">9.5</option><option value="10.0">10.0</option>
+                </select>
+            </div>
+            <div class="input-row"><span id="lbl_et2">Offset (ET)</span> 
+                <select id="et2" onchange="calculate()">
+                    <option value="25">25</option><option value="30">30</option><option value="35">35</option><option value="40" selected>40</option><option value="45">45</option><option value="50">50</option><option value="55">55</option><option value="60">60</option>
+                </select>
+            </div>
         </div>
     </div>
 
