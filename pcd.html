@@ -1,100 +1,515 @@
-{
-  "brand": "Autohub",
-  "default_language": "en",
-  "languages": [
-    {
-      "code": "en",
-      "label": "English",
-      "short_label": "EN"
-    },
-    {
-      "code": "es",
-      "label": "Español",
-      "short_label": "ES"
-    },
-    {
-      "code": "fr",
-      "label": "Français",
-      "short_label": "FR"
-    },
-    {
-      "code": "de",
-      "label": "Deutsch",
-      "short_label": "DE"
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autohub PCD Database</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --warning: #9a5b00;
+      --warning-bg: #fff5db;
     }
-  ],
-  "items": [
-    {
-      "key": "home",
-      "href": "/",
-      "labels": {
-        "en": "Home",
-        "es": "Inicio",
-        "fr": "Accueil",
-        "de": "Startseite"
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .langbar button.selected {
+      background: #0f766e;
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 780px;
+      line-height: 1.5;
+    }
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin: 18px 0 22px;
+      flex-wrap: wrap;
+    }
+    input {
+      width: min(100%, 460px);
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 12px;
+      font-size: 15px;
+      background: #fff;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 230px 290px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .list {
+      display: grid;
+      gap: 4px;
+      padding: 10px;
+    }
+    button {
+      min-height: 38px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text);
+      text-align: left;
+      font-size: 15px;
+      padding: 8px 10px;
+      cursor: pointer;
+    }
+    button:hover,
+    button.selected {
+      background: #e6f6f4;
+      color: var(--accent-dark);
+    }
+    .empty {
+      padding: 18px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .notice {
+      margin: 0 0 14px;
+      padding: 12px 14px;
+      background: var(--warning-bg);
+      border: 1px solid #f2d493;
+      color: var(--warning);
+      border-radius: 8px;
+      line-height: 1.45;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th,
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 700;
+      background: #f8fafc;
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border-radius: 999px;
+      padding: 2px 9px;
+      background: #edf2f7;
+      color: #334155;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
       }
-    },
-    {
-      "key": "calculators",
-      "href": "/calculators",
-      "labels": {
-        "en": "Calculators",
-        "es": "Calculadoras",
-        "fr": "Calculateurs",
-        "de": "Rechner"
+      .langbar {
+        margin-left: 0;
       }
-    },
-    {
-      "key": "wheels_tires",
-      "href": "/wheels-tires",
-      "labels": {
-        "en": "Wheels & Tires",
-        "es": "Llantas y neumáticos",
-        "fr": "Jantes et pneus",
-        "de": "Felgen und Reifen"
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" id="mainNav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="/" data-i18n="home">Home</a>
+      <a href="/calculators" data-i18n="calculators">Calculators</a>
+      <a href="/wheels-tires" data-i18n="wheelsTires">Wheels & Tires</a>
+      <a href="/pcd" class="active" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="/fuel" data-i18n="fuel">Fuel Consumption</a>
+      <a href="/diagnostics" data-i18n="diagnostics">Diagnostics</a>
+      <a href="/engines" data-i18n="engines">Engines</a>
+      <a href="/guides" data-i18n="guides">Guides</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">PCD Database</h1>
+    <p class="lead" data-i18n="lead">Bolt pattern, center bore, thread size and approximate offset by make and model. The database includes vehicles from 1995 and newer.</p>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
+    </div>
+
+    <section class="layout">
+      <div class="panel">
+        <h2 data-i18n="makes">Makes</h2>
+        <div class="list" id="brands"></div>
+      </div>
+
+      <div class="panel">
+        <h2 data-i18n="models">Models</h2>
+        <div class="list" id="models"></div>
+      </div>
+
+      <div class="panel">
+        <h2 data-i18n="sizes">Sizes</h2>
+        <div id="details"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const translations = {
+      en: {
+        home: 'Home',
+        calculators: 'Calculators',
+        wheelsTires: 'Wheels & Tires',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Consumption',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        guides: 'Guides',
+        title: 'PCD Database',
+        lead: 'Bolt pattern, center bore, thread size and approximate offset by make and model. The database includes vehicles from 1995 and newer.',
+        makes: 'Makes',
+        models: 'Models',
+        sizes: 'Sizes',
+        search: 'Search: Audi A4, Golf, 5x112, 57.1',
+        chooseMake: 'Choose a make.',
+        chooseModel: 'Choose a model to see PCD and center bore.',
+        notice: 'Demo data shows the section structure. Before publishing, every row must be verified by source, year, market and trim.',
+        generation: 'Generation',
+        years: 'Years',
+        centerBore: 'Center bore',
+        thread: 'Thread',
+        fastener: 'Fastener',
+        status: 'Status'
+      },
+      es: {
+        home: 'Inicio',
+        calculators: 'Calculadoras',
+        wheelsTires: 'Llantas y neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consumo',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        guides: 'Guías',
+        title: 'Base PCD',
+        lead: 'Patrón de tornillos, buje central, rosca y ET aproximado por marca y modelo. La base incluye vehículos desde 1995.',
+        makes: 'Marcas',
+        models: 'Modelos',
+        sizes: 'Medidas',
+        search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
+        chooseMake: 'Elige una marca.',
+        chooseModel: 'Elige un modelo para ver PCD y buje central.',
+        notice: 'Los datos de demo muestran la estructura. Antes de publicar, cada fila debe verificarse por fuente, año, mercado y versión.',
+        generation: 'Generación',
+        years: 'Años',
+        centerBore: 'Buje central',
+        thread: 'Rosca',
+        fastener: 'Fijación',
+        status: 'Estado'
+      },
+      fr: {
+        home: 'Accueil',
+        calculators: 'Calculateurs',
+        wheelsTires: 'Jantes et pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consommation',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        guides: 'Guides',
+        title: 'Base PCD',
+        lead: 'Entraxe, alésage central, filetage et déport approximatif par marque et modèle. La base inclut les véhicules à partir de 1995.',
+        makes: 'Marques',
+        models: 'Modèles',
+        sizes: 'Dimensions',
+        search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
+        chooseMake: 'Choisissez une marque.',
+        chooseModel: 'Choisissez un modèle pour voir le PCD et l’alésage central.',
+        notice: 'Les données de démonstration montrent la structure. Avant publication, chaque ligne doit être vérifiée par source, année, marché et finition.',
+        generation: 'Génération',
+        years: 'Années',
+        centerBore: 'Alésage',
+        thread: 'Filetage',
+        fastener: 'Fixation',
+        status: 'Statut'
+      },
+      de: {
+        home: 'Startseite',
+        calculators: 'Rechner',
+        wheelsTires: 'Felgen und Reifen',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Verbrauch',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        guides: 'Ratgeber',
+        title: 'PCD-Datenbank',
+        lead: 'Lochkreis, Mittenloch, Gewinde und ungefährer ET-Bereich nach Marke und Modell. Die Datenbank enthält Fahrzeuge ab Baujahr 1995.',
+        makes: 'Marken',
+        models: 'Modelle',
+        sizes: 'Größen',
+        search: 'Suche: Audi A4, Golf, 5x112, 57.1',
+        chooseMake: 'Wähle eine Marke.',
+        chooseModel: 'Wähle ein Modell, um PCD und Mittenloch zu sehen.',
+        notice: 'Die Demodaten zeigen die Struktur. Vor der Veröffentlichung muss jede Zeile nach Quelle, Baujahr, Markt und Ausstattung geprüft werden.',
+        generation: 'Generation',
+        years: 'Baujahre',
+        centerBore: 'Mittenloch',
+        thread: 'Gewinde',
+        fastener: 'Befestigung',
+        status: 'Status'
       }
-    },
-    {
-      "key": "pcd",
-      "href": "/pcd",
-      "labels": {
-        "en": "PCD Database",
-        "es": "Base PCD",
-        "fr": "Base PCD",
-        "de": "PCD-Datenbank"
+    };
+
+    const data = [
+      {
+        name: 'Audi',
+        models: [
+          {
+            name: 'A3',
+            records: [
+              ['8L', '1996-2003', '5x100', '57.1', 'M14x1.5', 'bolts', 'ET32-42', 'needs_review'],
+              ['8P / 8V', '2003-2020', '5x112', '57.1', 'M14x1.5', 'bolts', 'ET45-56', 'needs_review']
+            ]
+          },
+          {
+            name: 'A4',
+            records: [
+              ['B5 / B6 / B7', '1995-2008', '5x112', '57.1', 'M14x1.5', 'bolts', 'ET35-45', 'needs_review'],
+              ['B8 / B9', '2008-2024', '5x112', '66.6', 'M14x1.5', 'bolts', 'ET35-50', 'needs_review']
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Volkswagen',
+        models: [
+          {
+            name: 'Golf',
+            records: [
+              ['Mk4', '1997-2006', '5x100', '57.1', 'M14x1.5', 'bolts', 'ET35-42', 'needs_review'],
+              ['Mk5 / Mk6 / Mk7 / Mk8', '2003-2026', '5x112', '57.1', 'M14x1.5', 'bolts', 'ET45-51', 'needs_review']
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Toyota',
+        models: [
+          {
+            name: 'Corolla',
+            records: [
+              ['E110-E210', '1995-2026', '5x100', '54.1', 'M12x1.5', 'nuts', 'ET35-45', 'needs_review']
+            ]
+          }
+        ]
       }
-    },
-    {
-      "key": "fuel",
-      "href": "/fuel",
-      "labels": {
-        "en": "Fuel Consumption",
-        "es": "Consumo",
-        "fr": "Consommation",
-        "de": "Verbrauch"
+    ];
+
+    let lang = 'en';
+    let selectedBrand = null;
+    let selectedModel = null;
+
+    const brandsEl = document.getElementById('brands');
+    const modelsEl = document.getElementById('models');
+    const detailsEl = document.getElementById('details');
+    const searchEl = document.getElementById('search');
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = `Autohub ${t('pcdDatabase')}`;
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      searchEl.placeholder = t('search');
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+      renderModels();
+      renderDetails();
+    }
+
+    function renderBrands(filter = '') {
+      const q = filter.trim().toLowerCase();
+      brandsEl.innerHTML = '';
+      data
+        .filter(brand => !q || brand.name.toLowerCase().includes(q) || brand.models.some(model => model.name.toLowerCase().includes(q)))
+        .forEach(brand => {
+          const button = document.createElement('button');
+          button.textContent = brand.name;
+          button.className = selectedBrand === brand ? 'selected' : '';
+          button.onclick = () => {
+            selectedBrand = brand;
+            selectedModel = null;
+            renderBrands(searchEl.value);
+            renderModels();
+            renderDetails();
+          };
+          brandsEl.appendChild(button);
+        });
+    }
+
+    function renderModels() {
+      modelsEl.innerHTML = '';
+      if (!selectedBrand) {
+        modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
+        return;
       }
-    },
-    {
-      "key": "diagnostics",
-      "href": "/diagnostics",
-      "labels": {
-        "en": "Diagnostics",
-        "es": "Diagnóstico",
-        "fr": "Diagnostic",
-        "de": "Diagnose"
+      selectedBrand.models.forEach(model => {
+        const button = document.createElement('button');
+        button.textContent = model.name;
+        button.className = selectedModel === model ? 'selected' : '';
+        button.onclick = () => {
+          selectedModel = model;
+          renderModels();
+          renderDetails();
+        };
+        modelsEl.appendChild(button);
+      });
+    }
+
+    function renderDetails() {
+      if (!selectedModel) {
+        detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
+        return;
       }
-    },
-    {
-      "key": "engines",
-      "href": "/engines",
-      "labels": {
-        "en": "Engines",
-        "es": "Motores",
-        "fr": "Moteurs",
-        "de": "Motoren"
-      }
-    },
-    {
-      "key": "guides",
-      "href": "/guides",
-      "labels": {
+      const rows = selectedModel.records.map(record => `
+        <tr>
+          <td>${record[0]}</td>
+          <td>${record[1]}</td>
+          <td><strong>${record[2]}</strong></td>
+          <td>${record[3]} mm</td>
+          <td>${record[4]}</td>
+          <td>${record[5]}</td>
+          <td>${record[6]}</td>
+          <td><span class="tag">${record[7]}</span></td>
+        </tr>
+      `).join('');
+      detailsEl.innerHTML = `
+        <div class="notice">${t('notice')}</div>
+        <table>
+          <thead>
+            <tr>
+              <th>${t('generation')}</th>
+              <th>${t('years')}</th>
+              <th>PCD</th>
+              <th>${t('centerBore')}</th>
+              <th>${t('thread')}</th>
+              <th>${t('fastener')}</th>
+              <th>ET</th>
+              <th>${t('status')}</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        translatePage();
+      });
+    });
+
+    searchEl.addEventListener('input', () => renderBrands(searchEl.value));
+    renderBrands();
+    translatePage();
+  </script>
+</body>
+</html>
