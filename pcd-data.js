@@ -3219,5 +3219,1077 @@ const PCD_DATA = [
         ]
       }
     ]
+  },
+  {
+    name: 'Opel / Vauxhall',
+    slug: 'opel-vauxhall',
+    models: [
+      {
+        name: 'Corsa',
+        slug: 'corsa',
+        records: [
+          {
+            generation: 'B / C / D / E',
+            years: '1995-2019',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'F',
+            years: '2019-2026',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Astra',
+        slug: 'astra',
+        records: [
+          {
+            generation: 'F / G',
+            years: '1995-2004',
+            market: 'EU',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-49',
+            status: 'needs_review'
+          },
+          {
+            generation: 'H',
+            years: '2004-2010',
+            market: 'EU',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'J / K',
+            years: '2009-2021',
+            market: 'EU',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-44',
+            status: 'needs_review'
+          },
+          {
+            generation: 'L',
+            years: '2021-2026',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Insignia',
+        slug: 'insignia',
+        records: [
+          {
+            generation: 'A',
+            years: '2008-2017',
+            market: 'EU',
+            pcd: '5x120',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-49',
+            status: 'needs_review'
+          },
+          {
+            generation: 'B',
+            years: '2017-2022',
+            market: 'EU',
+            pcd: '5x115',
+            centerBore: '70.3',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-49',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Mokka',
+        slug: 'mokka',
+        records: [
+          {
+            generation: 'A',
+            years: '2012-2019',
+            market: 'EU',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'B',
+            years: '2020-2026',
+            market: 'EU',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Grandland',
+        slug: 'grandland',
+        records: [
+          {
+            generation: 'X / second generation',
+            years: '2017-2026',
+            market: 'EU',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Peugeot',
+    slug: 'peugeot',
+    models: [
+      {
+        name: '206 / 207 / 208',
+        slug: '206-207-208',
+        records: [
+          {
+            generation: '206 / 207 / 208 I-II',
+            years: '1998-2026',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET15-32',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: '307 / 308',
+        slug: '307-308',
+        records: [
+          {
+            generation: '307 / 308 I',
+            years: '2001-2013',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET15-32',
+            status: 'needs_review'
+          },
+          {
+            generation: '308 II / III',
+            years: '2013-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: '3008 / 5008',
+        slug: '3008-5008',
+        records: [
+          {
+            generation: 'first generation',
+            years: '2009-2016',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET25-32',
+            status: 'needs_review'
+          },
+          {
+            generation: 'second / third generation',
+            years: '2016-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: '407 / 508',
+        slug: '407-508',
+        records: [
+          {
+            generation: '407 / 508 I-II',
+            years: '2004-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Partner / Rifter',
+        slug: 'partner-rifter',
+        records: [
+          {
+            generation: 'Partner I-II',
+            years: '1996-2018',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET15-32',
+            status: 'needs_review'
+          },
+          {
+            generation: 'Rifter / Partner III',
+            years: '2018-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Renault',
+    slug: 'renault',
+    models: [
+      {
+        name: 'Clio',
+        slug: 'clio',
+        records: [
+          {
+            generation: 'II / III / IV / V',
+            years: '1998-2026',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Megane',
+        slug: 'megane',
+        records: [
+          {
+            generation: 'I',
+            years: '1995-2002',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'II / III / IV / E-Tech',
+            years: '2002-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Captur',
+        slug: 'captur',
+        records: [
+          {
+            generation: 'I',
+            years: '2013-2019',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'II',
+            years: '2019-2026',
+            market: 'EU / Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Scenic',
+        slug: 'scenic',
+        records: [
+          {
+            generation: 'I',
+            years: '1996-2003',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'II / III / IV / E-Tech',
+            years: '2003-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '60.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Kadjar / Austral',
+        slug: 'kadjar-austral',
+        records: [
+          {
+            generation: 'Kadjar / Austral',
+            years: '2015-2026',
+            market: 'EU / Global',
+            pcd: '5x114.3',
+            centerBore: '66.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Citroen',
+    slug: 'citroen',
+    models: [
+      {
+        name: 'C3',
+        slug: 'c3',
+        records: [
+          {
+            generation: 'I / II / III / IV',
+            years: '2002-2026',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET15-32',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'C4',
+        slug: 'c4',
+        records: [
+          {
+            generation: 'I / II',
+            years: '2004-2020',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET15-32',
+            status: 'needs_review'
+          },
+          {
+            generation: 'III / e-C4',
+            years: '2020-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'C5 / C5 X',
+        slug: 'c5-c5-x',
+        records: [
+          {
+            generation: 'C5 I-II / C5 X',
+            years: '2001-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Berlingo',
+        slug: 'berlingo',
+        records: [
+          {
+            generation: 'I / II',
+            years: '1996-2018',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET15-32',
+            status: 'needs_review'
+          },
+          {
+            generation: 'III',
+            years: '2018-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'C3 Aircross / C5 Aircross',
+        slug: 'c3-aircross-c5-aircross',
+        records: [
+          {
+            generation: 'Aircross models',
+            years: '2017-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET32-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Volvo',
+    slug: 'volvo',
+    models: [
+      {
+        name: 'S40 / V40 / V50',
+        slug: 's40-v40-v50',
+        records: [
+          {
+            generation: 'S40/V40 I',
+            years: '1995-2004',
+            market: 'Global',
+            pcd: '4x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'S40/V50 II / V40 II',
+            years: '2004-2019',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-52',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'S60 / V60',
+        slug: 's60-v60',
+        records: [
+          {
+            generation: 'P2 / P3',
+            years: '2000-2018',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          },
+          {
+            generation: 'SPA',
+            years: '2018-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'S80 / S90 / V70 / V90',
+        slug: 's80-s90-v70-v90',
+        records: [
+          {
+            generation: 'P2 / P3',
+            years: '1998-2016',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          },
+          {
+            generation: 'SPA',
+            years: '2016-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'XC40',
+        slug: 'xc40',
+        records: [
+          {
+            generation: 'CMA',
+            years: '2017-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-52',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'XC60',
+        slug: 'xc60',
+        records: [
+          {
+            generation: 'first generation',
+            years: '2008-2017',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          },
+          {
+            generation: 'second generation',
+            years: '2017-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'XC90',
+        slug: 'xc90',
+        records: [
+          {
+            generation: 'first generation',
+            years: '2002-2015',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '67.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          },
+          {
+            generation: 'second generation',
+            years: '2015-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Fiat',
+    slug: 'fiat',
+    models: [
+      {
+        name: 'Punto / Grande Punto',
+        slug: 'punto-grande-punto',
+        records: [
+          {
+            generation: '176 / 188 / 199',
+            years: '1995-2018',
+            market: 'EU / Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-43',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: '500',
+        slug: '500',
+        records: [
+          {
+            generation: '312',
+            years: '2007-2026',
+            market: 'EU / Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-43',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Panda',
+        slug: 'panda',
+        records: [
+          {
+            generation: '169 / 319',
+            years: '2003-2026',
+            market: 'EU / Global',
+            pcd: '4x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-43',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Tipo',
+        slug: 'tipo',
+        records: [
+          {
+            generation: '356',
+            years: '2015-2026',
+            market: 'EU / Global',
+            pcd: '5x98',
+            centerBore: '58.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-43',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: '500X',
+        slug: '500x',
+        records: [
+          {
+            generation: '334',
+            years: '2014-2026',
+            market: 'EU / Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Mini',
+    slug: 'mini',
+    models: [
+      {
+        name: 'Hatch / Convertible',
+        slug: 'hatch-convertible',
+        records: [
+          {
+            generation: 'R50 / R52 / R53 / R56 / R57',
+            years: '2001-2015',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-48',
+            status: 'needs_review'
+          },
+          {
+            generation: 'F55 / F56 / F57',
+            years: '2014-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            offset: 'ET45-54',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Countryman / Paceman',
+        slug: 'countryman-paceman',
+        records: [
+          {
+            generation: 'R60 / R61',
+            years: '2010-2016',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            offset: 'ET35-52',
+            status: 'needs_review'
+          },
+          {
+            generation: 'F60 / U25',
+            years: '2017-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            offset: 'ET45-54',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Clubman',
+        slug: 'clubman',
+        records: [
+          {
+            generation: 'R55',
+            years: '2007-2014',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.1',
+            thread: 'M12x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-48',
+            status: 'needs_review'
+          },
+          {
+            generation: 'F54',
+            years: '2015-2024',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.25',
+            fastener: 'bolts',
+            offset: 'ET45-54',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Porsche',
+    slug: 'porsche',
+    models: [
+      {
+        name: '911',
+        slug: '911',
+        records: [
+          {
+            generation: '996 / 997 / 991 / 992',
+            years: '1997-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-70',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Boxster / Cayman',
+        slug: 'boxster-cayman',
+        records: [
+          {
+            generation: '986 / 987 / 981 / 718',
+            years: '1996-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-70',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Cayenne',
+        slug: 'cayenne',
+        records: [
+          {
+            generation: '955 / 957 / 958 / PO536',
+            years: '2002-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET35-60',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Macan',
+        slug: 'macan',
+        records: [
+          {
+            generation: '95B / XAB',
+            years: '2014-2026',
+            market: 'Global',
+            pcd: '5x112',
+            centerBore: '66.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET20-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Panamera / Taycan',
+        slug: 'panamera-taycan',
+        records: [
+          {
+            generation: '970 / 971 / J1',
+            years: '2009-2026',
+            market: 'Global',
+            pcd: '5x130',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'bolts',
+            offset: 'ET40-65',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Land Rover',
+    slug: 'land-rover',
+    models: [
+      {
+        name: 'Freelander',
+        slug: 'freelander',
+        records: [
+          {
+            generation: 'L314',
+            years: '1997-2006',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          },
+          {
+            generation: 'L359',
+            years: '2006-2014',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Range Rover Evoque',
+        slug: 'range-rover-evoque',
+        records: [
+          {
+            generation: 'L538 / L551',
+            years: '2011-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Discovery Sport',
+        slug: 'discovery-sport',
+        records: [
+          {
+            generation: 'L550',
+            years: '2014-2026',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Range Rover Sport',
+        slug: 'range-rover-sport',
+        records: [
+          {
+            generation: 'L320 / L494 / L461',
+            years: '2005-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Range Rover',
+        slug: 'range-rover',
+        records: [
+          {
+            generation: 'P38A / L322 / L405 / L460',
+            years: '1995-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Defender',
+        slug: 'defender',
+        records: [
+          {
+            generation: 'L663',
+            years: '2020-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '72.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
   }
 ];
