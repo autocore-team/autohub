@@ -98,7 +98,7 @@
       display: flex;
       gap: 12px;
       align-items: center;
-      margin: 18px 0 22px;
+      margin: 18px 0 10px;
       flex-wrap: wrap;
     }
     input {
@@ -132,6 +132,40 @@
       display: grid;
       gap: 4px;
       padding: 10px;
+    }
+    .quick-filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 0 0 22px;
+    }
+    .quick-filters button {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-align: center;
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+    .quick-filters button:hover,
+    .quick-filters button.selected {
+      border-color: #99d5cf;
+      background: #e6f6f4;
+      color: var(--accent-dark);
+    }
+    .list-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+    }
+    .count {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
     }
     button {
       min-height: 38px;
@@ -227,6 +261,7 @@
     <div class="toolbar">
       <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
     </div>
+    <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
 
     <section class="layout">
       <div class="panel">
@@ -262,7 +297,11 @@
         models: 'Models',
         sizes: 'Sizes',
         search: 'Search: Audi A4, Golf, 5x112, 57.1',
+        popularPcd: 'Popular PCD',
         chooseMake: 'Choose a make.',
+        noMakes: 'No makes found. Try another search.',
+        noModels: 'No models found for this filter.',
+        noRecords: 'No records match this filter.',
         chooseModel: 'Choose a model to see PCD and center bore.',
         notice: 'Starter data is under review. Always verify wheel fitment by vehicle year, market, trim and official documentation before buying wheels.',
         generation: 'Generation',
@@ -290,7 +329,11 @@
         models: 'Modelos',
         sizes: 'Medidas',
         search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
+        popularPcd: 'PCD popular',
         chooseMake: 'Elige una marca.',
+        noMakes: 'No se encontraron marcas. Prueba otra búsqueda.',
+        noModels: 'No se encontraron modelos para este filtro.',
+        noRecords: 'No hay registros para este filtro.',
         chooseModel: 'Elige un modelo para ver PCD y buje central.',
         notice: 'Los datos iniciales están en revisión. Verifica siempre la compatibilidad por año, mercado, versión y documentación oficial antes de comprar llantas.',
         generation: 'Generación',
@@ -318,7 +361,11 @@
         models: 'Modèles',
         sizes: 'Dimensions',
         search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
+        popularPcd: 'PCD populaires',
         chooseMake: 'Choisissez une marque.',
+        noMakes: 'Aucune marque trouvée. Essayez une autre recherche.',
+        noModels: 'Aucun modèle trouvé pour ce filtre.',
+        noRecords: 'Aucune ligne ne correspond à ce filtre.',
         chooseModel: 'Choisissez un modèle pour voir le PCD et l’alésage central.',
         notice: 'Les données initiales sont en cours de vérification. Vérifiez toujours le montage selon l’année, le marché, la finition et la documentation officielle avant achat.',
         generation: 'Génération',
@@ -346,7 +393,11 @@
         models: 'Modelle',
         sizes: 'Größen',
         search: 'Suche: Audi A4, Golf, 5x112, 57.1',
+        popularPcd: 'Beliebte PCD',
         chooseMake: 'Wähle eine Marke.',
+        noMakes: 'Keine Marken gefunden. Versuche eine andere Suche.',
+        noModels: 'Keine Modelle für diesen Filter gefunden.',
+        noRecords: 'Keine Einträge für diesen Filter.',
         chooseModel: 'Wähle ein Modell, um PCD und Mittenloch zu sehen.',
         notice: 'Die Startdaten werden geprüft. Prüfe die Passung vor dem Felgenkauf immer nach Baujahr, Markt, Ausstattung und offizieller Dokumentation.',
         generation: 'Generation',
@@ -368,11 +419,14 @@
     let lang = 'en';
     let selectedBrand = null;
     let selectedModel = null;
+    let activeQuickFilter = '';
 
     const brandsEl = document.getElementById('brands');
     const modelsEl = document.getElementById('models');
     const detailsEl = document.getElementById('details');
     const searchEl = document.getElementById('search');
+    const quickFiltersEl = document.getElementById('quickFilters');
+    const popularPcdFilters = ['5x100', '5x112', '5x114.3', '5x120', '6x139.7'];
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
@@ -390,6 +444,57 @@
       return value || t('statusNeedsReview');
     }
 
+    function currentQuery() {
+      return searchEl.value.trim().toLowerCase();
+    }
+
+    function recordMatches(record, q) {
+      if (!q) return true;
+      return [
+        record.generation,
+        record.years,
+        record.market,
+        record.pcd,
+        record.centerBore,
+        record.thread,
+        record.fastener,
+        record.offset,
+        record.status
+      ].some(value => String(value || '').toLowerCase().includes(q));
+    }
+
+    function modelMatches(brand, model, q) {
+      if (!q) return true;
+      return brand.name.toLowerCase().includes(q)
+        || model.name.toLowerCase().includes(q)
+        || model.records.some(record => recordMatches(record, q));
+    }
+
+    function matchingModels(brand, q) {
+      return brand.models.filter(model => modelMatches(brand, model, q));
+    }
+
+    function matchingRecords(model, q) {
+      return model.records.filter(record => recordMatches(record, q));
+    }
+
+    function renderQuickFilters() {
+      quickFiltersEl.innerHTML = popularPcdFilters.map((pcd) => `
+        <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}">${pcd}</button>
+      `).join('');
+      quickFiltersEl.querySelectorAll('[data-pcd]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const value = button.dataset.pcd;
+          activeQuickFilter = activeQuickFilter === value ? '' : value;
+          searchEl.value = activeQuickFilter;
+          renderQuickFilters();
+          renderBrands(searchEl.value);
+          renderModels();
+          renderDetails();
+        });
+      });
+    }
+
     function translatePage() {
       document.documentElement.lang = lang;
       document.title = `Autohub ${t('pcdDatabase')}`;
@@ -400,6 +505,7 @@
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
+      renderQuickFilters();
       renderModels();
       renderDetails();
     }
@@ -407,13 +513,22 @@
     function renderBrands(filter = '') {
       const q = filter.trim().toLowerCase();
       brandsEl.innerHTML = '';
-      data
+      const brands = data
         .slice()
         .sort((a, b) => a.name.localeCompare(b.name))
-        .filter(brand => !q || brand.name.toLowerCase().includes(q) || brand.models.some(model => model.name.toLowerCase().includes(q)))
-        .forEach(brand => {
+        .filter(brand => matchingModels(brand, q).length > 0);
+
+      if (!brands.length) {
+        brandsEl.innerHTML = `<div class="empty">${t('noMakes')}</div>`;
+        modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
+        detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
+        return;
+      }
+
+      brands.forEach(brand => {
           const button = document.createElement('button');
-          button.textContent = brand.name;
+          const matchCount = matchingModels(brand, q).length;
+          button.innerHTML = `<span class="list-row"><span>${brand.name}</span><span class="count">${matchCount}</span></span>`;
           button.className = selectedBrand === brand ? 'selected' : '';
           button.onclick = () => {
             selectedBrand = brand;
@@ -432,12 +547,20 @@
         modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
         return;
       }
-      selectedBrand.models
+      const q = currentQuery();
+      const models = matchingModels(selectedBrand, q)
         .slice()
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .forEach(model => {
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+      if (!models.length) {
+        modelsEl.innerHTML = `<div class="empty">${t('noModels')}</div>`;
+        return;
+      }
+
+      models.forEach(model => {
         const button = document.createElement('button');
-        button.textContent = model.name;
+        const recordCount = matchingRecords(model, q).length;
+        button.innerHTML = `<span class="list-row"><span>${model.name}</span><span class="count">${recordCount}</span></span>`;
         button.className = selectedModel === model ? 'selected' : '';
         button.onclick = () => {
           selectedModel = model;
@@ -453,7 +576,13 @@
         detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
         return;
       }
-      const rows = selectedModel.records.map(record => `
+      const q = currentQuery();
+      const records = matchingRecords(selectedModel, q);
+      if (!records.length) {
+        detailsEl.innerHTML = `<div class="empty">${t('noRecords')}</div>`;
+        return;
+      }
+      const rows = records.map(record => `
         <tr>
           <td>${record.generation || ''}</td>
           <td>${record.years || ''}</td>
@@ -494,8 +623,15 @@
       });
     });
 
-    searchEl.addEventListener('input', () => renderBrands(searchEl.value));
+    searchEl.addEventListener('input', () => {
+      activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
+      renderQuickFilters();
+      renderBrands(searchEl.value);
+      renderModels();
+      renderDetails();
+    });
     renderBrands();
+    renderQuickFilters();
     translatePage();
   </script>
 </body>
