@@ -2267,5 +2267,957 @@ const PCD_DATA = [
         ]
       }
     ]
+  },
+  {
+    name: 'Hyundai',
+    slug: 'hyundai',
+    models: [
+      {
+        name: 'i10',
+        slug: 'i10',
+        records: [
+          {
+            generation: 'PA / IA / AC3',
+            years: '2007-2026',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-46',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'i20',
+        slug: 'i20',
+        records: [
+          {
+            generation: 'PB / GB / BC3',
+            years: '2008-2026',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-46',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'i30 / Elantra',
+        slug: 'i30-elantra',
+        records: [
+          {
+            generation: 'FD / GD / PD / CN7',
+            years: '2007-2026',
+            market: 'EU / US / Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET40-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Kona',
+        slug: 'kona',
+        records: [
+          {
+            generation: 'OS / SX2',
+            years: '2017-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Tucson',
+        slug: 'tucson',
+        records: [
+          {
+            generation: 'JM / LM / TL / NX4',
+            years: '2004-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Santa Fe',
+        slug: 'santa-fe',
+        records: [
+          {
+            generation: 'SM / CM / DM / TM / MX5',
+            years: '2000-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Sonata',
+        slug: 'sonata',
+        records: [
+          {
+            generation: 'EF / NF / YF / LF / DN8',
+            years: '1998-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET40-55',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Kia',
+    slug: 'kia',
+    models: [
+      {
+        name: 'Picanto',
+        slug: 'picanto',
+        records: [
+          {
+            generation: 'SA / TA / JA',
+            years: '2004-2026',
+            market: 'EU / Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-46',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Rio',
+        slug: 'rio',
+        records: [
+          {
+            generation: 'DC / JB / UB / YB',
+            years: '2000-2023',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '54.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-46',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Ceed',
+        slug: 'ceed',
+        records: [
+          {
+            generation: 'ED / JD / CD',
+            years: '2006-2026',
+            market: 'EU',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET40-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Niro',
+        slug: 'niro',
+        records: [
+          {
+            generation: 'DE / SG2',
+            years: '2016-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Sportage',
+        slug: 'sportage',
+        records: [
+          {
+            generation: 'JE / SL / QL / NQ5',
+            years: '2004-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Sorento',
+        slug: 'sorento',
+        records: [
+          {
+            generation: 'BL / XM / UM / MQ4',
+            years: '2002-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Optima / K5',
+        slug: 'optima-k5',
+        records: [
+          {
+            generation: 'MS / MG / TF / JF / DL3',
+            years: '2000-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET40-55',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Genesis',
+    slug: 'genesis',
+    models: [
+      {
+        name: 'G70',
+        slug: 'g70',
+        records: [
+          {
+            generation: 'IK',
+            years: '2017-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET30-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'G80',
+        slug: 'g80',
+        records: [
+          {
+            generation: 'DH / RG3',
+            years: '2016-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET30-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'GV70',
+        slug: 'gv70',
+        records: [
+          {
+            generation: 'JK1',
+            years: '2020-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET30-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'GV80',
+        slug: 'gv80',
+        records: [
+          {
+            generation: 'JX1',
+            years: '2020-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '67.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET30-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Ford',
+    slug: 'ford',
+    models: [
+      {
+        name: 'Fiesta',
+        slug: 'fiesta',
+        records: [
+          {
+            generation: 'Mk4 / Mk5 / Mk6 / Mk7 / Mk8',
+            years: '1995-2023',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-47',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Focus',
+        slug: 'focus',
+        records: [
+          {
+            generation: 'Mk1',
+            years: '1998-2004',
+            market: 'EU / Global',
+            pcd: '4x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-52',
+            status: 'needs_review'
+          },
+          {
+            generation: 'Mk2 / Mk3 / Mk4',
+            years: '2004-2026',
+            market: 'EU / Global',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Mondeo / Fusion',
+        slug: 'mondeo-fusion',
+        records: [
+          {
+            generation: 'Mk3 / Mk4 / Mk5',
+            years: '2000-2022',
+            market: 'EU / US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Kuga / Escape',
+        slug: 'kuga-escape',
+        records: [
+          {
+            generation: 'C394 / C520 / CX482',
+            years: '2008-2026',
+            market: 'EU / US',
+            pcd: '5x108',
+            centerBore: '63.4',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET45-55',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Mustang',
+        slug: 'mustang',
+        records: [
+          {
+            generation: 'SN95 / New Edge',
+            years: '1995-2004',
+            market: 'US / Global',
+            pcd: '5x114.3',
+            centerBore: '70.5',
+            thread: '1/2-20',
+            fastener: 'nuts',
+            offset: 'ET20-30',
+            status: 'needs_review'
+          },
+          {
+            generation: 'S197 / S550 / S650',
+            years: '2005-2026',
+            market: 'US / Global',
+            pcd: '5x114.3',
+            centerBore: '70.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-50',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'F-150',
+        slug: 'f-150',
+        records: [
+          {
+            generation: '10th gen',
+            years: '1997-2003',
+            market: 'US / Global',
+            pcd: '5x135',
+            centerBore: '87.1',
+            thread: 'M14x2.0',
+            fastener: 'nuts',
+            offset: 'ET10-20',
+            status: 'needs_review'
+          },
+          {
+            generation: '11th-14th gen',
+            years: '2004-2026',
+            market: 'US / Global',
+            pcd: '6x135',
+            centerBore: '87.1',
+            thread: 'M14x2.0',
+            fastener: 'nuts',
+            offset: 'ET30-44',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Ranger',
+        slug: 'ranger',
+        records: [
+          {
+            generation: 'T6 / P703',
+            years: '2011-2026',
+            market: 'Global',
+            pcd: '6x139.7',
+            centerBore: '93.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-55',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Chevrolet',
+    slug: 'chevrolet',
+    models: [
+      {
+        name: 'Spark',
+        slug: 'spark',
+        records: [
+          {
+            generation: 'M200 / M300 / M400',
+            years: '2005-2022',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Aveo / Sonic',
+        slug: 'aveo-sonic',
+        records: [
+          {
+            generation: 'T200 / T250',
+            years: '2002-2011',
+            market: 'Global',
+            pcd: '4x100',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          },
+          {
+            generation: 'T300',
+            years: '2011-2020',
+            market: 'Global',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Cruze',
+        slug: 'cruze',
+        records: [
+          {
+            generation: 'J300 / D2LC',
+            years: '2008-2019',
+            market: 'Global',
+            pcd: '5x105',
+            centerBore: '56.6',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-42',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Camaro',
+        slug: 'camaro',
+        records: [
+          {
+            generation: '4th gen',
+            years: '1995-2002',
+            market: 'US / Global',
+            pcd: '5x120.65',
+            centerBore: '70.3',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-55',
+            status: 'needs_review'
+          },
+          {
+            generation: '5th / 6th gen',
+            years: '2010-2024',
+            market: 'US / Global',
+            pcd: '5x120',
+            centerBore: '66.9',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET25-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Silverado 1500',
+        slug: 'silverado-1500',
+        records: [
+          {
+            generation: 'GMT800 / GMT900 / K2XX / T1XX',
+            years: '1999-2026',
+            market: 'US / Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET20-35',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Tahoe / Suburban',
+        slug: 'tahoe-suburban',
+        records: [
+          {
+            generation: 'GMT400 / GMT800 / GMT900 / K2XX / T1XX',
+            years: '1995-2026',
+            market: 'US / Global',
+            pcd: '6x139.7',
+            centerBore: '78.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET20-35',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Jeep',
+    slug: 'jeep',
+    models: [
+      {
+        name: 'Wrangler',
+        slug: 'wrangler',
+        records: [
+          {
+            generation: 'TJ',
+            years: '1997-2006',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '71.5',
+            thread: '1/2-20',
+            fastener: 'nuts',
+            offset: 'ET12-25',
+            status: 'needs_review'
+          },
+          {
+            generation: 'JK / JL',
+            years: '2007-2026',
+            market: 'Global',
+            pcd: '5x127',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET18-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Grand Cherokee',
+        slug: 'grand-cherokee',
+        records: [
+          {
+            generation: 'ZJ',
+            years: '1995-1998',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '71.5',
+            thread: '1/2-20',
+            fastener: 'nuts',
+            offset: 'ET10-25',
+            status: 'needs_review'
+          },
+          {
+            generation: 'WJ / WK / WK2 / WL',
+            years: '1999-2026',
+            market: 'Global',
+            pcd: '5x127',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-56',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Cherokee',
+        slug: 'cherokee',
+        records: [
+          {
+            generation: 'XJ',
+            years: '1995-2001',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '71.5',
+            thread: '1/2-20',
+            fastener: 'nuts',
+            offset: 'ET10-25',
+            status: 'needs_review'
+          },
+          {
+            generation: 'KL',
+            years: '2013-2023',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Renegade',
+        slug: 'renegade',
+        records: [
+          {
+            generation: 'BU / BV',
+            years: '2014-2026',
+            market: 'Global',
+            pcd: '5x110',
+            centerBore: '65.1',
+            thread: 'M12x1.25',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Dodge',
+    slug: 'dodge',
+    models: [
+      {
+        name: 'Charger',
+        slug: 'charger',
+        records: [
+          {
+            generation: 'LX / LD',
+            years: '2006-2023',
+            market: 'US / Global',
+            pcd: '5x115',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET18-25',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Challenger',
+        slug: 'challenger',
+        records: [
+          {
+            generation: 'LC / LA',
+            years: '2008-2023',
+            market: 'US / Global',
+            pcd: '5x115',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET18-25',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Durango',
+        slug: 'durango',
+        records: [
+          {
+            generation: 'DN',
+            years: '1998-2003',
+            market: 'US / Global',
+            pcd: '6x114.3',
+            centerBore: '71.6',
+            thread: '1/2-20',
+            fastener: 'nuts',
+            offset: 'ET10-30',
+            status: 'needs_review'
+          },
+          {
+            generation: 'WD',
+            years: '2011-2026',
+            market: 'US / Global',
+            pcd: '5x127',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-56',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Ram',
+    slug: 'ram',
+    models: [
+      {
+        name: '1500',
+        slug: '1500',
+        records: [
+          {
+            generation: 'BR / DR / DS',
+            years: '1995-2018',
+            market: 'US / Global',
+            pcd: '5x139.7',
+            centerBore: '77.8',
+            thread: '9/16-18',
+            fastener: 'nuts',
+            offset: 'ET10-25',
+            status: 'needs_review'
+          },
+          {
+            generation: 'DT',
+            years: '2019-2026',
+            market: 'US / Global',
+            pcd: '6x139.7',
+            centerBore: '77.8',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET18-25',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Chrysler',
+    slug: 'chrysler',
+    models: [
+      {
+        name: '300',
+        slug: '300',
+        records: [
+          {
+            generation: 'LX / LD',
+            years: '2005-2023',
+            market: 'US / Global',
+            pcd: '5x115',
+            centerBore: '71.6',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET18-25',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'PT Cruiser',
+        slug: 'pt-cruiser',
+        records: [
+          {
+            generation: 'PT',
+            years: '2000-2010',
+            market: 'US / Global',
+            pcd: '5x100',
+            centerBore: '57.1',
+            thread: 'M12x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-40',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Pacifica',
+        slug: 'pacifica',
+        records: [
+          {
+            generation: 'RU',
+            years: '2017-2026',
+            market: 'US / Global',
+            pcd: '5x127',
+            centerBore: '71.5',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-51',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: 'Tesla',
+    slug: 'tesla',
+    models: [
+      {
+        name: 'Model 3',
+        slug: 'model-3',
+        records: [
+          {
+            generation: 'Model 3',
+            years: '2017-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Model Y',
+        slug: 'model-y',
+        records: [
+          {
+            generation: 'Model Y',
+            years: '2020-2026',
+            market: 'Global',
+            pcd: '5x114.3',
+            centerBore: '64.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Model S',
+        slug: 'model-s',
+        records: [
+          {
+            generation: 'Model S',
+            years: '2012-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
+        name: 'Model X',
+        slug: 'model-x',
+        records: [
+          {
+            generation: 'Model X',
+            years: '2015-2026',
+            market: 'Global',
+            pcd: '5x120',
+            centerBore: '64.1',
+            thread: 'M14x1.5',
+            fastener: 'nuts',
+            offset: 'ET35-45',
+            status: 'needs_review'
+          }
+        ]
+      }
+    ]
   }
 ];
