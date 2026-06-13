@@ -381,7 +381,10 @@
       cardsEl.innerHTML = page[lang].cards.map(([title, text]) => `
         <article class="panel">
           <h2>${title}</h2>
-          <div class="panel-body">${text}</div>
+          <div class="panel-body">
+            ${text}
+            ${title === page[lang].cards[0][0] ? '<div class="links"><a class="link-button secondary" href="wheel-fitment-basics.html">Open guide</a></div>' : ''}
+          </div>
         </article>
       `).join('');
     }
@@ -410,5 +413,4 @@
   </script>
 </body>
 </html>
-
 
