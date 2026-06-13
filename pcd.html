@@ -408,6 +408,8 @@
       const q = filter.trim().toLowerCase();
       brandsEl.innerHTML = '';
       data
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name))
         .filter(brand => !q || brand.name.toLowerCase().includes(q) || brand.models.some(model => model.name.toLowerCase().includes(q)))
         .forEach(brand => {
           const button = document.createElement('button');
@@ -430,7 +432,10 @@
         modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
         return;
       }
-      selectedBrand.models.forEach(model => {
+      selectedBrand.models
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .forEach(model => {
         const button = document.createElement('button');
         button.textContent = model.name;
         button.className = selectedModel === model ? 'selected' : '';
