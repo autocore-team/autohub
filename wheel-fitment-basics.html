@@ -1,1 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autohub Wheel Fitment Basics</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 820px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+    .example {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      color: var(--text);
+      font-size: 14px;
+    }
+    .links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 0 14px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .link-button.secondary {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .langbar {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Consumption</a>
+      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="guides.html" class="active" data-i18n="guides">Guides</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">Wheel Fitment Basics</h1>
+    <p class="lead" data-i18n="lead">A quick practical guide to the numbers used when checking whether wheels fit a car.</p>
+
+    <section class="grid" id="guideCards"></section>
+
+    <div class="links">
+      <a class="link-button" href="pcd.html" data-i18n="openPcd">Open PCD Database</a>
+      <a class="link-button secondary" href="index.html" data-i18n="openTire">Open Tire Calculator</a>
+    </div>
+  </main>
+
+  <script>
+    const translations = {
+      en: {
+        tireCalculator: 'Tire Calculator',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Consumption',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        guides: 'Guides',
+        title: 'Wheel Fitment Basics',
+        lead: 'A quick practical guide to the numbers used when checking whether wheels fit a car.',
+        openPcd: 'Open PCD Database',
+        openTire: 'Open Tire Calculator',
+        cards: [
+          ['PCD / bolt pattern', 'PCD describes how many wheel bolts or studs the wheel uses and the diameter of their circle.', 'Example: 5x112 means 5 bolts on a 112 mm circle.'],
+          ['Center bore', 'The center bore is the hole in the middle of the wheel. It must match the vehicle hub or use correct hub-centric rings.', 'Example: 66.6 mm wheel bore on a 66.6 mm hub is a direct fit.'],
+          ['Offset / ET', 'Offset shows how far the wheel mounting face is from the wheel centerline. It changes inner clearance and outer poke.', 'Lower ET usually moves the wheel outward. Higher ET usually moves it inward.'],
+          ['Thread and fasteners', 'Cars may use wheel bolts or wheel nuts. Thread size and seat type must match the vehicle and wheel.', 'Example: M14x1.5 bolt is not interchangeable with M12x1.5.'],
+          ['Rim width', 'Wider rims change the wheel position even when ET stays the same. Inner clearance and fender poke both need checking.', 'A 1 inch wider rim adds about 12.7 mm to each side before offset changes.'],
+          ['Year, market and brakes', 'The same model name can use different wheel specs by year, market, engine, trim or brake package.', 'Always verify by exact vehicle data before buying wheels.']
+        ]
+      },
+      es: {
+        tireCalculator: 'Calculadora de neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consumo',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        guides: 'Guías',
+        title: 'Conceptos básicos de compatibilidad de llantas',
+        lead: 'Guía práctica rápida sobre los números usados para comprobar si unas llantas encajan en un coche.',
+        openPcd: 'Abrir base PCD',
+        openTire: 'Abrir calculadora de neumáticos',
+        cards: [
+          ['PCD / patrón de tornillos', 'El PCD indica cuántos tornillos o espárragos usa la rueda y el diámetro del círculo.', 'Ejemplo: 5x112 significa 5 tornillos en un círculo de 112 mm.'],
+          ['Buje central', 'El buje central es el agujero del centro de la llanta. Debe coincidir con el buje del coche o usar anillos centradores correctos.', 'Ejemplo: buje de 66.6 mm en llanta y coche es ajuste directo.'],
+          ['Desplazamiento / ET', 'El ET indica la distancia entre la cara de montaje y el centro de la llanta. Cambia el espacio interior y la salida exterior.', 'Un ET menor suele sacar la rueda hacia fuera. Un ET mayor suele meterla hacia dentro.'],
+          ['Rosca y fijación', 'Algunos coches usan tornillos y otros tuercas. La rosca y el asiento deben coincidir con coche y llanta.', 'Ejemplo: M14x1.5 no es intercambiable con M12x1.5.'],
+          ['Ancho de llanta', 'Una llanta más ancha cambia la posición aunque el ET sea igual. Hay que revisar espacio interior y aleta.', 'Una pulgada más añade unos 12.7 mm por lado antes de cambios de ET.'],
+          ['Año, mercado y frenos', 'El mismo modelo puede tener medidas distintas por año, mercado, motor, versión o frenos.', 'Verifica siempre los datos exactos del vehículo antes de comprar.']
+        ]
+      },
+      fr: {
+        tireCalculator: 'Calculateur de pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consommation',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        guides: 'Guides',
+        title: 'Bases du montage de jantes',
+        lead: 'Guide pratique rapide des valeurs utilisées pour vérifier si des jantes conviennent à une voiture.',
+        openPcd: 'Ouvrir la base PCD',
+        openTire: 'Ouvrir le calculateur de pneus',
+        cards: [
+          ['PCD / entraxe', 'Le PCD indique le nombre de boulons ou goujons et le diamètre du cercle qu’ils forment.', 'Exemple : 5x112 signifie 5 boulons sur un cercle de 112 mm.'],
+          ['Alésage central', 'L’alésage central est le trou au centre de la jante. Il doit correspondre au moyeu ou utiliser des bagues de centrage adaptées.', 'Exemple : 66.6 mm côté jante et moyeu donne un montage direct.'],
+          ['Déport / ET', 'Le déport indique la position de la face de montage par rapport au centre de la jante. Il change le dégagement intérieur et la sortie extérieure.', 'Un ET plus faible sort souvent la roue. Un ET plus élevé la rentre.'],
+          ['Filetage et fixation', 'Certains véhicules utilisent des boulons, d’autres des écrous. Le filetage et le siège doivent correspondre.', 'Exemple : M14x1.5 n’est pas interchangeable avec M12x1.5.'],
+          ['Largeur de jante', 'Une jante plus large change la position même avec le même ET. Il faut vérifier côté suspension et aile.', 'Un pouce de plus ajoute environ 12.7 mm de chaque côté avant changement d’ET.'],
+          ['Année, marché et freins', 'Le même modèle peut avoir des valeurs différentes selon année, marché, moteur, finition ou freins.', 'Vérifiez toujours les données exactes avant achat.']
+        ]
+      },
+      de: {
+        tireCalculator: 'Reifenrechner',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Verbrauch',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        guides: 'Ratgeber',
+        title: 'Grundlagen der Felgenpassung',
+        lead: 'Kurzer praktischer Ratgeber zu den wichtigsten Zahlen beim Prüfen, ob Felgen auf ein Auto passen.',
+        openPcd: 'PCD-Datenbank öffnen',
+        openTire: 'Reifenrechner öffnen',
+        cards: [
+          ['PCD / Lochkreis', 'Der PCD beschreibt Anzahl der Radschrauben oder Stehbolzen und den Durchmesser ihres Kreises.', 'Beispiel: 5x112 bedeutet 5 Schrauben auf einem Kreis mit 112 mm.'],
+          ['Mittenloch', 'Das Mittenloch ist die Öffnung in der Felgenmitte. Es muss zur Radnabe passen oder passende Zentrierringe nutzen.', 'Beispiel: 66.6 mm Felge auf 66.6 mm Nabe passt direkt.'],
+          ['Einpresstiefe / ET', 'Die ET zeigt, wie weit die Montagefläche von der Felgenmitte entfernt ist. Sie verändert Innenfreiheit und Außenstand.', 'Kleinere ET bewegt das Rad meist nach außen. Größere ET meist nach innen.'],
+          ['Gewinde und Befestigung', 'Fahrzeuge nutzen Radschrauben oder Radmuttern. Gewinde und Sitzform müssen zu Fahrzeug und Felge passen.', 'Beispiel: M14x1.5 ist nicht mit M12x1.5 austauschbar.'],
+          ['Felgenbreite', 'Breitere Felgen ändern die Position auch bei gleicher ET. Innenfreiheit und Kotflügel müssen geprüft werden.', 'Ein Zoll mehr Breite bringt etwa 12.7 mm pro Seite vor ET-Änderungen.'],
+          ['Baujahr, Markt und Bremsen', 'Gleicher Modellname kann je nach Baujahr, Markt, Motor, Ausstattung oder Bremsanlage andere Werte haben.', 'Vor dem Kauf immer die exakten Fahrzeugdaten prüfen.']
+        ]
+      }
+    };
+
+    let lang = 'en';
+    const cardsEl = document.getElementById('guideCards');
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function renderCards() {
+      cardsEl.innerHTML = t('cards').map(([title, text, example]) => `
+        <article class="panel">
+          <h2>${title}</h2>
+          <div class="panel-body">
+            ${text}
+            <div class="example">${example}</div>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = `Autohub ${t('title')}`;
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+      renderCards();
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        translatePage();
+      });
+    });
+
+    translatePage();
+  </script>
+</body>
+</html>
 
