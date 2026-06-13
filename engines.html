@@ -1,1 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autohub Section</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 820px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      align-items: stretch;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: #e6f6f4;
+      color: var(--accent-dark);
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+    .links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 0 14px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .link-button.secondary {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .langbar {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body data-section="engines">
+  <header class="topbar">
+    <nav class="nav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Consumption</a>
+      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="guides.html" data-i18n="guides">Guides</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="status" data-i18n="status">In development</div>
+    <h1 data-i18n="title">Section</h1>
+    <p class="lead" data-i18n="lead">This Autohub section is being prepared.</p>
+
+    <section class="grid" id="cards"></section>
+
+    <div class="links">
+      <a class="link-button" href="index.html" data-i18n="openTire">Open Tire Calculator</a>
+      <a class="link-button secondary" href="pcd.html" data-i18n="openPcd">Open PCD Database</a>
+      <a class="link-button secondary" href="fuel.html" data-i18n="openFuel">Open Fuel Calculator</a>
+    </div>
+  </main>
+
+  <script>
+    const sectionKey = document.body.dataset.section || 'diagnostics';
+
+    const shared = {
+      en: {
+        tireCalculator: 'Tire Calculator',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Consumption',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        guides: 'Guides',
+        status: 'In development',
+        openTire: 'Open Tire Calculator',
+        openPcd: 'Open PCD Database',
+        openFuel: 'Open Fuel Calculator'
+      },
+      es: {
+        tireCalculator: 'Calculadora de neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consumo',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        guides: 'Guías',
+        status: 'En desarrollo',
+        openTire: 'Abrir calculadora de neumáticos',
+        openPcd: 'Abrir base PCD',
+        openFuel: 'Abrir calculadora de consumo'
+      },
+      fr: {
+        tireCalculator: 'Calculateur de pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consommation',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        guides: 'Guides',
+        status: 'En développement',
+        openTire: 'Ouvrir le calculateur de pneus',
+        openPcd: 'Ouvrir la base PCD',
+        openFuel: 'Ouvrir le calculateur carburant'
+      },
+      de: {
+        tireCalculator: 'Reifenrechner',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Verbrauch',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        guides: 'Ratgeber',
+        status: 'In Entwicklung',
+        openTire: 'Reifenrechner öffnen',
+        openPcd: 'PCD-Datenbank öffnen',
+        openFuel: 'Verbrauchsrechner öffnen'
+      }
+    };
+
+    const content = {
+      diagnostics: {
+        active: 'diagnostics',
+        en: {
+          title: 'Diagnostics',
+          lead: 'A future tool section for OBD software, brand-specific diagnostics and adapter compatibility.',
+          cards: [
+            ['OBD software', 'Catalog open and official diagnostic software by vehicle brand and adapter type.'],
+            ['Adapter compatibility', 'Explain ELM327, J2534, ENET, KKL, VAG and other common interfaces.'],
+            ['Brand workflows', 'Simple guides for reading codes, live data and service functions.']
+          ]
+        },
+        es: {
+          title: 'Diagnóstico',
+          lead: 'Futura sección para software OBD, diagnóstico por marca y compatibilidad de adaptadores.',
+          cards: [
+            ['Software OBD', 'Catálogo de software abierto u oficial por marca y tipo de adaptador.'],
+            ['Compatibilidad', 'Explicación de ELM327, J2534, ENET, KKL, VAG y otras interfaces.'],
+            ['Flujos por marca', 'Guías simples para leer códigos, datos en vivo y funciones de servicio.']
+          ]
+        },
+        fr: {
+          title: 'Diagnostic',
+          lead: 'Future section pour logiciels OBD, diagnostics par marque et compatibilité des adaptateurs.',
+          cards: [
+            ['Logiciels OBD', 'Catalogue de logiciels ouverts ou officiels par marque et type d’adaptateur.'],
+            ['Compatibilité', 'Explication des interfaces ELM327, J2534, ENET, KKL, VAG et autres.'],
+            ['Méthodes par marque', 'Guides simples pour lire codes défauts, données live et fonctions service.']
+          ]
+        },
+        de: {
+          title: 'Diagnose',
+          lead: 'Geplanter Bereich für OBD-Software, markenspezifische Diagnose und Adapter-Kompatibilität.',
+          cards: [
+            ['OBD-Software', 'Katalog offener und offizieller Diagnose-Software nach Marke und Adaptertyp.'],
+            ['Kompatibilität', 'Erklärung von ELM327, J2534, ENET, KKL, VAG und weiteren Schnittstellen.'],
+            ['Marken-Workflows', 'Einfache Anleitungen für Fehlercodes, Live-Daten und Servicefunktionen.']
+          ]
+        }
+      },
+      engines: {
+        active: 'engines',
+        en: {
+          title: 'Engines',
+          lead: 'A future engine knowledge base with engine codes, common issues, strengths, weaknesses and used-car risk notes.',
+          cards: [
+            ['Engine codes', 'Find engines by code, manufacturer, model and production years.'],
+            ['Known problems', 'Summarize weak points, maintenance risks and typical repair topics.'],
+            ['Used-car checks', 'Short checklists for buyers before inspection or purchase.']
+          ]
+        },
+        es: {
+          title: 'Motores',
+          lead: 'Futura base de motores con códigos, problemas comunes, puntos fuertes, debilidades y riesgos al comprar usado.',
+          cards: [
+            ['Códigos de motor', 'Buscar motores por código, fabricante, modelo y años.'],
+            ['Problemas conocidos', 'Resumen de puntos débiles, mantenimiento y reparaciones típicas.'],
+            ['Compra de usados', 'Listas cortas de revisión antes de inspeccionar o comprar.']
+          ]
+        },
+        fr: {
+          title: 'Moteurs',
+          lead: 'Future base moteur avec codes, problèmes fréquents, points forts, faiblesses et risques en occasion.',
+          cards: [
+            ['Codes moteur', 'Rechercher par code, constructeur, modèle et années de production.'],
+            ['Problèmes connus', 'Résumé des faiblesses, risques d’entretien et réparations courantes.'],
+            ['Achat occasion', 'Checklists courtes avant inspection ou achat.']
+          ]
+        },
+        de: {
+          title: 'Motoren',
+          lead: 'Geplante Motor-Datenbank mit Codes, bekannten Problemen, Stärken, Schwächen und Gebrauchtwagen-Risiken.',
+          cards: [
+            ['Motorcodes', 'Motoren nach Code, Hersteller, Modell und Baujahren finden.'],
+            ['Bekannte Probleme', 'Schwachstellen, Wartungsrisiken und typische Reparaturen kurz erklären.'],
+            ['Gebrauchtwagen-Check', 'Kurze Checklisten vor Besichtigung oder Kauf.']
+          ]
+        }
+      },
+      guides: {
+        active: 'guides',
+        en: {
+          title: 'Guides',
+          lead: 'A future library of practical automotive guides connected to Autohub tools.',
+          cards: [
+            ['Wheel fitment basics', 'PCD, center bore, offset, spacers and tire-size tolerance.'],
+            ['Fuel economy', 'How driving style, tires, weather and load affect real consumption.'],
+            ['Diagnostics basics', 'What fault codes mean and how to avoid bad adapter choices.']
+          ]
+        },
+        es: {
+          title: 'Guías',
+          lead: 'Futura biblioteca de guías prácticas conectadas con las herramientas de Autohub.',
+          cards: [
+            ['Compatibilidad de ruedas', 'PCD, buje, ET, separadores y tolerancia de neumáticos.'],
+            ['Ahorro de combustible', 'Cómo estilo de conducción, neumáticos, clima y carga afectan el consumo.'],
+            ['Diagnóstico básico', 'Qué significan los códigos y cómo evitar malos adaptadores.']
+          ]
+        },
+        fr: {
+          title: 'Guides',
+          lead: 'Future bibliothèque de guides pratiques reliés aux outils Autohub.',
+          cards: [
+            ['Montage roues', 'PCD, alésage, déport, cales et tolérance de dimensions pneus.'],
+            ['Économie de carburant', 'Influence du style de conduite, pneus, météo et charge.'],
+            ['Bases diagnostic', 'Comprendre les codes défauts et éviter les mauvais adaptateurs.']
+          ]
+        },
+        de: {
+          title: 'Ratgeber',
+          lead: 'Geplante Sammlung praktischer Auto-Ratgeber, verbunden mit den Autohub-Tools.',
+          cards: [
+            ['Felgenpassung', 'PCD, Mittenloch, ET, Spurplatten und Reifengrößen-Toleranz.'],
+            ['Sprit sparen', 'Wie Fahrstil, Reifen, Wetter und Beladung den Verbrauch beeinflussen.'],
+            ['Diagnose-Grundlagen', 'Fehlercodes verstehen und schlechte Adapter vermeiden.']
+          ]
+        }
+      }
+    };
+
+    let lang = 'en';
+    const page = content[sectionKey];
+    const cardsEl = document.getElementById('cards');
+
+    function t(key) {
+      return (shared[lang] && shared[lang][key]) || (page[lang] && page[lang][key]) || shared.en[key] || page.en[key] || key;
+    }
+
+    function renderCards() {
+      cardsEl.innerHTML = page[lang].cards.map(([title, text]) => `
+        <article class="panel">
+          <h2>${title}</h2>
+          <div class="panel-body">${text}</div>
+        </article>
+      `).join('');
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = `Autohub ${page[lang].title}`;
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelector(`a[data-i18n="${page.active}"]`).classList.add('active');
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+      renderCards();
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        translatePage();
+      });
+    });
+
+    translatePage();
+  </script>
+</body>
+</html>
+
 
