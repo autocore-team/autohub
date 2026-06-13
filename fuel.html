@@ -1,1 +1,683 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autohub Fuel Cost Calculator</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 820px;
+      line-height: 1.5;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 390px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+    }
+    .form-grid {
+      display: grid;
+      gap: 12px;
+    }
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.25;
+    }
+    input,
+    select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 12px;
+      font-size: 15px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 120px;
+      gap: 10px;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border: 0;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      padding: 0 14px;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .action:hover {
+      background: var(--accent-dark);
+      color: #fff;
+    }
+    .action.secondary {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .metric {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      min-height: 86px;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .metric strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.2;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th,
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 700;
+      background: var(--soft);
+    }
+    .guide {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 14px;
+    }
+    .guide strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+      font-size: 15px;
+    }
+    @media (max-width: 900px) {
+      .layout,
+      .metrics {
+        grid-template-columns: 1fr;
+      }
+      .langbar {
+        margin-left: 0;
+      }
+    }
+    @media (max-width: 520px) {
+      .row {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" class="active" data-i18n="fuel">Fuel Consumption</a>
+      <a href="#" data-i18n="diagnostics">Diagnostics</a>
+      <a href="#" data-i18n="engines">Engines</a>
+      <a href="#" data-i18n="guides">Guides</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">Fuel Cost Calculator</h1>
+    <p class="lead" data-i18n="lead">Calculate trip fuel use, trip cost and estimated monthly or yearly fuel budget from distance, consumption and fuel price.</p>
+
+    <section class="layout">
+      <div class="panel">
+        <h2 data-i18n="inputs">Inputs</h2>
+        <div class="panel-body">
+          <div class="form-grid">
+            <label>
+              <span data-i18n="distance">Distance</span>
+              <div class="row">
+                <input id="distance" type="number" min="0" step="1" value="100">
+                <select id="distanceUnit">
+                  <option value="km">km</option>
+                  <option value="mi">mi</option>
+                </select>
+              </div>
+            </label>
+
+            <label>
+              <span data-i18n="consumption">Fuel consumption</span>
+              <div class="row">
+                <input id="consumption" type="number" min="0" step="0.1" value="7.5">
+                <select id="consumptionUnit">
+                  <option value="l100">L/100 km</option>
+                  <option value="mpg_us">MPG US</option>
+                  <option value="mpg_uk">MPG UK</option>
+                </select>
+              </div>
+            </label>
+
+            <label>
+              <span data-i18n="fuelPrice">Fuel price</span>
+              <div class="row">
+                <input id="price" type="number" min="0" step="0.01" value="1.80">
+                <select id="currency">
+                  <option value="€">€</option>
+                  <option value="$">$</option>
+                  <option value="£">£</option>
+                  <option value="CHF">CHF</option>
+                </select>
+              </div>
+            </label>
+
+            <label>
+              <span data-i18n="repeat">Repeat this trip</span>
+              <select id="repeat">
+                <option value="1" data-i18n-option="once">Once</option>
+                <option value="2" data-i18n-option="roundTrip">Round trip</option>
+                <option value="20" data-i18n-option="workMonth">20 times</option>
+                <option value="240" data-i18n-option="workYear">240 times</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button type="button" class="action" id="copyLink" data-i18n="copyLink">Copy link</button>
+            <button type="button" class="action secondary" id="resetButton" data-i18n="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2 data-i18n="results">Results</h2>
+        <div class="panel-body">
+          <div class="metrics">
+            <div class="metric">
+              <span data-i18n="fuelNeeded">Fuel needed</span>
+              <strong id="fuelNeeded">7.5 L</strong>
+            </div>
+            <div class="metric">
+              <span data-i18n="tripCost">Trip cost</span>
+              <strong id="tripCost">€13.50</strong>
+            </div>
+            <div class="metric">
+              <span data-i18n="effectiveCost">Cost per 100 km</span>
+              <strong id="costPer100">€13.50</strong>
+            </div>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="parameter">Parameter</th>
+                <th data-i18n="value">Value</th>
+              </tr>
+            </thead>
+            <tbody id="resultRows"></tbody>
+          </table>
+
+          <div class="guide">
+            <strong data-i18n="guideTitle">How to use this calculator</strong>
+            <span data-i18n="guideText">Use real average consumption from your car when possible. Short city trips, winter tires, roof boxes and heavy load can increase fuel use.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const translations = {
+      en: {
+        tireCalculator: 'Tire Calculator',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Consumption',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        guides: 'Guides',
+        title: 'Fuel Cost Calculator',
+        lead: 'Calculate trip fuel use, trip cost and estimated monthly or yearly fuel budget from distance, consumption and fuel price.',
+        inputs: 'Inputs',
+        results: 'Results',
+        distance: 'Distance',
+        consumption: 'Fuel consumption',
+        fuelPrice: 'Fuel price',
+        repeat: 'Repeat this trip',
+        once: 'Once',
+        roundTrip: 'Round trip',
+        workMonth: '20 times',
+        workYear: '240 times',
+        copyLink: 'Copy link',
+        copied: 'Copied',
+        reset: 'Reset',
+        fuelNeeded: 'Fuel needed',
+        tripCost: 'Trip cost',
+        effectiveCost: 'Cost per 100 km',
+        parameter: 'Parameter',
+        value: 'Value',
+        totalDistance: 'Total distance',
+        normalizedConsumption: 'Consumption',
+        fuelPriceRow: 'Fuel price',
+        repeatRow: 'Multiplier',
+        guideTitle: 'How to use this calculator',
+        guideText: 'Use real average consumption from your car when possible. Short city trips, winter tires, roof boxes and heavy load can increase fuel use.'
+      },
+      es: {
+        tireCalculator: 'Calculadora de neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consumo',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        guides: 'Guías',
+        title: 'Calculadora de coste de combustible',
+        lead: 'Calcula el combustible necesario, el coste del viaje y una estimación mensual o anual según distancia, consumo y precio.',
+        inputs: 'Datos',
+        results: 'Resultados',
+        distance: 'Distancia',
+        consumption: 'Consumo',
+        fuelPrice: 'Precio del combustible',
+        repeat: 'Repetir este viaje',
+        once: 'Una vez',
+        roundTrip: 'Ida y vuelta',
+        workMonth: '20 veces',
+        workYear: '240 veces',
+        copyLink: 'Copiar enlace',
+        copied: 'Copiado',
+        reset: 'Restablecer',
+        fuelNeeded: 'Combustible necesario',
+        tripCost: 'Coste del viaje',
+        effectiveCost: 'Coste por 100 km',
+        parameter: 'Parámetro',
+        value: 'Valor',
+        totalDistance: 'Distancia total',
+        normalizedConsumption: 'Consumo',
+        fuelPriceRow: 'Precio del combustible',
+        repeatRow: 'Multiplicador',
+        guideTitle: 'Cómo usar esta calculadora',
+        guideText: 'Usa el consumo medio real de tu coche cuando sea posible. Trayectos urbanos cortos, neumáticos de invierno, cofres de techo y carga pesada pueden aumentar el consumo.'
+      },
+      fr: {
+        tireCalculator: 'Calculateur de pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Consommation',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        guides: 'Guides',
+        title: 'Calculateur de coût carburant',
+        lead: 'Calculez le carburant nécessaire, le coût du trajet et une estimation mensuelle ou annuelle selon distance, consommation et prix.',
+        inputs: 'Données',
+        results: 'Résultats',
+        distance: 'Distance',
+        consumption: 'Consommation',
+        fuelPrice: 'Prix du carburant',
+        repeat: 'Répéter ce trajet',
+        once: 'Une fois',
+        roundTrip: 'Aller-retour',
+        workMonth: '20 fois',
+        workYear: '240 fois',
+        copyLink: 'Copier le lien',
+        copied: 'Copié',
+        reset: 'Réinitialiser',
+        fuelNeeded: 'Carburant nécessaire',
+        tripCost: 'Coût du trajet',
+        effectiveCost: 'Coût pour 100 km',
+        parameter: 'Paramètre',
+        value: 'Valeur',
+        totalDistance: 'Distance totale',
+        normalizedConsumption: 'Consommation',
+        fuelPriceRow: 'Prix du carburant',
+        repeatRow: 'Multiplicateur',
+        guideTitle: 'Comment utiliser ce calculateur',
+        guideText: 'Utilisez si possible la consommation moyenne réelle de votre voiture. Les courts trajets urbains, pneus hiver, coffres de toit et charges lourdes peuvent augmenter la consommation.'
+      },
+      de: {
+        tireCalculator: 'Reifenrechner',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Verbrauch',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        guides: 'Ratgeber',
+        title: 'Kraftstoffkosten-Rechner',
+        lead: 'Berechne Kraftstoffbedarf, Fahrtkosten und einen Monats- oder Jahreswert aus Strecke, Verbrauch und Kraftstoffpreis.',
+        inputs: 'Eingaben',
+        results: 'Ergebnisse',
+        distance: 'Strecke',
+        consumption: 'Verbrauch',
+        fuelPrice: 'Kraftstoffpreis',
+        repeat: 'Diese Fahrt wiederholen',
+        once: 'Einmal',
+        roundTrip: 'Hin und zurück',
+        workMonth: '20-mal',
+        workYear: '240-mal',
+        copyLink: 'Link kopieren',
+        copied: 'Kopiert',
+        reset: 'Zurücksetzen',
+        fuelNeeded: 'Kraftstoffbedarf',
+        tripCost: 'Fahrtkosten',
+        effectiveCost: 'Kosten pro 100 km',
+        parameter: 'Parameter',
+        value: 'Wert',
+        totalDistance: 'Gesamtstrecke',
+        normalizedConsumption: 'Verbrauch',
+        fuelPriceRow: 'Kraftstoffpreis',
+        repeatRow: 'Multiplikator',
+        guideTitle: 'So nutzt du den Rechner',
+        guideText: 'Nutze möglichst den realen Durchschnittsverbrauch deines Autos. Kurze Stadtfahrten, Winterreifen, Dachboxen und schwere Ladung können den Verbrauch erhöhen.'
+      }
+    };
+
+    const defaults = {
+      distance: 100,
+      distanceUnit: 'km',
+      consumption: 7.5,
+      consumptionUnit: 'l100',
+      price: 1.8,
+      currency: '€',
+      repeat: 1
+    };
+
+    let lang = 'en';
+
+    const fields = {
+      distance: document.getElementById('distance'),
+      distanceUnit: document.getElementById('distanceUnit'),
+      consumption: document.getElementById('consumption'),
+      consumptionUnit: document.getElementById('consumptionUnit'),
+      price: document.getElementById('price'),
+      currency: document.getElementById('currency'),
+      repeat: document.getElementById('repeat')
+    };
+    const fuelNeededEl = document.getElementById('fuelNeeded');
+    const tripCostEl = document.getElementById('tripCost');
+    const costPer100El = document.getElementById('costPer100');
+    const resultRowsEl = document.getElementById('resultRows');
+    const copyLinkEl = document.getElementById('copyLink');
+    const resetButtonEl = document.getElementById('resetButton');
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function numberValue(input, fallback) {
+      const value = Number(input.value);
+      return Number.isFinite(value) && value >= 0 ? value : fallback;
+    }
+
+    function distanceToKm(value, unit) {
+      return unit === 'mi' ? value * 1.609344 : value;
+    }
+
+    function l100FromConsumption(value, unit) {
+      if (unit === 'mpg_us') return value > 0 ? 235.214583 / value : 0;
+      if (unit === 'mpg_uk') return value > 0 ? 282.480936 / value : 0;
+      return value;
+    }
+
+    function formatNumber(value, digits = 1) {
+      return Number(value).toFixed(digits);
+    }
+
+    function money(value) {
+      const currency = fields.currency.value;
+      const formatted = Number(value).toFixed(2);
+      return currency === '€' || currency === '$' || currency === '£'
+        ? `${currency}${formatted}`
+        : `${formatted} ${currency}`;
+    }
+
+    function row(label, value) {
+      return `
+        <tr>
+          <td>${label}</td>
+          <td>${value}</td>
+        </tr>
+      `;
+    }
+
+    function updateOptionLabels() {
+      document.querySelectorAll('[data-i18n-option]').forEach((option) => {
+        option.textContent = t(option.dataset.i18nOption);
+      });
+    }
+
+    function updateUrlState() {
+      const params = new URLSearchParams();
+      Object.keys(fields).forEach((key) => {
+        params.set(key, fields[key].value);
+      });
+      if (lang !== 'en') params.set('lang', lang);
+      const nextUrl = `${window.location.pathname}?${params.toString()}`;
+      window.history.replaceState(null, '', nextUrl);
+    }
+
+    function initFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const requestedLang = params.get('lang');
+      if (translations[requestedLang]) lang = requestedLang;
+      Object.keys(fields).forEach((key) => {
+        const value = params.get(key);
+        if (value !== null) fields[key].value = value;
+      });
+    }
+
+    function calculate() {
+      const distance = numberValue(fields.distance, defaults.distance);
+      const distanceKm = distanceToKm(distance, fields.distanceUnit.value);
+      const repeat = numberValue(fields.repeat, defaults.repeat);
+      const totalKm = distanceKm * repeat;
+      const l100 = l100FromConsumption(numberValue(fields.consumption, defaults.consumption), fields.consumptionUnit.value);
+      const fuelLiters = totalKm * l100 / 100;
+      const price = numberValue(fields.price, defaults.price);
+      const totalCost = fuelLiters * price;
+      const costPer100 = l100 * price;
+
+      fuelNeededEl.textContent = `${formatNumber(fuelLiters, 2)} L`;
+      tripCostEl.textContent = money(totalCost);
+      costPer100El.textContent = money(costPer100);
+
+      resultRowsEl.innerHTML = [
+        row(t('totalDistance'), `${formatNumber(totalKm, 1)} km`),
+        row(t('normalizedConsumption'), `${formatNumber(l100, 2)} L/100 km`),
+        row(t('fuelPriceRow'), `${money(price)} / L`),
+        row(t('repeatRow'), `${formatNumber(repeat, 0)}x`)
+      ].join('');
+
+      updateUrlState();
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = `Autohub ${t('title')}`;
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+      updateOptionLabels();
+      copyLinkEl.textContent = t('copyLink');
+      calculate();
+    }
+
+    async function copyCurrentLink() {
+      updateUrlState();
+      const url = window.location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        copyLinkEl.textContent = t('copied');
+        window.setTimeout(() => {
+          copyLinkEl.textContent = t('copyLink');
+        }, 1400);
+      } catch (error) {
+        window.prompt(t('copyLink'), url);
+      }
+    }
+
+    function resetCalculator() {
+      Object.keys(defaults).forEach((key) => {
+        fields[key].value = defaults[key];
+      });
+      calculate();
+    }
+
+    Object.values(fields).forEach((field) => {
+      field.addEventListener('input', calculate);
+      field.addEventListener('change', calculate);
+    });
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        translatePage();
+      });
+    });
+
+    copyLinkEl.addEventListener('click', copyCurrentLink);
+    resetButtonEl.addEventListener('click', resetCalculator);
+
+    initFromUrl();
+    translatePage();
+  </script>
+</body>
+</html>
 
