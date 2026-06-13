@@ -189,6 +189,16 @@
       font-size: 14px;
       min-height: 20px;
     }
+    .details-title {
+      margin: 0 0 12px;
+      font-size: 18px;
+      line-height: 1.25;
+      color: var(--text);
+    }
+    .details-title span {
+      color: var(--muted);
+      font-weight: 400;
+    }
     button {
       min-height: 38px;
       border: 0;
@@ -326,6 +336,7 @@
         popularPcd: 'Popular PCD',
         summaryAll: 'Showing all makes and models.',
         summaryFiltered: 'Found {makes} makes, {models} models and {records} records for "{query}".',
+        modelTitle: '{make} {model} — PCD & center bore',
         chooseMake: 'Choose a make.',
         noMakes: 'No makes found. Try another search.',
         noModels: 'No models found for this filter.',
@@ -362,6 +373,7 @@
         popularPcd: 'PCD popular',
         summaryAll: 'Mostrando todas las marcas y modelos.',
         summaryFiltered: 'Encontrado: {makes} marcas, {models} modelos y {records} registros para "{query}".',
+        modelTitle: '{make} {model} — PCD y buje central',
         chooseMake: 'Elige una marca.',
         noMakes: 'No se encontraron marcas. Prueba otra búsqueda.',
         noModels: 'No se encontraron modelos para este filtro.',
@@ -398,6 +410,7 @@
         popularPcd: 'PCD populaires',
         summaryAll: 'Toutes les marques et modèles sont affichés.',
         summaryFiltered: 'Trouvé : {makes} marques, {models} modèles et {records} lignes pour "{query}".',
+        modelTitle: '{make} {model} — PCD et alésage central',
         chooseMake: 'Choisissez une marque.',
         noMakes: 'Aucune marque trouvée. Essayez une autre recherche.',
         noModels: 'Aucun modèle trouvé pour ce filtre.',
@@ -434,6 +447,7 @@
         popularPcd: 'Beliebte PCD',
         summaryAll: 'Alle Marken und Modelle werden angezeigt.',
         summaryFiltered: 'Gefunden: {makes} Marken, {models} Modelle und {records} Einträge für "{query}".',
+        modelTitle: '{make} {model} — PCD und Mittenloch',
         chooseMake: 'Wähle eine Marke.',
         noMakes: 'Keine Marken gefunden. Versuche eine andere Suche.',
         noModels: 'Keine Modelle für diesen Filter gefunden.',
@@ -584,6 +598,14 @@
 
     function formatSummary(template, values) {
       return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
+    }
+
+    function modelTitle() {
+      if (!selectedBrand || !selectedModel) return '';
+      return formatSummary(t('modelTitle'), {
+        make: selectedBrand.name,
+        model: selectedModel.name
+      });
     }
 
     function filterStats(q) {
@@ -748,6 +770,7 @@
         </tr>
       `).join('');
       detailsEl.innerHTML = `
+        <h3 class="details-title">${modelTitle()}</h3>
         <div class="notice">${t('notice')}</div>
         <table>
           <thead>
