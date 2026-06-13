@@ -100,6 +100,9 @@
       gap: 16px;
       align-items: start;
     }
+    .section {
+      margin-top: 16px;
+    }
     .panel {
       background: var(--panel);
       border: 1px solid var(--line);
@@ -194,6 +197,13 @@
       display: block;
       font-size: 22px;
       line-height: 1.2;
+    }
+    .metric .sub {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
     }
     table {
       width: 100%;
@@ -364,6 +374,94 @@
         </div>
       </div>
     </section>
+
+    <section class="layout section">
+      <div class="panel">
+        <h2 data-i18n="compareTitle">Compare two cars</h2>
+        <div class="panel-body">
+          <div class="form-grid">
+            <label>
+              <span data-i18n="annualDistance">Annual distance</span>
+              <div class="row">
+                <input id="compareDistance" type="number" min="0" step="100" value="15000">
+                <select id="compareDistanceUnit">
+                  <option value="km">km</option>
+                  <option value="mi">mi</option>
+                </select>
+              </div>
+            </label>
+
+            <label>
+              <span data-i18n="carAConsumption">Car A consumption</span>
+              <input id="carAConsumption" type="number" min="0" step="0.1" value="8.0">
+            </label>
+
+            <label>
+              <span data-i18n="carBConsumption">Car B consumption</span>
+              <input id="carBConsumption" type="number" min="0" step="0.1" value="5.5">
+            </label>
+
+            <label>
+              <span data-i18n="consumptionUnit">Consumption unit</span>
+              <select id="compareConsumptionUnit">
+                <option value="l100">L/100 km</option>
+                <option value="mpg_us">MPG US</option>
+                <option value="mpg_uk">MPG UK</option>
+              </select>
+            </label>
+
+            <label>
+              <span data-i18n="fuelPrice">Fuel price</span>
+              <div class="row">
+                <input id="comparePrice" type="number" min="0" step="0.01" value="1.80">
+                <select id="compareCurrency">
+                  <option value="€">€</option>
+                  <option value="$">$</option>
+                  <option value="£">£</option>
+                  <option value="CHF">CHF</option>
+                </select>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2 data-i18n="compareResults">Annual comparison</h2>
+        <div class="panel-body">
+          <div class="metrics">
+            <div class="metric">
+              <span data-i18n="carACost">Car A yearly cost</span>
+              <strong id="carACost">€0.00</strong>
+            </div>
+            <div class="metric">
+              <span data-i18n="carBCost">Car B yearly cost</span>
+              <strong id="carBCost">€0.00</strong>
+            </div>
+            <div class="metric">
+              <span data-i18n="annualDifference">Annual difference</span>
+              <strong id="annualDifference">€0.00</strong>
+              <span class="sub" id="savingText">Car B is cheaper</span>
+            </div>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="parameter">Parameter</th>
+                <th data-i18n="value">Value</th>
+              </tr>
+            </thead>
+            <tbody id="compareRows"></tbody>
+          </table>
+
+          <div class="guide">
+            <strong data-i18n="compareGuideTitle">Use this when choosing a car</strong>
+            <span data-i18n="compareGuideText">Small consumption differences become large over a year. Use realistic mixed-driving numbers, not only official brochure values.</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
@@ -382,6 +480,10 @@
         distance: 'Distance',
         consumption: 'Fuel consumption',
         fuelPrice: 'Fuel price',
+        annualDistance: 'Annual distance',
+        carAConsumption: 'Car A consumption',
+        carBConsumption: 'Car B consumption',
+        consumptionUnit: 'Consumption unit',
         repeat: 'Repeat this trip',
         once: 'Once',
         roundTrip: 'Round trip',
@@ -399,6 +501,20 @@
         normalizedConsumption: 'Consumption',
         fuelPriceRow: 'Fuel price',
         repeatRow: 'Multiplier',
+        compareTitle: 'Compare two cars',
+        compareResults: 'Annual comparison',
+        carACost: 'Car A yearly cost',
+        carBCost: 'Car B yearly cost',
+        annualDifference: 'Annual difference',
+        carAFuel: 'Car A fuel per year',
+        carBFuel: 'Car B fuel per year',
+        fuelDifference: 'Fuel difference',
+        lowerCost: 'Lower cost',
+        carASaves: 'Car A is cheaper',
+        carBSaves: 'Car B is cheaper',
+        sameCost: 'Both cars cost the same',
+        compareGuideTitle: 'Use this when choosing a car',
+        compareGuideText: 'Small consumption differences become large over a year. Use realistic mixed-driving numbers, not only official brochure values.',
         guideTitle: 'How to use this calculator',
         guideText: 'Use real average consumption from your car when possible. Short city trips, winter tires, roof boxes and heavy load can increase fuel use.'
       },
@@ -416,6 +532,10 @@
         distance: 'Distancia',
         consumption: 'Consumo',
         fuelPrice: 'Precio del combustible',
+        annualDistance: 'Distancia anual',
+        carAConsumption: 'Consumo del coche A',
+        carBConsumption: 'Consumo del coche B',
+        consumptionUnit: 'Unidad de consumo',
         repeat: 'Repetir este viaje',
         once: 'Una vez',
         roundTrip: 'Ida y vuelta',
@@ -433,6 +553,20 @@
         normalizedConsumption: 'Consumo',
         fuelPriceRow: 'Precio del combustible',
         repeatRow: 'Multiplicador',
+        compareTitle: 'Comparar dos coches',
+        compareResults: 'Comparación anual',
+        carACost: 'Coste anual coche A',
+        carBCost: 'Coste anual coche B',
+        annualDifference: 'Diferencia anual',
+        carAFuel: 'Combustible anual coche A',
+        carBFuel: 'Combustible anual coche B',
+        fuelDifference: 'Diferencia de combustible',
+        lowerCost: 'Menor coste',
+        carASaves: 'El coche A es más barato',
+        carBSaves: 'El coche B es más barato',
+        sameCost: 'Ambos coches cuestan lo mismo',
+        compareGuideTitle: 'Úsalo al elegir un coche',
+        compareGuideText: 'Pequeñas diferencias de consumo se vuelven grandes en un año. Usa cifras realistas de conducción mixta, no solo valores oficiales.',
         guideTitle: 'Cómo usar esta calculadora',
         guideText: 'Usa el consumo medio real de tu coche cuando sea posible. Trayectos urbanos cortos, neumáticos de invierno, cofres de techo y carga pesada pueden aumentar el consumo.'
       },
@@ -450,6 +584,10 @@
         distance: 'Distance',
         consumption: 'Consommation',
         fuelPrice: 'Prix du carburant',
+        annualDistance: 'Distance annuelle',
+        carAConsumption: 'Consommation voiture A',
+        carBConsumption: 'Consommation voiture B',
+        consumptionUnit: 'Unité de consommation',
         repeat: 'Répéter ce trajet',
         once: 'Une fois',
         roundTrip: 'Aller-retour',
@@ -467,6 +605,20 @@
         normalizedConsumption: 'Consommation',
         fuelPriceRow: 'Prix du carburant',
         repeatRow: 'Multiplicateur',
+        compareTitle: 'Comparer deux voitures',
+        compareResults: 'Comparaison annuelle',
+        carACost: 'Coût annuel voiture A',
+        carBCost: 'Coût annuel voiture B',
+        annualDifference: 'Différence annuelle',
+        carAFuel: 'Carburant annuel voiture A',
+        carBFuel: 'Carburant annuel voiture B',
+        fuelDifference: 'Différence de carburant',
+        lowerCost: 'Coût le plus bas',
+        carASaves: 'La voiture A coûte moins cher',
+        carBSaves: 'La voiture B coûte moins cher',
+        sameCost: 'Les deux voitures coûtent pareil',
+        compareGuideTitle: 'À utiliser lors du choix d’une voiture',
+        compareGuideText: 'De petites différences de consommation deviennent importantes sur un an. Utilisez des valeurs réalistes en conduite mixte, pas seulement les chiffres officiels.',
         guideTitle: 'Comment utiliser ce calculateur',
         guideText: 'Utilisez si possible la consommation moyenne réelle de votre voiture. Les courts trajets urbains, pneus hiver, coffres de toit et charges lourdes peuvent augmenter la consommation.'
       },
@@ -484,6 +636,10 @@
         distance: 'Strecke',
         consumption: 'Verbrauch',
         fuelPrice: 'Kraftstoffpreis',
+        annualDistance: 'Jahresstrecke',
+        carAConsumption: 'Verbrauch Auto A',
+        carBConsumption: 'Verbrauch Auto B',
+        consumptionUnit: 'Verbrauchseinheit',
         repeat: 'Diese Fahrt wiederholen',
         once: 'Einmal',
         roundTrip: 'Hin und zurück',
@@ -501,6 +657,20 @@
         normalizedConsumption: 'Verbrauch',
         fuelPriceRow: 'Kraftstoffpreis',
         repeatRow: 'Multiplikator',
+        compareTitle: 'Zwei Autos vergleichen',
+        compareResults: 'Jahresvergleich',
+        carACost: 'Jahreskosten Auto A',
+        carBCost: 'Jahreskosten Auto B',
+        annualDifference: 'Jährliche Differenz',
+        carAFuel: 'Kraftstoff pro Jahr Auto A',
+        carBFuel: 'Kraftstoff pro Jahr Auto B',
+        fuelDifference: 'Kraftstoffdifferenz',
+        lowerCost: 'Günstiger',
+        carASaves: 'Auto A ist günstiger',
+        carBSaves: 'Auto B ist günstiger',
+        sameCost: 'Beide Autos kosten gleich viel',
+        compareGuideTitle: 'Nützlich bei der Fahrzeugwahl',
+        compareGuideText: 'Kleine Verbrauchsunterschiede werden über ein Jahr groß. Nutze realistische Werte aus gemischter Fahrt, nicht nur Prospektangaben.',
         guideTitle: 'So nutzt du den Rechner',
         guideText: 'Nutze möglichst den realen Durchschnittsverbrauch deines Autos. Kurze Stadtfahrten, Winterreifen, Dachboxen und schwere Ladung können den Verbrauch erhöhen.'
       }
@@ -513,7 +683,14 @@
       consumptionUnit: 'l100',
       price: 1.8,
       currency: '€',
-      repeat: 1
+      repeat: 1,
+      compareDistance: 15000,
+      compareDistanceUnit: 'km',
+      carAConsumption: 8.0,
+      carBConsumption: 5.5,
+      compareConsumptionUnit: 'l100',
+      comparePrice: 1.8,
+      compareCurrency: '€'
     };
 
     let lang = 'en';
@@ -525,12 +702,24 @@
       consumptionUnit: document.getElementById('consumptionUnit'),
       price: document.getElementById('price'),
       currency: document.getElementById('currency'),
-      repeat: document.getElementById('repeat')
+      repeat: document.getElementById('repeat'),
+      compareDistance: document.getElementById('compareDistance'),
+      compareDistanceUnit: document.getElementById('compareDistanceUnit'),
+      carAConsumption: document.getElementById('carAConsumption'),
+      carBConsumption: document.getElementById('carBConsumption'),
+      compareConsumptionUnit: document.getElementById('compareConsumptionUnit'),
+      comparePrice: document.getElementById('comparePrice'),
+      compareCurrency: document.getElementById('compareCurrency')
     };
     const fuelNeededEl = document.getElementById('fuelNeeded');
     const tripCostEl = document.getElementById('tripCost');
     const costPer100El = document.getElementById('costPer100');
     const resultRowsEl = document.getElementById('resultRows');
+    const carACostEl = document.getElementById('carACost');
+    const carBCostEl = document.getElementById('carBCost');
+    const annualDifferenceEl = document.getElementById('annualDifference');
+    const savingTextEl = document.getElementById('savingText');
+    const compareRowsEl = document.getElementById('compareRows');
     const copyLinkEl = document.getElementById('copyLink');
     const resetButtonEl = document.getElementById('resetButton');
 
@@ -557,8 +746,8 @@
       return Number(value).toFixed(digits);
     }
 
-    function money(value) {
-      const currency = fields.currency.value;
+    function money(value, selectedCurrency = fields.currency.value) {
+      const currency = selectedCurrency;
       const formatted = Number(value).toFixed(2);
       return currency === '€' || currency === '$' || currency === '£'
         ? `${currency}${formatted}`
@@ -572,6 +761,11 @@
           <td>${value}</td>
         </tr>
       `;
+    }
+
+    function savingLabel(costA, costB) {
+      if (Math.abs(costA - costB) < 0.01) return t('sameCost');
+      return costA < costB ? t('carASaves') : t('carBSaves');
     }
 
     function updateOptionLabels() {
@@ -622,7 +816,37 @@
         row(t('repeatRow'), `${formatNumber(repeat, 0)}x`)
       ].join('');
 
+      calculateComparison();
       updateUrlState();
+    }
+
+    function calculateComparison() {
+      const annualDistance = numberValue(fields.compareDistance, defaults.compareDistance);
+      const annualKm = distanceToKm(annualDistance, fields.compareDistanceUnit.value);
+      const unit = fields.compareConsumptionUnit.value;
+      const carAL100 = l100FromConsumption(numberValue(fields.carAConsumption, defaults.carAConsumption), unit);
+      const carBL100 = l100FromConsumption(numberValue(fields.carBConsumption, defaults.carBConsumption), unit);
+      const price = numberValue(fields.comparePrice, defaults.comparePrice);
+      const currency = fields.compareCurrency.value;
+      const carAFuel = annualKm * carAL100 / 100;
+      const carBFuel = annualKm * carBL100 / 100;
+      const carACost = carAFuel * price;
+      const carBCost = carBFuel * price;
+      const costDifference = Math.abs(carACost - carBCost);
+      const fuelDifference = Math.abs(carAFuel - carBFuel);
+
+      carACostEl.textContent = money(carACost, currency);
+      carBCostEl.textContent = money(carBCost, currency);
+      annualDifferenceEl.textContent = money(costDifference, currency);
+      savingTextEl.textContent = savingLabel(carACost, carBCost);
+
+      compareRowsEl.innerHTML = [
+        row(t('totalDistance'), `${formatNumber(annualKm, 0)} km`),
+        row(t('carAFuel'), `${formatNumber(carAFuel, 1)} L`),
+        row(t('carBFuel'), `${formatNumber(carBFuel, 1)} L`),
+        row(t('fuelDifference'), `${formatNumber(fuelDifference, 1)} L`),
+        row(t('lowerCost'), savingLabel(carACost, carBCost))
+      ].join('');
     }
 
     function translatePage() {
@@ -680,4 +904,3 @@
   </script>
 </body>
 </html>
-
