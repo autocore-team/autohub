@@ -520,6 +520,26 @@
       return model.records.filter(record => recordMatches(record, q));
     }
 
+    function findBrandBySlug(slug) {
+      return data.find(brand => brand.slug === slug);
+    }
+
+    function findModelBySlug(brand, slug) {
+      return brand ? brand.models.find(model => model.slug === slug) : null;
+    }
+
+    function syncSelectionWithQuery() {
+      const q = currentQuery();
+      if (selectedBrand && !matchingModels(selectedBrand, q).length) {
+        selectedBrand = null;
+        selectedModel = null;
+        return;
+      }
+      if (selectedModel && (!selectedBrand || !modelMatches(selectedBrand, selectedModel, q))) {
+        selectedModel = null;
+      }
+    }
+
     function updateUrlState() {
       const params = new URLSearchParams(window.location.search);
       const query = searchEl.value.trim();
@@ -532,6 +552,16 @@
         params.set('lang', lang);
       } else {
         params.delete('lang');
+      }
+      if (selectedBrand) {
+        params.set('make', selectedBrand.slug);
+      } else {
+        params.delete('make');
+      }
+      if (selectedBrand && selectedModel) {
+        params.set('model', selectedModel.slug);
+      } else {
+        params.delete('model');
       }
       const queryString = params.toString();
       const nextUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
@@ -547,6 +577,9 @@
       }
       searchEl.value = initialSearch;
       activeQuickFilter = popularPcdFilters.includes(initialSearch) ? initialSearch : '';
+      selectedBrand = findBrandBySlug(params.get('make'));
+      selectedModel = findModelBySlug(selectedBrand, params.get('model'));
+      syncSelectionWithQuery();
     }
 
     function formatSummary(template, values) {
@@ -599,6 +632,7 @@
           const value = button.dataset.pcd;
           activeQuickFilter = activeQuickFilter === value ? '' : value;
           searchEl.value = activeQuickFilter;
+          syncSelectionWithQuery();
           updateUrlState();
           renderQuickFilters();
           renderSummary();
@@ -649,6 +683,7 @@
           button.onclick = () => {
             selectedBrand = brand;
             selectedModel = null;
+            updateUrlState();
             renderBrands(searchEl.value);
             renderModels();
             renderDetails();
@@ -680,6 +715,7 @@
         button.className = selectedModel === model ? 'selected' : '';
         button.onclick = () => {
           selectedModel = model;
+          updateUrlState();
           renderModels();
           renderDetails();
         };
@@ -744,6 +780,7 @@
 
     searchEl.addEventListener('input', () => {
       activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
+      syncSelectionWithQuery();
       updateUrlState();
       renderQuickFilters();
       renderSummary();
