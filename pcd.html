@@ -110,6 +110,22 @@
       font-size: 15px;
       background: #fff;
     }
+    .copy-link {
+      min-height: 42px;
+      border: 0;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 14px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .copy-link:hover {
+      background: var(--accent-dark);
+      color: #fff;
+    }
     .layout {
       display: grid;
       grid-template-columns: 230px 290px 1fr;
@@ -266,6 +282,7 @@
 
     <div class="toolbar">
       <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
+      <button type="button" class="copy-link" id="copyLink" data-i18n="copyLink">Copy link</button>
     </div>
     <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
     <div class="summary" id="resultSummary"></div>
@@ -304,6 +321,8 @@
         models: 'Models',
         sizes: 'Sizes',
         search: 'Search: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Copy link',
+        copied: 'Copied',
         popularPcd: 'Popular PCD',
         summaryAll: 'Showing all makes and models.',
         summaryFiltered: 'Found {makes} makes, {models} models and {records} records for "{query}".',
@@ -338,6 +357,8 @@
         models: 'Modelos',
         sizes: 'Medidas',
         search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Copiar enlace',
+        copied: 'Copiado',
         popularPcd: 'PCD popular',
         summaryAll: 'Mostrando todas las marcas y modelos.',
         summaryFiltered: 'Encontrado: {makes} marcas, {models} modelos y {records} registros para "{query}".',
@@ -372,6 +393,8 @@
         models: 'Modèles',
         sizes: 'Dimensions',
         search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Copier le lien',
+        copied: 'Copié',
         popularPcd: 'PCD populaires',
         summaryAll: 'Toutes les marques et modèles sont affichés.',
         summaryFiltered: 'Trouvé : {makes} marques, {models} modèles et {records} lignes pour "{query}".',
@@ -406,6 +429,8 @@
         models: 'Modelle',
         sizes: 'Größen',
         search: 'Suche: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Link kopieren',
+        copied: 'Kopiert',
         popularPcd: 'Beliebte PCD',
         summaryAll: 'Alle Marken und Modelle werden angezeigt.',
         summaryFiltered: 'Gefunden: {makes} Marken, {models} Modelle und {records} Einträge für "{query}".',
@@ -440,6 +465,7 @@
     const modelsEl = document.getElementById('models');
     const detailsEl = document.getElementById('details');
     const searchEl = document.getElementById('search');
+    const copyLinkEl = document.getElementById('copyLink');
     const quickFiltersEl = document.getElementById('quickFilters');
     const resultSummaryEl = document.getElementById('resultSummary');
     const popularPcdFilters = ['5x100', '5x112', '5x114.3', '5x120', '6x139.7'];
@@ -548,6 +574,22 @@
       });
     }
 
+    function resetCopyButton() {
+      copyLinkEl.textContent = t('copyLink');
+    }
+
+    async function copyCurrentLink() {
+      updateUrlState();
+      const url = window.location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        copyLinkEl.textContent = t('copied');
+        window.setTimeout(resetCopyButton, 1400);
+      } catch (error) {
+        window.prompt(t('copyLink'), url);
+      }
+    }
+
     function renderQuickFilters() {
       quickFiltersEl.innerHTML = popularPcdFilters.map((pcd) => `
         <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}">${pcd}</button>
@@ -577,6 +619,7 @@
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
+      resetCopyButton();
       renderQuickFilters();
       renderSummary();
       renderModels();
@@ -696,6 +739,8 @@
         translatePage();
       });
     });
+
+    copyLinkEl.addEventListener('click', copyCurrentLink);
 
     searchEl.addEventListener('input', () => {
       activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
