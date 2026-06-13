@@ -137,7 +137,7 @@
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
-      margin: 0 0 22px;
+      margin: 0 0 10px;
     }
     .quick-filters button {
       min-height: 34px;
@@ -166,6 +166,12 @@
       color: var(--muted);
       font-size: 12px;
       white-space: nowrap;
+    }
+    .summary {
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 14px;
+      min-height: 20px;
     }
     button {
       min-height: 38px;
@@ -262,6 +268,7 @@
       <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
     </div>
     <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
+    <div class="summary" id="resultSummary"></div>
 
     <section class="layout">
       <div class="panel">
@@ -298,6 +305,8 @@
         sizes: 'Sizes',
         search: 'Search: Audi A4, Golf, 5x112, 57.1',
         popularPcd: 'Popular PCD',
+        summaryAll: 'Showing all makes and models.',
+        summaryFiltered: 'Found {makes} makes, {models} models and {records} records for "{query}".',
         chooseMake: 'Choose a make.',
         noMakes: 'No makes found. Try another search.',
         noModels: 'No models found for this filter.',
@@ -330,6 +339,8 @@
         sizes: 'Medidas',
         search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
         popularPcd: 'PCD popular',
+        summaryAll: 'Mostrando todas las marcas y modelos.',
+        summaryFiltered: 'Encontrado: {makes} marcas, {models} modelos y {records} registros para "{query}".',
         chooseMake: 'Elige una marca.',
         noMakes: 'No se encontraron marcas. Prueba otra búsqueda.',
         noModels: 'No se encontraron modelos para este filtro.',
@@ -362,6 +373,8 @@
         sizes: 'Dimensions',
         search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
         popularPcd: 'PCD populaires',
+        summaryAll: 'Toutes les marques et modèles sont affichés.',
+        summaryFiltered: 'Trouvé : {makes} marques, {models} modèles et {records} lignes pour "{query}".',
         chooseMake: 'Choisissez une marque.',
         noMakes: 'Aucune marque trouvée. Essayez une autre recherche.',
         noModels: 'Aucun modèle trouvé pour ce filtre.',
@@ -394,6 +407,8 @@
         sizes: 'Größen',
         search: 'Suche: Audi A4, Golf, 5x112, 57.1',
         popularPcd: 'Beliebte PCD',
+        summaryAll: 'Alle Marken und Modelle werden angezeigt.',
+        summaryFiltered: 'Gefunden: {makes} Marken, {models} Modelle und {records} Einträge für "{query}".',
         chooseMake: 'Wähle eine Marke.',
         noMakes: 'Keine Marken gefunden. Versuche eine andere Suche.',
         noModels: 'Keine Modelle für diesen Filter gefunden.',
@@ -426,6 +441,7 @@
     const detailsEl = document.getElementById('details');
     const searchEl = document.getElementById('search');
     const quickFiltersEl = document.getElementById('quickFilters');
+    const resultSummaryEl = document.getElementById('resultSummary');
     const popularPcdFilters = ['5x100', '5x112', '5x114.3', '5x120', '6x139.7'];
 
     function t(key) {
@@ -478,6 +494,31 @@
       return model.records.filter(record => recordMatches(record, q));
     }
 
+    function formatSummary(template, values) {
+      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
+    }
+
+    function filterStats(q) {
+      const matchedBrands = data.filter(brand => matchingModels(brand, q).length > 0);
+      const modelCount = matchedBrands.reduce((sum, brand) => sum + matchingModels(brand, q).length, 0);
+      const recordCount = matchedBrands.reduce((sum, brand) => {
+        return sum + matchingModels(brand, q).reduce((modelSum, model) => modelSum + matchingRecords(model, q).length, 0);
+      }, 0);
+      return { makes: matchedBrands.length, models: modelCount, records: recordCount };
+    }
+
+    function renderSummary() {
+      const query = searchEl.value.trim();
+      if (!query) {
+        resultSummaryEl.textContent = t('summaryAll');
+        return;
+      }
+      resultSummaryEl.textContent = formatSummary(t('summaryFiltered'), {
+        ...filterStats(query.toLowerCase()),
+        query
+      });
+    }
+
     function renderQuickFilters() {
       quickFiltersEl.innerHTML = popularPcdFilters.map((pcd) => `
         <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}">${pcd}</button>
@@ -488,6 +529,7 @@
           activeQuickFilter = activeQuickFilter === value ? '' : value;
           searchEl.value = activeQuickFilter;
           renderQuickFilters();
+          renderSummary();
           renderBrands(searchEl.value);
           renderModels();
           renderDetails();
@@ -506,6 +548,7 @@
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
       renderQuickFilters();
+      renderSummary();
       renderModels();
       renderDetails();
     }
@@ -626,12 +669,14 @@
     searchEl.addEventListener('input', () => {
       activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
       renderQuickFilters();
+      renderSummary();
       renderBrands(searchEl.value);
       renderModels();
       renderDetails();
     });
     renderBrands();
     renderQuickFilters();
+    renderSummary();
     translatePage();
   </script>
 </body>
