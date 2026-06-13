@@ -264,13 +264,18 @@
         search: 'Search: Audi A4, Golf, 5x112, 57.1',
         chooseMake: 'Choose a make.',
         chooseModel: 'Choose a model to see PCD and center bore.',
-        notice: 'Demo data shows the section structure. Before publishing, every row must be verified by source, year, market and trim.',
+        notice: 'Starter data is under review. Always verify wheel fitment by vehicle year, market, trim and official documentation before buying wheels.',
         generation: 'Generation',
         years: 'Years',
+        market: 'Market',
         centerBore: 'Center bore',
         thread: 'Thread',
         fastener: 'Fastener',
-        status: 'Status'
+        status: 'Status',
+        fastenerBolts: 'bolts',
+        fastenerNuts: 'nuts',
+        statusNeedsReview: 'under review',
+        statusVerified: 'verified'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
@@ -287,13 +292,18 @@
         search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
         chooseMake: 'Elige una marca.',
         chooseModel: 'Elige un modelo para ver PCD y buje central.',
-        notice: 'Los datos de demo muestran la estructura. Antes de publicar, cada fila debe verificarse por fuente, año, mercado y versión.',
+        notice: 'Los datos iniciales están en revisión. Verifica siempre la compatibilidad por año, mercado, versión y documentación oficial antes de comprar llantas.',
         generation: 'Generación',
         years: 'Años',
+        market: 'Mercado',
         centerBore: 'Buje central',
         thread: 'Rosca',
         fastener: 'Fijación',
-        status: 'Estado'
+        status: 'Estado',
+        fastenerBolts: 'tornillos',
+        fastenerNuts: 'tuercas',
+        statusNeedsReview: 'en revisión',
+        statusVerified: 'verificado'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
@@ -310,13 +320,18 @@
         search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
         chooseMake: 'Choisissez une marque.',
         chooseModel: 'Choisissez un modèle pour voir le PCD et l’alésage central.',
-        notice: 'Les données de démonstration montrent la structure. Avant publication, chaque ligne doit être vérifiée par source, année, marché et finition.',
+        notice: 'Les données initiales sont en cours de vérification. Vérifiez toujours le montage selon l’année, le marché, la finition et la documentation officielle avant achat.',
         generation: 'Génération',
         years: 'Années',
+        market: 'Marché',
         centerBore: 'Alésage',
         thread: 'Filetage',
         fastener: 'Fixation',
-        status: 'Statut'
+        status: 'Statut',
+        fastenerBolts: 'boulons',
+        fastenerNuts: 'écrous',
+        statusNeedsReview: 'à vérifier',
+        statusVerified: 'vérifié'
       },
       de: {
         tireCalculator: 'Reifenrechner',
@@ -333,13 +348,18 @@
         search: 'Suche: Audi A4, Golf, 5x112, 57.1',
         chooseMake: 'Wähle eine Marke.',
         chooseModel: 'Wähle ein Modell, um PCD und Mittenloch zu sehen.',
-        notice: 'Die Demodaten zeigen die Struktur. Vor der Veröffentlichung muss jede Zeile nach Quelle, Baujahr, Markt und Ausstattung geprüft werden.',
+        notice: 'Die Startdaten werden geprüft. Prüfe die Passung vor dem Felgenkauf immer nach Baujahr, Markt, Ausstattung und offizieller Dokumentation.',
         generation: 'Generation',
         years: 'Baujahre',
+        market: 'Markt',
         centerBore: 'Mittenloch',
         thread: 'Gewinde',
         fastener: 'Befestigung',
-        status: 'Status'
+        status: 'Status',
+        fastenerBolts: 'Radschrauben',
+        fastenerNuts: 'Radmuttern',
+        statusNeedsReview: 'in Prüfung',
+        statusVerified: 'geprüft'
       }
     };
 
@@ -356,6 +376,18 @@
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function fastenerLabel(value) {
+      if (value === 'bolts') return t('fastenerBolts');
+      if (value === 'nuts') return t('fastenerNuts');
+      return value || '';
+    }
+
+    function statusLabel(value) {
+      if (value === 'verified') return t('statusVerified');
+      if (value === 'needs_review') return t('statusNeedsReview');
+      return value || t('statusNeedsReview');
     }
 
     function translatePage() {
@@ -420,12 +452,13 @@
         <tr>
           <td>${record.generation || ''}</td>
           <td>${record.years || ''}</td>
+          <td>${record.market || ''}</td>
           <td><strong>${record.pcd || ''}</strong></td>
           <td>${record.centerBore || ''} mm</td>
           <td>${record.thread || ''}</td>
-          <td>${record.fastener || ''}</td>
+          <td>${fastenerLabel(record.fastener)}</td>
           <td>${record.offset || ''}</td>
-          <td><span class="tag">${record.status || 'needs_review'}</span></td>
+          <td><span class="tag">${statusLabel(record.status)}</span></td>
         </tr>
       `).join('');
       detailsEl.innerHTML = `
@@ -435,6 +468,7 @@
             <tr>
               <th>${t('generation')}</th>
               <th>${t('years')}</th>
+              <th>${t('market')}</th>
               <th>PCD</th>
               <th>${t('centerBore')}</th>
               <th>${t('thread')}</th>
