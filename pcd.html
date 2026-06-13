@@ -494,6 +494,35 @@
       return model.records.filter(record => recordMatches(record, q));
     }
 
+    function updateUrlState() {
+      const params = new URLSearchParams(window.location.search);
+      const query = searchEl.value.trim();
+      if (query) {
+        params.set('search', query);
+      } else {
+        params.delete('search');
+      }
+      if (lang && lang !== 'en') {
+        params.set('lang', lang);
+      } else {
+        params.delete('lang');
+      }
+      const queryString = params.toString();
+      const nextUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
+      window.history.replaceState(null, '', nextUrl);
+    }
+
+    function initFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const initialSearch = params.get('search') || '';
+      const initialLang = params.get('lang');
+      if (translations[initialLang]) {
+        lang = initialLang;
+      }
+      searchEl.value = initialSearch;
+      activeQuickFilter = popularPcdFilters.includes(initialSearch) ? initialSearch : '';
+    }
+
     function formatSummary(template, values) {
       return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
     }
@@ -528,6 +557,7 @@
           const value = button.dataset.pcd;
           activeQuickFilter = activeQuickFilter === value ? '' : value;
           searchEl.value = activeQuickFilter;
+          updateUrlState();
           renderQuickFilters();
           renderSummary();
           renderBrands(searchEl.value);
@@ -662,19 +692,22 @@
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.addEventListener('click', () => {
         lang = button.dataset.lang;
+        updateUrlState();
         translatePage();
       });
     });
 
     searchEl.addEventListener('input', () => {
       activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
+      updateUrlState();
       renderQuickFilters();
       renderSummary();
       renderBrands(searchEl.value);
       renderModels();
       renderDetails();
     });
-    renderBrands();
+    initFromUrl();
+    renderBrands(searchEl.value);
     renderQuickFilters();
     renderSummary();
     translatePage();
