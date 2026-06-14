@@ -162,6 +162,22 @@
       padding: 14px 14px 10px;
       border-bottom: 1px solid var(--line);
     }
+    .panel-heading {
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-heading h2 {
+      padding: 0;
+      border-bottom: 0;
+      margin: 0 0 8px;
+    }
+    .size-summary {
+      margin: 0;
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
     .panel-body {
       padding: 14px;
     }
@@ -355,7 +371,10 @@
 
     <section class="layout" aria-label="Tire calculator inputs">
       <div class="panel">
-        <h2 data-i18n="originalSize">Original Size</h2>
+        <div class="panel-heading">
+          <h2 data-i18n="originalSize">Original Size</h2>
+          <p class="size-summary" id="summary1">195 / 65 R15<br>6J ET45</p>
+        </div>
         <div class="panel-body">
           <div class="form-grid">
             <label>
@@ -383,7 +402,10 @@
       </div>
 
       <div class="panel">
-        <h2 data-i18n="newSize">New Size</h2>
+        <div class="panel-heading">
+          <h2 data-i18n="newSize">New Size</h2>
+          <p class="size-summary" id="summary2">205 / 55 R16<br>7J ET45</p>
+        </div>
         <div class="panel-body">
           <div class="form-grid">
             <label>
@@ -698,7 +720,7 @@
       et1: 45,
       w2: 205,
       p2: 55,
-      d2: 15,
+      d2: 16,
       j2: 7.0,
       et2: 45
     };
@@ -712,8 +734,9 @@
 
     function valueFromUrl(key) {
       const params = new URLSearchParams(window.location.search);
+      if (!params.has(key)) return defaults[key];
       const value = Number(params.get(key));
-      return Number.isFinite(value) ? value : defaults[key];
+      return Number.isFinite(value) && value !== 0 ? value : defaults[key];
     }
 
     function formatNumber(value, digits = 1) {
@@ -723,6 +746,14 @@
     function signed(value, unit, digits = 1) {
       const sign = value > 0 ? '+' : '';
       return `${sign}${formatNumber(value, digits)} ${unit}`;
+    }
+
+    function formatSizeValue(value) {
+      return Number.isInteger(value) ? String(value) : value.toFixed(1);
+    }
+
+    function summaryText(spec) {
+      return `${spec.width} / ${spec.profile} R${spec.rim}<br>${formatSizeValue(spec.rimWidth)}J ET${spec.offset}`;
     }
 
     function fillSelect(id, values, selectedValue) {
@@ -758,7 +789,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `Autohub ${t('title')}`;
+      document.title = t('homeTitle');
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });
@@ -786,6 +817,9 @@
     function calculate() {
       const original = getSpecs('1');
       const next = getSpecs('2');
+      document.getElementById('summary1').innerHTML = summaryText(original);
+      document.getElementById('summary2').innerHTML = summaryText(next);
+
       const diameterDiff = next.diameter - original.diameter;
       const diameterPercent = diameterDiff / original.diameter * 100;
       const clearanceDiff = diameterDiff / 2;
