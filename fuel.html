@@ -238,9 +238,36 @@
       color: var(--text);
       font-size: 15px;
     }
+    .scenario-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .scenario-card {
+      display: block;
+      min-height: 126px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+      color: var(--text);
+      text-decoration: none;
+    }
+    .scenario-card h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      line-height: 1.3;
+    }
+    .scenario-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 13px;
+    }
     @media (max-width: 900px) {
       .layout,
-      .metrics {
+      .metrics,
+      .scenario-grid {
         grid-template-columns: 1fr;
       }
       .langbar {
@@ -263,7 +290,7 @@
       <div class="brand">Autohub</div>
       <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
       <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" class="active" data-i18n="fuel">Fuel Consumption</a>
+      <a href="fuel.html" class="active" data-i18n="fuel">Fuel Cost Calculator</a>
       <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
       <a href="engines.html" data-i18n="engines">Engines</a>
       <a href="guides.html" data-i18n="guides">Guides</a>
@@ -279,6 +306,30 @@
   <main>
     <h1 data-i18n="title">Fuel Cost Calculator</h1>
     <p class="lead" data-i18n="lead">Calculate trip fuel use, trip cost and estimated monthly or yearly fuel budget from distance, consumption and fuel price.</p>
+
+    <section class="panel section" aria-label="Fuel cost scenarios">
+      <h2 data-i18n="scenarioTitle">Ready fuel cost scenarios</h2>
+      <div class="panel-body">
+        <div class="scenario-grid">
+          <a class="scenario-card" href="fuel.html?scenario=commute&amp;distance=25&amp;distanceUnit=km&amp;consumption=7.5&amp;consumptionUnit=l100&amp;price=1.80&amp;currency=%E2%82%AC&amp;repeat=40">
+            <h3 data-i18n="scenarioCommuteTitle">Daily commute fuel cost</h3>
+            <p data-i18n="scenarioCommuteText">Estimate a regular work commute using distance, fuel use and monthly repeats.</p>
+          </a>
+          <a class="scenario-card" href="fuel.html?scenario=monthly&amp;distance=100&amp;distanceUnit=km&amp;consumption=7.5&amp;consumptionUnit=l100&amp;price=1.80&amp;currency=%E2%82%AC&amp;repeat=20">
+            <h3 data-i18n="scenarioMonthlyTitle">Monthly fuel budget</h3>
+            <p data-i18n="scenarioMonthlyText">Build a simple monthly fuel budget from a repeated route or average weekly driving.</p>
+          </a>
+          <a class="scenario-card" href="fuel.html?scenario=petrol-diesel&amp;compareDistance=15000&amp;compareDistanceUnit=km&amp;carAConsumption=7.8&amp;carBConsumption=5.2&amp;compareConsumptionUnit=l100&amp;comparePrice=1.80&amp;compareCurrency=%E2%82%AC">
+            <h3 data-i18n="scenarioPetrolDieselTitle">Petrol vs diesel cost</h3>
+            <p data-i18n="scenarioPetrolDieselText">Compare yearly fuel use when one car consumes more and another consumes less.</p>
+          </a>
+          <a class="scenario-card" href="fuel.html?scenario=car-compare&amp;compareDistance=15000&amp;compareDistanceUnit=km&amp;carAConsumption=8.0&amp;carBConsumption=5.5&amp;compareConsumptionUnit=l100&amp;comparePrice=1.80&amp;compareCurrency=%E2%82%AC">
+            <h3 data-i18n="scenarioCarCompareTitle">Car A vs Car B annual fuel cost</h3>
+            <p data-i18n="scenarioCarCompareText">Check how small consumption differences become real money over a full year.</p>
+          </a>
+        </div>
+      </div>
+    </section>
 
     <section class="layout">
       <div class="panel">
@@ -327,6 +378,7 @@
                 <option value="1" data-i18n-option="once">Once</option>
                 <option value="2" data-i18n-option="roundTrip">Round trip</option>
                 <option value="20" data-i18n-option="workMonth">20 times</option>
+                <option value="40" data-i18n-option="commuteMonth">40 times</option>
                 <option value="240" data-i18n-option="workYear">240 times</option>
               </select>
             </label>
@@ -469,7 +521,7 @@
       en: {
         tireCalculator: 'Tire Calculator',
         pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Consumption',
+        fuel: 'Fuel Cost Calculator',
         diagnostics: 'Diagnostics',
         engines: 'Engines',
         guides: 'Guides',
@@ -488,6 +540,7 @@
         once: 'Once',
         roundTrip: 'Round trip',
         workMonth: '20 times',
+        commuteMonth: '40 times',
         workYear: '240 times',
         copyLink: 'Copy link',
         copied: 'Copied',
@@ -516,12 +569,21 @@
         compareGuideTitle: 'Use this when choosing a car',
         compareGuideText: 'Small consumption differences become large over a year. Use realistic mixed-driving numbers, not only official brochure values.',
         guideTitle: 'How to use this calculator',
-        guideText: 'Use real average consumption from your car when possible. Short city trips, winter tires, roof boxes and heavy load can increase fuel use.'
+        guideText: 'Use real average consumption from your car when possible. Short city trips, winter tires, roof boxes and heavy load can increase fuel use.',
+        scenarioTitle: 'Ready fuel cost scenarios',
+        scenarioCommuteTitle: 'Daily commute fuel cost',
+        scenarioCommuteText: 'Estimate a regular work commute using distance, fuel use and monthly repeats.',
+        scenarioMonthlyTitle: 'Monthly fuel budget',
+        scenarioMonthlyText: 'Build a simple monthly fuel budget from a repeated route or average weekly driving.',
+        scenarioPetrolDieselTitle: 'Petrol vs diesel cost',
+        scenarioPetrolDieselText: 'Compare yearly fuel use when one car consumes more and another consumes less.',
+        scenarioCarCompareTitle: 'Car A vs Car B annual fuel cost',
+        scenarioCarCompareText: 'Check how small consumption differences become real money over a full year.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consumo',
+        fuel: 'Calculadora de coste de combustible',
         diagnostics: 'Diagnóstico',
         engines: 'Motores',
         guides: 'Guías',
@@ -540,6 +602,7 @@
         once: 'Una vez',
         roundTrip: 'Ida y vuelta',
         workMonth: '20 veces',
+        commuteMonth: '40 veces',
         workYear: '240 veces',
         copyLink: 'Copiar enlace',
         copied: 'Copiado',
@@ -568,12 +631,21 @@
         compareGuideTitle: 'Úsalo al elegir un coche',
         compareGuideText: 'Pequeñas diferencias de consumo se vuelven grandes en un año. Usa cifras realistas de conducción mixta, no solo valores oficiales.',
         guideTitle: 'Cómo usar esta calculadora',
-        guideText: 'Usa el consumo medio real de tu coche cuando sea posible. Trayectos urbanos cortos, neumáticos de invierno, cofres de techo y carga pesada pueden aumentar el consumo.'
+        guideText: 'Usa el consumo medio real de tu coche cuando sea posible. Trayectos urbanos cortos, neumáticos de invierno, cofres de techo y carga pesada pueden aumentar el consumo.',
+        scenarioTitle: 'Escenarios listos de coste de combustible',
+        scenarioCommuteTitle: 'Coste diario al trabajo',
+        scenarioCommuteText: 'Estima un trayecto habitual al trabajo con distancia, consumo y repeticiones mensuales.',
+        scenarioMonthlyTitle: 'Presupuesto mensual de combustible',
+        scenarioMonthlyText: 'Crea un presupuesto mensual sencillo desde una ruta repetida o conducción semanal media.',
+        scenarioPetrolDieselTitle: 'Coste gasolina vs diésel',
+        scenarioPetrolDieselText: 'Compara el combustible anual cuando un coche consume más y otro menos.',
+        scenarioCarCompareTitle: 'Coste anual coche A vs coche B',
+        scenarioCarCompareText: 'Comprueba cómo pequeñas diferencias de consumo se convierten en dinero real al año.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consommation',
+        fuel: 'Calculateur de coût carburant',
         diagnostics: 'Diagnostic',
         engines: 'Moteurs',
         guides: 'Guides',
@@ -592,6 +664,7 @@
         once: 'Une fois',
         roundTrip: 'Aller-retour',
         workMonth: '20 fois',
+        commuteMonth: '40 fois',
         workYear: '240 fois',
         copyLink: 'Copier le lien',
         copied: 'Copié',
@@ -620,12 +693,21 @@
         compareGuideTitle: 'À utiliser lors du choix d’une voiture',
         compareGuideText: 'De petites différences de consommation deviennent importantes sur un an. Utilisez des valeurs réalistes en conduite mixte, pas seulement les chiffres officiels.',
         guideTitle: 'Comment utiliser ce calculateur',
-        guideText: 'Utilisez si possible la consommation moyenne réelle de votre voiture. Les courts trajets urbains, pneus hiver, coffres de toit et charges lourdes peuvent augmenter la consommation.'
+        guideText: 'Utilisez si possible la consommation moyenne réelle de votre voiture. Les courts trajets urbains, pneus hiver, coffres de toit et charges lourdes peuvent augmenter la consommation.',
+        scenarioTitle: 'Scénarios prêts pour le coût carburant',
+        scenarioCommuteTitle: 'Coût carburant quotidien domicile-travail',
+        scenarioCommuteText: 'Estimez un trajet régulier avec distance, consommation et répétitions mensuelles.',
+        scenarioMonthlyTitle: 'Budget carburant mensuel',
+        scenarioMonthlyText: 'Construisez un budget mensuel simple à partir d’un trajet répété ou d’une conduite hebdomadaire moyenne.',
+        scenarioPetrolDieselTitle: 'Coût essence vs diesel',
+        scenarioPetrolDieselText: 'Comparez le carburant annuel quand une voiture consomme plus et une autre moins.',
+        scenarioCarCompareTitle: 'Coût annuel voiture A vs voiture B',
+        scenarioCarCompareText: 'Voyez comment de petites différences de consommation deviennent de l’argent réel sur un an.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
         pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Verbrauch',
+        fuel: 'Kraftstoffkosten-Rechner',
         diagnostics: 'Diagnose',
         engines: 'Motoren',
         guides: 'Ratgeber',
@@ -644,6 +726,7 @@
         once: 'Einmal',
         roundTrip: 'Hin und zurück',
         workMonth: '20-mal',
+        commuteMonth: '40-mal',
         workYear: '240-mal',
         copyLink: 'Link kopieren',
         copied: 'Kopiert',
@@ -672,7 +755,16 @@
         compareGuideTitle: 'Nützlich bei der Fahrzeugwahl',
         compareGuideText: 'Kleine Verbrauchsunterschiede werden über ein Jahr groß. Nutze realistische Werte aus gemischter Fahrt, nicht nur Prospektangaben.',
         guideTitle: 'So nutzt du den Rechner',
-        guideText: 'Nutze möglichst den realen Durchschnittsverbrauch deines Autos. Kurze Stadtfahrten, Winterreifen, Dachboxen und schwere Ladung können den Verbrauch erhöhen.'
+        guideText: 'Nutze möglichst den realen Durchschnittsverbrauch deines Autos. Kurze Stadtfahrten, Winterreifen, Dachboxen und schwere Ladung können den Verbrauch erhöhen.',
+        scenarioTitle: 'Fertige Kraftstoffkosten-Szenarien',
+        scenarioCommuteTitle: 'Tägliche Pendelkosten',
+        scenarioCommuteText: 'Schätze regelmäßige Pendelkosten mit Strecke, Verbrauch und monatlichen Wiederholungen.',
+        scenarioMonthlyTitle: 'Monatliches Kraftstoffbudget',
+        scenarioMonthlyText: 'Erstelle ein einfaches Monatsbudget aus einer wiederholten Strecke oder durchschnittlicher Wochenfahrt.',
+        scenarioPetrolDieselTitle: 'Benzin vs Diesel Kosten',
+        scenarioPetrolDieselText: 'Vergleiche den Jahresverbrauch, wenn ein Auto mehr und ein anderes weniger verbraucht.',
+        scenarioCarCompareTitle: 'Jahreskosten Auto A vs Auto B',
+        scenarioCarCompareText: 'Sieh, wie kleine Verbrauchsunterschiede über ein Jahr zu echtem Geld werden.'
       }
     };
 
@@ -904,3 +996,5 @@
   </script>
 </body>
 </html>
+
+
