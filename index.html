@@ -138,6 +138,44 @@
       line-height: 1.25;
       letter-spacing: 0;
     }
+    .popular-searches {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .popular-searches h2 {
+      margin: 0 0 10px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+    .popular-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .popular-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #334155;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 0 11px;
+      white-space: nowrap;
+    }
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      background: #fff7e6;
+      color: #7a4b00;
+      border-radius: 8px;
+      line-height: 1.45;
+      font-size: 14px;
+    }
     .lead {
       margin: 0 0 20px;
       color: var(--muted);
@@ -379,7 +417,7 @@
       <div class="brand">Autohub</div>
       <a href="index.html" class="active" data-i18n="tireCalculator">Tire Calculator</a>
       <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Consumption</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
       <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
       <a href="engines.html" data-i18n="engines">Engines</a>
       <a href="guides.html" data-i18n="guides">Guides</a>
@@ -400,6 +438,17 @@
         <a href="pcd.html" data-i18n="homePcd">PCD Database</a>
         <a href="fuel.html" data-i18n="homeFuel">Fuel Cost Calculator</a>
         <a href="guides.html" data-i18n="homeGuides">Guides</a>
+      </div>
+      <div class="popular-searches">
+        <h2 data-i18n="popularWheelSearches">Popular wheel fitment searches</h2>
+        <div class="popular-links">
+          <a href="pcd/volvo/s70.html" data-i18n="popularVolvoS70">Volvo S70 tire size</a>
+          <a href="pcd/opel/astra.html" data-i18n="popularOpelAstra">Opel Astra PCD</a>
+          <a href="pcd/bmw/e46.html" data-i18n="popularBmwE46">BMW E46 wheel offset</a>
+          <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf">VW Golf center bore</a>
+          <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108">5x108 bolt pattern cars</a>
+          <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110">5x110 bolt pattern cars</a>
+        </div>
       </div>
     </section>
 
@@ -651,6 +700,8 @@
         <p data-i18n="noteSpeed">A smaller tire makes the actual road speed lower than the displayed speed. A larger tire does the opposite.</p>
       </article>
     </section>
+
+    <div class="disclaimer" data-i18n="fitmentDisclaimer">Always verify wheel fitment with your vehicle manual or a professional before buying. Brake clearance, suspension modifications and local regulations may affect compatibility.</div>
   </main>
 
   <script>
@@ -658,7 +709,7 @@
       en: {
         tireCalculator: 'Tire Calculator',
         pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Consumption',
+        fuel: 'Fuel Cost Calculator',
         diagnostics: 'Diagnostics',
         engines: 'Engines',
         guides: 'Guides',
@@ -667,6 +718,13 @@
         homePcd: 'PCD Database',
         homeFuel: 'Fuel Cost Calculator',
         homeGuides: 'Guides',
+        popularWheelSearches: 'Popular wheel fitment searches',
+        popularVolvoS70: 'Volvo S70 tire size',
+        popularOpelAstra: 'Opel Astra PCD',
+        popularBmwE46: 'BMW E46 wheel offset',
+        popularVwGolf: 'VW Golf center bore',
+        popular5x108: '5x108 bolt pattern cars',
+        popular5x110: '5x110 bolt pattern cars',
         title: 'Tire & Rim Calculator',
         lead: 'Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.',
         originalSize: 'Original Size',
@@ -731,20 +789,28 @@
         noteOffsetTitle: 'Offset and clearance',
         noteOffset: 'Rim width and ET affect how close the wheel sits to the suspension and how far it moves toward the fender.',
         noteSpeedTitle: 'Speedometer',
-        noteSpeed: 'A smaller tire makes the actual road speed lower than the displayed speed. A larger tire does the opposite.'
+        noteSpeed: 'A smaller tire makes the actual road speed lower than the displayed speed. A larger tire does the opposite.',
+        fitmentDisclaimer: 'Always verify wheel fitment with your vehicle manual or a professional before buying. Brake clearance, suspension modifications and local regulations may affect compatibility.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consumo',
+        fuel: 'Calculadora de coste de combustible',
         diagnostics: 'Diagnóstico',
         engines: 'Motores',
         guides: 'Guías',
         homeTitle: 'Autohub — calculadoras y herramientas de compatibilidad',
         homeLead: 'Compara medidas de neumáticos, ET, patrones de tornillos, buje central y costes de combustible. Útil para elegir llantas, neumáticos y comprobar compatibilidad antes de comprar.',
         homePcd: 'Base PCD',
-        homeFuel: 'Calculadora de consumo',
+        homeFuel: 'Calculadora de coste de combustible',
         homeGuides: 'Guías',
+        popularWheelSearches: 'Búsquedas populares de compatibilidad',
+        popularVolvoS70: 'Medida de neumáticos Volvo S70',
+        popularOpelAstra: 'PCD Opel Astra',
+        popularBmwE46: 'ET de ruedas BMW E46',
+        popularVwGolf: 'Buje central VW Golf',
+        popular5x108: 'Coches con patrón 5x108',
+        popular5x110: 'Coches con patrón 5x110',
         title: 'Calculadora de neumáticos y llantas',
         lead: 'Compara la medida original y la nueva, el ancho de llanta y el ET. El resultado muestra diámetro, altura, error del velocímetro y posición de la rueda.',
         originalSize: 'Medida original',
@@ -809,20 +875,28 @@
         noteOffsetTitle: 'ET y espacio',
         noteOffset: 'El ancho de llanta y el ET afectan la distancia a la suspensión y cuánto sale la rueda hacia la aleta.',
         noteSpeedTitle: 'Velocímetro',
-        noteSpeed: 'Un neumático más pequeño reduce la velocidad real frente a la indicada. Uno más grande hace lo contrario.'
+        noteSpeed: 'Un neumático más pequeño reduce la velocidad real frente a la indicada. Uno más grande hace lo contrario.',
+        fitmentDisclaimer: 'Verifica siempre la compatibilidad de ruedas con el manual del vehículo o un profesional antes de comprar. Los frenos, modificaciones de suspensión y normas locales pueden afectar la compatibilidad.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consommation',
+        fuel: 'Calculateur de coût carburant',
         diagnostics: 'Diagnostic',
         engines: 'Moteurs',
         guides: 'Guides',
         homeTitle: 'Autohub — calculateurs auto et outils de compatibilité',
         homeLead: 'Comparez dimensions de pneus, déport, entraxe, alésage central et coûts de carburant. Utile pour choisir jantes, pneus et vérifier la compatibilité avant achat.',
         homePcd: 'Base PCD',
-        homeFuel: 'Calculateur carburant',
+        homeFuel: 'Calculateur de coût carburant',
         homeGuides: 'Guides',
+        popularWheelSearches: 'Recherches populaires de compatibilité',
+        popularVolvoS70: 'Dimension pneus Volvo S70',
+        popularOpelAstra: 'PCD Opel Astra',
+        popularBmwE46: 'Déport roues BMW E46',
+        popularVwGolf: 'Alésage central VW Golf',
+        popular5x108: 'Voitures avec entraxe 5x108',
+        popular5x110: 'Voitures avec entraxe 5x110',
         title: 'Calculateur pneus et jantes',
         lead: 'Comparez la dimension d’origine et la nouvelle dimension, la largeur de jante et le déport. Le résultat montre diamètre, garde au sol, erreur compteur et position de roue.',
         originalSize: 'Dimension d’origine',
@@ -887,20 +961,28 @@
         noteOffsetTitle: 'Déport et dégagement',
         noteOffset: 'La largeur de jante et l’ET influencent la distance à la suspension et la sortie vers l’aile.',
         noteSpeedTitle: 'Compteur',
-        noteSpeed: 'Un pneu plus petit donne une vitesse réelle plus basse que la vitesse affichée. Un pneu plus grand fait l’inverse.'
+        noteSpeed: 'Un pneu plus petit donne une vitesse réelle plus basse que la vitesse affichée. Un pneu plus grand fait l’inverse.',
+        fitmentDisclaimer: 'Vérifiez toujours la compatibilité des roues avec le manuel du véhicule ou un professionnel avant achat. Le dégagement des freins, les modifications de suspension et les règles locales peuvent influencer la compatibilité.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
         pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Verbrauch',
+        fuel: 'Kraftstoffkosten-Rechner',
         diagnostics: 'Diagnose',
         engines: 'Motoren',
         guides: 'Ratgeber',
         homeTitle: 'Autohub — Autorechner und Fitment-Tools',
         homeLead: 'Vergleiche Reifengrößen, Einpresstiefe, Lochkreis, Mittenloch und Kraftstoffkosten. Nützlich für Felgen, Reifen und Kompatibilitätschecks vor dem Kauf.',
         homePcd: 'PCD-Datenbank',
-        homeFuel: 'Verbrauchsrechner',
+        homeFuel: 'Kraftstoffkosten-Rechner',
         homeGuides: 'Ratgeber',
+        popularWheelSearches: 'Beliebte Felgenpassungs-Suchen',
+        popularVolvoS70: 'Volvo S70 Reifengröße',
+        popularOpelAstra: 'Opel Astra PCD',
+        popularBmwE46: 'BMW E46 Felgen-ET',
+        popularVwGolf: 'VW Golf Mittenloch',
+        popular5x108: 'Autos mit Lochkreis 5x108',
+        popular5x110: 'Autos mit Lochkreis 5x110',
         title: 'Reifen- und Felgenrechner',
         lead: 'Vergleiche Original- und neue Reifengröße, Felgenbreite und ET. Das Ergebnis zeigt Durchmesser, Bodenfreiheit, Tachoabweichung und Radposition.',
         originalSize: 'Originalgröße',
@@ -965,7 +1047,8 @@
         noteOffsetTitle: 'ET und Freigängigkeit',
         noteOffset: 'Felgenbreite und ET beeinflussen den Abstand zur Aufhängung und wie weit das Rad nach außen steht.',
         noteSpeedTitle: 'Tacho',
-        noteSpeed: 'Ein kleinerer Reifen macht die reale Geschwindigkeit niedriger als angezeigt. Ein größerer Reifen bewirkt das Gegenteil.'
+        noteSpeed: 'Ein kleinerer Reifen macht die reale Geschwindigkeit niedriger als angezeigt. Ein größerer Reifen bewirkt das Gegenteil.',
+        fitmentDisclaimer: 'Prüfe die Felgenpassung vor dem Kauf immer mit dem Fahrzeughandbuch oder einem Fachbetrieb. Bremsenfreigängigkeit, Fahrwerksänderungen und lokale Vorschriften können die Kompatibilität beeinflussen.'
       }
     };
 
@@ -1166,3 +1249,4 @@
   </script>
 </body>
 </html>
+
