@@ -293,6 +293,42 @@
       background: #e2e8f0;
       color: #1e293b;
     }
+    .marking {
+      margin-top: 16px;
+    }
+    .marking-intro {
+      display: grid;
+      grid-template-columns: minmax(220px, 320px) 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .marking-example {
+      background: #f8fafc;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .marking-example span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .marking-example strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+    .marking-lead {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .table-wrap {
+      width: 100%;
+      margin-top: 14px;
+      overflow-x: auto;
+    }
     .info {
       margin-top: 16px;
       display: grid;
@@ -318,6 +354,9 @@
         grid-template-columns: repeat(2, minmax(120px, 1fr));
       }
       .metrics {
+        grid-template-columns: 1fr;
+      }
+      .marking-intro {
         grid-template-columns: 1fr;
       }
       .langbar {
@@ -472,6 +511,83 @@
       </div>
     </section>
 
+    <section class="panel marking" aria-label="Tire sidewall marking explanation">
+      <h2 data-i18n="markingTitle">How to read tire markings</h2>
+      <div class="panel-body">
+        <div class="marking-intro">
+          <div class="marking-example">
+            <span data-i18n="markingExampleLabel">Example on tire sidewall</span>
+            <strong>205/55 R16 91V XL DOT 2423</strong>
+          </div>
+          <p class="marking-lead" data-i18n="markingLead">The main size is only part of the tire label. Load index, speed rating, reinforced construction and production date also matter when choosing tires.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="markingColumn">Marking</th>
+                <th data-i18n="meaningColumn">Meaning</th>
+                <th data-i18n="exampleColumn">Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>205</td>
+                <td data-i18n="markingWidth">Tire section width in millimeters.</td>
+                <td>205 mm</td>
+              </tr>
+              <tr>
+                <td>55</td>
+                <td data-i18n="markingProfile">Sidewall height as a percentage of the width.</td>
+                <td data-i18n="markingProfileExample">55% of 205 mm</td>
+              </tr>
+              <tr>
+                <td>R</td>
+                <td data-i18n="markingConstruction">Radial tire construction.</td>
+                <td data-i18n="markingConstructionExample">R = radial</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td data-i18n="markingRim">Rim diameter in inches.</td>
+                <td data-i18n="markingRimExample">16 inch wheel</td>
+              </tr>
+              <tr>
+                <td>91</td>
+                <td data-i18n="markingLoad">Load index. It must meet or exceed the vehicle requirement.</td>
+                <td data-i18n="markingLoadExample">91 = up to 615 kg per tire</td>
+              </tr>
+              <tr>
+                <td>V</td>
+                <td data-i18n="markingSpeed">Speed rating. It must be suitable for the car and local rules.</td>
+                <td data-i18n="markingSpeedExample">V = up to 240 km/h</td>
+              </tr>
+              <tr>
+                <td>XL</td>
+                <td data-i18n="markingXl">Reinforced tire with higher load capacity at the correct pressure.</td>
+                <td data-i18n="markingXlExample">XL / Extra Load</td>
+              </tr>
+              <tr>
+                <td>DOT 2423</td>
+                <td data-i18n="markingDot">Production date: week and year. Here it means week 24 of 2023.</td>
+                <td data-i18n="markingDotExample">24 / 2023</td>
+              </tr>
+              <tr>
+                <td>M+S / 3PMSF</td>
+                <td data-i18n="markingWinter">Season and winter performance markings. 3PMSF is the snowflake mountain symbol.</td>
+                <td data-i18n="markingWinterExample">All-season or winter tire</td>
+              </tr>
+              <tr>
+                <td>Outside / Rotation</td>
+                <td data-i18n="markingDirection">Mounting direction or outside sidewall marking for asymmetric or directional tires.</td>
+                <td data-i18n="markingDirectionExample">Install as marked</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
     <section class="info" aria-label="Calculator notes">
       <article>
         <h3 data-i18n="noteDiameterTitle">Diameter tolerance</h3>
@@ -536,6 +652,31 @@
         strutClearance: 'Strut Clearance',
         fenderPoke: 'Fender Poke',
         copied: 'Link copied',
+        markingTitle: 'How to read tire markings',
+        markingExampleLabel: 'Example on tire sidewall',
+        markingLead: 'The main size is only part of the tire label. Load index, speed rating, reinforced construction and production date also matter when choosing tires.',
+        markingColumn: 'Marking',
+        meaningColumn: 'Meaning',
+        exampleColumn: 'Example',
+        markingWidth: 'Tire section width in millimeters.',
+        markingProfile: 'Sidewall height as a percentage of the width.',
+        markingProfileExample: '55% of 205 mm',
+        markingConstruction: 'Radial tire construction.',
+        markingConstructionExample: 'R = radial',
+        markingRim: 'Rim diameter in inches.',
+        markingRimExample: '16 inch wheel',
+        markingLoad: 'Load index. It must meet or exceed the vehicle requirement.',
+        markingLoadExample: '91 = up to 615 kg per tire',
+        markingSpeed: 'Speed rating. It must be suitable for the car and local rules.',
+        markingSpeedExample: 'V = up to 240 km/h',
+        markingXl: 'Reinforced tire with higher load capacity at the correct pressure.',
+        markingXlExample: 'XL / Extra Load',
+        markingDot: 'Production date: week and year. Here it means week 24 of 2023.',
+        markingDotExample: '24 / 2023',
+        markingWinter: 'Season and winter performance markings. 3PMSF is the snowflake mountain symbol.',
+        markingWinterExample: 'All-season or winter tire',
+        markingDirection: 'Mounting direction or outside sidewall marking for asymmetric or directional tires.',
+        markingDirectionExample: 'Install as marked',
         noteDiameterTitle: 'Diameter tolerance',
         noteDiameter: 'A tire diameter change within about 3% is commonly treated as a practical limit, but always verify fitment for your vehicle.',
         noteOffsetTitle: 'Offset and clearance',
@@ -589,6 +730,31 @@
         strutClearance: 'Distancia a suspensión',
         fenderPoke: 'Salida hacia aleta',
         copied: 'Enlace copiado',
+        markingTitle: 'Cómo leer las marcas del neumático',
+        markingExampleLabel: 'Ejemplo en el flanco',
+        markingLead: 'La medida principal es solo una parte de la etiqueta del neumático. El índice de carga, el código de velocidad, la construcción reforzada y la fecha de fabricación también importan al elegir neumáticos.',
+        markingColumn: 'Marca',
+        meaningColumn: 'Significado',
+        exampleColumn: 'Ejemplo',
+        markingWidth: 'Ancho de sección del neumático en milímetros.',
+        markingProfile: 'Altura del flanco como porcentaje del ancho.',
+        markingProfileExample: '55% de 205 mm',
+        markingConstruction: 'Construcción radial del neumático.',
+        markingConstructionExample: 'R = radial',
+        markingRim: 'Diámetro de la llanta en pulgadas.',
+        markingRimExample: 'Llanta de 16 pulgadas',
+        markingLoad: 'Índice de carga. Debe cumplir o superar el requisito del vehículo.',
+        markingLoadExample: '91 = hasta 615 kg por neumático',
+        markingSpeed: 'Código de velocidad. Debe ser adecuado para el coche y las normas locales.',
+        markingSpeedExample: 'V = hasta 240 km/h',
+        markingXl: 'Neumático reforzado con mayor capacidad de carga a la presión correcta.',
+        markingXlExample: 'XL / Extra Load',
+        markingDot: 'Fecha de fabricación: semana y año. Aquí significa semana 24 de 2023.',
+        markingDotExample: '24 / 2023',
+        markingWinter: 'Marcas de temporada y rendimiento invernal. 3PMSF es el símbolo de montaña con copo de nieve.',
+        markingWinterExample: 'Neumático para todo el año o de invierno',
+        markingDirection: 'Dirección de montaje o marca de lado exterior para neumáticos asimétricos o direccionales.',
+        markingDirectionExample: 'Montar según la marca',
         noteDiameterTitle: 'Tolerancia de diámetro',
         noteDiameter: 'Un cambio de diámetro de hasta aproximadamente 3% suele tomarse como límite práctico, pero verifica siempre la compatibilidad.',
         noteOffsetTitle: 'ET y espacio',
@@ -642,6 +808,31 @@
         strutClearance: 'Distance suspension',
         fenderPoke: 'Sortie vers aile',
         copied: 'Lien copié',
+        markingTitle: 'Comment lire les marquages du pneu',
+        markingExampleLabel: 'Exemple sur le flanc',
+        markingLead: 'La dimension principale n’est qu’une partie du marquage. L’indice de charge, l’indice de vitesse, la construction renforcée et la date de fabrication comptent aussi au moment de choisir des pneus.',
+        markingColumn: 'Marquage',
+        meaningColumn: 'Signification',
+        exampleColumn: 'Exemple',
+        markingWidth: 'Largeur de section du pneu en millimètres.',
+        markingProfile: 'Hauteur du flanc en pourcentage de la largeur.',
+        markingProfileExample: '55% de 205 mm',
+        markingConstruction: 'Construction radiale du pneu.',
+        markingConstructionExample: 'R = radial',
+        markingRim: 'Diamètre de jante en pouces.',
+        markingRimExample: 'Jante de 16 pouces',
+        markingLoad: 'Indice de charge. Il doit respecter ou dépasser l’exigence du véhicule.',
+        markingLoadExample: '91 = jusqu’à 615 kg par pneu',
+        markingSpeed: 'Indice de vitesse. Il doit convenir à la voiture et aux règles locales.',
+        markingSpeedExample: 'V = jusqu’à 240 km/h',
+        markingXl: 'Pneu renforcé avec capacité de charge plus élevée à la bonne pression.',
+        markingXlExample: 'XL / Extra Load',
+        markingDot: 'Date de fabrication : semaine et année. Ici, cela signifie semaine 24 de 2023.',
+        markingDotExample: '24 / 2023',
+        markingWinter: 'Marquages de saison et de performance hivernale. 3PMSF est le symbole montagne avec flocon.',
+        markingWinterExample: 'Pneu toutes saisons ou hiver',
+        markingDirection: 'Sens de montage ou marquage côté extérieur pour pneus asymétriques ou directionnels.',
+        markingDirectionExample: 'Monter selon le marquage',
         noteDiameterTitle: 'Tolérance de diamètre',
         noteDiameter: 'Un changement de diamètre d’environ 3% est souvent utilisé comme limite pratique, mais vérifiez toujours le montage.',
         noteOffsetTitle: 'Déport et dégagement',
@@ -695,6 +886,31 @@
         strutClearance: 'Abstand zur Aufhängung',
         fenderPoke: 'Außenstand',
         copied: 'Link kopiert',
+        markingTitle: 'Reifenmarkierungen verstehen',
+        markingExampleLabel: 'Beispiel auf der Reifenflanke',
+        markingLead: 'Die Hauptgröße ist nur ein Teil der Reifenkennzeichnung. Lastindex, Geschwindigkeitsindex, verstärkte Ausführung und Produktionsdatum sind bei der Reifenwahl ebenfalls wichtig.',
+        markingColumn: 'Markierung',
+        meaningColumn: 'Bedeutung',
+        exampleColumn: 'Beispiel',
+        markingWidth: 'Reifenbreite in Millimetern.',
+        markingProfile: 'Flankenhöhe als Prozentwert der Breite.',
+        markingProfileExample: '55% von 205 mm',
+        markingConstruction: 'Radialbauweise des Reifens.',
+        markingConstructionExample: 'R = radial',
+        markingRim: 'Felgendurchmesser in Zoll.',
+        markingRimExample: '16-Zoll-Felge',
+        markingLoad: 'Lastindex. Er muss die Fahrzeuganforderung erfüllen oder übertreffen.',
+        markingLoadExample: '91 = bis 615 kg pro Reifen',
+        markingSpeed: 'Geschwindigkeitsindex. Er muss zum Fahrzeug und zu den lokalen Regeln passen.',
+        markingSpeedExample: 'V = bis 240 km/h',
+        markingXl: 'Verstärkter Reifen mit höherer Tragfähigkeit bei korrektem Druck.',
+        markingXlExample: 'XL / Extra Load',
+        markingDot: 'Produktionsdatum: Woche und Jahr. Hier bedeutet es Woche 24 des Jahres 2023.',
+        markingDotExample: '24 / 2023',
+        markingWinter: 'Saison- und Winterleistungsmarkierungen. 3PMSF ist das Berg-Schneeflocken-Symbol.',
+        markingWinterExample: 'Ganzjahres- oder Winterreifen',
+        markingDirection: 'Montagerichtung oder Außenseitenmarkierung für asymmetrische oder laufrichtungsgebundene Reifen.',
+        markingDirectionExample: 'Nach Markierung montieren',
         noteDiameterTitle: 'Durchmessertoleranz',
         noteDiameter: 'Eine Änderung des Reifendurchmessers bis etwa 3% gilt oft als praktische Grenze. Die Passung muss trotzdem am Fahrzeug geprüft werden.',
         noteOffsetTitle: 'ET und Freigängigkeit',
