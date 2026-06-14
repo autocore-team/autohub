@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Autohub Section</title>
+  <meta name="description" content="Autohub engine and transmission catalog with engine codes, gearbox codes, common applications, strengths, weak points and buyer notes.">
+  <title>Autohub Engines & Transmissions Catalog</title>
   <style>
     :root {
       color-scheme: light;
@@ -15,6 +16,8 @@
       --accent: #0f766e;
       --accent-dark: #115e59;
       --soft: #f8fafc;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
     }
     * { box-sizing: border-box; }
     body {
@@ -89,22 +92,61 @@
       letter-spacing: 0;
     }
     .lead {
-      margin: 0 0 20px;
+      margin: 0 0 18px;
       color: var(--muted);
-      max-width: 820px;
+      max-width: 860px;
       line-height: 1.5;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-      align-items: stretch;
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 18px 0 14px;
+    }
+    input {
+      width: min(100%, 460px);
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 12px;
+      font-size: 15px;
+    }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tabs button {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: #334155;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 12px;
+      cursor: pointer;
+    }
+    .tabs button.selected {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .summary {
+      margin: 0 0 16px;
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 14px;
     }
     .panel {
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 8px;
       min-width: 0;
+      margin-top: 16px;
     }
     .panel h2 {
       font-size: 16px;
@@ -114,63 +156,121 @@
     }
     .panel-body {
       padding: 14px;
+    }
+    .quick-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .quick-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 0 11px;
+      white-space: nowrap;
+    }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th,
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 700;
+      background: var(--soft);
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border-radius: 999px;
+      padding: 2px 9px;
+      background: #edf2f7;
+      color: #334155;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .note-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .note-grid article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .note-grid h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .note-grid p {
+      margin: 0;
       color: var(--muted);
       line-height: 1.5;
       font-size: 14px;
     }
-    .status {
-      display: inline-flex;
-      align-items: center;
-      min-height: 28px;
-      border-radius: 999px;
-      padding: 4px 10px;
-      background: #e6f6f4;
-      color: var(--accent-dark);
-      font-size: 13px;
-      margin-bottom: 14px;
-    }
-    .links {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-    .link-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 40px;
-      border-radius: 6px;
-      background: var(--accent);
-      color: #fff;
-      text-decoration: none;
-      padding: 0 14px;
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+      border-radius: 8px;
+      line-height: 1.45;
       font-size: 14px;
-      white-space: nowrap;
-    }
-    .link-button.secondary {
-      background: #e2e8f0;
-      color: #1e293b;
     }
     @media (max-width: 900px) {
-      .grid {
+      .note-grid {
         grid-template-columns: 1fr;
       }
       .langbar {
         margin-left: 0;
       }
     }
+    @media (max-width: 520px) {
+      h1 {
+        font-size: 26px;
+      }
+      .toolbar {
+        align-items: stretch;
+      }
+      input,
+      .tabs,
+      .tabs button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
-<body data-section="engines">
+<body>
   <header class="topbar">
     <nav class="nav" aria-label="Autohub common menu">
       <div class="brand">Autohub</div>
       <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
       <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Consumption</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
       <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="engines.html" class="active" data-i18n="engines">Engines</a>
       <a href="guides.html" data-i18n="guides">Guides</a>
       <div class="langbar" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
@@ -182,221 +282,576 @@
   </header>
 
   <main>
-    <div class="status" data-i18n="status">In development</div>
-    <h1 data-i18n="title">Section</h1>
-    <p class="lead" data-i18n="lead">This Autohub section is being prepared.</p>
+    <h1 data-i18n="title">Engines & Transmissions Catalog</h1>
+    <p class="lead" data-i18n="lead">Starter catalog of engine codes and gearbox families with common applications, strengths, weak points and buyer notes. The section is built for fast lookup before inspecting or buying a car.</p>
 
-    <section class="grid" id="cards"></section>
-
-    <div class="links">
-      <a class="link-button" href="index.html" data-i18n="openTire">Open Tire Calculator</a>
-      <a class="link-button secondary" href="pcd.html" data-i18n="openPcd">Open PCD Database</a>
-      <a class="link-button secondary" href="fuel.html" data-i18n="openFuel">Open Fuel Calculator</a>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search: 1ZZ-FE, EA888, ZF 8HP, Toyota, DSG">
+      <div class="tabs" aria-label="Catalog filters">
+        <button type="button" class="selected" data-filter="all" data-i18n="allItems">All</button>
+        <button type="button" data-filter="engine" data-i18n="engineItems">Engines</button>
+        <button type="button" data-filter="transmission" data-i18n="transmissionItems">Transmissions</button>
+      </div>
     </div>
+    <p class="summary" id="summary">Showing starter engine and transmission records.</p>
+
+    <section class="panel" aria-label="Popular engine and transmission searches">
+      <h2 data-i18n="popularTitle">Popular engine and transmission searches</h2>
+      <div class="panel-body">
+        <div class="quick-links">
+          <a href="#toyota-1zz-fe">Toyota 1ZZ-FE problems</a>
+          <a href="#toyota-2zr-fe">Toyota 2ZR-FE reliability</a>
+          <a href="#honda-k20">Honda K20 engine</a>
+          <a href="#bmw-m54">BMW M54 common issues</a>
+          <a href="#vw-ea888">VW EA888 timing chain</a>
+          <a href="#zf-8hp">ZF 8HP transmission</a>
+          <a href="#aisin-tf-80sc">Aisin TF-80SC gearbox</a>
+          <a href="#dsg-dq250">DSG DQ250 reliability</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Engine and transmission catalog">
+      <h2 data-i18n="catalogTitle">Catalog records</h2>
+      <div class="panel-body">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="type">Type</th>
+                <th data-i18n="maker">Maker</th>
+                <th data-i18n="code">Code / family</th>
+                <th data-i18n="years">Years</th>
+                <th data-i18n="applications">Common applications</th>
+                <th data-i18n="strengths">Strengths</th>
+                <th data-i18n="weakPoints">Weak points</th>
+                <th data-i18n="buyerNote">Buyer note</th>
+              </tr>
+            </thead>
+            <tbody id="catalogRows">
+              <tr id="toyota-1zz-fe" data-type="engine" data-search="toyota 1zz-fe corolla avensis celica mr2 1.8 timing chain oil consumption">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>Toyota</td>
+                <td>1ZZ-FE</td>
+                <td>1998-2007</td>
+                <td>Corolla, Avensis, Celica, MR2</td>
+                <td data-i18n="toyota1zzStrengths">Simple layout, wide parts availability, good fuel economy.</td>
+                <td data-i18n="toyota1zzWeak">Early oil consumption, chain noise, neglected cooling system.</td>
+                <td data-i18n="toyota1zzNote">Check oil use history and listen for chain noise on cold start.</td>
+              </tr>
+              <tr id="toyota-2zr-fe" data-type="engine" data-search="toyota 2zr-fe corolla auris prius 1.8 valvematic hybrid water pump">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>Toyota</td>
+                <td>2ZR-FE / 2ZR-FXE</td>
+                <td>2006-2026</td>
+                <td>Corolla, Auris, Prius, C-HR</td>
+                <td data-i18n="toyota2zrStrengths">Efficient, common worldwide, strong hybrid reputation.</td>
+                <td data-i18n="toyota2zrWeak">Water pump, EGR deposits on hybrids, oil leaks with age.</td>
+                <td data-i18n="toyota2zrNote">For hybrids, check service history and cooling system condition.</td>
+              </tr>
+              <tr id="honda-r18a" data-type="engine" data-search="honda r18a civic 1.8 vtec reliability valve adjustment">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>Honda</td>
+                <td>R18A / R18Z</td>
+                <td>2005-2021</td>
+                <td>Civic, Stream, HR-V</td>
+                <td data-i18n="hondaR18Strengths">Reliable daily engine, simple maintenance, economical.</td>
+                <td data-i18n="hondaR18Weak">Valve clearance neglect, mounts, age-related leaks.</td>
+                <td data-i18n="hondaR18Note">Ask when valve adjustment was last done.</td>
+              </tr>
+              <tr id="honda-k20" data-type="engine" data-search="honda k20 civic accord cr-v integra k20a k20z vtec timing chain">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>Honda</td>
+                <td>K20 family</td>
+                <td>2000-2026</td>
+                <td>Civic, Accord, CR-V, Integra</td>
+                <td data-i18n="hondaK20Strengths">Strong performance reputation, durable base, good parts support.</td>
+                <td data-i18n="hondaK20Weak">Oil leaks, chain wear on neglected cars, tuning abuse.</td>
+                <td data-i18n="hondaK20Note">Check maintenance quality and avoid poorly tuned examples.</td>
+              </tr>
+              <tr id="bmw-m54" data-type="engine" data-search="bmw m54 e46 e39 e60 x5 oil consumption disa cooling system vanos">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>BMW</td>
+                <td>M54</td>
+                <td>2000-2006</td>
+                <td>3 Series, 5 Series, X3, X5, Z4</td>
+                <td data-i18n="bmwM54Strengths">Smooth inline-six, strong enthusiast support, rebuildable.</td>
+                <td data-i18n="bmwM54Weak">Cooling system, oil consumption, DISA valve, VANOS seals.</td>
+                <td data-i18n="bmwM54Note">Budget for cooling refresh and oil leak repairs.</td>
+              </tr>
+              <tr id="bmw-n52" data-type="engine" data-search="bmw n52 e90 e60 x3 325i 330i valvetronic water pump">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>BMW</td>
+                <td>N52</td>
+                <td>2004-2015</td>
+                <td>3 Series, 5 Series, X3, Z4</td>
+                <td data-i18n="bmwN52Strengths">Naturally aspirated inline-six, refined, generally robust.</td>
+                <td data-i18n="bmwN52Weak">Electric water pump, oil leaks, Valvetronic-related faults.</td>
+                <td data-i18n="bmwN52Note">Check pump replacement history and scan for stored faults.</td>
+              </tr>
+              <tr id="vw-ea888" data-type="engine" data-search="volkswagen audi ea888 tsi tfsi golf passat a4 timing chain oil consumption water pump">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>Volkswagen / Audi</td>
+                <td>EA888 TSI / TFSI</td>
+                <td>2007-2026</td>
+                <td>Golf, Passat, Tiguan, A3, A4</td>
+                <td data-i18n="vwEa888Strengths">Good torque, huge parts support, many versions.</td>
+                <td data-i18n="vwEa888Weak">Timing chain on early versions, oil consumption, water pump leaks.</td>
+                <td data-i18n="vwEa888Note">Identify generation first; issues differ strongly by version.</td>
+              </tr>
+              <tr id="mercedes-m274" data-type="engine" data-search="mercedes m274 c class e class glc timing chain cam adjuster">
+                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
+                <td>Mercedes-Benz</td>
+                <td>M274</td>
+                <td>2011-2020</td>
+                <td>C-Class, E-Class, GLC, SLK</td>
+                <td data-i18n="mbM274Strengths">Modern turbo engine, efficient, broad model coverage.</td>
+                <td data-i18n="mbM274Weak">Timing chain stretch, cam adjusters, oil and coolant leaks.</td>
+                <td data-i18n="mbM274Note">Cold-start noise and service records matter.</td>
+              </tr>
+              <tr id="aisin-tf-80sc" data-type="transmission" data-search="aisin tf-80sc awf21 volvo ford peugeot citroen automatic transmission valve body">
+                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
+                <td>Aisin</td>
+                <td>TF-80SC / AWF21</td>
+                <td>2001-2018</td>
+                <td>Volvo, Ford, Peugeot, Citroen, Opel</td>
+                <td data-i18n="aisinTf80Strengths">Common six-speed automatic, strong when serviced.</td>
+                <td data-i18n="aisinTf80Weak">Valve body wear, harsh shifts, fluid neglect.</td>
+                <td data-i18n="aisinTf80Note">Test warm shifts and check whether fluid was changed.</td>
+              </tr>
+              <tr id="aisin-aw55" data-type="transmission" data-search="aisin aw55-50sn volvo saab nissan opel automatic gearbox valve body">
+                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
+                <td>Aisin</td>
+                <td>AW55-50SN / AW55-51SN</td>
+                <td>1999-2010</td>
+                <td>Volvo, Saab, Nissan, Opel</td>
+                <td data-i18n="aisinAw55Strengths">Widespread unit, repair knowledge is common.</td>
+                <td data-i18n="aisinAw55Weak">Valve body issues, delayed engagement, old fluid.</td>
+                <td data-i18n="aisinAw55Note">Avoid cars with slipping, flares or strong shift shocks.</td>
+              </tr>
+              <tr id="zf-6hp" data-type="transmission" data-search="zf 6hp bmw audi jaguar land rover automatic mechatronic sleeves">
+                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
+                <td>ZF</td>
+                <td>6HP family</td>
+                <td>2000-2014</td>
+                <td>BMW, Audi, Jaguar, Land Rover</td>
+                <td data-i18n="zf6hpStrengths">Smooth shifting, high torque versions, widely supported.</td>
+                <td data-i18n="zf6hpWeak">Mechatronic sleeves, solenoids, torque converter wear.</td>
+                <td data-i18n="zf6hpNote">Check for leaks and shift quality after full warm-up.</td>
+              </tr>
+              <tr id="zf-8hp" data-type="transmission" data-search="zf 8hp bmw audi jaguar land rover chrysler automatic transmission">
+                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
+                <td>ZF</td>
+                <td>8HP family</td>
+                <td>2008-2026</td>
+                <td>BMW, Audi, Jaguar, Land Rover, Chrysler</td>
+                <td data-i18n="zf8hpStrengths">Fast and efficient automatic, excellent reputation.</td>
+                <td data-i18n="zf8hpWeak">Fluid neglect, mechatronic faults, xDrive transfer case confusion.</td>
+                <td data-i18n="zf8hpNote">Service history and correct fluid are important.</td>
+              </tr>
+              <tr id="jatco-jf011e" data-type="transmission" data-search="jatco jf011e nissan renault mitsubishi cvt transmission overheating belt">
+                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
+                <td>Jatco</td>
+                <td>JF011E / RE0F10A</td>
+                <td>2005-2020</td>
+                <td>Nissan, Renault, Mitsubishi, Jeep</td>
+                <td data-i18n="jatcoJf011Strengths">Very common CVT with lots of repair information.</td>
+                <td data-i18n="jatcoJf011Weak">Overheating, belt and pulley wear, old fluid.</td>
+                <td data-i18n="jatcoJf011Note">Avoid jerks, whining, overheating history or unknown service.</td>
+              </tr>
+              <tr id="dsg-dq250" data-type="transmission" data-search="vw dsg dq250 volkswagen audi skoda seat wet clutch mechatronic">
+                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
+                <td>Volkswagen Group</td>
+                <td>DSG DQ250</td>
+                <td>2003-2026</td>
+                <td>VW, Audi, Skoda, SEAT</td>
+                <td data-i18n="dsgDq250Strengths">Wet-clutch DSG, strong performance, common service parts.</td>
+                <td data-i18n="dsgDq250Weak">Mechatronic faults, clutch wear, skipped fluid service.</td>
+                <td data-i18n="dsgDq250Note">Fluid service interval and smooth low-speed behavior are key.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="note-grid" aria-label="Catalog notes">
+      <article>
+        <h3 data-i18n="noteStructureTitle">Catalog structure</h3>
+        <p data-i18n="noteStructure">Records are grouped by maker and code family first. Later we can add separate SEO pages for each engine and transmission.</p>
+      </article>
+      <article>
+        <h3 data-i18n="noteBuyerTitle">Buyer focus</h3>
+        <p data-i18n="noteBuyer">The goal is practical used-car research: what to check, what usually fails and how risky the unit is before purchase.</p>
+      </article>
+      <article>
+        <h3 data-i18n="noteNextTitle">Next data step</h3>
+        <p data-i18n="noteNext">The next layer should add exact displacement, fuel type, timing drive, typical models and maintenance intervals.</p>
+      </article>
+    </section>
+
+    <div class="disclaimer" data-i18n="disclaimer">Starter data is under review. Always verify engine and transmission details by VIN, exact model year, market, service documentation and professional inspection before buying a car or parts.</div>
   </main>
 
   <script>
-    const sectionKey = document.body.dataset.section || 'diagnostics';
-
-    const shared = {
+    const translations = {
       en: {
         tireCalculator: 'Tire Calculator',
         pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Consumption',
+        fuel: 'Fuel Cost Calculator',
         diagnostics: 'Diagnostics',
         engines: 'Engines',
         guides: 'Guides',
-        status: 'In development',
-        openTire: 'Open Tire Calculator',
-        openPcd: 'Open PCD Database',
-        openFuel: 'Open Fuel Calculator'
+        title: 'Engines & Transmissions Catalog',
+        lead: 'Starter catalog of engine codes and gearbox families with common applications, strengths, weak points and buyer notes. The section is built for fast lookup before inspecting or buying a car.',
+        allItems: 'All',
+        engineItems: 'Engines',
+        transmissionItems: 'Transmissions',
+        popularTitle: 'Popular engine and transmission searches',
+        catalogTitle: 'Catalog records',
+        type: 'Type',
+        maker: 'Maker',
+        code: 'Code / family',
+        years: 'Years',
+        applications: 'Common applications',
+        strengths: 'Strengths',
+        weakPoints: 'Weak points',
+        buyerNote: 'Buyer note',
+        engineLabel: 'Engine',
+        transmissionLabel: 'Transmission',
+        summaryAll: 'Showing {count} starter records.',
+        summaryFiltered: 'Found {count} records for "{query}".',
+        summaryEmpty: 'No records found for "{query}".',
+        toyota1zzStrengths: 'Simple layout, wide parts availability, good fuel economy.',
+        toyota1zzWeak: 'Early oil consumption, chain noise, neglected cooling system.',
+        toyota1zzNote: 'Check oil use history and listen for chain noise on cold start.',
+        toyota2zrStrengths: 'Efficient, common worldwide, strong hybrid reputation.',
+        toyota2zrWeak: 'Water pump, EGR deposits on hybrids, oil leaks with age.',
+        toyota2zrNote: 'For hybrids, check service history and cooling system condition.',
+        hondaR18Strengths: 'Reliable daily engine, simple maintenance, economical.',
+        hondaR18Weak: 'Valve clearance neglect, mounts, age-related leaks.',
+        hondaR18Note: 'Ask when valve adjustment was last done.',
+        hondaK20Strengths: 'Strong performance reputation, durable base, good parts support.',
+        hondaK20Weak: 'Oil leaks, chain wear on neglected cars, tuning abuse.',
+        hondaK20Note: 'Check maintenance quality and avoid poorly tuned examples.',
+        bmwM54Strengths: 'Smooth inline-six, strong enthusiast support, rebuildable.',
+        bmwM54Weak: 'Cooling system, oil consumption, DISA valve, VANOS seals.',
+        bmwM54Note: 'Budget for cooling refresh and oil leak repairs.',
+        bmwN52Strengths: 'Naturally aspirated inline-six, refined, generally robust.',
+        bmwN52Weak: 'Electric water pump, oil leaks, Valvetronic-related faults.',
+        bmwN52Note: 'Check pump replacement history and scan for stored faults.',
+        vwEa888Strengths: 'Good torque, huge parts support, many versions.',
+        vwEa888Weak: 'Timing chain on early versions, oil consumption, water pump leaks.',
+        vwEa888Note: 'Identify generation first; issues differ strongly by version.',
+        mbM274Strengths: 'Modern turbo engine, efficient, broad model coverage.',
+        mbM274Weak: 'Timing chain stretch, cam adjusters, oil and coolant leaks.',
+        mbM274Note: 'Cold-start noise and service records matter.',
+        aisinTf80Strengths: 'Common six-speed automatic, strong when serviced.',
+        aisinTf80Weak: 'Valve body wear, harsh shifts, fluid neglect.',
+        aisinTf80Note: 'Test warm shifts and check whether fluid was changed.',
+        aisinAw55Strengths: 'Widespread unit, repair knowledge is common.',
+        aisinAw55Weak: 'Valve body issues, delayed engagement, old fluid.',
+        aisinAw55Note: 'Avoid cars with slipping, flares or strong shift shocks.',
+        zf6hpStrengths: 'Smooth shifting, high torque versions, widely supported.',
+        zf6hpWeak: 'Mechatronic sleeves, solenoids, torque converter wear.',
+        zf6hpNote: 'Check for leaks and shift quality after full warm-up.',
+        zf8hpStrengths: 'Fast and efficient automatic, excellent reputation.',
+        zf8hpWeak: 'Fluid neglect, mechatronic faults, xDrive transfer case confusion.',
+        zf8hpNote: 'Service history and correct fluid are important.',
+        jatcoJf011Strengths: 'Very common CVT with lots of repair information.',
+        jatcoJf011Weak: 'Overheating, belt and pulley wear, old fluid.',
+        jatcoJf011Note: 'Avoid jerks, whining, overheating history or unknown service.',
+        dsgDq250Strengths: 'Wet-clutch DSG, strong performance, common service parts.',
+        dsgDq250Weak: 'Mechatronic faults, clutch wear, skipped fluid service.',
+        dsgDq250Note: 'Fluid service interval and smooth low-speed behavior are key.',
+        noteStructureTitle: 'Catalog structure',
+        noteStructure: 'Records are grouped by maker and code family first. Later we can add separate SEO pages for each engine and transmission.',
+        noteBuyerTitle: 'Buyer focus',
+        noteBuyer: 'The goal is practical used-car research: what to check, what usually fails and how risky the unit is before purchase.',
+        noteNextTitle: 'Next data step',
+        noteNext: 'The next layer should add exact displacement, fuel type, timing drive, typical models and maintenance intervals.',
+        disclaimer: 'Starter data is under review. Always verify engine and transmission details by VIN, exact model year, market, service documentation and professional inspection before buying a car or parts.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consumo',
+        fuel: 'Calculadora de coste de combustible',
         diagnostics: 'Diagnóstico',
         engines: 'Motores',
         guides: 'Guías',
-        status: 'En desarrollo',
-        openTire: 'Abrir calculadora de neumáticos',
-        openPcd: 'Abrir base PCD',
-        openFuel: 'Abrir calculadora de consumo'
+        title: 'Catálogo de motores y transmisiones',
+        lead: 'Catálogo inicial de códigos de motor y familias de cajas con aplicaciones comunes, puntos fuertes, puntos débiles y notas para compradores.',
+        allItems: 'Todo',
+        engineItems: 'Motores',
+        transmissionItems: 'Transmisiones',
+        popularTitle: 'Búsquedas populares de motores y transmisiones',
+        catalogTitle: 'Registros del catálogo',
+        type: 'Tipo',
+        maker: 'Fabricante',
+        code: 'Código / familia',
+        years: 'Años',
+        applications: 'Aplicaciones comunes',
+        strengths: 'Puntos fuertes',
+        weakPoints: 'Puntos débiles',
+        buyerNote: 'Nota para compra',
+        engineLabel: 'Motor',
+        transmissionLabel: 'Transmisión',
+        summaryAll: 'Mostrando {count} registros iniciales.',
+        summaryFiltered: 'Encontrados {count} registros para "{query}".',
+        summaryEmpty: 'No se encontraron registros para "{query}".',
+        toyota1zzStrengths: 'Diseño simple, muchas piezas disponibles, buen consumo.',
+        toyota1zzWeak: 'Consumo de aceite en unidades tempranas, ruido de cadena, refrigeración descuidada.',
+        toyota1zzNote: 'Revisa historial de consumo de aceite y ruido de cadena en frío.',
+        toyota2zrStrengths: 'Eficiente, muy común, buena reputación híbrida.',
+        toyota2zrWeak: 'Bomba de agua, depósitos EGR en híbridos, fugas con la edad.',
+        toyota2zrNote: 'En híbridos, revisa historial y estado del sistema de refrigeración.',
+        hondaR18Strengths: 'Motor diario fiable, mantenimiento sencillo, económico.',
+        hondaR18Weak: 'Holgura de válvulas descuidada, soportes, fugas por edad.',
+        hondaR18Note: 'Pregunta cuándo se ajustaron las válvulas.',
+        hondaK20Strengths: 'Buena fama deportiva, base duradera, muchas piezas.',
+        hondaK20Weak: 'Fugas de aceite, desgaste de cadena si se descuida, abuso de tuning.',
+        hondaK20Note: 'Revisa la calidad del mantenimiento y evita preparaciones malas.',
+        bmwM54Strengths: 'Seis cilindros suave, gran soporte de aficionados, reparable.',
+        bmwM54Weak: 'Sistema de refrigeración, consumo de aceite, válvula DISA, sellos VANOS.',
+        bmwM54Note: 'Reserva presupuesto para refrigeración y fugas de aceite.',
+        bmwN52Strengths: 'Seis cilindros atmosférico, refinado, generalmente robusto.',
+        bmwN52Weak: 'Bomba de agua eléctrica, fugas de aceite, fallos de Valvetronic.',
+        bmwN52Note: 'Revisa si se cambió la bomba y escanea errores guardados.',
+        vwEa888Strengths: 'Buen par, enorme soporte de piezas, muchas versiones.',
+        vwEa888Weak: 'Cadena en versiones tempranas, consumo de aceite, fugas de bomba de agua.',
+        vwEa888Note: 'Identifica primero la generación; los problemas cambian mucho.',
+        mbM274Strengths: 'Motor turbo moderno, eficiente, usado en muchos modelos.',
+        mbM274Weak: 'Estiramiento de cadena, ajustadores de árbol, fugas de aceite y refrigerante.',
+        mbM274Note: 'Importan el ruido en frío y los registros de servicio.',
+        aisinTf80Strengths: 'Automática de seis marchas común, fuerte con mantenimiento.',
+        aisinTf80Weak: 'Desgaste del cuerpo de válvulas, cambios bruscos, fluido descuidado.',
+        aisinTf80Note: 'Prueba los cambios en caliente y revisa si se cambió el fluido.',
+        aisinAw55Strengths: 'Unidad extendida, conocimiento de reparación común.',
+        aisinAw55Weak: 'Cuerpo de válvulas, entrada retardada, fluido viejo.',
+        aisinAw55Note: 'Evita coches con patinamiento, subidas de rpm o golpes fuertes.',
+        zf6hpStrengths: 'Cambios suaves, versiones de alto par, mucho soporte.',
+        zf6hpWeak: 'Casquillos mecatrónicos, solenoides, convertidor.',
+        zf6hpNote: 'Revisa fugas y calidad de cambio con la caja caliente.',
+        zf8hpStrengths: 'Automática rápida y eficiente, excelente reputación.',
+        zf8hpWeak: 'Fluido descuidado, fallos mecatrónicos, confusión con caja de transferencia.',
+        zf8hpNote: 'Historial de servicio y fluido correcto son importantes.',
+        jatcoJf011Strengths: 'CVT muy común con mucha información de reparación.',
+        jatcoJf011Weak: 'Sobrecalentamiento, desgaste de correa y poleas, fluido viejo.',
+        jatcoJf011Note: 'Evita tirones, zumbidos, sobrecalentamiento o servicio desconocido.',
+        dsgDq250Strengths: 'DSG de embrague húmedo, buen rendimiento, piezas comunes.',
+        dsgDq250Weak: 'Mecatrónica, desgaste de embragues, servicio de fluido omitido.',
+        dsgDq250Note: 'El intervalo de fluido y la suavidad a baja velocidad son clave.',
+        noteStructureTitle: 'Estructura del catálogo',
+        noteStructure: 'Primero agrupamos por fabricante y familia. Después se pueden crear páginas SEO separadas.',
+        noteBuyerTitle: 'Enfoque de comprador',
+        noteBuyer: 'El objetivo es investigar usados: qué revisar, qué falla y cuánto riesgo tiene antes de comprar.',
+        noteNextTitle: 'Siguiente capa de datos',
+        noteNext: 'Luego añadiremos cilindrada exacta, combustible, distribución, modelos típicos e intervalos.',
+        disclaimer: 'Datos iniciales en revisión. Verifica siempre motor y transmisión por VIN, año exacto, mercado, documentación e inspección profesional antes de comprar.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consommation',
+        fuel: 'Calculateur de coût carburant',
         diagnostics: 'Diagnostic',
         engines: 'Moteurs',
         guides: 'Guides',
-        status: 'En développement',
-        openTire: 'Ouvrir le calculateur de pneus',
-        openPcd: 'Ouvrir la base PCD',
-        openFuel: 'Ouvrir le calculateur carburant'
+        title: 'Catalogue moteurs et transmissions',
+        lead: 'Catalogue de départ avec codes moteur et familles de boîtes, applications courantes, points forts, faiblesses et notes d’achat.',
+        allItems: 'Tout',
+        engineItems: 'Moteurs',
+        transmissionItems: 'Transmissions',
+        popularTitle: 'Recherches populaires moteurs et transmissions',
+        catalogTitle: 'Fiches du catalogue',
+        type: 'Type',
+        maker: 'Fabricant',
+        code: 'Code / famille',
+        years: 'Années',
+        applications: 'Applications courantes',
+        strengths: 'Points forts',
+        weakPoints: 'Faiblesses',
+        buyerNote: 'Note achat',
+        engineLabel: 'Moteur',
+        transmissionLabel: 'Transmission',
+        summaryAll: '{count} fiches de départ affichées.',
+        summaryFiltered: '{count} fiches trouvées pour "{query}".',
+        summaryEmpty: 'Aucune fiche trouvée pour "{query}".',
+        toyota1zzStrengths: 'Architecture simple, pièces faciles, bonne sobriété.',
+        toyota1zzWeak: 'Consommation d’huile sur premières versions, bruit de chaîne, refroidissement négligé.',
+        toyota1zzNote: 'Vérifiez l’historique d’huile et le bruit de chaîne à froid.',
+        toyota2zrStrengths: 'Efficace, très courant, bonne réputation hybride.',
+        toyota2zrWeak: 'Pompe à eau, dépôts EGR sur hybrides, fuites avec l’âge.',
+        toyota2zrNote: 'Sur hybride, vérifiez entretien et refroidissement.',
+        hondaR18Strengths: 'Moteur quotidien fiable, entretien simple, économique.',
+        hondaR18Weak: 'Jeu aux soupapes négligé, supports, fuites liées à l’âge.',
+        hondaR18Note: 'Demandez la date du dernier réglage des soupapes.',
+        hondaK20Strengths: 'Réputation sportive, base durable, pièces nombreuses.',
+        hondaK20Weak: 'Fuites d’huile, chaîne si entretien négligé, mauvais tuning.',
+        hondaK20Note: 'Contrôlez l’entretien et évitez les préparations douteuses.',
+        bmwM54Strengths: 'Six cylindres souple, grand support passionnés, réparable.',
+        bmwM54Weak: 'Refroidissement, consommation d’huile, DISA, joints VANOS.',
+        bmwM54Note: 'Prévoir budget refroidissement et fuites d’huile.',
+        bmwN52Strengths: 'Six cylindres atmosphérique, raffiné, généralement robuste.',
+        bmwN52Weak: 'Pompe à eau électrique, fuites d’huile, défauts Valvetronic.',
+        bmwN52Note: 'Vérifiez la pompe et les défauts enregistrés.',
+        vwEa888Strengths: 'Bon couple, énorme support pièces, nombreuses versions.',
+        vwEa888Weak: 'Chaîne sur premières versions, consommation d’huile, pompe à eau.',
+        vwEa888Note: 'Identifier d’abord la génération; les problèmes varient.',
+        mbM274Strengths: 'Turbo moderne, efficace, présent sur beaucoup de modèles.',
+        mbM274Weak: 'Chaîne, déphaseurs, fuites huile et liquide de refroidissement.',
+        mbM274Note: 'Le bruit à froid et l’historique comptent beaucoup.',
+        aisinTf80Strengths: 'Automatique 6 rapports courante, solide si entretenue.',
+        aisinTf80Weak: 'Bloc hydraulique, passages brusques, huile négligée.',
+        aisinTf80Note: 'Tester les passages à chaud et l’historique d’huile.',
+        aisinAw55Strengths: 'Boîte répandue, réparations bien connues.',
+        aisinAw55Weak: 'Bloc hydraulique, engagement lent, huile ancienne.',
+        aisinAw55Note: 'Évitez patinage, emballement ou à-coups forts.',
+        zf6hpStrengths: 'Passages souples, versions coupleuses, bon support.',
+        zf6hpWeak: 'Douilles mécatroniques, solénoïdes, convertisseur.',
+        zf6hpNote: 'Contrôler fuites et passages après chauffe complète.',
+        zf8hpStrengths: 'Automatique rapide et efficiente, excellente réputation.',
+        zf8hpWeak: 'Huile négligée, mécatronique, confusion avec boîte de transfert.',
+        zf8hpNote: 'Historique et huile correcte sont importants.',
+        jatcoJf011Strengths: 'CVT très courante avec beaucoup d’informations.',
+        jatcoJf011Weak: 'Surchauffe, courroie et poulies, huile ancienne.',
+        jatcoJf011Note: 'Évitez à-coups, sifflement, surchauffe ou entretien inconnu.',
+        dsgDq250Strengths: 'DSG embrayages humides, performante, pièces courantes.',
+        dsgDq250Weak: 'Mécatronique, embrayages, vidange ignorée.',
+        dsgDq250Note: 'Vidange et douceur à basse vitesse sont essentielles.',
+        noteStructureTitle: 'Structure du catalogue',
+        noteStructure: 'Les fiches sont d’abord groupées par fabricant et famille. Plus tard, nous ajouterons des pages SEO séparées.',
+        noteBuyerTitle: 'Vision acheteur',
+        noteBuyer: 'Objectif: recherche occasion pratique, points à contrôler, pannes fréquentes et niveau de risque.',
+        noteNextTitle: 'Prochaine couche',
+        noteNext: 'Ajouter cylindrée exacte, carburant, distribution, modèles typiques et intervalles.',
+        disclaimer: 'Données de départ en vérification. Confirmez toujours moteur et transmission par VIN, année exacte, marché, documents et inspection professionnelle avant achat.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
         pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Verbrauch',
+        fuel: 'Kraftstoffkosten-Rechner',
         diagnostics: 'Diagnose',
         engines: 'Motoren',
         guides: 'Ratgeber',
-        status: 'In Entwicklung',
-        openTire: 'Reifenrechner öffnen',
-        openPcd: 'PCD-Datenbank öffnen',
-        openFuel: 'Verbrauchsrechner öffnen'
-      }
-    };
-
-    const content = {
-      diagnostics: {
-        active: 'diagnostics',
-        en: {
-          title: 'Diagnostics',
-          lead: 'A future tool section for OBD software, brand-specific diagnostics and adapter compatibility.',
-          cards: [
-            ['OBD software', 'Catalog open and official diagnostic software by vehicle brand and adapter type.'],
-            ['Adapter compatibility', 'Explain ELM327, J2534, ENET, KKL, VAG and other common interfaces.'],
-            ['Brand workflows', 'Simple guides for reading codes, live data and service functions.']
-          ]
-        },
-        es: {
-          title: 'Diagnóstico',
-          lead: 'Futura sección para software OBD, diagnóstico por marca y compatibilidad de adaptadores.',
-          cards: [
-            ['Software OBD', 'Catálogo de software abierto u oficial por marca y tipo de adaptador.'],
-            ['Compatibilidad', 'Explicación de ELM327, J2534, ENET, KKL, VAG y otras interfaces.'],
-            ['Flujos por marca', 'Guías simples para leer códigos, datos en vivo y funciones de servicio.']
-          ]
-        },
-        fr: {
-          title: 'Diagnostic',
-          lead: 'Future section pour logiciels OBD, diagnostics par marque et compatibilité des adaptateurs.',
-          cards: [
-            ['Logiciels OBD', 'Catalogue de logiciels ouverts ou officiels par marque et type d’adaptateur.'],
-            ['Compatibilité', 'Explication des interfaces ELM327, J2534, ENET, KKL, VAG et autres.'],
-            ['Méthodes par marque', 'Guides simples pour lire codes défauts, données live et fonctions service.']
-          ]
-        },
-        de: {
-          title: 'Diagnose',
-          lead: 'Geplanter Bereich für OBD-Software, markenspezifische Diagnose und Adapter-Kompatibilität.',
-          cards: [
-            ['OBD-Software', 'Katalog offener und offizieller Diagnose-Software nach Marke und Adaptertyp.'],
-            ['Kompatibilität', 'Erklärung von ELM327, J2534, ENET, KKL, VAG und weiteren Schnittstellen.'],
-            ['Marken-Workflows', 'Einfache Anleitungen für Fehlercodes, Live-Daten und Servicefunktionen.']
-          ]
-        }
-      },
-      engines: {
-        active: 'engines',
-        en: {
-          title: 'Engines',
-          lead: 'A future engine knowledge base with engine codes, common issues, strengths, weaknesses and used-car risk notes.',
-          cards: [
-            ['Engine codes', 'Find engines by code, manufacturer, model and production years.'],
-            ['Known problems', 'Summarize weak points, maintenance risks and typical repair topics.'],
-            ['Used-car checks', 'Short checklists for buyers before inspection or purchase.']
-          ]
-        },
-        es: {
-          title: 'Motores',
-          lead: 'Futura base de motores con códigos, problemas comunes, puntos fuertes, debilidades y riesgos al comprar usado.',
-          cards: [
-            ['Códigos de motor', 'Buscar motores por código, fabricante, modelo y años.'],
-            ['Problemas conocidos', 'Resumen de puntos débiles, mantenimiento y reparaciones típicas.'],
-            ['Compra de usados', 'Listas cortas de revisión antes de inspeccionar o comprar.']
-          ]
-        },
-        fr: {
-          title: 'Moteurs',
-          lead: 'Future base moteur avec codes, problèmes fréquents, points forts, faiblesses et risques en occasion.',
-          cards: [
-            ['Codes moteur', 'Rechercher par code, constructeur, modèle et années de production.'],
-            ['Problèmes connus', 'Résumé des faiblesses, risques d’entretien et réparations courantes.'],
-            ['Achat occasion', 'Checklists courtes avant inspection ou achat.']
-          ]
-        },
-        de: {
-          title: 'Motoren',
-          lead: 'Geplante Motor-Datenbank mit Codes, bekannten Problemen, Stärken, Schwächen und Gebrauchtwagen-Risiken.',
-          cards: [
-            ['Motorcodes', 'Motoren nach Code, Hersteller, Modell und Baujahren finden.'],
-            ['Bekannte Probleme', 'Schwachstellen, Wartungsrisiken und typische Reparaturen kurz erklären.'],
-            ['Gebrauchtwagen-Check', 'Kurze Checklisten vor Besichtigung oder Kauf.']
-          ]
-        }
-      },
-      guides: {
-        active: 'guides',
-        en: {
-          title: 'Guides',
-          lead: 'A future library of practical automotive guides connected to Autohub tools.',
-          cards: [
-            ['Wheel fitment basics', 'PCD, center bore, offset, spacers and tire-size tolerance.'],
-            ['Fuel economy', 'How driving style, tires, weather and load affect real consumption.'],
-            ['Diagnostics basics', 'What fault codes mean and how to avoid bad adapter choices.']
-          ]
-        },
-        es: {
-          title: 'Guías',
-          lead: 'Futura biblioteca de guías prácticas conectadas con las herramientas de Autohub.',
-          cards: [
-            ['Compatibilidad de ruedas', 'PCD, buje, ET, separadores y tolerancia de neumáticos.'],
-            ['Ahorro de combustible', 'Cómo estilo de conducción, neumáticos, clima y carga afectan el consumo.'],
-            ['Diagnóstico básico', 'Qué significan los códigos y cómo evitar malos adaptadores.']
-          ]
-        },
-        fr: {
-          title: 'Guides',
-          lead: 'Future bibliothèque de guides pratiques reliés aux outils Autohub.',
-          cards: [
-            ['Montage roues', 'PCD, alésage, déport, cales et tolérance de dimensions pneus.'],
-            ['Économie de carburant', 'Influence du style de conduite, pneus, météo et charge.'],
-            ['Bases diagnostic', 'Comprendre les codes défauts et éviter les mauvais adaptateurs.']
-          ]
-        },
-        de: {
-          title: 'Ratgeber',
-          lead: 'Geplante Sammlung praktischer Auto-Ratgeber, verbunden mit den Autohub-Tools.',
-          cards: [
-            ['Felgenpassung', 'PCD, Mittenloch, ET, Spurplatten und Reifengrößen-Toleranz.'],
-            ['Sprit sparen', 'Wie Fahrstil, Reifen, Wetter und Beladung den Verbrauch beeinflussen.'],
-            ['Diagnose-Grundlagen', 'Fehlercodes verstehen und schlechte Adapter vermeiden.']
-          ]
-        }
+        title: 'Motoren- und Getriebekatalog',
+        lead: 'Startkatalog mit Motorcodes und Getriebefamilien, typischen Anwendungen, Stärken, Schwächen und Käuferhinweisen.',
+        allItems: 'Alle',
+        engineItems: 'Motoren',
+        transmissionItems: 'Getriebe',
+        popularTitle: 'Beliebte Motor- und Getriebesuchen',
+        catalogTitle: 'Katalogeinträge',
+        type: 'Typ',
+        maker: 'Hersteller',
+        code: 'Code / Familie',
+        years: 'Baujahre',
+        applications: 'Typische Anwendungen',
+        strengths: 'Stärken',
+        weakPoints: 'Schwachstellen',
+        buyerNote: 'Käuferhinweis',
+        engineLabel: 'Motor',
+        transmissionLabel: 'Getriebe',
+        summaryAll: '{count} Starteinträge werden angezeigt.',
+        summaryFiltered: '{count} Einträge für "{query}" gefunden.',
+        summaryEmpty: 'Keine Einträge für "{query}" gefunden.',
+        toyota1zzStrengths: 'Einfacher Aufbau, viele Teile, guter Verbrauch.',
+        toyota1zzWeak: 'Früher Ölverbrauch, Kettengeräusche, vernachlässigte Kühlung.',
+        toyota1zzNote: 'Ölverbrauch und Kettengeräusch beim Kaltstart prüfen.',
+        toyota2zrStrengths: 'Effizient, weltweit verbreitet, guter Hybrid-Ruf.',
+        toyota2zrWeak: 'Wasserpumpe, EGR-Ablagerungen bei Hybriden, Lecks im Alter.',
+        toyota2zrNote: 'Bei Hybriden Servicehistorie und Kühlung prüfen.',
+        hondaR18Strengths: 'Zuverlässiger Alltagsmotor, einfache Wartung, sparsam.',
+        hondaR18Weak: 'Ventilspiel vernachlässigt, Lager, altersbedingte Lecks.',
+        hondaR18Note: 'Nach letzter Ventilspiel-Einstellung fragen.',
+        hondaK20Strengths: 'Starker Performance-Ruf, haltbare Basis, gute Teilelage.',
+        hondaK20Weak: 'Öllecks, Kettenverschleiß bei schlechter Wartung, Tuningmissbrauch.',
+        hondaK20Note: 'Wartungsqualität prüfen und schlechtes Tuning meiden.',
+        bmwM54Strengths: 'Sanfter Reihensechser, große Community, gut reparierbar.',
+        bmwM54Weak: 'Kühlsystem, Ölverbrauch, DISA, VANOS-Dichtungen.',
+        bmwM54Note: 'Budget für Kühlung und Öllecks einplanen.',
+        bmwN52Strengths: 'Saug-Reihensechser, kultiviert, meist robust.',
+        bmwN52Weak: 'Elektrische Wasserpumpe, Öllecks, Valvetronic-Fehler.',
+        bmwN52Note: 'Pumpenhistorie prüfen und Fehlerspeicher auslesen.',
+        vwEa888Strengths: 'Gutes Drehmoment, viele Teile, viele Versionen.',
+        vwEa888Weak: 'Kette bei frühen Versionen, Ölverbrauch, Wasserpumpe.',
+        vwEa888Note: 'Generation zuerst bestimmen; Probleme unterscheiden sich stark.',
+        mbM274Strengths: 'Moderner Turbomotor, effizient, breit eingesetzt.',
+        mbM274Weak: 'Kettenlängung, Nockensteller, Öl- und Kühlmittellecks.',
+        mbM274Note: 'Kaltstartgeräusche und Servicehistorie sind wichtig.',
+        aisinTf80Strengths: 'Häufige 6-Gang-Automatik, stark bei guter Wartung.',
+        aisinTf80Weak: 'Ventilkörper, harte Schaltvorgänge, altes Öl.',
+        aisinTf80Note: 'Warm schalten testen und Ölwechselhistorie prüfen.',
+        aisinAw55Strengths: 'Weit verbreitet, Reparaturwissen vorhanden.',
+        aisinAw55Weak: 'Ventilkörper, verzögertes Einlegen, altes Öl.',
+        aisinAw55Note: 'Rutschen, Hochdrehen oder harte Stöße meiden.',
+        zf6hpStrengths: 'Sanfte Schaltung, hohe Drehmomentversionen, guter Support.',
+        zf6hpWeak: 'Mechatronik-Hülsen, Magnetventile, Wandler.',
+        zf6hpNote: 'Lecks und Schaltqualität nach Warmfahren prüfen.',
+        zf8hpStrengths: 'Schnelle effiziente Automatik, sehr guter Ruf.',
+        zf8hpWeak: 'Vernachlässigtes Öl, Mechatronik, Verwechslung mit Verteilergetriebe.',
+        zf8hpNote: 'Servicehistorie und korrektes Öl sind wichtig.',
+        jatcoJf011Strengths: 'Sehr verbreitetes CVT mit vielen Reparaturinfos.',
+        jatcoJf011Weak: 'Überhitzung, Riemen und Scheiben, altes Öl.',
+        jatcoJf011Note: 'Ruckeln, Heulen, Überhitzung oder unbekannte Wartung meiden.',
+        dsgDq250Strengths: 'Nasskupplungs-DSG, gute Performance, viele Teile.',
+        dsgDq250Weak: 'Mechatronik, Kupplungsverschleiß, ausgelassener Ölservice.',
+        dsgDq250Note: 'Ölservice und sanftes Verhalten bei niedriger Geschwindigkeit zählen.',
+        noteStructureTitle: 'Katalogstruktur',
+        noteStructure: 'Einträge sind zuerst nach Hersteller und Familie gruppiert. Später können eigene SEO-Seiten folgen.',
+        noteBuyerTitle: 'Käuferfokus',
+        noteBuyer: 'Ziel ist praktische Gebrauchtwagen-Recherche: Was prüfen, was fällt aus, wie hoch ist das Risiko.',
+        noteNextTitle: 'Nächste Datentiefe',
+        noteNext: 'Als Nächstes: Hubraum, Kraftstoff, Steuertrieb, typische Modelle und Wartungsintervalle.',
+        disclaimer: 'Startdaten werden geprüft. Motor- und Getriebedetails vor Kauf immer per VIN, exaktem Baujahr, Markt, Serviceunterlagen und Fachprüfung bestätigen.'
       }
     };
 
     let lang = 'en';
-    const page = content[sectionKey];
-    const cardsEl = document.getElementById('cards');
+    let activeFilter = 'all';
+    const searchEl = document.getElementById('search');
+    const rows = Array.from(document.querySelectorAll('#catalogRows tr'));
+    const summaryEl = document.getElementById('summary');
 
     function t(key) {
-      return (shared[lang] && shared[lang][key]) || (page[lang] && page[lang][key]) || shared.en[key] || page.en[key] || key;
+      return translations[lang][key] || translations.en[key] || key;
     }
 
-    function renderCards() {
-      cardsEl.innerHTML = page[lang].cards.map(([title, text]) => `
-        <article class="panel">
-          <h2>${title}</h2>
-          <div class="panel-body">${text}</div>
-        </article>
-      `).join('');
+    function formatSummary(template, values) {
+      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
+    }
+
+    function rowMatches(row, query) {
+      const typeOk = activeFilter === 'all' || row.dataset.type === activeFilter;
+      const text = `${row.textContent} ${row.dataset.search || ''}`.toLowerCase();
+      return typeOk && (!query || text.includes(query));
+    }
+
+    function render() {
+      const query = searchEl.value.trim().toLowerCase();
+      let visible = 0;
+      rows.forEach((row) => {
+        const show = rowMatches(row, query);
+        row.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (!query) {
+        summaryEl.textContent = formatSummary(t('summaryAll'), { count: visible });
+      } else if (visible) {
+        summaryEl.textContent = formatSummary(t('summaryFiltered'), { count: visible, query: searchEl.value.trim() });
+      } else {
+        summaryEl.textContent = formatSummary(t('summaryEmpty'), { query: searchEl.value.trim() });
+      }
     }
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `Autohub ${page[lang].title}`;
+      document.title = `Autohub ${t('title')}`;
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });
-      document.querySelector(`a[data-i18n="${page.active}"]`).classList.add('active');
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
-      renderCards();
+      render();
     }
 
     document.querySelectorAll('[data-lang]').forEach((button) => {
@@ -406,9 +861,18 @@
       });
     });
 
+    document.querySelectorAll('[data-filter]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeFilter = button.dataset.filter;
+        document.querySelectorAll('[data-filter]').forEach((item) => {
+          item.classList.toggle('selected', item.dataset.filter === activeFilter);
+        });
+        render();
+      });
+    });
+
+    searchEl.addEventListener('input', render);
     translatePage();
   </script>
 </body>
 </html>
-
-
