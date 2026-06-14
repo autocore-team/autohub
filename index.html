@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Autohub Tire & Rim Calculator</title>
+  <meta name="description" content="Autohub car calculators and fitment tools for tire sizes, wheel offset, bolt patterns, center bore and fuel costs.">
+  <title>Autohub — car calculators and fitment tools</title>
   <style>
     :root {
       color-scheme: light;
@@ -91,6 +92,50 @@
       margin: 0 0 8px;
       font-size: 30px;
       line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .portal-intro {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    .portal-intro p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 900px;
+      line-height: 1.5;
+    }
+    .tool-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .tool-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: #f8fafc;
+      color: var(--text);
+      padding: 0 12px;
+      font-size: 14px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .tool-links a:first-child {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .tool-heading h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      line-height: 1.25;
       letter-spacing: 0;
     }
     .lead {
@@ -293,8 +338,20 @@
   </header>
 
   <main>
-    <h1 data-i18n="title">Tire & Rim Calculator</h1>
-    <p class="lead" data-i18n="lead">Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.</p>
+    <section class="portal-intro" aria-label="Autohub overview">
+      <h1 data-i18n="homeTitle">Autohub — car calculators and fitment tools</h1>
+      <p data-i18n="homeLead">Compare tire sizes, wheel offset, bolt patterns, center bore and fuel costs. Useful for choosing wheels, tires and checking compatibility before buying.</p>
+      <div class="tool-links">
+        <a href="pcd.html" data-i18n="homePcd">PCD Database</a>
+        <a href="fuel.html" data-i18n="homeFuel">Fuel Cost Calculator</a>
+        <a href="guides.html" data-i18n="homeGuides">Guides</a>
+      </div>
+    </section>
+
+    <section class="tool-heading" aria-label="Tire and rim calculator">
+      <h2 data-i18n="title">Tire & Rim Calculator</h2>
+      <p class="lead" data-i18n="lead">Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.</p>
+    </section>
 
     <section class="layout" aria-label="Tire calculator inputs">
       <div class="panel">
@@ -418,6 +475,11 @@
         diagnostics: 'Diagnostics',
         engines: 'Engines',
         guides: 'Guides',
+        homeTitle: 'Autohub — car calculators and fitment tools',
+        homeLead: 'Compare tire sizes, wheel offset, bolt patterns, center bore and fuel costs. Useful for choosing wheels, tires and checking compatibility before buying.',
+        homePcd: 'PCD Database',
+        homeFuel: 'Fuel Cost Calculator',
+        homeGuides: 'Guides',
         title: 'Tire & Rim Calculator',
         lead: 'Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.',
         originalSize: 'Original Size',
@@ -466,6 +528,11 @@
         diagnostics: 'Diagnóstico',
         engines: 'Motores',
         guides: 'Guías',
+        homeTitle: 'Autohub — calculadoras y herramientas de compatibilidad',
+        homeLead: 'Compara medidas de neumáticos, ET, patrones de tornillos, buje central y costes de combustible. Útil para elegir llantas, neumáticos y comprobar compatibilidad antes de comprar.',
+        homePcd: 'Base PCD',
+        homeFuel: 'Calculadora de consumo',
+        homeGuides: 'Guías',
         title: 'Calculadora de neumáticos y llantas',
         lead: 'Compara la medida original y la nueva, el ancho de llanta y el ET. El resultado muestra diámetro, altura, error del velocímetro y posición de la rueda.',
         originalSize: 'Medida original',
@@ -514,6 +581,11 @@
         diagnostics: 'Diagnostic',
         engines: 'Moteurs',
         guides: 'Guides',
+        homeTitle: 'Autohub — calculateurs auto et outils de compatibilité',
+        homeLead: 'Comparez dimensions de pneus, déport, entraxe, alésage central et coûts de carburant. Utile pour choisir jantes, pneus et vérifier la compatibilité avant achat.',
+        homePcd: 'Base PCD',
+        homeFuel: 'Calculateur carburant',
+        homeGuides: 'Guides',
         title: 'Calculateur pneus et jantes',
         lead: 'Comparez la dimension d’origine et la nouvelle dimension, la largeur de jante et le déport. Le résultat montre diamètre, garde au sol, erreur compteur et position de roue.',
         originalSize: 'Dimension d’origine',
@@ -562,6 +634,11 @@
         diagnostics: 'Diagnose',
         engines: 'Motoren',
         guides: 'Ratgeber',
+        homeTitle: 'Autohub — Autorechner und Fitment-Tools',
+        homeLead: 'Vergleiche Reifengrößen, Einpresstiefe, Lochkreis, Mittenloch und Kraftstoffkosten. Nützlich für Felgen, Reifen und Kompatibilitätschecks vor dem Kauf.',
+        homePcd: 'PCD-Datenbank',
+        homeFuel: 'Verbrauchsrechner',
+        homeGuides: 'Ratgeber',
         title: 'Reifen- und Felgenrechner',
         lead: 'Vergleiche Original- und neue Reifengröße, Felgenbreite und ET. Das Ergebnis zeigt Durchmesser, Bodenfreiheit, Tachoabweichung und Radposition.',
         originalSize: 'Originalgröße',
