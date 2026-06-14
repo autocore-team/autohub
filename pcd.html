@@ -189,6 +189,37 @@
       font-size: 14px;
       min-height: 20px;
     }
+    .static-links {
+      margin: 0 0 16px;
+      padding: 14px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .static-links h2 {
+      margin: 0 0 10px;
+      padding: 0;
+      border-bottom: 0;
+      font-size: 16px;
+    }
+    .link-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .link-list a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 0 11px;
+      white-space: nowrap;
+    }
     .details-title {
       margin: 0 0 12px;
       font-size: 18px;
@@ -245,6 +276,16 @@
       border-radius: 8px;
       line-height: 1.45;
     }
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      background: #fff7e6;
+      color: #7a4b00;
+      border-radius: 8px;
+      line-height: 1.45;
+      font-size: 14px;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
@@ -289,7 +330,7 @@
       <div class="brand">Autohub</div>
       <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
       <a href="pcd.html" class="active" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Consumption</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
       <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
       <a href="engines.html" data-i18n="engines">Engines</a>
       <a href="guides.html" data-i18n="guides">Guides</a>
@@ -313,6 +354,18 @@
     <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
     <div class="summary" id="resultSummary"></div>
 
+    <section class="static-links" aria-label="Popular wheel fitment pages">
+      <h2 data-i18n="popularSearches">Popular wheel fitment searches</h2>
+      <div class="link-list">
+        <a href="pcd/volvo/s70.html" data-i18n="popularVolvoS70">Volvo S70 tire size</a>
+        <a href="pcd/opel/astra.html" data-i18n="popularOpelAstra">Opel Astra PCD</a>
+        <a href="pcd/bmw/e46.html" data-i18n="popularBmwE46">BMW E46 wheel offset</a>
+        <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf">VW Golf center bore</a>
+        <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108">5x108 bolt pattern cars</a>
+        <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110">5x110 bolt pattern cars</a>
+      </div>
+    </section>
+
     <section class="layout">
       <div class="panel">
         <h2 data-i18n="makes">Makes</h2>
@@ -329,6 +382,8 @@
         <div id="details"></div>
       </div>
     </section>
+
+    <div class="disclaimer" data-i18n="fitmentDisclaimer">Always verify wheel fitment with your vehicle manual or a professional before buying. Brake clearance, suspension modifications and local regulations may affect compatibility.</div>
   </main>
 
   <script src="pcd-data.js"></script>
@@ -337,7 +392,7 @@
       en: {
         tireCalculator: 'Tire Calculator',
         pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Consumption',
+        fuel: 'Fuel Cost Calculator',
         diagnostics: 'Diagnostics',
         engines: 'Engines',
         guides: 'Guides',
@@ -371,12 +426,20 @@
         fastenerBolts: 'bolts',
         fastenerNuts: 'nuts',
         statusNeedsReview: 'under review',
-        statusVerified: 'verified'
+        statusVerified: 'verified',
+        popularSearches: 'Popular wheel fitment searches',
+        popularVolvoS70: 'Volvo S70 tire size',
+        popularOpelAstra: 'Opel Astra PCD',
+        popularBmwE46: 'BMW E46 wheel offset',
+        popularVwGolf: 'VW Golf center bore',
+        popular5x108: '5x108 bolt pattern cars',
+        popular5x110: '5x110 bolt pattern cars',
+        fitmentDisclaimer: 'Always verify wheel fitment with your vehicle manual or a professional before buying. Brake clearance, suspension modifications and local regulations may affect compatibility.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consumo',
+        fuel: 'Calculadora de coste de combustible',
         diagnostics: 'Diagnóstico',
         engines: 'Motores',
         guides: 'Guías',
@@ -410,12 +473,20 @@
         fastenerBolts: 'tornillos',
         fastenerNuts: 'tuercas',
         statusNeedsReview: 'en revisión',
-        statusVerified: 'verificado'
+        statusVerified: 'verificado',
+        popularSearches: 'Búsquedas populares de compatibilidad',
+        popularVolvoS70: 'Medida de neumáticos Volvo S70',
+        popularOpelAstra: 'PCD Opel Astra',
+        popularBmwE46: 'ET de ruedas BMW E46',
+        popularVwGolf: 'Buje central VW Golf',
+        popular5x108: 'Coches con patrón 5x108',
+        popular5x110: 'Coches con patrón 5x110',
+        fitmentDisclaimer: 'Verifica siempre la compatibilidad de ruedas con el manual del vehículo o un profesional antes de comprar. Los frenos, modificaciones de suspensión y normas locales pueden afectar la compatibilidad.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consommation',
+        fuel: 'Calculateur de coût carburant',
         diagnostics: 'Diagnostic',
         engines: 'Moteurs',
         guides: 'Guides',
@@ -449,12 +520,20 @@
         fastenerBolts: 'boulons',
         fastenerNuts: 'écrous',
         statusNeedsReview: 'à vérifier',
-        statusVerified: 'vérifié'
+        statusVerified: 'vérifié',
+        popularSearches: 'Recherches populaires de compatibilité',
+        popularVolvoS70: 'Dimension pneus Volvo S70',
+        popularOpelAstra: 'PCD Opel Astra',
+        popularBmwE46: 'Déport roues BMW E46',
+        popularVwGolf: 'Alésage central VW Golf',
+        popular5x108: 'Voitures avec entraxe 5x108',
+        popular5x110: 'Voitures avec entraxe 5x110',
+        fitmentDisclaimer: 'Vérifiez toujours la compatibilité des roues avec le manuel du véhicule ou un professionnel avant achat. Le dégagement des freins, les modifications de suspension et les règles locales peuvent influencer la compatibilité.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
         pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Verbrauch',
+        fuel: 'Kraftstoffkosten-Rechner',
         diagnostics: 'Diagnose',
         engines: 'Motoren',
         guides: 'Ratgeber',
@@ -488,7 +567,15 @@
         fastenerBolts: 'Radschrauben',
         fastenerNuts: 'Radmuttern',
         statusNeedsReview: 'in Prüfung',
-        statusVerified: 'geprüft'
+        statusVerified: 'geprüft',
+        popularSearches: 'Beliebte Felgenpassungs-Suchen',
+        popularVolvoS70: 'Volvo S70 Reifengröße',
+        popularOpelAstra: 'Opel Astra PCD',
+        popularBmwE46: 'BMW E46 Felgen-ET',
+        popularVwGolf: 'VW Golf Mittenloch',
+        popular5x108: 'Autos mit Lochkreis 5x108',
+        popular5x110: 'Autos mit Lochkreis 5x110',
+        fitmentDisclaimer: 'Prüfe die Felgenpassung vor dem Kauf immer mit dem Fahrzeughandbuch oder einem Fachbetrieb. Bremsenfreigängigkeit, Fahrwerksänderungen und lokale Vorschriften können die Kompatibilität beeinflussen.'
       }
     };
 
@@ -847,3 +934,4 @@
   </script>
 </body>
 </html>
+
