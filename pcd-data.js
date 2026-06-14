@@ -3743,6 +3743,23 @@ const PCD_DATA = [
     slug: 'volvo',
     models: [
       {
+        name: 'S70',
+        slug: 's70',
+        records: [
+          {
+            generation: 'P80',
+            years: '1997-2000',
+            market: 'Global',
+            pcd: '5x108',
+            centerBore: '65.1',
+            thread: 'M12x1.75',
+            fastener: 'nuts',
+            offset: 'ET43-49',
+            status: 'needs_review'
+          }
+        ]
+      },
+      {
         name: 'S40 / V40 / V50',
         slug: 's40-v40-v50',
         records: [
