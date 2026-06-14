@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Autohub Section</title>
+  <meta name="description" content="Autohub diagnostics catalog with legal OBD software, brand diagnostic tools, official dealer portals and adapter compatibility notes.">
+  <title>Autohub Diagnostics Software & Adapters</title>
   <style>
     :root {
       color-scheme: light;
@@ -15,6 +16,8 @@
       --accent: #0f766e;
       --accent-dark: #115e59;
       --soft: #f8fafc;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
     }
     * { box-sizing: border-box; }
     body {
@@ -89,22 +92,61 @@
       letter-spacing: 0;
     }
     .lead {
-      margin: 0 0 20px;
+      margin: 0 0 18px;
       color: var(--muted);
-      max-width: 820px;
+      max-width: 860px;
       line-height: 1.5;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-      align-items: stretch;
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 18px 0 14px;
+    }
+    input {
+      width: min(100%, 470px);
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 12px;
+      font-size: 15px;
+    }
+    .tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tabs button {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: #334155;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 12px;
+      cursor: pointer;
+    }
+    .tabs button.selected {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .summary {
+      margin: 0 0 16px;
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 14px;
     }
     .panel {
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 8px;
       min-width: 0;
+      margin-top: 16px;
     }
     .panel h2 {
       font-size: 16px;
@@ -114,62 +156,128 @@
     }
     .panel-body {
       padding: 14px;
+    }
+    .quick-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .quick-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 0 11px;
+      white-space: nowrap;
+    }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th,
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 700;
+      background: var(--soft);
+    }
+    td a {
+      color: var(--accent-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    td a:hover {
+      text-decoration: underline;
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border-radius: 999px;
+      padding: 2px 9px;
+      background: #edf2f7;
+      color: #334155;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .note-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .note-grid article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .note-grid h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .note-grid p {
+      margin: 0;
       color: var(--muted);
       line-height: 1.5;
       font-size: 14px;
     }
-    .status {
-      display: inline-flex;
-      align-items: center;
-      min-height: 28px;
-      border-radius: 999px;
-      padding: 4px 10px;
-      background: #e6f6f4;
-      color: var(--accent-dark);
-      font-size: 13px;
-      margin-bottom: 14px;
-    }
-    .links {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-    .link-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 40px;
-      border-radius: 6px;
-      background: var(--accent);
-      color: #fff;
-      text-decoration: none;
-      padding: 0 14px;
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+      border-radius: 8px;
+      line-height: 1.45;
       font-size: 14px;
-      white-space: nowrap;
-    }
-    .link-button.secondary {
-      background: #e2e8f0;
-      color: #1e293b;
     }
     @media (max-width: 900px) {
-      .grid {
+      .note-grid {
         grid-template-columns: 1fr;
       }
       .langbar {
         margin-left: 0;
       }
     }
+    @media (max-width: 520px) {
+      h1 {
+        font-size: 26px;
+      }
+      .toolbar {
+        align-items: stretch;
+      }
+      input,
+      .tabs,
+      .tabs button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
-<body data-section="diagnostics">
+<body>
   <header class="topbar">
     <nav class="nav" aria-label="Autohub common menu">
       <div class="brand">Autohub</div>
       <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
       <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Consumption</a>
-      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
+      <a href="diagnostics.html" class="active" data-i18n="diagnostics">Diagnostics</a>
       <a href="engines.html" data-i18n="engines">Engines</a>
       <a href="guides.html" data-i18n="guides">Guides</a>
       <div class="langbar" aria-label="Language">
@@ -182,221 +290,452 @@
   </header>
 
   <main>
-    <div class="status" data-i18n="status">In development</div>
-    <h1 data-i18n="title">Section</h1>
-    <p class="lead" data-i18n="lead">This Autohub section is being prepared.</p>
+    <h1 data-i18n="title">Diagnostics Software & Adapters</h1>
+    <p class="lead" data-i18n="lead">Legal diagnostic software, official service portals and adapter compatibility notes. This section avoids pirated builds, cracks and activators, and points users toward official or clearly legitimate sources.</p>
 
-    <section class="grid" id="cards"></section>
-
-    <div class="links">
-      <a class="link-button" href="index.html" data-i18n="openTire">Open Tire Calculator</a>
-      <a class="link-button secondary" href="pcd.html" data-i18n="openPcd">Open PCD Database</a>
-      <a class="link-button secondary" href="fuel.html" data-i18n="openFuel">Open Fuel Calculator</a>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search: FORScan, VCDS, Techstream, ELM327, J2534">
+      <div class="tabs" aria-label="Diagnostics filters">
+        <button type="button" class="selected" data-filter="all" data-i18n="allItems">All</button>
+        <button type="button" data-filter="universal" data-i18n="universalItems">Universal OBD</button>
+        <button type="button" data-filter="brand" data-i18n="brandItems">Brand tools</button>
+        <button type="button" data-filter="dealer" data-i18n="dealerItems">Dealer / professional</button>
+        <button type="button" data-filter="adapter" data-i18n="adapterItems">Adapters</button>
+      </div>
     </div>
+    <p class="summary" id="summary">Showing starter diagnostics records.</p>
+
+    <section class="panel" aria-label="Popular diagnostics searches">
+      <h2 data-i18n="popularTitle">Popular diagnostics searches</h2>
+      <div class="panel-body">
+        <div class="quick-links">
+          <a href="#forscan">FORScan Ford Mazda</a>
+          <a href="#vcds">VCDS VW Audi</a>
+          <a href="#techstream">Toyota Techstream</a>
+          <a href="#bmw-ista">BMW ISTA official access</a>
+          <a href="#servicebox">Stellantis Service Box</a>
+          <a href="#elm327">ELM327 adapter compatibility</a>
+          <a href="#j2534">J2534 pass-thru</a>
+          <a href="#obdlink">OBDLink adapters</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Diagnostics catalog">
+      <h2 data-i18n="catalogTitle">Diagnostics catalog</h2>
+      <div class="panel-body">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="category">Category</th>
+                <th data-i18n="name">Name</th>
+                <th data-i18n="coverage">Coverage</th>
+                <th data-i18n="adapter">Adapter / access</th>
+                <th data-i18n="officialSource">Official source</th>
+                <th data-i18n="notes">Notes</th>
+              </tr>
+            </thead>
+            <tbody id="catalogRows">
+              <tr id="obd-auto-doctor" data-type="universal" data-search="obd auto doctor universal obd2 elm327 iphone android windows mac emissions readiness live data">
+                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
+                <td>OBD Auto Doctor</td>
+                <td data-i18n="obdAutoCoverage">Generic OBD-II diagnostics, live data and emissions readiness.</td>
+                <td>ELM327 / OBD-II dongle</td>
+                <td><a href="https://www.obdautodoctor.com/" rel="noopener">obdautodoctor.com</a></td>
+                <td data-i18n="obdAutoNote">Good first step for reading and clearing basic check-engine codes.</td>
+              </tr>
+              <tr id="car-scanner" data-type="universal" data-search="car scanner elm obd2 universal ios android coding service obd app">
+                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
+                <td>Car Scanner ELM OBD2</td>
+                <td data-i18n="carScannerCoverage">Universal OBD-II app with dashboards, DTCs and some service/coding features.</td>
+                <td>ELM327 / compatible OBD-II adapter</td>
+                <td><a href="https://www.carscanner.info/" rel="noopener">carscanner.info</a></td>
+                <td data-i18n="carScannerNote">Useful for mobile diagnostics; advanced functions depend on vehicle and adapter.</td>
+              </tr>
+              <tr id="forscan" data-type="brand" data-search="forscan ford mazda lincoln mercury obdlink ex elm327 brand diagnostic">
+                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
+                <td>FORScan</td>
+                <td>Ford, Mazda, Lincoln, Mercury</td>
+                <td>OBDLink EX / compatible ELM327</td>
+                <td><a href="https://forscan.org/" rel="noopener">forscan.org</a></td>
+                <td data-i18n="forscanNote">Popular for Ford/Mazda modules, service functions and configuration checks.</td>
+              </tr>
+              <tr id="vcds" data-type="brand" data-search="vcds ross-tech volkswagen audi skoda seat vag-com hex-v2 hex-net">
+                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
+                <td>VCDS</td>
+                <td>Volkswagen, Audi, Skoda, SEAT</td>
+                <td>Ross-Tech HEX-V2 / HEX-NET</td>
+                <td><a href="https://www.ross-tech.com/vcds/" rel="noopener">ross-tech.com</a></td>
+                <td data-i18n="vcdsNote">Strong VAG diagnostics, coding and adaptations with licensed Ross-Tech hardware.</td>
+              </tr>
+              <tr id="op-com" data-type="brand" data-search="op-com opel vauxhall diagnostic official vendor">
+                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
+                <td>OP-COM</td>
+                <td>Opel / Vauxhall</td>
+                <td>OP-COM interface</td>
+                <td><a href="https://www.op-com.hu/" rel="noopener">op-com.hu</a></td>
+                <td data-i18n="opcomNote">Use licensed hardware/software only; avoid clone interfaces and unofficial archives.</td>
+              </tr>
+              <tr id="techstream" data-type="dealer" data-search="toyota techstream tis lexus scion official diagnostic reprogramming">
+                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
+                <td>Toyota Techstream / TIS</td>
+                <td>Toyota, Lexus, Scion</td>
+                <td>Techstream Lite / approved scan tools</td>
+                <td><a href="https://techinfo.toyota.com/" rel="noopener">techinfo.toyota.com</a></td>
+                <td data-i18n="techstreamNote">Official Toyota technical information and diagnostic/reprogramming access.</td>
+              </tr>
+              <tr id="bmw-ista" data-type="dealer" data-search="bmw ista bmw techinfo aos official service information mini diagnostics">
+                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
+                <td>BMW ISTA / BMW techinfo</td>
+                <td>BMW, MINI</td>
+                <td>BMW ICOM / approved access</td>
+                <td><a href="https://bmwtechinfo.bmwgroup.com/" rel="noopener">bmwtechinfo.bmwgroup.com</a></td>
+                <td data-i18n="bmwIstaNote">Official BMW service information portal; access rules depend on region and subscription.</td>
+              </tr>
+              <tr id="servicebox" data-type="dealer" data-search="stellantis service box diagbox peugeot citroen ds opel official service diagnostics">
+                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
+                <td>Stellantis Service Box / Diagbox</td>
+                <td>Peugeot, Citroen, DS, Opel and related Stellantis brands</td>
+                <td>Official service portal / approved tools</td>
+                <td><a href="https://public.servicebox-parts.com/" rel="noopener">servicebox-parts.com</a></td>
+                <td data-i18n="serviceboxNote">Use official portal access for service data, parts data and supported diagnostic workflows.</td>
+              </tr>
+              <tr id="elm327" data-type="adapter" data-search="elm327 obd2 adapter bluetooth wifi usb compatibility clones">
+                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
+                <td>ELM327-compatible adapters</td>
+                <td data-i18n="elmCoverage">Generic OBD-II apps and basic diagnostics.</td>
+                <td>USB / Bluetooth / Wi-Fi</td>
+                <td data-i18n="adapterVaries">Varies by vendor</td>
+                <td data-i18n="elmNote">Cheap clones can be unstable or limited. Use quality adapters for diagnostics.</td>
+              </tr>
+              <tr id="obdlink" data-type="adapter" data-search="obdlink mx plus ex sx adapter obd2 forscan official scan tool">
+                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
+                <td>OBDLink adapters</td>
+                <td data-i18n="obdlinkCoverage">General OBD-II, FORScan setups and mobile/PC diagnostics.</td>
+                <td>USB / Bluetooth / Wi-Fi depending on model</td>
+                <td><a href="https://www.obdlink.com/" rel="noopener">obdlink.com</a></td>
+                <td data-i18n="obdlinkNote">Often a safer choice than unknown ELM327 clones.</td>
+              </tr>
+              <tr id="j2534" data-type="adapter" data-search="j2534 pass-thru reprogramming adapter sae dealer software">
+                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
+                <td>J2534 Pass-Thru</td>
+                <td data-i18n="j2534Coverage">Professional diagnostics and ECU reprogramming where supported.</td>
+                <td>J2534 pass-thru device</td>
+                <td data-i18n="oemPortals">OEM service portals</td>
+                <td data-i18n="j2534Note">Use only with official software and stable power supply; flashing mistakes can damage modules.</td>
+              </tr>
+              <tr id="enet-icom" data-type="adapter" data-search="bmw enet icom ista adapter diagnostics coding">
+                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
+                <td>BMW ENET / ICOM</td>
+                <td>BMW, MINI</td>
+                <td>ENET cable / BMW ICOM</td>
+                <td data-i18n="bmwOfficialAccess">BMW official access</td>
+                <td data-i18n="enetNote">Common BMW diagnostics connection types; use correct software access and avoid unsafe coding.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="note-grid" aria-label="Diagnostics safety notes">
+      <article>
+        <h3 data-i18n="legalTitle">Legal sources only</h3>
+        <p data-i18n="legalText">Use official websites, licensed software, app stores and legitimate vendor pages. Avoid pirated builds, cracks and activators.</p>
+      </article>
+      <article>
+        <h3 data-i18n="adapterTitle">Adapter matters</h3>
+        <p data-i18n="adapterText">A bad adapter can give connection errors, missing modules or unstable coding sessions. Match the adapter to the software and vehicle.</p>
+      </article>
+      <article>
+        <h3 data-i18n="codingTitle">Coding and flashing risk</h3>
+        <p data-i18n="codingText">Reading codes is usually low risk. Coding, adaptations, immobilizer work and ECU flashing can damage modules if done incorrectly.</p>
+      </article>
+    </section>
+
+    <div class="disclaimer" data-i18n="disclaimer">Use official software and licensed tools. Avoid pirated builds, cracks and activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.</div>
   </main>
 
   <script>
-    const sectionKey = document.body.dataset.section || 'diagnostics';
-
-    const shared = {
+    const translations = {
       en: {
         tireCalculator: 'Tire Calculator',
         pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Consumption',
+        fuel: 'Fuel Cost Calculator',
         diagnostics: 'Diagnostics',
         engines: 'Engines',
         guides: 'Guides',
-        status: 'In development',
-        openTire: 'Open Tire Calculator',
-        openPcd: 'Open PCD Database',
-        openFuel: 'Open Fuel Calculator'
+        title: 'Diagnostics Software & Adapters',
+        lead: 'Legal diagnostic software, official service portals and adapter compatibility notes. This section avoids pirated builds, cracks and activators, and points users toward official or clearly legitimate sources.',
+        allItems: 'All',
+        universalItems: 'Universal OBD',
+        brandItems: 'Brand tools',
+        dealerItems: 'Dealer / professional',
+        adapterItems: 'Adapters',
+        popularTitle: 'Popular diagnostics searches',
+        catalogTitle: 'Diagnostics catalog',
+        category: 'Category',
+        name: 'Name',
+        coverage: 'Coverage',
+        adapter: 'Adapter / access',
+        officialSource: 'Official source',
+        notes: 'Notes',
+        universalLabel: 'Universal OBD',
+        brandLabel: 'Brand tool',
+        dealerLabel: 'Dealer / professional',
+        adapterLabel: 'Adapter',
+        summaryAll: 'Showing {count} starter diagnostics records.',
+        summaryFiltered: 'Found {count} diagnostics records for "{query}".',
+        summaryEmpty: 'No diagnostics records found for "{query}".',
+        obdAutoCoverage: 'Generic OBD-II diagnostics, live data and emissions readiness.',
+        obdAutoNote: 'Good first step for reading and clearing basic check-engine codes.',
+        carScannerCoverage: 'Universal OBD-II app with dashboards, DTCs and some service/coding features.',
+        carScannerNote: 'Useful for mobile diagnostics; advanced functions depend on vehicle and adapter.',
+        forscanNote: 'Popular for Ford/Mazda modules, service functions and configuration checks.',
+        vcdsNote: 'Strong VAG diagnostics, coding and adaptations with licensed Ross-Tech hardware.',
+        opcomNote: 'Use licensed hardware/software only; avoid clone interfaces and unofficial archives.',
+        techstreamNote: 'Official Toyota technical information and diagnostic/reprogramming access.',
+        bmwIstaNote: 'Official BMW service information portal; access rules depend on region and subscription.',
+        serviceboxNote: 'Use official portal access for service data, parts data and supported diagnostic workflows.',
+        elmCoverage: 'Generic OBD-II apps and basic diagnostics.',
+        adapterVaries: 'Varies by vendor',
+        elmNote: 'Cheap clones can be unstable or limited. Use quality adapters for diagnostics.',
+        obdlinkCoverage: 'General OBD-II, FORScan setups and mobile/PC diagnostics.',
+        obdlinkNote: 'Often a safer choice than unknown ELM327 clones.',
+        j2534Coverage: 'Professional diagnostics and ECU reprogramming where supported.',
+        oemPortals: 'OEM service portals',
+        j2534Note: 'Use only with official software and stable power supply; flashing mistakes can damage modules.',
+        bmwOfficialAccess: 'BMW official access',
+        enetNote: 'Common BMW diagnostics connection types; use correct software access and avoid unsafe coding.',
+        legalTitle: 'Legal sources only',
+        legalText: 'Use official websites, licensed software, app stores and legitimate vendor pages. Avoid pirated builds, cracks and activators.',
+        adapterTitle: 'Adapter matters',
+        adapterText: 'A bad adapter can give connection errors, missing modules or unstable coding sessions. Match the adapter to the software and vehicle.',
+        codingTitle: 'Coding and flashing risk',
+        codingText: 'Reading codes is usually low risk. Coding, adaptations, immobilizer work and ECU flashing can damage modules if done incorrectly.',
+        disclaimer: 'Use official software and licensed tools. Avoid pirated builds, cracks and activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consumo',
+        fuel: 'Calculadora de coste de combustible',
         diagnostics: 'Diagnóstico',
         engines: 'Motores',
         guides: 'Guías',
-        status: 'En desarrollo',
-        openTire: 'Abrir calculadora de neumáticos',
-        openPcd: 'Abrir base PCD',
-        openFuel: 'Abrir calculadora de consumo'
+        title: 'Software de diagnóstico y adaptadores',
+        lead: 'Software legal de diagnóstico, portales oficiales de servicio y notas de compatibilidad de adaptadores. Esta sección evita copias pirata, cracks y activadores.',
+        allItems: 'Todo',
+        universalItems: 'OBD universal',
+        brandItems: 'Herramientas por marca',
+        dealerItems: 'Dealer / profesional',
+        adapterItems: 'Adaptadores',
+        popularTitle: 'Búsquedas populares de diagnóstico',
+        catalogTitle: 'Catálogo de diagnóstico',
+        category: 'Categoría',
+        name: 'Nombre',
+        coverage: 'Cobertura',
+        adapter: 'Adaptador / acceso',
+        officialSource: 'Fuente oficial',
+        notes: 'Notas',
+        universalLabel: 'OBD universal',
+        brandLabel: 'Herramienta de marca',
+        dealerLabel: 'Dealer / profesional',
+        adapterLabel: 'Adaptador',
+        summaryAll: 'Mostrando {count} registros iniciales de diagnóstico.',
+        summaryFiltered: 'Encontrados {count} registros de diagnóstico para "{query}".',
+        summaryEmpty: 'No se encontraron registros para "{query}".',
+        obdAutoCoverage: 'Diagnóstico OBD-II genérico, datos en vivo y preparación de emisiones.',
+        obdAutoNote: 'Buen primer paso para leer y borrar códigos básicos de check-engine.',
+        carScannerCoverage: 'App OBD-II universal con paneles, DTC y algunas funciones de servicio/codificación.',
+        carScannerNote: 'Útil para móvil; las funciones avanzadas dependen del coche y adaptador.',
+        forscanNote: 'Popular para módulos Ford/Mazda, funciones de servicio y configuración.',
+        vcdsNote: 'Diagnóstico VAG fuerte, codificación y adaptaciones con hardware Ross-Tech licenciado.',
+        opcomNote: 'Usa solo hardware/software licenciado; evita clones y archivos no oficiales.',
+        techstreamNote: 'Información técnica oficial Toyota y acceso a diagnóstico/reprogramación.',
+        bmwIstaNote: 'Portal oficial BMW; reglas de acceso dependen de región y suscripción.',
+        serviceboxNote: 'Usa acceso oficial para datos de servicio, piezas y flujos soportados.',
+        elmCoverage: 'Apps OBD-II genéricas y diagnóstico básico.',
+        adapterVaries: 'Depende del vendedor',
+        elmNote: 'Los clones baratos pueden ser inestables o limitados. Usa adaptadores de calidad.',
+        obdlinkCoverage: 'OBD-II general, FORScan y diagnóstico móvil/PC.',
+        obdlinkNote: 'A menudo es más seguro que clones ELM327 desconocidos.',
+        j2534Coverage: 'Diagnóstico profesional y reprogramación ECU donde sea compatible.',
+        oemPortals: 'Portales OEM',
+        j2534Note: 'Usar solo con software oficial y alimentación estable; un error de flasheo puede dañar módulos.',
+        bmwOfficialAccess: 'Acceso oficial BMW',
+        enetNote: 'Conexiones comunes BMW; usa acceso correcto y evita codificación insegura.',
+        legalTitle: 'Solo fuentes legales',
+        legalText: 'Usa webs oficiales, software licenciado, tiendas de apps y vendedores legítimos. Evita copias pirata, cracks y activadores.',
+        adapterTitle: 'El adaptador importa',
+        adapterText: 'Un mal adaptador puede causar errores, módulos ausentes o sesiones inestables. Combina adaptador, software y vehículo.',
+        codingTitle: 'Riesgo de codificación',
+        codingText: 'Leer códigos suele ser de bajo riesgo. Codificación, adaptaciones, inmovilizador y flasheo pueden dañar módulos.',
+        disclaimer: 'Usa software oficial y herramientas licenciadas. Evita copias pirata, cracks y activadores. La codificación, flasheo y funciones de servicio pueden dañar módulos si se usan mal.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
         pcdDatabase: 'Base PCD',
-        fuel: 'Consommation',
+        fuel: 'Calculateur de coût carburant',
         diagnostics: 'Diagnostic',
         engines: 'Moteurs',
         guides: 'Guides',
-        status: 'En développement',
-        openTire: 'Ouvrir le calculateur de pneus',
-        openPcd: 'Ouvrir la base PCD',
-        openFuel: 'Ouvrir le calculateur carburant'
+        title: 'Logiciels de diagnostic et adaptateurs',
+        lead: 'Logiciels de diagnostic légaux, portails officiels de service et notes de compatibilité des adaptateurs. Cette section évite les versions piratées, cracks et activateurs.',
+        allItems: 'Tout',
+        universalItems: 'OBD universel',
+        brandItems: 'Outils par marque',
+        dealerItems: 'Concession / pro',
+        adapterItems: 'Adaptateurs',
+        popularTitle: 'Recherches populaires de diagnostic',
+        catalogTitle: 'Catalogue diagnostic',
+        category: 'Catégorie',
+        name: 'Nom',
+        coverage: 'Couverture',
+        adapter: 'Adaptateur / accès',
+        officialSource: 'Source officielle',
+        notes: 'Notes',
+        universalLabel: 'OBD universel',
+        brandLabel: 'Outil marque',
+        dealerLabel: 'Concession / pro',
+        adapterLabel: 'Adaptateur',
+        summaryAll: '{count} fiches diagnostic de départ affichées.',
+        summaryFiltered: '{count} fiches diagnostic trouvées pour "{query}".',
+        summaryEmpty: 'Aucune fiche trouvée pour "{query}".',
+        obdAutoCoverage: 'Diagnostic OBD-II générique, données live et readiness émissions.',
+        obdAutoNote: 'Bon premier niveau pour lire et effacer les codes check-engine.',
+        carScannerCoverage: 'Application OBD-II universelle avec tableaux, DTC et quelques fonctions service/codage.',
+        carScannerNote: 'Utile sur mobile; fonctions avancées selon véhicule et adaptateur.',
+        forscanNote: 'Populaire pour modules Ford/Mazda, fonctions service et configuration.',
+        vcdsNote: 'Diagnostic VAG, codage et adaptations avec matériel Ross-Tech licencié.',
+        opcomNote: 'Utilisez seulement matériel/logiciel licencié; évitez clones et archives non officielles.',
+        techstreamNote: 'Information technique officielle Toyota et accès diagnostic/reprogrammation.',
+        bmwIstaNote: 'Portail officiel BMW; accès selon région et abonnement.',
+        serviceboxNote: 'Utilisez le portail officiel pour données service, pièces et procédures supportées.',
+        elmCoverage: 'Applications OBD-II génériques et diagnostic basique.',
+        adapterVaries: 'Selon le vendeur',
+        elmNote: 'Les clones bon marché peuvent être instables ou limités. Utilisez des adaptateurs de qualité.',
+        obdlinkCoverage: 'OBD-II général, FORScan et diagnostic mobile/PC.',
+        obdlinkNote: 'Souvent plus sûr que des clones ELM327 inconnus.',
+        j2534Coverage: 'Diagnostic professionnel et reprogrammation ECU si supporté.',
+        oemPortals: 'Portails OEM',
+        j2534Note: 'À utiliser avec logiciel officiel et alimentation stable; une erreur de flash peut endommager les modules.',
+        bmwOfficialAccess: 'Accès officiel BMW',
+        enetNote: 'Connexions BMW courantes; utilisez le bon accès et évitez le codage risqué.',
+        legalTitle: 'Sources légales seulement',
+        legalText: 'Utilisez sites officiels, logiciels licenciés, app stores et vendeurs légitimes. Évitez versions piratées, cracks et activateurs.',
+        adapterTitle: 'L’adaptateur compte',
+        adapterText: 'Un mauvais adaptateur peut causer erreurs, modules manquants ou codage instable. Adaptez-le au logiciel et au véhicule.',
+        codingTitle: 'Risque de codage',
+        codingText: 'Lire des codes est souvent peu risqué. Codage, adaptations, antidémarrage et flash ECU peuvent endommager les modules.',
+        disclaimer: 'Utilisez logiciels officiels et outils licenciés. Évitez versions piratées, cracks et activateurs. Codage, flash et fonctions service peuvent endommager les modules si mal utilisés.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
         pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Verbrauch',
+        fuel: 'Kraftstoffkosten-Rechner',
         diagnostics: 'Diagnose',
         engines: 'Motoren',
         guides: 'Ratgeber',
-        status: 'In Entwicklung',
-        openTire: 'Reifenrechner öffnen',
-        openPcd: 'PCD-Datenbank öffnen',
-        openFuel: 'Verbrauchsrechner öffnen'
-      }
-    };
-
-    const content = {
-      diagnostics: {
-        active: 'diagnostics',
-        en: {
-          title: 'Diagnostics',
-          lead: 'A future tool section for OBD software, brand-specific diagnostics and adapter compatibility.',
-          cards: [
-            ['OBD software', 'Catalog open and official diagnostic software by vehicle brand and adapter type.'],
-            ['Adapter compatibility', 'Explain ELM327, J2534, ENET, KKL, VAG and other common interfaces.'],
-            ['Brand workflows', 'Simple guides for reading codes, live data and service functions.']
-          ]
-        },
-        es: {
-          title: 'Diagnóstico',
-          lead: 'Futura sección para software OBD, diagnóstico por marca y compatibilidad de adaptadores.',
-          cards: [
-            ['Software OBD', 'Catálogo de software abierto u oficial por marca y tipo de adaptador.'],
-            ['Compatibilidad', 'Explicación de ELM327, J2534, ENET, KKL, VAG y otras interfaces.'],
-            ['Flujos por marca', 'Guías simples para leer códigos, datos en vivo y funciones de servicio.']
-          ]
-        },
-        fr: {
-          title: 'Diagnostic',
-          lead: 'Future section pour logiciels OBD, diagnostics par marque et compatibilité des adaptateurs.',
-          cards: [
-            ['Logiciels OBD', 'Catalogue de logiciels ouverts ou officiels par marque et type d’adaptateur.'],
-            ['Compatibilité', 'Explication des interfaces ELM327, J2534, ENET, KKL, VAG et autres.'],
-            ['Méthodes par marque', 'Guides simples pour lire codes défauts, données live et fonctions service.']
-          ]
-        },
-        de: {
-          title: 'Diagnose',
-          lead: 'Geplanter Bereich für OBD-Software, markenspezifische Diagnose und Adapter-Kompatibilität.',
-          cards: [
-            ['OBD-Software', 'Katalog offener und offizieller Diagnose-Software nach Marke und Adaptertyp.'],
-            ['Kompatibilität', 'Erklärung von ELM327, J2534, ENET, KKL, VAG und weiteren Schnittstellen.'],
-            ['Marken-Workflows', 'Einfache Anleitungen für Fehlercodes, Live-Daten und Servicefunktionen.']
-          ]
-        }
-      },
-      engines: {
-        active: 'engines',
-        en: {
-          title: 'Engines',
-          lead: 'A future engine knowledge base with engine codes, common issues, strengths, weaknesses and used-car risk notes.',
-          cards: [
-            ['Engine codes', 'Find engines by code, manufacturer, model and production years.'],
-            ['Known problems', 'Summarize weak points, maintenance risks and typical repair topics.'],
-            ['Used-car checks', 'Short checklists for buyers before inspection or purchase.']
-          ]
-        },
-        es: {
-          title: 'Motores',
-          lead: 'Futura base de motores con códigos, problemas comunes, puntos fuertes, debilidades y riesgos al comprar usado.',
-          cards: [
-            ['Códigos de motor', 'Buscar motores por código, fabricante, modelo y años.'],
-            ['Problemas conocidos', 'Resumen de puntos débiles, mantenimiento y reparaciones típicas.'],
-            ['Compra de usados', 'Listas cortas de revisión antes de inspeccionar o comprar.']
-          ]
-        },
-        fr: {
-          title: 'Moteurs',
-          lead: 'Future base moteur avec codes, problèmes fréquents, points forts, faiblesses et risques en occasion.',
-          cards: [
-            ['Codes moteur', 'Rechercher par code, constructeur, modèle et années de production.'],
-            ['Problèmes connus', 'Résumé des faiblesses, risques d’entretien et réparations courantes.'],
-            ['Achat occasion', 'Checklists courtes avant inspection ou achat.']
-          ]
-        },
-        de: {
-          title: 'Motoren',
-          lead: 'Geplante Motor-Datenbank mit Codes, bekannten Problemen, Stärken, Schwächen und Gebrauchtwagen-Risiken.',
-          cards: [
-            ['Motorcodes', 'Motoren nach Code, Hersteller, Modell und Baujahren finden.'],
-            ['Bekannte Probleme', 'Schwachstellen, Wartungsrisiken und typische Reparaturen kurz erklären.'],
-            ['Gebrauchtwagen-Check', 'Kurze Checklisten vor Besichtigung oder Kauf.']
-          ]
-        }
-      },
-      guides: {
-        active: 'guides',
-        en: {
-          title: 'Guides',
-          lead: 'A future library of practical automotive guides connected to Autohub tools.',
-          cards: [
-            ['Wheel fitment basics', 'PCD, center bore, offset, spacers and tire-size tolerance.'],
-            ['Fuel economy', 'How driving style, tires, weather and load affect real consumption.'],
-            ['Diagnostics basics', 'What fault codes mean and how to avoid bad adapter choices.']
-          ]
-        },
-        es: {
-          title: 'Guías',
-          lead: 'Futura biblioteca de guías prácticas conectadas con las herramientas de Autohub.',
-          cards: [
-            ['Compatibilidad de ruedas', 'PCD, buje, ET, separadores y tolerancia de neumáticos.'],
-            ['Ahorro de combustible', 'Cómo estilo de conducción, neumáticos, clima y carga afectan el consumo.'],
-            ['Diagnóstico básico', 'Qué significan los códigos y cómo evitar malos adaptadores.']
-          ]
-        },
-        fr: {
-          title: 'Guides',
-          lead: 'Future bibliothèque de guides pratiques reliés aux outils Autohub.',
-          cards: [
-            ['Montage roues', 'PCD, alésage, déport, cales et tolérance de dimensions pneus.'],
-            ['Économie de carburant', 'Influence du style de conduite, pneus, météo et charge.'],
-            ['Bases diagnostic', 'Comprendre les codes défauts et éviter les mauvais adaptateurs.']
-          ]
-        },
-        de: {
-          title: 'Ratgeber',
-          lead: 'Geplante Sammlung praktischer Auto-Ratgeber, verbunden mit den Autohub-Tools.',
-          cards: [
-            ['Felgenpassung', 'PCD, Mittenloch, ET, Spurplatten und Reifengrößen-Toleranz.'],
-            ['Sprit sparen', 'Wie Fahrstil, Reifen, Wetter und Beladung den Verbrauch beeinflussen.'],
-            ['Diagnose-Grundlagen', 'Fehlercodes verstehen und schlechte Adapter vermeiden.']
-          ]
-        }
+        title: 'Diagnosesoftware und Adapter',
+        lead: 'Legale Diagnosesoftware, offizielle Serviceportale und Hinweise zur Adapter-Kompatibilität. Keine Raubkopien, Cracks oder Aktivatoren.',
+        allItems: 'Alle',
+        universalItems: 'Universal-OBD',
+        brandItems: 'Marken-Tools',
+        dealerItems: 'Dealer / Profi',
+        adapterItems: 'Adapter',
+        popularTitle: 'Beliebte Diagnosesuchen',
+        catalogTitle: 'Diagnosekatalog',
+        category: 'Kategorie',
+        name: 'Name',
+        coverage: 'Abdeckung',
+        adapter: 'Adapter / Zugang',
+        officialSource: 'Offizielle Quelle',
+        notes: 'Hinweise',
+        universalLabel: 'Universal-OBD',
+        brandLabel: 'Marken-Tool',
+        dealerLabel: 'Dealer / Profi',
+        adapterLabel: 'Adapter',
+        summaryAll: '{count} Diagnose-Starteinträge werden angezeigt.',
+        summaryFiltered: '{count} Diagnoseeinträge für "{query}" gefunden.',
+        summaryEmpty: 'Keine Einträge für "{query}" gefunden.',
+        obdAutoCoverage: 'Generische OBD-II-Diagnose, Live-Daten und Abgas-Readiness.',
+        obdAutoNote: 'Guter Einstieg zum Lesen und Löschen einfacher Check-Engine-Codes.',
+        carScannerCoverage: 'Universelle OBD-II-App mit Dashboards, DTCs und einigen Service-/Coding-Funktionen.',
+        carScannerNote: 'Nützlich mobil; erweiterte Funktionen hängen von Fahrzeug und Adapter ab.',
+        forscanNote: 'Beliebt für Ford/Mazda-Module, Servicefunktionen und Konfiguration.',
+        vcdsNote: 'Starke VAG-Diagnose, Codierung und Anpassungen mit lizenzierter Ross-Tech-Hardware.',
+        opcomNote: 'Nur lizenzierte Hard-/Software nutzen; Klone und inoffizielle Archive meiden.',
+        techstreamNote: 'Offizielle Toyota-Technikinfo und Diagnose-/Reprogrammierungszugang.',
+        bmwIstaNote: 'Offizielles BMW-Portal; Zugang je nach Region und Abonnement.',
+        serviceboxNote: 'Offiziellen Zugang für Service-, Teile- und unterstützte Diagnoseabläufe nutzen.',
+        elmCoverage: 'Generische OBD-II-Apps und Basisdiagnose.',
+        adapterVaries: 'Je nach Anbieter',
+        elmNote: 'Billige Klone können instabil oder eingeschränkt sein. Bessere Adapter nutzen.',
+        obdlinkCoverage: 'Allgemeines OBD-II, FORScan-Setups und Mobile/PC-Diagnose.',
+        obdlinkNote: 'Oft sicherer als unbekannte ELM327-Klone.',
+        j2534Coverage: 'Profi-Diagnose und ECU-Reprogrammierung, wenn unterstützt.',
+        oemPortals: 'OEM-Serviceportale',
+        j2534Note: 'Nur mit offizieller Software und stabiler Stromversorgung; Flashfehler können Module beschädigen.',
+        bmwOfficialAccess: 'Offizieller BMW-Zugang',
+        enetNote: 'Übliche BMW-Verbindungen; korrekten Zugang nutzen und riskantes Coding meiden.',
+        legalTitle: 'Nur legale Quellen',
+        legalText: 'Offizielle Websites, lizenzierte Software, App Stores und legitime Anbieter nutzen. Raubkopien, Cracks und Aktivatoren meiden.',
+        adapterTitle: 'Adapter ist wichtig',
+        adapterText: 'Ein schlechter Adapter kann Fehler, fehlende Module oder instabiles Coding verursachen. Adapter zu Software und Fahrzeug passend wählen.',
+        codingTitle: 'Coding- und Flash-Risiko',
+        codingText: 'Fehlercodes lesen ist meist risikoarm. Coding, Anpassungen, Wegfahrsperre und ECU-Flash können Module beschädigen.',
+        disclaimer: 'Nutze offizielle Software und lizenzierte Tools. Vermeide Raubkopien, Cracks und Aktivatoren. Coding, Flashen und Servicefunktionen können Steuergeräte beschädigen, wenn sie falsch genutzt werden.'
       }
     };
 
     let lang = 'en';
-    const page = content[sectionKey];
-    const cardsEl = document.getElementById('cards');
+    let activeFilter = 'all';
+    const searchEl = document.getElementById('search');
+    const rows = Array.from(document.querySelectorAll('#catalogRows tr'));
+    const summaryEl = document.getElementById('summary');
 
     function t(key) {
-      return (shared[lang] && shared[lang][key]) || (page[lang] && page[lang][key]) || shared.en[key] || page.en[key] || key;
+      return translations[lang][key] || translations.en[key] || key;
     }
 
-    function renderCards() {
-      cardsEl.innerHTML = page[lang].cards.map(([title, text]) => `
-        <article class="panel">
-          <h2>${title}</h2>
-          <div class="panel-body">${text}</div>
-        </article>
-      `).join('');
+    function formatSummary(template, values) {
+      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
+    }
+
+    function rowMatches(row, query) {
+      const typeOk = activeFilter === 'all' || row.dataset.type === activeFilter;
+      const text = `${row.textContent} ${row.dataset.search || ''}`.toLowerCase();
+      return typeOk && (!query || text.includes(query));
+    }
+
+    function render() {
+      const query = searchEl.value.trim().toLowerCase();
+      let visible = 0;
+      rows.forEach((row) => {
+        const show = rowMatches(row, query);
+        row.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (!query) {
+        summaryEl.textContent = formatSummary(t('summaryAll'), { count: visible });
+      } else if (visible) {
+        summaryEl.textContent = formatSummary(t('summaryFiltered'), { count: visible, query: searchEl.value.trim() });
+      } else {
+        summaryEl.textContent = formatSummary(t('summaryEmpty'), { query: searchEl.value.trim() });
+      }
     }
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `Autohub ${page[lang].title}`;
+      document.title = `Autohub ${t('title')}`;
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });
-      document.querySelector(`a[data-i18n="${page.active}"]`).classList.add('active');
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
-      renderCards();
+      render();
     }
 
     document.querySelectorAll('[data-lang]').forEach((button) => {
@@ -406,9 +745,18 @@
       });
     });
 
+    document.querySelectorAll('[data-filter]').forEach((button) => {
+      button.addEventListener('click', () => {
+        activeFilter = button.dataset.filter;
+        document.querySelectorAll('[data-filter]').forEach((item) => {
+          item.classList.toggle('selected', item.dataset.filter === activeFilter);
+        });
+        render();
+      });
+    });
+
+    searchEl.addEventListener('input', render);
     translatePage();
   </script>
 </body>
 </html>
-
-
