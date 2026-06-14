@@ -475,20 +475,20 @@
     <section class="panel results" aria-label="Tire calculator results">
       <h2 data-i18n="results">Results</h2>
       <div class="panel-body">
-        <div id="status" class="status"></div>
+        <div id="status" class="status good">Diameter change is within the 3% reference limit.</div>
 
         <div class="metrics">
           <div class="metric">
             <span data-i18n="clearanceChange">Clearance change</span>
-            <strong id="clearanceMetric">0.0 mm</strong>
+            <strong id="clearanceMetric">-1.3 mm</strong>
           </div>
           <div class="metric">
             <span data-i18n="speedometerError">Speedometer error</span>
-            <strong id="speedMetric">0.0%</strong>
+            <strong id="speedMetric">-0.4 %</strong>
           </div>
           <div class="metric">
             <span data-i18n="actualSpeed">Actual at 100</span>
-            <strong id="actualSpeedMetric">100.0 km/h</strong>
+            <strong id="actualSpeedMetric">99.6 km/h</strong>
           </div>
         </div>
 
@@ -501,7 +501,56 @@
               <th data-i18n="difference">Difference</th>
             </tr>
           </thead>
-          <tbody id="resultRows"></tbody>
+          <tbody id="resultRows">
+            <tr>
+              <td>Total Diameter</td>
+              <td>634.5 mm</td>
+              <td>631.9 mm</td>
+              <td>-2.6 mm</td>
+            </tr>
+            <tr>
+              <td>Section Width</td>
+              <td>195 mm</td>
+              <td>205 mm</td>
+              <td>+10.0 mm</td>
+            </tr>
+            <tr>
+              <td>Sidewall Height</td>
+              <td>126.8 mm</td>
+              <td>112.8 mm</td>
+              <td>-14.0 mm</td>
+            </tr>
+            <tr>
+              <td>Circumference</td>
+              <td>1993 mm</td>
+              <td>1985 mm</td>
+              <td>-8 mm</td>
+            </tr>
+            <tr>
+              <td>Rim Width</td>
+              <td>6.0"</td>
+              <td>7.0"</td>
+              <td>+25.4 mm</td>
+            </tr>
+            <tr>
+              <td>Rim Offset</td>
+              <td>ET 45</td>
+              <td>ET 45</td>
+              <td>0.0 mm</td>
+            </tr>
+            <tr>
+              <td>Strut Clearance</td>
+              <td>-</td>
+              <td>12.7 mm closer to suspension</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Fender Poke</td>
+              <td>-</td>
+              <td>12.7 mm pokes out further</td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
 
         <div class="actions">
