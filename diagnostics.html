@@ -1,1007 +1,1192 @@
-<!doctype html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Autohub diagnostics catalog with legal OBD software, brand diagnostic tools, official dealer portals and adapter compatibility notes.">
-  <title>Autohub Diagnostics Software & Adapters</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diagnostic software for cars: OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota and universal tools. Check car year, protocol, cable and driver compatibility before downloading.">
+  <title>Diagnostic Software for Cars - OBD2, ELM327, VAG, Volvo, BMW | AutoHub</title>
   <style>
     :root {
-      color-scheme: light;
-      --bg: #f5f7fa;
+      --bg: #f4f7fb;
       --panel: #ffffff;
-      --text: #17202a;
-      --muted: #657181;
-      --line: #d9e0e8;
-      --accent: #0f766e;
-      --accent-dark: #115e59;
-      --soft: #f8fafc;
-      --warning: #7a4b00;
-      --warning-bg: #fff7e6;
+      --ink: #111827;
+      --muted: #5b6678;
+      --line: #dbe3ef;
+      --soft-line: #edf1f7;
+      --brand: #0f766e;
+      --brand-dark: #115e59;
+      --accent: #2563eb;
+      --warning-bg: #fff7ed;
+      --warning-line: #fdba74;
+      --warning-ink: #9a3412;
+      --shadow: 0 18px 42px rgba(15, 23, 42, 0.08);
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
       background: var(--bg);
-      color: var(--text);
-      font-family: Arial, sans-serif;
+      line-height: 1.55;
     }
-    .topbar {
-      background: #111827;
-      color: #fff;
-      border-bottom: 1px solid #263244;
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
     }
-    .nav {
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .site-header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .nav-wrap {
       max-width: 1180px;
       margin: 0 auto;
+      padding: 14px 18px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: 18px;
-      min-height: 58px;
-      padding: 0 18px;
-      overflow-x: auto;
     }
+
     .brand {
-      font-weight: 700;
-      font-size: 20px;
+      color: var(--ink);
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0;
       white-space: nowrap;
-      margin-right: 8px;
     }
-    .nav a {
-      color: #dbeafe;
-      text-decoration: none;
-      font-size: 14px;
-      white-space: nowrap;
-      padding: 8px 0;
-    }
-    .nav a.active {
-      color: #5eead4;
-      border-bottom: 2px solid #5eead4;
-    }
-    .langbar {
-      margin-left: auto;
+
+    .nav-links {
       display: flex;
-      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
     }
-    .langbar button {
-      min-height: 30px;
-      border: 1px solid #334155;
-      color: #e5e7eb;
-      background: #1f2937;
-      border-radius: 6px;
-      padding: 4px 8px;
-      text-align: center;
-      font-size: 12px;
-      white-space: nowrap;
-      cursor: pointer;
+
+    .nav-links a {
+      color: #334155;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 14px;
+      line-height: 1;
     }
-    .langbar button.selected {
-      background: var(--accent);
-      color: #fff;
-      border-color: #5eead4;
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--brand-dark);
+      background: #ecfdf5;
+      border-color: #99f6e4;
+      text-decoration: none;
     }
+
     main {
       max-width: 1180px;
       margin: 0 auto;
-      padding: 24px 18px 48px;
+      padding: 30px 18px 54px;
     }
-    h1 {
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+
+    .hero-main,
+    .hero-side,
+    .panel,
+    .warning,
+    .report-box {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-main {
+      padding: 26px;
+    }
+
+    .hero-side {
+      padding: 22px;
+    }
+
+    .eyebrow {
       margin: 0 0 8px;
-      font-size: 30px;
+      color: var(--brand-dark);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
       line-height: 1.2;
       letter-spacing: 0;
     }
+
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
     .lead {
-      margin: 0 0 18px;
+      margin: 16px 0 0;
       color: var(--muted);
-      max-width: 860px;
-      line-height: 1.5;
+      font-size: 17px;
+      max-width: 820px;
     }
-    .toolbar {
-      display: flex;
+
+    .quick-facts {
+      display: grid;
       gap: 12px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 18px 0 14px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
     }
-    input {
-      width: min(100%, 470px);
-      min-height: 42px;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      background: #fff;
-      color: var(--text);
-      padding: 0 12px;
-      font-size: 15px;
-    }
-    .tabs {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .tabs button {
-      min-height: 38px;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      background: #fff;
-      color: #334155;
-      text-align: center;
-      font-size: 14px;
-      padding: 0 12px;
-      cursor: pointer;
-    }
-    .tabs button.selected {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
-    .summary {
-      margin: 0 0 16px;
-      min-height: 20px;
+
+    .quick-facts li {
+      display: grid;
+      grid-template-columns: 112px 1fr;
+      gap: 10px;
+      padding: 10px 0;
+      border-top: 1px solid var(--soft-line);
       color: var(--muted);
       font-size: 14px;
     }
-    .panel {
-      background: var(--panel);
+
+    .quick-facts strong {
+      color: var(--ink);
+    }
+
+    .compat-list {
+      margin: 12px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .compat-list li + li {
+      margin-top: 6px;
+    }
+
+    .warning {
+      margin: 18px 0;
+      padding: 18px 20px;
+      background: var(--warning-bg);
+      border-color: var(--warning-line);
+      box-shadow: none;
+    }
+
+    .warning strong {
+      color: var(--warning-ink);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .warning p {
+      margin: 0;
+      color: #7c2d12;
+    }
+
+    .toolbar {
+      background: #ffffff;
       border: 1px solid var(--line);
       border-radius: 8px;
-      min-width: 0;
-      margin-top: 16px;
+      padding: 16px;
+      margin: 18px 0;
+      box-shadow: var(--shadow);
     }
-    .panel h2 {
-      font-size: 16px;
-      margin: 0;
-      padding: 14px 14px 10px;
-      border-bottom: 1px solid var(--line);
-    }
-    .panel-body {
-      padding: 14px;
-    }
-    .quick-links {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .quick-links a {
-      display: inline-flex;
+
+    .search-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
       align-items: center;
-      min-height: 34px;
+    }
+
+    .search-row input {
+      width: 100%;
       border: 1px solid var(--line);
-      border-radius: 999px;
-      background: #fff;
-      color: #334155;
-      text-decoration: none;
-      font-size: 13px;
-      padding: 0 11px;
+      border-radius: 8px;
+      padding: 12px 14px;
+      color: var(--ink);
+      background: #f8fafc;
+      font-size: 16px;
+    }
+
+    .summary {
+      color: var(--muted);
+      font-size: 14px;
       white-space: nowrap;
     }
-    .table-wrap {
-      width: 100%;
-      overflow-x: auto;
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
+
+    .filters button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px 11px;
+      background: #ffffff;
+      color: #334155;
+      cursor: pointer;
       font-size: 14px;
     }
-    th,
-    td {
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
+
+    .filters button:hover,
+    .filters button.active {
+      color: #ffffff;
+      background: var(--brand);
+      border-color: var(--brand);
     }
-    th {
+
+    .panel {
+      padding: 20px;
+      margin: 18px 0;
+    }
+
+    .recommended-grid,
+    .software-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .recommended-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .tool-card,
+    .software-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    .tool-card {
+      padding: 16px;
+    }
+
+    .tool-card p {
+      margin: 8px 0 12px;
       color: var(--muted);
-      font-weight: 700;
-      background: var(--soft);
+      font-size: 14px;
     }
-    td a {
-      color: var(--accent-dark);
+
+    .tool-card a,
+    .official-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 34px;
+      padding: 8px 11px;
+      border-radius: 8px;
+      background: #eef6ff;
+      color: #1d4ed8;
+      font-size: 14px;
       font-weight: 700;
+    }
+
+    .tool-card a:hover,
+    .official-link:hover {
+      background: #dbeafe;
       text-decoration: none;
     }
-    td a:hover {
-      text-decoration: underline;
+
+    .software-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .software-card {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .software-card.is-hidden {
+      display: none;
+    }
+
+    .card-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .card-head .eyebrow {
+      margin-bottom: 5px;
+    }
+
+    .software-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .meta-grid {
+      display: grid;
+      gap: 9px;
+      margin: 0;
+    }
+
+    .meta-grid div {
+      display: grid;
+      grid-template-columns: 112px 1fr;
+      gap: 10px;
+      padding-top: 9px;
+      border-top: 1px solid var(--soft-line);
+    }
+
+    .meta-grid dt {
+      color: #475569;
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .meta-grid dd {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+
     .tag {
       display: inline-flex;
       align-items: center;
-      min-height: 24px;
-      border-radius: 999px;
-      padding: 2px 9px;
-      background: #edf2f7;
-      color: #334155;
-      font-size: 12px;
-      white-space: nowrap;
-    }
-    .note-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-      margin-top: 16px;
-    }
-    .note-grid article {
-      background: var(--panel);
-      border: 1px solid var(--line);
+      min-height: 26px;
       border-radius: 8px;
-      padding: 14px;
+      padding: 5px 8px;
+      background: #f1f5f9;
+      color: #475569;
+      font-size: 12px;
+      font-weight: 700;
     }
-    .note-grid h3 {
-      margin: 0 0 8px;
-      font-size: 16px;
+
+    .tag.primary {
+      color: #0f766e;
+      background: #ccfbf1;
     }
-    .note-grid p {
+
+    .report-box {
+      padding: 20px;
+      margin-top: 18px;
+      box-shadow: none;
+    }
+
+    .report-box p {
       margin: 0;
       color: var(--muted);
-      line-height: 1.5;
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      background: #ffffff;
+      padding: 22px 18px;
+      text-align: center;
       font-size: 14px;
     }
-    .disclaimer {
-      margin-top: 16px;
-      padding: 12px 14px;
-      border: 1px solid #f2d493;
-      background: var(--warning-bg);
-      color: var(--warning);
-      border-radius: 8px;
-      line-height: 1.45;
-      font-size: 14px;
-    }
-    @media (max-width: 900px) {
-      .note-grid {
+
+    @media (max-width: 860px) {
+      .nav-wrap {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        justify-content: flex-start;
+      }
+
+      .hero,
+      .software-grid,
+      .recommended-grid,
+      .search-row {
         grid-template-columns: 1fr;
       }
-      .langbar {
-        margin-left: 0;
+
+      .summary {
+        white-space: normal;
       }
     }
-    @media (max-width: 520px) {
-      h1 {
-        font-size: 26px;
+
+    @media (max-width: 560px) {
+      main {
+        padding: 22px 12px 42px;
       }
-      .toolbar {
-        align-items: stretch;
+
+      .hero-main,
+      .hero-side,
+      .panel,
+      .toolbar,
+      .software-card,
+      .tool-card {
+        padding: 14px;
       }
-      input,
-      .tabs,
-      .tabs button {
+
+      .nav-links a,
+      .filters button {
+        width: calc(50% - 4px);
+        text-align: center;
+      }
+
+      .quick-facts li,
+      .meta-grid div {
+        grid-template-columns: 1fr;
+        gap: 3px;
+      }
+
+      .card-head {
+        flex-direction: column;
+      }
+
+      .official-link {
         width: 100%;
       }
     }
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <nav class="nav" aria-label="Autohub common menu">
-      <div class="brand">Autohub</div>
-      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
-      <a href="diagnostics.html" class="active" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
-      <a href="guides.html" data-i18n="guides">Guides</a>
-      <div class="langbar" aria-label="Language">
-        <button type="button" data-lang="en" class="selected">EN</button>
-        <button type="button" data-lang="es">ES</button>
-        <button type="button" data-lang="fr">FR</button>
-        <button type="button" data-lang="de">DE</button>
-      </div>
-    </nav>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">AutoHub</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Tire Calculator</a>
+        <a href="pcd.html">PCD Database</a>
+        <a href="fuel.html">Fuel Cost Calculator</a>
+        <a class="active" href="diagnostics.html">Diagnostics</a>
+        <a href="engines.html">Engines</a>
+        <a href="guides.html">Guides</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <h1 data-i18n="title">Diagnostics Software & Adapters</h1>
-    <p class="lead" data-i18n="lead">Legal diagnostic software, official service portals and adapter compatibility notes. This section avoids pirated builds, cracks and activators, and points users toward official or clearly legitimate sources.</p>
-
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="Search: FORScan, VCDS, Techstream, ELM327, J2534">
-      <div class="tabs" aria-label="Diagnostics filters">
-        <button type="button" class="selected" data-filter="all" data-i18n="allItems">All</button>
-        <button type="button" data-filter="universal" data-i18n="universalItems">Universal OBD</button>
-        <button type="button" data-filter="brand" data-i18n="brandItems">Brand tools</button>
-        <button type="button" data-filter="dealer" data-i18n="dealerItems">Dealer / professional</button>
-        <button type="button" data-filter="adapter" data-i18n="adapterItems">Adapters</button>
+    <section class="hero" aria-label="Diagnostics overview">
+      <div class="hero-main">
+        <p class="eyebrow">AutoHub diagnostics guide</p>
+        <h1>Diagnostic software for cars</h1>
+        <p class="lead">OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota and other diagnostic tools in one practical reference. Use this page to choose the right software path before you buy a cable, install drivers or connect to a car.</p>
+        <ul class="quick-facts">
+          <li><strong>Goal</strong><span>Find legal diagnostic software, official sources and compatible adapter types.</span></li>
+          <li><strong>Important</strong><span>Compatibility depends on car year, diagnostic protocol, adapter quality and operating system.</span></li>
+          <li><strong>Safety</strong><span>Reading codes is usually low risk. Coding, flashing and adaptations require extra care.</span></li>
+        </ul>
       </div>
-    </div>
-    <p class="summary" id="summary">Showing starter diagnostics records.</p>
-
-    <section class="panel" aria-label="Popular diagnostics searches">
-      <h2 data-i18n="popularTitle">Popular diagnostics searches</h2>
-      <div class="panel-body">
-        <div class="quick-links">
-          <a href="#forscan">FORScan Ford Mazda</a>
-          <a href="#vcds">VCDS VW Audi</a>
-          <a href="#techstream">Toyota Techstream</a>
-          <a href="#bmw-ista">BMW ISTA official access</a>
-          <a href="#servicebox">Stellantis Service Box</a>
-          <a href="#multiecuscan">MultiECUScan Fiat Alfa</a>
-          <a href="#bimmerlink">BimmerLink BMW MINI</a>
-          <a href="#vol-fcr">VOL-FCR old Volvo</a>
-          <a href="#vida">Volvo VIDA official access</a>
-          <a href="#ddt4all">DDT4All Renault Dacia</a>
-          <a href="#elm327">ELM327 adapter compatibility</a>
-          <a href="#j2534">J2534 pass-thru</a>
-          <a href="#obdlink">OBDLink adapters</a>
-        </div>
-      </div>
+      <aside class="hero-side" aria-label="Compatibility checklist">
+        <p class="eyebrow">Compatibility checklist</p>
+        <h2>Check before downloading</h2>
+        <ul class="compat-list">
+          <li>Car make, model and production year.</li>
+          <li>OBD2, CAN, K-Line, KKL, J2534, ENET, DICE or other protocol.</li>
+          <li>USB, Bluetooth or Wi-Fi cable type.</li>
+          <li>Windows version and driver compatibility.</li>
+          <li>Whether the tool supports your exact control module.</li>
+        </ul>
+      </aside>
     </section>
 
-    <section class="panel" aria-label="Diagnostics catalog">
-      <h2 data-i18n="catalogTitle">Diagnostics catalog</h2>
-      <div class="panel-body">
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th data-i18n="category">Category</th>
-                <th data-i18n="name">Name</th>
-                <th data-i18n="coverage">Coverage</th>
-                <th data-i18n="adapter">Adapter / access</th>
-                <th data-i18n="officialSource">Official source</th>
-                <th data-i18n="notes">Notes</th>
-              </tr>
-            </thead>
-            <tbody id="catalogRows">
-              <tr id="obd-auto-doctor" data-type="universal" data-search="obd auto doctor universal obd2 elm327 iphone android windows mac emissions readiness live data">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>OBD Auto Doctor</td>
-                <td data-i18n="obdAutoCoverage">Generic OBD-II diagnostics, live data and emissions readiness.</td>
-                <td>ELM327 / OBD-II dongle</td>
-                <td><a href="https://www.obdautodoctor.com/" rel="noopener">obdautodoctor.com</a></td>
-                <td data-i18n="obdAutoNote">Good first step for reading and clearing basic check-engine codes.</td>
-              </tr>
-              <tr id="car-scanner" data-type="universal" data-search="car scanner elm obd2 universal ios android coding service obd app">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>Car Scanner ELM OBD2</td>
-                <td data-i18n="carScannerCoverage">Universal OBD-II app with dashboards, DTCs and some service/coding features.</td>
-                <td>ELM327 / compatible OBD-II adapter</td>
-                <td><a href="https://www.carscanner.info/" rel="noopener">carscanner.info</a></td>
-                <td data-i18n="carScannerNote">Useful for mobile diagnostics; advanced functions depend on vehicle and adapter.</td>
-              </tr>
-              <tr id="torque-pro" data-type="universal" data-search="torque pro android obd2 scanner elm327 dashboard live data gauges">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>Torque Pro</td>
-                <td>Generic OBD-II, Android dashboards, live data and fault codes</td>
-                <td>ELM327 / compatible Bluetooth adapter</td>
-                <td><a href="https://play.google.com/store/apps/details?id=org.prowl.torque" rel="noopener">Google Play</a></td>
-                <td data-i18n="torqueNote">Popular Android scanner for quick checks, gauges and simple OBD-II data.</td>
-              </tr>
-              <tr id="eobd-facile" data-type="universal" data-search="eobd facile klavkarr universal obd2 elm327 windows mac android ios">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>EOBD Facile</td>
-                <td>Universal OBD-II diagnostics for common vehicles</td>
-                <td>Klavkarr / ELM327-compatible adapters</td>
-                <td><a href="https://www.klavkarr.com/" rel="noopener">klavkarr.com</a></td>
-                <td data-i18n="eobdFacileNote">Useful European OBD-II option with desktop and mobile ecosystem.</td>
-              </tr>
-              <tr id="scanmaster-elm" data-type="universal" data-search="scanmaster elm wgsoft elm327 obd2 eobd windows android">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>ScanMaster-ELM</td>
-                <td>OBD-II / EOBD diagnostics for ELM327-based interfaces</td>
-                <td>ELM327 / OBDLink / compatible interfaces</td>
-                <td><a href="https://www.wgsoft.de/scanmaster-elm" rel="noopener">wgsoft.de</a></td>
-                <td data-i18n="scanmasterNote">Desktop OBD software with broad protocol support and demo/licensed versions.</td>
-              </tr>
-              <tr id="touchscan" data-type="universal" data-search="touchscan obdsoftware octech obd2 windows elm327 obdlink">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>TouchScan</td>
-                <td>Windows OBD-II diagnostics, live data, logs and fuel economy</td>
-                <td>OBD-II adapter supported by OCTech software</td>
-                <td><a href="https://www.obdsoftware.net/software/touchscan" rel="noopener">obdsoftware.net</a></td>
-                <td data-i18n="touchscanNote">Windows-focused OBD package, useful for older workshop laptops and car PCs.</td>
-              </tr>
-              <tr id="obdwiz" data-type="universal" data-search="obdwiz obdlink scantool octech obd2 windows diagnostic software">
-                <td><span class="tag" data-i18n="universalLabel">Universal OBD</span></td>
-                <td>OBDwiz</td>
-                <td>OBD-II diagnostics for OBDLink / ScanTool ecosystem</td>
-                <td>OBDLink / compatible OBD-II adapters</td>
-                <td><a href="https://www.obdsoftware.net/downloads/obdwiz" rel="noopener">obdsoftware.net</a></td>
-                <td data-i18n="obdwizNote">Official download requires a valid OBDwiz license.</td>
-              </tr>
-              <tr id="forscan" data-type="brand" data-search="forscan ford mazda lincoln mercury obdlink ex elm327 brand diagnostic">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>FORScan</td>
-                <td>Ford, Mazda, Lincoln, Mercury</td>
-                <td>OBDLink EX / compatible ELM327</td>
-                <td><a href="https://forscan.org/" rel="noopener">forscan.org</a></td>
-                <td data-i18n="forscanNote">Popular for Ford/Mazda modules, service functions and configuration checks.</td>
-              </tr>
-              <tr id="vcds" data-type="brand" data-search="vcds ross-tech volkswagen audi skoda seat vag-com hex-v2 hex-net">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>VCDS</td>
-                <td>Volkswagen, Audi, Skoda, SEAT</td>
-                <td>Ross-Tech HEX-V2 / HEX-NET</td>
-                <td><a href="https://www.ross-tech.com/vcds/" rel="noopener">ross-tech.com</a></td>
-                <td data-i18n="vcdsNote">Strong VAG diagnostics, coding and adaptations with licensed Ross-Tech hardware.</td>
-              </tr>
-              <tr id="vcds-lite" data-type="brand" data-search="vcds lite ross-tech old vag vw audi seat skoda kkl pre can">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>VCDS-Lite</td>
-                <td>Older VW / Audi / SEAT / Skoda before direct CAN diagnostics</td>
-                <td>Generic third-party KKL interfaces</td>
-                <td><a href="https://www.ross-tech.com/vcds-lite/" rel="noopener">ross-tech.com</a></td>
-                <td data-i18n="vcdsLiteNote">Low-cost Ross-Tech option for older VAG cars; limited compared with full VCDS.</td>
-              </tr>
-              <tr id="obdeleven" data-type="brand" data-search="obdeleven vag bmw toyota ford mercedes obd2 app coding diagnostics">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>OBDeleven</td>
-                <td>VAG, BMW, Toyota, Ford, Mercedes and generic OBD-II diagnostics</td>
-                <td>OBDeleven device / mobile app</td>
-                <td><a href="https://obdeleven.com/" rel="noopener">obdeleven.com</a></td>
-                <td data-i18n="obdelevenNote">Modern mobile diagnostics and coding platform with brand-dependent features.</td>
-              </tr>
-              <tr id="carista" data-type="brand" data-search="carista obd2 diagnostics service coding toyota vag bmw ford nissan volvo">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>Carista</td>
-                <td>Diagnostics, service and coding for many supported brands</td>
-                <td>Carista adapter / compatible OBD-II adapter</td>
-                <td><a href="https://carista.com/" rel="noopener">carista.com</a></td>
-                <td data-i18n="caristaNote">Good consumer-friendly option for diagnostics, service resets and customizations.</td>
-              </tr>
-              <tr id="op-com" data-type="brand" data-search="op-com opel vauxhall diagnostic official vendor">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>OP-COM</td>
-                <td>Opel / Vauxhall</td>
-                <td>OP-COM interface</td>
-                <td><a href="https://www.op-com.hu/" rel="noopener">op-com.hu</a></td>
-                <td data-i18n="opcomNote">Use licensed hardware/software only; avoid clone interfaces and unofficial archives.</td>
-              </tr>
-              <tr id="multiecuscan" data-type="brand" data-search="multiecuscan fiat alfa romeo lancia chrysler dodge jeep fca can obdlink elm327">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>MultiECUScan</td>
-                <td>Fiat, Alfa Romeo, Lancia, Chrysler, Dodge, Jeep and selected FCA vehicles</td>
-                <td>ELM327 / KKL / OBDLink / CANtieCAR / adapter cables</td>
-                <td><a href="https://www.multiecuscan.net/" rel="noopener">multiecuscan.net</a></td>
-                <td data-i18n="multiecuscanNote">One of the strongest independent choices for Italian and FCA diagnostics.</td>
-              </tr>
-              <tr id="alfaobd" data-type="brand" data-search="alfaobd fiat alfa romeo lancia chrysler dodge ram jeep android windows">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>AlfaOBD</td>
-                <td>Fiat, Alfa Romeo, Lancia, Chrysler, Dodge, RAM, Jeep</td>
-                <td>ELM327 / OBDLink / supported adapters</td>
-                <td><a href="https://www.alfaobd.com/" rel="noopener">alfaobd.com</a></td>
-                <td data-i18n="alfaobdNote">Windows and Android tool with demo/paid versions for FCA-related vehicles.</td>
-              </tr>
-              <tr id="ddt4all" data-type="brand" data-search="ddt4all renault dacia nissan open source elm327 coding diagnostic">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>DDT4All</td>
-                <td>Renault, Dacia, Nissan</td>
-                <td>ELM327-compatible adapter</td>
-                <td><a href="https://github.com/cedricp/ddt4all" rel="noopener">GitHub</a></td>
-                <td data-i18n="ddt4allNote">Open-source and powerful; coding changes can be risky if you do not know the module.</td>
-              </tr>
-              <tr id="pyren" data-type="brand" data-search="pyren renault dacia elm327 diagnostic open source python">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>PyRen</td>
-                <td>Renault, Dacia</td>
-                <td>ELM327-compatible adapter</td>
-                <td><a href="https://github.com/andru666/pyren" rel="noopener">GitHub</a></td>
-                <td data-i18n="pyrenNote">Community Renault diagnostic project; best treated as an advanced-user tool.</td>
-              </tr>
-              <tr id="bimmerlink" data-type="brand" data-search="bimmerlink bmw mini diagnostics live data dpf battery registration android ios">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>BimmerLink</td>
-                <td>BMW, MINI</td>
-                <td>Supported OBD adapter / mobile app</td>
-                <td><a href="https://bimmerlink.app/" rel="noopener">bimmerlink.app</a></td>
-                <td data-i18n="bimmerlinkNote">Mobile BMW/MINI diagnostics, live data, battery registration and service functions.</td>
-              </tr>
-              <tr id="bimmercode" data-type="brand" data-search="bimmercode bmw mini toyota supra coding android ios windows mac">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>BimmerCode</td>
-                <td>BMW, MINI, Toyota Supra</td>
-                <td>Supported OBD adapter / app</td>
-                <td><a href="https://bimmercode.app/" rel="noopener">bimmercode.app</a></td>
-                <td data-i18n="bimmercodeNote">Mostly a coding tool; verify each option before changing vehicle configuration.</td>
-              </tr>
-              <tr id="carly" data-type="brand" data-search="carly obd bmw vag mercedes opel renault toyota diagnostic mobile app">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>Carly</td>
-                <td>BMW, VAG, Mercedes, Opel, Renault, Toyota and other supported brands</td>
-                <td>Carly adapter / mobile app</td>
-                <td><a href="https://www.mycarly.com/" rel="noopener">mycarly.com</a></td>
-                <td data-i18n="carlyNote">Mass-market mobile OBD service; supported functions depend strongly on model and plan.</td>
-              </tr>
-              <tr id="mhd-flasher" data-type="brand" data-search="mhd flasher bmw supra n54 n55 s55 b58 s58 s63 tuning logging diagnostics">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>MHD Flasher</td>
-                <td>BMW / Supra tuning, logging and fault-code workflows</td>
-                <td>MHD adapter / compatible mobile setup</td>
-                <td><a href="https://mhdtuning.com/" rel="noopener">mhdtuning.com</a></td>
-                <td data-i18n="mhdNote">Tuning-focused tool, not just diagnostics; unsuitable changes can damage an engine.</td>
-              </tr>
-              <tr id="mg-flasher" data-type="brand" data-search="mg flasher bmw mini supra b46 b48 b58 s58 s63 obd tuning logging diagnostics">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>MG Flasher</td>
-                <td>BMW, MINI, Supra with supported B46/B48/B58/S58/S63/N63 engines</td>
-                <td>ENET Wi-Fi adapter / mobile or desktop app</td>
-                <td><a href="https://www.mgflasher.com/" rel="noopener">mgflasher.com</a></td>
-                <td data-i18n="mgflasherNote">OBD tuning and logging platform; use only with correct engine support and safe power.</td>
-              </tr>
-              <tr id="vol-fcr" data-type="brand" data-search="vol-fcr volvo 850 s70 v70 c70 900 s90 v90 old volvo diagnostic">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>VOL-FCR</td>
-                <td>Older Volvo 850, S70, V70, C70, 900, S90, V90 and related models</td>
-                <td>PC/laptop Volvo diagnostic interface</td>
-                <td><a href="https://www.ilexa.co.uk/diagnostic-tools/vol-fcr.html" rel="noopener">ilexa.co.uk</a></td>
-                <td data-i18n="volfcrNote">Important legacy Volvo tool for pre-2000 models and classic Volvo owners.</td>
-              </tr>
-              <tr id="vdash" data-type="brand" data-search="vdash d5t5 volvo diagnostic configuration vdd dongle j2534">
-                <td><span class="tag" data-i18n="brandLabel">Brand tool</span></td>
-                <td>VDASH</td>
-                <td>Volvo diagnostics, configuration and service workflows</td>
-                <td>VDD dongle / supported J2534 adapters</td>
-                <td><a href="https://d5t5.com/" rel="noopener">d5t5.com</a></td>
-                <td data-i18n="vdashNote">Independent Volvo platform for modern diagnostics and configuration tasks.</td>
-              </tr>
-              <tr id="techstream" data-type="dealer" data-search="toyota techstream tis lexus scion official diagnostic reprogramming">
-                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
-                <td>Toyota Techstream / TIS</td>
-                <td>Toyota, Lexus, Scion</td>
-                <td>Techstream Lite / approved scan tools</td>
-                <td><a href="https://techinfo.toyota.com/" rel="noopener">techinfo.toyota.com</a></td>
-                <td data-i18n="techstreamNote">Official Toyota technical information and diagnostic/reprogramming access.</td>
-              </tr>
-              <tr id="bmw-ista" data-type="dealer" data-search="bmw ista bmw techinfo aos official service information mini diagnostics">
-                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
-                <td>BMW ISTA / BMW techinfo</td>
-                <td>BMW, MINI</td>
-                <td>BMW ICOM / approved access</td>
-                <td><a href="https://bmwtechinfo.bmwgroup.com/" rel="noopener">bmwtechinfo.bmwgroup.com</a></td>
-                <td data-i18n="bmwIstaNote">Official BMW service information portal; access rules depend on region and subscription.</td>
-              </tr>
-              <tr id="servicebox" data-type="dealer" data-search="stellantis service box diagbox peugeot citroen ds opel official service diagnostics">
-                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
-                <td>Stellantis Service Box / Diagbox</td>
-                <td>Peugeot, Citroen, DS, Opel and related Stellantis brands</td>
-                <td>Official service portal / approved tools</td>
-                <td><a href="https://public.servicebox-parts.com/" rel="noopener">servicebox-parts.com</a></td>
-                <td data-i18n="serviceboxNote">Use official portal access for service data, parts data and supported diagnostic workflows.</td>
-              </tr>
-              <tr id="vida" data-type="dealer" data-search="volvo vida official technical information diagnostic subscription">
-                <td><span class="tag" data-i18n="dealerLabel">Dealer / professional</span></td>
-                <td>Volvo VIDA</td>
-                <td>Volvo official service and diagnostic information</td>
-                <td>Volvo official access / subscription where available</td>
-                <td><a href="https://www.volvotechinfo.com/" rel="noopener">volvotechinfo.com</a></td>
-                <td data-i18n="vidaNote">Official route should be preferred for Volvo service information and supported workflows.</td>
-              </tr>
-              <tr id="elm327" data-type="adapter" data-search="elm327 obd2 adapter bluetooth wifi usb compatibility clones">
-                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
-                <td>ELM327-compatible adapters</td>
-                <td data-i18n="elmCoverage">Generic OBD-II apps and basic diagnostics.</td>
-                <td>USB / Bluetooth / Wi-Fi</td>
-                <td data-i18n="adapterVaries">Varies by vendor</td>
-                <td data-i18n="elmNote">Cheap clones can be unstable or limited. Use quality adapters for diagnostics.</td>
-              </tr>
-              <tr id="obdlink" data-type="adapter" data-search="obdlink mx plus ex sx adapter obd2 forscan official scan tool">
-                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
-                <td>OBDLink adapters</td>
-                <td data-i18n="obdlinkCoverage">General OBD-II, FORScan setups and mobile/PC diagnostics.</td>
-                <td>USB / Bluetooth / Wi-Fi depending on model</td>
-                <td><a href="https://www.obdlink.com/" rel="noopener">obdlink.com</a></td>
-                <td data-i18n="obdlinkNote">Often a safer choice than unknown ELM327 clones.</td>
-              </tr>
-              <tr id="j2534" data-type="adapter" data-search="j2534 pass-thru reprogramming adapter sae dealer software">
-                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
-                <td>J2534 Pass-Thru</td>
-                <td data-i18n="j2534Coverage">Professional diagnostics and ECU reprogramming where supported.</td>
-                <td>J2534 pass-thru device</td>
-                <td data-i18n="oemPortals">OEM service portals</td>
-                <td data-i18n="j2534Note">Use only with official software and stable power supply; flashing mistakes can damage modules.</td>
-              </tr>
-              <tr id="enet-icom" data-type="adapter" data-search="bmw enet icom ista adapter diagnostics coding">
-                <td><span class="tag" data-i18n="adapterLabel">Adapter</span></td>
-                <td>BMW ENET / ICOM</td>
-                <td>BMW, MINI</td>
-                <td>ENET cable / BMW ICOM</td>
-                <td data-i18n="bmwOfficialAccess">BMW official access</td>
-                <td data-i18n="enetNote">Common BMW diagnostics connection types; use correct software access and avoid unsafe coding.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+    <section class="warning" aria-label="Diagnostic software warning">
+      <strong>Before downloading diagnostic software</strong>
+      <p>Before downloading diagnostic software, check your car year, diagnostic protocol, cable type, Windows version and driver compatibility.</p>
+    </section>
+
+    <section class="toolbar" aria-label="Diagnostics filters">
+      <div class="search-row">
+        <input id="softwareSearch" type="search" placeholder="Search: FORScan, VCDS, Volvo VIDA, ELM327, BMW, Opel, Toyota">
+        <div class="summary" id="softwareCount">Showing all diagnostic tools.</div>
+      </div>
+      <div class="filters" aria-label="Category filters">
+        <button type="button" class="active" data-filter="all">All</button>
+        <button type="button" data-filter="obd2">OBD2</button>
+        <button type="button" data-filter="elm327">ELM327</button>
+        <button type="button" data-filter="kkl">KKL / VAG-COM</button>
+        <button type="button" data-filter="volvo">Volvo</button>
+        <button type="button" data-filter="vag">VAG</button>
+        <button type="button" data-filter="bmw">BMW</button>
+        <button type="button" data-filter="opel">Opel</button>
+        <button type="button" data-filter="toyota">Toyota</button>
+        <button type="button" data-filter="universal">Universal</button>
       </div>
     </section>
 
-    <section class="note-grid" aria-label="Diagnostics safety notes">
-      <article>
-        <h3 data-i18n="legalTitle">Legal sources only</h3>
-        <p data-i18n="legalText">Use official websites, licensed software, app stores and legitimate vendor pages. Avoid pirated builds, cracks and activators.</p>
-      </article>
-      <article>
-        <h3 data-i18n="adapterTitle">Adapter matters</h3>
-        <p data-i18n="adapterText">A bad adapter can give connection errors, missing modules or unstable coding sessions. Match the adapter to the software and vehicle.</p>
-      </article>
-      <article>
-        <h3 data-i18n="codingTitle">Coding and flashing risk</h3>
-        <p data-i18n="codingText">Reading codes is usually low risk. Coding, adaptations, immobilizer work and ECU flashing can damage modules if done incorrectly.</p>
-      </article>
+    <section class="panel" aria-label="Recommended diagnostic tools">
+      <h2>Recommended diagnostic tools</h2>
+      <div class="recommended-grid">
+        <article class="tool-card">
+          <h3>Quality ELM327 adapter</h3>
+          <p>For basic OBD2 apps, live data and check-engine codes. Avoid unknown clones when stability matters.</p>
+          <a href="#">Coming soon</a>
+        </article>
+        <article class="tool-card">
+          <h3>OBDLink EX / USB adapter</h3>
+          <p>Useful for FORScan and many Windows workflows where a stable wired connection is preferred.</p>
+          <a href="#">Coming soon</a>
+        </article>
+        <article class="tool-card">
+          <h3>KKL / VAG-COM cable</h3>
+          <p>For older VAG cars before modern CAN diagnostics. Match the cable to the software version.</p>
+          <a href="#">Coming soon</a>
+        </article>
+        <article class="tool-card">
+          <h3>Volvo VIDA / DICE setup</h3>
+          <p>For Volvo workflows where official VIDA access or Volvo-compatible hardware is required.</p>
+          <a href="#">Coming soon</a>
+        </article>
+        <article class="tool-card">
+          <h3>BMW ENET / ICOM</h3>
+          <p>For BMW diagnostics, service data and coding paths. Use correct software access and stable power.</p>
+          <a href="#">Coming soon</a>
+        </article>
+        <article class="tool-card">
+          <h3>J2534 pass-thru device</h3>
+          <p>For supported OEM service portals and professional reprogramming workflows.</p>
+          <a href="#">Coming soon</a>
+        </article>
+      </div>
     </section>
 
-    <div class="disclaimer" data-i18n="disclaimer">Use official software and licensed tools. Avoid pirated builds, cracks and activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.</div>
+    <section class="panel" aria-label="Diagnostic software catalog">
+      <h2>Diagnostic software catalog</h2>
+      <div class="software-grid" id="softwareGrid">
+        <article class="software-card" id="obd-auto-doctor" data-category="obd2 elm327 universal" data-search="obd auto doctor universal obd2 elm327 iphone android windows mac emissions readiness live data">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Universal OBD2</p>
+              <h3>OBD Auto Doctor</h3>
+            </div>
+            <a class="official-link" href="https://www.obdautodoctor.com/" rel="noopener">Official source</a>
+          </div>
+          <p>General OBD2 diagnostics, live data, emissions readiness and check-engine fault codes.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Basic diagnostics on many OBD2-compliant cars.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327 or compatible OBD2 adapter.</dd></div>
+            <div><dt>Check</dt><dd>Vehicle OBD2 support, adapter quality and app platform.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="car-scanner" data-category="obd2 elm327 universal" data-search="car scanner elm obd2 universal ios android coding service obd app">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Mobile OBD2</p>
+              <h3>Car Scanner ELM OBD2</h3>
+            </div>
+            <a class="official-link" href="https://www.carscanner.info/" rel="noopener">Official source</a>
+          </div>
+          <p>Mobile OBD2 app with dashboards, fault codes, live data and selected service or coding functions.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Android/iOS diagnostics and simple daily checks.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327 or compatible Bluetooth/Wi-Fi adapter.</dd></div>
+            <div><dt>Check</dt><dd>Advanced features depend on vehicle model and adapter.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="torque-pro" data-category="obd2 elm327 universal" data-search="torque pro android obd2 scanner elm327 dashboard live data gauges">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Android OBD2</p>
+              <h3>Torque Pro</h3>
+            </div>
+            <a class="official-link" href="https://play.google.com/store/apps/details?id=org.prowl.torque" rel="noopener">Official source</a>
+          </div>
+          <p>Popular Android OBD2 scanner for dashboards, gauges, live data and basic fault-code work.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Quick Android-based checks and custom dashboards.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327 Bluetooth adapter.</dd></div>
+            <div><dt>Check</dt><dd>Adapter compatibility and Android device support.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="eobd-facile" data-category="obd2 elm327 universal" data-search="eobd facile klavkarr universal obd2 elm327 windows mac android ios">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Universal OBD2</p>
+              <h3>EOBD Facile</h3>
+            </div>
+            <a class="official-link" href="https://www.klavkarr.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Universal OBD2 diagnostic ecosystem for common vehicles, with desktop and mobile options.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>European users looking for a simple OBD2 path.</dd></div>
+            <div><dt>Adapter</dt><dd>Klavkarr or compatible ELM327 adapter.</dd></div>
+            <div><dt>Check</dt><dd>Vehicle OBD2 support and platform compatibility.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="scanmaster-elm" data-category="obd2 elm327 universal" data-search="scanmaster elm wgsoft elm327 obd2 eobd windows android">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Desktop OBD2</p>
+              <h3>ScanMaster-ELM</h3>
+            </div>
+            <a class="official-link" href="https://www.wgsoft.de/scanmaster-elm" rel="noopener">Official source</a>
+          </div>
+          <p>Windows-focused OBD2/EOBD software for ELM327-based interfaces and common diagnostic protocols.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Workshop laptops and older Windows diagnostic setups.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327, OBDLink or compatible interface.</dd></div>
+            <div><dt>Check</dt><dd>License type, Windows drivers and interface chip quality.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="touchscan" data-category="obd2 elm327 universal" data-search="touchscan obdsoftware octech obd2 windows elm327 obdlink">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Windows OBD2</p>
+              <h3>TouchScan</h3>
+            </div>
+            <a class="official-link" href="https://www.obdsoftware.net/software/touchscan" rel="noopener">Official source</a>
+          </div>
+          <p>Windows OBD2 software for diagnostics, live data, logging and fuel economy monitoring.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Windows laptops and car PC setups.</dd></div>
+            <div><dt>Adapter</dt><dd>Supported OBD2 adapter.</dd></div>
+            <div><dt>Check</dt><dd>Software license and adapter support list.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="obdwiz" data-category="obd2 elm327 universal" data-search="obdwiz obdlink scantool octech obd2 windows diagnostic software">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">OBDLink ecosystem</p>
+              <h3>OBDwiz</h3>
+            </div>
+            <a class="official-link" href="https://www.obdsoftware.net/downloads/obdwiz" rel="noopener">Official source</a>
+          </div>
+          <p>OBD2 diagnostic software for the OBDLink and ScanTool ecosystem.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Users with OBDLink hardware and a valid license.</dd></div>
+            <div><dt>Adapter</dt><dd>OBDLink or compatible OBD2 interface.</dd></div>
+            <div><dt>Check</dt><dd>License requirements before downloading.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="forscan" data-category="obd2 elm327 universal" data-search="forscan ford mazda lincoln mercury obdlink ex elm327 brand diagnostic">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Ford / Mazda</p>
+              <h3>FORScan</h3>
+            </div>
+            <a class="official-link" href="https://forscan.org/" rel="noopener">Official source</a>
+          </div>
+          <p>Popular diagnostic software for Ford, Mazda, Lincoln and Mercury modules, service functions and configuration checks.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Ford/Mazda diagnostics beyond generic OBD2.</dd></div>
+            <div><dt>Adapter</dt><dd>OBDLink EX or compatible ELM327 adapter.</dd></div>
+            <div><dt>Check</dt><dd>Adapter switch support, license type and module coverage.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="vcds" data-category="vag kkl obd2 universal" data-search="vcds ross-tech volkswagen audi skoda seat vag-com hex-v2 hex-net">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">VAG diagnostics</p>
+              <h3>VCDS</h3>
+            </div>
+            <a class="official-link" href="https://www.ross-tech.com/vcds/" rel="noopener">Official source</a>
+          </div>
+          <p>Strong Volkswagen, Audi, SEAT and Skoda diagnostics, coding and adaptation software with licensed Ross-Tech hardware.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>VAG module diagnostics and coding.</dd></div>
+            <div><dt>Adapter</dt><dd>Ross-Tech HEX-V2 or HEX-NET.</dd></div>
+            <div><dt>Check</dt><dd>Genuine interface, VIN limits and vehicle generation.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">VAG</span><span class="tag">VAG-COM</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="vcds-lite" data-category="vag kkl universal" data-search="vcds lite ross-tech old vag vw audi seat skoda kkl pre can">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Old VAG / KKL</p>
+              <h3>VCDS-Lite</h3>
+            </div>
+            <a class="official-link" href="https://www.ross-tech.com/vcds-lite/" rel="noopener">Official source</a>
+          </div>
+          <p>Low-cost Ross-Tech option for older VAG cars before direct CAN diagnostics.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Older VW, Audi, SEAT and Skoda models.</dd></div>
+            <div><dt>Adapter</dt><dd>Generic third-party KKL interface.</dd></div>
+            <div><dt>Check</dt><dd>Car generation, K-Line support and Windows drivers.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">KKL</span><span class="tag">VAG</span><span class="tag">VAG-COM</span></div>
+        </article>
+
+        <article class="software-card" id="obdeleven" data-category="obd2 vag bmw toyota universal" data-search="obdeleven vag bmw toyota ford mercedes obd2 app coding diagnostics">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Modern mobile OBD</p>
+              <h3>OBDeleven</h3>
+            </div>
+            <a class="official-link" href="https://obdeleven.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Mobile diagnostics and coding platform with brand-dependent features for VAG, BMW, Toyota, Ford, Mercedes and generic OBD2.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Mobile diagnostics, service functions and selected coding tasks.</dd></div>
+            <div><dt>Adapter</dt><dd>OBDeleven device and mobile app.</dd></div>
+            <div><dt>Check</dt><dd>Supported brands, subscription plan and exact function availability.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">VAG</span><span class="tag">BMW</span><span class="tag">Toyota</span></div>
+        </article>
+
+        <article class="software-card" id="carista" data-category="obd2 elm327 vag bmw toyota universal" data-search="carista obd2 diagnostics service coding toyota vag bmw ford nissan volvo">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Consumer diagnostics</p>
+              <h3>Carista</h3>
+            </div>
+            <a class="official-link" href="https://carista.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Consumer-friendly diagnostics, service resets and customizations for many supported brands.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Simple service and customization tasks.</dd></div>
+            <div><dt>Adapter</dt><dd>Carista adapter or compatible OBD2 adapter.</dd></div>
+            <div><dt>Check</dt><dd>Supported vehicle list and subscription terms.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Universal</span><span class="tag">OBD2</span><span class="tag">Toyota</span><span class="tag">VAG</span></div>
+        </article>
+
+        <article class="software-card" id="op-com" data-category="opel obd2 universal" data-search="op-com opel vauxhall diagnostic official vendor">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Opel / Vauxhall</p>
+              <h3>OP-COM</h3>
+            </div>
+            <a class="official-link" href="https://www.op-com.hu/" rel="noopener">Official source</a>
+          </div>
+          <p>One of the main diagnostic paths for Opel and Vauxhall vehicles when used with licensed hardware and software.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Opel/Vauxhall diagnostics and service functions.</dd></div>
+            <div><dt>Adapter</dt><dd>OP-COM interface.</dd></div>
+            <div><dt>Check</dt><dd>Avoid clone interfaces and unofficial archives.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Opel</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="multiecuscan" data-category="obd2 elm327 universal" data-search="multiecuscan fiat alfa romeo lancia chrysler dodge jeep fca can obdlink elm327">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Fiat / Alfa / FCA</p>
+              <h3>MultiECUScan</h3>
+            </div>
+            <a class="official-link" href="https://www.multiecuscan.net/" rel="noopener">Official source</a>
+          </div>
+          <p>Independent diagnostic software for Fiat, Alfa Romeo, Lancia, Chrysler, Dodge, Jeep and selected FCA vehicles.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Italian and FCA diagnostics.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327, KKL, OBDLink, CANtieCAR and adapter cables.</dd></div>
+            <div><dt>Check</dt><dd>Required colored adapter cable and module support.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">ELM327</span><span class="tag">KKL</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="alfaobd" data-category="obd2 elm327 universal" data-search="alfaobd fiat alfa romeo lancia chrysler dodge ram jeep android windows">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Fiat / Alfa / FCA</p>
+              <h3>AlfaOBD</h3>
+            </div>
+            <a class="official-link" href="https://www.alfaobd.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Windows and Android diagnostic tool with demo and paid versions for FCA-related vehicles.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Fiat, Alfa, Lancia, Chrysler, Dodge, RAM and Jeep users.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327, OBDLink or supported adapter.</dd></div>
+            <div><dt>Check</dt><dd>Vehicle support, adapter type and whether extra cables are needed.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">ELM327</span><span class="tag">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="ddt4all" data-category="obd2 elm327 universal" data-search="ddt4all renault dacia nissan open source elm327 coding diagnostic">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Renault / Dacia</p>
+              <h3>DDT4All</h3>
+            </div>
+            <a class="official-link" href="https://github.com/cedricp/ddt4all" rel="noopener">Official source</a>
+          </div>
+          <p>Open-source Renault/Dacia/Nissan diagnostic and coding tool. Powerful, but risky if used without module knowledge.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Advanced Renault and Dacia diagnostics or configuration.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327-compatible adapter.</dd></div>
+            <div><dt>Check</dt><dd>Database files, module knowledge and safe coding practices.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">ELM327</span><span class="tag">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="pyren" data-category="obd2 elm327 universal" data-search="pyren renault dacia elm327 diagnostic open source python">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Renault / Dacia</p>
+              <h3>PyRen</h3>
+            </div>
+            <a class="official-link" href="https://github.com/andru666/pyren" rel="noopener">Official source</a>
+          </div>
+          <p>Community Renault diagnostic project, best treated as an advanced-user tool.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Renault and Dacia owners comfortable with community tools.</dd></div>
+            <div><dt>Adapter</dt><dd>ELM327-compatible adapter.</dd></div>
+            <div><dt>Check</dt><dd>Setup instructions, Python requirements and adapter compatibility.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">ELM327</span><span class="tag">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="bimmerlink" data-category="bmw obd2 universal" data-search="bimmerlink bmw mini diagnostics live data dpf battery registration android ios">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">BMW / MINI</p>
+              <h3>BimmerLink</h3>
+            </div>
+            <a class="official-link" href="https://bimmerlink.app/" rel="noopener">Official source</a>
+          </div>
+          <p>Mobile BMW/MINI diagnostics, live data, DPF information, battery registration and service functions.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>BMW/MINI mobile diagnostics and live data.</dd></div>
+            <div><dt>Adapter</dt><dd>Supported OBD adapter.</dd></div>
+            <div><dt>Check</dt><dd>Adapter list, iOS/Android support and vehicle generation.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">BMW</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="bimmercode" data-category="bmw toyota obd2 universal" data-search="bimmercode bmw mini toyota supra coding android ios windows mac">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">BMW coding</p>
+              <h3>BimmerCode</h3>
+            </div>
+            <a class="official-link" href="https://bimmercode.app/" rel="noopener">Official source</a>
+          </div>
+          <p>BMW, MINI and Toyota Supra coding tool. More focused on configuration than basic diagnostics.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>BMW/MINI/Supra coding and feature configuration.</dd></div>
+            <div><dt>Adapter</dt><dd>Supported OBD adapter.</dd></div>
+            <div><dt>Check</dt><dd>Every coding option before changing vehicle configuration.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">BMW</span><span class="tag">Toyota</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="carly" data-category="obd2 bmw vag opel toyota universal" data-search="carly obd bmw vag mercedes opel renault toyota diagnostic mobile app">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Mobile OBD service</p>
+              <h3>Carly</h3>
+            </div>
+            <a class="official-link" href="https://www.mycarly.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Mass-market mobile OBD service for BMW, VAG, Mercedes, Opel, Renault, Toyota and other supported brands.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Mobile diagnostics, used-car checks and selected service functions.</dd></div>
+            <div><dt>Adapter</dt><dd>Carly adapter and mobile app.</dd></div>
+            <div><dt>Check</dt><dd>Supported functions for the exact model and active plan.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Universal</span><span class="tag">BMW</span><span class="tag">VAG</span><span class="tag">Opel</span><span class="tag">Toyota</span></div>
+        </article>
+
+        <article class="software-card" id="mhd-flasher" data-category="bmw obd2 universal" data-search="mhd flasher bmw supra n54 n55 s55 b58 s58 s63 tuning logging diagnostics">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">BMW tuning / logging</p>
+              <h3>MHD Flasher</h3>
+            </div>
+            <a class="official-link" href="https://mhdtuning.com/" rel="noopener">Official source</a>
+          </div>
+          <p>BMW and Supra tuning, logging and fault-code workflows. This is not just a diagnostic reader.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Supported BMW engines and logging workflows.</dd></div>
+            <div><dt>Adapter</dt><dd>MHD adapter or compatible mobile setup.</dd></div>
+            <div><dt>Check</dt><dd>Engine support, map source and battery voltage before flashing.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">BMW</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="mg-flasher" data-category="bmw obd2 universal" data-search="mg flasher bmw mini supra b46 b48 b58 s58 s63 obd tuning logging diagnostics">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">BMW tuning / logging</p>
+              <h3>MG Flasher</h3>
+            </div>
+            <a class="official-link" href="https://www.mgflasher.com/" rel="noopener">Official source</a>
+          </div>
+          <p>OBD tuning and logging platform for supported BMW, MINI and Supra engines.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Supported B46, B48, B58, S58, S63 and N63 workflows.</dd></div>
+            <div><dt>Adapter</dt><dd>ENET Wi-Fi adapter or supported mobile/desktop setup.</dd></div>
+            <div><dt>Check</dt><dd>Exact engine support and stable power before any flash.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">BMW</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="vol-fcr" data-category="volvo universal" data-search="vol-fcr volvo 850 s70 v70 c70 900 s90 v90 old volvo diagnostic">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Classic Volvo</p>
+              <h3>VOL-FCR</h3>
+            </div>
+            <a class="official-link" href="https://www.ilexa.co.uk/diagnostic-tools/vol-fcr.html" rel="noopener">Official source</a>
+          </div>
+          <p>Legacy Volvo diagnostic tool for models such as 850, S70, V70, C70, 900, S90 and V90.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Classic Volvo owners and pre-2000 Volvo diagnostics.</dd></div>
+            <div><dt>Adapter</dt><dd>PC/laptop Volvo diagnostic interface.</dd></div>
+            <div><dt>Check</dt><dd>Exact Volvo model year and cable compatibility.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Volvo</span></div>
+        </article>
+
+        <article class="software-card" id="vdash" data-category="volvo obd2 universal" data-search="vdash d5t5 volvo diagnostic configuration vdd dongle j2534">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Volvo independent</p>
+              <h3>VDASH</h3>
+            </div>
+            <a class="official-link" href="https://d5t5.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Independent Volvo platform for diagnostics, configuration and service workflows.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Modern Volvo diagnostics and configuration tasks.</dd></div>
+            <div><dt>Adapter</dt><dd>VDD dongle or supported J2534 adapters.</dd></div>
+            <div><dt>Check</dt><dd>Model support, token/account requirements and adapter support.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Volvo</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="techstream" data-category="toyota obd2 universal" data-search="toyota techstream tis lexus scion official diagnostic reprogramming">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Toyota official path</p>
+              <h3>Toyota Techstream / TIS</h3>
+            </div>
+            <a class="official-link" href="https://techinfo.toyota.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Official Toyota technical information and diagnostic/reprogramming access for Toyota, Lexus and Scion.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Official Toyota service information and supported diagnostic workflows.</dd></div>
+            <div><dt>Adapter</dt><dd>Techstream Lite or approved scan tools.</dd></div>
+            <div><dt>Check</dt><dd>Subscription, region and approved hardware requirements.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Toyota</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="bmw-ista" data-category="bmw obd2 universal" data-search="bmw ista bmw techinfo aos official service information mini diagnostics">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">BMW official path</p>
+              <h3>BMW ISTA / BMW techinfo</h3>
+            </div>
+            <a class="official-link" href="https://bmwtechinfo.bmwgroup.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Official BMW service information portal. Access rules depend on region, account and subscription.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>BMW and MINI service information and supported official workflows.</dd></div>
+            <div><dt>Adapter</dt><dd>BMW ICOM or approved access method.</dd></div>
+            <div><dt>Check</dt><dd>Subscription, official access rules and module programming requirements.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">BMW</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="servicebox" data-category="opel obd2 universal" data-search="stellantis service box diagbox peugeot citroen ds opel official service diagnostics">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Stellantis official path</p>
+              <h3>Stellantis Service Box / Diagbox</h3>
+            </div>
+            <a class="official-link" href="https://public.servicebox-parts.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Official service data and supported diagnostic workflows for Peugeot, Citroen, DS, Opel and related Stellantis brands.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Official service and parts information.</dd></div>
+            <div><dt>Adapter</dt><dd>Official portal access and supported tools.</dd></div>
+            <div><dt>Check</dt><dd>Region, account, subscription and supported vehicle brand.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Opel</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="vida" data-category="volvo obd2 universal" data-search="volvo vida official technical information diagnostic subscription dice">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Volvo official path</p>
+              <h3>Volvo VIDA</h3>
+            </div>
+            <a class="official-link" href="https://www.volvotechinfo.com/" rel="noopener">Official source</a>
+          </div>
+          <p>Official Volvo service and diagnostic information route. VIDA/DICE compatibility depends heavily on model year and access type.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Volvo service information and supported official workflows.</dd></div>
+            <div><dt>Adapter</dt><dd>Volvo official access, DICE path or supported setup where available.</dd></div>
+            <div><dt>Check</dt><dd>Subscription, region, vehicle year and hardware compatibility.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">Volvo</span><span class="tag">OBD2</span></div>
+        </article>
+
+        <article class="software-card" id="elm327" data-category="obd2 elm327 universal" data-search="elm327 obd2 adapter bluetooth wifi usb compatibility clones">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Adapter family</p>
+              <h3>ELM327-compatible adapters</h3>
+            </div>
+          </div>
+          <p>Common adapter family for many generic OBD2 apps. Quality varies a lot between real chips and cheap clones.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>Basic OBD2 apps and check-engine diagnostics.</dd></div>
+            <div><dt>Adapter</dt><dd>USB, Bluetooth or Wi-Fi ELM327-compatible adapter.</dd></div>
+            <div><dt>Check</dt><dd>Chip quality, driver support and whether the app supports the adapter.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">ELM327</span><span class="tag">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="obdlink" data-category="obd2 elm327 universal" data-search="obdlink mx plus ex sx adapter obd2 forscan official scan tool">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Adapter family</p>
+              <h3>OBDLink adapters</h3>
+            </div>
+            <a class="official-link" href="https://www.obdlink.com/" rel="noopener">Official source</a>
+          </div>
+          <p>OBDLink adapters are often a safer choice than unknown ELM327 clones for stable diagnostics.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>General OBD2, FORScan setups and mobile/PC diagnostics.</dd></div>
+            <div><dt>Adapter</dt><dd>OBDLink EX, MX+, SX or other model depending on use case.</dd></div>
+            <div><dt>Check</dt><dd>Exact model support for the software you plan to use.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">ELM327</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="j2534" data-category="obd2 universal" data-search="j2534 pass-thru reprogramming adapter sae dealer software">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Professional adapter</p>
+              <h3>J2534 Pass-Thru</h3>
+            </div>
+          </div>
+          <p>Professional pass-thru device category for supported OEM service portals, diagnostics and ECU reprogramming.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>OEM-supported professional workflows.</dd></div>
+            <div><dt>Adapter</dt><dd>J2534 pass-thru device.</dd></div>
+            <div><dt>Check</dt><dd>OEM support list, subscription, power supply and reprogramming rules.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">OBD2</span><span class="tag">Universal</span></div>
+        </article>
+
+        <article class="software-card" id="enet-icom" data-category="bmw obd2 universal" data-search="bmw enet icom ista adapter diagnostics coding">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">BMW adapter family</p>
+              <h3>BMW ENET / ICOM</h3>
+            </div>
+          </div>
+          <p>Common BMW connection types for diagnostics, coding and official BMW service workflows.</p>
+          <dl class="meta-grid">
+            <div><dt>Best for</dt><dd>BMW and MINI diagnostics or coding paths.</dd></div>
+            <div><dt>Adapter</dt><dd>ENET cable or BMW ICOM depending on vehicle and software.</dd></div>
+            <div><dt>Check</dt><dd>Vehicle generation, software access and stable power before coding or flashing.</dd></div>
+          </dl>
+          <div class="tag-row"><span class="tag primary">BMW</span><span class="tag">OBD2</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="warning" aria-label="Legal and safety note">
+      <strong>Legal and safety note</strong>
+      <p>AutoHub lists official sources and legitimate project pages. We do not sell free diagnostic software directly, and we do not host pirated builds, cracks or activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.</p>
+    </section>
+
+    <section class="report-box" aria-label="Report broken link or suggest software">
+      <h2>Report broken link or suggest software</h2>
+      <p>A contact page will be added later as <strong>contact.html</strong>. Until then, this block marks the future place for reporting broken links, suggesting diagnostic software and sending compatibility corrections.</p>
+    </section>
   </main>
 
+  <footer class="site-footer">
+    <div>AutoHub - car calculators, wheel fitment and diagnostic reference tools.</div>
+  </footer>
+
   <script>
-    const translations = {
-      en: {
-        tireCalculator: 'Tire Calculator',
-        pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Cost Calculator',
-        diagnostics: 'Diagnostics',
-        engines: 'Engines',
-        guides: 'Guides',
-        title: 'Diagnostics Software & Adapters',
-        lead: 'Legal diagnostic software, official service portals and adapter compatibility notes. This section avoids pirated builds, cracks and activators, and points users toward official or clearly legitimate sources.',
-        allItems: 'All',
-        universalItems: 'Universal OBD',
-        brandItems: 'Brand tools',
-        dealerItems: 'Dealer / professional',
-        adapterItems: 'Adapters',
-        popularTitle: 'Popular diagnostics searches',
-        catalogTitle: 'Diagnostics catalog',
-        category: 'Category',
-        name: 'Name',
-        coverage: 'Coverage',
-        adapter: 'Adapter / access',
-        officialSource: 'Official source',
-        notes: 'Notes',
-        universalLabel: 'Universal OBD',
-        brandLabel: 'Brand tool',
-        dealerLabel: 'Dealer / professional',
-        adapterLabel: 'Adapter',
-        summaryAll: 'Showing {count} starter diagnostics records.',
-        summaryFiltered: 'Found {count} diagnostics records for "{query}".',
-        summaryEmpty: 'No diagnostics records found for "{query}".',
-        obdAutoCoverage: 'Generic OBD-II diagnostics, live data and emissions readiness.',
-        obdAutoNote: 'Good first step for reading and clearing basic check-engine codes.',
-        carScannerCoverage: 'Universal OBD-II app with dashboards, DTCs and some service/coding features.',
-        carScannerNote: 'Useful for mobile diagnostics; advanced functions depend on vehicle and adapter.',
-        torqueNote: 'Popular Android scanner for quick checks, gauges and simple OBD-II data.',
-        eobdFacileNote: 'Useful European OBD-II option with desktop and mobile ecosystem.',
-        scanmasterNote: 'Desktop OBD software with broad protocol support and demo/licensed versions.',
-        touchscanNote: 'Windows-focused OBD package, useful for older workshop laptops and car PCs.',
-        obdwizNote: 'Official download requires a valid OBDwiz license.',
-        forscanNote: 'Popular for Ford/Mazda modules, service functions and configuration checks.',
-        vcdsNote: 'Strong VAG diagnostics, coding and adaptations with licensed Ross-Tech hardware.',
-        vcdsLiteNote: 'Low-cost Ross-Tech option for older VAG cars; limited compared with full VCDS.',
-        obdelevenNote: 'Modern mobile diagnostics and coding platform with brand-dependent features.',
-        caristaNote: 'Good consumer-friendly option for diagnostics, service resets and customizations.',
-        opcomNote: 'Use licensed hardware/software only; avoid clone interfaces and unofficial archives.',
-        multiecuscanNote: 'One of the strongest independent choices for Italian and FCA diagnostics.',
-        alfaobdNote: 'Windows and Android tool with demo/paid versions for FCA-related vehicles.',
-        ddt4allNote: 'Open-source and powerful; coding changes can be risky if you do not know the module.',
-        pyrenNote: 'Community Renault diagnostic project; best treated as an advanced-user tool.',
-        bimmerlinkNote: 'Mobile BMW/MINI diagnostics, live data, battery registration and service functions.',
-        bimmercodeNote: 'Mostly a coding tool; verify each option before changing vehicle configuration.',
-        carlyNote: 'Mass-market mobile OBD service; supported functions depend strongly on model and plan.',
-        mhdNote: 'Tuning-focused tool, not just diagnostics; unsuitable changes can damage an engine.',
-        mgflasherNote: 'OBD tuning and logging platform; use only with correct engine support and safe power.',
-        volfcrNote: 'Important legacy Volvo tool for pre-2000 models and classic Volvo owners.',
-        vdashNote: 'Independent Volvo platform for modern diagnostics and configuration tasks.',
-        techstreamNote: 'Official Toyota technical information and diagnostic/reprogramming access.',
-        bmwIstaNote: 'Official BMW service information portal; access rules depend on region and subscription.',
-        serviceboxNote: 'Use official portal access for service data, parts data and supported diagnostic workflows.',
-        vidaNote: 'Official route should be preferred for Volvo service information and supported workflows.',
-        elmCoverage: 'Generic OBD-II apps and basic diagnostics.',
-        adapterVaries: 'Varies by vendor',
-        elmNote: 'Cheap clones can be unstable or limited. Use quality adapters for diagnostics.',
-        obdlinkCoverage: 'General OBD-II, FORScan setups and mobile/PC diagnostics.',
-        obdlinkNote: 'Often a safer choice than unknown ELM327 clones.',
-        j2534Coverage: 'Professional diagnostics and ECU reprogramming where supported.',
-        oemPortals: 'OEM service portals',
-        j2534Note: 'Use only with official software and stable power supply; flashing mistakes can damage modules.',
-        bmwOfficialAccess: 'BMW official access',
-        enetNote: 'Common BMW diagnostics connection types; use correct software access and avoid unsafe coding.',
-        legalTitle: 'Legal sources only',
-        legalText: 'Use official websites, licensed software, app stores and legitimate vendor pages. Avoid pirated builds, cracks and activators.',
-        adapterTitle: 'Adapter matters',
-        adapterText: 'A bad adapter can give connection errors, missing modules or unstable coding sessions. Match the adapter to the software and vehicle.',
-        codingTitle: 'Coding and flashing risk',
-        codingText: 'Reading codes is usually low risk. Coding, adaptations, immobilizer work and ECU flashing can damage modules if done incorrectly.',
-        disclaimer: 'Use official software and licensed tools. Avoid pirated builds, cracks and activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.'
-      },
-      es: {
-        tireCalculator: 'Calculadora de neumáticos',
-        pcdDatabase: 'Base PCD',
-        fuel: 'Calculadora de coste de combustible',
-        diagnostics: 'Diagnóstico',
-        engines: 'Motores',
-        guides: 'Guías',
-        title: 'Software de diagnóstico y adaptadores',
-        lead: 'Software legal de diagnóstico, portales oficiales de servicio y notas de compatibilidad de adaptadores. Esta sección evita copias pirata, cracks y activadores.',
-        allItems: 'Todo',
-        universalItems: 'OBD universal',
-        brandItems: 'Herramientas por marca',
-        dealerItems: 'Dealer / profesional',
-        adapterItems: 'Adaptadores',
-        popularTitle: 'Búsquedas populares de diagnóstico',
-        catalogTitle: 'Catálogo de diagnóstico',
-        category: 'Categoría',
-        name: 'Nombre',
-        coverage: 'Cobertura',
-        adapter: 'Adaptador / acceso',
-        officialSource: 'Fuente oficial',
-        notes: 'Notas',
-        universalLabel: 'OBD universal',
-        brandLabel: 'Herramienta de marca',
-        dealerLabel: 'Dealer / profesional',
-        adapterLabel: 'Adaptador',
-        summaryAll: 'Mostrando {count} registros iniciales de diagnóstico.',
-        summaryFiltered: 'Encontrados {count} registros de diagnóstico para "{query}".',
-        summaryEmpty: 'No se encontraron registros para "{query}".',
-        obdAutoCoverage: 'Diagnóstico OBD-II genérico, datos en vivo y preparación de emisiones.',
-        obdAutoNote: 'Buen primer paso para leer y borrar códigos básicos de check-engine.',
-        carScannerCoverage: 'App OBD-II universal con paneles, DTC y algunas funciones de servicio/codificación.',
-        carScannerNote: 'Útil para móvil; las funciones avanzadas dependen del coche y adaptador.',
-        torqueNote: 'Escáner Android popular para revisiones rápidas, indicadores y datos OBD-II simples.',
-        eobdFacileNote: 'Opción OBD-II europea útil con ecosistema de escritorio y móvil.',
-        scanmasterNote: 'Software OBD de escritorio con amplio soporte de protocolos y versiones demo/licencia.',
-        touchscanNote: 'Paquete OBD para Windows, útil para portátiles de taller antiguos y PCs de coche.',
-        obdwizNote: 'La descarga oficial requiere una licencia OBDwiz válida.',
-        forscanNote: 'Popular para módulos Ford/Mazda, funciones de servicio y configuración.',
-        vcdsNote: 'Diagnóstico VAG fuerte, codificación y adaptaciones con hardware Ross-Tech licenciado.',
-        vcdsLiteNote: 'Opción Ross-Tech económica para VAG antiguos; limitada frente a VCDS completo.',
-        obdelevenNote: 'Plataforma móvil moderna de diagnóstico y codificación con funciones según marca.',
-        caristaNote: 'Opción sencilla para diagnóstico, reinicios de servicio y personalizaciones.',
-        opcomNote: 'Usa solo hardware/software licenciado; evita clones y archivos no oficiales.',
-        multiecuscanNote: 'Una de las mejores opciones independientes para diagnóstico italiano y FCA.',
-        alfaobdNote: 'Herramienta Windows y Android con versiones demo/de pago para vehículos FCA.',
-        ddt4allNote: 'Open-source y potente; la codificación puede ser arriesgada si no conoces el módulo.',
-        pyrenNote: 'Proyecto comunitario Renault; conviene tratarlo como herramienta avanzada.',
-        bimmerlinkNote: 'Diagnóstico BMW/MINI móvil, datos en vivo, batería y funciones de servicio.',
-        bimmercodeNote: 'Principalmente herramienta de codificación; verifica cada opción antes de cambiarla.',
-        carlyNote: 'Servicio OBD móvil masivo; funciones dependen mucho del modelo y plan.',
-        mhdNote: 'Herramienta centrada en tuning, no solo diagnóstico; cambios incorrectos pueden dañar el motor.',
-        mgflasherNote: 'Plataforma OBD de tuning y logs; usar solo con motor compatible y energía estable.',
-        volfcrNote: 'Herramienta Volvo clásica importante para modelos anteriores a 2000.',
-        vdashNote: 'Plataforma Volvo independiente para diagnóstico moderno y configuración.',
-        techstreamNote: 'Información técnica oficial Toyota y acceso a diagnóstico/reprogramación.',
-        bmwIstaNote: 'Portal oficial BMW; reglas de acceso dependen de región y suscripción.',
-        serviceboxNote: 'Usa acceso oficial para datos de servicio, piezas y flujos soportados.',
-        vidaNote: 'La ruta oficial es preferible para información de servicio Volvo y flujos soportados.',
-        elmCoverage: 'Apps OBD-II genéricas y diagnóstico básico.',
-        adapterVaries: 'Depende del vendedor',
-        elmNote: 'Los clones baratos pueden ser inestables o limitados. Usa adaptadores de calidad.',
-        obdlinkCoverage: 'OBD-II general, FORScan y diagnóstico móvil/PC.',
-        obdlinkNote: 'A menudo es más seguro que clones ELM327 desconocidos.',
-        j2534Coverage: 'Diagnóstico profesional y reprogramación ECU donde sea compatible.',
-        oemPortals: 'Portales OEM',
-        j2534Note: 'Usar solo con software oficial y alimentación estable; un error de flasheo puede dañar módulos.',
-        bmwOfficialAccess: 'Acceso oficial BMW',
-        enetNote: 'Conexiones comunes BMW; usa acceso correcto y evita codificación insegura.',
-        legalTitle: 'Solo fuentes legales',
-        legalText: 'Usa webs oficiales, software licenciado, tiendas de apps y vendedores legítimos. Evita copias pirata, cracks y activadores.',
-        adapterTitle: 'El adaptador importa',
-        adapterText: 'Un mal adaptador puede causar errores, módulos ausentes o sesiones inestables. Combina adaptador, software y vehículo.',
-        codingTitle: 'Riesgo de codificación',
-        codingText: 'Leer códigos suele ser de bajo riesgo. Codificación, adaptaciones, inmovilizador y flasheo pueden dañar módulos.',
-        disclaimer: 'Usa software oficial y herramientas licenciadas. Evita copias pirata, cracks y activadores. La codificación, flasheo y funciones de servicio pueden dañar módulos si se usan mal.'
-      },
-      fr: {
-        tireCalculator: 'Calculateur de pneus',
-        pcdDatabase: 'Base PCD',
-        fuel: 'Calculateur de coût carburant',
-        diagnostics: 'Diagnostic',
-        engines: 'Moteurs',
-        guides: 'Guides',
-        title: 'Logiciels de diagnostic et adaptateurs',
-        lead: 'Logiciels de diagnostic légaux, portails officiels de service et notes de compatibilité des adaptateurs. Cette section évite les versions piratées, cracks et activateurs.',
-        allItems: 'Tout',
-        universalItems: 'OBD universel',
-        brandItems: 'Outils par marque',
-        dealerItems: 'Concession / pro',
-        adapterItems: 'Adaptateurs',
-        popularTitle: 'Recherches populaires de diagnostic',
-        catalogTitle: 'Catalogue diagnostic',
-        category: 'Catégorie',
-        name: 'Nom',
-        coverage: 'Couverture',
-        adapter: 'Adaptateur / accès',
-        officialSource: 'Source officielle',
-        notes: 'Notes',
-        universalLabel: 'OBD universel',
-        brandLabel: 'Outil marque',
-        dealerLabel: 'Concession / pro',
-        adapterLabel: 'Adaptateur',
-        summaryAll: '{count} fiches diagnostic de départ affichées.',
-        summaryFiltered: '{count} fiches diagnostic trouvées pour "{query}".',
-        summaryEmpty: 'Aucune fiche trouvée pour "{query}".',
-        obdAutoCoverage: 'Diagnostic OBD-II générique, données live et readiness émissions.',
-        obdAutoNote: 'Bon premier niveau pour lire et effacer les codes check-engine.',
-        carScannerCoverage: 'Application OBD-II universelle avec tableaux, DTC et quelques fonctions service/codage.',
-        carScannerNote: 'Utile sur mobile; fonctions avancées selon véhicule et adaptateur.',
-        torqueNote: 'Scanner Android populaire pour contrôles rapides, jauges et données OBD-II simples.',
-        eobdFacileNote: 'Option OBD-II européenne utile avec écosystème bureau et mobile.',
-        scanmasterNote: 'Logiciel OBD bureau avec large support protocoles et versions démo/licence.',
-        touchscanNote: 'Suite OBD pour Windows, utile pour anciens PC atelier et car PCs.',
-        obdwizNote: 'Le téléchargement officiel exige une licence OBDwiz valide.',
-        forscanNote: 'Populaire pour modules Ford/Mazda, fonctions service et configuration.',
-        vcdsNote: 'Diagnostic VAG, codage et adaptations avec matériel Ross-Tech licencié.',
-        vcdsLiteNote: 'Option Ross-Tech économique pour VAG anciens; limitée face au VCDS complet.',
-        obdelevenNote: 'Plateforme mobile moderne de diagnostic et codage, fonctions selon marque.',
-        caristaNote: 'Option simple pour diagnostic, remises service et personnalisations.',
-        opcomNote: 'Utilisez seulement matériel/logiciel licencié; évitez clones et archives non officielles.',
-        multiecuscanNote: 'Un des meilleurs choix indépendants pour diagnostic italien et FCA.',
-        alfaobdNote: 'Outil Windows et Android avec versions démo/payantes pour véhicules FCA.',
-        ddt4allNote: 'Open-source et puissant; le codage est risqué sans connaissance du module.',
-        pyrenNote: 'Projet communautaire Renault; à traiter comme outil utilisateur avancé.',
-        bimmerlinkNote: 'Diagnostic mobile BMW/MINI, données live, batterie et fonctions service.',
-        bimmercodeNote: 'Surtout outil de codage; vérifiez chaque option avant modification.',
-        carlyNote: 'Service OBD mobile grand public; fonctions selon modèle et abonnement.',
-        mhdNote: 'Outil orienté tuning, pas seulement diagnostic; mauvais réglages peuvent abîmer le moteur.',
-        mgflasherNote: 'Plateforme OBD tuning et logs; utiliser seulement avec moteur compatible et alimentation stable.',
-        volfcrNote: 'Outil Volvo ancien important pour modèles avant 2000.',
-        vdashNote: 'Plateforme Volvo indépendante pour diagnostic moderne et configuration.',
-        techstreamNote: 'Information technique officielle Toyota et accès diagnostic/reprogrammation.',
-        bmwIstaNote: 'Portail officiel BMW; accès selon région et abonnement.',
-        serviceboxNote: 'Utilisez le portail officiel pour données service, pièces et procédures supportées.',
-        vidaNote: 'La voie officielle est préférable pour infos service Volvo et procédures supportées.',
-        elmCoverage: 'Applications OBD-II génériques et diagnostic basique.',
-        adapterVaries: 'Selon le vendeur',
-        elmNote: 'Les clones bon marché peuvent être instables ou limités. Utilisez des adaptateurs de qualité.',
-        obdlinkCoverage: 'OBD-II général, FORScan et diagnostic mobile/PC.',
-        obdlinkNote: 'Souvent plus sûr que des clones ELM327 inconnus.',
-        j2534Coverage: 'Diagnostic professionnel et reprogrammation ECU si supporté.',
-        oemPortals: 'Portails OEM',
-        j2534Note: 'À utiliser avec logiciel officiel et alimentation stable; une erreur de flash peut endommager les modules.',
-        bmwOfficialAccess: 'Accès officiel BMW',
-        enetNote: 'Connexions BMW courantes; utilisez le bon accès et évitez le codage risqué.',
-        legalTitle: 'Sources légales seulement',
-        legalText: 'Utilisez sites officiels, logiciels licenciés, app stores et vendeurs légitimes. Évitez versions piratées, cracks et activateurs.',
-        adapterTitle: 'L’adaptateur compte',
-        adapterText: 'Un mauvais adaptateur peut causer erreurs, modules manquants ou codage instable. Adaptez-le au logiciel et au véhicule.',
-        codingTitle: 'Risque de codage',
-        codingText: 'Lire des codes est souvent peu risqué. Codage, adaptations, antidémarrage et flash ECU peuvent endommager les modules.',
-        disclaimer: 'Utilisez logiciels officiels et outils licenciés. Évitez versions piratées, cracks et activateurs. Codage, flash et fonctions service peuvent endommager les modules si mal utilisés.'
-      },
-      de: {
-        tireCalculator: 'Reifenrechner',
-        pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Kraftstoffkosten-Rechner',
-        diagnostics: 'Diagnose',
-        engines: 'Motoren',
-        guides: 'Ratgeber',
-        title: 'Diagnosesoftware und Adapter',
-        lead: 'Legale Diagnosesoftware, offizielle Serviceportale und Hinweise zur Adapter-Kompatibilität. Keine Raubkopien, Cracks oder Aktivatoren.',
-        allItems: 'Alle',
-        universalItems: 'Universal-OBD',
-        brandItems: 'Marken-Tools',
-        dealerItems: 'Dealer / Profi',
-        adapterItems: 'Adapter',
-        popularTitle: 'Beliebte Diagnosesuchen',
-        catalogTitle: 'Diagnosekatalog',
-        category: 'Kategorie',
-        name: 'Name',
-        coverage: 'Abdeckung',
-        adapter: 'Adapter / Zugang',
-        officialSource: 'Offizielle Quelle',
-        notes: 'Hinweise',
-        universalLabel: 'Universal-OBD',
-        brandLabel: 'Marken-Tool',
-        dealerLabel: 'Dealer / Profi',
-        adapterLabel: 'Adapter',
-        summaryAll: '{count} Diagnose-Starteinträge werden angezeigt.',
-        summaryFiltered: '{count} Diagnoseeinträge für "{query}" gefunden.',
-        summaryEmpty: 'Keine Einträge für "{query}" gefunden.',
-        obdAutoCoverage: 'Generische OBD-II-Diagnose, Live-Daten und Abgas-Readiness.',
-        obdAutoNote: 'Guter Einstieg zum Lesen und Löschen einfacher Check-Engine-Codes.',
-        carScannerCoverage: 'Universelle OBD-II-App mit Dashboards, DTCs und einigen Service-/Coding-Funktionen.',
-        carScannerNote: 'Nützlich mobil; erweiterte Funktionen hängen von Fahrzeug und Adapter ab.',
-        torqueNote: 'Beliebter Android-Scanner für schnelle Checks, Anzeigen und einfache OBD-II-Daten.',
-        eobdFacileNote: 'Nützliche europäische OBD-II-Option mit Desktop- und Mobile-Ökosystem.',
-        scanmasterNote: 'Desktop-OBD-Software mit breiter Protokollunterstützung und Demo/Lizenzversionen.',
-        touchscanNote: 'Windows-OBD-Paket, nützlich für ältere Werkstatt-Laptops und Car-PCs.',
-        obdwizNote: 'Der offizielle Download erfordert eine gültige OBDwiz-Lizenz.',
-        forscanNote: 'Beliebt für Ford/Mazda-Module, Servicefunktionen und Konfiguration.',
-        vcdsNote: 'Starke VAG-Diagnose, Codierung und Anpassungen mit lizenzierter Ross-Tech-Hardware.',
-        vcdsLiteNote: 'Günstige Ross-Tech-Option für ältere VAG-Fahrzeuge; eingeschränkt gegenüber VCDS.',
-        obdelevenNote: 'Moderne mobile Diagnose- und Coding-Plattform mit markenabhängigen Funktionen.',
-        caristaNote: 'Verbraucherfreundliche Option für Diagnose, Service-Resets und Anpassungen.',
-        opcomNote: 'Nur lizenzierte Hard-/Software nutzen; Klone und inoffizielle Archive meiden.',
-        multiecuscanNote: 'Eine der stärksten unabhängigen Optionen für italienische und FCA-Diagnose.',
-        alfaobdNote: 'Windows- und Android-Tool mit Demo/Kaufversionen für FCA-Fahrzeuge.',
-        ddt4allNote: 'Open Source und leistungsfähig; Coding ist riskant ohne Modulkenntnis.',
-        pyrenNote: 'Community-Projekt für Renault; am besten als Tool für Fortgeschrittene behandeln.',
-        bimmerlinkNote: 'Mobile BMW/MINI-Diagnose, Live-Daten, Batterieregistrierung und Servicefunktionen.',
-        bimmercodeNote: 'Vor allem Coding-Tool; jede Option vor Änderung genau prüfen.',
-        carlyNote: 'Massenmarkt-OBD-App; Funktionen hängen stark von Modell und Abo ab.',
-        mhdNote: 'Tuning-orientiertes Tool, nicht nur Diagnose; falsche Änderungen können den Motor beschädigen.',
-        mgflasherNote: 'OBD-Tuning- und Logging-Plattform; nur mit passendem Motor und stabiler Spannung nutzen.',
-        volfcrNote: 'Wichtiges älteres Volvo-Tool für Modelle vor 2000.',
-        vdashNote: 'Unabhängige Volvo-Plattform für moderne Diagnose und Konfiguration.',
-        techstreamNote: 'Offizielle Toyota-Technikinfo und Diagnose-/Reprogrammierungszugang.',
-        bmwIstaNote: 'Offizielles BMW-Portal; Zugang je nach Region und Abonnement.',
-        serviceboxNote: 'Offiziellen Zugang für Service-, Teile- und unterstützte Diagnoseabläufe nutzen.',
-        vidaNote: 'Der offizielle Weg ist für Volvo-Serviceinfos und unterstützte Abläufe vorzuziehen.',
-        elmCoverage: 'Generische OBD-II-Apps und Basisdiagnose.',
-        adapterVaries: 'Je nach Anbieter',
-        elmNote: 'Billige Klone können instabil oder eingeschränkt sein. Bessere Adapter nutzen.',
-        obdlinkCoverage: 'Allgemeines OBD-II, FORScan-Setups und Mobile/PC-Diagnose.',
-        obdlinkNote: 'Oft sicherer als unbekannte ELM327-Klone.',
-        j2534Coverage: 'Profi-Diagnose und ECU-Reprogrammierung, wenn unterstützt.',
-        oemPortals: 'OEM-Serviceportale',
-        j2534Note: 'Nur mit offizieller Software und stabiler Stromversorgung; Flashfehler können Module beschädigen.',
-        bmwOfficialAccess: 'Offizieller BMW-Zugang',
-        enetNote: 'Übliche BMW-Verbindungen; korrekten Zugang nutzen und riskantes Coding meiden.',
-        legalTitle: 'Nur legale Quellen',
-        legalText: 'Offizielle Websites, lizenzierte Software, App Stores und legitime Anbieter nutzen. Raubkopien, Cracks und Aktivatoren meiden.',
-        adapterTitle: 'Adapter ist wichtig',
-        adapterText: 'Ein schlechter Adapter kann Fehler, fehlende Module oder instabiles Coding verursachen. Adapter zu Software und Fahrzeug passend wählen.',
-        codingTitle: 'Coding- und Flash-Risiko',
-        codingText: 'Fehlercodes lesen ist meist risikoarm. Coding, Anpassungen, Wegfahrsperre und ECU-Flash können Module beschädigen.',
-        disclaimer: 'Nutze offizielle Software und lizenzierte Tools. Vermeide Raubkopien, Cracks und Aktivatoren. Coding, Flashen und Servicefunktionen können Steuergeräte beschädigen, wenn sie falsch genutzt werden.'
-      }
-    };
-
-    let lang = 'en';
+    const searchInput = document.getElementById('softwareSearch');
+    const filterButtons = Array.from(document.querySelectorAll('[data-filter]'));
+    const softwareCards = Array.from(document.querySelectorAll('.software-card'));
+    const softwareCount = document.getElementById('softwareCount');
     let activeFilter = 'all';
-    const searchEl = document.getElementById('search');
-    const rows = Array.from(document.querySelectorAll('#catalogRows tr'));
-    const summaryEl = document.getElementById('summary');
 
-    function t(key) {
-      return translations[lang][key] || translations.en[key] || key;
+    function normalize(value) {
+      return String(value || '').toLowerCase().trim();
     }
 
-    function formatSummary(template, values) {
-      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
-    }
-
-    function rowMatches(row, query) {
-      const typeOk = activeFilter === 'all' || row.dataset.type === activeFilter;
-      const text = `${row.textContent} ${row.dataset.search || ''}`.toLowerCase();
-      return typeOk && (!query || text.includes(query));
-    }
-
-    function render() {
-      const query = searchEl.value.trim().toLowerCase();
+    function applyFilters() {
+      const query = normalize(searchInput.value);
       let visible = 0;
-      rows.forEach((row) => {
-        const show = rowMatches(row, query);
-        row.hidden = !show;
+
+      softwareCards.forEach((card) => {
+        const categories = normalize(card.dataset.category).split(/\s+/);
+        const haystack = normalize(card.dataset.search + ' ' + card.textContent);
+        const matchesCategory = activeFilter === 'all' || categories.includes(activeFilter);
+        const matchesSearch = !query || haystack.includes(query);
+        const show = matchesCategory && matchesSearch;
+
+        card.classList.toggle('is-hidden', !show);
         if (show) visible += 1;
       });
-      if (!query) {
-        summaryEl.textContent = formatSummary(t('summaryAll'), { count: visible });
-      } else if (visible) {
-        summaryEl.textContent = formatSummary(t('summaryFiltered'), { count: visible, query: searchEl.value.trim() });
+
+      if (query || activeFilter !== 'all') {
+        softwareCount.textContent = 'Showing ' + visible + ' of ' + softwareCards.length + ' tools';
       } else {
-        summaryEl.textContent = formatSummary(t('summaryEmpty'), { query: searchEl.value.trim() });
+        softwareCount.textContent = 'Showing all ' + softwareCards.length + ' diagnostic tools';
       }
     }
 
-    function translatePage() {
-      document.documentElement.lang = lang;
-      document.title = `Autohub ${t('title')}`;
-      document.querySelectorAll('[data-i18n]').forEach((node) => {
-        node.textContent = t(node.dataset.i18n);
-      });
-      document.querySelectorAll('[data-lang]').forEach((button) => {
-        button.classList.toggle('selected', button.dataset.lang === lang);
-      });
-      render();
-    }
-
-    document.querySelectorAll('[data-lang]').forEach((button) => {
-      button.addEventListener('click', () => {
-        lang = button.dataset.lang;
-        translatePage();
-      });
-    });
-
-    document.querySelectorAll('[data-filter]').forEach((button) => {
+    filterButtons.forEach((button) => {
       button.addEventListener('click', () => {
         activeFilter = button.dataset.filter;
-        document.querySelectorAll('[data-filter]').forEach((item) => {
-          item.classList.toggle('selected', item.dataset.filter === activeFilter);
-        });
-        render();
+        filterButtons.forEach((item) => item.classList.toggle('active', item === button));
+        applyFilters();
       });
     });
 
-    searchEl.addEventListener('input', render);
-    translatePage();
+    searchInput.addEventListener('input', applyFilters);
+    applyFilters();
   </script>
 </body>
 </html>
