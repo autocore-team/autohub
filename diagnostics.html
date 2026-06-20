@@ -157,6 +157,113 @@
     .panel-body {
       padding: 14px;
     }
+    .finder-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .finder-field {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+    .finder-field span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .finder-field select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 10px;
+      font-size: 14px;
+    }
+    .finder-field select:disabled {
+      background: var(--soft);
+      color: var(--muted);
+    }
+    .finder-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .finder-button {
+      min-height: 40px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      padding: 0 14px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .finder-request {
+      color: var(--accent-dark);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .finder-results {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .finder-results[hidden] {
+      display: none;
+    }
+    .finder-results h3 {
+      margin: 0 0 5px;
+      font-size: 17px;
+    }
+    .finder-result-summary,
+    .finder-verification {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .finder-result-list {
+      margin-top: 10px;
+    }
+    .finder-result {
+      display: grid;
+      grid-template-columns: minmax(150px, 0.7fr) minmax(0, 1.3fr);
+      gap: 14px;
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+    }
+    .finder-result-name {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-weight: 700;
+    }
+    .finder-result-details {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .finder-result-details strong {
+      color: var(--text);
+    }
+    .finder-result-details a {
+      color: var(--accent-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .finder-verification {
+      margin-top: 10px;
+    }
     .quick-links {
       display: flex;
       gap: 8px;
@@ -251,6 +358,9 @@
       .note-grid {
         grid-template-columns: 1fr;
       }
+      .finder-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
       .langbar {
         margin-left: 0;
       }
@@ -266,6 +376,18 @@
       .tabs,
       .tabs button {
         width: 100%;
+      }
+      .finder-grid,
+      .finder-result {
+        grid-template-columns: 1fr;
+      }
+      .finder-actions,
+      .finder-button,
+      .finder-request {
+        width: 100%;
+      }
+      .finder-request {
+        text-align: center;
       }
     }
   </style>
@@ -324,6 +446,54 @@
     <li data-i18n="compatDrivers">Driver compatibility</li>
   </ul>
 </section>
+
+    <section class="panel" id="vehicleFinder" aria-label="Diagnostic software finder">
+      <h2 data-i18n="finderTitle">Find diagnostic tools for your car</h2>
+      <div class="panel-body">
+        <p data-i18n="finderLead">Select the make, model, year and required function to see suitable software and equipment.</p>
+        <div class="finder-grid">
+          <label class="finder-field">
+            <span data-i18n="finderMake">Make</span>
+            <select id="finderMake">
+              <option value="" data-i18n="finderSelectMake">Select make</option>
+            </select>
+          </label>
+          <label class="finder-field">
+            <span data-i18n="finderModel">Model</span>
+            <select id="finderModel" disabled>
+              <option value="" data-i18n="finderSelectModel">Select model</option>
+            </select>
+          </label>
+          <label class="finder-field">
+            <span data-i18n="finderYear">Year</span>
+            <select id="finderYear" disabled>
+              <option value="" data-i18n="finderSelectYear">Select year</option>
+            </select>
+          </label>
+          <label class="finder-field">
+            <span data-i18n="finderTask">Needed function</span>
+            <select id="finderTask">
+              <option value="any" data-i18n="finderTaskAny">All functions</option>
+              <option value="codes" data-i18n="finderTaskCodes">Read fault codes</option>
+              <option value="live" data-i18n="finderTaskLive">Live data</option>
+              <option value="service" data-i18n="finderTaskService">Service functions</option>
+              <option value="coding" data-i18n="finderTaskCoding">Coding</option>
+              <option value="flashing" data-i18n="finderTaskFlashing">ECU flashing</option>
+            </select>
+          </label>
+        </div>
+        <div class="finder-actions">
+          <button type="button" class="finder-button" id="finderButton" data-i18n="finderButton">Find tools</button>
+          <a class="finder-request" id="finderRequest" href="contact.html" data-i18n="finderRequest">Can't find your vehicle? Send a request</a>
+        </div>
+        <div class="finder-results" id="finderResults" hidden>
+          <h3 data-i18n="finderResultsTitle">Recommended options</h3>
+          <p class="finder-result-summary" id="finderResultSummary"></p>
+          <div class="finder-result-list" id="finderResultList"></div>
+          <p class="finder-verification" data-i18n="finderVerification">Always verify the exact vehicle, market, protocol and adapter compatibility before use.</p>
+        </div>
+      </div>
+    </section>
 
     <section class="panel" aria-label="Choose diagnostic software by vehicle brand">
       <h2 data-i18n="vehicleBrandTitle">Choose by vehicle brand</h2>
@@ -672,6 +842,7 @@
     <div class="disclaimer" data-i18n="disclaimer">Use official software and licensed tools. Avoid pirated builds, cracks and activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.</div>
   </main>
 
+  <script src="diagnostics-data.js"></script>
   <script>
     const translations = {
       en: {
@@ -763,6 +934,31 @@ compatDrivers: 'Driver compatibility',
 vehicleBrandTitle: 'Choose by vehicle brand',
 vehicleBrandLead: 'Select a brand to show matching diagnostic software and equipment.',
 vehicleAll: 'All brands',
+finderTitle: 'Find diagnostic tools for your car',
+finderLead: 'Select the make, model, year and required function to see suitable software and equipment.',
+finderMake: 'Make',
+finderModel: 'Model',
+finderYear: 'Year',
+finderTask: 'Needed function',
+finderSelectMake: 'Select make',
+finderSelectModel: 'Select model',
+finderSelectYear: 'Select year',
+finderTaskAny: 'All functions',
+finderTaskCodes: 'Read fault codes',
+finderTaskLive: 'Live data',
+finderTaskService: 'Service functions',
+finderTaskCoding: 'Coding',
+finderTaskFlashing: 'ECU flashing',
+finderButton: 'Find tools',
+finderRequest: 'Can\'t find your vehicle? Send a request',
+finderResultsTitle: 'Recommended options',
+finderResultSummary: '{make} {model}, {year}: {count} matching tools.',
+finderNoResults: 'No exact result was found for these parameters.',
+finderVerification: 'Always verify the exact vehicle, market, protocol and adapter compatibility before use.',
+levelRecommended: 'Recommended',
+levelAlternative: 'Alternative',
+levelCommunity: 'Community tool',
+levelBasic: 'Basic OBD2',
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
@@ -853,6 +1049,31 @@ compatDrivers: 'Compatibilidad de controladores',
 vehicleBrandTitle: 'Elegir por marca del vehículo',
 vehicleBrandLead: 'Selecciona una marca para mostrar software y equipos de diagnóstico compatibles.',
 vehicleAll: 'Todas las marcas',
+finderTitle: 'Encontrar herramientas de diagnóstico para tu coche',
+finderLead: 'Selecciona marca, modelo, año y función para ver software y equipos adecuados.',
+finderMake: 'Marca',
+finderModel: 'Modelo',
+finderYear: 'Año',
+finderTask: 'Función necesaria',
+finderSelectMake: 'Selecciona una marca',
+finderSelectModel: 'Selecciona un modelo',
+finderSelectYear: 'Selecciona un año',
+finderTaskAny: 'Todas las funciones',
+finderTaskCodes: 'Leer códigos de avería',
+finderTaskLive: 'Datos en vivo',
+finderTaskService: 'Funciones de servicio',
+finderTaskCoding: 'Codificación',
+finderTaskFlashing: 'Flasheo de ECU',
+finderButton: 'Buscar herramientas',
+finderRequest: '¿No encuentras tu vehículo? Envía una solicitud',
+finderResultsTitle: 'Opciones recomendadas',
+finderResultSummary: '{make} {model}, {year}: {count} herramientas compatibles.',
+finderNoResults: 'No se encontró un resultado exacto para estos parámetros.',
+finderVerification: 'Verifica siempre el vehículo exacto, mercado, protocolo y compatibilidad del adaptador.',
+levelRecommended: 'Recomendado',
+levelAlternative: 'Alternativa',
+levelCommunity: 'Herramienta comunitaria',
+levelBasic: 'OBD2 básico',
      },
       fr: {
         tireCalculator: 'Calculateur de pneus',
@@ -943,6 +1164,31 @@ compatDrivers: 'Compatibilité des pilotes',
 vehicleBrandTitle: 'Choisir par marque du véhicule',
 vehicleBrandLead: 'Sélectionnez une marque pour afficher les logiciels et équipements de diagnostic correspondants.',
 vehicleAll: 'Toutes les marques',
+finderTitle: 'Trouver les outils de diagnostic pour votre voiture',
+finderLead: 'Sélectionnez la marque, le modèle, l’année et la fonction pour afficher les logiciels et équipements adaptés.',
+finderMake: 'Marque',
+finderModel: 'Modèle',
+finderYear: 'Année',
+finderTask: 'Fonction nécessaire',
+finderSelectMake: 'Sélectionnez une marque',
+finderSelectModel: 'Sélectionnez un modèle',
+finderSelectYear: 'Sélectionnez une année',
+finderTaskAny: 'Toutes les fonctions',
+finderTaskCodes: 'Lire les codes défaut',
+finderTaskLive: 'Données en direct',
+finderTaskService: 'Fonctions de service',
+finderTaskCoding: 'Codage',
+finderTaskFlashing: 'Flash ECU',
+finderButton: 'Trouver les outils',
+finderRequest: 'Vous ne trouvez pas votre véhicule ? Envoyez une demande',
+finderResultsTitle: 'Options recommandées',
+finderResultSummary: '{make} {model}, {year} : {count} outils correspondants.',
+finderNoResults: 'Aucun résultat exact pour ces paramètres.',
+finderVerification: 'Vérifiez toujours le véhicule exact, le marché, le protocole et la compatibilité de l’adaptateur.',
+levelRecommended: 'Recommandé',
+levelAlternative: 'Alternative',
+levelCommunity: 'Outil communautaire',
+levelBasic: 'OBD2 basique',
      },
       de: {
         tireCalculator: 'Reifenrechner',
@@ -1033,14 +1279,50 @@ compatDrivers: 'Treiberkompatibilität',
 vehicleBrandTitle: 'Nach Fahrzeugmarke auswählen',
 vehicleBrandLead: 'Wählen Sie eine Marke, um passende Diagnosesoftware und Geräte anzuzeigen.',
 vehicleAll: 'Alle Marken',
+finderTitle: 'Diagnosewerkzeuge für Ihr Fahrzeug finden',
+finderLead: 'Wählen Sie Marke, Modell, Baujahr und Funktion, um passende Software und Geräte anzuzeigen.',
+finderMake: 'Marke',
+finderModel: 'Modell',
+finderYear: 'Baujahr',
+finderTask: 'Benötigte Funktion',
+finderSelectMake: 'Marke auswählen',
+finderSelectModel: 'Modell auswählen',
+finderSelectYear: 'Baujahr auswählen',
+finderTaskAny: 'Alle Funktionen',
+finderTaskCodes: 'Fehlercodes lesen',
+finderTaskLive: 'Live-Daten',
+finderTaskService: 'Servicefunktionen',
+finderTaskCoding: 'Codierung',
+finderTaskFlashing: 'ECU-Flash',
+finderButton: 'Werkzeuge finden',
+finderRequest: 'Fahrzeug nicht gefunden? Anfrage senden',
+finderResultsTitle: 'Empfohlene Optionen',
+finderResultSummary: '{make} {model}, {year}: {count} passende Werkzeuge.',
+finderNoResults: 'Für diese Angaben wurde kein genauer Treffer gefunden.',
+finderVerification: 'Prüfen Sie vor der Nutzung immer Fahrzeug, Markt, Protokoll und Adapter-Kompatibilität.',
+levelRecommended: 'Empfohlen',
+levelAlternative: 'Alternative',
+levelCommunity: 'Community-Werkzeug',
+levelBasic: 'Basis-OBD2',
        }
     };
 
-    let lang = 'en';
+    const initialUrl = new URL(window.location.href);
+    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
     let activeFilter = 'all';
     const searchEl = document.getElementById('search');
     const rows = Array.from(document.querySelectorAll('#catalogRows tr'));
     const summaryEl = document.getElementById('summary');
+    const diagnosticsData = window.AUTOHUB_DIAGNOSTICS_DATA || { profiles: {}, vehicles: [] };
+    const finderMake = document.getElementById('finderMake');
+    const finderModel = document.getElementById('finderModel');
+    const finderYear = document.getElementById('finderYear');
+    const finderTask = document.getElementById('finderTask');
+    const finderButton = document.getElementById('finderButton');
+    const finderRequest = document.getElementById('finderRequest');
+    const finderResults = document.getElementById('finderResults');
+    const finderResultSummary = document.getElementById('finderResultSummary');
+    const finderResultList = document.getElementById('finderResultList');
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
@@ -1073,6 +1355,180 @@ vehicleAll: 'Alle Marken',
       }
     }
 
+    function escapeHtml(value) {
+      return String(value || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function uniqueSorted(values) {
+      return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b));
+    }
+
+    function clearSelect(select) {
+      while (select.options.length > 1) select.remove(1);
+    }
+
+    function addOptions(select, values) {
+      values.forEach((value) => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function populateMakes(selectedValue = '') {
+      clearSelect(finderMake);
+      addOptions(finderMake, uniqueSorted(diagnosticsData.vehicles.map((vehicle) => vehicle.make)));
+      finderMake.value = selectedValue;
+    }
+
+    function populateModels(selectedValue = '') {
+      clearSelect(finderModel);
+      clearSelect(finderYear);
+      finderYear.disabled = true;
+      const models = uniqueSorted(
+        diagnosticsData.vehicles
+          .filter((vehicle) => vehicle.make === finderMake.value)
+          .map((vehicle) => vehicle.model)
+      );
+      addOptions(finderModel, models);
+      finderModel.disabled = !models.length;
+      finderModel.value = models.includes(selectedValue) ? selectedValue : '';
+    }
+
+    function populateYears(selectedValue = '') {
+      clearSelect(finderYear);
+      const records = diagnosticsData.vehicles.filter((vehicle) => (
+        vehicle.make === finderMake.value && vehicle.model === finderModel.value
+      ));
+      if (!records.length) {
+        finderYear.disabled = true;
+        return;
+      }
+      const firstYear = Math.min(...records.map((record) => record.from));
+      const lastYear = Math.max(...records.map((record) => record.to));
+      const years = [];
+      for (let year = lastYear; year >= firstYear; year -= 1) years.push(String(year));
+      addOptions(finderYear, years);
+      finderYear.disabled = false;
+      finderYear.value = years.includes(String(selectedValue)) ? String(selectedValue) : '';
+    }
+
+    function updateRequestLink() {
+      const params = new URLSearchParams({ lang });
+      if (finderMake.value) params.set('make', finderMake.value);
+      if (finderModel.value) params.set('model', finderModel.value);
+      if (finderYear.value) params.set('year', finderYear.value);
+      finderRequest.href = `contact.html?${params.toString()}`;
+    }
+
+    function levelLabel(level) {
+      const keys = {
+        recommended: 'levelRecommended',
+        alternative: 'levelAlternative',
+        community: 'levelCommunity',
+        basic: 'levelBasic'
+      };
+      return t(keys[level] || 'levelAlternative');
+    }
+
+    function programDetails(program) {
+      const row = document.getElementById(program.id);
+      if (!row) return null;
+      const cells = row.querySelectorAll('td');
+      const sourceLink = cells[4] ? cells[4].querySelector('a') : null;
+      return {
+        name: cells[1] ? cells[1].textContent.trim() : program.id,
+        coverage: cells[2] ? cells[2].textContent.trim() : '',
+        adapter: cells[3] ? cells[3].textContent.trim() : '',
+        note: cells[5] ? cells[5].textContent.trim() : '',
+        sourceHref: sourceLink ? sourceLink.href : '',
+        sourceText: sourceLink ? sourceLink.textContent.trim() : (cells[4] ? cells[4].textContent.trim() : '')
+      };
+    }
+
+    function renderFinderResults(updateUrl = true) {
+      const make = finderMake.value;
+      const model = finderModel.value;
+      const year = Number(finderYear.value);
+      const task = finderTask.value;
+      updateRequestLink();
+
+      if (!make || !model || !year) {
+        finderResults.hidden = true;
+        return;
+      }
+
+      const vehicle = diagnosticsData.vehicles.find((record) => (
+        record.make === make && record.model === model && year >= record.from && year <= record.to
+      ));
+      const profile = vehicle ? (diagnosticsData.profiles[vehicle.profile] || []) : [];
+      const matches = profile.filter((program) => task === 'any' || program.tasks.includes(task));
+
+      finderResultSummary.textContent = formatSummary(t('finderResultSummary'), {
+        make,
+        model,
+        year,
+        count: matches.length
+      });
+
+      const details = matches.map((program) => ({ program, details: programDetails(program) }))
+        .filter((item) => item.details);
+
+      if (!details.length) {
+        finderResultList.innerHTML = `<p class="finder-result-summary">${escapeHtml(t('finderNoResults'))}</p>`;
+      } else {
+        finderResultList.innerHTML = details.map(({ program, details: item }) => {
+          const source = item.sourceHref
+            ? `<a href="${escapeHtml(item.sourceHref)}" rel="noopener">${escapeHtml(item.sourceText || t('officialSource'))}</a>`
+            : escapeHtml(item.sourceText);
+          return `
+            <div class="finder-result">
+              <div class="finder-result-name">
+                <span class="tag">${escapeHtml(levelLabel(program.level))}</span>
+                <span>${escapeHtml(item.name)}</span>
+              </div>
+              <div class="finder-result-details">
+                <div><strong>${escapeHtml(t('coverage'))}:</strong> ${escapeHtml(item.coverage)}</div>
+                <div><strong>${escapeHtml(t('adapter'))}:</strong> ${escapeHtml(item.adapter)}</div>
+                <div><strong>${escapeHtml(t('notes'))}:</strong> ${escapeHtml(item.note)}</div>
+                <div><strong>${escapeHtml(t('officialSource'))}:</strong> ${source}</div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      finderResults.hidden = false;
+
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('make', make);
+        url.searchParams.set('model', model);
+        url.searchParams.set('year', String(year));
+        url.searchParams.set('task', task);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+      }
+    }
+
+    function initializeFinder() {
+      populateMakes(initialUrl.searchParams.get('make') || '');
+      populateModels(initialUrl.searchParams.get('model') || '');
+      populateYears(initialUrl.searchParams.get('year') || '');
+      const requestedTask = initialUrl.searchParams.get('task');
+      if (requestedTask && Array.from(finderTask.options).some((option) => option.value === requestedTask)) {
+        finderTask.value = requestedTask;
+      }
+      updateRequestLink();
+      if (finderMake.value && finderModel.value && finderYear.value) renderFinderResults(false);
+    }
+
     function translatePage() {
       document.documentElement.lang = lang;
       document.title = `Autohub ${t('title')}`;
@@ -1083,14 +1539,35 @@ vehicleAll: 'Alle Marken',
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
       render();
+      updateRequestLink();
+      if (!finderResults.hidden) renderFinderResults(false);
     }
 
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.addEventListener('click', () => {
         lang = button.dataset.lang;
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
         translatePage();
       });
     });
+
+    finderMake.addEventListener('change', () => {
+      populateModels();
+      finderResults.hidden = true;
+      updateRequestLink();
+    });
+
+    finderModel.addEventListener('change', () => {
+      populateYears();
+      finderResults.hidden = true;
+      updateRequestLink();
+    });
+
+    finderYear.addEventListener('change', updateRequestLink);
+    finderTask.addEventListener('change', updateRequestLink);
+    finderButton.addEventListener('click', () => renderFinderResults(true));
 
     document.querySelectorAll('[data-filter]').forEach((button) => {
       button.addEventListener('click', () => {
@@ -1116,6 +1593,7 @@ vehicleAll: 'Alle Marken',
     });
 
     searchEl.addEventListener('input', render);
+    initializeFinder();
     translatePage();
   </script>
 </body>
