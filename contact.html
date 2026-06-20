@@ -1,173 +1,355 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact AutoHub | Suggestions, Corrections and Broken Links</title>
-  <meta name="description" content="Contact AutoHub to report broken links, suggest diagnostic software, correct vehicle data, or send cooperation requests." />
-
+  <meta name="description" content="Contact AutoHub to report broken links, suggest diagnostic software, correct vehicle data or send cooperation requests.">
   <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+    }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
+      background: var(--bg);
+      color: var(--text);
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      color: #1f2937;
-      line-height: 1.6;
     }
-
-    header {
+    .topbar {
       background: #111827;
-      color: white;
-      padding: 28px 18px;
-      text-align: center;
+      color: #fff;
+      border-bottom: 1px solid #263244;
     }
-
-    header h1 {
-      margin: 0 0 8px;
-      font-size: 2rem;
-    }
-
-    header p {
-      margin: 0;
-      color: #d1d5db;
-    }
-
-    nav {
-      background: #1f2937;
-      padding: 12px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-      font-weight: 600;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 28px auto;
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
       padding: 0 18px;
+      overflow-x: auto;
     }
-
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
     }
-
-    h2 {
-      margin-top: 0;
-      color: #111827;
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
     }
-
-    .email-box {
-      background: #eef2ff;
-      border-left: 4px solid #4f46e5;
-      padding: 16px;
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 820px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
       border-radius: 8px;
-      margin-top: 16px;
+      min-width: 0;
+    }
+    .panel.wide {
+      grid-column: 1 / -1;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+    .panel-body p:first-child { margin-top: 0; }
+    .panel-body p:last-child { margin-bottom: 0; }
+    .panel-body ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .panel-body li + li { margin-top: 7px; }
+    .email-box {
+      margin-top: 14px;
+      padding: 12px;
+      border: 1px solid #99f6e4;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: #ecfdf5;
+      color: var(--text);
       word-break: break-word;
     }
-
+    .email-box a {
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
     .note {
-      font-size: 0.95rem;
-      color: #4b5563;
+      color: var(--muted);
+      font-size: 13px;
     }
-
     footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 22px 18px;
       text-align: center;
-      color: #6b7280;
-      padding: 28px 18px;
-      font-size: 0.9rem;
+      font-size: 13px;
     }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.6rem;
-      }
-
-      nav a {
-        display: inline-block;
-        margin: 6px 8px;
-      }
-
-      .card {
-        padding: 18px;
-      }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .panel.wide { grid-column: auto; }
+      .langbar { margin-left: 0; }
     }
   </style>
-
 </head>
-
 <body>
-  <header>
-    <h1>Contact AutoHub</h1>
-    <p>Suggestions, corrections, broken links and cooperation requests</p>
+  <header class="topbar">
+    <nav class="nav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
+      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="guides.html" data-i18n="guides">Guides</a>
+      <a href="contact.html" class="active" data-i18n="navContact">Contact</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
   </header>
 
-  <nav>
-    <a href="index.html">Tire Calculator</a>
-    <a href="fuel.html">Fuel Calculator</a>
-    <a href="diagnostics.html">Diagnostics</a>
-    <a href="engines.html">Engines</a>
-  </nav>
-
   <main>
-    <section class="card">
-      <h2>Get in touch</h2>
-      <p>
-        AutoHub is a growing automotive project. If you found incorrect data,
-        a broken diagnostic software link, or want to suggest a useful tool,
-        you can contact us by email.
-      </p>
+    <h1 data-i18n="title">Contact AutoHub</h1>
+    <p class="lead" data-i18n="lead">Suggestions, corrections, broken links and cooperation requests.</p>
 
-```
-  <div class="email-box">
-    <strong>Email:</strong>
-    <a href="mailto:autocore.team@gmail.com">autocore.team@gmail.com</a>
-  </div>
+    <section class="grid">
+      <article class="panel">
+        <h2 data-i18n="getInTouchTitle">Get in touch</h2>
+        <div class="panel-body">
+          <p data-i18n="getInTouchText">AutoHub is a growing automotive project. Contact us if you find incorrect data, a broken diagnostic software link or want to suggest a useful tool.</p>
+          <div class="email-box">
+            <strong data-i18n="emailLabel">Email:</strong>
+            <a href="mailto:autocore.team@gmail.com">autocore.team@gmail.com</a>
+          </div>
+          <p class="note" data-i18n="emailNote">Please include the page URL and relevant vehicle model or year when reporting a problem.</p>
+        </div>
+      </article>
 
-  <p class="note">
-    You can replace this email later with a project domain address such as
-    contact@your-domain.com.
-  </p>
-</section>
+      <article class="panel">
+        <h2 data-i18n="sendTitle">What you can send</h2>
+        <div class="panel-body">
+          <ul>
+            <li data-i18n="sendBroken">Report a broken link.</li>
+            <li data-i18n="sendSoftware">Suggest diagnostic software or tools.</li>
+            <li data-i18n="sendCorrection">Send corrections for vehicle, tire, wheel or engine data.</li>
+            <li data-i18n="sendFeature">Suggest new features for AutoHub.</li>
+            <li data-i18n="sendPartnership">Contact us about cooperation or partnerships.</li>
+          </ul>
+        </div>
+      </article>
 
-<section class="card">
-  <h2>What you can send</h2>
-  <ul>
-    <li>Report a broken link.</li>
-    <li>Suggest diagnostic software or tools.</li>
-    <li>Send corrections for vehicle, tire, wheel or engine data.</li>
-    <li>Suggest new features for AutoHub.</li>
-    <li>Contact us about cooperation or partnerships.</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>Important note</h2>
-  <p>
-    AutoHub provides automotive calculators, guides and reference information.
-    Always verify technical data with your vehicle manual, official manufacturer
-    documentation, or a qualified mechanic before buying parts or performing repairs.
-  </p>
-</section>
-```
-
+      <article class="panel wide">
+        <h2 data-i18n="importantTitle">Important note</h2>
+        <div class="panel-body">
+          <p data-i18n="importantText">AutoHub provides automotive calculators, guides and reference information. Always verify technical data with your vehicle manual, official manufacturer documentation or a qualified mechanic before buying parts or performing repairs.</p>
+        </div>
+      </article>
+    </section>
   </main>
 
-  <footer>
-    © 2026 AutoHub. Practical automotive tools and guides.
-  </footer>
+  <footer data-i18n="footerText">© 2026 AutoHub. Practical automotive tools and guides.</footer>
+
+  <script>
+    const translations = {
+      en: {
+        tireCalculator: 'Tire Calculator',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Cost Calculator',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        guides: 'Guides',
+        navContact: 'Contact',
+        title: 'Contact AutoHub',
+        lead: 'Suggestions, corrections, broken links and cooperation requests.',
+        getInTouchTitle: 'Get in touch',
+        getInTouchText: 'AutoHub is a growing automotive project. Contact us if you find incorrect data, a broken diagnostic software link or want to suggest a useful tool.',
+        emailLabel: 'Email:',
+        emailNote: 'Please include the page URL and relevant vehicle model or year when reporting a problem.',
+        sendTitle: 'What you can send',
+        sendBroken: 'Report a broken link.',
+        sendSoftware: 'Suggest diagnostic software or tools.',
+        sendCorrection: 'Send corrections for vehicle, tire, wheel or engine data.',
+        sendFeature: 'Suggest new features for AutoHub.',
+        sendPartnership: 'Contact us about cooperation or partnerships.',
+        importantTitle: 'Important note',
+        importantText: 'AutoHub provides automotive calculators, guides and reference information. Always verify technical data with your vehicle manual, official manufacturer documentation or a qualified mechanic before buying parts or performing repairs.',
+        footerText: '© 2026 AutoHub. Practical automotive tools and guides.'
+      },
+      es: {
+        tireCalculator: 'Calculadora de neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Calculadora de coste de combustible',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        guides: 'Guías',
+        navContact: 'Contacto',
+        title: 'Contactar con AutoHub',
+        lead: 'Sugerencias, correcciones, enlaces rotos y propuestas de colaboración.',
+        getInTouchTitle: 'Ponte en contacto',
+        getInTouchText: 'AutoHub es un proyecto automovilístico en crecimiento. Escríbenos si encuentras datos incorrectos, un enlace de diagnóstico roto o quieres sugerir una herramienta útil.',
+        emailLabel: 'Correo:',
+        emailNote: 'Incluye la URL de la página y el modelo o año del vehículo al informar de un problema.',
+        sendTitle: 'Qué puedes enviar',
+        sendBroken: 'Informar de un enlace roto.',
+        sendSoftware: 'Sugerir software o herramientas de diagnóstico.',
+        sendCorrection: 'Enviar correcciones de datos de vehículos, neumáticos, llantas o motores.',
+        sendFeature: 'Sugerir nuevas funciones para AutoHub.',
+        sendPartnership: 'Contactar sobre cooperación o colaboraciones.',
+        importantTitle: 'Nota importante',
+        importantText: 'AutoHub ofrece calculadoras, guías e información de referencia. Verifica siempre los datos técnicos con el manual del vehículo, la documentación oficial del fabricante o un mecánico cualificado antes de comprar piezas o realizar reparaciones.',
+        footerText: '© 2026 AutoHub. Herramientas y guías prácticas para automóviles.'
+      },
+      fr: {
+        tireCalculator: 'Calculateur de pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Calculateur de coût carburant',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        guides: 'Guides',
+        navContact: 'Contact',
+        title: 'Contacter AutoHub',
+        lead: 'Suggestions, corrections, liens cassés et demandes de coopération.',
+        getInTouchTitle: 'Nous contacter',
+        getInTouchText: 'AutoHub est un projet automobile en développement. Contactez-nous si vous trouvez une donnée incorrecte, un lien de diagnostic cassé ou souhaitez proposer un outil utile.',
+        emailLabel: 'E-mail :',
+        emailNote: 'Indiquez l’URL de la page ainsi que le modèle ou l’année du véhicule lors du signalement.',
+        sendTitle: 'Ce que vous pouvez envoyer',
+        sendBroken: 'Signaler un lien cassé.',
+        sendSoftware: 'Proposer un logiciel ou un outil de diagnostic.',
+        sendCorrection: 'Envoyer des corrections concernant les véhicules, pneus, jantes ou moteurs.',
+        sendFeature: 'Proposer de nouvelles fonctions pour AutoHub.',
+        sendPartnership: 'Nous contacter pour une coopération ou un partenariat.',
+        importantTitle: 'Remarque importante',
+        importantText: 'AutoHub fournit des calculateurs, des guides et des informations de référence. Vérifiez toujours les données techniques dans le manuel du véhicule, la documentation officielle du constructeur ou auprès d’un mécanicien qualifié avant tout achat ou réparation.',
+        footerText: '© 2026 AutoHub. Outils et guides automobiles pratiques.'
+      },
+      de: {
+        tireCalculator: 'Reifenrechner',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Kraftstoffkosten-Rechner',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        guides: 'Ratgeber',
+        navContact: 'Kontakt',
+        title: 'AutoHub kontaktieren',
+        lead: 'Vorschläge, Korrekturen, defekte Links und Kooperationsanfragen.',
+        getInTouchTitle: 'Kontakt aufnehmen',
+        getInTouchText: 'AutoHub ist ein wachsendes Automobilprojekt. Schreiben Sie uns bei falschen Daten, einem defekten Diagnose-Link oder einem Vorschlag für ein nützliches Werkzeug.',
+        emailLabel: 'E-Mail:',
+        emailNote: 'Bitte geben Sie bei einer Meldung die Seiten-URL sowie Fahrzeugmodell oder Baujahr an.',
+        sendTitle: 'Was Sie senden können',
+        sendBroken: 'Einen defekten Link melden.',
+        sendSoftware: 'Diagnosesoftware oder Werkzeuge vorschlagen.',
+        sendCorrection: 'Korrekturen zu Fahrzeug-, Reifen-, Felgen- oder Motordaten senden.',
+        sendFeature: 'Neue Funktionen für AutoHub vorschlagen.',
+        sendPartnership: 'Kontakt zu Kooperationen oder Partnerschaften aufnehmen.',
+        importantTitle: 'Wichtiger Hinweis',
+        importantText: 'AutoHub bietet Fahrzeugrechner, Ratgeber und Referenzinformationen. Prüfen Sie technische Daten vor dem Kauf von Teilen oder Reparaturen immer im Fahrzeughandbuch, in offiziellen Herstellerunterlagen oder bei einer qualifizierten Werkstatt.',
+        footerText: '© 2026 AutoHub. Praktische Fahrzeugwerkzeuge und Ratgeber.'
+      }
+    };
+
+    const url = new URL(window.location.href);
+    let lang = translations[url.searchParams.get('lang')] ? url.searchParams.get('lang') : 'en';
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = t('title') + ' | AutoHub';
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+        translatePage();
+      });
+    });
+
+    translatePage();
+  </script>
 </body>
 </html>
