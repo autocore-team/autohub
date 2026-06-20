@@ -324,6 +324,25 @@
     <li data-i18n="compatDrivers">Driver compatibility</li>
   </ul>
 </section>
+
+    <section class="panel" aria-label="Choose diagnostic software by vehicle brand">
+      <h2 data-i18n="vehicleBrandTitle">Choose by vehicle brand</h2>
+      <div class="panel-body">
+        <p data-i18n="vehicleBrandLead">Select a brand to show matching diagnostic software and equipment.</p>
+        <div class="quick-links">
+          <a href="#catalogRows" data-brand-query="" data-i18n="vehicleAll">All brands</a>
+          <a href="#catalogRows" data-brand-query="ford mazda">Ford / Mazda</a>
+          <a href="#catalogRows" data-brand-query="vag">VAG</a>
+          <a href="#catalogRows" data-brand-query="volvo">Volvo</a>
+          <a href="#catalogRows" data-brand-query="bmw">BMW</a>
+          <a href="#catalogRows" data-brand-query="opel">Opel</a>
+          <a href="#catalogRows" data-brand-query="toyota">Toyota</a>
+          <a href="#catalogRows" data-brand-query="renault dacia">Renault / Dacia</a>
+          <a href="#catalogRows" data-brand-query="fiat">Fiat / FCA</a>
+        </div>
+      </div>
+    </section>
+
     <div class="toolbar">
       <input id="search" type="search" placeholder="Search: FORScan, VCDS, Techstream, ELM327, J2534">
       <div class="tabs" aria-label="Diagnostics filters">
@@ -741,6 +760,9 @@ compatProtocol: 'Diagnostic protocol',
 compatCable: 'Cable type',
 compatWindows: 'Windows version',
 compatDrivers: 'Driver compatibility',
+vehicleBrandTitle: 'Choose by vehicle brand',
+vehicleBrandLead: 'Select a brand to show matching diagnostic software and equipment.',
+vehicleAll: 'All brands',
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
@@ -828,6 +850,9 @@ compatProtocol: 'Protocolo de diagnóstico',
 compatCable: 'Tipo de cable',
 compatWindows: 'Versión de Windows',
 compatDrivers: 'Compatibilidad de controladores',
+vehicleBrandTitle: 'Elegir por marca del vehículo',
+vehicleBrandLead: 'Selecciona una marca para mostrar software y equipos de diagnóstico compatibles.',
+vehicleAll: 'Todas las marcas',
      },
       fr: {
         tireCalculator: 'Calculateur de pneus',
@@ -915,6 +940,9 @@ compatProtocol: 'Protocole de diagnostic',
 compatCable: 'Type de câble',
 compatWindows: 'Version de Windows',
 compatDrivers: 'Compatibilité des pilotes',
+vehicleBrandTitle: 'Choisir par marque du véhicule',
+vehicleBrandLead: 'Sélectionnez une marque pour afficher les logiciels et équipements de diagnostic correspondants.',
+vehicleAll: 'Toutes les marques',
      },
       de: {
         tireCalculator: 'Reifenrechner',
@@ -1002,6 +1030,9 @@ compatProtocol: 'Diagnoseprotokoll',
 compatCable: 'Kabeltyp',
 compatWindows: 'Windows-Version',
 compatDrivers: 'Treiberkompatibilität',
+vehicleBrandTitle: 'Nach Fahrzeugmarke auswählen',
+vehicleBrandLead: 'Wählen Sie eine Marke, um passende Diagnosesoftware und Geräte anzuzeigen.',
+vehicleAll: 'Alle Marken',
        }
     };
 
@@ -1068,6 +1099,19 @@ compatDrivers: 'Treiberkompatibilität',
           item.classList.toggle('selected', item.dataset.filter === activeFilter);
         });
         render();
+      });
+    });
+
+    document.querySelectorAll('[data-brand-query]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        searchEl.value = link.dataset.brandQuery;
+        activeFilter = 'all';
+        document.querySelectorAll('[data-filter]').forEach((item) => {
+          item.classList.toggle('selected', item.dataset.filter === 'all');
+        });
+        render();
+        document.getElementById('catalogRows').scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
 
