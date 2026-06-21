@@ -383,9 +383,146 @@
       line-height: 1.5;
       font-size: 14px;
     }
+    .visual-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .visual-heading h2 {
+      margin: 0 0 6px;
+      padding: 0;
+      border: 0;
+      font-size: 16px;
+    }
+    .visual-heading p {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .visual-verdict {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      max-width: 100%;
+      border: 1px solid #86efac;
+      border-radius: 999px;
+      background: #f0fdf4;
+      color: #166534;
+      padding: 4px 11px;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .visual-verdict.manual {
+      border-color: #93c5fd;
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+    .visual-verdict.caution {
+      border-color: #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+    }
+    .visual-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0;
+    }
+    .visual-figure {
+      min-width: 0;
+      margin: 0;
+      padding: 14px;
+    }
+    .visual-figure + .visual-figure {
+      border-left: 1px solid var(--line);
+    }
+    .visual-figure figcaption {
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .visual-svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 12 / 5;
+      min-height: 220px;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+    .visual-svg text {
+      font-family: Arial, sans-serif;
+      letter-spacing: 0;
+    }
+    .visual-position-metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .visual-position-metrics div {
+      min-width: 0;
+      padding-top: 9px;
+      border-top: 1px solid var(--line);
+    }
+    .visual-position-metrics span,
+    .visual-position-metrics strong {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+    .visual-position-metrics span {
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .visual-position-metrics strong {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .visual-legend {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      padding: 0 14px 14px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .visual-legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .visual-swatch {
+      width: 18px;
+      height: 4px;
+      border-radius: 2px;
+      background: #64748b;
+    }
+    .visual-swatch.new {
+      background: var(--accent);
+    }
+    .visual-note {
+      margin: 0 14px 14px;
+      padding: 10px 12px;
+      border-left: 4px solid var(--accent);
+      background: var(--soft);
+      color: #334155;
+      font-size: 13px;
+      line-height: 1.5;
+    }
     @media (max-width: 980px) {
       .layout,
-      .info {
+      .info,
+      .visual-grid {
         grid-template-columns: 1fr;
       }
       .form-grid {
@@ -397,6 +534,10 @@
       .marking-intro {
         grid-template-columns: 1fr;
       }
+      .visual-figure + .visual-figure {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
       .langbar {
         margin-left: 0;
       }
@@ -407,6 +548,12 @@
       }
       h1 {
         font-size: 26px;
+      }
+      .visual-position-metrics {
+        grid-template-columns: 1fr;
+      }
+      .visual-svg {
+        min-height: 190px;
       }
     }
   </style>
@@ -523,6 +670,42 @@
       </div>
     </section>
 
+    <section class="panel visual-comparison" aria-labelledby="visualTitle">
+      <div class="visual-heading">
+        <div>
+          <h2 id="visualTitle" data-i18n="visualTitle">Visual tire and wheel comparison</h2>
+          <p data-i18n="visualLead">Compare overall diameter and wheel position. The drawing is scaled to the selected values.</p>
+        </div>
+        <span class="visual-verdict" id="visualVerdict">Normal</span>
+      </div>
+      <div class="visual-grid">
+        <figure class="visual-figure">
+          <figcaption id="sideViewTitle" data-i18n="sideViewTitle">Side view: tire and rim diameter</figcaption>
+          <svg class="visual-svg" id="sideViewSvg" viewBox="0 0 720 300" role="img" aria-labelledby="sideViewTitle"></svg>
+        </figure>
+        <figure class="visual-figure">
+          <figcaption id="positionViewTitle" data-i18n="positionViewTitle">Wheel position: rim width and offset</figcaption>
+          <svg class="visual-svg" id="positionViewSvg" viewBox="0 0 720 300" role="img" aria-labelledby="positionViewTitle"></svg>
+          <div class="visual-position-metrics">
+            <div>
+              <span data-i18n="innerEdgeChange">Inner edge change</span>
+              <strong id="visualInnerMetric">12.7 mm closer to suspension</strong>
+            </div>
+            <div>
+              <span data-i18n="outerEdgeChange">Outer edge change</span>
+              <strong id="visualOuterMetric">12.7 mm further outward</strong>
+            </div>
+          </div>
+        </figure>
+      </div>
+      <div class="visual-legend" aria-label="Comparison legend">
+        <span><i class="visual-swatch"></i><span data-i18n="original">Original</span></span>
+        <span><i class="visual-swatch new"></i><span data-i18n="new">New</span></span>
+      </div>
+      <p class="visual-note" id="visualVerdictText" data-i18n="verdictNormalText">Diameter and wheel position changes are small reference values.</p>
+      <p class="visual-note" data-i18n="visualDisclaimer">The diagram is a comparison, not a fitment guarantee. Brake, suspension and fender clearance must be checked on the vehicle.</p>
+    </section>
+
     <section class="panel results" aria-label="Tire calculator results">
       <h2 data-i18n="results">Results</h2>
       <div class="panel-body">
@@ -543,6 +726,7 @@
           </div>
         </div>
 
+        <div class="table-wrap">
         <table>
           <thead>
             <tr>
@@ -603,6 +787,7 @@
             </tr>
           </tbody>
         </table>
+        </div>
 
         <div class="actions">
           <button type="button" class="action" id="shareButton" data-i18n="share">Share Calculation</button>
@@ -731,6 +916,23 @@
         popular5x110: '5x110 bolt pattern cars',
         title: 'Tire & Rim Calculator',
         lead: 'Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.',
+        visualTitle: 'Visual tire and wheel comparison',
+        visualLead: 'Compare overall diameter and wheel position. The drawing is scaled to the selected values.',
+        sideViewTitle: 'Side view: tire and rim diameter',
+        positionViewTitle: 'Wheel position: rim width and offset',
+        innerEdgeChange: 'Inner edge change',
+        outerEdgeChange: 'Outer edge change',
+        suspensionSide: 'Suspension',
+        mountingFace: 'Mounting face',
+        fenderSide: 'Fender',
+        diameterDifference: 'Diameter change',
+        verdictNormal: 'Normal',
+        verdictManual: 'Check manually',
+        verdictCaution: 'Caution',
+        verdictNormalText: 'Diameter and wheel position changes are small reference values.',
+        verdictManualText: 'Diameter is within the reference limit, but rim width or offset requires a physical clearance check.',
+        verdictCautionText: 'Diameter or wheel position change is large. Verify all clearances before buying.',
+        visualDisclaimer: 'The diagram is a comparison, not a fitment guarantee. Brake, suspension and fender clearance must be checked on the vehicle.',
         originalSize: 'Original Size',
         newSize: 'New Size',
         width: 'Width (mm)',
@@ -819,6 +1021,23 @@
         popular5x110: 'Coches con patrón 5x110',
         title: 'Calculadora de neumáticos y llantas',
         lead: 'Compara la medida original y la nueva, el ancho de llanta y el ET. El resultado muestra diámetro, altura, error del velocímetro y posición de la rueda.',
+        visualTitle: 'Comparación visual de neumáticos y llantas',
+        visualLead: 'Compara el diámetro total y la posición de la rueda. El dibujo se ajusta a los valores seleccionados.',
+        sideViewTitle: 'Vista lateral: diámetro del neumático y la llanta',
+        positionViewTitle: 'Posición de la rueda: ancho y ET',
+        innerEdgeChange: 'Cambio del borde interior',
+        outerEdgeChange: 'Cambio del borde exterior',
+        suspensionSide: 'Suspensión',
+        mountingFace: 'Plano del buje',
+        fenderSide: 'Aleta',
+        diameterDifference: 'Cambio de diámetro',
+        verdictNormal: 'Normal',
+        verdictManual: 'Comprobar manualmente',
+        verdictCaution: 'Precaución',
+        verdictNormalText: 'Los cambios de diámetro y posición son pequeños valores de referencia.',
+        verdictManualText: 'El diámetro está dentro del límite, pero el ancho o ET requiere comprobar físicamente el espacio.',
+        verdictCautionText: 'El cambio de diámetro o posición es grande. Comprueba todos los espacios antes de comprar.',
+        visualDisclaimer: 'El dibujo es una comparación, no una garantía. Debes comprobar frenos, suspensión y espacio de la aleta en el vehículo.',
         originalSize: 'Medida original',
         newSize: 'Nueva medida',
         width: 'Ancho (mm)',
@@ -907,6 +1126,23 @@
         popular5x110: 'Voitures avec entraxe 5x110',
         title: 'Calculateur pneus et jantes',
         lead: 'Comparez la dimension d’origine et la nouvelle dimension, la largeur de jante et le déport. Le résultat montre diamètre, garde au sol, erreur compteur et position de roue.',
+        visualTitle: 'Comparaison visuelle pneus et jantes',
+        visualLead: 'Comparez le diamètre total et la position de roue. Le dessin est mis à l’échelle selon les valeurs choisies.',
+        sideViewTitle: 'Vue latérale : diamètre du pneu et de la jante',
+        positionViewTitle: 'Position de roue : largeur de jante et déport',
+        innerEdgeChange: 'Variation du bord intérieur',
+        outerEdgeChange: 'Variation du bord extérieur',
+        suspensionSide: 'Suspension',
+        mountingFace: 'Plan de fixation',
+        fenderSide: 'Aile',
+        diameterDifference: 'Variation de diamètre',
+        verdictNormal: 'Normal',
+        verdictManual: 'Vérifier manuellement',
+        verdictCaution: 'Attention',
+        verdictNormalText: 'Les variations de diamètre et de position sont de faibles valeurs de référence.',
+        verdictManualText: 'Le diamètre reste dans la limite, mais la largeur ou le déport exige un contrôle physique.',
+        verdictCautionText: 'La variation de diamètre ou de position est importante. Vérifiez tous les dégagements avant achat.',
+        visualDisclaimer: 'Le dessin est une comparaison, pas une garantie de montage. Freins, suspension et passage d’aile doivent être contrôlés sur le véhicule.',
         originalSize: 'Dimension d’origine',
         newSize: 'Nouvelle dimension',
         width: 'Largeur (mm)',
@@ -995,6 +1231,23 @@
         popular5x110: 'Autos mit Lochkreis 5x110',
         title: 'Reifen- und Felgenrechner',
         lead: 'Vergleiche Original- und neue Reifengröße, Felgenbreite und ET. Das Ergebnis zeigt Durchmesser, Bodenfreiheit, Tachoabweichung und Radposition.',
+        visualTitle: 'Visueller Reifen- und Felgenvergleich',
+        visualLead: 'Vergleiche Gesamtdurchmesser und Radposition. Die Zeichnung wird nach den gewählten Werten skaliert.',
+        sideViewTitle: 'Seitenansicht: Reifen- und Felgendurchmesser',
+        positionViewTitle: 'Radposition: Felgenbreite und ET',
+        innerEdgeChange: 'Änderung der Innenkante',
+        outerEdgeChange: 'Änderung der Außenkante',
+        suspensionSide: 'Aufhängung',
+        mountingFace: 'Anlagefläche',
+        fenderSide: 'Kotflügel',
+        diameterDifference: 'Durchmesseränderung',
+        verdictNormal: 'Normal',
+        verdictManual: 'Manuell prüfen',
+        verdictCaution: 'Achtung',
+        verdictNormalText: 'Durchmesser- und Positionsänderung sind kleine Referenzwerte.',
+        verdictManualText: 'Der Durchmesser liegt im Referenzbereich, aber Felgenbreite oder ET erfordern eine Prüfung am Fahrzeug.',
+        verdictCautionText: 'Durchmesser- oder Positionsänderung ist groß. Vor dem Kauf alle Freigängigkeiten prüfen.',
+        visualDisclaimer: 'Die Zeichnung ist ein Vergleich, keine Passgarantie. Bremsen-, Fahrwerks- und Kotflügelfreigängigkeit muss am Fahrzeug geprüft werden.',
         originalSize: 'Originalgröße',
         newSize: 'Neue Größe',
         width: 'Breite (mm)',
@@ -1172,6 +1425,113 @@
       return `${formatNumber(Math.abs(value))} mm ${value > 0 ? positiveText : negativeText}`;
     }
 
+    function svgEscape(value) {
+      return String(value || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function wheelDrawing(cx, cy, spec, scale, color, label) {
+      const outerRadius = spec.diameter * scale / 2;
+      const rimRadius = spec.rim * 25.4 * scale / 2;
+      const hubRadius = Math.max(9, rimRadius * 0.18);
+      let spokes = '';
+      for (let index = 0; index < 8; index += 1) {
+        const angle = Math.PI * 2 * index / 8;
+        const x1 = cx + Math.cos(angle) * (hubRadius + 3);
+        const y1 = cy + Math.sin(angle) * (hubRadius + 3);
+        const x2 = cx + Math.cos(angle) * Math.max(hubRadius + 5, rimRadius - 8);
+        const y2 = cy + Math.sin(angle) * Math.max(hubRadius + 5, rimRadius - 8);
+        spokes += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${color}" stroke-width="3" opacity="0.8" />`;
+      }
+      return `
+        <text x="${cx}" y="28" text-anchor="middle" fill="${color}" font-size="14" font-weight="700">${svgEscape(label)}</text>
+        <circle cx="${cx}" cy="${cy}" r="${outerRadius}" fill="${color}" fill-opacity="0.12" stroke="${color}" stroke-width="6" />
+        <circle cx="${cx}" cy="${cy}" r="${rimRadius}" fill="#ffffff" stroke="${color}" stroke-width="5" />
+        ${spokes}
+        <circle cx="${cx}" cy="${cy}" r="${hubRadius}" fill="#ffffff" stroke="${color}" stroke-width="4" />
+        <text x="${cx}" y="262" text-anchor="middle" fill="#17202a" font-size="15" font-weight="700">${spec.width}/${spec.profile} R${spec.rim}</text>
+        <text x="${cx}" y="282" text-anchor="middle" fill="#657181" font-size="13">Ø ${formatNumber(spec.diameter)} mm</text>
+      `;
+    }
+
+    function updateVisualization(original, next, values) {
+      const originalColor = '#64748b';
+      const nextColor = '#0f766e';
+      const maxDiameter = Math.max(original.diameter, next.diameter);
+      const sideScale = 196 / maxDiameter;
+      const sideViewSvg = document.getElementById('sideViewSvg');
+      sideViewSvg.innerHTML = `
+        <line x1="360" y1="44" x2="360" y2="238" stroke="#d9e0e8" stroke-width="1" />
+        ${wheelDrawing(185, 145, original, sideScale, originalColor, t('original'))}
+        ${wheelDrawing(535, 145, next, sideScale, nextColor, t('new'))}
+        <rect x="292" y="8" width="136" height="26" rx="6" fill="#ffffff" stroke="#d9e0e8" />
+        <text x="360" y="26" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">${svgEscape(signed(values.diameterDiff, 'mm'))} · ${svgEscape(signed(values.diameterPercent, '%'))}</text>
+      `;
+
+      const originalInner = -original.rimWidthMm / 2 - original.offset;
+      const originalOuter = original.rimWidthMm / 2 - original.offset;
+      const nextInner = -next.rimWidthMm / 2 - next.offset;
+      const nextOuter = next.rimWidthMm / 2 - next.offset;
+      const maxPosition = Math.max(
+        Math.abs(originalInner), Math.abs(originalOuter),
+        Math.abs(nextInner), Math.abs(nextOuter), 70
+      );
+      const positionScale = 245 / maxPosition;
+      const mapPosition = (value) => 360 + value * positionScale;
+      const originalX = mapPosition(originalInner);
+      const originalWidth = mapPosition(originalOuter) - originalX;
+      const nextX = mapPosition(nextInner);
+      const nextWidth = mapPosition(nextOuter) - nextX;
+      const positionViewSvg = document.getElementById('positionViewSvg');
+      positionViewSvg.innerHTML = `
+        <text x="58" y="25" text-anchor="middle" fill="#657181" font-size="12">${svgEscape(t('suspensionSide'))}</text>
+        <text x="360" y="25" text-anchor="middle" fill="#657181" font-size="12">${svgEscape(t('mountingFace'))}</text>
+        <text x="662" y="25" text-anchor="middle" fill="#657181" font-size="12">${svgEscape(t('fenderSide'))}</text>
+        <line x1="58" y1="38" x2="58" y2="252" stroke="#94a3b8" stroke-width="5" />
+        <line x1="662" y1="38" x2="662" y2="252" stroke="#94a3b8" stroke-width="5" />
+        <line x1="360" y1="38" x2="360" y2="252" stroke="#17202a" stroke-width="4" />
+        <rect x="${originalX}" y="72" width="${originalWidth}" height="54" rx="4" fill="${originalColor}" fill-opacity="0.18" stroke="${originalColor}" stroke-width="4" />
+        <line x1="${mapPosition(-original.offset)}" y1="66" x2="${mapPosition(-original.offset)}" y2="132" stroke="${originalColor}" stroke-dasharray="5 4" stroke-width="2" />
+        <text x="${originalX + originalWidth / 2}" y="96" text-anchor="middle" fill="#334155" font-size="13" font-weight="700">${svgEscape(t('original'))}</text>
+        <text x="${originalX + originalWidth / 2}" y="115" text-anchor="middle" fill="#657181" font-size="12">${formatNumber(original.rimWidth, 1)}J · ET${original.offset}</text>
+        <rect x="${nextX}" y="170" width="${nextWidth}" height="54" rx="4" fill="${nextColor}" fill-opacity="0.18" stroke="${nextColor}" stroke-width="4" />
+        <line x1="${mapPosition(-next.offset)}" y1="164" x2="${mapPosition(-next.offset)}" y2="230" stroke="${nextColor}" stroke-dasharray="5 4" stroke-width="2" />
+        <text x="${nextX + nextWidth / 2}" y="194" text-anchor="middle" fill="#17202a" font-size="13" font-weight="700">${svgEscape(t('new'))}</text>
+        <text x="${nextX + nextWidth / 2}" y="213" text-anchor="middle" fill="#657181" font-size="12">${formatNumber(next.rimWidth, 1)}J · ET${next.offset}</text>
+        <text x="360" y="276" text-anchor="middle" fill="#657181" font-size="12">0 mm</text>
+      `;
+
+      document.getElementById('visualInnerMetric').textContent = positionText(values.strutChange, t('closeSuspension'), t('awaySuspension'));
+      document.getElementById('visualOuterMetric').textContent = positionText(values.pokeChange, t('pokeOut'), t('tuckedIn'));
+
+      const positionMagnitude = Math.max(Math.abs(values.strutChange), Math.abs(values.pokeChange));
+      const widthChange = Math.abs(next.width - original.width);
+      let verdictKey = 'verdictNormal';
+      let verdictTextKey = 'verdictNormalText';
+      let verdictClass = '';
+      if (Math.abs(values.diameterPercent) > 3 || positionMagnitude > 20 || widthChange > 30) {
+        verdictKey = 'verdictCaution';
+        verdictTextKey = 'verdictCautionText';
+        verdictClass = 'caution';
+      } else if (
+        Math.abs(values.rimWidthDiff) > 0.05 ||
+        Math.abs(values.offsetDiff) > 0.05 ||
+        widthChange > 0.05
+      ) {
+        verdictKey = 'verdictManual';
+        verdictTextKey = 'verdictManualText';
+        verdictClass = 'manual';
+      }
+      const verdict = document.getElementById('visualVerdict');
+      verdict.className = `visual-verdict${verdictClass ? ` ${verdictClass}` : ''}`;
+      verdict.textContent = t(verdictKey);
+      document.getElementById('visualVerdictText').textContent = t(verdictTextKey);
+    }
+
     function calculate() {
       const original = getSpecs('1');
       const next = getSpecs('2');
@@ -1206,6 +1566,15 @@
         row(t('strutClearance'), '-', positionText(strutChange, t('closeSuspension'), t('awaySuspension')), ''),
         row(t('fenderPoke'), '-', positionText(pokeChange, t('pokeOut'), t('tuckedIn')), '')
       ].join('');
+
+      updateVisualization(original, next, {
+        diameterDiff,
+        diameterPercent,
+        rimWidthDiff,
+        offsetDiff,
+        strutChange,
+        pokeChange
+      });
 
       updateUrl();
     }
