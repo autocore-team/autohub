@@ -404,6 +404,96 @@ window.AUTOHUB_OIL_DATA = {
         de: 'OM642 mit DPF benötigen die fahrzeugspezifische aschearme Freigabe. Öl nicht nur nach Viskosität wählen.'
       },
       statusKey: 'starterReview'
+    },
+    {
+      id: 'mercedes-w204-om651',
+      make: 'Mercedes-Benz',
+      model: 'C-Class',
+      generation: 'W204 / S204',
+      years: '2008-2014',
+      engine: 'OM651 C200 / C220 / C250 CDI',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['MB-Approval 229.51', 'MB-Approval 229.52'],
+      standards: ['ACEA C3'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by OM651 output version and oil-pan configuration; verify the service fill by VIN.',
+        es: 'Varía según la potencia OM651 y el cárter; comprueba el llenado mediante VIN.',
+        fr: 'Varie selon la puissance OM651 et le carter ; vérifiez le volume avec le VIN.',
+        de: 'Je nach OM651-Leistung und Ölwanne unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow ASSYST PLUS and the market-specific Mercedes-Benz service schedule.',
+        es: 'Sigue ASSYST PLUS y el plan Mercedes-Benz del mercado correspondiente.',
+        fr: 'Suivez ASSYST PLUS et le programme Mercedes-Benz du marché concerné.',
+        de: 'ASSYST PLUS und den marktspezifischen Mercedes-Benz-Wartungsplan beachten.'
+      },
+      climate: {
+        en: 'Use the SAE grade allowed by the exact manual; MB approval and DPF compatibility take priority.',
+        es: 'Usa el grado SAE permitido por el manual; la homologación MB y el DPF tienen prioridad.',
+        fr: "Utilisez le grade SAE autorisé ; l'homologation MB et le DPF sont prioritaires.",
+        de: 'Zulässige SAE-Klasse laut Handbuch verwenden; MB-Freigabe und DPF-Verträglichkeit haben Vorrang.'
+      },
+      source: {
+        en: 'Mercedes-Benz Operating Fluids platform and the exact digital owner/service manual.',
+        es: 'Plataforma Mercedes-Benz Operating Fluids y manual digital exacto.',
+        fr: 'Plateforme Mercedes-Benz Operating Fluids et manuel numérique exact.',
+        de: 'Mercedes-Benz Operating Fluids und genaue digitale Betriebs-/Serviceunterlagen.'
+      },
+      note: {
+        en: 'Use oil carrying the required MB-Approval on the container. “Recommended for” is not an official approval.',
+        es: 'Usa aceite con MB-Approval en el envase. “Recomendado para” no es una homologación oficial.',
+        fr: "Utilisez une huile portant MB-Approval. « Recommandée pour » n'est pas une homologation officielle.",
+        de: 'Öl mit MB-Freigabe auf dem Gebinde verwenden. „Empfohlen für“ ist keine offizielle Freigabe.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'mercedes-w204-m271',
+      make: 'Mercedes-Benz',
+      model: 'C-Class',
+      generation: 'W204 / S204',
+      years: '2007-2014',
+      engine: 'M271 Kompressor / CGI',
+      fuelKey: 'petrol',
+      aspirationKey: 'marketDependent',
+      viscosities: ['0W-40', '5W-30', '5W-40'],
+      approvals: ['MB-Approval 229.3', 'MB-Approval 229.5'],
+      standards: ['ACEA A3/B4'],
+      emissionsKey: 'noDpfGpf',
+      capacity: {
+        en: 'Varies by M271 version, supercharger/turbo layout and oil-pan configuration; verify by VIN.',
+        es: 'Varía según la versión M271, sobrealimentación y cárter; comprueba mediante VIN.',
+        fr: 'Varie selon la version M271, la suralimentation et le carter ; vérifiez avec le VIN.',
+        de: 'Je nach M271-Version, Aufladung und Ölwanne unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow ASSYST PLUS and the exact Mercedes-Benz service schedule.',
+        es: 'Sigue ASSYST PLUS y el plan Mercedes-Benz exacto.',
+        fr: 'Suivez ASSYST PLUS et le programme Mercedes-Benz exact.',
+        de: 'ASSYST PLUS und den genauen Mercedes-Benz-Wartungsplan beachten.'
+      },
+      climate: {
+        en: 'Select viscosity from the exact vehicle manual; approval is more important than SAE grade alone.',
+        es: 'Elige la viscosidad según el manual exacto; la homologación importa más que el grado SAE.',
+        fr: "Choisissez la viscosité selon le manuel exact ; l'homologation prime sur le grade SAE.",
+        de: 'Viskosität nach genauem Handbuch wählen; die Freigabe ist wichtiger als nur die SAE-Klasse.'
+      },
+      source: {
+        en: 'Mercedes-Benz Operating Fluids platform and the exact digital owner/service manual.',
+        es: 'Plataforma Mercedes-Benz Operating Fluids y manual digital exacto.',
+        fr: 'Plateforme Mercedes-Benz Operating Fluids et manuel numérique exact.',
+        de: 'Mercedes-Benz Operating Fluids und genaue digitale Betriebs-/Serviceunterlagen.'
+      },
+      note: {
+        en: 'Confirm whether the vehicle has an early Kompressor or later CGI/turbo M271 before selecting oil and fill quantity.',
+        es: 'Confirma si es M271 Kompressor temprano o CGI/turbo posterior antes de elegir aceite y cantidad.',
+        fr: "Confirmez Kompressor ancien ou CGI/turbo récent avant de choisir l'huile et le volume.",
+        de: 'Vor Öl- und Mengenwahl frühe Kompressor- oder spätere CGI/Turbo-Version bestimmen.'
+      },
+      statusKey: 'starterReview'
     }
   ]
 };
