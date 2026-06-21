@@ -1199,13 +1199,21 @@
 
     function matchingEngines() {
       const query = engineCodeSearch.value.trim().toLowerCase();
+      if (!query) return [];
       return engineRecords.filter((record) => {
         const regionOk = activeRegion === 'all' || record.regionKey === activeRegion;
-        return regionOk && (!query || engineSearchText(record).includes(query));
+        return regionOk && engineSearchText(record).includes(query);
       });
     }
 
     function renderEngineMatches() {
+      const query = engineCodeSearch.value.trim();
+      if (!query) {
+        engineSearchMeta.textContent = '';
+        engineEmpty.hidden = true;
+        engineMatchList.innerHTML = '';
+        return;
+      }
       const matches = matchingEngines();
       engineSearchMeta.textContent = formatSummary(t('finderCount'), { count: matches.length });
       engineEmpty.hidden = matches.length > 0;
