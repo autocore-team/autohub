@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find engine oil viscosity, API, ACEA, ILSAC and manufacturer approvals by vehicle and engine code. Starter AutoHub compatibility tool.">
+  <link rel="canonical" href="https://autocore-team.github.io/autohub/oil-guide.html">
+  <title>AutoHub Engine Oil Compatibility Guide</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
+      --review: #1d4ed8;
+      --review-bg: #eff6ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    button,
+    select {
+      font: inherit;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      max-width: 900px;
+      line-height: 1.5;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+      margin-top: 16px;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+    }
+    .panel-body > p:first-child {
+      margin-top: 0;
+    }
+    .panel-body > p:last-child {
+      margin-bottom: 0;
+    }
+    .finder-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .finder-field {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+    .finder-field span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .finder-field select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 10px;
+      font-size: 14px;
+    }
+    .finder-field select:disabled {
+      background: var(--soft);
+      color: var(--muted);
+    }
+    .finder-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .primary-button {
+      min-height: 40px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      padding: 0 14px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .primary-button:hover {
+      background: var(--accent-dark);
+    }
+    .request-link {
+      color: var(--accent-dark);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .finder-summary {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .result-panel[hidden] {
+      display: none;
+    }
+    .result-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .result-header h3 {
+      margin: 0 0 5px;
+      font-size: 21px;
+      line-height: 1.3;
+    }
+    .result-header p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      max-width: 100%;
+      border: 1px solid #93c5fd;
+      border-radius: 999px;
+      background: var(--review-bg);
+      color: var(--review);
+      padding: 3px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .status-badge.warning {
+      border-color: #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+    }
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 4px;
+    }
+    .spec-item {
+      min-width: 0;
+      padding: 14px 14px 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .spec-item:nth-child(3n+2),
+    .spec-item:nth-child(3n+3) {
+      padding-left: 14px;
+      border-left: 1px solid var(--line);
+    }
+    .spec-label {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .spec-value {
+      margin: 0;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
+    }
+    .chips {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 27px;
+      border-radius: 999px;
+      background: #edf2f7;
+      color: #334155;
+      padding: 3px 9px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .chip.approval {
+      background: #e6fffb;
+      color: var(--accent-dark);
+    }
+    .result-note {
+      margin: 14px 0 0;
+      padding: 12px 14px;
+      border-left: 4px solid var(--accent);
+      background: var(--soft);
+      color: #334155;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    .guide-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .guide-grid article {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .guide-grid h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .guide-grid p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    .steps {
+      margin: 0;
+      padding-left: 20px;
+      color: #334155;
+      line-height: 1.6;
+    }
+    .steps li + li {
+      margin-top: 6px;
+    }
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+      border-radius: 8px;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    @media (max-width: 900px) {
+      .finder-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .spec-grid,
+      .guide-grid {
+        grid-template-columns: 1fr;
+      }
+      .spec-item,
+      .spec-item:nth-child(3n+2),
+      .spec-item:nth-child(3n+3) {
+        padding: 12px 0;
+        border-left: 0;
+      }
+      .langbar {
+        margin-left: 0;
+      }
+    }
+    @media (max-width: 520px) {
+      h1 {
+        font-size: 26px;
+      }
+      .finder-grid {
+        grid-template-columns: 1fr;
+      }
+      .finder-actions,
+      .primary-button,
+      .request-link {
+        width: 100%;
+      }
+      .request-link {
+        text-align: center;
+      }
+      .result-header h3 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="AutoHub common menu">
+      <div class="brand">AutoHub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" data-i18n="fuelCalculator">Fuel Cost Calculator</a>
+      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="oil-guide.html" class="active" data-i18n="oilGuide">Oil Guide</a>
+      <a href="guides.html" data-i18n="guides">Guides</a>
+      <a href="contact.html" data-i18n="contact">Contact</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">Engine Oil Compatibility Guide</h1>
+    <p class="lead" data-i18n="lead">Find oil viscosity, industry classifications and manufacturer approvals by vehicle and engine code. The correct approval matters more than viscosity alone.</p>
+
+    <section class="panel" aria-labelledby="finderTitle">
+      <h2 id="finderTitle" data-i18n="finderTitle">Find oil for your engine</h2>
+      <div class="panel-body">
+        <p data-i18n="finderLead">Select the vehicle and exact engine. AutoHub will show the compatibility record and what still needs confirmation.</p>
+        <div class="finder-grid">
+          <label class="finder-field">
+            <span data-i18n="make">Make</span>
+            <select id="makeSelect">
+              <option value="" data-i18n="selectMake">Select make</option>
+            </select>
+          </label>
+          <label class="finder-field">
+            <span data-i18n="model">Model</span>
+            <select id="modelSelect" disabled>
+              <option value="" data-i18n="selectModel">Select model</option>
+            </select>
+          </label>
+          <label class="finder-field">
+            <span data-i18n="generationYear">Generation / years</span>
+            <select id="variantSelect" disabled>
+              <option value="" data-i18n="selectGeneration">Select generation</option>
+            </select>
+          </label>
+          <label class="finder-field">
+            <span data-i18n="engineCode">Engine code</span>
+            <select id="engineSelect" disabled>
+              <option value="" data-i18n="selectEngine">Select engine</option>
+            </select>
+          </label>
+        </div>
+        <div class="finder-actions">
+          <button type="button" class="primary-button" id="findButton" data-i18n="findButton">Show compatible oil</button>
+          <a class="request-link" id="requestLink" href="contact.html" data-i18n="requestLink">Can't find your engine? Send a request</a>
+        </div>
+        <p class="finder-summary" id="finderSummary"></p>
+      </div>
+    </section>
+
+    <section class="panel result-panel" id="resultPanel" aria-labelledby="resultTitle" hidden>
+      <h2 id="resultTitle" data-i18n="resultTitle">Compatibility result</h2>
+      <div class="panel-body" id="resultContent"></div>
+    </section>
+
+    <section class="guide-grid" aria-label="Oil compatibility principles">
+      <article>
+        <h3 data-i18n="approvalTitle">Manufacturer approval first</h3>
+        <p data-i18n="approvalText">A 5W-30 oil without the required approval may be wrong. Match the OEM approval before comparing brands.</p>
+      </article>
+      <article>
+        <h3 data-i18n="viscosityTitle">Viscosity is not compatibility</h3>
+        <p data-i18n="viscosityText">SAE describes cold and hot flow behavior. It does not replace API, ACEA, ILSAC or manufacturer requirements.</p>
+      </article>
+      <article>
+        <h3 data-i18n="emissionsTitle">DPF and GPF matter</h3>
+        <p data-i18n="emissionsText">Engines with particulate filters may require low-ash oil. The wrong oil can shorten filter life.</p>
+      </article>
+    </section>
+
+    <section class="panel" aria-labelledby="classesTitle">
+      <h2 id="classesTitle" data-i18n="classesTitle">How to read an oil specification</h2>
+      <div class="panel-body">
+        <ol class="steps">
+          <li data-i18n="classSae"><strong>SAE viscosity:</strong> examples include 0W-20, 5W-30 and 5W-40.</li>
+          <li data-i18n="classIndustry"><strong>Industry class:</strong> API, ACEA or ILSAC defines performance requirements.</li>
+          <li data-i18n="classApproval"><strong>Manufacturer approval:</strong> examples include BMW Longlife-01, VW 504 00 or MB 229.5.</li>
+          <li data-i18n="classVehicle"><strong>Exact vehicle:</strong> engine code, model year, market and emissions equipment can change the answer.</li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="disclaimer" data-i18n="disclaimer">Starter records are under review. Always confirm the exact oil approval, viscosity and service-fill quantity in the vehicle owner's manual, manufacturer service information or with a qualified professional before buying or filling oil.</div>
+  </main>
+
+  <script src="oil-data.js"></script>
+  <script>
+    const translations = {
+      en: {
+        metaDescription: 'Find engine oil viscosity, API, ACEA, ILSAC and manufacturer approvals by vehicle and engine code.',
+        tireCalculator: 'Tire Calculator', pcdDatabase: 'PCD Database', fuelCalculator: 'Fuel Cost Calculator', diagnostics: 'Diagnostics', engines: 'Engines', oilGuide: 'Oil Guide', guides: 'Guides', contact: 'Contact',
+        title: 'Engine Oil Compatibility Guide',
+        lead: 'Find oil viscosity, industry classifications and manufacturer approvals by vehicle and engine code. The correct approval matters more than viscosity alone.',
+        finderTitle: 'Find oil for your engine',
+        finderLead: 'Select the vehicle and exact engine. AutoHub will show the compatibility record and what still needs confirmation.',
+        make: 'Make', model: 'Model', generationYear: 'Generation / years', engineCode: 'Engine code',
+        selectMake: 'Select make', selectModel: 'Select model', selectGeneration: 'Select generation', selectEngine: 'Select engine',
+        findButton: 'Show compatible oil', requestLink: "Can't find your engine? Send a request",
+        recordsAvailable: '{count} starter compatibility records available.',
+        chooseAll: 'Select make, model, generation and engine to see a result.',
+        resultTitle: 'Compatibility result',
+        vehicle: 'Vehicle', fuel: 'Fuel', aspiration: 'Aspiration', viscosity: 'SAE viscosity', approvals: 'Manufacturer approvals', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Service-fill quantity', interval: 'Service interval', climate: 'Climate and use', source: 'Verification source', recordStatus: 'Record status', note: 'Important note',
+        petrol: 'Petrol', diesel: 'Diesel', naturallyAspirated: 'Naturally aspirated', turbocharged: 'Turbocharged', noDpfGpf: 'No DPF / GPF recorded', marketDependent: 'Market and version dependent',
+        starterReview: 'Starter record - verify with the exact manual', needsPrimarySource: 'Primary manufacturer source still required',
+        approvalTitle: 'Manufacturer approval first', approvalText: 'A 5W-30 oil without the required approval may be wrong. Match the OEM approval before comparing brands.',
+        viscosityTitle: 'Viscosity is not compatibility', viscosityText: 'SAE describes cold and hot flow behavior. It does not replace API, ACEA, ILSAC or manufacturer requirements.',
+        emissionsTitle: 'DPF and GPF matter', emissionsText: 'Engines with particulate filters may require low-ash oil. The wrong oil can shorten filter life.',
+        classesTitle: 'How to read an oil specification',
+        classSae: 'SAE viscosity: examples include 0W-20, 5W-30 and 5W-40.',
+        classIndustry: 'Industry class: API, ACEA or ILSAC defines performance requirements.',
+        classApproval: 'Manufacturer approval: examples include BMW Longlife-01, VW 504 00 or MB 229.5.',
+        classVehicle: 'Exact vehicle: engine code, model year, market and emissions equipment can change the answer.',
+        disclaimer: "Starter records are under review. Always confirm the exact oil approval, viscosity and service-fill quantity in the vehicle owner's manual, manufacturer service information or with a qualified professional before buying or filling oil."
+      },
+      es: {
+        metaDescription: 'Busca viscosidad, API, ACEA, ILSAC y homologaciones de aceite por vehículo y código de motor.',
+        tireCalculator: 'Calculadora de neumáticos', pcdDatabase: 'Base PCD', fuelCalculator: 'Calculadora de combustible', diagnostics: 'Diagnóstico', engines: 'Motores', oilGuide: 'Guía de aceite', guides: 'Guías', contact: 'Contacto',
+        title: 'Guía de compatibilidad del aceite de motor',
+        lead: 'Busca viscosidad, clasificaciones y homologaciones del fabricante por vehículo y código de motor. La homologación correcta importa más que la viscosidad por sí sola.',
+        finderTitle: 'Encuentra aceite para tu motor',
+        finderLead: 'Selecciona el vehículo y el motor exacto. AutoHub mostrará la compatibilidad y lo que todavía debe confirmarse.',
+        make: 'Marca', model: 'Modelo', generationYear: 'Generación / años', engineCode: 'Código de motor',
+        selectMake: 'Selecciona marca', selectModel: 'Selecciona modelo', selectGeneration: 'Selecciona generación', selectEngine: 'Selecciona motor',
+        findButton: 'Mostrar aceite compatible', requestLink: '¿No encuentras tu motor? Envía una solicitud',
+        recordsAvailable: '{count} registros iniciales de compatibilidad disponibles.',
+        chooseAll: 'Selecciona marca, modelo, generación y motor para ver el resultado.',
+        resultTitle: 'Resultado de compatibilidad',
+        vehicle: 'Vehículo', fuel: 'Combustible', aspiration: 'Aspiración', viscosity: 'Viscosidad SAE', approvals: 'Homologaciones del fabricante', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Cantidad de servicio', interval: 'Intervalo de servicio', climate: 'Clima y uso', source: 'Fuente de verificación', recordStatus: 'Estado del registro', note: 'Nota importante',
+        petrol: 'Gasolina', diesel: 'Diésel', naturallyAspirated: 'Atmosférico', turbocharged: 'Turboalimentado', noDpfGpf: 'Sin DPF / GPF registrado', marketDependent: 'Depende del mercado y versión',
+        starterReview: 'Registro inicial: comprobar con el manual exacto', needsPrimarySource: 'Falta una fuente primaria del fabricante',
+        approvalTitle: 'Primero la homologación', approvalText: 'Un 5W-30 sin la homologación requerida puede ser incorrecto. Comprueba la homologación OEM antes de comparar marcas.',
+        viscosityTitle: 'Viscosidad no es compatibilidad', viscosityText: 'SAE describe el comportamiento en frío y caliente. No sustituye los requisitos API, ACEA, ILSAC o del fabricante.',
+        emissionsTitle: 'DPF y GPF importan', emissionsText: 'Los motores con filtros de partículas pueden requerir aceite bajo en cenizas. Un aceite incorrecto puede reducir su vida.',
+        classesTitle: 'Cómo leer una especificación de aceite',
+        classSae: 'Viscosidad SAE: ejemplos 0W-20, 5W-30 y 5W-40.',
+        classIndustry: 'Clase industrial: API, ACEA o ILSAC define requisitos de rendimiento.',
+        classApproval: 'Homologación del fabricante: ejemplos BMW Longlife-01, VW 504 00 o MB 229.5.',
+        classVehicle: 'Vehículo exacto: código de motor, año, mercado y emisiones pueden cambiar la respuesta.',
+        disclaimer: 'Los registros iniciales están en revisión. Confirma siempre la homologación, viscosidad y cantidad exactas en el manual, información del fabricante o con un profesional antes de comprar o llenar aceite.'
+      },
+      fr: {
+        metaDescription: "Trouvez la viscosité, API, ACEA, ILSAC et les homologations d'huile par véhicule et code moteur.",
+        tireCalculator: 'Calculateur de pneus', pcdDatabase: 'Base PCD', fuelCalculator: 'Calculateur de carburant', diagnostics: 'Diagnostic', engines: 'Moteurs', oilGuide: "Guide d'huile", guides: 'Guides', contact: 'Contact',
+        title: "Guide de compatibilité de l'huile moteur",
+        lead: "Trouvez la viscosité, les classifications et les homologations constructeur par véhicule et code moteur. L'homologation correcte compte plus que la viscosité seule.",
+        finderTitle: "Trouver l'huile de votre moteur",
+        finderLead: 'Sélectionnez le véhicule et le moteur exact. AutoHub affichera la compatibilité et les points restant à confirmer.',
+        make: 'Marque', model: 'Modèle', generationYear: 'Génération / années', engineCode: 'Code moteur',
+        selectMake: 'Choisir la marque', selectModel: 'Choisir le modèle', selectGeneration: 'Choisir la génération', selectEngine: 'Choisir le moteur',
+        findButton: "Afficher l'huile compatible", requestLink: 'Moteur introuvable ? Envoyer une demande',
+        recordsAvailable: '{count} fiches initiales de compatibilité disponibles.',
+        chooseAll: 'Sélectionnez la marque, le modèle, la génération et le moteur.',
+        resultTitle: 'Résultat de compatibilité',
+        vehicle: 'Véhicule', fuel: 'Carburant', aspiration: 'Suralimentation', viscosity: 'Viscosité SAE', approvals: 'Homologations constructeur', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: "Quantité d'entretien", interval: "Intervalle d'entretien", climate: 'Climat et utilisation', source: 'Source de vérification', recordStatus: 'État de la fiche', note: 'Note importante',
+        petrol: 'Essence', diesel: 'Diesel', naturallyAspirated: 'Atmosphérique', turbocharged: 'Turbocompressé', noDpfGpf: 'Aucun DPF / GPF indiqué', marketDependent: 'Selon le marché et la version',
+        starterReview: 'Fiche initiale : vérifier avec le manuel exact', needsPrimarySource: 'Source primaire du constructeur encore requise',
+        approvalTitle: "L'homologation en premier", approvalText: "Une huile 5W-30 sans l'homologation requise peut être incorrecte. Vérifiez l'homologation OEM avant de comparer les marques.",
+        viscosityTitle: "La viscosité n'est pas la compatibilité", viscosityText: 'SAE décrit le comportement à froid et à chaud. Cela ne remplace pas les exigences API, ACEA, ILSAC ou constructeur.',
+        emissionsTitle: 'DPF et GPF sont importants', emissionsText: 'Les moteurs avec filtre à particules peuvent exiger une huile à faibles cendres. Une huile incorrecte réduit sa durée de vie.',
+        classesTitle: "Comment lire une spécification d'huile",
+        classSae: 'Viscosité SAE : par exemple 0W-20, 5W-30 et 5W-40.',
+        classIndustry: 'Classe industrielle : API, ACEA ou ILSAC définit les performances.',
+        classApproval: 'Homologation constructeur : par exemple BMW Longlife-01, VW 504 00 ou MB 229.5.',
+        classVehicle: 'Véhicule exact : code moteur, année, marché et émissions peuvent modifier la réponse.',
+        disclaimer: "Les fiches initiales sont en cours de révision. Confirmez toujours l'homologation, la viscosité et la quantité exactes dans le manuel, les informations constructeur ou auprès d'un professionnel avant l'achat ou le remplissage."
+      },
+      de: {
+        metaDescription: 'Motoröl-Viskosität, API, ACEA, ILSAC und Herstellerfreigaben nach Fahrzeug und Motorcode finden.',
+        tireCalculator: 'Reifenrechner', pcdDatabase: 'PCD-Datenbank', fuelCalculator: 'Kraftstoffkostenrechner', diagnostics: 'Diagnose', engines: 'Motoren', oilGuide: 'Öl-Ratgeber', guides: 'Ratgeber', contact: 'Kontakt',
+        title: 'Kompatibilitätsratgeber für Motoröl',
+        lead: 'Viskosität, Klassifikationen und Herstellerfreigaben nach Fahrzeug und Motorcode finden. Die richtige Freigabe ist wichtiger als die Viskosität allein.',
+        finderTitle: 'Öl für den Motor finden',
+        finderLead: 'Fahrzeug und genauen Motor auswählen. AutoHub zeigt den Datensatz und was noch bestätigt werden muss.',
+        make: 'Marke', model: 'Modell', generationYear: 'Generation / Baujahre', engineCode: 'Motorcode',
+        selectMake: 'Marke wählen', selectModel: 'Modell wählen', selectGeneration: 'Generation wählen', selectEngine: 'Motor wählen',
+        findButton: 'Kompatibles Öl anzeigen', requestLink: 'Motor nicht gefunden? Anfrage senden',
+        recordsAvailable: '{count} Starter-Datensätze verfügbar.',
+        chooseAll: 'Marke, Modell, Generation und Motor für ein Ergebnis auswählen.',
+        resultTitle: 'Kompatibilitätsergebnis',
+        vehicle: 'Fahrzeug', fuel: 'Kraftstoff', aspiration: 'Aufladung', viscosity: 'SAE-Viskosität', approvals: 'Herstellerfreigaben', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Servicefüllmenge', interval: 'Serviceintervall', climate: 'Klima und Einsatz', source: 'Prüfquelle', recordStatus: 'Datenstatus', note: 'Wichtiger Hinweis',
+        petrol: 'Benzin', diesel: 'Diesel', naturallyAspirated: 'Saugmotor', turbocharged: 'Turbolader', noDpfGpf: 'Kein DPF / GPF erfasst', marketDependent: 'Markt- und versionsabhängig',
+        starterReview: 'Starter-Datensatz: mit genauem Handbuch prüfen', needsPrimarySource: 'Primärquelle des Herstellers noch erforderlich',
+        approvalTitle: 'Herstellerfreigabe zuerst', approvalText: 'Ein 5W-30 ohne erforderliche Freigabe kann falsch sein. Vor dem Markenvergleich zuerst die OEM-Freigabe prüfen.',
+        viscosityTitle: 'Viskosität ist nicht Kompatibilität', viscosityText: 'SAE beschreibt das Fließverhalten bei Kälte und Wärme. Es ersetzt keine API-, ACEA-, ILSAC- oder Herstellervorgaben.',
+        emissionsTitle: 'DPF und GPF beachten', emissionsText: 'Motoren mit Partikelfilter können aschearmes Öl benötigen. Falsches Öl kann die Filterlebensdauer verkürzen.',
+        classesTitle: 'Eine Ölspezifikation lesen',
+        classSae: 'SAE-Viskosität: Beispiele sind 0W-20, 5W-30 und 5W-40.',
+        classIndustry: 'Industrieklasse: API, ACEA oder ILSAC definiert Leistungsanforderungen.',
+        classApproval: 'Herstellerfreigabe: Beispiele sind BMW Longlife-01, VW 504 00 oder MB 229.5.',
+        classVehicle: 'Genaues Fahrzeug: Motorcode, Modelljahr, Markt und Abgassystem können die Antwort ändern.',
+        disclaimer: 'Starter-Datensätze werden geprüft. Vor Kauf oder Befüllung immer genaue Freigabe, Viskosität und Füllmenge im Fahrzeughandbuch, in Herstellerunterlagen oder bei einem Fachbetrieb bestätigen.'
+      }
+    };
+
+    const initialUrl = new URL(window.location.href);
+    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
+    const oilData = window.AUTOHUB_OIL_DATA || { records: [] };
+    const records = Array.isArray(oilData.records) ? oilData.records : [];
+    const makeSelect = document.getElementById('makeSelect');
+    const modelSelect = document.getElementById('modelSelect');
+    const variantSelect = document.getElementById('variantSelect');
+    const engineSelect = document.getElementById('engineSelect');
+    const findButton = document.getElementById('findButton');
+    const requestLink = document.getElementById('requestLink');
+    const finderSummary = document.getElementById('finderSummary');
+    const resultPanel = document.getElementById('resultPanel');
+    const resultContent = document.getElementById('resultContent');
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function localize(value) {
+      if (value && typeof value === 'object' && !Array.isArray(value)) {
+        return value[lang] || value.en || '';
+      }
+      return value || '';
+    }
+
+    function format(template, values) {
+      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
+    }
+
+    function escapeHtml(value) {
+      return String(value || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function uniqueSorted(values) {
+      return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b));
+    }
+
+    function clearSelect(select) {
+      while (select.options.length > 1) select.remove(1);
+      select.value = '';
+    }
+
+    function addTextOptions(select, values) {
+      values.forEach((value) => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function selectedVariantKey(record) {
+      return `${record.generation}|||${record.years}`;
+    }
+
+    function populateMakes(selected = '') {
+      clearSelect(makeSelect);
+      addTextOptions(makeSelect, uniqueSorted(records.map((record) => record.make)));
+      makeSelect.value = selected;
+    }
+
+    function populateModels(selected = '') {
+      clearSelect(modelSelect);
+      clearSelect(variantSelect);
+      clearSelect(engineSelect);
+      variantSelect.disabled = true;
+      engineSelect.disabled = true;
+      const models = uniqueSorted(records.filter((record) => record.make === makeSelect.value).map((record) => record.model));
+      addTextOptions(modelSelect, models);
+      modelSelect.disabled = !models.length;
+      modelSelect.value = models.includes(selected) ? selected : '';
+    }
+
+    function populateVariants(selected = '') {
+      clearSelect(variantSelect);
+      clearSelect(engineSelect);
+      engineSelect.disabled = true;
+      const matching = records.filter((record) => record.make === makeSelect.value && record.model === modelSelect.value);
+      const variants = [];
+      const seen = new Set();
+      matching.forEach((record) => {
+        const value = selectedVariantKey(record);
+        if (seen.has(value)) return;
+        seen.add(value);
+        variants.push({ value, label: `${record.generation} · ${record.years}` });
+      });
+      variants.forEach((item) => {
+        const option = document.createElement('option');
+        option.value = item.value;
+        option.textContent = item.label;
+        variantSelect.appendChild(option);
+      });
+      variantSelect.disabled = !variants.length;
+      variantSelect.value = variants.some((item) => item.value === selected) ? selected : '';
+    }
+
+    function populateEngines(selected = '') {
+      clearSelect(engineSelect);
+      const matching = records.filter((record) => (
+        record.make === makeSelect.value &&
+        record.model === modelSelect.value &&
+        selectedVariantKey(record) === variantSelect.value
+      ));
+      matching.forEach((record) => {
+        const option = document.createElement('option');
+        option.value = record.id;
+        option.textContent = record.engine;
+        engineSelect.appendChild(option);
+      });
+      engineSelect.disabled = !matching.length;
+      engineSelect.value = matching.some((record) => record.id === selected) ? selected : '';
+    }
+
+    function chipList(values, className = '') {
+      return `<div class="chips">${values.map((value) => `<span class="chip ${className}">${escapeHtml(value)}</span>`).join('')}</div>`;
+    }
+
+    function specItem(label, value) {
+      return `<div class="spec-item"><span class="spec-label">${escapeHtml(label)}</span><div class="spec-value">${value}</div></div>`;
+    }
+
+    function renderResult(updateUrl = true) {
+      const record = records.find((item) => item.id === engineSelect.value);
+      updateRequestLink();
+      if (!record) {
+        resultPanel.hidden = true;
+        finderSummary.textContent = t('chooseAll');
+        return;
+      }
+
+      const statusWarning = record.statusKey === 'needsPrimarySource' ? ' warning' : '';
+      resultContent.innerHTML = `
+        <div class="result-header">
+          <div>
+            <h3>${escapeHtml(record.make)} ${escapeHtml(record.model)} · ${escapeHtml(record.engine)}</h3>
+            <p>${escapeHtml(record.generation)} · ${escapeHtml(record.years)}</p>
+          </div>
+          <span class="status-badge${statusWarning}">${escapeHtml(t(record.statusKey))}</span>
+        </div>
+        <div class="spec-grid">
+          ${specItem(t('vehicle'), escapeHtml(`${record.make} ${record.model}, ${record.generation}, ${record.years}`))}
+          ${specItem(t('fuel'), escapeHtml(t(record.fuelKey)))}
+          ${specItem(t('aspiration'), escapeHtml(t(record.aspirationKey)))}
+          ${specItem(t('viscosity'), chipList(record.viscosities))}
+          ${specItem(t('approvals'), chipList(record.approvals, 'approval'))}
+          ${specItem(t('standards'), chipList(record.standards))}
+          ${specItem(t('emissions'), escapeHtml(t(record.emissionsKey)))}
+          ${specItem(t('capacity'), escapeHtml(localize(record.capacity)))}
+          ${specItem(t('interval'), escapeHtml(localize(record.interval)))}
+          ${specItem(t('climate'), escapeHtml(localize(record.climate)))}
+          ${specItem(t('source'), escapeHtml(localize(record.source)))}
+          ${specItem(t('recordStatus'), escapeHtml(t(record.statusKey)))}
+        </div>
+        <p class="result-note"><strong>${escapeHtml(t('note'))}:</strong> ${escapeHtml(localize(record.note))}</p>
+      `;
+      resultPanel.hidden = false;
+      finderSummary.textContent = '';
+
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('make', record.make);
+        url.searchParams.set('model', record.model);
+        url.searchParams.set('variant', selectedVariantKey(record));
+        url.searchParams.set('engine', record.id);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+      }
+    }
+
+    function updateRequestLink() {
+      const params = new URLSearchParams({ lang, topic: 'engine-oil' });
+      if (makeSelect.value) params.set('make', makeSelect.value);
+      if (modelSelect.value) params.set('model', modelSelect.value);
+      if (variantSelect.value) params.set('variant', variantSelect.value);
+      if (engineSelect.value) params.set('engine', engineSelect.value);
+      requestLink.href = `contact.html?${params.toString()}`;
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = `AutoHub - ${t('title')}`;
+      document.querySelector('meta[name="description"]').setAttribute('content', t('metaDescription'));
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+      finderSummary.textContent = resultPanel.hidden
+        ? format(t('recordsAvailable'), { count: records.length })
+        : '';
+      updateRequestLink();
+      if (!resultPanel.hidden) renderResult(false);
+    }
+
+    function initializeFinder() {
+      const requestedMake = initialUrl.searchParams.get('make') || '';
+      const requestedModel = initialUrl.searchParams.get('model') || '';
+      const requestedVariant = initialUrl.searchParams.get('variant') || '';
+      const requestedEngine = initialUrl.searchParams.get('engine') || '';
+      populateMakes(requestedMake);
+      populateModels(requestedModel);
+      populateVariants(requestedVariant);
+      populateEngines(requestedEngine);
+      updateRequestLink();
+      if (engineSelect.value) renderResult(false);
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+        translatePage();
+      });
+    });
+
+    makeSelect.addEventListener('change', () => {
+      populateModels();
+      resultPanel.hidden = true;
+      finderSummary.textContent = t('chooseAll');
+      updateRequestLink();
+    });
+    modelSelect.addEventListener('change', () => {
+      populateVariants();
+      resultPanel.hidden = true;
+      finderSummary.textContent = t('chooseAll');
+      updateRequestLink();
+    });
+    variantSelect.addEventListener('change', () => {
+      populateEngines();
+      resultPanel.hidden = true;
+      finderSummary.textContent = t('chooseAll');
+      updateRequestLink();
+    });
+    engineSelect.addEventListener('change', () => {
+      resultPanel.hidden = true;
+      finderSummary.textContent = engineSelect.value ? '' : t('chooseAll');
+      updateRequestLink();
+    });
+    findButton.addEventListener('click', () => renderResult(true));
+
+    initializeFinder();
+    translatePage();
+  </script>
+</body>
+</html>
