@@ -774,10 +774,11 @@
     }
 
     function initializeFinder() {
-      const requestedMake = initialUrl.searchParams.get('make') || '';
-      const requestedModel = initialUrl.searchParams.get('model') || '';
-      const requestedVariant = initialUrl.searchParams.get('variant') || '';
       const requestedEngine = initialUrl.searchParams.get('engine') || '';
+      const requestedRecord = records.find((record) => record.id === requestedEngine);
+      const requestedMake = initialUrl.searchParams.get('make') || (requestedRecord ? requestedRecord.make : '');
+      const requestedModel = initialUrl.searchParams.get('model') || (requestedRecord ? requestedRecord.model : '');
+      const requestedVariant = initialUrl.searchParams.get('variant') || (requestedRecord ? selectedVariantKey(requestedRecord) : '');
       populateMakes(requestedMake);
       populateModels(requestedModel);
       populateVariants(requestedVariant);
