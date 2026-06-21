@@ -141,7 +141,8 @@
       font-size: 13px;
       font-weight: 700;
     }
-    .finder-field select {
+    .finder-field select,
+    .finder-field input {
       width: 100%;
       min-height: 42px;
       border: 1px solid var(--line);
@@ -150,6 +151,9 @@
       color: var(--text);
       padding: 0 10px;
       font-size: 14px;
+    }
+    .quick-search-field {
+      grid-column: 1 / -1;
     }
     .finder-field select:disabled {
       background: var(--soft);
@@ -396,6 +400,11 @@
       <div class="panel-body">
         <p data-i18n="finderLead">Select the vehicle and exact engine. AutoHub will show the compatibility record and what still needs confirmation.</p>
         <div class="finder-grid">
+          <label class="finder-field quick-search-field">
+            <span data-i18n="quickSearchLabel">Quick search by engine code, make or model</span>
+            <input id="oilQuickSearch" type="search" list="oilSearchSuggestions" placeholder="M54, B5202S, BMW E46, Toyota Corolla" autocomplete="off">
+            <datalist id="oilSearchSuggestions"></datalist>
+          </label>
           <label class="finder-field">
             <span data-i18n="make">Make</span>
             <select id="makeSelect">
@@ -464,7 +473,7 @@
     <div class="disclaimer" data-i18n="disclaimer">Starter records are under review. Always confirm the exact oil approval, viscosity and service-fill quantity in the vehicle owner's manual, manufacturer service information or with a qualified professional before buying or filling oil.</div>
   </main>
 
-  <script src="oil-data.js"></script>
+  <script src="oil-data.js?v=20260621-1"></script>
   <script>
     const translations = {
       en: {
@@ -474,6 +483,7 @@
         lead: 'Find oil viscosity, industry classifications and manufacturer approvals by vehicle and engine code. The correct approval matters more than viscosity alone.',
         finderTitle: 'Find oil for your engine',
         finderLead: 'Select the vehicle and exact engine. AutoHub will show the compatibility record and what still needs confirmation.',
+        quickSearchLabel: 'Quick search by engine code, make or model', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'No compatibility record found. Try the vehicle selectors or send a request.',
         make: 'Make', model: 'Model', generationYear: 'Generation / years', engineCode: 'Engine code',
         selectMake: 'Select make', selectModel: 'Select model', selectGeneration: 'Select generation', selectEngine: 'Select engine',
         findButton: 'Show compatible oil', requestLink: "Can't find your engine? Send a request",
@@ -500,6 +510,7 @@
         lead: 'Busca viscosidad, clasificaciones y homologaciones del fabricante por vehículo y código de motor. La homologación correcta importa más que la viscosidad por sí sola.',
         finderTitle: 'Encuentra aceite para tu motor',
         finderLead: 'Selecciona el vehículo y el motor exacto. AutoHub mostrará la compatibilidad y lo que todavía debe confirmarse.',
+        quickSearchLabel: 'Búsqueda rápida por código de motor, marca o modelo', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'No se encontró una ficha compatible. Usa los selectores o envía una solicitud.',
         make: 'Marca', model: 'Modelo', generationYear: 'Generación / años', engineCode: 'Código de motor',
         selectMake: 'Selecciona marca', selectModel: 'Selecciona modelo', selectGeneration: 'Selecciona generación', selectEngine: 'Selecciona motor',
         findButton: 'Mostrar aceite compatible', requestLink: '¿No encuentras tu motor? Envía una solicitud',
@@ -526,6 +537,7 @@
         lead: "Trouvez la viscosité, les classifications et les homologations constructeur par véhicule et code moteur. L'homologation correcte compte plus que la viscosité seule.",
         finderTitle: "Trouver l'huile de votre moteur",
         finderLead: 'Sélectionnez le véhicule et le moteur exact. AutoHub affichera la compatibilité et les points restant à confirmer.',
+        quickSearchLabel: 'Recherche rapide par code moteur, marque ou modèle', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'Aucune fiche compatible trouvée. Utilisez les sélecteurs ou envoyez une demande.',
         make: 'Marque', model: 'Modèle', generationYear: 'Génération / années', engineCode: 'Code moteur',
         selectMake: 'Choisir la marque', selectModel: 'Choisir le modèle', selectGeneration: 'Choisir la génération', selectEngine: 'Choisir le moteur',
         findButton: "Afficher l'huile compatible", requestLink: 'Moteur introuvable ? Envoyer une demande',
@@ -552,6 +564,7 @@
         lead: 'Viskosität, Klassifikationen und Herstellerfreigaben nach Fahrzeug und Motorcode finden. Die richtige Freigabe ist wichtiger als die Viskosität allein.',
         finderTitle: 'Öl für den Motor finden',
         finderLead: 'Fahrzeug und genauen Motor auswählen. AutoHub zeigt den Datensatz und was noch bestätigt werden muss.',
+        quickSearchLabel: 'Schnellsuche nach Motorcode, Marke oder Modell', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'Kein passender Datensatz gefunden. Fahrzeugauswahl nutzen oder Anfrage senden.',
         make: 'Marke', model: 'Modell', generationYear: 'Generation / Baujahre', engineCode: 'Motorcode',
         selectMake: 'Marke wählen', selectModel: 'Modell wählen', selectGeneration: 'Generation wählen', selectEngine: 'Motor wählen',
         findButton: 'Kompatibles Öl anzeigen', requestLink: 'Motor nicht gefunden? Anfrage senden',
@@ -581,6 +594,8 @@
     const modelSelect = document.getElementById('modelSelect');
     const variantSelect = document.getElementById('variantSelect');
     const engineSelect = document.getElementById('engineSelect');
+    const oilQuickSearch = document.getElementById('oilQuickSearch');
+    const oilSearchSuggestions = document.getElementById('oilSearchSuggestions');
     const findButton = document.getElementById('findButton');
     const requestLink = document.getElementById('requestLink');
     const finderSummary = document.getElementById('finderSummary');
@@ -631,6 +646,32 @@
 
     function selectedVariantKey(record) {
       return `${record.generation}|||${record.years}`;
+    }
+
+    function quickSearchText(record) {
+      return `${record.engine} ${record.make} ${record.model} ${record.generation} ${record.years}`.toLowerCase();
+    }
+
+    function quickSearchLabel(record) {
+      return `${record.engine} · ${record.make} ${record.model} · ${record.generation}`;
+    }
+
+    function selectRecord(record) {
+      populateMakes(record.make);
+      populateModels(record.model);
+      populateVariants(selectedVariantKey(record));
+      populateEngines(record.id);
+      oilQuickSearch.value = quickSearchLabel(record);
+      renderResult(true);
+    }
+
+    function findQuickRecord() {
+      const query = oilQuickSearch.value.trim().toLowerCase();
+      if (!query) return null;
+      return records.find((record) => quickSearchLabel(record).toLowerCase() === query)
+        || records.find((record) => record.engine.toLowerCase() === query)
+        || records.find((record) => quickSearchText(record).includes(query))
+        || null;
     }
 
     function populateMakes(selected = '') {
@@ -766,6 +807,7 @@
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
+      oilQuickSearch.placeholder = t('quickSearchPlaceholder');
       finderSummary.textContent = resultPanel.hidden
         ? format(t('recordsAvailable'), { count: records.length })
         : '';
@@ -787,6 +829,12 @@
       if (engineSelect.value) renderResult(false);
     }
 
+    records.forEach((record) => {
+      const option = document.createElement('option');
+      option.value = quickSearchLabel(record);
+      oilSearchSuggestions.appendChild(option);
+    });
+
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.addEventListener('click', () => {
         lang = button.dataset.lang;
@@ -798,29 +846,47 @@
     });
 
     makeSelect.addEventListener('change', () => {
+      oilQuickSearch.value = '';
       populateModels();
       resultPanel.hidden = true;
       finderSummary.textContent = t('chooseAll');
       updateRequestLink();
     });
     modelSelect.addEventListener('change', () => {
+      oilQuickSearch.value = '';
       populateVariants();
       resultPanel.hidden = true;
       finderSummary.textContent = t('chooseAll');
       updateRequestLink();
     });
     variantSelect.addEventListener('change', () => {
+      oilQuickSearch.value = '';
       populateEngines();
       resultPanel.hidden = true;
       finderSummary.textContent = t('chooseAll');
       updateRequestLink();
     });
     engineSelect.addEventListener('change', () => {
+      oilQuickSearch.value = '';
       resultPanel.hidden = true;
       finderSummary.textContent = engineSelect.value ? '' : t('chooseAll');
       updateRequestLink();
     });
-    findButton.addEventListener('click', () => renderResult(true));
+    findButton.addEventListener('click', () => {
+      if (oilQuickSearch.value.trim()) {
+        const record = findQuickRecord();
+        if (record) selectRecord(record);
+        else {
+          resultPanel.hidden = true;
+          finderSummary.textContent = t('quickNoMatch');
+        }
+        return;
+      }
+      renderResult(true);
+    });
+    oilQuickSearch.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') findButton.click();
+    });
 
     initializeFinder();
     translatePage();
