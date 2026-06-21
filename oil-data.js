@@ -359,6 +359,51 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Dieser Eintrag vermeidet bewusst eine ungeprüfte Ölangabe und bleibt zur Datenprüfung sichtbar.'
       },
       statusKey: 'needsPrimarySource'
+    },
+    {
+      id: 'mercedes-w212-om642',
+      make: 'Mercedes-Benz',
+      model: 'E-Class',
+      generation: 'W212 / S212',
+      years: '2009-2016',
+      engine: 'OM642 3.0 CDI / BlueTEC',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['MB-Approval 229.51', 'MB-Approval 229.52'],
+      standards: ['ACEA C3'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Service-fill quantity varies by OM642 version and oil-pan configuration; verify by VIN and the exact workshop procedure.',
+        es: 'La cantidad varía según la versión OM642 y el cárter; comprueba mediante VIN y el procedimiento exacto.',
+        fr: "La quantité varie selon la version OM642 et le carter ; vérifiez avec le VIN et la procédure exacte.",
+        de: 'Die Füllmenge variiert je nach OM642-Version und Ölwanne; per VIN und genauer Arbeitsanweisung prüfen.'
+      },
+      interval: {
+        en: 'Follow ASSYST / ASSYST PLUS and the service schedule for the exact vehicle and market.',
+        es: 'Sigue ASSYST / ASSYST PLUS y el plan del vehículo y mercado exactos.',
+        fr: "Suivez ASSYST / ASSYST PLUS et le programme du véhicule et du marché exacts.",
+        de: 'ASSYST / ASSYST PLUS und den Wartungsplan für Fahrzeug und Markt beachten.'
+      },
+      climate: {
+        en: 'Choose the SAE grade permitted by the vehicle manual for the ambient temperature; the MB approval takes priority.',
+        es: 'Elige el grado SAE permitido por el manual para la temperatura ambiente; la homologación MB tiene prioridad.',
+        fr: "Choisissez le grade SAE autorisé par le manuel selon la température ; l'homologation MB est prioritaire.",
+        de: 'Die laut Fahrzeughandbuch zulässige SAE-Klasse zur Temperatur wählen; die MB-Freigabe hat Vorrang.'
+      },
+      source: {
+        en: 'Mercedes-Benz Operating Fluids platform and the exact digital owner/service manual. Use products labelled MB-Approval, not merely “recommended for”.',
+        es: 'Plataforma oficial Mercedes-Benz Operating Fluids y manual exacto. Usa productos con MB-Approval, no solo “recomendado para”.',
+        fr: "Plateforme officielle Mercedes-Benz Operating Fluids et manuel exact. Utilisez une huile portant MB-Approval, pas seulement « recommandée pour ».",
+        de: 'Mercedes-Benz Operating Fluids und genaue Betriebs-/Serviceunterlagen. Nur Produkte mit MB-Freigabe, nicht bloß „empfohlen für“.'
+      },
+      note: {
+        en: 'DPF-equipped OM642 versions require the low-ash approval specified for the exact vehicle. Do not choose oil by viscosity alone.',
+        es: 'Los OM642 con DPF requieren la homologación baja en cenizas del vehículo exacto. No elijas solo por viscosidad.',
+        fr: "Les OM642 avec DPF exigent l'homologation faible en cendres du véhicule exact. Ne choisissez pas selon la viscosité seule.",
+        de: 'OM642 mit DPF benötigen die fahrzeugspezifische aschearme Freigabe. Öl nicht nur nach Viskosität wählen.'
+      },
+      statusKey: 'starterReview'
     }
   ]
 };
