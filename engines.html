@@ -758,7 +758,7 @@
         regionAll: 'All regions', regionEurope: 'Europe', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
         finderCount: '{count} engine records available.',
         finderEmpty: 'No matching engine code found. Try a shorter code or send a request.',
-        detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', fuel: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
+        detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', fuelType: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
         manufacturerLife: 'Manufacturer-declared life', observedLife: 'Observed service life', fuelConsumption: 'Indicative fuel consumption',
         observedLifeNote: 'Non-official range reported for maintained engines; not a guarantee.',
         fuelConsumptionNote: 'Approximate combined range across common applications; vehicle, gearbox and use change the result.',
@@ -855,7 +855,7 @@
         regionAll: 'Todas las regiones', regionEurope: 'Europa', regionJapan: 'Japón', regionKorea: 'Corea', regionUsa: 'EE. UU.',
         finderCount: '{count} registros de motores disponibles.',
         finderEmpty: 'No se encontró el código. Prueba un código más corto o envía una solicitud.',
-        detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', fuel: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
+        detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', fuelType: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
         manufacturerLife: 'Vida declarada por fabricante', observedLife: 'Vida útil observada', fuelConsumption: 'Consumo orientativo',
         observedLifeNote: 'Rango no oficial observado con mantenimiento; no es una garantía.',
         fuelConsumptionNote: 'Rango combinado aproximado; vehículo, caja y uso cambian el resultado.',
@@ -952,7 +952,7 @@
         regionAll: 'Toutes régions', regionEurope: 'Europe', regionJapan: 'Japon', regionKorea: 'Corée', regionUsa: 'États-Unis',
         finderCount: '{count} fiches moteur disponibles.',
         finderEmpty: 'Aucun code moteur trouvé. Essayez un code plus court ou envoyez une demande.',
-        detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', fuel: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
+        detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', fuelType: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
         manufacturerLife: 'Durée déclarée par constructeur', observedLife: 'Durée de service observée', fuelConsumption: 'Consommation indicative',
         observedLifeNote: 'Plage non officielle observée avec entretien ; ce n’est pas une garantie.',
         fuelConsumptionNote: 'Plage mixte approximative ; véhicule, boîte et usage modifient le résultat.',
@@ -1049,7 +1049,7 @@
         regionAll: 'Alle Regionen', regionEurope: 'Europa', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
         finderCount: '{count} Motordatensätze verfügbar.',
         finderEmpty: 'Kein Motorcode gefunden. Kürzeren Code versuchen oder Anfrage senden.',
-        detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', fuel: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
+        detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', fuelType: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
         manufacturerLife: 'Vom Hersteller genannte Laufleistung', observedLife: 'Beobachtete Laufleistung', fuelConsumption: 'Richtverbrauch',
         observedLifeNote: 'Nichtoffizieller Bereich bei gewarteten Motoren; keine Garantie.',
         fuelConsumptionNote: 'Ungefähre kombinierte Spanne; Fahrzeug, Getriebe und Nutzung verändern das Ergebnis.',
@@ -1255,7 +1255,7 @@
           ${specItem(t('years'), escapeHtml(record.years))}
           ${specItem(t('displacement'), escapeHtml(record.displacement))}
           ${specItem(t('configuration'), escapeHtml(record.layout))}
-          ${specItem(t('fuel'), escapeHtml(t(record.fuelKey)))}
+          ${specItem(t('fuelType'), escapeHtml(t(record.fuelKey)))}
           ${specItem(t('aspiration'), escapeHtml(t(record.aspirationKey)))}
           ${specItem(t('injection'), escapeHtml(t(record.injectionKey)))}
           ${specItem(t('block'), escapeHtml(t(record.blockKey)))}
