@@ -70,7 +70,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.5 L · 2,488 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Nissan Altima', 'X-Trail', 'Rogue', 'Sentra SE-R', 'Frontier'], consumption: '8-12 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'nissan-altima-qr25de', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Long-running aluminium 2.5-litre four-cylinder family with DOHC head and timing chain. Injection and detail design changed across generations.', issues: 'Early pre-catalyst damage and oil use; early intake butterfly screws; chain wear; overheating and head-gasket damage; later-version issues differ.', pros: 'Good low-speed torque, wide global use, accessible parts and straightforward basic service.', cons: 'Early and late QR25DE versions must not be treated as identical; vehicle CVT problems are often confused with engine faults.' },
         es: { construction: 'Familia 2.5 de aluminio de larga producción con culata DOHC y cadena. La inyección y detalles cambiaron por generación.', issues: 'Precatalizador y consumo en versiones tempranas; tornillos de admisión; cadena; sobrecalentamiento y junta; otros fallos en versiones posteriores.', pros: 'Buen par a bajas rpm, uso mundial, piezas accesibles y mantenimiento básico sencillo.', cons: 'Las versiones tempranas y tardías no son iguales; problemas de CVT se confunden a menudo con fallos del motor.' },
@@ -109,7 +109,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L · 1,995 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'diesel', aspirationKey: 'turbocharged',
       injectionKey: 'commonRail', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Hyundai Santa Fe / ix35 / Tucson', 'Kia Sportage / Sorento'], consumption: '5.5-8.5 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'starterReview',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'hyundai-santa-fe-d4ha', statusKey: 'starterReview',
       text: {
         en: { construction: 'R-series 2.0-litre common-rail turbodiesel with DOHC head, variable-geometry turbo, chain drive and emissions equipment depending on market.', issues: 'DPF and EGR loading from short trips; intake deposits; injector correction; turbo oil supply; chain noise; cooling and boost leaks.', pros: 'Strong torque, good long-distance economy and broad use in SUVs.', cons: 'Emissions and injection repairs can be expensive; repeated short trips are a poor operating pattern.' },
         es: { construction: 'Diésel R 2.0 common-rail con culata DOHC, turbo de geometría variable, cadena y emisiones según mercado.', issues: 'Carga de DPF y EGR por trayectos cortos; depósitos; corrección de inyectores; aceite del turbo; cadena; fugas de refrigeración y presión.', pros: 'Buen par, consumo en carretera y uso amplio en SUV.', cons: 'Emisiones e inyección pueden ser caras; los trayectos cortos repetidos son un uso desfavorable.' },
@@ -395,7 +395,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.5 L · 3,496 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'turbocharged',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Ford F-150 / Expedition', 'Explorer', 'Transit', 'Lincoln Navigator'], consumption: '11-17 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'ford-f150-35-ecoboost', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 3.5-litre twin-turbo V6 with DOHC heads, variable timing, timing chains and direct or dual injection depending on generation.', issues: 'Timing-chain stretch and cam phasers on some generations; internal water pump on transverse versions; turbo coolant/oil lines; intake deposits; ignition.', pros: 'High towing torque, strong performance and wide truck/SUV use.', cons: 'Longitudinal and transverse versions differ greatly; chain, water-pump and turbo repairs can be labour-intensive.' },
         es: { construction: 'V6 3.5 biturbo de aluminio, DOHC, distribución variable, cadenas e inyección directa o dual según generación.', issues: 'Cadena y variadores en algunas generaciones; bomba interna en transversales; líneas de turbo; depósitos; encendido.', pros: 'Mucho par de remolque, gran rendimiento y uso amplio en pickups/SUV.', cons: 'Longitudinal y transversal cambian mucho; cadena, bomba y turbos requieren mucha mano de obra.' },
@@ -408,7 +408,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '5.7 L · 5,654 cc', layout: 'V8 · OHV · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'castIronBlock', timingKey: 'timingChain',
       applications: ['Ram 1500', 'Dodge Charger / Challenger / Durango', 'Chrysler 300', 'Jeep Grand Cherokee'], consumption: '12-19 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'chrysler-hemi-57', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Iron-block 5.7-litre pushrod V8 with aluminium heads, multipoint injection, timing chain and MDS cylinder deactivation on many versions; 2009 Eagle update added variable timing.', issues: 'Lifter and cam wear; exhaust-manifold bolt breakage; MDS-related concerns; valve-seat issues on some early engines; oil leaks and cooling neglect.', pros: 'Strong sound and torque, simple compact V8 layout, broad parts supply and large enthusiast base.', cons: 'Fuel use is high; idle history, oil pressure and lifter noise matter, and pre-2009 and Eagle versions differ.' },
         es: { construction: 'V8 5.7 de bloque de hierro, varillas, culatas de aluminio, inyección multipunto, cadena y MDS; Eagle 2009 añade distribución variable.', issues: 'Taqués y levas; tornillos de escape; problemas MDS; asientos de válvula tempranos; fugas y refrigeración.', pros: 'Buen sonido y par, V8 compacto sencillo, muchas piezas y comunidad.', cons: 'Consumo alto; importan horas al ralentí, presión de aceite y ruido de taqués; versiones cambian desde 2009.' },
@@ -486,7 +486,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L · 1,998 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'directInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Mazda3', 'Mazda6', 'CX-3 / CX-30', 'CX-5 / MX-5 derivatives'], consumption: '5.5-9 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '280,000-450,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '280,000-450,000 km', oilRecord: 'mazda-skyactiv-pe-vps', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Mazda high-compression SKYACTIV-G 2.0 aluminium four-cylinder with DOHC 16-valve head, direct injection, variable valve timing and timing chain. Compression ratio and calibration vary by market.', issues: 'Intake-valve deposits from direct injection; ignition coils and plugs; high-pressure fuel components; timing-cover or oil-control-valve seepage; cooling-system maintenance.', pros: 'Good real-world economy, responsive naturally aspirated power, low weight and generally durable chain-driven design.', cons: 'Market compression ratios and PE suffixes differ; correct oil, fuel quality and exact vehicle specification matter.' },
         es: { construction: 'Mazda SKYACTIV-G 2.0 de alta compresión, bloque de aluminio, culata DOHC de 16 válvulas, inyección directa, distribución variable y cadena. Compresión y calibración cambian por mercado.', issues: 'Depósitos en admisión por inyección directa; bobinas y bujías; alta presión; fugas en tapa o válvula de control de aceite; mantenimiento de refrigeración.', pros: 'Buen consumo real, respuesta atmosférica, poco peso y diseño de cadena generalmente duradero.', cons: 'Relación de compresión y sufijos PE varían; importan aceite, combustible y especificación exacta.' },
@@ -785,7 +785,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '4.0 L · 3,956 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Toyota Land Cruiser Prado', 'Toyota 4Runner / FJ Cruiser', 'Toyota Tacoma / Tundra derivatives', 'Toyota Hilux / Fortuner'], consumption: '11-17 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '350,000-550,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '350,000-550,000 km', oilRecord: 'toyota-prado-1gr-fe', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Toyota 4.0-litre aluminium V6 with DOHC 24-valve heads, multipoint injection, variable valve timing and timing chains. Early single-VVT-i and later dual-VVT-i versions differ.', issues: 'Water-pump leaks; timing-cover oil seepage; ignition coils; secondary-air system on some markets; cooling neglect and occasional head-gasket concerns on early or overheated engines.', pros: 'Strong torque, excellent 4x4 durability, wide global support and high-mileage potential.', cons: 'Fuel use is high; production revision, cooling history and exact market emissions equipment must be checked.' },
         es: { construction: 'V6 Toyota 4.0 de aluminio, culatas DOHC de 24 válvulas, inyección multipunto, distribución variable y cadenas. Versiones tempranas VVT-i simple y posteriores dual cambian.', issues: 'Bomba de agua; fugas en tapa de distribución; bobinas; aire secundario en algunos mercados; refrigeración y junta en motores tempranos o recalentados.', pros: 'Buen par, gran durabilidad 4x4, soporte mundial y alto kilometraje.', cons: 'Consumo alto; revisar revisión, historial de refrigeración y equipo de emisiones del mercado.' },
