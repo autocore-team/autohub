@@ -278,7 +278,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L · 1,998 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'variantDependent',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Mitsubishi Lancer', 'Outlander', 'ASX / RVR', 'Lancer Evolution X'], consumption: '7-14 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'mitsubishi-lancer-4b11', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 2.0-litre DOHC MIVEC four-cylinder with timing chain; naturally aspirated and high-output turbo 4B11T versions have major hardware differences.', issues: 'Chain noise with poor oil service; valve-clearance neglect; oil consumption or leaks; cooling; turbo heat, tuning and detonation on 4B11T.', pros: 'Modern layout, good parts availability, strong naturally aspirated service life and major performance potential in turbo form.', cons: 'Do not transfer Evolution advice to standard engines; turbo cars are highly sensitive to tuning and maintenance history.' },
         es: { construction: 'Cuatro cilindros 2.0 de aluminio, DOHC MIVEC y cadena; atmosféricos y turbo 4B11T tienen grandes diferencias.', issues: 'Ruido de cadena con mal aceite; holgura de válvulas; consumo o fugas; refrigeración; calor, tuning y detonación en 4B11T.', pros: 'Diseño moderno, piezas disponibles, buena vida en atmosféricos y gran potencial turbo.', cons: 'No apliques consejos Evolution al motor normal; turbo depende mucho de tuning e historial.' },
@@ -343,7 +343,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.2 L · 2,199 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'diesel', aspirationKey: 'turbocharged',
       injectionKey: 'commonRail', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Hyundai Santa Fe / Palisade', 'Kia Sorento / Carnival'], consumption: '6-9 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-450,000 km', oilRecord: '', statusKey: 'starterReview',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-450,000 km', oilRecord: 'hyundai-santa-fe-d4hb', statusKey: 'starterReview',
       text: {
         en: { construction: 'R-series 2.2-litre common-rail turbodiesel with light-alloy construction, variable-geometry turbo, timing chain and market-dependent DPF/SCR equipment.', issues: 'DPF and EGR loading; intake deposits; injector correction; chain noise; turbo controls; cooling leaks and SCR/AdBlue faults on later versions.', pros: 'Strong SUV torque, good towing ability and efficient long-distance operation.', cons: 'Complex emissions equipment raises repair cost; exact market and generation determine DPF, SCR and oil requirements.' },
         es: { construction: 'Diésel R 2.2 common rail de aleación ligera, turbo variable, cadena y DPF/SCR según mercado.', issues: 'Carga DPF/EGR; admisión; corrección de inyectores; cadena; control de turbo; fugas y SCR/AdBlue posterior.', pros: 'Mucho par para SUV, buen remolque y eficiencia en carretera.', cons: 'Emisiones complejas elevan costes; mercado y generación determinan DPF, SCR y aceite.' },
@@ -369,7 +369,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.6 L · 3,564 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'directInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Chevrolet Camaro / Impala / Traverse', 'Cadillac ATS / CTS / SRX', 'Buick LaCrosse'], consumption: '9-14 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'gm-lfx-36', statusKey: 'generationCritical',
       text: {
         en: { construction: 'High Feature 3.6-litre aluminium DOHC V6 with direct injection, variable timing and multiple timing chains.', issues: 'Chain wear when oil service is extended; PCV restriction and oil use; water pump; thermostat; intake deposits and high-pressure fuel components.', pros: 'Good power without turbocharging, broad GM application and improved design over some earlier HFV6 versions.', cons: 'Chain system is complex and oil-sensitive; transverse applications can make cooling and timing work expensive.' },
         es: { construction: 'V6 High Feature 3.6 de aluminio, DOHC, inyección directa, distribución variable y varias cadenas.', issues: 'Desgaste de cadenas con aceite prolongado; PCV y consumo; bomba; termostato; depósitos y alta presión.', pros: 'Buena potencia sin turbo, uso amplio GM y mejoras frente a HFV6 anteriores.', cons: 'Cadenas complejas y sensibles al aceite; montaje transversal encarece refrigeración y distribución.' },
@@ -564,7 +564,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.5 L · 3,496 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Ford Edge / Fusion', 'Ford Taurus / Flex', 'Ford Explorer', 'Lincoln MKX / MKZ / MKS'], consumption: '9-15 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'ford-duratec-35', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Ford Cyclone-family naturally aspirated 3.5-litre aluminium V6 with DOHC 24-valve heads, variable timing, multipoint injection and timing chains. Installation and water-pump layout vary by vehicle.', issues: 'Internal water-pump failure on many transverse applications can contaminate engine oil; chain and VCT wear; valve-cover leaks; ignition and cooling faults.', pros: 'Smooth useful power, broad parts supply, no turbo hardware and good service life when cooling and oil are maintained.', cons: 'Water-pump layout must be identified before purchase; warning signs can be subtle and transverse chain or pump work is labour-intensive.' },
         es: { construction: 'V6 Ford Cyclone 3.5 atmosférico de aluminio con culatas DOHC de 24 válvulas, distribución variable, inyección multipunto y cadenas. Montaje y bomba cambian por vehículo.', issues: 'La bomba interna en muchas aplicaciones transversales puede contaminar el aceite; cadena y VCT; fugas de tapas; encendido y refrigeración.', pros: 'Potencia suave, muchas piezas, sin turbo y buena duración con aceite y refrigeración cuidados.', cons: 'Hay que identificar la bomba antes de comprar; los síntomas pueden ser discretos y cadena o bomba transversal requieren mucha mano de obra.' },
@@ -616,7 +616,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.0 L · 2,982 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'diesel', aspirationKey: 'turbocharged',
       injectionKey: 'commonRail', blockKey: 'castIronBlock', timingKey: 'timingBelt',
       applications: ['Toyota Hilux', 'Land Cruiser Prado', 'Toyota Fortuner', 'Toyota Hiace'], consumption: '8-13 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: 'toyota-prado-1kd-ftv', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Toyota 3.0-litre common-rail turbodiesel with an iron block, aluminium DOHC 16-valve head and timing belt. Injection, turbo and emissions equipment changed during production.', issues: 'Injector correction and sealing washers; piston cracking on some high-output or poorly controlled versions; EGR and intake deposits; turbo, cooling, timing belt and later DPF concerns.', pros: 'Strong low-speed torque, wide 4x4 use, good parts support and high-mileage potential with correct maintenance.', cons: 'Injector condition and calibration are critical; market and production revisions must be identified, especially before towing or tuning.' },
         es: { construction: 'Turbodiésel Toyota 3.0 common-rail con bloque de hierro, culata de aluminio DOHC de 16 válvulas y correa. Inyección, turbo y emisiones cambiaron durante la producción.', issues: 'Corrección y arandelas de inyectores; pistones agrietados en algunas versiones exigidas; EGR y admisión; turbo, refrigeración, correa y DPF posteriores.', pros: 'Mucho par, uso 4x4 amplio, buenas piezas y alto kilometraje con mantenimiento correcto.', cons: 'Estado y calibración de inyectores son críticos; identificar mercado y revisión, especialmente antes de remolcar o modificar.' },
@@ -915,7 +915,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.5 L · 2,488 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'diesel', aspirationKey: 'turbocharged',
       injectionKey: 'commonRail', blockKey: 'castIronBlock', timingKey: 'timingChain',
       applications: ['Nissan Navara D40 / NP300', 'Nissan Pathfinder R51', 'Nissan X-Trail derivatives', 'Nissan Cabstar'], consumption: '7.5-12 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '280,000-450,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '280,000-450,000 km', oilRecord: 'nissan-navara-yd25', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Nissan 2.5-litre common-rail turbodiesel with an iron block, aluminium DOHC 16-valve head and timing chains. This record focuses on later common-rail versions.', issues: 'Timing-chain and tensioner wear; injector and fuel-system faults; EGR and DPF loading; turbo and boost control; cooling, head-gasket and early bearing concerns on some applications.', pros: 'Strong utility torque, broad pickup/SUV use and good parts support.', cons: 'Production revisions matter; oil pressure, injector correction, cooling and chain noise should be checked before heavy towing.' },
         es: { construction: 'Turbodiésel Nissan 2.5 common-rail, bloque de hierro, culata DOHC de aluminio y 16 válvulas, y cadenas. La ficha se centra en versiones common-rail.', issues: 'Cadenas y tensores; inyectores y combustible; EGR y DPF; turbo y presión; refrigeración, junta y cojinetes tempranos en algunas aplicaciones.', pros: 'Buen par utilitario, uso amplio en pickup/SUV y piezas disponibles.', cons: 'Importan las revisiones; revisar presión de aceite, corrección de inyectores, refrigeración y cadena antes de remolcar.' },
