@@ -2114,6 +2114,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Z18XER, A18XER und F18D4 können trotz ähnlicher Hardware andere Serviceunterlagen nutzen.'
       },
       statusKey: 'starterReview'
+    },
+    {
+      id: 'toyota-prado-1kd-ftv',
+      make: 'Toyota',
+      model: 'Hilux / Land Cruiser Prado / Fortuner / Hiace',
+      generation: '3.0 D-4D applications',
+      years: '2000-2015',
+      engine: '1KD-FTV 3.0 D-4D',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30', '10W-30'],
+      approvals: ['API / ACEA diesel specification from the exact manual'],
+      standards: ['DPF and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter, vehicle and production version; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro, vehículo y versión; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre, le véhicule et la version ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter, Fahrzeug und Version unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Toyota diesel schedule; towing, dust, idling and off-road use can require severe service.',
+        es: 'Sigue el plan diésel Toyota; remolque, polvo, ralentí y todoterreno pueden exigir servicio severo.',
+        fr: 'Suivez le programme diesel Toyota ; remorquage, poussière, ralenti et tout-terrain peuvent imposer un service sévère.',
+        de: 'Toyota-Dieselplan beachten; Anhängerbetrieb, Staub, Leerlauf und Gelände können erschwerten Service erfordern.'
+      },
+      climate: {
+        en: 'Use the temperature chart and DPF-compatible category stated for the exact vehicle.',
+        es: 'Usa la tabla de temperatura y categoría compatible con DPF indicadas para el vehículo exacto.',
+        fr: 'Utilisez le tableau de température et la catégorie compatible DPF indiqués pour le véhicule exact.',
+        de: 'Temperaturtabelle und die für das genaue Fahrzeug genannte DPF-kompatible Kategorie verwenden.'
+      },
+      source: {
+        en: "Toyota owner's manual and service documentation for the exact 1KD-FTV vehicle, VIN and market.",
+        es: 'Manual y documentación Toyota para vehículo 1KD-FTV, VIN y mercado exactos.',
+        fr: 'Manuel et documentation Toyota pour le véhicule 1KD-FTV, le VIN et le marché exacts.',
+        de: 'Toyota-Betriebsanleitung und Serviceunterlagen für 1KD-FTV-Fahrzeug, VIN und Markt.'
+      },
+      note: {
+        en: 'Confirm whether a DPF is fitted. Older non-DPF and later DPF vehicles can require different oil categories.',
+        es: 'Confirma si lleva DPF. Los vehículos antiguos sin DPF y posteriores con DPF pueden exigir categorías distintas.',
+        fr: 'Confirmez la présence du DPF. Les versions anciennes sans DPF et récentes avec DPF peuvent différer.',
+        de: 'DPF-Ausstattung bestätigen. Ältere Fahrzeuge ohne und spätere mit DPF können andere Kategorien verlangen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'nissan-navara-yd25',
+      make: 'Nissan',
+      model: 'Navara / Pathfinder / Cabstar',
+      generation: 'D40 / R51 and related platforms',
+      years: '2005-2020',
+      engine: 'YD25DDTi 2.5 dCi',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30', '10W-40'],
+      approvals: ['Nissan / ACEA diesel specification from the exact manual'],
+      standards: ['DPF and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by YD25 revision, sump, filter and vehicle; verify the exact service fill by VIN.',
+        es: 'Varía según revisión YD25, cárter, filtro y vehículo; comprueba mediante VIN.',
+        fr: 'Varie selon la révision YD25, le carter, le filtre et le véhicule ; vérifiez avec le VIN.',
+        de: 'Je nach YD25-Revision, Ölwanne, Filter und Fahrzeug unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Nissan diesel schedule; towing, idling and short trips can require the severe-use interval.',
+        es: 'Sigue el plan diésel Nissan; remolque, ralentí y trayectos cortos pueden exigir intervalo severo.',
+        fr: 'Suivez le programme diesel Nissan ; remorquage, ralenti et petits trajets peuvent imposer un intervalle sévère.',
+        de: 'Nissan-Dieselplan beachten; Anhängerbetrieb, Leerlauf und Kurzstrecke können das erschwerte Intervall erfordern.'
+      },
+      climate: {
+        en: 'DPF compatibility and the exact Nissan specification take priority over viscosity alone.',
+        es: 'La compatibilidad DPF y especificación Nissan exacta tienen prioridad sobre la viscosidad.',
+        fr: 'La compatibilité DPF et la spécification Nissan exacte priment sur la viscosité seule.',
+        de: 'DPF-Verträglichkeit und genaue Nissan-Spezifikation sind wichtiger als nur die Viskosität.'
+      },
+      source: {
+        en: "Nissan owner's manual and service documentation for the exact YD25 revision, VIN and market.",
+        es: 'Manual y documentación Nissan para revisión YD25, VIN y mercado exactos.',
+        fr: 'Manuel et documentation Nissan pour la révision YD25, le VIN et le marché exacts.',
+        de: 'Nissan-Betriebsanleitung und Serviceunterlagen für YD25-Revision, VIN und Markt.'
+      },
+      note: {
+        en: 'YD25 revisions and DPF equipment differ substantially. Confirm production date and full vehicle specification.',
+        es: 'Las revisiones YD25 y el DPF cambian mucho. Confirma fecha de producción y especificación completa.',
+        fr: 'Les révisions YD25 et le DPF diffèrent fortement. Confirmez la date de production et la configuration.',
+        de: 'YD25-Revisionen und DPF-Ausstattung unterscheiden sich deutlich. Produktionsdatum und Konfiguration bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'mitsubishi-lancer-4b11',
+      make: 'Mitsubishi',
+      model: 'Lancer / Outlander / ASX',
+      generation: 'Naturally aspirated 4B11 applications',
+      years: '2007-2020',
+      engine: '4B11 2.0 MIVEC',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Market and model year dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter, vehicle and market version; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro, vehículo y mercado; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre, le véhicule et le marché ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter, Fahrzeug und Marktversion unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Mitsubishi maintenance schedule for the exact model year and operating conditions.',
+        es: 'Sigue el plan Mitsubishi del año y condiciones de uso exactos.',
+        fr: "Suivez le programme Mitsubishi de l'année et des conditions d'utilisation exacts.",
+        de: 'Mitsubishi-Wartungsplan für Baujahr und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Use the viscosity chart in the exact market manual; do not select oil from an Evolution guide.',
+        es: 'Usa la tabla del manual del mercado exacto; no elijas aceite de una guía Evolution.',
+        fr: "Utilisez le tableau du manuel du marché exact ; ne choisissez pas l'huile d'un guide Evolution.",
+        de: 'Viskositätstabelle des genauen Markthandbuchs verwenden; kein Öl aus einem Evolution-Handbuch wählen.'
+      },
+      source: {
+        en: "Mitsubishi owner's manual for the exact naturally aspirated 4B11 vehicle, model year and market.",
+        es: 'Manual Mitsubishi del vehículo 4B11 atmosférico, año y mercado exactos.',
+        fr: "Manuel Mitsubishi du véhicule 4B11 atmosphérique, de l'année et du marché exacts.",
+        de: 'Mitsubishi-Betriebsanleitung für 4B11-Saugmotorfahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'This profile does not cover the turbocharged 4B11T used in the Lancer Evolution X.',
+        es: 'Este perfil no cubre el 4B11T turbo del Lancer Evolution X.',
+        fr: 'Cette fiche ne couvre pas le 4B11T turbo de la Lancer Evolution X.',
+        de: 'Dieses Profil gilt nicht für den 4B11T-Turbomotor im Lancer Evolution X.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'hyundai-santa-fe-d4hb',
+      make: 'Hyundai / Kia',
+      model: 'Santa Fe / Palisade / Sorento / Carnival',
+      generation: 'R 2.2 CRDi applications',
+      years: '2009-present',
+      engine: 'D4HB 2.2 CRDi',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30'],
+      approvals: ['ACEA specification from the exact owner manual'],
+      standards: ['ACEA C2 or C3 depending on market and DPF system'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by engine revision, sump, filter and vehicle; verify the exact service fill by VIN.',
+        es: 'Varía según revisión, cárter, filtro y vehículo; comprueba mediante VIN.',
+        fr: 'Varie selon la révision moteur, le carter, le filtre et le véhicule ; vérifiez avec le VIN.',
+        de: 'Je nach Motorrevision, Ölwanne, Filter und Fahrzeug unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Hyundai or Kia diesel schedule; short trips and interrupted DPF regeneration affect oil condition.',
+        es: 'Sigue el plan diésel Hyundai o Kia; trayectos cortos y regeneraciones DPF interrumpidas afectan al aceite.',
+        fr: "Suivez le programme diesel Hyundai ou Kia ; petits trajets et régénérations DPF interrompues affectent l'huile.",
+        de: 'Hyundai- oder Kia-Dieselplan beachten; Kurzstrecke und abgebrochene DPF-Regeneration beeinflussen das Öl.'
+      },
+      climate: {
+        en: 'Use the exact low-ash ACEA category required for the fitted emission system.',
+        es: 'Usa la categoría ACEA baja en cenizas requerida para el sistema de emisiones instalado.',
+        fr: 'Utilisez la catégorie ACEA faible en cendres exigée pour le système antipollution installé.',
+        de: 'Die für das verbaute Abgassystem erforderliche aschearme ACEA-Kategorie verwenden.'
+      },
+      source: {
+        en: "Hyundai or Kia owner's manual for the exact D4HB version, VIN and market.",
+        es: 'Manual Hyundai o Kia para la versión D4HB, VIN y mercado exactos.',
+        fr: 'Manuel Hyundai ou Kia pour la version D4HB, le VIN et le marché exacts.',
+        de: 'Hyundai- oder Kia-Betriebsanleitung für D4HB-Version, VIN und Markt.'
+      },
+      note: {
+        en: 'Confirm DPF equipment and full engine revision before choosing between ACEA C2 and C3.',
+        es: 'Confirma DPF y revisión completa antes de elegir entre ACEA C2 y C3.',
+        fr: 'Confirmez le DPF et la révision moteur complète avant de choisir entre ACEA C2 et C3.',
+        de: 'DPF-Ausstattung und vollständige Motorrevision vor der Wahl zwischen ACEA C2 und C3 bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'gm-lfx-36',
+      make: 'Chevrolet / Cadillac / Buick',
+      model: 'Camaro / Impala / Traverse / ATS / CTS',
+      generation: 'LFX 3.6 applications',
+      years: '2012-2020',
+      engine: 'LFX 3.6 V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30'],
+      approvals: ['dexos1 approved oil'],
+      standards: ['API / ILSAC category from the exact manual'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by longitudinal or transverse installation, sump and filter; verify the exact service fill by VIN.',
+        es: 'Varía según instalación longitudinal o transversal, cárter y filtro; comprueba mediante VIN.',
+        fr: "Varie selon l'installation longitudinale ou transversale, le carter et le filtre ; vérifiez avec le VIN.",
+        de: 'Je nach Längs- oder Quereinbau, Ölwanne und Filter unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the GM Oil Life System and the severe-use schedule for the exact vehicle.',
+        es: 'Sigue GM Oil Life System y el plan de uso severo del vehículo exacto.',
+        fr: "Suivez le GM Oil Life System et le programme d'utilisation sévère du véhicule exact.",
+        de: 'GM Oil Life System und den Plan für erschwerten Betrieb des Fahrzeugs beachten.'
+      },
+      climate: {
+        en: 'Use the specified dexos1-approved grade; viscosity alone does not replace the approval.',
+        es: 'Usa el grado dexos1 indicado; la viscosidad sola no sustituye la homologación.',
+        fr: "Utilisez le grade dexos1 indiqué ; la viscosité seule ne remplace pas l'homologation.",
+        de: 'Die vorgeschriebene dexos1-Klasse verwenden; Viskosität allein ersetzt die Freigabe nicht.'
+      },
+      source: {
+        en: "Chevrolet, Cadillac or Buick owner's manual for the exact VIN, model year and vehicle.",
+        es: 'Manual Chevrolet, Cadillac o Buick para VIN, año y vehículo exactos.',
+        fr: "Manuel Chevrolet, Cadillac ou Buick pour le VIN, l'année et le véhicule exacts.",
+        de: 'Chevrolet-, Cadillac- oder Buick-Betriebsanleitung für VIN, Baujahr und Fahrzeug.'
+      },
+      note: {
+        en: 'Oil choice does not diagnose timing-chain noise or consumption faults. Inspect those separately.',
+        es: 'El aceite no diagnostica ruido de cadena ni consumo. Revisa esos problemas por separado.',
+        fr: "Le choix d'huile ne diagnostique pas les bruits de chaîne ni la consommation. Contrôlez-les séparément.",
+        de: 'Die Ölwahl diagnostiziert keine Steuerkettengeräusche oder Verbrauchsfehler. Separat prüfen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'ford-duratec-35',
+      make: 'Ford / Lincoln',
+      model: 'Edge / Fusion / Taurus / Explorer / MKX',
+      generation: 'Naturally aspirated 3.5 Cyclone applications',
+      years: '2007-2020',
+      engine: '3.5 Duratec / Cyclone V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-20'],
+      approvals: ['Ford WSS specification from the exact owner manual'],
+      standards: ['Model year and vehicle dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by vehicle, sump, filter and drivetrain; verify the exact service-fill quantity by VIN.',
+        es: 'Varía según vehículo, cárter, filtro y transmisión; comprueba la cantidad mediante VIN.',
+        fr: 'Varie selon le véhicule, le carter, le filtre et la transmission ; vérifiez la quantité avec le VIN.',
+        de: 'Je nach Fahrzeug, Ölwanne, Filter und Antrieb unterschiedlich; genaue Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Intelligent Oil-Life Monitor and the schedule for the exact vehicle and operating conditions.',
+        es: 'Sigue Intelligent Oil-Life Monitor y el plan del vehículo y condiciones exactos.',
+        fr: "Suivez l'Intelligent Oil-Life Monitor et le programme du véhicule et des conditions exacts.",
+        de: 'Intelligent Oil-Life Monitor und den Plan für Fahrzeug und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Use the Ford-approved grade from the exact manual; do not copy a 3.5 EcoBoost recommendation.',
+        es: 'Usa el grado Ford del manual exacto; no copies la recomendación del 3.5 EcoBoost.',
+        fr: "Utilisez le grade Ford du manuel exact ; ne copiez pas la recommandation du 3.5 EcoBoost.",
+        de: 'Die Ford-freigegebene Klasse des Handbuchs verwenden; keine 3.5-EcoBoost-Empfehlung übernehmen.'
+      },
+      source: {
+        en: "Ford or Lincoln owner's manual for the exact naturally aspirated 3.5 vehicle, VIN and model year.",
+        es: 'Manual Ford o Lincoln del 3.5 atmosférico, VIN y año exactos.',
+        fr: "Manuel Ford ou Lincoln du 3.5 atmosphérique, du VIN et de l'année exacts.",
+        de: 'Ford- oder Lincoln-Betriebsanleitung für 3.5-Saugmotorfahrzeug, VIN und Baujahr.'
+      },
+      note: {
+        en: 'This profile is for the naturally aspirated Duratec/Cyclone, not the twin-turbo 3.5 EcoBoost.',
+        es: 'Este perfil es para Duratec/Cyclone atmosférico, no para 3.5 EcoBoost biturbo.',
+        fr: 'Cette fiche concerne le Duratec/Cyclone atmosphérique, pas le 3.5 EcoBoost biturbo.',
+        de: 'Dieses Profil gilt für Duratec/Cyclone-Saugmotoren, nicht für den Biturbo-3.5-EcoBoost.'
+      },
+      statusKey: 'starterReview'
     }
   ]
 };
