@@ -764,6 +764,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Die B5254T-Familie umfasst mehrere Leistungen und Maerkte. Vollstaendigen Suffix bestaetigen.'
       },
       statusKey: 'starterReview'
+    },
+    {
+      id: 'bmw-f10-n57',
+      make: 'BMW',
+      model: '3 / 5 Series and X models',
+      generation: 'E9x / F-series',
+      years: '2008-2020',
+      engine: 'N57D30 family',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['BMW Longlife-04'],
+      standards: ['ACEA C3'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by N57 output, turbo layout, sump and drivetrain; verify the exact service fill by VIN.',
+        es: 'Varía según potencia N57, turbos, cárter y transmisión; comprueba la cantidad mediante VIN.',
+        fr: 'Varie selon la puissance N57, les turbos, le carter et la transmission ; vérifiez avec le VIN.',
+        de: 'Je nach N57-Leistung, Laderanordnung, Ölwanne und Antrieb unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow Condition Based Service and the market-specific schedule for the exact vehicle.',
+        es: 'Sigue Condition Based Service y el plan del mercado para el vehículo exacto.',
+        fr: 'Suivez le Condition Based Service et le programme du marché pour le véhicule exact.',
+        de: 'Condition Based Service und den marktspezifischen Wartungsplan des Fahrzeugs beachten.'
+      },
+      climate: {
+        en: 'Use a permitted SAE grade carrying the required BMW approval and suitable for the fitted DPF.',
+        es: 'Usa un grado SAE permitido con la homologación BMW requerida y adecuado para el DPF instalado.',
+        fr: 'Utilisez un grade SAE autorisé avec homologation BMW et adapté au DPF installé.',
+        de: 'Zulässige SAE-Klasse mit erforderlicher BMW-Freigabe und Eignung für den verbauten DPF verwenden.'
+      },
+      source: {
+        en: "BMW owner's manual and service documentation for the exact N57 version, VIN and market.",
+        es: 'Manual y documentación BMW para la versión N57, VIN y mercado exactos.',
+        fr: 'Manuel et documentation BMW pour la version N57, le VIN et le marché exacts.',
+        de: 'BMW-Betriebsanleitung und Serviceunterlagen für N57-Version, VIN und Markt.'
+      },
+      note: {
+        en: 'N57 versions use different turbo and emission systems. Confirm the full engine variant before buying oil.',
+        es: 'Las versiones N57 usan distintos turbos y emisiones. Confirma la variante completa antes de comprar aceite.',
+        fr: "Les versions N57 utilisent différents turbos et systèmes antipollution. Confirmez la variante complète.",
+        de: 'N57-Versionen nutzen unterschiedliche Lader und Abgassysteme. Vor dem Ölkauf die genaue Variante bestätigen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'bmw-f30-b48',
+      make: 'BMW / MINI',
+      model: 'BMW and MINI 2.0 turbo models',
+      generation: 'F-series / early G-series',
+      years: '2014-present',
+      engine: 'B48A20 / B48B20',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-20', '0W-30', '5W-30'],
+      approvals: ['BMW Longlife-01 FE', 'BMW Longlife-17 FE+ where specified', 'BMW Longlife-04 in applicable markets'],
+      standards: ['Exact BMW approval by VIN and market'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by B48 installation, sump, oil-filter module and vehicle platform; verify by VIN.',
+        es: 'Varía según instalación B48, cárter, módulo de filtro y plataforma; comprueba mediante VIN.',
+        fr: "Varie selon l'installation B48, le carter, le module de filtre et la plateforme ; vérifiez avec le VIN.",
+        de: 'Je nach B48-Einbau, Ölwanne, Filtermodul und Plattform unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow Condition Based Service; use the approval assigned to the exact production date and market.',
+        es: 'Sigue Condition Based Service; usa la homologación asignada a la fecha y mercado exactos.',
+        fr: "Suivez le Condition Based Service ; utilisez l'homologation correspondant à la date et au marché.",
+        de: 'Condition Based Service beachten; die für Produktionsdatum und Markt vorgesehene Freigabe verwenden.'
+      },
+      climate: {
+        en: 'Do not replace a required fuel-economy approval with a thicker oil solely because of climate or mileage.',
+        es: 'No sustituyas una homologación de ahorro por aceite más espeso solo por clima o kilometraje.',
+        fr: "Ne remplacez pas une homologation économie par une huile plus épaisse à cause du climat ou du kilométrage.",
+        de: 'Eine vorgeschriebene Fuel-Economy-Freigabe nicht nur wegen Klima oder Laufleistung durch dickeres Öl ersetzen.'
+      },
+      source: {
+        en: "BMW or MINI owner's manual and service documentation for the exact VIN, production date and market.",
+        es: 'Manual y documentación BMW o MINI para VIN, fecha de producción y mercado exactos.',
+        fr: 'Manuel et documentation BMW ou MINI pour le VIN, la date de production et le marché exacts.',
+        de: 'BMW- oder MINI-Betriebsanleitung und Serviceunterlagen für VIN, Produktionsdatum und Markt.'
+      },
+      note: {
+        en: 'B48 oil requirements changed during production. Read the approval printed on the container, not only the SAE grade.',
+        es: 'Los requisitos B48 cambiaron durante la producción. Lee la homologación del envase, no solo el grado SAE.',
+        fr: "Les exigences B48 ont évolué. Lisez l'homologation sur le bidon, pas seulement le grade SAE.",
+        de: 'B48-Ölanforderungen änderten sich während der Bauzeit. Freigabe auf dem Gebinde prüfen, nicht nur SAE-Klasse.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'bmw-g20-b58',
+      make: 'BMW / Toyota',
+      model: 'BMW 40i models / Toyota GR Supra',
+      generation: 'F-series / G-series / A90',
+      years: '2015-present',
+      engine: 'B58B30 family',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-20', '0W-30', '5W-30'],
+      approvals: ['BMW Longlife-01 FE', 'BMW Longlife-17 FE+ where specified', 'Market-specific approval'],
+      standards: ['Exact manufacturer approval by VIN'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by B58 generation, sump, cooling package and vehicle installation; verify the exact fill by VIN.',
+        es: 'Varía según generación B58, cárter, refrigeración e instalación; comprueba mediante VIN.',
+        fr: "Varie selon la génération B58, le carter, le refroidissement et l'installation ; vérifiez avec le VIN.",
+        de: 'Je nach B58-Generation, Ölwanne, Kühlpaket und Fahrzeugeinbau unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the service system and schedule of the exact BMW or Toyota vehicle and market.',
+        es: 'Sigue el sistema y plan de servicio del BMW o Toyota y mercado exactos.',
+        fr: "Suivez le système et le programme d'entretien du véhicule BMW ou Toyota et du marché exacts.",
+        de: 'Servicesystem und Wartungsplan des genauen BMW- oder Toyota-Fahrzeugs und Markts beachten.'
+      },
+      climate: {
+        en: 'Use the exact approved oil for the vehicle; performance use does not automatically authorize another grade.',
+        es: 'Usa el aceite homologado para el vehículo; el uso deportivo no autoriza automáticamente otro grado.',
+        fr: "Utilisez l'huile homologuée pour le véhicule ; l'usage sportif n'autorise pas automatiquement un autre grade.",
+        de: 'Das für das Fahrzeug freigegebene Öl verwenden; sportliche Nutzung erlaubt nicht automatisch eine andere Klasse.'
+      },
+      source: {
+        en: "BMW or Toyota owner's manual and service documentation for the exact VIN, market and B58 generation.",
+        es: 'Manual y documentación BMW o Toyota para VIN, mercado y generación B58 exactos.',
+        fr: 'Manuel et documentation BMW ou Toyota pour le VIN, le marché et la génération B58 exacts.',
+        de: 'BMW- oder Toyota-Betriebsanleitung und Serviceunterlagen für VIN, Markt und B58-Generation.'
+      },
+      note: {
+        en: 'BMW and Toyota applications may specify different approved products. Never transfer one application blindly to another.',
+        es: 'BMW y Toyota pueden indicar productos distintos. No transfieras una recomendación de una aplicación a otra.',
+        fr: "BMW et Toyota peuvent prescrire des produits différents. Ne transposez pas une application à une autre.",
+        de: 'BMW- und Toyota-Anwendungen können unterschiedliche Produkte fordern. Angaben nicht ungeprüft übertragen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'vw-golf-ea211',
+      make: 'Volkswagen Group',
+      model: 'Golf / Octavia / Leon / A3',
+      generation: 'MQB models',
+      years: '2012-present',
+      engine: 'EA211 1.0 / 1.2 / 1.4 / 1.5 TSI',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-20', '5W-30', '5W-40'],
+      approvals: ['VW 502 00', 'VW 504 00', 'VW 508 00 where specified'],
+      standards: ['Exact VW approval by engine code and service regime'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Depends on displacement, engine code, sump and filter module; verify the exact service fill.',
+        es: 'Depende de cilindrada, código, cárter y módulo de filtro; comprueba el llenado exacto.',
+        fr: 'Dépend de la cylindrée, du code moteur, du carter et du filtre ; vérifiez le volume exact.',
+        de: 'Abhängig von Hubraum, Motorkennbuchstabe, Ölwanne und Filtermodul; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Use the fixed or LongLife service regime assigned to the vehicle; each can require a different approval.',
+        es: 'Usa el régimen fijo o LongLife asignado; cada uno puede exigir una homologación diferente.',
+        fr: "Suivez le régime fixe ou LongLife attribué ; chacun peut exiger une homologation différente.",
+        de: 'Den zugeordneten Fest- oder LongLife-Service verwenden; beide können unterschiedliche Freigaben verlangen.'
+      },
+      climate: {
+        en: 'Do not substitute VW 508 00 0W-20 with another grade unless the exact manual explicitly permits it.',
+        es: 'No sustituyas VW 508 00 0W-20 por otro grado salvo permiso explícito del manual exacto.',
+        fr: "Ne remplacez pas la VW 508 00 0W-20 sans autorisation explicite du manuel exact.",
+        de: 'VW 508 00 0W-20 nicht ohne ausdrückliche Freigabe des genauen Handbuchs ersetzen.'
+      },
+      source: {
+        en: 'Volkswagen Group owner and service documentation for the exact engine code, production date and service regime.',
+        es: 'Documentación VAG para código, fecha de producción y régimen de servicio exactos.',
+        fr: "Documentation VAG pour le code moteur, la date de production et le régime d'entretien exacts.",
+        de: 'VAG-Unterlagen für Motorkennbuchstabe, Produktionsdatum und genauen Serviceplan.'
+      },
+      note: {
+        en: 'EA211 covers several generations and displacements. The engine code is mandatory before selecting oil.',
+        es: 'EA211 cubre varias generaciones y cilindradas. El código de motor es obligatorio para elegir aceite.',
+        fr: "EA211 couvre plusieurs générations et cylindrées. Le code moteur est indispensable pour choisir l'huile.",
+        de: 'EA211 umfasst mehrere Generationen und Hubräume. Der Motorkennbuchstabe ist für die Ölwahl zwingend.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'vw-golf-ea111-tsi',
+      make: 'Volkswagen Group',
+      model: 'Golf / Polo / Octavia / Fabia',
+      generation: 'PQ-platform models',
+      years: '2005-2015',
+      engine: 'EA111 1.2 TSI / 1.4 TSI',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['VW 502 00', 'VW 504 00'],
+      standards: ['Fixed or LongLife service specification'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Depends on engine code, sump and filter; verify the exact service fill before adding oil.',
+        es: 'Depende del código, cárter y filtro; comprueba la cantidad exacta antes de llenar.',
+        fr: 'Dépend du code moteur, du carter et du filtre ; vérifiez le volume avant remplissage.',
+        de: 'Abhängig von Motorkennbuchstabe, Ölwanne und Filter; Füllmenge vor dem Befüllen prüfen.'
+      },
+      interval: {
+        en: 'Follow the fixed or LongLife schedule configured for the vehicle and use its corresponding approval.',
+        es: 'Sigue el programa fijo o LongLife configurado y usa su homologación correspondiente.',
+        fr: "Suivez le programme fixe ou LongLife configuré et utilisez l'homologation correspondante.",
+        de: 'Den konfigurierten Fest- oder LongLife-Plan und die zugehörige Freigabe verwenden.'
+      },
+      climate: {
+        en: 'Approval, service regime and engine code matter more than selecting viscosity by mileage.',
+        es: 'Homologación, régimen y código importan más que elegir viscosidad por kilometraje.',
+        fr: "L'homologation, le régime et le code moteur priment sur un choix selon le kilométrage.",
+        de: 'Freigabe, Serviceplan und Motorkennbuchstabe sind wichtiger als Viskositätswahl nach Laufleistung.'
+      },
+      source: {
+        en: 'Volkswagen Group owner and service documentation for the exact engine code and service regime.',
+        es: 'Documentación VAG para el código de motor y régimen de servicio exactos.',
+        fr: "Documentation VAG pour le code moteur et le régime d'entretien exacts.",
+        de: 'VAG-Unterlagen für Motorkennbuchstabe und genauen Serviceplan.'
+      },
+      note: {
+        en: 'Identify the exact EA111 code because turbo system, power level and oil quantity differ.',
+        es: 'Identifica el código EA111 exacto porque turbo, potencia y cantidad de aceite cambian.',
+        fr: "Identifiez le code EA111 exact car le turbo, la puissance et le volume d'huile diffèrent.",
+        de: 'Genauen EA111-Code bestimmen, da Lader, Leistung und Ölmenge unterschiedlich sind.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'vw-golf-ea188-19tdi',
+      make: 'Volkswagen Group',
+      model: 'Golf / Passat / Octavia / Leon',
+      generation: 'Mk4 / Mk5-era models',
+      years: '1998-2010',
+      engine: 'EA188 1.9 TDI PD',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['VW 505 01', 'VW 506 01 where specified', 'VW 507 00 for applicable DPF/LongLife vehicles'],
+      standards: ['Unit-injector compatible oil required'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Depends on the exact engine code, sump and filter; verify the service fill before adding oil.',
+        es: 'Depende del código de motor, cárter y filtro; comprueba la cantidad antes de llenar.',
+        fr: 'Dépend du code moteur, du carter et du filtre ; vérifiez le volume avant remplissage.',
+        de: 'Abhängig von Motorkennbuchstabe, Ölwanne und Filter; Füllmenge vor dem Befüllen prüfen.'
+      },
+      interval: {
+        en: 'Match the oil approval to fixed, LongLife and DPF configuration; these requirements are not interchangeable.',
+        es: 'Ajusta la homologación a configuración fija, LongLife y DPF; no son intercambiables.',
+        fr: "Adaptez l'homologation au régime fixe, LongLife et au DPF ; ces exigences ne sont pas interchangeables.",
+        de: 'Ölfreigabe an Fest-, LongLife- und DPF-Konfiguration anpassen; Anforderungen sind nicht austauschbar.'
+      },
+      climate: {
+        en: 'The correct VW approval for the unit-injector valvetrain is more important than viscosity alone.',
+        es: 'La homologación VW correcta para los inyectores-bomba importa más que la viscosidad sola.',
+        fr: "L'homologation VW correcte pour les injecteurs-pompe prime sur la viscosité seule.",
+        de: 'Die richtige VW-Freigabe für den Pumpe-Düse-Ventiltrieb ist wichtiger als nur die Viskosität.'
+      },
+      source: {
+        en: 'Volkswagen Group owner and service documentation for the exact engine code, DPF status and service regime.',
+        es: 'Documentación VAG para código de motor, estado DPF y régimen de servicio exactos.',
+        fr: "Documentation VAG pour le code moteur, le DPF et le régime d'entretien exacts.",
+        de: 'VAG-Unterlagen für Motorkennbuchstabe, DPF-Ausstattung und genauen Serviceplan.'
+      },
+      note: {
+        en: 'Do not use ordinary diesel oil without the required VW unit-injector approval. Camshaft wear can result.',
+        es: 'No uses aceite diésel común sin homologación VW para inyector-bomba; puede desgastarse el árbol de levas.',
+        fr: "N'utilisez pas une huile diesel ordinaire sans homologation VW injecteur-pompe ; l'arbre à cames peut s'user.",
+        de: 'Kein gewöhnliches Dieselöl ohne VW-Pumpe-Düse-Freigabe verwenden; Nockenwellenverschleiß kann folgen.'
+      },
+      statusKey: 'generationCritical'
     }
   ]
 };
