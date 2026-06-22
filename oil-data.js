@@ -1034,6 +1034,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Kein gewöhnliches Dieselöl ohne VW-Pumpe-Düse-Freigabe verwenden; Nockenwellenverschleiß kann folgen.'
       },
       statusKey: 'generationCritical'
+    },
+    {
+      id: 'honda-civic-k20',
+      make: 'Honda / Acura',
+      model: 'Civic / Accord / Integra / RSX',
+      generation: 'Multiple K-series platforms',
+      years: '2001-2015',
+      engine: 'K20A / K20Z family',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Market and performance version dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by K20 suffix, sump, filter and vehicle platform; verify the exact service fill.',
+        es: 'Varía según sufijo K20, cárter, filtro y plataforma; comprueba el llenado exacto.',
+        fr: 'Varie selon le suffixe K20, le carter, le filtre et la plateforme ; vérifiez le volume exact.',
+        de: 'Je nach K20-Suffix, Ölwanne, Filter und Plattform unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow Maintenance Minder or the regional Honda schedule for the exact vehicle.',
+        es: 'Sigue Maintenance Minder o el plan regional Honda del vehículo exacto.',
+        fr: 'Suivez le Maintenance Minder ou le programme Honda régional du véhicule exact.',
+        de: 'Maintenance Minder oder den regionalen Honda-Wartungsplan des Fahrzeugs beachten.'
+      },
+      climate: {
+        en: 'Viscosity differs between economy, performance and regional versions; use the exact owner manual.',
+        es: 'La viscosidad cambia entre versiones económicas, deportivas y regionales; usa el manual exacto.',
+        fr: 'La viscosité varie entre versions économiques, sportives et régionales ; utilisez le manuel exact.',
+        de: 'Die Viskosität unterscheidet sich bei Economy-, Performance- und Marktversionen; genaues Handbuch verwenden.'
+      },
+      source: {
+        en: "Honda or Acura owner's manual for the exact model year, K20 suffix and market.",
+        es: 'Manual Honda o Acura del año, sufijo K20 y mercado exactos.',
+        fr: "Manuel Honda ou Acura de l'année, du suffixe K20 et du marché exacts.",
+        de: 'Honda- oder Acura-Betriebsanleitung für Baujahr, K20-Suffix und Markt.'
+      },
+      note: {
+        en: 'This profile covers naturally aspirated K20A/K20Z applications. It does not cover the later turbocharged K20C.',
+        es: 'Este perfil cubre K20A/K20Z atmosféricos. No cubre el K20C turbo posterior.',
+        fr: 'Cette fiche couvre les K20A/K20Z atmosphériques. Elle ne couvre pas le K20C turbo plus récent.',
+        de: 'Dieses Profil gilt für K20A/K20Z-Saugmotoren. Der spätere K20C-Turbomotor ist nicht abgedeckt.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'toyota-camry-2gr-fe',
+      make: 'Toyota / Lexus',
+      model: 'Camry / Highlander / Sienna / Lexus RX',
+      generation: 'Multiple platforms',
+      years: '2005-2018',
+      engine: '2GR-FE 3.5 V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Model year and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter, model and drivetrain; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro, modelo y transmisión; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre, le modèle et la transmission ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter, Modell und Antrieb unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Toyota or Lexus maintenance schedule for the exact market and operating conditions.',
+        es: 'Sigue el plan Toyota o Lexus del mercado y condiciones de uso exactos.',
+        fr: "Suivez le programme Toyota ou Lexus du marché et des conditions d'utilisation exacts.",
+        de: 'Toyota- oder Lexus-Wartungsplan für Markt und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Earlier and later 2GR-FE applications can specify different grades; the model-year manual decides.',
+        es: 'Los 2GR-FE antiguos y modernos pueden indicar grados distintos; manda el manual del año exacto.',
+        fr: "Les anciens et récents 2GR-FE peuvent prescrire des grades différents ; le manuel de l'année fait foi.",
+        de: 'Frühe und späte 2GR-FE-Anwendungen können andere Klassen verlangen; das Baujahr-Handbuch ist maßgeblich.'
+      },
+      source: {
+        en: "Toyota or Lexus owner's manual for the exact model year, vehicle and market.",
+        es: 'Manual Toyota o Lexus del año, vehículo y mercado exactos.',
+        fr: "Manuel Toyota ou Lexus de l'année, du véhicule et du marché exacts.",
+        de: 'Toyota- oder Lexus-Betriebsanleitung für Baujahr, Fahrzeug und Markt.'
+      },
+      note: {
+        en: 'Do not assume the 2GR-FKS or hybrid 2GR-FXE recommendation is identical to the 2GR-FE.',
+        es: 'No supongas que la recomendación de 2GR-FKS o 2GR-FXE híbrido sea igual a 2GR-FE.',
+        fr: "Ne supposez pas que la recommandation du 2GR-FKS ou du 2GR-FXE hybride soit identique au 2GR-FE.",
+        de: 'Nicht annehmen, dass 2GR-FKS oder Hybrid-2GR-FXE dieselbe Empfehlung wie 2GR-FE haben.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'nissan-vq35de',
+      make: 'Nissan / Infiniti',
+      model: '350Z / Altima / Murano / Maxima / G35',
+      generation: 'Multiple platforms',
+      years: '2001-2015',
+      engine: 'VQ35DE 3.5 V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30'],
+      approvals: ['API specification from the exact manual'],
+      standards: ['ILSAC where specified'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by longitudinal or transverse installation, sump and filter; verify the exact service fill.',
+        es: 'Varía según instalación longitudinal o transversal, cárter y filtro; comprueba la cantidad exacta.',
+        fr: "Varie selon l'installation longitudinale ou transversale, le carter et le filtre ; vérifiez le volume exact.",
+        de: 'Je nach Längs- oder Quereinbau, Ölwanne und Filter unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Nissan or Infiniti schedule for the exact vehicle and severe-use definition.',
+        es: 'Sigue el plan Nissan o Infiniti del vehículo y la definición de uso severo exactos.',
+        fr: "Suivez le programme Nissan ou Infiniti du véhicule et sa définition d'utilisation sévère.",
+        de: 'Nissan- oder Infiniti-Wartungsplan und die genaue Definition erschwerten Betriebs beachten.'
+      },
+      climate: {
+        en: 'Use the viscosity chart in the exact manual; do not choose a thicker grade solely because of mileage.',
+        es: 'Usa la tabla del manual exacto; no elijas aceite más espeso solo por kilometraje.',
+        fr: "Utilisez le tableau du manuel exact ; ne choisissez pas une huile plus épaisse seulement selon le kilométrage.",
+        de: 'Viskositätstabelle im genauen Handbuch verwenden; nicht nur wegen Laufleistung dickeres Öl wählen.'
+      },
+      source: {
+        en: "Nissan or Infiniti owner's manual for the exact model year, vehicle and market.",
+        es: 'Manual Nissan o Infiniti del año, vehículo y mercado exactos.',
+        fr: "Manuel Nissan ou Infiniti de l'année, du véhicule et du marché exacts.",
+        de: 'Nissan- oder Infiniti-Betriebsanleitung für Baujahr, Fahrzeug und Markt.'
+      },
+      note: {
+        en: 'VQ35DE, VQ35HR and VQ37VHR are different engines. Confirm the complete code before selecting oil.',
+        es: 'VQ35DE, VQ35HR y VQ37VHR son motores diferentes. Confirma el código completo.',
+        fr: 'VQ35DE, VQ35HR et VQ37VHR sont différents. Confirmez le code complet avant de choisir.',
+        de: 'VQ35DE, VQ35HR und VQ37VHR sind unterschiedliche Motoren. Vollständigen Code bestätigen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'hyundai-sonata-g4kd',
+      make: 'Hyundai / Kia',
+      model: 'Sonata / Optima / Sportage / Tucson',
+      generation: 'Theta II applications',
+      years: '2009-2016',
+      engine: 'G4KD 2.0 MPI',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-20', '5W-30'],
+      approvals: ['API SM / SN or later compatible category'],
+      standards: ['ILSAC GF-4 / GF-5 where specified'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by vehicle, sump and filter; verify the exact service-fill quantity in the owner manual.',
+        es: 'Varía según vehículo, cárter y filtro; comprueba la cantidad exacta en el manual.',
+        fr: 'Varie selon le véhicule, le carter et le filtre ; vérifiez la quantité exacte dans le manuel.',
+        de: 'Je nach Fahrzeug, Ölwanne und Filter unterschiedlich; genaue Servicefüllmenge im Handbuch prüfen.'
+      },
+      interval: {
+        en: 'Follow the Hyundai or Kia schedule; short trips, dust and prolonged idling can qualify as severe use.',
+        es: 'Sigue el plan Hyundai o Kia; trayectos cortos, polvo y ralentí prolongado pueden ser uso severo.',
+        fr: "Suivez le programme Hyundai ou Kia ; petits trajets, poussière et ralenti prolongé peuvent être un usage sévère.",
+        de: 'Hyundai- oder Kia-Plan beachten; Kurzstrecke, Staub und langer Leerlauf können erschwerten Betrieb darstellen.'
+      },
+      climate: {
+        en: 'Select viscosity from the temperature chart for the exact market and model year.',
+        es: 'Elige la viscosidad según la tabla de temperatura del mercado y año exactos.',
+        fr: "Choisissez la viscosité selon le tableau de température du marché et de l'année exacts.",
+        de: 'Viskosität anhand der Temperaturtabelle für Markt und Baujahr wählen.'
+      },
+      source: {
+        en: "Hyundai or Kia owner's manual for the exact vehicle, model year and market.",
+        es: 'Manual Hyundai o Kia del vehículo, año y mercado exactos.',
+        fr: "Manuel Hyundai ou Kia du véhicule, de l'année et du marché exacts.",
+        de: 'Hyundai- oder Kia-Betriebsanleitung für Fahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'Check the VIN for applicable engine campaigns and service history; oil choice does not replace recall verification.',
+        es: 'Comprueba campañas e historial por VIN; elegir aceite no sustituye verificar llamadas a revisión.',
+        fr: "Vérifiez les campagnes et l'historique par VIN ; le choix d'huile ne remplace pas le contrôle des rappels.",
+        de: 'Aktionen und Historie per VIN prüfen; die Ölwahl ersetzt keine Rückrufprüfung.'
+      },
+      statusKey: 'recallCheck'
+    },
+    {
+      id: 'ford-mustang-coyote',
+      make: 'Ford',
+      model: 'Mustang / F-150',
+      generation: 'Coyote generations 1-4',
+      years: '2011-present',
+      engine: '5.0 Coyote V8',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-20', '5W-30'],
+      approvals: ['Ford WSS specification from the exact owner manual'],
+      standards: ['Generation, vehicle and use dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Changes by Coyote generation, Mustang or F-150 sump, filter and cooling package; verify by VIN.',
+        es: 'Cambia por generación Coyote, cárter Mustang o F-150, filtro y refrigeración; comprueba por VIN.',
+        fr: 'Change selon la génération Coyote, le carter Mustang ou F-150, le filtre et le refroidissement ; vérifiez par VIN.',
+        de: 'Ändert sich nach Coyote-Generation, Mustang- oder F-150-Ölwanne, Filter und Kühlpaket; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Intelligent Oil-Life Monitor and the schedule for normal, severe or track use.',
+        es: 'Sigue Intelligent Oil-Life Monitor y el plan para uso normal, severo o en circuito.',
+        fr: "Suivez l'Intelligent Oil-Life Monitor et le programme normal, sévère ou circuit.",
+        de: 'Intelligent Oil-Life Monitor und den Plan für normalen, erschwerten oder Rennstreckenbetrieb beachten.'
+      },
+      climate: {
+        en: 'Later generations and track packages can specify a different grade; use the exact supplement when fitted.',
+        es: 'Generaciones modernas y paquetes de circuito pueden indicar otro grado; usa el suplemento exacto.',
+        fr: 'Les générations récentes et packs circuit peuvent prescrire un autre grade ; utilisez le supplément exact.',
+        de: 'Spätere Generationen und Track-Pakete können andere Klassen verlangen; genauen Zusatz beachten.'
+      },
+      source: {
+        en: "Ford owner's manual and performance supplement for the exact VIN, model year and use.",
+        es: 'Manual Ford y suplemento deportivo para VIN, año y uso exactos.',
+        fr: "Manuel Ford et supplément performance pour le VIN, l'année et l'usage exacts.",
+        de: 'Ford-Betriebsanleitung und Performance-Zusatz für VIN, Baujahr und Nutzung.'
+      },
+      note: {
+        en: 'Mustang and F-150 Coyote recommendations are not automatically interchangeable, even in the same year.',
+        es: 'Las recomendaciones Coyote de Mustang y F-150 no son automáticamente intercambiables, ni en el mismo año.',
+        fr: 'Les recommandations Coyote Mustang et F-150 ne sont pas automatiquement interchangeables, même la même année.',
+        de: 'Mustang- und F-150-Coyote-Empfehlungen sind auch im selben Baujahr nicht automatisch austauschbar.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'chrysler-pentastar-36',
+      make: 'Chrysler / Dodge / Jeep / Ram',
+      model: 'Multiple 3.6 Pentastar vehicles',
+      generation: 'Pentastar family',
+      years: '2011-present',
+      engine: '3.6 Pentastar V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-20'],
+      approvals: ['FCA MS-6395 where specified'],
+      standards: ['API / ILSAC category from the exact manual'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by model year, revised engine, sump and filter housing; verify the exact service fill.',
+        es: 'Varía según año, revisión del motor, cárter y portafiltro; comprueba la cantidad exacta.',
+        fr: 'Varie selon l’année, la révision moteur, le carter et le boîtier de filtre ; vérifiez le volume exact.',
+        de: 'Je nach Baujahr, Motorrevision, Ölwanne und Filtergehäuse unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the vehicle oil-life system and the severe-duty schedule where applicable.',
+        es: 'Sigue el sistema de vida del aceite y el plan de servicio severo cuando corresponda.',
+        fr: "Suivez le système de durée d'huile et le programme sévère lorsque nécessaire.",
+        de: 'Öllebensdaueranzeige und gegebenenfalls den Plan für erschwerten Betrieb beachten.'
+      },
+      climate: {
+        en: 'The specified grade changed on some later applications; use the exact model-year manual.',
+        es: 'El grado cambió en algunas aplicaciones modernas; usa el manual del año exacto.',
+        fr: "Le grade a changé sur certaines applications récentes ; utilisez le manuel de l'année exacte.",
+        de: 'Die vorgeschriebene Klasse änderte sich bei manchen späteren Anwendungen; genaues Baujahr-Handbuch verwenden.'
+      },
+      source: {
+        en: "Chrysler, Dodge, Jeep or Ram owner's manual for the exact VIN, model year and market.",
+        es: 'Manual Chrysler, Dodge, Jeep o Ram para VIN, año y mercado exactos.',
+        fr: "Manuel Chrysler, Dodge, Jeep ou Ram pour le VIN, l'année et le marché exacts.",
+        de: 'Chrysler-, Dodge-, Jeep- oder Ram-Betriebsanleitung für VIN, Baujahr und Markt.'
+      },
+      note: {
+        en: 'Confirm the filter-housing revision and inspect for leaks during service; oil specification alone does not address housing faults.',
+        es: 'Confirma la revisión del portafiltro y revisa fugas; la especificación del aceite no corrige fallos de la carcasa.',
+        fr: "Confirmez la version du boîtier de filtre et recherchez les fuites ; l'huile ne corrige pas un défaut du boîtier.",
+        de: 'Revision des Filtergehäuses bestätigen und auf Lecks prüfen; die Ölspezifikation behebt keine Gehäusefehler.'
+      },
+      statusKey: 'generationCritical'
     }
   ]
 };
