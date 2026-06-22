@@ -1574,6 +1574,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Die Ölspezifikation diagnostiziert keine AFM-Stößelgeräusche oder Ölverbrauchsfehler; separat prüfen.'
       },
       statusKey: 'generationCritical'
+    },
+    {
+      id: 'toyota-prado-1gr-fe',
+      make: 'Toyota / Lexus',
+      model: 'Land Cruiser Prado / 4Runner / Tacoma / FJ Cruiser',
+      generation: 'Multiple 4.0 V6 platforms',
+      years: '2002-present',
+      engine: '1GR-FE 4.0 V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Model year and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter, platform and drivetrain; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro, plataforma y transmisión; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre, la plateforme et la transmission ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter, Plattform und Antrieb unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Toyota schedule for the exact vehicle; towing, dust and off-road use may qualify as severe service.',
+        es: 'Sigue el plan Toyota; remolque, polvo y uso todoterreno pueden considerarse servicio severo.',
+        fr: 'Suivez le programme Toyota ; remorquage, poussière et tout-terrain peuvent relever du service sévère.',
+        de: 'Toyota-Plan beachten; Anhängerbetrieb, Staub und Geländeeinsatz können erschwerten Service bedeuten.'
+      },
+      climate: {
+        en: 'Earlier and later 1GR-FE applications can specify different grades; use the exact temperature chart.',
+        es: 'Los 1GR-FE antiguos y modernos pueden indicar grados distintos; usa la tabla exacta.',
+        fr: 'Les anciens et récents 1GR-FE peuvent prescrire des grades différents ; utilisez le tableau exact.',
+        de: 'Frühe und späte 1GR-FE-Anwendungen können andere Klassen verlangen; genaue Temperaturtabelle verwenden.'
+      },
+      source: {
+        en: "Toyota or Lexus owner's manual for the exact model year, vehicle and market.",
+        es: 'Manual Toyota o Lexus del año, vehículo y mercado exactos.',
+        fr: "Manuel Toyota ou Lexus de l'année, du véhicule et du marché exacts.",
+        de: 'Toyota- oder Lexus-Betriebsanleitung für Baujahr, Fahrzeug und Markt.'
+      },
+      note: {
+        en: 'Off-road use does not justify changing viscosity without manual approval; check oil level after sustained steep operation.',
+        es: 'El todoterreno no justifica cambiar viscosidad sin permiso del manual; revisa nivel tras pendientes prolongadas.',
+        fr: "Le tout-terrain ne justifie pas un changement de viscosité sans autorisation ; contrôlez le niveau après fortes pentes.",
+        de: 'Geländeeinsatz rechtfertigt keinen Viskositätswechsel ohne Handbuchfreigabe; Ölstand nach langen Steigungen prüfen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'nissan-altima-qr25de',
+      make: 'Nissan',
+      model: 'Altima / X-Trail / Rogue / Frontier',
+      generation: 'Multiple QR25 platforms',
+      years: '2002-2018',
+      engine: 'QR25DE 2.5',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Model year and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by engine revision, sump, filter and vehicle platform; verify the exact service fill.',
+        es: 'Varía según revisión, cárter, filtro y plataforma; comprueba el llenado exacto.',
+        fr: 'Varie selon la révision moteur, le carter, le filtre et la plateforme ; vérifiez le volume exact.',
+        de: 'Je nach Motorrevision, Ölwanne, Filter und Plattform unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Nissan maintenance schedule and its severe-use definition for the exact vehicle.',
+        es: 'Sigue el plan Nissan y su definición de uso severo para el vehículo exacto.',
+        fr: "Suivez le programme Nissan et sa définition d'utilisation sévère pour le véhicule exact.",
+        de: 'Nissan-Wartungsplan und dessen Definition erschwerten Betriebs für das Fahrzeug beachten.'
+      },
+      climate: {
+        en: 'Use the viscosity chart for the exact model year; later QR25DE applications may differ from early versions.',
+        es: 'Usa la tabla del año exacto; los QR25DE modernos pueden diferir de los antiguos.',
+        fr: "Utilisez le tableau de l'année exacte ; les QR25DE récents peuvent différer des premières versions.",
+        de: 'Viskositätstabelle des Baujahrs verwenden; spätere QR25DE können von frühen Versionen abweichen.'
+      },
+      source: {
+        en: "Nissan owner's manual for the exact model year, vehicle and market.",
+        es: 'Manual Nissan del año, vehículo y mercado exactos.',
+        fr: "Manuel Nissan de l'année, du véhicule et du marché exacts.",
+        de: 'Nissan-Betriebsanleitung für Baujahr, Fahrzeug und Markt.'
+      },
+      note: {
+        en: 'QR25DE revisions differ in intake, emissions and oil-consumption history. Confirm the production year.',
+        es: 'Las revisiones QR25DE cambian en admisión, emisiones e historial de consumo. Confirma el año.',
+        fr: "Les révisions QR25DE diffèrent en admission, dépollution et consommation d'huile. Confirmez l'année.",
+        de: 'QR25DE-Revisionen unterscheiden sich bei Ansaugung, Abgas und Ölverbrauch. Produktionsjahr bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'mazda-skyactiv-pe-vps',
+      make: 'Mazda',
+      model: 'Mazda3 / Mazda6 / CX-5',
+      generation: 'SKYACTIV-G platforms',
+      years: '2011-present',
+      engine: 'PE-VPS / SKYACTIV-G 2.0',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API / ILSAC or ACEA specification from the exact manual'],
+      standards: ['Market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by model, sump, filter and market version; verify the exact service-fill quantity.',
+        es: 'Varía según modelo, cárter, filtro y mercado; comprueba la cantidad exacta.',
+        fr: 'Varie selon le modèle, le carter, le filtre et le marché ; vérifiez la quantité exacte.',
+        de: 'Je nach Modell, Ölwanne, Filter und Marktversion unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Mazda maintenance monitor or the regional fixed schedule for the exact vehicle.',
+        es: 'Sigue el monitor Mazda o el plan fijo regional del vehículo exacto.',
+        fr: 'Suivez le moniteur Mazda ou le programme fixe régional du véhicule exact.',
+        de: 'Mazda-Wartungsanzeige oder den regionalen Festplan des Fahrzeugs beachten.'
+      },
+      climate: {
+        en: 'North American, European and other market manuals can specify different grades; use the exact market manual.',
+        es: 'Los manuales norteamericanos, europeos y otros pueden indicar grados distintos; usa el manual del mercado.',
+        fr: 'Les manuels nord-américains, européens et autres peuvent prescrire des grades différents ; utilisez le bon marché.',
+        de: 'Nordamerikanische, europäische und andere Handbücher können andere Klassen nennen; genaues Markthandbuch verwenden.'
+      },
+      source: {
+        en: "Mazda owner's manual for the exact model year, PE-VPS application and market.",
+        es: 'Manual Mazda del año, aplicación PE-VPS y mercado exactos.',
+        fr: "Manuel Mazda de l'année, de l'application PE-VPS et du marché exacts.",
+        de: 'Mazda-Betriebsanleitung für Baujahr, PE-VPS-Anwendung und Markt.'
+      },
+      note: {
+        en: 'Do not transfer a diesel SKYACTIV-D oil specification to this petrol SKYACTIV-G engine.',
+        es: 'No transfieras una especificación diésel SKYACTIV-D a este motor gasolina SKYACTIV-G.',
+        fr: "Ne transposez pas une spécification diesel SKYACTIV-D à ce moteur essence SKYACTIV-G.",
+        de: 'Keine Diesel-SKYACTIV-D-Spezifikation auf diesen Benzin-SKYACTIV-G-Motor übertragen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'hyundai-santa-fe-d4ha',
+      make: 'Hyundai / Kia',
+      model: 'Santa Fe / Tucson / Sportage / Sorento',
+      generation: 'R 2.0 CRDi applications',
+      years: '2009-present',
+      engine: 'D4HA 2.0 CRDi',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30'],
+      approvals: ['ACEA specification from the exact owner manual'],
+      standards: ['ACEA C2 or C3 depending on market and DPF system'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by engine revision, sump, filter and vehicle; verify the exact service fill by VIN.',
+        es: 'Varía según revisión, cárter, filtro y vehículo; comprueba mediante VIN.',
+        fr: 'Varie selon la révision moteur, le carter, le filtre et le véhicule ; vérifiez avec le VIN.',
+        de: 'Je nach Motorrevision, Ölwanne, Filter und Fahrzeug unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Hyundai or Kia diesel schedule; short trips and interrupted DPF regeneration can affect oil condition.',
+        es: 'Sigue el plan diésel Hyundai o Kia; trayectos cortos y regeneraciones DPF interrumpidas afectan al aceite.',
+        fr: "Suivez le programme diesel Hyundai ou Kia ; petits trajets et régénérations DPF interrompues affectent l'huile.",
+        de: 'Hyundai- oder Kia-Dieselplan beachten; Kurzstrecke und abgebrochene DPF-Regeneration beeinflussen das Öl.'
+      },
+      climate: {
+        en: 'Low-ash compatibility with the fitted DPF is more important than selecting viscosity alone.',
+        es: 'La compatibilidad baja en cenizas con el DPF importa más que elegir solo viscosidad.',
+        fr: 'La compatibilité faible en cendres avec le DPF prime sur la seule viscosité.',
+        de: 'Aschearme DPF-Verträglichkeit ist wichtiger als die alleinige Viskositätswahl.'
+      },
+      source: {
+        en: "Hyundai or Kia owner's manual for the exact D4HA version, VIN and market.",
+        es: 'Manual Hyundai o Kia para la versión D4HA, VIN y mercado exactos.',
+        fr: 'Manuel Hyundai ou Kia pour la version D4HA, le VIN et le marché exacts.',
+        de: 'Hyundai- oder Kia-Betriebsanleitung für D4HA-Version, VIN und Markt.'
+      },
+      note: {
+        en: 'Confirm whether a DPF is fitted and use the exact ACEA category stated for that vehicle.',
+        es: 'Confirma si lleva DPF y usa la categoría ACEA exacta indicada para ese vehículo.',
+        fr: 'Confirmez la présence du DPF et utilisez la catégorie ACEA exacte indiquée pour le véhicule.',
+        de: 'DPF-Ausstattung bestätigen und die für das Fahrzeug genannte genaue ACEA-Kategorie verwenden.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'ford-f150-35-ecoboost',
+      make: 'Ford / Lincoln',
+      model: 'F-150 / Expedition / Navigator',
+      generation: '3.5 EcoBoost truck and SUV applications',
+      years: '2011-present',
+      engine: '3.5 EcoBoost V6',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30'],
+      approvals: ['Ford WSS specification from the exact owner manual'],
+      standards: ['Generation and vehicle dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by generation, sump, filter, truck or SUV installation; verify the exact service fill by VIN.',
+        es: 'Varía según generación, cárter, filtro e instalación pickup o SUV; comprueba mediante VIN.',
+        fr: "Varie selon la génération, le carter, le filtre et l'installation pickup ou SUV ; vérifiez avec le VIN.",
+        de: 'Je nach Generation, Ölwanne, Filter und Pickup- oder SUV-Einbau unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Intelligent Oil-Life Monitor; towing, idling and high load can shorten the service interval.',
+        es: 'Sigue Intelligent Oil-Life Monitor; remolque, ralentí y carga alta pueden acortar el intervalo.',
+        fr: "Suivez l'Intelligent Oil-Life Monitor ; remorquage, ralenti et forte charge peuvent réduire l'intervalle.",
+        de: 'Intelligent Oil-Life Monitor beachten; Anhängerbetrieb, Leerlauf und hohe Last können das Intervall verkürzen.'
+      },
+      climate: {
+        en: 'Use the exact Ford-approved oil; turbocharger heat does not authorize an unapproved viscosity.',
+        es: 'Usa el aceite Ford exacto; el calor de los turbos no autoriza una viscosidad no aprobada.',
+        fr: "Utilisez l'huile Ford exacte ; la chaleur des turbos n'autorise pas une viscosité non homologuée.",
+        de: 'Das genaue Ford-freigegebene Öl verwenden; Turbohitze erlaubt keine nicht freigegebene Viskosität.'
+      },
+      source: {
+        en: "Ford or Lincoln owner's manual for the exact VIN, model year and 3.5 EcoBoost generation.",
+        es: 'Manual Ford o Lincoln para VIN, año y generación 3.5 EcoBoost exactos.',
+        fr: "Manuel Ford ou Lincoln pour le VIN, l'année et la génération 3.5 EcoBoost exacts.",
+        de: 'Ford- oder Lincoln-Betriebsanleitung für VIN, Baujahr und 3.5-EcoBoost-Generation.'
+      },
+      note: {
+        en: 'First- and second-generation 3.5 EcoBoost engines differ in injection and timing hardware. Confirm the generation.',
+        es: 'Los 3.5 EcoBoost de primera y segunda generación cambian en inyección y distribución. Confirma la generación.',
+        fr: "Les 3.5 EcoBoost de première et seconde génération diffèrent en injection et distribution. Confirmez la génération.",
+        de: 'Erste und zweite 3.5-EcoBoost-Generation unterscheiden sich bei Einspritzung und Steuertrieb. Generation bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'chrysler-hemi-57',
+      make: 'Chrysler / Dodge / Jeep / Ram',
+      model: 'Ram 1500 / Charger / Challenger / Grand Cherokee',
+      generation: '5.7 HEMI with MDS applications',
+      years: '2005-present',
+      engine: '5.7 HEMI V8',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-20'],
+      approvals: ['FCA MS-6395 where specified'],
+      standards: ['API / ILSAC category from the exact manual'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by model year, sump, filter and vehicle application; verify the exact service fill.',
+        es: 'Varía según año, cárter, filtro y vehículo; comprueba la cantidad exacta.',
+        fr: "Varie selon l'année, le carter, le filtre et le véhicule ; vérifiez le volume exact.",
+        de: 'Je nach Baujahr, Ölwanne, Filter und Fahrzeuganwendung unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the oil-life system and severe-duty schedule for towing, idling or frequent short trips.',
+        es: 'Sigue el sistema de vida y el plan severo para remolque, ralentí o trayectos cortos.',
+        fr: "Suivez le système de durée d'huile et le programme sévère pour remorquage, ralenti ou petits trajets.",
+        de: 'Öllebensdaueranzeige und den erschwerten Plan für Anhängerbetrieb, Leerlauf oder Kurzstrecke beachten.'
+      },
+      climate: {
+        en: 'MDS operation depends on the specified oil grade; do not substitute a thicker oil without manual approval.',
+        es: 'El funcionamiento MDS depende del grado indicado; no uses aceite más espeso sin permiso del manual.',
+        fr: "Le fonctionnement MDS dépend du grade indiqué ; n'utilisez pas une huile plus épaisse sans autorisation.",
+        de: 'Die MDS-Funktion hängt von der vorgeschriebenen Ölklasse ab; kein dickeres Öl ohne Handbuchfreigabe verwenden.'
+      },
+      source: {
+        en: "Chrysler, Dodge, Jeep or Ram owner's manual for the exact VIN, model year and MDS configuration.",
+        es: 'Manual Chrysler, Dodge, Jeep o Ram para VIN, año y configuración MDS exactos.',
+        fr: "Manuel Chrysler, Dodge, Jeep ou Ram pour le VIN, l'année et la configuration MDS exacts.",
+        de: 'Chrysler-, Dodge-, Jeep- oder Ram-Betriebsanleitung für VIN, Baujahr und MDS-Konfiguration.'
+      },
+      note: {
+        en: 'Early non-MDS and later MDS applications may differ. Confirm the exact year before selecting oil.',
+        es: 'Los primeros sin MDS y los posteriores con MDS pueden diferir. Confirma el año exacto.',
+        fr: 'Les premiers sans MDS et les suivants avec MDS peuvent différer. Confirmez l’année exacte.',
+        de: 'Frühe Versionen ohne MDS und spätere mit MDS können abweichen. Genaues Baujahr bestätigen.'
+      },
+      statusKey: 'generationCritical'
     }
   ]
 };
