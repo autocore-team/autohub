@@ -494,6 +494,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Vor Öl- und Mengenwahl frühe Kompressor- oder spätere CGI/Turbo-Version bestimmen.'
       },
       statusKey: 'starterReview'
+    },
+    {
+      id: 'bmw-e90-n52',
+      make: 'BMW',
+      model: '3 Series',
+      generation: 'E90 / E91 / E92 / E93',
+      years: '2005-2012',
+      engine: 'N52B25 / N52B30',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['BMW Longlife-01'],
+      standards: ['ACEA A3/B4'],
+      emissionsKey: 'noDpfGpf',
+      capacity: {
+        en: 'Varies by N52 displacement, sump and oil-filter housing; verify the exact service fill by VIN.',
+        es: 'Varia segun la cilindrada N52, el carter y el filtro; comprueba el llenado exacto mediante VIN.',
+        fr: 'Varie selon la cylindree N52, le carter et le filtre ; verifiez le volume exact avec le VIN.',
+        de: 'Je nach N52-Hubraum, Oelwanne und Filtergehaeuse unterschiedlich; genaue Fuellmenge per VIN pruefen.'
+      },
+      interval: {
+        en: 'Follow Condition Based Service and the schedule for the exact vehicle and market.',
+        es: 'Sigue Condition Based Service y el plan del vehiculo y mercado exactos.',
+        fr: 'Suivez le Condition Based Service et le programme du vehicule et du marche exacts.',
+        de: 'Condition Based Service und den Wartungsplan fuer Fahrzeug und Markt beachten.'
+      },
+      climate: {
+        en: 'Choose an SAE grade permitted by the exact manual; BMW approval takes priority over viscosity alone.',
+        es: 'Elige un grado SAE permitido por el manual; la homologacion BMW tiene prioridad sobre la viscosidad.',
+        fr: "Choisissez un grade SAE autorise par le manuel ; l'homologation BMW est prioritaire.",
+        de: 'Eine laut Handbuch zulaessige SAE-Klasse waehlen; die BMW-Freigabe hat Vorrang.'
+      },
+      source: {
+        en: "BMW owner's manual and service documentation for the exact VIN and market.",
+        es: 'Manual y documentacion de servicio BMW para el VIN y mercado exactos.',
+        fr: "Manuel et documentation d'entretien BMW correspondant au VIN et au marche exacts.",
+        de: 'BMW-Betriebsanleitung und Serviceunterlagen fuer die genaue VIN und den Markt.'
+      },
+      note: {
+        en: 'Confirm the oil carries BMW Longlife-01 approval; a matching SAE grade alone is not sufficient.',
+        es: 'Confirma que el aceite tenga BMW Longlife-01; solo coincidir en grado SAE no es suficiente.',
+        fr: "Verifiez que l'huile porte BMW Longlife-01 ; le seul grade SAE ne suffit pas.",
+        de: 'BMW-Longlife-01-Freigabe bestaetigen; eine passende SAE-Klasse allein reicht nicht.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'bmw-e90-n47',
+      make: 'BMW',
+      model: '1 / 3 Series',
+      generation: 'E8x / E9x / early F-series',
+      years: '2007-2015',
+      engine: 'N47D16 / N47D20',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['BMW Longlife-04'],
+      standards: ['ACEA C3'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by N47 version, sump and drivetrain; verify the exact service fill by VIN.',
+        es: 'Varia segun la version N47, el carter y la transmision; comprueba mediante VIN.',
+        fr: 'Varie selon la version N47, le carter et la transmission ; verifiez avec le VIN.',
+        de: 'Je nach N47-Version, Oelwanne und Antrieb unterschiedlich; Fuellmenge per VIN pruefen.'
+      },
+      interval: {
+        en: 'Follow Condition Based Service; severe short-trip use may require the market-specific severe schedule.',
+        es: 'Sigue Condition Based Service; los trayectos cortos pueden exigir el plan severo del mercado.',
+        fr: 'Suivez le Condition Based Service ; les trajets courts peuvent imposer le programme severe local.',
+        de: 'Condition Based Service beachten; Kurzstrecken koennen den marktspezifischen erschwerten Plan erfordern.'
+      },
+      climate: {
+        en: 'Use a permitted SAE grade with the required BMW approval and DPF compatibility.',
+        es: 'Usa un grado SAE permitido con la homologacion BMW y compatibilidad DPF requeridas.',
+        fr: 'Utilisez un grade SAE autorise avec homologation BMW et compatibilite DPF requises.',
+        de: 'Zulaessige SAE-Klasse mit erforderlicher BMW-Freigabe und DPF-Eignung verwenden.'
+      },
+      source: {
+        en: "BMW owner's manual and service documentation for the exact diesel version, VIN and market.",
+        es: 'Manual y documentacion BMW para la version diesel, VIN y mercado exactos.',
+        fr: 'Manuel et documentation BMW pour la version diesel, le VIN et le marche exacts.',
+        de: 'BMW-Betriebsanleitung und Serviceunterlagen fuer Dieselversion, VIN und Markt.'
+      },
+      note: {
+        en: 'Most DPF-equipped N47 applications require low-ash BMW Longlife-04 oil; verify export-market exceptions.',
+        es: 'La mayoria de N47 con DPF requiere BMW Longlife-04 bajo en cenizas; verifica excepciones del mercado.',
+        fr: 'La plupart des N47 avec DPF exigent BMW Longlife-04 a faible teneur en cendres ; verifiez le marche.',
+        de: 'Die meisten N47 mit DPF benoetigen aschearmes BMW Longlife-04; Marktausnahmen pruefen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'vw-golf-ea189',
+      make: 'Volkswagen',
+      model: 'Golf / Passat',
+      generation: 'Golf Mk6 / Passat B7',
+      years: '2008-2015',
+      engine: 'EA189 1.6 TDI / 2.0 TDI CR',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30'],
+      approvals: ['VW 507 00'],
+      standards: ['Low-SAPS oil for applicable DPF vehicles'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Depends on the exact engine code, sump and filter; verify the service fill on the vehicle data label and manual.',
+        es: 'Depende del codigo de motor, carter y filtro; comprueba la cantidad en la etiqueta y el manual.',
+        fr: 'Depend du code moteur, du carter et du filtre ; verifiez sur la fiche vehicule et le manuel.',
+        de: 'Abhaengig von Motorkennbuchstabe, Oelwanne und Filter; Fuellmenge am Datentraeger und im Handbuch pruefen.'
+      },
+      interval: {
+        en: 'Use the fixed or LongLife service regime assigned to the vehicle; do not mix their oil requirements.',
+        es: 'Usa el regimen fijo o LongLife asignado al vehiculo; no mezcles sus requisitos.',
+        fr: "Suivez le regime fixe ou LongLife du vehicule ; ne melangez pas leurs exigences d'huile.",
+        de: 'Den zugeordneten Fest- oder LongLife-Service verwenden; deren Oelanforderungen nicht mischen.'
+      },
+      climate: {
+        en: 'The VW approval and emission-system compatibility are decisive; viscosity alone is not enough.',
+        es: 'La homologacion VW y el sistema de emisiones son decisivos; la viscosidad sola no basta.',
+        fr: "L'homologation VW et le systeme antipollution sont decisifs ; la viscosite seule ne suffit pas.",
+        de: 'VW-Freigabe und Abgasnachbehandlung sind entscheidend; Viskositaet allein reicht nicht.'
+      },
+      source: {
+        en: 'Volkswagen owner and service documentation for the exact engine code and service regime.',
+        es: 'Documentacion Volkswagen del codigo de motor y regimen de servicio exactos.',
+        fr: "Documentation Volkswagen correspondant au code moteur et au regime d'entretien exacts.",
+        de: 'Volkswagen-Unterlagen fuer Motorkennbuchstabe und genauen Serviceplan.'
+      },
+      note: {
+        en: 'VW 507 00 is the key requirement for many EA189 vehicles with DPF. Verify non-DPF and market-specific versions.',
+        es: 'VW 507 00 es clave para muchos EA189 con DPF. Verifica versiones sin DPF y de otros mercados.',
+        fr: 'VW 507 00 est essentiel pour de nombreux EA189 avec DPF. Verifiez les versions sans DPF et locales.',
+        de: 'VW 507 00 ist fuer viele EA189 mit DPF massgeblich. DPF-lose und marktspezifische Versionen pruefen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'volvo-s60-b5244s',
+      make: 'Volvo',
+      model: 'S60 / V70',
+      generation: 'P2',
+      years: '2001-2009',
+      engine: 'B5244S / B5244S2',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['Volvo VCC 95200377 where specified'],
+      standards: ['ACEA A5/B5 or model-year manual specification'],
+      emissionsKey: 'noDpfGpf',
+      capacity: {
+        en: 'Varies by engine suffix, sump and model year; verify the exact service fill by VIN and dipstick procedure.',
+        es: 'Varia segun el sufijo, carter y ano; comprueba mediante VIN y el procedimiento de varilla.',
+        fr: 'Varie selon le suffixe moteur, le carter et l\'annee ; verifiez avec le VIN et la jauge.',
+        de: 'Je nach Motorsuffix, Oelwanne und Baujahr unterschiedlich; per VIN und Peilstabverfahren pruefen.'
+      },
+      interval: {
+        en: 'Follow the Volvo maintenance schedule for the exact model year and operating conditions.',
+        es: 'Sigue el plan Volvo del ano exacto y las condiciones de uso.',
+        fr: "Suivez le programme Volvo de l'annee exacte et des conditions d'utilisation.",
+        de: 'Volvo-Wartungsplan fuer genaues Baujahr und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Older P2 manuals use temperature charts and may list legacy ACEA grades; the exact model-year manual decides.',
+        es: 'Los manuales P2 usan tablas de temperatura y pueden indicar ACEA antiguos; manda el manual del ano exacto.',
+        fr: "Les manuels P2 utilisent des tableaux de temperature et parfois d'anciens grades ACEA ; le manuel exact fait foi.",
+        de: 'P2-Handbuecher nutzen Temperaturtabellen und teils aeltere ACEA-Klassen; das genaue Baujahr-Handbuch ist massgeblich.'
+      },
+      source: {
+        en: 'Volvo owner and service documentation for the exact model year, engine suffix and market.',
+        es: 'Manual y documentacion Volvo del ano, sufijo de motor y mercado exactos.',
+        fr: 'Manuel et documentation Volvo pour l\'annee, le suffixe moteur et le marche exacts.',
+        de: 'Volvo-Betriebsanleitung und Serviceunterlagen fuer Baujahr, Motorsuffix und Markt.'
+      },
+      note: {
+        en: 'Do not apply a later Volvo oil specification automatically to every early P2 vehicle.',
+        es: 'No apliques automaticamente una especificacion Volvo posterior a todos los P2 antiguos.',
+        fr: "N'appliquez pas automatiquement une specification Volvo recente a tous les premiers P2.",
+        de: 'Eine spaetere Volvo-Oelspezifikation nicht automatisch auf alle fruehen P2 uebertragen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'volvo-v70-d5244t',
+      make: 'Volvo',
+      model: 'V70 / XC70',
+      generation: 'P2 / P3',
+      years: '2005-2016',
+      engine: 'D5244T family / D5',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30'],
+      approvals: ['Volvo VCC 95200377 where specified'],
+      standards: ['ACEA A5/B5; verify exact engine variant'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies substantially across D5244T suffixes and sumps; verify by VIN before filling.',
+        es: 'Varia mucho entre sufijos D5244T y carteres; comprueba mediante VIN antes de llenar.',
+        fr: 'Varie fortement selon le suffixe D5244T et le carter ; verifiez avec le VIN avant remplissage.',
+        de: 'Je nach D5244T-Suffix und Oelwanne deutlich unterschiedlich; vor dem Befuellen per VIN pruefen.'
+      },
+      interval: {
+        en: 'Follow the Volvo schedule for the exact vehicle; DPF regeneration and short-trip use affect oil condition.',
+        es: 'Sigue el plan Volvo exacto; la regeneracion DPF y los trayectos cortos afectan al aceite.',
+        fr: "Suivez le programme Volvo exact ; la regeneration du DPF et les trajets courts influencent l'huile.",
+        de: 'Genauen Volvo-Plan beachten; DPF-Regeneration und Kurzstrecken beeinflussen den Oelzustand.'
+      },
+      climate: {
+        en: 'Use only the viscosity and quality stated for the exact engine suffix and emission system.',
+        es: 'Usa solo la viscosidad y calidad indicadas para el sufijo y sistema de emisiones exactos.',
+        fr: "Utilisez uniquement la viscosite et la qualite prevues pour le suffixe et le systeme d'emissions exacts.",
+        de: 'Nur Viskositaet und Qualitaet fuer den genauen Motorsuffix und das Abgassystem verwenden.'
+      },
+      source: {
+        en: 'Volvo owner and service documentation for the exact D5244T suffix, VIN and market.',
+        es: 'Manual y documentacion Volvo para el sufijo D5244T, VIN y mercado exactos.',
+        fr: 'Manuel et documentation Volvo pour le suffixe D5244T, le VIN et le marche exacts.',
+        de: 'Volvo-Betriebsanleitung und Serviceunterlagen fuer D5244T-Suffix, VIN und Markt.'
+      },
+      note: {
+        en: 'D5 is a family name, not one oil specification. Confirm the full D5244T suffix and whether a DPF is fitted.',
+        es: 'D5 es una familia, no una unica especificacion. Confirma el sufijo D5244T completo y si lleva DPF.',
+        fr: "D5 designe une famille, pas une specification unique. Confirmez le suffixe D5244T complet et la presence du DPF.",
+        de: 'D5 ist eine Motorfamilie, keine einzelne Oelspezifikation. Vollstaendigen D5244T-Suffix und DPF pruefen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'volvo-s60-b5254t',
+      make: 'Volvo',
+      model: 'S60 / V70 / XC90',
+      generation: 'P2',
+      years: '2003-2014',
+      engine: 'B5254T family / 2.5T',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['Volvo VCC 95200377 where specified'],
+      standards: ['ACEA A5/B5 or model-year manual specification'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by B5254T suffix, sump and vehicle platform; verify the exact service fill by VIN.',
+        es: 'Varia segun el sufijo B5254T, carter y plataforma; comprueba mediante VIN.',
+        fr: 'Varie selon le suffixe B5254T, le carter et la plateforme ; verifiez avec le VIN.',
+        de: 'Je nach B5254T-Suffix, Oelwanne und Plattform unterschiedlich; Fuellmenge per VIN pruefen.'
+      },
+      interval: {
+        en: 'Follow the Volvo maintenance schedule for the exact model and operating conditions.',
+        es: 'Sigue el plan Volvo del modelo y condiciones de uso exactos.',
+        fr: "Suivez le programme Volvo du modele et des conditions d'utilisation exacts.",
+        de: 'Volvo-Wartungsplan fuer genaues Modell und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Turbocharger protection depends on correct quality and service, not on choosing a thicker oil without approval.',
+        es: 'La proteccion del turbo depende de calidad y servicio correctos, no de un aceite mas espeso sin homologacion.',
+        fr: "La protection du turbo depend de la qualite et de l'entretien, pas d'une huile plus epaisse non homologuee.",
+        de: 'Turboladerschutz beruht auf richtiger Qualitaet und Wartung, nicht auf dickerem Oel ohne Freigabe.'
+      },
+      source: {
+        en: 'Volvo owner and service documentation for the exact B5254T suffix, model year and market.',
+        es: 'Manual y documentacion Volvo del sufijo B5254T, ano y mercado exactos.',
+        fr: 'Manuel et documentation Volvo pour le suffixe B5254T, l\'annee et le marche exacts.',
+        de: 'Volvo-Betriebsanleitung und Serviceunterlagen fuer B5254T-Suffix, Baujahr und Markt.'
+      },
+      note: {
+        en: 'The B5254T family includes several outputs and markets. Confirm the full suffix before selecting oil.',
+        es: 'La familia B5254T incluye varias potencias y mercados. Confirma el sufijo completo.',
+        fr: 'La famille B5254T couvre plusieurs puissances et marches. Confirmez le suffixe complet.',
+        de: 'Die B5254T-Familie umfasst mehrere Leistungen und Maerkte. Vollstaendigen Suffix bestaetigen.'
+      },
+      statusKey: 'starterReview'
     }
   ]
 };
