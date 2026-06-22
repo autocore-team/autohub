@@ -265,7 +265,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L · 1,995 cc', layout: 'Flat-4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Subaru Impreza', 'XV / Crosstrek', 'Forester', 'Legacy variants'], consumption: '7-10 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'subaru-impreza-fb20', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 2.0-litre horizontally opposed four-cylinder with DOHC heads, timing chains and port or direct injection depending on version.', issues: 'Oil consumption on some early engines; timing-cover and cam-carrier leaks; cooling-system maintenance; intake deposits on direct-injection FB20D.', pros: 'Low centre of gravity, good efficiency, smooth operation and timing chains instead of the older EJ belt.', cons: 'Boxer access raises labour time; oil level must be monitored and FB20B and FB20D should not be confused.' },
         es: { construction: 'Bóxer 2.0 de aluminio, culatas DOHC, cadenas e inyección indirecta o directa según versión.', issues: 'Consumo de aceite en algunos tempranos; fugas de tapa y portalevas; refrigeración; depósitos en FB20D directo.', pros: 'Centro de gravedad bajo, eficiencia, suavidad y cadenas frente a la correa EJ.', cons: 'Acceso bóxer aumenta mano de obra; vigila aceite y no confundas FB20B con FB20D.' },
@@ -291,7 +291,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L · 1,999 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Hyundai Elantra / Sonata / Tucson', 'Kia Sportage / Optima / Soul'], consumption: '7-11 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '180,000-320,000 km', oilRecord: '', statusKey: 'recallCheck',
+      declaredLifeKey: 'notPublished', typicalLife: '180,000-320,000 km', oilRecord: 'hyundai-tucson-g4na', statusKey: 'recallCheck',
       text: {
         en: { construction: 'Nu-family aluminium 2.0-litre four-cylinder with DOHC head, dual CVVT, timing chain and MPI or GDI depending on market and suffix.', issues: 'Cylinder scuffing and oil-consumption reports in some markets; catalyst debris concerns; chain noise; cooling and oil leaks; recall coverage varies by VIN.', pros: 'Simple naturally aspirated output, wide parts supply and good everyday economy in healthy examples.', cons: 'Condition and campaigns vary strongly by market; compression, cylinder noise, oil level and VIN history require attention.' },
         es: { construction: 'Motor Nu 2.0 de aluminio, DOHC, doble CVVT, cadena y MPI o GDI según mercado y sufijo.', issues: 'Rayado de cilindros y consumo en algunos mercados; residuos de catalizador; ruido de cadena; refrigeración y fugas; campañas por VIN.', pros: 'Potencia atmosférica sencilla, muchas piezas y buen consumo diario si está sano.', cons: 'Estado y campañas cambian por mercado; revisa compresión, ruido, aceite e historial VIN.' },
@@ -356,7 +356,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '5.3 L · 5,328 cc', layout: 'V8 · OHV · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'directInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Chevrolet Silverado / Tahoe / Suburban', 'GMC Sierra / Yukon'], consumption: '12-18 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'gm-truck-l83', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Gen V 5.3-litre aluminium pushrod V8 with direct injection, variable cam timing, Active Fuel Management and timing chain.', issues: 'AFM lifter and cam wear; oil consumption; direct-injection injectors and high-pressure pump; vacuum pump; thermostat and cooling leaks.', pros: 'Strong truck torque, compact V8 packaging, large North American parts supply and good highway durability.', cons: 'AFM and direct injection add complexity compared with LM7; service history and oil-change quality strongly affect lifters.' },
         es: { construction: 'V8 Gen V 5.3 de aluminio, varillas, inyección directa, árbol variable, AFM y cadena.', issues: 'Taqués AFM y levas; consumo; inyectores y bomba de alta; bomba de vacío; termostato y fugas.', pros: 'Mucho par, V8 compacto, enorme oferta de piezas y buena duración en carretera.', cons: 'AFM e inyección directa añaden complejidad frente a LM7; historial y aceite afectan mucho a taqués.' },
@@ -382,7 +382,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.3 L · 2,261 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'turbocharged',
       injectionKey: 'directInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Ford Mustang', 'Focus RS', 'Ranger', 'Explorer', 'Bronco'], consumption: '8-13 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '200,000-350,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '200,000-350,000 km', oilRecord: 'ford-mustang-23-ecoboost', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 2.3-litre turbocharged direct-injection four-cylinder with DOHC head, variable timing and timing chain; calibration and hardware vary widely by model.', issues: 'Cooling and head-gasket history on specific early applications; intake deposits; turbo and oil lines; high-pressure fuel system; overheating and tuning damage.', pros: 'Strong torque and power, broad truck and performance use, good diagnostic and aftermarket support.', cons: 'Mustang, Ranger, Focus RS and Explorer versions are not identical; modified calibrations can greatly change reliability.' },
         es: { construction: 'Cuatro cilindros 2.3 turbo de aluminio, inyección directa, DOHC, distribución variable y cadena; cambia mucho por modelo.', issues: 'Refrigeración y junta en aplicaciones tempranas concretas; depósitos; turbo y aceite; alta presión; sobrecalentamiento y tuning.', pros: 'Mucho par y potencia, uso en pickups y deportivos, buen diagnóstico y aftermarket.', cons: 'Mustang, Ranger, Focus RS y Explorer no son iguales; calibraciones modificadas cambian fiabilidad.' },
@@ -460,7 +460,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '1.5 L · 1,497 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Toyota Yaris / Vitz / Echo', 'Corolla Axio / Fielder', 'Probox / Succeed', 'Scion xA / xB'], consumption: '5-8 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: '', statusKey: 'starterReview',
+      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: 'toyota-yaris-1nz-fe', statusKey: 'starterReview',
       text: {
         en: { construction: 'Compact Toyota 1.5-litre aluminium four-cylinder with cast-in liners, DOHC 16-valve head, VVT-i, multipoint injection and timing chain.', issues: 'Oil consumption at high mileage; chain, tensioner and VVT-i noise; water-pump leaks; valve-cover seepage; throttle and ignition maintenance.', pros: 'Simple, economical, widely available and capable of high mileage with regular oil service.', cons: 'Used engines may have long oil intervals; 1NZ-FE must not be confused with the Atkinson-cycle 1NZ-FXE hybrid version.' },
         es: { construction: 'Motor Toyota compacto 1.5 de aluminio con camisas, culata DOHC de 16 válvulas, VVT-i, inyección multipunto y cadena.', issues: 'Consumo de aceite con alto kilometraje; ruido de cadena, tensor y VVT-i; fugas de bomba y tapa; mantenimiento de mariposa y encendido.', pros: 'Sencillo, económico, muy disponible y capaz de grandes kilometrajes con aceite regular.', cons: 'Los motores usados pueden tener intervalos largos; no confundir 1NZ-FE con el híbrido Atkinson 1NZ-FXE.' },
@@ -772,7 +772,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.4 L · 2,354 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Honda Accord', 'Honda CR-V', 'Honda Element / Odyssey derivatives', 'Acura TSX'], consumption: '7.5-12 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: 'honda-accord-k24az', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Honda 2.4-litre aluminium DOHC i-VTEC four-cylinder family with multipoint injection and timing chain. Head design, compression and valve-control strategy differ by suffix.', issues: 'VTC actuator rattle; chain and tensioner wear with poor oil service; valve-clearance neglect; cam wear on some versions; oil leaks, mounts and cooling.', pros: 'Strong durable core, good torque, broad parts support and excellent naturally aspirated performance potential.', cons: 'K24A and K24Z variants are not identical; valve adjustment and exact oil level deserve regular attention.' },
         es: { construction: 'Familia Honda 2.4 de aluminio, DOHC i-VTEC, inyección multipunto y cadena. Culata, compresión y control de válvulas cambian por sufijo.', issues: 'Ruido del actuador VTC; cadena y tensor con mal aceite; holgura de válvulas; levas en algunas versiones; fugas, soportes y refrigeración.', pros: 'Base fuerte y duradera, buen par, muchas piezas y gran potencial atmosférico.', cons: 'K24A y K24Z no son iguales; ajuste de válvulas y nivel de aceite requieren atención regular.' },
