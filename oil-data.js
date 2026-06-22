@@ -1304,6 +1304,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Revision des Filtergehäuses bestätigen und auf Lecks prüfen; die Ölspezifikation behebt keine Gehäusefehler.'
       },
       statusKey: 'generationCritical'
+    },
+    {
+      id: 'toyota-yaris-1nz-fe',
+      make: 'Toyota',
+      model: 'Yaris / Vitz / Echo / Probox',
+      generation: 'Multiple platforms',
+      years: '1999-2020',
+      engine: '1NZ-FE 1.5 VVT-i',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Model year and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter and vehicle platform; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro y plataforma; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre et la plateforme ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter und Plattform unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Toyota maintenance schedule for the exact model year, market and operating conditions.',
+        es: 'Sigue el plan Toyota del año, mercado y condiciones de uso exactos.',
+        fr: "Suivez le programme Toyota de l'année, du marché et des conditions d'utilisation exacts.",
+        de: 'Toyota-Wartungsplan für Baujahr, Markt und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Early and late 1NZ-FE manuals may specify different grades; use the temperature chart for the exact vehicle.',
+        es: 'Los manuales 1NZ-FE antiguos y modernos pueden indicar grados distintos; usa la tabla del vehículo exacto.',
+        fr: 'Les manuels 1NZ-FE anciens et récents peuvent indiquer des grades différents ; utilisez le tableau exact.',
+        de: 'Frühe und späte 1NZ-FE-Handbücher können andere Klassen nennen; genaue Temperaturtabelle verwenden.'
+      },
+      source: {
+        en: "Toyota owner's manual for the exact vehicle, model year and market.",
+        es: 'Manual Toyota del vehículo, año y mercado exactos.',
+        fr: "Manuel Toyota du véhicule, de l'année et du marché exacts.",
+        de: 'Toyota-Betriebsanleitung für Fahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'Do not apply this petrol-engine profile to the hybrid 1NZ-FXE without checking its own manual.',
+        es: 'No apliques este perfil de gasolina al híbrido 1NZ-FXE sin consultar su propio manual.',
+        fr: "N'appliquez pas cette fiche essence au 1NZ-FXE hybride sans consulter son manuel.",
+        de: 'Dieses Benzinmotor-Profil nicht ohne eigenes Handbuch auf den Hybrid-1NZ-FXE übertragen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'honda-accord-k24az',
+      make: 'Honda / Acura',
+      model: 'Accord / CR-V / Element / TSX',
+      generation: 'Multiple K24 platforms',
+      years: '2001-2015',
+      engine: 'K24A / K24Z family',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Model, market and performance version dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by K24 suffix, sump, filter and vehicle platform; verify the exact service fill.',
+        es: 'Varía según sufijo K24, cárter, filtro y plataforma; comprueba el llenado exacto.',
+        fr: 'Varie selon le suffixe K24, le carter, le filtre et la plateforme ; vérifiez le volume exact.',
+        de: 'Je nach K24-Suffix, Ölwanne, Filter und Plattform unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow Maintenance Minder or the regional Honda/Acura schedule for the exact vehicle.',
+        es: 'Sigue Maintenance Minder o el plan regional Honda/Acura del vehículo exacto.',
+        fr: 'Suivez le Maintenance Minder ou le programme Honda/Acura régional du véhicule exact.',
+        de: 'Maintenance Minder oder den regionalen Honda/Acura-Wartungsplan beachten.'
+      },
+      climate: {
+        en: 'Economy and performance K24 versions can specify different grades; the exact owner manual decides.',
+        es: 'Las versiones K24 económicas y deportivas pueden indicar grados distintos; manda el manual exacto.',
+        fr: 'Les versions K24 économiques et sportives peuvent prescrire des grades différents ; le manuel exact fait foi.',
+        de: 'Economy- und Performance-K24 können andere Klassen verlangen; das genaue Handbuch ist maßgeblich.'
+      },
+      source: {
+        en: "Honda or Acura owner's manual for the exact model year, K24 suffix and market.",
+        es: 'Manual Honda o Acura del año, sufijo K24 y mercado exactos.',
+        fr: "Manuel Honda ou Acura de l'année, du suffixe K24 et du marché exacts.",
+        de: 'Honda- oder Acura-Betriebsanleitung für Baujahr, K24-Suffix und Markt.'
+      },
+      note: {
+        en: 'K24A and K24Z include several compression ratios and applications. Confirm the complete suffix.',
+        es: 'K24A y K24Z incluyen varias compresiones y aplicaciones. Confirma el sufijo completo.',
+        fr: 'K24A et K24Z couvrent plusieurs taux de compression et applications. Confirmez le suffixe complet.',
+        de: 'K24A und K24Z umfassen mehrere Verdichtungen und Anwendungen. Vollständigen Suffix bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'subaru-impreza-fb20',
+      make: 'Subaru',
+      model: 'Impreza / XV Crosstrek / Forester',
+      generation: 'FB20 applications',
+      years: '2011-present',
+      engine: 'FB20B / FB20D',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Synthetic oil where specified'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by FB20 version, sump, filter and vehicle; verify the exact service-fill quantity.',
+        es: 'Varía según versión FB20, cárter, filtro y vehículo; comprueba la cantidad exacta.',
+        fr: 'Varie selon la version FB20, le carter, le filtre et le véhicule ; vérifiez la quantité exacte.',
+        de: 'Je nach FB20-Version, Ölwanne, Filter und Fahrzeug unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Subaru schedule; repeated short trips, towing and severe temperatures can change the interval.',
+        es: 'Sigue el plan Subaru; trayectos cortos, remolque y temperaturas extremas pueden cambiar el intervalo.',
+        fr: "Suivez le programme Subaru ; petits trajets, remorquage et températures extrêmes peuvent modifier l'intervalle.",
+        de: 'Subaru-Plan beachten; Kurzstrecke, Anhängerbetrieb und extreme Temperaturen können das Intervall ändern.'
+      },
+      climate: {
+        en: 'Use the exact manual for any permitted alternative viscosity; 0W-20 is the primary grade in many markets.',
+        es: 'Consulta el manual para viscosidades alternativas; 0W-20 es el grado principal en muchos mercados.',
+        fr: 'Consultez le manuel pour toute viscosité alternative ; 0W-20 est le grade principal sur de nombreux marchés.',
+        de: 'Für alternative Viskositäten das genaue Handbuch prüfen; 0W-20 ist in vielen Märkten die Hauptklasse.'
+      },
+      source: {
+        en: "Subaru owner's manual for the exact FB20 version, model year and market.",
+        es: 'Manual Subaru para la versión FB20, año y mercado exactos.',
+        fr: "Manuel Subaru pour la version FB20, l'année et le marché exacts.",
+        de: 'Subaru-Betriebsanleitung für FB20-Version, Baujahr und Markt.'
+      },
+      note: {
+        en: 'FB20B and later direct-injection FB20D are not identical. Confirm the full engine code and model year.',
+        es: 'FB20B y el FB20D posterior de inyección directa no son iguales. Confirma código y año.',
+        fr: 'Le FB20B et le FB20D à injection directe ne sont pas identiques. Confirmez le code et l’année.',
+        de: 'FB20B und späterer Direkteinspritzer FB20D sind nicht identisch. Motorcode und Baujahr bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'hyundai-tucson-g4na',
+      make: 'Hyundai / Kia',
+      model: 'Elantra / Tucson / Sportage / Optima',
+      generation: 'Nu 2.0 applications',
+      years: '2011-2020',
+      engine: 'G4NA 2.0 MPI / GDI',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-20', '5W-30'],
+      approvals: ['API SM / SN or later compatible category'],
+      standards: ['ILSAC GF-4 / GF-5 where specified'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by MPI or GDI version, vehicle, sump and filter; verify the exact service fill.',
+        es: 'Varía según versión MPI o GDI, vehículo, cárter y filtro; comprueba la cantidad exacta.',
+        fr: 'Varie selon la version MPI ou GDI, le véhicule, le carter et le filtre ; vérifiez le volume exact.',
+        de: 'Je nach MPI- oder GDI-Version, Fahrzeug, Ölwanne und Filter unterschiedlich; Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Hyundai or Kia schedule; short trips, dust and prolonged idling can require severe service.',
+        es: 'Sigue el plan Hyundai o Kia; trayectos cortos, polvo y ralentí prolongado pueden exigir servicio severo.',
+        fr: "Suivez le programme Hyundai ou Kia ; petits trajets, poussière et ralenti prolongé peuvent imposer un service sévère.",
+        de: 'Hyundai- oder Kia-Plan beachten; Kurzstrecke, Staub und langer Leerlauf können erschwerten Service erfordern.'
+      },
+      climate: {
+        en: 'Select viscosity from the temperature chart for the exact model year and market.',
+        es: 'Elige la viscosidad según la tabla de temperatura del año y mercado exactos.',
+        fr: "Choisissez la viscosité selon le tableau de température de l'année et du marché exacts.",
+        de: 'Viskosität anhand der Temperaturtabelle für Baujahr und Markt wählen.'
+      },
+      source: {
+        en: "Hyundai or Kia owner's manual for the exact G4NA version, vehicle and market.",
+        es: 'Manual Hyundai o Kia para la versión G4NA, vehículo y mercado exactos.',
+        fr: 'Manuel Hyundai ou Kia pour la version G4NA, le véhicule et le marché exacts.',
+        de: 'Hyundai- oder Kia-Betriebsanleitung für G4NA-Version, Fahrzeug und Markt.'
+      },
+      note: {
+        en: 'Confirm MPI or GDI and check the VIN for applicable engine campaigns before relying on a generic result.',
+        es: 'Confirma MPI o GDI y comprueba campañas por VIN antes de confiar en un resultado genérico.',
+        fr: 'Confirmez MPI ou GDI et vérifiez les campagnes par VIN avant de suivre un résultat générique.',
+        de: 'MPI oder GDI bestätigen und Aktionen per VIN prüfen, bevor ein allgemeines Ergebnis genutzt wird.'
+      },
+      statusKey: 'recallCheck'
+    },
+    {
+      id: 'ford-mustang-23-ecoboost',
+      make: 'Ford',
+      model: 'Mustang / Ranger / Explorer',
+      generation: 'Road-going 2.3 EcoBoost applications',
+      years: '2015-present',
+      engine: '2.3 EcoBoost',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30'],
+      approvals: ['Ford WSS specification from the exact owner manual'],
+      standards: ['Vehicle and model year dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by Mustang, Ranger, Explorer or Bronco installation, sump and filter; verify by VIN.',
+        es: 'Varía según instalación Mustang, Ranger, Explorer o Bronco, cárter y filtro; comprueba por VIN.',
+        fr: "Varie selon l'installation Mustang, Ranger, Explorer ou Bronco, le carter et le filtre ; vérifiez par VIN.",
+        de: 'Je nach Mustang-, Ranger-, Explorer- oder Bronco-Einbau, Ölwanne und Filter unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the Intelligent Oil-Life Monitor and the schedule for the exact vehicle and operating conditions.',
+        es: 'Sigue Intelligent Oil-Life Monitor y el plan del vehículo y condiciones exactos.',
+        fr: "Suivez l'Intelligent Oil-Life Monitor et le programme du véhicule et des conditions exacts.",
+        de: 'Intelligent Oil-Life Monitor und den Plan für Fahrzeug und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Turbo heat and towing can affect service conditions, but do not change grade without manual approval.',
+        es: 'El calor del turbo y remolque afectan al servicio, pero no cambies grado sin permiso del manual.',
+        fr: "La chaleur du turbo et le remorquage influencent l'entretien, mais ne changez pas de grade sans autorisation.",
+        de: 'Turbohitze und Anhängerbetrieb beeinflussen den Service; Klasse nicht ohne Handbuchfreigabe ändern.'
+      },
+      source: {
+        en: "Ford owner's manual for the exact VIN, model year and vehicle application.",
+        es: 'Manual Ford para VIN, año y aplicación exactos.',
+        fr: "Manuel Ford pour le VIN, l'année et l'application exacts.",
+        de: 'Ford-Betriebsanleitung für VIN, Baujahr und Fahrzeuganwendung.'
+      },
+      note: {
+        en: 'This road-application profile does not cover the Focus RS, which uses a separate performance requirement.',
+        es: 'Este perfil de carretera no cubre Focus RS, que utiliza un requisito deportivo separado.',
+        fr: 'Cette fiche routière ne couvre pas la Focus RS, soumise à une exigence performance distincte.',
+        de: 'Dieses Straßenprofil gilt nicht für den Focus RS mit eigener Performance-Anforderung.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'gm-truck-l83',
+      make: 'Chevrolet / GMC',
+      model: 'Silverado / Sierra / Tahoe / Yukon',
+      generation: 'K2XX trucks and SUVs',
+      years: '2014-2019',
+      engine: 'L83 5.3 EcoTec3 V8',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20'],
+      approvals: ['dexos1 approved oil'],
+      standards: ['API / ILSAC category from the exact manual'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter and vehicle configuration; verify the exact service-fill quantity by VIN.',
+        es: 'Varía según cárter, filtro y configuración; comprueba la cantidad exacta mediante VIN.',
+        fr: 'Varie selon le carter, le filtre et la configuration ; vérifiez la quantité exacte avec le VIN.',
+        de: 'Je nach Ölwanne, Filter und Fahrzeugkonfiguration unterschiedlich; genaue Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the GM Oil Life System and the severe-duty schedule for towing, idling or dusty operation.',
+        es: 'Sigue GM Oil Life System y el plan severo para remolque, ralentí o polvo.',
+        fr: 'Suivez le GM Oil Life System et le programme sévère pour remorquage, ralenti ou poussière.',
+        de: 'GM Oil Life System und den erschwerten Plan für Anhängerbetrieb, Leerlauf oder Staub beachten.'
+      },
+      climate: {
+        en: 'Use the specified dexos1-approved grade; do not select a thicker oil solely because the engine has AFM.',
+        es: 'Usa el grado dexos1 indicado; no elijas aceite más espeso solo porque el motor tiene AFM.',
+        fr: "Utilisez le grade dexos1 indiqué ; ne choisissez pas une huile plus épaisse uniquement à cause de l'AFM.",
+        de: 'Die vorgeschriebene dexos1-Klasse verwenden; nicht nur wegen AFM dickeres Öl wählen.'
+      },
+      source: {
+        en: "Chevrolet or GMC owner's manual for the exact VIN, model year and vehicle.",
+        es: 'Manual Chevrolet o GMC para VIN, año y vehículo exactos.',
+        fr: "Manuel Chevrolet ou GMC pour le VIN, l'année et le véhicule exacts.",
+        de: 'Chevrolet- oder GMC-Betriebsanleitung für VIN, Baujahr und Fahrzeug.'
+      },
+      note: {
+        en: 'Oil specification does not diagnose AFM lifter noise or oil-consumption faults; inspect those separately.',
+        es: 'La especificación del aceite no diagnostica ruido de taqués AFM ni consumo; revísalos por separado.',
+        fr: "La spécification d'huile ne diagnostique pas les poussoirs AFM ni la consommation ; contrôlez-les séparément.",
+        de: 'Die Ölspezifikation diagnostiziert keine AFM-Stößelgeräusche oder Ölverbrauchsfehler; separat prüfen.'
+      },
+      statusKey: 'generationCritical'
     }
   ]
 };
