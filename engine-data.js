@@ -57,7 +57,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'variantDependent',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Honda Civic', 'Accord', 'CR-V', 'Acura RSX', 'Integra'], consumption: '7-12 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: 'honda-civic-k20', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Broad aluminium 2.0-litre DOHC i-VTEC family. Early versions are naturally aspirated and port-injected; later K20C versions can use direct injection and turbocharging.', issues: 'Valve-clearance neglect; oil leaks; VTC actuator noise; chain or tensioner wear with poor oil service; damage from bad tuning or over-revving.', pros: 'Strong core, excellent breathing, large parts market and very good performance potential.', cons: 'K20 is a family, not one specification; output, injection, turbocharging and failure patterns vary greatly by suffix.' },
         es: { construction: 'Amplia familia 2.0 de aluminio, DOHC e i-VTEC. Los primeros son atmosféricos e indirectos; K20C posteriores pueden ser turbo e inyección directa.', issues: 'Holgura de válvulas; fugas; ruido del actuador VTC; cadena o tensor con aceite descuidado; daños por mal tuning o exceso de rpm.', pros: 'Base fuerte, buena respiración, enorme mercado de piezas y gran potencial.', cons: 'K20 es una familia, no una sola especificación; potencia, inyección, turbo y fallos cambian mucho según el sufijo.' },
@@ -83,7 +83,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '2.0 L · 1,998 cc', layout: 'I4 · DOHC · 16V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Hyundai Sonata / ix35', 'Kia Sportage / Optima', 'Mitsubishi-related platforms'], consumption: '7.5-11 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '150,000-300,000 km', oilRecord: '', statusKey: 'recallCheck',
+      declaredLifeKey: 'notPublished', typicalLife: '150,000-300,000 km', oilRecord: 'hyundai-sonata-g4kd', statusKey: 'recallCheck',
       text: {
         en: { construction: 'Theta II 2.0-litre aluminium four-cylinder with DOHC head, dual CVVT, multipoint injection and timing chain.', issues: 'Rod-bearing or cylinder-scuffing complaints in some markets; oil consumption; chain wear; catalyst debris concerns; recall and campaign coverage varies by VIN.', pros: 'Simple MPI equipment, broad parts availability and good everyday performance when healthy.', cons: 'Condition varies widely; VIN recall history, cold noise, oil level and compression deserve special attention.' },
         es: { construction: 'Theta II 2.0 de aluminio con culata DOHC, doble CVVT, inyección multipunto y cadena.', issues: 'Cojinetes o rayado de cilindros en algunos mercados; consumo de aceite; cadena; residuos de catalizador; campañas según VIN.', pros: 'Equipo MPI sencillo, muchas piezas y buen uso diario cuando está sano.', cons: 'El estado varía mucho; historial de campañas, ruido en frío, nivel de aceite y compresión requieren atención.' },
@@ -135,7 +135,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '5.0 L', layout: 'V8 · DOHC · 32V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Ford Mustang GT', 'F-150 5.0'], consumption: '10-16 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'ford-mustang-coyote', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 5.0-litre DOHC 32-valve V8 with Ti-VCT and chain drive. Injection, cylinder liners and detail design changed through generations.', issues: 'Water pump; VCT and timing noise; oil consumption on some versions; generation-specific cylinder or liner concerns; abuse and poor tuning.', pros: 'High specific output, strong aftermarket, good breathing and broad parts support.', cons: 'Generations are technically different; modified cars require careful calibration and service-history checks.' },
         es: { construction: 'V8 5.0 de aluminio, DOHC 32 válvulas, Ti-VCT y cadena. Inyección, camisas y detalles cambiaron por generación.', issues: 'Bomba de agua; ruido VCT y distribución; consumo en algunas versiones; cilindros o camisas según generación; abuso y mal tuning.', pros: 'Alta potencia específica, enorme aftermarket, buena respiración y piezas.', cons: 'Las generaciones son técnicamente distintas; coches modificados requieren revisar calibración e historial.' },
@@ -148,7 +148,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.6 L · 3,604 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Jeep Wrangler / Grand Cherokee', 'Dodge Charger / Durango', 'Chrysler 300', 'Ram 1500'], consumption: '9-14 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '250,000-400,000 km', oilRecord: 'chrysler-pentastar-36', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 3.6-litre DOHC 24-valve V6 with variable timing, multipoint injection and chain-driven camshafts.', issues: 'Early left-cylinder-head issues; rocker and cam wear; plastic oil-cooler and filter housing leaks; water pump; cooling-system air or leaks.', pros: 'Widely used, good power for size, many service parts and no turbo on most applications.', cons: 'Oil-cooler housing and valvetrain repairs can be labour-intensive; vehicle packaging changes access significantly.' },
         es: { construction: 'V6 3.6 de aluminio, DOHC 24 válvulas, distribución variable, inyección multipunto y cadenas.', issues: 'Culata izquierda temprana; balancines y levas; fugas en enfriador y carcasa de filtro plásticos; bomba; aire o fugas de refrigeración.', pros: 'Muy usado, buena potencia, muchas piezas y sin turbo en la mayoría.', cons: 'Enfriador y distribución pueden requerir mucha mano de obra; el acceso cambia mucho según el vehículo.' },
@@ -239,7 +239,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.5 L · 3,456 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'variantInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Toyota Camry / Highlander / Sienna', 'Lexus ES / RX / IS', 'Lotus Evora'], consumption: '8-14 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '300,000-500,000 km', oilRecord: 'toyota-camry-2gr-fe', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Aluminium 3.5-litre V6 family with DOHC heads, variable timing and timing chains; injection changed from port to combined or direct systems on later suffixes.', issues: 'Early external VVT-i oil hose; water pump with significant labour on some vehicles; timing-cover oil leaks; ignition coils; cooling-system neglect.', pros: 'Strong performance, smooth operation, broad Toyota/Lexus use and high-mileage capability.', cons: 'Transverse installation makes some repairs expensive; FE, FSE and FKS injection systems require exact identification.' },
         es: { construction: 'Familia V6 3.5 de aluminio, culatas DOHC, distribución variable y cadenas; la inyección cambia en sufijos posteriores.', issues: 'Tubo externo VVT-i temprano; bomba de agua laboriosa; fugas de tapa de distribución; bobinas; refrigeración descuidada.', pros: 'Buen rendimiento, suavidad, uso amplio Toyota/Lexus y alto kilometraje.', cons: 'Montaje transversal encarece reparaciones; FE, FSE y FKS requieren identificación exacta.' },
@@ -473,7 +473,7 @@ window.AUTOHUB_ENGINE_DATA = {
       displacement: '3.5 L · 3,498 cc', layout: 'V6 · DOHC · 24V', fuelKey: 'petrol', aspirationKey: 'naturallyAspirated',
       injectionKey: 'multiPointInjection', blockKey: 'aluminumLiners', timingKey: 'timingChain',
       applications: ['Nissan 350Z', 'Altima / Maxima / Murano', 'Pathfinder / Quest', 'Infiniti G35 / FX35'], consumption: '9-16 L/100 km',
-      declaredLifeKey: 'notPublished', typicalLife: '280,000-450,000 km', oilRecord: '', statusKey: 'generationCritical',
+      declaredLifeKey: 'notPublished', typicalLife: '280,000-450,000 km', oilRecord: 'nissan-vq35de', statusKey: 'generationCritical',
       text: {
         en: { construction: 'Nissan aluminium 3.5-litre V6 with DOHC 24-valve heads, variable intake timing, multipoint injection and timing chains. Longitudinal, transverse and RevUp versions differ.', issues: 'Oil consumption on some RevUp and worn engines; catalyst deterioration on certain applications; valve-cover and spark-plug tube leaks; chain tensioners; cooling and ignition faults.', pros: 'Strong naturally aspirated performance, smooth delivery, broad parts support and durable basic architecture.', cons: 'Vehicle layout and engine revision change service access and known faults; DE, RevUp and later HR engines must not be mixed.' },
         es: { construction: 'V6 Nissan 3.5 de aluminio con culatas DOHC de 24 válvulas, distribución variable de admisión, inyección multipunto y cadenas. Cambia entre longitudinal, transversal y RevUp.', issues: 'Consumo de aceite en algunos RevUp y motores gastados; catalizador en ciertas aplicaciones; fugas de tapas y tubos de bujía; tensores; refrigeración y encendido.', pros: 'Buen rendimiento atmosférico, entrega suave, muchas piezas y arquitectura duradera.', cons: 'Montaje y revisión cambian acceso y fallos; no mezclar DE, RevUp y el posterior HR.' },
