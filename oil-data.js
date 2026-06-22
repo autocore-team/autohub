@@ -1844,6 +1844,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Frühe Versionen ohne MDS und spätere mit MDS können abweichen. Genaues Baujahr bestätigen.'
       },
       statusKey: 'generationCritical'
+    },
+    {
+      id: 'mercedes-cclass-m274',
+      make: 'Mercedes-Benz',
+      model: 'C-Class / E-Class / GLC',
+      generation: 'W204 / W205 / W212 / W213',
+      years: '2012-2020',
+      engine: 'M274 DE16 / DE20',
+      fuelKey: 'petrol',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30', '5W-40'],
+      approvals: ['MB-Approval 229.5', 'MB-Approval 229.51 / 229.52 where specified'],
+      standards: ['Exact MB sheet by VIN and model year'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by M274 output, sump, filter module and vehicle installation; verify the service fill by VIN.',
+        es: 'Varía según potencia M274, cárter, módulo de filtro e instalación; comprueba mediante VIN.',
+        fr: "Varie selon la puissance M274, le carter, le module de filtre et l'installation ; vérifiez avec le VIN.",
+        de: 'Je nach M274-Leistung, Ölwanne, Filtermodul und Einbau unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow ASSYST PLUS and the Mercedes-Benz schedule for the exact vehicle and market.',
+        es: 'Sigue ASSYST PLUS y el plan Mercedes-Benz del vehículo y mercado exactos.',
+        fr: 'Suivez ASSYST PLUS et le programme Mercedes-Benz du véhicule et du marché exacts.',
+        de: 'ASSYST PLUS und den Mercedes-Benz-Wartungsplan für Fahrzeug und Markt beachten.'
+      },
+      climate: {
+        en: 'Use an SAE grade listed for the exact vehicle; the MB approval on the container takes priority.',
+        es: 'Usa un grado SAE indicado para el vehículo; la homologación MB del envase tiene prioridad.',
+        fr: "Utilisez un grade SAE prévu pour le véhicule ; l'homologation MB sur le bidon est prioritaire.",
+        de: 'Eine für das Fahrzeug gelistete SAE-Klasse verwenden; die MB-Freigabe auf dem Gebinde hat Vorrang.'
+      },
+      source: {
+        en: 'Mercedes-Benz Operating Fluids platform and the exact digital owner/service manual.',
+        es: 'Plataforma Mercedes-Benz Operating Fluids y manual digital exacto.',
+        fr: 'Plateforme Mercedes-Benz Operating Fluids et manuel numérique exact.',
+        de: 'Mercedes-Benz Operating Fluids und genaue digitale Betriebs-/Serviceunterlagen.'
+      },
+      note: {
+        en: 'Later emission systems and production revisions can change the approved sheet. Confirm by VIN.',
+        es: 'Los sistemas de emisiones y revisiones posteriores pueden cambiar el pliego aprobado. Confirma por VIN.',
+        fr: "Les systèmes antipollution et révisions ultérieures peuvent changer la feuille approuvée. Vérifiez par VIN.",
+        de: 'Spätere Abgassysteme und Revisionen können das Freigabeblatt ändern. Per VIN bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'bmw-e46-m47',
+      make: 'BMW',
+      model: '3 Series / 5 Series / X3',
+      generation: 'E46 / E60 / E83',
+      years: '1998-2007',
+      engine: 'M47D20 / M47TU',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['BMW Longlife-01 for applicable non-DPF versions', 'BMW Longlife-04 for applicable DPF versions'],
+      standards: ['ACEA B4 or C3 depending on emission system'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by early M47 or M47TU, sump and vehicle; verify the exact service-fill quantity by VIN.',
+        es: 'Varía entre M47 temprano y M47TU, cárter y vehículo; comprueba la cantidad mediante VIN.',
+        fr: 'Varie entre M47 ancien et M47TU, le carter et le véhicule ; vérifiez la quantité avec le VIN.',
+        de: 'Je nach frühem M47 oder M47TU, Ölwanne und Fahrzeug unterschiedlich; Füllmenge per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the BMW service indicator and schedule for the exact vehicle and market.',
+        es: 'Sigue el indicador y plan BMW del vehículo y mercado exactos.',
+        fr: "Suivez l'indicateur et le programme BMW du véhicule et du marché exacts.",
+        de: 'BMW-Serviceanzeige und Wartungsplan für Fahrzeug und Markt beachten.'
+      },
+      climate: {
+        en: 'DPF status and BMW approval are more important than viscosity alone.',
+        es: 'El estado DPF y la homologación BMW importan más que la viscosidad sola.',
+        fr: "La présence du DPF et l'homologation BMW priment sur la viscosité seule.",
+        de: 'DPF-Ausstattung und BMW-Freigabe sind wichtiger als nur die Viskosität.'
+      },
+      source: {
+        en: "BMW owner's manual and service documentation for the exact M47 version, VIN and market.",
+        es: 'Manual y documentación BMW para versión M47, VIN y mercado exactos.',
+        fr: 'Manuel et documentation BMW pour la version M47, le VIN et le marché exacts.',
+        de: 'BMW-Betriebsanleitung und Serviceunterlagen für M47-Version, VIN und Markt.'
+      },
+      note: {
+        en: 'Confirm M47, M47TU and DPF equipment before choosing between Longlife-01 and Longlife-04.',
+        es: 'Confirma M47, M47TU y DPF antes de elegir entre Longlife-01 y Longlife-04.',
+        fr: 'Confirmez M47, M47TU et le DPF avant de choisir Longlife-01 ou Longlife-04.',
+        de: 'M47, M47TU und DPF-Ausstattung vor der Wahl zwischen Longlife-01 und Longlife-04 bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'renault-k4m-16v',
+      make: 'Renault / Dacia',
+      model: 'Clio / Megane / Scenic / Logan / Duster',
+      generation: 'Multiple K4M applications',
+      years: '1998-2020',
+      engine: 'K4M 1.6 16V',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['Renault RN0700 where specified'],
+      standards: ['ACEA A3/B4 or exact manual specification'],
+      emissionsKey: 'noDpfGpf',
+      capacity: {
+        en: 'Varies by K4M suffix, sump, filter and vehicle; verify the exact service-fill quantity.',
+        es: 'Varía según sufijo K4M, cárter, filtro y vehículo; comprueba la cantidad exacta.',
+        fr: 'Varie selon le suffixe K4M, le carter, le filtre et le véhicule ; vérifiez la quantité exacte.',
+        de: 'Je nach K4M-Suffix, Ölwanne, Filter und Fahrzeug unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Renault or Dacia schedule for the exact model year and operating conditions.',
+        es: 'Sigue el plan Renault o Dacia del año y condiciones de uso exactos.',
+        fr: "Suivez le programme Renault ou Dacia de l'année et des conditions d'utilisation exacts.",
+        de: 'Renault- oder Dacia-Wartungsplan für Baujahr und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Use the viscosity chart and Renault approval stated in the exact owner manual.',
+        es: 'Usa la tabla de viscosidad y homologación Renault indicadas en el manual exacto.',
+        fr: "Utilisez le tableau de viscosité et l'homologation Renault du manuel exact.",
+        de: 'Viskositätstabelle und Renault-Freigabe des genauen Handbuchs verwenden.'
+      },
+      source: {
+        en: "Renault or Dacia owner's manual and maintenance document for the exact K4M suffix and market.",
+        es: 'Manual y documento de mantenimiento Renault o Dacia del sufijo K4M y mercado exactos.',
+        fr: "Manuel et document d'entretien Renault ou Dacia pour le suffixe K4M et le marché exacts.",
+        de: 'Renault- oder Dacia-Betriebs- und Wartungsunterlagen für K4M-Suffix und Markt.'
+      },
+      note: {
+        en: 'Older pre-RN approval manuals may use an ACEA requirement instead. The model-year document remains decisive.',
+        es: 'Los manuales antiguos anteriores a RN pueden usar ACEA. El documento del año exacto manda.',
+        fr: "Les anciens manuels antérieurs aux normes RN peuvent utiliser une exigence ACEA. Le document de l'année fait foi.",
+        de: 'Ältere Handbücher vor RN-Freigaben können ACEA nennen. Das Baujahr-Dokument bleibt maßgeblich.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'renault-f4r-20',
+      make: 'Renault / Dacia',
+      model: 'Megane / Laguna / Scenic / Duster / Renaultsport',
+      generation: 'F4R and F4Rt applications',
+      years: '1998-2016',
+      engine: 'F4R 2.0 16V / F4Rt',
+      fuelKey: 'petrol',
+      aspirationKey: 'marketDependent',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['Renault RN0700 for applicable naturally aspirated versions', 'Renault RN0710 for applicable turbo/high-output versions'],
+      standards: ['Exact suffix and manual required'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by F4R suffix, turbo status, sump and vehicle; verify the exact service fill.',
+        es: 'Varía según sufijo F4R, turbo, cárter y vehículo; comprueba el llenado exacto.',
+        fr: 'Varie selon le suffixe F4R, le turbo, le carter et le véhicule ; vérifiez le volume exact.',
+        de: 'Je nach F4R-Suffix, Turbo, Ölwanne und Fahrzeug unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Renault or Dacia schedule for the exact naturally aspirated or turbo vehicle.',
+        es: 'Sigue el plan Renault o Dacia del vehículo atmosférico o turbo exacto.',
+        fr: 'Suivez le programme Renault ou Dacia du véhicule atmosphérique ou turbo exact.',
+        de: 'Renault- oder Dacia-Plan des genauen Saug- oder Turbofahrzeugs beachten.'
+      },
+      climate: {
+        en: 'Turbo heat does not make RN0700 interchangeable with RN0710; use the approval stated for the exact suffix.',
+        es: 'El calor del turbo no hace intercambiables RN0700 y RN0710; usa el permiso del sufijo exacto.',
+        fr: "La chaleur du turbo ne rend pas RN0700 et RN0710 interchangeables ; utilisez l'homologation du suffixe exact.",
+        de: 'Turbohitze macht RN0700 und RN0710 nicht austauschbar; Freigabe des genauen Suffixes verwenden.'
+      },
+      source: {
+        en: "Renault or Dacia owner's manual and maintenance document for the exact F4R suffix and market.",
+        es: 'Manual y documento de mantenimiento Renault o Dacia del sufijo F4R y mercado exactos.',
+        fr: "Manuel et document d'entretien Renault ou Dacia pour le suffixe F4R et le marché exacts.",
+        de: 'Renault- oder Dacia-Betriebs- und Wartungsunterlagen für F4R-Suffix und Markt.'
+      },
+      note: {
+        en: 'Identify naturally aspirated F4R or turbo F4Rt before selecting the Renault approval.',
+        es: 'Identifica F4R atmosférico o F4Rt turbo antes de elegir la homologación Renault.',
+        fr: "Identifiez le F4R atmosphérique ou le F4Rt turbo avant de choisir l'homologation Renault.",
+        de: 'F4R-Saugmotor oder F4Rt-Turbo vor der Wahl der Renault-Freigabe bestimmen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'psa-dw10-hdi',
+      make: 'Peugeot / Citroen / Ford / Volvo',
+      model: '2.0 HDi / TDCi applications',
+      generation: 'Multiple DW10 generations',
+      years: '1999-present',
+      engine: 'DW10 2.0 HDi',
+      fuelKey: 'diesel',
+      aspirationKey: 'turbocharged',
+      viscosities: ['0W-30', '5W-30'],
+      approvals: ['PSA B71 2290', 'PSA B71 2312 for applicable later versions'],
+      standards: ['Low-SAPS ACEA category according to DPF system'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by DW10 generation, sump, filter and vehicle brand; verify the exact service fill by VIN.',
+        es: 'Varía según generación DW10, cárter, filtro y marca; comprueba mediante VIN.',
+        fr: 'Varie selon la génération DW10, le carter, le filtre et la marque ; vérifiez avec le VIN.',
+        de: 'Je nach DW10-Generation, Ölwanne, Filter und Fahrzeugmarke unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the schedule issued by the vehicle brand; short trips and DPF regeneration affect oil condition.',
+        es: 'Sigue el plan de la marca; trayectos cortos y regeneración DPF afectan al aceite.',
+        fr: "Suivez le programme de la marque ; petits trajets et régénération DPF affectent l'huile.",
+        de: 'Plan der Fahrzeugmarke beachten; Kurzstrecke und DPF-Regeneration beeinflussen das Öl.'
+      },
+      climate: {
+        en: 'Use the exact PSA or vehicle-brand approval; identical DW10 displacement does not guarantee identical oil.',
+        es: 'Usa la homologación PSA o de la marca exacta; igual cilindrada DW10 no garantiza el mismo aceite.',
+        fr: "Utilisez l'homologation PSA ou de la marque exacte ; la même cylindrée DW10 ne garantit pas la même huile.",
+        de: 'Genaue PSA- oder Markenfreigabe verwenden; gleicher DW10-Hubraum garantiert nicht dasselbe Öl.'
+      },
+      source: {
+        en: 'Owner and service documentation from the exact Peugeot, Citroen, Ford or Volvo vehicle identified by VIN.',
+        es: 'Manual y documentación del Peugeot, Citroen, Ford o Volvo exacto identificado por VIN.',
+        fr: 'Manuel et documentation du véhicule Peugeot, Citroen, Ford ou Volvo exact identifié par VIN.',
+        de: 'Betriebs- und Serviceunterlagen des per VIN bestimmten Peugeot, Citroen, Ford oder Volvo.'
+      },
+      note: {
+        en: 'DW10 spans many emissions generations and brands. The vehicle VIN is mandatory before choosing an approval.',
+        es: 'DW10 abarca muchas emisiones y marcas. El VIN es obligatorio para elegir homologación.',
+        fr: "DW10 couvre de nombreuses générations et marques. Le VIN est indispensable pour choisir l'homologation.",
+        de: 'DW10 umfasst viele Abgasgenerationen und Marken. Die VIN ist für die Freigabewahl zwingend.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'opel-astra-z18xer',
+      make: 'Opel / Vauxhall / Chevrolet',
+      model: 'Astra / Zafira / Vectra / Cruze',
+      generation: 'Multiple 1.8 Ecotec applications',
+      years: '2005-2018',
+      engine: 'Z18XER / A18XER / F18D4',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30', '5W-40'],
+      approvals: ['GM-LL-A-025 for applicable earlier vehicles', 'dexos2 for applicable later vehicles'],
+      standards: ['Exact model-year manual specification'],
+      emissionsKey: 'noDpfGpf',
+      capacity: {
+        en: 'Varies by engine code, sump, filter and vehicle brand; verify the exact service-fill quantity.',
+        es: 'Varía según código, cárter, filtro y marca; comprueba la cantidad exacta.',
+        fr: 'Varie selon le code moteur, le carter, le filtre et la marque ; vérifiez la quantité exacte.',
+        de: 'Je nach Motorcode, Ölwanne, Filter und Fahrzeugmarke unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Opel, Vauxhall or Chevrolet schedule for the exact model year and operating conditions.',
+        es: 'Sigue el plan Opel, Vauxhall o Chevrolet del año y condiciones exactos.',
+        fr: "Suivez le programme Opel, Vauxhall ou Chevrolet de l'année et des conditions exacts.",
+        de: 'Opel-, Vauxhall- oder Chevrolet-Plan für Baujahr und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Do not assume dexos2 automatically replaces every earlier specification without checking the manual.',
+        es: 'No supongas que dexos2 sustituye automáticamente toda especificación anterior sin revisar el manual.',
+        fr: "Ne supposez pas que dexos2 remplace automatiquement toute ancienne spécification sans vérifier le manuel.",
+        de: 'Nicht annehmen, dass dexos2 ohne Handbuchprüfung jede frühere Spezifikation automatisch ersetzt.'
+      },
+      source: {
+        en: "Opel, Vauxhall or Chevrolet owner's manual for the exact engine code, model year and market.",
+        es: 'Manual Opel, Vauxhall o Chevrolet para código, año y mercado exactos.',
+        fr: "Manuel Opel, Vauxhall ou Chevrolet pour le code moteur, l'année et le marché exacts.",
+        de: 'Opel-, Vauxhall- oder Chevrolet-Betriebsanleitung für Motorcode, Baujahr und Markt.'
+      },
+      note: {
+        en: 'Z18XER, A18XER and F18D4 applications can use different service documents despite similar hardware.',
+        es: 'Z18XER, A18XER y F18D4 pueden usar documentos distintos aunque el hardware sea similar.',
+        fr: 'Z18XER, A18XER et F18D4 peuvent utiliser des documents différents malgré une mécanique proche.',
+        de: 'Z18XER, A18XER und F18D4 können trotz ähnlicher Hardware andere Serviceunterlagen nutzen.'
+      },
+      statusKey: 'starterReview'
     }
   ]
 };
