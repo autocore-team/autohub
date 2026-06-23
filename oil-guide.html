@@ -312,6 +312,28 @@
       line-height: 1.5;
       font-size: 14px;
     }
+    .example-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .example-actions a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 0 12px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .example-actions a:hover {
+      background: var(--accent-dark);
+    }
     .steps {
       margin: 0;
       padding-left: 20px;
@@ -443,6 +465,49 @@
       <div class="panel-body" id="resultContent"></div>
     </section>
 
+    <section class="panel" aria-labelledby="exampleTitle">
+      <h2 id="exampleTitle" data-i18n="exampleTitle">Example result: BMW M54 oil compatibility</h2>
+      <div class="panel-body">
+        <p data-i18n="exampleLead">After search, AutoHub shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.</p>
+        <div class="spec-grid">
+          <div class="spec-item">
+            <span class="spec-label" data-i18n="vehicle">Vehicle</span>
+            <div class="spec-value">BMW 3 Series E46 · M54B22 / M54B25 / M54B30 · 1998-2006</div>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label" data-i18n="viscosity">SAE viscosity</span>
+            <div class="spec-value">
+              <div class="chips"><span class="chip">5W-30</span><span class="chip">5W-40</span></div>
+            </div>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label" data-i18n="approvals">Manufacturer approvals</span>
+            <div class="spec-value">
+              <div class="chips"><span class="chip approval">BMW Longlife-01</span></div>
+            </div>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label" data-i18n="standards">API / ACEA / ILSAC</span>
+            <div class="spec-value">
+              <div class="chips"><span class="chip">ACEA A3/B4</span></div>
+            </div>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label" data-i18n="capacity">Service-fill quantity</span>
+            <div class="spec-value" data-i18n="exampleCapacity">About 6.5 L, verify by exact model and filter housing.</div>
+          </div>
+          <div class="spec-item">
+            <span class="spec-label" data-i18n="interval">Service interval</span>
+            <div class="spec-value" data-i18n="exampleInterval">Follow the vehicle service schedule; shorter intervals may be better for age and city use.</div>
+          </div>
+        </div>
+        <p class="result-note"><strong data-i18n="note">Important note</strong>: <span data-i18n="exampleNote">This is a preview of the information format. Always confirm the exact approval and quantity in the manual or service data.</span></p>
+        <div class="example-actions">
+          <a href="oil-guide.html?engine=bmw-e46-m54&lang=en" data-oil-example-link="bmw-e46-m54" data-i18n="exampleAction">Open this example</a>
+        </div>
+      </div>
+    </section>
+
     <section class="guide-grid" aria-label="Oil compatibility principles">
       <article>
         <h3 data-i18n="approvalTitle">Manufacturer approval first</h3>
@@ -493,6 +558,12 @@
         vehicle: 'Vehicle', fuel: 'Fuel', aspiration: 'Aspiration', viscosity: 'SAE viscosity', approvals: 'Manufacturer approvals', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Service-fill quantity', interval: 'Service interval', climate: 'Climate and use', source: 'Verification source', recordStatus: 'Record status', note: 'Important note',
         petrol: 'Petrol', diesel: 'Diesel', naturallyAspirated: 'Naturally aspirated', turbocharged: 'Turbocharged', noDpfGpf: 'No DPF / GPF recorded', marketDependent: 'Market and version dependent',
         starterReview: 'Starter record - verify with the exact manual', needsPrimarySource: 'Primary manufacturer source still required',
+        exampleTitle: 'Example result: BMW M54 oil compatibility',
+        exampleLead: 'After search, AutoHub shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.',
+        exampleCapacity: 'About 6.5 L, verify by exact model and filter housing.',
+        exampleInterval: 'Follow the vehicle service schedule; shorter intervals may be better for age and city use.',
+        exampleNote: 'This is a preview of the information format. Always confirm the exact approval and quantity in the manual or service data.',
+        exampleAction: 'Open this example',
         approvalTitle: 'Manufacturer approval first', approvalText: 'A 5W-30 oil without the required approval may be wrong. Match the OEM approval before comparing brands.',
         viscosityTitle: 'Viscosity is not compatibility', viscosityText: 'SAE describes cold and hot flow behavior. It does not replace API, ACEA, ILSAC or manufacturer requirements.',
         emissionsTitle: 'DPF and GPF matter', emissionsText: 'Engines with particulate filters may require low-ash oil. The wrong oil can shorten filter life.',
@@ -520,6 +591,12 @@
         vehicle: 'Vehículo', fuel: 'Combustible', aspiration: 'Aspiración', viscosity: 'Viscosidad SAE', approvals: 'Homologaciones del fabricante', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Cantidad de servicio', interval: 'Intervalo de servicio', climate: 'Clima y uso', source: 'Fuente de verificación', recordStatus: 'Estado del registro', note: 'Nota importante',
         petrol: 'Gasolina', diesel: 'Diésel', naturallyAspirated: 'Atmosférico', turbocharged: 'Turboalimentado', noDpfGpf: 'Sin DPF / GPF registrado', marketDependent: 'Depende del mercado y versión',
         starterReview: 'Registro inicial: comprobar con el manual exacto', needsPrimarySource: 'Falta una fuente primaria del fabricante',
+        exampleTitle: 'Ejemplo de resultado: compatibilidad de aceite BMW M54',
+        exampleLead: 'Después de la búsqueda, AutoHub muestra vehículo, motor, viscosidad, homologaciones requeridas, cantidad de servicio y lo que aún debe confirmarse.',
+        exampleCapacity: 'Aproximadamente 6,5 L; comprobar por modelo exacto y carcasa del filtro.',
+        exampleInterval: 'Sigue el programa de mantenimiento del vehículo; en ciudad y por edad pueden convenir intervalos más cortos.',
+        exampleNote: 'Esto es una vista previa del formato. Confirma siempre la homologación y cantidad exactas en el manual o datos de servicio.',
+        exampleAction: 'Abrir este ejemplo',
         approvalTitle: 'Primero la homologación', approvalText: 'Un 5W-30 sin la homologación requerida puede ser incorrecto. Comprueba la homologación OEM antes de comparar marcas.',
         viscosityTitle: 'Viscosidad no es compatibilidad', viscosityText: 'SAE describe el comportamiento en frío y caliente. No sustituye los requisitos API, ACEA, ILSAC o del fabricante.',
         emissionsTitle: 'DPF y GPF importan', emissionsText: 'Los motores con filtros de partículas pueden requerir aceite bajo en cenizas. Un aceite incorrecto puede reducir su vida.',
@@ -547,6 +624,12 @@
         vehicle: 'Véhicule', fuel: 'Carburant', aspiration: 'Suralimentation', viscosity: 'Viscosité SAE', approvals: 'Homologations constructeur', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: "Quantité d'entretien", interval: "Intervalle d'entretien", climate: 'Climat et utilisation', source: 'Source de vérification', recordStatus: 'État de la fiche', note: 'Note importante',
         petrol: 'Essence', diesel: 'Diesel', naturallyAspirated: 'Atmosphérique', turbocharged: 'Turbocompressé', noDpfGpf: 'Aucun DPF / GPF indiqué', marketDependent: 'Selon le marché et la version',
         starterReview: 'Fiche initiale : vérifier avec le manuel exact', needsPrimarySource: 'Source primaire du constructeur encore requise',
+        exampleTitle: "Exemple de résultat : compatibilité d'huile BMW M54",
+        exampleLead: 'Après recherche, AutoHub affiche le véhicule, le moteur, la plage de viscosité, les homologations requises, la quantité et les points à confirmer.',
+        exampleCapacity: 'Environ 6,5 L, à vérifier selon le modèle exact et le boîtier de filtre.',
+        exampleInterval: "Suivre le programme d'entretien du véhicule ; des intervalles plus courts peuvent être préférables avec l'âge et la ville.",
+        exampleNote: "Ceci est un aperçu du format d'information. Confirmez toujours l'homologation et la quantité exactes dans le manuel ou les données de service.",
+        exampleAction: 'Ouvrir cet exemple',
         approvalTitle: "L'homologation en premier", approvalText: "Une huile 5W-30 sans l'homologation requise peut être incorrecte. Vérifiez l'homologation OEM avant de comparer les marques.",
         viscosityTitle: "La viscosité n'est pas la compatibilité", viscosityText: 'SAE décrit le comportement à froid et à chaud. Cela ne remplace pas les exigences API, ACEA, ILSAC ou constructeur.',
         emissionsTitle: 'DPF et GPF sont importants', emissionsText: 'Les moteurs avec filtre à particules peuvent exiger une huile à faibles cendres. Une huile incorrecte réduit sa durée de vie.',
@@ -574,6 +657,12 @@
         vehicle: 'Fahrzeug', fuel: 'Kraftstoff', aspiration: 'Aufladung', viscosity: 'SAE-Viskosität', approvals: 'Herstellerfreigaben', standards: 'API / ACEA / ILSAC', emissions: 'DPF / GPF', capacity: 'Servicefüllmenge', interval: 'Serviceintervall', climate: 'Klima und Einsatz', source: 'Prüfquelle', recordStatus: 'Datenstatus', note: 'Wichtiger Hinweis',
         petrol: 'Benzin', diesel: 'Diesel', naturallyAspirated: 'Saugmotor', turbocharged: 'Turbolader', noDpfGpf: 'Kein DPF / GPF erfasst', marketDependent: 'Markt- und versionsabhängig',
         starterReview: 'Starter-Datensatz: mit genauem Handbuch prüfen', needsPrimarySource: 'Primärquelle des Herstellers noch erforderlich',
+        exampleTitle: 'Beispielergebnis: BMW M54 Öl-Kompatibilität',
+        exampleLead: 'Nach der Suche zeigt AutoHub Fahrzeug, Motor, Viskositätsbereich, erforderliche Freigaben, Füllmenge und was noch bestätigt werden muss.',
+        exampleCapacity: 'Etwa 6,5 L, je nach exaktem Modell und Ölfiltergehäuse prüfen.',
+        exampleInterval: 'Wartungsplan des Fahrzeugs befolgen; bei Alter und Stadtbetrieb können kürzere Intervalle sinnvoll sein.',
+        exampleNote: 'Dies ist eine Vorschau des Informationsformats. Freigabe und Füllmenge immer im Handbuch oder in Servicedaten bestätigen.',
+        exampleAction: 'Dieses Beispiel öffnen',
         approvalTitle: 'Herstellerfreigabe zuerst', approvalText: 'Ein 5W-30 ohne erforderliche Freigabe kann falsch sein. Vor dem Markenvergleich zuerst die OEM-Freigabe prüfen.',
         viscosityTitle: 'Viskosität ist nicht Kompatibilität', viscosityText: 'SAE beschreibt das Fließverhalten bei Kälte und Wärme. Es ersetzt keine API-, ACEA-, ILSAC- oder Herstellervorgaben.',
         emissionsTitle: 'DPF und GPF beachten', emissionsText: 'Motoren mit Partikelfilter können aschearmes Öl benötigen. Falsches Öl kann die Filterlebensdauer verkürzen.',
@@ -806,6 +895,9 @@
       });
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+      document.querySelectorAll('[data-oil-example-link]').forEach((link) => {
+        link.href = `oil-guide.html?engine=${encodeURIComponent(link.dataset.oilExampleLink)}&lang=${encodeURIComponent(lang)}`;
       });
       oilQuickSearch.placeholder = t('quickSearchPlaceholder');
       finderSummary.textContent = resultPanel.hidden
