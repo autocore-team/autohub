@@ -2384,6 +2384,276 @@ window.AUTOHUB_OIL_DATA = {
         de: 'Dieses Profil gilt für Duratec/Cyclone-Saugmotoren, nicht für den Biturbo-3.5-EcoBoost.'
       },
       statusKey: 'starterReview'
+    },
+    {
+      id: 'toyota-rav4-1az-fe',
+      make: 'Toyota',
+      model: 'RAV4 / Avensis / Camry / Wish',
+      generation: 'Multiple 2.0 VVT-i platforms',
+      years: '2000-2014',
+      engine: '1AZ-FE 2.0 VVT-i',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['API and ILSAC specification from the exact manual'],
+      standards: ['Model year and market dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by sump, filter, platform and drivetrain; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro, plataforma y transmisión; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre, la plateforme et la transmission ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter, Plattform und Antrieb unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Toyota maintenance schedule for the exact model year and operating conditions.',
+        es: 'Sigue el plan Toyota del año y condiciones de uso exactos.',
+        fr: "Suivez le programme Toyota de l'année et des conditions d'utilisation exacts.",
+        de: 'Toyota-Wartungsplan für Baujahr und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Use the viscosity chart for the exact market; later applications may differ from early 1AZ-FE vehicles.',
+        es: 'Usa la tabla del mercado exacto; las aplicaciones modernas pueden diferir de los primeros 1AZ-FE.',
+        fr: 'Utilisez le tableau du marché exact ; les versions récentes peuvent différer des premiers 1AZ-FE.',
+        de: 'Viskositätstabelle des Markts verwenden; spätere Anwendungen können von frühen 1AZ-FE abweichen.'
+      },
+      source: {
+        en: "Toyota owner's manual for the exact 1AZ-FE vehicle, model year and market.",
+        es: 'Manual Toyota del vehículo 1AZ-FE, año y mercado exactos.',
+        fr: "Manuel Toyota du véhicule 1AZ-FE, de l'année et du marché exacts.",
+        de: 'Toyota-Betriebsanleitung für 1AZ-FE-Fahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'This profile is for the multipoint-injection 1AZ-FE, not the direct-injection 1AZ-FSE.',
+        es: 'Este perfil es para 1AZ-FE de inyección multipunto, no para 1AZ-FSE de inyección directa.',
+        fr: 'Cette fiche concerne le 1AZ-FE à injection multipoint, pas le 1AZ-FSE à injection directe.',
+        de: 'Dieses Profil gilt für den 1AZ-FE mit Saugrohreinspritzung, nicht für den Direkteinspritzer 1AZ-FSE.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'nissan-qashqai-mr20de',
+      make: 'Nissan / Renault',
+      model: 'Qashqai / X-Trail / Sentra / Fluence',
+      generation: 'MR20DE / M4R applications',
+      years: '2004-present',
+      engine: 'MR20DE / Renault M4R',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['0W-20', '5W-30'],
+      approvals: ['Nissan or Renault specification from the exact manual'],
+      standards: ['API / ILSAC or Renault approval by vehicle brand'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by Nissan or Renault installation, sump and filter; verify the exact service fill.',
+        es: 'Varía según instalación Nissan o Renault, cárter y filtro; comprueba el llenado exacto.',
+        fr: "Varie selon l'installation Nissan ou Renault, le carter et le filtre ; vérifiez le volume exact.",
+        de: 'Je nach Nissan- oder Renault-Einbau, Ölwanne und Filter unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the schedule issued by the exact vehicle brand and market.',
+        es: 'Sigue el plan emitido por la marca y mercado exactos.',
+        fr: 'Suivez le programme de la marque et du marché exacts.',
+        de: 'Den Wartungsplan der genauen Fahrzeugmarke und des Markts beachten.'
+      },
+      climate: {
+        en: 'Do not transfer a Nissan viscosity chart directly to a Renault application without checking its manual.',
+        es: 'No transfieras una tabla Nissan directamente a un Renault sin revisar su manual.',
+        fr: 'Ne transposez pas directement un tableau Nissan à une Renault sans consulter son manuel.',
+        de: 'Eine Nissan-Viskositätstabelle nicht ungeprüft auf eine Renault-Anwendung übertragen.'
+      },
+      source: {
+        en: "Nissan or Renault owner's manual for the exact MR20DE/M4R vehicle, model year and market.",
+        es: 'Manual Nissan o Renault del vehículo MR20DE/M4R, año y mercado exactos.',
+        fr: "Manuel Nissan ou Renault du véhicule MR20DE/M4R, de l'année et du marché exacts.",
+        de: 'Nissan- oder Renault-Betriebsanleitung für MR20DE/M4R-Fahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'MR20DE and Renault M4R share architecture, but brand-specific oil and service documents can differ.',
+        es: 'MR20DE y Renault M4R comparten arquitectura, pero aceite y mantenimiento de cada marca pueden diferir.',
+        fr: "MR20DE et Renault M4R partagent l'architecture, mais les documents d'huile et d'entretien peuvent différer.",
+        de: 'MR20DE und Renault M4R teilen die Architektur, aber markenspezifische Öl- und Serviceunterlagen können abweichen.'
+      },
+      statusKey: 'starterReview'
+    },
+    {
+      id: 'hyundai-elantra-g4fg',
+      make: 'Hyundai / Kia',
+      model: 'Accent / Elantra / i30 / Rio / Ceed',
+      generation: 'Gamma 1.6 applications',
+      years: '2010-present',
+      engine: 'G4FG 1.6 Gamma',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-20', '5W-30'],
+      approvals: ['API SM / SN or later compatible category'],
+      standards: ['ILSAC GF-4 / GF-5 where specified'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by MPI or GDI-related application, sump, filter and vehicle; verify the exact service fill.',
+        es: 'Varía según aplicación, cárter, filtro y vehículo; comprueba el llenado exacto.',
+        fr: "Varie selon l'application, le carter, le filtre et le véhicule ; vérifiez le volume exact.",
+        de: 'Je nach Anwendung, Ölwanne, Filter und Fahrzeug unterschiedlich; genaue Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Hyundai or Kia schedule; short trips, dust and prolonged idling can require severe service.',
+        es: 'Sigue el plan Hyundai o Kia; trayectos cortos, polvo y ralentí prolongado pueden exigir servicio severo.',
+        fr: 'Suivez le programme Hyundai ou Kia ; petits trajets, poussière et ralenti prolongé peuvent imposer un service sévère.',
+        de: 'Hyundai- oder Kia-Plan beachten; Kurzstrecke, Staub und langer Leerlauf können erschwerten Service erfordern.'
+      },
+      climate: {
+        en: 'Select viscosity from the exact model-year temperature chart rather than engine code alone.',
+        es: 'Elige la viscosidad según la tabla del año exacto, no solo por el código.',
+        fr: "Choisissez la viscosité selon le tableau de l'année exacte, pas seulement selon le code.",
+        de: 'Viskosität anhand der Temperaturtabelle des Baujahrs wählen, nicht nur nach Motorcode.'
+      },
+      source: {
+        en: "Hyundai or Kia owner's manual for the exact G4FG vehicle, model year and market.",
+        es: 'Manual Hyundai o Kia del vehículo G4FG, año y mercado exactos.',
+        fr: "Manuel Hyundai ou Kia du véhicule G4FG, de l'année et du marché exacts.",
+        de: 'Hyundai- oder Kia-Betriebsanleitung für G4FG-Fahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'Confirm the full engine and fuel-system version before using a generic Gamma 1.6 result.',
+        es: 'Confirma la versión completa de motor y combustible antes de usar un resultado Gamma 1.6 genérico.',
+        fr: "Confirmez la version complète du moteur et de l'alimentation avant un résultat Gamma 1.6 générique.",
+        de: 'Vollständige Motor- und Kraftstoffsystemversion vor Nutzung eines allgemeinen Gamma-1.6-Ergebnisses bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'gm-corvette-ls3',
+      make: 'Chevrolet / Holden',
+      model: 'Corvette C6 / Camaro SS / Chevrolet SS',
+      generation: 'LS3 performance applications',
+      years: '2008-2017',
+      engine: 'LS3 6.2 V8',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30'],
+      approvals: ['GM4718M for applicable earlier vehicles', 'dexos1 for applicable later vehicles'],
+      standards: ['Exact performance supplement by vehicle'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by Corvette, Camaro or Holden sump and oil-cooling configuration; verify by VIN.',
+        es: 'Varía según cárter y refrigeración de Corvette, Camaro o Holden; comprueba por VIN.',
+        fr: 'Varie selon le carter et le refroidissement de Corvette, Camaro ou Holden ; vérifiez par VIN.',
+        de: 'Je nach Corvette-, Camaro- oder Holden-Ölwanne und Ölkühlung unterschiedlich; per VIN prüfen.'
+      },
+      interval: {
+        en: 'Follow the GM Oil Life System and the separate performance or track-use instructions.',
+        es: 'Sigue GM Oil Life System y las instrucciones separadas para uso deportivo o circuito.',
+        fr: 'Suivez le GM Oil Life System et les instructions distinctes pour usage performance ou circuit.',
+        de: 'GM Oil Life System und separate Performance- oder Rennstreckenhinweise beachten.'
+      },
+      climate: {
+        en: 'Track-use oil instructions can differ from normal road service; use the exact vehicle supplement.',
+        es: 'Las instrucciones de circuito pueden diferir del uso normal; usa el suplemento exacto.',
+        fr: 'Les instructions circuit peuvent différer du service routier ; utilisez le supplément exact.',
+        de: 'Rennstreckenhinweise können vom Straßenservice abweichen; genauen Fahrzeugzusatz verwenden.'
+      },
+      source: {
+        en: "Chevrolet or Holden owner's manual and performance supplement for the exact VIN and model year.",
+        es: 'Manual Chevrolet o Holden y suplemento deportivo para VIN y año exactos.',
+        fr: "Manuel Chevrolet ou Holden et supplément performance pour le VIN et l'année exacts.",
+        de: 'Chevrolet- oder Holden-Betriebsanleitung und Performance-Zusatz für VIN und Baujahr.'
+      },
+      note: {
+        en: 'Do not use a track recommendation as the normal road-fill rule. Confirm the vehicle and operating mode.',
+        es: 'No uses una recomendación de circuito como regla normal. Confirma vehículo y modo de uso.',
+        fr: "N'utilisez pas une recommandation circuit comme règle routière. Confirmez le véhicule et l'usage.",
+        de: 'Eine Rennstreckenempfehlung nicht als normale Straßenregel verwenden. Fahrzeug und Nutzung bestätigen.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'ford-modular-46-2v',
+      make: 'Ford / Lincoln / Mercury',
+      model: 'Crown Victoria / Town Car / Mustang / F-150',
+      generation: '4.6 Modular 2V applications',
+      years: '1996-2014',
+      engine: '4.6 Modular 2V V8',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-20', '5W-30'],
+      approvals: ['Ford WSS specification from the exact owner manual'],
+      standards: ['Model year and vehicle dependent'],
+      emissionsKey: 'marketDependent',
+      capacity: {
+        en: 'Varies by Romeo or Windsor build, sump, filter and vehicle; verify the exact service fill.',
+        es: 'Varía según construcción Romeo o Windsor, cárter, filtro y vehículo; comprueba la cantidad exacta.',
+        fr: 'Varie selon la construction Romeo ou Windsor, le carter, le filtre et le véhicule ; vérifiez le volume exact.',
+        de: 'Je nach Romeo- oder Windsor-Bauart, Ölwanne, Filter und Fahrzeug unterschiedlich; Füllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Ford, Lincoln or Mercury schedule for the exact model year and operating conditions.',
+        es: 'Sigue el plan Ford, Lincoln o Mercury del año y condiciones exactos.',
+        fr: "Suivez le programme Ford, Lincoln ou Mercury de l'année et des conditions exacts.",
+        de: 'Ford-, Lincoln- oder Mercury-Plan für Baujahr und Einsatzbedingungen beachten.'
+      },
+      climate: {
+        en: 'Early and later manuals can specify different grades; use the exact model-year document.',
+        es: 'Los manuales antiguos y modernos pueden indicar grados distintos; usa el documento del año exacto.',
+        fr: "Les anciens et récents manuels peuvent prescrire des grades différents ; utilisez le document de l'année exacte.",
+        de: 'Frühe und spätere Handbücher können andere Klassen nennen; das genaue Baujahr-Dokument verwenden.'
+      },
+      source: {
+        en: "Ford, Lincoln or Mercury owner's manual for the exact 4.6 vehicle, model year and market.",
+        es: 'Manual Ford, Lincoln o Mercury del vehículo 4.6, año y mercado exactos.',
+        fr: "Manuel Ford, Lincoln ou Mercury du véhicule 4.6, de l'année et du marché exacts.",
+        de: 'Ford-, Lincoln- oder Mercury-Betriebsanleitung für 4.6-Fahrzeug, Baujahr und Markt.'
+      },
+      note: {
+        en: 'Confirm 2-valve, 3-valve or 4-valve hardware. This profile covers only the 2-valve family.',
+        es: 'Confirma hardware de 2, 3 o 4 válvulas. Este perfil cubre solo la familia de 2 válvulas.',
+        fr: 'Confirmez la version 2, 3 ou 4 soupapes. Cette fiche couvre uniquement la famille 2 soupapes.',
+        de: '2-, 3- oder 4-Ventil-Hardware bestätigen. Dieses Profil gilt nur für die 2-Ventil-Familie.'
+      },
+      statusKey: 'generationCritical'
+    },
+    {
+      id: 'jeep-amc-40',
+      make: 'Jeep',
+      model: 'Wrangler TJ / Cherokee XJ / Grand Cherokee',
+      generation: 'AMC 242 / PowerTech 4.0 applications',
+      years: '1995-2006',
+      engine: 'Jeep 4.0 inline-six',
+      fuelKey: 'petrol',
+      aspirationKey: 'naturallyAspirated',
+      viscosities: ['5W-30', '10W-30'],
+      approvals: ['API category from the exact model-year manual'],
+      standards: ['Temperature chart and duty dependent'],
+      emissionsKey: 'noDpfGpf',
+      capacity: {
+        en: 'Varies by sump, filter and vehicle configuration; verify the exact service-fill quantity.',
+        es: 'Varía según cárter, filtro y configuración; comprueba la cantidad exacta.',
+        fr: 'Varie selon le carter, le filtre et la configuration ; vérifiez la quantité exacte.',
+        de: 'Je nach Ölwanne, Filter und Fahrzeugkonfiguration unterschiedlich; genaue Servicefüllmenge prüfen.'
+      },
+      interval: {
+        en: 'Follow the Jeep schedule; off-road dust, towing and frequent short trips can require severe service.',
+        es: 'Sigue el plan Jeep; polvo, remolque y trayectos cortos pueden exigir servicio severo.',
+        fr: 'Suivez le programme Jeep ; poussière, remorquage et petits trajets peuvent imposer un service sévère.',
+        de: 'Jeep-Plan beachten; Geländestaub, Anhängerbetrieb und Kurzstrecke können erschwerten Service erfordern.'
+      },
+      climate: {
+        en: 'Use the temperature chart in the exact manual rather than choosing viscosity only by engine age.',
+        es: 'Usa la tabla del manual exacto, no elijas viscosidad solo por la edad del motor.',
+        fr: "Utilisez le tableau du manuel exact, pas seulement l'âge du moteur pour choisir la viscosité.",
+        de: 'Temperaturtabelle des genauen Handbuchs verwenden, nicht nur das Motoralter zur Viskositätswahl.'
+      },
+      source: {
+        en: "Jeep owner's manual for the exact model year, vehicle and operating conditions.",
+        es: 'Manual Jeep del año, vehículo y condiciones exactos.',
+        fr: "Manuel Jeep de l'année, du véhicule et des conditions exacts.",
+        de: 'Jeep-Betriebsanleitung für Baujahr, Fahrzeug und Einsatzbedingungen.'
+      },
+      note: {
+        en: 'High mileage alone does not prove a thicker oil is required. Check pressure, leaks and mechanical condition.',
+        es: 'El kilometraje alto no demuestra que necesite aceite más espeso. Revisa presión, fugas y estado mecánico.',
+        fr: "Un kilométrage élevé ne prouve pas qu'une huile plus épaisse est nécessaire. Contrôlez pression, fuites et état.",
+        de: 'Hohe Laufleistung beweist nicht, dass dickeres Öl nötig ist. Druck, Lecks und Mechanik prüfen.'
+      },
+      statusKey: 'starterReview'
     }
   ]
 };
