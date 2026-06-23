@@ -234,9 +234,42 @@
       line-height: 1.25;
       color: var(--text);
     }
+    #details {
+      padding: 14px;
+    }
+    #details .empty {
+      padding: 4px;
+    }
     .details-title span {
       color: var(--muted);
       font-weight: 400;
+    }
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 0 0 14px;
+    }
+    .spec-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f8fafc;
+      padding: 10px 12px;
+      min-width: 0;
+    }
+    .spec-card span {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+    }
+    .spec-card strong {
+      display: block;
+      color: var(--text);
+      font-size: 16px;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
     }
     .guide {
       margin-top: 14px;
@@ -316,6 +349,15 @@
       border-collapse: collapse;
       font-size: 14px;
     }
+    .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .table-scroll table {
+      min-width: 760px;
+    }
     th,
     td {
       padding: 10px 12px;
@@ -343,8 +385,16 @@
       .layout {
         grid-template-columns: 1fr;
       }
+      .spec-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
       .langbar {
         margin-left: 0;
+      }
+    }
+    @media (max-width: 520px) {
+      .spec-grid {
+        grid-template-columns: 1fr;
       }
     }
   </style>
@@ -891,6 +941,14 @@
       });
     }
 
+    function uniqueRecordValues(records, key, suffix = '') {
+      const values = records
+        .map(record => record[key])
+        .filter(Boolean)
+        .map(value => `${value}${suffix}`);
+      return [...new Set(values)].join(' / ') || '-';
+    }
+
     function renderDetails() {
       if (!selectedModel) {
         detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
@@ -915,25 +973,36 @@
           <td><span class="tag">${statusLabel(record.status)}</span></td>
         </tr>
       `).join('');
+      const specSummary = `
+        <div class="spec-grid" aria-label="Key wheel fitment values">
+          <div class="spec-card"><span>PCD</span><strong>${uniqueRecordValues(records, 'pcd')}</strong></div>
+          <div class="spec-card"><span>${t('centerBore')}</span><strong>${uniqueRecordValues(records, 'centerBore', ' mm')}</strong></div>
+          <div class="spec-card"><span>${t('thread')}</span><strong>${uniqueRecordValues(records, 'thread')}</strong></div>
+          <div class="spec-card"><span>ET</span><strong>${uniqueRecordValues(records, 'offset')}</strong></div>
+        </div>
+      `;
       detailsEl.innerHTML = `
         <h3 class="details-title">${modelTitle()}</h3>
+        ${specSummary}
         <div class="notice">${t('notice')}</div>
-        <table>
-          <thead>
-            <tr>
-              <th>${t('generation')}</th>
-              <th>${t('years')}</th>
-              <th>${t('market')}</th>
-              <th>PCD</th>
-              <th>${t('centerBore')}</th>
-              <th>${t('thread')}</th>
-              <th>${t('fastener')}</th>
-              <th>ET</th>
-              <th>${t('status')}</th>
-            </tr>
-          </thead>
-          <tbody>${rows}</tbody>
-        </table>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>${t('generation')}</th>
+                <th>${t('years')}</th>
+                <th>${t('market')}</th>
+                <th>PCD</th>
+                <th>${t('centerBore')}</th>
+                <th>${t('thread')}</th>
+                <th>${t('fastener')}</th>
+                <th>ET</th>
+                <th>${t('status')}</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
         <div class="guide">
           <strong>${t('guideTitle')}</strong>
           ${t('guideText')}
