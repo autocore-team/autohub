@@ -98,13 +98,6 @@
       max-width: 860px;
       line-height: 1.5;
     }
-    .toolbar {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin: 18px 0 14px;
-    }
     input {
       width: min(100%, 460px);
       min-height: 42px;
@@ -114,33 +107,6 @@
       color: var(--text);
       padding: 0 12px;
       font-size: 15px;
-    }
-    .tabs {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .tabs button {
-      min-height: 38px;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      background: #fff;
-      color: #334155;
-      text-align: center;
-      font-size: 14px;
-      padding: 0 12px;
-      cursor: pointer;
-    }
-    .tabs button.selected {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
-    .summary {
-      margin: 0 0 16px;
-      min-height: 20px;
-      color: var(--muted);
-      font-size: 14px;
     }
     .panel {
       background: var(--panel);
@@ -174,38 +140,6 @@
       text-decoration: none;
       font-size: 13px;
       padding: 0 11px;
-      white-space: nowrap;
-    }
-    .table-wrap {
-      width: 100%;
-      overflow-x: auto;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 14px;
-    }
-    th,
-    td {
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
-    }
-    th {
-      color: var(--muted);
-      font-weight: 700;
-      background: var(--soft);
-    }
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      min-height: 24px;
-      border-radius: 999px;
-      padding: 2px 9px;
-      background: #edf2f7;
-      color: #334155;
-      font-size: 12px;
       white-space: nowrap;
     }
     .note-grid {
@@ -459,12 +393,7 @@
       h1 {
         font-size: 26px;
       }
-      .toolbar {
-        align-items: stretch;
-      }
-      input,
-      .tabs,
-      .tabs button {
+      input {
         width: 100%;
       }
       .engine-search-row,
@@ -526,18 +455,8 @@
       <div class="panel-body" id="engineDetailContent"></div>
     </section>
 
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="Search: 1ZZ-FE, EA888, ZF 8HP, Toyota, DSG">
-      <div class="tabs" aria-label="Catalog filters">
-        <button type="button" class="selected" data-filter="all" data-i18n="allItems">All</button>
-        <button type="button" data-filter="engine" data-i18n="engineItems">Engines</button>
-        <button type="button" data-filter="transmission" data-i18n="transmissionItems">Transmissions</button>
-      </div>
-    </div>
-    <p class="summary" id="summary">Showing starter engine and transmission records.</p>
-
-    <section class="panel" aria-label="Popular engine and transmission searches">
-      <h2 data-i18n="popularTitle">Popular engine and transmission searches</h2>
+    <section class="panel" aria-label="Popular engine searches">
+      <h2 data-i18n="popularTitle">Popular engine searches</h2>
       <div class="panel-body">
         <div class="quick-links">
           <a href="engines.html?engine=volvo-b5202s" data-engine-link="volvo-b5202s">Volvo B5202S details</a>
@@ -551,170 +470,6 @@
           <a href="engines.html?engine=gm-lm7" data-engine-link="gm-lm7">GM LM7 5.3 Vortec</a>
           <a href="engines.html?engine=ford-coyote" data-engine-link="ford-coyote">Ford 5.0 Coyote</a>
           <a href="engines.html?engine=chrysler-pentastar" data-engine-link="chrysler-pentastar">3.6 Pentastar V6</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel" aria-label="Engine and transmission catalog">
-      <h2 data-i18n="catalogTitle">Catalog records</h2>
-      <div class="panel-body">
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th data-i18n="type">Type</th>
-                <th data-i18n="maker">Maker</th>
-                <th data-i18n="code">Code / family</th>
-                <th data-i18n="years">Years</th>
-                <th data-i18n="applications">Common applications</th>
-                <th data-i18n="strengths">Strengths</th>
-                <th data-i18n="weakPoints">Weak points</th>
-                <th data-i18n="buyerNote">Buyer note</th>
-              </tr>
-            </thead>
-            <tbody id="catalogRows">
-              <tr id="toyota-1zz-fe" data-type="engine" data-search="toyota 1zz-fe corolla avensis celica mr2 1.8 timing chain oil consumption">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>Toyota</td>
-                <td>1ZZ-FE</td>
-                <td>1998-2007</td>
-                <td>Corolla, Avensis, Celica, MR2</td>
-                <td data-i18n="toyota1zzStrengths">Simple layout, wide parts availability, good fuel economy.</td>
-                <td data-i18n="toyota1zzWeak">Early oil consumption, chain noise, neglected cooling system.</td>
-                <td data-i18n="toyota1zzNote">Check oil use history and listen for chain noise on cold start.</td>
-              </tr>
-              <tr id="toyota-2zr-fe" data-type="engine" data-search="toyota 2zr-fe corolla auris prius 1.8 valvematic hybrid water pump">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>Toyota</td>
-                <td>2ZR-FE / 2ZR-FXE</td>
-                <td>2006-2026</td>
-                <td>Corolla, Auris, Prius, C-HR</td>
-                <td data-i18n="toyota2zrStrengths">Efficient, common worldwide, strong hybrid reputation.</td>
-                <td data-i18n="toyota2zrWeak">Water pump, EGR deposits on hybrids, oil leaks with age.</td>
-                <td data-i18n="toyota2zrNote">For hybrids, check service history and cooling system condition.</td>
-              </tr>
-              <tr id="honda-r18a" data-type="engine" data-search="honda r18a civic 1.8 vtec reliability valve adjustment">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>Honda</td>
-                <td>R18A / R18Z</td>
-                <td>2005-2021</td>
-                <td>Civic, Stream, HR-V</td>
-                <td data-i18n="hondaR18Strengths">Reliable daily engine, simple maintenance, economical.</td>
-                <td data-i18n="hondaR18Weak">Valve clearance neglect, mounts, age-related leaks.</td>
-                <td data-i18n="hondaR18Note">Ask when valve adjustment was last done.</td>
-              </tr>
-              <tr id="honda-k20" data-type="engine" data-search="honda k20 civic accord cr-v integra k20a k20z vtec timing chain">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>Honda</td>
-                <td>K20 family</td>
-                <td>2000-2026</td>
-                <td>Civic, Accord, CR-V, Integra</td>
-                <td data-i18n="hondaK20Strengths">Strong performance reputation, durable base, good parts support.</td>
-                <td data-i18n="hondaK20Weak">Oil leaks, chain wear on neglected cars, tuning abuse.</td>
-                <td data-i18n="hondaK20Note">Check maintenance quality and avoid poorly tuned examples.</td>
-              </tr>
-              <tr id="bmw-m54" data-type="engine" data-search="bmw m54 e46 e39 e60 x5 oil consumption disa cooling system vanos">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>BMW</td>
-                <td>M54</td>
-                <td>2000-2006</td>
-                <td>3 Series, 5 Series, X3, X5, Z4</td>
-                <td data-i18n="bmwM54Strengths">Smooth inline-six, strong enthusiast support, rebuildable.</td>
-                <td data-i18n="bmwM54Weak">Cooling system, oil consumption, DISA valve, VANOS seals.</td>
-                <td data-i18n="bmwM54Note">Budget for cooling refresh and oil leak repairs.</td>
-              </tr>
-              <tr id="bmw-n52" data-type="engine" data-search="bmw n52 e90 e60 x3 325i 330i valvetronic water pump">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>BMW</td>
-                <td>N52</td>
-                <td>2004-2015</td>
-                <td>3 Series, 5 Series, X3, Z4</td>
-                <td data-i18n="bmwN52Strengths">Naturally aspirated inline-six, refined, generally robust.</td>
-                <td data-i18n="bmwN52Weak">Electric water pump, oil leaks, Valvetronic-related faults.</td>
-                <td data-i18n="bmwN52Note">Check pump replacement history and scan for stored faults.</td>
-              </tr>
-              <tr id="vw-ea888" data-type="engine" data-search="volkswagen audi ea888 tsi tfsi golf passat a4 timing chain oil consumption water pump">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>Volkswagen / Audi</td>
-                <td>EA888 TSI / TFSI</td>
-                <td>2007-2026</td>
-                <td>Golf, Passat, Tiguan, A3, A4</td>
-                <td data-i18n="vwEa888Strengths">Good torque, huge parts support, many versions.</td>
-                <td data-i18n="vwEa888Weak">Timing chain on early versions, oil consumption, water pump leaks.</td>
-                <td data-i18n="vwEa888Note">Identify generation first; issues differ strongly by version.</td>
-              </tr>
-              <tr id="mercedes-m274" data-type="engine" data-search="mercedes m274 c class e class glc timing chain cam adjuster">
-                <td><span class="tag" data-i18n="engineLabel">Engine</span></td>
-                <td>Mercedes-Benz</td>
-                <td>M274</td>
-                <td>2011-2020</td>
-                <td>C-Class, E-Class, GLC, SLK</td>
-                <td data-i18n="mbM274Strengths">Modern turbo engine, efficient, broad model coverage.</td>
-                <td data-i18n="mbM274Weak">Timing chain stretch, cam adjusters, oil and coolant leaks.</td>
-                <td data-i18n="mbM274Note">Cold-start noise and service records matter.</td>
-              </tr>
-              <tr id="aisin-tf-80sc" data-type="transmission" data-search="aisin tf-80sc awf21 volvo ford peugeot citroen automatic transmission valve body">
-                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
-                <td>Aisin</td>
-                <td>TF-80SC / AWF21</td>
-                <td>2001-2018</td>
-                <td>Volvo, Ford, Peugeot, Citroen, Opel</td>
-                <td data-i18n="aisinTf80Strengths">Common six-speed automatic, strong when serviced.</td>
-                <td data-i18n="aisinTf80Weak">Valve body wear, harsh shifts, fluid neglect.</td>
-                <td data-i18n="aisinTf80Note">Test warm shifts and check whether fluid was changed.</td>
-              </tr>
-              <tr id="aisin-aw55" data-type="transmission" data-search="aisin aw55-50sn volvo saab nissan opel automatic gearbox valve body">
-                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
-                <td>Aisin</td>
-                <td>AW55-50SN / AW55-51SN</td>
-                <td>1999-2010</td>
-                <td>Volvo, Saab, Nissan, Opel</td>
-                <td data-i18n="aisinAw55Strengths">Widespread unit, repair knowledge is common.</td>
-                <td data-i18n="aisinAw55Weak">Valve body issues, delayed engagement, old fluid.</td>
-                <td data-i18n="aisinAw55Note">Avoid cars with slipping, flares or strong shift shocks.</td>
-              </tr>
-              <tr id="zf-6hp" data-type="transmission" data-search="zf 6hp bmw audi jaguar land rover automatic mechatronic sleeves">
-                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
-                <td>ZF</td>
-                <td>6HP family</td>
-                <td>2000-2014</td>
-                <td>BMW, Audi, Jaguar, Land Rover</td>
-                <td data-i18n="zf6hpStrengths">Smooth shifting, high torque versions, widely supported.</td>
-                <td data-i18n="zf6hpWeak">Mechatronic sleeves, solenoids, torque converter wear.</td>
-                <td data-i18n="zf6hpNote">Check for leaks and shift quality after full warm-up.</td>
-              </tr>
-              <tr id="zf-8hp" data-type="transmission" data-search="zf 8hp bmw audi jaguar land rover chrysler automatic transmission">
-                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
-                <td>ZF</td>
-                <td>8HP family</td>
-                <td>2008-2026</td>
-                <td>BMW, Audi, Jaguar, Land Rover, Chrysler</td>
-                <td data-i18n="zf8hpStrengths">Fast and efficient automatic, excellent reputation.</td>
-                <td data-i18n="zf8hpWeak">Fluid neglect, mechatronic faults, xDrive transfer case confusion.</td>
-                <td data-i18n="zf8hpNote">Service history and correct fluid are important.</td>
-              </tr>
-              <tr id="jatco-jf011e" data-type="transmission" data-search="jatco jf011e nissan renault mitsubishi cvt transmission overheating belt">
-                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
-                <td>Jatco</td>
-                <td>JF011E / RE0F10A</td>
-                <td>2005-2020</td>
-                <td>Nissan, Renault, Mitsubishi, Jeep</td>
-                <td data-i18n="jatcoJf011Strengths">Very common CVT with lots of repair information.</td>
-                <td data-i18n="jatcoJf011Weak">Overheating, belt and pulley wear, old fluid.</td>
-                <td data-i18n="jatcoJf011Note">Avoid jerks, whining, overheating history or unknown service.</td>
-              </tr>
-              <tr id="dsg-dq250" data-type="transmission" data-search="vw dsg dq250 volkswagen audi skoda seat wet clutch mechatronic">
-                <td><span class="tag" data-i18n="transmissionLabel">Transmission</span></td>
-                <td>Volkswagen Group</td>
-                <td>DSG DQ250</td>
-                <td>2003-2026</td>
-                <td>VW, Audi, Skoda, SEAT</td>
-                <td data-i18n="dsgDq250Strengths">Wet-clutch DSG, strong performance, common service parts.</td>
-                <td data-i18n="dsgDq250Weak">Mechatronic faults, clutch wear, skipped fluid service.</td>
-                <td data-i18n="dsgDq250Note">Fluid service interval and smooth low-speed behavior are key.</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </div>
     </section>
@@ -772,7 +527,7 @@
         allItems: 'All',
         engineItems: 'Engines',
         transmissionItems: 'Transmissions',
-        popularTitle: 'Popular engine and transmission searches',
+        popularTitle: 'Popular engine searches',
         catalogTitle: 'Catalog records',
         type: 'Type',
         maker: 'Maker',
@@ -869,7 +624,7 @@
         allItems: 'Todo',
         engineItems: 'Motores',
         transmissionItems: 'Transmisiones',
-        popularTitle: 'Búsquedas populares de motores y transmisiones',
+        popularTitle: 'Búsquedas populares de motores',
         catalogTitle: 'Registros del catálogo',
         type: 'Tipo',
         maker: 'Fabricante',
@@ -966,7 +721,7 @@
         allItems: 'Tout',
         engineItems: 'Moteurs',
         transmissionItems: 'Transmissions',
-        popularTitle: 'Recherches populaires moteurs et transmissions',
+        popularTitle: 'Recherches populaires de moteurs',
         catalogTitle: 'Fiches du catalogue',
         type: 'Type',
         maker: 'Fabricant',
@@ -1063,7 +818,7 @@
         allItems: 'Alle',
         engineItems: 'Motoren',
         transmissionItems: 'Getriebe',
-        popularTitle: 'Beliebte Motor- und Getriebesuchen',
+        popularTitle: 'Beliebte Motorsuchen',
         catalogTitle: 'Katalogeinträge',
         type: 'Typ',
         maker: 'Hersteller',
@@ -1132,14 +887,10 @@
 
     const initialUrl = new URL(window.location.href);
     let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
-    let activeFilter = 'all';
     let activeRegion = ['all', 'europe', 'japan', 'korea', 'usa'].includes(initialUrl.searchParams.get('region'))
       ? initialUrl.searchParams.get('region')
       : 'all';
     let selectedEngineId = '';
-    const searchEl = document.getElementById('search');
-    const rows = Array.from(document.querySelectorAll('#catalogRows tr'));
-    const summaryEl = document.getElementById('summary');
     const engineRecords = (window.AUTOHUB_ENGINE_DATA && window.AUTOHUB_ENGINE_DATA.records) || [];
     const engineCodeSearch = document.getElementById('engineCodeSearch');
     const engineSuggestions = document.getElementById('engineSuggestions');
@@ -1165,29 +916,6 @@
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
         .replaceAll("'", '&#039;');
-    }
-
-    function rowMatches(row, query) {
-      const typeOk = activeFilter === 'all' || row.dataset.type === activeFilter;
-      const text = `${row.textContent} ${row.dataset.search || ''}`.toLowerCase();
-      return typeOk && (!query || text.includes(query));
-    }
-
-    function render() {
-      const query = searchEl.value.trim().toLowerCase();
-      let visible = 0;
-      rows.forEach((row) => {
-        const show = rowMatches(row, query);
-        row.hidden = !show;
-        if (show) visible += 1;
-      });
-      if (!query) {
-        summaryEl.textContent = formatSummary(t('summaryAll'), { count: visible });
-      } else if (visible) {
-        summaryEl.textContent = formatSummary(t('summaryFiltered'), { count: visible, query: searchEl.value.trim() });
-      } else {
-        summaryEl.textContent = formatSummary(t('summaryEmpty'), { query: searchEl.value.trim() });
-      }
     }
 
     function engineSearchText(record) {
@@ -1323,7 +1051,6 @@
       document.querySelectorAll('[data-engine-link]').forEach((link) => {
         link.href = `engines.html?engine=${encodeURIComponent(link.dataset.engineLink)}&lang=${encodeURIComponent(lang)}`;
       });
-      render();
       renderEngineMatches();
       if (selectedEngineId) openEngine(selectedEngineId, false, false);
     }
@@ -1358,22 +1085,11 @@
       });
     });
 
-    document.querySelectorAll('[data-filter]').forEach((button) => {
-      button.addEventListener('click', () => {
-        activeFilter = button.dataset.filter;
-        document.querySelectorAll('[data-filter]').forEach((item) => {
-          item.classList.toggle('selected', item.dataset.filter === activeFilter);
-        });
-        render();
-      });
-    });
-
     engineCodeSearch.addEventListener('input', renderEngineMatches);
     engineCodeSearch.addEventListener('keydown', (event) => {
       if (event.key === 'Enter') openBestMatch();
     });
     engineFindButton.addEventListener('click', openBestMatch);
-    searchEl.addEventListener('input', render);
 
     const requestedEngine = initialUrl.searchParams.get('engine');
     if (requestedEngine && engineRecords.some((record) => record.id === requestedEngine)) {
