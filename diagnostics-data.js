@@ -54,6 +54,41 @@ window.AUTOHUB_DIAGNOSTICS_DATA = {
       { id: 'multiecuscan', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding'] },
       { id: 'alfaobd', level: 'alternative', tasks: ['codes', 'live', 'service', 'coding'] },
       { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    hondaAcura: [
+      { id: 'honda-ihds', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding', 'flashing'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] },
+      { id: 'obd-auto-doctor', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    nissanInfiniti: [
+      { id: 'nissan-consult', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding', 'flashing'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] },
+      { id: 'obd-auto-doctor', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    subaru: [
+      { id: 'subaru-ssm', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] },
+      { id: 'obd-auto-doctor', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    mitsubishi: [
+      { id: 'mitsubishi-mut', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding', 'flashing'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] },
+      { id: 'obd-auto-doctor', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    hyundai: [
+      { id: 'hyundai-gds', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding', 'flashing'] },
+      { id: 'carly', level: 'alternative', tasks: ['codes', 'live', 'service'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    kia: [
+      { id: 'kia-kds', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding', 'flashing'] },
+      { id: 'carly', level: 'alternative', tasks: ['codes', 'live', 'service'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] }
+    ],
+    mercedes: [
+      { id: 'mercedes-xentry', level: 'recommended', tasks: ['codes', 'live', 'service', 'coding', 'flashing'] },
+      { id: 'carly', level: 'alternative', tasks: ['codes', 'live', 'service'] },
+      { id: 'car-scanner', level: 'basic', tasks: ['codes', 'live'] }
     ]
   },
   vehicles: [
@@ -117,6 +152,58 @@ window.AUTOHUB_DIAGNOSTICS_DATA = {
     { make: 'Alfa Romeo', model: '159', from: 2005, to: 2011, profile: 'fca' },
     { make: 'Alfa Romeo', model: 'Giulietta', from: 2010, to: 2020, profile: 'fca' },
     { make: 'Jeep', model: 'Renegade', from: 2014, to: 2025, profile: 'fca' },
-    { make: 'Jeep', model: 'Grand Cherokee', from: 1999, to: 2025, profile: 'fca' }
+    { make: 'Jeep', model: 'Grand Cherokee', from: 1999, to: 2025, profile: 'fca' },
+
+    { make: 'Honda', model: 'Civic', from: 1995, to: 2025, profile: 'hondaAcura' },
+    { make: 'Honda', model: 'Accord', from: 1995, to: 2025, profile: 'hondaAcura' },
+    { make: 'Honda', model: 'CR-V', from: 1997, to: 2025, profile: 'hondaAcura' },
+    { make: 'Honda', model: 'Fit / Jazz', from: 2001, to: 2025, profile: 'hondaAcura' },
+    { make: 'Honda', model: 'Pilot', from: 2002, to: 2025, profile: 'hondaAcura' },
+    { make: 'Honda', model: 'Odyssey', from: 1995, to: 2025, profile: 'hondaAcura' },
+    { make: 'Acura', model: 'TL / TLX', from: 1995, to: 2025, profile: 'hondaAcura' },
+    { make: 'Acura', model: 'MDX', from: 2001, to: 2025, profile: 'hondaAcura' },
+    { make: 'Acura', model: 'RDX', from: 2007, to: 2025, profile: 'hondaAcura' },
+
+    { make: 'Nissan', model: 'Qashqai / Rogue Sport', from: 2006, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Nissan', model: 'Rogue / X-Trail', from: 2001, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Nissan', model: 'Altima', from: 1995, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Nissan', model: 'Sentra', from: 1995, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Nissan', model: 'Pathfinder', from: 1995, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Nissan', model: 'Navara / Frontier', from: 1997, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Infiniti', model: 'G / Q50', from: 2002, to: 2025, profile: 'nissanInfiniti' },
+    { make: 'Infiniti', model: 'FX / QX70', from: 2003, to: 2017, profile: 'nissanInfiniti' },
+    { make: 'Infiniti', model: 'QX60', from: 2012, to: 2025, profile: 'nissanInfiniti' },
+
+    { make: 'Subaru', model: 'Impreza', from: 1995, to: 2025, profile: 'subaru' },
+    { make: 'Subaru', model: 'Forester', from: 1997, to: 2025, profile: 'subaru' },
+    { make: 'Subaru', model: 'Legacy', from: 1995, to: 2025, profile: 'subaru' },
+    { make: 'Subaru', model: 'Outback', from: 1995, to: 2025, profile: 'subaru' },
+    { make: 'Subaru', model: 'XV / Crosstrek', from: 2011, to: 2025, profile: 'subaru' },
+    { make: 'Subaru', model: 'WRX', from: 1995, to: 2025, profile: 'subaru' },
+
+    { make: 'Mitsubishi', model: 'Lancer', from: 1995, to: 2017, profile: 'mitsubishi' },
+    { make: 'Mitsubishi', model: 'Outlander', from: 2001, to: 2025, profile: 'mitsubishi' },
+    { make: 'Mitsubishi', model: 'Pajero / Montero', from: 1995, to: 2021, profile: 'mitsubishi' },
+    { make: 'Mitsubishi', model: 'ASX / RVR / Outlander Sport', from: 2010, to: 2025, profile: 'mitsubishi' },
+    { make: 'Mitsubishi', model: 'L200 / Triton', from: 1996, to: 2025, profile: 'mitsubishi' },
+
+    { make: 'Hyundai', model: 'Elantra / Avante', from: 1995, to: 2025, profile: 'hyundai' },
+    { make: 'Hyundai', model: 'Sonata', from: 1995, to: 2025, profile: 'hyundai' },
+    { make: 'Hyundai', model: 'Tucson', from: 2004, to: 2025, profile: 'hyundai' },
+    { make: 'Hyundai', model: 'Santa Fe', from: 2000, to: 2025, profile: 'hyundai' },
+    { make: 'Hyundai', model: 'i30', from: 2007, to: 2025, profile: 'hyundai' },
+    { make: 'Hyundai', model: 'Accent / Solaris', from: 1995, to: 2025, profile: 'hyundai' },
+    { make: 'Kia', model: 'Rio', from: 1999, to: 2025, profile: 'kia' },
+    { make: 'Kia', model: 'Ceed / Cee’d', from: 2006, to: 2025, profile: 'kia' },
+    { make: 'Kia', model: 'Sportage', from: 1995, to: 2025, profile: 'kia' },
+    { make: 'Kia', model: 'Sorento', from: 2002, to: 2025, profile: 'kia' },
+    { make: 'Kia', model: 'Optima / K5', from: 2000, to: 2025, profile: 'kia' },
+
+    { make: 'Mercedes-Benz', model: 'C-Class', from: 1995, to: 2025, profile: 'mercedes' },
+    { make: 'Mercedes-Benz', model: 'E-Class', from: 1995, to: 2025, profile: 'mercedes' },
+    { make: 'Mercedes-Benz', model: 'S-Class', from: 1995, to: 2025, profile: 'mercedes' },
+    { make: 'Mercedes-Benz', model: 'GLK / GLC', from: 2008, to: 2025, profile: 'mercedes' },
+    { make: 'Mercedes-Benz', model: 'ML / GLE', from: 1997, to: 2025, profile: 'mercedes' },
+    { make: 'Mercedes-Benz', model: 'Sprinter', from: 1995, to: 2025, profile: 'mercedes' }
   ]
 };
