@@ -197,13 +197,19 @@
     .engine-search-button:hover {
       background: var(--accent-dark);
     }
-    .region-tabs {
+    .region-tabs,
+    .maker-tabs {
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
       margin-top: 12px;
     }
-    .region-tabs button {
+    .maker-tabs {
+      gap: 6px;
+      margin-top: 10px;
+    }
+    .region-tabs button,
+    .maker-tabs button {
       min-height: 34px;
       border: 1px solid var(--line);
       border-radius: 6px;
@@ -213,7 +219,13 @@
       font-size: 13px;
       cursor: pointer;
     }
-    .region-tabs button.selected {
+    .maker-tabs button {
+      min-height: 32px;
+      padding: 0 10px;
+      color: #475569;
+    }
+    .region-tabs button.selected,
+    .maker-tabs button.selected {
       background: var(--accent);
       border-color: var(--accent);
       color: #fff;
@@ -444,6 +456,7 @@
           <button type="button" data-engine-region="korea" data-i18n="regionKorea">Korea</button>
           <button type="button" data-engine-region="usa" data-i18n="regionUsa">USA</button>
         </div>
+        <div class="maker-tabs" id="engineMakerTabs" aria-label="Engine makers"></div>
         <p class="engine-search-meta" id="engineSearchMeta"></p>
         <div class="engine-match-list" id="engineMatchList"></div>
         <p class="engine-empty" id="engineEmpty" hidden data-i18n="finderEmpty">No matching engine code found. Try a shorter code or send a request.</p>
@@ -511,6 +524,7 @@
         finderLead: 'Enter an engine code or family, for example B5202S, M54, EA888, K20, G4KD or LM7.',
         finderButton: 'Open engine details',
         regionAll: 'All regions', regionEurope: 'Europe', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
+        makerAll: 'All makers',
         finderCount: '{count} engine records available.',
         finderEmpty: 'No matching engine code found. Try a shorter code or send a request.',
         detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', fuelType: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
@@ -552,6 +566,7 @@
         finderLead: 'Introduce un código o familia, por ejemplo B5202S, M54, EA888, K20, G4KD o LM7.',
         finderButton: 'Abrir detalles del motor',
         regionAll: 'Todas las regiones', regionEurope: 'Europa', regionJapan: 'Japón', regionKorea: 'Corea', regionUsa: 'EE. UU.',
+        makerAll: 'Todas las marcas',
         finderCount: '{count} registros de motores disponibles.',
         finderEmpty: 'No se encontró el código. Prueba un código más corto o envía una solicitud.',
         detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', fuelType: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
@@ -593,6 +608,7 @@
         finderLead: 'Entrez un code ou une famille, par exemple B5202S, M54, EA888, K20, G4KD ou LM7.',
         finderButton: 'Ouvrir les détails du moteur',
         regionAll: 'Toutes régions', regionEurope: 'Europe', regionJapan: 'Japon', regionKorea: 'Corée', regionUsa: 'États-Unis',
+        makerAll: 'Toutes marques',
         finderCount: '{count} fiches moteur disponibles.',
         finderEmpty: 'Aucun code moteur trouvé. Essayez un code plus court ou envoyez une demande.',
         detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', fuelType: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
@@ -634,6 +650,7 @@
         finderLead: 'Motorcode oder Familie eingeben, zum Beispiel B5202S, M54, EA888, K20, G4KD oder LM7.',
         finderButton: 'Motordetails öffnen',
         regionAll: 'Alle Regionen', regionEurope: 'Europa', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
+        makerAll: 'Alle Marken',
         finderCount: '{count} Motordatensätze verfügbar.',
         finderEmpty: 'Kein Motorcode gefunden. Kürzeren Code versuchen oder Anfrage senden.',
         detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', fuelType: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
@@ -668,11 +685,13 @@
       : 'all';
     let selectedEngineId = '';
     const engineRecords = (window.AUTOHUB_ENGINE_DATA && window.AUTOHUB_ENGINE_DATA.records) || [];
+    let activeMaker = 'all';
     const engineCodeSearch = document.getElementById('engineCodeSearch');
     const engineSuggestions = document.getElementById('engineSuggestions');
     const engineFindButton = document.getElementById('engineFindButton');
     const engineSearchMeta = document.getElementById('engineSearchMeta');
     const engineMatchList = document.getElementById('engineMatchList');
+    const engineMakerTabs = document.getElementById('engineMakerTabs');
     const engineEmpty = document.getElementById('engineEmpty');
     const engineDetail = document.getElementById('engineDetail');
     const engineDetailContent = document.getElementById('engineDetailContent');
@@ -694,6 +713,24 @@
         .replaceAll("'", '&#039;');
     }
 
+    function makerSlug(value) {
+      return String(value || '')
+        .toLowerCase()
+        .replace(/&/g, 'and')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+    }
+
+    function updateFilterUrl() {
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', lang);
+      if (activeRegion !== 'all') url.searchParams.set('region', activeRegion);
+      else url.searchParams.delete('region');
+      if (activeMaker !== 'all') url.searchParams.set('maker', activeMaker);
+      else url.searchParams.delete('maker');
+      window.history.replaceState({}, '', url);
+    }
+
     function engineSearchText(record) {
       return [record.code, record.maker, record.regionKey, record.years]
         .concat(record.aliases || [], record.applications || [])
@@ -703,21 +740,15 @@
 
     function matchingEngines() {
       const query = engineCodeSearch.value.trim().toLowerCase();
-      if (!query) return [];
       return engineRecords.filter((record) => {
         const regionOk = activeRegion === 'all' || record.regionKey === activeRegion;
-        return regionOk && engineSearchText(record).includes(query);
+        const makerOk = activeMaker === 'all' || makerSlug(record.maker) === activeMaker;
+        const queryOk = !query || engineSearchText(record).includes(query);
+        return regionOk && makerOk && queryOk;
       });
     }
 
     function renderEngineMatches() {
-      const query = engineCodeSearch.value.trim();
-      if (!query) {
-        engineSearchMeta.textContent = '';
-        engineEmpty.hidden = true;
-        engineMatchList.innerHTML = '';
-        return;
-      }
       const matches = matchingEngines();
       engineSearchMeta.textContent = formatSummary(t('finderCount'), { count: matches.length });
       engineEmpty.hidden = matches.length > 0;
@@ -730,6 +761,44 @@
       engineMatchList.querySelectorAll('[data-engine-id]').forEach((button) => {
         button.addEventListener('click', () => openEngine(button.dataset.engineId, true, true));
       });
+    }
+
+    function makerOptionsForActiveRegion() {
+      const counts = new Map();
+      engineRecords.forEach((record) => {
+        if (activeRegion !== 'all' && record.regionKey !== activeRegion) return;
+        const slug = makerSlug(record.maker);
+        if (!counts.has(slug)) counts.set(slug, { slug, label: record.maker, count: 0 });
+        counts.get(slug).count += 1;
+      });
+      return [...counts.values()].sort((a, b) => a.label.localeCompare(b.label));
+    }
+
+    function renderMakerTabs() {
+      const makers = makerOptionsForActiveRegion();
+      if (activeMaker !== 'all' && !makers.some((maker) => maker.slug === activeMaker)) {
+        activeMaker = 'all';
+      }
+      const allCount = makers.reduce((sum, maker) => sum + maker.count, 0);
+      engineMakerTabs.innerHTML = `
+        <button type="button" class="${activeMaker === 'all' ? 'selected' : ''}" data-engine-maker="all">${escapeHtml(t('makerAll'))} (${allCount})</button>
+        ${makers.map((maker) => `
+          <button type="button" class="${activeMaker === maker.slug ? 'selected' : ''}" data-engine-maker="${escapeHtml(maker.slug)}">${escapeHtml(maker.label)} (${maker.count})</button>
+        `).join('')}
+      `;
+      engineMakerTabs.querySelectorAll('[data-engine-maker]').forEach((button) => {
+        button.addEventListener('click', () => {
+          activeMaker = button.dataset.engineMaker;
+          updateFilterUrl();
+          renderMakerTabs();
+          renderEngineMatches();
+        });
+      });
+    }
+
+    const initialMaker = initialUrl.searchParams.get('maker');
+    if (initialMaker && makerOptionsForActiveRegion().some((maker) => maker.slug === initialMaker)) {
+      activeMaker = initialMaker;
     }
 
     function specItem(label, value) {
@@ -797,6 +866,8 @@
         url.searchParams.set('lang', lang);
         if (activeRegion !== 'all') url.searchParams.set('region', activeRegion);
         else url.searchParams.delete('region');
+        if (activeMaker !== 'all') url.searchParams.set('maker', activeMaker);
+        else url.searchParams.delete('maker');
         window.history.replaceState({}, '', url);
       }
       if (scrollToResult) engineDetail.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -824,6 +895,7 @@
       document.querySelectorAll('[data-engine-region]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.engineRegion === activeRegion);
       });
+      renderMakerTabs();
       document.querySelectorAll('[data-engine-link]').forEach((link) => {
         link.href = `engines.html?engine=${encodeURIComponent(link.dataset.engineLink)}&lang=${encodeURIComponent(lang)}`;
       });
@@ -853,10 +925,11 @@
     document.querySelectorAll('[data-engine-region]').forEach((button) => {
       button.addEventListener('click', () => {
         activeRegion = button.dataset.engineRegion;
-        engineCodeSearch.value = '';
         document.querySelectorAll('[data-engine-region]').forEach((item) => {
           item.classList.toggle('selected', item.dataset.engineRegion === activeRegion);
         });
+        renderMakerTabs();
+        updateFilterUrl();
         renderEngineMatches();
       });
     });
