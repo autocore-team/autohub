@@ -505,7 +505,10 @@
     <div class="disclaimer" data-i18n="disclaimer">Starter data is under review. Observed service life is not a manufacturer guarantee, and fuel consumption depends on the vehicle, gearbox, market and use. Always verify the exact engine by VIN, model year, service documentation, recalls and professional inspection.</div>
   </main>
 
-  <script src="engine-data.js?v=20260623-2"></script>
+  <script src="data/engines/europe.js?v=20260624-1"></script>
+  <script src="data/engines/japan.js?v=20260624-1"></script>
+  <script src="data/engines/korea.js?v=20260624-1"></script>
+  <script src="data/engines/usa.js?v=20260624-1"></script>
   <script>
     const translations = {
       en: {
@@ -684,7 +687,7 @@
       ? initialUrl.searchParams.get('region')
       : 'all';
     let selectedEngineId = '';
-    const engineRecords = (window.AUTOHUB_ENGINE_DATA && window.AUTOHUB_ENGINE_DATA.records) || [];
+    const engineRecords = Object.values(window.AUTOHUB_ENGINE_DATA_REGIONS || {}).flat();
     let activeMaker = 'all';
     const engineCodeSearch = document.getElementById('engineCodeSearch');
     const engineSuggestions = document.getElementById('engineSuggestions');
