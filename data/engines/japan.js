@@ -1,0 +1,1397 @@
+window.AUTOHUB_ENGINE_DATA_REGIONS = window.AUTOHUB_ENGINE_DATA_REGIONS || {};
+window.AUTOHUB_ENGINE_DATA_REGIONS.japan = [
+  {
+    "id": "toyota-1zz-fe",
+    "code": "1ZZ-FE",
+    "aliases": [
+      "1ZZ"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "1998-2007",
+    "displacement": "1.8 L · 1,794 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Corolla",
+      "Avensis",
+      "Celica",
+      "MR2",
+      "Pontiac Vibe"
+    ],
+    "consumption": "6.5-9.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "toyota-corolla-1zz",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Light aluminium 1.8-litre four-cylinder with a 16-valve head, VVT-i, multipoint injection and timing chain.",
+        "issues": "Oil-control ring design and oil consumption on early engines; chain tensioner leaks; water pump; overheating damage on neglected cars.",
+        "pros": "Economical, simple, globally common and supported by inexpensive service parts.",
+        "cons": "Early oil use can become severe; the thin-liner block is not intended for a traditional simple rebore."
+      },
+      "es": {
+        "construction": "Cuatro cilindros ligero de aluminio, 1.8 litros, culata de 16 válvulas, VVT-i, inyección multipunto y cadena.",
+        "issues": "Segmentos y consumo de aceite en motores tempranos; fuga del tensor; bomba de agua; daños por sobrecalentamiento.",
+        "pros": "Económico, sencillo, común en todo el mundo y con repuestos asequibles.",
+        "cons": "El consumo temprano puede ser grave; el bloque de camisas finas no está pensado para un rectificado tradicional sencillo."
+      },
+      "fr": {
+        "construction": "Quatre cylindres aluminium léger de 1,8 litre, culasse 16 soupapes, VVT-i, injection multipoint et chaîne.",
+        "issues": "Segments racleurs et consommation d’huile sur premiers moteurs ; fuite tendeur ; pompe à eau ; dégâts de surchauffe.",
+        "pros": "Économique, simple, très répandu et pièces d’entretien abordables.",
+        "cons": "La consommation d’huile peut devenir forte ; le bloc à chemises fines ne se réalèse pas simplement de façon traditionnelle."
+      },
+      "de": {
+        "construction": "Leichter 1,8-Liter-Aluminium-Vierzylinder mit 16V-Kopf, VVT-i, Saugrohreinspritzung und Steuerkette.",
+        "issues": "Ölabstreifringe und Ölverbrauch früher Motoren; undichter Kettenspanner; Wasserpumpe; Überhitzungsschäden.",
+        "pros": "Sparsam, einfach, weltweit verbreitet und günstige Serviceteile.",
+        "cons": "Früher Ölverbrauch kann stark werden; der dünnwandige Block ist nicht für einfaches klassisches Aufbohren ausgelegt."
+      }
+    }
+  },
+  {
+    "id": "honda-k20",
+    "code": "K20",
+    "aliases": [
+      "K20A",
+      "K20A2",
+      "K20Z",
+      "K20C"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2000-present",
+    "displacement": "2.0 L",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Civic",
+      "Accord",
+      "CR-V",
+      "Acura RSX",
+      "Integra"
+    ],
+    "consumption": "7-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "honda-civic-k20",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Broad aluminium 2.0-litre DOHC i-VTEC family. Early versions are naturally aspirated and port-injected; later K20C versions can use direct injection and turbocharging.",
+        "issues": "Valve-clearance neglect; oil leaks; VTC actuator noise; chain or tensioner wear with poor oil service; damage from bad tuning or over-revving.",
+        "pros": "Strong core, excellent breathing, large parts market and very good performance potential.",
+        "cons": "K20 is a family, not one specification; output, injection, turbocharging and failure patterns vary greatly by suffix."
+      },
+      "es": {
+        "construction": "Amplia familia 2.0 de aluminio, DOHC e i-VTEC. Los primeros son atmosféricos e indirectos; K20C posteriores pueden ser turbo e inyección directa.",
+        "issues": "Holgura de válvulas; fugas; ruido del actuador VTC; cadena o tensor con aceite descuidado; daños por mal tuning o exceso de rpm.",
+        "pros": "Base fuerte, buena respiración, enorme mercado de piezas y gran potencial.",
+        "cons": "K20 es una familia, no una sola especificación; potencia, inyección, turbo y fallos cambian mucho según el sufijo."
+      },
+      "fr": {
+        "construction": "Large famille 2,0 litres aluminium DOHC i-VTEC. Premières versions atmosphériques et indirectes ; K20C récents parfois turbo et injection directe.",
+        "issues": "Jeu aux soupapes ; fuites ; bruit actuateur VTC ; chaîne ou tendeur avec huile négligée ; dégâts dus au mauvais tuning ou surrégime.",
+        "pros": "Base solide, excellente respiration, marché de pièces énorme et fort potentiel.",
+        "cons": "K20 est une famille, pas une spécification unique ; puissance, injection, turbo et pannes varient selon le suffixe."
+      },
+      "de": {
+        "construction": "Breite 2,0-Liter-Aluminium-DOHC-i-VTEC-Familie. Frühe Motoren sind Saugrohreinspritzer, spätere K20C teils Direkteinspritzer mit Turbo.",
+        "issues": "Vernachlässigtes Ventilspiel; Öllecks; VTC-Stellerrasseln; Kette oder Spanner bei schlechtem Ölservice; Schäden durch Tuning oder Überdrehen.",
+        "pros": "Starker Grundmotor, guter Gaswechsel, riesiger Teilemarkt und hohes Leistungspotenzial.",
+        "cons": "K20 ist eine Familie, keine Einzelspezifikation; Leistung, Einspritzung, Turbo und Fehler unterscheiden sich stark nach Suffix."
+      }
+    }
+  },
+  {
+    "id": "nissan-qr25de",
+    "code": "QR25DE",
+    "aliases": [
+      "QR25"
+    ],
+    "maker": "Nissan",
+    "regionKey": "japan",
+    "years": "2001-present",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Nissan Altima",
+      "X-Trail",
+      "Rogue",
+      "Sentra SE-R",
+      "Frontier"
+    ],
+    "consumption": "8-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "nissan-altima-qr25de",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Long-running aluminium 2.5-litre four-cylinder family with DOHC head and timing chain. Injection and detail design changed across generations.",
+        "issues": "Early pre-catalyst damage and oil use; early intake butterfly screws; chain wear; overheating and head-gasket damage; later-version issues differ.",
+        "pros": "Good low-speed torque, wide global use, accessible parts and straightforward basic service.",
+        "cons": "Early and late QR25DE versions must not be treated as identical; vehicle CVT problems are often confused with engine faults."
+      },
+      "es": {
+        "construction": "Familia 2.5 de aluminio de larga producción con culata DOHC y cadena. La inyección y detalles cambiaron por generación.",
+        "issues": "Precatalizador y consumo en versiones tempranas; tornillos de admisión; cadena; sobrecalentamiento y junta; otros fallos en versiones posteriores.",
+        "pros": "Buen par a bajas rpm, uso mundial, piezas accesibles y mantenimiento básico sencillo.",
+        "cons": "Las versiones tempranas y tardías no son iguales; problemas de CVT se confunden a menudo con fallos del motor."
+      },
+      "fr": {
+        "construction": "Famille aluminium 2,5 litres produite longtemps, culasse DOHC et chaîne. Injection et détails ont évolué selon génération.",
+        "issues": "Pré-catalyseur et consommation d’huile sur premières versions ; vis de papillons ; chaîne ; surchauffe et joint de culasse ; défauts ultérieurs différents.",
+        "pros": "Bon couple à bas régime, diffusion mondiale, pièces accessibles et entretien courant simple.",
+        "cons": "Versions anciennes et récentes ne sont pas identiques ; les défauts de CVT sont souvent confondus avec le moteur."
+      },
+      "de": {
+        "construction": "Langjährig gebaute 2,5-Liter-Aluminium-Vierzylinderfamilie mit DOHC-Kopf und Kette. Einspritzung und Details änderten sich je Generation.",
+        "issues": "Frühe Vorkatalysator- und Ölverbrauchsprobleme; Ansaugklappenschrauben; Kette; Überhitzung und Kopfdichtung; spätere Varianten anders.",
+        "pros": "Gutes Drehmoment, weltweit verbreitet, verfügbare Teile und einfacher Grundservice.",
+        "cons": "Frühe und späte QR25DE sind nicht gleich; CVT-Probleme werden oft mit Motorfehlern verwechselt."
+      }
+    }
+  },
+  {
+    "id": "toyota-2zr-fe",
+    "code": "2ZR-FE",
+    "aliases": [
+      "2ZR",
+      "2ZR-FAE"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2006-present",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Corolla / Auris",
+      "Avensis",
+      "C-HR",
+      "Lotus Elise variants"
+    ],
+    "consumption": "6-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-450,000 km",
+    "oilRecord": "toyota-corolla-2zr",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Aluminium 1.8-litre four-cylinder with DOHC 16-valve head, dual VVT-i, multipoint injection and timing chain; Valvematic is used on related 2ZR-FAE versions.",
+        "issues": "Water-pump leakage; timing-cover and valve-cover seepage; oil consumption with age; Valvematic actuator on FAE; cooling neglect.",
+        "pros": "Efficient, globally common, durable and supported by affordable service parts.",
+        "cons": "FE, FAE and hybrid FXE versions are not interchangeable descriptions; exact suffix and oil specification matter."
+      },
+      "es": {
+        "construction": "Cuatro cilindros 1.8 de aluminio, DOHC 16 válvulas, doble VVT-i, inyección multipunto y cadena; versiones 2ZR-FAE usan Valvematic.",
+        "issues": "Fuga de bomba de agua; sudoración en tapa y distribución; consumo con edad; actuador Valvematic en FAE; refrigeración descuidada.",
+        "pros": "Eficiente, mundial, duradero y con repuestos asequibles.",
+        "cons": "FE, FAE e híbrido FXE no son la misma descripción; importan sufijo y aceite exactos."
+      },
+      "fr": {
+        "construction": "Quatre cylindres aluminium 1,8 litre, DOHC 16 soupapes, double VVT-i, injection multipoint et chaîne ; Valvematic sur 2ZR-FAE associé.",
+        "issues": "Fuite pompe à eau ; suintements carter et couvre-culasse ; consommation avec âge ; actuateur Valvematic FAE ; refroidissement négligé.",
+        "pros": "Efficace, mondialement répandu, durable et pièces abordables.",
+        "cons": "FE, FAE et hybride FXE ne sont pas identiques ; suffixe et huile exacte comptent."
+      },
+      "de": {
+        "construction": "1,8-Liter-Aluminium-Vierzylinder mit DOHC-16V, Doppel-VVT-i, MPI und Kette; verwandte 2ZR-FAE nutzen Valvematic.",
+        "issues": "Wasserpumpenleck; Steuergehäuse- und Ventildeckelschwitzen; Ölverbrauch im Alter; Valvematic-Steller beim FAE; Kühlungsvernachlässigung.",
+        "pros": "Effizient, weltweit verbreitet, haltbar und günstige Serviceteile.",
+        "cons": "FE, FAE und Hybrid-FXE sind nicht gleich; genaues Suffix und Ölvorgabe zählen."
+      }
+    }
+  },
+  {
+    "id": "toyota-2gr-fe",
+    "code": "2GR-FE",
+    "aliases": [
+      "2GR",
+      "2GR-FKS"
+    ],
+    "maker": "Toyota / Lexus",
+    "regionKey": "japan",
+    "years": "2004-present",
+    "displacement": "3.5 L · 3,456 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Camry / Highlander / Sienna",
+      "Lexus ES / RX / IS",
+      "Lotus Evora"
+    ],
+    "consumption": "8-14 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "toyota-camry-2gr-fe",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Aluminium 3.5-litre V6 family with DOHC heads, variable timing and timing chains; injection changed from port to combined or direct systems on later suffixes.",
+        "issues": "Early external VVT-i oil hose; water pump with significant labour on some vehicles; timing-cover oil leaks; ignition coils; cooling-system neglect.",
+        "pros": "Strong performance, smooth operation, broad Toyota/Lexus use and high-mileage capability.",
+        "cons": "Transverse installation makes some repairs expensive; FE, FSE and FKS injection systems require exact identification."
+      },
+      "es": {
+        "construction": "Familia V6 3.5 de aluminio, culatas DOHC, distribución variable y cadenas; la inyección cambia en sufijos posteriores.",
+        "issues": "Tubo externo VVT-i temprano; bomba de agua laboriosa; fugas de tapa de distribución; bobinas; refrigeración descuidada.",
+        "pros": "Buen rendimiento, suavidad, uso amplio Toyota/Lexus y alto kilometraje.",
+        "cons": "Montaje transversal encarece reparaciones; FE, FSE y FKS requieren identificación exacta."
+      },
+      "fr": {
+        "construction": "Famille V6 aluminium 3,5 litres, culasses DOHC, calage variable et chaînes ; injection différente sur suffixes récents.",
+        "issues": "Durite externe VVT-i précoce ; pompe à eau coûteuse en main-d’œuvre ; fuites carter distribution ; bobines ; refroidissement négligé.",
+        "pros": "Bonnes performances, souplesse, large usage Toyota/Lexus et fort kilométrage.",
+        "cons": "Montage transversal rend certaines réparations chères ; FE, FSE et FKS à identifier exactement."
+      },
+      "de": {
+        "construction": "3,5-Liter-Aluminium-V6-Familie mit DOHC-Köpfen, variablen Steuerzeiten und Ketten; spätere Suffixe mit anderer Einspritzung.",
+        "issues": "Frühe externe VVT-i-Ölleitung; arbeitsintensive Wasserpumpe; Steuergehäuse-Öllecks; Zündspulen; vernachlässigte Kühlung.",
+        "pros": "Starke Leistung, Laufruhe, breite Toyota/Lexus-Nutzung und hohe Laufleistung.",
+        "cons": "Quereinbau verteuert manche Reparaturen; FE, FSE und FKS genau unterscheiden."
+      }
+    }
+  },
+  {
+    "id": "honda-r18a",
+    "code": "R18A / R18Z",
+    "aliases": [
+      "R18A1",
+      "R18A2",
+      "R18Z1"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2005-2021",
+    "displacement": "1.8 L · 1,799 cc",
+    "layout": "I4 · SOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Civic",
+      "Stream",
+      "HR-V / Vezel variants"
+    ],
+    "consumption": "6-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-450,000 km",
+    "oilRecord": "honda-civic-r18",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Aluminium 1.8-litre SOHC 16-valve four-cylinder with i-VTEC economy strategy, multipoint injection and timing chain.",
+        "issues": "Valve-clearance neglect; engine mounts; valve-cover and oil leaks; cooling-system age; starter and ignition components.",
+        "pros": "Simple, economical, durable and easy to service in common Civic applications.",
+        "cons": "Valve adjustment is often ignored; vibration may come from mounts rather than internal engine damage."
+      },
+      "es": {
+        "construction": "Cuatro cilindros 1.8 de aluminio, SOHC 16 válvulas, estrategia i-VTEC, inyección multipunto y cadena.",
+        "issues": "Holgura de válvulas olvidada; soportes; fugas de tapa y aceite; refrigeración por edad; arranque y encendido.",
+        "pros": "Sencillo, económico, duradero y fácil de mantener en Civic.",
+        "cons": "Se ignora el ajuste de válvulas; vibraciones pueden venir de soportes y no del motor interno."
+      },
+      "fr": {
+        "construction": "Quatre cylindres aluminium 1,8 litre SOHC 16 soupapes, stratégie i-VTEC économie, injection multipoint et chaîne.",
+        "issues": "Jeu aux soupapes négligé ; supports ; fuites couvre-culasse et huile ; refroidissement âgé ; démarreur et allumage.",
+        "pros": "Simple, économique, durable et facile à entretenir sur Civic.",
+        "cons": "Réglage soupapes souvent oublié ; vibrations parfois dues aux supports et non au moteur."
+      },
+      "de": {
+        "construction": "1,8-Liter-Aluminium-Vierzylinder mit SOHC-16V, i-VTEC-Sparstrategie, MPI und Steuerkette.",
+        "issues": "Vernachlässigtes Ventilspiel; Motorlager; Ventildeckel- und Öllecks; gealterte Kühlung; Starter und Zündung.",
+        "pros": "Einfach, sparsam, haltbar und im Civic leicht zu warten.",
+        "cons": "Ventileinstellung wird oft vergessen; Vibrationen kommen häufig von Lagern statt innerem Motorschaden."
+      }
+    }
+  },
+  {
+    "id": "subaru-fb20",
+    "code": "FB20",
+    "aliases": [
+      "FB20B",
+      "FB20D"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2010-present",
+    "displacement": "2.0 L · 1,995 cc",
+    "layout": "Flat-4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Subaru Impreza",
+      "XV / Crosstrek",
+      "Forester",
+      "Legacy variants"
+    ],
+    "consumption": "7-10 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "subaru-impreza-fb20",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Aluminium 2.0-litre horizontally opposed four-cylinder with DOHC heads, timing chains and port or direct injection depending on version.",
+        "issues": "Oil consumption on some early engines; timing-cover and cam-carrier leaks; cooling-system maintenance; intake deposits on direct-injection FB20D.",
+        "pros": "Low centre of gravity, good efficiency, smooth operation and timing chains instead of the older EJ belt.",
+        "cons": "Boxer access raises labour time; oil level must be monitored and FB20B and FB20D should not be confused."
+      },
+      "es": {
+        "construction": "Bóxer 2.0 de aluminio, culatas DOHC, cadenas e inyección indirecta o directa según versión.",
+        "issues": "Consumo de aceite en algunos tempranos; fugas de tapa y portalevas; refrigeración; depósitos en FB20D directo.",
+        "pros": "Centro de gravedad bajo, eficiencia, suavidad y cadenas frente a la correa EJ.",
+        "cons": "Acceso bóxer aumenta mano de obra; vigila aceite y no confundas FB20B con FB20D."
+      },
+      "fr": {
+        "construction": "Boxer aluminium 2,0 litres, culasses DOHC, chaînes et injection indirecte ou directe selon version.",
+        "issues": "Consommation d’huile sur certains premiers moteurs ; fuites carter et porte-arbres ; refroidissement ; dépôts sur FB20D direct.",
+        "pros": "Centre de gravité bas, efficacité, souplesse et chaînes plutôt que courroie EJ.",
+        "cons": "Accès boxer augmente la main-d’œuvre ; surveiller huile et distinguer FB20B de FB20D."
+      },
+      "de": {
+        "construction": "2,0-Liter-Aluminium-Boxer mit DOHC-Köpfen, Ketten und je Version Saugrohr- oder Direkteinspritzung.",
+        "issues": "Ölverbrauch bei manchen frühen Motoren; Steuerdeckel- und Nockenwellenträgerlecks; Kühlung; Ablagerungen beim Direkteinspritzer FB20D.",
+        "pros": "Niedriger Schwerpunkt, Effizienz, Laufruhe und Ketten statt älterem EJ-Riemen.",
+        "cons": "Boxerzugang erhöht Arbeitszeit; Ölstand überwachen und FB20B von FB20D unterscheiden."
+      }
+    }
+  },
+  {
+    "id": "mitsubishi-4b11",
+    "code": "4B11",
+    "aliases": [
+      "4B11T",
+      "2.0 MIVEC"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2007-present",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mitsubishi Lancer",
+      "Outlander",
+      "ASX / RVR",
+      "Lancer Evolution X"
+    ],
+    "consumption": "7-14 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "mitsubishi-lancer-4b11",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Aluminium 2.0-litre DOHC MIVEC four-cylinder with timing chain; naturally aspirated and high-output turbo 4B11T versions have major hardware differences.",
+        "issues": "Chain noise with poor oil service; valve-clearance neglect; oil consumption or leaks; cooling; turbo heat, tuning and detonation on 4B11T.",
+        "pros": "Modern layout, good parts availability, strong naturally aspirated service life and major performance potential in turbo form.",
+        "cons": "Do not transfer Evolution advice to standard engines; turbo cars are highly sensitive to tuning and maintenance history."
+      },
+      "es": {
+        "construction": "Cuatro cilindros 2.0 de aluminio, DOHC MIVEC y cadena; atmosféricos y turbo 4B11T tienen grandes diferencias.",
+        "issues": "Ruido de cadena con mal aceite; holgura de válvulas; consumo o fugas; refrigeración; calor, tuning y detonación en 4B11T.",
+        "pros": "Diseño moderno, piezas disponibles, buena vida en atmosféricos y gran potencial turbo.",
+        "cons": "No apliques consejos Evolution al motor normal; turbo depende mucho de tuning e historial."
+      },
+      "fr": {
+        "construction": "Quatre cylindres aluminium 2,0 litres DOHC MIVEC et chaîne ; versions atmosphériques et turbo 4B11T très différentes.",
+        "issues": "Bruit chaîne avec mauvais entretien ; jeu soupapes ; consommation ou fuites ; refroidissement ; chaleur, tuning et cliquetis sur 4B11T.",
+        "pros": "Architecture moderne, pièces disponibles, bonne durée atmosphérique et fort potentiel turbo.",
+        "cons": "Ne pas appliquer les conseils Evolution au moteur standard ; turbo très sensible au tuning et à l’historique."
+      },
+      "de": {
+        "construction": "2,0-Liter-Aluminium-DOHC-MIVEC-Vierzylinder mit Kette; Saug- und Hochleistungs-Turbo-4B11T unterscheiden sich stark.",
+        "issues": "Kettengeräusch bei schlechtem Ölservice; Ventilspiel; Ölverbrauch oder Lecks; Kühlung; Hitze, Tuning und Klopfen beim 4B11T.",
+        "pros": "Moderner Aufbau, gute Teilelage, lange Saugerlaufzeit und großes Turbopotenzial.",
+        "cons": "Evolution-Ratschläge nicht auf Standardmotoren übertragen; Turbos sind stark von Tuning und Historie abhängig."
+      }
+    }
+  },
+  {
+    "id": "toyota-1nz-fe",
+    "code": "1NZ-FE",
+    "aliases": [
+      "1NZ",
+      "Toyota 1.5 VVT-i"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "1999-2020",
+    "displacement": "1.5 L · 1,497 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Yaris / Vitz / Echo",
+      "Corolla Axio / Fielder",
+      "Probox / Succeed",
+      "Scion xA / xB"
+    ],
+    "consumption": "5-8 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "toyota-yaris-1nz-fe",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Compact Toyota 1.5-litre aluminium four-cylinder with cast-in liners, DOHC 16-valve head, VVT-i, multipoint injection and timing chain.",
+        "issues": "Oil consumption at high mileage; chain, tensioner and VVT-i noise; water-pump leaks; valve-cover seepage; throttle and ignition maintenance.",
+        "pros": "Simple, economical, widely available and capable of high mileage with regular oil service.",
+        "cons": "Used engines may have long oil intervals; 1NZ-FE must not be confused with the Atkinson-cycle 1NZ-FXE hybrid version."
+      },
+      "es": {
+        "construction": "Motor Toyota compacto 1.5 de aluminio con camisas, culata DOHC de 16 válvulas, VVT-i, inyección multipunto y cadena.",
+        "issues": "Consumo de aceite con alto kilometraje; ruido de cadena, tensor y VVT-i; fugas de bomba y tapa; mantenimiento de mariposa y encendido.",
+        "pros": "Sencillo, económico, muy disponible y capaz de grandes kilometrajes con aceite regular.",
+        "cons": "Los motores usados pueden tener intervalos largos; no confundir 1NZ-FE con el híbrido Atkinson 1NZ-FXE."
+      },
+      "fr": {
+        "construction": "Petit quatre cylindres Toyota 1,5 litre en aluminium avec chemises, culasse DOHC 16 soupapes, VVT-i, injection multipoint et chaîne.",
+        "issues": "Consommation d’huile à fort kilométrage ; bruit chaîne, tendeur et VVT-i ; fuites pompe et couvre-culasse ; papillon et allumage.",
+        "pros": "Simple, économique, très répandu et capable de forts kilométrages avec vidanges régulières.",
+        "cons": "Les moteurs d’occasion peuvent avoir subi de longs intervalles ; ne pas confondre 1NZ-FE et hybride Atkinson 1NZ-FXE."
+      },
+      "de": {
+        "construction": "Kompakter Toyota-1,5-Liter-Aluminium-Vierzylinder mit Laufbuchsen, DOHC-16V-Kopf, VVT-i, MPI und Steuerkette.",
+        "issues": "Ölverbrauch bei hoher Laufleistung; Ketten-, Spanner- und VVT-i-Geräusch; Wasserpumpen- und Ventildeckellecks; Drosselklappe und Zündung.",
+        "pros": "Einfach, sparsam, weit verbreitet und bei regelmäßigem Ölservice sehr laufleistungsfest.",
+        "cons": "Gebrauchtmotoren können lange Ölintervalle erlebt haben; 1NZ-FE nicht mit dem Atkinson-Hybridmotor 1NZ-FXE verwechseln."
+      }
+    }
+  },
+  {
+    "id": "nissan-vq35de",
+    "code": "VQ35DE",
+    "aliases": [
+      "VQ35",
+      "Nissan 3.5 V6",
+      "Infiniti 3.5"
+    ],
+    "maker": "Nissan / Infiniti",
+    "regionKey": "japan",
+    "years": "2000-2018",
+    "displacement": "3.5 L · 3,498 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Nissan 350Z",
+      "Altima / Maxima / Murano",
+      "Pathfinder / Quest",
+      "Infiniti G35 / FX35"
+    ],
+    "consumption": "9-16 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "nissan-vq35de",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Nissan aluminium 3.5-litre V6 with DOHC 24-valve heads, variable intake timing, multipoint injection and timing chains. Longitudinal, transverse and RevUp versions differ.",
+        "issues": "Oil consumption on some RevUp and worn engines; catalyst deterioration on certain applications; valve-cover and spark-plug tube leaks; chain tensioners; cooling and ignition faults.",
+        "pros": "Strong naturally aspirated performance, smooth delivery, broad parts support and durable basic architecture.",
+        "cons": "Vehicle layout and engine revision change service access and known faults; DE, RevUp and later HR engines must not be mixed."
+      },
+      "es": {
+        "construction": "V6 Nissan 3.5 de aluminio con culatas DOHC de 24 válvulas, distribución variable de admisión, inyección multipunto y cadenas. Cambia entre longitudinal, transversal y RevUp.",
+        "issues": "Consumo de aceite en algunos RevUp y motores gastados; catalizador en ciertas aplicaciones; fugas de tapas y tubos de bujía; tensores; refrigeración y encendido.",
+        "pros": "Buen rendimiento atmosférico, entrega suave, muchas piezas y arquitectura duradera.",
+        "cons": "Montaje y revisión cambian acceso y fallos; no mezclar DE, RevUp y el posterior HR."
+      },
+      "fr": {
+        "construction": "V6 Nissan 3,5 litres aluminium, culasses DOHC 24 soupapes, calage variable admission, injection multipoint et chaînes. Versions longitudinales, transversales et RevUp différentes.",
+        "issues": "Consommation d’huile sur certains RevUp et moteurs usés ; catalyseurs selon application ; fuites couvre-culasse et puits de bougie ; tendeurs ; refroidissement et allumage.",
+        "pros": "Bonnes performances atmosphériques, souplesse, pièces nombreuses et architecture durable.",
+        "cons": "Montage et révision changent accès et défauts ; ne pas confondre DE, RevUp et HR plus récent."
+      },
+      "de": {
+        "construction": "Nissan-3,5-Liter-Aluminium-V6 mit DOHC-24V-Köpfen, variabler Einlasssteuerung, MPI und Steuerketten. Längs-, Quer- und RevUp-Versionen unterscheiden sich.",
+        "issues": "Ölverbrauch bei manchen RevUp- und verschlissenen Motoren; Katalysatorschäden je Anwendung; Ventildeckel- und Kerzenschachtlecks; Kettenspanner; Kühlung und Zündung.",
+        "pros": "Starke Saugerleistung, gleichmäßige Kraft, gute Teileversorgung und haltbare Grundkonstruktion.",
+        "cons": "Einbaulage und Revision ändern Zugang und Fehler; DE, RevUp und späteren HR nicht vermischen."
+      }
+    }
+  },
+  {
+    "id": "mazda-pe-vps",
+    "code": "PE-VPS / SKYACTIV-G 2.0",
+    "aliases": [
+      "PE-VPS",
+      "PE-VPR",
+      "Skyactiv G 2.0",
+      "Mazda PE"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2011-present",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mazda3",
+      "Mazda6",
+      "CX-3 / CX-30",
+      "CX-5 / MX-5 derivatives"
+    ],
+    "consumption": "5.5-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "mazda-skyactiv-pe-vps",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Mazda high-compression SKYACTIV-G 2.0 aluminium four-cylinder with DOHC 16-valve head, direct injection, variable valve timing and timing chain. Compression ratio and calibration vary by market.",
+        "issues": "Intake-valve deposits from direct injection; ignition coils and plugs; high-pressure fuel components; timing-cover or oil-control-valve seepage; cooling-system maintenance.",
+        "pros": "Good real-world economy, responsive naturally aspirated power, low weight and generally durable chain-driven design.",
+        "cons": "Market compression ratios and PE suffixes differ; correct oil, fuel quality and exact vehicle specification matter."
+      },
+      "es": {
+        "construction": "Mazda SKYACTIV-G 2.0 de alta compresión, bloque de aluminio, culata DOHC de 16 válvulas, inyección directa, distribución variable y cadena. Compresión y calibración cambian por mercado.",
+        "issues": "Depósitos en admisión por inyección directa; bobinas y bujías; alta presión; fugas en tapa o válvula de control de aceite; mantenimiento de refrigeración.",
+        "pros": "Buen consumo real, respuesta atmosférica, poco peso y diseño de cadena generalmente duradero.",
+        "cons": "Relación de compresión y sufijos PE varían; importan aceite, combustible y especificación exacta."
+      },
+      "fr": {
+        "construction": "Mazda SKYACTIV-G 2,0 litres à forte compression, bloc aluminium, culasse DOHC 16 soupapes, injection directe, calage variable et chaîne. Compression et calibration varient selon marché.",
+        "issues": "Dépôts sur soupapes avec injection directe ; bobines et bougies ; haute pression ; suintement carter ou électrovanne d’huile ; entretien du refroidissement.",
+        "pros": "Bonne consommation réelle, réponse atmosphérique, faible poids et conception à chaîne généralement durable.",
+        "cons": "Taux de compression et suffixes PE varient ; huile, carburant et spécification exacte comptent."
+      },
+      "de": {
+        "construction": "Hochverdichtender Mazda-SKYACTIV-G-2,0-Liter-Aluminium-Vierzylinder mit DOHC-16V, Direkteinspritzung, variabler Steuerung und Kette. Verdichtung und Kalibrierung sind marktabhängig.",
+        "issues": "Einlassablagerungen durch Direkteinspritzung; Spulen und Kerzen; Hochdrucksystem; Steuerdeckel- oder Ölregelventil-Schwitzen; Kühlungswartung.",
+        "pros": "Guter Realverbrauch, spontane Saugerleistung, geringes Gewicht und meist haltbare Kettenkonstruktion.",
+        "cons": "Verdichtung und PE-Suffixe variieren; richtiges Öl, Kraftstoffqualität und genaue Fahrzeugspezifikation zählen."
+      }
+    }
+  },
+  {
+    "id": "toyota-1kd-ftv",
+    "code": "1KD-FTV",
+    "aliases": [
+      "1KD",
+      "Toyota 3.0 D-4D",
+      "3.0 D4D"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000-2015",
+    "displacement": "3.0 L · 2,982 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Toyota Hilux",
+      "Land Cruiser Prado",
+      "Toyota Fortuner",
+      "Toyota Hiace"
+    ],
+    "consumption": "8-13 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "toyota-prado-1kd-ftv",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Toyota 3.0-litre common-rail turbodiesel with an iron block, aluminium DOHC 16-valve head and timing belt. Injection, turbo and emissions equipment changed during production.",
+        "issues": "Injector correction and sealing washers; piston cracking on some high-output or poorly controlled versions; EGR and intake deposits; turbo, cooling, timing belt and later DPF concerns.",
+        "pros": "Strong low-speed torque, wide 4x4 use, good parts support and high-mileage potential with correct maintenance.",
+        "cons": "Injector condition and calibration are critical; market and production revisions must be identified, especially before towing or tuning."
+      },
+      "es": {
+        "construction": "Turbodiésel Toyota 3.0 common-rail con bloque de hierro, culata de aluminio DOHC de 16 válvulas y correa. Inyección, turbo y emisiones cambiaron durante la producción.",
+        "issues": "Corrección y arandelas de inyectores; pistones agrietados en algunas versiones exigidas; EGR y admisión; turbo, refrigeración, correa y DPF posteriores.",
+        "pros": "Mucho par, uso 4x4 amplio, buenas piezas y alto kilometraje con mantenimiento correcto.",
+        "cons": "Estado y calibración de inyectores son críticos; identificar mercado y revisión, especialmente antes de remolcar o modificar."
+      },
+      "fr": {
+        "construction": "Turbodiesel Toyota 3,0 litres common rail avec bloc fonte, culasse aluminium DOHC 16 soupapes et courroie. Injection, turbo et dépollution ont évolué.",
+        "issues": "Corrections et joints injecteurs ; pistons fissurés sur certaines versions sollicitées ; EGR et admission ; turbo, refroidissement, courroie et DPF récents.",
+        "pros": "Fort couple, large usage 4x4, pièces disponibles et fort kilométrage avec bon entretien.",
+        "cons": "État et calibration des injecteurs critiques ; identifier marché et révision, surtout avant remorquage ou préparation."
+      },
+      "de": {
+        "construction": "Toyota-3,0-Liter-Common-Rail-Turbodiesel mit Graugussblock, Aluminium-DOHC-16V-Kopf und Zahnriemen. Einspritzung, Lader und Abgastechnik änderten sich während der Bauzeit.",
+        "issues": "Injektorkorrektur und Dichtscheiben; Kolbenrisse bei manchen stark belasteten Varianten; EGR und Ansaugung; Turbo, Kühlung, Riemen und spätere DPF-Themen.",
+        "pros": "Starkes Drehmoment, breite 4x4-Nutzung, gute Teilelage und hohe Laufleistung bei richtiger Wartung.",
+        "cons": "Injektorzustand und Kalibrierung sind kritisch; Markt und Revision besonders vor Anhängerbetrieb oder Tuning bestimmen."
+      }
+    }
+  },
+  {
+    "id": "nissan-mr20de",
+    "code": "MR20DE",
+    "aliases": [
+      "MR20",
+      "Nissan 2.0 MR",
+      "Renault M4R"
+    ],
+    "maker": "Nissan / Renault",
+    "regionKey": "japan",
+    "years": "2004-present",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Nissan Qashqai / Rogue Sport",
+      "Nissan X-Trail",
+      "Sentra / Sylphy",
+      "Renault Fluence / Laguna / Megane derivatives"
+    ],
+    "consumption": "6.5-10 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "nissan-qashqai-mr20de",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Nissan-Renault 2.0-litre aluminium four-cylinder with cast-in liners, DOHC 16-valve head, variable intake timing, multipoint injection and timing chain.",
+        "issues": "Oil consumption with wear; chain and tensioner noise; valve-clearance neglect; throttle deposits; ignition, mounts, oil leaks and cooling-system age.",
+        "pros": "Simple naturally aspirated layout, good economy, broad global use and generally durable chain drive.",
+        "cons": "MR20DE and Renault M4R calibrations and accessories differ; oil history and valve-clearance condition matter on high-mileage engines."
+      },
+      "es": {
+        "construction": "Motor Nissan-Renault 2.0 de aluminio con camisas, culata DOHC de 16 válvulas, distribución variable de admisión, inyección multipunto y cadena.",
+        "issues": "Consumo con desgaste; ruido de cadena y tensor; holgura de válvulas; mariposa; encendido, soportes, fugas y refrigeración.",
+        "pros": "Diseño atmosférico sencillo, buen consumo, uso mundial y cadena generalmente duradera.",
+        "cons": "MR20DE y Renault M4R cambian en calibración y accesorios; importan aceite y holgura de válvulas con alto kilometraje."
+      },
+      "fr": {
+        "construction": "Moteur Nissan-Renault 2,0 litres aluminium avec chemises, culasse DOHC 16 soupapes, calage admission variable, injection multipoint et chaîne.",
+        "issues": "Consommation avec usure ; bruit chaîne et tendeur ; jeu soupapes négligé ; papillon ; allumage, supports, fuites et refroidissement.",
+        "pros": "Architecture atmosphérique simple, bonne sobriété, diffusion mondiale et chaîne généralement durable.",
+        "cons": "MR20DE et Renault M4R diffèrent en calibration et accessoires ; historique d’huile et jeu soupapes comptent à fort kilométrage."
+      },
+      "de": {
+        "construction": "Nissan-Renault-2,0-Liter-Aluminium-Vierzylinder mit Laufbuchsen, DOHC-16V, variabler Einlasssteuerung, MPI und Kette.",
+        "issues": "Ölverbrauch bei Verschleiß; Ketten- und Spannergeräusch; vernachlässigtes Ventilspiel; Drosselklappe; Zündung, Lager, Lecks und Kühlung.",
+        "pros": "Einfache Saugerkonstruktion, guter Verbrauch, weltweite Nutzung und meist haltbarer Kettenantrieb.",
+        "cons": "MR20DE und Renault M4R unterscheiden sich bei Kalibrierung und Anbauteilen; Öl- und Ventilspielhistorie zählen bei hoher Laufleistung."
+      }
+    }
+  },
+  {
+    "id": "subaru-ej25",
+    "code": "EJ25 family",
+    "aliases": [
+      "EJ25",
+      "EJ251",
+      "EJ253",
+      "EJ255",
+      "EJ257",
+      "Subaru 2.5 boxer"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1996-2021",
+    "displacement": "2.5 L · 2,457 cc",
+    "layout": "Flat-4 · SOHC/DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Subaru Impreza / WRX STI",
+      "Forester",
+      "Legacy / Outback",
+      "Baja derivatives"
+    ],
+    "consumption": "8-15 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "220,000-400,000 km",
+    "oilRecord": "",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Long-running Subaru 2.5-litre aluminium flat-four family with belt-driven camshafts. Naturally aspirated SOHC and turbocharged DOHC versions have major differences in block, heads, pistons and cooling.",
+        "issues": "External head-gasket leaks on some naturally aspirated versions; ringland, bearing and detonation damage on stressed turbo engines; oil consumption; timing belt; cooling and cam-cover leaks.",
+        "pros": "Low centre of gravity, strong specialist support, broad parts supply and substantial performance potential in turbo form.",
+        "cons": "EJ25 is not one specification; exact suffix, turbo system, head design and tuning history must be known before diagnosis or parts ordering."
+      },
+      "es": {
+        "construction": "Familia Subaru bóxer 2.5 de aluminio con árboles movidos por correa. Versiones SOHC atmosféricas y DOHC turbo cambian mucho en bloque, culatas, pistones y refrigeración.",
+        "issues": "Fugas externas de junta en algunos atmosféricos; pistones, cojinetes y detonación en turbos exigidos; consumo; correa; refrigeración y tapas.",
+        "pros": "Centro de gravedad bajo, buen soporte especializado, muchas piezas y gran potencial turbo.",
+        "cons": "EJ25 no es una sola especificación; conocer sufijo, turbo, culatas e historial de modificación antes de diagnosticar o comprar piezas."
+      },
+      "fr": {
+        "construction": "Famille Subaru boxer 2,5 litres aluminium avec arbres entraînés par courroie. Versions SOHC atmosphériques et DOHC turbo très différentes en bloc, culasses, pistons et refroidissement.",
+        "issues": "Fuites externes de joint sur certains atmosphériques ; segments, coussinets et cliquetis sur turbos sollicités ; consommation ; courroie ; refroidissement et couvre-culasses.",
+        "pros": "Centre de gravité bas, fort support spécialiste, pièces nombreuses et grand potentiel turbo.",
+        "cons": "EJ25 n’est pas une spécification unique ; suffixe, turbo, culasses et historique de préparation indispensables avant diagnostic ou pièces."
+      },
+      "de": {
+        "construction": "Langjährig gebaute Subaru-2,5-Liter-Aluminium-Boxerfamilie mit riemengetriebenen Nockenwellen. SOHC-Sauger und DOHC-Turbos unterscheiden sich stark bei Block, Köpfen, Kolben und Kühlung.",
+        "issues": "Äußere Kopfdichtungslecks bei manchen Saugern; Ringsteg-, Lager- und Klopfschäden bei belasteten Turbos; Ölverbrauch; Zahnriemen; Kühlung und Deckellecks.",
+        "pros": "Niedriger Schwerpunkt, gute Spezialisten- und Teilelage sowie großes Turbopotenzial.",
+        "cons": "EJ25 ist keine Einzelspezifikation; exakten Suffix, Turbo, Köpfe und Tuninghistorie vor Diagnose oder Teilekauf kennen."
+      }
+    }
+  },
+  {
+    "id": "honda-k24az",
+    "code": "K24A / K24Z",
+    "aliases": [
+      "K24A",
+      "K24Z",
+      "Honda 2.4 i-VTEC",
+      "Acura K24"
+    ],
+    "maker": "Honda / Acura",
+    "regionKey": "japan",
+    "years": "2001-2015",
+    "displacement": "2.4 L · 2,354 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Accord",
+      "Honda CR-V",
+      "Honda Element / Odyssey derivatives",
+      "Acura TSX"
+    ],
+    "consumption": "7.5-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "honda-accord-k24az",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Honda 2.4-litre aluminium DOHC i-VTEC four-cylinder family with multipoint injection and timing chain. Head design, compression and valve-control strategy differ by suffix.",
+        "issues": "VTC actuator rattle; chain and tensioner wear with poor oil service; valve-clearance neglect; cam wear on some versions; oil leaks, mounts and cooling.",
+        "pros": "Strong durable core, good torque, broad parts support and excellent naturally aspirated performance potential.",
+        "cons": "K24A and K24Z variants are not identical; valve adjustment and exact oil level deserve regular attention."
+      },
+      "es": {
+        "construction": "Familia Honda 2.4 de aluminio, DOHC i-VTEC, inyección multipunto y cadena. Culata, compresión y control de válvulas cambian por sufijo.",
+        "issues": "Ruido del actuador VTC; cadena y tensor con mal aceite; holgura de válvulas; levas en algunas versiones; fugas, soportes y refrigeración.",
+        "pros": "Base fuerte y duradera, buen par, muchas piezas y gran potencial atmosférico.",
+        "cons": "K24A y K24Z no son iguales; ajuste de válvulas y nivel de aceite requieren atención regular."
+      },
+      "fr": {
+        "construction": "Famille Honda 2,4 litres aluminium DOHC i-VTEC, injection multipoint et chaîne. Culasse, compression et commande soupapes varient selon suffixe.",
+        "issues": "Bruit actuateur VTC ; chaîne et tendeur avec mauvais entretien ; jeu soupapes ; cames selon version ; fuites, supports et refroidissement.",
+        "pros": "Base solide et durable, bon couple, pièces nombreuses et excellent potentiel atmosphérique.",
+        "cons": "K24A et K24Z ne sont pas identiques ; réglage soupapes et niveau d’huile demandent un suivi régulier."
+      },
+      "de": {
+        "construction": "Honda-2,4-Liter-Aluminium-DOHC-i-VTEC-Vierzylinderfamilie mit MPI und Kette. Kopf, Verdichtung und Ventilsteuerung variieren nach Suffix.",
+        "issues": "VTC-Stellerrasseln; Kette und Spanner bei schlechtem Ölservice; Ventilspiel; Nockenverschleiß je Version; Lecks, Lager und Kühlung.",
+        "pros": "Starker haltbarer Grundmotor, gutes Drehmoment, viele Teile und großes Saugerpotenzial.",
+        "cons": "K24A und K24Z sind nicht identisch; Ventileinstellung und genauer Ölstand brauchen regelmäßige Kontrolle."
+      }
+    }
+  },
+  {
+    "id": "toyota-1gr-fe",
+    "code": "1GR-FE",
+    "aliases": [
+      "1GR",
+      "Toyota 4.0 V6",
+      "4.0 VVT-i"
+    ],
+    "maker": "Toyota / Lexus",
+    "regionKey": "japan",
+    "years": "2002-present",
+    "displacement": "4.0 L · 3,956 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Land Cruiser Prado",
+      "Toyota 4Runner / FJ Cruiser",
+      "Toyota Tacoma / Tundra derivatives",
+      "Toyota Hilux / Fortuner"
+    ],
+    "consumption": "11-17 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "350,000-550,000 km",
+    "oilRecord": "toyota-prado-1gr-fe",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Toyota 4.0-litre aluminium V6 with DOHC 24-valve heads, multipoint injection, variable valve timing and timing chains. Early single-VVT-i and later dual-VVT-i versions differ.",
+        "issues": "Water-pump leaks; timing-cover oil seepage; ignition coils; secondary-air system on some markets; cooling neglect and occasional head-gasket concerns on early or overheated engines.",
+        "pros": "Strong torque, excellent 4x4 durability, wide global support and high-mileage potential.",
+        "cons": "Fuel use is high; production revision, cooling history and exact market emissions equipment must be checked."
+      },
+      "es": {
+        "construction": "V6 Toyota 4.0 de aluminio, culatas DOHC de 24 válvulas, inyección multipunto, distribución variable y cadenas. Versiones tempranas VVT-i simple y posteriores dual cambian.",
+        "issues": "Bomba de agua; fugas en tapa de distribución; bobinas; aire secundario en algunos mercados; refrigeración y junta en motores tempranos o recalentados.",
+        "pros": "Buen par, gran durabilidad 4x4, soporte mundial y alto kilometraje.",
+        "cons": "Consumo alto; revisar revisión, historial de refrigeración y equipo de emisiones del mercado."
+      },
+      "fr": {
+        "construction": "V6 Toyota 4,0 litres aluminium, culasses DOHC 24 soupapes, injection multipoint, calage variable et chaînes. Premières versions simple VVT-i, dernières double.",
+        "issues": "Pompe à eau ; suintement carter distribution ; bobines ; air secondaire selon marché ; refroidissement et joint sur moteurs anciens ou surchauffés.",
+        "pros": "Fort couple, excellente endurance 4x4, support mondial et fort kilométrage.",
+        "cons": "Consommation élevée ; contrôler révision, historique refroidissement et dépollution du marché."
+      },
+      "de": {
+        "construction": "Toyota-4,0-Liter-Aluminium-V6 mit DOHC-24V-Köpfen, MPI, variabler Steuerung und Ketten. Frühe Einzel-VVT-i- und spätere Doppel-VVT-i-Versionen unterscheiden sich.",
+        "issues": "Wasserpumpenlecks; Steuergehäuseöl; Zündspulen; Sekundärluft je Markt; vernachlässigte Kühlung und Kopfdichtung bei frühen oder überhitzten Motoren.",
+        "pros": "Starkes Drehmoment, sehr haltbar im 4x4, weltweite Unterstützung und hohe Laufleistung.",
+        "cons": "Hoher Verbrauch; Revision, Kühlhistorie und marktbezogene Abgastechnik prüfen."
+      }
+    }
+  },
+  {
+    "id": "nissan-hr16de",
+    "code": "HR16DE",
+    "aliases": [
+      "HR16",
+      "Nissan 1.6 HR",
+      "Renault H4M"
+    ],
+    "maker": "Nissan / Renault",
+    "regionKey": "japan",
+    "years": "2005-present",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Nissan Micra / Note",
+      "Nissan Tiida / Sentra",
+      "Nissan Juke / Qashqai derivatives",
+      "Renault / Dacia H4M applications"
+    ],
+    "consumption": "5.5-8.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Nissan-Renault 1.6-litre aluminium four-cylinder with DOHC 16-valve head, variable intake timing, multipoint injection and timing chain.",
+        "issues": "Valve-clearance neglect; chain and tensioner noise; oil consumption with wear; throttle deposits; ignition, mounts, oil leaks and cooling components.",
+        "pros": "Simple economical design, broad global use, inexpensive service and generally durable core.",
+        "cons": "HR16DE and H4M calibrations and accessories differ; valve-clearance and oil history matter at high mileage."
+      },
+      "es": {
+        "construction": "Motor Nissan-Renault 1.6 de aluminio con culata DOHC de 16 válvulas, admisión variable, inyección multipunto y cadena.",
+        "issues": "Holgura de válvulas; ruido de cadena y tensor; consumo con desgaste; mariposa; encendido, soportes, fugas y refrigeración.",
+        "pros": "Diseño sencillo y económico, uso mundial, mantenimiento barato y base duradera.",
+        "cons": "HR16DE y H4M cambian en calibración y accesorios; válvulas y aceite importan con alto kilometraje."
+      },
+      "fr": {
+        "construction": "Moteur Nissan-Renault 1,6 litre aluminium, culasse DOHC 16 soupapes, admission variable, injection multipoint et chaîne.",
+        "issues": "Jeu soupapes ; bruit chaîne et tendeur ; consommation avec usure ; papillon ; allumage, supports, fuites et refroidissement.",
+        "pros": "Conception simple et économique, diffusion mondiale, entretien abordable et base durable.",
+        "cons": "HR16DE et H4M diffèrent en calibration et accessoires ; jeu soupapes et huile comptent à fort kilométrage."
+      },
+      "de": {
+        "construction": "Nissan-Renault-1,6-Liter-Aluminium-Vierzylinder mit DOHC-16V, variabler Einlasssteuerung, MPI und Kette.",
+        "issues": "Ventilspiel; Ketten- und Spannergeräusch; Ölverbrauch bei Verschleiß; Drosselklappe; Zündung, Lager, Lecks und Kühlung.",
+        "pros": "Einfach, sparsam, weltweit verbreitet, günstiger Service und haltbarer Grundmotor.",
+        "cons": "HR16DE und H4M unterscheiden sich bei Kalibrierung und Anbauteilen; Ventilspiel und Ölhistorie zählen bei hoher Laufleistung."
+      }
+    }
+  },
+  {
+    "id": "nissan-yd25ddti",
+    "code": "YD25DDTi",
+    "aliases": [
+      "YD25",
+      "Nissan 2.5 dCi",
+      "2.5 Di"
+    ],
+    "maker": "Nissan",
+    "regionKey": "japan",
+    "years": "2005-2020",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "Nissan Navara D40 / NP300",
+      "Nissan Pathfinder R51",
+      "Nissan X-Trail derivatives",
+      "Nissan Cabstar"
+    ],
+    "consumption": "7.5-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "nissan-navara-yd25",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Nissan 2.5-litre common-rail turbodiesel with an iron block, aluminium DOHC 16-valve head and timing chains. This record focuses on later common-rail versions.",
+        "issues": "Timing-chain and tensioner wear; injector and fuel-system faults; EGR and DPF loading; turbo and boost control; cooling, head-gasket and early bearing concerns on some applications.",
+        "pros": "Strong utility torque, broad pickup/SUV use and good parts support.",
+        "cons": "Production revisions matter; oil pressure, injector correction, cooling and chain noise should be checked before heavy towing."
+      },
+      "es": {
+        "construction": "Turbodiésel Nissan 2.5 common-rail, bloque de hierro, culata DOHC de aluminio y 16 válvulas, y cadenas. La ficha se centra en versiones common-rail.",
+        "issues": "Cadenas y tensores; inyectores y combustible; EGR y DPF; turbo y presión; refrigeración, junta y cojinetes tempranos en algunas aplicaciones.",
+        "pros": "Buen par utilitario, uso amplio en pickup/SUV y piezas disponibles.",
+        "cons": "Importan las revisiones; revisar presión de aceite, corrección de inyectores, refrigeración y cadena antes de remolcar."
+      },
+      "fr": {
+        "construction": "Turbodiesel Nissan 2,5 litres common rail, bloc fonte, culasse aluminium DOHC 16 soupapes et chaînes. Fiche centrée sur versions common rail.",
+        "issues": "Chaînes et tendeurs ; injecteurs et carburant ; EGR et DPF ; turbo et suralimentation ; refroidissement, joint et coussinets précoces selon application.",
+        "pros": "Fort couple utilitaire, large usage pickup/SUV et pièces disponibles.",
+        "cons": "Révisions importantes ; contrôler pression d’huile, corrections injecteurs, refroidissement et bruit chaîne avant remorquage."
+      },
+      "de": {
+        "construction": "Nissan-2,5-Liter-Common-Rail-Turbodiesel mit Graugussblock, Aluminium-DOHC-16V-Kopf und Ketten. Dieser Eintrag betrifft spätere Common-Rail-Versionen.",
+        "issues": "Ketten und Spanner; Injektoren und Kraftstoffsystem; EGR und DPF; Turbo und Ladedruck; Kühlung, Kopfdichtung und frühe Lagerthemen je Anwendung.",
+        "pros": "Starkes Nutzdrehmoment, breite Pickup/SUV-Nutzung und gute Teilelage.",
+        "cons": "Revisionen zählen; Öldruck, Injektorkorrektur, Kühlung und Kettengeräusch vor schwerem Anhängerbetrieb prüfen."
+      }
+    }
+  },
+  {
+    "id": "honda-d17a",
+    "code": "D17A",
+    "aliases": [
+      "D17A1",
+      "D17A2",
+      "D17A6",
+      "Honda 1.7 VTEC"
+    ],
+    "maker": "Honda / Acura",
+    "regionKey": "japan",
+    "years": "2000-2007",
+    "displacement": "1.7 L · 1,668 cc",
+    "layout": "I4 · SOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Honda Civic",
+      "Honda Stream",
+      "Acura EL derivatives"
+    ],
+    "consumption": "6.5-9.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 1.7-litre aluminium SOHC 16-valve four-cylinder with multipoint injection and timing belt. VTEC equipment and output vary by suffix.",
+        "issues": "Timing-belt and water-pump service; valve-clearance neglect; head-gasket damage after overheating; cam and crank seals; VTEC solenoid, ignition and engine mounts.",
+        "pros": "Simple economical design, inexpensive service and strong durability when cooling is maintained.",
+        "cons": "Overheating history matters; suffix determines VTEC and emissions equipment, and belt records are essential."
+      },
+      "es": {
+        "construction": "Motor Honda 1.7 de aluminio, SOHC de 16 válvulas, inyección multipunto y correa. VTEC y potencia cambian por sufijo.",
+        "issues": "Correa y bomba; holgura de válvulas; junta tras sobrecalentamiento; retenes; solenoide VTEC, encendido y soportes.",
+        "pros": "Diseño sencillo y económico, mantenimiento barato y buena duración con refrigeración cuidada.",
+        "cons": "Importa el historial de temperatura; el sufijo define VTEC y emisiones, y la correa debe estar documentada."
+      },
+      "fr": {
+        "construction": "Moteur Honda 1,7 litre aluminium SOHC 16 soupapes, injection multipoint et courroie. VTEC et puissance varient selon suffixe.",
+        "issues": "Courroie et pompe ; jeu soupapes ; joint après surchauffe ; joints arbres ; solénoïde VTEC, allumage et supports.",
+        "pros": "Conception simple et économique, entretien abordable et bonne endurance avec refroidissement suivi.",
+        "cons": "Historique de surchauffe important ; suffixe définit VTEC et dépollution, historique courroie indispensable."
+      },
+      "de": {
+        "construction": "Honda-1,7-Liter-Aluminium-SOHC-16V-Vierzylinder mit MPI und Zahnriemen. VTEC und Leistung variieren nach Suffix.",
+        "issues": "Riemen und Wasserpumpe; Ventilspiel; Kopfdichtung nach Überhitzung; Nocken- und Kurbelwellendichtungen; VTEC-Ventil, Zündung und Lager.",
+        "pros": "Einfach, sparsam, günstiger Service und gute Haltbarkeit bei gepflegter Kühlung.",
+        "cons": "Überhitzungshistorie zählt; Suffix bestimmt VTEC und Abgas, Riemennachweise sind wichtig."
+      }
+    }
+  },
+  {
+    "id": "toyota-1az-fe",
+    "code": "1AZ-FE",
+    "aliases": [
+      "1AZ",
+      "Toyota 2.0 VVT-i"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000-2014",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Camry / Avensis",
+      "Toyota RAV4",
+      "Toyota Ipsum / Picnic",
+      "Toyota Wish"
+    ],
+    "consumption": "7-11 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-430,000 km",
+    "oilRecord": "toyota-rav4-1az-fe",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.0-litre aluminium four-cylinder with DOHC 16-valve head, VVT-i, multipoint injection and timing chain.",
+        "issues": "Cylinder-head bolt thread damage and coolant loss on some early engines; oil consumption with wear; water pump, chain tensioner, VVT-i and oil leaks.",
+        "pros": "Smooth simple output, broad Toyota use and good parts availability.",
+        "cons": "Early cooling history is important; do not confuse port-injected 1AZ-FE with direct-injection 1AZ-FSE."
+      },
+      "es": {
+        "construction": "Motor Toyota 2.0 de aluminio, culata DOHC de 16 válvulas, VVT-i, inyección multipunto y cadena.",
+        "issues": "Roscas de culata y refrigerante en algunos tempranos; consumo; bomba, tensor, VVT-i y fugas.",
+        "pros": "Funcionamiento suave, uso amplio y buenas piezas.",
+        "cons": "Importa la refrigeración temprana; no confundir 1AZ-FE con 1AZ-FSE directo."
+      },
+      "fr": {
+        "construction": "Moteur Toyota 2,0 litres aluminium, culasse DOHC 16 soupapes, VVT-i, injection multipoint et chaîne.",
+        "issues": "Filetages de culasse et liquide sur certains premiers moteurs ; consommation ; pompe, tendeur, VVT-i et fuites.",
+        "pros": "Fonctionnement souple, large usage et pièces disponibles.",
+        "cons": "Historique refroidissement important ; ne pas confondre 1AZ-FE et 1AZ-FSE direct."
+      },
+      "de": {
+        "construction": "Toyota-2,0-Liter-Aluminium-Vierzylinder mit DOHC-16V, VVT-i, MPI und Kette.",
+        "issues": "Kopfgewinde und Kühlmittelverlust bei manchen frühen Motoren; Ölverbrauch; Pumpe, Spanner, VVT-i und Lecks.",
+        "pros": "Ruhige einfache Leistung, breite Toyota-Nutzung und gute Teilelage.",
+        "cons": "Frühe Kühlhistorie zählt; 1AZ-FE nicht mit Direkteinspritzer 1AZ-FSE verwechseln."
+      }
+    }
+  },
+  {
+    "id": "mitsubishi-4g69",
+    "code": "4G69",
+    "aliases": [
+      "MIVEC 2.4",
+      "Mitsubishi 2.4 4G69"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2003-2017",
+    "displacement": "2.4 L · 2,378 cc",
+    "layout": "I4 · SOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Mitsubishi Lancer",
+      "Mitsubishi Outlander",
+      "Mitsubishi Galant",
+      "Mitsubishi Grandis"
+    ],
+    "consumption": "8-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-450,000 km",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Mitsubishi 2.4-litre iron-block SOHC 16-valve engine with MIVEC on many versions, multipoint injection and timing belt.",
+        "issues": "Timing-belt and balance-shaft service; oil consumption; valve-clearance neglect; engine mounts, throttle, ignition, oil leaks and cooling.",
+        "pros": "Strong low-speed torque, robust block, simple injection and good service life.",
+        "cons": "Belt and balance-shaft timing must be correct; market calibrations and MIVEC equipment vary."
+      },
+      "es": {
+        "construction": "Motor Mitsubishi 2.4 con bloque de hierro, SOHC de 16 válvulas, MIVEC en muchas versiones, inyección multipunto y correa.",
+        "issues": "Correa y ejes de equilibrado; consumo; holgura de válvulas; soportes, mariposa, encendido, fugas y refrigeración.",
+        "pros": "Buen par, bloque robusto, inyección sencilla y buena duración.",
+        "cons": "Correa y ejes deben calarse bien; MIVEC y calibración cambian por mercado."
+      },
+      "fr": {
+        "construction": "Moteur Mitsubishi 2,4 litres bloc fonte SOHC 16 soupapes, MIVEC selon version, injection multipoint et courroie.",
+        "issues": "Courroie et arbres équilibrage ; consommation ; jeu soupapes ; supports, papillon, allumage, fuites et refroidissement.",
+        "pros": "Bon couple, bloc robuste, injection simple et bonne durée.",
+        "cons": "Calage courroie et arbres essentiel ; MIVEC et calibration varient."
+      },
+      "de": {
+        "construction": "Mitsubishi-2,4-Liter-Grauguss-SOHC-16V-Motor mit oft MIVEC, MPI und Zahnriemen.",
+        "issues": "Riemen und Ausgleichswellen; Ölverbrauch; Ventilspiel; Lager, Drosselklappe, Zündung, Lecks und Kühlung.",
+        "pros": "Gutes Drehmoment, robuster Block, einfache Einspritzung und gute Laufzeit.",
+        "cons": "Riemen und Ausgleichswellen müssen korrekt stehen; MIVEC und Kalibrierung variieren."
+      }
+    }
+  },
+  {
+    "id": "toyota-3zr-fe",
+    "code": "3ZR-FE",
+    "aliases": [
+      "3ZR",
+      "Toyota 2.0 Dual VVT-i"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2007-present",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Toyota Corolla / Avensis",
+      "Toyota RAV4",
+      "Toyota Verso",
+      "Toyota Noah / Voxy"
+    ],
+    "consumption": "6.5-10 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-480,000 km",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.0-litre aluminium DOHC four-cylinder with Dual VVT-i, multipoint injection and timing chain.",
+        "issues": "Water pump; Valvematic faults on related 3ZR-FAE, not standard FE; oil consumption with wear; chain tensioner, VVT-i, ignition and leaks.",
+        "pros": "Simple, economical and durable with broad Toyota use.",
+        "cons": "Do not confuse 3ZR-FE with Valvematic 3ZR-FAE or market-specific versions."
+      },
+      "es": {
+        "construction": "Motor Toyota 2.0 de aluminio, DOHC, Dual VVT-i, inyección multipunto y cadena.",
+        "issues": "Bomba; Valvematic en 3ZR-FAE relacionado, no FE normal; consumo, tensor, VVT-i, encendido y fugas.",
+        "pros": "Sencillo, económico y duradero.",
+        "cons": "No confundir 3ZR-FE con 3ZR-FAE Valvematic."
+      },
+      "fr": {
+        "construction": "Moteur Toyota 2,0 litres aluminium DOHC, Dual VVT-i, injection multipoint et chaîne.",
+        "issues": "Pompe ; Valvematic sur 3ZR-FAE apparenté ; consommation, tendeur, VVT-i, allumage et fuites.",
+        "pros": "Simple, économique et durable.",
+        "cons": "Ne pas confondre 3ZR-FE et 3ZR-FAE Valvematic."
+      },
+      "de": {
+        "construction": "Toyota-2,0-Liter-Aluminium-DOHC-Vierzylinder mit Dual VVT-i, MPI und Kette.",
+        "issues": "Wasserpumpe; Valvematic beim verwandten 3ZR-FAE; Ölverbrauch, Spanner, VVT-i, Zündung und Lecks.",
+        "pros": "Einfach, sparsam und haltbar.",
+        "cons": "3ZR-FE nicht mit Valvematic-3ZR-FAE verwechseln."
+      }
+    }
+  },
+  {
+    "id": "honda-l15a",
+    "code": "L15A",
+    "aliases": [
+      "L15A1",
+      "L15A7",
+      "Honda 1.5 i-VTEC"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2001-2014",
+    "displacement": "1.5 L · 1,497 cc",
+    "layout": "I4 · SOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Fit / Jazz",
+      "Honda City",
+      "Honda Airwave",
+      "Honda Mobilio derivatives"
+    ],
+    "consumption": "5-8 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-480,000 km",
+    "oilRecord": "",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Honda 1.5-litre aluminium SOHC 16-valve engine with multipoint injection and timing chain. i-DSI and VTEC versions differ by suffix.",
+        "issues": "Valve-clearance neglect; ignition coils and plugs; chain noise with poor oil service; EGR on some versions, mounts, throttle and oil leaks.",
+        "pros": "Excellent economy, simple design and strong service life.",
+        "cons": "i-DSI and VTEC ignition and head layouts differ; exact suffix matters."
+      },
+      "es": {
+        "construction": "Motor Honda 1.5 de aluminio, SOHC 16 válvulas, inyección multipunto y cadena. i-DSI y VTEC cambian por sufijo.",
+        "issues": "Holgura de válvulas; bobinas y bujías; cadena; EGR, soportes, mariposa y fugas.",
+        "pros": "Gran consumo, diseño sencillo y buena duración.",
+        "cons": "i-DSI y VTEC tienen culata y encendido distintos."
+      },
+      "fr": {
+        "construction": "Moteur Honda 1,5 litre aluminium SOHC 16 soupapes, injection multipoint et chaîne. i-DSI et VTEC diffèrent.",
+        "issues": "Jeu soupapes ; bobines et bougies ; chaîne ; EGR, supports, papillon et fuites.",
+        "pros": "Excellente sobriété, simplicité et endurance.",
+        "cons": "Culasse et allumage i-DSI/VTEC différents."
+      },
+      "de": {
+        "construction": "Honda-1,5-Liter-Aluminium-SOHC-16V-Motor mit MPI und Kette. i-DSI und VTEC unterscheiden sich.",
+        "issues": "Ventilspiel; Spulen und Kerzen; Kette; EGR, Lager, Drosselklappe und Lecks.",
+        "pros": "Sehr sparsam, einfach und langlebig.",
+        "cons": "i-DSI und VTEC haben andere Kopf- und Zündsysteme."
+      }
+    }
+  },
+  {
+    "id": "nissan-vk56de",
+    "code": "VK56DE",
+    "aliases": [
+      "VK56",
+      "Nissan 5.6 V8",
+      "Infiniti 5.6"
+    ],
+    "maker": "Nissan / Infiniti",
+    "regionKey": "japan",
+    "years": "2003-2016",
+    "displacement": "5.6 L · 5,552 cc",
+    "layout": "V8 · DOHC · 32V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Nissan Patrol / Armada",
+      "Nissan Titan",
+      "Infiniti QX56",
+      "Nissan NV derivatives"
+    ],
+    "consumption": "14-22 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "320,000-500,000 km",
+    "oilRecord": "",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Nissan 5.6-litre aluminium DOHC 32-valve V8 with multipoint injection, variable timing and timing chains.",
+        "issues": "Catalyst deterioration and cylinder damage on some applications; timing-chain guides; exhaust manifolds, oil leaks, cooling and fuel consumption.",
+        "pros": "Strong towing torque, durable core and broad truck/SUV support.",
+        "cons": "Fuel use is high; do not confuse VK56DE with later direct-injection VK56VD."
+      },
+      "es": {
+        "construction": "V8 Nissan 5.6 de aluminio, DOHC 32 válvulas, inyección multipunto, distribución variable y cadenas.",
+        "issues": "Catalizador y cilindros en algunas aplicaciones; guías, colectores, fugas, refrigeración y consumo.",
+        "pros": "Mucho par de remolque y base duradera.",
+        "cons": "Consumo alto; no confundir VK56DE con VK56VD directo."
+      },
+      "fr": {
+        "construction": "V8 Nissan 5,6 litres aluminium DOHC 32 soupapes, injection multipoint, calage variable et chaînes.",
+        "issues": "Catalyseurs et cylindres selon application ; guides, collecteurs, fuites, refroidissement et consommation.",
+        "pros": "Fort couple de remorquage et base durable.",
+        "cons": "Consommation élevée ; ne pas confondre VK56DE et VK56VD direct."
+      },
+      "de": {
+        "construction": "Nissan-5,6-Liter-Aluminium-DOHC-32V-V8 mit MPI, variabler Steuerung und Ketten.",
+        "issues": "Katalysator- und Zylinderschäden je Anwendung; Führungen, Krümmer, Lecks, Kühlung und Verbrauch.",
+        "pros": "Starkes Zugdrehmoment und haltbarer Grundmotor.",
+        "cons": "Hoher Verbrauch; VK56DE nicht mit Direkteinspritzer VK56VD verwechseln."
+      }
+    }
+  },
+  {
+    "id": "mazda-z6",
+    "code": "Z6 / MZR 1.6",
+    "aliases": [
+      "Mazda Z6",
+      "MZR 1.6",
+      "Z6-VE"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2003-2014",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mazda3 / Axela",
+      "Mazda2 derivatives",
+      "Mazda Premacy derivatives"
+    ],
+    "consumption": "6.5-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-430,000 km",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Mazda MZR 1.6-litre aluminium DOHC 16-valve engine with multipoint injection, variable intake timing and timing chain.",
+        "issues": "Valve-clearance neglect; chain and VVT noise; oil consumption with wear; thermostat, mounts, ignition, throttle and oil leaks.",
+        "pros": "Simple, economical and generally durable.",
+        "cons": "Market calibrations differ and valve-clearance service is often overlooked."
+      },
+      "es": {
+        "construction": "Motor Mazda MZR 1.6 de aluminio, DOHC 16 válvulas, inyección multipunto, admisión variable y cadena.",
+        "issues": "Holgura de válvulas; cadena y VVT; consumo; termostato, soportes, encendido, mariposa y fugas.",
+        "pros": "Sencillo, económico y duradero.",
+        "cons": "Calibraciones cambian y el ajuste de válvulas se olvida."
+      },
+      "fr": {
+        "construction": "Moteur Mazda MZR 1,6 litre aluminium DOHC 16 soupapes, injection multipoint, admission variable et chaîne.",
+        "issues": "Jeu soupapes ; chaîne et VVT ; consommation ; thermostat, supports, allumage, papillon et fuites.",
+        "pros": "Simple, économique et durable.",
+        "cons": "Calibrations variables et jeu soupapes souvent oublié."
+      },
+      "de": {
+        "construction": "Mazda-MZR-1,6-Liter-Aluminium-DOHC-16V-Motor mit MPI, variabler Einlasssteuerung und Kette.",
+        "issues": "Ventilspiel; Kette und VVT; Ölverbrauch; Thermostat, Lager, Zündung, Drosselklappe und Lecks.",
+        "pros": "Einfach, sparsam und haltbar.",
+        "cons": "Kalibrierungen variieren und Ventilspielservice wird oft vergessen."
+      }
+    }
+  }
+];
