@@ -1,0 +1,1422 @@
+window.AUTOHUB_ENGINE_DATA_REGIONS = window.AUTOHUB_ENGINE_DATA_REGIONS || {};
+window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
+  {
+    "id": "volvo-b5202s",
+    "code": "B5202S",
+    "aliases": [
+      "B5202"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "1995-2000",
+    "displacement": "2.0 L · 1,984 cc",
+    "layout": "I5 · DOHC · 10V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Volvo 850",
+      "Volvo S70",
+      "Volvo V70"
+    ],
+    "consumption": "8-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-450,000 km",
+    "oilRecord": "volvo-s70-b5202s",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Volvo modular five-cylinder with an aluminium block, cast-iron liners, twin-cam (DOHC) aluminium 10-valve head, multipoint injection and timing belt.",
+        "issues": "Age-related PCV restriction and oil leaks; timing belt, idlers and water pump; cooling hoses and radiator; ignition and vacuum faults.",
+        "pros": "Simple naturally aspirated layout, durable core, good repair knowledge and characteristic five-cylinder smoothness.",
+        "cons": "Age now matters as much as mileage; belt service is critical and some parts or diagnostic procedures vary by market."
+      },
+      "es": {
+        "construction": "Cinco cilindros modular Volvo con bloque de aluminio, camisas de hierro, culata DOHC de aluminio con 10 válvulas, inyección multipunto y correa.",
+        "issues": "PCV y fugas de aceite por edad; correa, rodillos y bomba de agua; manguitos y radiador; fallos de encendido y vacío.",
+        "pros": "Diseño atmosférico sencillo, base duradera, reparación conocida y suavidad típica de cinco cilindros.",
+        "cons": "La edad importa tanto como el kilometraje; la correa es crítica y algunas piezas o diagnósticos cambian según el mercado."
+      },
+      "fr": {
+        "construction": "Cinq cylindres modulaire Volvo avec bloc aluminium, chemises fonte, culasse aluminium DOHC à 10 soupapes, injection multipoint et courroie.",
+        "issues": "PCV et fuites d’huile avec l’âge ; courroie, galets et pompe à eau ; durites et radiateur ; allumage et dépression.",
+        "pros": "Architecture atmosphérique simple, base durable, réparations bien connues et souplesse du cinq cylindres.",
+        "cons": "L’âge compte autant que le kilométrage ; la courroie est critique et certaines pièces ou méthodes varient selon le marché."
+      },
+      "de": {
+        "construction": "Volvo-Fünfzylinder mit Aluminiumblock, Grauguss-Laufbuchsen, Aluminium-DOHC-Zylinderkopf mit 10 Ventilen, Saugrohreinspritzung und Zahnriemen.",
+        "issues": "Altersbedingte Kurbelgehäuseentlüftung und Öllecks; Zahnriemen, Rollen und Wasserpumpe; Kühlschläuche und Kühler; Zündung und Unterdruck.",
+        "pros": "Einfacher Saugmotor, haltbarer Grundmotor, gute Reparaturkenntnis und typischer Fünfzylinderlauf.",
+        "cons": "Alter ist so wichtig wie Laufleistung; der Zahnriemenservice ist kritisch und Teile oder Diagnose unterscheiden sich nach Markt."
+      }
+    }
+  },
+  {
+    "id": "bmw-m54",
+    "code": "M54",
+    "aliases": [
+      "M54B22",
+      "M54B25",
+      "M54B30"
+    ],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2000-2006",
+    "displacement": "2.2-3.0 L",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 3 Series E46",
+      "5 Series E39 / E60",
+      "X3 E83",
+      "X5 E53",
+      "Z4 E85"
+    ],
+    "consumption": "8-13 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "bmw-e46-m54",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Aluminium inline-six with a 24-valve DOHC head, double VANOS, multipoint injection and chain-driven camshafts.",
+        "issues": "Cooling-system plastics and water pump; CCV system; DISA valve; VANOS seals; oil-filter housing and valve-cover leaks; oil consumption.",
+        "pros": "Very smooth, strong parts support, good diagnostics and a durable core when overheating is avoided.",
+        "cons": "Cooling neglect can damage the aluminium head; several age-related oil and vacuum leaks often appear together."
+      },
+      "es": {
+        "construction": "Seis cilindros en línea de aluminio con culata DOHC de 24 válvulas, doble VANOS, inyección multipunto y cadena.",
+        "issues": "Plásticos de refrigeración y bomba; sistema CCV; válvula DISA; sellos VANOS; fugas en filtro y tapa; consumo de aceite.",
+        "pros": "Muy suave, muchas piezas, buen diagnóstico y base duradera si no se sobrecalienta.",
+        "cons": "Descuidar la refrigeración puede dañar la culata; varias fugas de aceite y vacío suelen aparecer juntas."
+      },
+      "fr": {
+        "construction": "Six cylindres en ligne aluminium, culasse DOHC 24 soupapes, double VANOS, injection multipoint et chaîne.",
+        "issues": "Plastiques du refroidissement et pompe ; CCV ; valve DISA ; joints VANOS ; fuites boîtier de filtre et couvre-culasse ; consommation d’huile.",
+        "pros": "Très souple, pièces nombreuses, bon diagnostic et base durable sans surchauffe.",
+        "cons": "Une surchauffe peut endommager la culasse ; plusieurs fuites d’huile et de dépression apparaissent souvent ensemble."
+      },
+      "de": {
+        "construction": "Aluminium-Reihensechszylinder mit 24-Ventil-DOHC-Kopf, Doppel-VANOS, Saugrohreinspritzung und Steuerkette.",
+        "issues": "Kühlsystem-Kunststoffe und Wasserpumpe; KGE; DISA; VANOS-Dichtungen; Ölfiltergehäuse und Ventildeckel; Ölverbrauch.",
+        "pros": "Sehr laufruhig, gute Teilelage und Diagnose, haltbarer Grundmotor ohne Überhitzung.",
+        "cons": "Kühlungsvernachlässigung kann den Aluminiumkopf schädigen; Öl- und Unterdrucklecks treten oft gemeinsam auf."
+      }
+    }
+  },
+  {
+    "id": "vw-ea888",
+    "code": "EA888",
+    "aliases": [
+      "1.8 TSI",
+      "2.0 TSI",
+      "1.8 TFSI",
+      "2.0 TFSI"
+    ],
+    "maker": "Volkswagen Group",
+    "regionKey": "europe",
+    "years": "2007-present",
+    "displacement": "1.8-2.0 L",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "VW Golf / Passat / Tiguan",
+      "Audi A3 / A4 / Q5",
+      "Skoda Octavia",
+      "SEAT Leon"
+    ],
+    "consumption": "6.5-11 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "200,000-350,000 km",
+    "oilRecord": "vw-golf-ea888",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Turbocharged direct-injection family with several generations. Most versions use an iron block, aluminium 16-valve head, variable timing and chain drive.",
+        "issues": "Early chain tensioners; oil consumption on some Gen 1/2 versions; water-pump and thermostat module; PCV; intake-valve carbon deposits.",
+        "pros": "Strong low-speed torque, good efficiency, huge parts supply and broad diagnostic support.",
+        "cons": "Problems differ sharply by generation and engine code; neglected examples can become expensive quickly."
+      },
+      "es": {
+        "construction": "Familia turbo de inyección directa con varias generaciones. La mayoría usa bloque de hierro, culata de aluminio de 16 válvulas, distribución variable y cadena.",
+        "issues": "Tensores tempranos; consumo de aceite en algunos Gen 1/2; módulo de bomba y termostato; PCV; carbón en admisión.",
+        "pros": "Mucho par a bajas rpm, buena eficiencia, enorme oferta de piezas y diagnóstico.",
+        "cons": "Los problemas cambian mucho por generación y código; el abandono puede resultar caro rápidamente."
+      },
+      "fr": {
+        "construction": "Famille turbo à injection directe sur plusieurs générations. La plupart ont bloc fonte, culasse aluminium 16 soupapes, calage variable et chaîne.",
+        "issues": "Tendeurs précoces ; consommation d’huile sur certains Gen 1/2 ; pompe à eau et thermostat ; PCV ; calamine admission.",
+        "pros": "Fort couple à bas régime, bonne efficacité, pièces nombreuses et diagnostic étendu.",
+        "cons": "Les problèmes changent fortement selon génération et code ; un entretien négligé devient vite coûteux."
+      },
+      "de": {
+        "construction": "Turbo-Direkteinspritzerfamilie in mehreren Generationen. Meist Graugussblock, Aluminium-16V-Kopf, variable Steuerzeiten und Kette.",
+        "issues": "Frühe Kettenspanner; Ölverbrauch bei manchen Gen 1/2; Wasserpumpen-Thermostatmodul; PCV; Einlassverkokung.",
+        "pros": "Starkes Drehmoment, gute Effizienz, sehr gute Teile- und Diagnoseunterstützung.",
+        "cons": "Probleme unterscheiden sich stark nach Generation und Motorkennbuchstabe; Wartungsstau wird schnell teuer."
+      }
+    }
+  },
+  {
+    "id": "volvo-b5244s",
+    "code": "B5244S",
+    "aliases": [
+      "B5244S2",
+      "2.4 Volvo"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "1999-2010",
+    "displacement": "2.4 L · 2,435 cc",
+    "layout": "I5 · DOHC · 20V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Volvo S60",
+      "S70 / V70",
+      "S80",
+      "XC70"
+    ],
+    "consumption": "8-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "volvo-s60-b5244s",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Volvo modular 2.4-litre five-cylinder with aluminium block and head, 20 valves, multipoint injection, variable timing on some versions and timing belt.",
+        "issues": "PCV restriction and oil leaks; electronic throttle on early cars; timing belt and rollers; VVT hub seals; cooling and ignition components.",
+        "pros": "Smooth, durable, widely understood and generally less stressed than turbo versions.",
+        "cons": "Age-related rubber, wiring and ventilation faults accumulate; exact suffix and throttle generation matter."
+      },
+      "es": {
+        "construction": "Cinco cilindros modular Volvo 2.4 con bloque y culata de aluminio, 20 válvulas, inyección multipunto, distribución variable en algunas versiones y correa.",
+        "issues": "PCV y fugas; mariposa electrónica temprana; correa y rodillos; retenes VVT; refrigeración y encendido.",
+        "pros": "Suave, duradero, bien conocido y normalmente menos exigido que los turbo.",
+        "cons": "Se acumulan fallos de goma, cableado y ventilación por edad; importan sufijo y generación de mariposa."
+      },
+      "fr": {
+        "construction": "Cinq cylindres modulaire Volvo 2,4 litres, bloc et culasse aluminium, 20 soupapes, injection multipoint, calage variable selon version et courroie.",
+        "issues": "PCV et fuites ; papillon électronique précoce ; courroie et galets ; joints VVT ; refroidissement et allumage.",
+        "pros": "Souple, durable, bien connu et généralement moins sollicité que les turbos.",
+        "cons": "Caoutchouc, câblage et ventilation vieillissent ; suffixe exact et génération de papillon comptent."
+      },
+      "de": {
+        "construction": "Volvo-2,4-Liter-Fünfzylinder mit Aluminiumblock und -kopf, 20 Ventilen, MPI, teils variablen Steuerzeiten und Zahnriemen.",
+        "issues": "KGE und Öllecks; frühe elektronische Drosselklappe; Zahnriemen und Rollen; VVT-Dichtungen; Kühlung und Zündung.",
+        "pros": "Laufruhig, haltbar, gut bekannt und meist weniger belastet als Turboversionen.",
+        "cons": "Altersbedingte Gummi-, Kabel- und Entlüftungsfehler sammeln sich; Suffix und Drosselklappengeneration zählen."
+      }
+    }
+  },
+  {
+    "id": "volvo-d5244t",
+    "code": "D5244T / D5",
+    "aliases": [
+      "D5",
+      "D5244T4",
+      "D5244T10",
+      "D5244T15"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2001-2017",
+    "displacement": "2.4 L · 2,401 cc",
+    "layout": "I5 · DOHC · 20V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Volvo S60 / V60",
+      "S80",
+      "V70 / XC70",
+      "XC60",
+      "XC90"
+    ],
+    "consumption": "5.5-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "volvo-v70-d5244t",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Volvo-designed 2.4-litre common-rail five-cylinder turbodiesel with aluminium construction, timing belt and emissions equipment that changed by generation.",
+        "issues": "Injectors and correction values; EGR and intake deposits; DPF on later cars; swirl mechanism on some versions; vacuum, turbo and belt-service faults.",
+        "pros": "Strong torque, good long-distance economy and high-mileage capability with correct service.",
+        "cons": "Many suffixes exist and emissions hardware differs; short trips and delayed belt or injector work become expensive."
+      },
+      "es": {
+        "construction": "Turbodiésel Volvo 2.4 de cinco cilindros, common rail, aluminio, correa y emisiones que cambian por generación.",
+        "issues": "Inyectores y correcciones; EGR y admisión; DPF posterior; mecanismo swirl en algunas versiones; vacío, turbo y correa.",
+        "pros": "Mucho par, buen consumo en carretera y capacidad de alto kilometraje con mantenimiento.",
+        "cons": "Hay muchos sufijos y sistemas de emisiones; trayectos cortos y retrasar correa o inyectores resulta caro."
+      },
+      "fr": {
+        "construction": "Turbodiesel Volvo 2,4 litres cinq cylindres common rail, construction aluminium, courroie et dépollution variable selon génération.",
+        "issues": "Injecteurs et corrections ; EGR et admission ; DPF récent ; volets selon versions ; dépression, turbo et entretien courroie.",
+        "pros": "Fort couple, bonne économie routière et potentiel kilométrique élevé avec entretien.",
+        "cons": "Nombreux suffixes et dépollutions différentes ; petits trajets et retard courroie ou injecteurs coûtent cher."
+      },
+      "de": {
+        "construction": "Volvo-2,4-Liter-Fünfzylinder-Common-Rail-Turbodiesel in Leichtmetallbauweise mit Zahnriemen und generationsabhängiger Abgastechnik.",
+        "issues": "Injektoren und Korrekturwerte; EGR und Ansaugung; später DPF; teils Drallklappen; Unterdruck, Turbo und Riemenservice.",
+        "pros": "Starkes Drehmoment, guter Langstreckenverbrauch und hohe Laufleistung bei korrektem Service.",
+        "cons": "Viele Suffixe und Abgasvarianten; Kurzstrecke sowie verspäteter Riemen- oder Injektorservice werden teuer."
+      }
+    }
+  },
+  {
+    "id": "bmw-n52",
+    "code": "N52",
+    "aliases": [
+      "N52B25",
+      "N52B30"
+    ],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2004-2015",
+    "displacement": "2.5-3.0 L",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 3 Series E90",
+      "5 Series E60 / F10",
+      "X3",
+      "X5",
+      "Z4"
+    ],
+    "consumption": "8-13 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "bmw-e90-n52",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Naturally aspirated inline-six with magnesium-aluminium crankcase, aluminium head, Valvetronic, double VANOS, multipoint injection and timing chain.",
+        "issues": "Electric water pump and thermostat; valve-cover and oil-filter housing leaks; Valvetronic eccentric-shaft sensor; DISA on some intakes; lifter noise on early versions.",
+        "pros": "Smooth response, no turbo, efficient for an inline-six and strong enthusiast support.",
+        "cons": "Cooling and Valvetronic parts are costly; exact power version and regional N51 emissions variant must be identified."
+      },
+      "es": {
+        "construction": "Seis cilindros atmosférico con bloque magnesio-aluminio, culata de aluminio, Valvetronic, doble VANOS, inyección multipunto y cadena.",
+        "issues": "Bomba eléctrica y termostato; fugas en tapa y filtro; sensor del eje Valvetronic; DISA en algunas admisiones; taqués tempranos.",
+        "pros": "Respuesta suave, sin turbo, eficiente para seis cilindros y mucho soporte.",
+        "cons": "Refrigeración y Valvetronic son caros; hay que identificar potencia exacta y variante N51 regional."
+      },
+      "fr": {
+        "construction": "Six cylindres atmosphérique, carter magnésium-aluminium, culasse aluminium, Valvetronic, double VANOS, injection multipoint et chaîne.",
+        "issues": "Pompe électrique et thermostat ; fuites couvre-culasse et filtre ; capteur arbre Valvetronic ; DISA selon admission ; poussoirs précoces.",
+        "pros": "Réponse souple, sans turbo, efficace pour un six cylindres et bon support.",
+        "cons": "Refroidissement et Valvetronic coûtent cher ; version de puissance et variante N51 régionale à identifier."
+      },
+      "de": {
+        "construction": "Saug-Reihensechszylinder mit Magnesium-Aluminium-Kurbelgehäuse, Aluminiumkopf, Valvetronic, Doppel-VANOS, MPI und Steuerkette.",
+        "issues": "Elektrische Wasserpumpe und Thermostat; Ventildeckel- und Ölfiltergehäuselecks; Valvetronic-Sensor; teils DISA; frühes Hydrostößelgeräusch.",
+        "pros": "Sanfte Leistungsabgabe, kein Turbo, für einen Reihensechser effizient und guter Support.",
+        "cons": "Kühlung und Valvetronic sind teuer; Leistungsstufe und regionale N51-Variante genau bestimmen."
+      }
+    }
+  },
+  {
+    "id": "vw-ea211",
+    "code": "EA211",
+    "aliases": [
+      "1.0 TSI",
+      "1.2 TSI",
+      "1.4 TSI",
+      "1.5 TSI"
+    ],
+    "maker": "Volkswagen Group",
+    "regionKey": "europe",
+    "years": "2011-present",
+    "displacement": "1.0-1.6 L",
+    "layout": "I3 / I4 · DOHC",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "VW Golf / Polo / T-Roc",
+      "Audi A1 / A3",
+      "Skoda Fabia / Octavia",
+      "SEAT Ibiza / Leon"
+    ],
+    "consumption": "4.5-8 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "200,000-350,000 km",
+    "oilRecord": "vw-golf-ea211",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Modular small-engine family with aluminium block, belt-driven camshafts and naturally aspirated or turbocharged MPI/GDI versions depending on code.",
+        "issues": "Water-pump and thermostat housing; turbo wastegate actuator on TSI; direct-injection deposits; oil or coolant leaks; belt inspection requirements.",
+        "pros": "Light, efficient, widely used and supported by modern diagnostics and parts.",
+        "cons": "EA211 covers many different engines; cylinder count, injection, cylinder deactivation and belt schedule vary by suffix."
+      },
+      "es": {
+        "construction": "Familia modular pequeña con bloque de aluminio, árboles por correa y versiones atmosféricas o turbo MPI/GDI según código.",
+        "issues": "Bomba y termostato; actuador wastegate en TSI; depósitos de inyección directa; fugas de aceite o refrigerante; revisión de correa.",
+        "pros": "Ligero, eficiente, muy usado y con buen diagnóstico y piezas.",
+        "cons": "EA211 incluye muchos motores; cilindros, inyección, desconexión y programa de correa cambian por sufijo."
+      },
+      "fr": {
+        "construction": "Petite famille modulaire, bloc aluminium, arbres par courroie et versions atmosphériques ou turbo MPI/GDI selon code.",
+        "issues": "Pompe et thermostat ; actuateur wastegate TSI ; dépôts injection directe ; fuites huile ou liquide ; contrôle de courroie.",
+        "pros": "Léger, efficace, très répandu et bien couvert en diagnostic et pièces.",
+        "cons": "EA211 regroupe beaucoup de moteurs ; cylindres, injection, désactivation et échéance courroie varient selon suffixe."
+      },
+      "de": {
+        "construction": "Modulare Kleinmotorfamilie mit Aluminiumblock, zahnriemengetriebenen Nockenwellen und je Code Saug- oder Turbo-MPI/GDI-Versionen.",
+        "issues": "Wasserpumpen- und Thermostatgehäuse; Wastegate-Steller beim TSI; Direkteinspritzerablagerungen; Öl- oder Kühlmittellecks; Riemenkontrolle.",
+        "pros": "Leicht, effizient, weit verbreitet und gute Diagnose- sowie Teileversorgung.",
+        "cons": "EA211 umfasst viele Motoren; Zylinderzahl, Einspritzung, Zylinderabschaltung und Riemenplan unterscheiden sich nach Suffix."
+      }
+    }
+  },
+  {
+    "id": "mercedes-om651",
+    "code": "OM651",
+    "aliases": [
+      "OM651 DE22",
+      "CDI 2.1",
+      "BlueTEC 2.1"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2008-2020",
+    "displacement": "1.8-2.1 L",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mercedes C-Class",
+      "E-Class",
+      "GLK / GLC",
+      "Sprinter",
+      "Vito"
+    ],
+    "consumption": "5-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "mercedes-w204-om651",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Common-rail four-cylinder diesel with iron block, aluminium head, rear-mounted timing chain and single or multi-stage turbocharging by version.",
+        "issues": "Early piezo injector campaigns; rear timing-chain wear; EGR, DPF and intake deposits; water pump and cooling leaks; oil leaks and turbo controls.",
+        "pros": "Strong efficiency, broad model coverage, good torque and high-mileage potential after updates.",
+        "cons": "Rear chain access is labour-intensive; emissions system and injector generation must be identified before repair."
+      },
+      "es": {
+        "construction": "Diésel cuatro cilindros common rail con bloque de hierro, culata de aluminio, cadena trasera y uno o varios turbos según versión.",
+        "issues": "Campañas de inyectores piezo; desgaste de cadena trasera; EGR, DPF y admisión; bomba y fugas; aceite y control de turbo.",
+        "pros": "Muy eficiente, usado en muchos modelos, buen par y alto kilometraje tras actualizaciones.",
+        "cons": "Acceder a la cadena es costoso; hay que identificar emisiones y generación de inyectores."
+      },
+      "fr": {
+        "construction": "Diesel quatre cylindres common rail, bloc fonte, culasse aluminium, chaîne arrière et suralimentation simple ou étagée selon version.",
+        "issues": "Campagnes injecteurs piézo ; usure chaîne arrière ; EGR, DPF et admission ; pompe et fuites ; huile et commande turbo.",
+        "pros": "Très efficient, large diffusion, bon couple et fort kilométrage après mises à jour.",
+        "cons": "Accès chaîne très coûteux ; génération dépollution et injecteurs à identifier avant réparation."
+      },
+      "de": {
+        "construction": "Common-Rail-Vierzylinder-Diesel mit Graugussblock, Aluminiumkopf, hinten liegender Steuerkette und je Version ein- oder mehrstufiger Aufladung.",
+        "issues": "Frühe Piezo-Injektoraktionen; hinterer Kettenverschleiß; EGR, DPF und Ansaugung; Wasserpumpe und Lecks; Öl und Turbosteuerung.",
+        "pros": "Sehr effizient, breit eingesetzt, gutes Drehmoment und hohe Laufleistung nach Aktualisierungen.",
+        "cons": "Kettenzugang ist arbeitsintensiv; Abgassystem- und Injektorgeneration vor Reparatur bestimmen."
+      }
+    }
+  },
+  {
+    "id": "volvo-b5254t",
+    "code": "B5254T family",
+    "aliases": [
+      "B5254T",
+      "B5254T2",
+      "B5254T3",
+      "B5254T4",
+      "B5254T7",
+      "2.5T Volvo"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "1997-2014",
+    "displacement": "2.4-2.5 L · 2,435-2,521 cc",
+    "layout": "I5 · DOHC · 20V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Volvo S60 / V70 / XC70",
+      "XC90 / C70",
+      "S40 / V50",
+      "Ford Focus ST / RS derivatives"
+    ],
+    "consumption": "8.5-14 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "volvo-s60-b5254t",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Volvo modular turbocharged five-cylinder family with an aluminium block, cast-iron liners, DOHC 20-valve head, multipoint injection and timing belt. Displacement, turbo and variable valve timing differ by suffix.",
+        "issues": "PCV restriction and oil leaks; timing-belt service; turbo control and oil lines; cooling-system age; cracked cylinder liners on some highly stressed or modified versions.",
+        "pros": "Strong torque, distinctive character, durable core and broad Volvo specialist knowledge.",
+        "cons": "B5254T suffixes are not interchangeable; power, compression, turbo, valve timing and cooling hardware must be identified before parts or tuning."
+      },
+      "es": {
+        "construction": "Familia Volvo turbo de cinco cilindros con bloque de aluminio, camisas de hierro, culata DOHC de 20 válvulas, inyección multipunto y correa. Cilindrada, turbo y distribución variable cambian por sufijo.",
+        "issues": "PCV y fugas de aceite; servicio de correa; control y tuberías del turbo; envejecimiento de refrigeración; camisas agrietadas en algunas versiones exigidas o modificadas.",
+        "pros": "Buen par, carácter propio, base duradera y mucho conocimiento especializado Volvo.",
+        "cons": "Los sufijos B5254T no son intercambiables; potencia, compresión, turbo, distribución y refrigeración deben identificarse antes de comprar piezas o modificar."
+      },
+      "fr": {
+        "construction": "Famille Volvo cinq cylindres turbo avec bloc aluminium, chemises fonte, culasse DOHC 20 soupapes, injection multipoint et courroie. Cylindrée, turbo et calage variable changent selon le suffixe.",
+        "issues": "PCV et fuites d’huile ; entretien de courroie ; commande et conduites du turbo ; vieillissement du refroidissement ; chemises fissurées sur certaines versions poussées ou modifiées.",
+        "pros": "Fort couple, caractère distinctif, base durable et nombreuses compétences Volvo.",
+        "cons": "Les suffixes B5254T ne sont pas interchangeables ; puissance, compression, turbo, calage et refroidissement doivent être identifiés avant pièces ou préparation."
+      },
+      "de": {
+        "construction": "Volvo-Turbo-Fünfzylinderfamilie mit Aluminiumblock, Grauguss-Laufbuchsen, DOHC-20V-Kopf, MPI und Zahnriemen. Hubraum, Lader und variable Steuerung unterscheiden sich nach Suffix.",
+        "issues": "Kurbelgehäuseentlüftung und Öllecks; Zahnriemenservice; Laderregelung und Ölleitungen; gealterte Kühlung; gerissene Laufbuchsen bei manchen stark belasteten oder getunten Varianten.",
+        "pros": "Starkes Drehmoment, eigener Charakter, haltbarer Grundmotor und viel Volvo-Fachwissen.",
+        "cons": "B5254T-Suffixe sind nicht austauschbar; Leistung, Verdichtung, Lader, Steuerung und Kühlung vor Teilekauf oder Tuning genau bestimmen."
+      }
+    }
+  },
+  {
+    "id": "bmw-n47",
+    "code": "N47",
+    "aliases": [
+      "N47D16",
+      "N47D20",
+      "N47 2.0d",
+      "BMW N47 diesel"
+    ],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2007-2017",
+    "displacement": "1.6-2.0 L · 1,598-1,995 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 1 / 3 / 5 Series",
+      "BMW X1 / X3",
+      "BMW 2 / 4 Series derivatives",
+      "MINI diesel derivatives"
+    ],
+    "consumption": "4-7.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "220,000-400,000 km",
+    "oilRecord": "bmw-e90-n47",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "BMW aluminium common-rail turbodiesel family with a DOHC 16-valve head and timing chains mounted at the transmission side. Output, turbo system and emissions hardware vary by suffix and production date.",
+        "issues": "Rear timing-chain and guide wear; EGR and DPF loading; intake deposits and swirl hardware; turbo and injector wear; cooling and market-specific EGR campaigns.",
+        "pros": "Strong economy and torque, wide application and good diagnostic support.",
+        "cons": "Timing-chain access is labour-intensive; production revisions matter and campaign history should be checked by VIN."
+      },
+      "es": {
+        "construction": "Familia BMW turbodiésel common-rail de aluminio, culata DOHC de 16 válvulas y cadenas situadas en el lado de la transmisión. Potencia, turbo y emisiones cambian por sufijo y fecha.",
+        "issues": "Desgaste de cadenas y guías traseras; carga de EGR y DPF; depósitos y mariposas; turbo e inyectores; refrigeración y campañas EGR según mercado.",
+        "pros": "Buen consumo y par, uso amplio y diagnóstico disponible.",
+        "cons": "El acceso a la cadena requiere mucha mano de obra; importan las revisiones y debe comprobarse el historial de campañas por VIN."
+      },
+      "fr": {
+        "construction": "Famille BMW turbodiesel common rail en aluminium, culasse DOHC 16 soupapes et chaînes côté boîte. Puissance, turbo et dépollution varient selon suffixe et date.",
+        "issues": "Usure des chaînes et guides arrière ; charge EGR/DPF ; dépôts et volets ; turbo et injecteurs ; refroidissement et campagnes EGR selon marché.",
+        "pros": "Bonne sobriété, couple élevé, diffusion large et diagnostic efficace.",
+        "cons": "Accès aux chaînes coûteux en main-d’œuvre ; les révisions de production comptent et les campagnes doivent être vérifiées par VIN."
+      },
+      "de": {
+        "construction": "BMW-Aluminium-Common-Rail-Turbodieselfamilie mit DOHC-16V-Kopf und getriebeseitig angeordneten Steuerketten. Leistung, Lader und Abgastechnik variieren nach Suffix und Bauzeit.",
+        "issues": "Verschleiß hinterer Ketten und Führungen; EGR- und DPF-Beladung; Ansaugablagerungen und Drallklappen; Turbo und Injektoren; Kühlung und marktbezogene EGR-Aktionen.",
+        "pros": "Guter Verbrauch und Drehmoment, breite Nutzung und gute Diagnosemöglichkeiten.",
+        "cons": "Kettenzugang ist arbeitsintensiv; Produktionsänderungen zählen und Aktionshistorie sollte per VIN geprüft werden."
+      }
+    }
+  },
+  {
+    "id": "vw-ea189",
+    "code": "EA189 TDI",
+    "aliases": [
+      "EA189",
+      "1.6 TDI",
+      "2.0 TDI CR",
+      "CAYC",
+      "CFFB"
+    ],
+    "maker": "Volkswagen Group",
+    "regionKey": "europe",
+    "years": "2008-2015",
+    "displacement": "1.6-2.0 L · 1,598-1,968 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "VW Golf / Passat / Tiguan",
+      "Audi A3 / A4",
+      "Skoda Octavia / Superb",
+      "SEAT Leon / Altea"
+    ],
+    "consumption": "4-7 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-450,000 km",
+    "oilRecord": "vw-golf-ea189",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Volkswagen Group common-rail TDI family with an iron block, aluminium DOHC 16-valve head, variable-geometry turbo and timing belt. The 1.6 and 2.0 versions use different fuel and emissions components.",
+        "issues": "EGR valve and cooler; DPF loading from short trips; injector or high-pressure fuel faults on some codes; intake deposits; belt, water pump and turbo control.",
+        "pros": "Low fuel use, strong motorway economy, wide parts supply and familiar diagnostics.",
+        "cons": "EA189 is a family rather than one engine; exact code, emissions update history, injector type and service schedule must be checked."
+      },
+      "es": {
+        "construction": "Familia TDI common-rail del Grupo Volkswagen con bloque de hierro, culata DOHC de 16 válvulas, turbo variable y correa. Los 1.6 y 2.0 usan componentes distintos de combustible y emisiones.",
+        "issues": "Válvula y enfriador EGR; DPF por trayectos cortos; inyectores o alta presión en algunos códigos; depósitos; correa, bomba y control del turbo.",
+        "pros": "Consumo bajo, buena economía en carretera, muchas piezas y diagnóstico conocido.",
+        "cons": "EA189 es una familia; hay que comprobar código exacto, actualización de emisiones, tipo de inyector y mantenimiento."
+      },
+      "fr": {
+        "construction": "Famille TDI common rail du groupe Volkswagen avec bloc fonte, culasse DOHC 16 soupapes, turbo à géométrie variable et courroie. Les 1,6 et 2,0 utilisent des composants différents.",
+        "issues": "Vanne et refroidisseur EGR ; charge DPF sur petits trajets ; injecteurs ou haute pression selon code ; dépôts ; courroie, pompe et commande turbo.",
+        "pros": "Faible consommation, excellente sobriété routière, pièces nombreuses et diagnostic connu.",
+        "cons": "EA189 est une famille ; vérifier code exact, mise à jour antipollution, type d’injecteur et entretien."
+      },
+      "de": {
+        "construction": "Volkswagen-Common-Rail-TDI-Familie mit Graugussblock, Aluminium-DOHC-16V-Kopf, VTG-Lader und Zahnriemen. 1,6- und 2,0-Liter-Versionen nutzen unterschiedliche Kraftstoff- und Abgaskomponenten.",
+        "issues": "EGR-Ventil und Kühler; DPF-Beladung bei Kurzstrecke; Injektor- oder Hochdruckfehler bei manchen Codes; Ablagerungen; Riemen, Wasserpumpe und Laderregelung.",
+        "pros": "Niedriger Verbrauch, gute Langstreckenökonomie, viele Teile und bekannte Diagnose.",
+        "cons": "EA189 ist eine Familie; exakten Code, Abgas-Update, Injektortyp und Wartungsplan prüfen."
+      }
+    }
+  },
+  {
+    "id": "bmw-b48",
+    "code": "B48",
+    "aliases": [
+      "B48A20",
+      "B48B20",
+      "BMW 2.0 TwinPower Turbo",
+      "MINI B48"
+    ],
+    "maker": "BMW / MINI",
+    "regionKey": "europe",
+    "years": "2014-present",
+    "displacement": "1.6-2.0 L · 1,598-1,998 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 1 / 2 / 3 / 4 / 5 Series",
+      "BMW X1 / X2 / X3",
+      "MINI Hatch / Clubman / Countryman",
+      "Toyota Supra 2.0 derivatives"
+    ],
+    "consumption": "5.5-10 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-400,000 km",
+    "oilRecord": "bmw-f30-b48",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "BMW modular aluminium turbo four-cylinder with a DOHC 16-valve head, direct injection, variable valve timing and lift, and timing chain. Longitudinal and transverse versions differ.",
+        "issues": "Cooling-module, thermostat and water-pump faults; PCV and valve-cover leaks; oil-filter housing leaks on some versions; intake deposits; ignition and high-pressure fuel components.",
+        "pros": "Strong torque, good economy, wide modern BMW/MINI use and substantial diagnostic support.",
+        "cons": "B48 suffix, installation direction, output and emissions version must be identified before parts, software or oil selection."
+      },
+      "es": {
+        "construction": "Cuatro cilindros turbo modular BMW de aluminio con culata DOHC de 16 válvulas, inyección directa, distribución y alzada variables, y cadena. Las versiones longitudinal y transversal cambian.",
+        "issues": "Módulo de refrigeración, termostato y bomba; PCV y tapa; fugas del portafiltro en algunas versiones; depósitos; encendido y alta presión.",
+        "pros": "Buen par, consumo contenido, uso amplio en BMW/MINI y buen diagnóstico.",
+        "cons": "Hay que identificar sufijo B48, orientación, potencia y versión de emisiones antes de piezas, software o aceite."
+      },
+      "fr": {
+        "construction": "Quatre cylindres turbo modulaire BMW en aluminium, culasse DOHC 16 soupapes, injection directe, calage et levée variables, chaîne. Versions longitudinales et transversales différentes.",
+        "issues": "Module de refroidissement, thermostat et pompe ; PCV et couvre-culasse ; boîtier de filtre selon version ; dépôts ; allumage et haute pression.",
+        "pros": "Fort couple, bonne sobriété, large usage BMW/MINI et diagnostic développé.",
+        "cons": "Identifier suffixe B48, orientation, puissance et dépollution avant pièces, logiciel ou huile."
+      },
+      "de": {
+        "construction": "Modularer BMW-Aluminium-Turbo-Vierzylinder mit DOHC-16V, Direkteinspritzung, variabler Steuerung und Hub sowie Kette. Längs- und Querversionen unterscheiden sich.",
+        "issues": "Kühlmodul, Thermostat und Wasserpumpe; PCV und Ventildeckel; Ölfiltergehäuse je Version; Ablagerungen; Zündung und Hochdrucksystem.",
+        "pros": "Starkes Drehmoment, guter Verbrauch, breite BMW/MINI-Nutzung und gute Diagnose.",
+        "cons": "B48-Suffix, Einbaurichtung, Leistung und Abgasversion vor Teilen, Software oder Öl bestimmen."
+      }
+    }
+  },
+  {
+    "id": "mercedes-m274",
+    "code": "M274",
+    "aliases": [
+      "M274 DE16",
+      "M274 DE20",
+      "Mercedes 1.6 Turbo",
+      "Mercedes 2.0 Turbo"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2020",
+    "displacement": "1.6-2.0 L · 1,595-1,991 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mercedes C-Class",
+      "Mercedes E-Class",
+      "GLK / GLC",
+      "Infiniti Q50 derivatives"
+    ],
+    "consumption": "6-10.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "220,000-380,000 km",
+    "oilRecord": "mercedes-cclass-m274",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Mercedes longitudinal aluminium turbo four-cylinder with DOHC 16-valve head, direct injection, variable timing and timing chain. It is related to the transverse M270 but service details differ.",
+        "issues": "Timing-chain, tensioner and cam-adjuster wear; early piston or wrist-pin noise on some versions; thermostat and water pump; PCV, oil leaks, intake deposits and high-pressure fuel faults.",
+        "pros": "Good torque and efficiency, broad Mercedes application and strong diagnostic coverage.",
+        "cons": "M274 revisions and output versions differ; do not automatically transfer M270 procedures, and cold-start noise deserves careful diagnosis."
+      },
+      "es": {
+        "construction": "Cuatro cilindros Mercedes turbo longitudinal de aluminio con culata DOHC de 16 válvulas, inyección directa, distribución variable y cadena. Está relacionado con M270 transversal, pero el servicio cambia.",
+        "issues": "Cadena, tensor y variadores; ruido de pistón o bulón en algunas versiones tempranas; termostato y bomba; PCV, fugas, depósitos y alta presión.",
+        "pros": "Buen par y eficiencia, uso amplio Mercedes y diagnóstico disponible.",
+        "cons": "Las revisiones y potencias cambian; no aplicar automáticamente procedimientos M270 y revisar bien el ruido en frío."
+      },
+      "fr": {
+        "construction": "Quatre cylindres Mercedes turbo longitudinal en aluminium, culasse DOHC 16 soupapes, injection directe, calage variable et chaîne. Proche du M270 transversal mais entretien différent.",
+        "issues": "Chaîne, tendeur et déphaseurs ; bruit piston ou axe sur certaines premières versions ; thermostat et pompe ; PCV, fuites, dépôts et haute pression.",
+        "pros": "Bon couple et rendement, large diffusion Mercedes et diagnostic efficace.",
+        "cons": "Révisions et puissances différentes ; ne pas appliquer automatiquement les procédures M270 et diagnostiquer soigneusement le bruit à froid."
+      },
+      "de": {
+        "construction": "Mercedes-Aluminium-Turbo-Vierzylinder für Längseinbau mit DOHC-16V, Direkteinspritzung, variabler Steuerung und Kette. Mit M270 verwandt, aber Servicedetails unterscheiden sich.",
+        "issues": "Kette, Spanner und Nockensteller; frühe Kolben- oder Kolbenbolzengeräusche bei manchen Varianten; Thermostat und Pumpe; PCV, Lecks, Ablagerungen und Hochdrucksystem.",
+        "pros": "Gutes Drehmoment und Effizienz, breite Mercedes-Nutzung und gute Diagnose.",
+        "cons": "M274-Revisionen und Leistungsstufen variieren; M270-Verfahren nicht automatisch übernehmen und Kaltstartgeräusch genau prüfen."
+      }
+    }
+  },
+  {
+    "id": "renault-k4m",
+    "code": "K4M",
+    "aliases": [
+      "K4M 1.6 16V",
+      "Renault 1.6 16V",
+      "Dacia K4M"
+    ],
+    "maker": "Renault / Dacia",
+    "regionKey": "europe",
+    "years": "1998-2020",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Renault Clio / Megane / Scenic",
+      "Renault Laguna / Kangoo",
+      "Dacia Logan / Sandero / Duster",
+      "Lada Largus derivatives"
+    ],
+    "consumption": "6.5-10 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-450,000 km",
+    "oilRecord": "renault-k4m-16v",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Renault 1.6-litre iron-block four-cylinder with an aluminium DOHC 16-valve head, multipoint injection and timing belt. Some versions use an intake cam dephaser.",
+        "issues": "Timing-belt, idler and water-pump service; dephaser pulley noise on equipped versions; ignition coils; oil leaks; throttle, sensors and cooling-system age.",
+        "pros": "Simple naturally aspirated design, inexpensive parts, broad application and good repair knowledge.",
+        "cons": "Belt history is critical; accessory layout, dephaser and emissions equipment vary by suffix and vehicle."
+      },
+      "es": {
+        "construction": "Motor Renault 1.6 con bloque de hierro, culata de aluminio DOHC de 16 válvulas, inyección multipunto y correa. Algunas versiones usan variador de admisión.",
+        "issues": "Correa, rodillos y bomba; ruido del variador donde existe; bobinas; fugas; mariposa, sensores y refrigeración envejecida.",
+        "pros": "Diseño atmosférico sencillo, piezas económicas, uso amplio y reparación conocida.",
+        "cons": "El historial de correa es crítico; accesorios, variador y emisiones cambian por sufijo y vehículo."
+      },
+      "fr": {
+        "construction": "Moteur Renault 1,6 litre avec bloc fonte, culasse aluminium DOHC 16 soupapes, injection multipoint et courroie. Certaines versions utilisent un déphaseur admission.",
+        "issues": "Courroie, galets et pompe ; bruit du déphaseur selon version ; bobines ; fuites ; papillon, capteurs et refroidissement âgé.",
+        "pros": "Architecture atmosphérique simple, pièces abordables, large diffusion et réparation connue.",
+        "cons": "Historique de courroie critique ; accessoires, déphaseur et dépollution varient selon suffixe et véhicule."
+      },
+      "de": {
+        "construction": "Renault-1,6-Liter-Vierzylinder mit Graugussblock, Aluminium-DOHC-16V-Kopf, MPI und Zahnriemen. Manche Varianten haben einen Einlass-Nockenwellenversteller.",
+        "issues": "Riemen-, Rollen- und Wasserpumpenservice; Verstellergeräusch je Version; Zündspulen; Öllecks; Drosselklappe, Sensoren und gealterte Kühlung.",
+        "pros": "Einfache Saugerkonstruktion, günstige Teile, breite Nutzung und bekannte Reparatur.",
+        "cons": "Riemenhistorie ist kritisch; Nebenaggregate, Versteller und Abgastechnik variieren nach Suffix und Fahrzeug."
+      }
+    }
+  },
+  {
+    "id": "vw-ea111-tsi",
+    "code": "EA111 TSI",
+    "aliases": [
+      "EA111",
+      "1.2 TSI",
+      "1.4 TSI",
+      "CAXA",
+      "CAVD"
+    ],
+    "maker": "Volkswagen Group",
+    "regionKey": "europe",
+    "years": "2005-2015",
+    "displacement": "1.2-1.4 L · 1,197-1,390 cc",
+    "layout": "I4 · SOHC/DOHC · 8V/16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "VW Golf / Polo / Touran",
+      "Audi A1 / A3",
+      "Skoda Fabia / Octavia / Yeti",
+      "SEAT Ibiza / Leon"
+    ],
+    "consumption": "5.5-9 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "180,000-350,000 km",
+    "oilRecord": "vw-golf-ea111-tsi",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Volkswagen small-displacement direct-injection petrol family with an iron block, turbocharging and timing chain. The 1.2 and 1.4 versions differ in head, valves and charging system; some 1.4 engines use twincharging.",
+        "issues": "Timing-chain and tensioner wear; piston or ring damage on some 1.4 versions; turbo or supercharger control; intake deposits; injectors, water pump and oil consumption.",
+        "pros": "Strong low-speed torque, good economy and broad VAG application.",
+        "cons": "Engine code is essential: 1.2, turbo-only 1.4 and twincharged 1.4 cannot be treated as one specification."
+      },
+      "es": {
+        "construction": "Familia Volkswagen de gasolina e inyección directa, bloque de hierro, turbo y cadena. Los 1.2 y 1.4 cambian en culata, válvulas y sobrealimentación; algunos 1.4 son twincharger.",
+        "issues": "Cadena y tensor; pistones o segmentos en algunos 1.4; control de turbo o compresor; depósitos; inyectores, bomba y consumo de aceite.",
+        "pros": "Buen par a bajas rpm, consumo contenido y uso amplio VAG.",
+        "cons": "El código exacto es esencial: 1.2, 1.4 turbo y 1.4 twincharger no son una sola especificación."
+      },
+      "fr": {
+        "construction": "Famille Volkswagen essence à injection directe, bloc fonte, turbo et chaîne. Les 1,2 et 1,4 diffèrent en culasse, soupapes et suralimentation ; certains 1,4 sont twincharger.",
+        "issues": "Chaîne et tendeur ; pistons ou segments sur certains 1,4 ; commande turbo ou compresseur ; dépôts ; injecteurs, pompe et consommation d’huile.",
+        "pros": "Bon couple à bas régime, sobriété et large diffusion VAG.",
+        "cons": "Code moteur indispensable : 1,2, 1,4 turbo et 1,4 twincharger ne sont pas une spécification unique."
+      },
+      "de": {
+        "construction": "Volkswagen-Benzindirekteinspritzerfamilie mit Graugussblock, Turbo und Kette. 1,2 und 1,4 unterscheiden sich bei Kopf, Ventilen und Aufladung; manche 1,4 haben Doppelaufladung.",
+        "issues": "Ketten- und Spannerverschleiß; Kolben oder Ringe bei manchen 1,4; Turbo- oder Kompressorregelung; Ablagerungen; Injektoren, Wasserpumpe und Ölverbrauch.",
+        "pros": "Gutes Drehmoment unten, sparsamer Betrieb und breite VAG-Nutzung.",
+        "cons": "Exakter Motorcode ist entscheidend: 1,2, 1,4 Turbo und 1,4 Doppelaufladung sind nicht eine Spezifikation."
+      }
+    }
+  },
+  {
+    "id": "psa-dw10",
+    "code": "DW10 2.0 HDi",
+    "aliases": [
+      "DW10",
+      "2.0 HDi",
+      "2.0 TDCi PSA",
+      "D4204T derivatives"
+    ],
+    "maker": "PSA / Ford / Volvo",
+    "regionKey": "europe",
+    "years": "1999-present",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · SOHC/DOHC · 8V/16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Peugeot 307 / 308 / 407 / 508",
+      "Citroen C4 / C5",
+      "Ford Focus / Mondeo",
+      "Volvo S40 / V50 / C30 derivatives"
+    ],
+    "consumption": "4.5-7.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "psa-dw10-hdi",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Long-running 2.0-litre common-rail turbodiesel family with an iron block and timing belt. Valve count, injection, turbo and emissions hardware changed across generations and brands.",
+        "issues": "EGR and intake deposits; DPF and additive-system faults on equipped vehicles; injector seals; turbo oil supply; vacuum control, dual-mass flywheel, belt and cooling.",
+        "pros": "Strong economy, good torque, wide parts availability and high-mileage potential.",
+        "cons": "DW10 suffix and vehicle brand matter greatly; oil specification, DPF system and service procedures differ by generation."
+      },
+      "es": {
+        "construction": "Familia turbodiésel 2.0 common-rail de larga producción, bloque de hierro y correa. Válvulas, inyección, turbo y emisiones cambiaron por generación y marca.",
+        "issues": "EGR y admisión; DPF y aditivo donde existe; sellos de inyectores; aceite del turbo; vacío, volante bimasa, correa y refrigeración.",
+        "pros": "Buen consumo y par, muchas piezas y alto kilometraje posible.",
+        "cons": "El sufijo DW10 y la marca importan; aceite, DPF y procedimientos cambian por generación."
+      },
+      "fr": {
+        "construction": "Famille turbodiesel 2,0 litres common rail, bloc fonte et courroie. Soupapes, injection, turbo et dépollution ont évolué selon génération et marque.",
+        "issues": "EGR et admission ; DPF et additif selon véhicule ; joints injecteurs ; huile turbo ; dépression, volant bimasse, courroie et refroidissement.",
+        "pros": "Excellente sobriété, bon couple, pièces nombreuses et fort kilométrage possible.",
+        "cons": "Suffixe DW10 et marque essentiels ; huile, DPF et méthodes varient selon génération."
+      },
+      "de": {
+        "construction": "Langjährig gebaute 2,0-Liter-Common-Rail-Turbodieselfamilie mit Graugussblock und Zahnriemen. Ventile, Einspritzung, Lader und Abgastechnik änderten sich je Generation und Marke.",
+        "issues": "EGR und Ansaugung; DPF und Additivsystem je Fahrzeug; Injektordichtungen; Turboölversorgung; Unterdruck, Zweimassenschwungrad, Riemen und Kühlung.",
+        "pros": "Sehr sparsam, gutes Drehmoment, viele Teile und hohes Laufleistungspotenzial.",
+        "cons": "DW10-Suffix und Fahrzeugmarke sind wichtig; Öl, DPF und Serviceverfahren variieren je Generation."
+      }
+    }
+  },
+  {
+    "id": "opel-z18xer",
+    "code": "Z18XER / A18XER",
+    "aliases": [
+      "Z18XER",
+      "A18XER",
+      "F18D4",
+      "Opel 1.8 Ecotec"
+    ],
+    "maker": "Opel / Vauxhall / Chevrolet",
+    "regionKey": "europe",
+    "years": "2005-2018",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Opel Astra H / J",
+      "Zafira B / C",
+      "Vectra C / Insignia",
+      "Chevrolet Cruze / Orlando derivatives"
+    ],
+    "consumption": "7-11 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-430,000 km",
+    "oilRecord": "opel-astra-z18xer",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Opel Family 1 1.8-litre engine with an iron block, aluminium DOHC 16-valve head, variable cam timing, multipoint injection and timing belt.",
+        "issues": "Cam-phaser gears and control solenoids; oil-cooler and thermostat leaks; ignition module; intake-manifold control; belt, sensors and crankcase ventilation.",
+        "pros": "Simple naturally aspirated output, broad parts supply and familiar service procedures.",
+        "cons": "Correct oil and clean cam-control screens matter; Z18XER, A18XER and Chevrolet derivatives have calibration and emissions differences."
+      },
+      "es": {
+        "construction": "Motor Opel Family 1 de 1.8, bloque de hierro, culata DOHC de aluminio y 16 válvulas, distribución variable, inyección multipunto y correa.",
+        "issues": "Variadores y solenoides; enfriador de aceite y termostato; módulo de encendido; control de admisión; correa, sensores y ventilación.",
+        "pros": "Potencia atmosférica sencilla, muchas piezas y servicio conocido.",
+        "cons": "Aceite correcto y filtros de control limpios son importantes; Z18XER, A18XER y derivados Chevrolet cambian en calibración y emisiones."
+      },
+      "fr": {
+        "construction": "Moteur Opel Family 1 de 1,8 litre, bloc fonte, culasse aluminium DOHC 16 soupapes, calage variable, injection multipoint et courroie.",
+        "issues": "Déphaseurs et électrovannes ; refroidisseur d’huile et thermostat ; module d’allumage ; commande admission ; courroie, capteurs et ventilation.",
+        "pros": "Puissance atmosphérique simple, pièces nombreuses et entretien connu.",
+        "cons": "Huile correcte et filtres de commande propres importants ; Z18XER, A18XER et dérivés Chevrolet diffèrent en calibration et dépollution."
+      },
+      "de": {
+        "construction": "Opel-Family-1-1,8-Liter-Motor mit Graugussblock, Aluminium-DOHC-16V-Kopf, variabler Nockensteuerung, MPI und Zahnriemen.",
+        "issues": "Nockenversteller und Magnetventile; Ölkühler und Thermostat; Zündmodul; Saugrohrsteuerung; Riemen, Sensoren und Kurbelgehäuseentlüftung.",
+        "pros": "Einfache Saugerleistung, viele Teile und bekannte Serviceverfahren.",
+        "cons": "Richtiges Öl und saubere Steuersiebe zählen; Z18XER, A18XER und Chevrolet-Derivate unterscheiden sich bei Kalibrierung und Abgas."
+      }
+    }
+  },
+  {
+    "id": "bmw-n57",
+    "code": "N57",
+    "aliases": [
+      "N57D30",
+      "BMW 3.0d",
+      "BMW 30d",
+      "BMW 35d"
+    ],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2008-2020",
+    "displacement": "3.0 L · 2,993 cc",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 3 / 4 / 5 / 6 / 7 Series",
+      "BMW X3 / X4",
+      "BMW X5 / X6"
+    ],
+    "consumption": "5.5-9.5 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "250,000-450,000 km",
+    "oilRecord": "bmw-f10-n57",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "BMW 3.0-litre aluminium common-rail inline-six turbodiesel with DOHC 24-valve head and rear-mounted timing chains. Single-, twin- and triple-turbo versions exist.",
+        "issues": "Rear timing-chain wear; EGR cooler and market campaigns; DPF and intake deposits; swirl hardware; turbo system, injectors and bearing wear on some heavily used engines.",
+        "pros": "Excellent torque, smooth operation, strong long-distance economy and broad diagnostic support.",
+        "cons": "Turbo layout and output version matter greatly; chain access is expensive and VIN campaign history should be checked."
+      },
+      "es": {
+        "construction": "Diésel BMW 3.0 de seis cilindros en línea, aluminio, common-rail, culata DOHC de 24 válvulas y cadenas traseras. Hay uno, dos o tres turbos.",
+        "issues": "Cadenas traseras; enfriador EGR y campañas; DPF y admisión; mariposas; turbos, inyectores y cojinetes en algunos motores exigidos.",
+        "pros": "Gran par, suavidad, buen consumo en carretera y diagnóstico amplio.",
+        "cons": "Importan potencia y número de turbos; la cadena es cara y debe revisarse el historial VIN."
+      },
+      "fr": {
+        "construction": "Six cylindres BMW 3,0 litres diesel aluminium common rail, culasse DOHC 24 soupapes et chaînes arrière. Versions simple, double et triple turbo.",
+        "issues": "Chaînes arrière ; refroidisseur EGR et campagnes ; DPF et admission ; volets ; turbos, injecteurs et coussinets sur certains moteurs sollicités.",
+        "pros": "Excellent couple, grande souplesse, sobriété routière et bon diagnostic.",
+        "cons": "Puissance et turbos essentiels ; accès chaîne coûteux et campagnes à vérifier par VIN."
+      },
+      "de": {
+        "construction": "BMW-3,0-Liter-Aluminium-Common-Rail-Reihensechszylinder mit DOHC-24V und hinteren Steuerketten. Ein-, Zwei- und Dreifach-Turbo-Versionen existieren.",
+        "issues": "Hintere Ketten; EGR-Kühler und Aktionen; DPF und Ansaugung; Drallklappen; Lader, Injektoren und Lager bei manchen stark belasteten Motoren.",
+        "pros": "Sehr starkes Drehmoment, Laufruhe, guter Langstreckenverbrauch und Diagnose.",
+        "cons": "Leistung und Laderzahl sind entscheidend; Kettenzugang ist teuer und VIN-Aktionen prüfen."
+      }
+    }
+  },
+  {
+    "id": "mercedes-om642",
+    "code": "OM642 3.0 CDI",
+    "aliases": [
+      "OM642",
+      "3.0 CDI",
+      "3.0 CRD",
+      "BlueTEC V6"
+    ],
+    "maker": "Mercedes-Benz / Jeep / Chrysler",
+    "regionKey": "europe",
+    "years": "2005-2022",
+    "displacement": "3.0 L · 2,987 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mercedes C / E / S-Class",
+      "ML / GL / G-Class",
+      "Mercedes Sprinter",
+      "Jeep / Chrysler 3.0 CRD derivatives"
+    ],
+    "consumption": "7-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "mercedes-w212-om642",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Mercedes 3.0-litre aluminium V6 common-rail turbodiesel with DOHC 24-valve heads and timing chain. Emissions and turbo hardware changed substantially over production.",
+        "issues": "Oil-cooler seals in the engine valley; swirl flaps and actuator; injector seals; EGR, DPF and AdBlue systems; turbo actuator, intake deposits and oil leaks.",
+        "pros": "Strong torque, wide passenger and commercial use, good motorway economy and high-mileage potential.",
+        "cons": "Several repairs require extensive disassembly; market, emissions generation and exact OM642 suffix must be identified."
+      },
+      "es": {
+        "construction": "V6 Mercedes 3.0 turbodiésel common-rail de aluminio, culatas DOHC de 24 válvulas y cadena. Emisiones y turbo cambiaron mucho durante la producción.",
+        "issues": "Juntas del enfriador de aceite en el valle; mariposas y actuador; sellos de inyectores; EGR, DPF y AdBlue; actuador turbo, depósitos y fugas.",
+        "pros": "Mucho par, uso amplio, buen consumo en carretera y alto kilometraje posible.",
+        "cons": "Varias reparaciones requieren desmontaje grande; identificar mercado, generación y sufijo OM642."
+      },
+      "fr": {
+        "construction": "V6 Mercedes 3,0 litres turbodiesel common rail aluminium, culasses DOHC 24 soupapes et chaîne. Dépollution et turbo ont beaucoup évolué.",
+        "issues": "Joints refroidisseur d’huile dans la vallée ; volets et actuateur ; joints injecteurs ; EGR, DPF et AdBlue ; actuateur turbo, dépôts et fuites.",
+        "pros": "Fort couple, large usage, bonne sobriété routière et fort kilométrage possible.",
+        "cons": "Plusieurs réparations imposent un gros démontage ; identifier marché, génération et suffixe OM642."
+      },
+      "de": {
+        "construction": "Mercedes-3,0-Liter-Aluminium-V6-Common-Rail-Turbodiesel mit DOHC-24V und Kette. Abgas- und Ladertechnik änderten sich stark während der Bauzeit.",
+        "issues": "Ölkühlerdichtungen im V; Drallklappen und Stellmotor; Injektordichtungen; EGR, DPF und AdBlue; Turbosteller, Ablagerungen und Lecks.",
+        "pros": "Starkes Drehmoment, breite Pkw- und Nutzfahrzeugnutzung, guter Reiseverbrauch und hohe Laufleistung.",
+        "cons": "Mehrere Reparaturen brauchen großen Zerlegeaufwand; Markt, Abgasgeneration und OM642-Suffix bestimmen."
+      }
+    }
+  },
+  {
+    "id": "vw-ea188-19tdi",
+    "code": "EA188 1.9 TDI",
+    "aliases": [
+      "1.9 TDI PD",
+      "EA188",
+      "ALH",
+      "ASZ",
+      "BKC",
+      "BLS"
+    ],
+    "maker": "Volkswagen Group",
+    "regionKey": "europe",
+    "years": "1998-2010",
+    "displacement": "1.9 L · 1,896 cc",
+    "layout": "I4 · SOHC · 8V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "variantInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "VW Golf / Passat / Touran",
+      "Audi A3",
+      "Skoda Octavia",
+      "SEAT Leon / Toledo"
+    ],
+    "consumption": "4.5-7 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "350,000-600,000 km",
+    "oilRecord": "vw-golf-ea188-19tdi",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Volkswagen 1.9-litre iron-block turbodiesel family with SOHC 8-valve head and timing belt. Rotary-pump and later unit-injector versions require different fuel and oil specifications.",
+        "issues": "Timing-belt service; turbo geometry and vacuum control; EGR and intake deposits; unit injectors and cam wear on PD versions; dual-mass flywheel and oil leaks.",
+        "pros": "Excellent economy, strong parts supply and very high mileage potential.",
+        "cons": "Exact engine code is essential; pump, PD, turbo, DPF and oil requirements vary greatly."
+      },
+      "es": {
+        "construction": "Familia Volkswagen 1.9 turbodiésel, bloque de hierro, SOHC de 8 válvulas y correa. Bomba rotativa y posteriores inyector-bomba requieren combustible y aceite distintos.",
+        "issues": "Correa; geometría turbo y vacío; EGR y admisión; inyectores y leva en PD; volante bimasa y fugas.",
+        "pros": "Gran economía, muchas piezas y kilometraje muy alto.",
+        "cons": "El código exacto es esencial; bomba, PD, turbo, DPF y aceite cambian mucho."
+      },
+      "fr": {
+        "construction": "Famille Volkswagen 1,9 turbodiesel, bloc fonte, SOHC 8 soupapes et courroie. Pompe rotative et injecteur-pompe exigent carburant et huile différents.",
+        "issues": "Courroie ; géométrie turbo et dépression ; EGR et admission ; injecteurs et arbre à cames sur PD ; volant bimasse et fuites.",
+        "pros": "Excellente sobriété, pièces nombreuses et très fort kilométrage.",
+        "cons": "Code exact indispensable ; pompe, PD, turbo, DPF et huile varient fortement."
+      },
+      "de": {
+        "construction": "Volkswagen-1,9-Liter-Grauguss-Turbodieselfamilie mit SOHC-8V und Zahnriemen. Verteilerpumpe und spätere Pumpe-Düse brauchen unterschiedliche Kraftstoff- und Ölvorgaben.",
+        "issues": "Riemen; Turbogeometrie und Unterdruck; EGR und Ansaugung; PD-Elemente und Nockenverschleiß; Zweimassenschwungrad und Lecks.",
+        "pros": "Sehr sparsam, viele Teile und extrem hohe Laufleistung möglich.",
+        "cons": "Exakter Code ist entscheidend; Pumpe, PD, Turbo, DPF und Öl unterscheiden sich stark."
+      }
+    }
+  },
+  {
+    "id": "bmw-m47",
+    "code": "M47",
+    "aliases": [
+      "M47D20",
+      "M47TU",
+      "BMW 2.0d early"
+    ],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "1998-2007",
+    "displacement": "2.0 L · 1,951-1,995 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "variantInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 3 Series",
+      "BMW 1 Series derivatives",
+      "BMW 5 Series",
+      "BMW X3"
+    ],
+    "consumption": "5-8 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-500,000 km",
+    "oilRecord": "bmw-e46-m47",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "BMW iron-block 2.0-litre turbodiesel family with DOHC 16-valve head and front timing chains. Injection and turbo systems changed from early M47 to M47TU.",
+        "issues": "Swirl flaps on equipped versions; crankcase ventilation; EGR and intake deposits; turbo, injectors or early pump; chain components, dual-mass flywheel and cooling.",
+        "pros": "Good economy, durable block and strong specialist support.",
+        "cons": "Early and TU versions differ; swirl-flap equipment, injection type and service history must be identified."
+      },
+      "es": {
+        "construction": "Familia BMW 2.0 turbodiésel con bloque de hierro, culata DOHC de 16 válvulas y cadenas delanteras. Inyección y turbo cambiaron en M47TU.",
+        "issues": "Mariposas; ventilación; EGR y admisión; turbo, inyectores o bomba temprana; cadena, bimasa y refrigeración.",
+        "pros": "Buen consumo, bloque duradero y soporte especializado.",
+        "cons": "Versiones tempranas y TU cambian; identificar mariposas, inyección e historial."
+      },
+      "fr": {
+        "construction": "Famille BMW 2,0 turbodiesel bloc fonte, culasse DOHC 16 soupapes et chaînes avant. Injection et turbo évoluent avec M47TU.",
+        "issues": "Volets ; ventilation ; EGR et admission ; turbo, injecteurs ou pompe ancienne ; chaînes, bimasse et refroidissement.",
+        "pros": "Bonne sobriété, bloc durable et fort support spécialiste.",
+        "cons": "Premières versions et TU différentes ; identifier volets, injection et historique."
+      },
+      "de": {
+        "construction": "BMW-2,0-Liter-Grauguss-Turbodieselfamilie mit DOHC-16V und vorderen Ketten. Einspritzung und Lader änderten sich zum M47TU.",
+        "issues": "Drallklappen; Kurbelgehäuseentlüftung; EGR und Ansaugung; Turbo, Injektoren oder frühe Pumpe; Kette, Zweimasse und Kühlung.",
+        "pros": "Sparsam, haltbarer Block und gute Spezialistenlage.",
+        "cons": "Frühe und TU-Versionen unterscheiden sich; Klappen, Einspritzung und Historie bestimmen."
+      }
+    }
+  },
+  {
+    "id": "bmw-b58",
+    "code": "B58",
+    "aliases": [
+      "B58B30",
+      "BMW 3.0 TwinPower Turbo",
+      "Toyota Supra B58"
+    ],
+    "maker": "BMW / Toyota",
+    "regionKey": "europe",
+    "years": "2015-present",
+    "displacement": "3.0 L · 2,998 cc",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "BMW 2 / 3 / 4 / 5 / 7 / 8 Series",
+      "BMW X3 / X5 / X7",
+      "Toyota GR Supra"
+    ],
+    "consumption": "7-12 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "280,000-450,000 km",
+    "oilRecord": "bmw-g20-b58",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "BMW modular aluminium 3.0-litre turbo inline-six with direct injection, variable timing and lift, integrated cooling and timing chain.",
+        "issues": "Cooling module and water pump; PCV and valve cover; oil-filter housing; intake deposits, injectors and high-pressure pump; modified-car heat and calibration.",
+        "pros": "Strong torque, smooth delivery, efficient performance and excellent tuning support.",
+        "cons": "Generations and output versions differ; cooling, software and modification history must be checked."
+      },
+      "es": {
+        "construction": "Seis cilindros BMW modular 3.0 turbo de aluminio, inyección directa, distribución y alzada variables, refrigeración integrada y cadena.",
+        "issues": "Módulo de refrigeración y bomba; PCV y tapa; portafiltro; depósitos, inyectores y alta presión; calor y calibración en coches modificados.",
+        "pros": "Mucho par, suavidad, eficiencia y gran soporte de tuning.",
+        "cons": "Generaciones y potencias cambian; revisar refrigeración, software y modificaciones."
+      },
+      "fr": {
+        "construction": "Six cylindres BMW modulaire 3,0 litres turbo aluminium, injection directe, calage et levée variables, refroidissement intégré et chaîne.",
+        "issues": "Module refroidissement et pompe ; PCV et couvre-culasse ; filtre à huile ; dépôts, injecteurs et haute pression ; chaleur et calibration sur voitures modifiées.",
+        "pros": "Fort couple, souplesse, rendement et grand support préparation.",
+        "cons": "Générations et puissances différentes ; contrôler refroidissement, logiciel et modifications."
+      },
+      "de": {
+        "construction": "Modularer BMW-3,0-Liter-Aluminium-Turbo-Reihensechszylinder mit Direkteinspritzung, variabler Steuerung und Hub, integrierter Kühlung und Kette.",
+        "issues": "Kühlmodul und Pumpe; PCV und Deckel; Ölfiltergehäuse; Ablagerungen, Injektoren und Hochdruckpumpe; Hitze und Software bei Umbauten.",
+        "pros": "Starkes Drehmoment, Laufruhe, Effizienz und großes Tuningangebot.",
+        "cons": "Generationen und Leistung variieren; Kühlung, Software und Umbauhistorie prüfen."
+      }
+    }
+  },
+  {
+    "id": "mercedes-m271",
+    "code": "M271",
+    "aliases": [
+      "M271 Kompressor",
+      "M271 CGI",
+      "Mercedes 1.8 Kompressor"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2015",
+    "displacement": "1.6-1.8 L · 1,597-1,796 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Mercedes C-Class",
+      "Mercedes E-Class",
+      "Mercedes CLK / SLK",
+      "Mercedes CLC"
+    ],
+    "consumption": "7-11 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "220,000-380,000 km",
+    "oilRecord": "mercedes-w204-m271",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Mercedes aluminium four-cylinder family with DOHC head and timing chain. Versions use a supercharger or turbocharger and multipoint or direct injection.",
+        "issues": "Timing-chain stretch, sprockets and tensioner; cam magnets and oil migration; PCV, intake deposits on CGI, thermostat, supercharger or turbo control.",
+        "pros": "Good torque and wide Mercedes application.",
+        "cons": "Kompressor, CGI and later turbo versions require separate identification; chain condition is critical."
+      },
+      "es": {
+        "construction": "Familia Mercedes de cuatro cilindros de aluminio, DOHC y cadena. Hay compresor o turbo e inyección multipunto o directa.",
+        "issues": "Cadena, engranajes y tensor; imanes de leva y aceite en cableado; PCV, depósitos CGI, termostato y control de sobrealimentación.",
+        "pros": "Buen par y uso amplio Mercedes.",
+        "cons": "Kompressor, CGI y turbo deben identificarse por separado; la cadena es crítica."
+      },
+      "fr": {
+        "construction": "Famille Mercedes quatre cylindres aluminium DOHC et chaîne. Versions à compresseur ou turbo, injection multipoint ou directe.",
+        "issues": "Chaîne, pignons et tendeur ; aimants arbres et huile dans faisceau ; PCV, dépôts CGI, thermostat et commande suralimentation.",
+        "pros": "Bon couple et large diffusion Mercedes.",
+        "cons": "Kompressor, CGI et turbo à identifier séparément ; chaîne critique."
+      },
+      "de": {
+        "construction": "Mercedes-Aluminium-Vierzylinderfamilie mit DOHC und Kette. Varianten mit Kompressor oder Turbo sowie Saugrohr- oder Direkteinspritzung.",
+        "issues": "Kette, Räder und Spanner; Nockenmagnete und Öl im Kabelbaum; PCV, CGI-Ablagerungen, Thermostat und Aufladungsregelung.",
+        "pros": "Gutes Drehmoment und breite Mercedes-Nutzung.",
+        "cons": "Kompressor, CGI und Turbo getrennt bestimmen; Kettenzustand ist kritisch."
+      }
+    }
+  },
+  {
+    "id": "renault-f4r",
+    "code": "F4R",
+    "aliases": [
+      "F4R 2.0 16V",
+      "F4Rt",
+      "Renault 2.0 16V"
+    ],
+    "maker": "Renault / Dacia",
+    "regionKey": "europe",
+    "years": "1998-2016",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Renault Clio / Megane",
+      "Laguna / Scenic / Espace",
+      "Dacia Duster",
+      "Renaultsport and turbo derivatives"
+    ],
+    "consumption": "7.5-13 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "300,000-480,000 km",
+    "oilRecord": "renault-f4r-20",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "Renault 2.0-litre iron-block DOHC 16-valve family with multipoint injection and timing belt. Naturally aspirated and turbo F4Rt versions differ substantially.",
+        "issues": "Timing belt, idlers and water pump; dephaser pulley; ignition coils; oil leaks, throttle and cooling; turbo heat and tuning on F4Rt.",
+        "pros": "Robust block, good parts supply and strong performance potential.",
+        "cons": "Exact suffix and turbo status matter; belt history is essential."
+      },
+      "es": {
+        "construction": "Familia Renault 2.0, bloque de hierro, DOHC 16 válvulas, inyección multipunto y correa. Atmosféricos y F4Rt turbo son muy distintos.",
+        "issues": "Correa, rodillos y bomba; variador; bobinas; fugas, mariposa y refrigeración; calor y tuning en F4Rt.",
+        "pros": "Bloque robusto, piezas disponibles y buen potencial.",
+        "cons": "Importan sufijo y turbo; historial de correa esencial."
+      },
+      "fr": {
+        "construction": "Famille Renault 2,0 litres bloc fonte DOHC 16 soupapes, injection multipoint et courroie. Atmosphériques et F4Rt turbo très différents.",
+        "issues": "Courroie, galets et pompe ; déphaseur ; bobines ; fuites, papillon et refroidissement ; chaleur et préparation F4Rt.",
+        "pros": "Bloc robuste, pièces disponibles et bon potentiel.",
+        "cons": "Suffixe et turbo essentiels ; historique courroie indispensable."
+      },
+      "de": {
+        "construction": "Renault-2,0-Liter-Grauguss-DOHC-16V-Familie mit MPI und Zahnriemen. Sauger und F4Rt-Turbos unterscheiden sich stark.",
+        "issues": "Riemen, Rollen und Pumpe; Versteller; Spulen; Lecks, Drosselklappe und Kühlung; Hitze und Tuning beim F4Rt.",
+        "pros": "Robuster Block, gute Teilelage und Leistungspotenzial.",
+        "cons": "Suffix und Turbo zählen; Riemenhistorie ist entscheidend."
+      }
+    }
+  },
+  {
+    "id": "psa-ep6",
+    "code": "EP6 / Prince 1.6",
+    "aliases": [
+      "EP6",
+      "EP6DT",
+      "THP 1.6",
+      "N14",
+      "N18"
+    ],
+    "maker": "PSA / BMW MINI",
+    "regionKey": "europe",
+    "years": "2006-present",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantDependent",
+    "injectionKey": "variantInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Peugeot 207 / 208 / 308 / 508",
+      "Citroen C3 / C4 / DS",
+      "MINI Cooper",
+      "BMW Prince derivatives"
+    ],
+    "consumption": "5.5-10 L/100 km",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "180,000-350,000 km",
+    "oilRecord": "",
+    "statusKey": "generationCritical",
+    "text": {
+      "en": {
+        "construction": "PSA-BMW Prince aluminium 1.6-litre family with DOHC head and timing chain. Naturally aspirated MPI and turbo direct-injection versions require different service.",
+        "issues": "Chain, tensioner and guides; intake deposits on direct injection; valve-stem seals, PCV and oil use; high-pressure pump, turbo, thermostat and coolant leaks.",
+        "pros": "Good efficiency and strong turbo performance with wide European support.",
+        "cons": "EP6 suffix and generation are essential; early and revised engines differ greatly."
+      },
+      "es": {
+        "construction": "Familia PSA-BMW Prince 1.6 de aluminio, DOHC y cadena. Atmosféricos MPI y turbo directos requieren mantenimiento distinto.",
+        "issues": "Cadena, tensor y guías; depósitos; retenes, PCV y consumo; bomba de alta, turbo, termostato y refrigerante.",
+        "pros": "Buena eficiencia y rendimiento turbo con soporte amplio.",
+        "cons": "Sufijo y generación EP6 son esenciales; motores tempranos y revisados cambian mucho."
+      },
+      "fr": {
+        "construction": "Famille PSA-BMW Prince 1,6 litre aluminium DOHC et chaîne. Atmosphériques MPI et turbo directs demandent un entretien différent.",
+        "issues": "Chaîne, tendeur et guides ; dépôts ; joints de queue, PCV et consommation ; pompe haute pression, turbo, thermostat et liquide.",
+        "pros": "Bon rendement et fortes performances turbo avec large support.",
+        "cons": "Suffixe et génération EP6 essentiels ; moteurs anciens et révisés très différents."
+      },
+      "de": {
+        "construction": "PSA-BMW-Prince-1,6-Liter-Aluminiumfamilie mit DOHC und Kette. MPI-Sauger und Turbo-Direkteinspritzer brauchen unterschiedlichen Service.",
+        "issues": "Kette, Spanner und Führungen; Ablagerungen; Ventilschaftdichtungen, PCV und Ölverbrauch; Hochdruckpumpe, Turbo, Thermostat und Kühlmittel.",
+        "pros": "Gute Effizienz und starke Turboleistung mit breiter Unterstützung.",
+        "cons": "EP6-Suffix und Generation sind entscheidend; frühe und überarbeitete Motoren unterscheiden sich stark."
+      }
+    }
+  }
+];
