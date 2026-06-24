@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>About AutoHub | Automotive Calculators, Guides and Tools</title>
+  <meta name="description" content="Learn about AutoHub, a practical automotive project with tire calculators, diagnostic guides, engine references, oil guides and tools for drivers." />
+
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --border: #dbe3ef;
+      --soft: #e8f1ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+      padding: 28px 18px;
+    }
+
+    .wrap {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .brand {
+      font-size: 1.45rem;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+    }
+
+    .lang {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .lang button {
+      border: 1px solid rgba(255,255,255,0.55);
+      background: rgba(255,255,255,0.14);
+      color: white;
+      border-radius: 999px;
+      padding: 7px 11px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .lang button.active {
+      background: white;
+      color: #1e3a8a;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-weight: 650;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background: white;
+      color: #1e3a8a;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.1;
+    }
+
+    .lead {
+      max-width: 780px;
+      font-size: 1.15rem;
+      margin: 0;
+      color: rgba(255,255,255,0.92);
+    }
+
+    main {
+      padding: 28px 18px 42px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.45rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .mission {
+      background: var(--soft);
+      border-left: 5px solid var(--primary);
+      padding: 16px 18px;
+      border-radius: 14px;
+      font-weight: 750;
+      margin-top: 16px;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .pill-list li {
+      background: #f3f6fb;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 12px;
+      margin: 0;
+      font-weight: 650;
+      color: #374151;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .contact-box {
+      background: #f8fafc;
+      border: 1px dashed #b9c7da;
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 22px 18px;
+      color: var(--muted);
+      background: white;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      nav a {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">AutoHub</div>
+        <div class="lang" aria-label="Language selector">
+          <button type="button" class="active" data-lang="en">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="fr">FR</button>
+          <button type="button" data-lang="de">DE</button>
+        </div>
+      </div>
+
+```
+  <nav aria-label="Main navigation">
+    <a href="index.html" data-i18n="navTires">Tire Calculator</a>
+    <a href="pcd.html" data-i18n="navPcd">PCD Database</a>
+    <a href="fuel.html" data-i18n="navFuel">Fuel Cost</a>
+    <a href="diagnostics.html" data-i18n="navDiagnostics">Diagnostics</a>
+    <a href="engines.html" data-i18n="navEngines">Engines</a>
+    <a href="oil-guide.html" data-i18n="navOil">Oil Guide</a>
+    <a href="guides.html" data-i18n="navGuides">Guides</a>
+    <a href="about.html" class="active" data-i18n="navAbout">About</a>
+    <a href="contact.html" data-i18n="navContact">Contact</a>
+  </nav>
+
+  <h1 data-i18n="title">About AutoHub</h1>
+  <p class="lead" data-i18n="lead">
+    AutoHub is a practical automotive project built to help drivers compare, check and understand vehicle-related information before spending money.
+  </p>
+</div>
+```
+
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="grid">
+        <section>
+          <article class="card">
+            <h2 data-i18n="missionTitle">Our mission</h2>
+            <p data-i18n="missionText">
+              AutoHub is being developed as a simple and useful automotive portal with calculators, guides and reference tools for everyday drivers, car owners and enthusiasts.
+            </p>
+            <div class="mission" data-i18n="slogan">
+              Check first. Understand the result. Avoid expensive mistakes.
+            </div>
+          </article>
+
+```
+      <article class="card">
+        <h2 data-i18n="whatTitle">What AutoHub offers</h2>
+        <p data-i18n="whatText">
+          The project focuses on practical tools and clear explanations rather than empty automotive news or generic articles.
+        </p>
+        <ul>
+          <li data-i18n="offerTires">Tire and wheel size comparison</li>
+          <li data-i18n="offerFuel">Fuel cost calculations</li>
+          <li data-i18n="offerDiagnostics">Diagnostic software and adapter guidance</li>
+          <li data-i18n="offerEngines">Engine and transmission reference information</li>
+          <li data-i18n="offerOil">Motor oil selection logic</li>
+          <li data-i18n="offerGuides">Practical automotive guides</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2 data-i18n="whyTitle">Why this project exists</h2>
+        <p data-i18n="whyText1">
+          Many car mistakes start before the repair: wrong tires, wrong wheels, wrong diagnostic cable, wrong oil, wrong assumptions about an engine or transmission.
+        </p>
+        <p data-i18n="whyText2">
+          AutoHub is built to help users check important details first and understand the risks before buying parts, tools or software.
+        </p>
+      </article>
+    </section>
+
+    <aside>
+      <article class="card">
+        <h2 data-i18n="statusTitle">Project status</h2>
+        <p data-i18n="statusText">
+          AutoHub is under active development. New sections and tools are being added step by step.
+        </p>
+        <ul class="pill-list">
+          <li data-i18n="statusStatic">Static website</li>
+          <li data-i18n="statusMobile">Mobile-friendly</li>
+          <li data-i18n="statusMulti">Multilingual structure</li>
+          <li data-i18n="statusTools">Practical tools</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2 data-i18n="principlesTitle">Principles</h2>
+        <ul>
+          <li data-i18n="principleSimple">Keep tools simple and understandable.</li>
+          <li data-i18n="principleUseful">Focus on real driver problems.</li>
+          <li data-i18n="principleCareful">Warn users about compatibility risks.</li>
+          <li data-i18n="principleLegal">Avoid illegal software, cracks and activators.</li>
+          <li data-i18n="principleImprove">Improve the project carefully without breaking working tools.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2 data-i18n="contactTitle">Contact</h2>
+        <p data-i18n="contactText">
+          You can contact AutoHub to report broken links, suggest corrections or discuss cooperation.
+        </p>
+        <div class="contact-box">
+          <strong>Email:</strong><br />
+          <a href="mailto:autocore.team@gmail.com">autocore.team@gmail.com</a>
+        </div>
+        <p class="note" data-i18n="note">
+          AutoHub is not a repair shop and does not replace official manufacturer documentation or professional inspection.
+        </p>
+      </article>
+    </aside>
+  </div>
+</div>
+```
+
+  </main>
+
+  <footer>
+    <span data-i18n="footer">© AutoHub. Automotive calculators, guides and reference tools.</span>
+  </footer>
+
+  <script>
+    const translations = {
+      en: {
+        navTires: "Tire Calculator",
+        navPcd: "PCD Database",
+        navFuel: "Fuel Cost",
+        navDiagnostics: "Diagnostics",
+        navEngines: "Engines",
+        navOil: "Oil Guide",
+        navGuides: "Guides",
+        navAbout: "About",
+        navContact: "Contact",
+        title: "About AutoHub",
+        lead: "AutoHub is a practical automotive project built to help drivers compare, check and understand vehicle-related information before spending money.",
+        missionTitle: "Our mission",
+        missionText: "AutoHub is being developed as a simple and useful automotive portal with calculators, guides and reference tools for everyday drivers, car owners and enthusiasts.",
+        slogan: "Check first. Understand the result. Avoid expensive mistakes.",
+        whatTitle: "What AutoHub offers",
+        whatText: "The project focuses on practical tools and clear explanations rather than empty automotive news or generic articles.",
+        offerTires: "Tire and wheel size comparison",
+        offerFuel: "Fuel cost calculations",
+        offerDiagnostics: "Diagnostic software and adapter guidance",
+        offerEngines: "Engine and transmission reference information",
+        offerOil: "Motor oil selection logic",
+        offerGuides: "Practical automotive guides",
+        whyTitle: "Why this project exists",
+        whyText1: "Many car mistakes start before the repair: wrong tires, wrong wheels, wrong diagnostic cable, wrong oil, wrong assumptions about an engine or transmission.",
+        whyText2: "AutoHub is built to help users check important details first and understand the risks before buying parts, tools or software.",
+        statusTitle: "Project status",
+        statusText: "AutoHub is under active development. New sections and tools are being added step by step.",
+        statusStatic: "Static website",
+        statusMobile: "Mobile-friendly",
+        statusMulti: "Multilingual structure",
+        statusTools: "Practical tools",
+        principlesTitle: "Principles",
+        principleSimple: "Keep tools simple and understandable.",
+        principleUseful: "Focus on real driver problems.",
+        principleCareful: "Warn users about compatibility risks.",
+        principleLegal: "Avoid illegal software, cracks and activators.",
+        principleImprove: "Improve the project carefully without breaking working tools.",
+        contactTitle: "Contact",
+        contactText: "You can contact AutoHub to report broken links, suggest corrections or discuss cooperation.",
+        note: "AutoHub is not a repair shop and does not replace official manufacturer documentation or professional inspection.",
+        footer: "© AutoHub. Automotive calculators, guides and reference tools."
+      },
+      es: {
+        navTires: "Calculadora de neumáticos",
+        navPcd: "Base PCD",
+        navFuel: "Coste de combustible",
+        navDiagnostics: "Diagnóstico",
+        navEngines: "Motores",
+        navOil: "Guía de aceite",
+        navGuides: "Guías",
+        navAbout: "Acerca de",
+        navContact: "Contacto",
+        title: "Acerca de AutoHub",
+        lead: "AutoHub es un proyecto automotriz práctico creado para ayudar a los conductores a comparar, comprobar y entender información antes de gastar dinero.",
+        missionTitle: "Nuestra misión",
+        missionText: "AutoHub se desarrolla como un portal automotriz simple y útil con calculadoras, guías y herramientas de referencia para conductores, propietarios y aficionados.",
+        slogan: "Comprueba primero. Entiende el resultado. Evita errores costosos.",
+        whatTitle: "Qué ofrece AutoHub",
+        whatText: "El proyecto se centra en herramientas prácticas y explicaciones claras, no en noticias vacías o artículos genéricos.",
+        offerTires: "Comparación de neumáticos y llantas",
+        offerFuel: "Cálculos de coste de combustible",
+        offerDiagnostics: "Guía sobre software y adaptadores de diagnóstico",
+        offerEngines: "Información de referencia sobre motores y transmisiones",
+        offerOil: "Lógica para elegir aceite de motor",
+        offerGuides: "Guías automotrices prácticas",
+        whyTitle: "Por qué existe este proyecto",
+        whyText1: "Muchos errores empiezan antes de la reparación: neumáticos incorrectos, llantas incorrectas, cable de diagnóstico incorrecto, aceite incorrecto o suposiciones incorrectas sobre un motor o una transmisión.",
+        whyText2: "AutoHub ayuda a comprobar detalles importantes y entender los riesgos antes de comprar piezas, herramientas o software.",
+        statusTitle: "Estado del proyecto",
+        statusText: "AutoHub está en desarrollo activo. Nuevas secciones y herramientas se añaden paso a paso.",
+        statusStatic: "Sitio estático",
+        statusMobile: "Adaptado a móviles",
+        statusMulti: "Estructura multilingüe",
+        statusTools: "Herramientas prácticas",
+        principlesTitle: "Principios",
+        principleSimple: "Mantener las herramientas simples y comprensibles.",
+        principleUseful: "Centrarse en problemas reales de los conductores.",
+        principleCareful: "Advertir sobre riesgos de compatibilidad.",
+        principleLegal: "Evitar software ilegal, cracks y activadores.",
+        principleImprove: "Mejorar el proyecto con cuidado sin romper herramientas existentes.",
+        contactTitle: "Contacto",
+        contactText: "Puedes contactar con AutoHub para informar de enlaces rotos, sugerir correcciones o hablar de cooperación.",
+        note: "AutoHub no es un taller y no sustituye la documentación oficial del fabricante ni una inspección profesional.",
+        footer: "© AutoHub. Calculadoras, guías y herramientas automotrices."
+      },
+      fr: {
+        navTires: "Calculateur de pneus",
+        navPcd: "Base PCD",
+        navFuel: "Coût carburant",
+        navDiagnostics: "Diagnostic",
+        navEngines: "Moteurs",
+        navOil: "Guide d’huile",
+        navGuides: "Guides",
+        navAbout: "À propos",
+        navContact: "Contact",
+        title: "À propos d’AutoHub",
+        lead: "AutoHub est un projet automobile pratique conçu pour aider les conducteurs à comparer, vérifier et comprendre les informations avant de dépenser de l’argent.",
+        missionTitle: "Notre mission",
+        missionText: "AutoHub est développé comme un portail automobile simple et utile avec des calculateurs, des guides et des outils de référence pour les conducteurs, propriétaires et passionnés.",
+        slogan: "Vérifier d’abord. Comprendre le résultat. Éviter les erreurs coûteuses.",
+        whatTitle: "Ce qu’offre AutoHub",
+        whatText: "Le projet se concentre sur des outils pratiques et des explications claires plutôt que sur des articles génériques.",
+        offerTires: "Comparaison des pneus et jantes",
+        offerFuel: "Calculs de coût carburant",
+        offerDiagnostics: "Guide des logiciels et adaptateurs de diagnostic",
+        offerEngines: "Références sur moteurs et transmissions",
+        offerOil: "Logique de choix d’huile moteur",
+        offerGuides: "Guides automobiles pratiques",
+        whyTitle: "Pourquoi ce projet existe",
+        whyText1: "Beaucoup d’erreurs commencent avant la réparation : mauvais pneus, mauvaises jantes, mauvais câble de diagnostic, mauvaise huile ou mauvaises hypothèses sur un moteur ou une transmission.",
+        whyText2: "AutoHub aide à vérifier les détails importants et à comprendre les risques avant d’acheter des pièces, outils ou logiciels.",
+        statusTitle: "État du projet",
+        statusText: "AutoHub est en développement actif. De nouvelles sections et outils sont ajoutés étape par étape.",
+        statusStatic: "Site statique",
+        statusMobile: "Compatible mobile",
+        statusMulti: "Structure multilingue",
+        statusTools: "Outils pratiques",
+        principlesTitle: "Principes",
+        principleSimple: "Garder les outils simples et compréhensibles.",
+        principleUseful: "Se concentrer sur les vrais problèmes des conducteurs.",
+        principleCareful: "Prévenir les risques de compatibilité.",
+        principleLegal: "Éviter les logiciels illégaux, cracks et activateurs.",
+        principleImprove: "Améliorer le projet avec prudence sans casser les outils existants.",
+        contactTitle: "Contact",
+        contactText: "Vous pouvez contacter AutoHub pour signaler des liens cassés, proposer des corrections ou discuter d’une coopération.",
+        note: "AutoHub n’est pas un garage et ne remplace pas la documentation officielle du constructeur ni une inspection professionnelle.",
+        footer: "© AutoHub. Calculateurs, guides et outils de référence automobile."
+      },
+      de: {
+        navTires: "Reifenrechner",
+        navPcd: "PCD-Datenbank",
+        navFuel: "Kraftstoffkosten",
+        navDiagnostics: "Diagnose",
+        navEngines: "Motoren",
+        navOil: "Öl-Ratgeber",
+        navGuides: "Ratgeber",
+        navAbout: "Über uns",
+        navContact: "Kontakt",
+        title: "Über AutoHub",
+        lead: "AutoHub ist ein praktisches Automobilprojekt, das Fahrern hilft, fahrzeugbezogene Informationen vor dem Kauf zu vergleichen, zu prüfen und zu verstehen.",
+        missionTitle: "Unsere Mission",
+        missionText: "AutoHub wird als einfaches und nützliches Automobilportal mit Rechnern, Ratgebern und Referenzwerkzeugen für Fahrer, Autobesitzer und Enthusiasten entwickelt.",
+        slogan: "Erst prüfen. Das Ergebnis verstehen. Teure Fehler vermeiden.",
+        whatTitle: "Was AutoHub bietet",
+        whatText: "Das Projekt konzentriert sich auf praktische Werkzeuge und klare Erklärungen statt auf leere Autonachrichten oder generische Artikel.",
+        offerTires: "Vergleich von Reifen- und Felgengrößen",
+        offerFuel: "Berechnung von Kraftstoffkosten",
+        offerDiagnostics: "Hinweise zu Diagnosesoftware und Adaptern",
+        offerEngines: "Referenzinformationen zu Motoren und Getrieben",
+        offerOil: "Logik zur Auswahl von Motoröl",
+        offerGuides: "Praktische Automobilratgeber",
+        whyTitle: "Warum dieses Projekt existiert",
+        whyText1: "Viele Autofehler beginnen vor der Reparatur: falsche Reifen, falsche Felgen, falsches Diagnosekabel, falsches Öl oder falsche Annahmen über Motor und Getriebe.",
+        whyText2: "AutoHub hilft, wichtige Details zu prüfen und Risiken zu verstehen, bevor Teile, Werkzeuge oder Software gekauft werden.",
+        statusTitle: "Projektstatus",
+        statusText: "AutoHub befindet sich in aktiver Entwicklung. Neue Bereiche und Werkzeuge werden Schritt für Schritt hinzugefügt.",
+        statusStatic: "Statische Website",
+        statusMobile: "Mobilfreundlich",
+        statusMulti: "Mehrsprachige Struktur",
+        statusTools: "Praktische Werkzeuge",
+        principlesTitle: "Prinzipien",
+        principleSimple: "Werkzeuge einfach und verständlich halten.",
+        principleUseful: "Auf echte Fahrerprobleme konzentrieren.",
+        principleCareful: "Vor Kompatibilitätsrisiken warnen.",
+        principleLegal: "Illegale Software, Cracks und Aktivatoren vermeiden.",
+        principleImprove: "Das Projekt vorsichtig verbessern, ohne funktionierende Werkzeuge zu beschädigen.",
+        contactTitle: "Kontakt",
+        contactText: "Sie können AutoHub kontaktieren, um defekte Links zu melden, Korrekturen vorzuschlagen oder über Zusammenarbeit zu sprechen.",
+        note: "AutoHub ist keine Werkstatt und ersetzt keine offiziellen Herstellerunterlagen oder professionelle Prüfung.",
+        footer: "© AutoHub. Automobilrechner, Ratgeber und Referenzwerkzeuge."
+      }
+    };
+
+    function setLanguage(lang) {
+      const selected = translations[lang] ? lang : "en";
+
+      document.documentElement.lang = selected;
+
+      document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const key = element.getAttribute("data-i18n");
+        if (translations[selected][key]) {
+          element.textContent = translations[selected][key];
+        }
+      });
+
+      document.querySelectorAll(".lang button").forEach((button) => {
+        button.classList.toggle("active", button.dataset.lang === selected);
+      });
+
+      localStorage.setItem("autohubLang", selected);
+    }
+
+    document.querySelectorAll(".lang button").forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.lang));
+    });
+
+    const savedLang = localStorage.getItem("autohubLang") || "en";
+    setLanguage(savedLang);
+  </script>
+
+</body>
+</html>
