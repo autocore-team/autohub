@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Autohub car calculators and fitment tools for tire sizes, wheel offset, bolt patterns, center bore and fuel costs.">
-  <title>Autohub — car calculators and fitment tools</title>
+  <title>Autohub PCD Database</title>
   <style>
     :root {
       color-scheme: light;
@@ -15,12 +14,8 @@
       --line: #d9e0e8;
       --accent: #0f766e;
       --accent-dark: #115e59;
-      --good: #166534;
-      --good-bg: #e9f8ee;
       --warning: #9a5b00;
       --warning-bg: #fff5db;
-      --danger: #991b1b;
-      --danger-bg: #fee2e2;
     }
     * { box-sizing: border-box; }
     body {
@@ -76,7 +71,6 @@
       text-align: center;
       font-size: 12px;
       white-space: nowrap;
-      cursor: pointer;
     }
     .langbar button.selected {
       background: #0f766e;
@@ -94,97 +88,47 @@
       line-height: 1.2;
       letter-spacing: 0;
     }
-    .portal-intro {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 18px;
-      margin-bottom: 18px;
-    }
-    .portal-intro p {
-      margin: 0;
-      color: var(--muted);
-      max-width: 900px;
-      line-height: 1.5;
-    }
-    .tool-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 14px;
-    }
-    .tool-links a {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 38px;
-      border-radius: 6px;
-      border: 1px solid var(--line);
-      background: #f8fafc;
-      color: var(--text);
-      padding: 0 12px;
-      font-size: 14px;
-      text-decoration: none;
-      white-space: nowrap;
-    }
-    .tool-links a:first-child {
-      background: var(--accent);
-      color: #fff;
-      border-color: var(--accent);
-    }
-    .tool-heading h2 {
-      margin: 0 0 8px;
-      font-size: 24px;
-      line-height: 1.25;
-      letter-spacing: 0;
-    }
-    .popular-searches {
-      margin-top: 18px;
-      padding-top: 14px;
-      border-top: 1px solid var(--line);
-    }
-    .popular-searches h2 {
-      margin: 0 0 10px;
-      font-size: 16px;
-      line-height: 1.3;
-    }
-    .popular-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .popular-links a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 34px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: #fff;
-      color: #334155;
-      text-decoration: none;
-      font-size: 13px;
-      padding: 0 11px;
-      white-space: nowrap;
-    }
-    .disclaimer {
-      margin-top: 16px;
-      padding: 12px 14px;
-      border: 1px solid #f2d493;
-      background: #fff7e6;
-      color: #7a4b00;
-      border-radius: 8px;
-      line-height: 1.45;
-      font-size: 14px;
-    }
     .lead {
       margin: 0 0 20px;
       color: var(--muted);
-      max-width: 820px;
+      max-width: 780px;
       line-height: 1.5;
+    }
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin: 18px 0 10px;
+      flex-wrap: wrap;
+    }
+    input {
+      width: min(100%, 460px);
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 12px;
+      font-size: 15px;
+      background: #fff;
+    }
+    .copy-link {
+      min-height: 42px;
+      border: 0;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 14px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .copy-link:hover {
+      background: var(--accent-dark);
+      color: #fff;
     }
     .layout {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 210px 290px 1fr;
       gap: 16px;
       align-items: start;
     }
@@ -200,100 +144,219 @@
       padding: 14px 14px 10px;
       border-bottom: 1px solid var(--line);
     }
-    .panel-heading {
-      padding: 14px;
-      border-bottom: 1px solid var(--line);
+    .list {
+      display: grid;
+      gap: 2px;
+      padding: 8px;
     }
-    .panel-heading h2 {
+    .quick-filters {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 0 0 10px;
+    }
+    .quick-filters button {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-align: center;
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+    .quick-filters button:hover,
+    .quick-filters button.selected {
+      border-color: #99d5cf;
+      background: #e6f6f4;
+      color: var(--accent-dark);
+    }
+    .list-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      width: 100%;
+    }
+    .count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 24px;
+      min-height: 20px;
+      border-radius: 999px;
+      background: #eef2f7;
+      color: #64748b;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .summary {
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 14px;
+      min-height: 20px;
+    }
+    .static-links {
+      margin: 0 0 16px;
+      padding: 14px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .static-links h2 {
+      margin: 0 0 10px;
       padding: 0;
       border-bottom: 0;
-      margin: 0 0 8px;
+      font-size: 16px;
     }
-    .size-summary {
-      margin: 0;
+    .link-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .link-list a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 0 11px;
+      white-space: nowrap;
+    }
+    .details-title {
+      margin: 0 0 12px;
+      font-size: 18px;
+      line-height: 1.25;
       color: var(--text);
-      font-size: 15px;
-      font-weight: 700;
-      line-height: 1.35;
     }
-    .panel-body {
+    #details {
       padding: 14px;
     }
-    .form-grid {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(90px, 1fr));
-      gap: 12px;
+    #details .empty {
+      padding: 4px;
     }
-    label {
-      display: grid;
-      gap: 6px;
+    .details-title span {
       color: var(--muted);
-      font-size: 13px;
-      line-height: 1.25;
+      font-weight: 400;
     }
-    select {
-      width: 100%;
-      min-height: 40px;
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 0 0 14px;
+    }
+    .spec-card {
       border: 1px solid var(--line);
-      border-radius: 6px;
-      background: #fff;
+      border-radius: 8px;
+      background: #f8fafc;
+      padding: 10px 12px;
+      min-width: 0;
+    }
+    .spec-card span {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+    }
+    .spec-card strong {
+      display: block;
       color: var(--text);
-      padding: 0 10px;
+      font-size: 16px;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+    .guide {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f8fafc;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 14px;
+    }
+    .guide strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
       font-size: 15px;
     }
-    .results {
-      margin-top: 16px;
+    button {
+      min-height: 34px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text);
+      text-align: left;
+      font-size: 14px;
+      padding: 7px 9px;
+      cursor: pointer;
     }
-    .status {
+    button:hover,
+    button.selected {
+      background: #e6f6f4;
+      color: var(--accent-dark);
+    }
+    .list button {
+      border-radius: 5px;
+      color: #334155;
+    }
+    .list button:hover {
+      background: #f1f5f9;
+      color: var(--text);
+    }
+    .list button.selected {
+      background: #e6f6f4;
+      color: var(--accent-dark);
+      box-shadow: inset 3px 0 0 var(--accent);
+    }
+    .list button.selected .count {
+      background: #ccfbf1;
+      color: var(--accent-dark);
+    }
+    .empty {
+      padding: 18px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .notice {
       margin: 0 0 14px;
       padding: 12px 14px;
+      background: var(--warning-bg);
+      border: 1px solid #f2d493;
+      color: var(--warning);
       border-radius: 8px;
       line-height: 1.45;
-      border: 1px solid transparent;
     }
-    .status.good {
-      background: var(--good-bg);
-      color: var(--good);
-      border-color: #b7e4c7;
-    }
-    .status.warn {
-      background: var(--warning-bg);
-      color: var(--warning);
-      border-color: #f2d493;
-    }
-    .status.danger {
-      background: var(--danger-bg);
-      color: var(--danger);
-      border-color: #fecaca;
-    }
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-    .metric {
-      background: #f8fafc;
-      border: 1px solid var(--line);
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      background: #fff7e6;
+      color: #7a4b00;
       border-radius: 8px;
-      padding: 12px;
-      min-height: 78px;
-    }
-    .metric span {
-      display: block;
-      color: var(--muted);
-      font-size: 13px;
-      margin-bottom: 8px;
-    }
-    .metric strong {
-      display: block;
-      font-size: 20px;
-      line-height: 1.2;
+      line-height: 1.45;
+      font-size: 14px;
     }
     table {
       width: 100%;
       border-collapse: collapse;
       font-size: 14px;
+    }
+    .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .table-scroll table {
+      min-width: 760px;
     }
     th,
     td {
@@ -307,300 +370,41 @@
       font-weight: 700;
       background: #f8fafc;
     }
-    .actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 14px;
-    }
-    .action {
+    .tag {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      min-height: 40px;
-      border: 0;
-      border-radius: 6px;
-      background: var(--accent);
-      color: #fff;
-      padding: 0 14px;
-      font-size: 14px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .action.secondary {
-      background: #e2e8f0;
-      color: #1e293b;
-    }
-    .marking {
-      margin-top: 16px;
-    }
-    .marking-intro {
-      display: grid;
-      grid-template-columns: minmax(220px, 320px) 1fr;
-      gap: 16px;
-      align-items: start;
-    }
-    .marking-example {
-      background: #f8fafc;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 14px;
-    }
-    .marking-example span {
-      display: block;
-      color: var(--muted);
-      font-size: 13px;
-      margin-bottom: 8px;
-    }
-    .marking-example strong {
-      display: block;
-      font-size: 22px;
-      line-height: 1.25;
-    }
-    .marking-lead {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-    .table-wrap {
-      width: 100%;
-      margin-top: 14px;
-      overflow-x: auto;
-    }
-    .index-reference {
-      margin-top: 18px;
-      padding-top: 14px;
-      border-top: 1px solid var(--line);
-    }
-    .index-reference h3 {
-      margin: 0 0 6px;
-      font-size: 16px;
-      line-height: 1.3;
-    }
-    .index-reference p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.5;
-      font-size: 14px;
-    }
-    .index-reference-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-      margin-top: 12px;
-    }
-    .reference-table-title {
-      margin: 0 0 8px;
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 1.35;
-    }
-    .index-reference .table-wrap {
-      margin-top: 8px;
-    }
-    .index-reference table {
-      min-width: 320px;
-    }
-    .info {
-      margin-top: 16px;
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-    }
-    .info h3 {
-      margin: 0 0 8px;
-      font-size: 16px;
-    }
-    .info p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.5;
-      font-size: 14px;
-    }
-    .visual-heading {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      padding: 14px;
-      border-bottom: 1px solid var(--line);
-    }
-    .visual-heading h2 {
-      margin: 0 0 6px;
-      padding: 0;
-      border: 0;
-      font-size: 16px;
-    }
-    .visual-heading p {
-      max-width: 760px;
-      margin: 0;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.5;
-    }
-    .visual-verdict {
-      display: inline-flex;
-      align-items: center;
-      min-height: 30px;
-      max-width: 100%;
-      border: 1px solid #86efac;
+      min-height: 24px;
       border-radius: 999px;
-      background: #f0fdf4;
-      color: #166534;
-      padding: 4px 11px;
-      font-size: 12px;
-      font-weight: 700;
-      text-align: center;
-    }
-    .visual-verdict.manual {
-      border-color: #93c5fd;
-      background: #eff6ff;
-      color: #1d4ed8;
-    }
-    .visual-verdict.caution {
-      border-color: #f2d493;
-      background: var(--warning-bg);
-      color: var(--warning);
-    }
-    .visual-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0;
-    }
-    .visual-figure {
-      min-width: 0;
-      margin: 0;
-      padding: 14px;
-    }
-    .visual-figure + .visual-figure {
-      border-left: 1px solid var(--line);
-    }
-    .visual-figure figcaption {
-      margin-bottom: 8px;
-      font-size: 14px;
-      font-weight: 700;
-    }
-    .visual-svg {
-      display: block;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 12 / 5;
-      min-height: 220px;
-      background: var(--soft);
-      border: 1px solid var(--line);
-      border-radius: 6px;
-    }
-    .visual-svg text {
-      font-family: Arial, sans-serif;
-      letter-spacing: 0;
-    }
-    .visual-position-metrics {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-      margin-top: 10px;
-    }
-    .visual-position-metrics div {
-      min-width: 0;
-      padding-top: 9px;
-      border-top: 1px solid var(--line);
-    }
-    .visual-position-metrics span,
-    .visual-position-metrics strong {
-      display: block;
-      overflow-wrap: anywhere;
-    }
-    .visual-position-metrics span {
-      margin-bottom: 4px;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-    }
-    .visual-position-metrics strong {
-      font-size: 14px;
-      line-height: 1.4;
-    }
-    .visual-legend {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      flex-wrap: wrap;
-      padding: 0 14px 14px;
-      color: var(--muted);
-      font-size: 12px;
-    }
-    .visual-legend span {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .visual-swatch {
-      width: 18px;
-      height: 4px;
-      border-radius: 2px;
-      background: #64748b;
-    }
-    .visual-swatch.new {
-      background: var(--accent);
-    }
-    .visual-note {
-      margin: 0 14px 14px;
-      padding: 10px 12px;
-      border-left: 4px solid var(--accent);
-      background: var(--soft);
+      padding: 2px 9px;
+      background: #edf2f7;
       color: #334155;
-      font-size: 13px;
-      line-height: 1.5;
+      font-size: 12px;
+      white-space: nowrap;
     }
-    @media (max-width: 980px) {
-      .layout,
-      .info,
-      .visual-grid {
+    @media (max-width: 900px) {
+      .layout {
         grid-template-columns: 1fr;
       }
-      .form-grid {
-        grid-template-columns: repeat(2, minmax(120px, 1fr));
-      }
-      .metrics {
-        grid-template-columns: 1fr;
-      }
-      .marking-intro {
-        grid-template-columns: 1fr;
-      }
-      .index-reference-grid {
-        grid-template-columns: 1fr;
-      }
-      .visual-figure + .visual-figure {
-        border-left: 0;
-        border-top: 1px solid var(--line);
+      .spec-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
       .langbar {
         margin-left: 0;
       }
     }
     @media (max-width: 520px) {
-      .form-grid {
+      .spec-grid {
         grid-template-columns: 1fr;
-      }
-      h1 {
-        font-size: 26px;
-      }
-      .visual-position-metrics {
-        grid-template-columns: 1fr;
-      }
-      .visual-svg {
-        min-height: 190px;
       }
     }
   </style>
 </head>
 <body>
   <header class="topbar">
-    <nav class="nav" aria-label="Autohub common menu">
+    <nav class="nav" id="mainNav" aria-label="Autohub common menu">
       <div class="brand">Autohub</div>
-      <a href="index.html" class="active" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" class="active" data-i18n="pcdDatabase">PCD Database</a>
       <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
       <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
       <a href="engines.html" data-i18n="engines">Engines</a>
@@ -620,377 +424,49 @@
   </header>
 
   <main>
-    <section class="portal-intro" aria-label="Autohub overview">
-      <h1 data-i18n="homeTitle">Autohub — car calculators and fitment tools</h1>
-      <p data-i18n="homeLead">Compare tire sizes, wheel offset, bolt patterns, center bore and fuel costs. Useful for choosing wheels, tires and checking compatibility before buying.</p>
-      <div class="tool-links">
-        <a href="pcd.html" data-i18n="homePcd">PCD Database</a>
-        <a href="fuel.html" data-i18n="homeFuel">Fuel Cost Calculator</a>
-        <a href="guides.html" data-i18n="homeGuides">Guides</a>
-      </div>
-      <div class="popular-searches">
-        <h2 data-i18n="popularWheelSearches">Popular wheel fitment searches</h2>
-        <div class="popular-links">
-          <a href="pcd/volvo/s70.html" data-i18n="popularVolvoS70">Volvo S70 tire size</a>
-          <a href="pcd/opel/astra.html" data-i18n="popularOpelAstra">Opel Astra PCD</a>
-          <a href="pcd/bmw/e46.html" data-i18n="popularBmwE46">BMW E46 wheel offset</a>
-          <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf">VW Golf center bore</a>
-          <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108">5x108 bolt pattern cars</a>
-          <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110">5x110 bolt pattern cars</a>
-        </div>
+    <h1 data-i18n="title">PCD Database</h1>
+    <p class="lead" data-i18n="lead">Bolt pattern, center bore, thread size and approximate offset by make and model. The database includes vehicles from 1995 and newer.</p>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
+      <button type="button" class="copy-link" id="copyLink" data-i18n="copyLink">Copy link</button>
+    </div>
+    <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
+    <div class="summary" id="resultSummary"></div>
+
+    <section class="static-links" aria-label="Popular wheel fitment pages">
+      <h2 data-i18n="popularSearches">Popular wheel fitment searches</h2>
+      <div class="link-list">
+        <a href="pcd/volvo/s70.html" data-i18n="popularVolvoS70">Volvo S70 tire size</a>
+        <a href="pcd/opel/astra.html" data-i18n="popularOpelAstra">Opel Astra PCD</a>
+        <a href="pcd/bmw/e46.html" data-i18n="popularBmwE46">BMW E46 wheel offset</a>
+        <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf">VW Golf center bore</a>
+        <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108">5x108 bolt pattern cars</a>
+        <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110">5x110 bolt pattern cars</a>
       </div>
     </section>
 
-    <section class="tool-heading" aria-label="Tire and rim calculator">
-      <h2 data-i18n="title">Tire & Rim Calculator</h2>
-      <p class="lead" data-i18n="lead">Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.</p>
-    </section>
-
-    <section class="layout" aria-label="Tire calculator inputs">
+    <section class="layout">
       <div class="panel">
-        <div class="panel-heading">
-          <h2 data-i18n="originalSize">Original Size</h2>
-          <p class="size-summary" id="summary1">195 / 65 R15<br>6J ET45</p>
-        </div>
-        <div class="panel-body">
-          <div class="form-grid">
-            <label>
-              <span data-i18n="width">Width (mm)</span>
-              <select id="w1"></select>
-            </label>
-            <label>
-              <span data-i18n="profile">Profile (%)</span>
-              <select id="p1"></select>
-            </label>
-            <label>
-              <span data-i18n="rim">Rim (inch)</span>
-              <select id="d1"></select>
-            </label>
-            <label>
-              <span data-i18n="rimWidth">Rim Width (J)</span>
-              <select id="j1"></select>
-            </label>
-            <label>
-              <span data-i18n="offset">Offset (ET)</span>
-              <select id="et1"></select>
-            </label>
-          </div>
-        </div>
+        <h2 data-i18n="makes">Makes</h2>
+        <div class="list" id="brands"></div>
       </div>
 
       <div class="panel">
-        <div class="panel-heading">
-          <h2 data-i18n="newSize">New Size</h2>
-          <p class="size-summary" id="summary2">205 / 55 R16<br>7J ET45</p>
-        </div>
-        <div class="panel-body">
-          <div class="form-grid">
-            <label>
-              <span data-i18n="width">Width (mm)</span>
-              <select id="w2"></select>
-            </label>
-            <label>
-              <span data-i18n="profile">Profile (%)</span>
-              <select id="p2"></select>
-            </label>
-            <label>
-              <span data-i18n="rim">Rim (inch)</span>
-              <select id="d2"></select>
-            </label>
-            <label>
-              <span data-i18n="rimWidth">Rim Width (J)</span>
-              <select id="j2"></select>
-            </label>
-            <label>
-              <span data-i18n="offset">Offset (ET)</span>
-              <select id="et2"></select>
-            </label>
-          </div>
-        </div>
+        <h2 data-i18n="models">Models</h2>
+        <div class="list" id="models"></div>
       </div>
-    </section>
 
-    <section class="panel visual-comparison" aria-labelledby="visualTitle">
-      <div class="visual-heading">
-        <div>
-          <h2 id="visualTitle" data-i18n="visualTitle">Visual tire and wheel comparison</h2>
-          <p data-i18n="visualLead">Compare overall diameter and wheel position. The drawing is scaled to the selected values.</p>
-        </div>
-        <span class="visual-verdict" id="visualVerdict">Normal</span>
+      <div class="panel">
+        <h2 data-i18n="sizes">Sizes</h2>
+        <div id="details"></div>
       </div>
-      <div class="visual-grid">
-        <figure class="visual-figure">
-          <figcaption id="sideViewTitle" data-i18n="sideViewTitle">Side view: tire and rim diameter</figcaption>
-          <svg class="visual-svg" id="sideViewSvg" viewBox="0 0 720 300" role="img" aria-labelledby="sideViewTitle"></svg>
-        </figure>
-        <figure class="visual-figure">
-          <figcaption id="positionViewTitle" data-i18n="positionViewTitle">Wheel position: rim width and offset</figcaption>
-          <svg class="visual-svg" id="positionViewSvg" viewBox="0 0 720 300" role="img" aria-labelledby="positionViewTitle"></svg>
-          <div class="visual-position-metrics">
-            <div>
-              <span data-i18n="innerEdgeChange">Inner edge change</span>
-              <strong id="visualInnerMetric">12.7 mm closer to suspension</strong>
-            </div>
-            <div>
-              <span data-i18n="outerEdgeChange">Outer edge change</span>
-              <strong id="visualOuterMetric">12.7 mm further outward</strong>
-            </div>
-          </div>
-        </figure>
-      </div>
-      <div class="visual-legend" aria-label="Comparison legend">
-        <span><i class="visual-swatch"></i><span data-i18n="original">Original</span></span>
-        <span><i class="visual-swatch new"></i><span data-i18n="new">New</span></span>
-      </div>
-      <p class="visual-note" id="visualVerdictText" data-i18n="verdictNormalText">Diameter and wheel position changes are small reference values.</p>
-      <p class="visual-note" data-i18n="visualDisclaimer">The diagram is a comparison, not a fitment guarantee. Brake, suspension and fender clearance must be checked on the vehicle.</p>
-    </section>
-
-    <section class="panel results" aria-label="Tire calculator results">
-      <h2 data-i18n="results">Results</h2>
-      <div class="panel-body">
-        <div id="status" class="status good">Diameter change is within the 3% reference limit.</div>
-
-        <div class="metrics">
-          <div class="metric">
-            <span data-i18n="clearanceChange">Clearance change</span>
-            <strong id="clearanceMetric">-1.3 mm</strong>
-          </div>
-          <div class="metric">
-            <span data-i18n="speedometerError">Speedometer error</span>
-            <strong id="speedMetric">-0.4 %</strong>
-          </div>
-          <div class="metric">
-            <span data-i18n="actualSpeed">Actual at 100</span>
-            <strong id="actualSpeedMetric">99.6 km/h</strong>
-          </div>
-        </div>
-
-        <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th data-i18n="parameter">Parameter</th>
-              <th data-i18n="original">Original</th>
-              <th data-i18n="new">New</th>
-              <th data-i18n="difference">Difference</th>
-            </tr>
-          </thead>
-          <tbody id="resultRows">
-            <tr>
-              <td>Total Diameter</td>
-              <td>634.5 mm</td>
-              <td>631.9 mm</td>
-              <td>-2.6 mm</td>
-            </tr>
-            <tr>
-              <td>Section Width</td>
-              <td>195 mm</td>
-              <td>205 mm</td>
-              <td>+10.0 mm</td>
-            </tr>
-            <tr>
-              <td>Sidewall Height</td>
-              <td>126.8 mm</td>
-              <td>112.8 mm</td>
-              <td>-14.0 mm</td>
-            </tr>
-            <tr>
-              <td>Circumference</td>
-              <td>1993 mm</td>
-              <td>1985 mm</td>
-              <td>-8 mm</td>
-            </tr>
-            <tr>
-              <td>Rim Width</td>
-              <td>6.0"</td>
-              <td>7.0"</td>
-              <td>+25.4 mm</td>
-            </tr>
-            <tr>
-              <td>Rim Offset</td>
-              <td>ET 45</td>
-              <td>ET 45</td>
-              <td>0.0 mm</td>
-            </tr>
-            <tr>
-              <td>Strut Clearance</td>
-              <td>-</td>
-              <td>12.7 mm closer to suspension</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Fender Poke</td>
-              <td>-</td>
-              <td>12.7 mm pokes out further</td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-
-        <div class="actions">
-          <button type="button" class="action" id="shareButton" data-i18n="share">Share Calculation</button>
-          <a class="action secondary" href="pcd.html" data-i18n="openPcd">Open PCD Database</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel marking" aria-label="Tire sidewall marking explanation">
-      <h2 data-i18n="markingTitle">How to read tire markings</h2>
-      <div class="panel-body">
-        <div class="marking-intro">
-          <div class="marking-example">
-            <span data-i18n="markingExampleLabel">Example on tire sidewall</span>
-            <strong>205/55 R16 91V XL DOT 2423</strong>
-          </div>
-          <p class="marking-lead" data-i18n="markingLead">The main size is only part of the tire label. Load index, speed rating, reinforced construction and production date also matter when choosing tires.</p>
-        </div>
-
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th data-i18n="markingColumn">Marking</th>
-                <th data-i18n="meaningColumn">Meaning</th>
-                <th data-i18n="exampleColumn">Example</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>205</td>
-                <td data-i18n="markingWidth">Tire section width in millimeters.</td>
-                <td>205 mm</td>
-              </tr>
-              <tr>
-                <td>55</td>
-                <td data-i18n="markingProfile">Sidewall height as a percentage of the width.</td>
-                <td data-i18n="markingProfileExample">55% of 205 mm</td>
-              </tr>
-              <tr>
-                <td>R</td>
-                <td data-i18n="markingConstruction">Radial tire construction.</td>
-                <td data-i18n="markingConstructionExample">R = radial</td>
-              </tr>
-              <tr>
-                <td>16</td>
-                <td data-i18n="markingRim">Rim diameter in inches.</td>
-                <td data-i18n="markingRimExample">16 inch wheel</td>
-              </tr>
-              <tr>
-                <td>91</td>
-                <td data-i18n="markingLoad">Load index. It must meet or exceed the vehicle requirement.</td>
-                <td data-i18n="markingLoadExample">91 = up to 615 kg per tire</td>
-              </tr>
-              <tr>
-                <td>V</td>
-                <td data-i18n="markingSpeed">Speed rating. It must be suitable for the car and local rules.</td>
-                <td data-i18n="markingSpeedExample">V = up to 240 km/h</td>
-              </tr>
-              <tr>
-                <td>XL</td>
-                <td data-i18n="markingXl">Reinforced tire with higher load capacity at the correct pressure.</td>
-                <td data-i18n="markingXlExample">XL / Extra Load</td>
-              </tr>
-              <tr>
-                <td>DOT 2423</td>
-                <td data-i18n="markingDot">Production date: week and year. Here it means week 24 of 2023.</td>
-                <td data-i18n="markingDotExample">24 / 2023</td>
-              </tr>
-              <tr>
-                <td>M+S / 3PMSF</td>
-                <td data-i18n="markingWinter">Season and winter performance markings. 3PMSF is the snowflake mountain symbol.</td>
-                <td data-i18n="markingWinterExample">All-season or winter tire</td>
-              </tr>
-              <tr>
-                <td>Outside / Rotation</td>
-                <td data-i18n="markingDirection">Mounting direction or outside sidewall marking for asymmetric or directional tires.</td>
-                <td data-i18n="markingDirectionExample">Install as marked</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="index-reference">
-          <h3 data-i18n="loadSpeedReferenceTitle">Load and speed index quick reference</h3>
-          <p data-i18n="loadSpeedReferenceLead">Common passenger-car examples. Use tires with load and speed ratings equal to or higher than the vehicle manufacturer requires.</p>
-          <div class="index-reference-grid">
-            <div>
-              <div class="reference-table-title" data-i18n="loadIndexTitle">Load index</div>
-              <div class="table-wrap">
-                <table>
-                  <thead>
-                    <tr>
-                      <th data-i18n="indexColumn">Index</th>
-                      <th data-i18n="loadPerTireColumn">Load per tire</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr><td>82</td><td>475 kg</td></tr>
-                    <tr><td>84</td><td>500 kg</td></tr>
-                    <tr><td>86</td><td>530 kg</td></tr>
-                    <tr><td>88</td><td>560 kg</td></tr>
-                    <tr><td>91</td><td>615 kg</td></tr>
-                    <tr><td>94</td><td>670 kg</td></tr>
-                    <tr><td>95</td><td>690 kg</td></tr>
-                    <tr><td>98</td><td>750 kg</td></tr>
-                    <tr><td>100</td><td>800 kg</td></tr>
-                    <tr><td>102</td><td>850 kg</td></tr>
-                    <tr><td>104</td><td>900 kg</td></tr>
-                    <tr><td>106</td><td>950 kg</td></tr>
-                    <tr><td>109</td><td>1030 kg</td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <div>
-              <div class="reference-table-title" data-i18n="speedIndexTitle">Speed rating</div>
-              <div class="table-wrap">
-                <table>
-                  <thead>
-                    <tr>
-                      <th data-i18n="speedCodeColumn">Code</th>
-                      <th data-i18n="maxSpeedColumn">Max speed</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr><td>Q</td><td>160 km/h</td></tr>
-                    <tr><td>R</td><td>170 km/h</td></tr>
-                    <tr><td>S</td><td>180 km/h</td></tr>
-                    <tr><td>T</td><td>190 km/h</td></tr>
-                    <tr><td>H</td><td>210 km/h</td></tr>
-                    <tr><td>V</td><td>240 km/h</td></tr>
-                    <tr><td>W</td><td>270 km/h</td></tr>
-                    <tr><td>Y</td><td>300 km/h</td></tr>
-                    <tr><td>(Y)</td><td>&gt; 300 km/h</td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <p class="visual-note" data-i18n="loadSpeedNote">This is a quick reference only. Always follow the load and speed rating listed in the vehicle manual, door sticker or official tire approval.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="info" aria-label="Calculator notes">
-      <article>
-        <h3 data-i18n="noteDiameterTitle">Diameter tolerance</h3>
-        <p data-i18n="noteDiameter">A tire diameter change within about 3% is commonly treated as a practical limit, but always verify fitment for your vehicle.</p>
-      </article>
-      <article>
-        <h3 data-i18n="noteOffsetTitle">Offset and clearance</h3>
-        <p data-i18n="noteOffset">Rim width and ET affect how close the wheel sits to the suspension and how far it moves toward the fender.</p>
-      </article>
-      <article>
-        <h3 data-i18n="noteSpeedTitle">Speedometer</h3>
-        <p data-i18n="noteSpeed">A smaller tire makes the actual road speed lower than the displayed speed. A larger tire does the opposite.</p>
-      </article>
     </section>
 
     <div class="disclaimer" data-i18n="fitmentDisclaimer">Always verify wheel fitment with your vehicle manual or a professional before buying. Brake clearance, suspension modifications and local regulations may affect compatibility.</div>
   </main>
 
+  <script src="pcd-data.js"></script>
   <script>
     const translations = {
       en: {
@@ -1005,109 +481,44 @@
         navPrivacy: 'Privacy',
         navAffiliate: 'Affiliate Disclosure',
         navContact: 'Contact',
-        homeTitle: 'Autohub — car calculators and fitment tools',
-        homeLead: 'Compare tire sizes, wheel offset, bolt patterns, center bore and fuel costs. Useful for choosing wheels, tires and checking compatibility before buying.',
-        homePcd: 'PCD Database',
-        homeFuel: 'Fuel Cost Calculator',
-        homeGuides: 'Guides',
-        popularWheelSearches: 'Popular wheel fitment searches',
+        title: 'PCD Database',
+        lead: 'Bolt pattern, center bore, thread size and approximate offset by make and model. The database includes vehicles from 1995 and newer.',
+        makes: 'Makes',
+        models: 'Models',
+        sizes: 'Sizes',
+        search: 'Search: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Copy link',
+        copied: 'Copied',
+        popularPcd: 'Popular PCD',
+        summaryAll: 'Showing all makes and models.',
+        summaryFiltered: 'Found {makes} makes, {models} models and {records} records for "{query}".',
+        modelTitle: '{make} {model} — PCD & center bore',
+        chooseMake: 'Choose a make.',
+        noMakes: 'No makes found. Try another search.',
+        noModels: 'No models found for this filter.',
+        noRecords: 'No records match this filter.',
+        chooseModel: 'Choose a model to see PCD and center bore.',
+        notice: 'Starter data is under review. Always verify wheel fitment by vehicle year, market, trim and official documentation before buying wheels.',
+        generation: 'Generation',
+        years: 'Years',
+        market: 'Market',
+        centerBore: 'Center bore',
+        thread: 'Thread',
+        fastener: 'Fastener',
+        status: 'Status',
+        guideTitle: 'How to use this data',
+        guideText: 'Match the year, market and generation first. Brake package, trim and performance versions can change wheel fitment, so verify with the vehicle manual, VIN data or a trusted wheel specialist before buying.',
+        fastenerBolts: 'bolts',
+        fastenerNuts: 'nuts',
+        statusNeedsReview: 'under review',
+        statusVerified: 'verified',
+        popularSearches: 'Popular wheel fitment searches',
         popularVolvoS70: 'Volvo S70 tire size',
         popularOpelAstra: 'Opel Astra PCD',
         popularBmwE46: 'BMW E46 wheel offset',
         popularVwGolf: 'VW Golf center bore',
         popular5x108: '5x108 bolt pattern cars',
         popular5x110: '5x110 bolt pattern cars',
-        title: 'Tire & Rim Calculator',
-        lead: 'Compare original and new tire sizes, rim width and offset. The result shows diameter, clearance, speedometer error and wheel position changes.',
-        visualTitle: 'Visual tire and wheel comparison',
-        visualLead: 'Compare overall diameter and wheel position. The drawing is scaled to the selected values.',
-        sideViewTitle: 'Side view: tire and rim diameter',
-        positionViewTitle: 'Wheel position: rim width and offset',
-        innerEdgeChange: 'Inner edge change',
-        outerEdgeChange: 'Outer edge change',
-        suspensionSide: 'Suspension',
-        mountingFace: 'Mounting face',
-        fenderSide: 'Fender',
-        diameterDifference: 'Diameter change',
-        verdictNormal: 'Normal',
-        verdictManual: 'Check manually',
-        verdictCaution: 'Caution',
-        verdictNormalText: 'Diameter and wheel position changes are small reference values.',
-        verdictManualText: 'Diameter is within the reference limit, but rim width or offset requires a physical clearance check.',
-        verdictCautionText: 'Diameter or wheel position change is large. Verify all clearances before buying.',
-        visualDisclaimer: 'The diagram is a comparison, not a fitment guarantee. Brake, suspension and fender clearance must be checked on the vehicle.',
-        originalSize: 'Original Size',
-        newSize: 'New Size',
-        width: 'Width (mm)',
-        profile: 'Profile (%)',
-        rim: 'Rim (inch)',
-        rimWidth: 'Rim Width (J)',
-        offset: 'Offset (ET)',
-        results: 'Results',
-        clearanceChange: 'Clearance change',
-        speedometerError: 'Speedometer error',
-        actualSpeed: 'Actual at 100',
-        parameter: 'Parameter',
-        original: 'Original',
-        new: 'New',
-        difference: 'Difference',
-        share: 'Share Calculation',
-        openPcd: 'Open PCD Database',
-        safe: 'Diameter change is within the 3% reference limit.',
-        warning: 'Warning! Diameter change exceeds the 3% reference limit.',
-        closeSuspension: 'closer to suspension',
-        awaySuspension: 'farther from suspension',
-        pokeOut: 'pokes out further',
-        tuckedIn: 'sits further inside',
-        totalDiameter: 'Total Diameter',
-        sectionWidth: 'Section Width',
-        sidewallHeight: 'Sidewall Height',
-        circumference: 'Circumference',
-        rimWidthTable: 'Rim Width',
-        rimOffset: 'Rim Offset',
-        strutClearance: 'Strut Clearance',
-        fenderPoke: 'Fender Poke',
-        copied: 'Link copied',
-        markingTitle: 'How to read tire markings',
-        markingExampleLabel: 'Example on tire sidewall',
-        markingLead: 'The main size is only part of the tire label. Load index, speed rating, reinforced construction and production date also matter when choosing tires.',
-        markingColumn: 'Marking',
-        meaningColumn: 'Meaning',
-        exampleColumn: 'Example',
-        markingWidth: 'Tire section width in millimeters.',
-        markingProfile: 'Sidewall height as a percentage of the width.',
-        markingProfileExample: '55% of 205 mm',
-        markingConstruction: 'Radial tire construction.',
-        markingConstructionExample: 'R = radial',
-        markingRim: 'Rim diameter in inches.',
-        markingRimExample: '16 inch wheel',
-        markingLoad: 'Load index. It must meet or exceed the vehicle requirement.',
-        markingLoadExample: '91 = up to 615 kg per tire',
-        markingSpeed: 'Speed rating. It must be suitable for the car and local rules.',
-        markingSpeedExample: 'V = up to 240 km/h',
-        markingXl: 'Reinforced tire with higher load capacity at the correct pressure.',
-        markingXlExample: 'XL / Extra Load',
-        markingDot: 'Production date: week and year. Here it means week 24 of 2023.',
-        markingDotExample: '24 / 2023',
-        markingWinter: 'Season and winter performance markings. 3PMSF is the snowflake mountain symbol.',
-        markingWinterExample: 'All-season or winter tire',
-        markingDirection: 'Mounting direction or outside sidewall marking for asymmetric or directional tires.',
-        markingDirectionExample: 'Install as marked',
-        loadSpeedReferenceTitle: 'Load and speed index quick reference',
-        loadSpeedReferenceLead: 'Common passenger-car examples. Use tires with load and speed ratings equal to or higher than the vehicle manufacturer requires.',
-        loadIndexTitle: 'Load index',
-        speedIndexTitle: 'Speed rating',
-        indexColumn: 'Index',
-        loadPerTireColumn: 'Load per tire',
-        speedCodeColumn: 'Code',
-        maxSpeedColumn: 'Max speed',
-        loadSpeedNote: 'This is a quick reference only. Always follow the load and speed rating listed in the vehicle manual, door sticker or official tire approval.',
-        noteDiameterTitle: 'Diameter tolerance',
-        noteDiameter: 'A tire diameter change within about 3% is commonly treated as a practical limit, but always verify fitment for your vehicle.',
-        noteOffsetTitle: 'Offset and clearance',
-        noteOffset: 'Rim width and ET affect how close the wheel sits to the suspension and how far it moves toward the fender.',
-        noteSpeedTitle: 'Speedometer',
-        noteSpeed: 'A smaller tire makes the actual road speed lower than the displayed speed. A larger tire does the opposite.',
         fitmentDisclaimer: 'Always verify wheel fitment with your vehicle manual or a professional before buying. Brake clearance, suspension modifications and local regulations may affect compatibility.'
       },
       es: {
@@ -1122,109 +533,44 @@
         navPrivacy: 'Privacidad',
         navAffiliate: 'Divulgación de afiliados',
         navContact: 'Contacto',
-        homeTitle: 'Autohub — calculadoras y herramientas de compatibilidad',
-        homeLead: 'Compara medidas de neumáticos, ET, patrones de tornillos, buje central y costes de combustible. Útil para elegir llantas, neumáticos y comprobar compatibilidad antes de comprar.',
-        homePcd: 'Base PCD',
-        homeFuel: 'Calculadora de coste de combustible',
-        homeGuides: 'Guías',
-        popularWheelSearches: 'Búsquedas populares de compatibilidad',
+        title: 'Base PCD',
+        lead: 'Patrón de tornillos, buje central, rosca y ET aproximado por marca y modelo. La base incluye vehículos desde 1995.',
+        makes: 'Marcas',
+        models: 'Modelos',
+        sizes: 'Medidas',
+        search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Copiar enlace',
+        copied: 'Copiado',
+        popularPcd: 'PCD popular',
+        summaryAll: 'Mostrando todas las marcas y modelos.',
+        summaryFiltered: 'Encontrado: {makes} marcas, {models} modelos y {records} registros para "{query}".',
+        modelTitle: '{make} {model} — PCD y buje central',
+        chooseMake: 'Elige una marca.',
+        noMakes: 'No se encontraron marcas. Prueba otra búsqueda.',
+        noModels: 'No se encontraron modelos para este filtro.',
+        noRecords: 'No hay registros para este filtro.',
+        chooseModel: 'Elige un modelo para ver PCD y buje central.',
+        notice: 'Los datos iniciales están en revisión. Verifica siempre la compatibilidad por año, mercado, versión y documentación oficial antes de comprar llantas.',
+        generation: 'Generación',
+        years: 'Años',
+        market: 'Mercado',
+        centerBore: 'Buje central',
+        thread: 'Rosca',
+        fastener: 'Fijación',
+        status: 'Estado',
+        guideTitle: 'Cómo usar estos datos',
+        guideText: 'Primero compara el año, mercado y generación. El paquete de frenos, la versión y las variantes deportivas pueden cambiar la compatibilidad, así que verifica con el manual, VIN o un especialista antes de comprar.',
+        fastenerBolts: 'tornillos',
+        fastenerNuts: 'tuercas',
+        statusNeedsReview: 'en revisión',
+        statusVerified: 'verificado',
+        popularSearches: 'Búsquedas populares de compatibilidad',
         popularVolvoS70: 'Medida de neumáticos Volvo S70',
         popularOpelAstra: 'PCD Opel Astra',
         popularBmwE46: 'ET de ruedas BMW E46',
         popularVwGolf: 'Buje central VW Golf',
         popular5x108: 'Coches con patrón 5x108',
         popular5x110: 'Coches con patrón 5x110',
-        title: 'Calculadora de neumáticos y llantas',
-        lead: 'Compara la medida original y la nueva, el ancho de llanta y el ET. El resultado muestra diámetro, altura, error del velocímetro y posición de la rueda.',
-        visualTitle: 'Comparación visual de neumáticos y llantas',
-        visualLead: 'Compara el diámetro total y la posición de la rueda. El dibujo se ajusta a los valores seleccionados.',
-        sideViewTitle: 'Vista lateral: diámetro del neumático y la llanta',
-        positionViewTitle: 'Posición de la rueda: ancho y ET',
-        innerEdgeChange: 'Cambio del borde interior',
-        outerEdgeChange: 'Cambio del borde exterior',
-        suspensionSide: 'Suspensión',
-        mountingFace: 'Plano del buje',
-        fenderSide: 'Aleta',
-        diameterDifference: 'Cambio de diámetro',
-        verdictNormal: 'Normal',
-        verdictManual: 'Comprobar manualmente',
-        verdictCaution: 'Precaución',
-        verdictNormalText: 'Los cambios de diámetro y posición son pequeños valores de referencia.',
-        verdictManualText: 'El diámetro está dentro del límite, pero el ancho o ET requiere comprobar físicamente el espacio.',
-        verdictCautionText: 'El cambio de diámetro o posición es grande. Comprueba todos los espacios antes de comprar.',
-        visualDisclaimer: 'El dibujo es una comparación, no una garantía. Debes comprobar frenos, suspensión y espacio de la aleta en el vehículo.',
-        originalSize: 'Medida original',
-        newSize: 'Nueva medida',
-        width: 'Ancho (mm)',
-        profile: 'Perfil (%)',
-        rim: 'Llanta (pulg.)',
-        rimWidth: 'Ancho de llanta (J)',
-        offset: 'Desplazamiento (ET)',
-        results: 'Resultados',
-        clearanceChange: 'Cambio de altura',
-        speedometerError: 'Error del velocímetro',
-        actualSpeed: 'Real a 100',
-        parameter: 'Parámetro',
-        original: 'Original',
-        new: 'Nuevo',
-        difference: 'Diferencia',
-        share: 'Compartir cálculo',
-        openPcd: 'Abrir base PCD',
-        safe: 'El cambio de diámetro está dentro del límite de referencia del 3%.',
-        warning: 'Atención: el cambio de diámetro supera el límite de referencia del 3%.',
-        closeSuspension: 'más cerca de la suspensión',
-        awaySuspension: 'más lejos de la suspensión',
-        pokeOut: 'sale más hacia fuera',
-        tuckedIn: 'queda más hacia dentro',
-        totalDiameter: 'Diámetro total',
-        sectionWidth: 'Ancho de sección',
-        sidewallHeight: 'Altura del flanco',
-        circumference: 'Circunferencia',
-        rimWidthTable: 'Ancho de llanta',
-        rimOffset: 'ET de llanta',
-        strutClearance: 'Distancia a suspensión',
-        fenderPoke: 'Salida hacia aleta',
-        copied: 'Enlace copiado',
-        markingTitle: 'Cómo leer las marcas del neumático',
-        markingExampleLabel: 'Ejemplo en el flanco',
-        markingLead: 'La medida principal es solo una parte de la etiqueta del neumático. El índice de carga, el código de velocidad, la construcción reforzada y la fecha de fabricación también importan al elegir neumáticos.',
-        markingColumn: 'Marca',
-        meaningColumn: 'Significado',
-        exampleColumn: 'Ejemplo',
-        markingWidth: 'Ancho de sección del neumático en milímetros.',
-        markingProfile: 'Altura del flanco como porcentaje del ancho.',
-        markingProfileExample: '55% de 205 mm',
-        markingConstruction: 'Construcción radial del neumático.',
-        markingConstructionExample: 'R = radial',
-        markingRim: 'Diámetro de la llanta en pulgadas.',
-        markingRimExample: 'Llanta de 16 pulgadas',
-        markingLoad: 'Índice de carga. Debe cumplir o superar el requisito del vehículo.',
-        markingLoadExample: '91 = hasta 615 kg por neumático',
-        markingSpeed: 'Código de velocidad. Debe ser adecuado para el coche y las normas locales.',
-        markingSpeedExample: 'V = hasta 240 km/h',
-        markingXl: 'Neumático reforzado con mayor capacidad de carga a la presión correcta.',
-        markingXlExample: 'XL / Extra Load',
-        markingDot: 'Fecha de fabricación: semana y año. Aquí significa semana 24 de 2023.',
-        markingDotExample: '24 / 2023',
-        markingWinter: 'Marcas de temporada y rendimiento invernal. 3PMSF es el símbolo de montaña con copo de nieve.',
-        markingWinterExample: 'Neumático para todo el año o de invierno',
-        markingDirection: 'Dirección de montaje o marca de lado exterior para neumáticos asimétricos o direccionales.',
-        markingDirectionExample: 'Montar según la marca',
-        loadSpeedReferenceTitle: 'Referencia rápida de índices de carga y velocidad',
-        loadSpeedReferenceLead: 'Ejemplos comunes para turismos. Usa neumáticos con índice de carga y velocidad igual o superior al requerido por el fabricante.',
-        loadIndexTitle: 'Índice de carga',
-        speedIndexTitle: 'Código de velocidad',
-        indexColumn: 'Índice',
-        loadPerTireColumn: 'Carga por neumático',
-        speedCodeColumn: 'Código',
-        maxSpeedColumn: 'Velocidad máxima',
-        loadSpeedNote: 'Es solo una referencia rápida. Sigue siempre el índice de carga y velocidad indicado en el manual, la etiqueta de la puerta o la homologación oficial.',
-        noteDiameterTitle: 'Tolerancia de diámetro',
-        noteDiameter: 'Un cambio de diámetro de hasta aproximadamente 3% suele tomarse como límite práctico, pero verifica siempre la compatibilidad.',
-        noteOffsetTitle: 'ET y espacio',
-        noteOffset: 'El ancho de llanta y el ET afectan la distancia a la suspensión y cuánto sale la rueda hacia la aleta.',
-        noteSpeedTitle: 'Velocímetro',
-        noteSpeed: 'Un neumático más pequeño reduce la velocidad real frente a la indicada. Uno más grande hace lo contrario.',
         fitmentDisclaimer: 'Verifica siempre la compatibilidad de ruedas con el manual del vehículo o un profesional antes de comprar. Los frenos, modificaciones de suspensión y normas locales pueden afectar la compatibilidad.'
       },
       fr: {
@@ -1239,109 +585,44 @@
         navPrivacy: 'Confidentialité',
         navAffiliate: 'Divulgation d’affiliation',
         navContact: 'Contact',
-        homeTitle: 'Autohub — calculateurs auto et outils de compatibilité',
-        homeLead: 'Comparez dimensions de pneus, déport, entraxe, alésage central et coûts de carburant. Utile pour choisir jantes, pneus et vérifier la compatibilité avant achat.',
-        homePcd: 'Base PCD',
-        homeFuel: 'Calculateur de coût carburant',
-        homeGuides: 'Guides',
-        popularWheelSearches: 'Recherches populaires de compatibilité',
+        title: 'Base PCD',
+        lead: 'Entraxe, alésage central, filetage et déport approximatif par marque et modèle. La base inclut les véhicules à partir de 1995.',
+        makes: 'Marques',
+        models: 'Modèles',
+        sizes: 'Dimensions',
+        search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Copier le lien',
+        copied: 'Copié',
+        popularPcd: 'PCD populaires',
+        summaryAll: 'Toutes les marques et modèles sont affichés.',
+        summaryFiltered: 'Trouvé : {makes} marques, {models} modèles et {records} lignes pour "{query}".',
+        modelTitle: '{make} {model} — PCD et alésage central',
+        chooseMake: 'Choisissez une marque.',
+        noMakes: 'Aucune marque trouvée. Essayez une autre recherche.',
+        noModels: 'Aucun modèle trouvé pour ce filtre.',
+        noRecords: 'Aucune ligne ne correspond à ce filtre.',
+        chooseModel: 'Choisissez un modèle pour voir le PCD et l’alésage central.',
+        notice: 'Les données initiales sont en cours de vérification. Vérifiez toujours le montage selon l’année, le marché, la finition et la documentation officielle avant achat.',
+        generation: 'Génération',
+        years: 'Années',
+        market: 'Marché',
+        centerBore: 'Alésage',
+        thread: 'Filetage',
+        fastener: 'Fixation',
+        status: 'Statut',
+        guideTitle: 'Comment utiliser ces données',
+        guideText: 'Vérifiez d’abord l’année, le marché et la génération. Le freinage, la finition et les versions sportives peuvent modifier le montage, donc confirmez avec le manuel, le VIN ou un spécialiste avant achat.',
+        fastenerBolts: 'boulons',
+        fastenerNuts: 'écrous',
+        statusNeedsReview: 'à vérifier',
+        statusVerified: 'vérifié',
+        popularSearches: 'Recherches populaires de compatibilité',
         popularVolvoS70: 'Dimension pneus Volvo S70',
         popularOpelAstra: 'PCD Opel Astra',
         popularBmwE46: 'Déport roues BMW E46',
         popularVwGolf: 'Alésage central VW Golf',
         popular5x108: 'Voitures avec entraxe 5x108',
         popular5x110: 'Voitures avec entraxe 5x110',
-        title: 'Calculateur pneus et jantes',
-        lead: 'Comparez la dimension d’origine et la nouvelle dimension, la largeur de jante et le déport. Le résultat montre diamètre, garde au sol, erreur compteur et position de roue.',
-        visualTitle: 'Comparaison visuelle pneus et jantes',
-        visualLead: 'Comparez le diamètre total et la position de roue. Le dessin est mis à l’échelle selon les valeurs choisies.',
-        sideViewTitle: 'Vue latérale : diamètre du pneu et de la jante',
-        positionViewTitle: 'Position de roue : largeur de jante et déport',
-        innerEdgeChange: 'Variation du bord intérieur',
-        outerEdgeChange: 'Variation du bord extérieur',
-        suspensionSide: 'Suspension',
-        mountingFace: 'Plan de fixation',
-        fenderSide: 'Aile',
-        diameterDifference: 'Variation de diamètre',
-        verdictNormal: 'Normal',
-        verdictManual: 'Vérifier manuellement',
-        verdictCaution: 'Attention',
-        verdictNormalText: 'Les variations de diamètre et de position sont de faibles valeurs de référence.',
-        verdictManualText: 'Le diamètre reste dans la limite, mais la largeur ou le déport exige un contrôle physique.',
-        verdictCautionText: 'La variation de diamètre ou de position est importante. Vérifiez tous les dégagements avant achat.',
-        visualDisclaimer: 'Le dessin est une comparaison, pas une garantie de montage. Freins, suspension et passage d’aile doivent être contrôlés sur le véhicule.',
-        originalSize: 'Dimension d’origine',
-        newSize: 'Nouvelle dimension',
-        width: 'Largeur (mm)',
-        profile: 'Profil (%)',
-        rim: 'Jante (pouce)',
-        rimWidth: 'Largeur de jante (J)',
-        offset: 'Déport (ET)',
-        results: 'Résultats',
-        clearanceChange: 'Variation de garde',
-        speedometerError: 'Erreur compteur',
-        actualSpeed: 'Réel à 100',
-        parameter: 'Paramètre',
-        original: 'Origine',
-        new: 'Nouveau',
-        difference: 'Différence',
-        share: 'Partager le calcul',
-        openPcd: 'Ouvrir la base PCD',
-        safe: 'Le changement de diamètre reste dans la limite de référence de 3%.',
-        warning: 'Attention : le changement de diamètre dépasse la limite de référence de 3%.',
-        closeSuspension: 'plus près de la suspension',
-        awaySuspension: 'plus loin de la suspension',
-        pokeOut: 'ressort davantage',
-        tuckedIn: 'rentre davantage',
-        totalDiameter: 'Diamètre total',
-        sectionWidth: 'Largeur de section',
-        sidewallHeight: 'Hauteur du flanc',
-        circumference: 'Circonférence',
-        rimWidthTable: 'Largeur de jante',
-        rimOffset: 'Déport de jante',
-        strutClearance: 'Distance suspension',
-        fenderPoke: 'Sortie vers aile',
-        copied: 'Lien copié',
-        markingTitle: 'Comment lire les marquages du pneu',
-        markingExampleLabel: 'Exemple sur le flanc',
-        markingLead: 'La dimension principale n’est qu’une partie du marquage. L’indice de charge, l’indice de vitesse, la construction renforcée et la date de fabrication comptent aussi au moment de choisir des pneus.',
-        markingColumn: 'Marquage',
-        meaningColumn: 'Signification',
-        exampleColumn: 'Exemple',
-        markingWidth: 'Largeur de section du pneu en millimètres.',
-        markingProfile: 'Hauteur du flanc en pourcentage de la largeur.',
-        markingProfileExample: '55% de 205 mm',
-        markingConstruction: 'Construction radiale du pneu.',
-        markingConstructionExample: 'R = radial',
-        markingRim: 'Diamètre de jante en pouces.',
-        markingRimExample: 'Jante de 16 pouces',
-        markingLoad: 'Indice de charge. Il doit respecter ou dépasser l’exigence du véhicule.',
-        markingLoadExample: '91 = jusqu’à 615 kg par pneu',
-        markingSpeed: 'Indice de vitesse. Il doit convenir à la voiture et aux règles locales.',
-        markingSpeedExample: 'V = jusqu’à 240 km/h',
-        markingXl: 'Pneu renforcé avec capacité de charge plus élevée à la bonne pression.',
-        markingXlExample: 'XL / Extra Load',
-        markingDot: 'Date de fabrication : semaine et année. Ici, cela signifie semaine 24 de 2023.',
-        markingDotExample: '24 / 2023',
-        markingWinter: 'Marquages de saison et de performance hivernale. 3PMSF est le symbole montagne avec flocon.',
-        markingWinterExample: 'Pneu toutes saisons ou hiver',
-        markingDirection: 'Sens de montage ou marquage côté extérieur pour pneus asymétriques ou directionnels.',
-        markingDirectionExample: 'Monter selon le marquage',
-        loadSpeedReferenceTitle: 'Référence rapide des indices de charge et de vitesse',
-        loadSpeedReferenceLead: 'Exemples courants pour voitures particulières. Utilisez des pneus avec des indices de charge et de vitesse égaux ou supérieurs aux exigences du constructeur.',
-        loadIndexTitle: 'Indice de charge',
-        speedIndexTitle: 'Indice de vitesse',
-        indexColumn: 'Indice',
-        loadPerTireColumn: 'Charge par pneu',
-        speedCodeColumn: 'Code',
-        maxSpeedColumn: 'Vitesse maxi',
-        loadSpeedNote: 'Ceci est seulement une référence rapide. Respectez toujours les indices indiqués dans le manuel, l’étiquette de porte ou l’homologation officielle.',
-        noteDiameterTitle: 'Tolérance de diamètre',
-        noteDiameter: 'Un changement de diamètre d’environ 3% est souvent utilisé comme limite pratique, mais vérifiez toujours le montage.',
-        noteOffsetTitle: 'Déport et dégagement',
-        noteOffset: 'La largeur de jante et l’ET influencent la distance à la suspension et la sortie vers l’aile.',
-        noteSpeedTitle: 'Compteur',
-        noteSpeed: 'Un pneu plus petit donne une vitesse réelle plus basse que la vitesse affichée. Un pneu plus grand fait l’inverse.',
         fitmentDisclaimer: 'Vérifiez toujours la compatibilité des roues avec le manuel du véhicule ou un professionnel avant achat. Le dégagement des freins, les modifications de suspension et les règles locales peuvent influencer la compatibilité.'
       },
       de: {
@@ -1356,427 +637,422 @@
         navPrivacy: 'Datenschutz',
         navAffiliate: 'Affiliate-Hinweis',
         navContact: 'Kontakt',
-        homeTitle: 'Autohub — Autorechner und Fitment-Tools',
-        homeLead: 'Vergleiche Reifengrößen, Einpresstiefe, Lochkreis, Mittenloch und Kraftstoffkosten. Nützlich für Felgen, Reifen und Kompatibilitätschecks vor dem Kauf.',
-        homePcd: 'PCD-Datenbank',
-        homeFuel: 'Kraftstoffkosten-Rechner',
-        homeGuides: 'Ratgeber',
-        popularWheelSearches: 'Beliebte Felgenpassungs-Suchen',
+        title: 'PCD-Datenbank',
+        lead: 'Lochkreis, Mittenloch, Gewinde und ungefährer ET-Bereich nach Marke und Modell. Die Datenbank enthält Fahrzeuge ab Baujahr 1995.',
+        makes: 'Marken',
+        models: 'Modelle',
+        sizes: 'Größen',
+        search: 'Suche: Audi A4, Golf, 5x112, 57.1',
+        copyLink: 'Link kopieren',
+        copied: 'Kopiert',
+        popularPcd: 'Beliebte PCD',
+        summaryAll: 'Alle Marken und Modelle werden angezeigt.',
+        summaryFiltered: 'Gefunden: {makes} Marken, {models} Modelle und {records} Einträge für "{query}".',
+        modelTitle: '{make} {model} — PCD und Mittenloch',
+        chooseMake: 'Wähle eine Marke.',
+        noMakes: 'Keine Marken gefunden. Versuche eine andere Suche.',
+        noModels: 'Keine Modelle für diesen Filter gefunden.',
+        noRecords: 'Keine Einträge für diesen Filter.',
+        chooseModel: 'Wähle ein Modell, um PCD und Mittenloch zu sehen.',
+        notice: 'Die Startdaten werden geprüft. Prüfe die Passung vor dem Felgenkauf immer nach Baujahr, Markt, Ausstattung und offizieller Dokumentation.',
+        generation: 'Generation',
+        years: 'Baujahre',
+        market: 'Markt',
+        centerBore: 'Mittenloch',
+        thread: 'Gewinde',
+        fastener: 'Befestigung',
+        status: 'Status',
+        guideTitle: 'So nutzt du diese Daten',
+        guideText: 'Prüfe zuerst Baujahr, Markt und Generation. Bremsanlage, Ausstattung und Performance-Versionen können die Passung ändern, daher vor dem Kauf mit Handbuch, VIN-Daten oder einem Felgenspezialisten abgleichen.',
+        fastenerBolts: 'Radschrauben',
+        fastenerNuts: 'Radmuttern',
+        statusNeedsReview: 'in Prüfung',
+        statusVerified: 'geprüft',
+        popularSearches: 'Beliebte Felgenpassungs-Suchen',
         popularVolvoS70: 'Volvo S70 Reifengröße',
         popularOpelAstra: 'Opel Astra PCD',
         popularBmwE46: 'BMW E46 Felgen-ET',
         popularVwGolf: 'VW Golf Mittenloch',
         popular5x108: 'Autos mit Lochkreis 5x108',
         popular5x110: 'Autos mit Lochkreis 5x110',
-        title: 'Reifen- und Felgenrechner',
-        lead: 'Vergleiche Original- und neue Reifengröße, Felgenbreite und ET. Das Ergebnis zeigt Durchmesser, Bodenfreiheit, Tachoabweichung und Radposition.',
-        visualTitle: 'Visueller Reifen- und Felgenvergleich',
-        visualLead: 'Vergleiche Gesamtdurchmesser und Radposition. Die Zeichnung wird nach den gewählten Werten skaliert.',
-        sideViewTitle: 'Seitenansicht: Reifen- und Felgendurchmesser',
-        positionViewTitle: 'Radposition: Felgenbreite und ET',
-        innerEdgeChange: 'Änderung der Innenkante',
-        outerEdgeChange: 'Änderung der Außenkante',
-        suspensionSide: 'Aufhängung',
-        mountingFace: 'Anlagefläche',
-        fenderSide: 'Kotflügel',
-        diameterDifference: 'Durchmesseränderung',
-        verdictNormal: 'Normal',
-        verdictManual: 'Manuell prüfen',
-        verdictCaution: 'Achtung',
-        verdictNormalText: 'Durchmesser- und Positionsänderung sind kleine Referenzwerte.',
-        verdictManualText: 'Der Durchmesser liegt im Referenzbereich, aber Felgenbreite oder ET erfordern eine Prüfung am Fahrzeug.',
-        verdictCautionText: 'Durchmesser- oder Positionsänderung ist groß. Vor dem Kauf alle Freigängigkeiten prüfen.',
-        visualDisclaimer: 'Die Zeichnung ist ein Vergleich, keine Passgarantie. Bremsen-, Fahrwerks- und Kotflügelfreigängigkeit muss am Fahrzeug geprüft werden.',
-        originalSize: 'Originalgröße',
-        newSize: 'Neue Größe',
-        width: 'Breite (mm)',
-        profile: 'Querschnitt (%)',
-        rim: 'Felge (Zoll)',
-        rimWidth: 'Felgenbreite (J)',
-        offset: 'Einpresstiefe (ET)',
-        results: 'Ergebnisse',
-        clearanceChange: 'Änderung Bodenfreiheit',
-        speedometerError: 'Tachoabweichung',
-        actualSpeed: 'Real bei 100',
-        parameter: 'Parameter',
-        original: 'Original',
-        new: 'Neu',
-        difference: 'Differenz',
-        share: 'Berechnung teilen',
-        openPcd: 'PCD-Datenbank öffnen',
-        safe: 'Die Durchmesseränderung liegt innerhalb der 3%-Referenzgrenze.',
-        warning: 'Achtung: Die Durchmesseränderung überschreitet die 3%-Referenzgrenze.',
-        closeSuspension: 'näher an der Aufhängung',
-        awaySuspension: 'weiter weg von der Aufhängung',
-        pokeOut: 'steht weiter nach außen',
-        tuckedIn: 'steht weiter innen',
-        totalDiameter: 'Gesamtdurchmesser',
-        sectionWidth: 'Reifenbreite',
-        sidewallHeight: 'Flankenhöhe',
-        circumference: 'Abrollumfang',
-        rimWidthTable: 'Felgenbreite',
-        rimOffset: 'Felgen-ET',
-        strutClearance: 'Abstand zur Aufhängung',
-        fenderPoke: 'Außenstand',
-        copied: 'Link kopiert',
-        markingTitle: 'Reifenmarkierungen verstehen',
-        markingExampleLabel: 'Beispiel auf der Reifenflanke',
-        markingLead: 'Die Hauptgröße ist nur ein Teil der Reifenkennzeichnung. Lastindex, Geschwindigkeitsindex, verstärkte Ausführung und Produktionsdatum sind bei der Reifenwahl ebenfalls wichtig.',
-        markingColumn: 'Markierung',
-        meaningColumn: 'Bedeutung',
-        exampleColumn: 'Beispiel',
-        markingWidth: 'Reifenbreite in Millimetern.',
-        markingProfile: 'Flankenhöhe als Prozentwert der Breite.',
-        markingProfileExample: '55% von 205 mm',
-        markingConstruction: 'Radialbauweise des Reifens.',
-        markingConstructionExample: 'R = radial',
-        markingRim: 'Felgendurchmesser in Zoll.',
-        markingRimExample: '16-Zoll-Felge',
-        markingLoad: 'Lastindex. Er muss die Fahrzeuganforderung erfüllen oder übertreffen.',
-        markingLoadExample: '91 = bis 615 kg pro Reifen',
-        markingSpeed: 'Geschwindigkeitsindex. Er muss zum Fahrzeug und zu den lokalen Regeln passen.',
-        markingSpeedExample: 'V = bis 240 km/h',
-        markingXl: 'Verstärkter Reifen mit höherer Tragfähigkeit bei korrektem Druck.',
-        markingXlExample: 'XL / Extra Load',
-        markingDot: 'Produktionsdatum: Woche und Jahr. Hier bedeutet es Woche 24 des Jahres 2023.',
-        markingDotExample: '24 / 2023',
-        markingWinter: 'Saison- und Winterleistungsmarkierungen. 3PMSF ist das Berg-Schneeflocken-Symbol.',
-        markingWinterExample: 'Ganzjahres- oder Winterreifen',
-        markingDirection: 'Montagerichtung oder Außenseitenmarkierung für asymmetrische oder laufrichtungsgebundene Reifen.',
-        markingDirectionExample: 'Nach Markierung montieren',
-        loadSpeedReferenceTitle: 'Kurzübersicht für Last- und Geschwindigkeitsindex',
-        loadSpeedReferenceLead: 'Häufige Beispiele für Pkw. Verwende Reifen mit Last- und Geschwindigkeitsindex gleich oder höher als vom Fahrzeughersteller gefordert.',
-        loadIndexTitle: 'Lastindex',
-        speedIndexTitle: 'Geschwindigkeitsindex',
-        indexColumn: 'Index',
-        loadPerTireColumn: 'Last pro Reifen',
-        speedCodeColumn: 'Code',
-        maxSpeedColumn: 'Höchstgeschwindigkeit',
-        loadSpeedNote: 'Dies ist nur eine Kurzübersicht. Maßgeblich sind immer Fahrzeughandbuch, Tür-Aufkleber oder offizielle Reifenfreigabe.',
-        noteDiameterTitle: 'Durchmessertoleranz',
-        noteDiameter: 'Eine Änderung des Reifendurchmessers bis etwa 3% gilt oft als praktische Grenze. Die Passung muss trotzdem am Fahrzeug geprüft werden.',
-        noteOffsetTitle: 'ET und Freigängigkeit',
-        noteOffset: 'Felgenbreite und ET beeinflussen den Abstand zur Aufhängung und wie weit das Rad nach außen steht.',
-        noteSpeedTitle: 'Tacho',
-        noteSpeed: 'Ein kleinerer Reifen macht die reale Geschwindigkeit niedriger als angezeigt. Ein größerer Reifen bewirkt das Gegenteil.',
         fitmentDisclaimer: 'Prüfe die Felgenpassung vor dem Kauf immer mit dem Fahrzeughandbuch oder einem Fachbetrieb. Bremsenfreigängigkeit, Fahrwerksänderungen und lokale Vorschriften können die Kompatibilität beeinflussen.'
       }
     };
 
-    const optionSets = {
-      width: [145, 155, 165, 175, 185, 195, 205, 215, 225, 235, 245, 255, 265, 275, 285, 295, 305, 315],
-      profile: [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80],
-      rim: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
-      rimWidth: [4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0],
-      offset: [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65]
-    };
-
-    const defaults = {
-      w1: 195,
-      p1: 65,
-      d1: 15,
-      j1: 6.0,
-      et1: 45,
-      w2: 205,
-      p2: 55,
-      d2: 16,
-      j2: 7.0,
-      et2: 45
-    };
+    const data = typeof PCD_DATA !== 'undefined' ? PCD_DATA : [];
 
     let lang = 'en';
-    const ids = ['w1', 'p1', 'd1', 'j1', 'et1', 'w2', 'p2', 'd2', 'j2', 'et2'];
+    let selectedBrand = null;
+    let selectedModel = null;
+    let activeQuickFilter = '';
+
+    const brandsEl = document.getElementById('brands');
+    const modelsEl = document.getElementById('models');
+    const detailsEl = document.getElementById('details');
+    const searchEl = document.getElementById('search');
+    const copyLinkEl = document.getElementById('copyLink');
+    const quickFiltersEl = document.getElementById('quickFilters');
+    const resultSummaryEl = document.getElementById('resultSummary');
+    const popularPcdFilters = ['5x100', '5x112', '5x114.3', '5x120', '6x139.7'];
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
     }
 
-    function valueFromUrl(key) {
+    function fastenerLabel(value) {
+      if (value === 'bolts') return t('fastenerBolts');
+      if (value === 'nuts') return t('fastenerNuts');
+      return value || '';
+    }
+
+    function statusLabel(value) {
+      if (value === 'verified') return t('statusVerified');
+      if (value === 'needs_review') return t('statusNeedsReview');
+      return value || t('statusNeedsReview');
+    }
+
+    function currentQuery() {
+      return searchEl.value.trim().toLowerCase();
+    }
+
+    function recordMatches(record, q) {
+      if (!q) return true;
+      return [
+        record.generation,
+        record.years,
+        record.market,
+        record.pcd,
+        record.centerBore,
+        record.thread,
+        record.fastener,
+        record.offset,
+        record.status
+      ].some(value => String(value || '').toLowerCase().includes(q));
+    }
+
+    function modelMatches(brand, model, q) {
+      if (!q) return true;
+      return brand.name.toLowerCase().includes(q)
+        || model.name.toLowerCase().includes(q)
+        || model.records.some(record => recordMatches(record, q));
+    }
+
+    function matchingModels(brand, q) {
+      return brand.models.filter(model => modelMatches(brand, model, q));
+    }
+
+    function matchingRecords(model, q) {
+      return model.records.filter(record => recordMatches(record, q));
+    }
+
+    function findBrandBySlug(slug) {
+      return data.find(brand => brand.slug === slug);
+    }
+
+    function findModelBySlug(brand, slug) {
+      return brand ? brand.models.find(model => model.slug === slug) : null;
+    }
+
+    function syncSelectionWithQuery() {
+      const q = currentQuery();
+      if (selectedBrand && !matchingModels(selectedBrand, q).length) {
+        selectedBrand = null;
+        selectedModel = null;
+        return;
+      }
+      if (selectedModel && (!selectedBrand || !modelMatches(selectedBrand, selectedModel, q))) {
+        selectedModel = null;
+      }
+    }
+
+    function updateUrlState() {
       const params = new URLSearchParams(window.location.search);
-      if (!params.has(key)) return defaults[key];
-      const value = Number(params.get(key));
-      return Number.isFinite(value) && value !== 0 ? value : defaults[key];
-    }
-
-    function formatNumber(value, digits = 1) {
-      return Number(value).toFixed(digits);
-    }
-
-    function signed(value, unit, digits = 1) {
-      const sign = value > 0 ? '+' : '';
-      return `${sign}${formatNumber(value, digits)} ${unit}`;
-    }
-
-    function formatSizeValue(value) {
-      return Number.isInteger(value) ? String(value) : value.toFixed(1);
-    }
-
-    function summaryText(spec) {
-      return `${spec.width} / ${spec.profile} R${spec.rim}<br>${formatSizeValue(spec.rimWidth)}J ET${spec.offset}`;
-    }
-
-    function fillSelect(id, values, selectedValue) {
-      const select = document.getElementById(id);
-      const list = values.includes(selectedValue) ? values : [...values, selectedValue].sort((a, b) => a - b);
-      select.innerHTML = list.map((value) => {
-        const label = Number.isInteger(value) ? String(value) : value.toFixed(1);
-        return `<option value="${value}">${label}</option>`;
-      }).join('');
-      select.value = String(selectedValue);
-    }
-
-    function getSpecs(prefix) {
-      const width = Number(document.getElementById(`w${prefix}`).value);
-      const profile = Number(document.getElementById(`p${prefix}`).value);
-      const rim = Number(document.getElementById(`d${prefix}`).value);
-      const rimWidth = Number(document.getElementById(`j${prefix}`).value);
-      const offset = Number(document.getElementById(`et${prefix}`).value);
-      const sidewall = width * profile / 100;
-      const diameter = sidewall * 2 + rim * 25.4;
-      const circumference = diameter * Math.PI;
-      const rimWidthMm = rimWidth * 25.4;
-      return { width, profile, rim, rimWidth, offset, sidewall, diameter, circumference, rimWidthMm };
-    }
-
-    function updateUrl() {
-      const params = new URLSearchParams();
-      ids.forEach((id) => params.set(id, document.getElementById(id).value));
-      params.set('lang', lang);
-      const nextUrl = `${window.location.pathname}?${params.toString()}`;
+      const query = searchEl.value.trim();
+      if (query) {
+        params.set('search', query);
+      } else {
+        params.delete('search');
+      }
+      if (lang && lang !== 'en') {
+        params.set('lang', lang);
+      } else {
+        params.delete('lang');
+      }
+      if (selectedBrand) {
+        params.set('make', selectedBrand.slug);
+      } else {
+        params.delete('make');
+      }
+      if (selectedBrand && selectedModel) {
+        params.set('model', selectedModel.slug);
+      } else {
+        params.delete('model');
+      }
+      const queryString = params.toString();
+      const nextUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
       window.history.replaceState(null, '', nextUrl);
+    }
+
+    function initFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const initialSearch = params.get('search') || '';
+      const initialLang = params.get('lang');
+      if (translations[initialLang]) {
+        lang = initialLang;
+      }
+      searchEl.value = initialSearch;
+      activeQuickFilter = popularPcdFilters.includes(initialSearch) ? initialSearch : '';
+      selectedBrand = findBrandBySlug(params.get('make'));
+      selectedModel = findModelBySlug(selectedBrand, params.get('model'));
+      syncSelectionWithQuery();
+    }
+
+    function formatSummary(template, values) {
+      return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
+    }
+
+    function modelTitle() {
+      if (!selectedBrand || !selectedModel) return '';
+      return formatSummary(t('modelTitle'), {
+        make: selectedBrand.name,
+        model: selectedModel.name
+      });
+    }
+
+    function filterStats(q) {
+      const matchedBrands = data.filter(brand => matchingModels(brand, q).length > 0);
+      const modelCount = matchedBrands.reduce((sum, brand) => sum + matchingModels(brand, q).length, 0);
+      const recordCount = matchedBrands.reduce((sum, brand) => {
+        return sum + matchingModels(brand, q).reduce((modelSum, model) => modelSum + matchingRecords(model, q).length, 0);
+      }, 0);
+      return { makes: matchedBrands.length, models: modelCount, records: recordCount };
+    }
+
+    function renderSummary() {
+      const query = searchEl.value.trim();
+      if (!query) {
+        resultSummaryEl.textContent = t('summaryAll');
+        return;
+      }
+      resultSummaryEl.textContent = formatSummary(t('summaryFiltered'), {
+        ...filterStats(query.toLowerCase()),
+        query
+      });
+    }
+
+    function resetCopyButton() {
+      copyLinkEl.textContent = t('copyLink');
+    }
+
+    async function copyCurrentLink() {
+      updateUrlState();
+      const url = window.location.href;
+      try {
+        await navigator.clipboard.writeText(url);
+        copyLinkEl.textContent = t('copied');
+        window.setTimeout(resetCopyButton, 1400);
+      } catch (error) {
+        window.prompt(t('copyLink'), url);
+      }
+    }
+
+    function renderQuickFilters() {
+      quickFiltersEl.innerHTML = popularPcdFilters.map((pcd) => `
+        <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}">${pcd}</button>
+      `).join('');
+      quickFiltersEl.querySelectorAll('[data-pcd]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const value = button.dataset.pcd;
+          activeQuickFilter = activeQuickFilter === value ? '' : value;
+          searchEl.value = activeQuickFilter;
+          syncSelectionWithQuery();
+          updateUrlState();
+          renderQuickFilters();
+          renderSummary();
+          renderBrands(searchEl.value);
+          renderModels();
+          renderDetails();
+        });
+      });
     }
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = t('homeTitle');
+      document.title = `Autohub ${t('pcdDatabase')}`;
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });
+      searchEl.placeholder = t('search');
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
+      resetCopyButton();
+      renderQuickFilters();
+      renderSummary();
+      renderModels();
+      renderDetails();
     }
 
-    function row(label, original, next, diff) {
-      return `
-        <tr>
-          <td>${label}</td>
-          <td>${original}</td>
-          <td>${next}</td>
-          <td>${diff}</td>
-        </tr>
-      `;
-    }
+    function renderBrands(filter = '') {
+      const q = filter.trim().toLowerCase();
+      brandsEl.innerHTML = '';
+      const brands = data
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .filter(brand => matchingModels(brand, q).length > 0);
 
-    function positionText(value, positiveText, negativeText) {
-      if (Math.abs(value) < 0.05) return '0.0 mm';
-      return `${formatNumber(Math.abs(value))} mm ${value > 0 ? positiveText : negativeText}`;
-    }
-
-    function svgEscape(value) {
-      return String(value || '')
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll("'", '&#039;');
-    }
-
-    function wheelDrawing(cx, cy, spec, scale, color, label) {
-      const outerRadius = spec.diameter * scale / 2;
-      const rimRadius = spec.rim * 25.4 * scale / 2;
-      const hubRadius = Math.max(9, rimRadius * 0.18);
-      let spokes = '';
-      for (let index = 0; index < 8; index += 1) {
-        const angle = Math.PI * 2 * index / 8;
-        const x1 = cx + Math.cos(angle) * (hubRadius + 3);
-        const y1 = cy + Math.sin(angle) * (hubRadius + 3);
-        const x2 = cx + Math.cos(angle) * Math.max(hubRadius + 5, rimRadius - 8);
-        const y2 = cy + Math.sin(angle) * Math.max(hubRadius + 5, rimRadius - 8);
-        spokes += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${color}" stroke-width="3" opacity="0.8" />`;
+      if (!brands.length) {
+        brandsEl.innerHTML = `<div class="empty">${t('noMakes')}</div>`;
+        modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
+        detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
+        return;
       }
-      return `
-        <text x="${cx}" y="28" text-anchor="middle" fill="${color}" font-size="14" font-weight="700">${svgEscape(label)}</text>
-        <circle cx="${cx}" cy="${cy}" r="${outerRadius}" fill="${color}" fill-opacity="0.12" stroke="${color}" stroke-width="6" />
-        <circle cx="${cx}" cy="${cy}" r="${rimRadius}" fill="#ffffff" stroke="${color}" stroke-width="5" />
-        ${spokes}
-        <circle cx="${cx}" cy="${cy}" r="${hubRadius}" fill="#ffffff" stroke="${color}" stroke-width="4" />
-        <text x="${cx}" y="262" text-anchor="middle" fill="#17202a" font-size="15" font-weight="700">${spec.width}/${spec.profile} R${spec.rim}</text>
-        <text x="${cx}" y="282" text-anchor="middle" fill="#657181" font-size="13">Ø ${formatNumber(spec.diameter)} mm</text>
-      `;
-    }
 
-    function updateVisualization(original, next, values) {
-      const originalColor = '#64748b';
-      const nextColor = '#0f766e';
-      const maxDiameter = Math.max(original.diameter, next.diameter);
-      const sideScale = 196 / maxDiameter;
-      const sideViewSvg = document.getElementById('sideViewSvg');
-      sideViewSvg.innerHTML = `
-        <line x1="360" y1="44" x2="360" y2="238" stroke="#d9e0e8" stroke-width="1" />
-        ${wheelDrawing(185, 145, original, sideScale, originalColor, t('original'))}
-        ${wheelDrawing(535, 145, next, sideScale, nextColor, t('new'))}
-        <rect x="292" y="8" width="136" height="26" rx="6" fill="#ffffff" stroke="#d9e0e8" />
-        <text x="360" y="26" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">${svgEscape(signed(values.diameterDiff, 'mm'))} · ${svgEscape(signed(values.diameterPercent, '%'))}</text>
-      `;
-
-      const originalInner = -original.rimWidthMm / 2 - original.offset;
-      const originalOuter = original.rimWidthMm / 2 - original.offset;
-      const nextInner = -next.rimWidthMm / 2 - next.offset;
-      const nextOuter = next.rimWidthMm / 2 - next.offset;
-      const maxPosition = Math.max(
-        Math.abs(originalInner), Math.abs(originalOuter),
-        Math.abs(nextInner), Math.abs(nextOuter), 70
-      );
-      const positionScale = 245 / maxPosition;
-      const mapPosition = (value) => 360 + value * positionScale;
-      const originalX = mapPosition(originalInner);
-      const originalWidth = mapPosition(originalOuter) - originalX;
-      const nextX = mapPosition(nextInner);
-      const nextWidth = mapPosition(nextOuter) - nextX;
-      const positionViewSvg = document.getElementById('positionViewSvg');
-      positionViewSvg.innerHTML = `
-        <text x="58" y="25" text-anchor="middle" fill="#657181" font-size="12">${svgEscape(t('suspensionSide'))}</text>
-        <text x="360" y="25" text-anchor="middle" fill="#657181" font-size="12">${svgEscape(t('mountingFace'))}</text>
-        <text x="662" y="25" text-anchor="middle" fill="#657181" font-size="12">${svgEscape(t('fenderSide'))}</text>
-        <line x1="58" y1="38" x2="58" y2="252" stroke="#94a3b8" stroke-width="5" />
-        <line x1="662" y1="38" x2="662" y2="252" stroke="#94a3b8" stroke-width="5" />
-        <line x1="360" y1="38" x2="360" y2="252" stroke="#17202a" stroke-width="4" />
-        <rect x="${originalX}" y="72" width="${originalWidth}" height="54" rx="4" fill="${originalColor}" fill-opacity="0.18" stroke="${originalColor}" stroke-width="4" />
-        <line x1="${mapPosition(-original.offset)}" y1="66" x2="${mapPosition(-original.offset)}" y2="132" stroke="${originalColor}" stroke-dasharray="5 4" stroke-width="2" />
-        <text x="${originalX + originalWidth / 2}" y="96" text-anchor="middle" fill="#334155" font-size="13" font-weight="700">${svgEscape(t('original'))}</text>
-        <text x="${originalX + originalWidth / 2}" y="115" text-anchor="middle" fill="#657181" font-size="12">${formatNumber(original.rimWidth, 1)}J · ET${original.offset}</text>
-        <rect x="${nextX}" y="170" width="${nextWidth}" height="54" rx="4" fill="${nextColor}" fill-opacity="0.18" stroke="${nextColor}" stroke-width="4" />
-        <line x1="${mapPosition(-next.offset)}" y1="164" x2="${mapPosition(-next.offset)}" y2="230" stroke="${nextColor}" stroke-dasharray="5 4" stroke-width="2" />
-        <text x="${nextX + nextWidth / 2}" y="194" text-anchor="middle" fill="#17202a" font-size="13" font-weight="700">${svgEscape(t('new'))}</text>
-        <text x="${nextX + nextWidth / 2}" y="213" text-anchor="middle" fill="#657181" font-size="12">${formatNumber(next.rimWidth, 1)}J · ET${next.offset}</text>
-        <text x="360" y="276" text-anchor="middle" fill="#657181" font-size="12">0 mm</text>
-      `;
-
-      document.getElementById('visualInnerMetric').textContent = positionText(values.strutChange, t('closeSuspension'), t('awaySuspension'));
-      document.getElementById('visualOuterMetric').textContent = positionText(values.pokeChange, t('pokeOut'), t('tuckedIn'));
-
-      const positionMagnitude = Math.max(Math.abs(values.strutChange), Math.abs(values.pokeChange));
-      const widthChange = Math.abs(next.width - original.width);
-      let verdictKey = 'verdictNormal';
-      let verdictTextKey = 'verdictNormalText';
-      let verdictClass = '';
-      if (Math.abs(values.diameterPercent) > 3 || positionMagnitude > 20 || widthChange > 30) {
-        verdictKey = 'verdictCaution';
-        verdictTextKey = 'verdictCautionText';
-        verdictClass = 'caution';
-      } else if (
-        Math.abs(values.rimWidthDiff) > 0.05 ||
-        Math.abs(values.offsetDiff) > 0.05 ||
-        widthChange > 0.05
-      ) {
-        verdictKey = 'verdictManual';
-        verdictTextKey = 'verdictManualText';
-        verdictClass = 'manual';
-      }
-      const verdict = document.getElementById('visualVerdict');
-      verdict.className = `visual-verdict${verdictClass ? ` ${verdictClass}` : ''}`;
-      verdict.textContent = t(verdictKey);
-      document.getElementById('visualVerdictText').textContent = t(verdictTextKey);
-    }
-
-    function calculate() {
-      const original = getSpecs('1');
-      const next = getSpecs('2');
-      document.getElementById('summary1').innerHTML = summaryText(original);
-      document.getElementById('summary2').innerHTML = summaryText(next);
-
-      const diameterDiff = next.diameter - original.diameter;
-      const diameterPercent = diameterDiff / original.diameter * 100;
-      const clearanceDiff = diameterDiff / 2;
-      const speedError = next.circumference / original.circumference * 100 - 100;
-      const actualAt100 = 100 * next.circumference / original.circumference;
-      const rimWidthDiff = next.rimWidthMm - original.rimWidthMm;
-      const offsetDiff = next.offset - original.offset;
-      const strutChange = rimWidthDiff / 2 + offsetDiff;
-      const pokeChange = rimWidthDiff / 2 - offsetDiff;
-
-      const status = document.getElementById('status');
-      status.className = `status ${Math.abs(diameterPercent) > 3 ? 'danger' : 'good'}`;
-      status.textContent = Math.abs(diameterPercent) > 3 ? t('warning') : t('safe');
-
-      document.getElementById('clearanceMetric').textContent = signed(clearanceDiff, 'mm');
-      document.getElementById('speedMetric').textContent = signed(speedError, '%');
-      document.getElementById('actualSpeedMetric').textContent = `${formatNumber(actualAt100)} km/h`;
-
-      document.getElementById('resultRows').innerHTML = [
-        row(t('totalDiameter'), `${formatNumber(original.diameter)} mm`, `${formatNumber(next.diameter)} mm`, signed(diameterDiff, 'mm')),
-        row(t('sectionWidth'), `${original.width} mm`, `${next.width} mm`, signed(next.width - original.width, 'mm')),
-        row(t('sidewallHeight'), `${formatNumber(original.sidewall)} mm`, `${formatNumber(next.sidewall)} mm`, signed(next.sidewall - original.sidewall, 'mm')),
-        row(t('circumference'), `${Math.round(original.circumference)} mm`, `${Math.round(next.circumference)} mm`, signed(next.circumference - original.circumference, 'mm', 0)),
-        row(t('rimWidthTable'), `${formatNumber(original.rimWidth, 1)}"`, `${formatNumber(next.rimWidth, 1)}"`, signed(rimWidthDiff, 'mm')),
-        row(t('rimOffset'), `ET ${original.offset}`, `ET ${next.offset}`, signed(offsetDiff, 'mm')),
-        row(t('strutClearance'), '-', positionText(strutChange, t('closeSuspension'), t('awaySuspension')), ''),
-        row(t('fenderPoke'), '-', positionText(pokeChange, t('pokeOut'), t('tuckedIn')), '')
-      ].join('');
-
-      updateVisualization(original, next, {
-        diameterDiff,
-        diameterPercent,
-        rimWidthDiff,
-        offsetDiff,
-        strutChange,
-        pokeChange
-      });
-
-      updateUrl();
-    }
-
-    function init() {
-      const params = new URLSearchParams(window.location.search);
-      const requestedLang = params.get('lang');
-      if (translations[requestedLang]) lang = requestedLang;
-
-      fillSelect('w1', optionSets.width, valueFromUrl('w1'));
-      fillSelect('p1', optionSets.profile, valueFromUrl('p1'));
-      fillSelect('d1', optionSets.rim, valueFromUrl('d1'));
-      fillSelect('j1', optionSets.rimWidth, valueFromUrl('j1'));
-      fillSelect('et1', optionSets.offset, valueFromUrl('et1'));
-      fillSelect('w2', optionSets.width, valueFromUrl('w2'));
-      fillSelect('p2', optionSets.profile, valueFromUrl('p2'));
-      fillSelect('d2', optionSets.rim, valueFromUrl('d2'));
-      fillSelect('j2', optionSets.rimWidth, valueFromUrl('j2'));
-      fillSelect('et2', optionSets.offset, valueFromUrl('et2'));
-
-      ids.forEach((id) => {
-        document.getElementById(id).addEventListener('change', calculate);
-      });
-
-      document.querySelectorAll('[data-lang]').forEach((button) => {
-        button.addEventListener('click', () => {
-          lang = button.dataset.lang;
-          translatePage();
-          calculate();
+      brands.forEach(brand => {
+          const button = document.createElement('button');
+          const matchCount = matchingModels(brand, q).length;
+          button.innerHTML = `<span class="list-row"><span>${brand.name}</span><span class="count">${matchCount}</span></span>`;
+          button.className = selectedBrand === brand ? 'selected' : '';
+          button.onclick = () => {
+            selectedBrand = brand;
+            selectedModel = null;
+            updateUrlState();
+            renderBrands(searchEl.value);
+            renderModels();
+            renderDetails();
+          };
+          brandsEl.appendChild(button);
         });
-      });
-
-      document.getElementById('shareButton').addEventListener('click', async () => {
-        const url = window.location.href;
-        try {
-          await navigator.clipboard.writeText(url);
-          document.getElementById('shareButton').textContent = t('copied');
-          window.setTimeout(() => {
-            document.getElementById('shareButton').textContent = t('share');
-          }, 1500);
-        } catch (error) {
-          window.prompt(t('share'), url);
-        }
-      });
-
-      translatePage();
-      calculate();
     }
 
-    init();
+    function renderModels() {
+      modelsEl.innerHTML = '';
+      if (!selectedBrand) {
+        modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
+        return;
+      }
+      const q = currentQuery();
+      const models = matchingModels(selectedBrand, q)
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name));
+
+      if (!models.length) {
+        modelsEl.innerHTML = `<div class="empty">${t('noModels')}</div>`;
+        return;
+      }
+
+      models.forEach(model => {
+        const button = document.createElement('button');
+        const recordCount = matchingRecords(model, q).length;
+        button.innerHTML = `<span class="list-row"><span>${model.name}</span><span class="count">${recordCount}</span></span>`;
+        button.className = selectedModel === model ? 'selected' : '';
+        button.onclick = () => {
+          selectedModel = model;
+          updateUrlState();
+          renderModels();
+          renderDetails();
+        };
+        modelsEl.appendChild(button);
+      });
+    }
+
+    function uniqueRecordValues(records, key, suffix = '') {
+      const values = records
+        .map(record => record[key])
+        .filter(Boolean)
+        .map(value => `${value}${suffix}`);
+      return [...new Set(values)].join(' / ') || '-';
+    }
+
+    function renderDetails() {
+      if (!selectedModel) {
+        detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
+        return;
+      }
+      const q = currentQuery();
+      const records = matchingRecords(selectedModel, q);
+      if (!records.length) {
+        detailsEl.innerHTML = `<div class="empty">${t('noRecords')}</div>`;
+        return;
+      }
+      const rows = records.map(record => `
+        <tr>
+          <td>${record.generation || ''}</td>
+          <td>${record.years || ''}</td>
+          <td>${record.market || ''}</td>
+          <td><strong>${record.pcd || ''}</strong></td>
+          <td>${record.centerBore || ''} mm</td>
+          <td>${record.thread || ''}</td>
+          <td>${fastenerLabel(record.fastener)}</td>
+          <td>${record.offset || ''}</td>
+          <td><span class="tag">${statusLabel(record.status)}</span></td>
+        </tr>
+      `).join('');
+      const specSummary = `
+        <div class="spec-grid" aria-label="Key wheel fitment values">
+          <div class="spec-card"><span>PCD</span><strong>${uniqueRecordValues(records, 'pcd')}</strong></div>
+          <div class="spec-card"><span>${t('centerBore')}</span><strong>${uniqueRecordValues(records, 'centerBore', ' mm')}</strong></div>
+          <div class="spec-card"><span>${t('thread')}</span><strong>${uniqueRecordValues(records, 'thread')}</strong></div>
+          <div class="spec-card"><span>ET</span><strong>${uniqueRecordValues(records, 'offset')}</strong></div>
+        </div>
+      `;
+      detailsEl.innerHTML = `
+        <h3 class="details-title">${modelTitle()}</h3>
+        ${specSummary}
+        <div class="notice">${t('notice')}</div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>${t('generation')}</th>
+                <th>${t('years')}</th>
+                <th>${t('market')}</th>
+                <th>PCD</th>
+                <th>${t('centerBore')}</th>
+                <th>${t('thread')}</th>
+                <th>${t('fastener')}</th>
+                <th>ET</th>
+                <th>${t('status')}</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+        <div class="guide">
+          <strong>${t('guideTitle')}</strong>
+          ${t('guideText')}
+        </div>
+      `;
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        updateUrlState();
+        translatePage();
+      });
+    });
+
+    copyLinkEl.addEventListener('click', copyCurrentLink);
+
+    searchEl.addEventListener('input', () => {
+      activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
+      syncSelectionWithQuery();
+      updateUrlState();
+      renderQuickFilters();
+      renderSummary();
+      renderBrands(searchEl.value);
+      renderModels();
+      renderDetails();
+    });
+    initFromUrl();
+    renderBrands(searchEl.value);
+    renderQuickFilters();
+    renderSummary();
+    translatePage();
   </script>
 </body>
 </html>
-
 
 
 
