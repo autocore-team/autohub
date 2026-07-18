@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Search engine codes and compare construction, common problems, applications, fuel consumption, strengths, weaknesses and observed service life.">
-  <link rel="canonical" href="https://autocore-team.github.io/autohub/engines.html">
-  <title>AutoHub Engine Code Search & Reliability Guide</title>
+  <meta name="description" content="Practical automotive guides for wheel fitment, diagnostics, engine codes, oil approvals, used-car checks and fuel costs.">
+  <link rel="canonical" href="https://autocore-team.github.io/autohub/guides.html">
+  <title>AutoHub Automotive Guides & How-To Library</title>
   <style>
     :root {
       color-scheme: light;
@@ -26,6 +26,10 @@
       background: var(--bg);
       color: var(--text);
       font-family: Arial, sans-serif;
+    }
+    button,
+    input {
+      font: inherit;
     }
     .topbar {
       background: #111827;
@@ -71,7 +75,6 @@
       background: #1f2937;
       border-radius: 6px;
       padding: 4px 8px;
-      text-align: center;
       font-size: 12px;
       white-space: nowrap;
       cursor: pointer;
@@ -93,13 +96,44 @@
       letter-spacing: 0;
     }
     .lead {
-      margin: 0 0 18px;
+      max-width: 900px;
+      margin: 0;
       color: var(--muted);
-      max-width: 860px;
       line-height: 1.5;
     }
-    input {
-      width: min(100%, 460px);
+    .panel {
+      min-width: 0;
+      margin-top: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .panel-heading {
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-heading h2 {
+      margin: 0 0 5px;
+      font-size: 16px;
+    }
+    .panel-heading p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+    .panel-body {
+      padding: 14px;
+    }
+    .search-row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .search-row input {
+      flex: 1 1 420px;
+      width: auto;
       min-height: 42px;
       border: 1px solid var(--line);
       border-radius: 6px;
@@ -108,109 +142,24 @@
       padding: 0 12px;
       font-size: 15px;
     }
-    .panel {
-      background: var(--panel);
+    .clear-button {
+      min-height: 42px;
       border: 1px solid var(--line);
-      border-radius: 8px;
-      min-width: 0;
-      margin-top: 16px;
-    }
-    .panel h2 {
-      font-size: 16px;
-      margin: 0;
-      padding: 14px 14px 10px;
-      border-bottom: 1px solid var(--line);
-    }
-    .panel-body {
-      padding: 14px;
-    }
-    .quick-links {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .quick-links a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 34px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
+      border-radius: 6px;
       background: #fff;
       color: #334155;
-      text-decoration: none;
-      font-size: 13px;
-      padding: 0 11px;
-      white-space: nowrap;
-    }
-    .note-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-      margin-top: 16px;
-    }
-    .note-grid article {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 14px;
-    }
-    .note-grid h3 {
-      margin: 0 0 8px;
-      font-size: 16px;
-    }
-    .note-grid p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.5;
-      font-size: 14px;
-    }
-    .disclaimer {
-      margin-top: 16px;
-      padding: 12px 14px;
-      border: 1px solid #f2d493;
-      background: var(--warning-bg);
-      color: var(--warning);
-      border-radius: 8px;
-      line-height: 1.45;
-      font-size: 14px;
-    }
-    .engine-search-row {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    .engine-search-row input {
-      flex: 1 1 360px;
-      width: auto;
-    }
-    .engine-search-button {
-      min-height: 42px;
-      border: 1px solid var(--accent);
-      border-radius: 6px;
-      background: var(--accent);
-      color: #fff;
-      padding: 0 16px;
+      padding: 0 13px;
       font-weight: 700;
       cursor: pointer;
     }
-    .engine-search-button:hover {
-      background: var(--accent-dark);
-    }
-    .region-tabs,
-    .maker-tabs {
+    .category-tabs {
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
       margin-top: 12px;
     }
-    .maker-tabs {
-      gap: 6px;
-      margin-top: 10px;
-    }
-    .region-tabs button,
-    .maker-tabs button {
-      min-height: 34px;
+    .category-tabs button {
+      min-height: 36px;
       border: 1px solid var(--line);
       border-radius: 6px;
       background: #fff;
@@ -219,213 +168,235 @@
       font-size: 13px;
       cursor: pointer;
     }
-    .maker-tabs button {
-      min-height: 32px;
-      padding: 0 10px;
-      color: #475569;
-    }
-    .region-tabs button.selected,
-    .maker-tabs button.selected {
-      background: var(--accent);
+    .category-tabs button.selected {
       border-color: var(--accent);
+      background: var(--accent);
       color: #fff;
     }
-    .engine-search-meta {
+    .summary {
+      min-height: 20px;
       margin: 12px 0 0;
       color: var(--muted);
       font-size: 13px;
     }
-    .engine-match-list {
+    .popular-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .popular-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #334155;
+      text-decoration: none;
+      padding: 0 11px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .guide-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
-      margin-top: 14px;
+      gap: 14px;
     }
-    .engine-match {
+    .guide-card {
+      display: flex;
+      flex-direction: column;
       min-width: 0;
+      min-height: 210px;
       border: 1px solid var(--line);
-      border-radius: 6px;
+      border-radius: 8px;
       background: #fff;
-      color: var(--text);
-      padding: 11px 12px;
-      text-align: left;
-      cursor: pointer;
+      padding: 14px;
     }
-    .engine-match:hover,
-    .engine-match.selected {
-      border-color: var(--accent);
-      background: #f0fdfa;
+    .guide-card[hidden] {
+      display: none;
     }
-    .engine-match strong,
-    .engine-match span {
-      display: block;
-      overflow-wrap: anywhere;
-    }
-    .engine-match strong {
-      margin-bottom: 4px;
-      font-size: 16px;
-    }
-    .engine-match span {
-      color: var(--muted);
+    .category-label {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border-radius: 999px;
+      background: #e6f6f4;
+      color: var(--accent-dark);
+      padding: 2px 9px;
       font-size: 12px;
-      line-height: 1.4;
+      font-weight: 700;
     }
-    .engine-empty {
-      margin: 14px 0 0;
+    .guide-card h3 {
+      margin: 12px 0 7px;
+      font-size: 17px;
+      line-height: 1.3;
+    }
+    .guide-card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .guide-card a {
+      align-self: flex-start;
+      margin-top: auto;
+      color: var(--accent-dark);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .empty-state {
+      margin: 0;
       color: var(--muted);
       font-size: 14px;
     }
-    .engine-detail[hidden] {
+    .empty-state[hidden] {
       display: none;
     }
-    .engine-detail-header {
+    .article-list {
+      display: grid;
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .guide-article {
+      scroll-margin-top: 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .guide-article[hidden] {
+      display: none;
+    }
+    .article-header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       gap: 14px;
       flex-wrap: wrap;
-      padding-bottom: 14px;
+      padding: 14px;
       border-bottom: 1px solid var(--line);
     }
-    .engine-detail-header h3 {
+    .article-header h2 {
       margin: 0 0 5px;
-      font-size: 22px;
+      font-size: 20px;
+      line-height: 1.3;
     }
-    .engine-detail-header p {
+    .article-header p {
+      max-width: 850px;
       margin: 0;
       color: var(--muted);
-      line-height: 1.45;
-    }
-    .status-badge {
-      display: inline-flex;
-      align-items: center;
-      min-height: 28px;
-      max-width: 100%;
-      border: 1px solid #93c5fd;
-      border-radius: 999px;
-      background: #eff6ff;
-      color: #1d4ed8;
-      padding: 3px 10px;
-      font-size: 12px;
-      font-weight: 700;
-    }
-    .engine-spec-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      margin-top: 4px;
-    }
-    .engine-spec {
-      min-width: 0;
-      padding: 14px 14px 14px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .engine-spec:nth-child(3n+2),
-    .engine-spec:nth-child(3n+3) {
-      padding-left: 14px;
-      border-left: 1px solid var(--line);
-    }
-    .engine-spec span {
-      display: block;
-      margin-bottom: 7px;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    .engine-spec p {
-      margin: 0;
       font-size: 14px;
       line-height: 1.5;
-      overflow-wrap: anywhere;
     }
-    .engine-analysis {
+    .article-body {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0 18px;
-      margin-top: 4px;
+      grid-template-columns: minmax(0, 1.45fr) minmax(240px, 0.55fr);
+      gap: 18px;
+      padding: 14px;
     }
-    .engine-analysis section {
-      padding: 14px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .engine-analysis h4 {
-      margin: 0 0 7px;
+    .article-body h3 {
+      margin: 0 0 9px;
       font-size: 15px;
     }
-    .engine-analysis p {
+    .article-steps {
       margin: 0;
+      padding-left: 22px;
       color: #334155;
       font-size: 14px;
       line-height: 1.55;
     }
-    .engine-detail-actions {
+    .article-steps li + li {
+      margin-top: 7px;
+    }
+    .article-check {
+      padding-left: 18px;
+      border-left: 1px solid var(--line);
+    }
+    .article-check p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .tool-links {
       display: flex;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
       margin-top: 14px;
     }
-    .engine-detail-actions a {
+    .tool-link {
       display: inline-flex;
       align-items: center;
       min-height: 38px;
-      border: 1px solid var(--line);
+      border: 1px solid var(--accent);
       border-radius: 6px;
-      color: #334155;
-      background: #fff;
-      text-decoration: none;
-      padding: 0 12px;
-      font-size: 14px;
-      font-weight: 700;
-    }
-    .engine-detail-actions a.primary {
-      border-color: var(--accent);
       background: var(--accent);
       color: #fff;
+      text-decoration: none;
+      padding: 0 12px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .tool-link.secondary {
+      border-color: var(--line);
+      background: #fff;
+      color: #334155;
+    }
+    .disclaimer {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      border-radius: 8px;
+      background: var(--warning-bg);
+      color: var(--warning);
+      font-size: 14px;
+      line-height: 1.5;
     }
     @media (max-width: 900px) {
-      .note-grid {
+      .guide-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .article-body {
         grid-template-columns: 1fr;
+      }
+      .article-check {
+        padding: 14px 0 0;
+        border-top: 1px solid var(--line);
+        border-left: 0;
       }
       .langbar {
         margin-left: 0;
       }
-      .engine-match-list,
-      .engine-spec-grid,
-      .engine-analysis {
-        grid-template-columns: 1fr;
-      }
-      .engine-spec,
-      .engine-spec:nth-child(3n+2),
-      .engine-spec:nth-child(3n+3) {
-        padding: 12px 0;
-        border-left: 0;
-      }
     }
-    @media (max-width: 520px) {
+    @media (max-width: 560px) {
       h1 {
         font-size: 26px;
       }
-      input {
+      .guide-grid {
+        grid-template-columns: 1fr;
+      }
+      .search-row,
+      .clear-button {
         width: 100%;
       }
-      .engine-search-row,
-      .engine-search-button {
-        width: 100%;
+      .guide-card {
+        min-height: 0;
       }
     }
   </style>
 </head>
 <body>
   <header class="topbar">
-    <nav class="nav" aria-label="Autohub common menu">
-      <div class="brand">Autohub</div>
+    <nav class="nav" aria-label="AutoHub common menu">
+      <div class="brand">AutoHub</div>
       <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
       <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
       <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
       <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" class="active" data-i18n="engines">Engines</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
       <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
-      <a href="guides.html" data-i18n="guides">Guides</a>
+      <a href="guides.html" class="active" data-i18n="guides">Guides</a>
       <a href="about.html" data-i18n="navAbout">About</a>
       <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
       <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
@@ -440,285 +411,189 @@
   </header>
 
   <main>
-    <h1 data-i18n="title">Engine Code Search & Reliability Guide</h1>
-    <p class="lead" data-i18n="lead">Search by engine code to see construction, common problems, applications, indicative fuel consumption, strengths, weaknesses and observed service life.</p>
+    <h1 data-i18n="title">Automotive Guides & How-To Library</h1>
+    <p class="lead" data-i18n="lead">Practical step-by-step guides connected to AutoHub calculators and databases. Find the answer, then open the right tool.</p>
 
-    <section class="panel" aria-labelledby="engineFinderTitle">
-      <h2 id="engineFinderTitle" data-i18n="finderTitle">Find an engine by code</h2>
+    <section class="panel" aria-labelledby="searchTitle">
+      <div class="panel-heading">
+        <h2 id="searchTitle" data-i18n="searchTitle">Find a practical guide</h2>
+        <p data-i18n="searchLead">Search by problem, component or task.</p>
+      </div>
       <div class="panel-body">
-        <p data-i18n="finderLead">Enter an engine code or family, for example B5202S, M54, EA888, K20, G4KD or LM7.</p>
-        <div class="engine-search-row">
-          <input id="engineCodeSearch" type="search" list="engineSuggestions" placeholder="B5202S, M54, EA888, K20, G4KD, LM7" autocomplete="off">
-          <datalist id="engineSuggestions"></datalist>
-          <button type="button" class="engine-search-button" id="engineFindButton" data-i18n="finderButton">Open engine details</button>
+        <div class="search-row">
+          <input id="guideSearch" type="search" placeholder="Wheel offset, OBD2, engine code, oil approval, fuel cost" autocomplete="off">
+          <button type="button" class="clear-button" id="clearSearch" data-i18n="clearSearch">Clear</button>
         </div>
-        <div class="region-tabs" aria-label="Engine regions">
-          <button type="button" class="selected" data-engine-region="all" data-i18n="regionAll">All regions</button>
-          <button type="button" data-engine-region="europe" data-i18n="regionEurope">Europe</button>
-          <button type="button" data-engine-region="japan" data-i18n="regionJapan">Japan</button>
-          <button type="button" data-engine-region="korea" data-i18n="regionKorea">Korea</button>
-          <button type="button" data-engine-region="usa" data-i18n="regionUsa">USA</button>
+        <div class="category-tabs" aria-label="Guide categories">
+          <button type="button" class="selected" data-category="all" data-i18n="categoryAll">All</button>
+          <button type="button" data-category="wheels" data-i18n="categoryWheels">Wheels & Tires</button>
+          <button type="button" data-category="diagnostics" data-i18n="categoryDiagnostics">Diagnostics</button>
+          <button type="button" data-category="engines" data-i18n="categoryEngines">Engines</button>
+          <button type="button" data-category="oil" data-i18n="categoryOil">Motor Oil</button>
+          <button type="button" data-category="buying" data-i18n="categoryBuying">Buying a Car</button>
+          <button type="button" data-category="fuel" data-i18n="categoryFuel">Fuel Costs</button>
         </div>
-        <div class="maker-tabs" id="engineMakerTabs" aria-label="Engine makers"></div>
-        <p class="engine-search-meta" id="engineSearchMeta"></p>
-        <div class="engine-match-list" id="engineMatchList"></div>
-        <p class="engine-empty" id="engineEmpty" hidden data-i18n="finderEmpty">No matching engine code found. Try a shorter code or send a request.</p>
+        <p class="summary" id="guideSummary"></p>
       </div>
     </section>
 
-    <section class="panel engine-detail" id="engineDetail" aria-labelledby="engineDetailTitle" hidden>
-      <h2 id="engineDetailTitle" data-i18n="detailTitle">Engine details</h2>
-      <div class="panel-body" id="engineDetailContent"></div>
-    </section>
-
-    <section class="panel" aria-label="Popular engine searches">
-      <h2 data-i18n="popularTitle">Popular engine searches</h2>
+    <section class="panel" aria-labelledby="popularTitle">
+      <div class="panel-heading">
+        <h2 id="popularTitle" data-i18n="popularTitle">Popular practical guides</h2>
+      </div>
       <div class="panel-body">
-        <div class="quick-links">
-          <a href="engines.html?engine=volvo-b5202s" data-engine-link="volvo-b5202s">Volvo B5202S details</a>
-          <a href="engines.html?engine=bmw-m54" data-engine-link="bmw-m54">BMW M54 common issues</a>
-          <a href="engines.html?engine=vw-ea888" data-engine-link="vw-ea888">VW EA888 timing chain</a>
-          <a href="engines.html?engine=toyota-1zz-fe" data-engine-link="toyota-1zz-fe">Toyota 1ZZ-FE problems</a>
-          <a href="engines.html?engine=toyota-2zr-fe" data-engine-link="toyota-2zr-fe">Toyota 2ZR-FE reliability</a>
-          <a href="engines.html?engine=honda-k20" data-engine-link="honda-k20">Honda K20 engine</a>
-          <a href="engines.html?engine=nissan-vq35de" data-engine-link="nissan-vq35de">Nissan VQ35DE reliability</a>
-          <a href="engines.html?engine=hyundai-g4kd" data-engine-link="hyundai-g4kd">Hyundai G4KD problems</a>
-          <a href="engines.html?engine=gm-lm7" data-engine-link="gm-lm7">GM LM7 5.3 Vortec</a>
-          <a href="engines.html?engine=ford-coyote" data-engine-link="ford-coyote">Ford 5.0 Coyote</a>
-          <a href="engines.html?engine=chrysler-pentastar" data-engine-link="chrysler-pentastar">3.6 Pentastar V6</a>
-        </div>
+        <div class="popular-links" id="popularLinks"></div>
       </div>
     </section>
 
-    <section class="note-grid" aria-label="Catalog notes">
-      <article>
-        <h3 data-i18n="noteStructureTitle">Data structure</h3>
-        <p data-i18n="noteStructure">Official specifications, observed service-life ranges and estimated vehicle fuel consumption are kept separate.</p>
-      </article>
-      <article>
-        <h3 data-i18n="noteBuyerTitle">Buyer focus</h3>
-        <p data-i18n="noteBuyer">The goal is practical used-car research: what to check, what usually fails and how risky the unit is before purchase.</p>
-      </article>
-      <article>
-        <h3 data-i18n="noteNextTitle">Next catalog step</h3>
-        <p data-i18n="noteNext">Add engines in verified regional batches and create static SEO pages for the most searched engine codes.</p>
-      </article>
+    <section class="panel" aria-labelledby="libraryTitle">
+      <div class="panel-heading">
+        <h2 id="libraryTitle" data-i18n="libraryTitle">Guide library</h2>
+        <p data-i18n="libraryLead">Choose a guide to open its checklist and related AutoHub tools.</p>
+      </div>
+      <div class="panel-body">
+        <div class="guide-grid" id="guideCards"></div>
+        <p class="empty-state" id="emptyState" hidden data-i18n="emptyState">No guides match this search.</p>
+      </div>
     </section>
 
-    <div class="disclaimer" data-i18n="disclaimer">Starter data is under review. Observed service life is not a manufacturer guarantee, and fuel consumption depends on the vehicle, gearbox, market and use. Always verify the exact engine by VIN, model year, service documentation, recalls and professional inspection.</div>
+    <section class="article-list" id="articleList" aria-label="Practical automotive guides"></section>
+
+    <div class="disclaimer" data-i18n="disclaimer">These guides provide general reference information. Vehicle year, market, engine, trim, modifications and local regulations can change the correct procedure. Verify safety-critical work with official documentation or a qualified professional.</div>
   </main>
 
-  <script src="data/engines/europe.js?v=20260624-1"></script>
-  <script src="data/engines/japan.js?v=20260624-1"></script>
-  <script src="data/engines/korea.js?v=20260624-1"></script>
-  <script src="data/engines/usa.js?v=20260624-1"></script>
   <script>
     const translations = {
       en: {
-        tireCalculator: 'Tire Calculator',
-        pcdDatabase: 'PCD Database',
-        fuel: 'Fuel Cost Calculator',
-        diagnostics: 'Diagnostics',
-        engines: 'Engines',
-        oilGuide: 'Oil Guide',
-        guides: 'Guides',
-        navAbout: 'About',
-        navPrivacy: 'Privacy',
-        navAffiliate: 'Affiliate Disclosure',
-        navContact: 'Contact',
-        metaDescription: 'Search engine codes and compare construction, common problems, applications, fuel consumption, strengths, weaknesses and observed service life.',
-        title: 'Engine Code Search & Reliability Guide',
-        lead: 'Search by engine code to see construction, common problems, applications, indicative fuel consumption, strengths, weaknesses and observed service life.',
-        finderTitle: 'Find an engine by code',
-        finderLead: 'Enter an engine code or family, for example B5202S, M54, EA888, K20, G4KD or LM7.',
-        finderButton: 'Open engine details',
-        regionAll: 'All regions', regionEurope: 'Europe', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
-        makerAll: 'All makers',
-        finderCount: '{count} engine records available.',
-        finderEmpty: 'No matching engine code found. Try a shorter code or send a request.',
-        detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', fuelType: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
-        manufacturerLife: 'Manufacturer-declared life', observedLife: 'Observed service life', fuelConsumption: 'Indicative fuel consumption',
-        observedLifeNote: 'Non-official range reported for maintained engines; not a guarantee.',
-        fuelConsumptionNote: 'Approximate combined range across common applications; vehicle, gearbox and use change the result.',
-        construction: 'Construction features', commonIssues: 'Possible faults', pros: 'Strengths', cons: 'Weaknesses',
-        oilGuideAction: 'Open oil compatibility', requestCorrection: 'Report data or request an engine',
-        petrol: 'Petrol', diesel: 'Diesel', naturallyAspirated: 'Naturally aspirated', turbocharged: 'Turbocharged', variantDependent: 'Depends on engine version',
-        multiPointInjection: 'Multipoint injection', directInjection: 'Direct injection', variantInjection: 'MPI / GDI depending on version', commonRail: 'Common-rail direct injection',
-        aluminumLiners: 'Aluminium / light-alloy block', castIronBlock: 'Cast-iron block', timingBelt: 'Timing belt', timingChain: 'Timing chain',
-        notPublished: 'No fixed kilometre figure published', starterReview: 'Starter record - primary sources still being checked', generationCritical: 'Exact generation and suffix required', recallCheck: 'Check VIN recalls and service campaigns',
-        europe: 'Europe', japan: 'Japan', korea: 'Korea', usa: 'USA',
-        popularTitle: 'Popular engine searches',
-        maker: 'Maker',
-        years: 'Years',
-        applications: 'Common applications',
-        noteStructureTitle: 'Data structure',
-        noteStructure: 'Official specifications, observed service-life ranges and estimated vehicle fuel consumption are kept separate.',
-        noteBuyerTitle: 'Buyer focus',
-        noteBuyer: 'The goal is practical used-car research: what to check, what usually fails and how risky the unit is before purchase.',
-        noteNextTitle: 'Next catalog step',
-        noteNext: 'Add engines in verified regional batches and create static SEO pages for the most searched engine codes.',
-        disclaimer: 'Starter data is under review. Observed service life is not a manufacturer guarantee, and fuel consumption depends on the vehicle, gearbox, market and use. Always verify the exact engine by VIN, model year, service documentation, recalls and professional inspection.'
+        metaDescription: 'Practical automotive guides for wheel fitment, diagnostics, engine codes, oil approvals, used-car checks and fuel costs.',
+        tireCalculator: 'Tire Calculator', pcdDatabase: 'PCD Database', fuel: 'Fuel Cost Calculator', diagnostics: 'Diagnostics', engines: 'Engines', oilGuide: 'Oil Guide', guides: 'Guides', navAbout: 'About', navPrivacy: 'Privacy', navAffiliate: 'Affiliate Disclosure', navContact: 'Contact',
+        title: 'Automotive Guides & How-To Library',
+        lead: 'Practical step-by-step guides connected to AutoHub calculators and databases. Find the answer, then open the right tool.',
+        searchTitle: 'Find a practical guide', searchLead: 'Search by problem, component or task.', searchPlaceholder: 'Wheel offset, OBD2, engine code, oil approval, fuel cost', clearSearch: 'Clear',
+        categoryAll: 'All', categoryWheels: 'Wheels & Tires', categoryDiagnostics: 'Diagnostics', categoryEngines: 'Engines', categoryOil: 'Motor Oil', categoryBuying: 'Buying a Car', categoryFuel: 'Fuel Costs',
+        popularTitle: 'Popular practical guides', libraryTitle: 'Guide library', libraryLead: 'Choose a guide to open its checklist and related AutoHub tools.',
+        summary: '{count} practical guides shown.', emptyState: 'No guides match this search.', openGuide: 'Open guide', stepsTitle: 'Step-by-step checklist', checkTitle: 'Important check',
+        disclaimer: 'These guides provide general reference information. Vehicle year, market, engine, trim, modifications and local regulations can change the correct procedure. Verify safety-critical work with official documentation or a qualified professional.',
+        toolTire: 'Open Tire Calculator', toolPcd: 'Open PCD Database', toolDiagnostics: 'Open Diagnostics', toolEngines: 'Search Engines', toolOil: 'Open Oil Guide', toolFuel: 'Open Fuel Calculator', toolFullWheel: 'Full wheel fitment guide', toolContact: 'Report or suggest a guide'
       },
       es: {
-        tireCalculator: 'Calculadora de neumáticos',
-        pcdDatabase: 'Base PCD',
-        fuel: 'Calculadora de coste de combustible',
-        diagnostics: 'Diagnóstico',
-        engines: 'Motores',
-        oilGuide: 'Guía de aceite',
-        guides: 'Guías',
-        navAbout: 'Acerca de',
-        navPrivacy: 'Privacidad',
-        navAffiliate: 'Divulgación de afiliados',
-        navContact: 'Contacto',
-        metaDescription: 'Busca códigos de motor y compara construcción, averías, aplicaciones, consumo, ventajas, desventajas y vida observada.',
-        title: 'Buscador de códigos de motor y fiabilidad',
-        lead: 'Busca por código para ver construcción, averías, aplicaciones, consumo orientativo, ventajas, desventajas y vida útil observada.',
-        finderTitle: 'Buscar un motor por código',
-        finderLead: 'Introduce un código o familia, por ejemplo B5202S, M54, EA888, K20, G4KD o LM7.',
-        finderButton: 'Abrir detalles del motor',
-        regionAll: 'Todas las regiones', regionEurope: 'Europa', regionJapan: 'Japón', regionKorea: 'Corea', regionUsa: 'EE. UU.',
-        makerAll: 'Todas las marcas',
-        finderCount: '{count} registros de motores disponibles.',
-        finderEmpty: 'No se encontró el código. Prueba un código más corto o envía una solicitud.',
-        detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', fuelType: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
-        manufacturerLife: 'Vida declarada por fabricante', observedLife: 'Vida útil observada', fuelConsumption: 'Consumo orientativo',
-        observedLifeNote: 'Rango no oficial observado con mantenimiento; no es una garantía.',
-        fuelConsumptionNote: 'Rango combinado aproximado; vehículo, caja y uso cambian el resultado.',
-        construction: 'Características de construcción', commonIssues: 'Posibles averías', pros: 'Ventajas', cons: 'Desventajas',
-        oilGuideAction: 'Abrir compatibilidad de aceite', requestCorrection: 'Corregir datos o solicitar un motor',
-        petrol: 'Gasolina', diesel: 'Diésel', naturallyAspirated: 'Atmosférico', turbocharged: 'Turboalimentado', variantDependent: 'Depende de la versión',
-        multiPointInjection: 'Inyección multipunto', directInjection: 'Inyección directa', variantInjection: 'MPI / GDI según versión', commonRail: 'Inyección directa common rail',
-        aluminumLiners: 'Bloque de aluminio / aleación ligera', castIronBlock: 'Bloque de hierro fundido', timingBelt: 'Correa de distribución', timingChain: 'Cadena de distribución',
-        notPublished: 'No hay una cifra fija publicada', starterReview: 'Registro inicial: fuentes primarias en revisión', generationCritical: 'Se requiere generación y sufijo exactos', recallCheck: 'Comprueba campañas y llamadas por VIN',
-        europe: 'Europa', japan: 'Japón', korea: 'Corea', usa: 'EE. UU.',
-        popularTitle: 'Búsquedas populares de motores',
-        maker: 'Fabricante',
-        years: 'Años',
-        applications: 'Aplicaciones comunes',
-        noteStructureTitle: 'Estructura de datos',
-        noteStructure: 'Separamos especificaciones oficiales, vida útil observada y consumo estimado del vehículo.',
-        noteBuyerTitle: 'Enfoque de comprador',
-        noteBuyer: 'El objetivo es investigar usados: qué revisar, qué falla y cuánto riesgo tiene antes de comprar.',
-        noteNextTitle: 'Siguiente paso del catálogo',
-        noteNext: 'Añadir motores en lotes regionales verificados y crear páginas SEO para los códigos más buscados.',
-        disclaimer: 'Los datos iniciales están en revisión. La vida observada no es una garantía del fabricante y el consumo depende del vehículo, caja, mercado y uso. Verifica siempre el motor por VIN, año, documentación, campañas e inspección profesional.'
+        metaDescription: 'Guías prácticas sobre llantas, diagnóstico, códigos de motor, homologaciones de aceite, compra de usados y combustible.',
+        tireCalculator: 'Calculadora de neumáticos', pcdDatabase: 'Base PCD', fuel: 'Calculadora de combustible', diagnostics: 'Diagnóstico', engines: 'Motores', oilGuide: 'Guía de aceite', guides: 'Guías', navAbout: 'Acerca de', navPrivacy: 'Privacidad', navAffiliate: 'Divulgación de afiliados', navContact: 'Contacto',
+        title: 'Biblioteca de guías prácticas del automóvil',
+        lead: 'Guías paso a paso conectadas con las calculadoras y bases de AutoHub. Encuentra la respuesta y abre la herramienta correcta.',
+        searchTitle: 'Buscar una guía práctica', searchLead: 'Busca por problema, componente o tarea.', searchPlaceholder: 'ET de llanta, OBD2, código de motor, homologación de aceite, combustible', clearSearch: 'Limpiar',
+        categoryAll: 'Todo', categoryWheels: 'Llantas y neumáticos', categoryDiagnostics: 'Diagnóstico', categoryEngines: 'Motores', categoryOil: 'Aceite de motor', categoryBuying: 'Comprar un coche', categoryFuel: 'Coste de combustible',
+        popularTitle: 'Guías prácticas populares', libraryTitle: 'Biblioteca de guías', libraryLead: 'Elige una guía para abrir su lista y las herramientas relacionadas.',
+        summary: 'Se muestran {count} guías prácticas.', emptyState: 'Ninguna guía coincide con la búsqueda.', openGuide: 'Abrir guía', stepsTitle: 'Lista paso a paso', checkTitle: 'Comprobación importante',
+        disclaimer: 'Estas guías ofrecen información general. Año, mercado, motor, versión, modificaciones y normas locales pueden cambiar el procedimiento correcto. Confirma trabajos críticos con documentación oficial o un profesional.',
+        toolTire: 'Abrir calculadora de neumáticos', toolPcd: 'Abrir base PCD', toolDiagnostics: 'Abrir diagnóstico', toolEngines: 'Buscar motores', toolOil: 'Abrir guía de aceite', toolFuel: 'Abrir calculadora de combustible', toolFullWheel: 'Guía completa de llantas', toolContact: 'Informar o sugerir una guía'
       },
       fr: {
-        tireCalculator: 'Calculateur de pneus',
-        pcdDatabase: 'Base PCD',
-        fuel: 'Calculateur de coût carburant',
-        diagnostics: 'Diagnostic',
-        engines: 'Moteurs',
-        oilGuide: "Guide d'huile",
-        guides: 'Guides',
-        navAbout: 'À propos',
-        navPrivacy: 'Confidentialité',
-        navAffiliate: 'Divulgation d’affiliation',
-        navContact: 'Contact',
-        metaDescription: 'Recherchez les codes moteur et comparez construction, pannes, applications, consommation, points forts, faiblesses et durée observée.',
-        title: 'Recherche de codes moteur et fiabilité',
-        lead: 'Recherchez par code moteur pour voir construction, pannes, applications, consommation indicative, points forts, faiblesses et durée observée.',
-        finderTitle: 'Trouver un moteur par code',
-        finderLead: 'Entrez un code ou une famille, par exemple B5202S, M54, EA888, K20, G4KD ou LM7.',
-        finderButton: 'Ouvrir les détails du moteur',
-        regionAll: 'Toutes régions', regionEurope: 'Europe', regionJapan: 'Japon', regionKorea: 'Corée', regionUsa: 'États-Unis',
-        makerAll: 'Toutes marques',
-        finderCount: '{count} fiches moteur disponibles.',
-        finderEmpty: 'Aucun code moteur trouvé. Essayez un code plus court ou envoyez une demande.',
-        detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', fuelType: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
-        manufacturerLife: 'Durée déclarée par constructeur', observedLife: 'Durée de service observée', fuelConsumption: 'Consommation indicative',
-        observedLifeNote: 'Plage non officielle observée avec entretien ; ce n’est pas une garantie.',
-        fuelConsumptionNote: 'Plage mixte approximative ; véhicule, boîte et usage modifient le résultat.',
-        construction: 'Caractéristiques de construction', commonIssues: 'Pannes possibles', pros: 'Points forts', cons: 'Faiblesses',
-        oilGuideAction: "Ouvrir la compatibilité d'huile", requestCorrection: 'Signaler une donnée ou demander un moteur',
-        petrol: 'Essence', diesel: 'Diesel', naturallyAspirated: 'Atmosphérique', turbocharged: 'Turbocompressé', variantDependent: 'Selon la version moteur',
-        multiPointInjection: 'Injection multipoint', directInjection: 'Injection directe', variantInjection: 'MPI / GDI selon version', commonRail: 'Injection directe common rail',
-        aluminumLiners: 'Bloc aluminium / alliage léger', castIronBlock: 'Bloc en fonte', timingBelt: 'Courroie de distribution', timingChain: 'Chaîne de distribution',
-        notPublished: 'Aucun kilométrage fixe publié', starterReview: 'Fiche initiale : sources primaires en vérification', generationCritical: 'Génération et suffixe exacts requis', recallCheck: 'Vérifier rappels et campagnes par VIN',
-        europe: 'Europe', japan: 'Japon', korea: 'Corée', usa: 'États-Unis',
-        popularTitle: 'Recherches populaires de moteurs',
-        maker: 'Fabricant',
-        years: 'Années',
-        applications: 'Applications courantes',
-        noteStructureTitle: 'Structure des données',
-        noteStructure: 'Les spécifications officielles, durées observées et consommations estimées du véhicule restent séparées.',
-        noteBuyerTitle: 'Vision acheteur',
-        noteBuyer: 'Objectif: recherche occasion pratique, points à contrôler, pannes fréquentes et niveau de risque.',
-        noteNextTitle: 'Prochaine étape du catalogue',
-        noteNext: 'Ajouter les moteurs par lots régionaux vérifiés et créer des pages SEO pour les codes les plus recherchés.',
-        disclaimer: 'Les données initiales sont en révision. La durée observée n’est pas une garantie constructeur et la consommation dépend du véhicule, de la boîte, du marché et de l’usage. Vérifiez toujours par VIN, année, documents, rappels et inspection professionnelle.'
+        metaDescription: 'Guides pratiques sur jantes, diagnostic, codes moteur, homologations d’huile, achat occasion et carburant.',
+        tireCalculator: 'Calculateur de pneus', pcdDatabase: 'Base PCD', fuel: 'Calculateur de carburant', diagnostics: 'Diagnostic', engines: 'Moteurs', oilGuide: "Guide d'huile", guides: 'Guides', navAbout: 'À propos', navPrivacy: 'Confidentialité', navAffiliate: 'Divulgation d’affiliation', navContact: 'Contact',
+        title: 'Bibliothèque de guides automobiles pratiques',
+        lead: 'Guides pas à pas reliés aux calculateurs et bases AutoHub. Trouvez la réponse puis ouvrez le bon outil.',
+        searchTitle: 'Trouver un guide pratique', searchLead: 'Recherchez par problème, composant ou tâche.', searchPlaceholder: 'Déport, OBD2, code moteur, homologation huile, carburant', clearSearch: 'Effacer',
+        categoryAll: 'Tout', categoryWheels: 'Jantes et pneus', categoryDiagnostics: 'Diagnostic', categoryEngines: 'Moteurs', categoryOil: 'Huile moteur', categoryBuying: 'Acheter une voiture', categoryFuel: 'Coût carburant',
+        popularTitle: 'Guides pratiques populaires', libraryTitle: 'Bibliothèque de guides', libraryLead: 'Choisissez un guide pour ouvrir sa checklist et les outils associés.',
+        summary: '{count} guides pratiques affichés.', emptyState: 'Aucun guide ne correspond à cette recherche.', openGuide: 'Ouvrir le guide', stepsTitle: 'Checklist étape par étape', checkTitle: 'Contrôle important',
+        disclaimer: 'Ces guides donnent des informations générales. Année, marché, moteur, finition, modifications et règles locales peuvent changer la bonne procédure. Vérifiez les travaux critiques avec la documentation officielle ou un professionnel.',
+        toolTire: 'Ouvrir le calculateur pneus', toolPcd: 'Ouvrir la base PCD', toolDiagnostics: 'Ouvrir le diagnostic', toolEngines: 'Rechercher des moteurs', toolOil: "Ouvrir le guide d'huile", toolFuel: 'Ouvrir le calculateur carburant', toolFullWheel: 'Guide complet des jantes', toolContact: 'Signaler ou proposer un guide'
       },
       de: {
-        tireCalculator: 'Reifenrechner',
-        pcdDatabase: 'PCD-Datenbank',
-        fuel: 'Kraftstoffkosten-Rechner',
-        diagnostics: 'Diagnose',
-        engines: 'Motoren',
-        oilGuide: 'Öl-Ratgeber',
-        guides: 'Ratgeber',
-        navAbout: 'Über uns',
-        navPrivacy: 'Datenschutz',
-        navAffiliate: 'Affiliate-Hinweis',
-        navContact: 'Kontakt',
-        metaDescription: 'Motorcodes suchen und Aufbau, Probleme, Anwendungen, Verbrauch, Stärken, Schwächen und beobachtete Laufleistung vergleichen.',
-        title: 'Motorcode-Suche und Zuverlässigkeitsratgeber',
-        lead: 'Nach Motorcode suchen und Aufbau, Probleme, Anwendungen, Richtverbrauch, Stärken, Schwächen und beobachtete Laufleistung anzeigen.',
-        finderTitle: 'Motor nach Code finden',
-        finderLead: 'Motorcode oder Familie eingeben, zum Beispiel B5202S, M54, EA888, K20, G4KD oder LM7.',
-        finderButton: 'Motordetails öffnen',
-        regionAll: 'Alle Regionen', regionEurope: 'Europa', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
-        makerAll: 'Alle Marken',
-        finderCount: '{count} Motordatensätze verfügbar.',
-        finderEmpty: 'Kein Motorcode gefunden. Kürzeren Code versuchen oder Anfrage senden.',
-        detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', fuelType: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
-        manufacturerLife: 'Vom Hersteller genannte Laufleistung', observedLife: 'Beobachtete Laufleistung', fuelConsumption: 'Richtverbrauch',
-        observedLifeNote: 'Nichtoffizieller Bereich bei gewarteten Motoren; keine Garantie.',
-        fuelConsumptionNote: 'Ungefähre kombinierte Spanne; Fahrzeug, Getriebe und Nutzung verändern das Ergebnis.',
-        construction: 'Konstruktionsmerkmale', commonIssues: 'Mögliche Schäden', pros: 'Stärken', cons: 'Schwächen',
-        oilGuideAction: 'Ölkompatibilität öffnen', requestCorrection: 'Daten melden oder Motor anfragen',
-        petrol: 'Benzin', diesel: 'Diesel', naturallyAspirated: 'Saugmotor', turbocharged: 'Turbolader', variantDependent: 'Abhängig von Motorversion',
-        multiPointInjection: 'Saugrohreinspritzung', directInjection: 'Direkteinspritzung', variantInjection: 'MPI / GDI je nach Version', commonRail: 'Common-Rail-Direkteinspritzung',
-        aluminumLiners: 'Aluminium- / Leichtmetallblock', castIronBlock: 'Graugussblock', timingBelt: 'Zahnriemen', timingChain: 'Steuerkette',
-        notPublished: 'Keine feste Kilometerangabe veröffentlicht', starterReview: 'Starter-Datensatz: Primärquellen werden geprüft', generationCritical: 'Genaue Generation und Suffix erforderlich', recallCheck: 'VIN-Rückrufe und Serviceaktionen prüfen',
-        europe: 'Europa', japan: 'Japan', korea: 'Korea', usa: 'USA',
-        popularTitle: 'Beliebte Motorsuchen',
-        maker: 'Hersteller',
-        years: 'Baujahre',
-        applications: 'Typische Anwendungen',
-        noteStructureTitle: 'Datenstruktur',
-        noteStructure: 'Offizielle Angaben, beobachtete Laufleistung und geschätzter Fahrzeugverbrauch bleiben getrennt.',
-        noteBuyerTitle: 'Käuferfokus',
-        noteBuyer: 'Ziel ist praktische Gebrauchtwagen-Recherche: Was prüfen, was fällt aus, wie hoch ist das Risiko.',
-        noteNextTitle: 'Nächster Katalogschritt',
-        noteNext: 'Motoren in geprüften regionalen Paketen ergänzen und SEO-Seiten für häufig gesuchte Codes erstellen.',
-        disclaimer: 'Starter-Daten werden geprüft. Beobachtete Laufleistung ist keine Herstellergarantie und Verbrauch hängt von Fahrzeug, Getriebe, Markt und Nutzung ab. Motor immer per VIN, Baujahr, Unterlagen, Rückrufen und Fachprüfung bestätigen.'
+        metaDescription: 'Praktische Auto-Ratgeber zu Felgen, Diagnose, Motorcodes, Ölfreigaben, Gebrauchtwagen und Kraftstoffkosten.',
+        tireCalculator: 'Reifenrechner', pcdDatabase: 'PCD-Datenbank', fuel: 'Kraftstoffkosten-Rechner', diagnostics: 'Diagnose', engines: 'Motoren', oilGuide: 'Öl-Ratgeber', guides: 'Ratgeber', navAbout: 'Über uns', navPrivacy: 'Datenschutz', navAffiliate: 'Affiliate-Hinweis', navContact: 'Kontakt',
+        title: 'Praktische Auto-Ratgeber und Anleitungen',
+        lead: 'Schrittweise Ratgeber, verbunden mit AutoHub-Rechnern und Datenbanken. Antwort finden und direkt das passende Werkzeug öffnen.',
+        searchTitle: 'Praktischen Ratgeber finden', searchLead: 'Nach Problem, Bauteil oder Aufgabe suchen.', searchPlaceholder: 'Felgen-ET, OBD2, Motorcode, Ölfreigabe, Kraftstoffkosten', clearSearch: 'Löschen',
+        categoryAll: 'Alle', categoryWheels: 'Felgen und Reifen', categoryDiagnostics: 'Diagnose', categoryEngines: 'Motoren', categoryOil: 'Motoröl', categoryBuying: 'Autokauf', categoryFuel: 'Kraftstoffkosten',
+        popularTitle: 'Beliebte praktische Ratgeber', libraryTitle: 'Ratgeber-Bibliothek', libraryLead: 'Ratgeber auswählen und Checkliste sowie passende AutoHub-Werkzeuge öffnen.',
+        summary: '{count} praktische Ratgeber angezeigt.', emptyState: 'Keine Ratgeber passen zu dieser Suche.', openGuide: 'Ratgeber öffnen', stepsTitle: 'Schrittweise Checkliste', checkTitle: 'Wichtige Prüfung',
+        disclaimer: 'Diese Ratgeber bieten allgemeine Informationen. Baujahr, Markt, Motor, Ausstattung, Änderungen und lokale Regeln können den richtigen Ablauf ändern. Sicherheitskritische Arbeiten mit Herstellerunterlagen oder einem Fachbetrieb prüfen.',
+        toolTire: 'Reifenrechner öffnen', toolPcd: 'PCD-Datenbank öffnen', toolDiagnostics: 'Diagnose öffnen', toolEngines: 'Motoren suchen', toolOil: 'Öl-Ratgeber öffnen', toolFuel: 'Kraftstoffrechner öffnen', toolFullWheel: 'Vollständiger Felgenratgeber', toolContact: 'Ratgeber melden oder vorschlagen'
       }
     };
 
+    const guideData = [
+      {
+        id: 'wheel-fitment', category: 'wheels', search: 'wheel fitment pcd bolt pattern center bore offset et rim width tire spacer brakes suspension',
+        tools: [['pcd.html', 'toolPcd', true], ['index.html', 'toolTire', false], ['wheel-fitment-basics.html', 'toolFullWheel', false]],
+        content: {
+          en: { title: 'Check wheel fitment before buying', description: 'A complete order for checking PCD, center bore, ET, rim width, fasteners and physical clearance.', intro: 'A wheel can share the same diameter and still be unsafe or impossible to mount. Check every interface in the correct order.', steps: ['Match the PCD and number of bolts or studs exactly.', 'Confirm center bore and use only correct hub-centric rings when the wheel bore is larger.', 'Compare rim width and ET to calculate inner clearance and outer poke.', 'Confirm thread size, bolt or nut seat type and required fastener length.', 'Check brake caliper, suspension, tire-to-fender and full-steering clearance on the vehicle.'], check: 'Stop if PCD, fastener seat or brake clearance is unknown. Spacers and adapters do not automatically make an unknown setup safe.' },
+          es: { title: 'Comprobar llantas antes de comprar', description: 'Orden completo para revisar PCD, buje, ET, ancho, fijaciones y espacio físico.', intro: 'Una llanta puede tener el mismo diámetro y aun así no ser segura o no poder montarse. Comprueba cada punto en orden.', steps: ['Iguala exactamente PCD y número de tornillos o espárragos.', 'Confirma el buje central y usa solo anillos correctos si la llanta tiene un agujero mayor.', 'Compara ancho y ET para calcular espacio interior y salida exterior.', 'Confirma rosca, tipo de asiento y longitud necesaria de tornillos o tuercas.', 'Comprueba pinza de freno, suspensión, aleta y giro completo directamente en el vehículo.'], check: 'Detente si desconoces PCD, asiento o espacio de frenos. Separadores y adaptadores no convierten automáticamente una combinación desconocida en segura.' },
+          fr: { title: 'Vérifier les jantes avant achat', description: 'Ordre complet pour contrôler PCD, alésage, déport, largeur, fixations et dégagement réel.', intro: 'Une jante peut avoir le même diamètre tout en étant impossible ou dangereuse à monter. Contrôlez chaque interface dans l’ordre.', steps: ['Faire correspondre exactement le PCD et le nombre de boulons ou goujons.', 'Confirmer l’alésage et utiliser seulement les bonnes bagues si le trou de jante est plus grand.', 'Comparer largeur et déport pour calculer garde intérieure et sortie extérieure.', 'Confirmer filetage, forme du siège et longueur nécessaire des fixations.', 'Contrôler étrier, suspension, aile et braquage complet directement sur le véhicule.'], check: 'Arrêtez si PCD, siège ou dégagement des freins est inconnu. Cales et adaptateurs ne rendent pas automatiquement un montage sûr.' },
+          de: { title: 'Felgenpassung vor dem Kauf prüfen', description: 'Vollständige Reihenfolge für PCD, Mittenloch, ET, Breite, Befestigung und reale Freigängigkeit.', intro: 'Eine Felge kann denselben Durchmesser haben und trotzdem nicht montierbar oder unsicher sein. Jede Schnittstelle in Reihenfolge prüfen.', steps: ['PCD und Anzahl der Schrauben oder Stehbolzen exakt abgleichen.', 'Mittenloch prüfen und bei größerer Felgenbohrung nur passende Zentrierringe nutzen.', 'Felgenbreite und ET vergleichen, um Innenfreiheit und Außenstand zu berechnen.', 'Gewinde, Sitzform und notwendige Länge der Schrauben oder Muttern bestätigen.', 'Bremssattel, Fahrwerk, Kotflügel und vollen Lenkeinschlag am Fahrzeug prüfen.'], check: 'Bei unbekanntem PCD, Schraubensitz oder Bremsabstand stoppen. Platten und Adapter machen eine unbekannte Kombination nicht automatisch sicher.' }
+        }
+      },
+      {
+        id: 'diagnostic-adapter', category: 'diagnostics', search: 'obd obd2 elm327 kkl vag com j2534 diagnostic software adapter cable protocol driver windows coding flashing',
+        tools: [['diagnostics.html', 'toolDiagnostics', true], ['contact.html', 'toolContact', false]],
+        content: {
+          en: { title: 'Choose diagnostic software and adapter', description: 'Match vehicle year, protocol, software, cable and computer before connecting.', intro: 'Diagnostic software is useful only when the vehicle, communication protocol and adapter are compatible.', steps: ['Identify vehicle year, market and the modules you need to access.', 'Choose software that explicitly supports the brand, model generation and required task.', 'Match the adapter type: ELM327, KKL, ENET, J2534 or manufacturer-specific hardware.', 'Check operating system, USB or Bluetooth drivers and software licence requirements.', 'Begin with reading codes and live data before attempting service, coding or flashing functions.'], check: 'Coding and flashing need stable battery voltage and correct equipment. Avoid pirated builds, unknown archives and clone interfaces for high-risk work.' },
+          es: { title: 'Elegir programa y adaptador de diagnóstico', description: 'Combina año, protocolo, programa, cable y ordenador antes de conectar.', intro: 'El diagnóstico solo es útil cuando vehículo, protocolo y adaptador son compatibles.', steps: ['Identifica año, mercado y módulos que necesitas acceder.', 'Elige un programa que indique claramente marca, generación y función.', 'Combina el adaptador: ELM327, KKL, ENET, J2534 o equipo específico.', 'Comprueba sistema operativo, controladores USB o Bluetooth y licencia.', 'Empieza leyendo códigos y datos antes de servicio, codificación o programación.'], check: 'Codificar y programar requiere tensión estable y equipo correcto. Evita software pirata, archivos desconocidos y clones en trabajos de riesgo.' },
+          fr: { title: 'Choisir logiciel et adaptateur de diagnostic', description: 'Faire correspondre année, protocole, logiciel, câble et ordinateur avant connexion.', intro: 'Le diagnostic est utile seulement si véhicule, protocole et adaptateur sont compatibles.', steps: ['Identifier année, marché et calculateurs à accéder.', 'Choisir un logiciel qui prend clairement en charge marque, génération et fonction.', 'Associer le bon adaptateur : ELM327, KKL, ENET, J2534 ou matériel spécifique.', 'Vérifier système, pilotes USB ou Bluetooth et licence.', 'Commencer par codes et données live avant service, codage ou programmation.'], check: 'Codage et programmation exigent une tension stable et le bon matériel. Évitez logiciels piratés, archives inconnues et clones pour les opérations risquées.' },
+          de: { title: 'Diagnosesoftware und Adapter wählen', description: 'Baujahr, Protokoll, Software, Kabel und Computer vor dem Anschluss abgleichen.', intro: 'Diagnose ist nur nützlich, wenn Fahrzeug, Kommunikationsprotokoll und Adapter zusammenpassen.', steps: ['Baujahr, Markt und benötigte Steuergeräte bestimmen.', 'Software wählen, die Marke, Generation und Aufgabe ausdrücklich unterstützt.', 'Adaptertyp passend wählen: ELM327, KKL, ENET, J2534 oder Herstellersystem.', 'Betriebssystem, USB- oder Bluetooth-Treiber und Lizenz prüfen.', 'Mit Fehlercodes und Live-Daten beginnen, bevor Service, Codierung oder Flashen genutzt wird.'], check: 'Codieren und Flashen benötigen stabile Batteriespannung und korrektes Gerät. Raubkopien, unbekannte Archive und Klon-Interfaces bei riskanten Arbeiten meiden.' }
+        }
+      },
+      {
+        id: 'engine-code', category: 'engines', search: 'engine code number serial vin sticker block family suffix identify search motor code',
+        tools: [['engines.html', 'toolEngines', true], ['contact.html', 'toolContact', false]],
+        content: {
+          en: { title: 'Find and verify an engine code', description: 'Distinguish the engine family code from the individual serial number and verify the exact suffix.', intro: 'The engine code identifies construction and version. The serial number usually identifies one individual engine and is not enough for catalog search.', steps: ['Check the owner documentation, vehicle data label and manufacturer service information.', 'Inspect the engine label or stamped area only when its location is known for that model.', 'Record the complete code including suffix, generation and displacement.', 'Compare model year, market, power output and emissions system.', 'Search the code in AutoHub, then verify by VIN or official documentation before buying parts.'], check: 'Similar family names can hide different timing systems, injection, emissions equipment and oil requirements. Do not stop at a partial code.' },
+          es: { title: 'Encontrar y verificar el código de motor', description: 'Distingue el código de familia del número de serie individual y confirma el sufijo.', intro: 'El código identifica construcción y versión. El número de serie suele identificar un motor individual y no basta para buscar en catálogo.', steps: ['Revisa documentación, etiqueta de datos e información oficial de servicio.', 'Busca etiqueta o estampado del motor solo cuando conozcas su ubicación en ese modelo.', 'Anota el código completo con sufijo, generación y cilindrada.', 'Compara año, mercado, potencia y sistema de emisiones.', 'Busca el código en AutoHub y confirma por VIN o documentación antes de comprar piezas.'], check: 'Familias parecidas pueden tener distribución, inyección, emisiones y aceite diferentes. No te quedes con un código parcial.' },
+          fr: { title: 'Trouver et vérifier un code moteur', description: 'Distinguer le code famille du numéro de série individuel et confirmer le suffixe exact.', intro: 'Le code identifie construction et version. Le numéro de série identifie généralement un moteur individuel et ne suffit pas pour le catalogue.', steps: ['Consulter documents, étiquette véhicule et informations service constructeur.', 'Inspecter étiquette ou frappe moteur seulement si son emplacement est connu pour ce modèle.', 'Noter le code complet avec suffixe, génération et cylindrée.', 'Comparer année, marché, puissance et dépollution.', 'Rechercher dans AutoHub puis confirmer par VIN ou document officiel avant achat de pièces.'], check: 'Des familles proches peuvent cacher distribution, injection, dépollution et huile différentes. Ne vous arrêtez pas à un code partiel.' },
+          de: { title: 'Motorcode finden und bestätigen', description: 'Familiencode von individueller Seriennummer unterscheiden und das genaue Suffix prüfen.', intro: 'Der Motorcode beschreibt Bauart und Version. Die Seriennummer bezeichnet meist einen einzelnen Motor und reicht für die Katalogsuche nicht.', steps: ['Fahrzeugunterlagen, Datenträger und Hersteller-Serviceinformationen prüfen.', 'Motoraufkleber oder Einschlagstelle nur suchen, wenn deren Lage für das Modell bekannt ist.', 'Vollständigen Code mit Suffix, Generation und Hubraum notieren.', 'Baujahr, Markt, Leistung und Abgassystem vergleichen.', 'Code in AutoHub suchen und vor Teilekauf per VIN oder Herstellerunterlagen bestätigen.'], check: 'Ähnliche Familiennamen können andere Steuerung, Einspritzung, Abgastechnik und Ölvorgaben haben. Ein Teilcode reicht nicht.' }
+        }
+      },
+      {
+        id: 'oil-approval', category: 'oil', search: 'engine oil viscosity sae api acea ilsac manufacturer approval dpf gpf capacity filter compatibility',
+        tools: [['oil-guide.html', 'toolOil', true], ['engines.html', 'toolEngines', false]],
+        content: {
+          en: { title: 'Choose engine oil by approval', description: 'Use exact engine data, manufacturer approval, viscosity, emissions equipment and service-fill quantity.', intro: 'Viscosity alone does not prove compatibility. A 5W-30 oil can carry very different approvals and additive systems.', steps: ['Identify exact engine code, model year and market.', 'Find the manufacturer approval in the owner or service documentation.', 'Choose SAE viscosity allowed for climate and operating conditions.', 'Match API, ACEA or ILSAC class and confirm DPF or GPF requirements.', 'Confirm service-fill quantity, filter replacement and the correct checking procedure.'], check: 'Manufacturer approval comes before brand preference. Do not replace a required approval with a similar viscosity or marketing description.' },
+          es: { title: 'Elegir aceite por homologación', description: 'Usa motor exacto, homologación, viscosidad, emisiones y cantidad de servicio.', intro: 'La viscosidad sola no demuestra compatibilidad. Dos aceites 5W-30 pueden tener homologaciones y aditivos muy distintos.', steps: ['Identifica código exacto, año y mercado.', 'Busca la homologación del fabricante en manual o documentación de servicio.', 'Elige viscosidad SAE permitida para clima y uso.', 'Combina API, ACEA o ILSAC y confirma requisitos DPF o GPF.', 'Confirma cantidad, cambio de filtro y procedimiento correcto de nivel.'], check: 'La homologación es prioritaria a la marca. No sustituyas un requisito por viscosidad parecida o texto comercial.' },
+          fr: { title: 'Choisir l’huile par homologation', description: 'Utiliser moteur exact, homologation, viscosité, dépollution et quantité de service.', intro: 'La viscosité seule ne prouve pas la compatibilité. Deux huiles 5W-30 peuvent avoir homologations et additifs très différents.', steps: ['Identifier code moteur exact, année et marché.', 'Trouver l’homologation constructeur dans manuel ou documentation service.', 'Choisir la viscosité SAE autorisée pour climat et usage.', 'Associer API, ACEA ou ILSAC et confirmer les besoins DPF ou GPF.', 'Confirmer quantité, remplacement du filtre et procédure de niveau.'], check: 'L’homologation passe avant la marque. Ne remplacez pas une exigence par une viscosité proche ou une description commerciale.' },
+          de: { title: 'Motoröl nach Freigabe wählen', description: 'Genauen Motor, Herstellerfreigabe, Viskosität, Abgassystem und Servicefüllmenge nutzen.', intro: 'Viskosität allein beweist keine Kompatibilität. Zwei 5W-30-Öle können völlig andere Freigaben und Additive haben.', steps: ['Genauen Motorcode, Baujahr und Markt bestimmen.', 'Herstellerfreigabe in Betriebsanleitung oder Serviceunterlagen finden.', 'Für Klima und Nutzung zulässige SAE-Viskosität wählen.', 'API-, ACEA- oder ILSAC-Klasse abgleichen und DPF- oder GPF-Anforderungen prüfen.', 'Füllmenge, Filterwechsel und korrektes Messverfahren bestätigen.'], check: 'Herstellerfreigabe kommt vor Markenwunsch. Eine vorgeschriebene Freigabe nicht durch ähnliche Viskosität oder Werbetext ersetzen.' }
+        }
+      },
+      {
+        id: 'used-car-check', category: 'buying', search: 'used car buying inspection cold start diagnostics scan service history recalls leaks test drive',
+        tools: [['diagnostics.html', 'toolDiagnostics', true], ['engines.html', 'toolEngines', false]],
+        content: {
+          en: { title: 'Used-car inspection workflow', description: 'A practical order for cold start, visual checks, diagnostics, records and test drive.', intro: 'A single clean scan or short test drive does not prove a car is healthy. Use several independent checks.', steps: ['Ask to see the car cold and observe starting, smoke, noise and warning lights.', 'Inspect fluid levels, leaks, cooling system, tires, brakes and visible accident repairs.', 'Scan all available modules and note readiness monitors, stored codes and recently cleared faults.', 'Compare service records, mileage history, recalls and known engine or transmission issues.', 'Test drive until fully warm and check steering, braking, shifting, temperature and restart.'], check: 'Walk away when the seller blocks basic checks, the engine is pre-warmed without explanation, VIN history conflicts or safety faults are hidden.' },
+          es: { title: 'Proceso para revisar un coche usado', description: 'Orden práctico para arranque en frío, inspección, diagnóstico, historial y prueba.', intro: 'Un escaneo limpio o una prueba corta no demuestra que el coche esté sano. Usa comprobaciones independientes.', steps: ['Pide verlo frío y observa arranque, humo, ruidos y testigos.', 'Revisa niveles, fugas, refrigeración, neumáticos, frenos y reparaciones visibles.', 'Escanea módulos y anota monitores, códigos guardados y fallos borrados recientemente.', 'Compara historial de mantenimiento, kilometraje, campañas y problemas conocidos.', 'Prueba hasta temperatura normal y revisa dirección, frenos, cambios, temperatura y rearranque.'], check: 'Abandona si impiden revisiones básicas, el motor está caliente sin explicación, el VIN no coincide con el historial o esconden fallos de seguridad.' },
+          fr: { title: 'Méthode d’inspection d’une voiture d’occasion', description: 'Ordre pratique pour démarrage à froid, contrôle visuel, diagnostic, historique et essai.', intro: 'Un scan propre ou un court essai ne prouve pas que la voiture est saine. Utilisez plusieurs contrôles indépendants.', steps: ['Demander à voir la voiture froide et observer démarrage, fumée, bruits et voyants.', 'Contrôler niveaux, fuites, refroidissement, pneus, freins et réparations visibles.', 'Scanner les calculateurs et noter moniteurs, défauts mémorisés ou récemment effacés.', 'Comparer entretien, kilométrage, rappels et problèmes connus moteur ou boîte.', 'Essayer jusqu’à chaud et contrôler direction, freinage, passages, température et redémarrage.'], check: 'Renoncez si le vendeur bloque les contrôles, chauffe le moteur sans raison, si l’historique VIN est incohérent ou si des défauts de sécurité sont cachés.' },
+          de: { title: 'Ablauf einer Gebrauchtwagenprüfung', description: 'Praktische Reihenfolge für Kaltstart, Sichtprüfung, Diagnose, Historie und Probefahrt.', intro: 'Ein sauberer Fehlerscan oder eine kurze Probefahrt beweist keinen guten Zustand. Mehrere unabhängige Prüfungen nutzen.', steps: ['Fahrzeug kalt sehen und Start, Rauch, Geräusche und Warnlampen beobachten.', 'Flüssigkeiten, Lecks, Kühlsystem, Reifen, Bremsen und sichtbare Reparaturen prüfen.', 'Verfügbare Steuergeräte scannen und Bereitschaft, gespeicherte oder kürzlich gelöschte Fehler notieren.', 'Serviceunterlagen, Kilometerhistorie, Rückrufe und bekannte Motor- oder Getriebeprobleme vergleichen.', 'Bis Betriebstemperatur fahren und Lenkung, Bremsen, Schaltung, Temperatur und Neustart prüfen.'], check: 'Abbrechen, wenn Grundprüfungen verhindert werden, der Motor ohne Erklärung warm ist, VIN-Historie widerspricht oder Sicherheitsfehler versteckt werden.' }
+        }
+      },
+      {
+        id: 'real-fuel-cost', category: 'fuel', search: 'fuel consumption real cost trip monthly annual commute petrol diesel compare tank to tank',
+        tools: [['fuel.html', 'toolFuel', true], ['index.html', 'toolTire', false]],
+        content: {
+          en: { title: 'Calculate real fuel cost', description: 'Build a realistic trip, monthly or annual fuel budget instead of relying only on brochure figures.', intro: 'Real consumption changes with route, weather, traffic, tires, load and driving style. Use your own measured baseline when possible.', steps: ['Choose the distance and period: trip, daily commute, month or year.', 'Measure consumption tank-to-tank over several normal refills.', 'Enter the actual local fuel price and keep units consistent.', 'Compare vehicles using the same distance, price and operating conditions.', 'Review tire pressure, wheel size, load, roof equipment, traffic and seasonal temperature.'], check: 'One short journey is not a reliable average. Compare several tanks and separate city, motorway, towing or winter use when they differ strongly.' },
+          es: { title: 'Calcular el coste real de combustible', description: 'Crea un presupuesto realista de viaje, mes o año, no solo con cifras de catálogo.', intro: 'El consumo real cambia con ruta, clima, tráfico, neumáticos, carga y conducción. Usa una medida propia cuando sea posible.', steps: ['Elige distancia y periodo: viaje, trayecto diario, mes o año.', 'Mide depósito a depósito durante varios repostajes normales.', 'Introduce el precio local real y mantén unidades coherentes.', 'Compara vehículos con la misma distancia, precio y condiciones.', 'Revisa presión, tamaño de rueda, carga, techo, tráfico y temperatura estacional.'], check: 'Un viaje corto no es una media fiable. Compara varios depósitos y separa ciudad, autopista, remolque o invierno cuando cambien mucho.' },
+          fr: { title: 'Calculer le coût réel du carburant', description: 'Construire un budget réaliste par trajet, mois ou année plutôt que seulement les chiffres catalogue.', intro: 'La consommation réelle dépend route, météo, trafic, pneus, charge et conduite. Utilisez votre propre mesure si possible.', steps: ['Choisir distance et période : trajet, quotidien, mois ou année.', 'Mesurer de plein à plein sur plusieurs ravitaillements normaux.', 'Entrer le prix local réel et garder les mêmes unités.', 'Comparer les véhicules avec mêmes distance, prix et conditions.', 'Contrôler pression, dimension de roues, charge, toit, trafic et température saisonnière.'], check: 'Un court trajet ne donne pas une moyenne fiable. Comparez plusieurs pleins et séparez ville, autoroute, remorquage ou hiver si nécessaire.' },
+          de: { title: 'Reale Kraftstoffkosten berechnen', description: 'Realistisches Budget für Fahrt, Monat oder Jahr statt nur Prospektwerten erstellen.', intro: 'Realverbrauch hängt von Strecke, Wetter, Verkehr, Reifen, Beladung und Fahrweise ab. Eigene Messwerte verwenden, wenn möglich.', steps: ['Strecke und Zeitraum wählen: Fahrt, Arbeitsweg, Monat oder Jahr.', 'Verbrauch über mehrere normale Tankfüllungen von voll zu voll messen.', 'Tatsächlichen lokalen Kraftstoffpreis eingeben und Einheiten beibehalten.', 'Fahrzeuge mit gleicher Strecke, gleichem Preis und gleichen Bedingungen vergleichen.', 'Reifendruck, Radgröße, Beladung, Dachaufbauten, Verkehr und Jahreszeit prüfen.'], check: 'Eine kurze Fahrt ist kein verlässlicher Durchschnitt. Mehrere Tankfüllungen vergleichen und Stadt, Autobahn, Anhänger oder Winter getrennt betrachten.' }
+        }
+      }
+    ];
+
     const initialUrl = new URL(window.location.href);
     let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
-    let activeRegion = ['all', 'europe', 'japan', 'korea', 'usa'].includes(initialUrl.searchParams.get('region'))
-      ? initialUrl.searchParams.get('region')
+    let activeCategory = ['all', 'wheels', 'diagnostics', 'engines', 'oil', 'buying', 'fuel'].includes(initialUrl.searchParams.get('category'))
+      ? initialUrl.searchParams.get('category')
       : 'all';
-    let selectedEngineId = '';
-    const engineRecords = Object.values(window.AUTOHUB_ENGINE_DATA_REGIONS || {}).flat();
-    let activeMaker = 'all';
-    const engineCodeSearch = document.getElementById('engineCodeSearch');
-    const engineSuggestions = document.getElementById('engineSuggestions');
-    const engineFindButton = document.getElementById('engineFindButton');
-    const engineSearchMeta = document.getElementById('engineSearchMeta');
-    const engineMatchList = document.getElementById('engineMatchList');
-    const engineMakerTabs = document.getElementById('engineMakerTabs');
-    const engineEmpty = document.getElementById('engineEmpty');
-    const engineDetail = document.getElementById('engineDetail');
-    const engineDetailContent = document.getElementById('engineDetailContent');
+    const guideSearch = document.getElementById('guideSearch');
+    const guideCards = document.getElementById('guideCards');
+    const articleList = document.getElementById('articleList');
+    const popularLinks = document.getElementById('popularLinks');
+    const guideSummary = document.getElementById('guideSummary');
+    const emptyState = document.getElementById('emptyState');
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
     }
 
-    function formatSummary(template, values) {
+    function format(template, values) {
       return Object.keys(values).reduce((text, key) => text.replaceAll(`{${key}}`, values[key]), template);
     }
 
@@ -731,173 +606,97 @@
         .replaceAll("'", '&#039;');
     }
 
-    function makerSlug(value) {
-      return String(value || '')
-        .toLowerCase()
-        .replace(/&/g, 'and')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '');
+    function categoryLabel(category) {
+      const keys = { wheels: 'categoryWheels', diagnostics: 'categoryDiagnostics', engines: 'categoryEngines', oil: 'categoryOil', buying: 'categoryBuying', fuel: 'categoryFuel' };
+      return t(keys[category]);
     }
 
-    function updateFilterUrl() {
-      const url = new URL(window.location.href);
-      url.searchParams.set('lang', lang);
-      if (activeRegion !== 'all') url.searchParams.set('region', activeRegion);
-      else url.searchParams.delete('region');
-      if (activeMaker !== 'all') url.searchParams.set('maker', activeMaker);
-      else url.searchParams.delete('maker');
-      window.history.replaceState({}, '', url);
+    function localizedGuide(guide) {
+      return guide.content[lang] || guide.content.en;
     }
 
-    function engineSearchText(record) {
-      return [record.code, record.maker, record.regionKey, record.years]
-        .concat(record.aliases || [], record.applications || [])
-        .join(' ')
-        .toLowerCase();
+    function guideMatches(guide) {
+      const query = guideSearch.value.trim().toLowerCase();
+      const content = localizedGuide(guide);
+      const categoryOk = activeCategory === 'all' || guide.category === activeCategory;
+      const text = `${guide.search} ${content.title} ${content.description} ${content.intro} ${content.steps.join(' ')} ${content.check}`.toLowerCase();
+      return categoryOk && (!query || text.includes(query));
     }
 
-    function matchingEngines() {
-      const query = engineCodeSearch.value.trim().toLowerCase();
-      return engineRecords.filter((record) => {
-        const regionOk = activeRegion === 'all' || record.regionKey === activeRegion;
-        const makerOk = activeMaker === 'all' || makerSlug(record.maker) === activeMaker;
-        const queryOk = !query || engineSearchText(record).includes(query);
-        return regionOk && makerOk && queryOk;
-      });
+    function toolLinks(guide) {
+      return guide.tools.map(([href, labelKey, primary]) => `<a class="tool-link${primary ? '' : ' secondary'}" href="${escapeHtml(href)}">${escapeHtml(t(labelKey))}</a>`).join('');
     }
 
-    function renderEngineMatches() {
-      const matches = matchingEngines();
-      engineSearchMeta.textContent = formatSummary(t('finderCount'), { count: matches.length });
-      engineEmpty.hidden = matches.length > 0;
-      engineMatchList.innerHTML = matches.map((record) => `
-        <button type="button" class="engine-match${record.id === selectedEngineId ? ' selected' : ''}" data-engine-id="${escapeHtml(record.id)}">
-          <strong>${escapeHtml(record.code)}</strong>
-          <span>${escapeHtml(record.maker)} · ${escapeHtml(record.years)} · ${escapeHtml(t(record.regionKey))}</span>
-        </button>
-      `).join('');
-      engineMatchList.querySelectorAll('[data-engine-id]').forEach((button) => {
-        button.addEventListener('click', () => openEngine(button.dataset.engineId, true, true));
-      });
-    }
+    function renderGuides() {
+      const matches = guideData.filter(guideMatches);
+      guideSummary.textContent = format(t('summary'), { count: matches.length });
+      emptyState.hidden = matches.length > 0;
 
-    function makerOptionsForActiveRegion() {
-      const counts = new Map();
-      engineRecords.forEach((record) => {
-        if (activeRegion !== 'all' && record.regionKey !== activeRegion) return;
-        const slug = makerSlug(record.maker);
-        if (!counts.has(slug)) counts.set(slug, { slug, label: record.maker, count: 0 });
-        counts.get(slug).count += 1;
-      });
-      return [...counts.values()].sort((a, b) => a.label.localeCompare(b.label));
-    }
+      guideCards.innerHTML = matches.map((guide) => {
+        const content = localizedGuide(guide);
+        return `
+          <article class="guide-card" data-guide-card="${escapeHtml(guide.id)}">
+            <span class="category-label">${escapeHtml(categoryLabel(guide.category))}</span>
+            <h3>${escapeHtml(content.title)}</h3>
+            <p>${escapeHtml(content.description)}</p>
+            <a href="#${escapeHtml(guide.id)}" data-open-guide="${escapeHtml(guide.id)}">${escapeHtml(t('openGuide'))}</a>
+          </article>
+        `;
+      }).join('');
 
-    function renderMakerTabs() {
-      const makers = makerOptionsForActiveRegion();
-      if (activeMaker !== 'all' && !makers.some((maker) => maker.slug === activeMaker)) {
-        activeMaker = 'all';
-      }
-      const allCount = makers.reduce((sum, maker) => sum + maker.count, 0);
-      engineMakerTabs.innerHTML = `
-        <button type="button" class="${activeMaker === 'all' ? 'selected' : ''}" data-engine-maker="all">${escapeHtml(t('makerAll'))} (${allCount})</button>
-        ${makers.map((maker) => `
-          <button type="button" class="${activeMaker === maker.slug ? 'selected' : ''}" data-engine-maker="${escapeHtml(maker.slug)}">${escapeHtml(maker.label)} (${maker.count})</button>
-        `).join('')}
-      `;
-      engineMakerTabs.querySelectorAll('[data-engine-maker]').forEach((button) => {
-        button.addEventListener('click', () => {
-          activeMaker = button.dataset.engineMaker;
-          updateFilterUrl();
-          renderMakerTabs();
-          renderEngineMatches();
+      articleList.innerHTML = matches.map((guide) => {
+        const content = localizedGuide(guide);
+        return `
+          <article class="guide-article" id="${escapeHtml(guide.id)}" data-guide-article="${escapeHtml(guide.id)}">
+            <div class="article-header">
+              <div>
+                <span class="category-label">${escapeHtml(categoryLabel(guide.category))}</span>
+                <h2>${escapeHtml(content.title)}</h2>
+                <p>${escapeHtml(content.intro)}</p>
+              </div>
+            </div>
+            <div class="article-body">
+              <div>
+                <h3>${escapeHtml(t('stepsTitle'))}</h3>
+                <ol class="article-steps">${content.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join('')}</ol>
+                <div class="tool-links">${toolLinks(guide)}</div>
+              </div>
+              <aside class="article-check">
+                <h3>${escapeHtml(t('checkTitle'))}</h3>
+                <p>${escapeHtml(content.check)}</p>
+              </aside>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      popularLinks.innerHTML = guideData.map((guide) => {
+        const content = localizedGuide(guide);
+        return `<a href="#${escapeHtml(guide.id)}" data-open-guide="${escapeHtml(guide.id)}">${escapeHtml(content.title)}</a>`;
+      }).join('');
+
+      document.querySelectorAll('[data-open-guide]').forEach((link) => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+          const guideId = link.dataset.openGuide;
+          if (!document.getElementById(guideId)) {
+            activeCategory = 'all';
+            guideSearch.value = '';
+            document.querySelectorAll('[data-category]').forEach((button) => {
+              button.classList.toggle('selected', button.dataset.category === 'all');
+            });
+            renderGuides();
+          }
+          const target = document.getElementById(guideId);
+          if (!target) return;
+          const url = new URL(window.location.href);
+          url.searchParams.set('guide', guideId);
+          url.searchParams.set('lang', lang);
+          url.searchParams.delete('category');
+          window.history.replaceState({}, '', url);
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
       });
-    }
-
-    const initialMaker = initialUrl.searchParams.get('maker');
-    if (initialMaker && makerOptionsForActiveRegion().some((maker) => maker.slug === initialMaker)) {
-      activeMaker = initialMaker;
-    }
-
-    function specItem(label, value) {
-      return `<div class="engine-spec"><span>${escapeHtml(label)}</span><p>${value}</p></div>`;
-    }
-
-    function openEngine(engineId, updateUrl = true, scrollToResult = false) {
-      const record = engineRecords.find((item) => item.id === engineId);
-      if (!record) {
-        engineDetail.hidden = true;
-        return;
-      }
-      selectedEngineId = record.id;
-      engineCodeSearch.value = record.code;
-      const text = record.text[lang] || record.text.en;
-      const aliases = (record.aliases || []).length ? ` · ${(record.aliases || []).join(' / ')}` : '';
-      const observedValue = `${escapeHtml(record.typicalLife)}<br><small>${escapeHtml(t('observedLifeNote'))}</small>`;
-      const consumptionValue = `${escapeHtml(record.consumption)}<br><small>${escapeHtml(t('fuelConsumptionNote'))}</small>`;
-      const oilLink = record.oilRecord
-        ? `<a class="primary" href="oil-guide.html?engine=${encodeURIComponent(record.oilRecord)}&lang=${encodeURIComponent(lang)}">${escapeHtml(t('oilGuideAction'))}</a>`
-        : '';
-      const requestParams = new URLSearchParams({ lang, topic: 'engine-data', engine: record.code });
-
-      engineDetailContent.innerHTML = `
-        <div class="engine-detail-header">
-          <div>
-            <h3>${escapeHtml(record.code)}</h3>
-            <p>${escapeHtml(record.maker)}${escapeHtml(aliases)}</p>
-          </div>
-          <span class="status-badge">${escapeHtml(t(record.statusKey))}</span>
-        </div>
-        <div class="engine-spec-grid">
-          ${specItem(t('maker'), escapeHtml(record.maker))}
-          ${specItem(t('region'), escapeHtml(t(record.regionKey)))}
-          ${specItem(t('years'), escapeHtml(record.years))}
-          ${specItem(t('displacement'), escapeHtml(record.displacement))}
-          ${specItem(t('configuration'), escapeHtml(record.layout))}
-          ${specItem(t('fuelType'), escapeHtml(t(record.fuelKey)))}
-          ${specItem(t('aspiration'), escapeHtml(t(record.aspirationKey)))}
-          ${specItem(t('injection'), escapeHtml(t(record.injectionKey)))}
-          ${specItem(t('block'), escapeHtml(t(record.blockKey)))}
-          ${specItem(t('timingDrive'), escapeHtml(t(record.timingKey)))}
-          ${specItem(t('applications'), escapeHtml(record.applications.join(', ')))}
-          ${specItem(t('manufacturerLife'), escapeHtml(t(record.declaredLifeKey)))}
-          ${specItem(t('observedLife'), observedValue)}
-          ${specItem(t('fuelConsumption'), consumptionValue)}
-        </div>
-        <div class="engine-analysis">
-          <section><h4>${escapeHtml(t('construction'))}</h4><p>${escapeHtml(text.construction)}</p></section>
-          <section><h4>${escapeHtml(t('commonIssues'))}</h4><p>${escapeHtml(text.issues)}</p></section>
-          <section><h4>${escapeHtml(t('pros'))}</h4><p>${escapeHtml(text.pros)}</p></section>
-          <section><h4>${escapeHtml(t('cons'))}</h4><p>${escapeHtml(text.cons)}</p></section>
-        </div>
-        <div class="engine-detail-actions">
-          ${oilLink}
-          <a href="contact.html?${requestParams.toString()}">${escapeHtml(t('requestCorrection'))}</a>
-        </div>
-      `;
-      engineDetail.hidden = false;
-      renderEngineMatches();
-
-      if (updateUrl) {
-        const url = new URL(window.location.href);
-        url.searchParams.set('engine', record.id);
-        url.searchParams.set('lang', lang);
-        if (activeRegion !== 'all') url.searchParams.set('region', activeRegion);
-        else url.searchParams.delete('region');
-        if (activeMaker !== 'all') url.searchParams.set('maker', activeMaker);
-        else url.searchParams.delete('maker');
-        window.history.replaceState({}, '', url);
-      }
-      if (scrollToResult) engineDetail.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-
-    function openBestMatch() {
-      const query = engineCodeSearch.value.trim().toLowerCase();
-      const matches = matchingEngines();
-      const exact = matches.find((record) => record.code.toLowerCase() === query || (record.aliases || []).some((alias) => alias.toLowerCase() === query));
-      const record = exact || matches[0];
-      if (record) openEngine(record.id, true, true);
-      else engineDetail.hidden = true;
     }
 
     function translatePage() {
@@ -907,28 +706,15 @@
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });
+      guideSearch.placeholder = t('searchPlaceholder');
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
-      document.querySelectorAll('[data-engine-region]').forEach((button) => {
-        button.classList.toggle('selected', button.dataset.engineRegion === activeRegion);
+      document.querySelectorAll('[data-category]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.category === activeCategory);
       });
-      renderMakerTabs();
-      document.querySelectorAll('[data-engine-link]').forEach((link) => {
-        link.href = `engines.html?engine=${encodeURIComponent(link.dataset.engineLink)}&lang=${encodeURIComponent(lang)}`;
-      });
-      renderEngineMatches();
-      if (selectedEngineId) openEngine(selectedEngineId, false, false);
+      renderGuides();
     }
-
-    engineRecords.forEach((record) => {
-      [record.code].concat(record.aliases || []).forEach((value) => {
-        const option = document.createElement('option');
-        option.value = value;
-        option.label = `${record.maker} · ${record.code}`;
-        engineSuggestions.appendChild(option);
-      });
-    });
 
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.addEventListener('click', () => {
@@ -940,30 +726,39 @@
       });
     });
 
-    document.querySelectorAll('[data-engine-region]').forEach((button) => {
+    document.querySelectorAll('[data-category]').forEach((button) => {
       button.addEventListener('click', () => {
-        activeRegion = button.dataset.engineRegion;
-        document.querySelectorAll('[data-engine-region]').forEach((item) => {
-          item.classList.toggle('selected', item.dataset.engineRegion === activeRegion);
-        });
-        renderMakerTabs();
-        updateFilterUrl();
-        renderEngineMatches();
+        activeCategory = button.dataset.category;
+        guideSearch.value = '';
+        const url = new URL(window.location.href);
+        if (activeCategory === 'all') url.searchParams.delete('category');
+        else url.searchParams.set('category', activeCategory);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+        translatePage();
       });
     });
 
-    engineCodeSearch.addEventListener('input', renderEngineMatches);
-    engineCodeSearch.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter') openBestMatch();
+    guideSearch.addEventListener('input', renderGuides);
+    document.getElementById('clearSearch').addEventListener('click', () => {
+      guideSearch.value = '';
+      activeCategory = 'all';
+      const url = new URL(window.location.href);
+      url.searchParams.delete('category');
+      url.searchParams.delete('guide');
+      url.searchParams.set('lang', lang);
+      window.history.replaceState({}, '', url);
+      translatePage();
+      guideSearch.focus();
     });
-    engineFindButton.addEventListener('click', openBestMatch);
 
-    const requestedEngine = initialUrl.searchParams.get('engine');
-    if (requestedEngine && engineRecords.some((record) => record.id === requestedEngine)) {
-      selectedEngineId = requestedEngine;
-      engineCodeSearch.value = engineRecords.find((record) => record.id === requestedEngine).code;
-    }
     translatePage();
+    const requestedGuide = initialUrl.searchParams.get('guide');
+    if (requestedGuide && guideData.some((guide) => guide.id === requestedGuide)) {
+      window.requestAnimationFrame(() => {
+        document.getElementById(requestedGuide)?.scrollIntoView({ block: 'start' });
+      });
+    }
   </script>
 </body>
 </html>
