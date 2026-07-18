@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AutoHub privacy policy: how this static automotive website handles language preferences, contact emails, technical access data, external links and future analytics.">
+  <link rel="canonical" href="https://autocore-team.github.io/autohub/privacy.html">
+  <title>Privacy Policy | AutoHub</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 900px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+    }
+    .panel.wide {
+      grid-column: 1 / -1;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+    .panel-body p:first-child { margin-top: 0; }
+    .panel-body p:last-child { margin-bottom: 0; }
+    .panel-body ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .panel-body li + li { margin-top: 7px; }
+    .callout {
+      margin-bottom: 16px;
+      padding: 12px 14px;
+      border: 1px solid #99f6e4;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: #ecfdf5;
+      color: var(--text);
+      line-height: 1.45;
+      font-size: 14px;
+    }
+    .warning {
+      border-color: #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+    }
+    .email-box {
+      margin-top: 12px;
+      padding: 12px;
+      border: 1px solid #99f6e4;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: #ecfdf5;
+      color: var(--text);
+      word-break: break-word;
+    }
+    .email-box a {
+      color: var(--accent-dark);
+      font-weight: 700;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 22px 18px;
+      text-align: center;
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .panel.wide { grid-column: auto; }
+      .langbar { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
+      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
+      <a href="guides.html" data-i18n="guides">Guides</a>
+      <a href="about.html" data-i18n="navAbout">About</a>
+      <a href="privacy.html" class="active" data-i18n="navPrivacy">Privacy</a>
+      <a href="contact.html" data-i18n="navContact">Contact</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">Privacy Policy</h1>
+    <p class="lead" data-i18n="lead">This page explains how AutoHub handles information on this static automotive website.</p>
+
+    <section class="grid">
+      <article class="panel wide">
+        <h2 data-i18n="summaryTitle">Short version</h2>
+        <div class="panel-body">
+          <div class="callout" data-i18n="updated">Last updated: July 18, 2026.</div>
+          <p data-i18n="summaryText">AutoHub is currently a static GitHub Pages website. It does not require an account, does not ask for payment details and does not intentionally store VIN numbers or vehicle search history.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="collectTitle">Information that may be processed</h2>
+        <div class="panel-body">
+          <ul>
+            <li data-i18n="collectTechnical">Basic technical access data may be processed by the hosting provider when a page is loaded.</li>
+            <li data-i18n="collectUrl">Calculator values can appear in the page URL when you copy or share a calculation link.</li>
+            <li data-i18n="collectLanguage">The selected language may be stored in the page URL or in your browser so the site can reopen in the same language.</li>
+            <li data-i18n="collectEmail">If you contact AutoHub by email, your email address and message content are received so the request can be answered.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="purposeTitle">Why this information is used</h2>
+        <div class="panel-body">
+          <ul>
+            <li data-i18n="purposeOperate">To load the website and keep the tools working.</li>
+            <li data-i18n="purposeLanguage">To show the selected language.</li>
+            <li data-i18n="purposeShare">To let users share calculator results with URL parameters.</li>
+            <li data-i18n="purposeRespond">To respond to corrections, broken-link reports and cooperation messages.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="cookiesTitle">Cookies and local storage</h2>
+        <div class="panel-body">
+          <p data-i18n="cookiesText">AutoHub may use browser storage only for simple preferences such as language. You can clear this data in your browser settings. Advertising or analytics tools may be added later only with an updated privacy notice.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="thirdPartyTitle">External links</h2>
+        <div class="panel-body">
+          <p data-i18n="thirdPartyText">AutoHub links to external websites such as official diagnostic software pages, service portals and partner resources. Those websites have their own privacy policies and are not controlled by AutoHub.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="vinTitle">VIN and vehicle data</h2>
+        <div class="panel-body">
+          <p data-i18n="vinText">AutoHub does not currently store VIN numbers. If a VIN-related tool is added later, it should be designed to avoid storing VINs unless a clear reason and privacy notice are provided.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="rightsTitle">Your choices</h2>
+        <div class="panel-body">
+          <ul>
+            <li data-i18n="rightsClear">You can clear browser storage and URL parameters at any time.</li>
+            <li data-i18n="rightsEmail">You can avoid sending personal data by email unless it is necessary for your request.</li>
+            <li data-i18n="rightsRequest">You can contact AutoHub to ask about correction or deletion of messages you sent.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="panel wide warning">
+        <h2 data-i18n="contactTitle">Privacy contact</h2>
+        <div class="panel-body">
+          <p data-i18n="contactText">For privacy questions, corrections or deletion requests, contact AutoHub by email.</p>
+          <div class="email-box">
+            <strong data-i18n="emailLabel">Email:</strong>
+            <a href="mailto:autocore.team@gmail.com">autocore.team@gmail.com</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer data-i18n="footerText">© 2026 AutoHub. Automotive calculators, guides and reference tools.</footer>
+
+  <script>
+    const translations = {
+      en: {
+        tireCalculator: 'Tire Calculator',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Cost Calculator',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        oilGuide: 'Oil Guide',
+        guides: 'Guides',
+        navAbout: 'About',
+        navPrivacy: 'Privacy',
+        navContact: 'Contact',
+        title: 'Privacy Policy',
+        lead: 'This page explains how AutoHub handles information on this static automotive website.',
+        summaryTitle: 'Short version',
+        updated: 'Last updated: July 18, 2026.',
+        summaryText: 'AutoHub is currently a static GitHub Pages website. It does not require an account, does not ask for payment details and does not intentionally store VIN numbers or vehicle search history.',
+        collectTitle: 'Information that may be processed',
+        collectTechnical: 'Basic technical access data may be processed by the hosting provider when a page is loaded.',
+        collectUrl: 'Calculator values can appear in the page URL when you copy or share a calculation link.',
+        collectLanguage: 'The selected language may be stored in the page URL or in your browser so the site can reopen in the same language.',
+        collectEmail: 'If you contact AutoHub by email, your email address and message content are received so the request can be answered.',
+        purposeTitle: 'Why this information is used',
+        purposeOperate: 'To load the website and keep the tools working.',
+        purposeLanguage: 'To show the selected language.',
+        purposeShare: 'To let users share calculator results with URL parameters.',
+        purposeRespond: 'To respond to corrections, broken-link reports and cooperation messages.',
+        cookiesTitle: 'Cookies and local storage',
+        cookiesText: 'AutoHub may use browser storage only for simple preferences such as language. You can clear this data in your browser settings. Advertising or analytics tools may be added later only with an updated privacy notice.',
+        thirdPartyTitle: 'External links',
+        thirdPartyText: 'AutoHub links to external websites such as official diagnostic software pages, service portals and partner resources. Those websites have their own privacy policies and are not controlled by AutoHub.',
+        vinTitle: 'VIN and vehicle data',
+        vinText: 'AutoHub does not currently store VIN numbers. If a VIN-related tool is added later, it should be designed to avoid storing VINs unless a clear reason and privacy notice are provided.',
+        rightsTitle: 'Your choices',
+        rightsClear: 'You can clear browser storage and URL parameters at any time.',
+        rightsEmail: 'You can avoid sending personal data by email unless it is necessary for your request.',
+        rightsRequest: 'You can contact AutoHub to ask about correction or deletion of messages you sent.',
+        contactTitle: 'Privacy contact',
+        contactText: 'For privacy questions, corrections or deletion requests, contact AutoHub by email.',
+        emailLabel: 'Email:',
+        footerText: '© 2026 AutoHub. Automotive calculators, guides and reference tools.'
+      },
+      es: {
+        tireCalculator: 'Calculadora de neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Calculadora de combustible',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        oilGuide: 'Guía de aceite',
+        guides: 'Guías',
+        navAbout: 'Acerca de',
+        navPrivacy: 'Privacidad',
+        navContact: 'Contacto',
+        title: 'Política de privacidad',
+        lead: 'Esta página explica cómo AutoHub trata la información en este sitio automotriz estático.',
+        summaryTitle: 'Versión corta',
+        updated: 'Última actualización: 18 de julio de 2026.',
+        summaryText: 'AutoHub es actualmente un sitio estático en GitHub Pages. No requiere cuenta, no solicita datos de pago y no almacena intencionadamente números VIN ni historial de búsquedas de vehículos.',
+        collectTitle: 'Información que puede tratarse',
+        collectTechnical: 'El proveedor de alojamiento puede procesar datos técnicos básicos de acceso cuando se carga una página.',
+        collectUrl: 'Los valores de las calculadoras pueden aparecer en la URL cuando copias o compartes un enlace de cálculo.',
+        collectLanguage: 'El idioma seleccionado puede guardarse en la URL o en tu navegador para abrir el sitio en el mismo idioma.',
+        collectEmail: 'Si contactas con AutoHub por correo, se recibe tu dirección y el contenido del mensaje para poder responder.',
+        purposeTitle: 'Por qué se usa esta información',
+        purposeOperate: 'Para cargar el sitio y mantener las herramientas funcionando.',
+        purposeLanguage: 'Para mostrar el idioma seleccionado.',
+        purposeShare: 'Para permitir compartir resultados de calculadora con parámetros en la URL.',
+        purposeRespond: 'Para responder correcciones, avisos de enlaces rotos y mensajes de cooperación.',
+        cookiesTitle: 'Cookies y almacenamiento local',
+        cookiesText: 'AutoHub puede usar almacenamiento del navegador solo para preferencias simples como el idioma. Puedes borrar estos datos en la configuración del navegador. Las herramientas de publicidad o analítica podrán añadirse más adelante solo con un aviso de privacidad actualizado.',
+        thirdPartyTitle: 'Enlaces externos',
+        thirdPartyText: 'AutoHub enlaza a sitios externos como páginas oficiales de software de diagnóstico, portales de servicio y recursos de socios. Esos sitios tienen sus propias políticas de privacidad y no están controlados por AutoHub.',
+        vinTitle: 'VIN y datos del vehículo',
+        vinText: 'AutoHub no almacena actualmente números VIN. Si se añade una herramienta relacionada con VIN, debe diseñarse para evitar almacenar VIN salvo que exista una razón clara y un aviso de privacidad.',
+        rightsTitle: 'Tus opciones',
+        rightsClear: 'Puedes borrar el almacenamiento del navegador y los parámetros de la URL en cualquier momento.',
+        rightsEmail: 'Puedes evitar enviar datos personales por correo salvo que sean necesarios para tu solicitud.',
+        rightsRequest: 'Puedes contactar con AutoHub para pedir corrección o eliminación de mensajes que enviaste.',
+        contactTitle: 'Contacto de privacidad',
+        contactText: 'Para preguntas de privacidad, correcciones o solicitudes de eliminación, contacta con AutoHub por correo.',
+        emailLabel: 'Correo:',
+        footerText: '© 2026 AutoHub. Calculadoras, guías y herramientas de referencia automotrices.'
+      },
+      fr: {
+        tireCalculator: 'Calculateur de pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Calculateur de carburant',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        oilGuide: "Guide d'huile",
+        guides: 'Guides',
+        navAbout: 'À propos',
+        navPrivacy: 'Confidentialité',
+        navContact: 'Contact',
+        title: 'Politique de confidentialité',
+        lead: 'Cette page explique comment AutoHub traite les informations sur ce site automobile statique.',
+        summaryTitle: 'Version courte',
+        updated: 'Dernière mise à jour : 18 juillet 2026.',
+        summaryText: 'AutoHub est actuellement un site statique GitHub Pages. Il ne demande pas de compte, ne demande pas de données de paiement et ne stocke pas intentionnellement les numéros VIN ni l’historique de recherche véhicule.',
+        collectTitle: 'Informations pouvant être traitées',
+        collectTechnical: 'Des données techniques de base peuvent être traitées par l’hébergeur lors du chargement d’une page.',
+        collectUrl: 'Les valeurs des calculateurs peuvent apparaître dans l’URL lorsque vous copiez ou partagez un lien de calcul.',
+        collectLanguage: 'La langue choisie peut être stockée dans l’URL ou dans votre navigateur afin de rouvrir le site dans la même langue.',
+        collectEmail: 'Si vous contactez AutoHub par e-mail, votre adresse et le contenu du message sont reçus afin de répondre à la demande.',
+        purposeTitle: 'Pourquoi ces informations sont utilisées',
+        purposeOperate: 'Pour charger le site et maintenir le fonctionnement des outils.',
+        purposeLanguage: 'Pour afficher la langue sélectionnée.',
+        purposeShare: 'Pour permettre le partage de résultats de calcul avec des paramètres d’URL.',
+        purposeRespond: 'Pour répondre aux corrections, signalements de liens cassés et messages de coopération.',
+        cookiesTitle: 'Cookies et stockage local',
+        cookiesText: 'AutoHub peut utiliser le stockage du navigateur uniquement pour des préférences simples comme la langue. Vous pouvez effacer ces données dans les paramètres du navigateur. Des outils publicitaires ou analytiques pourront être ajoutés plus tard uniquement avec un avis de confidentialité mis à jour.',
+        thirdPartyTitle: 'Liens externes',
+        thirdPartyText: 'AutoHub renvoie vers des sites externes comme des pages officielles de logiciels de diagnostic, des portails de service et des ressources partenaires. Ces sites ont leurs propres politiques de confidentialité et ne sont pas contrôlés par AutoHub.',
+        vinTitle: 'VIN et données véhicule',
+        vinText: 'AutoHub ne stocke actuellement pas les numéros VIN. Si un outil lié au VIN est ajouté plus tard, il devra être conçu pour éviter le stockage des VIN sauf raison claire et avis de confidentialité.',
+        rightsTitle: 'Vos choix',
+        rightsClear: 'Vous pouvez effacer le stockage du navigateur et les paramètres d’URL à tout moment.',
+        rightsEmail: 'Vous pouvez éviter d’envoyer des données personnelles par e-mail sauf si elles sont nécessaires à votre demande.',
+        rightsRequest: 'Vous pouvez contacter AutoHub pour demander la correction ou la suppression de messages envoyés.',
+        contactTitle: 'Contact confidentialité',
+        contactText: 'Pour les questions de confidentialité, corrections ou demandes de suppression, contactez AutoHub par e-mail.',
+        emailLabel: 'E-mail :',
+        footerText: '© 2026 AutoHub. Calculateurs, guides et outils de référence automobile.'
+      },
+      de: {
+        tireCalculator: 'Reifenrechner',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Kraftstoffkosten-Rechner',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        oilGuide: 'Öl-Ratgeber',
+        guides: 'Ratgeber',
+        navAbout: 'Über uns',
+        navPrivacy: 'Datenschutz',
+        navContact: 'Kontakt',
+        title: 'Datenschutzerklärung',
+        lead: 'Diese Seite erklärt, wie AutoHub Informationen auf dieser statischen Automobil-Website behandelt.',
+        summaryTitle: 'Kurzfassung',
+        updated: 'Zuletzt aktualisiert: 18. Juli 2026.',
+        summaryText: 'AutoHub ist derzeit eine statische GitHub-Pages-Website. Sie erfordert kein Konto, fragt keine Zahlungsdaten ab und speichert VIN-Nummern oder Fahrzeugsuchverläufe nicht absichtlich.',
+        collectTitle: 'Informationen, die verarbeitet werden können',
+        collectTechnical: 'Beim Laden einer Seite können grundlegende technische Zugriffsdaten durch den Hosting-Anbieter verarbeitet werden.',
+        collectUrl: 'Rechnerwerte können in der Seiten-URL erscheinen, wenn Sie einen Berechnungslink kopieren oder teilen.',
+        collectLanguage: 'Die gewählte Sprache kann in der URL oder im Browser gespeichert werden, damit die Website in derselben Sprache geöffnet wird.',
+        collectEmail: 'Wenn Sie AutoHub per E-Mail kontaktieren, werden Ihre E-Mail-Adresse und der Nachrichteninhalt empfangen, um die Anfrage zu beantworten.',
+        purposeTitle: 'Warum diese Informationen verwendet werden',
+        purposeOperate: 'Um die Website zu laden und die Werkzeuge funktionsfähig zu halten.',
+        purposeLanguage: 'Um die ausgewählte Sprache anzuzeigen.',
+        purposeShare: 'Um Rechnerergebnisse mit URL-Parametern teilen zu können.',
+        purposeRespond: 'Um auf Korrekturen, Meldungen defekter Links und Kooperationsnachrichten zu antworten.',
+        cookiesTitle: 'Cookies und lokaler Speicher',
+        cookiesText: 'AutoHub kann Browser-Speicher nur für einfache Einstellungen wie die Sprache verwenden. Sie können diese Daten in den Browsereinstellungen löschen. Werbung oder Analysewerkzeuge können später nur mit aktualisiertem Datenschutzhinweis ergänzt werden.',
+        thirdPartyTitle: 'Externe Links',
+        thirdPartyText: 'AutoHub verlinkt auf externe Websites wie offizielle Diagnosesoftware-Seiten, Serviceportale und Partnerressourcen. Diese Websites haben eigene Datenschutzrichtlinien und werden nicht von AutoHub kontrolliert.',
+        vinTitle: 'VIN und Fahrzeugdaten',
+        vinText: 'AutoHub speichert derzeit keine VIN-Nummern. Falls später ein VIN-bezogenes Werkzeug ergänzt wird, sollte es so gestaltet werden, dass VINs nicht gespeichert werden, sofern es keinen klaren Grund und Datenschutzhinweis gibt.',
+        rightsTitle: 'Ihre Möglichkeiten',
+        rightsClear: 'Sie können Browser-Speicher und URL-Parameter jederzeit löschen.',
+        rightsEmail: 'Sie können vermeiden, personenbezogene Daten per E-Mail zu senden, sofern sie für Ihre Anfrage nicht erforderlich sind.',
+        rightsRequest: 'Sie können AutoHub kontaktieren, um Korrektur oder Löschung gesendeter Nachrichten anzufragen.',
+        contactTitle: 'Datenschutzkontakt',
+        contactText: 'Für Datenschutzfragen, Korrekturen oder Löschanfragen kontaktieren Sie AutoHub per E-Mail.',
+        emailLabel: 'E-Mail:',
+        footerText: '© 2026 AutoHub. Automobilrechner, Ratgeber und Referenzwerkzeuge.'
+      }
+    };
+
+    const initialUrl = new URL(window.location.href);
+    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = t('title') + ' | AutoHub';
+      document.querySelector('meta[name="description"]').setAttribute('content', t('lead'));
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+        translatePage();
+      });
+    });
+
+    translatePage();
+  </script>
+</body>
+</html>
