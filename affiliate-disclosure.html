@@ -1,1 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AutoHub affiliate disclosure: how partner links may support free automotive calculators, fitment data, diagnostic guides, oil recommendations and vehicle tools.">
+  <link rel="canonical" href="https://autocore-team.github.io/autohub/affiliate-disclosure.html">
+  <title>Affiliate Disclosure | AutoHub</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    .topbar {
+      background: #111827;
+      color: #fff;
+      border-bottom: 1px solid #263244;
+    }
+    .nav {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 58px;
+      padding: 0 18px;
+      overflow-x: auto;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      white-space: nowrap;
+      margin-right: 8px;
+    }
+    .nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 8px 0;
+    }
+    .nav a.active {
+      color: #5eead4;
+      border-bottom: 2px solid #5eead4;
+    }
+    .langbar {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+    .langbar button {
+      min-height: 30px;
+      border: 1px solid #334155;
+      color: #e5e7eb;
+      background: #1f2937;
+      border-radius: 6px;
+      padding: 4px 8px;
+      text-align: center;
+      font-size: 12px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .langbar button.selected {
+      background: var(--accent);
+      color: #fff;
+      border-color: #5eead4;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 0 0 20px;
+      color: var(--muted);
+      max-width: 900px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      min-width: 0;
+    }
+    .panel.wide {
+      grid-column: 1 / -1;
+    }
+    .panel h2 {
+      font-size: 16px;
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .panel-body {
+      padding: 14px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+    .panel-body p:first-child { margin-top: 0; }
+    .panel-body p:last-child { margin-bottom: 0; }
+    .panel-body ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .panel-body li + li { margin-top: 7px; }
+    .callout {
+      margin-bottom: 16px;
+      padding: 12px 14px;
+      border: 1px solid #99f6e4;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: #ecfdf5;
+      color: var(--text);
+      line-height: 1.45;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .warning {
+      border-color: #f2d493;
+      background: var(--warning-bg);
+      color: var(--warning);
+    }
+    .links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 0 14px;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .link-button.secondary {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 22px 18px;
+      text-align: center;
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .panel.wide { grid-column: auto; }
+      .langbar { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Autohub common menu">
+      <div class="brand">Autohub</div>
+      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
+      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
+      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
+      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
+      <a href="engines.html" data-i18n="engines">Engines</a>
+      <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
+      <a href="guides.html" data-i18n="guides">Guides</a>
+      <a href="about.html" data-i18n="navAbout">About</a>
+      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+      <a href="affiliate-disclosure.html" class="active" data-i18n="navAffiliate">Affiliate Disclosure</a>
+      <a href="contact.html" data-i18n="navContact">Contact</a>
+      <div class="langbar" aria-label="Language">
+        <button type="button" data-lang="en" class="selected">EN</button>
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="de">DE</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 data-i18n="title">Affiliate Disclosure</h1>
+    <p class="lead" data-i18n="lead">This page explains how AutoHub may use partner links while keeping the tools and recommendations useful, transparent and independent.</p>
+
+    <section class="grid">
+      <article class="panel wide">
+        <h2 data-i18n="summaryTitle">Short version</h2>
+        <div class="panel-body">
+          <div class="callout" data-i18n="updated">Last updated: July 18, 2026.</div>
+          <p data-i18n="summaryText">Some AutoHub pages may include affiliate links in the future. If you click such a link and buy a product or service, AutoHub may receive a commission at no extra cost to you.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="whyTitle">Why affiliate links may be used</h2>
+        <div class="panel-body">
+          <p data-i18n="whyText">AutoHub is being built as a free automotive tool portal. Partner income can help pay for hosting, data work, testing, translations and future improvements.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="whereTitle">Where links may appear</h2>
+        <div class="panel-body">
+          <ul>
+            <li data-i18n="whereTools">Diagnostic adapters, OBD2 tools and software access.</li>
+            <li data-i18n="whereParts">Vehicle parts, wheels, tires and fitment-related products.</li>
+            <li data-i18n="whereOil">Motor oil, fluids and maintenance items.</li>
+            <li data-i18n="whereReports">Vehicle history, VIN-related services or technical data providers.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="independentTitle">Editorial independence</h2>
+        <div class="panel-body">
+          <p data-i18n="independentText">Affiliate relationships should not decide whether a tool, product or service is described as suitable. AutoHub should focus on compatibility, official sources, practical usefulness and user safety.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="compatTitle">Compatibility still matters</h2>
+        <div class="panel-body">
+          <p data-i18n="compatText">Before buying anything, always check your vehicle year, engine code, VIN details, wheel fitment, oil approval, diagnostic protocol, cable type and local rules where relevant.</p>
+        </div>
+      </article>
+
+      <article class="panel warning">
+        <h2 data-i18n="softwareTitle">Diagnostic software note</h2>
+        <div class="panel-body">
+          <p data-i18n="softwareText">AutoHub should not promote pirated software, cracks, activators or unsafe downloads. Official, licensed or clearly legitimate sources should be preferred.</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 data-i18n="currentTitle">Current status</h2>
+        <div class="panel-body">
+          <p data-i18n="currentText">AutoHub may not yet contain active affiliate links. This disclosure is added early so the project is ready before monetized links are introduced.</p>
+        </div>
+      </article>
+
+      <article class="panel wide">
+        <h2 data-i18n="questionsTitle">Questions or cooperation</h2>
+        <div class="panel-body">
+          <p data-i18n="questionsText">Use the contact page to report unclear links, suggest corrections or discuss cooperation related to automotive tools, data, parts or services.</p>
+          <div class="links">
+            <a class="link-button" href="contact.html" data-i18n="openContact">Contact AutoHub</a>
+            <a class="link-button secondary" href="privacy.html" data-i18n="openPrivacy">Privacy Policy</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer data-i18n="footerText">© 2026 AutoHub. Automotive calculators, guides and reference tools.</footer>
+
+  <script>
+    const translations = {
+      en: {
+        tireCalculator: 'Tire Calculator',
+        pcdDatabase: 'PCD Database',
+        fuel: 'Fuel Cost Calculator',
+        diagnostics: 'Diagnostics',
+        engines: 'Engines',
+        oilGuide: 'Oil Guide',
+        guides: 'Guides',
+        navAbout: 'About',
+        navPrivacy: 'Privacy',
+        navAffiliate: 'Affiliate Disclosure',
+        navContact: 'Contact',
+        title: 'Affiliate Disclosure',
+        lead: 'This page explains how AutoHub may use partner links while keeping the tools and recommendations useful, transparent and independent.',
+        summaryTitle: 'Short version',
+        updated: 'Last updated: July 18, 2026.',
+        summaryText: 'Some AutoHub pages may include affiliate links in the future. If you click such a link and buy a product or service, AutoHub may receive a commission at no extra cost to you.',
+        whyTitle: 'Why affiliate links may be used',
+        whyText: 'AutoHub is being built as a free automotive tool portal. Partner income can help pay for hosting, data work, testing, translations and future improvements.',
+        whereTitle: 'Where links may appear',
+        whereTools: 'Diagnostic adapters, OBD2 tools and software access.',
+        whereParts: 'Vehicle parts, wheels, tires and fitment-related products.',
+        whereOil: 'Motor oil, fluids and maintenance items.',
+        whereReports: 'Vehicle history, VIN-related services or technical data providers.',
+        independentTitle: 'Editorial independence',
+        independentText: 'Affiliate relationships should not decide whether a tool, product or service is described as suitable. AutoHub should focus on compatibility, official sources, practical usefulness and user safety.',
+        compatTitle: 'Compatibility still matters',
+        compatText: 'Before buying anything, always check your vehicle year, engine code, VIN details, wheel fitment, oil approval, diagnostic protocol, cable type and local rules where relevant.',
+        softwareTitle: 'Diagnostic software note',
+        softwareText: 'AutoHub should not promote pirated software, cracks, activators or unsafe downloads. Official, licensed or clearly legitimate sources should be preferred.',
+        currentTitle: 'Current status',
+        currentText: 'AutoHub may not yet contain active affiliate links. This disclosure is added early so the project is ready before monetized links are introduced.',
+        questionsTitle: 'Questions or cooperation',
+        questionsText: 'Use the contact page to report unclear links, suggest corrections or discuss cooperation related to automotive tools, data, parts or services.',
+        openContact: 'Contact AutoHub',
+        openPrivacy: 'Privacy Policy',
+        footerText: '© 2026 AutoHub. Automotive calculators, guides and reference tools.'
+      },
+      es: {
+        tireCalculator: 'Calculadora de neumáticos',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Calculadora de combustible',
+        diagnostics: 'Diagnóstico',
+        engines: 'Motores',
+        oilGuide: 'Guía de aceite',
+        guides: 'Guías',
+        navAbout: 'Acerca de',
+        navPrivacy: 'Privacidad',
+        navAffiliate: 'Divulgación de afiliados',
+        navContact: 'Contacto',
+        title: 'Divulgación de afiliados',
+        lead: 'Esta página explica cómo AutoHub puede usar enlaces de afiliado manteniendo las herramientas y recomendaciones útiles, transparentes e independientes.',
+        summaryTitle: 'Versión corta',
+        updated: 'Última actualización: 18 de julio de 2026.',
+        summaryText: 'Algunas páginas de AutoHub pueden incluir enlaces de afiliado en el futuro. Si haces clic en uno de esos enlaces y compras un producto o servicio, AutoHub puede recibir una comisión sin coste adicional para ti.',
+        whyTitle: 'Por qué se pueden usar enlaces de afiliado',
+        whyText: 'AutoHub se está construyendo como un portal automotriz gratuito. Los ingresos de socios pueden ayudar a pagar alojamiento, datos, pruebas, traducciones y futuras mejoras.',
+        whereTitle: 'Dónde pueden aparecer los enlaces',
+        whereTools: 'Adaptadores de diagnóstico, herramientas OBD2 y acceso a software.',
+        whereParts: 'Piezas, ruedas, neumáticos y productos relacionados con compatibilidad.',
+        whereOil: 'Aceite de motor, fluidos y productos de mantenimiento.',
+        whereReports: 'Historial del vehículo, servicios relacionados con VIN o proveedores de datos técnicos.',
+        independentTitle: 'Independencia editorial',
+        independentText: 'Las relaciones de afiliación no deben decidir si una herramienta, producto o servicio se describe como adecuado. AutoHub debe centrarse en compatibilidad, fuentes oficiales, utilidad práctica y seguridad del usuario.',
+        compatTitle: 'La compatibilidad sigue siendo importante',
+        compatText: 'Antes de comprar, comprueba siempre el año del vehículo, código de motor, datos VIN, ajuste de ruedas, homologación de aceite, protocolo de diagnóstico, tipo de cable y normas locales cuando corresponda.',
+        softwareTitle: 'Nota sobre software de diagnóstico',
+        softwareText: 'AutoHub no debe promocionar software pirateado, cracks, activadores ni descargas inseguras. Deben preferirse fuentes oficiales, con licencia o claramente legítimas.',
+        currentTitle: 'Estado actual',
+        currentText: 'AutoHub puede no contener todavía enlaces de afiliado activos. Esta divulgación se añade pronto para que el proyecto esté listo antes de introducir enlaces monetizados.',
+        questionsTitle: 'Preguntas o cooperación',
+        questionsText: 'Usa la página de contacto para informar enlaces poco claros, sugerir correcciones o hablar de cooperación relacionada con herramientas, datos, piezas o servicios automotrices.',
+        openContact: 'Contactar con AutoHub',
+        openPrivacy: 'Política de privacidad',
+        footerText: '© 2026 AutoHub. Calculadoras, guías y herramientas de referencia automotrices.'
+      },
+      fr: {
+        tireCalculator: 'Calculateur de pneus',
+        pcdDatabase: 'Base PCD',
+        fuel: 'Calculateur de carburant',
+        diagnostics: 'Diagnostic',
+        engines: 'Moteurs',
+        oilGuide: "Guide d'huile",
+        guides: 'Guides',
+        navAbout: 'À propos',
+        navPrivacy: 'Confidentialité',
+        navAffiliate: 'Divulgation d’affiliation',
+        navContact: 'Contact',
+        title: 'Divulgation d’affiliation',
+        lead: 'Cette page explique comment AutoHub peut utiliser des liens partenaires tout en gardant les outils et recommandations utiles, transparents et indépendants.',
+        summaryTitle: 'Version courte',
+        updated: 'Dernière mise à jour : 18 juillet 2026.',
+        summaryText: 'Certaines pages AutoHub peuvent inclure des liens affiliés à l’avenir. Si vous cliquez sur un tel lien et achetez un produit ou service, AutoHub peut recevoir une commission sans coût supplémentaire pour vous.',
+        whyTitle: 'Pourquoi des liens affiliés peuvent être utilisés',
+        whyText: 'AutoHub est construit comme un portail automobile gratuit. Les revenus partenaires peuvent aider à payer l’hébergement, le travail sur les données, les tests, les traductions et les améliorations futures.',
+        whereTitle: 'Où les liens peuvent apparaître',
+        whereTools: 'Adaptateurs de diagnostic, outils OBD2 et accès logiciel.',
+        whereParts: 'Pièces, roues, pneus et produits liés à la compatibilité.',
+        whereOil: 'Huile moteur, fluides et articles d’entretien.',
+        whereReports: 'Historique du véhicule, services liés au VIN ou fournisseurs de données techniques.',
+        independentTitle: 'Indépendance éditoriale',
+        independentText: 'Les relations d’affiliation ne doivent pas décider si un outil, produit ou service est présenté comme adapté. AutoHub doit se concentrer sur la compatibilité, les sources officielles, l’utilité pratique et la sécurité de l’utilisateur.',
+        compatTitle: 'La compatibilité reste essentielle',
+        compatText: 'Avant tout achat, vérifiez toujours l’année du véhicule, le code moteur, les données VIN, la compatibilité des roues, l’homologation d’huile, le protocole de diagnostic, le type de câble et les règles locales si nécessaire.',
+        softwareTitle: 'Note sur les logiciels de diagnostic',
+        softwareText: 'AutoHub ne doit pas promouvoir les logiciels piratés, cracks, activateurs ou téléchargements dangereux. Les sources officielles, sous licence ou clairement légitimes doivent être privilégiées.',
+        currentTitle: 'État actuel',
+        currentText: 'AutoHub peut ne pas encore contenir de liens affiliés actifs. Cette divulgation est ajoutée tôt afin que le projet soit prêt avant l’introduction de liens monétisés.',
+        questionsTitle: 'Questions ou coopération',
+        questionsText: 'Utilisez la page de contact pour signaler des liens peu clairs, suggérer des corrections ou discuter d’une coopération liée aux outils, données, pièces ou services automobiles.',
+        openContact: 'Contacter AutoHub',
+        openPrivacy: 'Politique de confidentialité',
+        footerText: '© 2026 AutoHub. Calculateurs, guides et outils de référence automobile.'
+      },
+      de: {
+        tireCalculator: 'Reifenrechner',
+        pcdDatabase: 'PCD-Datenbank',
+        fuel: 'Kraftstoffkosten-Rechner',
+        diagnostics: 'Diagnose',
+        engines: 'Motoren',
+        oilGuide: 'Öl-Ratgeber',
+        guides: 'Ratgeber',
+        navAbout: 'Über uns',
+        navPrivacy: 'Datenschutz',
+        navAffiliate: 'Affiliate-Hinweis',
+        navContact: 'Kontakt',
+        title: 'Affiliate-Hinweis',
+        lead: 'Diese Seite erklärt, wie AutoHub Partnerlinks nutzen kann, während Werkzeuge und Empfehlungen nützlich, transparent und unabhängig bleiben.',
+        summaryTitle: 'Kurzfassung',
+        updated: 'Zuletzt aktualisiert: 18. Juli 2026.',
+        summaryText: 'Einige AutoHub-Seiten können in Zukunft Affiliate-Links enthalten. Wenn du auf einen solchen Link klickst und ein Produkt oder eine Dienstleistung kaufst, kann AutoHub eine Provision erhalten, ohne zusätzliche Kosten für dich.',
+        whyTitle: 'Warum Affiliate-Links verwendet werden können',
+        whyText: 'AutoHub wird als kostenloses Automobil-Toolportal aufgebaut. Partnereinnahmen können Hosting, Datenarbeit, Tests, Übersetzungen und zukünftige Verbesserungen unterstützen.',
+        whereTitle: 'Wo Links erscheinen können',
+        whereTools: 'Diagnoseadapter, OBD2-Werkzeuge und Softwarezugang.',
+        whereParts: 'Fahrzeugteile, Felgen, Reifen und Produkte zur Passgenauigkeit.',
+        whereOil: 'Motoröl, Flüssigkeiten und Wartungsartikel.',
+        whereReports: 'Fahrzeughistorie, VIN-bezogene Dienste oder Anbieter technischer Daten.',
+        independentTitle: 'Redaktionelle Unabhängigkeit',
+        independentText: 'Affiliate-Beziehungen sollen nicht bestimmen, ob ein Werkzeug, Produkt oder Dienst als passend beschrieben wird. AutoHub soll sich auf Kompatibilität, offizielle Quellen, praktischen Nutzen und Nutzersicherheit konzentrieren.',
+        compatTitle: 'Kompatibilität bleibt wichtig',
+        compatText: 'Prüfe vor jedem Kauf immer Baujahr, Motorcode, VIN-Daten, Felgenpassung, Öl-Freigabe, Diagnoseprotokoll, Kabeltyp und relevante lokale Vorschriften.',
+        softwareTitle: 'Hinweis zu Diagnosesoftware',
+        softwareText: 'AutoHub sollte keine Raubkopien, Cracks, Aktivatoren oder unsicheren Downloads bewerben. Offizielle, lizenzierte oder klar legitime Quellen sollten bevorzugt werden.',
+        currentTitle: 'Aktueller Status',
+        currentText: 'AutoHub enthält möglicherweise noch keine aktiven Affiliate-Links. Dieser Hinweis wird früh hinzugefügt, damit das Projekt bereit ist, bevor monetarisierte Links eingeführt werden.',
+        questionsTitle: 'Fragen oder Kooperation',
+        questionsText: 'Nutze die Kontaktseite, um unklare Links zu melden, Korrekturen vorzuschlagen oder Kooperationen zu Automobilwerkzeugen, Daten, Teilen oder Services zu besprechen.',
+        openContact: 'AutoHub kontaktieren',
+        openPrivacy: 'Datenschutzerklärung',
+        footerText: '© 2026 AutoHub. Automobilrechner, Ratgeber und Referenzwerkzeuge.'
+      }
+    };
+
+    const initialUrl = new URL(window.location.href);
+    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
+
+    function t(key) {
+      return translations[lang][key] || translations.en[key] || key;
+    }
+
+    function translatePage() {
+      document.documentElement.lang = lang;
+      document.title = t('title') + ' | AutoHub';
+      document.querySelector('meta[name="description"]').setAttribute('content', t('lead'));
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+        translatePage();
+      });
+    });
+
+    translatePage();
+  </script>
+</body>
+</html>
 
