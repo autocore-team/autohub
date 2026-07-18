@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://autocore-team.github.io/autohub/index.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/pcd.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/fuel.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/diagnostics.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/engines.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/oil-guide.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/guides.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/wheel-fitment-basics.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/about.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/privacy.html</loc></url>
+  <url><loc>https://autocore-team.github.io/autohub/contact.html</loc></url>
   <url><loc>https://autocore-team.github.io/autohub/pcd/volvo/s70.html</loc></url>
   <url><loc>https://autocore-team.github.io/autohub/pcd/opel/astra.html</loc></url>
   <url><loc>https://autocore-team.github.io/autohub/pcd/bmw/e46.html</loc></url>
@@ -7,4 +18,3 @@
   <url><loc>https://autocore-team.github.io/autohub/pcd/bolt-pattern/5x108.html</loc></url>
   <url><loc>https://autocore-team.github.io/autohub/pcd/bolt-pattern/5x110.html</loc></url>
 </urlset>
-
