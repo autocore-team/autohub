@@ -367,6 +367,40 @@
       margin-top: 14px;
       overflow-x: auto;
     }
+    .index-reference {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .index-reference h3 {
+      margin: 0 0 6px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+    .index-reference p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    .index-reference-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+    .reference-table-title {
+      margin: 0 0 8px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+    .index-reference .table-wrap {
+      margin-top: 8px;
+    }
+    .index-reference table {
+      min-width: 320px;
+    }
     .info {
       margin-top: 16px;
       display: grid;
@@ -532,6 +566,9 @@
         grid-template-columns: 1fr;
       }
       .marking-intro {
+        grid-template-columns: 1fr;
+      }
+      .index-reference-grid {
         grid-template-columns: 1fr;
       }
       .visual-figure + .visual-figure {
@@ -870,6 +907,66 @@
             </tbody>
           </table>
         </div>
+
+        <div class="index-reference">
+          <h3 data-i18n="loadSpeedReferenceTitle">Load and speed index quick reference</h3>
+          <p data-i18n="loadSpeedReferenceLead">Common passenger-car examples. Use tires with load and speed ratings equal to or higher than the vehicle manufacturer requires.</p>
+          <div class="index-reference-grid">
+            <div>
+              <div class="reference-table-title" data-i18n="loadIndexTitle">Load index</div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-i18n="indexColumn">Index</th>
+                      <th data-i18n="loadPerTireColumn">Load per tire</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>82</td><td>475 kg</td></tr>
+                    <tr><td>84</td><td>500 kg</td></tr>
+                    <tr><td>86</td><td>530 kg</td></tr>
+                    <tr><td>88</td><td>560 kg</td></tr>
+                    <tr><td>91</td><td>615 kg</td></tr>
+                    <tr><td>94</td><td>670 kg</td></tr>
+                    <tr><td>95</td><td>690 kg</td></tr>
+                    <tr><td>98</td><td>750 kg</td></tr>
+                    <tr><td>100</td><td>800 kg</td></tr>
+                    <tr><td>102</td><td>850 kg</td></tr>
+                    <tr><td>104</td><td>900 kg</td></tr>
+                    <tr><td>106</td><td>950 kg</td></tr>
+                    <tr><td>109</td><td>1030 kg</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <div class="reference-table-title" data-i18n="speedIndexTitle">Speed rating</div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th data-i18n="speedCodeColumn">Code</th>
+                      <th data-i18n="maxSpeedColumn">Max speed</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Q</td><td>160 km/h</td></tr>
+                    <tr><td>R</td><td>170 km/h</td></tr>
+                    <tr><td>S</td><td>180 km/h</td></tr>
+                    <tr><td>T</td><td>190 km/h</td></tr>
+                    <tr><td>H</td><td>210 km/h</td></tr>
+                    <tr><td>V</td><td>240 km/h</td></tr>
+                    <tr><td>W</td><td>270 km/h</td></tr>
+                    <tr><td>Y</td><td>300 km/h</td></tr>
+                    <tr><td>(Y)</td><td>&gt; 300 km/h</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <p class="visual-note" data-i18n="loadSpeedNote">This is a quick reference only. Always follow the load and speed rating listed in the vehicle manual, door sticker or official tire approval.</p>
+        </div>
       </div>
     </section>
 
@@ -990,6 +1087,15 @@
         markingWinterExample: 'All-season or winter tire',
         markingDirection: 'Mounting direction or outside sidewall marking for asymmetric or directional tires.',
         markingDirectionExample: 'Install as marked',
+        loadSpeedReferenceTitle: 'Load and speed index quick reference',
+        loadSpeedReferenceLead: 'Common passenger-car examples. Use tires with load and speed ratings equal to or higher than the vehicle manufacturer requires.',
+        loadIndexTitle: 'Load index',
+        speedIndexTitle: 'Speed rating',
+        indexColumn: 'Index',
+        loadPerTireColumn: 'Load per tire',
+        speedCodeColumn: 'Code',
+        maxSpeedColumn: 'Max speed',
+        loadSpeedNote: 'This is a quick reference only. Always follow the load and speed rating listed in the vehicle manual, door sticker or official tire approval.',
         noteDiameterTitle: 'Diameter tolerance',
         noteDiameter: 'A tire diameter change within about 3% is commonly treated as a practical limit, but always verify fitment for your vehicle.',
         noteOffsetTitle: 'Offset and clearance',
@@ -1095,6 +1201,15 @@
         markingWinterExample: 'Neumático para todo el año o de invierno',
         markingDirection: 'Dirección de montaje o marca de lado exterior para neumáticos asimétricos o direccionales.',
         markingDirectionExample: 'Montar según la marca',
+        loadSpeedReferenceTitle: 'Referencia rápida de índices de carga y velocidad',
+        loadSpeedReferenceLead: 'Ejemplos comunes para turismos. Usa neumáticos con índice de carga y velocidad igual o superior al requerido por el fabricante.',
+        loadIndexTitle: 'Índice de carga',
+        speedIndexTitle: 'Código de velocidad',
+        indexColumn: 'Índice',
+        loadPerTireColumn: 'Carga por neumático',
+        speedCodeColumn: 'Código',
+        maxSpeedColumn: 'Velocidad máxima',
+        loadSpeedNote: 'Es solo una referencia rápida. Sigue siempre el índice de carga y velocidad indicado en el manual, la etiqueta de la puerta o la homologación oficial.',
         noteDiameterTitle: 'Tolerancia de diámetro',
         noteDiameter: 'Un cambio de diámetro de hasta aproximadamente 3% suele tomarse como límite práctico, pero verifica siempre la compatibilidad.',
         noteOffsetTitle: 'ET y espacio',
@@ -1200,6 +1315,15 @@
         markingWinterExample: 'Pneu toutes saisons ou hiver',
         markingDirection: 'Sens de montage ou marquage côté extérieur pour pneus asymétriques ou directionnels.',
         markingDirectionExample: 'Monter selon le marquage',
+        loadSpeedReferenceTitle: 'Référence rapide des indices de charge et de vitesse',
+        loadSpeedReferenceLead: 'Exemples courants pour voitures particulières. Utilisez des pneus avec des indices de charge et de vitesse égaux ou supérieurs aux exigences du constructeur.',
+        loadIndexTitle: 'Indice de charge',
+        speedIndexTitle: 'Indice de vitesse',
+        indexColumn: 'Indice',
+        loadPerTireColumn: 'Charge par pneu',
+        speedCodeColumn: 'Code',
+        maxSpeedColumn: 'Vitesse maxi',
+        loadSpeedNote: 'Ceci est seulement une référence rapide. Respectez toujours les indices indiqués dans le manuel, l’étiquette de porte ou l’homologation officielle.',
         noteDiameterTitle: 'Tolérance de diamètre',
         noteDiameter: 'Un changement de diamètre d’environ 3% est souvent utilisé comme limite pratique, mais vérifiez toujours le montage.',
         noteOffsetTitle: 'Déport et dégagement',
@@ -1305,6 +1429,15 @@
         markingWinterExample: 'Ganzjahres- oder Winterreifen',
         markingDirection: 'Montagerichtung oder Außenseitenmarkierung für asymmetrische oder laufrichtungsgebundene Reifen.',
         markingDirectionExample: 'Nach Markierung montieren',
+        loadSpeedReferenceTitle: 'Kurzübersicht für Last- und Geschwindigkeitsindex',
+        loadSpeedReferenceLead: 'Häufige Beispiele für Pkw. Verwende Reifen mit Last- und Geschwindigkeitsindex gleich oder höher als vom Fahrzeughersteller gefordert.',
+        loadIndexTitle: 'Lastindex',
+        speedIndexTitle: 'Geschwindigkeitsindex',
+        indexColumn: 'Index',
+        loadPerTireColumn: 'Last pro Reifen',
+        speedCodeColumn: 'Code',
+        maxSpeedColumn: 'Höchstgeschwindigkeit',
+        loadSpeedNote: 'Dies ist nur eine Kurzübersicht. Maßgeblich sind immer Fahrzeughandbuch, Tür-Aufkleber oder offizielle Reifenfreigabe.',
         noteDiameterTitle: 'Durchmessertoleranz',
         noteDiameter: 'Eine Änderung des Reifendurchmessers bis etwa 3% gilt oft als praktische Grenze. Die Passung muss trotzdem am Fahrzeug geprüft werden.',
         noteOffsetTitle: 'ET und Freigängigkeit',
@@ -1628,4 +1761,5 @@
   </script>
 </body>
 </html>
+
 
