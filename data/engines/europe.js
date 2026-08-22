@@ -22,6 +22,24 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
       "Volvo V70"
     ],
     "consumption": "8-12 L/100 km",
+    "performance": {
+      "powerKw": {
+        "min": 93,
+        "max": 93,
+        "rpm": {
+          "min": 6250,
+          "max": 6250
+        }
+      },
+      "torqueNm": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
     "declaredLifeKey": "notPublished",
     "typicalLife": "300,000-450,000 km",
     "oilRecord": "volvo-s70-b5202s",
