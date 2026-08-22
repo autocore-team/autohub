@@ -508,7 +508,7 @@
     <div class="disclaimer" data-i18n="disclaimer">Starter data is under review. Observed service life is not a manufacturer guarantee, and fuel consumption depends on the vehicle, gearbox, market and use. Always verify the exact engine by VIN, model year, service documentation, recalls and professional inspection.</div>
   </main>
 
-  <script src="data/engines/europe.js?v=20260624-1"></script>
+  <script src="data/engines/europe.js?v=20260822-1"></script>
   <script src="data/engines/japan.js?v=20260624-1"></script>
   <script src="data/engines/korea.js?v=20260624-1"></script>
   <script src="data/engines/usa.js?v=20260624-1"></script>
@@ -537,7 +537,7 @@
         finderCount: '{count} engine records available.',
         browsePrompt: 'Type a code or choose a region / maker to show matching engines.',
         finderEmpty: 'No matching engine code found. Try a shorter code or send a request.',
-        detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', fuelType: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
+        detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', power: 'Power', torque: 'Torque', engineSpeed: 'Engine speed', rpmUnit: 'rpm', secondaryPowerUnit: 'hp', fuelType: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
         manufacturerLife: 'Manufacturer-declared life', observedLife: 'Observed service life', fuelConsumption: 'Indicative fuel consumption',
         observedLifeNote: 'Non-official range reported for maintained engines; not a guarantee.',
         fuelConsumptionNote: 'Approximate combined range across common applications; vehicle, gearbox and use change the result.',
@@ -583,7 +583,7 @@
         finderCount: '{count} registros de motores disponibles.',
         browsePrompt: 'Introduce un código o elige una región / marca para ver motores coincidentes.',
         finderEmpty: 'No se encontró el código. Prueba un código más corto o envía una solicitud.',
-        detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', fuelType: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
+        detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', power: 'Potencia', torque: 'Par', engineSpeed: 'Régimen', rpmUnit: 'rpm', secondaryPowerUnit: 'CV', fuelType: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
         manufacturerLife: 'Vida declarada por fabricante', observedLife: 'Vida útil observada', fuelConsumption: 'Consumo orientativo',
         observedLifeNote: 'Rango no oficial observado con mantenimiento; no es una garantía.',
         fuelConsumptionNote: 'Rango combinado aproximado; vehículo, caja y uso cambian el resultado.',
@@ -629,7 +629,7 @@
         finderCount: '{count} fiches moteur disponibles.',
         browsePrompt: 'Saisissez un code ou choisissez une région / marque pour afficher les moteurs correspondants.',
         finderEmpty: 'Aucun code moteur trouvé. Essayez un code plus court ou envoyez une demande.',
-        detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', fuelType: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
+        detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', power: 'Puissance', torque: 'Couple', engineSpeed: 'Régime moteur', rpmUnit: 'tr/min', secondaryPowerUnit: 'ch', fuelType: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
         manufacturerLife: 'Durée déclarée par constructeur', observedLife: 'Durée de service observée', fuelConsumption: 'Consommation indicative',
         observedLifeNote: 'Plage non officielle observée avec entretien ; ce n’est pas une garantie.',
         fuelConsumptionNote: 'Plage mixte approximative ; véhicule, boîte et usage modifient le résultat.',
@@ -675,7 +675,7 @@
         finderCount: '{count} Motordatensätze verfügbar.',
         browsePrompt: 'Code eingeben oder Region / Marke wählen, um passende Motoren anzuzeigen.',
         finderEmpty: 'Kein Motorcode gefunden. Kürzeren Code versuchen oder Anfrage senden.',
-        detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', fuelType: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
+        detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', power: 'Leistung', torque: 'Drehmoment', engineSpeed: 'Drehzahl', rpmUnit: 'U/min', secondaryPowerUnit: 'PS', fuelType: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
         manufacturerLife: 'Vom Hersteller genannte Laufleistung', observedLife: 'Beobachtete Laufleistung', fuelConsumption: 'Richtverbrauch',
         observedLifeNote: 'Nichtoffizieller Bereich bei gewarteten Motoren; keine Garantie.',
         fuelConsumptionNote: 'Ungefähre kombinierte Spanne; Fahrzeug, Getriebe und Nutzung verändern das Ergebnis.',
@@ -830,6 +830,63 @@
       return `<div class="engine-spec"><span>${escapeHtml(label)}</span><p>${value}</p></div>`;
     }
 
+    const KW_TO_SECONDARY_POWER_UNIT = {
+      en: 1.34102209,
+      es: 1.359621617,
+      fr: 1.359621617,
+      de: 1.359621617
+    };
+
+    function isFiniteNumber(value) {
+      return typeof value === 'number' && Number.isFinite(value);
+    }
+
+    function normalizedRange(range) {
+      if (!range || !isFiniteNumber(range.min)) return null;
+      return {
+        min: range.min,
+        max: isFiniteNumber(range.max) ? range.max : range.min
+      };
+    }
+
+    function formatNumericRange(range) {
+      const values = normalizedRange(range);
+      if (!values) return '';
+      return values.min === values.max ? String(values.min) : `${values.min}-${values.max}`;
+    }
+
+    function formatRpmNote(range) {
+      const rpmValue = formatNumericRange(range);
+      return rpmValue ? `<br><small>${escapeHtml(t('engineSpeed'))}: ${escapeHtml(rpmValue)} ${escapeHtml(t('rpmUnit'))}</small>` : '';
+    }
+
+    function formatPowerValue(powerKw) {
+      const kwValue = formatNumericRange(powerKw);
+      const values = normalizedRange(powerKw);
+      if (!kwValue || !values) return '';
+      const factor = KW_TO_SECONDARY_POWER_UNIT[lang] || KW_TO_SECONDARY_POWER_UNIT.en;
+      const minSecondaryPower = Math.round(values.min * factor);
+      const maxSecondaryPower = Math.round(values.max * factor);
+      const secondaryPowerValue = minSecondaryPower === maxSecondaryPower ? String(minSecondaryPower) : `${minSecondaryPower}-${maxSecondaryPower}`;
+      return `${escapeHtml(kwValue)} kW / ${escapeHtml(secondaryPowerValue)} ${escapeHtml(t('secondaryPowerUnit'))}${formatRpmNote(powerKw.rpm)}`;
+    }
+
+    function formatTorqueValue(torqueNm) {
+      const torqueValue = formatNumericRange(torqueNm);
+      if (!torqueValue) return '';
+      return `${escapeHtml(torqueValue)} Nm${formatRpmNote(torqueNm.rpm)}`;
+    }
+
+    function performanceSpecItems(performance) {
+      if (!performance) return '';
+      const items = [];
+      const powerValue = formatPowerValue(performance.powerKw);
+      const torqueValue = formatTorqueValue(performance.torqueNm);
+      if (powerValue) items.push(specItem(t('power'), powerValue));
+      if (torqueValue) items.push(specItem(t('torque'), torqueValue));
+      return items.join('');
+    }
+
     function openEngine(engineId, updateUrl = true, scrollToResult = false) {
       const record = engineRecords.find((item) => item.id === engineId);
       if (!record) {
@@ -842,6 +899,7 @@
       const aliases = (record.aliases || []).length ? ` · ${(record.aliases || []).join(' / ')}` : '';
       const observedValue = `${escapeHtml(record.typicalLife)}<br><small>${escapeHtml(t('observedLifeNote'))}</small>`;
       const consumptionValue = `${escapeHtml(record.consumption)}<br><small>${escapeHtml(t('fuelConsumptionNote'))}</small>`;
+      const performanceSpecs = performanceSpecItems(record.performance);
       const oilLink = record.oilRecord
         ? `<a class="primary" href="oil-guide.html?engine=${encodeURIComponent(record.oilRecord)}&lang=${encodeURIComponent(lang)}">${escapeHtml(t('oilGuideAction'))}</a>`
         : '';
@@ -861,6 +919,7 @@
           ${specItem(t('years'), escapeHtml(record.years))}
           ${specItem(t('displacement'), escapeHtml(record.displacement))}
           ${specItem(t('configuration'), escapeHtml(record.layout))}
+          ${performanceSpecs}
           ${specItem(t('fuelType'), escapeHtml(t(record.fuelKey)))}
           ${specItem(t('aspiration'), escapeHtml(t(record.aspirationKey)))}
           ${specItem(t('injection'), escapeHtml(t(record.injectionKey)))}
