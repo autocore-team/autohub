@@ -1,0 +1,14 @@
+{
+  "name": "autohub",
+  "private": true,
+  "scripts": {
+    "engines:validate": "node scripts/engines/validate-engine-data.mjs",
+    "engines:generate": "node scripts/engines/generate-engine-data.mjs",
+    "engines:generate:check": "node scripts/engines/generate-engine-data.mjs --check",
+    "engines:smoke": "node scripts/engines/smoke-test-engine-data.mjs",
+    "engines:compare": "node scripts/engines/semantic-compare-engine-data.mjs",
+    "engines:legacy-compare": "node scripts/engines/semantic-compare-engine-data.mjs --legacy-head",
+    "engines:check": "npm run engines:validate && npm run engines:generate:check && npm run engines:smoke && npm run engines:compare",
+    "test": "npm run engines:check"
+  }
+}
