@@ -115,6 +115,39 @@ Important rules:
 * Use Pull Requests for changes.
 * Keep pages mobile-friendly.
 
+## Engine Data Pipeline
+
+Engine data has four editable regional source files:
+
+* `data/engines/source/regions/europe.json`
+* `data/engines/source/regions/japan.json`
+* `data/engines/source/regions/korea.json`
+* `data/engines/source/regions/usa.json`
+
+The formal source structure is documented in:
+
+`data/engines/source/schema.json`
+
+The JSON Schema is the formal contract for documentation and editor support. `validate-engine-data.mjs` is the only executable check used by npm/CI in the current zero-dependency pipeline. It verifies that `schema.json` exists and is valid JSON, then enforces the project-specific business rules: fixed region order, exact record counts, unique IDs, legacyPending policy, and the verified Volvo B5202S source/performance constraints. When the data structure changes, update both `schema.json` and `validate-engine-data.mjs` in the same change.
+
+Generated files:
+
+* `engine-data.js`
+* `data/engines/europe.js`
+* `data/engines/japan.js`
+* `data/engines/korea.js`
+* `data/engines/usa.js`
+
+Commands:
+
+* `npm run engines:validate` checks source JSON, schema presence, counts, source status and B5202S source data.
+* `npm run engines:generate` validates source data and rebuilds generated JS from regional source files.
+* `npm run engines:generate:check` verifies generated JS is up to date.
+* `npm run engines:smoke` loads generated regional browser globals and compares them with source regions.
+* `npm run engines:compare` compares source data with generated outputs.
+* `npm run engines:legacy-compare` compares the migration against `main` for compatibility.
+* `npm run engines:check` runs the standard engine data checks.
+
 ## Contact
 
 Email: [autocore.team@gmail.com](mailto:autocore.team@gmail.com)

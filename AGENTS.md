@@ -29,6 +29,16 @@
 * Do not copy text from other websites.
 * Avoid thin duplicate pages.
 
+## Engine data pipeline
+
+* Edit engine records only in `data/engines/source/regions/*.json`.
+* Keep `data/engines/source/schema.json` aligned with the source JSON structure.
+* Treat `engine-data.js` and `data/engines/*.js` as generated files.
+* Run `npm run engines:generate` after source data changes.
+* Run `npm run engines:check` before handing off engine data changes.
+* Keep compatibility first: preserve existing engine IDs, text and record order unless a task explicitly approves a migration.
+* Add new technical specifications only when a real source is recorded in the source entry. Leave unverified legacy records as `legacyPending`.
+
 ## Current priorities
 
 1. Improve diagnostics.html.

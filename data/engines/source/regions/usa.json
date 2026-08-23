@@ -1,0 +1,1497 @@
+{
+  "schemaVersion": 1,
+  "region": "usa",
+  "records": [
+    {
+      "id": "gm-lm7",
+      "code": "LM7",
+      "aliases": [
+        "Vortec 5300",
+        "5.3 Vortec"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "1999-2007",
+      "displacement": "5.3 L · 5,328 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Silverado / Tahoe / Suburban",
+        "GMC Sierra / Yukon"
+      ],
+      "consumption": "12-18 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "350,000-500,000 km",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Gen III small-block 5.3-litre pushrod V8 with iron block, aluminium heads, multipoint injection and a compact chain-driven camshaft.",
+          "issues": "Knock-sensor water intrusion; broken exhaust-manifold bolts; intake and oil leaks; fuel-pump and ignition wear; oil pressure at high mileage.",
+          "pros": "Simple layout, strong low-speed torque, huge North American parts supply and high-mileage potential.",
+          "cons": "Fuel use is high; truck condition and cooling history matter, and neglected accessories can create many smaller repairs."
+        },
+        "es": {
+          "construction": "V8 small-block Gen III de 5.3 litros, varillas, bloque de hierro, culatas de aluminio, inyección multipunto y cadena compacta.",
+          "issues": "Agua en sensores de detonación; tornillos de escape; fugas de admisión y aceite; bomba e ignición; presión de aceite con muchos km.",
+          "pros": "Diseño simple, mucho par, enorme oferta de piezas en Norteamérica y alto kilometraje posible.",
+          "cons": "Consumo alto; importan el estado del camión y refrigeración, y los accesorios descuidados generan muchas reparaciones menores."
+        },
+        "fr": {
+          "construction": "V8 small-block Gen III 5,3 litres à tiges, bloc fonte, culasses aluminium, injection multipoint et distribution compacte par chaîne.",
+          "issues": "Eau aux capteurs de cliquetis ; vis de collecteur cassées ; fuites admission et huile ; pompe et allumage ; pression d’huile à fort kilométrage.",
+          "pros": "Architecture simple, fort couple, pièces très nombreuses en Amérique du Nord et potentiel kilométrique élevé.",
+          "cons": "Consommation élevée ; état du véhicule et refroidissement comptent, accessoires négligés créent de petites réparations."
+        },
+        "de": {
+          "construction": "Gen-III-5,3-Liter-Small-Block-V8 mit Stößelstangen, Graugussblock, Aluminiumköpfen, MPI und kompakter Kettensteuerung.",
+          "issues": "Wasser an Klopfsensoren; gebrochene Krümmerbolzen; Ansaug- und Öllecks; Kraftstoffpumpe und Zündung; Öldruck bei hoher Laufleistung.",
+          "pros": "Einfacher Aufbau, starkes Drehmoment, riesige Teileversorgung in Nordamerika und hohe Laufleistung möglich.",
+          "cons": "Hoher Verbrauch; Fahrzeugzustand und Kühlung zählen, vernachlässigte Nebenaggregate verursachen viele kleinere Reparaturen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-coyote",
+      "code": "5.0 Coyote",
+      "aliases": [
+        "Coyote",
+        "5.0 Ti-VCT"
+      ],
+      "maker": "Ford",
+      "regionKey": "usa",
+      "years": "2011-present",
+      "displacement": "5.0 L",
+      "layout": "V8 · DOHC · 32V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "variantInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford Mustang GT",
+        "F-150 5.0"
+      ],
+      "consumption": "10-16 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "ford-mustang-coyote",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Aluminium 5.0-litre DOHC 32-valve V8 with Ti-VCT and chain drive. Injection, cylinder liners and detail design changed through generations.",
+          "issues": "Water pump; VCT and timing noise; oil consumption on some versions; generation-specific cylinder or liner concerns; abuse and poor tuning.",
+          "pros": "High specific output, strong aftermarket, good breathing and broad parts support.",
+          "cons": "Generations are technically different; modified cars require careful calibration and service-history checks."
+        },
+        "es": {
+          "construction": "V8 5.0 de aluminio, DOHC 32 válvulas, Ti-VCT y cadena. Inyección, camisas y detalles cambiaron por generación.",
+          "issues": "Bomba de agua; ruido VCT y distribución; consumo en algunas versiones; cilindros o camisas según generación; abuso y mal tuning.",
+          "pros": "Alta potencia específica, enorme aftermarket, buena respiración y piezas.",
+          "cons": "Las generaciones son técnicamente distintas; coches modificados requieren revisar calibración e historial."
+        },
+        "fr": {
+          "construction": "V8 aluminium 5,0 litres DOHC 32 soupapes, Ti-VCT et chaîne. Injection, chemises et détails évoluent selon génération.",
+          "issues": "Pompe à eau ; bruit VCT et distribution ; consommation sur certaines versions ; cylindres ou chemises selon génération ; mauvais tuning.",
+          "pros": "Puissance spécifique élevée, grand aftermarket, bonne respiration et pièces nombreuses.",
+          "cons": "Les générations sont techniquement différentes ; les voitures modifiées exigent contrôle de calibration et historique."
+        },
+        "de": {
+          "construction": "5,0-Liter-Aluminium-DOHC-32V-V8 mit Ti-VCT und Kette. Einspritzung, Laufbahnen und Details änderten sich je Generation.",
+          "issues": "Wasserpumpe; VCT- und Steuergeräusche; Ölverbrauch bei manchen Versionen; generationsbezogene Zylinderfragen; Missbrauch und schlechtes Tuning.",
+          "pros": "Hohe spezifische Leistung, großer Zubehörmarkt, guter Gaswechsel und Teileversorgung.",
+          "cons": "Generationen sind technisch verschieden; modifizierte Autos brauchen genaue Kalibrierungs- und Historienprüfung."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "chrysler-pentastar",
+      "code": "3.6 Pentastar",
+      "aliases": [
+        "Pentastar V6",
+        "ERB"
+      ],
+      "maker": "Chrysler / Stellantis",
+      "regionKey": "usa",
+      "years": "2011-present",
+      "displacement": "3.6 L · 3,604 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Jeep Wrangler / Grand Cherokee",
+        "Dodge Charger / Durango",
+        "Chrysler 300",
+        "Ram 1500"
+      ],
+      "consumption": "9-14 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "chrysler-pentastar-36",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Aluminium 3.6-litre DOHC 24-valve V6 with variable timing, multipoint injection and chain-driven camshafts.",
+          "issues": "Early left-cylinder-head issues; rocker and cam wear; plastic oil-cooler and filter housing leaks; water pump; cooling-system air or leaks.",
+          "pros": "Widely used, good power for size, many service parts and no turbo on most applications.",
+          "cons": "Oil-cooler housing and valvetrain repairs can be labour-intensive; vehicle packaging changes access significantly."
+        },
+        "es": {
+          "construction": "V6 3.6 de aluminio, DOHC 24 válvulas, distribución variable, inyección multipunto y cadenas.",
+          "issues": "Culata izquierda temprana; balancines y levas; fugas en enfriador y carcasa de filtro plásticos; bomba; aire o fugas de refrigeración.",
+          "pros": "Muy usado, buena potencia, muchas piezas y sin turbo en la mayoría.",
+          "cons": "Enfriador y distribución pueden requerir mucha mano de obra; el acceso cambia mucho según el vehículo."
+        },
+        "fr": {
+          "construction": "V6 aluminium 3,6 litres DOHC 24 soupapes, calage variable, injection multipoint et arbres entraînés par chaînes.",
+          "issues": "Culasse gauche sur premières séries ; culbuteurs et cames ; boîtier plastique refroidisseur-filtre ; pompe ; air ou fuites de refroidissement.",
+          "pros": "Très répandu, bonne puissance, pièces nombreuses et sans turbo dans la plupart des applications.",
+          "cons": "Refroidisseur et distribution peuvent demander beaucoup de main-d’œuvre ; l’accès varie fortement selon véhicule."
+        },
+        "de": {
+          "construction": "3,6-Liter-Aluminium-DOHC-24V-V6 mit variablen Steuerzeiten, MPI und kettengetriebenen Nockenwellen.",
+          "issues": "Früher linker Zylinderkopf; Kipphebel und Nocken; Kunststoff-Ölkühler-Filtergehäuse; Wasserpumpe; Luft oder Lecks im Kühlsystem.",
+          "pros": "Weit verbreitet, gute Leistung, viele Serviceteile und meist ohne Turbo.",
+          "cons": "Ölkühlergehäuse und Ventiltrieb können arbeitsintensiv sein; Einbauraum unterscheidet sich stark nach Fahrzeug."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-l83",
+      "code": "L83 5.3 EcoTec3",
+      "aliases": [
+        "L83",
+        "5.3 EcoTec3"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2014-2019",
+      "displacement": "5.3 L · 5,328 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "directInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Silverado / Tahoe / Suburban",
+        "GMC Sierra / Yukon"
+      ],
+      "consumption": "12-18 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "gm-truck-l83",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Gen V 5.3-litre aluminium pushrod V8 with direct injection, variable cam timing, Active Fuel Management and timing chain.",
+          "issues": "AFM lifter and cam wear; oil consumption; direct-injection injectors and high-pressure pump; vacuum pump; thermostat and cooling leaks.",
+          "pros": "Strong truck torque, compact V8 packaging, large North American parts supply and good highway durability.",
+          "cons": "AFM and direct injection add complexity compared with LM7; service history and oil-change quality strongly affect lifters."
+        },
+        "es": {
+          "construction": "V8 Gen V 5.3 de aluminio, varillas, inyección directa, árbol variable, AFM y cadena.",
+          "issues": "Taqués AFM y levas; consumo; inyectores y bomba de alta; bomba de vacío; termostato y fugas.",
+          "pros": "Mucho par, V8 compacto, enorme oferta de piezas y buena duración en carretera.",
+          "cons": "AFM e inyección directa añaden complejidad frente a LM7; historial y aceite afectan mucho a taqués."
+        },
+        "fr": {
+          "construction": "V8 Gen V aluminium 5,3 litres à tiges, injection directe, calage variable, AFM et chaîne.",
+          "issues": "Poussoirs AFM et cames ; consommation ; injecteurs et pompe haute pression ; pompe à vide ; thermostat et fuites.",
+          "pros": "Fort couple, V8 compact, pièces très nombreuses et bonne endurance routière.",
+          "cons": "AFM et injection directe ajoutent de la complexité face au LM7 ; entretien d’huile crucial pour les poussoirs."
+        },
+        "de": {
+          "construction": "Gen-V-5,3-Liter-Aluminium-Stößelstangen-V8 mit Direkteinspritzung, variabler Nockensteuerung, AFM und Kette.",
+          "issues": "AFM-Stößel und Nocken; Ölverbrauch; DI-Injektoren und Hochdruckpumpe; Vakuumpumpe; Thermostat und Lecks.",
+          "pros": "Starkes Truck-Drehmoment, kompakter V8, riesige Teileversorgung und gute Langstreckenhaltbarkeit.",
+          "cons": "AFM und DI sind komplexer als beim LM7; Historie und Ölwechselqualität beeinflussen Stößel stark."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-lfx",
+      "code": "LFX 3.6",
+      "aliases": [
+        "3.6 HFV6",
+        "LFX V6"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2012-2020",
+      "displacement": "3.6 L · 3,564 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "directInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Camaro / Impala / Traverse",
+        "Cadillac ATS / CTS / SRX",
+        "Buick LaCrosse"
+      ],
+      "consumption": "9-14 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "gm-lfx-36",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "High Feature 3.6-litre aluminium DOHC V6 with direct injection, variable timing and multiple timing chains.",
+          "issues": "Chain wear when oil service is extended; PCV restriction and oil use; water pump; thermostat; intake deposits and high-pressure fuel components.",
+          "pros": "Good power without turbocharging, broad GM application and improved design over some earlier HFV6 versions.",
+          "cons": "Chain system is complex and oil-sensitive; transverse applications can make cooling and timing work expensive."
+        },
+        "es": {
+          "construction": "V6 High Feature 3.6 de aluminio, DOHC, inyección directa, distribución variable y varias cadenas.",
+          "issues": "Desgaste de cadenas con aceite prolongado; PCV y consumo; bomba; termostato; depósitos y alta presión.",
+          "pros": "Buena potencia sin turbo, uso amplio GM y mejoras frente a HFV6 anteriores.",
+          "cons": "Cadenas complejas y sensibles al aceite; montaje transversal encarece refrigeración y distribución."
+        },
+        "fr": {
+          "construction": "V6 High Feature aluminium 3,6 litres DOHC, injection directe, calage variable et plusieurs chaînes.",
+          "issues": "Usure chaînes avec intervalles longs ; PCV et consommation ; pompe ; thermostat ; dépôts et haute pression.",
+          "pros": "Bonne puissance sans turbo, large usage GM et améliorations face aux anciens HFV6.",
+          "cons": "Distribution complexe et sensible à l’huile ; montage transversal rend refroidissement et chaînes coûteux."
+        },
+        "de": {
+          "construction": "High-Feature-3,6-Liter-Aluminium-DOHC-V6 mit Direkteinspritzung, variablen Steuerzeiten und mehreren Ketten.",
+          "issues": "Kettenverschleiß bei langen Ölintervallen; PCV und Ölverbrauch; Wasserpumpe; Thermostat; Ablagerungen und Hochdrucksystem.",
+          "pros": "Gute Leistung ohne Turbo, breite GM-Nutzung und Verbesserungen gegenüber älteren HFV6.",
+          "cons": "Komplexes, ölempfindliches Kettensystem; Quereinbau verteuert Kühl- und Steuerarbeiten."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-23-ecoboost",
+      "code": "2.3 EcoBoost",
+      "aliases": [
+        "EcoBoost 2.3",
+        "2.3L EcoBoost"
+      ],
+      "maker": "Ford",
+      "regionKey": "usa",
+      "years": "2015-present",
+      "displacement": "2.3 L · 2,261 cc",
+      "layout": "I4 · DOHC · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford Mustang",
+        "Focus RS",
+        "Ranger",
+        "Explorer",
+        "Bronco"
+      ],
+      "consumption": "8-13 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "200,000-350,000 km",
+      "oilRecord": "ford-mustang-23-ecoboost",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Aluminium 2.3-litre turbocharged direct-injection four-cylinder with DOHC head, variable timing and timing chain; calibration and hardware vary widely by model.",
+          "issues": "Cooling and head-gasket history on specific early applications; intake deposits; turbo and oil lines; high-pressure fuel system; overheating and tuning damage.",
+          "pros": "Strong torque and power, broad truck and performance use, good diagnostic and aftermarket support.",
+          "cons": "Mustang, Ranger, Focus RS and Explorer versions are not identical; modified calibrations can greatly change reliability."
+        },
+        "es": {
+          "construction": "Cuatro cilindros 2.3 turbo de aluminio, inyección directa, DOHC, distribución variable y cadena; cambia mucho por modelo.",
+          "issues": "Refrigeración y junta en aplicaciones tempranas concretas; depósitos; turbo y aceite; alta presión; sobrecalentamiento y tuning.",
+          "pros": "Mucho par y potencia, uso en pickups y deportivos, buen diagnóstico y aftermarket.",
+          "cons": "Mustang, Ranger, Focus RS y Explorer no son iguales; calibraciones modificadas cambian fiabilidad."
+        },
+        "fr": {
+          "construction": "Quatre cylindres aluminium 2,3 litres turbo à injection directe, DOHC, calage variable et chaîne ; matériel variable selon modèle.",
+          "issues": "Refroidissement et joint sur certaines applications précoces ; dépôts ; turbo et huile ; haute pression ; surchauffe et tuning.",
+          "pros": "Fort couple et puissance, usage utilitaire et sportif, bon diagnostic et aftermarket.",
+          "cons": "Mustang, Ranger, Focus RS et Explorer diffèrent ; calibrations modifiées changent fortement la fiabilité."
+        },
+        "de": {
+          "construction": "2,3-Liter-Aluminium-Turbo-Direkteinspritzer mit DOHC, variablen Steuerzeiten und Kette; Hardware je Modell sehr unterschiedlich.",
+          "issues": "Kühlung und Kopfdichtung bestimmter früher Anwendungen; Ablagerungen; Turbo- und Ölleitungen; Hochdrucksystem; Überhitzung und Tuning.",
+          "pros": "Starkes Drehmoment und Leistung, breite Truck- und Performance-Nutzung, gute Diagnose und Zubehör.",
+          "cons": "Mustang, Ranger, Focus RS und Explorer sind nicht identisch; geänderte Kalibrierung beeinflusst Zuverlässigkeit stark."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-35-ecoboost",
+      "code": "3.5 EcoBoost",
+      "aliases": [
+        "EcoBoost 3.5",
+        "3.5L Twin Turbo"
+      ],
+      "maker": "Ford",
+      "regionKey": "usa",
+      "years": "2009-present",
+      "displacement": "3.5 L · 3,496 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "variantInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford F-150 / Expedition",
+        "Explorer",
+        "Transit",
+        "Lincoln Navigator"
+      ],
+      "consumption": "11-17 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "ford-f150-35-ecoboost",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Aluminium 3.5-litre twin-turbo V6 with DOHC heads, variable timing, timing chains and direct or dual injection depending on generation.",
+          "issues": "Timing-chain stretch and cam phasers on some generations; internal water pump on transverse versions; turbo coolant/oil lines; intake deposits; ignition.",
+          "pros": "High towing torque, strong performance and wide truck/SUV use.",
+          "cons": "Longitudinal and transverse versions differ greatly; chain, water-pump and turbo repairs can be labour-intensive."
+        },
+        "es": {
+          "construction": "V6 3.5 biturbo de aluminio, DOHC, distribución variable, cadenas e inyección directa o dual según generación.",
+          "issues": "Cadena y variadores en algunas generaciones; bomba interna en transversales; líneas de turbo; depósitos; encendido.",
+          "pros": "Mucho par de remolque, gran rendimiento y uso amplio en pickups/SUV.",
+          "cons": "Longitudinal y transversal cambian mucho; cadena, bomba y turbos requieren mucha mano de obra."
+        },
+        "fr": {
+          "construction": "V6 aluminium 3,5 litres biturbo, DOHC, calage variable, chaînes et injection directe ou double selon génération.",
+          "issues": "Chaînes et déphaseurs selon générations ; pompe interne sur versions transversales ; conduites turbo ; dépôts ; allumage.",
+          "pros": "Fort couple de remorquage, grandes performances et large usage utilitaire/SUV.",
+          "cons": "Versions longitudinales et transversales très différentes ; chaînes, pompe et turbos coûteux en main-d’œuvre."
+        },
+        "de": {
+          "construction": "3,5-Liter-Aluminium-Biturbo-V6 mit DOHC, variablen Steuerzeiten, Ketten und je Generation Direkt- oder Doppeleinspritzung.",
+          "issues": "Kettenlängung und Nockensteller mancher Generationen; interne Wasserpumpe bei Quereinbau; Turboleitungen; Ablagerungen; Zündung.",
+          "pros": "Hohes Zugdrehmoment, starke Leistung und breite Truck/SUV-Nutzung.",
+          "cons": "Längs- und Querversionen unterscheiden sich stark; Kette, Pumpe und Turbos sind arbeitsintensiv."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "chrysler-hemi-57",
+      "code": "5.7 HEMI",
+      "aliases": [
+        "5.7 Eagle",
+        "Hemi 5.7",
+        "EZB"
+      ],
+      "maker": "Chrysler / Dodge / Ram",
+      "regionKey": "usa",
+      "years": "2003-present",
+      "displacement": "5.7 L · 5,654 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ram 1500",
+        "Dodge Charger / Challenger / Durango",
+        "Chrysler 300",
+        "Jeep Grand Cherokee"
+      ],
+      "consumption": "12-19 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "chrysler-hemi-57",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Iron-block 5.7-litre pushrod V8 with aluminium heads, multipoint injection, timing chain and MDS cylinder deactivation on many versions; 2009 Eagle update added variable timing.",
+          "issues": "Lifter and cam wear; exhaust-manifold bolt breakage; MDS-related concerns; valve-seat issues on some early engines; oil leaks and cooling neglect.",
+          "pros": "Strong sound and torque, simple compact V8 layout, broad parts supply and large enthusiast base.",
+          "cons": "Fuel use is high; idle history, oil pressure and lifter noise matter, and pre-2009 and Eagle versions differ."
+        },
+        "es": {
+          "construction": "V8 5.7 de bloque de hierro, varillas, culatas de aluminio, inyección multipunto, cadena y MDS; Eagle 2009 añade distribución variable.",
+          "issues": "Taqués y levas; tornillos de escape; problemas MDS; asientos de válvula tempranos; fugas y refrigeración.",
+          "pros": "Buen sonido y par, V8 compacto sencillo, muchas piezas y comunidad.",
+          "cons": "Consumo alto; importan horas al ralentí, presión de aceite y ruido de taqués; versiones cambian desde 2009."
+        },
+        "fr": {
+          "construction": "V8 5,7 litres bloc fonte à tiges, culasses aluminium, injection multipoint, chaîne et MDS ; mise à jour Eagle 2009 avec calage variable.",
+          "issues": "Poussoirs et cames ; vis de collecteur ; soucis MDS ; sièges de soupapes précoces ; fuites et refroidissement.",
+          "pros": "Son et couple forts, V8 compact simple, pièces nombreuses et grande communauté.",
+          "cons": "Consommation élevée ; ralenti, pression d’huile et bruit poussoirs comptent ; versions différentes après 2009."
+        },
+        "de": {
+          "construction": "5,7-Liter-Grauguss-Stößelstangen-V8 mit Aluminiumköpfen, MPI, Kette und oft MDS; Eagle-Update 2009 mit variabler Steuerung.",
+          "issues": "Stößel- und Nockenverschleiß; Krümmerbolzen; MDS-Themen; frühe Ventilsitze; Öllecks und Kühlungsvernachlässigung.",
+          "pros": "Starker Klang und Drehmoment, kompakter einfacher V8, viele Teile und große Community.",
+          "cons": "Hoher Verbrauch; Leerlaufhistorie, Öldruck und Stößelgeräusch zählen; Vor-2009 und Eagle unterscheiden sich."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-ls3",
+      "code": "LS3 6.2",
+      "aliases": [
+        "LS3",
+        "6.2 LS3",
+        "GM LS3 V8"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2008-2017",
+      "displacement": "6.2 L · 6,162 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Corvette C6",
+        "Chevrolet Camaro SS",
+        "Chevrolet SS",
+        "Holden / HSV derivatives"
+      ],
+      "consumption": "11-19 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "300,000-500,000 km",
+      "oilRecord": "gm-corvette-ls3",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "GM Gen IV 6.2-litre aluminium pushrod V8 with cast-in liners, aluminium heads, multipoint injection and timing chain. The production LS3 normally does not use AFM cylinder deactivation.",
+          "issues": "Harmonic-balancer wobble; oil-pressure sensor and leaks; valve-spring or rocker-trunnion wear under hard use; cooling and oiling problems on modified or track cars.",
+          "pros": "High power with compact dimensions, simple valvetrain, excellent parts support and strong tuning potential.",
+          "cons": "Many cars are modified; LS3, L99 and truck 6.2 engines must not be treated as identical, and tuning history strongly affects reliability."
+        },
+        "es": {
+          "construction": "V8 GM Gen IV 6.2 de aluminio y varillas, camisas integradas, culatas de aluminio, inyección multipunto y cadena. El LS3 de serie normalmente no usa desactivación AFM.",
+          "issues": "Oscilación del damper; sensor y fugas de presión de aceite; muelles o balancines con uso duro; refrigeración y lubricación en coches modificados o de circuito.",
+          "pros": "Mucha potencia en tamaño compacto, distribución sencilla, enorme mercado de piezas y gran potencial.",
+          "cons": "Muchos están modificados; LS3, L99 y 6.2 de pickup no son iguales, y el historial de calibración afecta mucho."
+        },
+        "fr": {
+          "construction": "V8 GM Gen IV 6,2 litres aluminium à tiges, chemises intégrées, culasses aluminium, injection multipoint et chaîne. Le LS3 de série n’utilise normalement pas la désactivation AFM.",
+          "issues": "Oscillation damper ; capteur de pression et fuites d’huile ; ressorts ou culbuteurs en usage dur ; refroidissement et lubrification sur voitures modifiées ou circuit.",
+          "pros": "Forte puissance, dimensions compactes, distribution simple, énorme choix de pièces et potentiel.",
+          "cons": "Beaucoup sont modifiés ; LS3, L99 et 6,2 de pickup ne sont pas identiques, et la calibration influence fortement la fiabilité."
+        },
+        "de": {
+          "construction": "GM-Gen-IV-6,2-Liter-Aluminium-Stößelstangen-V8 mit eingegossenen Laufbuchsen, Aluminiumköpfen, MPI und Kette. Serien-LS3 haben normalerweise keine AFM-Zylinderabschaltung.",
+          "issues": "Schwingender Kurbelwellendämpfer; Öldrucksensor und Lecks; Ventilfeder- oder Kipphebelverschleiß bei harter Nutzung; Kühl- und Ölprobleme bei Umbau oder Rennstrecke.",
+          "pros": "Hohe Leistung bei kompakten Maßen, einfacher Ventiltrieb, riesige Teileauswahl und Tuningpotenzial.",
+          "cons": "Viele Fahrzeuge sind verändert; LS3, L99 und Truck-6,2 sind nicht identisch, die Abstimmungshistorie beeinflusst Zuverlässigkeit stark."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-l61",
+      "code": "L61 2.2 Ecotec",
+      "aliases": [
+        "L61",
+        "2.2 Ecotec",
+        "GM Ecotec 2.2"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2000-2008",
+      "displacement": "2.2 L · 2,198 cc",
+      "layout": "I4 · DOHC · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Cavalier / Cobalt",
+        "Chevrolet Malibu / HHR",
+        "Saturn L-Series / Ion / Vue",
+        "Pontiac Sunfire / G5"
+      ],
+      "consumption": "7-11 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "GM first-generation 2.2-litre Ecotec aluminium four-cylinder with cast-in liners, DOHC 16-valve head, multipoint injection and timing chain.",
+          "issues": "Timing-chain tensioner and lubrication concerns on early engines; water pump; ignition module and coils; oil leaks; throttle and sensor faults.",
+          "pros": "Simple naturally aspirated design, inexpensive North American parts, good accessibility and solid basic durability.",
+          "cons": "Early chain-service history matters; later 2.2 Ecotec codes are revised engines and should not automatically use L61 specifications."
+        },
+        "es": {
+          "construction": "GM Ecotec 2.2 de primera generación, cuatro cilindros de aluminio con camisas, culata DOHC de 16 válvulas, inyección multipunto y cadena.",
+          "issues": "Tensor y lubricación de cadena en motores tempranos; bomba de agua; módulo y bobinas; fugas; mariposa y sensores.",
+          "pros": "Diseño atmosférico sencillo, piezas norteamericanas económicas, buen acceso y durabilidad básica.",
+          "cons": "Importa el historial de cadena temprana; códigos Ecotec 2.2 posteriores son revisados y no deben usar automáticamente datos L61."
+        },
+        "fr": {
+          "construction": "GM Ecotec 2,2 litres première génération, quatre cylindres aluminium avec chemises, culasse DOHC 16 soupapes, injection multipoint et chaîne.",
+          "issues": "Tendeur et lubrification de chaîne sur premiers moteurs ; pompe à eau ; module et bobines ; fuites ; papillon et capteurs.",
+          "pros": "Conception atmosphérique simple, pièces nord-américaines peu coûteuses, bon accès et base durable.",
+          "cons": "Historique de chaîne précoce important ; les codes Ecotec 2,2 plus récents sont révisés et ne reprennent pas automatiquement les données L61."
+        },
+        "de": {
+          "construction": "GM-Ecotec-2,2-Liter-Aluminium-Vierzylinder der ersten Generation mit Laufbuchsen, DOHC-16V-Kopf, MPI und Steuerkette.",
+          "issues": "Kettenspanner und Schmierung bei frühen Motoren; Wasserpumpe; Zündmodul und Spulen; Öllecks; Drosselklappe und Sensoren.",
+          "pros": "Einfache Saugerkonstruktion, günstige nordamerikanische Teile, guter Zugang und solide Grundhaltbarkeit.",
+          "cons": "Frühe Kettenhistorie zählt; spätere 2,2-Ecotec-Codes sind überarbeitet und dürfen nicht automatisch L61-Daten nutzen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-duratec-35",
+      "code": "3.5 Duratec / Cyclone",
+      "aliases": [
+        "Duratec 35",
+        "Cyclone 3.5",
+        "Ford 3.5 V6 NA"
+      ],
+      "maker": "Ford / Lincoln",
+      "regionKey": "usa",
+      "years": "2007-2020",
+      "displacement": "3.5 L · 3,496 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford Edge / Fusion",
+        "Ford Taurus / Flex",
+        "Ford Explorer",
+        "Lincoln MKX / MKZ / MKS"
+      ],
+      "consumption": "9-15 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "ford-duratec-35",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Ford Cyclone-family naturally aspirated 3.5-litre aluminium V6 with DOHC 24-valve heads, variable timing, multipoint injection and timing chains. Installation and water-pump layout vary by vehicle.",
+          "issues": "Internal water-pump failure on many transverse applications can contaminate engine oil; chain and VCT wear; valve-cover leaks; ignition and cooling faults.",
+          "pros": "Smooth useful power, broad parts supply, no turbo hardware and good service life when cooling and oil are maintained.",
+          "cons": "Water-pump layout must be identified before purchase; warning signs can be subtle and transverse chain or pump work is labour-intensive."
+        },
+        "es": {
+          "construction": "V6 Ford Cyclone 3.5 atmosférico de aluminio con culatas DOHC de 24 válvulas, distribución variable, inyección multipunto y cadenas. Montaje y bomba cambian por vehículo.",
+          "issues": "La bomba interna en muchas aplicaciones transversales puede contaminar el aceite; cadena y VCT; fugas de tapas; encendido y refrigeración.",
+          "pros": "Potencia suave, muchas piezas, sin turbo y buena duración con aceite y refrigeración cuidados.",
+          "cons": "Hay que identificar la bomba antes de comprar; los síntomas pueden ser discretos y cadena o bomba transversal requieren mucha mano de obra."
+        },
+        "fr": {
+          "construction": "V6 Ford Cyclone 3,5 litres atmosphérique aluminium, culasses DOHC 24 soupapes, calage variable, injection multipoint et chaînes. Implantation et pompe varient selon véhicule.",
+          "issues": "La pompe interne de nombreuses versions transversales peut contaminer l’huile ; chaînes et VCT ; fuites couvre-culasse ; allumage et refroidissement.",
+          "pros": "Puissance souple, pièces nombreuses, pas de turbo et bonne durée avec huile et refroidissement suivis.",
+          "cons": "Identifier la pompe avant achat ; signes parfois discrets et travaux chaîne ou pompe transversale très lourds."
+        },
+        "de": {
+          "construction": "Ford-Cyclone-3,5-Liter-Aluminium-Saug-V6 mit DOHC-24V-Köpfen, variabler Steuerung, MPI und Ketten. Einbau und Wasserpumpenanordnung variieren je Fahrzeug.",
+          "issues": "Interne Wasserpumpe vieler Quereinbauten kann Motoröl verunreinigen; Ketten- und VCT-Verschleiß; Ventildeckellecks; Zündung und Kühlung.",
+          "pros": "Gleichmäßige Leistung, viele Teile, keine Turbotechnik und gute Laufzeit bei gepflegtem Öl und Kühlsystem.",
+          "cons": "Pumpenanordnung vor Kauf bestimmen; Warnzeichen können unauffällig sein und Ketten- oder Pumpenarbeit beim Quereinbau ist aufwendig."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-3800-series-ii",
+      "code": "3800 Series II",
+      "aliases": [
+        "L36",
+        "L67",
+        "GM 3.8 V6",
+        "Buick 3800"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "1995-2008",
+      "displacement": "3.8 L · 3,791 cc",
+      "layout": "V6 · OHV · 12V",
+      "fuelKey": "petrol",
+      "aspirationKey": "variantDependent",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Buick LeSabre / Park Avenue / Regal",
+        "Pontiac Grand Prix / Bonneville",
+        "Chevrolet Impala / Monte Carlo",
+        "Oldsmobile derivatives"
+      ],
+      "consumption": "8.5-14 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "350,000-550,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "GM 3.8-litre iron-block pushrod V6 with multipoint injection and timing chain. L36 is naturally aspirated, while L67 uses an Eaton supercharger and different internal and fuel hardware.",
+          "issues": "Upper intake and EGR heat damage on L36; lower intake gaskets and coolant elbows; ignition modules and coils; oil leaks; supercharger coupler and service on L67.",
+          "pros": "Excellent durability, simple valvetrain, strong parts supply and good torque at low speed.",
+          "cons": "L36 and L67 are not interchangeable specifications; coolant-loss history must be checked because intake faults can damage the engine."
+        },
+        "es": {
+          "construction": "V6 GM 3.8 de bloque de hierro y varillas, inyección multipunto y cadena. L36 es atmosférico; L67 usa compresor Eaton y componentes internos y de combustible distintos.",
+          "issues": "Admisión superior y calor EGR en L36; juntas inferiores y codos de refrigerante; encendido; fugas; acoplamiento y servicio del compresor L67.",
+          "pros": "Gran durabilidad, distribución sencilla, muchas piezas y buen par a bajas rpm.",
+          "cons": "L36 y L67 no comparten especificación; revisar pérdidas de refrigerante porque fallos de admisión pueden dañar el motor."
+        },
+        "fr": {
+          "construction": "V6 GM 3,8 litres bloc fonte à tiges, injection multipoint et chaîne. L36 atmosphérique ; L67 avec compresseur Eaton et composants internes et carburant différents.",
+          "issues": "Admission supérieure et chaleur EGR sur L36 ; joints inférieurs et coudes de liquide ; allumage ; fuites ; coupleur et entretien compresseur L67.",
+          "pros": "Excellente endurance, distribution simple, pièces nombreuses et bon couple à bas régime.",
+          "cons": "L36 et L67 ne sont pas interchangeables ; vérifier les pertes de liquide car les défauts d’admission peuvent endommager le moteur."
+        },
+        "de": {
+          "construction": "GM-3,8-Liter-Grauguss-Stößelstangen-V6 mit MPI und Kette. L36 ist ein Sauger, L67 nutzt einen Eaton-Kompressor und andere Innen- und Kraftstoffkomponenten.",
+          "issues": "Oberes Saugrohr und EGR-Hitze beim L36; untere Ansaugdichtungen und Kühlmittelbögen; Zündung; Öllecks; Kompressorkupplung und Service beim L67.",
+          "pros": "Sehr haltbar, einfacher Ventiltrieb, viele Teile und gutes Drehmoment unten.",
+          "cons": "L36 und L67 sind nicht austauschbar; Kühlmittelverlust prüfen, da Ansaugfehler den Motor schädigen können."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-modular-46-2v",
+      "code": "4.6 Modular 2V",
+      "aliases": [
+        "Ford 4.6 V8",
+        "4.6 2V",
+        "Romeo 4.6",
+        "Windsor 4.6"
+      ],
+      "maker": "Ford / Lincoln / Mercury",
+      "regionKey": "usa",
+      "years": "1996-2014",
+      "displacement": "4.6 L · 4,601 cc",
+      "layout": "V8 · SOHC · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford Crown Victoria / Mercury Grand Marquis",
+        "Lincoln Town Car",
+        "Ford Mustang GT",
+        "Ford F-150 / Expedition / E-Series"
+      ],
+      "consumption": "11-18 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "350,000-550,000 km",
+      "oilRecord": "ford-modular-46-2v",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Ford Modular-family 4.6-litre SOHC two-valve V8 with multipoint injection and long timing chains. Romeo and Windsor production versions and vehicle installations use different details.",
+          "issues": "Plastic intake-manifold coolant crossover on early engines; spark-plug thread damage or plug ejection on some heads; chain guides and tensioners; coils, valve seals, oil leaks and truck exhaust studs.",
+          "pros": "Long service life, smooth operation, broad North American parts supply and simple naturally aspirated output.",
+          "cons": "Romeo, Windsor, car and truck versions differ; intake and cylinder-head revision must be identified before ordering parts."
+        },
+        "es": {
+          "construction": "V8 Ford Modular 4.6 SOHC de dos válvulas, inyección multipunto y cadenas largas. Producción Romeo/Windsor y montajes usan detalles distintos.",
+          "issues": "Colector plástico y paso de refrigerante en motores tempranos; roscas o expulsión de bujía en algunas culatas; guías y tensores; bobinas, retenes, fugas y espárragos de escape.",
+          "pros": "Larga duración, funcionamiento suave, muchas piezas en Norteamérica y potencia atmosférica sencilla.",
+          "cons": "Romeo, Windsor, turismo y pickup cambian; identificar revisión de admisión y culata antes de pedir piezas."
+        },
+        "fr": {
+          "construction": "V8 Ford Modular 4,6 litres SOHC deux soupapes, injection multipoint et longues chaînes. Versions Romeo/Windsor et montages véhicule différents.",
+          "issues": "Collecteur plastique et passage liquide sur premiers moteurs ; filetages ou éjection de bougie selon culasse ; guides et tendeurs ; bobines, joints de soupape, fuites et goujons échappement.",
+          "pros": "Longue durée, fonctionnement souple, pièces nombreuses en Amérique du Nord et puissance atmosphérique simple.",
+          "cons": "Romeo, Windsor, voitures et utilitaires diffèrent ; identifier admission et révision de culasse avant pièces."
+        },
+        "de": {
+          "construction": "Ford-Modular-4,6-Liter-SOHC-Zweiventil-V8 mit MPI und langen Steuerketten. Romeo-/Windsor-Produktion und Fahrzeugeinbau unterscheiden sich im Detail.",
+          "issues": "Kunststoffansaugung und Kühlmittelübergang früher Motoren; Kerzengewinde oder herausgedrückte Kerzen bei manchen Köpfen; Führungen und Spanner; Spulen, Ventilschaftdichtungen, Lecks und Truck-Krümmerbolzen.",
+          "pros": "Hohe Laufleistung, ruhiger Lauf, viele nordamerikanische Teile und einfache Saugerleistung.",
+          "cons": "Romeo, Windsor, Pkw und Truck unterscheiden sich; Ansaug- und Kopfversion vor Teilebestellung bestimmen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "jeep-amc-40",
+      "code": "Jeep 4.0 / AMC 242",
+      "aliases": [
+        "AMC 242",
+        "Jeep 4.0 I6",
+        "PowerTech 4.0",
+        "ERH"
+      ],
+      "maker": "Jeep / AMC",
+      "regionKey": "usa",
+      "years": "1995-2006",
+      "displacement": "4.0 L · 3,956 cc",
+      "layout": "I6 · OHV · 12V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Jeep Wrangler TJ",
+        "Jeep Cherokee XJ",
+        "Jeep Grand Cherokee ZJ / WJ"
+      ],
+      "consumption": "12-18 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "350,000-600,000 km",
+      "oilRecord": "jeep-amc-40",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Long-running 4.0-litre cast-iron inline-six with a pushrod 12-valve head, multipoint injection and timing chain. This record covers post-1995 Jeep applications.",
+          "issues": "Cracked 0331 cylinder head on some 2000-2001 engines; rear main-seal and valve-cover leaks; exhaust-manifold cracks; cooling-system neglect; sensors, lifters and oil pressure at high mileage.",
+          "pros": "Very durable low-speed engine, simple mechanical layout, strong torque and excellent North American parts support.",
+          "cons": "Fuel use is high and age now dominates condition; head casting, cooling history and oil pressure should be checked before purchase."
+        },
+        "es": {
+          "construction": "Seis cilindros en línea 4.0 de hierro, culata de varillas y 12 válvulas, inyección multipunto y cadena. Esta ficha cubre aplicaciones Jeep posteriores a 1995.",
+          "issues": "Culata 0331 agrietada en algunos 2000-2001; fugas de retén trasero y tapa; colector de escape; refrigeración; sensores, taqués y presión de aceite con kilómetros.",
+          "pros": "Motor muy duradero a bajas rpm, mecánica sencilla, buen par y excelente disponibilidad de piezas.",
+          "cons": "Consumo alto y la edad domina el estado; revisar fundición de culata, refrigeración y presión de aceite."
+        },
+        "fr": {
+          "construction": "Six cylindres en ligne 4,0 litres fonte, culasse à tiges 12 soupapes, injection multipoint et chaîne. Cette fiche couvre les Jeep après 1995.",
+          "issues": "Culasse 0331 fissurée sur certains 2000-2001 ; fuites joint arrière et couvre-culasse ; collecteur échappement ; refroidissement ; capteurs, poussoirs et pression d’huile à fort kilométrage.",
+          "pros": "Très durable à bas régime, mécanique simple, fort couple et excellente disponibilité de pièces.",
+          "cons": "Consommation élevée et âge déterminant ; contrôler fonderie de culasse, refroidissement et pression d’huile."
+        },
+        "de": {
+          "construction": "Langjähriger 4,0-Liter-Grauguss-Reihensechszylinder mit Stößelstangen-12V-Kopf, MPI und Kette. Dieser Eintrag umfasst Jeep-Anwendungen ab 1995.",
+          "issues": "Gerissener 0331-Zylinderkopf bei manchen 2000-2001-Motoren; hinterer Kurbelwellendichtring und Ventildeckel; Abgaskrümmer; Kühlung; Sensoren, Stößel und Öldruck bei hoher Laufleistung.",
+          "pros": "Sehr haltbarer Motor bei niedriger Drehzahl, einfache Mechanik, starkes Drehmoment und hervorragende Teilelage.",
+          "cons": "Hoher Verbrauch und altersbestimmter Zustand; Kopfguss, Kühlhistorie und Öldruck vor Kauf prüfen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-lq4-lq9",
+      "code": "LQ4 / LQ9 6.0",
+      "aliases": [
+        "LQ4",
+        "LQ9",
+        "Vortec 6000",
+        "GM 6.0 truck"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "1999-2007",
+      "displacement": "6.0 L · 5,967 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Silverado / GMC Sierra HD",
+        "Suburban / Yukon XL",
+        "Cadillac Escalade",
+        "Hummer H2"
+      ],
+      "consumption": "14-22 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "350,000-550,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "GM Gen III 6.0-litre iron-block pushrod V8 with aluminium heads, multipoint injection and timing chain. LQ9 uses higher compression and output than LQ4.",
+          "issues": "Knock sensors and water under the intake; exhaust-manifold bolts; oil-pressure sensor and pickup O-ring; valve-train wear, oil leaks and cooling on heavily worked trucks.",
+          "pros": "Very strong durable block, excellent parts supply, simple architecture and major swap or tuning potential.",
+          "cons": "High fuel use and many engines have commercial or modified histories; LQ4 and LQ9 calibration and compression differ."
+        },
+        "es": {
+          "construction": "V8 GM Gen III 6.0 de bloque de hierro y varillas, culatas de aluminio, inyección multipunto y cadena. LQ9 tiene más compresión y potencia que LQ4.",
+          "issues": "Sensores de detonación y agua bajo admisión; tornillos de escape; sensor de presión y junta del tubo de aspiración; válvulas, fugas y refrigeración.",
+          "pros": "Bloque muy fuerte, muchas piezas, arquitectura sencilla y gran potencial de swap o tuning.",
+          "cons": "Consumo alto y muchos tienen historial comercial o modificado; LQ4 y LQ9 cambian en compresión y calibración."
+        },
+        "fr": {
+          "construction": "V8 GM Gen III 6,0 litres bloc fonte à tiges, culasses aluminium, injection multipoint et chaîne. LQ9 a plus de compression et de puissance que LQ4.",
+          "issues": "Capteurs de cliquetis et eau sous admission ; vis échappement ; capteur pression et joint de crépine ; distribution, fuites et refroidissement.",
+          "pros": "Bloc très solide, pièces nombreuses, architecture simple et grand potentiel de swap ou préparation.",
+          "cons": "Consommation élevée et historique souvent utilitaire ou modifié ; compression et calibration LQ4/LQ9 différentes."
+        },
+        "de": {
+          "construction": "GM-Gen-III-6,0-Liter-Grauguss-Stößelstangen-V8 mit Aluminiumköpfen, MPI und Kette. LQ9 hat höhere Verdichtung und Leistung als LQ4.",
+          "issues": "Klopfsensoren und Wasser unter Ansaugung; Krümmerbolzen; Öldrucksensor und Ansaugrohr-O-Ring; Ventiltrieb, Lecks und Kühlung bei harter Truck-Nutzung.",
+          "pros": "Sehr starker Block, viele Teile, einfache Architektur und großes Umbaupotenzial.",
+          "cons": "Hoher Verbrauch und oft Nutzfahrzeug- oder Tuninghistorie; LQ4 und LQ9 unterscheiden sich bei Verdichtung und Kalibrierung."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-triton-54-3v",
+      "code": "5.4 Triton 3V",
+      "aliases": [
+        "Ford 5.4 3V",
+        "Triton 5.4",
+        "Modular 5.4 3-valve"
+      ],
+      "maker": "Ford / Lincoln",
+      "regionKey": "usa",
+      "years": "2004-2014",
+      "displacement": "5.4 L · 5,408 cc",
+      "layout": "V8 · SOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford F-150",
+        "Ford Expedition",
+        "Lincoln Navigator derivatives",
+        "Ford E-Series derivatives"
+      ],
+      "consumption": "14-22 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "220,000-400,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Ford Modular 5.4-litre SOHC three-valve V8 with multipoint injection, variable cam timing and long timing chains.",
+          "issues": "Cam phasers, VCT solenoids, chain guides and tensioners; low oil pressure; spark plugs breaking during removal on early versions; coils, exhaust studs and oil leaks.",
+          "pros": "Good truck torque, broad parts supply and familiar North American service network.",
+          "cons": "Oil-service history is critical and timing repairs are labour-intensive; exact head and spark-plug revision must be known."
+        },
+        "es": {
+          "construction": "V8 Ford Modular 5.4 SOHC de tres válvulas, inyección multipunto, distribución variable y cadenas largas.",
+          "issues": "Variadores, solenoides VCT, guías y tensores; baja presión de aceite; bujías que se rompen al extraer en versiones tempranas; bobinas, espárragos y fugas.",
+          "pros": "Buen par para pickup, muchas piezas y servicio conocido en Norteamérica.",
+          "cons": "El historial de aceite es crítico y la distribución requiere mucha mano de obra; identificar culata y revisión de bujía."
+        },
+        "fr": {
+          "construction": "V8 Ford Modular 5,4 litres SOHC trois soupapes, injection multipoint, calage variable et longues chaînes.",
+          "issues": "Déphaseurs, solénoïdes VCT, guides et tendeurs ; faible pression d’huile ; bougies cassées au démontage sur premières versions ; bobines, goujons et fuites.",
+          "pros": "Bon couple utilitaire, pièces nombreuses et entretien connu en Amérique du Nord.",
+          "cons": "Historique d’huile critique et distribution coûteuse ; identifier culasse et révision des bougies."
+        },
+        "de": {
+          "construction": "Ford-Modular-5,4-Liter-SOHC-Dreiventil-V8 mit MPI, variabler Steuerung und langen Ketten.",
+          "issues": "Nockensteller, VCT-Ventile, Führungen und Spanner; niedriger Öldruck; abbrechende Zündkerzen bei frühen Varianten; Spulen, Krümmerbolzen und Lecks.",
+          "pros": "Gutes Truck-Drehmoment, viele Teile und bekanntes nordamerikanisches Servicenetz.",
+          "cons": "Ölservicehistorie ist kritisch und Steuerarbeiten sind aufwendig; Kopf- und Kerzenrevision bestimmen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "chrysler-gema-24",
+      "code": "2.4 World / GEMA",
+      "aliases": [
+        "GEMA 2.4",
+        "ED3",
+        "ED4",
+        "Dodge 2.4 World Engine"
+      ],
+      "maker": "Chrysler / Dodge / Jeep",
+      "regionKey": "usa",
+      "years": "2006-2020",
+      "displacement": "2.4 L · 2,360 cc",
+      "layout": "I4 · DOHC · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Dodge Caliber / Avenger / Journey",
+        "Chrysler Sebring / 200",
+        "Jeep Compass / Patriot",
+        "Dodge Dart derivatives"
+      ],
+      "consumption": "8-12 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "240,000-400,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Global Engine Manufacturing Alliance 2.4-litre aluminium four-cylinder with DOHC 16-valve head, variable timing, multipoint injection and timing chain. Later Tigershark/MultiAir versions are related but technically different.",
+          "issues": "Oil consumption with wear; throttle and intake-runner control; chain and variable-timing components; thermostat, cooling and oil leaks; vehicle CVT faults can imitate engine problems.",
+          "pros": "Simple naturally aspirated output, broad parts supply and wide Chrysler/Jeep use.",
+          "cons": "GEMA and later Tigershark versions must be separated; oil history and vehicle transmission condition both require checking."
+        },
+        "es": {
+          "construction": "Motor GEMA 2.4 de aluminio, culata DOHC de 16 válvulas, distribución variable, inyección multipunto y cadena. Tigershark/MultiAir posteriores están relacionados pero son distintos.",
+          "issues": "Consumo con desgaste; mariposa y control de admisión; cadena y distribución variable; termostato, refrigeración y fugas; fallos CVT pueden parecer del motor.",
+          "pros": "Potencia atmosférica sencilla, muchas piezas y uso amplio Chrysler/Jeep.",
+          "cons": "Separar GEMA de Tigershark; revisar historial de aceite y estado de transmisión."
+        },
+        "fr": {
+          "construction": "Moteur GEMA 2,4 litres aluminium, culasse DOHC 16 soupapes, calage variable, injection multipoint et chaîne. Tigershark/MultiAir récents apparentés mais différents.",
+          "issues": "Consommation avec usure ; papillon et commande admission ; chaîne et calage ; thermostat, refroidissement et fuites ; défauts CVT parfois confondus avec moteur.",
+          "pros": "Puissance atmosphérique simple, pièces nombreuses et large usage Chrysler/Jeep.",
+          "cons": "Séparer GEMA et Tigershark ; vérifier historique d’huile et état transmission."
+        },
+        "de": {
+          "construction": "GEMA-2,4-Liter-Aluminium-Vierzylinder mit DOHC-16V, variabler Steuerung, MPI und Kette. Spätere Tigershark/MultiAir sind verwandt, aber technisch anders.",
+          "issues": "Ölverbrauch bei Verschleiß; Drosselklappe und Saugrohrsteuerung; Kette und Versteller; Thermostat, Kühlung und Lecks; CVT-Fehler wirken teils wie Motorprobleme.",
+          "pros": "Einfache Saugerleistung, viele Teile und breite Chrysler/Jeep-Nutzung.",
+          "cons": "GEMA und Tigershark trennen; Öl- und Getriebehistorie beide prüfen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-ly7",
+      "code": "LY7 3.6",
+      "aliases": [
+        "LY7",
+        "GM 3.6 HFV6",
+        "Alloytec 3.6"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2004-2012",
+      "displacement": "3.6 L · 3,564 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Cadillac CTS / STS / SRX",
+        "Buick LaCrosse derivatives",
+        "Pontiac G8",
+        "Saturn Aura / Outlook derivatives"
+      ],
+      "consumption": "9-15 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "220,000-380,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Early GM High Feature 3.6-litre aluminium V6 with DOHC 24-valve heads, variable timing, multipoint injection and multiple timing chains.",
+          "issues": "Timing-chain stretch with extended oil intervals; oil consumption and PCV faults; water pump and cooling; ignition, sensors and oil leaks.",
+          "pros": "Good naturally aspirated power, broad GM use and available service parts.",
+          "cons": "Chain system is complex and oil-sensitive; LY7 must not be confused with later direct-injection LLT or LFX versions."
+        },
+        "es": {
+          "construction": "V6 GM High Feature temprano 3.6 de aluminio, culatas DOHC de 24 válvulas, distribución variable, inyección multipunto y varias cadenas.",
+          "issues": "Estiramiento de cadenas con aceite prolongado; consumo y PCV; bomba y refrigeración; encendido, sensores y fugas.",
+          "pros": "Buena potencia atmosférica, uso amplio GM y piezas disponibles.",
+          "cons": "Cadenas complejas y sensibles al aceite; no confundir LY7 con LLT o LFX de inyección directa."
+        },
+        "fr": {
+          "construction": "Premier V6 GM High Feature 3,6 litres aluminium, culasses DOHC 24 soupapes, calage variable, injection multipoint et plusieurs chaînes.",
+          "issues": "Allongement chaînes avec vidanges longues ; consommation et PCV ; pompe et refroidissement ; allumage, capteurs et fuites.",
+          "pros": "Bonne puissance atmosphérique, large usage GM et pièces disponibles.",
+          "cons": "Chaînes complexes et sensibles à l’huile ; ne pas confondre LY7 avec LLT ou LFX à injection directe."
+        },
+        "de": {
+          "construction": "Früher GM-High-Feature-3,6-Liter-Aluminium-V6 mit DOHC-24V, variabler Steuerung, MPI und mehreren Ketten.",
+          "issues": "Kettenlängung bei langen Ölintervallen; Ölverbrauch und PCV; Wasserpumpe und Kühlung; Zündung, Sensoren und Lecks.",
+          "pros": "Gute Saugerleistung, breite GM-Nutzung und verfügbare Teile.",
+          "cons": "Komplexes ölempfindliches Kettensystem; LY7 nicht mit Direkteinspritzer LLT oder LFX verwechseln."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "chrysler-powertech-37",
+      "code": "3.7 PowerTech",
+      "aliases": [
+        "PowerTech 3.7",
+        "Dodge 3.7 V6",
+        "Jeep 3.7 V6",
+        "EKG"
+      ],
+      "maker": "Jeep / Dodge / Chrysler",
+      "regionKey": "usa",
+      "years": "2002-2012",
+      "displacement": "3.7 L · 3,701 cc",
+      "layout": "V6 · SOHC · 12V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Jeep Liberty / Cherokee",
+        "Jeep Grand Cherokee / Commander",
+        "Dodge Dakota",
+        "Dodge Durango / Ram derivatives"
+      ],
+      "consumption": "11-17 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-420,000 km",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Chrysler PowerTech 3.7-litre iron-block SOHC V6 with aluminium heads, two valves per cylinder, multipoint injection and timing chains.",
+          "issues": "Valve-seat damage after overheating on some engines; oil sludge with poor service; rocker and lash-adjuster noise; chain components, valve-cover leaks and cooling-system faults.",
+          "pros": "Simple naturally aspirated layout, useful low-speed torque and broad Jeep/Dodge parts supply.",
+          "cons": "Cooling and oil history dominate condition; fuel use is high for output and overheating can cause expensive head damage."
+        },
+        "es": {
+          "construction": "V6 Chrysler PowerTech 3.7 con bloque de hierro, SOHC, culatas de aluminio, dos válvulas por cilindro, inyección multipunto y cadenas.",
+          "issues": "Asientos de válvula tras sobrecalentamiento; lodos con mal aceite; balancines y ajustadores; cadenas, fugas de tapa y refrigeración.",
+          "pros": "Diseño atmosférico sencillo, buen par a bajas rpm y piezas Jeep/Dodge disponibles.",
+          "cons": "Refrigeración y aceite dominan el estado; consumo alto y sobrecalentamiento puede dañar culatas."
+        },
+        "fr": {
+          "construction": "V6 Chrysler PowerTech 3,7 litres bloc fonte SOHC, culasses aluminium, deux soupapes par cylindre, injection multipoint et chaînes.",
+          "issues": "Sièges de soupape après surchauffe ; boues avec mauvais entretien ; culbuteurs et poussoirs ; chaînes, fuites et refroidissement.",
+          "pros": "Architecture atmosphérique simple, bon couple à bas régime et pièces Jeep/Dodge disponibles.",
+          "cons": "Refroidissement et huile déterminent l’état ; consommation élevée et surchauffe coûteuse pour les culasses."
+        },
+        "de": {
+          "construction": "Chrysler-PowerTech-3,7-Liter-Grauguss-SOHC-V6 mit Aluminiumköpfen, zwei Ventilen je Zylinder, MPI und Ketten.",
+          "issues": "Ventilsitzschäden nach Überhitzung; Ölschlamm bei schlechtem Service; Kipphebel und Ausgleicher; Ketten, Deckellecks und Kühlung.",
+          "pros": "Einfache Saugerkonstruktion, brauchbares Drehmoment unten und gute Jeep/Dodge-Teilelage.",
+          "cons": "Kühl- und Ölhistorie bestimmen den Zustand; hoher Verbrauch und Überhitzung kann teure Kopfschäden verursachen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-le5",
+      "code": "LE5 2.4 Ecotec",
+      "aliases": [
+        "LE5",
+        "GM 2.4 Ecotec",
+        "Ecotec 2.4 VVT"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2006-2012",
+      "displacement": "2.4 L · 2,384 cc",
+      "layout": "I4 · DOHC · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Cobalt SS / HHR",
+        "Chevrolet Malibu",
+        "Pontiac G5 / G6 / Solstice",
+        "Saturn Aura / Sky / Vue"
+      ],
+      "consumption": "7.5-11 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-400,000 km",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "GM 2.4-litre aluminium Ecotec four-cylinder with DOHC 16-valve head, variable timing, multipoint injection and timing chain.",
+          "issues": "Timing-chain, guides and tensioner with poor oil service; oil consumption; cam actuators, water pump, ignition and oil leaks.",
+          "pros": "Useful torque, simple naturally aspirated system and broad North American parts support.",
+          "cons": "Oil history is important; do not confuse LE5 with later direct-injection 2.4 codes."
+        },
+        "es": {
+          "construction": "Motor GM Ecotec 2.4 de aluminio, culata DOHC de 16 válvulas, distribución variable, inyección multipunto y cadena.",
+          "issues": "Cadena, guías y tensor con mal aceite; consumo; actuadores, bomba, encendido y fugas.",
+          "pros": "Buen par, sistema atmosférico sencillo y muchas piezas.",
+          "cons": "Importa el aceite; no confundir LE5 con 2.4 posteriores de inyección directa."
+        },
+        "fr": {
+          "construction": "Moteur GM Ecotec 2,4 litres aluminium, culasse DOHC 16 soupapes, calage variable, injection multipoint et chaîne.",
+          "issues": "Chaîne, guides et tendeur avec mauvais entretien ; consommation ; actuateurs, pompe, allumage et fuites.",
+          "pros": "Bon couple, système atmosphérique simple et pièces nombreuses.",
+          "cons": "Historique d’huile important ; ne pas confondre LE5 avec les 2,4 directs récents."
+        },
+        "de": {
+          "construction": "GM-Ecotec-2,4-Liter-Aluminium-Vierzylinder mit DOHC-16V, variabler Steuerung, MPI und Kette.",
+          "issues": "Kette, Führungen und Spanner bei schlechtem Ölservice; Ölverbrauch; Steller, Pumpe, Zündung und Lecks.",
+          "pros": "Gutes Drehmoment, einfache Saugertechnik und viele Teile.",
+          "cons": "Ölhistorie zählt; LE5 nicht mit späteren 2,4-Direkteinspritzern verwechseln."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-duratec-30",
+      "code": "3.0 Duratec V6",
+      "aliases": [
+        "Duratec 30",
+        "Ford 3.0 V6",
+        "Mazda AJ derivatives"
+      ],
+      "maker": "Ford / Mercury / Mazda",
+      "regionKey": "usa",
+      "years": "1996-2012",
+      "displacement": "3.0 L · 2,967 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford Taurus / Fusion / Escape",
+        "Mercury Sable / Milan",
+        "Jaguar X-Type derivatives",
+        "Mazda6 / Tribute derivatives"
+      ],
+      "consumption": "9-14 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "300,000-480,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Ford 3.0-litre aluminium DOHC 24-valve V6 with multipoint injection and timing chains. Variable timing and intake systems vary by application.",
+          "issues": "Water-pump and cooling faults; intake-runner control; valve-cover and oil-pan leaks; ignition coils, vacuum leaks and catalytic converters.",
+          "pros": "Smooth durable output, broad parts supply and no timing-belt service.",
+          "cons": "Ford, Jaguar and Mazda derivatives differ in intake, timing and accessories; transverse access can be tight."
+        },
+        "es": {
+          "construction": "V6 Ford 3.0 de aluminio, DOHC de 24 válvulas, inyección multipunto y cadenas. Distribución y admisión cambian por aplicación.",
+          "issues": "Bomba y refrigeración; control de admisión; fugas de tapas y cárter; bobinas, vacío y catalizadores.",
+          "pros": "Potencia suave y duradera, muchas piezas y sin correa.",
+          "cons": "Derivados Ford, Jaguar y Mazda cambian; acceso transversal limitado."
+        },
+        "fr": {
+          "construction": "V6 Ford 3,0 litres aluminium DOHC 24 soupapes, injection multipoint et chaînes. Calage et admission varient selon application.",
+          "issues": "Pompe et refroidissement ; commande admission ; fuites couvre-culasses et carter ; bobines, dépression et catalyseurs.",
+          "pros": "Puissance souple et durable, pièces nombreuses et pas de courroie.",
+          "cons": "Dérivés Ford, Jaguar et Mazda différents ; accès transversal serré."
+        },
+        "de": {
+          "construction": "Ford-3,0-Liter-Aluminium-DOHC-24V-V6 mit MPI und Ketten. Steuerung und Ansaugung variieren je Anwendung.",
+          "issues": "Wasserpumpe und Kühlung; Saugrohrsteuerung; Deckel- und Ölwannenlecks; Spulen, Unterdruck und Katalysatoren.",
+          "pros": "Laufruhig und haltbar, viele Teile und kein Zahnriemenservice.",
+          "cons": "Ford-, Jaguar- und Mazda-Derivate unterscheiden sich; Querzugang ist eng."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-l96",
+      "code": "L96 6.0 Vortec",
+      "aliases": [
+        "L96",
+        "Vortec 6000 Gen IV",
+        "GM 6.0 flex fuel"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2010-2020",
+      "displacement": "6.0 L · 5,967 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Silverado / GMC Sierra HD",
+        "Express / Savana",
+        "Suburban / Yukon XL fleet derivatives"
+      ],
+      "consumption": "15-23 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "350,000-550,000 km",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "GM Gen IV 6.0-litre iron-block pushrod V8 with aluminium heads, variable cam timing, flex-fuel-capable multipoint injection and timing chain.",
+          "issues": "Exhaust bolts; oil-pressure sensor and pickup O-ring; valve-train wear, oil leaks and cooling under heavy commercial use.",
+          "pros": "Very durable block, simple layout, strong towing torque and excellent parts support.",
+          "cons": "Fuel use is high and commercial idle or towing history matters."
+        },
+        "es": {
+          "construction": "V8 GM Gen IV 6.0 de hierro y varillas, culatas de aluminio, distribución variable, inyección flex-fuel y cadena.",
+          "issues": "Tornillos de escape; sensor de presión y junta de aspiración; válvulas, fugas y refrigeración con uso duro.",
+          "pros": "Bloque muy duradero, diseño sencillo, gran par y piezas.",
+          "cons": "Consumo alto e importan ralentí y remolque."
+        },
+        "fr": {
+          "construction": "V8 GM Gen IV 6,0 litres bloc fonte à tiges, culasses aluminium, calage variable, injection flex-fuel et chaîne.",
+          "issues": "Vis échappement ; capteur pression et joint crépine ; distribution, fuites et refroidissement en usage dur.",
+          "pros": "Bloc très durable, simplicité, fort couple et pièces nombreuses.",
+          "cons": "Consommation élevée et historique utilitaire important."
+        },
+        "de": {
+          "construction": "GM-Gen-IV-6,0-Liter-Grauguss-Stößelstangen-V8 mit Aluminiumköpfen, variabler Steuerung, Flex-Fuel-MPI und Kette.",
+          "issues": "Krümmerbolzen; Öldrucksensor und Ansaug-O-Ring; Ventiltrieb, Lecks und Kühlung bei harter Nutzung.",
+          "pros": "Sehr haltbar, einfach, starkes Zugdrehmoment und viele Teile.",
+          "cons": "Hoher Verbrauch und Nutzungs-/Leerlaufhistorie zählen."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "ford-cyclone-37",
+      "code": "3.7 Cyclone",
+      "aliases": [
+        "Duratec 37",
+        "Ford 3.7 V6",
+        "Ti-VCT 3.7"
+      ],
+      "maker": "Ford / Lincoln",
+      "regionKey": "usa",
+      "years": "2011-2020",
+      "displacement": "3.7 L · 3,726 cc",
+      "layout": "V6 · DOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Ford Mustang",
+        "Ford F-150",
+        "Ford Transit",
+        "Lincoln MKS / MKT derivatives"
+      ],
+      "consumption": "9-15 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "280,000-450,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Ford Cyclone-family 3.7-litre aluminium V6 with DOHC 24-valve heads, Ti-VCT, multipoint injection and chains.",
+          "issues": "Internal water pump on transverse versions; chain and VCT wear; oil leaks, ignition and cooling; modified Mustang abuse.",
+          "pros": "Good power without turbocharging and broad parts support.",
+          "cons": "Longitudinal and transverse water-pump layouts differ greatly."
+        },
+        "es": {
+          "construction": "V6 Ford Cyclone 3.7 de aluminio, DOHC 24 válvulas, Ti-VCT, inyección multipunto y cadenas.",
+          "issues": "Bomba interna en transversales; cadena y VCT; fugas, encendido y refrigeración; abuso en Mustang.",
+          "pros": "Buena potencia sin turbo y muchas piezas.",
+          "cons": "Bomba muy distinta entre montaje longitudinal y transversal."
+        },
+        "fr": {
+          "construction": "V6 Ford Cyclone 3,7 litres aluminium, DOHC 24 soupapes, Ti-VCT, injection multipoint et chaînes.",
+          "issues": "Pompe interne sur versions transversales ; chaîne et VCT ; fuites, allumage et refroidissement ; usage dur Mustang.",
+          "pros": "Bonne puissance sans turbo et pièces nombreuses.",
+          "cons": "Pompe très différente selon implantation."
+        },
+        "de": {
+          "construction": "Ford-Cyclone-3,7-Liter-Aluminium-V6 mit DOHC-24V, Ti-VCT, MPI und Ketten.",
+          "issues": "Interne Pumpe bei Quereinbau; Kette und VCT; Lecks, Zündung und Kühlung; Mustang-Missbrauch.",
+          "pros": "Gute Leistung ohne Turbo und viele Teile.",
+          "cons": "Pumpenanordnung unterscheidet sich stark nach Einbau."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "chrysler-35-ho",
+      "code": "3.5 HO V6",
+      "aliases": [
+        "Chrysler 3.5",
+        "3.5 High Output",
+        "EGG"
+      ],
+      "maker": "Chrysler / Dodge",
+      "regionKey": "usa",
+      "years": "1998-2010",
+      "displacement": "3.5 L · 3,518 cc",
+      "layout": "V6 · SOHC · 24V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingBelt",
+      "applications": [
+        "Chrysler 300M / 300",
+        "Dodge Intrepid / Charger",
+        "Dodge Magnum",
+        "Chrysler Pacifica derivatives"
+      ],
+      "consumption": "10-16 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "250,000-420,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "Chrysler 3.5-litre aluminium SOHC 24-valve V6 with multipoint injection and timing belt.",
+          "issues": "Timing belt and water pump; oil sludge with poor service; rocker and valvetrain wear; cooling, oil leaks and intake control.",
+          "pros": "Strong smooth naturally aspirated output and available North American parts.",
+          "cons": "Belt and oil history are critical; longitudinal and transverse applications differ."
+        },
+        "es": {
+          "construction": "V6 Chrysler 3.5 de aluminio, SOHC 24 válvulas, inyección multipunto y correa.",
+          "issues": "Correa y bomba; lodos; balancines; refrigeración, fugas y admisión.",
+          "pros": "Potencia atmosférica fuerte y suave, piezas disponibles.",
+          "cons": "Correa y aceite críticos; montajes cambian."
+        },
+        "fr": {
+          "construction": "V6 Chrysler 3,5 litres aluminium SOHC 24 soupapes, injection multipoint et courroie.",
+          "issues": "Courroie et pompe ; boues ; culbuteurs ; refroidissement, fuites et admission.",
+          "pros": "Puissance atmosphérique forte et souple, pièces disponibles.",
+          "cons": "Courroie et huile critiques ; implantations différentes."
+        },
+        "de": {
+          "construction": "Chrysler-3,5-Liter-Aluminium-SOHC-24V-V6 mit MPI und Zahnriemen.",
+          "issues": "Riemen und Pumpe; Ölschlamm; Kipphebel; Kühlung, Lecks und Ansaugung.",
+          "pros": "Starke ruhige Saugerleistung und verfügbare Teile.",
+          "cons": "Riemen- und Ölhistorie kritisch; Einbauten unterscheiden sich."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    },
+    {
+      "id": "gm-laf-lea",
+      "code": "LAF / LEA 2.4 Ecotec",
+      "aliases": [
+        "LAF",
+        "LEA",
+        "GM 2.4 Ecotec DI"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2010-2017",
+      "displacement": "2.4 L · 2,384 cc",
+      "layout": "I4 · DOHC · 16V",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "directInjection",
+      "blockKey": "aluminumLiners",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Equinox / Captiva",
+        "GMC Terrain",
+        "Buick Regal / Verano",
+        "Chevrolet Malibu"
+      ],
+      "consumption": "8-12 L/100 km",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "180,000-330,000 km",
+      "oilRecord": "",
+      "statusKey": "generationCritical",
+      "text": {
+        "en": {
+          "construction": "GM 2.4-litre aluminium Ecotec direct-injection engine with DOHC head, variable timing and timing chain.",
+          "issues": "Oil consumption from piston rings; chain and tensioner wear; PCV faults, intake deposits, high-pressure fuel pump and catalyst concerns.",
+          "pros": "Useful torque and broad GM application.",
+          "cons": "Oil level requires close monitoring; LAF and flex-fuel LEA calibrations differ."
+        },
+        "es": {
+          "construction": "Motor GM Ecotec 2.4 de aluminio e inyección directa, DOHC, distribución variable y cadena.",
+          "issues": "Consumo por segmentos; cadena y tensor; PCV, depósitos, bomba de alta y catalizador.",
+          "pros": "Buen par y uso amplio.",
+          "cons": "Vigilar aceite; LAF y LEA flex-fuel cambian."
+        },
+        "fr": {
+          "construction": "Moteur GM Ecotec 2,4 litres aluminium à injection directe, DOHC, calage variable et chaîne.",
+          "issues": "Consommation par segments ; chaîne et tendeur ; PCV, dépôts, pompe haute pression et catalyseur.",
+          "pros": "Bon couple et large usage.",
+          "cons": "Surveiller huile ; LAF et LEA flex-fuel différents."
+        },
+        "de": {
+          "construction": "GM-Ecotec-2,4-Liter-Aluminium-Direkteinspritzer mit DOHC, variabler Steuerung und Kette.",
+          "issues": "Ölverbrauch durch Ringe; Kette und Spanner; PCV, Ablagerungen, Hochdruckpumpe und Katalysator.",
+          "pros": "Gutes Drehmoment und breite Nutzung.",
+          "cons": "Ölstand eng überwachen; LAF und Flex-Fuel-LEA unterscheiden sich."
+        }
+      },
+      "verification": {
+        "status": "legacyPending",
+        "sources": []
+      }
+    }
+  ]
+}
