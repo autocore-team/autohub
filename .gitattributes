@@ -1,0 +1,5 @@
+engine-data.js text eol=lf
+data/engines/*.js text eol=lf
+data/engines/source/**/*.json text eol=lf
+scripts/engines/*.mjs text eol=lf
+package.json text eol=lf
