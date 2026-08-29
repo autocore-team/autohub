@@ -3,12 +3,14 @@
   "private": true,
   "scripts": {
     "engines:validate": "node scripts/engines/validate-engine-data.mjs",
+    "engines:legacy-identity-migration-policy:test": "node scripts/engines/legacy-identity-migration-policy.test.mjs",
+    "engines:verification-policy:test": "node scripts/engines/verification-policy.test.mjs",
     "engines:generate": "node scripts/engines/generate-engine-data.mjs",
     "engines:generate:check": "node scripts/engines/generate-engine-data.mjs --check",
     "engines:smoke": "node scripts/engines/smoke-test-engine-data.mjs",
     "engines:compare": "node scripts/engines/semantic-compare-engine-data.mjs",
     "engines:legacy-compare": "node scripts/engines/semantic-compare-engine-data.mjs --legacy-head",
-    "engines:check": "npm run engines:validate && npm run engines:generate:check && npm run engines:smoke && npm run engines:compare",
+    "engines:check": "npm run engines:legacy-identity-migration-policy:test && npm run engines:verification-policy:test && npm run engines:validate && npm run engines:generate:check && npm run engines:smoke && npm run engines:compare",
     "test": "npm run engines:check"
   }
 }

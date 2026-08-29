@@ -260,14 +260,14 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "status",
-        "sources"
+        "status"
       ],
       "properties": {
         "status": {
           "type": "string",
           "enum": [
             "verified",
+            "corroborated",
             "legacyPending"
           ]
         },
@@ -298,7 +298,8 @@
           "enum": [
             "manufacturer",
             "technicalReference",
-            "serviceDocumentation"
+            "serviceDocumentation",
+            "certificationDocument"
           ]
         },
         "title": {

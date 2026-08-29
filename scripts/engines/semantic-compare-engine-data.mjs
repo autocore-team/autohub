@@ -11,6 +11,7 @@ import {
   readText,
   regionFilePath
 } from './lib.mjs';
+import { comparableLegacyRecords } from './legacy-identity-migration-policy.mjs';
 
 const compareLegacyHead = process.argv.includes('--legacy-head');
 const legacyRef = process.env.ENGINE_DATA_BASE_REF || 'main';
@@ -25,64 +26,6 @@ function compareFingerprint(left, right, label) {
   if (canonicalFingerprint(left) !== canonicalFingerprint(right)) {
     errors.push(`${label}: semantic data differs.`);
   }
-}
-
-function clone(value) {
-  return JSON.parse(JSON.stringify(value));
-}
-
-function isObject(value) {
-  return value && typeof value === 'object' && !Array.isArray(value);
-}
-
-function isValidSource(source) {
-  if (!isObject(source)) return false;
-  if (!['manufacturer', 'technicalReference', 'serviceDocumentation'].includes(source.type)) return false;
-  if (typeof source.title !== 'string' || source.title.length === 0) return false;
-  if (typeof source.publisher !== 'string' || source.publisher.length === 0) return false;
-  if (!Number.isInteger(source.year)) return false;
-  if (typeof source.url !== 'string' || source.url.length === 0) return false;
-  try {
-    new URL(source.url);
-  } catch {
-    return false;
-  }
-  if (!Number.isInteger(source.page) || source.page < 1) return false;
-  if (typeof source.checkedAt !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(source.checkedAt)) return false;
-  if (!Array.isArray(source.fields) || source.fields.length === 0) return false;
-  if (!source.fields.every((field) => typeof field === 'string' && field.length > 0)) return false;
-  if (Object.hasOwn(source, 'pageNotes')) {
-    if (!Array.isArray(source.pageNotes)) return false;
-    if (!source.pageNotes.every((note) => typeof note === 'string' && note.length > 0)) return false;
-  }
-  return true;
-}
-
-function hasValidVerifiedPerformanceSources(record) {
-  const sources = record.verification?.sources;
-  if (!Array.isArray(sources) || sources.length === 0) return false;
-  if (!sources.every(isValidSource)) return false;
-  const sourceFields = new Set(sources.flatMap((source) => source.fields || []));
-  return sourceFields.has('performance.powerKw') && sourceFields.has('performance.torqueNm');
-}
-
-function isFirstVerifiedPerformanceAddition(currentRecord, legacyRecord) {
-  return legacyRecord.verification?.status === 'legacyPending'
-    && currentRecord.verification?.status === 'verified'
-    && !Object.hasOwn(legacyRecord, 'performance')
-    && Object.hasOwn(currentRecord, 'performance')
-    && hasValidVerifiedPerformanceSources(currentRecord);
-}
-
-function comparableLegacyRecords(currentRecord, legacyRecord) {
-  const currentComparable = clone(currentRecord);
-  const legacyComparable = clone(legacyRecord);
-  if (isFirstVerifiedPerformanceAddition(currentRecord, legacyRecord)) {
-    delete currentComparable.performance;
-    delete currentComparable.verification;
-    delete legacyComparable.verification;
-  }
-  return { currentComparable, legacyComparable };
 }
 
 compareFingerprint(generatedMonolithic, sourceRecords, 'engine-data.js vs source');
@@ -171,5 +114,5 @@ console.log('Engine data semantic comparison passed.');
 console.log(`Source records: ${sourceRecords.length}; monolithic records: ${generatedMonolithic.length}; regional records: ${generatedRegionalFlat.length}.`);
 console.log(`Region counts: ${REGIONS.map((region) => `${region}=${counts[region]}`).join(', ')}.`);
 if (compareLegacyHead) {
-  console.log(`Legacy ${legacyRef} comparison passed with only first legacyPending-to-verified performance/source additions allowed.`);
+  console.log(`Legacy ${legacyRef} comparison passed with only allowed first legacyPending-to-verified/corroborated performance/source additions and exact verified identity-field metadata migrations.`);
 }

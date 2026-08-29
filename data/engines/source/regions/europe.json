@@ -85,7 +85,8 @@
             "checkedAt": "2026-08-22",
             "fields": [
               "performance.powerKw",
-              "performance.torqueNm"
+              "performance.torqueNm",
+              "code"
             ],
             "pageNotes": [
               "Page 2 lists the B5202S row with 1984 cm3 displacement, aluminium block/head, 2 valves per cylinder, 2 camshafts, 95 RON fuel, 93 kW (126 hp) at 6250 rpm, and 170 Nm at 4800 rpm."
@@ -198,7 +199,8 @@
             "checkedAt": "2026-08-23",
             "fields": [
               "performance.powerKw",
-              "performance.torqueNm"
+              "performance.torqueNm",
+              "code"
             ],
             "pageNotes": [
               "The opening specification list gives the 2.2, 2.5 and 3.0 litre petrol variants as 125/141/170 kW and 210/245/300 Nm; the later technical section identifies these new six-cylinder engines as M54."

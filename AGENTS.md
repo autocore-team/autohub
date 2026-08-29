@@ -38,6 +38,9 @@
 * Run `npm run engines:check` before handing off engine data changes.
 * Keep compatibility first: preserve existing engine IDs, text and record order unless a task explicitly approves a migration.
 * Add new technical specifications only when a real source is recorded in the source entry. Leave unverified legacy records as `legacyPending`.
+* Use `verified` only when performance is backed by an official `manufacturer`, `serviceDocumentation`, or `certificationDocument` source that also identifies the engine by `code` or `aliases`.
+* Use `corroborated` only when official data is unavailable and performance is backed by at least two independent `technicalReference` sources. Each source must cover `performance.powerKw`, `performance.torqueNm`, and `code` or `aliases`, with page notes explaining identity and range boundaries.
+* For corroboration, do not treat reprints, mirrors, shared upstream databases, or separate brands of one publisher as independent unless the data origin is genuinely independent.
 
 ## Current priorities
 
