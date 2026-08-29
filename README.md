@@ -128,7 +128,15 @@ The formal source structure is documented in:
 
 `data/engines/source/schema.json`
 
-The JSON Schema is the formal contract for documentation and editor support. `validate-engine-data.mjs` is the only executable check used by npm/CI in the current zero-dependency pipeline. It verifies that `schema.json` exists and is valid JSON, then enforces the project-specific business rules: fixed region order, exact record counts, unique IDs, legacyPending policy, and the verified Volvo B5202S source/performance constraints. When the data structure changes, update both `schema.json` and `validate-engine-data.mjs` in the same change.
+The JSON Schema is the formal contract for documentation and editor support. `validate-engine-data.mjs` is the executable source-data check used by npm/CI in the current zero-dependency pipeline. It verifies that `schema.json` exists and is valid JSON, then enforces the project-specific business rules: fixed region order, exact record counts, unique IDs, verification policy, and the verified Volvo B5202S source/performance constraints. When the data structure changes, update both `schema.json` and the executable validation policy in the same change.
+
+Verification status policy:
+
+* `verified` records must include `performance` and at least one official source covering `performance.powerKw`, `performance.torqueNm`, and `code` or `aliases`. Official source types are `manufacturer`, `serviceDocumentation`, and `certificationDocument`; additional source types may be present.
+* `corroborated` records are for cases where an official source is unavailable. They must include `performance` and at least two independent `technicalReference` sources. Each source must cover `performance.powerKw`, `performance.torqueNm`, and `code` or `aliases`, and must include non-empty `pageNotes` explaining the engine identity and range boundaries.
+* `legacyPending` records must not include `performance`; `verification.sources` must be absent or empty.
+
+For `corroborated`, source independence requires at least two normalized publishers and at least two normalized URL hostnames. Publisher normalization trims, lowercases, and collapses repeated spaces; hostname normalization lowercases and removes a leading `www.`. Do not count reprints of the same material, mirrors, sites using the same upstream database, or separate brands of one publisher unless the data origin is genuinely independent.
 
 Generated files:
 
@@ -140,6 +148,7 @@ Generated files:
 
 Commands:
 
+* `npm run engines:verification-policy:test` runs fixture tests for verified, corroborated and legacyPending rules.
 * `npm run engines:validate` checks source JSON, schema presence, counts, source status and B5202S source data.
 * `npm run engines:generate` validates source data and rebuilds generated JS from regional source files.
 * `npm run engines:generate:check` verifies generated JS is up to date.
