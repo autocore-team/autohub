@@ -150,9 +150,61 @@
           "cons": "Kühlungsvernachlässigung kann den Aluminiumkopf schädigen; Öl- und Unterdrucklecks treten oft gemeinsam auf."
         }
       },
+      "performance": {
+        "powerKw": {
+          "min": 125,
+          "max": 170,
+          "rpm": {
+            "min": 5900,
+            "max": 6100
+          }
+        },
+        "torqueNm": {
+          "min": 210,
+          "max": 300,
+          "rpm": {
+            "min": 3500,
+            "max": 3500
+          }
+        }
+      },
       "verification": {
-        "status": "legacyPending",
-        "sources": []
+        "status": "verified",
+        "sources": [
+          {
+            "type": "manufacturer",
+            "title": "Drei neue Sechszylinder, 5er Facelift, mehr Power für den 530d, Allradoption auch für 325i und 330d.",
+            "publisher": "BMW Group",
+            "year": 2000,
+            "url": "https://www.press.bmwgroup.com/switzerland/article/detail/T0032537DE/drei-neue-sechszylinder-5er-facelift-mehr-power-fuer-den-530d-allradoption-auch-fuer-325i-und-330d?language=de",
+            "page": 1,
+            "checkedAt": "2026-08-23",
+            "fields": [
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "pageNotes": [
+              "The article introduces BMW's new 2.2, 2.5 and 3.0 litre straight-six petrol engines and lists the three variants as 125 kW / 210 Nm, 141 kW / 245 Nm and 170 kW / 300 Nm.",
+              "The technical data table under Mehr Leistung, gleicher Verbrauch links those same variants to 520i/320i/Z3 2.2i, 525i/325i and 530i/330i/Z3 3.0i, with power at 6100, 6000 and 5900 rpm and torque at 3500 rpm for all three variants."
+            ]
+          },
+          {
+            "type": "manufacturer",
+            "title": "Tre nuovi sei cilindri e restyling estetico per la Serie 5 del 2001",
+            "publisher": "BMW Group",
+            "year": 2000,
+            "url": "https://www.press.bmwgroup.com/italy/article/detail/T0020000IT/tre-nuovi-sei-cilindri-e-restyling-estetico-per-la-serie-5-del-2001?language=it",
+            "page": 1,
+            "checkedAt": "2026-08-23",
+            "fields": [
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "pageNotes": [
+              "The opening specification list gives the 2.2, 2.5 and 3.0 litre petrol variants as 125/141/170 kW and 210/245/300 Nm; the later technical section identifies these new six-cylinder engines as M54."
+            ]
+          }
+        ]
       }
     },
     {

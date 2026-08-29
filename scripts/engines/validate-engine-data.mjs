@@ -75,6 +75,39 @@ export function validateEngineData(sourceData = readSourceData()) {
     if (Object.hasOwn(range, 'rpm')) validateRange(range.rpm, `${label}.rpm`);
   }
 
+  function validateSource(source, label) {
+    assertCondition(source && typeof source === 'object' && !Array.isArray(source), `${label} must be an object.`, errors);
+    if (!source || typeof source !== 'object') return;
+    assertCondition(['manufacturer', 'technicalReference', 'serviceDocumentation'].includes(source.type), `${label}.type must be a known source type.`, errors);
+    assertCondition(typeof source.title === 'string' && source.title.length > 0, `${label}.title must be a non-empty string.`, errors);
+    assertCondition(typeof source.publisher === 'string' && source.publisher.length > 0, `${label}.publisher must be a non-empty string.`, errors);
+    assertCondition(Number.isInteger(source.year), `${label}.year must be an integer.`, errors);
+    assertCondition(typeof source.url === 'string' && source.url.length > 0, `${label}.url must be a non-empty string.`, errors);
+    if (typeof source.url === 'string') {
+      try {
+        new URL(source.url);
+      } catch {
+        errors.push(`${label}.url must be a valid URL.`);
+      }
+    }
+    assertCondition(Number.isInteger(source.page) && source.page >= 1, `${label}.page must be an integer >= 1.`, errors);
+    assertCondition(typeof source.checkedAt === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(source.checkedAt), `${label}.checkedAt must be YYYY-MM-DD.`, errors);
+    assertCondition(Array.isArray(source.fields) && source.fields.length > 0, `${label}.fields must be a non-empty array.`, errors);
+    if (Array.isArray(source.fields)) {
+      source.fields.forEach((field, fieldIndex) => {
+        assertCondition(typeof field === 'string' && field.length > 0, `${label}.fields[${fieldIndex}] must be a non-empty string.`, errors);
+      });
+    }
+    if (Object.hasOwn(source, 'pageNotes')) {
+      assertCondition(Array.isArray(source.pageNotes), `${label}.pageNotes must be an array.`, errors);
+      if (Array.isArray(source.pageNotes)) {
+        source.pageNotes.forEach((note, noteIndex) => {
+          assertCondition(typeof note === 'string' && note.length > 0, `${label}.pageNotes[${noteIndex}] must be a non-empty string.`, errors);
+        });
+      }
+    }
+  }
+
   const ids = new Set();
   for (const [index, record] of records.entries()) {
     const label = record?.id || `record at index ${index}`;
@@ -111,10 +144,23 @@ export function validateEngineData(sourceData = readSourceData()) {
     assertCondition(verification && typeof verification === 'object' && !Array.isArray(verification), `${label}: verification must be an object.`, errors);
     assertCondition(['verified', 'legacyPending'].includes(verification?.status), `${label}: verification.status must be verified or legacyPending.`, errors);
     assertCondition(Array.isArray(verification?.sources), `${label}: verification.sources must be an array.`, errors);
+    if (Array.isArray(verification?.sources)) {
+      verification.sources.forEach((source, sourceIndex) => validateSource(source, `${label}: verification.sources[${sourceIndex}]`));
+    }
 
-    if (Object.hasOwn(record, 'performance')) {
+    const hasPerformance = Object.hasOwn(record, 'performance');
+    if (hasPerformance) {
       validateRange(record.performance?.powerKw, `${label}: performance.powerKw`);
       validateRange(record.performance?.torqueNm, `${label}: performance.torqueNm`);
+    }
+
+    if (verification?.status === 'verified') {
+      assertCondition(verification?.sources.length > 0, `${label}: verified records must include at least one source.`, errors);
+      if (hasPerformance) {
+        const sourceFields = new Set(verification.sources.flatMap((source) => source.fields || []));
+        assertCondition(sourceFields.has('performance.powerKw'), `${label}: verified performance must link performance.powerKw to a source.`, errors);
+        assertCondition(sourceFields.has('performance.torqueNm'), `${label}: verified performance must link performance.torqueNm to a source.`, errors);
+      }
     }
 
     if (record.id === VERIFIED_ENGINE_ID) {
@@ -135,9 +181,9 @@ export function validateEngineData(sourceData = readSourceData()) {
       assertCondition(record.performance?.powerKw?.rpm?.min === 6250 && record.performance?.powerKw?.rpm?.max === 6250, `${label}: verified power rpm must be 6250.`, errors);
       assertCondition(record.performance?.torqueNm?.min === 170 && record.performance?.torqueNm?.max === 170, `${label}: verified torque must be 170 Nm.`, errors);
       assertCondition(record.performance?.torqueNm?.rpm?.min === 4800 && record.performance?.torqueNm?.rpm?.max === 4800, `${label}: verified torque rpm must be 4800.`, errors);
-    } else {
+    } else if (verification?.status === 'legacyPending') {
       assertCondition(verification?.status === 'legacyPending', `${label}: unverified legacy records must be legacyPending.`, errors);
-      assertCondition(!Object.hasOwn(record, 'performance'), `${label}: no new performance characteristics are allowed before verification.`, errors);
+      assertCondition(!hasPerformance, `${label}: no performance characteristics are allowed before verification.`, errors);
       assertCondition(verification?.sources.length === 0, `${label}: legacyPending records must not claim sources.`, errors);
     }
   }
