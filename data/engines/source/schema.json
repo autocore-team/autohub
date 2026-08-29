@@ -285,6 +285,8 @@
       "required": [
         "type",
         "title",
+        "publisher",
+        "year",
         "url",
         "page",
         "checkedAt",
