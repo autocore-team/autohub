@@ -326,9 +326,46 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "Altersbedingte Gummi-, Kabel- und Entlüftungsfehler sammeln sich; Suffix und Drosselklappengeneration zählen."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 125,
+        "rpm": {
+          "min": 4500,
+          "max": 5900
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 230,
+        "rpm": {
+          "min": 3750,
+          "max": 4500
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Technical Data January 2003",
+          "publisher": "Volvo Car Corporation",
+          "year": 2003,
+          "url": "https://www.volvoclub.org.uk/tech/S80_Jan_2003.pdf",
+          "page": 1,
+          "checkedAt": "2026-08-30",
+          "fields": [
+            "code",
+            "aliases",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 1 of the official Volvo technical document lists B5244S2 with 2435 cm³ displacement, 103 kW at 4500 rpm, and 220 Nm at 3750 rpm; it also lists B5244S with 2435 cm³ displacement, 125 kW at 5900 rpm, and 230 Nm at 4500 rpm."
+          ]
+        }
+      ]
     }
   },
   {
@@ -5914,9 +5951,45 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "Hoher Verbrauch und Nutzungs-/Leerlaufhistorie zählen."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 268,
+        "max": 268,
+        "rpm": {
+          "min": 5400,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 515,
+        "max": 515,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.0L V-8 L96 Small Block Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2025,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/l96-engines/6.0L%20V-8_L96%20_GM%20Powered%20Solutions%20Sell%20Sheet.pdf",
+          "page": 2,
+          "checkedAt": "2026-08-30",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names the engine 6.0L V-8, L96; lists displacement as 5967 cc; lists 360 hp (268 kW) at 5400 rpm; lists 380 lb-ft (515 Nm) at 4200 rpm; notes As Tested In Chevrolet Silverado HD; and contains copyright ©2025 General Motors."
+          ]
+        }
+      ]
     }
   },
   {
