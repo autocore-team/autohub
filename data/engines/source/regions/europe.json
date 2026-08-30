@@ -1120,9 +1120,45 @@
           "cons": "Richtiges Öl und saubere Steuersiebe zählen; Z18XER, A18XER und Chevrolet-Derivate unterscheiden sich bei Kalibrierung und Abgas."
         }
       },
+      "performance": {
+        "powerKw": {
+          "min": 103,
+          "max": 103,
+          "rpm": {
+            "min": 6300,
+            "max": 6300
+          }
+        },
+        "torqueNm": {
+          "min": 175,
+          "max": 175,
+          "rpm": {
+            "min": 3800,
+            "max": 3800
+          }
+        }
+      },
       "verification": {
-        "status": "legacyPending",
-        "sources": []
+        "status": "verified",
+        "sources": [
+          {
+            "type": "serviceDocumentation",
+            "title": "Astra-H, v.9 (rev 2), de-DE (Work nr: K589A_50)",
+            "publisher": "ADAM OPEL AG, Rüsselsheim",
+            "year": 2012,
+            "url": "https://public-servicebox.opel.com/OVddb/OV/de_DE/Astra_H/2010_2016/2012/manual_user/om_astra_2584_17_eu_my12_ed0811_9_de_DE_online.pdf",
+            "page": 224,
+            "checkedAt": "2026-08-30",
+            "fields": [
+              "code",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "pageNotes": [
+              "Page 224, section Motordaten, lists the 1.8 engine with engine codes Z 18 XER and A 18 XER, displacement 1796 cm³, 103 kW at 6300 rpm, and 175 Nm at 3800 rpm."
+            ]
+          }
+        ]
       }
     },
     {
