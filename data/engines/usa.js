@@ -1310,9 +1310,45 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.usa = [
         "cons": "Hoher Verbrauch und Nutzungs-/Leerlaufhistorie zählen."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 268,
+        "max": 268,
+        "rpm": {
+          "min": 5400,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 515,
+        "max": 515,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.0L V-8 L96 Small Block Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2025,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/l96-engines/6.0L%20V-8_L96%20_GM%20Powered%20Solutions%20Sell%20Sheet.pdf",
+          "page": 2,
+          "checkedAt": "2026-08-30",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names the engine 6.0L V-8, L96; lists displacement as 5967 cc; lists 360 hp (268 kW) at 5400 rpm; lists 380 lb-ft (515 Nm) at 4200 rpm; notes As Tested In Chevrolet Silverado HD; and contains copyright ©2025 General Motors."
+          ]
+        }
+      ]
     }
   },
   {
