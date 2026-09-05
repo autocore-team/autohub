@@ -2148,9 +2148,79 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "Boxerzugang erhöht Arbeitszeit; Ölstand überwachen und FB20B von FB20D unterscheiden."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 107,
+        "max": 113,
+        "rpm": {
+          "min": 6000,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 188,
+        "max": 196,
+        "rpm": {
+          "min": 4000,
+          "max": 4200
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "フォレスター ツーリング（2023年8月）カタログ・スペック情報",
+          "publisher": "SUBARU CORPORATION",
+          "year": 2023,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10150211",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official SUBARU SUGDAS catalog lists engine model FB20, 1995 cc, 145 ps (107 kW) at 6000 rpm and 19.2 kg-m (188 N-m) at 4000 rpm for Forester Touring."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "フォレスター ２．０ｉ（2015年11月）カタログ・スペック情報",
+          "publisher": "SUBARU CORPORATION",
+          "year": 2015,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10100329",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official SUBARU SUGDAS catalog lists engine model FB20, 1995 cc, 148 ps (109 kW) at 6200 rpm and 20.0 kg-m (196 N-m) at 4200 rpm for Forester 2.0i."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "インプレッサＧ４ ２．０ｉ−Ｌ アイサイト（2016年10月）カタログ・スペック情報",
+          "publisher": "SUBARU CORPORATION",
+          "year": 2016,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10106635",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official SUBARU SUGDAS catalog lists engine model FB20, 1995 cc, 154 ps (113 kW) at 6000 rpm and 20.0 kg-m (196 N-m) at 4000 rpm for Impreza G4 2.0i-L EyeSight."
+          ]
+        }
+      ]
     }
   },
   {
@@ -2266,9 +2336,63 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "Gebrauchtmotoren können lange Ölintervalle erlebt haben; 1NZ-FE nicht mit dem Atkinson-Hybridmotor 1NZ-FXE verwechseln."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 81,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 138,
+        "max": 143,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 1NZ-FE and lists the FF variant at 1496 cc, 81 kW at 6000 rpm and 143 N-m at 4200 rpm.",
+            "The same table lists the 4WD 1NZ-FE variant at 77 kW at 6000 rpm and 138 N-m at 4200 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "Toyota Launches Completely Redesigned Corolla Sedan and Corolla Fielder",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2006,
+          "url": "https://global.toyota/en/newsroom/toyota/23046809.html",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Engine Specifications table names 1NZ-FE and lists 1496 cc, 81 kW at 6000 rpm and 140 N-m at 4400 rpm, confirming the 4400 rpm torque variant within the range."
+          ]
+        }
+      ]
     }
   },
   {
@@ -3048,9 +3172,46 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "3ZR-FE nicht mit Valvematic-3ZR-FAE verwechseln."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 194,
+        "max": 194,
+        "rpm": {
+          "min": 3900,
+          "max": 3900
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota Launches Fully Redesigned Voxy and Noah",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2007,
+          "url": "https://global.toyota/en/newsroom/toyota/24167639.html",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Engine Specifications table names the 3ZR-FE row and lists 1986 cc, 105 kW at 5600 rpm and 194 N-m at 3900 rpm.",
+            "The separate 3ZR-FAE Valvematic row is not used for this 3ZR-FE record."
+          ]
+        }
+      ]
     }
   },
   {
@@ -3108,9 +3269,64 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "i-DSI und VTEC haben andere Kopf- und Zündsysteme."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 88,
+        "rpm": {
+          "min": 5500,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 131,
+        "max": 145,
+        "rpm": {
+          "min": 2700,
+          "max": 4800
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Honda｜パートナー（2010年8月終了モデル）｜スペック",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2010,
+          "url": "https://www.honda.co.jp/auto-archive/partner/2010/grade-data/",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Honda Partner specifications name engine model L15A, 1496 cm3, 66 kW at 5500 rpm and 131 N-m at 2700 rpm.",
+            "The page states the specifications are type-designation application values and identifies Honda Motor Co., Ltd. as the manufacturer."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "FIT 2007.10.18 Specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2007,
+          "url": "https://www.honda.co.jp/factbook/auto/fit/200710/20.html",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Honda Fit fact book specifications name engine model L15A, 1496 cm3, 88 kW at 6600 rpm and 145 N-m at 4800 rpm.",
+            "The page states the specifications are type-designation application values and identifies Honda Motor Co., Ltd. as the manufacturer."
+          ]
+        }
+      ]
     }
   },
   {
