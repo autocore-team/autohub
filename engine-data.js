@@ -1919,9 +1919,62 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "FE, FAE und Hybrid-FXE sind nicht gleich; genaues Suffix und Ölvorgabe zählen."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 108,
+        "rpm": {
+          "min": 6000,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 175,
+        "max": 180,
+        "rpm": {
+          "min": 4000,
+          "max": 4400
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota Launches Completely Redesigned Corolla Sedan and Corolla Fielder",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2006,
+          "url": "https://global.toyota/en/newsroom/toyota/23046809.html",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Engine Specifications names 2ZR-FE and lists 1797 cc, 100 kW at 6000 rpm and 175 Nm at 4400 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "2008 Paris Motor Show",
+          "publisher": "Toyota Motor Europe",
+          "year": 2008,
+          "url": "https://newsroom.toyota.eu/2008-paris-motor-show/",
+          "page": 1,
+          "checkedAt": "2026-09-05",
+          "fields": [
+            "aliases",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Specifications table names engine code 2ZR-FAE and lists 1798 cm3, 108 kW at 6400 rpm and 180 Nm at 4000 rpm."
+          ]
+        }
+      ]
     }
   },
   {
