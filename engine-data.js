@@ -4700,6 +4700,2425 @@ window.AUTOHUB_ENGINE_DATA = {
     }
   },
   {
+    "id": "toyota-2zr-fxe",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "Corolla Cross Hybrid 1.8"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020 Toyota Corolla Cross Thailand hybrid specification",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla Cross Hybrid (Thailand, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.8-litre 2ZR-FXE hybrid four-cylinder documented for the 2020 Thailand Corolla Cross launch.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla Cross Hybrid (Thailand, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2ZR-FXE: especificacion oficial documentada para Toyota Corolla Cross Hybrid (Thailand, 2020).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Corolla Cross Hybrid (Thailand, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : specification officielle documentee pour Toyota Corolla Cross Hybrid (Thailand, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Corolla Cross Hybrid (Thailand, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2ZR-FXE: offiziell dokumentierte Spezifikation fuer Toyota Corolla Cross Hybrid (Thailand, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla Cross Hybrid (Thailand, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、カローラシリーズに「力強さ」と「機能性」を兼ね備えた新型コンパクトSUV「カローラ クロス」を追加、タイで世界初公開－COROLLA MEETS SUV－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/jp/newsroom/toyota/33080286.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Main specifications table for Thailand models names 2ZR-FXE for the hybrid specification and 2ZR-FBE for the gasoline specification.",
+            "The 2ZR-FXE row lists 1,798 cc, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm; the 2ZR-FBE row lists 1,798 cc, 103 kW at 6,000 rpm and 177 N-m at 4,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2zr-fbe",
+    "code": "2ZR-FBE",
+    "aliases": [
+      "Corolla Cross 1.8 gasoline"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020 Toyota Corolla Cross Thailand gasoline specification",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla Cross gasoline (Thailand, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.8-litre 2ZR-FBE gasoline four-cylinder documented for the 2020 Thailand Corolla Cross launch.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla Cross gasoline (Thailand, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2ZR-FBE: especificacion oficial documentada para Toyota Corolla Cross gasoline (Thailand, 2020).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Corolla Cross gasoline (Thailand, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2ZR-FBE : specification officielle documentee pour Toyota Corolla Cross gasoline (Thailand, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Corolla Cross gasoline (Thailand, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2ZR-FBE: offiziell dokumentierte Spezifikation fuer Toyota Corolla Cross gasoline (Thailand, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla Cross gasoline (Thailand, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 177,
+        "max": 177,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、カローラシリーズに「力強さ」と「機能性」を兼ね備えた新型コンパクトSUV「カローラ クロス」を追加、タイで世界初公開－COROLLA MEETS SUV－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/jp/newsroom/toyota/33080286.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Main specifications table for Thailand models names 2ZR-FXE for the hybrid specification and 2ZR-FBE for the gasoline specification.",
+            "The 2ZR-FXE row lists 1,798 cc, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm; the 2ZR-FBE row lists 1,798 cc, 103 kW at 6,000 rpm and 177 N-m at 4,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexus-m15a-fxe",
+    "code": "M15A-FXE",
+    "aliases": [
+      "Lexus LBX 1.5 Hybrid"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2023 Lexus LBX Japan hybrid specification",
+    "displacement": "1.5 L",
+    "layout": "I3 · DOHC",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Lexus/Toyota 1.5-litre M15A-FXE hybrid three-cylinder documented for the 2023 Japan Lexus LBX.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "M15A-FXE: especificacion oficial documentada para Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "M15A-FXE : specification officielle documentee pour Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "M15A-FXE: offiziell dokumentierte Spezifikation fuer Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Lexus LBX Cool / Relax / Bespoke Build (Japan, 2023) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 67,
+        "max": 67,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 3800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "LEXUS、新型「LBX」を発売－高級車の概念を変えるサイズのヒエラルキーを超えた次世代LEXUSモデル－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2023,
+          "url": "https://global.toyota/jp/newsroom/lexus/40022751.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The LBX main specifications table lists the 1.5L inline-3 engine at 67 kW at 5,500 rpm and 120 N-m at 3,800-4,800 rpm.",
+            "The LBX price table names the engine as M15A-FXE for the Cool, Relax and Bespoke Build variants."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexus-t24a-fts",
+    "code": "T24A-FTS",
+    "aliases": [
+      "Lexus 2.4 Turbo"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2024-2025 Lexus NX/RX Japan specifications",
+    "displacement": "2.4 L",
+    "layout": "I4 · DOHC · turbo",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX350 OVERTRAIL (Japan, 2024)",
+      "Lexus RX500h / RX350 (Japan, 2025)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Lexus/Toyota 2.4-litre T24A-FTS turbo four-cylinder documented for Japan-market NX and RX variants.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "T24A-FTS: especificacion oficial documentada para Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "T24A-FTS : specification officielle documentee pour Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "T24A-FTS: offiziell dokumentierte Spezifikation fuer Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Lexus NX350 OVERTRAIL (Japan, 2024) / Lexus RX500h / RX350 (Japan, 2025) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 202,
+        "max": 205,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 430,
+        "max": 460,
+        "rpm": {
+          "min": 1700,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "LEXUS、「NX」を一部改良するとともに、多様なお客様のライフスタイルに寄り添うラインアップを拡充",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2024,
+          "url": "https://global.toyota/jp/newsroom/lexus/40467779.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The OVERTRAIL main specifications table lists NX350 with the 2.4L inline-4 turbo at 205 kW at 6,000 rpm and 430 N-m at 1,700-3,600 rpm.",
+            "The price table names NX350 F SPORT and OVERTRAIL engine code T24A-FTS."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "LEXUS、「RX」を一部改良",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2025,
+          "url": "https://global.toyota/jp/newsroom/lexus/42264198.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The RX main specifications table lists RX500h with a 2.4L inline-4 turbo hybrid at 202 kW at 6,000 rpm and 460 N-m at 2,000-3,000 rpm.",
+            "The same table lists RX350 with a 2.4L inline-4 turbo at 205 kW at 6,000 rpm and 430 N-m at 1,700-3,600 rpm; the price table names both engines as T24A-FTS."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexus-g16e-gts",
+    "code": "G16E-GTS",
+    "aliases": [
+      "Lexus LBX MORIZO RR 1.6 Turbo"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2024 Lexus LBX MORIZO RR Japan specification",
+    "displacement": "1.6 L",
+    "layout": "I3 · DOHC · turbo",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus LBX MORIZO RR (Japan, 2024)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Lexus/Toyota 1.6-litre G16E-GTS turbo three-cylinder documented for the Japan Lexus LBX MORIZO RR.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Lexus LBX MORIZO RR (Japan, 2024) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "G16E-GTS: especificacion oficial documentada para Lexus LBX MORIZO RR (Japan, 2024).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Lexus LBX MORIZO RR (Japan, 2024) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "G16E-GTS : specification officielle documentee pour Lexus LBX MORIZO RR (Japan, 2024).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Lexus LBX MORIZO RR (Japan, 2024) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "G16E-GTS: offiziell dokumentierte Spezifikation fuer Lexus LBX MORIZO RR (Japan, 2024).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Lexus LBX MORIZO RR (Japan, 2024) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 224,
+        "max": 224,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 3250,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "LEXUS、LBXにハイパフォーマンスモデルLBX“MORIZO RR”を新規設定",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2024,
+          "url": "https://global.toyota/jp/newsroom/lexus/41209317.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The LBX MORIZO RR main specifications table names the 1.6L inline-3 intercooler turbo engine as G16E-GTS.",
+            "The table lists 224 kW at 6,500 rpm and 400 N-m at 3,250-4,600 rpm; the price table also names G16E-GTS."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lexus-2ur-gse",
+    "code": "2UR-GSE",
+    "aliases": [
+      "Lexus 5.0 V8"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2007-2019 Lexus F/LC documented specifications",
+    "displacement": "5.0 L · 4,968 cc",
+    "layout": "V8 · DOHC · 32V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus IS F (Japan, 2007)",
+      "Lexus LC500 (North America, 2016)",
+      "Lexus RC F (Japan, 2019)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Lexus 5.0-litre 2UR-GSE V8 documented across official IS F, LC500 and RC F specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2UR-GSE: especificacion oficial documentada para Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2UR-GSE : specification officielle documentee pour Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2UR-GSE: offiziell dokumentierte Spezifikation fuer Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Lexus IS F (Japan, 2007) / Lexus LC500 (North America, 2016) / Lexus RC F (Japan, 2019) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 311,
+        "max": 354,
+        "rpm": {
+          "min": 6600,
+          "max": 7100
+        }
+      },
+      "torqueNm": {
+        "min": 505,
+        "max": 535,
+        "rpm": {
+          "min": 4800,
+          "max": 5600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Lexus Launches 'IS F' in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2007,
+          "url": "https://global.toyota/en/detail/278390",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Engine Specifications table names model 2UR-GSE, displacement 4,968 cc, maximum output 311 kW at 6,600 rpm and maximum torque 505 N-m at 5,200 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "LEXUS、デトロイトモーターショーで新型ラグジュアリークーペ「LC500」を世界初公開－LEXUSは、LC500と共に新たなステージへ向かう－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2016,
+          "url": "https://global.toyota/jp/newsroom/lexus/28616190.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "LC500 North America engine specifications table names 2UR-GSE, displacement 4,968 cc, 349 kW at 7,100 rpm and 530 N-m at 4,800-5,600 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "LEXUS、「RC F」をマイナーチェンジ－“F”のさらなる進化を体現したハイパフォーマンスクーペ－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2019,
+          "url": "https://global.toyota/jp/newsroom/lexus/28057029.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "RC F engine specifications table names 2UR-GSE, displacement 4,968 cc, 354 kW at 7,100 rpm and 535 N-m at 4,800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1nz-fxe",
+    "code": "1NZ-FXE",
+    "aliases": [
+      "Toyota 1.5 Hybrid"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2018 Toyota Probox/Succeed hybrid specification",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.5-litre 1NZ-FXE hybrid four-cylinder documented for the 2018 Japan Probox and Succeed hybrid launch.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1NZ-FXE: especificacion oficial documentada para Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1NZ-FXE : specification officielle documentee pour Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1NZ-FXE: offiziell dokumentierte Spezifikation fuer Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Probox Hybrid / Succeed Hybrid (Japan, 2018) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 54,
+        "max": 54,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      },
+      "torqueNm": {
+        "min": 111,
+        "max": 111,
+        "rpm": {
+          "min": 3600,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、プロボックスならびにサクシードにハイブリッド車を追加－Toyota Safety Senseに昼間の歩行者検知機能を採用し、安全装備を強化－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2018,
+          "url": "https://global.toyota/jp/newsroom/toyota/25369835.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Hybrid system specifications table names engine type 1NZ-FXE, displacement 1,496 cc, 54 kW at 4,800 rpm and 111 N-m at 3,600-4,400 rpm.",
+            "The Probox and Succeed price tables also list THS II with 1NZ-FXE 1.5L."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2az-fe",
+    "code": "2AZ-FE",
+    "aliases": [
+      "2AZ",
+      "Toyota 2.4 VVT-i"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000-2006 Toyota documented 2AZ-FE specifications",
+    "displacement": "2.4 L · 2,362 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Harrier 2.4 (Japan, 2000)",
+      "Toyota Estima 2.4 (Japan, 2006)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.4-litre 2AZ-FE four-cylinder documented in official Harrier and Estima specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2AZ-FE: especificacion oficial documentada para Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2AZ-FE : specification officielle documentee pour Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2AZ-FE: offiziell dokumentierte Spezifikation fuer Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Harrier 2.4 (Japan, 2000) / Toyota Estima 2.4 (Japan, 2006) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 118,
+        "max": 125,
+        "rpm": {
+          "min": 5600,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 224,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、ハリアーをマイナーチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/detail/12422985",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Harrier overview states the 2.4L BEAMS 2AZ-FE engine was newly adopted.",
+            "The engine specifications table lists 2,362 cc, 118 kW at 5,600 rpm and 221 N-m at 4,000 rpm for the 2.4L application."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "Toyota Launches Fully Redesigned Estima Minivan in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2006,
+          "url": "https://global.toyota/en/newsroom/toyota/22745219.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Dynamic Performance section names the 2.4L four-cylinder as 2AZ-FE.",
+            "Engine Specifications table lists 2AZ-FE, 2,362 cc, 125 kW at 6,000 rpm and 224 N-m at 4,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1g-fe",
+    "code": "1G-FE",
+    "aliases": [
+      "Toyota 2.0 BEAMS"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000-2002 Toyota documented 1G-FE specifications",
+    "displacement": "2.0 L · 1,988 cc",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Mark II Grande / Grande Four (Japan, 2000)",
+      "Toyota Crown Sedan mild hybrid (Japan, 2002)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.0-litre 1G-FE inline-six documented in official Mark II and Crown Sedan specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1G-FE: especificacion oficial documentada para Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1G-FE : specification officielle documentee pour Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1G-FE: offiziell dokumentierte Spezifikation fuer Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Mark II Grande / Grande Four (Japan, 2000) / Toyota Crown Sedan mild hybrid (Japan, 2002) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 118,
+        "rpm": {
+          "min": 5500,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 200,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、マークIIをフルモデルチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/detail/12581944",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Engine specifications table names 1JZ-FSE, 1JZ-GTE, 1JZ-GE and 1G-FE.",
+            "Rows list: 1JZ-FSE 2,491 cc, 147 kW at 6,000 rpm and 250 N-m at 3,800 rpm; 1JZ-GTE 2,491 cc, 206 kW at 6,200 rpm and 378 N-m at 2,400 rpm; 1JZ-GE 2,491 cc, 147 kW at 6,000 rpm and 255 N-m at 4,000 rpm; 1G-FE 1,988 cc, 118 kW at 6,200 rpm and 200 N-m at 4,400 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、クラウンセダンにマイルドハイブリッドシステムを新搭載",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2002,
+          "url": "https://global.toyota/jp/detail/1920693",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Toyota Mild Hybrid System specifications table names engine type 1G-FE, displacement 1,988 cc, 105 kW at 5,500 rpm and 196 N-m at 4,400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-l13a",
+    "code": "L13A",
+    "aliases": [
+      "Honda 1.3 i-DSI",
+      "Honda 1.3 i-VTEC"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2001-2007 Honda Fit documented specifications",
+    "displacement": "1.3 L · 1,339 cc",
+    "layout": "I4 · SOHC",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Fit 1.3 (Japan, 2001)",
+      "Honda Fit 1.3 (Japan, 2007)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 1.3-litre L13A four-cylinder documented in official Fit fact-book specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "L13A: especificacion oficial documentada para Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "L13A : specification officielle documentee pour Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "L13A: offiziell dokumentierte Spezifikation fuer Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda Fit 1.3 (Japan, 2001) / Honda Fit 1.3 (Japan, 2007) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 63,
+        "max": 73,
+        "rpm": {
+          "min": 5700,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 119,
+        "max": 127,
+        "rpm": {
+          "min": 2800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Fit 2001.06｜プレスインフォメーション｜Honda公式サイト",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2001,
+          "url": "https://www.honda.co.jp/factbook/auto/fit/200106/17.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Fit 2001 specifications table names engine type L13A, displacement 1,339 cm3, 63 kW at 5,700 rpm and 119 N-m at 2,800 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "FIT 2007.10.18 Specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2007,
+          "url": "https://www.honda.co.jp/factbook/auto/fit/200710/20.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "FIT 2007 specifications table names L13A and L15A; the L13A column lists 1,339 cm3, 73 kW at 6,000 rpm and 127 N-m at 4,800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-lda",
+    "code": "LDA",
+    "aliases": [
+      "Honda Fit Hybrid LDA"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2013 Honda Fit Hybrid specification",
+    "displacement": "1.3 L · 1,339 cc",
+    "layout": "I4 · SOHC",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Fit Hybrid GP1 (Japan, 2013)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 1.3-litre LDA hybrid four-cylinder documented for the 2013 Japan Fit Hybrid.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda Fit Hybrid GP1 (Japan, 2013) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LDA: especificacion oficial documentada para Honda Fit Hybrid GP1 (Japan, 2013).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda Fit Hybrid GP1 (Japan, 2013) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LDA : specification officielle documentee pour Honda Fit Hybrid GP1 (Japan, 2013).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda Fit Hybrid GP1 (Japan, 2013) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LDA: offiziell dokumentierte Spezifikation fuer Honda Fit Hybrid GP1 (Japan, 2013).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda Fit Hybrid GP1 (Japan, 2013) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 65,
+        "max": 65,
+        "rpm": {
+          "min": 5800,
+          "max": 5800
+        }
+      },
+      "torqueNm": {
+        "min": 121,
+        "max": 121,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "性能 | フィット（2013年8月終了モデル） | Honda",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2013,
+          "url": "https://www.honda.co.jp/auto-archive/fit/2013/performance/",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Fit Hybrid specifications table names prime mover LDA-MF6 and engine type LDA, displacement 1.339 L, 65 kW at 5,800 rpm and 121 N-m at 4,500 rpm.",
+            "The same source also lists LEA, but LEA is not added here because that exact alias already exists on gm-laf-lea."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-f20c",
+    "code": "F20C",
+    "aliases": [
+      "Honda S2000 F20C"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2000 Honda S2000 typeV specification",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda S2000 typeV AP1 (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 2.0-litre F20C four-cylinder documented for the 2000 Japan S2000 typeV.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda S2000 typeV AP1 (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "F20C: especificacion oficial documentada para Honda S2000 typeV AP1 (Japan, 2000).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda S2000 typeV AP1 (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "F20C : specification officielle documentee pour Honda S2000 typeV AP1 (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda S2000 typeV AP1 (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "F20C: offiziell dokumentierte Spezifikation fuer Honda S2000 typeV AP1 (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda S2000 typeV AP1 (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 184,
+        "max": 184,
+        "rpm": {
+          "min": 8300,
+          "max": 8300
+        }
+      },
+      "torqueNm": {
+        "min": 218,
+        "max": 218,
+        "rpm": {
+          "min": 7500,
+          "max": 7500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S2000 typeV",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2000,
+          "url": "https://www.honda.co.jp/factbook/auto/s2000/200007/007.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "S2000 typeV specifications table names engine type F20C, displacement 1,997 cm3, 184 kW at 8,300 rpm and 218 N-m at 7,500 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-r20a",
+    "code": "R20A",
+    "aliases": [
+      "Honda 2.0 i-VTEC R20A"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2006-2015 Honda documented R20A specifications",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · SOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda Stream 2.0 (Japan, 2006)",
+      "Honda Step WGN 2.0 (Japan, 2015)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 2.0-litre R20A four-cylinder documented in official Stream and Step WGN specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "R20A: especificacion oficial documentada para Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "R20A : specification officielle documentee pour Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "R20A: offiziell dokumentierte Spezifikation fuer Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda Stream 2.0 (Japan, 2006) / Honda Step WGN 2.0 (Japan, 2015) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 6200,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 193,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "STREAM",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2006,
+          "url": "https://www.honda.co.jp/factbook/auto/stream/200607/17.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "STREAM specifications table names engine types R18A and R20A; the R20A column lists 1,997 cm3, 110 kW at 6,200 rpm and 190 N-m at 4,200 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "スペック・大きさ | ステップ ワゴン（2015年3月終了モデル） | Honda",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/auto-archive/stepwgn/normal/2015/webcatalog/performance/spec/",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Step WGN specifications table names engine type R20A, displacement 1.997 L, 110 kW at 6,200 rpm and 193 N-m at 4,200 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-j35a",
+    "code": "J35A",
+    "aliases": [
+      "Honda 3.5 VTEC J35A"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2005-2010 Honda documented J35A specifications",
+    "displacement": "3.5 L · 3,471 cc",
+    "layout": "V6 · SOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Honda Lagreat (Japan, 2005)",
+      "Honda Elysion Prestige (Japan, 2009)",
+      "Honda Inspire (Japan, 2010)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 3.5-litre J35A V6 documented in official Lagreat, Elysion Prestige and Inspire specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "J35A: especificacion oficial documentada para Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "J35A : specification officielle documentee pour Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "J35A: offiziell dokumentierte Spezifikation fuer Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda Lagreat (Japan, 2005) / Honda Elysion Prestige (Japan, 2009) / Honda Inspire (Japan, 2010) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 177,
+        "max": 221,
+        "rpm": {
+          "min": 5500,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 324,
+        "max": 353,
+        "rpm": {
+          "min": 4500,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Honda｜ラグレイト（2005年終了モデル）｜主要諸元",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2005,
+          "url": "https://www.honda.co.jp/auto-archive/lagreat/2005/grade-data/",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Lagreat specifications table names Honda of America J35A, displacement 3,471 cm3, 177 kW at 5,500 rpm and 324 N-m at 4,500 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "Honda│インスパイア（2010年7月終了モデル）│スペック",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2010,
+          "url": "https://www.honda.co.jp/auto-archive/inspire/2010/specification/",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Inspire specifications table names engine type J35A, displacement 3,471 cm3, 206 kW at 6,200 rpm and 342 N-m at 5,000 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "Honda｜エリシオンプレステージ（2009年8月終了モデル）",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2009,
+          "url": "https://www.honda.co.jp/auto-archive/elysion/prestige/2009/shogen.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Elysion Prestige specifications table names J35A and K24A; the J35A columns list 205-221 kW at 6,200 rpm and 343-353 N-m at 5,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-s07a",
+    "code": "S07A",
+    "aliases": [
+      "Honda N BOX S07A"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2013 Honda N BOX specification",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantAspiration",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingChain",
+    "applications": [
+      "Honda N BOX / N BOX Custom (Japan, 2013)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 0.66-litre S07A three-cylinder documented with naturally aspirated and turbo N BOX variants.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda N BOX / N BOX Custom (Japan, 2013) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "S07A: especificacion oficial documentada para Honda N BOX / N BOX Custom (Japan, 2013).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda N BOX / N BOX Custom (Japan, 2013) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "S07A : specification officielle documentee pour Honda N BOX / N BOX Custom (Japan, 2013).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda N BOX / N BOX Custom (Japan, 2013) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "S07A: offiziell dokumentierte Spezifikation fuer Honda N BOX / N BOX Custom (Japan, 2013).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda N BOX / N BOX Custom (Japan, 2013) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 43,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 7300
+        }
+      },
+      "torqueNm": {
+        "min": 65,
+        "max": 104,
+        "rpm": {
+          "min": 2600,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "スペック・大きさ│性能│N BOX（2013年11月終了モデル）│Honda",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2013,
+          "url": "https://www.honda.co.jp/auto-archive/nbox/2013/webcatalog/performance/spec/",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "N BOX specifications table names engine type S07A, displacement 0.658 L, with naturally aspirated 43 kW at 7,300 rpm and 65 N-m at 3,500 rpm plus turbo 47 kW at 6,000 rpm and 104 N-m at 2,600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "honda-p07a",
+    "code": "P07A",
+    "aliases": [
+      "Honda Zest P07A"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2012 Honda Zest Spark specification",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · SOHC · 6V",
+    "fuelKey": "petrol",
+    "aspirationKey": "variantAspiration",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Honda Zest Spark (Japan, 2012)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Honda 0.66-litre P07A three-cylinder documented with naturally aspirated and turbo Zest Spark variants.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Honda Zest Spark (Japan, 2012) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "P07A: especificacion oficial documentada para Honda Zest Spark (Japan, 2012).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Honda Zest Spark (Japan, 2012) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "P07A : specification officielle documentee pour Honda Zest Spark (Japan, 2012).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Honda Zest Spark (Japan, 2012) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "P07A: offiziell dokumentierte Spezifikation fuer Honda Zest Spark (Japan, 2012).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Honda Zest Spark (Japan, 2012) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 38,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6700
+        }
+      },
+      "torqueNm": {
+        "min": 61,
+        "max": 93,
+        "rpm": {
+          "min": 3800,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Honda｜ゼストスパーク（2012年11月終了モデル）｜主要諸元",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2012,
+          "url": "https://www.honda.co.jp/auto-archive/zest/spark/2012/spec/",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Zest Spark specifications table names engine type P07A, displacement 0.658 L, with naturally aspirated 38 kW at 6,700 rpm and 61 N-m at 3,800 rpm plus turbo 47 kW at 6,000 rpm and 93 N-m at 4,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-skyactiv-g-15",
+    "code": "SKYACTIV-G 1.5",
+    "aliases": [
+      "Mazda G 1.5 GCC"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2019-2020 Mazda owner manual GCC specifications",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019)",
+      "Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Mazda 1.5-litre SKYACTIV-G gasoline four-cylinder documented in official Mazda owner manuals for GCC-market Mazda2 and Mazda3.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "SKYACTIV-G 1.5: especificacion oficial documentada para Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "SKYACTIV-G 1.5 : specification officielle documentee pour Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "SKYACTIV-G 1.5: offiziell dokumentierte Spezifikation fuer Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Mazda2 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2019) / Mazda3 SKYACTIV-G 1.5 (Arab Gulf Cooperation Council, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 82,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 141,
+        "max": 146,
+        "rpm": {
+          "min": 3500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "serviceDocumentation",
+          "title": "Specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2019,
+          "url": "https://owners-manual.mazda.com/gen/en/mazda2/mazda2_8hg7ee19g/contents/10020101.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Mazda2 2019 owner manual Engine specifications page lists SKYACTIV-G 1.5, displacement 1,496 ml, 81 kW at 6,000 rpm and 141 N-m at 4,000 rpm for the Arab Gulf Cooperation Council table."
+          ]
+        },
+        {
+          "type": "serviceDocumentation",
+          "title": "Specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2020,
+          "url": "https://owners-manual.mazda.com/gen/en/mazda3/mazda3_8jr6ee20e/contents/10020101.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Mazda3 2020 owner manual Engine specifications page lists SKYACTIV-G 1.5, SKYACTIV-G 2.0, SKYACTIV-G 2.5 and SKYACTIV-X 2.0.",
+            "Arab Gulf Cooperation Council table lists SKYACTIV-G 1.5 at 82 kW at 6,000 rpm and 146 N-m at 3,500 rpm, and SKYACTIV-X 2.0 at 132 kW at 6,000 rpm and 224 N-m at 4,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-skyactiv-g-25",
+    "code": "SKYACTIV-G 2.5",
+    "aliases": [
+      "Mazda G 2.5 GCC"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2018 Mazda CX-5 owner manual GCC specification",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Mazda 2.5-litre SKYACTIV-G gasoline four-cylinder documented in the official 2018 CX-5 owner manual for GCC-market models.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "SKYACTIV-G 2.5: especificacion oficial documentada para Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "SKYACTIV-G 2.5 : specification officielle documentee pour Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "SKYACTIV-G 2.5: offiziell dokumentierte Spezifikation fuer Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Mazda CX-5 SKYACTIV-G 2.5 (Arab Gulf Cooperation Council, 2018) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 252,
+        "max": 252,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "serviceDocumentation",
+          "title": "Specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2018,
+          "url": "https://owners-manual.mazda.com/gen/en/cx-5/cx-5_8hd5ee18k/contents/10020101.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "CX-5 2018 owner manual Engine specifications page lists SKYACTIV-G 2.5, displacement 2,488 ml, 140 kW at 6,000 rpm and 252 N-m at 4,000 rpm for 2WD and 4WD in the Arab Gulf Cooperation Council table."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-skyactiv-x-20",
+    "code": "SKYACTIV-X 2.0",
+    "aliases": [
+      "Mazda X 2.0 GCC"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2020 Mazda3 owner manual GCC specification",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "mildHybrid",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Mazda 2.0-litre SKYACTIV-X gasoline engine documented in the official 2020 Mazda3 owner manual for GCC-market models.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "SKYACTIV-X 2.0: especificacion oficial documentada para Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "SKYACTIV-X 2.0 : specification officielle documentee pour Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "SKYACTIV-X 2.0: offiziell dokumentierte Spezifikation fuer Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Mazda3 SKYACTIV-X 2.0 (Arab Gulf Cooperation Council, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 224,
+        "max": 224,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "serviceDocumentation",
+          "title": "Specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2020,
+          "url": "https://owners-manual.mazda.com/gen/en/mazda3/mazda3_8jr6ee20e/contents/10020101.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Mazda3 2020 owner manual Engine specifications page lists SKYACTIV-G 1.5, SKYACTIV-G 2.0, SKYACTIV-G 2.5 and SKYACTIV-X 2.0.",
+            "Arab Gulf Cooperation Council table lists SKYACTIV-G 1.5 at 82 kW at 6,000 rpm and 146 N-m at 3,500 rpm, and SKYACTIV-X 2.0 at 132 kW at 6,000 rpm and 224 N-m at 4,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-sh-vpts",
+    "code": "SH-VPTS",
+    "aliases": [
+      "SKYACTIV-D 2.2"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2012 Mazda CX-5 Japan diesel specification",
+    "displacement": "2.2 L · 2,188 cc",
+    "layout": "I4 · DOHC · 16V diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-5 XD / XD L Package (Japan, 2012)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Mazda 2.2-litre SH-VPTS SKYACTIV-D diesel four-cylinder documented for the 2012 Japan CX-5 launch.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Mazda CX-5 XD / XD L Package (Japan, 2012) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "SH-VPTS: especificacion oficial documentada para Mazda CX-5 XD / XD L Package (Japan, 2012).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Mazda CX-5 XD / XD L Package (Japan, 2012) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "SH-VPTS : specification officielle documentee pour Mazda CX-5 XD / XD L Package (Japan, 2012).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Mazda CX-5 XD / XD L Package (Japan, 2012) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "SH-VPTS: offiziell dokumentierte Spezifikation fuer Mazda CX-5 XD / XD L Package (Japan, 2012).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Mazda CX-5 XD / XD L Package (Japan, 2012) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 129,
+        "max": 129,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "新型クロスオーバーSUV「マツダCX-5」を発売",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2012,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2012/201202/120216a.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Mazda CX-5 news release main specifications table names engine type SH-VPTS for SKYACTIV-D 2.2, displacement 2,188 cc, 129 kW at 4,500 rpm and 420 N-m at 2,000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1jz-fse",
+    "code": "1JZ-FSE",
+    "aliases": [
+      "1JZ-FSE D-4"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Mark II Japan specification",
+    "displacement": "2.5 L · 2,491 cc",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Mark II 2.5 D-4 (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre 1JZ-FSE D-4 inline-six documented for the 2000 Japan Mark II.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Mark II 2.5 D-4 (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1JZ-FSE: especificacion oficial documentada para Toyota Mark II 2.5 D-4 (Japan, 2000).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Mark II 2.5 D-4 (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1JZ-FSE : specification officielle documentee pour Toyota Mark II 2.5 D-4 (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Mark II 2.5 D-4 (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1JZ-FSE: offiziell dokumentierte Spezifikation fuer Toyota Mark II 2.5 D-4 (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Mark II 2.5 D-4 (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、マークIIをフルモデルチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/detail/12581944",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Engine specifications table names 1JZ-FSE, 1JZ-GTE, 1JZ-GE and 1G-FE.",
+            "Rows list: 1JZ-FSE 2,491 cc, 147 kW at 6,000 rpm and 250 N-m at 3,800 rpm; 1JZ-GTE 2,491 cc, 206 kW at 6,200 rpm and 378 N-m at 2,400 rpm; 1JZ-GE 2,491 cc, 147 kW at 6,000 rpm and 255 N-m at 4,000 rpm; 1G-FE 1,988 cc, 118 kW at 6,200 rpm and 200 N-m at 4,400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1jz-gte",
+    "code": "1JZ-GTE",
+    "aliases": [
+      "1JZ-GTE turbo"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Mark II Japan specification",
+    "displacement": "2.5 L · 2,491 cc",
+    "layout": "I6 · DOHC · 24V turbo",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre 1JZ-GTE turbo inline-six documented for the 2000 Japan Mark II.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1JZ-GTE: especificacion oficial documentada para Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1JZ-GTE : specification officielle documentee pour Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1JZ-GTE: offiziell dokumentierte Spezifikation fuer Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Mark II GrandeG-tb / Grande iR-V (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 206,
+        "max": 206,
+        "rpm": {
+          "min": 6200,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 378,
+        "max": 378,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、マークIIをフルモデルチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/detail/12581944",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Engine specifications table names 1JZ-FSE, 1JZ-GTE, 1JZ-GE and 1G-FE.",
+            "Rows list: 1JZ-FSE 2,491 cc, 147 kW at 6,000 rpm and 250 N-m at 3,800 rpm; 1JZ-GTE 2,491 cc, 206 kW at 6,200 rpm and 378 N-m at 2,400 rpm; 1JZ-GE 2,491 cc, 147 kW at 6,000 rpm and 255 N-m at 4,000 rpm; 1G-FE 1,988 cc, 118 kW at 6,200 rpm and 200 N-m at 4,400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1jz-ge",
+    "code": "1JZ-GE",
+    "aliases": [
+      "Mark II 1JZ-GE"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Mark II Japan specification",
+    "displacement": "2.5 L · 2,491 cc",
+    "layout": "I6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Mark II GrandeG Four (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre 1JZ-GE inline-six documented for the 2000 Japan Mark II.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Mark II GrandeG Four (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1JZ-GE: especificacion oficial documentada para Toyota Mark II GrandeG Four (Japan, 2000).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Toyota Mark II GrandeG Four (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1JZ-GE : specification officielle documentee pour Toyota Mark II GrandeG Four (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Toyota Mark II GrandeG Four (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1JZ-GE: offiziell dokumentierte Spezifikation fuer Toyota Mark II GrandeG Four (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Mark II GrandeG Four (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 255,
+        "max": 255,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、マークIIをフルモデルチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/detail/12581944",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Engine specifications table names 1JZ-FSE, 1JZ-GTE, 1JZ-GE and 1G-FE.",
+            "Rows list: 1JZ-FSE 2,491 cc, 147 kW at 6,000 rpm and 250 N-m at 3,800 rpm; 1JZ-GTE 2,491 cc, 206 kW at 6,200 rpm and 378 N-m at 2,400 rpm; 1JZ-GE 2,491 cc, 147 kW at 6,000 rpm and 255 N-m at 4,000 rpm; 1G-FE 1,988 cc, 118 kW at 6,200 rpm and 200 N-m at 4,400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2gr-fse",
+    "code": "2GR-FSE",
+    "aliases": [
+      "Mark X GRMN 2GR-FSE",
+      "GS450h 2GR-FSE"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2006-2019 Toyota/Lexus documented 2GR-FSE specifications",
+    "displacement": "3.5 L · 3,456 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus GS450h (Japan, 2006)",
+      "Toyota Mark X GRMN (Japan, 2014)",
+      "Toyota Mark X GRMN (Japan, 2019)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota/Lexus 3.5-litre 2GR-FSE V6 documented in official GS450h and Mark X GRMN specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2GR-FSE: especificacion oficial documentada para Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2GR-FSE : specification officielle documentee pour Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2GR-FSE: offiziell dokumentierte Spezifikation fuer Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Lexus GS450h (Japan, 2006) / Toyota Mark X GRMN (Japan, 2014) / Toyota Mark X GRMN (Japan, 2019) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 218,
+        "max": 236,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 368,
+        "max": 380,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Lexus Launches GS450h in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2006,
+          "url": "https://global.toyota/en/detail/271160",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Performance of Main Components table names engine model 2GR-FSE, displacement 3,456 cc, 218 kW at 6,400 rpm and 368 N-m at 4,800 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、マークX“GRMN”を100台限定発売－同時に、マークX G'sに外板色を追加－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2014,
+          "url": "https://global.toyota/jp/newsroom/toyota/21799696.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Mark X GRMN reference specifications table names engine 2GR-FSE, displacement 3,456 cc, 236 kW at 6,400 rpm and 380 N-m at 4,800 rpm."
+          ]
+        },
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、マークX“GRMN”を発売－GRシリーズ頂点のGRMNに第2弾投入－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2019,
+          "url": "https://global.toyota/jp/newsroom/toyota/26125233.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Main specifications table names engine 2GR-FSE, displacement 3.456 L, 234 kW at 6,400 rpm and 380 N-m at 4,800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "hyundai-g4kd",
     "code": "G4KD",
     "aliases": [
@@ -8815,6 +11234,100 @@ window.AUTOHUB_ENGINE_DATA = {
           ],
           "pageNotes": [
             "Page 1 names 7.4L V-8, LSX 454; lists 7400 cc, port fuel injection, 495-505 hp (369-377 kW) at 5400 rpm and 500-515 lb-ft (678-698 Nm) at 4400 rpm; notes GM Powered Solutions test unit; includes copyright 2021 General Motors."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lc8",
+    "code": "LC8 6.0 Alternate Fuel",
+    "aliases": [
+      "LC8",
+      "GM 6.0 CNG LPG"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2021 GM Powered Solutions alternate-fuel specification",
+    "displacement": "6.0 L · 5,967 cc",
+    "layout": "V8 · OHV · 16V",
+    "fuelKey": "alternateFuel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions)",
+      "Chevrolet Express LPG test (2021 GM Powered Solutions)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 6.0-litre LC8 alternate-fuel Gen IV V8 documented in the official 2021 GM Powered Solutions PDF.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LC8 6.0 Alternate Fuel: especificacion oficial documentada para Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions).",
+        "issues": "No se anade una averia de familia amplia; esta ficha se limita a Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LC8 6.0 Alternate Fuel : specification officielle documentee pour Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions).",
+        "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+        "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LC8 6.0 Alternate Fuel: offiziell dokumentierte Spezifikation fuer Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 268,
+        "rpm": {
+          "min": 4800,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 452,
+        "max": 515,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.0L V-8 LC8 Engine",
+          "publisher": "General Motors",
+          "year": 2021,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/6l-lc8/02-pdfs/gm-powertrain-6.0-l-lc8-engine-features-specifications.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Official GM Powered Solutions PDF page 1 names 6.0L V-8, LC8; page 2 lists 5967 cc and copyright 2021 General Motors.",
+            "Page 2 lists 360 hp (268 kW) at 5,400 rpm and 380 lb-ft (515 Nm) at 4,200 rpm tested in Chevrolet Silverado HD gasoline, 301 hp (225 kW) at 5,000 rpm and 333 lb-ft (452 Nm) at 4,200 rpm tested in Chevrolet Silverado HD CNG, and 332 hp (248 kW) at 4,800 rpm and 370 lb-ft (501 Nm) at 4,400 rpm tested in Chevrolet Express LPG."
           ]
         }
       ]

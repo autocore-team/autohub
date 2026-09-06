@@ -2656,6 +2656,100 @@
           }
         ]
       }
+    },
+    {
+      "id": "gm-lc8",
+      "code": "LC8 6.0 Alternate Fuel",
+      "aliases": [
+        "LC8",
+        "GM 6.0 CNG LPG"
+      ],
+      "maker": "General Motors",
+      "regionKey": "usa",
+      "years": "2021 GM Powered Solutions alternate-fuel specification",
+      "displacement": "6.0 L · 5,967 cc",
+      "layout": "V8 · OHV · 16V",
+      "fuelKey": "alternateFuel",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "castIronBlock",
+      "timingKey": "timingChain",
+      "applications": [
+        "Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions)",
+        "Chevrolet Express LPG test (2021 GM Powered Solutions)"
+      ],
+      "consumption": "Not specified in source",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in source",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "GM 6.0-litre LC8 alternate-fuel Gen IV V8 documented in the official 2021 GM Powered Solutions PDF.",
+          "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) and exact vehicle service history still matters.",
+          "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+          "cons": "The stored figures describe the documented source application, not every possible later calibration."
+        },
+        "es": {
+          "construction": "LC8 6.0 Alternate Fuel: especificacion oficial documentada para Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions).",
+          "issues": "No se anade una averia de familia amplia; esta ficha se limita a Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) y el historial de servicio sigue siendo importante.",
+          "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+          "cons": "Las cifras guardadas describen la aplicacion documentada, no todas las calibraciones posibles."
+        },
+        "fr": {
+          "construction": "LC8 6.0 Alternate Fuel : specification officielle documentee pour Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions).",
+          "issues": "Aucune panne de famille large n'est ajoutee ici ; cette fiche est limitee a Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) et l'historique d'entretien reste important.",
+          "pros": "La source officielle relie directement l'identite moteur a la puissance, au couple et aux regimes.",
+          "cons": "Les valeurs enregistrees decrivent l'application documentee, pas toutes les calibrations possibles."
+        },
+        "de": {
+          "construction": "LC8 6.0 Alternate Fuel: offiziell dokumentierte Spezifikation fuer Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions).",
+          "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado HD gasoline / CNG tests (2021 GM Powered Solutions) / Chevrolet Express LPG test (2021 GM Powered Solutions) begrenzt und die Servicehistorie bleibt wichtig.",
+          "pros": "Die offizielle Quelle verbindet die Motoridentitaet direkt mit Leistung, Drehmoment und Drehzahl.",
+          "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede moegliche Kalibrierung."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 225,
+          "max": 268,
+          "rpm": {
+            "min": 4800,
+            "max": 5400
+          }
+        },
+        "torqueNm": {
+          "min": 452,
+          "max": 515,
+          "rpm": {
+            "min": 4200,
+            "max": 4400
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sources": [
+          {
+            "type": "manufacturer",
+            "title": "6.0L V-8 LC8 Engine",
+            "publisher": "General Motors",
+            "year": 2021,
+            "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/6l-lc8/02-pdfs/gm-powertrain-6.0-l-lc8-engine-features-specifications.pdf",
+            "page": 2,
+            "checkedAt": "2026-09-06",
+            "fields": [
+              "code",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "pageNotes": [
+              "Official GM Powered Solutions PDF page 1 names 6.0L V-8, LC8; page 2 lists 5967 cc and copyright 2021 General Motors.",
+              "Page 2 lists 360 hp (268 kW) at 5,400 rpm and 380 lb-ft (515 Nm) at 4,200 rpm tested in Chevrolet Silverado HD gasoline, 301 hp (225 kW) at 5,000 rpm and 333 lb-ft (452 Nm) at 4,200 rpm tested in Chevrolet Silverado HD CNG, and 332 hp (248 kW) at 4,800 rpm and 370 lb-ft (501 Nm) at 4,400 rpm tested in Chevrolet Express LPG."
+            ]
+          }
+        ]
+      }
     }
   ]
 }
