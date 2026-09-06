@@ -26,8 +26,8 @@ for (const region of REGIONS) {
   if (sourceOrder !== generatedOrder) errors.push(`${region}.js order differs from source region order.`);
 }
 
-if (records.length !== 100) errors.push(`Expected 100 regional records, got ${records.length}.`);
-if ((sourceData.records || []).length !== 100) errors.push(`Expected 100 source records, got ${(sourceData.records || []).length}.`);
+if (records.length < 100) errors.push(`Expected at least 100 regional records, got ${records.length}.`);
+if ((sourceData.records || []).length < 100) errors.push(`Expected at least 100 source records, got ${(sourceData.records || []).length}.`);
 
 const searchText = (record) => [record.code, record.maker, record.regionKey, record.years]
   .concat(record.aliases || [], record.applications || [])

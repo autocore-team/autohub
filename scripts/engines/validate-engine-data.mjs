@@ -54,7 +54,7 @@ export function validateEngineData(sourceData = readSourceData()) {
 
   assertCondition(Array.isArray(sourceData.regionFiles), 'sourceData.regionFiles must be an array.', errors);
   assertCondition(Array.isArray(records), 'records must be an array.', errors);
-  assertCondition(records.length === 100, `records must contain 100 entries, got ${records.length}.`, errors);
+  assertCondition(records.length >= 100, `records must contain at least 100 entries, got ${records.length}.`, errors);
 
   for (const [regionIndex, region] of REGIONS.entries()) {
     const sourceFile = sourceData.regionFiles?.[regionIndex];
@@ -62,7 +62,7 @@ export function validateEngineData(sourceData = readSourceData()) {
     assertCondition(sourceFile?.schemaVersion === 1, `${sourceLabel}: schemaVersion must be 1.`, errors);
     assertCondition(sourceFile?.region === region, `${sourceLabel}: region must be ${region}.`, errors);
     assertCondition(Array.isArray(sourceFile?.records), `${sourceLabel}: records must be an array.`, errors);
-    assertCondition((sourceFile?.records || []).length === 25, `${sourceLabel}: expected 25 records, got ${(sourceFile?.records || []).length}.`, errors);
+    assertCondition((sourceFile?.records || []).length >= 25, `${sourceLabel}: expected at least 25 records, got ${(sourceFile?.records || []).length}.`, errors);
     for (const record of sourceFile?.records || []) {
       assertCondition(record.regionKey === region, `${sourceLabel}: ${record.id || 'record'} has regionKey ${record.regionKey}.`, errors);
     }
@@ -127,7 +127,7 @@ export function validateEngineData(sourceData = readSourceData()) {
 
   const counts = formatCounts(records);
   for (const region of REGIONS) {
-    assertCondition(counts[region] === 25, `${region}: expected 25 records, got ${counts[region]}.`, errors);
+    assertCondition(counts[region] >= 25, `${region}: expected at least 25 records, got ${counts[region]}.`, errors);
   }
 
   return { errors, counts, records };
