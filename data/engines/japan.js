@@ -58,9 +58,46 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.japan = [
         "cons": "Früher Ölverbrauch kann stark werden; der dünnwandige Block ist nicht für einfaches klassisches Aufbohren ausgelegt."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 100,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 161,
+        "max": 171,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Toyota engine specifications table names 1ZZ-FE and lists the FF variant at 1794 cc, 100 kW at 6000 rpm and 171 N-m at 4200 rpm.",
+            "The same table lists the 4WD 1ZZ-FE variant at 92 kW at 6000 rpm and 161 N-m at 4200 rpm."
+          ]
+        }
+      ]
     }
   },
   {
@@ -1765,6 +1802,1220 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.japan = [
     "verification": {
       "status": "legacyPending",
       "sources": []
+    }
+  },
+  {
+    "id": "toyota-2nz-fe",
+    "code": "2NZ-FE",
+    "aliases": [
+      "2NZ"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Corolla Japan specification",
+    "displacement": "1.3 L · 1,298 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.3-litre BEAMS VVT-i four-cylinder documented in the 2000 Corolla/Fielder engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2NZ-FE: especificación oficial documentada para Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2NZ-FE : spécification officielle documentée pour Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2NZ-FE: offiziell dokumentierte Spezifikation für Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 65,
+        "max": 65,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 123,
+        "max": 123,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 2NZ-FE, lists 1298 cc, 65 kW at 6000 rpm and 123 N-m at 4400 rpm for the Corolla/Fielder 1.3 FF Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2zz-ge",
+    "code": "2ZZ-GE",
+    "aliases": [
+      "2ZZ"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Corolla Fielder Japan specification",
+    "displacement": "1.8 L · 1,795 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.8-litre BEAMS VVTL-i four-cylinder documented for the 2000 Corolla Fielder Japan specification.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2ZZ-GE: especificación oficial documentada para Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2ZZ-GE : spécification officielle documentée pour Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2ZZ-GE: offiziell dokumentierte Spezifikation für Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 7600,
+          "max": 7600
+        }
+      },
+      "torqueNm": {
+        "min": 180,
+        "max": 180,
+        "rpm": {
+          "min": 6800,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 2ZZ-GE, lists 1795 cc, 140 kW at 7600 rpm and 180 N-m at 6800 rpm for the Corolla Fielder 1.8 VVTL-i FF Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-3c-e",
+    "code": "3C-E",
+    "aliases": [
+      "3C diesel"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Corolla Japan specification",
+    "displacement": "2.2 L · 2,184 cc",
+    "layout": "I4 · SOHC diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.2 diesel FF (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.2-litre diesel four-cylinder documented in the 2000 Corolla engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla 2.2 diesel FF (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "3C-E: especificación oficial documentada para Toyota Corolla 2.2 diesel FF (Japan, 2000).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Corolla 2.2 diesel FF (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "3C-E : spécification officielle documentée pour Toyota Corolla 2.2 diesel FF (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Corolla 2.2 diesel FF (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "3C-E: offiziell dokumentierte Spezifikation für Toyota Corolla 2.2 diesel FF (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla 2.2 diesel FF (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 58,
+        "max": 58,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      },
+      "torqueNm": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 3C-E, lists 2184 cc, 58 kW at 4400 rpm and 147 N-m at 2400 rpm for the Corolla diesel FF Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1kr-fe",
+    "code": "1KR-FE",
+    "aliases": [
+      "1KR"
+    ],
+    "maker": "Toyota / Daihatsu",
+    "regionKey": "japan",
+    "years": "2004 Toyota Passo Japan specification",
+    "displacement": "1.0 L · 996 cc",
+    "layout": "I3 · DOHC · 12V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Passo 1.0 2WD/4WD (Japan, 2004)",
+      "Daihatsu Boon 1.0 (Japan, 2004)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota/Daihatsu 1.0-litre three-cylinder documented in the 2004 Passo/Boon launch specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1KR-FE: especificación oficial documentada para Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1KR-FE : spécification officielle documentée pour Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1KR-FE: offiziell dokumentierte Spezifikation für Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 52,
+        "max": 52,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 94,
+        "max": 94,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、新型車「パッソ」、ダイハツ、新型車「ブーン」を発売",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2004,
+          "url": "https://global.toyota/jp/newsroom/toyota/21784705.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 1KR-FE, lists 996 cc, 52 kW at 6000 rpm and 94 N-m at 3600 rpm for the Toyota Passo/Daihatsu Boon Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-k3-ve",
+    "code": "K3-VE",
+    "aliases": [
+      "K3"
+    ],
+    "maker": "Daihatsu / Toyota",
+    "regionKey": "japan",
+    "years": "2004 Toyota Passo Japan specification",
+    "displacement": "1.3 L · 1,297 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Passo 1.3 2WD (Japan, 2004)",
+      "Daihatsu Boon 1.3 (Japan, 2004)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Daihatsu/Toyota 1.3-litre four-cylinder documented in the 2004 Passo/Boon launch specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "K3-VE: especificación oficial documentada para Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "K3-VE : spécification officielle documentée pour Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "K3-VE: offiziell dokumentierte Spezifikation für Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 123,
+        "max": 123,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、新型車「パッソ」、ダイハツ、新型車「ブーン」を発売",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2004,
+          "url": "https://global.toyota/jp/newsroom/toyota/21784705.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names K3-VE, lists 1297 cc, 66 kW at 6000 rpm and 123 N-m at 3200 rpm for the Toyota Passo/Daihatsu Boon Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-8nr-fts",
+    "code": "8NR-FTS",
+    "aliases": [
+      "8NR",
+      "Toyota 1.2 D-4T"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015 Toyota Auris Japan specification",
+    "displacement": "1.2 L · 1,196 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Auris 120T (Japan, 2015)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.2-litre direct-injection turbo four-cylinder documented for the partially redesigned Auris in 2015.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Auris 120T (Japan, 2015) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "8NR-FTS: especificación oficial documentada para Toyota Auris 120T (Japan, 2015).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Auris 120T (Japan, 2015) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "8NR-FTS : spécification officielle documentée pour Toyota Auris 120T (Japan, 2015).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Auris 120T (Japan, 2015) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "8NR-FTS: offiziell dokumentierte Spezifikation für Toyota Auris 120T (Japan, 2015).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Auris 120T (Japan, 2015) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85,
+        "rpm": {
+          "min": 5200,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 185,
+        "max": 185,
+        "rpm": {
+          "min": 1500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota Doubles Turbo Offerings in New Engine Lineup",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2015,
+          "url": "https://global.toyota/en/detail/7465881",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The 8NR-FTS main specifications table lists 1196 cc, 85 kW at 5200-5600 rpm and 185 N-m at 1500-4000 rpm for the Auris Japan launch application."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2ar-fse",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE hybrid"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2012 Toyota Crown Hybrid Japan specification",
+    "displacement": "2.5 L · 2,493 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Crown Hybrid 2.5 FR (Japan, 2012)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre D-4S Atkinson-cycle four-cylinder documented in the 2012 Crown hybrid specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Crown Hybrid 2.5 FR (Japan, 2012) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2AR-FSE: especificación oficial documentada para Toyota Crown Hybrid 2.5 FR (Japan, 2012).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Crown Hybrid 2.5 FR (Japan, 2012) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2AR-FSE : spécification officielle documentée pour Toyota Crown Hybrid 2.5 FR (Japan, 2012).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Crown Hybrid 2.5 FR (Japan, 2012) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2AR-FSE: offiziell dokumentierte Spezifikation für Toyota Crown Hybrid 2.5 FR (Japan, 2012).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Crown Hybrid 2.5 FR (Japan, 2012) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、クラウンをフルモデルチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2012,
+          "url": "https://global.toyota/jp/newsroom/toyota/21779336.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Crown FR hybrid system table names 2AR-FSE, lists 2493 cc, 131 kW at 6000 rpm and 221 N-m at 4200-4800 rpm for the 2012 Japan Crown Hybrid."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-3gr-fse",
+    "code": "3GR-FSE",
+    "aliases": [
+      "3GR"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2003 Toyota Crown Japan specification",
+    "displacement": "3.0 L · 2,994 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Crown Royal/Athlete 3.0 (Japan, 2003)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota direct-injection 3.0-litre V6 documented in the 2003 Crown engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Crown Royal/Athlete 3.0 (Japan, 2003) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "3GR-FSE: especificación oficial documentada para Toyota Crown Royal/Athlete 3.0 (Japan, 2003).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Crown Royal/Athlete 3.0 (Japan, 2003) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "3GR-FSE : spécification officielle documentée pour Toyota Crown Royal/Athlete 3.0 (Japan, 2003).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Crown Royal/Athlete 3.0 (Japan, 2003) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "3GR-FSE: offiziell dokumentierte Spezifikation für Toyota Crown Royal/Athlete 3.0 (Japan, 2003).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Crown Royal/Athlete 3.0 (Japan, 2003) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 188,
+        "max": 188,
+        "rpm": {
+          "min": 6200,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 314,
+        "max": 314,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、クラウンをフルモデルチェンジ－高級セダンの新しい潮流を提示－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2003,
+          "url": "https://global.toyota/jp/newsroom/toyota/21783036.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 3GR-FSE, lists 2994 cc, 188 kW at 6200 rpm and 314 N-m at 3600 rpm for the 2003 Crown Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-4gr-fse",
+    "code": "4GR-FSE",
+    "aliases": [
+      "4GR"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2003 Toyota Crown Japan specification",
+    "displacement": "2.5 L · 2,499 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Crown Royal/Athlete 2.5 (Japan, 2003)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota direct-injection 2.5-litre V6 documented in the 2003 Crown engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Crown Royal/Athlete 2.5 (Japan, 2003) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "4GR-FSE: especificación oficial documentada para Toyota Crown Royal/Athlete 2.5 (Japan, 2003).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Crown Royal/Athlete 2.5 (Japan, 2003) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "4GR-FSE : spécification officielle documentée pour Toyota Crown Royal/Athlete 2.5 (Japan, 2003).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Crown Royal/Athlete 2.5 (Japan, 2003) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "4GR-FSE: offiziell dokumentierte Spezifikation für Toyota Crown Royal/Athlete 2.5 (Japan, 2003).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Crown Royal/Athlete 2.5 (Japan, 2003) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 158,
+        "max": 158,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、クラウンをフルモデルチェンジ－高級セダンの新しい潮流を提示－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2003,
+          "url": "https://global.toyota/jp/newsroom/toyota/21783036.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 4GR-FSE, lists 2499 cc, 158 kW at 6400 rpm and 260 N-m at 3800 rpm for the 2003 Crown Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-m20a-fks",
+    "code": "M20A-FKS",
+    "aliases": [
+      "M20A",
+      "Dynamic Force 2.0"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020 Toyota Harrier Japan specification",
+    "displacement": "2.0 L · 1,986 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Harrier Z Leather Package gasoline (Japan, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.0-litre Dynamic Force direct-injection four-cylinder documented for the 2020 Harrier gasoline specification.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Harrier Z Leather Package gasoline (Japan, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "M20A-FKS: especificación oficial documentada para Toyota Harrier Z Leather Package gasoline (Japan, 2020).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Harrier Z Leather Package gasoline (Japan, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "M20A-FKS : spécification officielle documentée pour Toyota Harrier Z Leather Package gasoline (Japan, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Harrier Z Leather Package gasoline (Japan, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "M20A-FKS: offiziell dokumentierte Spezifikation für Toyota Harrier Z Leather Package gasoline (Japan, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Harrier Z Leather Package gasoline (Japan, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 126,
+        "max": 126,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 207,
+        "max": 207,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota to Unveil New Model Harrier in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/en/newsroom/toyota/32186311.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Z Leather Package specifications table names M20A-FKS, lists 1986 cc, 126 kW at 6600 rpm and 207 N-m at 4800 rpm for the 2020 Harrier gasoline Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-a25a-fxs",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A",
+      "Dynamic Force 2.5 Hybrid"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020 Toyota Harrier Hybrid Japan specification",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Harrier Z Leather Package hybrid (Japan, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre Dynamic Force hybrid engine documented for the 2020 Harrier hybrid specification.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Harrier Z Leather Package hybrid (Japan, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "A25A-FXS: especificación oficial documentada para Toyota Harrier Z Leather Package hybrid (Japan, 2020).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Harrier Z Leather Package hybrid (Japan, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "A25A-FXS : spécification officielle documentée pour Toyota Harrier Z Leather Package hybrid (Japan, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Harrier Z Leather Package hybrid (Japan, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "A25A-FXS: offiziell dokumentierte Spezifikation für Toyota Harrier Z Leather Package hybrid (Japan, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Harrier Z Leather Package hybrid (Japan, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota to Unveil New Model Harrier in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/en/newsroom/toyota/32186311.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Z Leather Package specifications table names A25A-FXS, lists 2487 cc, 131 kW at 5700 rpm and 221 N-m at 3600-5200 rpm for the 2020 Harrier hybrid Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1gd-ftv",
+    "code": "1GD-FTV",
+    "aliases": [
+      "1GD"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015 GD diesel launch specification",
+    "displacement": "2.8 L · 2,754 cc",
+    "layout": "I4 · DOHC diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.8-litre GD direct-injection turbo diesel documented in the official 2015 GD engine launch specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1GD-FTV: especificación oficial documentada para Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1GD-FTV : spécification officielle documentée pour Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1GD-FTV: offiziell dokumentierte Spezifikation für Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130,
+        "rpm": {
+          "min": 3400,
+          "max": 3400
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota's Revamped Turbo Diesel Engines Offer More Torque, Greater Efficiency and Lower Emissions",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2015,
+          "url": "https://global.toyota/en/detail/8348091",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The GD engine main specifications table names 1GD-FTV, notes specifications vary by market, and lists 2754 cc, 130 kW at 3400 rpm and 450 N-m at 1600-2400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2gd-ftv",
+    "code": "2GD-FTV",
+    "aliases": [
+      "2GD"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015 GD diesel launch specification",
+    "displacement": "2.4 L · 2,393 cc",
+    "layout": "I4 · DOHC diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota GD diesel launch markets (2015; specifications vary by market)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.4-litre GD direct-injection turbo diesel documented in the official 2015 GD engine launch specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota GD diesel launch markets (2015; specifications vary by market) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2GD-FTV: especificación oficial documentada para Toyota GD diesel launch markets (2015; specifications vary by market).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota GD diesel launch markets (2015; specifications vary by market) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2GD-FTV : spécification officielle documentée pour Toyota GD diesel launch markets (2015; specifications vary by market).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota GD diesel launch markets (2015; specifications vary by market) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2GD-FTV: offiziell dokumentierte Spezifikation für Toyota GD diesel launch markets (2015; specifications vary by market).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota GD diesel launch markets (2015; specifications vary by market) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3400,
+          "max": 3400
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota's Revamped Turbo Diesel Engines Offer More Torque, Greater Efficiency and Lower Emissions",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2015,
+          "url": "https://global.toyota/en/detail/8348091",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The GD engine main specifications table names 2GD-FTV, notes specifications vary by market, and lists 2393 cc, 110 kW at 3400 rpm and 400 N-m at 1600-2000 rpm."
+          ]
+        }
+      ]
     }
   }
 ];

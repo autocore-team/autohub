@@ -28,6 +28,18 @@ function compareFingerprint(left, right, label) {
   }
 }
 
+function compareLegacyOrder(currentRecords, legacyRecords, label) {
+  const legacyIds = legacyRecords.map((record) => record.id);
+  const legacyIdSet = new Set(legacyIds);
+  const currentLegacyIds = currentRecords
+    .map((record) => record.id)
+    .filter((id) => legacyIdSet.has(id));
+
+  if (currentLegacyIds.join('|') !== legacyIds.join('|')) {
+    errors.push(`${label}: legacy record order differs or legacy records are missing.`);
+  }
+}
+
 compareFingerprint(generatedMonolithic, sourceRecords, 'engine-data.js vs source');
 
 for (const region of REGIONS) {
@@ -53,20 +65,26 @@ if (compareLegacyHead) {
   } else {
     const context = loadBrowserGlobal(legacyResult.stdout, `${legacyRef}:engine-data.js`);
     const legacyRecords = context.window.AUTOHUB_ENGINE_DATA?.records || [];
-    const legacyIds = legacyRecords.map((record) => record.id).sort().join('|');
-    const currentIds = sourceRecords.map((record) => record.id).sort().join('|');
-    if (legacyIds !== currentIds) errors.push('Legacy HEAD ID set differs from source ID set.');
 
-    const legacyById = new Map(legacyRecords.map((record) => [record.id, record]));
-    for (const [index, record] of sourceRecords.entries()) {
-      const legacy = legacyById.get(record.id);
+    const sourceById = new Map(sourceRecords.map((record) => [record.id, record]));
+    for (const record of sourceRecords) {
+      if (sourceById.get(record.id) !== record) continue;
+      if (legacyRecords.some((legacyRecord) => legacyRecord.id === record.id)) continue;
+      if (!['verified', 'corroborated'].includes(record.verification?.status) || !record.performance) {
+        errors.push(`${record.id}: additive new records must be verified or corroborated and include performance.`);
+      }
+    }
+    compareLegacyOrder(sourceRecords, legacyRecords, 'Legacy HEAD');
+
+    for (const legacy of legacyRecords) {
+      const record = sourceById.get(legacy.id);
       if (!legacy) {
-        errors.push(`${record.id}: missing from legacy HEAD.`);
+        errors.push(`${legacy.id}: missing from legacy HEAD.`);
         continue;
       }
-      const legacyAtIndex = legacyRecords[index];
-      if (legacyAtIndex?.id !== record.id) {
-        errors.push(`${record.id}: legacy order differs at index ${index}.`);
+      if (!record) {
+        errors.push(`${legacy.id}: missing from current source data.`);
+        continue;
       }
       const { currentComparable, legacyComparable } = comparableLegacyRecords(record, legacy);
       compareFingerprint(currentComparable, legacyComparable, `${record.id}: legacy preservation`);
@@ -84,21 +102,21 @@ if (compareLegacyHead) {
     const legacyRegionRecords = legacyRegionContext.window.AUTOHUB_ENGINE_DATA_REGIONS?.[region] || [];
     const currentRegionContext = loadBrowserGlobal(readText(regionFilePath(region)), regionFilePath(region));
     const currentRegionRecords = currentRegionContext.window.AUTOHUB_ENGINE_DATA_REGIONS?.[region] || [];
-    const legacyRegionById = new Map(legacyRegionRecords.map((record) => [record.id, record]));
-    const currentComparableList = currentRegionRecords.map((record, index) => {
-      const legacy = legacyRegionById.get(record.id);
-      if (!legacy) return record;
-      const legacyAtIndex = legacyRegionRecords[index];
-      if (legacyAtIndex?.id !== record.id) {
-        errors.push(`${region}.js: ${record.id}: legacy order differs at index ${index}.`);
+    const currentRegionById = new Map(currentRegionRecords.map((record) => [record.id, record]));
+    compareLegacyOrder(currentRegionRecords, legacyRegionRecords, `${region}.js`);
+
+    const currentComparableList = [];
+    const legacyComparableList = [];
+    for (const legacy of legacyRegionRecords) {
+      const record = currentRegionById.get(legacy.id);
+      if (!record) {
+        errors.push(`${region}.js: ${legacy.id}: missing from current generated data.`);
+        continue;
       }
-      return comparableLegacyRecords(record, legacy).currentComparable;
-    });
-    const legacyComparableList = currentRegionRecords.map((record) => {
-      const legacy = legacyRegionById.get(record.id);
-      if (!legacy) return undefined;
-      return comparableLegacyRecords(record, legacy).legacyComparable;
-    });
+      const { currentComparable, legacyComparable } = comparableLegacyRecords(record, legacy);
+      currentComparableList.push(currentComparable);
+      legacyComparableList.push(legacyComparable);
+    }
     compareFingerprint(currentComparableList, legacyComparableList, `${region}.js: generated legacy preservation`);
   }
 }
@@ -114,5 +132,5 @@ console.log('Engine data semantic comparison passed.');
 console.log(`Source records: ${sourceRecords.length}; monolithic records: ${generatedMonolithic.length}; regional records: ${generatedRegionalFlat.length}.`);
 console.log(`Region counts: ${REGIONS.map((region) => `${region}=${counts[region]}`).join(', ')}.`);
 if (compareLegacyHead) {
-  console.log(`Legacy ${legacyRef} comparison passed with only allowed first legacyPending-to-verified/corroborated performance/source additions and exact verified identity-field metadata migrations.`);
+  console.log(`Legacy ${legacyRef} comparison passed with preserved legacy records, allowed first legacyPending-to-verified/corroborated performance/source additions, exact verified identity-field metadata migrations, and additive new records.`);
 }

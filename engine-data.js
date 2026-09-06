@@ -1739,9 +1739,46 @@ window.AUTOHUB_ENGINE_DATA = {
         "cons": "Früher Ölverbrauch kann stark werden; der dünnwandige Block ist nicht für einfaches klassisches Aufbohren ausgelegt."
       }
     },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 100,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 161,
+        "max": 171,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
     "verification": {
-      "status": "legacyPending",
-      "sources": []
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Toyota engine specifications table names 1ZZ-FE and lists the FF variant at 1794 cc, 100 kW at 6000 rpm and 171 N-m at 4200 rpm.",
+            "The same table lists the 4WD 1ZZ-FE variant at 92 kW at 6000 rpm and 161 N-m at 4200 rpm."
+          ]
+        }
+      ]
     }
   },
   {
@@ -3446,6 +3483,1220 @@ window.AUTOHUB_ENGINE_DATA = {
     "verification": {
       "status": "legacyPending",
       "sources": []
+    }
+  },
+  {
+    "id": "toyota-2nz-fe",
+    "code": "2NZ-FE",
+    "aliases": [
+      "2NZ"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Corolla Japan specification",
+    "displacement": "1.3 L · 1,298 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.3-litre BEAMS VVT-i four-cylinder documented in the 2000 Corolla/Fielder engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2NZ-FE: especificación oficial documentada para Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2NZ-FE : spécification officielle documentée pour Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2NZ-FE: offiziell dokumentierte Spezifikation für Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla / Corolla Fielder 1.3 FF (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 65,
+        "max": 65,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 123,
+        "max": 123,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 2NZ-FE, lists 1298 cc, 65 kW at 6000 rpm and 123 N-m at 4400 rpm for the Corolla/Fielder 1.3 FF Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2zz-ge",
+    "code": "2ZZ-GE",
+    "aliases": [
+      "2ZZ"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Corolla Fielder Japan specification",
+    "displacement": "1.8 L · 1,795 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.8-litre BEAMS VVTL-i four-cylinder documented for the 2000 Corolla Fielder Japan specification.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2ZZ-GE: especificación oficial documentada para Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2ZZ-GE : spécification officielle documentée pour Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2ZZ-GE: offiziell dokumentierte Spezifikation für Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla Fielder 1.8 VVTL-i FF (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 7600,
+          "max": 7600
+        }
+      },
+      "torqueNm": {
+        "min": 180,
+        "max": 180,
+        "rpm": {
+          "min": 6800,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 2ZZ-GE, lists 1795 cc, 140 kW at 7600 rpm and 180 N-m at 6800 rpm for the Corolla Fielder 1.8 VVTL-i FF Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-3c-e",
+    "code": "3C-E",
+    "aliases": [
+      "3C diesel"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2000 Toyota Corolla Japan specification",
+    "displacement": "2.2 L · 2,184 cc",
+    "layout": "I4 · SOHC diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.2 diesel FF (Japan, 2000)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.2-litre diesel four-cylinder documented in the 2000 Corolla engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Corolla 2.2 diesel FF (Japan, 2000) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "3C-E: especificación oficial documentada para Toyota Corolla 2.2 diesel FF (Japan, 2000).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Corolla 2.2 diesel FF (Japan, 2000) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "3C-E : spécification officielle documentée pour Toyota Corolla 2.2 diesel FF (Japan, 2000).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Corolla 2.2 diesel FF (Japan, 2000) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "3C-E: offiziell dokumentierte Spezifikation für Toyota Corolla 2.2 diesel FF (Japan, 2000).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Corolla 2.2 diesel FF (Japan, 2000) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 58,
+        "max": 58,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      },
+      "torqueNm": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、カローラをフルモデルチェンジ－NCV（New Century Value）を開発テーマに一新－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2000,
+          "url": "https://global.toyota/jp/newsroom/toyota/21818337.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 3C-E, lists 2184 cc, 58 kW at 4400 rpm and 147 N-m at 2400 rpm for the Corolla diesel FF Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1kr-fe",
+    "code": "1KR-FE",
+    "aliases": [
+      "1KR"
+    ],
+    "maker": "Toyota / Daihatsu",
+    "regionKey": "japan",
+    "years": "2004 Toyota Passo Japan specification",
+    "displacement": "1.0 L · 996 cc",
+    "layout": "I3 · DOHC · 12V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Passo 1.0 2WD/4WD (Japan, 2004)",
+      "Daihatsu Boon 1.0 (Japan, 2004)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota/Daihatsu 1.0-litre three-cylinder documented in the 2004 Passo/Boon launch specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1KR-FE: especificación oficial documentada para Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1KR-FE : spécification officielle documentée pour Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1KR-FE: offiziell dokumentierte Spezifikation für Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Passo 1.0 2WD/4WD (Japan, 2004), Daihatsu Boon 1.0 (Japan, 2004) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 52,
+        "max": 52,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 94,
+        "max": 94,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、新型車「パッソ」、ダイハツ、新型車「ブーン」を発売",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2004,
+          "url": "https://global.toyota/jp/newsroom/toyota/21784705.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 1KR-FE, lists 996 cc, 52 kW at 6000 rpm and 94 N-m at 3600 rpm for the Toyota Passo/Daihatsu Boon Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-k3-ve",
+    "code": "K3-VE",
+    "aliases": [
+      "K3"
+    ],
+    "maker": "Daihatsu / Toyota",
+    "regionKey": "japan",
+    "years": "2004 Toyota Passo Japan specification",
+    "displacement": "1.3 L · 1,297 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Passo 1.3 2WD (Japan, 2004)",
+      "Daihatsu Boon 1.3 (Japan, 2004)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Daihatsu/Toyota 1.3-litre four-cylinder documented in the 2004 Passo/Boon launch specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "K3-VE: especificación oficial documentada para Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "K3-VE : spécification officielle documentée pour Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "K3-VE: offiziell dokumentierte Spezifikation für Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Passo 1.3 2WD (Japan, 2004), Daihatsu Boon 1.3 (Japan, 2004) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 123,
+        "max": 123,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、新型車「パッソ」、ダイハツ、新型車「ブーン」を発売",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2004,
+          "url": "https://global.toyota/jp/newsroom/toyota/21784705.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names K3-VE, lists 1297 cc, 66 kW at 6000 rpm and 123 N-m at 3200 rpm for the Toyota Passo/Daihatsu Boon Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-8nr-fts",
+    "code": "8NR-FTS",
+    "aliases": [
+      "8NR",
+      "Toyota 1.2 D-4T"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015 Toyota Auris Japan specification",
+    "displacement": "1.2 L · 1,196 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Auris 120T (Japan, 2015)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 1.2-litre direct-injection turbo four-cylinder documented for the partially redesigned Auris in 2015.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Auris 120T (Japan, 2015) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "8NR-FTS: especificación oficial documentada para Toyota Auris 120T (Japan, 2015).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Auris 120T (Japan, 2015) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "8NR-FTS : spécification officielle documentée pour Toyota Auris 120T (Japan, 2015).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Auris 120T (Japan, 2015) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "8NR-FTS: offiziell dokumentierte Spezifikation für Toyota Auris 120T (Japan, 2015).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Auris 120T (Japan, 2015) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85,
+        "rpm": {
+          "min": 5200,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 185,
+        "max": 185,
+        "rpm": {
+          "min": 1500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota Doubles Turbo Offerings in New Engine Lineup",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2015,
+          "url": "https://global.toyota/en/detail/7465881",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The 8NR-FTS main specifications table lists 1196 cc, 85 kW at 5200-5600 rpm and 185 N-m at 1500-4000 rpm for the Auris Japan launch application."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2ar-fse",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE hybrid"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2012 Toyota Crown Hybrid Japan specification",
+    "displacement": "2.5 L · 2,493 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Crown Hybrid 2.5 FR (Japan, 2012)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre D-4S Atkinson-cycle four-cylinder documented in the 2012 Crown hybrid specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Crown Hybrid 2.5 FR (Japan, 2012) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2AR-FSE: especificación oficial documentada para Toyota Crown Hybrid 2.5 FR (Japan, 2012).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Crown Hybrid 2.5 FR (Japan, 2012) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2AR-FSE : spécification officielle documentée pour Toyota Crown Hybrid 2.5 FR (Japan, 2012).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Crown Hybrid 2.5 FR (Japan, 2012) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2AR-FSE: offiziell dokumentierte Spezifikation für Toyota Crown Hybrid 2.5 FR (Japan, 2012).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Crown Hybrid 2.5 FR (Japan, 2012) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "TOYOTA、クラウンをフルモデルチェンジ",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2012,
+          "url": "https://global.toyota/jp/newsroom/toyota/21779336.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Crown FR hybrid system table names 2AR-FSE, lists 2493 cc, 131 kW at 6000 rpm and 221 N-m at 4200-4800 rpm for the 2012 Japan Crown Hybrid."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-3gr-fse",
+    "code": "3GR-FSE",
+    "aliases": [
+      "3GR"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2003 Toyota Crown Japan specification",
+    "displacement": "3.0 L · 2,994 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Crown Royal/Athlete 3.0 (Japan, 2003)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota direct-injection 3.0-litre V6 documented in the 2003 Crown engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Crown Royal/Athlete 3.0 (Japan, 2003) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "3GR-FSE: especificación oficial documentada para Toyota Crown Royal/Athlete 3.0 (Japan, 2003).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Crown Royal/Athlete 3.0 (Japan, 2003) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "3GR-FSE : spécification officielle documentée pour Toyota Crown Royal/Athlete 3.0 (Japan, 2003).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Crown Royal/Athlete 3.0 (Japan, 2003) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "3GR-FSE: offiziell dokumentierte Spezifikation für Toyota Crown Royal/Athlete 3.0 (Japan, 2003).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Crown Royal/Athlete 3.0 (Japan, 2003) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 188,
+        "max": 188,
+        "rpm": {
+          "min": 6200,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 314,
+        "max": 314,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、クラウンをフルモデルチェンジ－高級セダンの新しい潮流を提示－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2003,
+          "url": "https://global.toyota/jp/newsroom/toyota/21783036.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 3GR-FSE, lists 2994 cc, 188 kW at 6200 rpm and 314 N-m at 3600 rpm for the 2003 Crown Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-4gr-fse",
+    "code": "4GR-FSE",
+    "aliases": [
+      "4GR"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2003 Toyota Crown Japan specification",
+    "displacement": "2.5 L · 2,499 cc",
+    "layout": "V6 · DOHC · 24V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Crown Royal/Athlete 2.5 (Japan, 2003)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota direct-injection 2.5-litre V6 documented in the 2003 Crown engine specifications table.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Crown Royal/Athlete 2.5 (Japan, 2003) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "4GR-FSE: especificación oficial documentada para Toyota Crown Royal/Athlete 2.5 (Japan, 2003).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Crown Royal/Athlete 2.5 (Japan, 2003) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "4GR-FSE : spécification officielle documentée pour Toyota Crown Royal/Athlete 2.5 (Japan, 2003).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Crown Royal/Athlete 2.5 (Japan, 2003) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "4GR-FSE: offiziell dokumentierte Spezifikation für Toyota Crown Royal/Athlete 2.5 (Japan, 2003).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Crown Royal/Athlete 2.5 (Japan, 2003) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 158,
+        "max": 158,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "トヨタ、クラウンをフルモデルチェンジ－高級セダンの新しい潮流を提示－",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2003,
+          "url": "https://global.toyota/jp/newsroom/toyota/21783036.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The engine specifications table names 4GR-FSE, lists 2499 cc, 158 kW at 6400 rpm and 260 N-m at 3800 rpm for the 2003 Crown Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-m20a-fks",
+    "code": "M20A-FKS",
+    "aliases": [
+      "M20A",
+      "Dynamic Force 2.0"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020 Toyota Harrier Japan specification",
+    "displacement": "2.0 L · 1,986 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Harrier Z Leather Package gasoline (Japan, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.0-litre Dynamic Force direct-injection four-cylinder documented for the 2020 Harrier gasoline specification.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Harrier Z Leather Package gasoline (Japan, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "M20A-FKS: especificación oficial documentada para Toyota Harrier Z Leather Package gasoline (Japan, 2020).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Harrier Z Leather Package gasoline (Japan, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "M20A-FKS : spécification officielle documentée pour Toyota Harrier Z Leather Package gasoline (Japan, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Harrier Z Leather Package gasoline (Japan, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "M20A-FKS: offiziell dokumentierte Spezifikation für Toyota Harrier Z Leather Package gasoline (Japan, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Harrier Z Leather Package gasoline (Japan, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 126,
+        "max": 126,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 207,
+        "max": 207,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota to Unveil New Model Harrier in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/en/newsroom/toyota/32186311.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Z Leather Package specifications table names M20A-FKS, lists 1986 cc, 126 kW at 6600 rpm and 207 N-m at 4800 rpm for the 2020 Harrier gasoline Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-a25a-fxs",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A",
+      "Dynamic Force 2.5 Hybrid"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020 Toyota Harrier Hybrid Japan specification",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Harrier Z Leather Package hybrid (Japan, 2020)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.5-litre Dynamic Force hybrid engine documented for the 2020 Harrier hybrid specification.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Harrier Z Leather Package hybrid (Japan, 2020) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "A25A-FXS: especificación oficial documentada para Toyota Harrier Z Leather Package hybrid (Japan, 2020).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Harrier Z Leather Package hybrid (Japan, 2020) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "A25A-FXS : spécification officielle documentée pour Toyota Harrier Z Leather Package hybrid (Japan, 2020).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Harrier Z Leather Package hybrid (Japan, 2020) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "A25A-FXS: offiziell dokumentierte Spezifikation für Toyota Harrier Z Leather Package hybrid (Japan, 2020).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Harrier Z Leather Package hybrid (Japan, 2020) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota to Unveil New Model Harrier in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/en/newsroom/toyota/32186311.html",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The Z Leather Package specifications table names A25A-FXS, lists 2487 cc, 131 kW at 5700 rpm and 221 N-m at 3600-5200 rpm for the 2020 Harrier hybrid Japan specification."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-1gd-ftv",
+    "code": "1GD-FTV",
+    "aliases": [
+      "1GD"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015 GD diesel launch specification",
+    "displacement": "2.8 L · 2,754 cc",
+    "layout": "I4 · DOHC diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.8-litre GD direct-injection turbo diesel documented in the official 2015 GD engine launch specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "1GD-FTV: especificación oficial documentada para Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "1GD-FTV : spécification officielle documentée pour Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "1GD-FTV: offiziell dokumentierte Spezifikation für Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota Hilux / Land Cruiser Prado launch markets (2015; specifications vary by market) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130,
+        "rpm": {
+          "min": 3400,
+          "max": 3400
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota's Revamped Turbo Diesel Engines Offer More Torque, Greater Efficiency and Lower Emissions",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2015,
+          "url": "https://global.toyota/en/detail/8348091",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The GD engine main specifications table names 1GD-FTV, notes specifications vary by market, and lists 2754 cc, 130 kW at 3400 rpm and 450 N-m at 1600-2400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-2gd-ftv",
+    "code": "2GD-FTV",
+    "aliases": [
+      "2GD"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2015 GD diesel launch specification",
+    "displacement": "2.4 L · 2,393 cc",
+    "layout": "I4 · DOHC diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota GD diesel launch markets (2015; specifications vary by market)"
+    ],
+    "consumption": "See source vehicle table",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Toyota 2.4-litre GD direct-injection turbo diesel documented in the official 2015 GD engine launch specifications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Toyota GD diesel launch markets (2015; specifications vary by market) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "2GD-FTV: especificación oficial documentada para Toyota GD diesel launch markets (2015; specifications vary by market).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Toyota GD diesel launch markets (2015; specifications vary by market) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "2GD-FTV : spécification officielle documentée pour Toyota GD diesel launch markets (2015; specifications vary by market).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Toyota GD diesel launch markets (2015; specifications vary by market) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "2GD-FTV: offiziell dokumentierte Spezifikation für Toyota GD diesel launch markets (2015; specifications vary by market).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Toyota GD diesel launch markets (2015; specifications vary by market) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3400,
+          "max": 3400
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Toyota's Revamped Turbo Diesel Engines Offer More Torque, Greater Efficiency and Lower Emissions",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2015,
+          "url": "https://global.toyota/en/detail/8348091",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The GD engine main specifications table names 2GD-FTV, notes specifications vary by market, and lists 2393 cc, 110 kW at 3400 rpm and 400 N-m at 1600-2000 rpm."
+          ]
+        }
+      ]
     }
   },
   {
@@ -6439,6 +7690,1134 @@ window.AUTOHUB_ENGINE_DATA = {
     "verification": {
       "status": "legacyPending",
       "sources": []
+    }
+  },
+  {
+    "id": "gm-lsd",
+    "code": "LSD 1.5 Turbo",
+    "aliases": [
+      "LSD",
+      "GM 1.5 Turbo"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2023 GM Powered Solutions specification",
+    "displacement": "1.5 L · 1,490 cc",
+    "layout": "I4 · DOHC · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "notSpecified",
+    "applications": [
+      "GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 1.5-litre Ecotec turbo four-cylinder documented in the 2023 LSD sell sheet.",
+        "issues": "No broad family issue claim is added here; this card is scoped to GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LSD 1.5 Turbo: especificación oficial documentada para GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LSD 1.5 Turbo : spécification officielle documentée pour GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LSD 1.5 Turbo: offiziell dokumentierte Spezifikation für GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf GM Powered Solutions 1.5L I-4 Turbo LSD test configuration (2023) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 275,
+        "max": 275,
+        "rpm": {
+          "min": 2000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "1.5L I-4 Turbo LSD Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2022,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/i4-lsd-turbo-engine/02-pdfs/gm-powertrain-1.5L%20I-4%20Turbo-lsd.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 1.5L I-4 Turbo, LSD; lists 1490 cc, 175 hp (131 kW) at 5600 rpm and 203 lb-ft (275 Nm) at 2000-4000 rpm; includes copyright 2022 General Motors and 2023 1.5L I-4 Turbo LSD labeling."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lhe",
+    "code": "LHE 1.8",
+    "aliases": [
+      "LHE",
+      "GM 1.8 LHE"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "October 2024 GM Powered Solutions specification",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · SOHC · 8V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Spin, South America (as tested; October 2024 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 1.8-litre naturally aspirated LHE four-cylinder documented for the Chevrolet Spin South America test application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Spin, South America (as tested; October 2024 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LHE 1.8: especificación oficial documentada para Chevrolet Spin, South America (as tested; October 2024 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Spin, South America (as tested; October 2024 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LHE 1.8 : spécification officielle documentée pour Chevrolet Spin, South America (as tested; October 2024 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Spin, South America (as tested; October 2024 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LHE 1.8: offiziell dokumentierte Spezifikation für Chevrolet Spin, South America (as tested; October 2024 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Spin, South America (as tested; October 2024 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 79,
+        "max": 79,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 161,
+        "max": 161,
+        "rpm": {
+          "min": 2600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "1.8L I-4 LHE Mini Powerhouse Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2024,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/lhe-engine/01-pdfs/1.8L-I-4-LHE_GM-Powered-Solutions-Sell-Sheet_October-2024.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 1.8L I-4 LHE, lists 1796 cc, MPFI, 106 hp (79 kW) at 5200 rpm and 119 lb-ft (161 Nm) at 2600 rpm; notes As Tested In Chevrolet Spin, South America; includes copyright 2024 General Motors and October 2024."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-li3",
+    "code": "LI3 1.8 Alternate Fuel",
+    "aliases": [
+      "LI3",
+      "GM 1.8 alternate fuel"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "October 2024 GM Powered Solutions specification",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · SOHC · 8V",
+    "fuelKey": "alternativeFuel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 1.8-litre LI3 alternate-fuel four-cylinder documented for E27 and E100 test fuels.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LI3 1.8 Alternate Fuel: especificación oficial documentada para Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LI3 1.8 Alternate Fuel : spécification officielle documentée pour Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LI3 1.8 Alternate Fuel: offiziell dokumentierte Spezifikation für Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Spin, South America E27/E100 alternate-fuel tests (October 2024 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 78,
+        "max": 82,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 165,
+        "max": 174,
+        "rpm": {
+          "min": 2600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "1.8L I-4 Alternate Fuel LI3 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2024,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/1-8l-i-4/pdf/1.8L%20I-4%20LI3%20Alt%20Fuel_GM%20Powered%20Solutions%20Sell%20Sheet_October-2024.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 1.8L I-4, Alternate Fuel, LI3; lists 1796 cc, E27/E100/CNG/LPG fuel type, 104 hp (78 kW) at 5200 rpm using E27 and 110 hp (82 kW) at 5200 rpm using E100; lists 122 lb-ft (165 Nm) and 128 lb-ft (174 Nm), both at 2600 rpm; notes As Tested In Chevrolet Spin, South America; includes copyright 2024 General Motors and October 2024."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lwn",
+    "code": "LWN 2.8 Duramax",
+    "aliases": [
+      "LWN",
+      "Duramax 2.8"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "July 2024 GM Powered Solutions specification",
+    "displacement": "2.8 L · 2,776 cc",
+    "layout": "I4 · DOHC diesel · 16V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet S10, South America (as tested; July 2024 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 2.8-litre LWN Duramax turbo diesel documented for the Chevrolet S10 South America test application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet S10, South America (as tested; July 2024 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LWN 2.8 Duramax: especificación oficial documentada para Chevrolet S10, South America (as tested; July 2024 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet S10, South America (as tested; July 2024 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LWN 2.8 Duramax : spécification officielle documentée pour Chevrolet S10, South America (as tested; July 2024 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet S10, South America (as tested; July 2024 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LWN 2.8 Duramax: offiziell dokumentierte Spezifikation für Chevrolet S10, South America (as tested; July 2024 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet S10, South America (as tested; July 2024 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152,
+        "max": 152,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      },
+      "torqueNm": {
+        "min": 510,
+        "max": 510,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "2.8L I-4 Turbo Diesel LWN Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2024,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/lwn-engine/02-pdfs/2.8L%20Turbo%20Duramax%20Diesel_LWN_GM%20Powered%20Solutions%20Sell%20Sheet_July%202024.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The July 2024 sell sheet names 2.8L I-4 LWN Duramax turbo-diesel, lists 2776 cc, common-rail direct injection, 204 hp (152 kW) at 3200 rpm and 376 lb-ft (510 Nm) at 1600-2400 rpm; notes As tested in Chevrolet S10, South America."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lz0",
+    "code": "LZ0 3.0 Duramax",
+    "aliases": [
+      "LZ0",
+      "Duramax 3.0"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "September 2024 GM Powered Solutions specification",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "I6 · DOHC diesel · 24V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "aluminumLiners",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Silverado (as tested; September 2024 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 3.0-litre LZ0 Duramax inline-six turbo diesel documented for the Chevrolet Silverado test application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado (as tested; September 2024 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LZ0 3.0 Duramax: especificación oficial documentada para Chevrolet Silverado (as tested; September 2024 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Silverado (as tested; September 2024 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LZ0 3.0 Duramax : spécification officielle documentée pour Chevrolet Silverado (as tested; September 2024 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Silverado (as tested; September 2024 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LZ0 3.0 Duramax: offiziell dokumentierte Spezifikation für Chevrolet Silverado (as tested; September 2024 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado (as tested; September 2024 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 227,
+        "max": 227,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 671,
+        "max": 671,
+        "rpm": {
+          "min": 2750,
+          "max": 2750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "3.0L I-6 Turbo Diesel LZ0 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2024,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/lz0-engine/pdfs/3.0L-I-6-Duramax-Turbo-Diesel_LZ0_GM-Powered-Solutions-Sell-Sheet_2024.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 3.0L I-6 Duramax turbo diesel, LZ0; lists 2999 cc, 305 hp (227 kW) at 3750 rpm and 495 lb-ft (671 Nm) at 2750 rpm; notes GM Tested in Chevrolet Silverado; includes copyright 2024 General Motors and September 2024."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lv1",
+    "code": "LV1 4.3 V6",
+    "aliases": [
+      "LV1",
+      "GM 4.3 EcoTec3"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2021 GM Powered Solutions specification",
+    "displacement": "4.3 L · 4,301 cc",
+    "layout": "V6 · OHV · 12V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Chevrolet Silverado (as tested; 2021 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 4.3-litre LV1 small-block V6 documented for the Chevrolet Silverado test application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado (as tested; 2021 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LV1 4.3 V6: especificación oficial documentada para Chevrolet Silverado (as tested; 2021 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Silverado (as tested; 2021 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LV1 4.3 V6 : spécification officielle documentée pour Chevrolet Silverado (as tested; 2021 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Silverado (as tested; 2021 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LV1 4.3 V6: offiziell dokumentierte Spezifikation für Chevrolet Silverado (as tested; 2021 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado (as tested; 2021 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 213,
+        "max": 213,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 413,
+        "max": 413,
+        "rpm": {
+          "min": 3900,
+          "max": 3900
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "4.3L V6 LV1 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2021,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/lv1-engine/02-pdfs/gm-powertrain-4-3-l-lv1-engine-features-specifications.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 4.3L V-6, LV1; lists 4301 cc, direct injection, 285 hp (213 kW) at 5300 rpm and 305 lb-ft (413 Nm) at 3900 rpm; notes As tested in Chevrolet Silverado; includes copyright 2021 General Motors."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-l84",
+    "code": "L84 5.3 EcoTec3",
+    "aliases": [
+      "L84",
+      "5.3 EcoTec3 DFM"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2021 GM Powered Solutions specification",
+    "displacement": "5.3 L · 5,328 cc",
+    "layout": "V8 · OHV · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "GM full-size truck L84 (2021 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 5.3-litre L84 Gen V small-block V8 documented in the official GM Powered Solutions sell sheet.",
+        "issues": "No broad family issue claim is added here; this card is scoped to GM full-size truck L84 (2021 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "L84 5.3 EcoTec3: especificación oficial documentada para GM full-size truck L84 (2021 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a GM full-size truck L84 (2021 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "L84 5.3 EcoTec3 : spécification officielle documentée pour GM full-size truck L84 (2021 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à GM full-size truck L84 (2021 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "L84 5.3 EcoTec3: offiziell dokumentierte Spezifikation für GM full-size truck L84 (2021 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf GM full-size truck L84 (2021 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 265,
+        "max": 265,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 519,
+        "max": 519,
+        "rpm": {
+          "min": 4100,
+          "max": 4100
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "5.3L V-8 L84 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2021,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/l84-engine/02-pdfs/gm-powertrain-5.3-l-l84-engine-features-specifications.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 5.3L V-8, L84; lists 5328 cc, direct injection, 355 hp (265 kW) at 5600 rpm and 383 lb-ft (519 Nm) at 4100 rpm; includes copyright 2021 General Motors."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-l87",
+    "code": "L87 6.2 EcoTec3",
+    "aliases": [
+      "L87",
+      "6.2 EcoTec3 DFM"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2022 GM Powered Solutions specification",
+    "displacement": "6.2 L · 6,162 cc",
+    "layout": "V8 · OHV · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 6.2-litre L87 Gen V small-block V8 documented for the Silverado 1500 test application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "L87 6.2 EcoTec3: especificación oficial documentada para Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "L87 6.2 EcoTec3 : spécification officielle documentée pour Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "L87 6.2 EcoTec3: offiziell dokumentierte Spezifikation für Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado 1500 double/crew cab (as tested; 2022 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 313,
+        "max": 313,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 624,
+        "max": 624,
+        "rpm": {
+          "min": 4100,
+          "max": 4100
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.2L V-8 L87 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2022,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/l87-engine/02-pdfs/gm-powertrain-6.2-l-l87-engine-features-specifications.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 6.2L V-8, L87; lists 6162 cc, 420 hp (313 kW) at 5600 rpm and 460 lb-ft (624 Nm) at 4100 rpm; notes As tested in Chevrolet Silverado 1500; includes copyright 2022 General Motors."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-l8t",
+    "code": "L8T 6.6 Gas V8",
+    "aliases": [
+      "L8T",
+      "GM 6.6 gasoline V8"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2021 GM Powered Solutions specification",
+    "displacement": "6.6 L · 6,564 cc",
+    "layout": "V8 · OHV · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 6.6-litre L8T gasoline V8 documented for the Silverado Heavy-Duty test application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "L8T 6.6 Gas V8: especificación oficial documentada para Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "L8T 6.6 Gas V8 : spécification officielle documentée pour Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "L8T 6.6 Gas V8: offiziell dokumentierte Spezifikation für Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado Heavy-Duty (as tested; 2021 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 299,
+        "max": 299,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 629,
+        "max": 629,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.6L V-8 L8T Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2021,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/l8t-engine/02-pdfs/gm-powertrain-6.6-l-l8t-engine-features-specifications.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 6.6L V-8, L8T; lists 6564 cc, direct injection, 401 hp (299 kW) at 5200 rpm and 464 lb-ft (629 Nm) at 4000 rpm; notes As tested in Chevrolet Silverado Heavy-Duty; includes copyright 2021 General Motors."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-l5p",
+    "code": "L5P 6.6 Duramax",
+    "aliases": [
+      "L5P",
+      "Duramax 6.6"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "September 2024 GM Powered Solutions specification",
+    "displacement": "6.6 L · 6,604 cc",
+    "layout": "V8 · OHV diesel · 32V",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "castIronBlock",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 6.6-litre L5P Duramax turbo diesel documented for Silverado HD and Sierra HD test applications.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "L5P 6.6 Duramax: especificación oficial documentada para Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "L5P 6.6 Duramax : spécification officielle documentée pour Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "L5P 6.6 Duramax: offiziell dokumentierte Spezifikation für Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Silverado HD / GMC Sierra HD (as tested; September 2024 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 2800,
+          "max": 2800
+        }
+      },
+      "torqueNm": {
+        "min": 1322,
+        "max": 1322,
+        "rpm": {
+          "min": 1600,
+          "max": 1600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.6L V8 Duramax Turbo Diesel L5P Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2024,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/l5p-engine/02-pdfs/6.6L%20V-8_L5P_Duramax%20Turbo%20Diesel_GM%20Powered%20Solutions%20Sell%20Sheet.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 6.6L V-8 Duramax turbo diesel, L5P; lists 6604 cc, high-pressure common rail, 470 hp (350 kW) at 2800 rpm and 975 lb-ft (1322 Nm) at 1600 rpm; notes As tested in Chevrolet Silverado HD and GMC Sierra HD; includes copyright 2024 General Motors and September 2024."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lt4",
+    "code": "LT4 6.2 Supercharged",
+    "aliases": [
+      "LT4",
+      "GM LT4 supercharged"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2021 GM Powered Solutions specification",
+    "displacement": "6.2 L · 6,162 cc",
+    "layout": "V8 · OHV · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "directInjection",
+    "blockKey": "aluminumLiners",
+    "timingKey": "timingChain",
+    "applications": [
+      "Chevrolet Camaro (as certified; 2021 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 6.2-litre LT4 supercharged Gen V small-block V8 documented for the Camaro certification application.",
+        "issues": "No broad family issue claim is added here; this card is scoped to Chevrolet Camaro (as certified; 2021 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LT4 6.2 Supercharged: especificación oficial documentada para Chevrolet Camaro (as certified; 2021 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a Chevrolet Camaro (as certified; 2021 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LT4 6.2 Supercharged : spécification officielle documentée pour Chevrolet Camaro (as certified; 2021 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à Chevrolet Camaro (as certified; 2021 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LT4 6.2 Supercharged: offiziell dokumentierte Spezifikation für Chevrolet Camaro (as certified; 2021 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf Chevrolet Camaro (as certified; 2021 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 485,
+        "max": 485,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 881,
+        "max": 881,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "6.2L V8 SC LT4 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2021,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/lt4-engine/02-pdfs/gm-powertrain-6.2-l-lt4-engine-features-specifications.pdf",
+          "page": 2,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 2 names 6.2L V-8 SC, LT4; lists 6162 cc, direct injection, 650 hp (485 kW) at 6400 rpm SAE Certified and 650 lb-ft (881 Nm) at 3600 rpm SAE Certified; notes As certified in the Camaro; includes copyright 2021 General Motors."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "gm-lsx454",
+    "code": "LSX 454 7.4",
+    "aliases": [
+      "LSX 454",
+      "GM LSX 454"
+    ],
+    "maker": "General Motors",
+    "regionKey": "usa",
+    "years": "2021 GM Powered Solutions test-unit specification",
+    "displacement": "7.4 L · 7,400 cc",
+    "layout": "V8 · OHV · 16V",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "castIronBlock",
+    "timingKey": "timingChain",
+    "applications": [
+      "GM Powered Solutions LSX 454 test unit (2021 sell sheet)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "GM 7.4-litre LSX 454 small-block test-unit V8 documented in the official GM Powered Solutions sell sheet.",
+        "issues": "No broad family issue claim is added here; this card is scoped to GM Powered Solutions LSX 454 test unit (2021 sell sheet) and exact vehicle service history still matters.",
+        "pros": "Official source ties the engine identity directly to power, torque and rpm values.",
+        "cons": "The stored figures describe the documented source application, not every possible later calibration."
+      },
+      "es": {
+        "construction": "LSX 454 7.4: especificación oficial documentada para GM Powered Solutions LSX 454 test unit (2021 sell sheet).",
+        "issues": "No se añade una avería de familia amplia; esta ficha se limita a GM Powered Solutions LSX 454 test unit (2021 sell sheet) y el historial de servicio sigue siendo importante.",
+        "pros": "La fuente oficial vincula directamente la identidad del motor con potencia, par y rpm.",
+        "cons": "Las cifras guardadas describen la aplicación documentada, no todas las calibraciones posibles."
+      },
+      "fr": {
+        "construction": "LSX 454 7.4 : spécification officielle documentée pour GM Powered Solutions LSX 454 test unit (2021 sell sheet).",
+        "issues": "Aucune panne de famille large n'est ajoutée ici ; cette fiche est limitée à GM Powered Solutions LSX 454 test unit (2021 sell sheet) et l'historique d'entretien reste important.",
+        "pros": "La source officielle relie directement l’identité moteur à la puissance, au couple et aux régimes.",
+        "cons": "Les valeurs enregistrées décrivent l’application documentée, pas toutes les calibrations possibles."
+      },
+      "de": {
+        "construction": "LSX 454 7.4: offiziell dokumentierte Spezifikation für GM Powered Solutions LSX 454 test unit (2021 sell sheet).",
+        "issues": "Hier wird kein breiter Familienfehler behauptet; diese Karte ist auf GM Powered Solutions LSX 454 test unit (2021 sell sheet) begrenzt und die Servicehistorie bleibt wichtig.",
+        "pros": "Die offizielle Quelle verbindet die Motoridentität direkt mit Leistung, Drehmoment und Drehzahl.",
+        "cons": "Die gespeicherten Werte beschreiben die dokumentierte Anwendung, nicht jede mögliche spätere Kalibrierung."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 369,
+        "max": 377,
+        "rpm": {
+          "min": 5400,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 678,
+        "max": 698,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "7.4L V8 LSX 454 Engine | GM Powered Solutions",
+          "publisher": "General Motors",
+          "year": 2021,
+          "url": "https://poweredsolutions.gm.com/content/dam/gmpoweredsolutions/na/us/en/index/products/engines/lsx-454-engine/02-pdf/gm-powertrain-7.4-l-lsx-454-engine-features-specifications.pdf",
+          "page": 1,
+          "checkedAt": "2026-09-06",
+          "fields": [
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "Page 1 names 7.4L V-8, LSX 454; lists 7400 cc, port fuel injection, 495-505 hp (369-377 kW) at 5400 rpm and 500-515 lb-ft (678-698 Nm) at 4400 rpm; notes GM Powered Solutions test unit; includes copyright 2021 General Motors."
+          ]
+        }
+      ]
     }
   }
 ]
