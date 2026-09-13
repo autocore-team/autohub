@@ -10896,5 +10896,7845 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "volvo-b4154t5",
+    "code": "B4154T5",
+    "aliases": [
+      "Volvo V60 T2 B4154T5"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T2",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T2"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4154T5 is the 1.5 L · 1,498 cc I4 manufacturer specification documented for 2017 Volvo V60 T2.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T2, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4154T5 es la especificación del fabricante I4 de 1.5 L · 1,498 cc documentada para 2017 Volvo V60 T2.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T2, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4154T5 est la spécification constructeur I4 de 1.5 L · 1,498 cc documentée pour 2017 Volvo V60 T2.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T2, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4154T5 ist die für 2017 Volvo V60 T2 dokumentierte 1.5 L · 1,498 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T2 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 1600,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4154T5 to 2017 Volvo V60 T2 and publishes 90 kW at 5000 rpm and 220 N·m at 1600-3500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4154t4",
+    "code": "B4154T4",
+    "aliases": [
+      "Volvo V60 T3 B4154T4"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T3",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4154T4 is the 1.5 L · 1,498 cc I4 manufacturer specification documented for 2017 Volvo V60 T3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4154T4 es la especificación del fabricante I4 de 1.5 L · 1,498 cc documentada para 2017 Volvo V60 T3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4154T4 est la spécification constructeur I4 de 1.5 L · 1,498 cc documentée pour 2017 Volvo V60 T3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4154T4 ist die für 2017 Volvo V60 T3 dokumentierte 1.5 L · 1,498 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1700,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4154T4 to 2017 Volvo V60 T3 and publishes 112 kW at 5000 rpm and 250 N·m at 1700-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t37",
+    "code": "B4204T37",
+    "aliases": [
+      "Volvo V60 T3 B4204T37"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T3",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T37 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 T3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T37 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 T3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T37 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 T3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T37 ist die für 2017 Volvo V60 T3 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1300,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T37 to 2017 Volvo V60 T3 and publishes 112 kW at 5000 rpm and 250 N·m at 1300-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4154t6",
+    "code": "B4154T6",
+    "aliases": [
+      "Volvo V60 T3 B4154T6"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T3",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4154T6 is the 1.5 L · 1,498 cc I4 manufacturer specification documented for 2017 Volvo V60 T3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4154T6 es la especificación del fabricante I4 de 1.5 L · 1,498 cc documentada para 2017 Volvo V60 T3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4154T6 est la spécification constructeur I4 de 1.5 L · 1,498 cc documentée pour 2017 Volvo V60 T3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4154T6 ist die für 2017 Volvo V60 T3 dokumentierte 1.5 L · 1,498 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1700,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4154T6 to 2017 Volvo V60 T3 and publishes 112 kW at 5000 rpm and 250 N·m at 1700-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t19",
+    "code": "B4204T19",
+    "aliases": [
+      "Volvo V60 T4 B4204T19"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T4",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T19 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 T4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T19 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 T4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T19 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 T4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T19 ist die für 2017 Volvo V60 T4 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 4700,
+          "max": 4700
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 1300,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T19 to 2017 Volvo V60 T4 and publishes 140 kW at 4700 rpm and 300 N·m at 1300-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t11",
+    "code": "B4204T11",
+    "aliases": [
+      "Volvo V60 T5/Bi-Fuel B4204T11"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T5/Bi-Fuel",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "alternativeFuel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T5/Bi-Fuel"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T11 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 T5/Bi-Fuel.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T5/Bi-Fuel, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T11 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 T5/Bi-Fuel.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T5/Bi-Fuel, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T11 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 T5/Bi-Fuel.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T5/Bi-Fuel, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T11 ist die für 2017 Volvo V60 T5/Bi-Fuel dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T5/Bi-Fuel und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T11 to 2017 Volvo V60 T5/Bi-Fuel and publishes 180 kW at 5500 rpm and 350 N·m at 1500-4800 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t41",
+    "code": "B4204T41",
+    "aliases": [
+      "Volvo V60 T5 B4204T41"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T5",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T5"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T41 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 T5.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T5, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T41 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 T5.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T5, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T41 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 T5.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T5, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T41 ist die für 2017 Volvo V60 T5 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T5 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T41 to 2017 Volvo V60 T5 and publishes 180 kW at 5500 rpm and 350 N·m at 1500-4800 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t9",
+    "code": "B4204T9",
+    "aliases": [
+      "Volvo V60 T6/T6 AWD B4204T9"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 T6/T6 AWD",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 T6/T6 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T9 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 T6/T6 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 T6/T6 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T9 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 T6/T6 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 T6/T6 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T9 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 T6/T6 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 T6/T6 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T9 ist die für 2017 Volvo V60 T6/T6 AWD dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 T6/T6 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 225,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2100,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T9 to 2017 Volvo V60 T6/T6 AWD and publishes 225 kW at 5700 rpm and 400 N·m at 2100-4800 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t43",
+    "code": "B4204T43",
+    "aliases": [
+      "Volvo V60 Polestar B4204T43"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 Polestar",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 Polestar"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T43 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 Polestar.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 Polestar, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T43 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 Polestar.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 Polestar, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T43 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 Polestar.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 Polestar, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T43 ist die für 2017 Volvo V60 Polestar dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 Polestar und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 470,
+        "max": 470,
+        "rpm": {
+          "min": 3100,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T43 to 2017 Volvo V60 Polestar and publishes 270 kW at 6000 rpm and 470 N·m at 3100-5000 rpm. Production Polestar model; not a competition or prototype specification. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t8",
+    "code": "D4204T8",
+    "aliases": [
+      "Volvo V60 D2 D4204T8"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 D2",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 D2"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T8 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 D2.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 D2, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T8 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 D2.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 D2, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T8 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 D2.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 D2, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T8 ist die für 2017 Volvo V60 D2 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 D2 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280,
+        "rpm": {
+          "min": 1500,
+          "max": 2250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T8 to 2017 Volvo V60 D2 and publishes 88 kW at 3750 rpm and 280 N·m at 1500-2250 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t20",
+    "code": "D4204T20",
+    "aliases": [
+      "Volvo V60 D2 D4204T20"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 D2",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 D2"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T20 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 D2.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 D2, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T20 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 D2.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 D2, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T20 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 D2.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 D2, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T20 ist die für 2017 Volvo V60 D2 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 D2 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280,
+        "rpm": {
+          "min": 1500,
+          "max": 2250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T20 to 2017 Volvo V60 D2 and publishes 88 kW at 3750 rpm and 280 N·m at 1500-2250 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t9",
+    "code": "D4204T9",
+    "aliases": [
+      "Volvo V60 D3 D4204T9"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 D3",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 D3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T9 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 D3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 D3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T9 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 D3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 D3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T9 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 D3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 D3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T9 ist die für 2017 Volvo V60 D3 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 D3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320,
+        "rpm": {
+          "min": 1750,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T9 to 2017 Volvo V60 D3 and publishes 110 kW at 3750 rpm and 320 N·m at 1750-3000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t14",
+    "code": "D4204T14",
+    "aliases": [
+      "Volvo V60 D4 D4204T14"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 D4",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 D4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T14 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 D4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 D4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T14 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 D4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 D4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T14 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 D4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 D4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T14 ist die für 2017 Volvo V60 D4 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 D4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 4250,
+          "max": 4250
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1750,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T14 to 2017 Volvo V60 D4 and publishes 140 kW at 4250 rpm and 400 N·m at 1750-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d5244t21",
+    "code": "D5244T21",
+    "aliases": [
+      "Volvo V60 D4 AWD D5244T21"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 D4 AWD",
+    "displacement": "2.4 L · 2,400 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 D4 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D5244T21 is the 2.4 L · 2,400 cc I5 manufacturer specification documented for 2017 Volvo V60 D4 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 D4 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D5244T21 es la especificación del fabricante I5 de 2.4 L · 2,400 cc documentada para 2017 Volvo V60 D4 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 D4 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D5244T21 est la spécification constructeur I5 de 2.4 L · 2,400 cc documentée pour 2017 Volvo V60 D4 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 D4 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D5244T21 ist die für 2017 Volvo V60 D4 AWD dokumentierte 2.4 L · 2,400 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 D4 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 440,
+        "max": 440,
+        "rpm": {
+          "min": 1500,
+          "max": 2750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D5244T21 to 2017 Volvo V60 D4 AWD and publishes 140 kW at 4000 rpm and 440 N·m at 1500-2750 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t11",
+    "code": "D4204T11",
+    "aliases": [
+      "Volvo V60 D5 D4204T11"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2017 Volvo V60 D5",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2017 Volvo V60 D5"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T11 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2017 Volvo V60 D5.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2017 Volvo V60 D5, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T11 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2017 Volvo V60 D5.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2017 Volvo V60 D5, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T11 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2017 Volvo V60 D5.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2017 Volvo V60 D5, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T11 ist die für 2017 Volvo V60 D5 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2017 Volvo V60 D5 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165,
+        "rpm": {
+          "min": 4250,
+          "max": 4250
+        }
+      },
+      "torqueNm": {
+        "min": 470,
+        "max": 470,
+        "rpm": {
+          "min": 1750,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2017,
+          "url": "https://www.volvocars.com/en-sa/support/car/v60/16w46/article/d24bb7d1e21ec6e4c0a801e801cf6114/510652ac31fe5b38c0a801e8014486bc/c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T11 to 2017 Volvo V60 D5 and publishes 165 kW at 4250 rpm and 470 N·m at 1750-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4164t",
+    "code": "B4164T",
+    "aliases": [
+      "Volvo S80 T4 B4164T"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015 Volvo S80 T4",
+    "displacement": "1.6 L · 1,596 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Volvo S80 T4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4164T is the 1.6 L · 1,596 cc I4 manufacturer specification documented for 2015 Volvo S80 T4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Volvo S80 T4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4164T es la especificación del fabricante I4 de 1.6 L · 1,596 cc documentada para 2015 Volvo S80 T4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Volvo S80 T4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4164T est la spécification constructeur I4 de 1.6 L · 1,596 cc documentée pour 2015 Volvo S80 T4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Volvo S80 T4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4164T ist die für 2015 Volvo S80 T4 dokumentierte 1.6 L · 1,596 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Volvo S80 T4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2015,
+          "url": "https://www.volvocars.com/en-kw/support/car/s80/14w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4164T to 2015 Volvo S80 T4 and publishes 132 kW at 5700 rpm and 240 N·m at 1600-5000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t15",
+    "code": "B4204T15",
+    "aliases": [
+      "Volvo S80 T5 B4204T15"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015 Volvo S80 T5",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Volvo S80 T5"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T15 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2015 Volvo S80 T5.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Volvo S80 T5, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T15 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2015 Volvo S80 T5.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Volvo S80 T5, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T15 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2015 Volvo S80 T5.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Volvo S80 T5, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T15 ist die für 2015 Volvo S80 T5 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Volvo S80 T5 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2015,
+          "url": "https://www.volvocars.com/en-kw/support/car/s80/14w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T15 to 2015 Volvo S80 T5 and publishes 162 kW at 5500 rpm and 350 N·m at 1500-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b6304t4",
+    "code": "B6304T4",
+    "aliases": [
+      "Volvo S80 T6 B6304T4"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015 Volvo S80 T6",
+    "displacement": "3.0 L · 2,953 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Volvo S80 T6"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B6304T4 is the 3.0 L · 2,953 cc I6 manufacturer specification documented for 2015 Volvo S80 T6.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Volvo S80 T6, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B6304T4 es la especificación del fabricante I6 de 3.0 L · 2,953 cc documentada para 2015 Volvo S80 T6.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Volvo S80 T6, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B6304T4 est la spécification constructeur I6 de 3.0 L · 2,953 cc documentée pour 2015 Volvo S80 T6.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Volvo S80 T6, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B6304T4 ist die für 2015 Volvo S80 T6 dokumentierte 3.0 L · 2,953 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Volvo S80 T6 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 224,
+        "max": 224,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 440,
+        "max": 440,
+        "rpm": {
+          "min": 2100,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2015,
+          "url": "https://www.volvocars.com/en-kw/support/car/s80/14w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B6304T4 to 2015 Volvo S80 T6 and publishes 224 kW at 5600 rpm and 440 N·m at 2100-4200 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4162t",
+    "code": "D4162T",
+    "aliases": [
+      "Volvo S80 D2 D4162T"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015 Volvo S80 D2",
+    "displacement": "1.6 L · 1,560 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Volvo S80 D2"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4162T is the 1.6 L · 1,560 cc I4 manufacturer specification documented for 2015 Volvo S80 D2.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Volvo S80 D2, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4162T es la especificación del fabricante I4 de 1.6 L · 1,560 cc documentada para 2015 Volvo S80 D2.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Volvo S80 D2, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4162T est la spécification constructeur I4 de 1.6 L · 1,560 cc documentée pour 2015 Volvo S80 D2.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Volvo S80 D2, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4162T ist die für 2015 Volvo S80 D2 dokumentierte 1.6 L · 1,560 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Volvo S80 D2 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84,
+        "max": 84,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1750,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2015,
+          "url": "https://www.volvocars.com/en-kw/support/car/s80/14w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4162T to 2015 Volvo S80 D2 and publishes 84 kW at 3600 rpm and 270 N·m at 1750-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d5204t3",
+    "code": "D5204T3",
+    "aliases": [
+      "Volvo S80 D4 D5204T3"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015 Volvo S80 D4",
+    "displacement": "2.0 L · 1,984 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Volvo S80 D4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D5204T3 is the 2.0 L · 1,984 cc I5 manufacturer specification documented for 2015 Volvo S80 D4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Volvo S80 D4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D5204T3 es la especificación del fabricante I5 de 2.0 L · 1,984 cc documentada para 2015 Volvo S80 D4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Volvo S80 D4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D5204T3 est la spécification constructeur I5 de 2.0 L · 1,984 cc documentée pour 2015 Volvo S80 D4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Volvo S80 D4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D5204T3 ist die für 2015 Volvo S80 D4 dokumentierte 2.0 L · 1,984 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Volvo S80 D4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1500,
+          "max": 2750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2015,
+          "url": "https://www.volvocars.com/en-kw/support/car/s80/14w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D5204T3 to 2015 Volvo S80 D4 and publishes 120 kW at 3500 rpm and 400 N·m at 1500-2750 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t5",
+    "code": "D4204T5",
+    "aliases": [
+      "Volvo S80 D4 D4204T5"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2015 Volvo S80 D4",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Volvo S80 D4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T5 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2015 Volvo S80 D4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Volvo S80 D4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T5 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2015 Volvo S80 D4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Volvo S80 D4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T5 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2015 Volvo S80 D4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Volvo S80 D4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T5 ist die für 2015 Volvo S80 D4 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Volvo S80 D4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 4250,
+          "max": 4250
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1750,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S80 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2015,
+          "url": "https://www.volvocars.com/en-kw/support/car/s80/14w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_c48f21dbf78fa679c0a801e800b1d372/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T5 to 2015 Volvo S80 D4 and publishes 133 kW at 4250 rpm and 400 N·m at 1750-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t7",
+    "code": "B4204T7",
+    "aliases": [
+      "Volvo XC60 T5 B4204T7"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo XC60 T5",
+    "displacement": "2.0 L · 1,999 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo XC60 T5"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T7 is the 2.0 L · 1,999 cc I4 manufacturer specification documented for 2014 Volvo XC60 T5.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo XC60 T5, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T7 es la especificación del fabricante I4 de 2.0 L · 1,999 cc documentada para 2014 Volvo XC60 T5.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo XC60 T5, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T7 est la spécification constructeur I4 de 2.0 L · 1,999 cc documentée pour 2014 Volvo XC60 T5.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo XC60 T5, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T7 ist die für 2014 Volvo XC60 T5 dokumentierte 2.0 L · 1,999 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo XC60 T5 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 177,
+        "max": 177,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320,
+        "rpm": {
+          "min": 1800,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "XC60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-bh/support/car/xc60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e800b1d372_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T7 to 2014 Volvo XC60 T5 and publishes 177 kW at 5500 rpm and 320 N·m at 1800-5000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b6324s5",
+    "code": "B6324S5",
+    "aliases": [
+      "Volvo XC60 3.2 AWD B6324S5"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo XC60 3.2 AWD",
+    "displacement": "3.2 L · 3,192 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo XC60 3.2 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B6324S5 is the 3.2 L · 3,192 cc I6 manufacturer specification documented for 2014 Volvo XC60 3.2 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo XC60 3.2 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B6324S5 es la especificación del fabricante I6 de 3.2 L · 3,192 cc documentada para 2014 Volvo XC60 3.2 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo XC60 3.2 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B6324S5 est la spécification constructeur I6 de 3.2 L · 3,192 cc documentée pour 2014 Volvo XC60 3.2 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo XC60 3.2 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B6324S5 ist die für 2014 Volvo XC60 3.2 AWD dokumentierte 3.2 L · 3,192 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo XC60 3.2 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 179,
+        "max": 179,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "XC60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-bh/support/car/xc60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e800b1d372_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B6324S5 to 2014 Volvo XC60 3.2 AWD and publishes 179 kW at 6400 rpm and 320 N·m at 3200 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d5204t7",
+    "code": "D5204T7",
+    "aliases": [
+      "Volvo XC60 D3 D5204T7"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo XC60 D3",
+    "displacement": "2.0 L · 1,984 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo XC60 D3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D5204T7 is the 2.0 L · 1,984 cc I5 manufacturer specification documented for 2014 Volvo XC60 D3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo XC60 D3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D5204T7 es la especificación del fabricante I5 de 2.0 L · 1,984 cc documentada para 2014 Volvo XC60 D3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo XC60 D3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D5204T7 est la spécification constructeur I5 de 2.0 L · 1,984 cc documentée pour 2014 Volvo XC60 D3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo XC60 D3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D5204T7 ist die für 2014 Volvo XC60 D3 dokumentierte 2.0 L · 1,984 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo XC60 D3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1500,
+          "max": 2250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "XC60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-bh/support/car/xc60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e800b1d372_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D5204T7 to 2014 Volvo XC60 D3 and publishes 100 kW at 3500 rpm and 350 N·m at 1500-2250 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d5244t12",
+    "code": "D5244T12",
+    "aliases": [
+      "Volvo XC60 D4 AWD D5244T12"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo XC60 D4 AWD",
+    "displacement": "2.4 L · 2,400 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo XC60 D4 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D5244T12 is the 2.4 L · 2,400 cc I5 manufacturer specification documented for 2014 Volvo XC60 D4 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo XC60 D4 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D5244T12 es la especificación del fabricante I5 de 2.4 L · 2,400 cc documentada para 2014 Volvo XC60 D4 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo XC60 D4 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D5244T12 est la spécification constructeur I5 de 2.4 L · 2,400 cc documentée pour 2014 Volvo XC60 D4 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo XC60 D4 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D5244T12 ist die für 2014 Volvo XC60 D4 AWD dokumentierte 2.4 L · 2,400 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo XC60 D4 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420,
+        "rpm": {
+          "min": 1500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "XC60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-bh/support/car/xc60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e800b1d372_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D5244T12 to 2014 Volvo XC60 D4 AWD and publishes 133 kW at 4000 rpm and 420 N·m at 1500-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d5244t17",
+    "code": "D5244T17",
+    "aliases": [
+      "Volvo XC60 D4 AWD D5244T17"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo XC60 D4 AWD",
+    "displacement": "2.4 L · 2,400 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo XC60 D4 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D5244T17 is the 2.4 L · 2,400 cc I5 manufacturer specification documented for 2014 Volvo XC60 D4 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo XC60 D4 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D5244T17 es la especificación del fabricante I5 de 2.4 L · 2,400 cc documentada para 2014 Volvo XC60 D4 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo XC60 D4 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D5244T17 est la spécification constructeur I5 de 2.4 L · 2,400 cc documentée pour 2014 Volvo XC60 D4 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo XC60 D4 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D5244T17 ist die für 2014 Volvo XC60 D4 AWD dokumentierte 2.4 L · 2,400 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo XC60 D4 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420,
+        "rpm": {
+          "min": 1500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "XC60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-bh/support/car/xc60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e800b1d372_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D5244T17 to 2014 Volvo XC60 D4 AWD and publishes 120 kW at 4000 rpm and 420 N·m at 1500-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d5244t11",
+    "code": "D5244T11",
+    "aliases": [
+      "Volvo XC60 D5 AWD D5244T11"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo XC60 D5 AWD",
+    "displacement": "2.4 L · 2,400 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo XC60 D5 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D5244T11 is the 2.4 L · 2,400 cc I5 manufacturer specification documented for 2014 Volvo XC60 D5 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo XC60 D5 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D5244T11 es la especificación del fabricante I5 de 2.4 L · 2,400 cc documentada para 2014 Volvo XC60 D5 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo XC60 D5 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D5244T11 est la spécification constructeur I5 de 2.4 L · 2,400 cc documentée pour 2014 Volvo XC60 D5 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo XC60 D5 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D5244T11 ist die für 2014 Volvo XC60 D5 AWD dokumentierte 2.4 L · 2,400 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo XC60 D5 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 158,
+        "max": 158,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420,
+        "rpm": {
+          "min": 1500,
+          "max": 3250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "XC60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-bh/support/car/xc60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e800b1d372_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D5244T11 to 2014 Volvo XC60 D5 AWD and publishes 158 kW at 4000 rpm and 420 N·m at 1500-3250 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4164t3",
+    "code": "B4164T3",
+    "aliases": [
+      "Volvo S60 T3 B4164T3"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo S60 T3",
+    "displacement": "1.6 L · 1,596 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo S60 T3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4164T3 is the 1.6 L · 1,596 cc I4 manufacturer specification documented for 2014 Volvo S60 T3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo S60 T3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4164T3 es la especificación del fabricante I4 de 1.6 L · 1,596 cc documentada para 2014 Volvo S60 T3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo S60 T3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4164T3 est la spécification constructeur I4 de 1.6 L · 1,596 cc documentée pour 2014 Volvo S60 T3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo S60 T3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4164T3 ist die für 2014 Volvo S60 T3 dokumentierte 1.6 L · 1,596 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo S60 T3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 1600,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-om/support/car/s60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4164T3 to 2014 Volvo S60 T3 and publishes 110 kW at 5700 rpm and 240 N·m at 1600-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b5204t8",
+    "code": "B5204T8",
+    "aliases": [
+      "Volvo S60 T4 B5204T8"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo S60 T4",
+    "displacement": "2.0 L · 1,984 cc",
+    "layout": "I5",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo S60 T4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B5204T8 is the 2.0 L · 1,984 cc I5 manufacturer specification documented for 2014 Volvo S60 T4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo S60 T4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B5204T8 es la especificación del fabricante I5 de 2.0 L · 1,984 cc documentada para 2014 Volvo S60 T4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo S60 T4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B5204T8 est la spécification constructeur I5 de 2.0 L · 1,984 cc documentée pour 2014 Volvo S60 T4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo S60 T4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B5204T8 ist die für 2014 Volvo S60 T4 dokumentierte 2.0 L · 1,984 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo S60 T4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 2700,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-om/support/car/s60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B5204T8 to 2014 Volvo S60 T4 and publishes 132 kW at 5000 rpm and 300 N·m at 2700-4200 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4164t2",
+    "code": "B4164T2",
+    "aliases": [
+      "Volvo S60 T4F B4164T2"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo S60 T4F",
+    "displacement": "1.6 L · 1,596 cc",
+    "layout": "I4",
+    "fuelKey": "alternativeFuel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo S60 T4F"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4164T2 is the 1.6 L · 1,596 cc I4 manufacturer specification documented for 2014 Volvo S60 T4F.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo S60 T4F, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4164T2 es la especificación del fabricante I4 de 1.6 L · 1,596 cc documentada para 2014 Volvo S60 T4F.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo S60 T4F, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4164T2 est la spécification constructeur I4 de 1.6 L · 1,596 cc documentée pour 2014 Volvo S60 T4F.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo S60 T4F, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4164T2 ist die für 2014 Volvo S60 T4F dokumentierte 1.6 L · 1,596 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo S60 T4F und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-om/support/car/s60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4164T2 to 2014 Volvo S60 T4F and publishes 132 kW at 5700 rpm and 240 N·m at 1600-5000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b5204t9",
+    "code": "B5204T9",
+    "aliases": [
+      "Volvo S60 T5 B5204T9"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo S60 T5",
+    "displacement": "2.0 L · 1,984 cc",
+    "layout": "I5",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo S60 T5"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B5204T9 is the 2.0 L · 1,984 cc I5 manufacturer specification documented for 2014 Volvo S60 T5.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo S60 T5, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B5204T9 es la especificación del fabricante I5 de 2.0 L · 1,984 cc documentada para 2014 Volvo S60 T5.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo S60 T5, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B5204T9 est la spécification constructeur I5 de 2.0 L · 1,984 cc documentée pour 2014 Volvo S60 T5.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo S60 T5, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B5204T9 ist die für 2014 Volvo S60 T5 dokumentierte 2.0 L · 1,984 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo S60 T5 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 157,
+        "max": 157,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 2700,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-om/support/car/s60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B5204T9 to 2014 Volvo S60 T5 and publishes 157 kW at 6000 rpm and 300 N·m at 2700-5000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b5254t14",
+    "code": "B5254T14",
+    "aliases": [
+      "Volvo S60 T5 B5254T14"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2014 Volvo S60 T5",
+    "displacement": "2.5 L · 2,497 cc",
+    "layout": "I5",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2014 Volvo S60 T5"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B5254T14 is the 2.5 L · 2,497 cc I5 manufacturer specification documented for 2014 Volvo S60 T5.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2014 Volvo S60 T5, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B5254T14 es la especificación del fabricante I5 de 2.5 L · 2,497 cc documentada para 2014 Volvo S60 T5.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2014 Volvo S60 T5, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B5254T14 est la spécification constructeur I5 de 2.5 L · 2,497 cc documentée pour 2014 Volvo S60 T5.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2014 Volvo S60 T5, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B5254T14 ist die für 2014 Volvo S60 T5 dokumentierte 2.5 L · 2,497 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2014 Volvo S60 T5 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 183,
+        "max": 183,
+        "rpm": {
+          "min": 5400,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1800,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "S60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2014,
+          "url": "https://www.volvocars.com/en-om/support/car/s60/13w46/article/d24bb7d1e21ec6e4c0a801e801cf6114_510652ac31fe5b38c0a801e8014486bc_051b13e2c4f62dc7c0a801e8002ae137/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B5254T14 to 2014 Volvo S60 T5 and publishes 183 kW at 5400 rpm and 360 N·m at 1800-4200 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t44",
+    "code": "B4204T44",
+    "aliases": [
+      "Volvo V60 T4 B4204T44"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 T4",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 T4"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T44 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 T4.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 T4, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T44 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 T4.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 T4, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T44 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 T4.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 T4, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T44 ist die für 2021 Volvo V60 T4 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 T4 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 1400,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T44 to 2021 Volvo V60 T4 and publishes 140 kW at 5000 rpm and 300 N·m at 1400-4000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b4204t23",
+    "code": "B4204T23",
+    "aliases": [
+      "Volvo V60 T5/T5 AWD B4204T23"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 T5/T5 AWD",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 T5/T5 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B4204T23 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 T5/T5 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 T5/T5 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B4204T23 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 T5/T5 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 T5/T5 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B4204T23 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 T5/T5 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 T5/T5 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B4204T23 ist die für 2021 Volvo V60 T5/T5 AWD dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 T5/T5 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 187,
+        "max": 187,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B4204T23 to 2021 Volvo V60 T5/T5 AWD and publishes 187 kW at 5500 rpm and 350 N·m at 1500-4800 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t16",
+    "code": "D4204T16",
+    "aliases": [
+      "Volvo V60 D3 D4204T16"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 D3",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 D3"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T16 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 D3.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 D3, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T16 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 D3.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 D3, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T16 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 D3.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 D3, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T16 ist die für 2021 Volvo V60 D3 dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 D3 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320,
+        "rpm": {
+          "min": 1750,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T16 to 2021 Volvo V60 D3 and publishes 110 kW at 3750 rpm and 320 N·m at 1750-3000 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-d4204t4",
+    "code": "D4204T4",
+    "aliases": [
+      "Volvo V60 D3 AWD D4204T4"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 D3 AWD",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 D3 AWD"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4204T4 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 D3 AWD.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 D3 AWD, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4204T4 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 D3 AWD.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 D3 AWD, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4204T4 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 D3 AWD.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 D3 AWD, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4204T4 ist die für 2021 Volvo V60 D3 AWD dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 D3 AWD und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 4250,
+          "max": 4250
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links D4204T4 to 2021 Volvo V60 D3 AWD and publishes 110 kW at 4250 rpm and 350 N·m at 1500-2500 rpm. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b420t3",
+    "code": "B420T3",
+    "aliases": [
+      "Volvo V60 B3 mild hybrid B420T3"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 B3 mild hybrid",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "mildHybrid",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 B3 mild hybrid"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B420T3 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 B3 mild hybrid.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 B3 mild hybrid, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B420T3 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 B3 mild hybrid.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 B3 mild hybrid, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B420T3 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 B3 mild hybrid.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 B3 mild hybrid, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B420T3 ist die für 2021 Volvo V60 B3 mild hybrid dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 B3 mild hybrid und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265,
+        "rpm": {
+          "min": 1500,
+          "max": 3900
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B420T3 to 2021 Volvo V60 B3 mild hybrid and publishes 120 kW at 4800 rpm and 265 N·m at 1500-3900 rpm. Stored performance is the combustion-engine Output column only; no combined value is used. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b420t6",
+    "code": "B420T6",
+    "aliases": [
+      "Volvo V60 B4 mild hybrid B420T6"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 B4 mild hybrid",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "mildHybrid",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 B4 mild hybrid"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B420T6 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 B4 mild hybrid.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 B4 mild hybrid, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B420T6 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 B4 mild hybrid.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 B4 mild hybrid, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B420T6 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 B4 mild hybrid.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 B4 mild hybrid, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B420T6 ist die für 2021 Volvo V60 B4 mild hybrid dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 B4 mild hybrid und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 145,
+        "max": 145,
+        "rpm": {
+          "min": 4800,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 1500,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B420T6 to 2021 Volvo V60 B4 mild hybrid and publishes 145 kW at 4800-5400 rpm and 300 N·m at 1500-4200 rpm. Stored performance is the combustion-engine Output column only; the separately published 161 kW max-rated power is excluded. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b420t2",
+    "code": "B420T2",
+    "aliases": [
+      "Volvo V60 B5/B5 AWD mild hybrid B420T2"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 B5/B5 AWD mild hybrid",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "mildHybrid",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 B5/B5 AWD mild hybrid"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B420T2 is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 B5/B5 AWD mild hybrid.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 B5/B5 AWD mild hybrid, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B420T2 es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 B5/B5 AWD mild hybrid.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 B5/B5 AWD mild hybrid, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B420T2 est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 B5/B5 AWD mild hybrid.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 B5/B5 AWD mild hybrid, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B420T2 ist die für 2021 Volvo V60 B5/B5 AWD mild hybrid dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 B5/B5 AWD mild hybrid und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 184,
+        "max": 184,
+        "rpm": {
+          "min": 5400,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B420T2 to 2021 Volvo V60 B5/B5 AWD mild hybrid and publishes 184 kW at 5400-5700 rpm and 350 N·m at 1800-4800 rpm. Stored performance is the combustion-engine Output column only; the separately published 205 kW max-rated power is excluded. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "volvo-b420t",
+    "code": "B420T",
+    "aliases": [
+      "Volvo V60 B6 AWD mild hybrid B420T"
+    ],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2021 Volvo V60 B6 AWD mild hybrid",
+    "displacement": "2.0 L · 1,969 cc",
+    "layout": "I4",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "mildHybrid",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2021 Volvo V60 B6 AWD mild hybrid"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "B420T is the 2.0 L · 1,969 cc I4 manufacturer specification documented for 2021 Volvo V60 B6 AWD mild hybrid.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2021 Volvo V60 B6 AWD mild hybrid, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "B420T es la especificación del fabricante I4 de 2.0 L · 1,969 cc documentada para 2021 Volvo V60 B6 AWD mild hybrid.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2021 Volvo V60 B6 AWD mild hybrid, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "B420T est la spécification constructeur I4 de 2.0 L · 1,969 cc documentée pour 2021 Volvo V60 B6 AWD mild hybrid.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2021 Volvo V60 B6 AWD mild hybrid, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "B420T ist die für 2021 Volvo V60 B6 AWD mild hybrid dokumentierte 2.0 L · 1,969 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2021 Volvo V60 B6 AWD mild hybrid und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 5400,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420,
+        "rpm": {
+          "min": 2100,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "V60 Engine specifications",
+          "publisher": "Volvo Car Corporation",
+          "year": 2021,
+          "url": "https://www.volvocars.com/uk/support/car/v60/20w17/article/b0804d54c7fc096bc0a81f6f065ad63e/8899be1dc7fc78b1c0a81f6f5a01b4ab/5993ef8e7164fa6ec0a801512998ba9d/",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Volvo Support engine table directly links B420T to 2021 Volvo V60 B6 AWD mild hybrid and publishes 220 kW at 5400 rpm and 420 N·m at 2100-4800 rpm. Stored performance is the combustion-engine Output column only; no combined value is used. Volvo states that not all engines are available in all markets; the support-page locale identifies the accessed site and is not evidence that this engine was offered in that country."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-921",
+    "code": "M112.921",
+    "aliases": [
+      "M 112 E 28 / 112.921"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "03.1996 / 02.1997-07.1999 Mercedes-Benz E 280 (V6 engine) / 210.063",
+    "displacement": "2.8 L · 2,799 cc",
+    "layout": "V6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.921 is the 2.8 L · 2,799 cc V6 manufacturer specification documented for Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M112.921 es la especificación del fabricante V6 de 2.8 L · 2,799 cc documentada para Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M112.921 est la spécification constructeur V6 de 2.8 L · 2,799 cc documentée pour Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M112.921 ist die für Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999) dokumentierte 2.8 L · 2,799 cc-V6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 3000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 280 (V6 engine)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5310",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 112 E 28 / 112.921 in Mercedes-Benz E 280 (V6 engine) / 210.063 (03.1996 / 02.1997-07.1999) and publishes 150 kW at 5700 rpm and 270 N·m at 3000-5000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om604-917",
+    "code": "OM604.917",
+    "aliases": [
+      "OM 604 D 20 / 604.917"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "04.1996 / 06.1996-07.1998 Mercedes-Benz E 200 Diesel / 210.003",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM604.917 is the 2.0 L · 1,997 cc I4 manufacturer specification documented for Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM604.917 es la especificación del fabricante I4 de 2.0 L · 1,997 cc documentada para Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM604.917 est la spécification constructeur I4 de 2.0 L · 1,997 cc documentée pour Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM604.917 ist die für Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998) dokumentierte 2.0 L · 1,997 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 65,
+        "max": 65,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 2000,
+          "max": 4650
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 200 Diesel",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5312",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 604 D 20 / 604.917 in Mercedes-Benz E 200 Diesel / 210.003 (04.1996 / 06.1996-07.1998) and publishes 65 kW at 5000 rpm and 135 N·m at 2000-4650 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-942",
+    "code": "M111.942",
+    "aliases": [
+      "M 111 E 20 / 111.942"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "08.1994 / 05.1995-07.1999 Mercedes-Benz E 200 / 210.035",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.942 is the 2.0 L · 1,998 cc I4 manufacturer specification documented for Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M111.942 es la especificación del fabricante I4 de 2.0 L · 1,998 cc documentada para Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M111.942 est la spécification constructeur I4 de 2.0 L · 1,998 cc documentée pour Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M111.942 ist die für Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999) dokumentierte 2.0 L · 1,998 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 3700,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 200",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1994,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5313",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 111 E 20 / 111.942 in Mercedes-Benz E 200 / 210.035 (08.1994 / 05.1995-07.1999) and publishes 100 kW at 5500 rpm and 190 N·m at 3700-4500 rpm. Torque rpm includes the archive's 4000 rpm initial version and 3700-4500 rpm version from June 1996."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m119-985",
+    "code": "M119.985",
+    "aliases": [
+      "M 119 E 42 / 119.985"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "06.1995 / 02.1996-02.1998 Mercedes-Benz E 420 / 210.072",
+    "displacement": "4.2 L · 4,196 cc",
+    "layout": "V8",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M119.985 is the 4.2 L · 4,196 cc V8 manufacturer specification documented for Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M119.985 es la especificación del fabricante V8 de 4.2 L · 4,196 cc documentada para Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M119.985 est la spécification constructeur V8 de 4.2 L · 4,196 cc documentée pour Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M119.985 ist die für Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998) dokumentierte 4.2 L · 4,196 cc-V8-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 205,
+        "max": 205,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 3900,
+          "max": 3900
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 420",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1995,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5314",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 119 E 42 / 119.985 in Mercedes-Benz E 420 / 210.072 (06.1995 / 02.1996-02.1998) and publishes 205 kW at 5700 rpm and 400 N·m at 3900 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m119-e50-amg",
+    "code": "M119 E50 AMG",
+    "aliases": [
+      "M 119 E 50 AMG"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "01.1996-08.1997 Mercedes-Benz E 50 AMG / 210.072",
+    "displacement": "5.0 L · 4,973 cc",
+    "layout": "V8",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M119 E50 AMG is the 5.0 L · 4,973 cc V8 manufacturer specification documented for Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M119 E50 AMG es la especificación del fabricante V8 de 5.0 L · 4,973 cc documentada para Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M119 E50 AMG est la spécification constructeur V8 de 5.0 L · 4,973 cc documentée pour Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M119 E50 AMG ist die für Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997) dokumentierte 5.0 L · 4,973 cc-V8-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 255,
+        "max": 255,
+        "rpm": {
+          "min": 5750,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480,
+        "rpm": {
+          "min": 3750,
+          "max": 4250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 50 AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5315",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 119 E 50 AMG in Mercedes-Benz E 50 AMG / 210.072 (01.1996-08.1997) and publishes 255 kW at 5750 rpm and 480 N·m at 3750-4250 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om606-912",
+    "code": "OM606.912",
+    "aliases": [
+      "OM 606 D 30 / 606.912"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "08.1994 / 05.1995-03.1997 Mercedes-Benz E 300 Diesel / 210.020",
+    "displacement": "3.0 L · 2,996 cc",
+    "layout": "I6",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM606.912 is the 3.0 L · 2,996 cc I6 manufacturer specification documented for Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM606.912 es la especificación del fabricante I6 de 3.0 L · 2,996 cc documentada para Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM606.912 est la spécification constructeur I6 de 3.0 L · 2,996 cc documentée pour Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM606.912 ist die für Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997) dokumentierte 3.0 L · 2,996 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 210,
+        "max": 210,
+        "rpm": {
+          "min": 2200,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 300 Diesel",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1994,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5317",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 606 D 30 / 606.912 in Mercedes-Benz E 300 Diesel / 210.020 (08.1994 / 05.1995-03.1997) and publishes 100 kW at 5000 rpm and 210 N·m at 2200-4600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m104-995",
+    "code": "M104.995",
+    "aliases": [
+      "M 104 E 32 / 104.995"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "06.1994 / 05.1995-06.1997 Mercedes-Benz E 320 / 210.055",
+    "displacement": "3.2 L · 3,199 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M104.995 is the 3.2 L · 3,199 cc I6 manufacturer specification documented for Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M104.995 es la especificación del fabricante I6 de 3.2 L · 3,199 cc documentada para Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M104.995 est la spécification constructeur I6 de 3.2 L · 3,199 cc documentée pour Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M104.995 ist die für Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997) dokumentierte 3.2 L · 3,199 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 315,
+        "max": 315,
+        "rpm": {
+          "min": 3850,
+          "max": 3850
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 320",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1994,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5334",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 104 E 32 / 104.995 in Mercedes-Benz E 320 / 210.055 (06.1994 / 05.1995-06.1997) and publishes 162 kW at 5500 rpm and 315 N·m at 3850 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-970",
+    "code": "M111.970",
+    "aliases": [
+      "M 111 E 23 / 111.970"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "07.1994 / 05.1995-06.1998 Mercedes-Benz E 230 / 210.037",
+    "displacement": "2.3 L · 2,295 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.970 is the 2.3 L · 2,295 cc I4 manufacturer specification documented for Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M111.970 es la especificación del fabricante I4 de 2.3 L · 2,295 cc documentada para Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M111.970 est la spécification constructeur I4 de 2.3 L · 2,295 cc documentée pour Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M111.970 ist die für Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998) dokumentierte 2.3 L · 2,295 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5400,
+          "max": 5400
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 3700,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 230",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1994,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5324",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 111 E 23 / 111.970 in Mercedes-Benz E 230 / 210.037 (07.1994 / 05.1995-06.1998) and publishes 110 kW at 5400 rpm and 220 N·m at 3700-4500 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om611-960",
+    "code": "OM611.960",
+    "aliases": [
+      "OM 611 DE 22 LA / 611.960"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "01.1998 / 06.1998-07.1999 Mercedes-Benz E 220 CDI / 210.006",
+    "displacement": "2.2 L · 2,151 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM611.960 is the 2.2 L · 2,151 cc I4 manufacturer specification documented for Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM611.960 es la especificación del fabricante I4 de 2.2 L · 2,151 cc documentada para Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM611.960 est la spécification constructeur I4 de 2.2 L · 2,151 cc documentée pour Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM611.960 ist die für Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999) dokumentierte 2.2 L · 2,151 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 1800,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 220 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1998,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5325",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 611 DE 22 LA / 611.960 in Mercedes-Benz E 220 CDI / 210.006 (01.1998 / 06.1998-07.1999) and publishes 92 kW at 4200 rpm and 300 N·m at 1800-2600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-911",
+    "code": "M112.911",
+    "aliases": [
+      "M 112 E 24 / 112.911"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "04.1996 / 08.1997-07.1999 Mercedes-Benz E 240 / 210.061",
+    "displacement": "2.4 L · 2,398 cc",
+    "layout": "V6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.911 is the 2.4 L · 2,398 cc V6 manufacturer specification documented for Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M112.911 es la especificación del fabricante V6 de 2.4 L · 2,398 cc documentada para Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M112.911 est la spécification constructeur V6 de 2.4 L · 2,398 cc documentée pour Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M112.911 ist die für Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999) dokumentierte 2.4 L · 2,398 cc-V6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 5900,
+          "max": 5900
+        }
+      },
+      "torqueNm": {
+        "min": 225,
+        "max": 225,
+        "rpm": {
+          "min": 3000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 240",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5326",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 112 E 24 / 112.911 in Mercedes-Benz E 240 / 210.061 (04.1996 / 08.1997-07.1999) and publishes 125 kW at 5900 rpm and 225 N·m at 3000-5000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m113-980",
+    "code": "M113.980",
+    "aliases": [
+      "M 113 E 55 / 113.980"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "08.1997 / 10.1997-07.1999 Mercedes-Benz E 55 AMG / 210.074",
+    "displacement": "5.4 L · 5,439 cc",
+    "layout": "V8",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M113.980 is the 5.4 L · 5,439 cc V8 manufacturer specification documented for Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M113.980 es la especificación del fabricante V8 de 5.4 L · 5,439 cc documentada para Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M113.980 est la spécification constructeur V8 de 5.4 L · 5,439 cc documentée pour Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M113.980 ist die für Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999) dokumentierte 5.4 L · 5,439 cc-V8-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 260,
+        "max": 260,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 530,
+        "max": 530,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 55 AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1997,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5327",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 113 E 55 / 113.980 in Mercedes-Benz E 55 AMG / 210.074 (08.1997 / 10.1997-07.1999) and publishes 260 kW at 5500 rpm and 530 N·m at 3000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-941",
+    "code": "M112.941",
+    "aliases": [
+      "M 112 E 32 / 112.941"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "01.1996 / 02.1997-07.1999 Mercedes-Benz E 320 (V6 engine) / 210.065",
+    "displacement": "3.2 L · 3,199 cc",
+    "layout": "V6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.941 is the 3.2 L · 3,199 cc V6 manufacturer specification documented for Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M112.941 es la especificación del fabricante V6 de 3.2 L · 3,199 cc documentada para Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M112.941 est la spécification constructeur V6 de 3.2 L · 3,199 cc documentée pour Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M112.941 ist die für Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999) dokumentierte 3.2 L · 3,199 cc-V6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 315,
+        "max": 315,
+        "rpm": {
+          "min": 3000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 320 (V6 engine)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5335",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 112 E 32 / 112.941 in Mercedes-Benz E 320 (V6 engine) / 210.065 (01.1996 / 02.1997-07.1999) and publishes 165 kW at 5600 rpm and 315 N·m at 3000-4800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om605-912",
+    "code": "OM605.912",
+    "aliases": [
+      "OM 605 D 25 / 605.912"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "06.1995-07.1999 Mercedes-Benz E 250 Diesel / 210.010",
+    "displacement": "2.5 L · 2,497 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM605.912 is the 2.5 L · 2,497 cc I5 manufacturer specification documented for Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM605.912 es la especificación del fabricante I5 de 2.5 L · 2,497 cc documentada para Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM605.912 est la spécification constructeur I5 de 2.5 L · 2,497 cc documentée pour Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM605.912 ist die für Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999) dokumentierte 2.5 L · 2,497 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 83,
+        "max": 83,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 250 Diesel",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1995,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5331",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 605 D 25 / 605.912 in Mercedes-Benz E 250 Diesel / 210.010 (06.1995-07.1999) and publishes 83 kW at 5000 rpm and 170 N·m at 2800-4600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om602-982",
+    "code": "OM602.982",
+    "aliases": [
+      "OM 602 DE 29 LA / 602.982"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "01.1995 / 03.1996-06.1999 Mercedes-Benz E 290 Turbodiesel / 210.017",
+    "displacement": "2.9 L · 2,874 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM602.982 is the 2.9 L · 2,874 cc I5 manufacturer specification documented for Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM602.982 es la especificación del fabricante I5 de 2.9 L · 2,874 cc documentada para Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM602.982 est la spécification constructeur I5 de 2.9 L · 2,874 cc documentée pour Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM602.982 ist die für Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999) dokumentierte 2.9 L · 2,874 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 1800,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 290 Turbodiesel",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1995,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5332",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 602 DE 29 LA / 602.982 in Mercedes-Benz E 290 Turbodiesel / 210.017 (01.1995 / 03.1996-06.1999) and publishes 95 kW at 4000 rpm and 300 N·m at 1800-2400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-947",
+    "code": "M111.947",
+    "aliases": [
+      "M 111 E 20 ML / 111.947"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "03.1997 / 08.1997-07.1999 Mercedes-Benz E 200 Compressor / 210.045",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.947 is the 2.0 L · 1,998 cc I4 manufacturer specification documented for Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M111.947 es la especificación del fabricante I4 de 2.0 L · 1,998 cc documentada para Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M111.947 est la spécification constructeur I4 de 2.0 L · 1,998 cc documentée pour Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M111.947 ist die für Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999) dokumentierte 2.0 L · 1,998 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 141,
+        "max": 141,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 200 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1997,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5333",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 111 E 20 ML / 111.947 in Mercedes-Benz E 200 Compressor / 210.045 (03.1997 / 08.1997-07.1999) and publishes 141 kW at 5300 rpm and 270 N·m at 2500-4800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m113-940",
+    "code": "M113.940",
+    "aliases": [
+      "M 113 E 43 / 113.940"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "04.1996 / 08.1997-07.1999 Mercedes-Benz E 430 / 210.070",
+    "displacement": "4.3 L · 4,266 cc",
+    "layout": "V8",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M113.940 is the 4.3 L · 4,266 cc V8 manufacturer specification documented for Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M113.940 es la especificación del fabricante V8 de 4.3 L · 4,266 cc documentada para Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M113.940 est la spécification constructeur V8 de 4.3 L · 4,266 cc documentée pour Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M113.940 ist die für Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999) dokumentierte 4.3 L · 4,266 cc-V8-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 205,
+        "max": 205,
+        "rpm": {
+          "min": 5750,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 3000,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 430",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5336",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 113 E 43 / 113.940 in Mercedes-Benz E 430 / 210.070 (04.1996 / 08.1997-07.1999) and publishes 205 kW at 5750 rpm and 400 N·m at 3000-4400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om611-961",
+    "code": "OM611.961",
+    "aliases": [
+      "OM 611 DE 22 LA / 611.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "07.1999-03.2002 Mercedes-Benz E 220 CDI / 210.006",
+    "displacement": "2.1 L · 2,148 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM611.961 is the 2.1 L · 2,148 cc I4 manufacturer specification documented for Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM611.961 es la especificación del fabricante I4 de 2.1 L · 2,148 cc documentada para Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM611.961 est la spécification constructeur I4 de 2.1 L · 2,148 cc documentée pour Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM611.961 ist die für Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002) dokumentierte 2.1 L · 2,148 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 315,
+        "max": 315,
+        "rpm": {
+          "min": 1800,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 220 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1999,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5345",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 611 DE 22 LA / 611.961 in Mercedes-Benz E 220 CDI / 210.006 (07.1999-03.2002) and publishes 105 kW at 4200 rpm and 315 N·m at 1800-2600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om612-961",
+    "code": "OM612.961",
+    "aliases": [
+      "OM 612 DE 27 LA / 612.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "12.1998 / 07.1999-02.2002 Mercedes-Benz E 270 CDI / 210.016",
+    "displacement": "2.7 L · 2,685 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM612.961 is the 2.7 L · 2,685 cc I5 manufacturer specification documented for Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM612.961 es la especificación del fabricante I5 de 2.7 L · 2,685 cc documentada para Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM612.961 est la spécification constructeur I5 de 2.7 L · 2,685 cc documentée pour Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM612.961 ist die für Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002) dokumentierte 2.7 L · 2,685 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 270 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1998,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5346",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 612 DE 27 LA / 612.961 in Mercedes-Benz E 270 CDI / 210.016 (12.1998 / 07.1999-02.2002) and publishes 125 kW at 4200 rpm and 370-400 N·m at 1600-2800 rpm. Torque range covers the official manual 370 N·m/1600-2800 rpm and automatic 400 N·m/1800-2600 rpm versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-957",
+    "code": "M111.957",
+    "aliases": [
+      "M 111 E 20 ML EVO / 111.957"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "02.2000 / 05.2000-03.2002 Mercedes-Benz E 200 Compressor / 210.048",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.957 is the 2.0 L · 1,998 cc I4 manufacturer specification documented for Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M111.957 es la especificación del fabricante I4 de 2.0 L · 1,998 cc documentada para Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M111.957 est la spécification constructeur I4 de 2.0 L · 1,998 cc documentée pour Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M111.957 ist die für Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002) dokumentierte 2.0 L · 1,998 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 200 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5364",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 111 E 20 ML EVO / 111.957 in Mercedes-Benz E 200 Compressor / 210.048 (02.2000 / 05.2000-03.2002) and publishes 120 kW at 5300 rpm and 230 N·m at 2500-4800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-914",
+    "code": "M112.914",
+    "aliases": [
+      "M 112 E 26 / 112.914"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "11.1999 / 05.2000-02.2002 Mercedes-Benz E 240 (2.6-liter engine) / 210.062",
+    "displacement": "2.6 L · 2,597 cc",
+    "layout": "V6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.914 is the 2.6 L · 2,597 cc V6 manufacturer specification documented for Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M112.914 es la especificación del fabricante V6 de 2.6 L · 2,597 cc documentada para Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M112.914 est la spécification constructeur V6 de 2.6 L · 2,597 cc documentée pour Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M112.914 ist die für Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002) dokumentierte 2.6 L · 2,597 cc-V6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 240 (2.6-liter engine)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1999,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5365",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 112 E 26 / 112.914 in Mercedes-Benz E 240 (2.6-liter engine) / 210.062 (11.1999 / 05.2000-02.2002) and publishes 125 kW at 5500 rpm and 240 N·m at 4500 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om646-951",
+    "code": "OM646.951",
+    "aliases": [
+      "OM 646 DE 22 LA LR / 646.951"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "08.2001 / 09.2002-05.2006 Mercedes-Benz E 200 CDI / 211.004",
+    "displacement": "2.1 L · 2,148 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM646.951 is the 2.1 L · 2,148 cc I4 manufacturer specification documented for Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM646.951 es la especificación del fabricante I4 de 2.1 L · 2,148 cc documentada para Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM646.951 est la spécification constructeur I4 de 2.1 L · 2,148 cc documentée pour Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM646.951 ist die für Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006) dokumentierte 2.1 L · 2,148 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 200 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5368",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 646 DE 22 LA LR / 646.951 in Mercedes-Benz E 200 CDI / 211.004 (08.2001 / 09.2002-05.2006) and publishes 90 kW at 4200 rpm and 270 N·m at 1400-2800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om646-961",
+    "code": "OM646.961",
+    "aliases": [
+      "OM 646 DE 22 LA / 646.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "02.2001 / 01.2002-05.2006 Mercedes-Benz E 220 CDI / 211.006",
+    "displacement": "2.1 L · 2,148 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM646.961 is the 2.1 L · 2,148 cc I4 manufacturer specification documented for Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM646.961 es la especificación del fabricante I4 de 2.1 L · 2,148 cc documentada para Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM646.961 est la spécification constructeur I4 de 2.1 L · 2,148 cc documentée pour Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM646.961 ist die für Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006) dokumentierte 2.1 L · 2,148 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 220 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5369",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 646 DE 22 LA / 646.961 in Mercedes-Benz E 220 CDI / 211.006 (02.2001 / 01.2002-05.2006) and publishes 110 kW at 4200 rpm and 340 N·m at 2000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om647-961",
+    "code": "OM647.961",
+    "aliases": [
+      "OM 647 DE 27 LA / 647.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "02.2001 / 01.2002-06.2005 Mercedes-Benz E 270 CDI / 211.016",
+    "displacement": "2.7 L · 2,685 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM647.961 is the 2.7 L · 2,685 cc I5 manufacturer specification documented for Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM647.961 es la especificación del fabricante I5 de 2.7 L · 2,685 cc documentada para Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM647.961 est la spécification constructeur I5 de 2.7 L · 2,685 cc documentée pour Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM647.961 ist die für Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005) dokumentierte 2.7 L · 2,685 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 425,
+        "rpm": {
+          "min": 1800,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 270 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5370",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 647 DE 27 LA / 647.961 in Mercedes-Benz E 270 CDI / 211.016 (02.2001 / 01.2002-06.2005) and publishes 130 kW at 4200 rpm and 400-425 N·m at 1800-2600 rpm. Torque range covers the official manual 400 N·m/1800-2600 rpm and automatic 425 N·m/2000 rpm versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om648-961",
+    "code": "OM648.961",
+    "aliases": [
+      "OM 648 DE 32 LA / 648.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "07.2001 / 09.2002-06.2006 Mercedes-Benz E 320 CDI / 211.026",
+    "displacement": "3.2 L · 3,222 cc",
+    "layout": "I6",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM648.961 is the 3.2 L · 3,222 cc I6 manufacturer specification documented for Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM648.961 es la especificación del fabricante I6 de 3.2 L · 3,222 cc documentada para Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM648.961 est la spécification constructeur I6 de 3.2 L · 3,222 cc documentée pour Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM648.961 ist die für Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006) dokumentierte 3.2 L · 3,222 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1800,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 320 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5371",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 648 DE 32 LA / 648.961 in Mercedes-Benz E 320 CDI / 211.026 (07.2001 / 09.2002-06.2006) and publishes 150 kW at 4200 rpm and 500 N·m at 1800-2600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-917",
+    "code": "M112.917",
+    "aliases": [
+      "M 112 E 26 / 112.917"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "02.2001 / 01.2002-06.2005 Mercedes-Benz E 240 / 211.061",
+    "displacement": "2.6 L · 2,597 cc",
+    "layout": "V6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.917 is the 2.6 L · 2,597 cc V6 manufacturer specification documented for Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M112.917 es la especificación del fabricante V6 de 2.6 L · 2,597 cc documentada para Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M112.917 est la spécification constructeur V6 de 2.6 L · 2,597 cc documentée pour Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M112.917 ist die für Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005) dokumentierte 2.6 L · 2,597 cc-V6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 240",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5372",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 112 E 26 / 112.917 in Mercedes-Benz E 240 / 211.061 (02.2001 / 01.2002-06.2005) and publishes 130 kW at 5700 rpm and 240 N·m at 4500 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-949",
+    "code": "M112.949",
+    "aliases": [
+      "M 112 E 32 / 112.949"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "03.2001 / 01.2002-01.2005 Mercedes-Benz E 320 / 211.065",
+    "displacement": "3.2 L · 3,199 cc",
+    "layout": "V6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.949 is the 3.2 L · 3,199 cc V6 manufacturer specification documented for Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M112.949 es la especificación del fabricante V6 de 3.2 L · 3,199 cc documentada para Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M112.949 est la spécification constructeur V6 de 3.2 L · 3,199 cc documentée pour Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M112.949 ist die für Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005) dokumentierte 3.2 L · 3,199 cc-V6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 315,
+        "max": 315,
+        "rpm": {
+          "min": 3000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 320",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5373",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 112 E 32 / 112.949 in Mercedes-Benz E 320 / 211.065 (03.2001 / 01.2002-01.2005) and publishes 165 kW at 5600 rpm and 315 N·m at 3000-4800 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m113-967",
+    "code": "M113.967",
+    "aliases": [
+      "M 113 E 50 / 113.967"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "01.2001 / 01.2002-07.2006 Mercedes-Benz E 500 / 211.070",
+    "displacement": "5.0 L · 4,966 cc",
+    "layout": "V8",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M113.967 is the 5.0 L · 4,966 cc V8 manufacturer specification documented for Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M113.967 es la especificación del fabricante V8 de 5.0 L · 4,966 cc documentada para Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M113.967 est la spécification constructeur V8 de 5.0 L · 4,966 cc documentée pour Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M113.967 ist die für Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006) dokumentierte 5.0 L · 4,966 cc-V8-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 225,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 460,
+        "max": 460,
+        "rpm": {
+          "min": 2700,
+          "max": 4250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 500",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5374",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 113 E 50 / 113.967 in Mercedes-Benz E 500 / 211.070 (01.2001 / 01.2002-07.2006) and publishes 225 kW at 5600 rpm and 460 N·m at 2700-4250 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m113-990",
+    "code": "M113.990",
+    "aliases": [
+      "M 113 E 55 ML AMG / 113.990"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "06.2002 / 09.2002-06.2006 Mercedes-Benz E 55 AMG / 211.076",
+    "displacement": "5.4 L · 5,439 cc",
+    "layout": "V8",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M113.990 is the 5.4 L · 5,439 cc V8 manufacturer specification documented for Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M113.990 es la especificación del fabricante V8 de 5.4 L · 5,439 cc documentada para Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M113.990 est la spécification constructeur V8 de 5.4 L · 5,439 cc documentée pour Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M113.990 ist die für Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006) dokumentierte 5.4 L · 5,439 cc-V8-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 6100,
+          "max": 6100
+        }
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700,
+        "rpm": {
+          "min": 2650,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "E 55 AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5375",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 113 E 55 ML AMG / 113.990 in Mercedes-Benz E 55 AMG / 211.076 (06.2002 / 09.2002-06.2006) and publishes 350 kW at 6100 rpm and 700 N·m at 2650-4500 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m123-920",
+    "code": "M123.920",
+    "aliases": [
+      "M 123 V 25 / 123.920"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "09.1977 / 05.1978-08.1982 Mercedes-Benz 250 T / 123.086",
+    "displacement": "2.5 L · 2,525 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M123.920 is the 2.5 L · 2,525 cc I6 manufacturer specification documented for Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M123.920 es la especificación del fabricante I6 de 2.5 L · 2,525 cc documentada para Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M123.920 est la spécification constructeur I6 de 2.5 L · 2,525 cc documentée pour Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M123.920 ist die für Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982) dokumentierte 2.5 L · 2,525 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95,
+        "max": 103,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 200,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "250 T",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1977,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5378",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 123 V 25 / 123.920 in Mercedes-Benz 250 T / 123.086 (09.1977 / 05.1978-08.1982) and publishes 95,103 kW at 5500-5500 rpm and 196-200 N·m at 3500 rpm. Ranges cover the archive's initial and from-September-1979 factory versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m102-980",
+    "code": "M102.980",
+    "aliases": [
+      "M 102 E 23 / 102.980"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "10.1979 / 04.1980-01.1986 Mercedes-Benz 230 TE / 123.283",
+    "displacement": "2.3 L · 2,299 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M102.980 is the 2.3 L · 2,299 cc I4 manufacturer specification documented for Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M102.980 es la especificación del fabricante I4 de 2.3 L · 2,299 cc documentada para Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M102.980 est la spécification constructeur I4 de 2.3 L · 2,299 cc documentée pour Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M102.980 ist die für Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986) dokumentierte 2.3 L · 2,299 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 5100,
+          "max": 5100
+        }
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "230 TE",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1979,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5379",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 102 E 23 / 102.980 in Mercedes-Benz 230 TE / 123.283 (10.1979 / 04.1980-01.1986) and publishes 100 kW at 5100 rpm and 205 N·m at 3500 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om617-912",
+    "code": "OM617.912",
+    "aliases": [
+      "OM 617 D 30 / 617.912"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "09.1977 / 05.1978-01.1986 Mercedes-Benz 300 TD / 123.190",
+    "displacement": "3.0 L · 2,998-3,005 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM617.912 is the 3.0 L · 2,998-3,005 cc I5 manufacturer specification documented for Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM617.912 es la especificación del fabricante I5 de 3.0 L · 2,998-3,005 cc documentada para Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM617.912 est la spécification constructeur I5 de 3.0 L · 2,998-3,005 cc documentée pour Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM617.912 ist die für Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986) dokumentierte 3.0 L · 2,998-3,005 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 59,
+        "max": 65,
+        "rpm": {
+          "min": 4000,
+          "max": 4400
+        }
+      },
+      "torqueNm": {
+        "min": 172,
+        "max": 172,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "300 TD",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1977,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5380",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 617 D 30 / 617.912 in Mercedes-Benz 300 TD / 123.190 (09.1977 / 05.1978-01.1986) and publishes 59,65 kW at 4000-4400 rpm and 172 N·m at 2400 rpm. Displacement and power ranges cover the archive's initial and later factory versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om616-912",
+    "code": "OM616.912",
+    "aliases": [
+      "OM 616 D 24 / 616.912"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "02.1978 / 05.1978-01.1986 Mercedes-Benz 240 TD / 123.183",
+    "displacement": "2.4 L · 2,399 cc",
+    "layout": "I4",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM616.912 is the 2.4 L · 2,399 cc I4 manufacturer specification documented for Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM616.912 es la especificación del fabricante I4 de 2.4 L · 2,399 cc documentada para Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM616.912 est la spécification constructeur I4 de 2.4 L · 2,399 cc documentée pour Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM616.912 ist die für Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986) dokumentierte 2.4 L · 2,399 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 53,
+        "max": 53,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      },
+      "torqueNm": {
+        "min": 137,
+        "max": 137,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "240 TD",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1978,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5382",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 616 D 24 / 616.912 in Mercedes-Benz 240 TD / 123.183 (02.1978 / 05.1978-01.1986) and publishes 53 kW at 4400 rpm and 137 N·m at 2400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m102-920",
+    "code": "M102.920",
+    "aliases": [
+      "M 102 V 20 / 102.920"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "05.1980 / 11.1980-01.1986 Mercedes-Benz 200 T / 123.280",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M102.920 is the 2.0 L · 1,997 cc I4 manufacturer specification documented for Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M102.920 es la especificación del fabricante I4 de 2.0 L · 1,997 cc documentada para Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M102.920 est la spécification constructeur I4 de 2.0 L · 1,997 cc documentée pour Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M102.920 ist die für Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986) dokumentierte 2.0 L · 1,997 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 80,
+        "max": 80,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "200 T",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1980,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5383",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 102 V 20 / 102.920 in Mercedes-Benz 200 T / 123.280 (05.1980 / 11.1980-01.1986) and publishes 80 kW at 5200 rpm and 170 N·m at 3000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om617-952",
+    "code": "OM617.952",
+    "aliases": [
+      "OM 617 D 30 A / 617.952"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "11.1979 / 10.1980-01.1986 Mercedes-Benz 300 TD Turbodiesel / 123.193",
+    "displacement": "3.0 L · 2,998 cc",
+    "layout": "I5",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM617.952 is the 3.0 L · 2,998 cc I5 manufacturer specification documented for Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM617.952 es la especificación del fabricante I5 de 3.0 L · 2,998 cc documentada para Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM617.952 est la spécification constructeur I5 de 3.0 L · 2,998 cc documentée pour Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM617.952 ist die für Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986) dokumentierte 3.0 L · 2,998 cc-I5-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92,
+        "rpm": {
+          "min": 4350,
+          "max": 4350
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "300 TD Turbodiesel",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1979,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5385",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 617 D 30 A / 617.952 in Mercedes-Benz 300 TD Turbodiesel / 123.193 (11.1979 / 10.1980-01.1986) and publishes 92 kW at 4350 rpm and 250 N·m at 2400 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m115-954",
+    "code": "M115.954",
+    "aliases": [
+      "M 115 V 23 / 115.954"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "02.1978 / 05.1978-04.1980 Mercedes-Benz 230 T / 123.083",
+    "displacement": "2.3 L · 2,307 cc",
+    "layout": "I4",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M115.954 is the 2.3 L · 2,307 cc I4 manufacturer specification documented for Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M115.954 es la especificación del fabricante I4 de 2.3 L · 2,307 cc documentada para Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M115.954 est la spécification constructeur I4 de 2.3 L · 2,307 cc documentée pour Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M115.954 ist die für Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980) dokumentierte 2.3 L · 2,307 cc-I4-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 80,
+        "max": 80,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      },
+      "torqueNm": {
+        "min": 186,
+        "max": 186,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "230 T",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1978,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5386",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 115 V 23 / 115.954 in Mercedes-Benz 230 T / 123.083 (02.1978 / 05.1978-04.1980) and publishes 80 kW at 4800 rpm and 186 N·m at 3000 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m103-985",
+    "code": "M103.985",
+    "aliases": [
+      "M 103 E 30 / 103.985"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "08.1986 / 04.1987-08.1989 Mercedes-Benz 300 TE 4MATIC / 124.290",
+    "displacement": "3.0 L · 2,962 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M103.985 is the 3.0 L · 2,962 cc I6 manufacturer specification documented for Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M103.985 es la especificación del fabricante I6 de 3.0 L · 2,962 cc documentada para Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M103.985 est la spécification constructeur I6 de 3.0 L · 2,962 cc documentée pour Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M103.985 ist die für Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989) dokumentierte 3.0 L · 2,962 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 138,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 255,
+        "max": 260,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "300 TE 4MATIC",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1986,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5389",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 103 E 30 / 103.985 in Mercedes-Benz 300 TE 4MATIC / 124.290 (08.1986 / 04.1987-08.1989) and publishes 132,138 kW at 5700 rpm and 255-260 N·m at 4400 rpm. Ranges cover the official catalyst and RÜF versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om603-963",
+    "code": "OM603.963",
+    "aliases": [
+      "OM 603 D 30 A / 603.963"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "09.1986 / 08.1987-08.1989 Mercedes-Benz 300 TD Turbo 4MATIC / 124.393",
+    "displacement": "3.0 L · 2,996 cc",
+    "layout": "I6",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM603.963 is the 3.0 L · 2,996 cc I6 manufacturer specification documented for Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM603.963 es la especificación del fabricante I6 de 3.0 L · 2,996 cc documentada para Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM603.963 est la spécification constructeur I6 de 3.0 L · 2,996 cc documentée pour Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM603.963 ist die für Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989) dokumentierte 3.0 L · 2,996 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 108,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 267,
+        "max": 273,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "300 TD Turbo 4MATIC",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1986,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5396",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 603 D 30 A / 603.963 in Mercedes-Benz 300 TD Turbo 4MATIC / 124.393 (09.1986 / 08.1987-08.1989) and publishes 105,108 kW at 4600 rpm and 267-273 N·m at 2400 rpm. Ranges cover the archive's initial and from-September-1988 factory versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m103-943",
+    "code": "M103.943",
+    "aliases": [
+      "M 103 E 26 / 103.943"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "09.1989-06.1991 Mercedes-Benz 260 E 4MATIC / 124.226",
+    "displacement": "2.6 L · 2,597 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M103.943 is the 2.6 L · 2,597 cc I6 manufacturer specification documented for Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M103.943 es la especificación del fabricante I6 de 2.6 L · 2,597 cc documentada para Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M103.943 est la spécification constructeur I6 de 2.6 L · 2,597 cc documentée pour Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M103.943 ist die für Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991) dokumentierte 2.6 L · 2,597 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 118,
+        "max": 118,
+        "rpm": {
+          "min": 5800,
+          "max": 5800
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "260 E 4MATIC",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1989,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5281",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 103 E 26 / 103.943 in Mercedes-Benz 260 E 4MATIC / 124.226 (09.1989-06.1991) and publishes 118 kW at 5800 rpm and 220 N·m at 4600 rpm."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om603-913",
+    "code": "OM603.913",
+    "aliases": [
+      "OM 603 D 30 / 603.913"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "09.1989-06.1991 Mercedes-Benz 300 D 4MATIC / 124.330",
+    "displacement": "3.0 L · 2,996 cc",
+    "layout": "I6",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM603.913 is the 3.0 L · 2,996 cc I6 manufacturer specification documented for Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "OM603.913 es la especificación del fabricante I6 de 3.0 L · 2,996 cc documentada para Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "OM603.913 est la spécification constructeur I6 de 3.0 L · 2,996 cc documentée pour Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "OM603.913 ist die für Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991) dokumentierte 3.0 L · 2,996 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 83,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 191,
+        "max": 191,
+        "rpm": {
+          "min": 2800,
+          "max": 3050
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "300 D 4MATIC",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1989,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5299",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies OM 603 D 30 / 603.913 in Mercedes-Benz 300 D 4MATIC / 124.330 (09.1989-06.1991) and publishes 81,83 kW at 4600 rpm and 191 N·m at 2800-3050 rpm. Power range covers the official catalyst and non-catalyst versions."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m110-988",
+    "code": "M110.988",
+    "aliases": [
+      "M 110 E 28 / 110.988"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "10.1981-01.1986 Mercedes-Benz 280 TE / 123.093",
+    "displacement": "2.7 L · 2,746 cc",
+    "layout": "I6",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986)"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M110.988 is the 2.7 L · 2,746 cc I6 manufacturer specification documented for Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986).",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986), not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "M110.988 es la especificación del fabricante I6 de 2.7 L · 2,746 cc documentada para Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986).",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986), no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "M110.988 est la spécification constructeur I6 de 2.7 L · 2,746 cc documentée pour Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986).",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986), et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "M110.988 ist die für Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986) dokumentierte 2.7 L · 2,746 cc-I6-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986) und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 136,
+        "max": 136,
+        "rpm": {
+          "min": 5800,
+          "max": 5800
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "280 TE",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1981,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5384",
+          "page": 1,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Mercedes-Benz Public Archive page directly identifies M 110 E 28 / 110.988 in Mercedes-Benz 280 TE / 123.093 (10.1981-01.1986) and publishes 136 kW at 5800 rpm and 240 N·m at 4500 rpm. The record begins with the archive's October 1981 change to engine type 110.988; earlier 110.984 versions are excluded."
+          ]
+        }
+      ]
+    }
   }
 ];

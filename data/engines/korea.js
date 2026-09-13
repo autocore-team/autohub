@@ -1864,5 +1864,1965 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.korea = [
         }
       ]
     }
+  },
+  {
+    "id": "hyundai-d4ga17",
+    "code": "D4GA17",
+    "aliases": [
+      "2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification D4GA17"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification",
+    "displacement": "3.9 L · 3,933 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4GA17 is the 3.9 L · 3,933 cc I4 · water-cooled diesel manufacturer specification documented for 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4GA17 es la especificación del fabricante I4 · water-cooled diesel de 3.9 L · 3,933 cc documentada para 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4GA17 est la spécification constructeur I4 · water-cooled diesel de 3.9 L · 3,933 cc documentée pour 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4GA17 ist die für 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification dokumentierte 3.9 L · 3,933 cc-I4 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      },
+      "torqueNm": {
+        "min": 608,
+        "max": 608,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Mighty e-brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2015,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/footer/downloads/commercial/e-brochure/mighty-ebrochure.pdf",
+          "page": 12,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D4GA17 to 2015 Hyundai Mighty D4GA17 Euro 5 commercial-truck specification and publishes 170 PS at 2500 rpm and 62 kgf·m at 1400 rpm. Stored SI values are conversions, not values printed as kW/N·m: 170 PS × 0.73549875 = 125.034787 kW → 125 kW; 62 kgf·m × 9.80665 = 608.01230 N·m → 608 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d4ga15",
+    "code": "D4GA15",
+    "aliases": [
+      "2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification D4GA15"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification",
+    "displacement": "3.9 L · 3,933 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4GA15 is the 3.9 L · 3,933 cc I4 · water-cooled diesel manufacturer specification documented for 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4GA15 es la especificación del fabricante I4 · water-cooled diesel de 3.9 L · 3,933 cc documentada para 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4GA15 est la spécification constructeur I4 · water-cooled diesel de 3.9 L · 3,933 cc documentée pour 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4GA15 ist die für 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification dokumentierte 3.9 L · 3,933 cc-I4 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      },
+      "torqueNm": {
+        "min": 579,
+        "max": 579,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Mighty e-brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2015,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/footer/downloads/commercial/e-brochure/mighty-ebrochure.pdf",
+          "page": 12,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D4GA15 to 2015 Hyundai Mighty D4GA15 Euro 4 commercial-truck specification and publishes 150 PS at 2500 rpm and 59 kgf·m at 1400 rpm. Stored SI values are conversions, not values printed as kW/N·m: 150 PS × 0.73549875 = 110.324812 kW → 110 kW; 59 kgf·m × 9.80665 = 578.59235 N·m → 579 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d4dd",
+    "code": "D4DD",
+    "aliases": [
+      "2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification D4DD"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification",
+    "displacement": "3.9 L · 3,907 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4DD is the 3.9 L · 3,907 cc I4 · water-cooled diesel manufacturer specification documented for 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4DD es la especificación del fabricante I4 · water-cooled diesel de 3.9 L · 3,907 cc documentada para 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4DD est la spécification constructeur I4 · water-cooled diesel de 3.9 L · 3,907 cc documentée pour 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4DD ist die für 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification dokumentierte 3.9 L · 3,907 cc-I4 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 2800,
+          "max": 2800
+        }
+      },
+      "torqueNm": {
+        "min": 373,
+        "max": 373,
+        "rpm": {
+          "min": 1600,
+          "max": 1600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Mighty e-brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2015,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/footer/downloads/commercial/e-brochure/mighty-ebrochure.pdf",
+          "page": 12,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D4DD to 2015 Hyundai Mighty D4DD Euro 3 commercial-truck specification and publishes 140 PS at 2800 rpm and 38 kgf·m at 1600 rpm. Stored SI values are conversions, not values printed as kW/N·m: 140 PS × 0.73549875 = 102.969825 kW → 103 kW; 38 kgf·m × 9.80665 = 372.65270 N·m → 373 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d4db13",
+    "code": "D4DB13",
+    "aliases": [
+      "2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification D4DB13"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification",
+    "displacement": "3.9 L · 3,907 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4DB13 is the 3.9 L · 3,907 cc I4 · water-cooled diesel manufacturer specification documented for 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4DB13 es la especificación del fabricante I4 · water-cooled diesel de 3.9 L · 3,907 cc documentada para 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4DB13 est la spécification constructeur I4 · water-cooled diesel de 3.9 L · 3,907 cc documentée pour 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4DB13 ist die für 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification dokumentierte 3.9 L · 3,907 cc-I4 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 2900,
+          "max": 2900
+        }
+      },
+      "torqueNm": {
+        "min": 373,
+        "max": 373,
+        "rpm": {
+          "min": 1800,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Mighty e-brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2015,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/footer/downloads/commercial/e-brochure/mighty-ebrochure.pdf",
+          "page": 12,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D4DB13 to 2015 Hyundai Mighty D4DB13 Euro 2 commercial-truck specification and publishes 130 PS at 2900 rpm and 38 kgf·m at 1800 rpm. Stored SI values are conversions, not values printed as kW/N·m: 130 PS × 0.73549875 = 95.614837 kW → 96 kW; 38 kgf·m × 9.80665 = 372.65270 N·m → 373 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d4db-d",
+    "code": "D4DB-d",
+    "aliases": [
+      "2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification D4DB-d"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification",
+    "displacement": "3.9 L · 3,907 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4DB-d is the 3.9 L · 3,907 cc I4 · water-cooled diesel manufacturer specification documented for 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4DB-d es la especificación del fabricante I4 · water-cooled diesel de 3.9 L · 3,907 cc documentada para 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4DB-d est la spécification constructeur I4 · water-cooled diesel de 3.9 L · 3,907 cc documentée pour 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4DB-d ist die für 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification dokumentierte 3.9 L · 3,907 cc-I4 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88,
+        "rpm": {
+          "min": 2900,
+          "max": 2900
+        }
+      },
+      "torqueNm": {
+        "min": 294,
+        "max": 294,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Mighty e-brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2015,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ww/en/images/footer/downloads/commercial/e-brochure/mighty-ebrochure.pdf",
+          "page": 12,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D4DB-d to 2015 Hyundai Mighty D4DB-d Euro 2 commercial-truck specification and publishes 120 PS at 2900 rpm and 30 kgf·m at 2000 rpm. Stored SI values are conversions, not values printed as kW/N·m: 120 PS × 0.73549875 = 88.259850 kW → 88 kW; 30 kgf·m × 9.80665 = 294.19950 N·m → 294 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d4dc",
+    "code": "D4DC",
+    "aliases": [
+      "2012 Hyundai County Standard/Long D4DC Euro I specification D4DC"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2012 Hyundai County Standard/Long D4DC Euro I specification",
+    "displacement": "3.9 L · 3,907 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2012 Hyundai County Standard/Long D4DC Euro I specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4DC is the 3.9 L · 3,907 cc I4 · water-cooled diesel manufacturer specification documented for 2012 Hyundai County Standard/Long D4DC Euro I specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2012 Hyundai County Standard/Long D4DC Euro I specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4DC es la especificación del fabricante I4 · diésel refrigerado por agua de 3.9 L · 3,907 cc documentada para el Hyundai County Standard/Long D4DC Euro I de 2012.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo al Hyundai County Standard/Long D4DC Euro I de 2012, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4DC est la spécification constructeur I4 · diesel refroidi par eau de 3.9 L · 3,907 cc documentée pour le Hyundai County Standard/Long D4DC Euro I de 2012.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement au Hyundai County Standard/Long D4DC Euro I de 2012, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4DC ist die für den Hyundai County Standard/Long D4DC Euro I von 2012 dokumentierte 3.9 L · 3,907 cc-I4-Dieselspezifikation mit Wasserkühlung.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für den Hyundai County Standard/Long D4DC Euro I von 2012 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      },
+      "torqueNm": {
+        "min": 294,
+        "max": 294,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai County brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2012,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ng/en/data/marketing/brochure/product/county/County-12County-English.pdf",
+          "page": 8,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official 2012 Hyundai County brochure directly ties D4DC to the County Standard/Long Euro I specification and publishes 120 PS at 3200 rpm and 30 kgf·m at 2000 rpm. Stored SI values are conversions, not values printed as kW/N·m: 120 PS × 0.73549875 = 88.259850 kW → 88 kW; 30 kgf·m × 9.80665 = 294.19950 N·m → 294 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d4af",
+    "code": "D4AF",
+    "aliases": [
+      "2012 Hyundai County Standard D4AF general specification D4AF"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2012 Hyundai County Standard D4AF general specification",
+    "displacement": "3.6 L · 3,568 cc",
+    "layout": "I4 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2012 Hyundai County Standard D4AF general specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D4AF is the 3.6 L · 3,568 cc I4 · water-cooled diesel manufacturer specification documented for 2012 Hyundai County Standard D4AF general specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2012 Hyundai County Standard D4AF general specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D4AF es la especificación general del fabricante I4 · diésel refrigerado por agua de 3.6 L · 3,568 cc documentada para el Hyundai County Standard de 2012.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo al Hyundai County Standard D4AF de 2012, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D4AF est la spécification générale constructeur I4 · diesel refroidi par eau de 3.6 L · 3,568 cc documentée pour le Hyundai County Standard de 2012.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement au Hyundai County Standard D4AF de 2012, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D4AF ist die für den Hyundai County Standard von 2012 dokumentierte allgemeine 3.6 L · 3,568 cc-I4-Dieselspezifikation mit Wasserkühlung.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für den Hyundai County Standard D4AF von 2012 und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74,
+        "rpm": {
+          "min": 3400,
+          "max": 3400
+        }
+      },
+      "torqueNm": {
+        "min": 235,
+        "max": 235,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai County brochure",
+          "publisher": "Hyundai Motor Company",
+          "year": 2012,
+          "url": "https://www.hyundai.com/content/dam/hyundai/ng/en/data/marketing/brochure/product/county/County-12County-English.pdf",
+          "page": 8,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official 2012 Hyundai County brochure directly ties D4AF to the County Standard general specification and publishes 100 PS at 3400 rpm and 24 kgf·m at 2000 rpm. Stored SI values are conversions, not values printed as kW/N·m: 100 PS × 0.73549875 = 73.549875 kW → 74 kW; 24 kgf·m × 9.80665 = 235.35960 N·m → 235 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6br",
+    "code": "D6BR",
+    "aliases": [
+      "2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification D6BR"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification",
+    "displacement": "7.5 L · 7,545 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6BR is the 7.5 L · 7,545 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6BR es la especificación del fabricante I6 · water-cooled diesel de 7.5 L · 7,545 cc documentada para 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6BR est la spécification constructeur I6 · water-cooled diesel de 7.5 L · 7,545 cc documentée pour 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6BR ist die für 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification dokumentierte 7.5 L · 7,545 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 123,
+        "max": 123,
+        "rpm": {
+          "min": 2900,
+          "max": 2900
+        }
+      },
+      "torqueNm": {
+        "min": 451,
+        "max": 451,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6BR to 2016 Hyundai HD160 4x2 cargo/dump D6BR Euro 1 specification and publishes 167 PS at 2900 rpm and 46 kgf·m at 1400 rpm. Stored SI values are conversions, not values printed as kW/N·m: 167 PS × 0.73549875 = 122.828291 kW → 123 kW; 46 kgf·m × 9.80665 = 451.10590 N·m → 451 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6av",
+    "code": "D6AV",
+    "aliases": [
+      "2016 Hyundai HD170 cargo D6AV Euro 1 specification D6AV"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD170 cargo D6AV Euro 1 specification",
+    "displacement": "11.1 L · 11,149 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD170 cargo D6AV Euro 1 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6AV is the 11.1 L · 11,149 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD170 cargo D6AV Euro 1 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD170 cargo D6AV Euro 1 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6AV es la especificación del fabricante I6 · water-cooled diesel de 11.1 L · 11,149 cc documentada para 2016 Hyundai HD170 cargo D6AV Euro 1 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD170 cargo D6AV Euro 1 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6AV est la spécification constructeur I6 · water-cooled diesel de 11.1 L · 11,149 cc documentée pour 2016 Hyundai HD170 cargo D6AV Euro 1 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD170 cargo D6AV Euro 1 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6AV ist die für 2016 Hyundai HD170 cargo D6AV Euro 1 specification dokumentierte 11.1 L · 11,149 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD170 cargo D6AV Euro 1 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162,
+        "rpm": {
+          "min": 2200,
+          "max": 2200
+        }
+      },
+      "torqueNm": {
+        "min": 735,
+        "max": 735,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6AV to 2016 Hyundai HD170 cargo D6AV Euro 1 specification and publishes 220 PS at 2200 rpm and 75 kgf·m at 1400 rpm. Stored SI values are conversions, not values printed as kW/N·m: 220 PS × 0.73549875 = 161.809725 kW → 162 kW; 75 kgf·m × 9.80665 = 735.49875 N·m → 735 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6ab-d",
+    "code": "D6AB-d",
+    "aliases": [
+      "2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification D6AB-d"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification",
+    "displacement": "11.1 L · 11,149 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6AB-d is the 11.1 L · 11,149 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6AB-d es la especificación del fabricante I6 · water-cooled diesel de 11.1 L · 11,149 cc documentada para 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6AB-d est la spécification constructeur I6 · water-cooled diesel de 11.1 L · 11,149 cc documentée pour 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6AB-d ist die für 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification dokumentierte 11.1 L · 11,149 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 213,
+        "max": 213,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      },
+      "torqueNm": {
+        "min": 1079,
+        "max": 1079,
+        "rpm": {
+          "min": 1200,
+          "max": 1200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6AB-d to 2016 Hyundai HD170 cargo D6AB-d Euro 2/3 specification and publishes 290 PS at 2000 rpm and 110 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 290 PS × 0.73549875 = 213.294637 kW → 213 kW; 110 kgf·m × 9.80665 = 1078.73150 N·m → 1079 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6ga",
+    "code": "D6GA",
+    "aliases": [
+      "2016 Hyundai HD170 cargo D6GA Euro 4 specification D6GA"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD170 cargo D6GA Euro 4 specification",
+    "displacement": "5.9 L · 5,899 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD170 cargo D6GA Euro 4 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6GA is the 5.9 L · 5,899 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD170 cargo D6GA Euro 4 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD170 cargo D6GA Euro 4 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6GA es la especificación del fabricante I6 · water-cooled diesel de 5.9 L · 5,899 cc documentada para 2016 Hyundai HD170 cargo D6GA Euro 4 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD170 cargo D6GA Euro 4 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6GA est la spécification constructeur I6 · water-cooled diesel de 5.9 L · 5,899 cc documentée pour 2016 Hyundai HD170 cargo D6GA Euro 4 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD170 cargo D6GA Euro 4 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6GA ist die für 2016 Hyundai HD170 cargo D6GA Euro 4 specification dokumentierte 5.9 L · 5,899 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD170 cargo D6GA Euro 4 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 188,
+        "max": 188,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      },
+      "torqueNm": {
+        "min": 932,
+        "max": 932,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6GA to 2016 Hyundai HD170 cargo D6GA Euro 4 specification and publishes 255 PS at 2500 rpm and 95 kgf·m at 1400 rpm. Stored SI values are conversions, not values printed as kW/N·m: 255 PS × 0.73549875 = 187.552181 kW → 188 kW; 95 kgf·m × 9.80665 = 931.63175 N·m → 932 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6ac",
+    "code": "D6AC",
+    "aliases": [
+      "2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification D6AC"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification",
+    "displacement": "11.1 L · 11,149 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6AC is the 11.1 L · 11,149 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6AC es la especificación del fabricante I6 · water-cooled diesel de 11.1 L · 11,149 cc documentada para 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6AC est la spécification constructeur I6 · water-cooled diesel de 11.1 L · 11,149 cc documentée pour 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6AC ist die für 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification dokumentierte 11.1 L · 11,149 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 2200,
+          "max": 2200
+        }
+      },
+      "torqueNm": {
+        "min": 1373,
+        "max": 1373,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6AC to 2016 Hyundai HD250 6x4 cargo D6AC Euro 1 340 PS specification and publishes 340 PS at 2200 rpm and 140 kgf·m at 1400 rpm. The brochure also lists separate 320 PS D6AC variants; those ratings are excluded from this record. Stored SI values are conversions, not values printed as kW/N·m: 340 PS × 0.73549875 = 250.069575 kW → 250 kW; 140 kgf·m × 9.80665 = 1372.93100 N·m → 1373 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6cb3h",
+    "code": "D6CB3H",
+    "aliases": [
+      "2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification D6CB3H"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification",
+    "displacement": "12.3 L · 12,344 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CB3H is the 12.3 L · 12,344 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CB3H es la especificación del fabricante I6 · water-cooled diesel de 12.3 L · 12,344 cc documentada para 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CB3H est la spécification constructeur I6 · water-cooled diesel de 12.3 L · 12,344 cc documentée pour 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CB3H ist die für 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification dokumentierte 12.3 L · 12,344 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1569,
+        "max": 1569,
+        "rpm": {
+          "min": 1200,
+          "max": 1200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CB3H to 2016 Hyundai HD250 6x4 cargo D6CB3H Euro 3 specification and publishes 380 PS at 1900 rpm and 160 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 380 PS × 0.73549875 = 279.489525 kW → 279 kW; 160 kgf·m × 9.80665 = 1569.06400 N·m → 1569 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6cc3h",
+    "code": "D6CC3H",
+    "aliases": [
+      "2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification D6CC3H"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification",
+    "displacement": "12.3 L · 12,344 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CC3H is the 12.3 L · 12,344 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CC3H es la especificación del fabricante I6 · water-cooled diesel de 12.3 L · 12,344 cc documentada para 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CC3H est la spécification constructeur I6 · water-cooled diesel de 12.3 L · 12,344 cc documentée pour 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CC3H ist die für 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification dokumentierte 12.3 L · 12,344 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1569,
+        "max": 1569,
+        "rpm": {
+          "min": 1200,
+          "max": 1200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CC3H to 2016 Hyundai HD250 6x4 cargo D6CC3H Euro 4 specification and publishes 380 PS at 1900 rpm and 160 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 380 PS × 0.73549875 = 279.489525 kW → 279 kW; 160 kgf·m × 9.80665 = 1569.06400 N·m → 1569 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6ca38",
+    "code": "D6CA38",
+    "aliases": [
+      "2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification D6CA38"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification",
+    "displacement": "12.9 L · 12,920 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CA38 is the 12.9 L · 12,920 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CA38 es la especificación del fabricante I6 · water-cooled diesel de 12.9 L · 12,920 cc documentada para 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CA38 est la spécification constructeur I6 · water-cooled diesel de 12.9 L · 12,920 cc documentée pour 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CA38 ist die für 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification dokumentierte 12.9 L · 12,920 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1451,
+        "max": 1451,
+        "rpm": {
+          "min": 1500,
+          "max": 1500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CA38 to 2016 Hyundai HD260 6x4 cargo D6CA38 Euro 2 specification and publishes 380 PS at 1900 rpm and 148 kgf·m at 1500 rpm. Stored SI values are conversions, not values printed as kW/N·m: 380 PS × 0.73549875 = 279.489525 kW → 279 kW; 148 kgf·m × 9.80665 = 1451.38420 N·m → 1451 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6ca3h",
+    "code": "D6CA3H",
+    "aliases": [
+      "2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification D6CA3H"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification",
+    "displacement": "12.9 L · 12,920 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CA3H is the 12.9 L · 12,920 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CA3H es la especificación del fabricante I6 · water-cooled diesel de 12.9 L · 12,920 cc documentada para 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CA3H est la spécification constructeur I6 · water-cooled diesel de 12.9 L · 12,920 cc documentée pour 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CA3H ist die für 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification dokumentierte 12.9 L · 12,920 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1569,
+        "max": 1569,
+        "rpm": {
+          "min": 1500,
+          "max": 1500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CA3H to 2016 Hyundai HD310 8x4 cargo D6CA3H Euro 2 specification and publishes 380 PS at 1900 rpm and 160 kgf·m at 1500 rpm. Stored SI values are conversions, not values printed as kW/N·m: 380 PS × 0.73549875 = 279.489525 kW → 279 kW; 160 kgf·m × 9.80665 = 1569.06400 N·m → 1569 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6cb41",
+    "code": "D6CB41",
+    "aliases": [
+      "2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification D6CB41"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification",
+    "displacement": "12.3 L · 12,344 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CB41 is the 12.3 L · 12,344 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CB41 es la especificación del fabricante I6 · water-cooled diesel de 12.3 L · 12,344 cc documentada para 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CB41 est la spécification constructeur I6 · water-cooled diesel de 12.3 L · 12,344 cc documentée pour 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CB41 ist die für 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification dokumentierte 12.3 L · 12,344 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 302,
+        "max": 302,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1844,
+        "max": 1844,
+        "rpm": {
+          "min": 1200,
+          "max": 1200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CB41 to 2016 Hyundai HD320 8x4 cargo D6CB41 Euro 3 specification and publishes 410 PS at 1900 rpm and 188 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 410 PS × 0.73549875 = 301.554487 kW → 302 kW; 188 kgf·m × 9.80665 = 1843.65020 N·m → 1844 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6ca41",
+    "code": "D6CA41",
+    "aliases": [
+      "2016 Hyundai HD600L tractor D6CA41 Euro 2 specification D6CA41"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD600L tractor D6CA41 Euro 2 specification",
+    "displacement": "12.9 L · 12,920 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD600L tractor D6CA41 Euro 2 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CA41 is the 12.9 L · 12,920 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CA41 es la especificación del fabricante I6 · water-cooled diesel de 12.9 L · 12,920 cc documentada para 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CA41 est la spécification constructeur I6 · water-cooled diesel de 12.9 L · 12,920 cc documentée pour 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CA41 ist die für 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification dokumentierte 12.9 L · 12,920 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 302,
+        "max": 302,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1844,
+        "max": 1844,
+        "rpm": {
+          "min": 1500,
+          "max": 1500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CA41 to 2016 Hyundai HD600L tractor D6CA41 Euro 2 specification and publishes 410 PS at 1900 rpm and 188 kgf·m at 1500 rpm. Stored SI values are conversions, not values printed as kW/N·m: 410 PS × 0.73549875 = 301.554487 kW → 302 kW; 188 kgf·m × 9.80665 = 1843.65020 N·m → 1844 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6cb38",
+    "code": "D6CB38",
+    "aliases": [
+      "2016 Hyundai HD500 tractor D6CB38 Euro 3 specification D6CB38"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD500 tractor D6CB38 Euro 3 specification",
+    "displacement": "12.3 L · 12,344 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD500 tractor D6CB38 Euro 3 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CB38 is the 12.3 L · 12,344 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CB38 es la especificación del fabricante I6 · water-cooled diesel de 12.3 L · 12,344 cc documentada para 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CB38 est la spécification constructeur I6 · water-cooled diesel de 12.3 L · 12,344 cc documentée pour 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CB38 ist die für 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification dokumentierte 12.3 L · 12,344 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1451,
+        "max": 1451,
+        "rpm": {
+          "min": 1200,
+          "max": 1200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CB38 to 2016 Hyundai HD500 tractor D6CB38 Euro 3 specification and publishes 380 PS at 1900 rpm and 148 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 380 PS × 0.73549875 = 279.489525 kW → 279 kW; 148 kgf·m × 9.80665 = 1451.38420 N·m → 1451 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hyundai-d6cc41",
+    "code": "D6CC41",
+    "aliases": [
+      "2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification D6CC41"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification",
+    "displacement": "12.3 L · 12,344 cc",
+    "layout": "I6 · water-cooled diesel",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification"
+    ],
+    "consumption": "Not specified in source",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in source",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "D6CC41 is the 12.3 L · 12,344 cc I6 · water-cooled diesel manufacturer specification documented for 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification.",
+        "issues": "The official source is a model specification; it does not publish recurring faults or service life. Inspect the exact vehicle and its maintenance history.",
+        "pros": "The manufacturer source directly links the exact engine identity and application to power, torque and both engine speeds.",
+        "cons": "These values apply only to 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification, not to every calibration of the wider engine family."
+      },
+      "es": {
+        "construction": "D6CC41 es la especificación del fabricante I6 · water-cooled diesel de 12.3 L · 12,344 cc documentada para 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification.",
+        "issues": "La fuente oficial es una especificación del modelo; no publica averías recurrentes ni vida útil. Deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "La fuente del fabricante vincula directamente la identidad exacta del motor y la aplicación con la potencia, el par y ambos regímenes.",
+        "cons": "Los valores se aplican solo a 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification, no a todas las calibraciones de la familia del motor."
+      },
+      "fr": {
+        "construction": "D6CC41 est la spécification constructeur I6 · water-cooled diesel de 12.3 L · 12,344 cc documentée pour 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification.",
+        "issues": "La source officielle est une fiche modèle ; elle ne publie ni pannes récurrentes ni durée de vie. Le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "La source constructeur relie directement l'identité exacte du moteur et l'application à la puissance, au couple et aux deux régimes.",
+        "cons": "Les valeurs s'appliquent uniquement à 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification, et non à toutes les calibrations de la famille moteur."
+      },
+      "de": {
+        "construction": "D6CC41 ist die für 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification dokumentierte 12.3 L · 12,344 cc-I6 · water-cooled diesel-Herstellerspezifikation.",
+        "issues": "Die offizielle Quelle ist eine Modellspezifikation; sie nennt keine wiederkehrenden Schäden oder Laufleistung. Das konkrete Fahrzeug und seine Wartungshistorie müssen geprüft werden.",
+        "pros": "Die Herstellerquelle verbindet die genaue Motoridentität und Anwendung direkt mit Leistung, Drehmoment und beiden Drehzahlen.",
+        "cons": "Die Werte gelten nur für 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification und nicht für jede Abstimmung der Motorfamilie."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 302,
+        "max": 302,
+        "rpm": {
+          "min": 1900,
+          "max": 1900
+        }
+      },
+      "torqueNm": {
+        "min": 1844,
+        "max": 1844,
+        "rpm": {
+          "min": 1200,
+          "max": 1200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        {
+          "type": "manufacturer",
+          "title": "Hyundai Heavy Duty Truck Line-up",
+          "publisher": "Hyundai Motor Company",
+          "year": 2016,
+          "url": "https://www.hyundai.com/content/dam/hyundai/et/en/data/marketing/brochure/product/dump-truck/HD170-1000-2016-HDT-Low.pdf",
+          "page": 16,
+          "checkedAt": "2026-09-13",
+          "fields": [
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "pageNotes": [
+            "The official Hyundai brochure directly ties D6CC41 to 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification and publishes 410 PS at 1900 rpm and 188 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 410 PS × 0.73549875 = 301.554487 kW → 302 kW; 188 kgf·m × 9.80665 = 1843.65020 N·m → 1844 N·m (nearest integer)."
+          ]
+        }
+      ]
+    }
   }
 ];
