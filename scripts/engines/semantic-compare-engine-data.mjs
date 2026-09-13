@@ -15,6 +15,7 @@ import { comparableLegacyRecords } from './legacy-identity-migration-policy.mjs'
 
 const compareLegacyHead = process.argv.includes('--legacy-head');
 const legacyRef = process.env.ENGINE_DATA_BASE_REF || 'main';
+const gitShowMaxBuffer = 32 * 1024 * 1024;
 const sourceData = readSourceData();
 const sourceRecords = sourceData.records;
 const generatedMonolithic = loadMonolithicRecords();
@@ -57,7 +58,8 @@ if (canonicalIds !== regionalIds) errors.push('Generated regional files do not c
 if (compareLegacyHead) {
   const legacyResult = spawnSync('git', ['show', `${legacyRef}:engine-data.js`], {
     cwd: new URL('../../', import.meta.url),
-    encoding: 'utf8'
+    encoding: 'utf8',
+    maxBuffer: gitShowMaxBuffer
   });
 
   if (legacyResult.status !== 0) {
@@ -94,7 +96,8 @@ if (compareLegacyHead) {
   for (const region of REGIONS) {
     const regionResult = spawnSync('git', ['show', `${legacyRef}:data/engines/${region}.js`], {
       cwd: new URL('../../', import.meta.url),
-      encoding: 'utf8'
+      encoding: 'utf8',
+      maxBuffer: gitShowMaxBuffer
     });
     if (regionResult.status !== 0) continue;
 
