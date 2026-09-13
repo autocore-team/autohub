@@ -1,0 +1,48 @@
+name: Engine Data CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: engine-data-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-engine-data:
+    name: Validate engine data
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Prepare main baseline for pull requests
+        if: github.event_name == 'pull_request'
+        run: git branch --force main origin/main
+
+      - name: Run engine data tests
+        run: npm test
+
+      - name: Compare with main baseline
+        run: npm run engines:legacy-compare
+
+      - name: Verify clean generated data
+        run: git diff --exit-code
