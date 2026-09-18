@@ -1,6 +1,6 @@
-# AutoHub
+# D3 Orient
 
-AutoHub is a practical automotive web project with calculators, guides and reference tools for drivers.
+D3 Orient is a practical automotive web project with calculators, guides and reference tools for drivers.
 
 The goal is simple:
 
@@ -82,7 +82,7 @@ vehicle → engine → year → fuel type → turbo/NA → DPF/GPF → manufactu
 
 ## Project status
 
-AutoHub is under active development.
+D3 Orient is under active development.
 
 Current priorities:
 
@@ -97,7 +97,7 @@ Current priorities:
 
 ## Development
 
-AutoHub is currently a static website.
+D3 Orient is currently a static website.
 
 Technologies:
 
@@ -161,4 +161,4 @@ Commands:
 
 Email: [autocore.team@gmail.com](mailto:autocore.team@gmail.com)
 
-Use this email to report broken links, suggest diagnostic software, send corrections or contact AutoHub about cooperation.
+Use this email to report broken links, suggest diagnostic software, send corrections or contact D3 Orient about cooperation.

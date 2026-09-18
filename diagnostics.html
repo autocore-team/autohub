@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Diagnostic software for cars: OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota and universal tools. Check car year, protocol, cable and driver compatibility before downloading.">
-  <title>Diagnostic Software for Cars - OBD2, ELM327, VAG, Volvo, BMW | AutoHub</title>
+  <title>Diagnostic Software for Cars - OBD2, ELM327, VAG, Volvo, BMW | D3 Orient</title>
   <style>
     :root {
       --bg: #f4f7fb;
@@ -671,37 +671,42 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/css/site-shell.css">
+  <script src="assets/js/site-shell.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="index.html">AutoHub</a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-        <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-        <a href="fuel.html" data-i18n="fuelCalculator">Fuel Cost Calculator</a>
-        <a class="active" href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-        <a href="engines.html" data-i18n="engines">Engines</a>
-        <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
-        <a href="guides.html" data-i18n="guides">Guides</a>
-        <a href="about.html" data-i18n="navAbout">About</a>
-        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-        <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
-        <a href="contact.html" data-i18n="navContact">Contact</a>
+  <div class="site-nav">
+    <a class="site-brand" href="index.html" aria-label="D3 Orient home">
+      <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+    </a>
+    <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+      <span data-shell-i18n="menu">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu">
+      <nav class="site-primary-nav" aria-label="Primary navigation">
+        <a href="index.html" data-shell-i18n="navHome">Home</a>
+        <a href="tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+        <a href="pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+        <a href="fuel.html" data-shell-i18n="navFuel">Fuel Cost</a>
+        <a href="diagnostics.html" data-shell-i18n="navDiagnostics" class="active" aria-current="page">Diagnostics</a>
+        <a href="engines.html" data-shell-i18n="navEngines">Engine Database</a>
+        <a href="guides.html" data-shell-i18n="navGuides">Guides</a>
       </nav>
-      <div class="langbar" aria-label="Language">
+      <div class="site-language-switcher" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
         <button type="button" data-lang="es">ES</button>
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="de">DE</button>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
   <main>
     <section class="hero" aria-label="Diagnostics overview">
       <div class="hero-main">
-        <p class="eyebrow" data-i18n="heroEyebrow">AutoHub diagnostics guide</p>
+        <p class="eyebrow" data-i18n="heroEyebrow">D3 Orient diagnostics guide</p>
         <h1 data-i18n="title">Diagnostic software for cars</h1>
         <p class="lead" data-i18n="lead">OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota and other diagnostic tools in one practical reference. Use this page to choose the right software path before you buy a cable, install drivers or connect to a car.</p>
         <ul class="quick-facts">
@@ -730,7 +735,7 @@
 
     <section class="panel" aria-label="Diagnostic finder">
       <h2 data-i18n="finderTitle">Find diagnostic tools for your car</h2>
-      <p data-i18n="finderLead">Select the make, model, year and needed function. AutoHub will suggest a practical diagnostic path and compatible adapter category.</p>
+      <p data-i18n="finderLead">Select the make, model, year and needed function. D3 Orient will suggest a practical diagnostic path and compatible adapter category.</p>
       <div class="finder-grid">
         <label class="finder-field">
           <span data-i18n="finderMake">Make</span>
@@ -1505,7 +1510,7 @@
 
     <section class="warning" aria-label="Legal and safety note">
       <strong data-i18n="legalTitle">Legal and safety note</strong>
-      <p data-i18n="legalText">AutoHub lists official sources and legitimate project pages. We do not sell free diagnostic software directly, and we do not host pirated builds, cracks or activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.</p>
+      <p data-i18n="legalText">D3 Orient lists official sources and legitimate project pages. We do not sell free diagnostic software directly, and we do not host pirated builds, cracks or activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.</p>
     </section>
 
     <section class="report-box" aria-label="Report broken link or suggest software">
@@ -1515,8 +1520,23 @@
   </main>
 
   <footer class="site-footer">
-    <div data-i18n="footerText">AutoHub - car calculators, wheel fitment and diagnostic reference tools.</div>
-  </footer>
+  <div class="site-footer-inner">
+    <div>
+      <a class="site-footer-brand" href="index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+    </div>
+    <nav class="site-footer-links" aria-label="Footer navigation">
+      <a href="oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+      <a href="wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+      <a href="about.html" data-shell-i18n="footerAbout">About</a>
+      <a href="contact.html" data-shell-i18n="footerContact">Contact</a>
+      <a href="privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+      <a href="affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+    </nav>
+  </div>
+</footer>
 
   <script src="diagnostics-data.js?v=20260623-2"></script>
   <script>
@@ -1524,7 +1544,7 @@
       en: {
         metaDescription: 'Diagnostic software for cars: OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota and universal tools.',
         tireCalculator: 'Tire Calculator', pcdDatabase: 'PCD Database', fuelCalculator: 'Fuel Cost Calculator', diagnostics: 'Diagnostics', engines: 'Engines', oilGuide: 'Oil Guide', guides: 'Guides', navAbout: 'About', navPrivacy: 'Privacy', navAffiliate: 'Affiliate Disclosure', navContact: 'Contact',
-        heroEyebrow: 'AutoHub diagnostics guide', title: 'Diagnostic software for cars',
+        heroEyebrow: 'D3 Orient diagnostics guide', title: 'Diagnostic software for cars',
         lead: 'OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota and other diagnostic tools in one practical reference. Use this page to choose the right software path before you buy a cable, install drivers or connect to a car.',
         goalLabel: 'Goal', goalText: 'Find legal diagnostic software, official sources and compatible adapter types.',
         importantLabel: 'Important', importantText: 'Compatibility depends on car year, diagnostic protocol, adapter quality and operating system.',
@@ -1532,7 +1552,7 @@
         checklistEyebrow: 'Compatibility checklist', checklistTitle: 'Check before downloading',
         checkCar: 'Car make, model and production year.', checkProtocol: 'OBD2, CAN, K-Line, KKL, J2534, ENET, DICE or other protocol.', checkCable: 'USB, Bluetooth or Wi-Fi cable type.', checkWindows: 'Windows version and driver compatibility.', checkModule: 'Whether the tool supports your exact control module.',
         downloadWarningTitle: 'Before downloading diagnostic software', downloadWarningText: 'Before downloading diagnostic software, check your car year, diagnostic protocol, cable type, Windows version and driver compatibility.',
-        finderTitle: 'Find diagnostic tools for your car', finderLead: 'Select the make, model, year and needed function. AutoHub will suggest a practical diagnostic path and compatible adapter category.',
+        finderTitle: 'Find diagnostic tools for your car', finderLead: 'Select the make, model, year and needed function. D3 Orient will suggest a practical diagnostic path and compatible adapter category.',
         finderMake: 'Make', finderModel: 'Model', finderYear: 'Year', finderTask: 'Needed function', selectMake: 'Select make', selectModel: 'Select model',
         taskAny: 'All functions', taskCodes: 'Read fault codes', taskLive: 'Live data', taskService: 'Service functions', taskCoding: 'Coding', taskFlashing: 'ECU flashing',
         finderButton: 'Find tools', finderRequest: "Can't find your car? Send a request", resultVerify: 'Always verify the exact vehicle, market, protocol and adapter compatibility before use.',
@@ -1541,14 +1561,14 @@
         task_codes: 'Fault codes', task_live: 'Live data', task_service: 'Service', task_coding: 'Coding', task_flashing: 'Flashing',
         openCatalog: 'Show in catalog', officialSource: 'Official source', bestFor: 'Best for', adapterLabel: 'Adapter', checkLabel: 'Check',
         recommendedTitle: 'Recommended diagnostic tools', catalogTitle: 'Diagnostic software catalog', catalogSummary: 'Showing all diagnostic tools.', showingAll: 'Showing all {count} diagnostic tools', showingFiltered: 'Showing {visible} of {total} tools', filterAll: 'All', comingSoon: 'Coming soon',
-        legalTitle: 'Legal and safety note', legalText: 'AutoHub lists official sources and legitimate project pages. We do not sell free diagnostic software directly, and we do not host pirated builds, cracks or activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.',
-        reportTitle: 'Report broken link or suggest software', reportText: 'Use contact.html to report broken diagnostic links, suggest useful software or send compatibility corrections.', footerText: 'AutoHub - car calculators, wheel fitment and diagnostic reference tools.',
+        legalTitle: 'Legal and safety note', legalText: 'D3 Orient lists official sources and legitimate project pages. We do not sell free diagnostic software directly, and we do not host pirated builds, cracks or activators. Coding, flashing and service functions can damage vehicle modules if used incorrectly.',
+        reportTitle: 'Report broken link or suggest software', reportText: 'Use contact.html to report broken diagnostic links, suggest useful software or send compatibility corrections.', footerText: 'D3 Orient - car calculators, wheel fitment and diagnostic reference tools.',
         searchPlaceholder: 'Search: FORScan, VCDS, Volvo VIDA, ELM327, BMW, Opel, Toyota'
       },
       es: {
         metaDescription: 'Software de diagnóstico para coches: OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota y herramientas universales.',
         tireCalculator: 'Calculadora de neumáticos', pcdDatabase: 'Base PCD', fuelCalculator: 'Calculadora de combustible', diagnostics: 'Diagnóstico', engines: 'Motores', oilGuide: 'Guía de aceite', guides: 'Guías', navAbout: 'Acerca de', navPrivacy: 'Privacidad', navAffiliate: 'Divulgación de afiliados', navContact: 'Contacto',
-        heroEyebrow: 'Guía de diagnóstico AutoHub', title: 'Software de diagnóstico para coches',
+        heroEyebrow: 'Guía de diagnóstico D3 Orient', title: 'Software de diagnóstico para coches',
         lead: 'OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota y otras herramientas en una referencia práctica.',
         goalLabel: 'Objetivo', goalText: 'Encontrar software legal, fuentes oficiales y tipos de adaptador compatibles.',
         importantLabel: 'Importante', importantText: 'La compatibilidad depende del año, protocolo, calidad del adaptador y sistema operativo.',
@@ -1556,7 +1576,7 @@
         checklistEyebrow: 'Lista de compatibilidad', checklistTitle: 'Comprobar antes de descargar',
         checkCar: 'Marca, modelo y año del coche.', checkProtocol: 'OBD2, CAN, K-Line, KKL, J2534, ENET, DICE u otro protocolo.', checkCable: 'Tipo de cable USB, Bluetooth o Wi-Fi.', checkWindows: 'Versión de Windows y drivers.', checkModule: 'Si la herramienta soporta el módulo exacto.',
         downloadWarningTitle: 'Antes de descargar software', downloadWarningText: 'Comprueba año del coche, protocolo, cable, versión de Windows y compatibilidad de drivers.',
-        finderTitle: 'Buscar herramientas para tu coche', finderLead: 'Selecciona marca, modelo, año y función. AutoHub sugerirá una ruta práctica de diagnóstico.',
+        finderTitle: 'Buscar herramientas para tu coche', finderLead: 'Selecciona marca, modelo, año y función. D3 Orient sugerirá una ruta práctica de diagnóstico.',
         finderMake: 'Marca', finderModel: 'Modelo', finderYear: 'Año', finderTask: 'Función necesaria', selectMake: 'Selecciona marca', selectModel: 'Selecciona modelo',
         taskAny: 'Todas las funciones', taskCodes: 'Leer averías', taskLive: 'Datos en vivo', taskService: 'Funciones de servicio', taskCoding: 'Codificación', taskFlashing: 'Flasheo ECU',
         finderButton: 'Buscar herramientas', finderRequest: '¿No encuentras tu coche? Envía una solicitud', resultVerify: 'Verifica siempre vehículo exacto, mercado, protocolo y adaptador antes de usar.',
@@ -1565,14 +1585,14 @@
         task_codes: 'Averías', task_live: 'Datos en vivo', task_service: 'Servicio', task_coding: 'Codificación', task_flashing: 'Flasheo',
         openCatalog: 'Ver en catálogo', officialSource: 'Fuente oficial', bestFor: 'Mejor para', adapterLabel: 'Adaptador', checkLabel: 'Comprobar',
         recommendedTitle: 'Herramientas recomendadas', catalogTitle: 'Catálogo de software de diagnóstico', catalogSummary: 'Mostrando todas las herramientas.', showingAll: 'Mostrando {count} herramientas', showingFiltered: 'Mostrando {visible} de {total} herramientas', filterAll: 'Todo', comingSoon: 'Próximamente',
-        legalTitle: 'Nota legal y de seguridad', legalText: 'AutoHub muestra fuentes oficiales y páginas legítimas. No alojamos cracks, activadores ni copias piratas.',
-        reportTitle: 'Reportar enlace roto o sugerir software', reportText: 'Usa contact.html para reportar enlaces rotos, sugerir software o enviar correcciones.', footerText: 'AutoHub - calculadoras, ajuste de ruedas y herramientas de diagnóstico.',
+        legalTitle: 'Nota legal y de seguridad', legalText: 'D3 Orient muestra fuentes oficiales y páginas legítimas. No alojamos cracks, activadores ni copias piratas.',
+        reportTitle: 'Reportar enlace roto o sugerir software', reportText: 'Usa contact.html para reportar enlaces rotos, sugerir software o enviar correcciones.', footerText: 'D3 Orient - calculadoras, ajuste de ruedas y herramientas de diagnóstico.',
         searchPlaceholder: 'Buscar: FORScan, VCDS, Volvo VIDA, ELM327, BMW, Opel, Toyota'
       },
       fr: {
         metaDescription: 'Logiciels de diagnostic automobile : OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota et outils universels.',
         tireCalculator: 'Calculateur de pneus', pcdDatabase: 'Base PCD', fuelCalculator: 'Calculateur de carburant', diagnostics: 'Diagnostic', engines: 'Moteurs', oilGuide: "Guide d'huile", guides: 'Guides', navAbout: 'À propos', navPrivacy: 'Confidentialité', navAffiliate: 'Divulgation d’affiliation', navContact: 'Contact',
-        heroEyebrow: 'Guide diagnostic AutoHub', title: 'Logiciels de diagnostic automobile',
+        heroEyebrow: 'Guide diagnostic D3 Orient', title: 'Logiciels de diagnostic automobile',
         lead: 'OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota et autres outils dans une référence pratique.',
         goalLabel: 'Objectif', goalText: 'Trouver logiciels légaux, sources officielles et types d’adaptateurs compatibles.',
         importantLabel: 'Important', importantText: 'La compatibilité dépend de l’année, du protocole, de l’adaptateur et du système.',
@@ -1580,7 +1600,7 @@
         checklistEyebrow: 'Liste de compatibilité', checklistTitle: 'À vérifier avant téléchargement',
         checkCar: 'Marque, modèle et année du véhicule.', checkProtocol: 'OBD2, CAN, K-Line, KKL, J2534, ENET, DICE ou autre protocole.', checkCable: 'Type de câble USB, Bluetooth ou Wi-Fi.', checkWindows: 'Version Windows et pilotes.', checkModule: 'Support du module exact par l’outil.',
         downloadWarningTitle: 'Avant de télécharger', downloadWarningText: 'Vérifiez année, protocole, câble, version Windows et compatibilité des pilotes.',
-        finderTitle: 'Trouver les outils pour votre voiture', finderLead: 'Sélectionnez marque, modèle, année et fonction. AutoHub suggère une voie de diagnostic pratique.',
+        finderTitle: 'Trouver les outils pour votre voiture', finderLead: 'Sélectionnez marque, modèle, année et fonction. D3 Orient suggère une voie de diagnostic pratique.',
         finderMake: 'Marque', finderModel: 'Modèle', finderYear: 'Année', finderTask: 'Fonction', selectMake: 'Choisir marque', selectModel: 'Choisir modèle',
         taskAny: 'Toutes fonctions', taskCodes: 'Lire défauts', taskLive: 'Données live', taskService: 'Service', taskCoding: 'Codage', taskFlashing: 'Flash ECU',
         finderButton: 'Trouver outils', finderRequest: 'Véhicule introuvable ? Envoyer une demande', resultVerify: 'Vérifiez toujours véhicule, marché, protocole et adaptateur exacts.',
@@ -1589,14 +1609,14 @@
         task_codes: 'Défauts', task_live: 'Live data', task_service: 'Service', task_coding: 'Codage', task_flashing: 'Flash',
         openCatalog: 'Voir dans le catalogue', officialSource: 'Source officielle', bestFor: 'Idéal pour', adapterLabel: 'Adaptateur', checkLabel: 'Vérifier',
         recommendedTitle: 'Outils recommandés', catalogTitle: 'Catalogue des logiciels de diagnostic', catalogSummary: 'Tous les outils sont affichés.', showingAll: '{count} outils affichés', showingFiltered: '{visible} sur {total} outils affichés', filterAll: 'Tout', comingSoon: 'Bientôt',
-        legalTitle: 'Note légale et sécurité', legalText: 'AutoHub liste des sources officielles et pages légitimes. Nous n’hébergeons pas de cracks, activateurs ni copies piratées.',
-        reportTitle: 'Signaler un lien ou suggérer un logiciel', reportText: 'Utilisez contact.html pour signaler un lien, suggérer un logiciel ou envoyer une correction.', footerText: 'AutoHub - calculateurs, compatibilité roues et outils diagnostic.',
+        legalTitle: 'Note légale et sécurité', legalText: 'D3 Orient liste des sources officielles et pages légitimes. Nous n’hébergeons pas de cracks, activateurs ni copies piratées.',
+        reportTitle: 'Signaler un lien ou suggérer un logiciel', reportText: 'Utilisez contact.html pour signaler un lien, suggérer un logiciel ou envoyer une correction.', footerText: 'D3 Orient - calculateurs, compatibilité roues et outils diagnostic.',
         searchPlaceholder: 'Recherche : FORScan, VCDS, Volvo VIDA, ELM327, BMW, Opel, Toyota'
       },
       de: {
         metaDescription: 'Diagnosesoftware für Autos: OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota und universelle Werkzeuge.',
         tireCalculator: 'Reifenrechner', pcdDatabase: 'PCD-Datenbank', fuelCalculator: 'Kraftstoffkostenrechner', diagnostics: 'Diagnose', engines: 'Motoren', oilGuide: 'Öl-Ratgeber', guides: 'Ratgeber', navAbout: 'Über uns', navPrivacy: 'Datenschutz', navAffiliate: 'Affiliate-Hinweis', navContact: 'Kontakt',
-        heroEyebrow: 'AutoHub Diagnose-Ratgeber', title: 'Diagnosesoftware für Autos',
+        heroEyebrow: 'D3 Orient Diagnose-Ratgeber', title: 'Diagnosesoftware für Autos',
         lead: 'OBD2, ELM327, KKL, VIDA/DICE, VAG, Volvo, BMW, Opel, Toyota und weitere Werkzeuge in einer praktischen Übersicht.',
         goalLabel: 'Ziel', goalText: 'Legale Software, offizielle Quellen und passende Adaptertypen finden.',
         importantLabel: 'Wichtig', importantText: 'Kompatibilität hängt von Baujahr, Protokoll, Adapterqualität und Betriebssystem ab.',
@@ -1604,7 +1624,7 @@
         checklistEyebrow: 'Kompatibilitätscheck', checklistTitle: 'Vor dem Download prüfen',
         checkCar: 'Marke, Modell und Baujahr.', checkProtocol: 'OBD2, CAN, K-Line, KKL, J2534, ENET, DICE oder anderes Protokoll.', checkCable: 'USB-, Bluetooth- oder Wi-Fi-Kabeltyp.', checkWindows: 'Windows-Version und Treiber.', checkModule: 'Ob das Tool das genaue Steuergerät unterstützt.',
         downloadWarningTitle: 'Vor dem Download', downloadWarningText: 'Baujahr, Diagnoseprotokoll, Kabeltyp, Windows-Version und Treiberkompatibilität prüfen.',
-        finderTitle: 'Diagnosewerkzeuge für dein Auto finden', finderLead: 'Marke, Modell, Jahr und Funktion auswählen. AutoHub schlägt einen praktischen Diagnoseweg vor.',
+        finderTitle: 'Diagnosewerkzeuge für dein Auto finden', finderLead: 'Marke, Modell, Jahr und Funktion auswählen. D3 Orient schlägt einen praktischen Diagnoseweg vor.',
         finderMake: 'Marke', finderModel: 'Modell', finderYear: 'Baujahr', finderTask: 'Funktion', selectMake: 'Marke wählen', selectModel: 'Modell wählen',
         taskAny: 'Alle Funktionen', taskCodes: 'Fehlercodes lesen', taskLive: 'Live-Daten', taskService: 'Servicefunktionen', taskCoding: 'Codierung', taskFlashing: 'ECU-Flash',
         finderButton: 'Werkzeuge finden', finderRequest: 'Auto nicht gefunden? Anfrage senden', resultVerify: 'Exaktes Fahrzeug, Markt, Protokoll und Adapter immer prüfen.',
@@ -1613,8 +1633,8 @@
         task_codes: 'Fehlercodes', task_live: 'Live-Daten', task_service: 'Service', task_coding: 'Codierung', task_flashing: 'Flashen',
         openCatalog: 'Im Katalog zeigen', officialSource: 'Offizielle Quelle', bestFor: 'Geeignet für', adapterLabel: 'Adapter', checkLabel: 'Prüfen',
         recommendedTitle: 'Empfohlene Diagnosewerkzeuge', catalogTitle: 'Katalog der Diagnosesoftware', catalogSummary: 'Alle Diagnosewerkzeuge werden angezeigt.', showingAll: '{count} Diagnosewerkzeuge', showingFiltered: '{visible} von {total} Werkzeugen', filterAll: 'Alle', comingSoon: 'Demnächst',
-        legalTitle: 'Rechtlicher und Sicherheits-Hinweis', legalText: 'AutoHub listet offizielle Quellen und legitime Projektseiten. Wir hosten keine Cracks, Aktivatoren oder Raubkopien.',
-        reportTitle: 'Defekten Link melden oder Software vorschlagen', reportText: 'Nutze contact.html, um Links zu melden, Software vorzuschlagen oder Korrekturen zu senden.', footerText: 'AutoHub - Rechner, Felgen/Reifen-Daten und Diagnosewerkzeuge.',
+        legalTitle: 'Rechtlicher und Sicherheits-Hinweis', legalText: 'D3 Orient listet offizielle Quellen und legitime Projektseiten. Wir hosten keine Cracks, Aktivatoren oder Raubkopien.',
+        reportTitle: 'Defekten Link melden oder Software vorschlagen', reportText: 'Nutze contact.html, um Links zu melden, Software vorzuschlagen oder Korrekturen zu senden.', footerText: 'D3 Orient - Rechner, Felgen/Reifen-Daten und Diagnosewerkzeuge.',
         searchPlaceholder: 'Suche: FORScan, VCDS, Volvo VIDA, ELM327, BMW, Opel, Toyota'
       }
     };
@@ -1784,7 +1804,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `AutoHub - ${t('title')}`;
+      document.title = `D3 Orient - ${t('title')}`;
       document.querySelector('meta[name="description"]').setAttribute('content', t('metaDescription'));
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);

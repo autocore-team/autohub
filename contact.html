@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact AutoHub | Suggestions, Corrections and Broken Links</title>
-  <meta name="description" content="Contact AutoHub to report broken links, suggest diagnostic software, correct vehicle data or send cooperation requests.">
+  <title>Contact D3 Orient | Suggestions, Corrections and Broken Links</title>
+  <meta name="description" content="Contact D3 Orient to report broken links, suggest diagnostic software, correct vehicle data or send cooperation requests.">
   <style>
     :root {
       color-scheme: light;
@@ -160,40 +160,47 @@
       .langbar { margin-left: 0; }
     }
   </style>
+  <link rel="stylesheet" href="assets/css/site-shell.css">
+  <script src="assets/js/site-shell.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <nav class="nav" aria-label="Autohub common menu">
-      <div class="brand">Autohub</div>
-      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
-      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
-      <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
-      <a href="guides.html" data-i18n="guides">Guides</a>
-      <a href="about.html" data-i18n="navAbout">About</a>
-      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-      <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
-      <a href="contact.html" class="active" data-i18n="navContact">Contact</a>
-      <div class="langbar" aria-label="Language">
+  <header class="site-header">
+  <div class="site-nav">
+    <a class="site-brand" href="index.html" aria-label="D3 Orient home">
+      <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+    </a>
+    <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+      <span data-shell-i18n="menu">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu">
+      <nav class="site-primary-nav" aria-label="Primary navigation">
+        <a href="index.html" data-shell-i18n="navHome">Home</a>
+        <a href="tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+        <a href="pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+        <a href="fuel.html" data-shell-i18n="navFuel">Fuel Cost</a>
+        <a href="diagnostics.html" data-shell-i18n="navDiagnostics">Diagnostics</a>
+        <a href="engines.html" data-shell-i18n="navEngines">Engine Database</a>
+        <a href="guides.html" data-shell-i18n="navGuides">Guides</a>
+      </nav>
+      <div class="site-language-switcher" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
         <button type="button" data-lang="es">ES</button>
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="de">DE</button>
       </div>
-    </nav>
-  </header>
+    </div>
+  </div>
+</header>
 
   <main>
-    <h1 data-i18n="title">Contact AutoHub</h1>
+    <h1 data-i18n="title">Contact D3 Orient</h1>
     <p class="lead" data-i18n="lead">Suggestions, corrections, broken links and cooperation requests.</p>
 
     <section class="grid">
       <article class="panel">
         <h2 data-i18n="getInTouchTitle">Get in touch</h2>
         <div class="panel-body">
-          <p data-i18n="getInTouchText">AutoHub is a growing automotive project. Contact us if you find incorrect data, a broken diagnostic software link or want to suggest a useful tool.</p>
+          <p data-i18n="getInTouchText">D3 Orient is a growing automotive project. Contact us if you find incorrect data, a broken diagnostic software link or want to suggest a useful tool.</p>
           <div class="email-box">
             <strong data-i18n="emailLabel">Email:</strong>
             <a href="mailto:autocore.team@gmail.com">autocore.team@gmail.com</a>
@@ -209,7 +216,7 @@
             <li data-i18n="sendBroken">Report a broken link.</li>
             <li data-i18n="sendSoftware">Suggest diagnostic software or tools.</li>
             <li data-i18n="sendCorrection">Send corrections for vehicle, tire, wheel or engine data.</li>
-            <li data-i18n="sendFeature">Suggest new features for AutoHub.</li>
+            <li data-i18n="sendFeature">Suggest new features for D3 Orient.</li>
             <li data-i18n="sendPartnership">Contact us about cooperation or partnerships.</li>
           </ul>
         </div>
@@ -218,13 +225,30 @@
       <article class="panel wide">
         <h2 data-i18n="importantTitle">Important note</h2>
         <div class="panel-body">
-          <p data-i18n="importantText">AutoHub provides automotive calculators, guides and reference information. Always verify technical data with your vehicle manual, official manufacturer documentation or a qualified mechanic before buying parts or performing repairs.</p>
+          <p data-i18n="importantText">D3 Orient provides automotive calculators, guides and reference information. Always verify technical data with your vehicle manual, official manufacturer documentation or a qualified mechanic before buying parts or performing repairs.</p>
         </div>
       </article>
     </section>
   </main>
 
-  <footer data-i18n="footerText">© 2026 AutoHub. Practical automotive tools and guides.</footer>
+  <footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <a class="site-footer-brand" href="index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+    </div>
+    <nav class="site-footer-links" aria-label="Footer navigation">
+      <a href="oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+      <a href="wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+      <a href="about.html" data-shell-i18n="footerAbout">About</a>
+      <a href="contact.html" data-shell-i18n="footerContact">Contact</a>
+      <a href="privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+      <a href="affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+    </nav>
+  </div>
+</footer>
 
   <script>
     const translations = {
@@ -240,21 +264,21 @@
         navPrivacy: 'Privacy',
         navAffiliate: 'Affiliate Disclosure',
         navContact: 'Contact',
-        title: 'Contact AutoHub',
+        title: 'Contact D3 Orient',
         lead: 'Suggestions, corrections, broken links and cooperation requests.',
         getInTouchTitle: 'Get in touch',
-        getInTouchText: 'AutoHub is a growing automotive project. Contact us if you find incorrect data, a broken diagnostic software link or want to suggest a useful tool.',
+        getInTouchText: 'D3 Orient is a growing automotive project. Contact us if you find incorrect data, a broken diagnostic software link or want to suggest a useful tool.',
         emailLabel: 'Email:',
         emailNote: 'Please include the page URL and relevant vehicle model or year when reporting a problem.',
         sendTitle: 'What you can send',
         sendBroken: 'Report a broken link.',
         sendSoftware: 'Suggest diagnostic software or tools.',
         sendCorrection: 'Send corrections for vehicle, tire, wheel or engine data.',
-        sendFeature: 'Suggest new features for AutoHub.',
+        sendFeature: 'Suggest new features for D3 Orient.',
         sendPartnership: 'Contact us about cooperation or partnerships.',
         importantTitle: 'Important note',
-        importantText: 'AutoHub provides automotive calculators, guides and reference information. Always verify technical data with your vehicle manual, official manufacturer documentation or a qualified mechanic before buying parts or performing repairs.',
-        footerText: '© 2026 AutoHub. Practical automotive tools and guides.'
+        importantText: 'D3 Orient provides automotive calculators, guides and reference information. Always verify technical data with your vehicle manual, official manufacturer documentation or a qualified mechanic before buying parts or performing repairs.',
+        footerText: '© 2026 D3 Orient. Practical automotive tools and guides.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
@@ -268,21 +292,21 @@
         navPrivacy: 'Privacidad',
         navAffiliate: 'Divulgación de afiliados',
         navContact: 'Contacto',
-        title: 'Contactar con AutoHub',
+        title: 'Contactar con D3 Orient',
         lead: 'Sugerencias, correcciones, enlaces rotos y propuestas de colaboración.',
         getInTouchTitle: 'Ponte en contacto',
-        getInTouchText: 'AutoHub es un proyecto automovilístico en crecimiento. Escríbenos si encuentras datos incorrectos, un enlace de diagnóstico roto o quieres sugerir una herramienta útil.',
+        getInTouchText: 'D3 Orient es un proyecto automovilístico en crecimiento. Escríbenos si encuentras datos incorrectos, un enlace de diagnóstico roto o quieres sugerir una herramienta útil.',
         emailLabel: 'Correo:',
         emailNote: 'Incluye la URL de la página y el modelo o año del vehículo al informar de un problema.',
         sendTitle: 'Qué puedes enviar',
         sendBroken: 'Informar de un enlace roto.',
         sendSoftware: 'Sugerir software o herramientas de diagnóstico.',
         sendCorrection: 'Enviar correcciones de datos de vehículos, neumáticos, llantas o motores.',
-        sendFeature: 'Sugerir nuevas funciones para AutoHub.',
+        sendFeature: 'Sugerir nuevas funciones para D3 Orient.',
         sendPartnership: 'Contactar sobre cooperación o colaboraciones.',
         importantTitle: 'Nota importante',
-        importantText: 'AutoHub ofrece calculadoras, guías e información de referencia. Verifica siempre los datos técnicos con el manual del vehículo, la documentación oficial del fabricante o un mecánico cualificado antes de comprar piezas o realizar reparaciones.',
-        footerText: '© 2026 AutoHub. Herramientas y guías prácticas para automóviles.'
+        importantText: 'D3 Orient ofrece calculadoras, guías e información de referencia. Verifica siempre los datos técnicos con el manual del vehículo, la documentación oficial del fabricante o un mecánico cualificado antes de comprar piezas o realizar reparaciones.',
+        footerText: '© 2026 D3 Orient. Herramientas y guías prácticas para automóviles.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
@@ -296,21 +320,21 @@
         navPrivacy: 'Confidentialité',
         navAffiliate: 'Divulgation d’affiliation',
         navContact: 'Contact',
-        title: 'Contacter AutoHub',
+        title: 'Contacter D3 Orient',
         lead: 'Suggestions, corrections, liens cassés et demandes de coopération.',
         getInTouchTitle: 'Nous contacter',
-        getInTouchText: 'AutoHub est un projet automobile en développement. Contactez-nous si vous trouvez une donnée incorrecte, un lien de diagnostic cassé ou souhaitez proposer un outil utile.',
+        getInTouchText: 'D3 Orient est un projet automobile en développement. Contactez-nous si vous trouvez une donnée incorrecte, un lien de diagnostic cassé ou souhaitez proposer un outil utile.',
         emailLabel: 'E-mail :',
         emailNote: 'Indiquez l’URL de la page ainsi que le modèle ou l’année du véhicule lors du signalement.',
         sendTitle: 'Ce que vous pouvez envoyer',
         sendBroken: 'Signaler un lien cassé.',
         sendSoftware: 'Proposer un logiciel ou un outil de diagnostic.',
         sendCorrection: 'Envoyer des corrections concernant les véhicules, pneus, jantes ou moteurs.',
-        sendFeature: 'Proposer de nouvelles fonctions pour AutoHub.',
+        sendFeature: 'Proposer de nouvelles fonctions pour D3 Orient.',
         sendPartnership: 'Nous contacter pour une coopération ou un partenariat.',
         importantTitle: 'Remarque importante',
-        importantText: 'AutoHub fournit des calculateurs, des guides et des informations de référence. Vérifiez toujours les données techniques dans le manuel du véhicule, la documentation officielle du constructeur ou auprès d’un mécanicien qualifié avant tout achat ou réparation.',
-        footerText: '© 2026 AutoHub. Outils et guides automobiles pratiques.'
+        importantText: 'D3 Orient fournit des calculateurs, des guides et des informations de référence. Vérifiez toujours les données techniques dans le manuel du véhicule, la documentation officielle du constructeur ou auprès d’un mécanicien qualifié avant tout achat ou réparation.',
+        footerText: '© 2026 D3 Orient. Outils et guides automobiles pratiques.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
@@ -324,21 +348,21 @@
         navPrivacy: 'Datenschutz',
         navAffiliate: 'Affiliate-Hinweis',
         navContact: 'Kontakt',
-        title: 'AutoHub kontaktieren',
+        title: 'D3 Orient kontaktieren',
         lead: 'Vorschläge, Korrekturen, defekte Links und Kooperationsanfragen.',
         getInTouchTitle: 'Kontakt aufnehmen',
-        getInTouchText: 'AutoHub ist ein wachsendes Automobilprojekt. Schreiben Sie uns bei falschen Daten, einem defekten Diagnose-Link oder einem Vorschlag für ein nützliches Werkzeug.',
+        getInTouchText: 'D3 Orient ist ein wachsendes Automobilprojekt. Schreiben Sie uns bei falschen Daten, einem defekten Diagnose-Link oder einem Vorschlag für ein nützliches Werkzeug.',
         emailLabel: 'E-Mail:',
         emailNote: 'Bitte geben Sie bei einer Meldung die Seiten-URL sowie Fahrzeugmodell oder Baujahr an.',
         sendTitle: 'Was Sie senden können',
         sendBroken: 'Einen defekten Link melden.',
         sendSoftware: 'Diagnosesoftware oder Werkzeuge vorschlagen.',
         sendCorrection: 'Korrekturen zu Fahrzeug-, Reifen-, Felgen- oder Motordaten senden.',
-        sendFeature: 'Neue Funktionen für AutoHub vorschlagen.',
+        sendFeature: 'Neue Funktionen für D3 Orient vorschlagen.',
         sendPartnership: 'Kontakt zu Kooperationen oder Partnerschaften aufnehmen.',
         importantTitle: 'Wichtiger Hinweis',
-        importantText: 'AutoHub bietet Fahrzeugrechner, Ratgeber und Referenzinformationen. Prüfen Sie technische Daten vor dem Kauf von Teilen oder Reparaturen immer im Fahrzeughandbuch, in offiziellen Herstellerunterlagen oder bei einer qualifizierten Werkstatt.',
-        footerText: '© 2026 AutoHub. Praktische Fahrzeugwerkzeuge und Ratgeber.'
+        importantText: 'D3 Orient bietet Fahrzeugrechner, Ratgeber und Referenzinformationen. Prüfen Sie technische Daten vor dem Kauf von Teilen oder Reparaturen immer im Fahrzeughandbuch, in offiziellen Herstellerunterlagen oder bei einer qualifizierten Werkstatt.',
+        footerText: '© 2026 D3 Orient. Praktische Fahrzeugwerkzeuge und Ratgeber.'
       }
     };
 
@@ -351,7 +375,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = t('title') + ' | AutoHub';
+      document.title = t('title') + ' | D3 Orient';
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });

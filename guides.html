@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Practical automotive guides for wheel fitment, diagnostics, engine codes, oil approvals, used-car checks and fuel costs.">
   <link rel="canonical" href="https://autocore-team.github.io/autohub/guides.html">
-  <title>AutoHub Automotive Guides & How-To Library</title>
+  <title>D3 Orient Automotive Guides & How-To Library</title>
   <style>
     :root {
       color-scheme: light;
@@ -385,34 +385,41 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/css/site-shell.css">
+  <script src="assets/js/site-shell.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <nav class="nav" aria-label="AutoHub common menu">
-      <div class="brand">AutoHub</div>
-      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
-      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
-      <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
-      <a href="guides.html" class="active" data-i18n="guides">Guides</a>
-      <a href="about.html" data-i18n="navAbout">About</a>
-      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-      <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
-      <a href="contact.html" data-i18n="navContact">Contact</a>
-      <div class="langbar" aria-label="Language">
+  <header class="site-header">
+  <div class="site-nav">
+    <a class="site-brand" href="index.html" aria-label="D3 Orient home">
+      <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+    </a>
+    <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+      <span data-shell-i18n="menu">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu">
+      <nav class="site-primary-nav" aria-label="Primary navigation">
+        <a href="index.html" data-shell-i18n="navHome">Home</a>
+        <a href="tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+        <a href="pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+        <a href="fuel.html" data-shell-i18n="navFuel">Fuel Cost</a>
+        <a href="diagnostics.html" data-shell-i18n="navDiagnostics">Diagnostics</a>
+        <a href="engines.html" data-shell-i18n="navEngines">Engine Database</a>
+        <a href="guides.html" data-shell-i18n="navGuides" class="active" aria-current="page">Guides</a>
+      </nav>
+      <div class="site-language-switcher" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
         <button type="button" data-lang="es">ES</button>
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="de">DE</button>
       </div>
-    </nav>
-  </header>
+    </div>
+  </div>
+</header>
 
   <main>
     <h1 data-i18n="title">Automotive Guides & How-To Library</h1>
-    <p class="lead" data-i18n="lead">Practical step-by-step guides connected to AutoHub calculators and databases. Find the answer, then open the right tool.</p>
+    <p class="lead" data-i18n="lead">Practical step-by-step guides connected to D3 Orient calculators and databases. Find the answer, then open the right tool.</p>
 
     <section class="panel" aria-labelledby="searchTitle">
       <div class="panel-heading">
@@ -449,7 +456,7 @@
     <section class="panel" aria-labelledby="libraryTitle">
       <div class="panel-heading">
         <h2 id="libraryTitle" data-i18n="libraryTitle">Guide library</h2>
-        <p data-i18n="libraryLead">Choose a guide to open its checklist and related AutoHub tools.</p>
+        <p data-i18n="libraryLead">Choose a guide to open its checklist and related D3 Orient tools.</p>
       </div>
       <div class="panel-body">
         <div class="guide-grid" id="guideCards"></div>
@@ -468,10 +475,10 @@
         metaDescription: 'Practical automotive guides for wheel fitment, diagnostics, engine codes, oil approvals, used-car checks and fuel costs.',
         tireCalculator: 'Tire Calculator', pcdDatabase: 'PCD Database', fuel: 'Fuel Cost Calculator', diagnostics: 'Diagnostics', engines: 'Engines', oilGuide: 'Oil Guide', guides: 'Guides', navAbout: 'About', navPrivacy: 'Privacy', navAffiliate: 'Affiliate Disclosure', navContact: 'Contact',
         title: 'Automotive Guides & How-To Library',
-        lead: 'Practical step-by-step guides connected to AutoHub calculators and databases. Find the answer, then open the right tool.',
+        lead: 'Practical step-by-step guides connected to D3 Orient calculators and databases. Find the answer, then open the right tool.',
         searchTitle: 'Find a practical guide', searchLead: 'Search by problem, component or task.', searchPlaceholder: 'Wheel offset, OBD2, engine code, oil approval, fuel cost', clearSearch: 'Clear',
         categoryAll: 'All', categoryWheels: 'Wheels & Tires', categoryDiagnostics: 'Diagnostics', categoryEngines: 'Engines', categoryOil: 'Motor Oil', categoryBuying: 'Buying a Car', categoryFuel: 'Fuel Costs',
-        popularTitle: 'Popular practical guides', libraryTitle: 'Guide library', libraryLead: 'Choose a guide to open its checklist and related AutoHub tools.',
+        popularTitle: 'Popular practical guides', libraryTitle: 'Guide library', libraryLead: 'Choose a guide to open its checklist and related D3 Orient tools.',
         summary: '{count} practical guides shown.', emptyState: 'No guides match this search.', openGuide: 'Open guide', stepsTitle: 'Step-by-step checklist', checkTitle: 'Important check',
         disclaimer: 'These guides provide general reference information. Vehicle year, market, engine, trim, modifications and local regulations can change the correct procedure. Verify safety-critical work with official documentation or a qualified professional.',
         toolTire: 'Open Tire Calculator', toolPcd: 'Open PCD Database', toolDiagnostics: 'Open Diagnostics', toolEngines: 'Search Engines', toolOil: 'Open Oil Guide', toolFuel: 'Open Fuel Calculator', toolFullWheel: 'Full wheel fitment guide', toolContact: 'Report or suggest a guide'
@@ -480,7 +487,7 @@
         metaDescription: 'Guías prácticas sobre llantas, diagnóstico, códigos de motor, homologaciones de aceite, compra de usados y combustible.',
         tireCalculator: 'Calculadora de neumáticos', pcdDatabase: 'Base PCD', fuel: 'Calculadora de combustible', diagnostics: 'Diagnóstico', engines: 'Motores', oilGuide: 'Guía de aceite', guides: 'Guías', navAbout: 'Acerca de', navPrivacy: 'Privacidad', navAffiliate: 'Divulgación de afiliados', navContact: 'Contacto',
         title: 'Biblioteca de guías prácticas del automóvil',
-        lead: 'Guías paso a paso conectadas con las calculadoras y bases de AutoHub. Encuentra la respuesta y abre la herramienta correcta.',
+        lead: 'Guías paso a paso conectadas con las calculadoras y bases de D3 Orient. Encuentra la respuesta y abre la herramienta correcta.',
         searchTitle: 'Buscar una guía práctica', searchLead: 'Busca por problema, componente o tarea.', searchPlaceholder: 'ET de llanta, OBD2, código de motor, homologación de aceite, combustible', clearSearch: 'Limpiar',
         categoryAll: 'Todo', categoryWheels: 'Llantas y neumáticos', categoryDiagnostics: 'Diagnóstico', categoryEngines: 'Motores', categoryOil: 'Aceite de motor', categoryBuying: 'Comprar un coche', categoryFuel: 'Coste de combustible',
         popularTitle: 'Guías prácticas populares', libraryTitle: 'Biblioteca de guías', libraryLead: 'Elige una guía para abrir su lista y las herramientas relacionadas.',
@@ -492,7 +499,7 @@
         metaDescription: 'Guides pratiques sur jantes, diagnostic, codes moteur, homologations d’huile, achat occasion et carburant.',
         tireCalculator: 'Calculateur de pneus', pcdDatabase: 'Base PCD', fuel: 'Calculateur de carburant', diagnostics: 'Diagnostic', engines: 'Moteurs', oilGuide: "Guide d'huile", guides: 'Guides', navAbout: 'À propos', navPrivacy: 'Confidentialité', navAffiliate: 'Divulgation d’affiliation', navContact: 'Contact',
         title: 'Bibliothèque de guides automobiles pratiques',
-        lead: 'Guides pas à pas reliés aux calculateurs et bases AutoHub. Trouvez la réponse puis ouvrez le bon outil.',
+        lead: 'Guides pas à pas reliés aux calculateurs et bases D3 Orient. Trouvez la réponse puis ouvrez le bon outil.',
         searchTitle: 'Trouver un guide pratique', searchLead: 'Recherchez par problème, composant ou tâche.', searchPlaceholder: 'Déport, OBD2, code moteur, homologation huile, carburant', clearSearch: 'Effacer',
         categoryAll: 'Tout', categoryWheels: 'Jantes et pneus', categoryDiagnostics: 'Diagnostic', categoryEngines: 'Moteurs', categoryOil: 'Huile moteur', categoryBuying: 'Acheter une voiture', categoryFuel: 'Coût carburant',
         popularTitle: 'Guides pratiques populaires', libraryTitle: 'Bibliothèque de guides', libraryLead: 'Choisissez un guide pour ouvrir sa checklist et les outils associés.',
@@ -504,10 +511,10 @@
         metaDescription: 'Praktische Auto-Ratgeber zu Felgen, Diagnose, Motorcodes, Ölfreigaben, Gebrauchtwagen und Kraftstoffkosten.',
         tireCalculator: 'Reifenrechner', pcdDatabase: 'PCD-Datenbank', fuel: 'Kraftstoffkosten-Rechner', diagnostics: 'Diagnose', engines: 'Motoren', oilGuide: 'Öl-Ratgeber', guides: 'Ratgeber', navAbout: 'Über uns', navPrivacy: 'Datenschutz', navAffiliate: 'Affiliate-Hinweis', navContact: 'Kontakt',
         title: 'Praktische Auto-Ratgeber und Anleitungen',
-        lead: 'Schrittweise Ratgeber, verbunden mit AutoHub-Rechnern und Datenbanken. Antwort finden und direkt das passende Werkzeug öffnen.',
+        lead: 'Schrittweise Ratgeber, verbunden mit D3 Orient-Rechnern und Datenbanken. Antwort finden und direkt das passende Werkzeug öffnen.',
         searchTitle: 'Praktischen Ratgeber finden', searchLead: 'Nach Problem, Bauteil oder Aufgabe suchen.', searchPlaceholder: 'Felgen-ET, OBD2, Motorcode, Ölfreigabe, Kraftstoffkosten', clearSearch: 'Löschen',
         categoryAll: 'Alle', categoryWheels: 'Felgen und Reifen', categoryDiagnostics: 'Diagnose', categoryEngines: 'Motoren', categoryOil: 'Motoröl', categoryBuying: 'Autokauf', categoryFuel: 'Kraftstoffkosten',
-        popularTitle: 'Beliebte praktische Ratgeber', libraryTitle: 'Ratgeber-Bibliothek', libraryLead: 'Ratgeber auswählen und Checkliste sowie passende AutoHub-Werkzeuge öffnen.',
+        popularTitle: 'Beliebte praktische Ratgeber', libraryTitle: 'Ratgeber-Bibliothek', libraryLead: 'Ratgeber auswählen und Checkliste sowie passende D3 Orient-Werkzeuge öffnen.',
         summary: '{count} praktische Ratgeber angezeigt.', emptyState: 'Keine Ratgeber passen zu dieser Suche.', openGuide: 'Ratgeber öffnen', stepsTitle: 'Schrittweise Checkliste', checkTitle: 'Wichtige Prüfung',
         disclaimer: 'Diese Ratgeber bieten allgemeine Informationen. Baujahr, Markt, Motor, Ausstattung, Änderungen und lokale Regeln können den richtigen Ablauf ändern. Sicherheitskritische Arbeiten mit Herstellerunterlagen oder einem Fachbetrieb prüfen.',
         toolTire: 'Reifenrechner öffnen', toolPcd: 'PCD-Datenbank öffnen', toolDiagnostics: 'Diagnose öffnen', toolEngines: 'Motoren suchen', toolOil: 'Öl-Ratgeber öffnen', toolFuel: 'Kraftstoffrechner öffnen', toolFullWheel: 'Vollständiger Felgenratgeber', toolContact: 'Ratgeber melden oder vorschlagen'
@@ -517,7 +524,7 @@
     const guideData = [
       {
         id: 'wheel-fitment', category: 'wheels', search: 'wheel fitment pcd bolt pattern center bore offset et rim width tire spacer brakes suspension',
-        tools: [['pcd.html', 'toolPcd', true], ['index.html', 'toolTire', false], ['wheel-fitment-basics.html', 'toolFullWheel', false]],
+        tools: [['pcd.html', 'toolPcd', true], ['tire-calculator.html', 'toolTire', false], ['wheel-fitment-basics.html', 'toolFullWheel', false]],
         content: {
           en: { title: 'Check wheel fitment before buying', description: 'A complete order for checking PCD, center bore, ET, rim width, fasteners and physical clearance.', intro: 'A wheel can share the same diameter and still be unsafe or impossible to mount. Check every interface in the correct order.', steps: ['Match the PCD and number of bolts or studs exactly.', 'Confirm center bore and use only correct hub-centric rings when the wheel bore is larger.', 'Compare rim width and ET to calculate inner clearance and outer poke.', 'Confirm thread size, bolt or nut seat type and required fastener length.', 'Check brake caliper, suspension, tire-to-fender and full-steering clearance on the vehicle.'], check: 'Stop if PCD, fastener seat or brake clearance is unknown. Spacers and adapters do not automatically make an unknown setup safe.' },
           es: { title: 'Comprobar llantas antes de comprar', description: 'Orden completo para revisar PCD, buje, ET, ancho, fijaciones y espacio físico.', intro: 'Una llanta puede tener el mismo diámetro y aun así no ser segura o no poder montarse. Comprueba cada punto en orden.', steps: ['Iguala exactamente PCD y número de tornillos o espárragos.', 'Confirma el buje central y usa solo anillos correctos si la llanta tiene un agujero mayor.', 'Compara ancho y ET para calcular espacio interior y salida exterior.', 'Confirma rosca, tipo de asiento y longitud necesaria de tornillos o tuercas.', 'Comprueba pinza de freno, suspensión, aleta y giro completo directamente en el vehículo.'], check: 'Detente si desconoces PCD, asiento o espacio de frenos. Separadores y adaptadores no convierten automáticamente una combinación desconocida en segura.' },
@@ -539,10 +546,10 @@
         id: 'engine-code', category: 'engines', search: 'engine code number serial vin sticker block family suffix identify search motor code',
         tools: [['engines.html', 'toolEngines', true], ['contact.html', 'toolContact', false]],
         content: {
-          en: { title: 'Find and verify an engine code', description: 'Distinguish the engine family code from the individual serial number and verify the exact suffix.', intro: 'The engine code identifies construction and version. The serial number usually identifies one individual engine and is not enough for catalog search.', steps: ['Check the owner documentation, vehicle data label and manufacturer service information.', 'Inspect the engine label or stamped area only when its location is known for that model.', 'Record the complete code including suffix, generation and displacement.', 'Compare model year, market, power output and emissions system.', 'Search the code in AutoHub, then verify by VIN or official documentation before buying parts.'], check: 'Similar family names can hide different timing systems, injection, emissions equipment and oil requirements. Do not stop at a partial code.' },
-          es: { title: 'Encontrar y verificar el código de motor', description: 'Distingue el código de familia del número de serie individual y confirma el sufijo.', intro: 'El código identifica construcción y versión. El número de serie suele identificar un motor individual y no basta para buscar en catálogo.', steps: ['Revisa documentación, etiqueta de datos e información oficial de servicio.', 'Busca etiqueta o estampado del motor solo cuando conozcas su ubicación en ese modelo.', 'Anota el código completo con sufijo, generación y cilindrada.', 'Compara año, mercado, potencia y sistema de emisiones.', 'Busca el código en AutoHub y confirma por VIN o documentación antes de comprar piezas.'], check: 'Familias parecidas pueden tener distribución, inyección, emisiones y aceite diferentes. No te quedes con un código parcial.' },
-          fr: { title: 'Trouver et vérifier un code moteur', description: 'Distinguer le code famille du numéro de série individuel et confirmer le suffixe exact.', intro: 'Le code identifie construction et version. Le numéro de série identifie généralement un moteur individuel et ne suffit pas pour le catalogue.', steps: ['Consulter documents, étiquette véhicule et informations service constructeur.', 'Inspecter étiquette ou frappe moteur seulement si son emplacement est connu pour ce modèle.', 'Noter le code complet avec suffixe, génération et cylindrée.', 'Comparer année, marché, puissance et dépollution.', 'Rechercher dans AutoHub puis confirmer par VIN ou document officiel avant achat de pièces.'], check: 'Des familles proches peuvent cacher distribution, injection, dépollution et huile différentes. Ne vous arrêtez pas à un code partiel.' },
-          de: { title: 'Motorcode finden und bestätigen', description: 'Familiencode von individueller Seriennummer unterscheiden und das genaue Suffix prüfen.', intro: 'Der Motorcode beschreibt Bauart und Version. Die Seriennummer bezeichnet meist einen einzelnen Motor und reicht für die Katalogsuche nicht.', steps: ['Fahrzeugunterlagen, Datenträger und Hersteller-Serviceinformationen prüfen.', 'Motoraufkleber oder Einschlagstelle nur suchen, wenn deren Lage für das Modell bekannt ist.', 'Vollständigen Code mit Suffix, Generation und Hubraum notieren.', 'Baujahr, Markt, Leistung und Abgassystem vergleichen.', 'Code in AutoHub suchen und vor Teilekauf per VIN oder Herstellerunterlagen bestätigen.'], check: 'Ähnliche Familiennamen können andere Steuerung, Einspritzung, Abgastechnik und Ölvorgaben haben. Ein Teilcode reicht nicht.' }
+          en: { title: 'Find and verify an engine code', description: 'Distinguish the engine family code from the individual serial number and verify the exact suffix.', intro: 'The engine code identifies construction and version. The serial number usually identifies one individual engine and is not enough for catalog search.', steps: ['Check the owner documentation, vehicle data label and manufacturer service information.', 'Inspect the engine label or stamped area only when its location is known for that model.', 'Record the complete code including suffix, generation and displacement.', 'Compare model year, market, power output and emissions system.', 'Search the code in D3 Orient, then verify by VIN or official documentation before buying parts.'], check: 'Similar family names can hide different timing systems, injection, emissions equipment and oil requirements. Do not stop at a partial code.' },
+          es: { title: 'Encontrar y verificar el código de motor', description: 'Distingue el código de familia del número de serie individual y confirma el sufijo.', intro: 'El código identifica construcción y versión. El número de serie suele identificar un motor individual y no basta para buscar en catálogo.', steps: ['Revisa documentación, etiqueta de datos e información oficial de servicio.', 'Busca etiqueta o estampado del motor solo cuando conozcas su ubicación en ese modelo.', 'Anota el código completo con sufijo, generación y cilindrada.', 'Compara año, mercado, potencia y sistema de emisiones.', 'Busca el código en D3 Orient y confirma por VIN o documentación antes de comprar piezas.'], check: 'Familias parecidas pueden tener distribución, inyección, emisiones y aceite diferentes. No te quedes con un código parcial.' },
+          fr: { title: 'Trouver et vérifier un code moteur', description: 'Distinguer le code famille du numéro de série individuel et confirmer le suffixe exact.', intro: 'Le code identifie construction et version. Le numéro de série identifie généralement un moteur individuel et ne suffit pas pour le catalogue.', steps: ['Consulter documents, étiquette véhicule et informations service constructeur.', 'Inspecter étiquette ou frappe moteur seulement si son emplacement est connu pour ce modèle.', 'Noter le code complet avec suffixe, génération et cylindrée.', 'Comparer année, marché, puissance et dépollution.', 'Rechercher dans D3 Orient puis confirmer par VIN ou document officiel avant achat de pièces.'], check: 'Des familles proches peuvent cacher distribution, injection, dépollution et huile différentes. Ne vous arrêtez pas à un code partiel.' },
+          de: { title: 'Motorcode finden und bestätigen', description: 'Familiencode von individueller Seriennummer unterscheiden und das genaue Suffix prüfen.', intro: 'Der Motorcode beschreibt Bauart und Version. Die Seriennummer bezeichnet meist einen einzelnen Motor und reicht für die Katalogsuche nicht.', steps: ['Fahrzeugunterlagen, Datenträger und Hersteller-Serviceinformationen prüfen.', 'Motoraufkleber oder Einschlagstelle nur suchen, wenn deren Lage für das Modell bekannt ist.', 'Vollständigen Code mit Suffix, Generation und Hubraum notieren.', 'Baujahr, Markt, Leistung und Abgassystem vergleichen.', 'Code in D3 Orient suchen und vor Teilekauf per VIN oder Herstellerunterlagen bestätigen.'], check: 'Ähnliche Familiennamen können andere Steuerung, Einspritzung, Abgastechnik und Ölvorgaben haben. Ein Teilcode reicht nicht.' }
         }
       },
       {
@@ -567,7 +574,7 @@
       },
       {
         id: 'real-fuel-cost', category: 'fuel', search: 'fuel consumption real cost trip monthly annual commute petrol diesel compare tank to tank',
-        tools: [['fuel.html', 'toolFuel', true], ['index.html', 'toolTire', false]],
+        tools: [['fuel.html', 'toolFuel', true], ['tire-calculator.html', 'toolTire', false]],
         content: {
           en: { title: 'Calculate real fuel cost', description: 'Build a realistic trip, monthly or annual fuel budget instead of relying only on brochure figures.', intro: 'Real consumption changes with route, weather, traffic, tires, load and driving style. Use your own measured baseline when possible.', steps: ['Choose the distance and period: trip, daily commute, month or year.', 'Measure consumption tank-to-tank over several normal refills.', 'Enter the actual local fuel price and keep units consistent.', 'Compare vehicles using the same distance, price and operating conditions.', 'Review tire pressure, wheel size, load, roof equipment, traffic and seasonal temperature.'], check: 'One short journey is not a reliable average. Compare several tanks and separate city, motorway, towing or winter use when they differ strongly.' },
           es: { title: 'Calcular el coste real de combustible', description: 'Crea un presupuesto realista de viaje, mes o año, no solo con cifras de catálogo.', intro: 'El consumo real cambia con ruta, clima, tráfico, neumáticos, carga y conducción. Usa una medida propia cuando sea posible.', steps: ['Elige distancia y periodo: viaje, trayecto diario, mes o año.', 'Mide depósito a depósito durante varios repostajes normales.', 'Introduce el precio local real y mantén unidades coherentes.', 'Compara vehículos con la misma distancia, precio y condiciones.', 'Revisa presión, tamaño de rueda, carga, techo, tráfico y temperatura estacional.'], check: 'Un viaje corto no es una media fiable. Compara varios depósitos y separa ciudad, autopista, remolque o invierno cuando cambien mucho.' },
@@ -701,7 +708,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `AutoHub - ${t('title')}`;
+      document.title = `D3 Orient - ${t('title')}`;
       document.querySelector('meta[name="description"]').setAttribute('content', t('metaDescription'));
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
@@ -760,6 +767,24 @@
       });
     }
   </script>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <a class="site-footer-brand" href="index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+    </div>
+    <nav class="site-footer-links" aria-label="Footer navigation">
+      <a href="oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+      <a href="wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+      <a href="about.html" data-shell-i18n="footerAbout">About</a>
+      <a href="contact.html" data-shell-i18n="footerContact">Contact</a>
+      <a href="privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+      <a href="affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
 

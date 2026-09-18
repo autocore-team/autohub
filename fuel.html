@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Autohub Fuel Cost Calculator</title>
+  <title>D3 Orient Fuel Cost Calculator</title>
   <style>
     :root {
       color-scheme: light;
@@ -283,30 +283,37 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/css/site-shell.css">
+  <script src="assets/js/site-shell.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <nav class="nav" aria-label="Autohub common menu">
-      <div class="brand">Autohub</div>
-      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" class="active" data-i18n="fuel">Fuel Cost Calculator</a>
-      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
-      <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
-      <a href="guides.html" data-i18n="guides">Guides</a>
-      <a href="about.html" data-i18n="navAbout">About</a>
-      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-      <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
-      <a href="contact.html" data-i18n="navContact">Contact</a>
-      <div class="langbar" aria-label="Language">
+  <header class="site-header">
+  <div class="site-nav">
+    <a class="site-brand" href="index.html" aria-label="D3 Orient home">
+      <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+    </a>
+    <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+      <span data-shell-i18n="menu">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu">
+      <nav class="site-primary-nav" aria-label="Primary navigation">
+        <a href="index.html" data-shell-i18n="navHome">Home</a>
+        <a href="tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+        <a href="pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+        <a href="fuel.html" data-shell-i18n="navFuel" class="active" aria-current="page">Fuel Cost</a>
+        <a href="diagnostics.html" data-shell-i18n="navDiagnostics">Diagnostics</a>
+        <a href="engines.html" data-shell-i18n="navEngines">Engine Database</a>
+        <a href="guides.html" data-shell-i18n="navGuides">Guides</a>
+      </nav>
+      <div class="site-language-switcher" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
         <button type="button" data-lang="es">ES</button>
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="de">DE</button>
       </div>
-    </nav>
-  </header>
+    </div>
+  </div>
+</header>
 
   <main>
     <h1 data-i18n="title">Fuel Cost Calculator</h1>
@@ -968,7 +975,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `Autohub ${t('title')}`;
+      document.title = `D3 Orient ${t('title')}`;
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
       });
@@ -1019,6 +1026,24 @@
     initFromUrl();
     translatePage();
   </script>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <a class="site-footer-brand" href="index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+    </div>
+    <nav class="site-footer-links" aria-label="Footer navigation">
+      <a href="oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+      <a href="wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+      <a href="about.html" data-shell-i18n="footerAbout">About</a>
+      <a href="contact.html" data-shell-i18n="footerContact">Contact</a>
+      <a href="privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+      <a href="affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
 

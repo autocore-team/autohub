@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Learn about AutoHub, a practical automotive portal with tire calculators, PCD data, diagnostics, engine references, oil guides and driver tools.">
+  <meta name="description" content="Learn about D3 Orient, a practical automotive portal with tire calculators, PCD data, diagnostics, engine references, oil guides and driver tools.">
   <link rel="canonical" href="https://autocore-team.github.io/autohub/about.html">
-  <title>About AutoHub | Automotive Calculators, Guides and Tools</title>
+  <title>About D3 Orient | Automotive Calculators, Guides and Tools</title>
   <style>
     :root {
       color-scheme: light;
@@ -203,47 +203,54 @@
       .langbar { margin-left: 0; }
     }
   </style>
+  <link rel="stylesheet" href="assets/css/site-shell.css">
+  <script src="assets/js/site-shell.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <nav class="nav" aria-label="Autohub common menu">
-      <div class="brand">Autohub</div>
-      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuel">Fuel Cost Calculator</a>
-      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
-      <a href="oil-guide.html" data-i18n="oilGuide">Oil Guide</a>
-      <a href="guides.html" data-i18n="guides">Guides</a>
-      <a href="about.html" class="active" data-i18n="navAbout">About</a>
-      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-      <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
-      <a href="contact.html" data-i18n="navContact">Contact</a>
-      <div class="langbar" aria-label="Language">
+  <header class="site-header">
+  <div class="site-nav">
+    <a class="site-brand" href="index.html" aria-label="D3 Orient home">
+      <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+    </a>
+    <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+      <span data-shell-i18n="menu">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu">
+      <nav class="site-primary-nav" aria-label="Primary navigation">
+        <a href="index.html" data-shell-i18n="navHome">Home</a>
+        <a href="tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+        <a href="pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+        <a href="fuel.html" data-shell-i18n="navFuel">Fuel Cost</a>
+        <a href="diagnostics.html" data-shell-i18n="navDiagnostics">Diagnostics</a>
+        <a href="engines.html" data-shell-i18n="navEngines">Engine Database</a>
+        <a href="guides.html" data-shell-i18n="navGuides">Guides</a>
+      </nav>
+      <div class="site-language-switcher" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
         <button type="button" data-lang="es">ES</button>
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="de">DE</button>
       </div>
-    </nav>
-  </header>
+    </div>
+  </div>
+</header>
 
   <main>
-    <h1 data-i18n="title">About AutoHub</h1>
-    <p class="lead" data-i18n="lead">AutoHub is a practical automotive project built to help drivers compare, check and understand vehicle-related information before spending money.</p>
+    <h1 data-i18n="title">About D3 Orient</h1>
+    <p class="lead" data-i18n="lead">D3 Orient is a practical automotive project built to help drivers compare, check and understand vehicle-related information before spending money.</p>
 
     <section class="grid">
       <div class="stack">
         <article class="panel">
           <h2 data-i18n="missionTitle">Our mission</h2>
           <div class="panel-body">
-            <p data-i18n="missionText">AutoHub is being developed as a simple and useful automotive portal with calculators, guides and reference tools for everyday drivers, car owners and enthusiasts.</p>
+            <p data-i18n="missionText">D3 Orient is being developed as a simple and useful automotive portal with calculators, guides and reference tools for everyday drivers, car owners and enthusiasts.</p>
             <div class="callout" data-i18n="slogan">Check first. Understand the result. Avoid expensive mistakes.</div>
           </div>
         </article>
 
         <article class="panel">
-          <h2 data-i18n="whatTitle">What AutoHub offers</h2>
+          <h2 data-i18n="whatTitle">What D3 Orient offers</h2>
           <div class="panel-body">
             <p data-i18n="whatText">The project focuses on practical tools and clear explanations rather than empty automotive news or generic articles.</p>
             <ul>
@@ -262,7 +269,7 @@
           <h2 data-i18n="whyTitle">Why this project exists</h2>
           <div class="panel-body">
             <p data-i18n="whyText1">Many car mistakes start before the repair: wrong tires, wrong wheels, wrong diagnostic cable, wrong oil, wrong assumptions about an engine or transmission.</p>
-            <p data-i18n="whyText2">AutoHub is built to help users check important details first and understand the risks before buying parts, tools or software.</p>
+            <p data-i18n="whyText2">D3 Orient is built to help users check important details first and understand the risks before buying parts, tools or software.</p>
           </div>
         </article>
       </div>
@@ -271,7 +278,7 @@
         <article class="panel">
           <h2 data-i18n="statusTitle">Project status</h2>
           <div class="panel-body">
-            <p data-i18n="statusText">AutoHub is under active development. New sections and tools are being added step by step.</p>
+            <p data-i18n="statusText">D3 Orient is under active development. New sections and tools are being added step by step.</p>
             <ul class="pill-list">
               <li data-i18n="statusStatic">Static website</li>
               <li data-i18n="statusMobile">Mobile-friendly</li>
@@ -299,8 +306,8 @@
           <div class="panel-body">
             <p data-i18n="nextText">Start with the tool that matches your problem, then verify the final answer with official vehicle information.</p>
             <div class="links">
-              <a class="link-button" href="index.html" data-i18n="openTire">Open Tire Calculator</a>
-              <a class="link-button secondary" href="contact.html" data-i18n="openContact">Contact AutoHub</a>
+              <a class="link-button" href="tire-calculator.html" data-i18n="openTire">Open Tire Calculator</a>
+              <a class="link-button secondary" href="contact.html" data-i18n="openContact">Contact D3 Orient</a>
             </div>
           </div>
         </article>
@@ -308,14 +315,31 @@
         <article class="panel warning">
           <h2 data-i18n="noteTitle">Important note</h2>
           <div class="panel-body">
-            <p data-i18n="note">AutoHub is not a repair shop and does not replace official manufacturer documentation, VIN-based checks or professional inspection.</p>
+            <p data-i18n="note">D3 Orient is not a repair shop and does not replace official manufacturer documentation, VIN-based checks or professional inspection.</p>
           </div>
         </article>
       </aside>
     </section>
   </main>
 
-  <footer data-i18n="footerText">© 2026 AutoHub. Automotive calculators, guides and reference tools.</footer>
+  <footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <a class="site-footer-brand" href="index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+    </div>
+    <nav class="site-footer-links" aria-label="Footer navigation">
+      <a href="oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+      <a href="wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+      <a href="about.html" data-shell-i18n="footerAbout">About</a>
+      <a href="contact.html" data-shell-i18n="footerContact">Contact</a>
+      <a href="privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+      <a href="affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+    </nav>
+  </div>
+</footer>
 
   <script>
     const translations = {
@@ -331,12 +355,12 @@
         navPrivacy: 'Privacy',
         navAffiliate: 'Affiliate Disclosure',
         navContact: 'Contact',
-        title: 'About AutoHub',
-        lead: 'AutoHub is a practical automotive project built to help drivers compare, check and understand vehicle-related information before spending money.',
+        title: 'About D3 Orient',
+        lead: 'D3 Orient is a practical automotive project built to help drivers compare, check and understand vehicle-related information before spending money.',
         missionTitle: 'Our mission',
-        missionText: 'AutoHub is being developed as a simple and useful automotive portal with calculators, guides and reference tools for everyday drivers, car owners and enthusiasts.',
+        missionText: 'D3 Orient is being developed as a simple and useful automotive portal with calculators, guides and reference tools for everyday drivers, car owners and enthusiasts.',
         slogan: 'Check first. Understand the result. Avoid expensive mistakes.',
-        whatTitle: 'What AutoHub offers',
+        whatTitle: 'What D3 Orient offers',
         whatText: 'The project focuses on practical tools and clear explanations rather than empty automotive news or generic articles.',
         offerTires: 'Tire and wheel size comparison',
         offerPcd: 'Bolt pattern, center bore and wheel fitment reference',
@@ -347,9 +371,9 @@
         offerGuides: 'Practical automotive guides',
         whyTitle: 'Why this project exists',
         whyText1: 'Many car mistakes start before the repair: wrong tires, wrong wheels, wrong diagnostic cable, wrong oil, wrong assumptions about an engine or transmission.',
-        whyText2: 'AutoHub is built to help users check important details first and understand the risks before buying parts, tools or software.',
+        whyText2: 'D3 Orient is built to help users check important details first and understand the risks before buying parts, tools or software.',
         statusTitle: 'Project status',
-        statusText: 'AutoHub is under active development. New sections and tools are being added step by step.',
+        statusText: 'D3 Orient is under active development. New sections and tools are being added step by step.',
         statusStatic: 'Static website',
         statusMobile: 'Mobile-friendly',
         statusMulti: 'Multilingual structure',
@@ -363,10 +387,10 @@
         nextTitle: 'Useful next steps',
         nextText: 'Start with the tool that matches your problem, then verify the final answer with official vehicle information.',
         openTire: 'Open Tire Calculator',
-        openContact: 'Contact AutoHub',
+        openContact: 'Contact D3 Orient',
         noteTitle: 'Important note',
-        note: 'AutoHub is not a repair shop and does not replace official manufacturer documentation, VIN-based checks or professional inspection.',
-        footerText: '© 2026 AutoHub. Automotive calculators, guides and reference tools.'
+        note: 'D3 Orient is not a repair shop and does not replace official manufacturer documentation, VIN-based checks or professional inspection.',
+        footerText: '© 2026 D3 Orient. Automotive calculators, guides and reference tools.'
       },
       es: {
         tireCalculator: 'Calculadora de neumáticos',
@@ -380,12 +404,12 @@
         navPrivacy: 'Privacidad',
         navAffiliate: 'Divulgación de afiliados',
         navContact: 'Contacto',
-        title: 'Acerca de AutoHub',
-        lead: 'AutoHub es un proyecto automotriz práctico creado para ayudar a los conductores a comparar, comprobar y entender información antes de gastar dinero.',
+        title: 'Acerca de D3 Orient',
+        lead: 'D3 Orient es un proyecto automotriz práctico creado para ayudar a los conductores a comparar, comprobar y entender información antes de gastar dinero.',
         missionTitle: 'Nuestra misión',
-        missionText: 'AutoHub se desarrolla como un portal automotriz simple y útil con calculadoras, guías y herramientas de referencia para conductores, propietarios y aficionados.',
+        missionText: 'D3 Orient se desarrolla como un portal automotriz simple y útil con calculadoras, guías y herramientas de referencia para conductores, propietarios y aficionados.',
         slogan: 'Comprueba primero. Entiende el resultado. Evita errores costosos.',
-        whatTitle: 'Qué ofrece AutoHub',
+        whatTitle: 'Qué ofrece D3 Orient',
         whatText: 'El proyecto se centra en herramientas prácticas y explicaciones claras, no en noticias vacías ni artículos genéricos.',
         offerTires: 'Comparación de neumáticos y llantas',
         offerPcd: 'Referencia de PCD, buje central y compatibilidad de ruedas',
@@ -396,9 +420,9 @@
         offerGuides: 'Guías automotrices prácticas',
         whyTitle: 'Por qué existe este proyecto',
         whyText1: 'Muchos errores empiezan antes de la reparación: neumáticos incorrectos, llantas incorrectas, cable de diagnóstico incorrecto, aceite incorrecto o suposiciones incorrectas sobre un motor o una transmisión.',
-        whyText2: 'AutoHub ayuda a comprobar detalles importantes y entender los riesgos antes de comprar piezas, herramientas o software.',
+        whyText2: 'D3 Orient ayuda a comprobar detalles importantes y entender los riesgos antes de comprar piezas, herramientas o software.',
         statusTitle: 'Estado del proyecto',
-        statusText: 'AutoHub está en desarrollo activo. Nuevas secciones y herramientas se añaden paso a paso.',
+        statusText: 'D3 Orient está en desarrollo activo. Nuevas secciones y herramientas se añaden paso a paso.',
         statusStatic: 'Sitio estático',
         statusMobile: 'Adaptado a móviles',
         statusMulti: 'Estructura multilingüe',
@@ -412,10 +436,10 @@
         nextTitle: 'Siguientes pasos útiles',
         nextText: 'Empieza con la herramienta que corresponde a tu problema y después verifica la respuesta final con información oficial del vehículo.',
         openTire: 'Abrir calculadora de neumáticos',
-        openContact: 'Contactar con AutoHub',
+        openContact: 'Contactar con D3 Orient',
         noteTitle: 'Nota importante',
-        note: 'AutoHub no es un taller y no sustituye la documentación oficial del fabricante, las comprobaciones por VIN ni una inspección profesional.',
-        footerText: '© 2026 AutoHub. Calculadoras, guías y herramientas de referencia automotrices.'
+        note: 'D3 Orient no es un taller y no sustituye la documentación oficial del fabricante, las comprobaciones por VIN ni una inspección profesional.',
+        footerText: '© 2026 D3 Orient. Calculadoras, guías y herramientas de referencia automotrices.'
       },
       fr: {
         tireCalculator: 'Calculateur de pneus',
@@ -429,12 +453,12 @@
         navPrivacy: 'Confidentialité',
         navAffiliate: 'Divulgation d’affiliation',
         navContact: 'Contact',
-        title: 'À propos d’AutoHub',
-        lead: 'AutoHub est un projet automobile pratique conçu pour aider les conducteurs à comparer, vérifier et comprendre les informations avant de dépenser de l’argent.',
+        title: 'À propos de D3 Orient',
+        lead: 'D3 Orient est un projet automobile pratique conçu pour aider les conducteurs à comparer, vérifier et comprendre les informations avant de dépenser de l’argent.',
         missionTitle: 'Notre mission',
-        missionText: 'AutoHub est développé comme un portail automobile simple et utile avec des calculateurs, des guides et des outils de référence pour les conducteurs, propriétaires et passionnés.',
+        missionText: 'D3 Orient est développé comme un portail automobile simple et utile avec des calculateurs, des guides et des outils de référence pour les conducteurs, propriétaires et passionnés.',
         slogan: 'Vérifier d’abord. Comprendre le résultat. Éviter les erreurs coûteuses.',
-        whatTitle: 'Ce qu’offre AutoHub',
+        whatTitle: 'Ce qu’offre D3 Orient',
         whatText: 'Le projet se concentre sur des outils pratiques et des explications claires plutôt que sur des articles génériques.',
         offerTires: 'Comparaison des pneus et jantes',
         offerPcd: 'Référence PCD, alésage central et compatibilité des roues',
@@ -445,9 +469,9 @@
         offerGuides: 'Guides automobiles pratiques',
         whyTitle: 'Pourquoi ce projet existe',
         whyText1: 'Beaucoup d’erreurs commencent avant la réparation : mauvais pneus, mauvaises jantes, mauvais câble de diagnostic, mauvaise huile ou mauvaises hypothèses sur un moteur ou une transmission.',
-        whyText2: 'AutoHub aide à vérifier les détails importants et à comprendre les risques avant d’acheter des pièces, outils ou logiciels.',
+        whyText2: 'D3 Orient aide à vérifier les détails importants et à comprendre les risques avant d’acheter des pièces, outils ou logiciels.',
         statusTitle: 'État du projet',
-        statusText: 'AutoHub est en développement actif. De nouvelles sections et outils sont ajoutés étape par étape.',
+        statusText: 'D3 Orient est en développement actif. De nouvelles sections et outils sont ajoutés étape par étape.',
         statusStatic: 'Site statique',
         statusMobile: 'Compatible mobile',
         statusMulti: 'Structure multilingue',
@@ -461,10 +485,10 @@
         nextTitle: 'Étapes utiles',
         nextText: 'Commencez par l’outil qui correspond au problème, puis vérifiez la réponse finale avec les données officielles du véhicule.',
         openTire: 'Ouvrir le calculateur de pneus',
-        openContact: 'Contacter AutoHub',
+        openContact: 'Contacter D3 Orient',
         noteTitle: 'Remarque importante',
-        note: 'AutoHub n’est pas un garage et ne remplace pas la documentation officielle du constructeur, les vérifications par VIN ni une inspection professionnelle.',
-        footerText: '© 2026 AutoHub. Calculateurs, guides et outils de référence automobile.'
+        note: 'D3 Orient n’est pas un garage et ne remplace pas la documentation officielle du constructeur, les vérifications par VIN ni une inspection professionnelle.',
+        footerText: '© 2026 D3 Orient. Calculateurs, guides et outils de référence automobile.'
       },
       de: {
         tireCalculator: 'Reifenrechner',
@@ -478,12 +502,12 @@
         navPrivacy: 'Datenschutz',
         navAffiliate: 'Affiliate-Hinweis',
         navContact: 'Kontakt',
-        title: 'Über AutoHub',
-        lead: 'AutoHub ist ein praktisches Automobilprojekt, das Fahrern hilft, fahrzeugbezogene Informationen vor dem Kauf zu vergleichen, zu prüfen und zu verstehen.',
+        title: 'Über D3 Orient',
+        lead: 'D3 Orient ist ein praktisches Automobilprojekt, das Fahrern hilft, fahrzeugbezogene Informationen vor dem Kauf zu vergleichen, zu prüfen und zu verstehen.',
         missionTitle: 'Unsere Mission',
-        missionText: 'AutoHub wird als einfaches und nützliches Automobilportal mit Rechnern, Ratgebern und Referenzwerkzeugen für Fahrer, Autobesitzer und Enthusiasten entwickelt.',
+        missionText: 'D3 Orient wird als einfaches und nützliches Automobilportal mit Rechnern, Ratgebern und Referenzwerkzeugen für Fahrer, Autobesitzer und Enthusiasten entwickelt.',
         slogan: 'Erst prüfen. Das Ergebnis verstehen. Teure Fehler vermeiden.',
-        whatTitle: 'Was AutoHub bietet',
+        whatTitle: 'Was D3 Orient bietet',
         whatText: 'Das Projekt konzentriert sich auf praktische Werkzeuge und klare Erklärungen statt auf leere Autonachrichten oder generische Artikel.',
         offerTires: 'Vergleich von Reifen- und Felgengrößen',
         offerPcd: 'Referenz für Lochkreis, Mittenloch und Felgenpassung',
@@ -494,9 +518,9 @@
         offerGuides: 'Praktische Automobilratgeber',
         whyTitle: 'Warum dieses Projekt existiert',
         whyText1: 'Viele Autofehler beginnen vor der Reparatur: falsche Reifen, falsche Felgen, falsches Diagnosekabel, falsches Öl oder falsche Annahmen über Motor und Getriebe.',
-        whyText2: 'AutoHub hilft, wichtige Details zu prüfen und Risiken zu verstehen, bevor Teile, Werkzeuge oder Software gekauft werden.',
+        whyText2: 'D3 Orient hilft, wichtige Details zu prüfen und Risiken zu verstehen, bevor Teile, Werkzeuge oder Software gekauft werden.',
         statusTitle: 'Projektstatus',
-        statusText: 'AutoHub befindet sich in aktiver Entwicklung. Neue Bereiche und Werkzeuge werden Schritt für Schritt hinzugefügt.',
+        statusText: 'D3 Orient befindet sich in aktiver Entwicklung. Neue Bereiche und Werkzeuge werden Schritt für Schritt hinzugefügt.',
         statusStatic: 'Statische Website',
         statusMobile: 'Mobilfreundlich',
         statusMulti: 'Mehrsprachige Struktur',
@@ -510,10 +534,10 @@
         nextTitle: 'Nützliche nächste Schritte',
         nextText: 'Beginne mit dem passenden Werkzeug und prüfe das Ergebnis anschließend mit offiziellen Fahrzeugdaten.',
         openTire: 'Reifenrechner öffnen',
-        openContact: 'AutoHub kontaktieren',
+        openContact: 'D3 Orient kontaktieren',
         noteTitle: 'Wichtiger Hinweis',
-        note: 'AutoHub ist keine Werkstatt und ersetzt keine offiziellen Herstellerunterlagen, VIN-basierte Prüfungen oder professionelle Inspektion.',
-        footerText: '© 2026 AutoHub. Automobilrechner, Ratgeber und Referenzwerkzeuge.'
+        note: 'D3 Orient ist keine Werkstatt und ersetzt keine offiziellen Herstellerunterlagen, VIN-basierte Prüfungen oder professionelle Inspektion.',
+        footerText: '© 2026 D3 Orient. Automobilrechner, Ratgeber und Referenzwerkzeuge.'
       }
     };
 
@@ -526,7 +550,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = t('title') + ' | AutoHub';
+      document.title = t('title') + ' | D3 Orient';
       document.querySelector('meta[name="description"]').setAttribute('content', t('lead'));
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);

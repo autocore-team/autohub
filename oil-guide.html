@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Find engine oil viscosity, API, ACEA, ILSAC and manufacturer approvals by vehicle and engine code. Starter AutoHub compatibility tool.">
+  <meta name="description" content="Find engine oil viscosity, API, ACEA, ILSAC and manufacturer approvals by vehicle and engine code. Starter D3 Orient compatibility tool.">
   <link rel="canonical" href="https://autocore-team.github.io/autohub/oil-guide.html">
-  <title>AutoHub Engine Oil Compatibility Guide</title>
+  <title>D3 Orient Engine Oil Compatibility Guide</title>
   <style>
     :root {
       color-scheme: light;
@@ -391,30 +391,37 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="assets/css/site-shell.css">
+  <script src="assets/js/site-shell.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <nav class="nav" aria-label="AutoHub common menu">
-      <div class="brand">Autohub</div>
-      <a href="index.html" data-i18n="tireCalculator">Tire Calculator</a>
-      <a href="pcd.html" data-i18n="pcdDatabase">PCD Database</a>
-      <a href="fuel.html" data-i18n="fuelCalculator">Fuel Cost Calculator</a>
-      <a href="diagnostics.html" data-i18n="diagnostics">Diagnostics</a>
-      <a href="engines.html" data-i18n="engines">Engines</a>
-      <a href="oil-guide.html" class="active" data-i18n="oilGuide">Oil Guide</a>
-      <a href="guides.html" data-i18n="guides">Guides</a>
-      <a href="about.html" data-i18n="navAbout">About</a>
-      <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
-      <a href="affiliate-disclosure.html" data-i18n="navAffiliate">Affiliate Disclosure</a>
-      <a href="contact.html" data-i18n="navContact">Contact</a>
-      <div class="langbar" aria-label="Language">
+  <header class="site-header">
+  <div class="site-nav">
+    <a class="site-brand" href="index.html" aria-label="D3 Orient home">
+      <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+    </a>
+    <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+      <span data-shell-i18n="menu">Menu</span>
+    </button>
+    <div class="site-menu" id="site-menu">
+      <nav class="site-primary-nav" aria-label="Primary navigation">
+        <a href="index.html" data-shell-i18n="navHome">Home</a>
+        <a href="tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+        <a href="pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+        <a href="fuel.html" data-shell-i18n="navFuel">Fuel Cost</a>
+        <a href="diagnostics.html" data-shell-i18n="navDiagnostics">Diagnostics</a>
+        <a href="engines.html" data-shell-i18n="navEngines">Engine Database</a>
+        <a href="guides.html" data-shell-i18n="navGuides">Guides</a>
+      </nav>
+      <div class="site-language-switcher" aria-label="Language">
         <button type="button" data-lang="en" class="selected">EN</button>
         <button type="button" data-lang="es">ES</button>
         <button type="button" data-lang="fr">FR</button>
         <button type="button" data-lang="de">DE</button>
       </div>
-    </nav>
-  </header>
+    </div>
+  </div>
+</header>
 
   <main>
     <h1 data-i18n="title">Engine Oil Compatibility Guide</h1>
@@ -423,7 +430,7 @@
     <section class="panel" aria-labelledby="finderTitle">
       <h2 id="finderTitle" data-i18n="finderTitle">Find oil for your engine</h2>
       <div class="panel-body">
-        <p data-i18n="finderLead">Select the vehicle and exact engine. AutoHub will show the compatibility record and what still needs confirmation.</p>
+        <p data-i18n="finderLead">Select the vehicle and exact engine. D3 Orient will show the compatibility record and what still needs confirmation.</p>
         <div class="finder-grid">
           <label class="finder-field quick-search-field">
             <span data-i18n="quickSearchLabel">Quick search by engine code, make or model</span>
@@ -471,7 +478,7 @@
     <section class="panel" aria-labelledby="exampleTitle">
       <h2 id="exampleTitle" data-i18n="exampleTitle">Example result: BMW M54 oil compatibility</h2>
       <div class="panel-body">
-        <p data-i18n="exampleLead">After search, AutoHub shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.</p>
+        <p data-i18n="exampleLead">After search, D3 Orient shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.</p>
         <div class="spec-grid">
           <div class="spec-item">
             <span class="spec-label" data-i18n="vehicle">Vehicle</span>
@@ -550,7 +557,7 @@
         title: 'Engine Oil Compatibility Guide',
         lead: 'Find oil viscosity, industry classifications and manufacturer approvals by vehicle and engine code. The correct approval matters more than viscosity alone.',
         finderTitle: 'Find oil for your engine',
-        finderLead: 'Select the vehicle and exact engine. AutoHub will show the compatibility record and what still needs confirmation.',
+        finderLead: 'Select the vehicle and exact engine. D3 Orient will show the compatibility record and what still needs confirmation.',
         quickSearchLabel: 'Quick search by engine code, make or model', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'No compatibility record found. Try the vehicle selectors or send a request.',
         make: 'Make', model: 'Model', generationYear: 'Generation / years', engineCode: 'Engine code',
         selectMake: 'Select make', selectModel: 'Select model', selectGeneration: 'Select generation', selectEngine: 'Select engine',
@@ -562,7 +569,7 @@
         petrol: 'Petrol', diesel: 'Diesel', naturallyAspirated: 'Naturally aspirated', turbocharged: 'Turbocharged', noDpfGpf: 'No DPF / GPF recorded', marketDependent: 'Market and version dependent',
         starterReview: 'Starter record - verify with the exact manual', needsPrimarySource: 'Primary manufacturer source still required',
         exampleTitle: 'Example result: BMW M54 oil compatibility',
-        exampleLead: 'After search, AutoHub shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.',
+        exampleLead: 'After search, D3 Orient shows the vehicle, engine, viscosity range, required approvals, service-fill quantity and what still needs confirmation.',
         exampleCapacity: 'About 6.5 L, verify by exact model and filter housing.',
         exampleInterval: 'Follow the vehicle service schedule; shorter intervals may be better for age and city use.',
         exampleNote: 'This is a preview of the information format. Always confirm the exact approval and quantity in the manual or service data.',
@@ -583,7 +590,7 @@
         title: 'Guía de compatibilidad del aceite de motor',
         lead: 'Busca viscosidad, clasificaciones y homologaciones del fabricante por vehículo y código de motor. La homologación correcta importa más que la viscosidad por sí sola.',
         finderTitle: 'Encuentra aceite para tu motor',
-        finderLead: 'Selecciona el vehículo y el motor exacto. AutoHub mostrará la compatibilidad y lo que todavía debe confirmarse.',
+        finderLead: 'Selecciona el vehículo y el motor exacto. D3 Orient mostrará la compatibilidad y lo que todavía debe confirmarse.',
         quickSearchLabel: 'Búsqueda rápida por código de motor, marca o modelo', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'No se encontró una ficha compatible. Usa los selectores o envía una solicitud.',
         make: 'Marca', model: 'Modelo', generationYear: 'Generación / años', engineCode: 'Código de motor',
         selectMake: 'Selecciona marca', selectModel: 'Selecciona modelo', selectGeneration: 'Selecciona generación', selectEngine: 'Selecciona motor',
@@ -595,7 +602,7 @@
         petrol: 'Gasolina', diesel: 'Diésel', naturallyAspirated: 'Atmosférico', turbocharged: 'Turboalimentado', noDpfGpf: 'Sin DPF / GPF registrado', marketDependent: 'Depende del mercado y versión',
         starterReview: 'Registro inicial: comprobar con el manual exacto', needsPrimarySource: 'Falta una fuente primaria del fabricante',
         exampleTitle: 'Ejemplo de resultado: compatibilidad de aceite BMW M54',
-        exampleLead: 'Después de la búsqueda, AutoHub muestra vehículo, motor, viscosidad, homologaciones requeridas, cantidad de servicio y lo que aún debe confirmarse.',
+        exampleLead: 'Después de la búsqueda, D3 Orient muestra vehículo, motor, viscosidad, homologaciones requeridas, cantidad de servicio y lo que aún debe confirmarse.',
         exampleCapacity: 'Aproximadamente 6,5 L; comprobar por modelo exacto y carcasa del filtro.',
         exampleInterval: 'Sigue el programa de mantenimiento del vehículo; en ciudad y por edad pueden convenir intervalos más cortos.',
         exampleNote: 'Esto es una vista previa del formato. Confirma siempre la homologación y cantidad exactas en el manual o datos de servicio.',
@@ -616,7 +623,7 @@
         title: "Guide de compatibilité de l'huile moteur",
         lead: "Trouvez la viscosité, les classifications et les homologations constructeur par véhicule et code moteur. L'homologation correcte compte plus que la viscosité seule.",
         finderTitle: "Trouver l'huile de votre moteur",
-        finderLead: 'Sélectionnez le véhicule et le moteur exact. AutoHub affichera la compatibilité et les points restant à confirmer.',
+        finderLead: 'Sélectionnez le véhicule et le moteur exact. D3 Orient affichera la compatibilité et les points restant à confirmer.',
         quickSearchLabel: 'Recherche rapide par code moteur, marque ou modèle', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'Aucune fiche compatible trouvée. Utilisez les sélecteurs ou envoyez une demande.',
         make: 'Marque', model: 'Modèle', generationYear: 'Génération / années', engineCode: 'Code moteur',
         selectMake: 'Choisir la marque', selectModel: 'Choisir le modèle', selectGeneration: 'Choisir la génération', selectEngine: 'Choisir le moteur',
@@ -628,7 +635,7 @@
         petrol: 'Essence', diesel: 'Diesel', naturallyAspirated: 'Atmosphérique', turbocharged: 'Turbocompressé', noDpfGpf: 'Aucun DPF / GPF indiqué', marketDependent: 'Selon le marché et la version',
         starterReview: 'Fiche initiale : vérifier avec le manuel exact', needsPrimarySource: 'Source primaire du constructeur encore requise',
         exampleTitle: "Exemple de résultat : compatibilité d'huile BMW M54",
-        exampleLead: 'Après recherche, AutoHub affiche le véhicule, le moteur, la plage de viscosité, les homologations requises, la quantité et les points à confirmer.',
+        exampleLead: 'Après recherche, D3 Orient affiche le véhicule, le moteur, la plage de viscosité, les homologations requises, la quantité et les points à confirmer.',
         exampleCapacity: 'Environ 6,5 L, à vérifier selon le modèle exact et le boîtier de filtre.',
         exampleInterval: "Suivre le programme d'entretien du véhicule ; des intervalles plus courts peuvent être préférables avec l'âge et la ville.",
         exampleNote: "Ceci est un aperçu du format d'information. Confirmez toujours l'homologation et la quantité exactes dans le manuel ou les données de service.",
@@ -649,7 +656,7 @@
         title: 'Kompatibilitätsratgeber für Motoröl',
         lead: 'Viskosität, Klassifikationen und Herstellerfreigaben nach Fahrzeug und Motorcode finden. Die richtige Freigabe ist wichtiger als die Viskosität allein.',
         finderTitle: 'Öl für den Motor finden',
-        finderLead: 'Fahrzeug und genauen Motor auswählen. AutoHub zeigt den Datensatz und was noch bestätigt werden muss.',
+        finderLead: 'Fahrzeug und genauen Motor auswählen. D3 Orient zeigt den Datensatz und was noch bestätigt werden muss.',
         quickSearchLabel: 'Schnellsuche nach Motorcode, Marke oder Modell', quickSearchPlaceholder: 'M54, B5202S, BMW E46, Toyota Corolla', quickNoMatch: 'Kein passender Datensatz gefunden. Fahrzeugauswahl nutzen oder Anfrage senden.',
         make: 'Marke', model: 'Modell', generationYear: 'Generation / Baujahre', engineCode: 'Motorcode',
         selectMake: 'Marke wählen', selectModel: 'Modell wählen', selectGeneration: 'Generation wählen', selectEngine: 'Motor wählen',
@@ -661,7 +668,7 @@
         petrol: 'Benzin', diesel: 'Diesel', naturallyAspirated: 'Saugmotor', turbocharged: 'Turbolader', noDpfGpf: 'Kein DPF / GPF erfasst', marketDependent: 'Markt- und versionsabhängig',
         starterReview: 'Starter-Datensatz: mit genauem Handbuch prüfen', needsPrimarySource: 'Primärquelle des Herstellers noch erforderlich',
         exampleTitle: 'Beispielergebnis: BMW M54 Öl-Kompatibilität',
-        exampleLead: 'Nach der Suche zeigt AutoHub Fahrzeug, Motor, Viskositätsbereich, erforderliche Freigaben, Füllmenge und was noch bestätigt werden muss.',
+        exampleLead: 'Nach der Suche zeigt D3 Orient Fahrzeug, Motor, Viskositätsbereich, erforderliche Freigaben, Füllmenge und was noch bestätigt werden muss.',
         exampleCapacity: 'Etwa 6,5 L, je nach exaktem Modell und Ölfiltergehäuse prüfen.',
         exampleInterval: 'Wartungsplan des Fahrzeugs befolgen; bei Alter und Stadtbetrieb können kürzere Intervalle sinnvoll sein.',
         exampleNote: 'Dies ist eine Vorschau des Informationsformats. Freigabe und Füllmenge immer im Handbuch oder in Servicedaten bestätigen.',
@@ -891,7 +898,7 @@
 
     function translatePage() {
       document.documentElement.lang = lang;
-      document.title = `AutoHub - ${t('title')}`;
+      document.title = `D3 Orient - ${t('title')}`;
       document.querySelector('meta[name="description"]').setAttribute('content', t('metaDescription'));
       document.querySelectorAll('[data-i18n]').forEach((node) => {
         node.textContent = t(node.dataset.i18n);
@@ -986,6 +993,24 @@
     initializeFinder();
     translatePage();
   </script>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div>
+      <a class="site-footer-brand" href="index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+    </div>
+    <nav class="site-footer-links" aria-label="Footer navigation">
+      <a href="oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+      <a href="wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+      <a href="about.html" data-shell-i18n="footerAbout">About</a>
+      <a href="contact.html" data-shell-i18n="footerContact">Contact</a>
+      <a href="privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+      <a href="affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
 
