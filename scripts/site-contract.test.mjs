@@ -52,6 +52,8 @@ console.log('PASS required homepage and tire calculator files exist');
 
 const indexHtml = read('index.html');
 const tireHtml = read('tire-calculator.html');
+const b5202Html = read('engines/volvo-b5202.html');
+const enginesHtml = read('engines.html');
 
 const idsMatch = tireHtml.match(/const ids = (\[[^;]+\]);/);
 check(idsMatch, 'Calculator ids array not found');
@@ -79,10 +81,30 @@ console.log(`PASS ${criticalIds.length} critical calculator DOM ids are intact`)
 
 const tireTranslations = translationsFrom(tireHtml, 'Calculator');
 const homeTranslations = translationsFrom(indexHtml, 'Homepage');
+const b5202Translations = translationsFrom(b5202Html, 'B5202 guide');
 const tireTranslationCount = assertTranslationParity(tireTranslations, 'Calculator');
 const homeTranslationCount = assertTranslationParity(homeTranslations, 'Homepage');
+const b5202TranslationCount = assertTranslationParity(b5202Translations, 'B5202 guide');
+const b5202PageScript = b5202Html.match(/<script>\s*(const translations = [\s\S]*?)<\/script>/);
+check(b5202PageScript, 'B5202 localization script is missing');
+new vm.Script(b5202PageScript[1]);
+for (const match of b5202Html.matchAll(/data-i18n="([^"]+)"/g)) {
+  check(Object.hasOwn(b5202Translations.en, match[1]), `B5202 translation key ${match[1]} is missing`);
+}
 console.log(`PASS calculator translations match across four languages (${tireTranslationCount} keys)`);
 console.log(`PASS homepage translations match across four languages (${homeTranslationCount} keys)`);
+console.log(`PASS B5202 guide translations match across four languages (${b5202TranslationCount} keys)`);
+
+const requiredB5202Sections = ['overview', 'specifications', 'applications', 'maintenance', 'oil', 'diagnostics', 'problems', 'reliability', 'tuning', 'sources'];
+for (const section of requiredB5202Sections) {
+  check(b5202Html.includes(`id="${section}"`), `B5202 guide section ${section} is missing`);
+}
+check(b5202Html.includes('https://autocore-team.github.io/autohub/engines/volvo-b5202.html'), 'B5202 canonical URL is missing');
+check(b5202Html.includes('93 kW / 126 hp') && b5202Html.includes('170 Nm'), 'B5202 verified performance is missing');
+check(b5202Html.includes('https://www.volvoclub.org.uk/tech/S70Specifications1997.pdf'), 'B5202 manufacturer source link is missing');
+check(b5202Html.includes('../oil-guide.html?engine=volvo-s70-b5202s'), 'B5202 oil record link is missing');
+check(enginesHtml.includes("'volvo-b5202s': 'engines/volvo-b5202.html'"), 'Engine search does not route B5202S to its full guide');
+console.log(`PASS B5202 guide SEO, verified data and ${requiredB5202Sections.length} required sections`);
 
 const homepageScriptMatch = indexHtml.match(/<script>\s*(const translations = [\s\S]*?)<\/script>\s*<\/body>/);
 check(homepageScriptMatch, 'Homepage localization script is missing');
@@ -224,7 +246,7 @@ check(redirectFor('https://example.test/autohub/index.html?lang=de') === '', 'La
 console.log('PASS compatibility redirect handles full and partial legacy calculator URLs');
 
 const htmlFiles = walk(root).filter((file) => file.endsWith('.html'));
-check(htmlFiles.length === 19, `Expected 19 HTML pages after migration, found ${htmlFiles.length}`);
+check(htmlFiles.length === 20, `Expected 20 HTML pages after adding the first engine guide, found ${htmlFiles.length}`);
 
 const enOnlyPcdPages = new Set([
   'pcd/bmw/e46.html', 'pcd/bolt-pattern/5x108.html', 'pcd/bolt-pattern/5x110.html',
@@ -238,6 +260,7 @@ const activePages = new Map([
   ['fuel.html', 'fuel.html'],
   ['diagnostics.html', 'diagnostics.html'],
   ['engines.html', 'engines.html'],
+  ['engines/volvo-b5202.html', '../engines.html'],
   ['guides.html', 'guides.html'],
   ['pcd/bmw/e46.html', '../../pcd.html'],
   ['pcd/bolt-pattern/5x108.html', '../../pcd.html'],

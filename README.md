@@ -53,12 +53,12 @@ The diagnostics page also reminds users to check vehicle year, diagnostic protoc
 
 ## Engine Database
 
-The engine section is planned as a searchable reference database.
+The engine section is a searchable reference database with regional source data.
 
-Future structure:
+Current structure:
 
 * search by engine code
-* full page for each engine
+* full SEO page for Volvo B5202S
 * technical specifications
 * oil recommendations
 * common problems
@@ -66,9 +66,9 @@ Future structure:
 * maintenance notes
 * related engines
 
-The first full engine page is planned for:
+The first full engine page is available for:
 
-**Volvo B5202**
+**[Volvo B5202S](engines/volvo-b5202.html)**
 
 ## Motor Oil Guide
 
