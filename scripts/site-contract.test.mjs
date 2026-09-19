@@ -99,7 +99,7 @@ const requiredB5202Sections = ['overview', 'specifications', 'applications', 'ma
 for (const section of requiredB5202Sections) {
   check(b5202Html.includes(`id="${section}"`), `B5202 guide section ${section} is missing`);
 }
-check(b5202Html.includes('https://autocore-team.github.io/autohub/engines/volvo-b5202.html'), 'B5202 canonical URL is missing');
+check(b5202Html.includes('https://d3orient.com/engines/volvo-b5202.html'), 'B5202 canonical URL is missing');
 check(b5202Html.includes('93 kW / 126 hp') && b5202Html.includes('170 Nm'), 'B5202 verified performance is missing');
 check(b5202Html.includes('https://www.volvoclub.org.uk/tech/S70Specifications1997.pdf'), 'B5202 manufacturer source link is missing');
 check(b5202Html.includes('../oil-guide.html?engine=volvo-s70-b5202s'), 'B5202 oil record link is missing');
@@ -247,6 +247,11 @@ console.log('PASS compatibility redirect handles full and partial legacy calcula
 
 const htmlFiles = walk(root).filter((file) => file.endsWith('.html'));
 check(htmlFiles.length === 20, `Expected 20 HTML pages after adding the first engine guide, found ${htmlFiles.length}`);
+const publicOrigin = 'https://d3orient.com';
+
+function expectedCanonical(relativeFile) {
+  return relativeFile === 'index.html' ? `${publicOrigin}/` : `${publicOrigin}/${relativeFile}`;
+}
 
 const enOnlyPcdPages = new Set([
   'pcd/bmw/e46.html', 'pcd/bolt-pattern/5x108.html', 'pcd/bolt-pattern/5x110.html',
@@ -280,6 +285,11 @@ for (const absoluteFile of htmlFiles) {
   check(content.includes('class="site-footer"'), `${relativeFile} is missing the shared footer`);
   check(content.includes('site-menu-toggle'), `${relativeFile} is missing the mobile menu toggle`);
   check(!content.includes('href="/autohub/'), `${relativeFile} still contains a hard-coded /autohub/ navigation link`);
+
+  const canonicalMatches = [...content.matchAll(/<link\s+rel="canonical"\s+href="([^"]+)"\s*\/?\s*>/gi)];
+  check(canonicalMatches.length === 1, `${relativeFile} must have exactly one canonical URL`);
+  check(canonicalMatches[0][1] === expectedCanonical(relativeFile), `${relativeFile} canonical URL differs: ${canonicalMatches[0][1]}`);
+  check(!canonicalMatches[0][1].includes('?lang='), `${relativeFile} canonical URL contains a lang query`);
 
   const primaryNavMatch = content.match(/<nav class="site-primary-nav"[\s\S]*?<\/nav>/i);
   check(primaryNavMatch, `${relativeFile} is missing the primary navigation`);
@@ -320,15 +330,47 @@ check(brokenLinks.length === 0, `Broken internal links:\n${brokenLinks.join('\n'
 console.log(`PASS shared navigation, footer and internal links across ${htmlFiles.length} HTML pages`);
 
 const allProjectFiles = walk(root);
-for (const file of allProjectFiles) {
-  if (path.relative(root, file).replaceAll('\\', '/') === 'scripts/site-contract.test.mjs') continue;
-  const content = fs.readFileSync(file);
-  if (content.includes(Buffer.from('d3orient.com'))) {
-    throw new Error(`Unexpected d3orient.com reference in ${path.relative(root, file)}`);
-  }
+const cname = read('CNAME');
+check(/^d3orient\.com\r?\n?$/.test(cname), 'CNAME must contain only d3orient.com');
+
+const robots = read('robots.txt');
+check(/^User-agent: \*\r?\nAllow: \/\r?\nSitemap: https:\/\/d3orient\.com\/sitemap\.xml\r?\n?$/.test(robots), 'robots.txt content differs from the public-domain contract');
+
+const sitemap = read('sitemap.xml');
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+const expectedPublicUrls = htmlFiles
+  .map((file) => expectedCanonical(path.relative(root, file).replaceAll('\\', '/')))
+  .sort();
+check(sitemapUrls.length === htmlFiles.length, `Sitemap must contain ${htmlFiles.length} HTML URLs, found ${sitemapUrls.length}`);
+check(sitemapUrls.every((url) => url.startsWith(`${publicOrigin}/`)), 'Sitemap contains a URL outside d3orient.com');
+check(sitemapUrls.every((url) => !url.includes('?lang=')), 'Sitemap contains a lang query parameter');
+check(JSON.stringify([...sitemapUrls].sort()) === JSON.stringify(expectedPublicUrls), 'Sitemap URLs differ from indexable HTML canonicals');
+
+const oldPublicHost = 'autocore-team.github.io/autohub';
+const publicSeoFiles = [
+  ...htmlFiles,
+  path.join(root, 'sitemap.xml'),
+  path.join(root, 'robots.txt'),
+  path.join(root, 'data/engines/source/schema.json'),
+  path.join(root, 'README.md')
+];
+for (const file of publicSeoFiles) {
+  check(!fs.readFileSync(file, 'utf8').includes(oldPublicHost), `Old public host remains in ${path.relative(root, file)}`);
 }
-check(!fs.existsSync(path.join(root, 'CNAME')), 'CNAME must not exist');
-console.log('PASS no d3orient.com reference or CNAME was introduced');
+
+const deployableFiles = allProjectFiles.filter((file) => {
+  const relativeFile = path.relative(root, file).replaceAll('\\', '/');
+  return file.endsWith('.html') || (file.endsWith('.js') && !relativeFile.startsWith('scripts/'));
+});
+for (const file of deployableFiles) {
+  check(!fs.readFileSync(file, 'utf8').includes('/autohub/'), `Deployable file contains a hard-coded /autohub/ path: ${path.relative(root, file)}`);
+}
+
+const engineSchema = JSON.parse(read('data/engines/source/schema.json'));
+check(engineSchema.$id === 'https://d3orient.com/data/engines/source/schema.json', 'Engine schema $id does not use d3orient.com');
+check(read('README.md').includes('https://d3orient.com/'), 'README does not identify d3orient.com as the public site');
+console.log(`PASS domain launch contract: CNAME, robots, ${sitemapUrls.length} sitemap URLs and canonical URLs`);
+console.log(`PASS no old public host or hard-coded /autohub/ path remains in deployable files`);
 
 for (const relativePath of [...htmlFiles.map((file) => path.relative(root, file)), 'README.md']) {
   const content = fs.readFileSync(path.join(root, relativePath), 'utf8');

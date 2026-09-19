@@ -8,7 +8,7 @@ The goal is simple:
 
 ## Live website
 
-https://autocore-team.github.io/autohub/
+https://d3orient.com/
 
 ## Current sections
 
