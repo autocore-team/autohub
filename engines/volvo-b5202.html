@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Volvo B5202S engine guide: verified 2.0-liter five-cylinder specifications, applications, common checks, timing belt, oil and diagnostics notes.">
+  <link rel="canonical" href="https://autocore-team.github.io/autohub/engines/volvo-b5202.html">
+  <title>Volvo B5202S Engine Specs, Problems & Reliability | D3 Orient</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "Volvo B5202S engine specifications, problems and reliability guide",
+      "description": "A practical guide to the naturally aspirated Volvo B5202S 2.0-liter five-cylinder engine.",
+      "mainEntityOfPage": "https://autocore-team.github.io/autohub/engines/volvo-b5202.html",
+      "author": { "@type": "Organization", "name": "D3 Orient" },
+      "publisher": { "@type": "Organization", "name": "D3 Orient" }
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --text: #17202a;
+      --muted: #657181;
+      --line: #d9e0e8;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --soft: #f8fafc;
+      --warning: #7a4b00;
+      --warning-bg: #fff7e6;
+      --verified: #166534;
+      --verified-bg: #ecfdf3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 22px 18px 52px;
+    }
+    .breadcrumbs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .breadcrumbs a { color: var(--accent-dark); }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.8fr);
+      gap: 22px;
+      align-items: start;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--panel);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.08;
+    }
+    .lead {
+      max-width: 720px;
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    .verification {
+      padding: 16px;
+      border: 1px solid #bbf7d0;
+      border-radius: 8px;
+      background: var(--verified-bg);
+    }
+    .verification strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--verified);
+      font-size: 14px;
+    }
+    .verification p {
+      margin: 0;
+      color: #365344;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .fact {
+      min-width: 0;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .fact span {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .fact strong { font-size: 20px; line-height: 1.25; }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 270px;
+      gap: 16px;
+      align-items: start;
+      margin-top: 16px;
+    }
+    .content-stack { min-width: 0; }
+    .panel {
+      margin-top: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .content-stack .panel:first-child { margin-top: 0; }
+    .panel h2 {
+      margin: 0;
+      padding: 15px 16px 11px;
+      border-bottom: 1px solid var(--line);
+      font-size: 18px;
+    }
+    .panel-body { padding: 16px; }
+    .panel-body > :first-child { margin-top: 0; }
+    .panel-body > :last-child { margin-bottom: 0; }
+    p, li { line-height: 1.58; }
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    .spec-table th,
+    .spec-table td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    .spec-table tr:last-child th,
+    .spec-table tr:last-child td { border-bottom: 0; }
+    .spec-table th {
+      width: 36%;
+      color: var(--muted);
+      background: var(--soft);
+    }
+    .check-list {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .check-list li + li { margin-top: 8px; }
+    .callout {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border: 1px solid #f2d493;
+      border-radius: 8px;
+      background: var(--warning-bg);
+      color: var(--warning);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .side-card {
+      position: sticky;
+      top: 14px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+    .side-card h2 { margin: 0 0 12px; font-size: 16px; }
+    .side-card a {
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--accent-dark);
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .side-card a:last-child { border-bottom: 0; }
+    .side-card a:hover,
+    .side-card a:focus-visible { text-decoration: underline; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .actions a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #e2e8f0;
+      color: #1e293b;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .actions a.primary { border-color: var(--accent); background: var(--accent); color: #fff; }
+    .source-note {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 820px) {
+      .hero, .layout { grid-template-columns: 1fr; }
+      .facts { grid-template-columns: 1fr 1fr; }
+      .side-card { position: static; }
+    }
+    @media (max-width: 520px) {
+      main { padding-right: 14px; padding-left: 14px; }
+      .hero { padding: 18px; }
+      .facts { grid-template-columns: 1fr; }
+      .spec-table th, .spec-table td { display: block; width: 100%; }
+      .spec-table th { padding-bottom: 5px; }
+      .spec-table td { padding-top: 7px; }
+      .actions a { width: 100%; justify-content: center; }
+    }
+  </style>
+  <link rel="stylesheet" href="../assets/css/site-shell.css">
+  <script src="../assets/js/site-shell.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-nav">
+      <a class="site-brand" href="../index.html" aria-label="D3 Orient home">
+        <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+      </a>
+      <button class="site-menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+        <span data-shell-i18n="menu">Menu</span>
+      </button>
+      <div class="site-menu" id="site-menu">
+        <nav class="site-primary-nav" aria-label="Primary navigation">
+          <a href="../index.html" data-shell-i18n="navHome">Home</a>
+          <a href="../tire-calculator.html" data-shell-i18n="navTire">Tire Calculator</a>
+          <a href="../pcd.html" data-shell-i18n="navPcd">PCD Database</a>
+          <a href="../fuel.html" data-shell-i18n="navFuel">Fuel Cost</a>
+          <a href="../diagnostics.html" data-shell-i18n="navDiagnostics">Diagnostics</a>
+          <a href="../engines.html" data-shell-i18n="navEngines" class="active" aria-current="page">Engine Database</a>
+          <a href="../guides.html" data-shell-i18n="navGuides">Guides</a>
+        </nav>
+        <div class="site-language-switcher" aria-label="Language">
+          <button type="button" data-lang="en" class="selected">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="fr">FR</button>
+          <button type="button" data-lang="de">DE</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html" data-i18n="crumbHome">Home</a><span>/</span>
+      <a href="../engines.html" data-i18n="crumbEngines">Engines</a><span>/</span>
+      <span>B5202S</span>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">Volvo engine guide</p>
+        <h1 data-i18n="title">Volvo B5202S (B5202) engine</h1>
+        <p class="lead" data-i18n="lead">A naturally aspirated 2.0-liter inline-five used in the Volvo 850, S70 and V70. This guide separates verified factory performance from practical inspection notes.</p>
+      </div>
+      <aside class="verification" aria-label="Data verification status">
+        <strong data-i18n="verifiedTitle">Verified core specification</strong>
+        <p data-i18n="verifiedText">Engine identity, displacement, power and torque are backed by a Volvo manufacturer specification. Maintenance and buying notes still require confirmation for the exact VIN and market.</p>
+      </aside>
+    </section>
+
+    <section class="facts" aria-label="Key engine specifications">
+      <article class="fact"><span data-i18n="codeLabel">Engine code</span><strong>B5202S</strong></article>
+      <article class="fact"><span data-i18n="displacementLabel">Displacement</span><strong>1,984 cc</strong></article>
+      <article class="fact"><span data-i18n="powerLabel">Power</span><strong>93 kW / 126 hp</strong></article>
+      <article class="fact"><span data-i18n="torqueLabel">Torque</span><strong>170 Nm</strong></article>
+    </section>
+
+    <div class="layout">
+      <div class="content-stack">
+        <section class="panel" id="overview">
+          <h2 data-i18n="overviewTitle">Engine overview</h2>
+          <div class="panel-body">
+            <p data-i18n="overviewText">The B5202S belongs to Volvo's modular five-cylinder family. It combines an aluminium block with cast-iron liners, an aluminium DOHC 10-valve cylinder head, multipoint petrol injection and a timing belt. Its naturally aspirated layout keeps the hardware simpler than a turbocharged version, but age and service history are now central to any buying decision.</p>
+          </div>
+        </section>
+
+        <section class="panel" id="specifications">
+          <h2 data-i18n="specsTitle">Technical specifications</h2>
+          <div class="panel-body" style="padding:0">
+            <table class="spec-table">
+              <tbody>
+                <tr><th data-i18n="specCode">Code and alias</th><td>B5202S · B5202</td></tr>
+                <tr><th data-i18n="specYears">Catalog years</th><td>1995–2000</td></tr>
+                <tr><th data-i18n="specLayout">Configuration</th><td data-i18n="layoutValue">Inline-five · DOHC · 10 valves</td></tr>
+                <tr><th data-i18n="specBlock">Block and head</th><td data-i18n="blockValue">Aluminium block with cast-iron liners · aluminium cylinder head</td></tr>
+                <tr><th data-i18n="specFuel">Fuel and injection</th><td data-i18n="fuelValue">Petrol · multipoint injection · naturally aspirated</td></tr>
+                <tr><th data-i18n="specTiming">Timing drive</th><td data-i18n="timingValue">Timing belt</td></tr>
+                <tr><th data-i18n="specPower">Rated power</th><td>93 kW / 126 hp @ 6,250 rpm</td></tr>
+                <tr><th data-i18n="specTorque">Rated torque</th><td>170 Nm @ 4,800 rpm</td></tr>
+                <tr><th data-i18n="specApplications">Recorded applications</th><td>Volvo 850 · Volvo S70 · Volvo V70</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel" id="applications">
+          <h2 data-i18n="applicationsTitle">Cars fitted with the B5202S</h2>
+          <div class="panel-body">
+            <ul class="check-list">
+              <li>Volvo 850</li>
+              <li>Volvo S70</li>
+              <li>Volvo V70</li>
+            </ul>
+            <div class="callout" data-i18n="applicationsNote">Do not identify an engine from the model badge alone. Confirm the stamped engine code, VIN, production year and market before ordering parts.</div>
+          </div>
+        </section>
+
+        <section class="panel" id="maintenance">
+          <h2 data-i18n="maintenanceTitle">Timing belt and maintenance checks</h2>
+          <div class="panel-body">
+            <ul class="check-list">
+              <li data-i18n="maintenanceBelt">Ask for dated evidence of timing-belt, idler and tensioner work; inspect the water-pump area and follow the exact Volvo schedule.</li>
+              <li data-i18n="maintenancePcv">Check crankcase ventilation condition and look for oil leaks around aged seals and hoses.</li>
+              <li data-i18n="maintenanceCooling">Inspect cooling hoses, radiator, expansion tank and evidence of stable operating temperature.</li>
+              <li data-i18n="maintenanceIgnition">Investigate misfires, vacuum leaks and ignition faults before treating rough running as normal age.</li>
+            </ul>
+            <div class="callout" data-i18n="maintenanceNote">D3 Orient does not publish one universal belt or service interval for this engine. The correct interval can depend on model year, market and prior parts; use VIN-specific Volvo service information.</div>
+          </div>
+        </section>
+
+        <section class="panel" id="oil">
+          <h2 data-i18n="oilTitle">Engine oil</h2>
+          <div class="panel-body">
+            <p data-i18n="oilText">The current project record deliberately does not state a fixed viscosity, approval or fill quantity because a primary Volvo oil source has not yet been attached. Check the exact owner's or service manual, climate chart and dipstick procedure before buying or filling oil.</p>
+            <div class="actions">
+              <a class="primary" href="../oil-guide.html?engine=volvo-s70-b5202s" data-i18n="oilAction">Open the B5202S oil record</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="diagnostics">
+          <h2 data-i18n="diagnosticsTitle">Fuel system, ECU and diagnostics</h2>
+          <div class="panel-body">
+            <p data-i18n="diagnosticsText">The verified catalog identifies multipoint petrol injection, but the exact engine-management system, connector path and supported functions can vary by vehicle year and market. Match diagnostic software and hardware to the VIN and control unit rather than assuming every 850, S70 or V70 uses the same setup.</p>
+            <div class="actions">
+              <a class="primary" href="../diagnostics.html#vol-fcr" data-i18n="diagnosticsAction">See classic Volvo diagnostic tools</a>
+              <a href="../diagnostics.html#vida" data-i18n="vidaAction">Check the Volvo VIDA route</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="problems">
+          <h2 data-i18n="problemsTitle">Common age-related checks</h2>
+          <div class="panel-body">
+            <ul class="check-list">
+              <li data-i18n="problemPcv">Restricted crankcase ventilation and oil leaks.</li>
+              <li data-i18n="problemBelt">Unknown timing-belt, idler or water-pump history.</li>
+              <li data-i18n="problemCooling">Aged cooling hoses, radiator components or prior overheating.</li>
+              <li data-i18n="problemIgnition">Ignition faults, vacuum leaks and uneven running.</li>
+            </ul>
+            <p class="source-note" data-i18n="problemsNote">These are inspection priorities, not a claim that every B5202S has every fault.</p>
+          </div>
+        </section>
+
+        <section class="panel" id="reliability">
+          <h2 data-i18n="reliabilityTitle">Reliability and used-car verdict</h2>
+          <div class="panel-body">
+            <p data-i18n="reliabilityText">The simple naturally aspirated layout, durable core and broad repair knowledge are strengths. The trade-off is age: maintenance history can matter more than the odometer reading. The catalog's 300,000–450,000 km range is an observed reference, not a Volvo guarantee.</p>
+            <ul class="check-list">
+              <li data-i18n="buyerCold">Start the engine cold and listen for abnormal noise or uneven running.</li>
+              <li data-i18n="buyerFluids">Check oil and coolant condition, leaks and signs of mixing or overheating.</li>
+              <li data-i18n="buyerHistory">Prefer documented belt and cooling-system work over verbal assurances.</li>
+              <li data-i18n="buyerScan">Scan the exact vehicle with compatible equipment and investigate stored faults.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel" id="tuning">
+          <h2 data-i18n="tuningTitle">Tuning potential</h2>
+          <div class="panel-body">
+            <p data-i18n="tuningText">No project-verified power-gain figure is published for this naturally aspirated engine. Establish compression, oil pressure, cooling health, fuel control and the exact ECU first. Any hardware or calibration plan should be assessed for the specific engine and local road rules.</p>
+          </div>
+        </section>
+
+        <section class="panel" id="sources">
+          <h2 data-i18n="sourcesTitle">Sources and data scope</h2>
+          <div class="panel-body">
+            <p><strong>Volvo S70 Specifications 1997</strong> — Volvo Car Corporation, page 2.</p>
+            <p class="source-note" data-i18n="sourceScope">The cited page identifies B5202S and supports displacement, construction summary, 93 kW at 6,250 rpm and 170 Nm at 4,800 rpm. Practical maintenance notes remain guidance to verify against VIN-specific service documentation.</p>
+            <div class="actions">
+              <a class="primary" href="https://www.volvoclub.org.uk/tech/S70Specifications1997.pdf" rel="noopener" data-i18n="sourceAction">Open source document</a>
+              <a href="../contact.html?topic=engine-data&amp;engine=B5202S" data-i18n="correctionAction">Send a correction</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="side-card" aria-labelledby="contentsTitle">
+        <h2 id="contentsTitle" data-i18n="contentsTitle">On this page</h2>
+        <a href="#overview" data-i18n="contentsOverview">Overview</a>
+        <a href="#specifications" data-i18n="contentsSpecs">Specifications</a>
+        <a href="#applications" data-i18n="contentsApplications">Applications</a>
+        <a href="#maintenance" data-i18n="contentsMaintenance">Maintenance</a>
+        <a href="#oil" data-i18n="contentsOil">Engine oil</a>
+        <a href="#diagnostics" data-i18n="contentsDiagnostics">Diagnostics</a>
+        <a href="#problems" data-i18n="contentsProblems">Common checks</a>
+        <a href="#reliability" data-i18n="contentsReliability">Reliability</a>
+        <a href="#tuning" data-i18n="contentsTuning">Tuning</a>
+        <a href="#sources" data-i18n="contentsSources">Sources</a>
+        <a href="../engines.html?engine=volvo-b5244s" data-i18n="relatedB5244">Related: Volvo B5244S</a>
+        <a href="../engines.html?engine=volvo-b5254t" data-i18n="relatedB5254">Related: Volvo B5254T</a>
+        <a href="../pcd/volvo/s70.html" data-i18n="s70Wheels">Volvo S70 wheel fitment</a>
+      </aside>
+    </div>
+  </main>
+
+  <script>
+    const translations = {
+      en: {
+        pageTitle: 'Volvo B5202S Engine Specs, Problems & Reliability | D3 Orient',
+        metaDescription: 'Volvo B5202S engine guide: verified 2.0-liter five-cylinder specifications, applications, common checks, timing belt, oil and diagnostics notes.',
+        crumbHome: 'Home', crumbEngines: 'Engines', eyebrow: 'Volvo engine guide', title: 'Volvo B5202S (B5202) engine',
+        lead: 'A naturally aspirated 2.0-liter inline-five used in the Volvo 850, S70 and V70. This guide separates verified factory performance from practical inspection notes.',
+        verifiedTitle: 'Verified core specification', verifiedText: 'Engine identity, displacement, power and torque are backed by a Volvo manufacturer specification. Maintenance and buying notes still require confirmation for the exact VIN and market.',
+        codeLabel: 'Engine code', displacementLabel: 'Displacement', powerLabel: 'Power', torqueLabel: 'Torque',
+        overviewTitle: 'Engine overview', overviewText: "The B5202S belongs to Volvo's modular five-cylinder family. It combines an aluminium block with cast-iron liners, an aluminium DOHC 10-valve cylinder head, multipoint petrol injection and a timing belt. Its naturally aspirated layout keeps the hardware simpler than a turbocharged version, but age and service history are now central to any buying decision.",
+        specsTitle: 'Technical specifications', specCode: 'Code and alias', specYears: 'Catalog years', specLayout: 'Configuration', layoutValue: 'Inline-five · DOHC · 10 valves', specBlock: 'Block and head', blockValue: 'Aluminium block with cast-iron liners · aluminium cylinder head', specFuel: 'Fuel and injection', fuelValue: 'Petrol · multipoint injection · naturally aspirated', specTiming: 'Timing drive', timingValue: 'Timing belt', specPower: 'Rated power', specTorque: 'Rated torque', specApplications: 'Recorded applications',
+        applicationsTitle: 'Cars fitted with the B5202S', applicationsNote: 'Do not identify an engine from the model badge alone. Confirm the stamped engine code, VIN, production year and market before ordering parts.',
+        maintenanceTitle: 'Timing belt and maintenance checks', maintenanceBelt: 'Ask for dated evidence of timing-belt, idler and tensioner work; inspect the water-pump area and follow the exact Volvo schedule.', maintenancePcv: 'Check crankcase ventilation condition and look for oil leaks around aged seals and hoses.', maintenanceCooling: 'Inspect cooling hoses, radiator, expansion tank and evidence of stable operating temperature.', maintenanceIgnition: 'Investigate misfires, vacuum leaks and ignition faults before treating rough running as normal age.', maintenanceNote: 'D3 Orient does not publish one universal belt or service interval for this engine. The correct interval can depend on model year, market and prior parts; use VIN-specific Volvo service information.',
+        oilTitle: 'Engine oil', oilText: "The current project record deliberately does not state a fixed viscosity, approval or fill quantity because a primary Volvo oil source has not yet been attached. Check the exact owner's or service manual, climate chart and dipstick procedure before buying or filling oil.", oilAction: 'Open the B5202S oil record',
+        diagnosticsTitle: 'Fuel system, ECU and diagnostics', diagnosticsText: 'The verified catalog identifies multipoint petrol injection, but the exact engine-management system, connector path and supported functions can vary by vehicle year and market. Match diagnostic software and hardware to the VIN and control unit rather than assuming every 850, S70 or V70 uses the same setup.', diagnosticsAction: 'See classic Volvo diagnostic tools', vidaAction: 'Check the Volvo VIDA route',
+        problemsTitle: 'Common age-related checks', problemPcv: 'Restricted crankcase ventilation and oil leaks.', problemBelt: 'Unknown timing-belt, idler or water-pump history.', problemCooling: 'Aged cooling hoses, radiator components or prior overheating.', problemIgnition: 'Ignition faults, vacuum leaks and uneven running.', problemsNote: 'These are inspection priorities, not a claim that every B5202S has every fault.',
+        reliabilityTitle: 'Reliability and used-car verdict', reliabilityText: "The simple naturally aspirated layout, durable core and broad repair knowledge are strengths. The trade-off is age: maintenance history can matter more than the odometer reading. The catalog's 300,000–450,000 km range is an observed reference, not a Volvo guarantee.", buyerCold: 'Start the engine cold and listen for abnormal noise or uneven running.', buyerFluids: 'Check oil and coolant condition, leaks and signs of mixing or overheating.', buyerHistory: 'Prefer documented belt and cooling-system work over verbal assurances.', buyerScan: 'Scan the exact vehicle with compatible equipment and investigate stored faults.',
+        tuningTitle: 'Tuning potential', tuningText: 'No project-verified power-gain figure is published for this naturally aspirated engine. Establish compression, oil pressure, cooling health, fuel control and the exact ECU first. Any hardware or calibration plan should be assessed for the specific engine and local road rules.',
+        sourcesTitle: 'Sources and data scope', sourceScope: 'The cited page identifies B5202S and supports displacement, construction summary, 93 kW at 6,250 rpm and 170 Nm at 4,800 rpm. Practical maintenance notes remain guidance to verify against VIN-specific service documentation.', sourceAction: 'Open source document', correctionAction: 'Send a correction',
+        contentsTitle: 'On this page', contentsOverview: 'Overview', contentsSpecs: 'Specifications', contentsApplications: 'Applications', contentsMaintenance: 'Maintenance', contentsOil: 'Engine oil', contentsDiagnostics: 'Diagnostics', contentsProblems: 'Common checks', contentsReliability: 'Reliability', contentsTuning: 'Tuning', contentsSources: 'Sources', relatedB5244: 'Related: Volvo B5244S', relatedB5254: 'Related: Volvo B5254T', s70Wheels: 'Volvo S70 wheel fitment'
+      },
+      es: {
+        pageTitle: 'Motor Volvo B5202S: ficha, problemas y fiabilidad | D3 Orient',
+        metaDescription: 'Guía del motor Volvo B5202S: datos verificados del cinco cilindros 2,0, aplicaciones, revisiones, correa, aceite y diagnóstico.',
+        crumbHome: 'Inicio', crumbEngines: 'Motores', eyebrow: 'Guía de motores Volvo', title: 'Motor Volvo B5202S (B5202)',
+        lead: 'Cinco cilindros atmosférico de 2,0 litros usado en Volvo 850, S70 y V70. La guía separa los datos de fábrica verificados de las revisiones prácticas.',
+        verifiedTitle: 'Especificación principal verificada', verifiedText: 'La identidad, cilindrada, potencia y par están respaldados por una especificación de Volvo. El mantenimiento y la compra deben confirmarse para el VIN y mercado exactos.',
+        codeLabel: 'Código de motor', displacementLabel: 'Cilindrada', powerLabel: 'Potencia', torqueLabel: 'Par',
+        overviewTitle: 'Resumen del motor', overviewText: 'El B5202S pertenece a la familia modular de cinco cilindros de Volvo. Combina bloque de aluminio con camisas de hierro, culata de aluminio DOHC de 10 válvulas, inyección multipunto y correa de distribución. Su diseño atmosférico es más simple que uno turbo, pero la edad y el historial son decisivos.',
+        specsTitle: 'Especificaciones técnicas', specCode: 'Código y alias', specYears: 'Años del catálogo', specLayout: 'Configuración', layoutValue: 'Cinco cilindros en línea · DOHC · 10 válvulas', specBlock: 'Bloque y culata', blockValue: 'Bloque de aluminio con camisas de hierro · culata de aluminio', specFuel: 'Combustible e inyección', fuelValue: 'Gasolina · inyección multipunto · atmosférico', specTiming: 'Distribución', timingValue: 'Correa de distribución', specPower: 'Potencia nominal', specTorque: 'Par nominal', specApplications: 'Aplicaciones registradas',
+        applicationsTitle: 'Coches con B5202S', applicationsNote: 'No identifiques el motor solo por el emblema del modelo. Confirma código estampado, VIN, año de producción y mercado antes de pedir piezas.',
+        maintenanceTitle: 'Correa y revisiones de mantenimiento', maintenanceBelt: 'Pide pruebas fechadas de correa, rodillos y tensor; revisa la zona de la bomba de agua y sigue el programa Volvo exacto.', maintenancePcv: 'Comprueba la ventilación del cárter y busca fugas en retenes y manguitos envejecidos.', maintenanceCooling: 'Revisa manguitos, radiador, vaso de expansión y estabilidad de temperatura.', maintenanceIgnition: 'Investiga fallos de encendido, fugas de vacío y tirones; no los aceptes como edad normal.', maintenanceNote: 'D3 Orient no publica un intervalo universal para este motor. Puede depender de año, mercado y piezas anteriores; usa información Volvo específica del VIN.',
+        oilTitle: 'Aceite del motor', oilText: 'El registro actual no indica viscosidad, homologación ni cantidad fija porque aún no tiene una fuente primaria Volvo de aceite. Comprueba el manual exacto, tabla climática y procedimiento de varilla antes de comprar o llenar.', oilAction: 'Abrir ficha de aceite B5202S',
+        diagnosticsTitle: 'Combustible, ECU y diagnóstico', diagnosticsText: 'El catálogo confirma inyección multipunto, pero la gestión, conexión y funciones pueden variar por año y mercado. Adapta software y hardware al VIN y a la unidad de control; no supongas que todos los 850, S70 o V70 son iguales.', diagnosticsAction: 'Ver herramientas para Volvo clásicos', vidaAction: 'Comprobar la vía Volvo VIDA',
+        problemsTitle: 'Revisiones comunes por edad', problemPcv: 'Ventilación del cárter restringida y fugas de aceite.', problemBelt: 'Historial desconocido de correa, rodillos o bomba de agua.', problemCooling: 'Manguitos y radiador envejecidos o sobrecalentamiento previo.', problemIgnition: 'Fallos de encendido, fugas de vacío y marcha irregular.', problemsNote: 'Son prioridades de inspección, no una afirmación de que todos los B5202S fallen igual.',
+        reliabilityTitle: 'Fiabilidad y veredicto de compra', reliabilityText: 'El diseño atmosférico sencillo, el núcleo duradero y la experiencia de reparación son ventajas. La edad es la contrapartida: el historial puede importar más que el kilometraje. Los 300.000–450.000 km del catálogo son una referencia observada, no una garantía Volvo.', buyerCold: 'Arranca en frío y escucha ruidos anómalos o marcha irregular.', buyerFluids: 'Comprueba aceite, refrigerante, fugas y señales de mezcla o calentamiento.', buyerHistory: 'Prefiere trabajos documentados de correa y refrigeración.', buyerScan: 'Escanea el vehículo con equipo compatible e investiga los fallos guardados.',
+        tuningTitle: 'Potencial de preparación', tuningText: 'No se publica una ganancia de potencia verificada para este motor atmosférico. Comprueba primero compresión, presión de aceite, refrigeración, control de combustible y ECU exacta. Evalúa cualquier modificación para el motor y normativa local.',
+        sourcesTitle: 'Fuentes y alcance', sourceScope: 'La página citada identifica B5202S y respalda cilindrada, construcción, 93 kW a 6.250 rpm y 170 Nm a 4.800 rpm. Las notas prácticas deben verificarse con documentación específica del VIN.', sourceAction: 'Abrir documento fuente', correctionAction: 'Enviar corrección',
+        contentsTitle: 'En esta página', contentsOverview: 'Resumen', contentsSpecs: 'Especificaciones', contentsApplications: 'Aplicaciones', contentsMaintenance: 'Mantenimiento', contentsOil: 'Aceite', contentsDiagnostics: 'Diagnóstico', contentsProblems: 'Revisiones comunes', contentsReliability: 'Fiabilidad', contentsTuning: 'Preparación', contentsSources: 'Fuentes', relatedB5244: 'Relacionado: Volvo B5244S', relatedB5254: 'Relacionado: Volvo B5254T', s70Wheels: 'Llantas y neumáticos Volvo S70'
+      },
+      fr: {
+        pageTitle: 'Moteur Volvo B5202S : fiche, problèmes et fiabilité | D3 Orient',
+        metaDescription: 'Guide moteur Volvo B5202S : données vérifiées du cinq-cylindres 2,0 l, applications, contrôles, courroie, huile et diagnostic.',
+        crumbHome: 'Accueil', crumbEngines: 'Moteurs', eyebrow: 'Guide moteur Volvo', title: 'Moteur Volvo B5202S (B5202)',
+        lead: 'Cinq-cylindres atmosphérique de 2,0 litres monté sur Volvo 850, S70 et V70. Ce guide sépare les données usine vérifiées des contrôles pratiques.',
+        verifiedTitle: 'Spécification principale vérifiée', verifiedText: "L'identité, la cylindrée, la puissance et le couple reposent sur une spécification Volvo. Entretien et achat restent à confirmer selon le VIN et le marché.",
+        codeLabel: 'Code moteur', displacementLabel: 'Cylindrée', powerLabel: 'Puissance', torqueLabel: 'Couple',
+        overviewTitle: 'Présentation du moteur', overviewText: "Le B5202S appartient à la famille modulaire cinq-cylindres Volvo. Il associe bloc aluminium avec chemises fonte, culasse aluminium DOHC 10 soupapes, injection multipoint et courroie. L'architecture atmosphérique est plus simple qu'une version turbo, mais l'âge et l'historique sont essentiels.",
+        specsTitle: 'Caractéristiques techniques', specCode: 'Code et alias', specYears: 'Années du catalogue', specLayout: 'Configuration', layoutValue: 'Cinq cylindres en ligne · DOHC · 10 soupapes', specBlock: 'Bloc et culasse', blockValue: 'Bloc aluminium avec chemises fonte · culasse aluminium', specFuel: 'Carburant et injection', fuelValue: 'Essence · injection multipoint · atmosphérique', specTiming: 'Distribution', timingValue: 'Courroie de distribution', specPower: 'Puissance nominale', specTorque: 'Couple nominal', specApplications: 'Applications recensées',
+        applicationsTitle: 'Voitures équipées du B5202S', applicationsNote: "N'identifiez pas le moteur avec le seul badge du modèle. Confirmez le code frappé, le VIN, l'année et le marché avant de commander des pièces.",
+        maintenanceTitle: "Courroie et contrôles d'entretien", maintenanceBelt: 'Demandez une preuve datée pour courroie, galets et tendeur ; inspectez la pompe à eau et suivez le programme Volvo exact.', maintenancePcv: "Contrôlez la ventilation du carter et les fuites autour des joints et durites âgés.", maintenanceCooling: 'Inspectez durites, radiateur, vase d’expansion et stabilité de température.', maintenanceIgnition: "Recherchez ratés, fuites de dépression et défauts d'allumage sans les attribuer simplement à l'âge.", maintenanceNote: "D3 Orient ne publie pas un intervalle universel pour ce moteur. Il dépend de l'année, du marché et des pièces précédentes ; utilisez les données Volvo propres au VIN.",
+        oilTitle: 'Huile moteur', oilText: "La fiche actuelle n'indique volontairement ni viscosité, ni homologation, ni quantité fixe car aucune source primaire Volvo d'huile n'est encore jointe. Vérifiez le manuel exact, le tableau climatique et la procédure de jauge.", oilAction: "Ouvrir la fiche d'huile B5202S",
+        diagnosticsTitle: 'Carburant, ECU et diagnostic', diagnosticsText: "Le catalogue confirme l'injection multipoint, mais la gestion moteur, la connexion et les fonctions varient selon l'année et le marché. Associez logiciel et matériel au VIN et au calculateur plutôt que de supposer tous les 850, S70 et V70 identiques.", diagnosticsAction: 'Voir les outils Volvo classiques', vidaAction: 'Vérifier la voie Volvo VIDA',
+        problemsTitle: "Contrôles courants liés à l'âge", problemPcv: "Ventilation du carter restreinte et fuites d'huile.", problemBelt: 'Historique inconnu de courroie, galets ou pompe à eau.', problemCooling: 'Durites ou radiateur âgés et éventuelle surchauffe antérieure.', problemIgnition: "Défauts d'allumage, fuites de dépression et fonctionnement irrégulier.", problemsNote: "Ce sont des priorités d'inspection, pas l'affirmation que chaque B5202S présente chaque défaut.",
+        reliabilityTitle: "Fiabilité et verdict d'achat", reliabilityText: "L'architecture atmosphérique simple, le cœur robuste et les connaissances de réparation sont des atouts. En contrepartie, l'âge compte parfois plus que le kilométrage. La plage de 300 000–450 000 km est une observation, pas une garantie Volvo.", buyerCold: 'Démarrez à froid et écoutez les bruits ou irrégularités.', buyerFluids: "Contrôlez huile, liquide de refroidissement, fuites et traces de mélange ou surchauffe.", buyerHistory: 'Préférez un entretien documenté de la courroie et du refroidissement.', buyerScan: 'Scannez le véhicule avec un équipement compatible et analysez les défauts mémorisés.',
+        tuningTitle: 'Potentiel de préparation', tuningText: "Aucun gain de puissance vérifié n'est publié pour ce moteur atmosphérique. Vérifiez d'abord compression, pression d'huile, refroidissement, alimentation et ECU exacte. Évaluez tout projet selon le moteur et la réglementation locale.",
+        sourcesTitle: 'Sources et périmètre', sourceScope: 'La page citée identifie B5202S et confirme cylindrée, construction, 93 kW à 6 250 tr/min et 170 Nm à 4 800 tr/min. Les conseils pratiques restent à vérifier avec les documents liés au VIN.', sourceAction: 'Ouvrir le document source', correctionAction: 'Envoyer une correction',
+        contentsTitle: 'Sur cette page', contentsOverview: 'Présentation', contentsSpecs: 'Caractéristiques', contentsApplications: 'Applications', contentsMaintenance: 'Entretien', contentsOil: 'Huile moteur', contentsDiagnostics: 'Diagnostic', contentsProblems: 'Contrôles courants', contentsReliability: 'Fiabilité', contentsTuning: 'Préparation', contentsSources: 'Sources', relatedB5244: 'Associé : Volvo B5244S', relatedB5254: 'Associé : Volvo B5254T', s70Wheels: 'Roues et pneus Volvo S70'
+      },
+      de: {
+        pageTitle: 'Volvo B5202S Motor: Daten, Probleme & Haltbarkeit | D3 Orient',
+        metaDescription: 'Volvo-B5202S-Motorleitfaden: geprüfte Daten zum 2,0-l-Fünfzylinder, Fahrzeuge, Prüfpunkte, Zahnriemen, Öl und Diagnose.',
+        crumbHome: 'Startseite', crumbEngines: 'Motoren', eyebrow: 'Volvo-Motorleitfaden', title: 'Volvo B5202S (B5202) Motor',
+        lead: 'Ein 2,0-Liter-Saugmotor mit fünf Zylindern für Volvo 850, S70 und V70. Der Leitfaden trennt geprüfte Werksdaten von praktischen Prüfpunkten.',
+        verifiedTitle: 'Kerndaten verifiziert', verifiedText: 'Identität, Hubraum, Leistung und Drehmoment sind durch eine Volvo-Herstellerspezifikation belegt. Wartung und Kaufprüfung müssen zum genauen VIN und Markt passen.',
+        codeLabel: 'Motorcode', displacementLabel: 'Hubraum', powerLabel: 'Leistung', torqueLabel: 'Drehmoment',
+        overviewTitle: 'Motorübersicht', overviewText: 'Der B5202S gehört zur modularen Volvo-Fünfzylinderfamilie. Er kombiniert Aluminiumblock mit Grauguss-Laufbuchsen, Aluminium-DOHC-Zylinderkopf mit 10 Ventilen, Saugrohreinspritzung und Zahnriemen. Der Saugmotor ist einfacher als eine Turboversion; Alter und Wartungshistorie sind heute entscheidend.',
+        specsTitle: 'Technische Daten', specCode: 'Code und Alias', specYears: 'Katalogjahre', specLayout: 'Bauart', layoutValue: 'Reihenfünfzylinder · DOHC · 10 Ventile', specBlock: 'Block und Kopf', blockValue: 'Aluminiumblock mit Grauguss-Laufbuchsen · Aluminium-Zylinderkopf', specFuel: 'Kraftstoff und Einspritzung', fuelValue: 'Benzin · Saugrohreinspritzung · Saugmotor', specTiming: 'Steuertrieb', timingValue: 'Zahnriemen', specPower: 'Nennleistung', specTorque: 'Nenndrehmoment', specApplications: 'Erfasste Fahrzeuge',
+        applicationsTitle: 'Fahrzeuge mit B5202S', applicationsNote: 'Motor nicht allein anhand des Modellzeichens bestimmen. Vor Teilebestellung eingeschlagenen Motorcode, VIN, Produktionsjahr und Markt prüfen.',
+        maintenanceTitle: 'Zahnriemen und Wartungsprüfungen', maintenanceBelt: 'Datierte Nachweise für Zahnriemen, Rollen und Spanner verlangen; Wasserpumpenbereich prüfen und den genauen Volvo-Plan beachten.', maintenancePcv: 'Kurbelgehäuseentlüftung prüfen und an gealterten Dichtungen und Schläuchen nach Öllecks suchen.', maintenanceCooling: 'Kühlschläuche, Kühler, Ausgleichsbehälter und stabile Betriebstemperatur prüfen.', maintenanceIgnition: 'Fehlzündungen, Unterdrucklecks und Zündfehler untersuchen und nicht als normales Alter abtun.', maintenanceNote: 'D3 Orient nennt kein universelles Intervall für diesen Motor. Baujahr, Markt und verbaute Teile können es ändern; VIN-spezifische Volvo-Serviceinformationen verwenden.',
+        oilTitle: 'Motoröl', oilText: 'Der aktuelle Datensatz nennt bewusst keine feste Viskosität, Freigabe oder Füllmenge, da noch keine primäre Volvo-Ölquelle hinterlegt ist. Vor Kauf und Befüllung genaues Handbuch, Temperaturtabelle und Peilstabverfahren prüfen.', oilAction: 'B5202S-Öldatensatz öffnen',
+        diagnosticsTitle: 'Kraftstoffsystem, ECU und Diagnose', diagnosticsText: 'Der Katalog bestätigt Saugrohreinspritzung; genaue Motorsteuerung, Anschluss und Funktionen können sich nach Baujahr und Markt unterscheiden. Software und Hardware nach VIN und Steuergerät wählen, statt alle 850, S70 und V70 gleichzusetzen.', diagnosticsAction: 'Diagnosewerkzeuge für klassische Volvo', vidaAction: 'Volvo-VIDA-Weg prüfen',
+        problemsTitle: 'Häufige altersbedingte Prüfpunkte', problemPcv: 'Eingeschränkte Kurbelgehäuseentlüftung und Öllecks.', problemBelt: 'Unbekannte Historie von Zahnriemen, Rollen oder Wasserpumpe.', problemCooling: 'Gealterte Kühlerschläuche, Kühlerteile oder frühere Überhitzung.', problemIgnition: 'Zündfehler, Unterdrucklecks und unrunder Lauf.', problemsNote: 'Das sind Prüfschwerpunkte, keine Aussage, dass jeder B5202S jeden Fehler hat.',
+        reliabilityTitle: 'Haltbarkeit und Gebrauchtwagenurteil', reliabilityText: 'Einfacher Saugmotor, haltbarer Grundmotor und breites Reparaturwissen sind Stärken. Das Alter ist die Kehrseite: Die Wartung kann wichtiger als der Kilometerstand sein. 300.000–450.000 km sind ein beobachteter Richtwert, keine Volvo-Garantie.', buyerCold: 'Motor kalt starten und auf ungewöhnliche Geräusche oder unrunden Lauf achten.', buyerFluids: 'Öl, Kühlmittel, Lecks sowie Mischungs- oder Überhitzungsspuren prüfen.', buyerHistory: 'Dokumentierte Zahnriemen- und Kühlsystemarbeiten bevorzugen.', buyerScan: 'Fahrzeug mit kompatibler Ausrüstung auslesen und gespeicherte Fehler klären.',
+        tuningTitle: 'Tuningpotenzial', tuningText: 'Für diesen Saugmotor wird kein projektseitig verifizierter Leistungszuwachs genannt. Zuerst Kompression, Öldruck, Kühlung, Kraftstoffregelung und genaue ECU feststellen. Umbauten und Software auf Motor und örtliche Vorschriften abstimmen.',
+        sourcesTitle: 'Quellen und Datenumfang', sourceScope: 'Die zitierte Seite identifiziert B5202S und belegt Hubraum, Bauart, 93 kW bei 6.250 U/min und 170 Nm bei 4.800 U/min. Praktische Hinweise sind mit VIN-bezogenen Unterlagen zu prüfen.', sourceAction: 'Quelldokument öffnen', correctionAction: 'Korrektur senden',
+        contentsTitle: 'Auf dieser Seite', contentsOverview: 'Übersicht', contentsSpecs: 'Technische Daten', contentsApplications: 'Fahrzeuge', contentsMaintenance: 'Wartung', contentsOil: 'Motoröl', contentsDiagnostics: 'Diagnose', contentsProblems: 'Prüfpunkte', contentsReliability: 'Haltbarkeit', contentsTuning: 'Tuning', contentsSources: 'Quellen', relatedB5244: 'Verwandt: Volvo B5244S', relatedB5254: 'Verwandt: Volvo B5254T', s70Wheels: 'Volvo S70 Radpassung'
+      }
+    };
+
+    const initialUrl = new URL(window.location.href);
+    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
+
+    function translatePage() {
+      const dictionary = translations[lang];
+      document.documentElement.lang = lang;
+      document.title = dictionary.pageTitle;
+      document.querySelector('meta[name="description"]').setAttribute('content', dictionary.metaDescription);
+      document.querySelectorAll('[data-i18n]').forEach((node) => {
+        node.textContent = dictionary[node.dataset.i18n] || translations.en[node.dataset.i18n] || node.textContent;
+      });
+      document.querySelectorAll('[data-lang]').forEach((button) => {
+        button.classList.toggle('selected', button.dataset.lang === lang);
+      });
+    }
+
+    document.querySelectorAll('[data-lang]').forEach((button) => {
+      button.addEventListener('click', () => {
+        lang = button.dataset.lang;
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+        translatePage();
+      });
+    });
+
+    translatePage();
+  </script>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div>
+        <a class="site-footer-brand" href="../index.html" aria-label="D3 Orient home">
+          <span>D</span><span class="site-brand-three">3</span><span class="site-brand-word">Orient</span>
+        </a>
+        <p data-shell-i18n="footerTagline">Practical automotive tools, technical databases and clear safety notes.</p>
+      </div>
+      <nav class="site-footer-links" aria-label="Footer navigation">
+        <a href="../oil-guide.html" data-shell-i18n="footerOil">Oil Guide</a>
+        <a href="../wheel-fitment-basics.html" data-shell-i18n="footerWheel">Wheel Fitment Basics</a>
+        <a href="../about.html" data-shell-i18n="footerAbout">About</a>
+        <a href="../contact.html" data-shell-i18n="footerContact">Contact</a>
+        <a href="../privacy.html" data-shell-i18n="footerPrivacy">Privacy Policy</a>
+        <a href="../affiliate-disclosure.html" data-shell-i18n="footerAffiliate">Affiliate Disclosure</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
