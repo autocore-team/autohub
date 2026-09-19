@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://autocore-team.github.io/autohub/data/engines/source/schema.json",
+  "$id": "https://d3orient.com/data/engines/source/schema.json",
   "title": "AutoHub regional engine source file",
   "type": "object",
   "additionalProperties": false,
