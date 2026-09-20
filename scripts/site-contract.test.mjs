@@ -175,7 +175,7 @@ function mockElement({ href = '', dataset = {}, classes = [] } = {}) {
 const internalLink = mockElement({ href: 'guides.html?topic=wheels#steps' });
 const tireLink = mockElement({ href: 'tire-calculator.html' });
 const englishOnlyLink = mockElement({ href: 'pcd/bmw/e46.html' });
-const mailLink = mockElement({ href: 'mailto:autocore.team@gmail.com' });
+const mailLink = mockElement({ href: 'mailto:contact@d3orient.com' });
 const externalLink = mockElement({ href: 'https://example.org/tool.html' });
 const anchorLink = mockElement({ href: '#tools' });
 const shellAnchors = [internalLink, tireLink, englishOnlyLink, mailLink, externalLink, anchorLink];
@@ -204,7 +204,7 @@ check(shellLabel.textContent === 'Startseite', 'Site shell did not translate fro
 check(internalLink.getAttribute('href') === 'guides.html?topic=wheels&lang=de#steps', 'Site shell did not preserve query/hash while adding lang');
 check(tireLink.getAttribute('href') === 'tire-calculator.html?lang=de', 'Site shell did not pass lang to a localized internal page');
 check(englishOnlyLink.getAttribute('href') === 'pcd/bmw/e46.html', 'Site shell added lang to an EN-only PCD page');
-check(mailLink.getAttribute('href') === 'mailto:autocore.team@gmail.com', 'Site shell changed a mailto link');
+check(mailLink.getAttribute('href') === 'mailto:contact@d3orient.com', 'Site shell changed a mailto link');
 check(externalLink.getAttribute('href') === 'https://example.org/tool.html', 'Site shell changed an external link');
 check(anchorLink.getAttribute('href') === '#tools', 'Site shell changed an anchor link');
 toggle.dispatch('click');
@@ -285,6 +285,7 @@ for (const absoluteFile of htmlFiles) {
   check(content.includes('class="site-footer"'), `${relativeFile} is missing the shared footer`);
   check(content.includes('site-menu-toggle'), `${relativeFile} is missing the mobile menu toggle`);
   check(!content.includes('href="/autohub/'), `${relativeFile} still contains a hard-coded /autohub/ navigation link`);
+  check(!content.toLowerCase().includes('autocore.team@gmail.com'), `${relativeFile} contains the retired public contact address`);
 
   const canonicalMatches = [...content.matchAll(/<link\s+rel="canonical"\s+href="([^"]+)"\s*\/?\s*>/gi)];
   check(canonicalMatches.length === 1, `${relativeFile} must have exactly one canonical URL`);
@@ -328,6 +329,12 @@ for (const absoluteFile of htmlFiles) {
 }
 check(brokenLinks.length === 0, `Broken internal links:\n${brokenLinks.join('\n')}`);
 console.log(`PASS shared navigation, footer and internal links across ${htmlFiles.length} HTML pages`);
+
+const publicEmailMarkup = '<a href="mailto:contact@d3orient.com">contact@d3orient.com</a>';
+for (const relativeFile of ['contact.html', 'privacy.html']) {
+  check(read(relativeFile).includes(publicEmailMarkup), `${relativeFile} does not expose the current public contact address`);
+}
+console.log('PASS public contact email is current and the retired Gmail address is absent from HTML');
 
 const allProjectFiles = walk(root);
 const cname = read('CNAME');

@@ -159,6 +159,6 @@ Commands:
 
 ## Contact
 
-Email: [autocore.team@gmail.com](mailto:autocore.team@gmail.com)
+Email: [contact@d3orient.com](mailto:contact@d3orient.com)
 
 Use this email to report broken links, suggest diagnostic software, send corrections or contact D3 Orient about cooperation.
