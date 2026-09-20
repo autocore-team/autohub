@@ -52,6 +52,7 @@ console.log('PASS required homepage and tire calculator files exist');
 
 const indexHtml = read('index.html');
 const tireHtml = read('tire-calculator.html');
+const pcdHtml = read('pcd.html');
 const b5202Html = read('engines/volvo-b5202.html');
 const enginesHtml = read('engines.html');
 
@@ -81,9 +82,11 @@ console.log(`PASS ${criticalIds.length} critical calculator DOM ids are intact`)
 
 const tireTranslations = translationsFrom(tireHtml, 'Calculator');
 const homeTranslations = translationsFrom(indexHtml, 'Homepage');
+const pcdTranslations = translationsFrom(pcdHtml, 'PCD database');
 const b5202Translations = translationsFrom(b5202Html, 'B5202 guide');
 const tireTranslationCount = assertTranslationParity(tireTranslations, 'Calculator');
 const homeTranslationCount = assertTranslationParity(homeTranslations, 'Homepage');
+const pcdTranslationCount = assertTranslationParity(pcdTranslations, 'PCD database');
 const b5202TranslationCount = assertTranslationParity(b5202Translations, 'B5202 guide');
 const b5202PageScript = b5202Html.match(/<script>\s*(const translations = [\s\S]*?)<\/script>/);
 check(b5202PageScript, 'B5202 localization script is missing');
@@ -93,6 +96,7 @@ for (const match of b5202Html.matchAll(/data-i18n="([^"]+)"/g)) {
 }
 console.log(`PASS calculator translations match across four languages (${tireTranslationCount} keys)`);
 console.log(`PASS homepage translations match across four languages (${homeTranslationCount} keys)`);
+console.log(`PASS PCD translations match across four languages (${pcdTranslationCount} keys)`);
 console.log(`PASS B5202 guide translations match across four languages (${b5202TranslationCount} keys)`);
 
 const requiredB5202Sections = ['overview', 'specifications', 'applications', 'maintenance', 'oil', 'diagnostics', 'problems', 'reliability', 'tuning', 'sources'];
@@ -175,6 +179,7 @@ function mockElement({ href = '', dataset = {}, classes = [] } = {}) {
 const internalLink = mockElement({ href: 'guides.html?topic=wheels#steps' });
 const tireLink = mockElement({ href: 'tire-calculator.html' });
 const englishOnlyLink = mockElement({ href: 'pcd/bmw/e46.html' });
+englishOnlyLink.setAttribute('data-no-lang', '');
 const mailLink = mockElement({ href: 'mailto:contact@d3orient.com' });
 const externalLink = mockElement({ href: 'https://example.org/tool.html' });
 const anchorLink = mockElement({ href: '#tools' });
@@ -187,6 +192,7 @@ const toggle = mockElement();
 const documentListeners = new Map();
 const documentMock = {
   documentElement: { classList: new MockClassList() },
+  body: { dataset: {} },
   getElementById(id) { return id === 'site-menu' ? menu : null; },
   querySelector(selector) { return selector === '.site-menu-toggle' ? toggle : null; },
   querySelectorAll(selector) {
@@ -203,7 +209,7 @@ check(documentMock.documentElement.classList.contains('site-shell-ready'), 'Site
 check(shellLabel.textContent === 'Startseite', 'Site shell did not translate from the current lang parameter');
 check(internalLink.getAttribute('href') === 'guides.html?topic=wheels&lang=de#steps', 'Site shell did not preserve query/hash while adding lang');
 check(tireLink.getAttribute('href') === 'tire-calculator.html?lang=de', 'Site shell did not pass lang to a localized internal page');
-check(englishOnlyLink.getAttribute('href') === 'pcd/bmw/e46.html', 'Site shell added lang to an EN-only PCD page');
+check(englishOnlyLink.getAttribute('href') === 'pcd/bmw/e46.html', 'Site shell ignored declarative data-no-lang');
 check(mailLink.getAttribute('href') === 'mailto:contact@d3orient.com', 'Site shell changed a mailto link');
 check(externalLink.getAttribute('href') === 'https://example.org/tool.html', 'Site shell changed an external link');
 check(anchorLink.getAttribute('href') === '#tools', 'Site shell changed an anchor link');
@@ -217,6 +223,28 @@ check(!menu.classList.contains('is-open') && toggle.focused, 'Escape did not clo
 languageButtons.find((button) => button.dataset.lang === 'es').dispatch('click');
 check(tireLink.getAttribute('href') === 'tire-calculator.html?lang=es', 'Language switch did not refresh internal links');
 console.log('PASS shared shell language propagation and mobile menu interactions');
+
+const enOnlyLabel = mockElement({ dataset: { shellI18n: 'navHome' } });
+const enOnlyDocument = {
+  documentElement: { classList: new MockClassList() },
+  body: { dataset: { languageMode: 'en-only' } },
+  getElementById() { return null; },
+  querySelector() { return null; },
+  querySelectorAll(selector) {
+    if (selector === '[data-shell-i18n]') return [enOnlyLabel];
+    return [];
+  },
+  addEventListener() {}
+};
+vm.runInNewContext(read('assets/js/site-shell.js'), {
+  document: enOnlyDocument,
+  window: { location: new URL('https://example.test/pcd/audi/example.html?lang=de') },
+  URL,
+  URLSearchParams
+});
+check(enOnlyLabel.textContent === 'Home', 'Declarative EN-only page accepted a non-English lang query');
+check(!read('assets/js/site-shell.js').includes('(?:bmw|opel|volvo|vw|bolt-pattern)'), 'Site shell still hard-codes PCD directories');
+console.log('PASS declarative EN-only page mode overrides lang without path-specific rules');
 
 const redirectMatch = indexHtml.match(/<script data-compatibility-redirect>([\s\S]*?)<\/script>/);
 check(redirectMatch, 'Compatibility redirect script is missing');
@@ -257,6 +285,17 @@ const enOnlyPcdPages = new Set([
   'pcd/bmw/e46.html', 'pcd/bolt-pattern/5x108.html', 'pcd/bolt-pattern/5x110.html',
   'pcd/opel/astra.html', 'pcd/volvo/s70.html', 'pcd/vw/golf-5.html'
 ]);
+
+for (const relativeFile of enOnlyPcdPages) {
+  check(read(relativeFile).includes('<body data-language-mode="en-only">'), `${relativeFile} is missing declarative EN-only mode`);
+}
+for (const sourceFile of ['pcd.html', 'tire-calculator.html']) {
+  const source = read(sourceFile);
+  for (const target of enOnlyPcdPages) {
+    const link = source.match(new RegExp(`<a[^>]*href="${target.replaceAll('.', '\\.')}"[^>]*>`));
+    check(link?.[0].includes('data-no-lang'), `${sourceFile} does not declare ${target} as EN-only`);
+  }
+}
 
 const activePages = new Map([
   ['index.html', 'index.html'],

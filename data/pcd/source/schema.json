@@ -1,0 +1,234 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://d3orient.com/data/pcd/source/schema.json",
+  "title": "D3 Orient PCD source data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "records"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/vehicle"
+      }
+    }
+  },
+  "$defs": {
+    "yearInterval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to"],
+      "properties": {
+        "from": { "type": "integer", "minimum": 1886, "maximum": 2100 },
+        "to": { "type": "integer", "minimum": 1886, "maximum": 2100 }
+      }
+    },
+    "boltPattern": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["holes", "diameterMm"],
+      "properties": {
+        "holes": { "type": "integer", "minimum": 3, "maximum": 10 },
+        "diameterMm": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "offset": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["minEt", "maxEt"],
+          "properties": {
+            "minEt": { "type": "number" },
+            "maxEt": { "type": "number" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["legacyValue"],
+          "properties": {
+            "legacyValue": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "torque": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "valueNm": { "type": "number", "exclusiveMinimum": 0 },
+        "minNm": { "type": "number", "exclusiveMinimum": 0 },
+        "maxNm": { "type": "number", "exclusiveMinimum": 0 },
+        "legacyValue": { "type": "string", "minLength": 1 },
+        "notes": { "type": "string", "minLength": 1 }
+      },
+      "anyOf": [
+        { "required": ["valueNm"] },
+        { "required": ["minNm", "maxNm"] },
+        { "required": ["legacyValue"] },
+        { "type": "null" }
+      ]
+    },
+    "wheelSize": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "diameterIn": { "type": "number", "exclusiveMinimum": 0 },
+        "widthIn": { "type": "number", "exclusiveMinimum": 0 },
+        "position": { "enum": ["all", "front", "rear"] },
+        "offset": { "$ref": "#/$defs/offset" },
+        "legacyValue": { "type": "string", "minLength": 1 },
+        "notes": { "type": "string", "minLength": 1 }
+      },
+      "anyOf": [
+        { "required": ["diameterIn"] },
+        { "required": ["legacyValue"] }
+      ]
+    },
+    "tireSize": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["size"],
+      "properties": {
+        "size": { "type": "string", "minLength": 1 },
+        "position": { "enum": ["all", "front", "rear"] },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "localizedNote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "text"],
+      "properties": {
+        "language": { "enum": ["en", "es", "fr", "de"] },
+        "text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "legacyPageVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "generation", "years", "market"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^pcd/.+\\.html$" },
+        "generation": { "type": "string", "minLength": 1 },
+        "years": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/yearInterval" }
+        },
+        "market": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["EU", "US", "JP", "GLOBAL", "OTHER"] }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "publisher", "title", "url", "checkedAt", "fields"],
+      "properties": {
+        "type": {
+          "enum": ["manufacturer", "serviceDocumentation", "certificationDocument", "technicalReference"]
+        },
+        "publisher": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "documentDate": { "type": ["string", "null"] },
+        "checkedAt": { "type": "string", "format": "date" },
+        "pages": { "type": ["string", "null"] },
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "vehicle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "maker", "makerSlug", "model", "modelSlug", "generation", "years", "market",
+        "boltPattern", "centerBore", "fastenerType", "threadSize", "offset", "torque",
+        "wheelSizes", "tireSizes", "notes", "sources", "verificationStatus", "lastVerifiedAt"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "maker": { "type": "string", "minLength": 1 },
+        "makerSlug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "model": { "type": "string", "minLength": 1 },
+        "modelSlug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "generation": { "type": "string", "minLength": 1 },
+        "years": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/yearInterval" }
+        },
+        "legacyYears": { "type": "string", "minLength": 1 },
+        "market": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["EU", "US", "JP", "GLOBAL", "OTHER"] }
+        },
+        "legacyMarket": { "type": "string", "minLength": 1 },
+        "legacyPageVariants": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/legacyPageVariant" }
+        },
+        "boltPattern": { "$ref": "#/$defs/boltPattern" },
+        "centerBore": { "type": "number", "exclusiveMinimum": 0 },
+        "fastenerType": { "enum": ["bolt", "nut"] },
+        "threadSize": { "type": "string", "minLength": 1 },
+        "offset": { "$ref": "#/$defs/offset" },
+        "torque": { "$ref": "#/$defs/torque" },
+        "wheelSizes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/wheelSize" }
+        },
+        "tireSizes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/tireSize" }
+        },
+        "notes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/localizedNote" }
+        },
+        "sources": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "verificationStatus": { "enum": ["verified", "corroborated", "legacyPending"] },
+        "lastVerifiedAt": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "format": "date" }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "verificationStatus": { "enum": ["verified", "corroborated"] }
+            }
+          },
+          "then": {
+            "properties": {
+              "sources": { "minItems": 1 },
+              "lastVerifiedAt": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

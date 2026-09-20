@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search wheel bolt patterns, center bore, thread size and common offset ranges by vehicle make, model and generation.">
   <link rel="canonical" href="https://d3orient.com/pcd.html">
   <title>D3 Orient PCD Database</title>
   <style>
@@ -98,12 +99,22 @@
     .toolbar {
       display: flex;
       gap: 12px;
-      align-items: center;
+      align-items: end;
       margin: 18px 0 10px;
       flex-wrap: wrap;
     }
-    input {
+    .search-field {
+      display: grid;
+      gap: 6px;
       width: min(100%, 460px);
+    }
+    .search-field label {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    input {
+      width: 100%;
       min-height: 42px;
       border: 1px solid var(--line);
       border-radius: 6px;
@@ -436,7 +447,10 @@
     <p class="lead" data-i18n="lead">Bolt pattern, center bore, thread size and approximate offset by make and model. The database includes vehicles from 1995 and newer.</p>
 
     <div class="toolbar">
-      <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
+      <div class="search-field">
+        <label for="search" data-i18n="searchLabel">Search by vehicle or wheel specification</label>
+        <input id="search" type="search" placeholder="Search: Audi A4, Golf, 5x112, 57.1">
+      </div>
       <button type="button" class="copy-link" id="copyLink" data-i18n="copyLink">Copy link</button>
     </div>
     <div class="quick-filters" id="quickFilters" aria-label="Popular PCD filters"></div>
@@ -445,12 +459,12 @@
     <section class="static-links" aria-label="Popular wheel fitment pages">
       <h2 data-i18n="popularSearches">Popular wheel fitment searches</h2>
       <div class="link-list">
-        <a href="pcd/volvo/s70.html" data-i18n="popularVolvoS70">Volvo S70 tire size</a>
-        <a href="pcd/opel/astra.html" data-i18n="popularOpelAstra">Opel Astra PCD</a>
-        <a href="pcd/bmw/e46.html" data-i18n="popularBmwE46">BMW E46 wheel offset</a>
-        <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf">VW Golf center bore</a>
-        <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108">5x108 bolt pattern cars</a>
-        <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110">5x110 bolt pattern cars</a>
+        <a href="pcd/volvo/s70.html" data-i18n="popularVolvoS70" data-no-lang>Volvo S70 tire size</a>
+        <a href="pcd/opel/astra.html" data-i18n="popularOpelAstra" data-no-lang>Opel Astra PCD</a>
+        <a href="pcd/bmw/e46.html" data-i18n="popularBmwE46" data-no-lang>BMW E46 wheel offset</a>
+        <a href="pcd/vw/golf-5.html" data-i18n="popularVwGolf" data-no-lang>VW Golf center bore</a>
+        <a href="pcd/bolt-pattern/5x108.html" data-i18n="popular5x108" data-no-lang>5x108 bolt pattern cars</a>
+        <a href="pcd/bolt-pattern/5x110.html" data-i18n="popular5x110" data-no-lang>5x110 bolt pattern cars</a>
       </div>
     </section>
 
@@ -475,6 +489,7 @@
   </main>
 
   <script src="pcd-data.js"></script>
+  <script src="assets/js/pcd-search.js"></script>
   <script>
     const translations = {
       en: {
@@ -494,6 +509,7 @@
         makes: 'Makes',
         models: 'Models',
         sizes: 'Sizes',
+        searchLabel: 'Search by vehicle or wheel specification',
         search: 'Search: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Copy link',
         copied: 'Copied',
@@ -546,6 +562,7 @@
         makes: 'Marcas',
         models: 'Modelos',
         sizes: 'Medidas',
+        searchLabel: 'Buscar por vehículo o especificación de rueda',
         search: 'Buscar: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Copiar enlace',
         copied: 'Copiado',
@@ -598,6 +615,7 @@
         makes: 'Marques',
         models: 'Modèles',
         sizes: 'Dimensions',
+        searchLabel: 'Rechercher par véhicule ou caractéristique de roue',
         search: 'Recherche: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Copier le lien',
         copied: 'Copié',
@@ -650,6 +668,7 @@
         makes: 'Marken',
         models: 'Modelle',
         sizes: 'Größen',
+        searchLabel: 'Nach Fahrzeug oder Radspezifikation suchen',
         search: 'Suche: Audi A4, Golf, 5x112, 57.1',
         copyLink: 'Link kopieren',
         copied: 'Kopiert',
@@ -701,7 +720,8 @@
     const copyLinkEl = document.getElementById('copyLink');
     const quickFiltersEl = document.getElementById('quickFilters');
     const resultSummaryEl = document.getElementById('resultSummary');
-    const popularPcdFilters = ['5x100', '5x112', '5x114.3', '5x120', '6x139.7'];
+    const searchApi = typeof PCD_SEARCH !== 'undefined' ? PCD_SEARCH : null;
+    const popularPcdFilters = ['5x100', '5x108', '5x110', '5x112', '5x114.3', '5x120', '6x139.7'];
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
@@ -720,56 +740,41 @@
     }
 
     function currentQuery() {
-      return searchEl.value.trim().toLowerCase();
+      return searchEl.value.trim();
     }
 
-    function recordMatches(record, q) {
-      if (!q) return true;
-      return [
-        record.generation,
-        record.years,
-        record.market,
-        record.pcd,
-        record.centerBore,
-        record.thread,
-        record.fastener,
-        record.offset,
-        record.status
-      ].some(value => String(value || '').toLowerCase().includes(q));
+    function searchResults(query = currentQuery()) {
+      return searchApi ? searchApi.searchDatabase(data, query) : [];
     }
 
-    function modelMatches(brand, model, q) {
-      if (!q) return true;
-      return brand.name.toLowerCase().includes(q)
-        || model.name.toLowerCase().includes(q)
-        || model.records.some(record => recordMatches(record, q));
+    function matchingBrand(brand, query = currentQuery()) {
+      return searchResults(query).find(result => result.brand === brand) || null;
     }
 
-    function matchingModels(brand, q) {
-      return brand.models.filter(model => modelMatches(brand, model, q));
-    }
-
-    function matchingRecords(model, q) {
-      return model.records.filter(record => recordMatches(record, q));
-    }
-
-    function findBrandBySlug(slug) {
-      return data.find(brand => brand.slug === slug);
-    }
-
-    function findModelBySlug(brand, slug) {
-      return brand ? brand.models.find(model => model.slug === slug) : null;
+    function matchingModel(brand, model, query = currentQuery()) {
+      const brandResult = matchingBrand(brand, query);
+      return brandResult?.models.find(result => result.model === model) || null;
     }
 
     function syncSelectionWithQuery() {
       const q = currentQuery();
-      if (selectedBrand && !matchingModels(selectedBrand, q).length) {
+      const brandResult = selectedBrand ? matchingBrand(selectedBrand, q) : null;
+      if (selectedBrand && !brandResult) {
         selectedBrand = null;
         selectedModel = null;
         return;
       }
-      if (selectedModel && (!selectedBrand || !modelMatches(selectedBrand, selectedModel, q))) {
+      if (selectedModel && !brandResult?.models.some(result => result.model === selectedModel)) {
         selectedModel = null;
+      }
+    }
+
+    function selectUniqueSearchResult() {
+      if (!searchApi || !currentQuery()) return;
+      const inferred = searchApi.uniqueSelection(searchResults());
+      if (!selectedBrand && inferred.selectedBrand) selectedBrand = inferred.selectedBrand;
+      if (!selectedModel && inferred.selectedBrand === selectedBrand && inferred.selectedModel) {
+        selectedModel = inferred.selectedModel;
       }
     }
 
@@ -802,17 +807,15 @@
     }
 
     function initFromUrl() {
-      const params = new URLSearchParams(window.location.search);
-      const initialSearch = params.get('search') || '';
-      const initialLang = params.get('lang');
-      if (translations[initialLang]) {
-        lang = initialLang;
-      }
-      searchEl.value = initialSearch;
-      activeQuickFilter = popularPcdFilters.includes(initialSearch) ? initialSearch : '';
-      selectedBrand = findBrandBySlug(params.get('make'));
-      selectedModel = findModelBySlug(selectedBrand, params.get('model'));
-      syncSelectionWithQuery();
+      const state = searchApi
+        ? searchApi.resolveUrlState(data, window.location.search, Object.keys(translations))
+        : { query: '', language: 'en', selectedBrand: null, selectedModel: null };
+      lang = state.language;
+      searchEl.value = state.query;
+      const normalizedSearch = searchApi ? searchApi.normalizeSearchText(state.query) : state.query;
+      activeQuickFilter = popularPcdFilters.includes(normalizedSearch) ? normalizedSearch : '';
+      selectedBrand = state.selectedBrand;
+      selectedModel = state.selectedModel;
     }
 
     function formatSummary(template, values) {
@@ -828,12 +831,14 @@
     }
 
     function filterStats(q) {
-      const matchedBrands = data.filter(brand => matchingModels(brand, q).length > 0);
-      const modelCount = matchedBrands.reduce((sum, brand) => sum + matchingModels(brand, q).length, 0);
-      const recordCount = matchedBrands.reduce((sum, brand) => {
-        return sum + matchingModels(brand, q).reduce((modelSum, model) => modelSum + matchingRecords(model, q).length, 0);
-      }, 0);
-      return { makes: matchedBrands.length, models: modelCount, records: recordCount };
+      const results = searchResults(q);
+      return {
+        makes: results.length,
+        models: results.reduce((sum, result) => sum + result.models.length, 0),
+        records: results.reduce((sum, result) => {
+          return sum + result.models.reduce((modelSum, modelResult) => modelSum + modelResult.records.length, 0);
+        }, 0)
+      };
     }
 
     function renderSummary() {
@@ -843,7 +848,7 @@
         return;
       }
       resultSummaryEl.textContent = formatSummary(t('summaryFiltered'), {
-        ...filterStats(query.toLowerCase()),
+        ...filterStats(query),
         query
       });
     }
@@ -866,7 +871,7 @@
 
     function renderQuickFilters() {
       quickFiltersEl.innerHTML = popularPcdFilters.map((pcd) => `
-        <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}">${pcd}</button>
+        <button type="button" class="${activeQuickFilter === pcd ? 'selected' : ''}" data-pcd="${pcd}" aria-pressed="${activeQuickFilter === pcd}">${pcd}</button>
       `).join('');
       quickFiltersEl.querySelectorAll('[data-pcd]').forEach((button) => {
         button.addEventListener('click', () => {
@@ -874,6 +879,7 @@
           activeQuickFilter = activeQuickFilter === value ? '' : value;
           searchEl.value = activeQuickFilter;
           syncSelectionWithQuery();
+          selectUniqueSearchResult();
           updateUrlState();
           renderQuickFilters();
           renderSummary();
@@ -902,24 +908,20 @@
     }
 
     function renderBrands(filter = '') {
-      const q = filter.trim().toLowerCase();
       brandsEl.innerHTML = '';
-      const brands = data
-        .slice()
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .filter(brand => matchingModels(brand, q).length > 0);
+      const results = searchResults(filter);
 
-      if (!brands.length) {
+      if (!results.length) {
         brandsEl.innerHTML = `<div class="empty">${t('noMakes')}</div>`;
         modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
         detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
         return;
       }
 
-      brands.forEach(brand => {
+      results.forEach((brandResult) => {
+          const brand = brandResult.brand;
           const button = document.createElement('button');
-          const matchCount = matchingModels(brand, q).length;
-          button.innerHTML = `<span class="list-row"><span>${brand.name}</span><span class="count">${matchCount}</span></span>`;
+          button.innerHTML = `<span class="list-row"><span>${brand.name}</span><span class="count">${brandResult.models.length}</span></span>`;
           button.className = selectedBrand === brand ? 'selected' : '';
           button.onclick = () => {
             selectedBrand = brand;
@@ -939,20 +941,18 @@
         modelsEl.innerHTML = `<div class="empty">${t('chooseMake')}</div>`;
         return;
       }
-      const q = currentQuery();
-      const models = matchingModels(selectedBrand, q)
-        .slice()
-        .sort((a, b) => a.name.localeCompare(b.name));
+      const brandResult = matchingBrand(selectedBrand);
+      const models = brandResult?.models || [];
 
       if (!models.length) {
         modelsEl.innerHTML = `<div class="empty">${t('noModels')}</div>`;
         return;
       }
 
-      models.forEach(model => {
+      models.forEach((modelResult) => {
+        const model = modelResult.model;
         const button = document.createElement('button');
-        const recordCount = matchingRecords(model, q).length;
-        button.innerHTML = `<span class="list-row"><span>${model.name}</span><span class="count">${recordCount}</span></span>`;
+        button.innerHTML = `<span class="list-row"><span>${model.name}</span><span class="count">${modelResult.records.length}</span></span>`;
         button.className = selectedModel === model ? 'selected' : '';
         button.onclick = () => {
           selectedModel = model;
@@ -977,8 +977,7 @@
         detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
         return;
       }
-      const q = currentQuery();
-      const records = matchingRecords(selectedModel, q);
+      const records = matchingModel(selectedBrand, selectedModel)?.records || [];
       if (!records.length) {
         detailsEl.innerHTML = `<div class="empty">${t('noRecords')}</div>`;
         return;
@@ -1044,8 +1043,10 @@
     copyLinkEl.addEventListener('click', copyCurrentLink);
 
     searchEl.addEventListener('input', () => {
-      activeQuickFilter = popularPcdFilters.includes(searchEl.value.trim()) ? searchEl.value.trim() : '';
+      const normalizedSearch = searchApi ? searchApi.normalizeSearchText(searchEl.value) : searchEl.value.trim();
+      activeQuickFilter = popularPcdFilters.includes(normalizedSearch) ? normalizedSearch : '';
       syncSelectionWithQuery();
+      selectUniqueSearchResult();
       updateUrlState();
       renderQuickFilters();
       renderSummary();
