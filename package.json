@@ -3,6 +3,9 @@
   "private": true,
   "scripts": {
     "site:contract": "node scripts/site-contract.test.mjs",
+    "pcd:generate": "node scripts/pcd/generate-pcd-data.mjs",
+    "pcd:check": "node scripts/pcd/validate-pcd-data.mjs && node scripts/pcd/generate-pcd-data.mjs --check",
+    "pcd:test": "node tests/pcd/pcd-foundation.test.mjs",
     "engines:validate": "node scripts/engines/validate-engine-data.mjs",
     "engines:legacy-identity-migration-policy:test": "node scripts/engines/legacy-identity-migration-policy.test.mjs",
     "engines:verification-policy:test": "node scripts/engines/verification-policy.test.mjs",
@@ -12,6 +15,6 @@
     "engines:compare": "node scripts/engines/semantic-compare-engine-data.mjs",
     "engines:legacy-compare": "node scripts/engines/semantic-compare-engine-data.mjs --legacy-head",
     "engines:check": "npm run engines:legacy-identity-migration-policy:test && npm run engines:verification-policy:test && npm run engines:validate && npm run engines:generate:check && npm run engines:smoke && npm run engines:compare",
-    "test": "npm run site:contract && npm run engines:check"
+    "test": "npm run site:contract && npm run pcd:check && npm run pcd:test && npm run engines:check"
   }
 }

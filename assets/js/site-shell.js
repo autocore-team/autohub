@@ -74,12 +74,9 @@
   };
 
   function languageFromUrl() {
+    if (document.body?.dataset.languageMode === 'en-only') return 'en';
     const requested = new URL(window.location.href).searchParams.get('lang');
     return supportedLanguages.includes(requested) ? requested : 'en';
-  }
-
-  function isEnglishOnlyPcdPage(url) {
-    return /\/pcd\/(?:bmw|opel|volvo|vw|bolt-pattern)\//.test(url.pathname);
   }
 
   function updateInternalLanguageLinks(language) {
@@ -103,8 +100,7 @@
 
       if (
         resolved.origin !== window.location.origin ||
-        !resolved.pathname.endsWith('.html') ||
-        isEnglishOnlyPcdPage(resolved)
+        !resolved.pathname.endsWith('.html')
       ) return;
 
       const hashIndex = rawHref.indexOf('#');

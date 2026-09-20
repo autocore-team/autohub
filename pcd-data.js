@@ -1,3 +1,6 @@
+// This file is generated from data/pcd/source/vehicles.json.
+// Do not edit it manually. Run: npm run pcd:generate
+
 const PCD_DATA = [
   {
     name: 'Audi',

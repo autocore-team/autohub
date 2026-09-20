@@ -115,6 +115,20 @@ Important rules:
 * Use Pull Requests for changes.
 * Keep pages mobile-friendly.
 
+## PCD Data Pipeline
+
+PCD and wheel-fitment records have one editable source file:
+
+* `data/pcd/source/vehicles.json`
+
+Its formal structure is documented in `data/pcd/source/schema.json`. The browser-facing `pcd-data.js` file is generated and must not be edited manually. Existing migrated records remain `legacyPending` until real sources and a verification date are added; missing torque, wheel-size or tire-size data must not be guessed.
+
+Commands:
+
+* `npm run pcd:generate` validates the source and rebuilds `pcd-data.js`.
+* `npm run pcd:check` validates source records and checks that generated data is current.
+* `npm run pcd:test` checks migration compatibility, search, translations and the existing static PCD tables.
+
 ## Engine Data Pipeline
 
 Engine data has four editable regional source files:
