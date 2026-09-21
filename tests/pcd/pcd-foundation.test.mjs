@@ -4,7 +4,11 @@ import path from 'node:path';
 import vm from 'node:vm';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
-import { generatedPcdFile, toPublicPcdData } from '../../scripts/pcd/generate-pcd-data.mjs';
+import {
+  generatedPcdFile,
+  generatedPcdFileMatches,
+  toPublicPcdData
+} from '../../scripts/pcd/generate-pcd-data.mjs';
 import { loadPcdSource, validatePcdData } from '../../scripts/pcd/validate-pcd-data.mjs';
 
 const require = createRequire(import.meta.url);
@@ -101,7 +105,11 @@ expectFailure(() => validatePcdData(duplicate), /Duplicate PCD id/, 'duplicate P
 console.log('PASS PCD verification policy and ID/slug uniqueness checks');
 
 const generated = generatedPcdFile(source);
-check(read('pcd-data.js') === generated, 'pcd-data.js differs from the source generator output');
+check(generatedPcdFileMatches(read('pcd-data.js'), generated), 'pcd-data.js differs from the source generator output');
+check(
+  generatedPcdFileMatches(generated.replaceAll('\n', '\r\n'), generated),
+  'Generated PCD checks must treat CRLF and LF as equivalent'
+);
 check(generated.startsWith('// This file is generated'), 'pcd-data.js has no generated-file warning');
 const publicData = publicDataFromFile();
 check(JSON.stringify(publicData) === JSON.stringify(toPublicPcdData(source)), 'Generated public PCD contract differs from vehicles.json');
