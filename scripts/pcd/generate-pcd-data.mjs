@@ -104,6 +104,10 @@ export function generatedPcdFile(source) {
   ].join('\n');
 }
 
+export function generatedPcdFileMatches(current, expected) {
+  return current.replaceAll('\r\n', '\n') === expected.replaceAll('\r\n', '\n');
+}
+
 function main() {
   const source = loadPcdSource();
   const summary = validatePcdData(source);
@@ -112,7 +116,7 @@ function main() {
 
   if (checkOnly) {
     const current = fs.existsSync(outputPath) ? fs.readFileSync(outputPath, 'utf8') : '';
-    if (current !== expected) {
+    if (!generatedPcdFileMatches(current, expected)) {
       throw new Error('pcd-data.js is stale. Run npm run pcd:generate.');
     }
     console.log(`Generated PCD data is up to date: ${summary.records} records.`);
