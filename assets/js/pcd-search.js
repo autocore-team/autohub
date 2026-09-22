@@ -49,6 +49,7 @@
     const maker = normalizeSearchText(brand.name);
     const modelName = normalizeSearchText(model.name);
     const generation = normalizeSearchText(record.generation);
+    const aliases = (record.aliases || []).map(normalizeSearchText);
     const technical = [
       record.years, record.market, record.pcd, record.centerBore, record.thread,
       record.fastener, record.offset, record.status
@@ -59,6 +60,7 @@
       ...fieldTokens(model.name),
       ...fieldTokens(model.slug),
       ...fieldTokens(record.generation),
+      ...aliases.flatMap((alias) => [...fieldTokens(alias)]),
       ...technical.flatMap(tokens),
       ...(makerAliases[maker] || []).flatMap(tokens)
     ]);
@@ -72,6 +74,7 @@
         maker,
         modelName,
         generation,
+        ...aliases,
         `${maker} ${modelName}`,
         `${modelName} ${generation}`,
         `${maker} ${modelName} ${generation}`,
@@ -139,6 +142,14 @@
     };
   }
 
+  function verificationNoticeState(records) {
+    const hasReviewed = records.some((record) => ['verified', 'corroborated'].includes(record.status));
+    const hasLegacy = records.some((record) => !['verified', 'corroborated'].includes(record.status));
+    if (hasReviewed && hasLegacy) return 'mixed';
+    if (hasLegacy) return 'legacy-only';
+    return 'verified-only';
+  }
+
   function resolveSelection(data, query, makerSlug, modelSlug) {
     const results = searchDatabase(data, query);
     const inferred = uniqueSelection(results);
@@ -167,5 +178,13 @@
     };
   }
 
-  return { normalizeSearchText, scoreRecord, searchDatabase, uniqueSelection, resolveSelection, resolveUrlState };
+  return {
+    normalizeSearchText,
+    scoreRecord,
+    searchDatabase,
+    uniqueSelection,
+    verificationNoticeState,
+    resolveSelection,
+    resolveUrlState
+  };
 });

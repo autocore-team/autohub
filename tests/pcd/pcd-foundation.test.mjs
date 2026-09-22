@@ -15,7 +15,6 @@ const require = createRequire(import.meta.url);
 const search = require('../../assets/js/pcd-search.js');
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const supportedLanguages = ['en', 'es', 'fr', 'de'];
-const legacyPublicHash = '6ba242ce8ca7c1bc6e08d6c4956228ba3d84566a1147619d4145e10859316d7a';
 
 function check(condition, message) {
   if (!condition) throw new Error(message);
@@ -79,6 +78,7 @@ function pcdLabel(record) {
 }
 
 function offsetLabel(record) {
+  if (record.offset.fitmentSpecific) return 'fitment-specific';
   if (record.offset.legacyValue) return record.offset.legacyValue;
   return record.offset.minEt === record.offset.maxEt
     ? `ET${record.offset.minEt}`
@@ -87,12 +87,13 @@ function offsetLabel(record) {
 
 const source = loadPcdSource();
 const summary = validatePcdData(source);
-check(summary.records === 274, `Expected 274 PCD records, found ${summary.records}`);
+check(summary.records === 280, `Expected 280 PCD records, found ${summary.records}`);
 check(summary.makers === 33, `Expected 33 PCD makers, found ${summary.makers}`);
 check(summary.models === 183, `Expected 183 PCD models, found ${summary.models}`);
-check(summary.statuses.legacyPending === 274 && Object.keys(summary.statuses).length === 1, 'Migrated records must all remain legacyPending');
-check(source.records.every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy migration invented sources or verification dates');
-console.log('PASS PCD schema and 274-record legacyPending migration');
+check(summary.statuses.legacyPending === 273 && summary.statuses.verified === 7, 'Expected 273 legacyPending and 7 verified records');
+check(source.records.filter((record) => record.verificationStatus === 'legacyPending').every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy records gained invented sources or verification dates');
+check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && record.lastVerifiedAt === '2026-09-21'), 'Verified batch date/source policy failed');
+console.log('PASS PCD schema and verified batch counts');
 
 for (const status of ['verified', 'corroborated']) {
   const invalid = structuredClone(source);
@@ -113,19 +114,18 @@ check(
 check(generated.startsWith('// This file is generated'), 'pcd-data.js has no generated-file warning');
 const publicData = publicDataFromFile();
 check(JSON.stringify(publicData) === JSON.stringify(toPublicPcdData(source)), 'Generated public PCD contract differs from vehicles.json');
-const publicHash = crypto.createHash('sha256').update(JSON.stringify(publicData)).digest('hex');
-check(publicHash === legacyPublicHash, `Legacy public PCD contract changed: ${publicHash}`);
-console.log(`PASS generated PCD contract preserves the legacy semantic hash ${publicHash}`);
+check(generatedPcdFile(source) === generated, 'PCD generation is not idempotent');
+console.log('PASS generated PCD contract and idempotent generation');
 
 const requiredQueries = new Map([
   ['Audi A4', 3],
-  ['BMW E46', 1],
+  ['BMW E46', 3],
   ['Volvo S70', 1],
-  ['Opel Astra', 4],
+  ['Opel Astra', 5],
   ['Golf 5', 1],
-  ['5x112', 56],
-  ['5×112', 56],
-  ['M14x1.5', 91]
+  ['5x112', 59],
+  ['5×112', 59],
+  ['M14x1.5', 94]
 ]);
 for (const [query, expectedRecords] of requiredQueries) {
   const databaseResults = search.searchDatabase(publicData, query);
@@ -138,11 +138,23 @@ for (const [query, expectedRecords] of requiredQueries) {
   console.log(`PASS PCD search "${query}": ${results.length} record${results.length === 1 ? '' : 's'}`);
 }
 check(search.normalizeSearchText('5×112') === '5x112', 'Multiplication-sign normalization failed');
-check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 56, 'PCD hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 91, 'Thread hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 59, 'PCD hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 94, 'Thread hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 1, 'Case/hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 3, 'Volkswagen alias search failed');
+check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 6, 'Volkswagen alias search failed');
 check(flattenResults(search.searchDatabase(publicData, 'Golf V')).length === 1, 'Golf generation alias search failed');
+
+const noticeCases = [
+  ['Volvo S70', 'verified-only'],
+  ['Audi A4', 'legacy-only'],
+  ['VW Golf', 'mixed']
+];
+for (const [query, expectedState] of noticeCases) {
+  const records = flattenResults(search.searchDatabase(publicData, query)).map((result) => result.record);
+  check(search.verificationNoticeState(records) === expectedState, `${query} notice state is not ${expectedState}`);
+}
+check(search.verificationNoticeState([{ status: 'corroborated' }]) === 'verified-only', 'Corroborated records must use the reviewed-scope notice');
+console.log('PASS verified-only, legacy-only and mixed verification notices');
 
 const urlState = search.resolveUrlState(
   publicData,
@@ -171,33 +183,72 @@ check(/<label\s+for="search"[^>]*data-i18n="searchLabel"/.test(pcdHtml), 'PCD se
 check(/<meta\s+name="description"\s+content="[^"]+">/.test(pcdHtml), 'PCD meta description is missing');
 for (const filter of ['5x108', '5x110']) check(pcdHtml.includes(`'${filter}'`), `Quick filter ${filter} is missing`);
 check(pcdHtml.includes('aria-pressed='), 'Quick PCD filters do not expose aria-pressed');
+check(pcdHtml.includes('data-verification-notice="${noticeState}"'), 'PCD verification notice is not state-specific');
 console.log(`PASS PCD EN/ES/FR/DE translation parity (${translationKeys.length} keys) and safe UI additions`);
 
-const vehiclePages = [
-  ['pcd/bmw/e46.html', 'BMW', '3 Series', ['bmw-3-series-e46-1998-2006-5x120']],
-  ['pcd/opel/astra.html', 'Opel / Vauxhall', 'Astra', null],
-  ['pcd/volvo/s70.html', 'Volvo', 'S70', null],
-  ['pcd/vw/golf-5.html', 'Volkswagen', 'Golf', ['volkswagen-golf-mk5-mk6-mk7-mk8-2003-2026-5x112']]
-];
-for (const [relativePath, maker, model, recordIds] of vehiclePages) {
-  const expected = source.records
-    .filter((record) => record.maker === maker && record.model === model && (!recordIds || recordIds.includes(record.id)))
-    .flatMap((record) => {
-      const variants = record.legacyPageVariants?.filter((variant) => variant.path === relativePath);
-      const rows = variants?.length ? variants : [null];
-      return rows.map((variant) => [
-        variant?.generation || record.generation,
-        yearsLabel(record, variant),
-        marketLabel(record, variant),
-        pcdLabel(record),
-        `${record.centerBore} mm`,
-        record.threadSize,
-        record.fastenerType === 'bolt' ? 'bolts' : 'nuts',
-        offsetLabel(record)
-      ]);
-    });
-  check(JSON.stringify(tableRows(relativePath)) === JSON.stringify(expected), `${relativePath} table differs from vehicles.json`);
+const verified = source.records.filter((record) => record.verificationStatus === 'verified');
+for (const record of verified) {
+  const sourceIds = new Set(record.sources.map((item) => item.id));
+  check(record.sources.every((item) => item.fields.length && item.pages && item.limitations), `${record.id} has incomplete source metadata`);
+  check((record.fitments || []).every((item) => item.sourceRefs.every((id) => sourceIds.has(id))), `${record.id} has an unresolved fitment source`);
 }
+
+const volvo = source.records.find((record) => record.id === 'volvo-s70-p80-1997-2000-5x108');
+check(volvo.generation === 'S70 / Type L' && volvo.aliases.includes('P80'), 'Volvo identity scope failed');
+check(volvo.fastenerType === 'bolt' && volvo.torque.valueNm === 110, 'Volvo hardware failed');
+check(volvo.fitments.length === 6 && volvo.fitments.every((item) => item.wheel.offsetEt === 43), 'Volvo exact ET43 combinations failed');
+check(JSON.stringify(volvo.fitments.map((item) => `${item.wheel.widthIn}Jx${item.wheel.diameterIn} ET${item.wheel.offsetEt} ${item.tire.size}`)) === JSON.stringify([
+  '6.5Jx15 ET43 195/60R15', '6.5Jx15 ET43 205/55R15', '6.5Jx16 ET43 205/50R16',
+  '6.5Jx16 ET43 205/55R16', '7Jx17 ET43 205/45R17', '7Jx17 ET43 215/45R17'
+]), 'Volvo combination list changed');
+
+const e46 = verified.filter((record) => record.makerSlug === 'bmw' && record.aliases?.some((alias) => alias.includes('E46')));
+check(e46.length === 3, `Expected three verified E46 records, found ${e46.length}`);
+check(e46.some((record) => record.generation === 'E46 non-M') && e46.some((record) => record.generation === 'E46 M3') && e46.some((record) => record.generation === 'E46 M3 CSL'), 'E46 split is incomplete');
+check(!JSON.stringify(e46).includes('ET35-50'), 'BMW verified data retained generic ET35-50');
+check(e46.find((record) => record.generation === 'E46 M3 CSL').years[0].from === 2003, 'CSL is not restricted to exact MY2003 scope');
+
+const golfRecords = source.records.filter((record) => record.makerSlug === 'volkswagen' && record.modelSlug === 'golf' && /^Golf V|^Mk[678]/.test(record.generation));
+check(golfRecords.length === 4, `Expected split Golf V–VIII records, found ${golfRecords.length}`);
+check(golfRecords.find((record) => record.generation === 'Golf V / Type 1K')?.verificationStatus === 'verified', 'Golf V is not verified');
+check(golfRecords.filter((record) => /^Mk[678]/.test(record.generation)).every((record) => record.verificationStatus === 'legacyPending'), 'Golf Mk6–Mk8 status was inflated');
+check(golfRecords.find((record) => record.generation === 'Golf V / Type 1K').fitments[0].tire === undefined, 'Golf inaccessible historical tyre data was asserted');
+
+const astraH = source.records.filter((record) => record.makerSlug === 'opel-vauxhall' && record.generation.startsWith('H —'));
+check(astraH.length === 2 && astraH.every((record) => record.verificationStatus === 'verified'), 'Astra H 4/5-bolt split failed');
+check(astraH.some((record) => pcdLabel(record) === '4x100' && record.centerBore === 56.6), 'Astra H 4-bolt core failed');
+check(astraH.some((record) => pcdLabel(record) === '5x110' && record.centerBore === 65.1), 'Astra H 5-bolt core failed');
+const astraFitments = astraH.flatMap((record) => record.fitments);
+check(!astraFitments.some((item) => item.wheel.offsetEt === 45 || item.wheel.diameterIn === 19 || item.tire?.size === '215/50R17'), 'Astra banned values entered verified fitments');
+
+const unchangedLegacy = source.records.filter((record) => !(
+  record.id === 'volvo-s70-p80-1997-2000-5x108' ||
+  (record.makerSlug === 'bmw' && record.modelSlug === '3-series' && record.generation.includes('E46')) ||
+  (record.makerSlug === 'volkswagen' && record.modelSlug === 'golf' && (record.generation === 'Golf V / Type 1K' || /^Mk[678]/.test(record.generation))) ||
+  (record.makerSlug === 'opel-vauxhall' && record.generation.startsWith('H —'))
+));
+check(unchangedLegacy.length === 270, `Expected 270 untouched legacy records, found ${unchangedLegacy.length}`);
+const unchangedLegacyHash = crypto.createHash('sha256').update(JSON.stringify(unchangedLegacy)).digest('hex');
+check(unchangedLegacyHash === 'd2ca1e69e5cbcc544606342df976e9cef0dbc82640d0019ebc4e2f9ac69214cc', `Untouched legacy records changed: ${unchangedLegacyHash}`);
+
+const vehiclePages = new Map([
+  ['pcd/volvo/s70.html', [volvo]],
+  ['pcd/bmw/e46.html', e46],
+  ['pcd/vw/golf-5.html', [golfRecords.find((record) => record.verificationStatus === 'verified')]],
+  ['pcd/opel/astra.html', astraH]
+]);
+for (const [relativePath, records] of vehiclePages) {
+  const html = read(relativePath);
+  check(html.includes('2026-09-21') && html.includes('contact@d3orient.com'), `${relativePath} lacks verification date or correction contact`);
+  for (const record of records) {
+    for (const item of record.fitments) {
+      check(html.includes(`${item.wheel.widthIn}Jx${item.wheel.diameterIn} ET${item.wheel.offsetEt}`), `${relativePath} lacks ${item.id} wheel`);
+      if (item.tire) check(html.includes(item.tire.size), `${relativePath} lacks ${item.id} tyre`);
+    }
+    for (const item of record.sources) check(html.includes(item.url.replaceAll('&', '&amp;')) || html.includes(item.url), `${relativePath} lacks source ${item.id}`);
+  }
+}
+console.log('PASS verified splits, source coverage, banned values and vehicle-page parity');
 
 for (const pattern of ['5x108', '5x110']) {
   const expected = source.records
@@ -213,7 +264,7 @@ for (const pattern of ['5x108', '5x110']) {
     ]);
   check(JSON.stringify(tableRows(`pcd/bolt-pattern/${pattern}.html`)) === JSON.stringify(expected), `${pattern} table differs from vehicles.json`);
 }
-console.log('PASS all existing vehicle and bolt-pattern tables correspond to vehicles.json');
+console.log('PASS bolt-pattern tables correspond to vehicles.json');
 
 const pcdPages = [
   'pcd.html',

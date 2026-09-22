@@ -35,6 +35,10 @@ function validDate(value) {
 
 function validateOffset(offset, label) {
   assert(isObject(offset), `${label} must be an object`);
+  if (offset.fitmentSpecific === true) {
+    assertKeys(offset, ['fitmentSpecific'], [], label);
+    return;
+  }
   const numeric = Object.hasOwn(offset, 'minEt') || Object.hasOwn(offset, 'maxEt');
   if (numeric) {
     assertKeys(offset, ['minEt', 'maxEt'], [], label);
@@ -50,20 +54,75 @@ function validateSource(source, label) {
   assert(isObject(source), `${label} must be an object`);
   assertKeys(
     source,
-    ['type', 'publisher', 'title', 'url', 'checkedAt', 'fields'],
-    ['documentDate', 'pages', 'notes'],
+    ['id', 'type', 'publisher', 'title', 'url', 'checkedAt', 'pages', 'fields', 'limitations'],
+    ['documentDate', 'notes'],
     label
   );
   assert(['manufacturer', 'serviceDocumentation', 'certificationDocument', 'technicalReference'].includes(source.type), `${label} type is invalid`);
-  for (const key of ['publisher', 'title', 'url']) assert(typeof source[key] === 'string' && source[key].length > 0, `${label} ${key} is empty`);
+  assert(slugPattern.test(source.id), `${label} id is not a slug`);
+  for (const key of ['publisher', 'title', 'url', 'pages', 'limitations']) assert(typeof source[key] === 'string' && source[key].length > 0, `${label} ${key} is empty`);
   assert(/^https?:\/\//.test(source.url), `${label} URL must be HTTP(S)`);
   assert(validDate(source.checkedAt), `${label} checkedAt is not a valid date`);
   assert(Array.isArray(source.fields) && source.fields.length > 0, `${label} fields must not be empty`);
   assert(source.fields.every((field) => typeof field === 'string' && field.length > 0), `${label} fields contain an invalid value`);
   assert(new Set(source.fields).size === source.fields.length, `${label} fields contain duplicates`);
-  for (const key of ['documentDate', 'pages', 'notes']) {
+  for (const key of ['documentDate', 'notes']) {
     if (source[key] !== undefined) assert(source[key] === null || typeof source[key] === 'string', `${label} ${key} must be a string or null`);
   }
+}
+
+function validateStringArray(value, label, { allowEmpty = true } = {}) {
+  assert(Array.isArray(value), `${label} must be an array`);
+  if (!allowEmpty) assert(value.length > 0, `${label} must not be empty`);
+  assert(value.every((item) => typeof item === 'string' && item.length > 0), `${label} contains an invalid value`);
+  assert(new Set(value).size === value.length, `${label} contains duplicates`);
+}
+
+function validateFitment(fitment, label, sourceIds) {
+  assert(isObject(fitment), `${label} must be an object`);
+  assertKeys(fitment, ['id', 'wheel', 'sourceRefs'], ['tire', 'years', 'bodyStyles', 'drivetrains', 'engines', 'trims', 'brakeRestrictions', 'notes', 'season', 'setId'], label);
+  assert(slugPattern.test(fitment.id), `${label} id is not a slug`);
+  assert(isObject(fitment.wheel), `${label}.wheel must be an object`);
+  assertKeys(fitment.wheel, ['diameterIn', 'widthIn', 'offsetEt'], ['position'], `${label}.wheel`);
+  assert(Number.isFinite(fitment.wheel.diameterIn) && fitment.wheel.diameterIn > 0, `${label}.wheel diameterIn is invalid`);
+  assert(Number.isFinite(fitment.wheel.widthIn) && fitment.wheel.widthIn > 0, `${label}.wheel widthIn is invalid`);
+  assert(Number.isFinite(fitment.wheel.offsetEt), `${label}.wheel offsetEt is invalid`);
+  if (fitment.wheel.position !== undefined) assert(['all', 'front', 'rear'].includes(fitment.wheel.position), `${label}.wheel position is invalid`);
+  if (fitment.tire !== undefined) validateTireSize(fitment.tire, `${label}.tire`);
+  if (fitment.years !== undefined) {
+    assert(Array.isArray(fitment.years) && fitment.years.length > 0, `${label}.years must not be empty`);
+    fitment.years.forEach((interval, index) => {
+      assertKeys(interval, ['from', 'to'], [], `${label}.years[${index}]`);
+      assert(Number.isInteger(interval.from) && Number.isInteger(interval.to) && interval.from >= 1886 && interval.to <= 2100 && interval.from <= interval.to, `${label}.years[${index}] is invalid`);
+    });
+  }
+  for (const key of ['bodyStyles', 'drivetrains', 'engines', 'trims', 'brakeRestrictions', 'notes']) {
+    if (fitment[key] !== undefined) validateStringArray(fitment[key], `${label}.${key}`, { allowEmpty: false });
+  }
+  if (fitment.season !== undefined) assert(['summer', 'winter', 'allSeason', 'unspecified'].includes(fitment.season), `${label}.season is invalid`);
+  if (fitment.setId !== undefined) assert(slugPattern.test(fitment.setId), `${label}.setId is not a slug`);
+  validateStringArray(fitment.sourceRefs, `${label}.sourceRefs`, { allowEmpty: false });
+  fitment.sourceRefs.forEach((sourceRef) => assert(sourceIds.has(sourceRef), `${label} references unknown source ${sourceRef}`));
+}
+
+function validateVariant(variant, label, fitmentIds, sourceIds) {
+  assert(isObject(variant), `${label} must be an object`);
+  assertKeys(variant, ['name', 'years', 'sourceRefs'], ['bodyStyles', 'engines', 'drivetrains', 'fitmentIds', 'notes'], label);
+  assert(typeof variant.name === 'string' && variant.name.length > 0, `${label}.name is empty`);
+  assert(Array.isArray(variant.years) && variant.years.length > 0, `${label}.years must not be empty`);
+  variant.years.forEach((interval, index) => {
+    assertKeys(interval, ['from', 'to'], [], `${label}.years[${index}]`);
+    assert(Number.isInteger(interval.from) && Number.isInteger(interval.to) && interval.from >= 1886 && interval.to <= 2100 && interval.from <= interval.to, `${label}.years[${index}] is invalid`);
+  });
+  for (const key of ['bodyStyles', 'engines', 'drivetrains', 'notes']) {
+    if (variant[key] !== undefined) validateStringArray(variant[key], `${label}.${key}`, { allowEmpty: false });
+  }
+  if (variant.fitmentIds !== undefined) {
+    validateStringArray(variant.fitmentIds, `${label}.fitmentIds`, { allowEmpty: false });
+    variant.fitmentIds.forEach((id) => assert(fitmentIds.has(id), `${label} references unknown fitment ${id}`));
+  }
+  validateStringArray(variant.sourceRefs, `${label}.sourceRefs`, { allowEmpty: false });
+  variant.sourceRefs.forEach((sourceRef) => assert(sourceIds.has(sourceRef), `${label} references unknown source ${sourceRef}`));
 }
 
 function validateTorque(torque, label) {
@@ -118,7 +177,7 @@ function validateRecord(record, index) {
     'wheelSizes', 'tireSizes', 'notes', 'sources', 'verificationStatus', 'lastVerifiedAt'
   ];
   assert(isObject(record), `${label} must be an object`);
-  assertKeys(record, required, ['legacyYears', 'legacyMarket', 'legacyPageVariants'], label);
+  assertKeys(record, required, ['legacyYears', 'legacyMarket', 'legacyPageVariants', 'aliases', 'productionNotes', 'bodyStyles', 'fastenerDetails', 'fitments', 'variants', 'restrictions'], label);
 
   assert(slugPattern.test(record.id), `${label} id is not a slug`);
   for (const key of ['maker', 'model', 'generation', 'threadSize']) {
@@ -126,6 +185,10 @@ function validateRecord(record, index) {
   }
   assert(slugPattern.test(record.makerSlug), `${label} makerSlug is invalid`);
   assert(slugPattern.test(record.modelSlug), `${label} modelSlug is invalid`);
+  for (const key of ['aliases', 'bodyStyles', 'restrictions']) {
+    if (record[key] !== undefined) validateStringArray(record[key], `${label}.${key}`, { allowEmpty: false });
+  }
+  if (record.productionNotes !== undefined) assert(typeof record.productionNotes === 'string' && record.productionNotes.length > 0, `${label}.productionNotes is empty`);
 
   assert(Array.isArray(record.years) && record.years.length > 0, `${label} years must not be empty`);
   for (const [yearIndex, interval] of record.years.entries()) {
@@ -163,6 +226,11 @@ function validateRecord(record, index) {
   assert(Number.isFinite(record.boltPattern.diameterMm) && record.boltPattern.diameterMm > 0, `${label} PCD diameter is invalid`);
   assert(Number.isFinite(record.centerBore) && record.centerBore > 0, `${label} centerBore is invalid`);
   assert(allowedFasteners.has(record.fastenerType), `${label} fastenerType is invalid`);
+  if (record.fastenerDetails !== undefined) {
+    assertKeys(record.fastenerDetails, ['seat'], ['lengthMm'], `${label}.fastenerDetails`);
+    assert(['conical', 'spherical', 'flat'].includes(record.fastenerDetails.seat), `${label}.fastenerDetails seat is invalid`);
+    if (record.fastenerDetails.lengthMm !== undefined) assert(Number.isFinite(record.fastenerDetails.lengthMm) && record.fastenerDetails.lengthMm > 0, `${label}.fastenerDetails lengthMm is invalid`);
+  }
   validateOffset(record.offset, `${label}.offset`);
 
   validateTorque(record.torque, `${label}.torque`);
@@ -174,6 +242,16 @@ function validateRecord(record, index) {
   record.notes.forEach((note, noteIndex) => validateNote(note, `${label}.notes[${noteIndex}]`));
   assert(Array.isArray(record.sources), `${label} sources must be an array`);
   record.sources.forEach((source, sourceIndex) => validateSource(source, `${label}.sources[${sourceIndex}]`));
+  const sourceIds = new Set(record.sources.map((source) => source.id));
+  assert(sourceIds.size === record.sources.length, `${label} source ids contain duplicates`);
+  const fitments = record.fitments || [];
+  assert(Array.isArray(fitments), `${label}.fitments must be an array`);
+  fitments.forEach((fitment, fitmentIndex) => validateFitment(fitment, `${label}.fitments[${fitmentIndex}]`, sourceIds));
+  const fitmentIds = new Set(fitments.map((fitment) => fitment.id));
+  assert(fitmentIds.size === fitments.length, `${label} fitment ids contain duplicates`);
+  const variants = record.variants || [];
+  assert(Array.isArray(variants), `${label}.variants must be an array`);
+  variants.forEach((variant, variantIndex) => validateVariant(variant, `${label}.variants[${variantIndex}]`, fitmentIds, sourceIds));
 
   assert(allowedStatuses.has(record.verificationStatus), `${label} verificationStatus is invalid`);
   if (record.verificationStatus === 'legacyPending') {
@@ -181,6 +259,10 @@ function validateRecord(record, index) {
   } else {
     assert(record.sources.length > 0, `${label} ${record.verificationStatus} requires sources`);
     assert(typeof record.lastVerifiedAt === 'string' && validDate(record.lastVerifiedAt), `${label} ${record.verificationStatus} requires lastVerifiedAt`);
+    const coveredFields = new Set(record.sources.flatMap((source) => source.fields));
+    for (const field of ['generation', 'years', 'market', 'boltPattern', 'centerBore', 'fastenerType', 'threadSize', 'offset', 'torque']) {
+      assert(coveredFields.has(field), `${label} ${record.verificationStatus} has no source coverage for ${field}`);
+    }
   }
 }
 
