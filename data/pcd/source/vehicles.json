@@ -1262,36 +1262,264 @@
       "lastVerifiedAt": null
     },
     {
-      "id": "volkswagen-golf-mk5-mk6-mk7-mk8-2003-2026-5x112",
+      "id": "volkswagen-golf-mk5-2003-2008-5x112",
       "maker": "Volkswagen",
       "makerSlug": "volkswagen",
       "model": "Golf",
       "modelSlug": "golf",
-      "generation": "Mk5 / Mk6 / Mk7 / Mk8",
+      "generation": "Golf V / Type 1K",
+      "aliases": [
+        "Mk5",
+        "Golf 5"
+      ],
       "years": [
         {
           "from": 2003,
-          "to": 2026
+          "to": 2008
         }
       ],
       "market": [
         "EU"
       ],
-      "legacyPageVariants": [
+      "productionNotes": "European hatchback production scope: October 2003 to October 2008.",
+      "bodyStyles": [
+        "Hatchback"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27.5
+      },
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "fitments": [
         {
-          "path": "pcd/vw/golf-5.html",
-          "generation": "Mk5",
+          "id": "golf-v-accessory-15-et43",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "sourceRefs": [
+            "vw-golf-v-accessory-abe"
+          ],
+          "bodyStyles": [
+            "Hatchback"
+          ],
+          "trims": [
+            "Volkswagen genuine accessory"
+          ],
+          "notes": [
+            "Not presented as a factory-delivery wheel/tyre combination; tyre size intentionally not asserted."
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "name": "Golf V hatchback",
           "years": [
             {
               "from": 2003,
               "to": 2008
             }
           ],
-          "market": [
-            "EU",
-            "GLOBAL"
+          "bodyStyles": [
+            "Hatchback"
+          ],
+          "sourceRefs": [
+            "vw-golf-v-history"
+          ]
+        },
+        {
+          "name": "Golf GTI",
+          "years": [
+            {
+              "from": 2004,
+              "to": 2008
+            }
+          ],
+          "bodyStyles": [
+            "Hatchback"
+          ],
+          "notes": [
+            "Separate trim scope; no historical factory wheel combinations imported in this batch."
+          ],
+          "sourceRefs": [
+            "vw-golf-v-history"
+          ]
+        },
+        {
+          "name": "Golf R32",
+          "years": [
+            {
+              "from": 2005,
+              "to": 2008
+            }
+          ],
+          "bodyStyles": [
+            "Hatchback"
+          ],
+          "notes": [
+            "Introduced in September 2005; no historical factory wheel combinations imported in this batch."
+          ],
+          "sourceRefs": [
+            "vw-golf-v-history"
           ]
         }
+      ],
+      "restrictions": [
+        "Golf Plus, Golf Variant and Jetta are outside this verified hatchback record.",
+        "GTI and R32 must be checked as separate trim scopes.",
+        "The archived historical Wheels and Tyres Guide returned HTTP 403 during verification, so its combinations remain unasserted."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Core Type 1K hardware is verified. The sole listed wheel is a documented genuine accessory, not a claimed factory-delivery combination."
+        }
+      ],
+      "sources": [
+        {
+          "id": "vw-golf-v-history",
+          "type": "manufacturer",
+          "publisher": "Volkswagen Newsroom",
+          "title": "Golf V (2003–2008)",
+          "url": "https://www.volkswagen-newsroom.com/en/golf-5-20032008-19480",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model history and milestones",
+          "fields": [
+            "generation",
+            "years",
+            "market",
+            "bodyStyles",
+            "variants"
+          ],
+          "limitations": "Scope is Golf V hatchback Type 1K; Golf Plus, Variant and Jetta are excluded."
+        },
+        {
+          "id": "vw-golf-v-accessory-abe",
+          "type": "certificationDocument",
+          "publisher": "Volkswagen Zubehör / TÜV",
+          "title": "ABE 88185 — Volkswagen accessory wheel",
+          "url": "https://assets.volkswagen.com/is/content/cso/88185a6a5c03296215427356d47f7ed8_20240609101431313pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF p. 20 Type 1K; p. 24 BF1 condition",
+          "fields": [
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails",
+            "torque",
+            "offset",
+            "fitments"
+          ],
+          "limitations": "Confirms a genuine Volkswagen accessory wheel and hardware, not a historical factory-delivery combination. The tyre field is intentionally omitted because the archived historical guide could not be reopened."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21"
+    },
+    {
+      "id": "volkswagen-golf-mk6-2008-2012-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Mk6",
+      "years": [
+        {
+          "from": 2008,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "minEt": 45,
+        "maxEt": 51
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "volkswagen-golf-mk7-2012-2019-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Mk7",
+      "years": [
+        {
+          "from": 2012,
+          "to": 2019
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "minEt": 45,
+        "maxEt": 51
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null
+    },
+    {
+      "id": "volkswagen-golf-mk8-2019-2026-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Mk8",
+      "years": [
+        {
+          "from": 2019,
+          "to": 2026
+        }
+      ],
+      "market": [
+        "EU"
       ],
       "boltPattern": {
         "holes": 5,
@@ -1950,7 +2178,10 @@
       "makerSlug": "bmw",
       "model": "3 Series",
       "modelSlug": "3-series",
-      "generation": "E46",
+      "generation": "E46 non-M",
+      "aliases": [
+        "E46"
+      ],
       "years": [
         {
           "from": 1998,
@@ -1958,7 +2189,14 @@
         }
       ],
       "market": [
-        "GLOBAL"
+        "EU"
+      ],
+      "bodyStyles": [
+        "Sedan",
+        "Touring",
+        "Coupé",
+        "Convertible",
+        "Compact"
       ],
       "boltPattern": {
         "holes": 5,
@@ -1967,17 +2205,1404 @@
       "centerBore": 72.6,
       "fastenerType": "bolt",
       "threadSize": "M12x1.5",
-      "offset": {
-        "minEt": 35,
-        "maxEt": 50
+      "fastenerDetails": {
+        "seat": "conical"
       },
-      "torque": null,
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 100
+      },
       "wheelSizes": [],
       "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
+      "fitments": [
+        {
+          "id": "e46-nonm-15-195-et42",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6.5,
+            "offsetEt": 42,
+            "position": "all"
+          },
+          "tire": {
+            "size": "195/65R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-15-205-et42",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6.5,
+            "offsetEt": 42,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/60R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-15-205-et47",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 7,
+            "offsetEt": 47,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/60R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-16-205-et46",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 7,
+            "offsetEt": 46,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/55R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-16-225-et46",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 7,
+            "offsetEt": 46,
+            "position": "all"
+          },
+          "tire": {
+            "size": "225/50R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-16-205-et47",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 7,
+            "offsetEt": 47,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/55R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-16-225-et47",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 7,
+            "offsetEt": 47,
+            "position": "all"
+          },
+          "tire": {
+            "size": "225/50R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-17-205-et47",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7,
+            "offsetEt": 47,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/50R17",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-17-225-et47",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 8,
+            "offsetEt": 47,
+            "position": "all"
+          },
+          "tire": {
+            "size": "225/45R17",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer"
+        },
+        {
+          "id": "e46-nonm-17-stagger-front",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7.5,
+            "offsetEt": 41,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/45R17",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer",
+          "setId": "e46-nonm-17-stagger"
+        },
+        {
+          "id": "e46-nonm-17-stagger-rear",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 8.5,
+            "offsetEt": 50,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "245/40R17",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer",
+          "setId": "e46-nonm-17-stagger"
+        },
+        {
+          "id": "e46-nonm-18-stagger-front",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 8,
+            "offsetEt": 47,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/40R18",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer",
+          "setId": "e46-nonm-18-stagger"
+        },
+        {
+          "id": "e46-nonm-18-stagger-rear",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 8.5,
+            "offsetEt": 50,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "255/35R18",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan (E46/4)",
+            "Coupé (E46/2)"
+          ],
+          "engines": [
+            "316i/iA N40B16",
+            "316i/iA N42B18",
+            "316i/iA N45B16",
+            "316i/iA N46B18",
+            "318d/dA M47D20TU"
+          ],
+          "season": "summer",
+          "setId": "e46-nonm-18-stagger"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Sedan",
+          "years": [
+            {
+              "from": 1998,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Sedan"
+          ],
+          "sourceRefs": [
+            "bmw-e46-sedan-history"
+          ]
+        },
+        {
+          "name": "Touring",
+          "years": [
+            {
+              "from": 1999,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Touring"
+          ],
+          "sourceRefs": [
+            "bmw-e46-touring-history"
+          ]
+        },
+        {
+          "name": "Coupé",
+          "years": [
+            {
+              "from": 1998,
+              "to": 2006
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "sourceRefs": [
+            "bmw-e46-coupe-history"
+          ]
+        },
+        {
+          "name": "Convertible",
+          "years": [
+            {
+              "from": 2000,
+              "to": 2006
+            }
+          ],
+          "bodyStyles": [
+            "Convertible"
+          ],
+          "sourceRefs": [
+            "bmw-e46-convertible-history"
+          ]
+        },
+        {
+          "name": "Compact",
+          "years": [
+            {
+              "from": 2000,
+              "to": 2004
+            }
+          ],
+          "bodyStyles": [
+            "Compact"
+          ],
+          "sourceRefs": [
+            "bmw-e46-compact-history"
+          ]
+        }
+      ],
+      "restrictions": [
+        "The listed non-M combinations are verified only for BMW model year 2005, body codes E46/4 and E46/2, and the named engine group.",
+        "Do not use a generic ET35–50 range.",
+        "Staggered front and rear entries sharing a set ID must be used as a pair."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Body production periods are model-history scope, not blanket approval of the MY2005 wheel table for every E46 body and engine."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bmw-e46-core-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV",
+          "title": "ABE 78001 — BMW E46 applications",
+          "url": "https://www.njt-tuning.de/media/files_public/9ead8a9a692b1bcf7434177d5abed137/doc_780012_780012.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Main document pp. 2–3 and E46 application annex",
+          "fields": [
+            "generation",
+            "boltPattern",
+            "centerBore"
+          ],
+          "limitations": "The certificate identifies E46 type codes; wheel/tyre combinations are sourced from BMW tables."
+        },
+        {
+          "id": "bmw-e46-fastener-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV Austria",
+          "title": "ABE Hexa 8x18 Typ 634 — BMW E46 types",
+          "url": "https://gumi.hu/assets/media/kba-momo/HEXA/ABE%20Hexa%208x18%20Typ%20634.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Application pages for types 346C/K/L/R/X",
+          "fields": [
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails",
+            "torque"
+          ],
+          "limitations": "Hub diameter is rounded in this certificate and is not used for the centre-bore value."
+        },
+        {
+          "id": "bmw-e46-sedan-history",
+          "type": "manufacturer",
+          "publisher": "BMW Group Classic",
+          "title": "BMW 3 Series Sedan (E46)",
+          "url": "https://www.bmwgroup-classic.com/de/modelle/bmw-klassiker/product-description-page.ad-483-1.bmw-3er-limousine-e46.html",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model description; production period",
+          "fields": [
+            "years",
+            "bodyStyles",
+            "market"
+          ],
+          "limitations": "Covers the sedan only (12/1997–05/2005)."
+        },
+        {
+          "id": "bmw-e46-touring-history",
+          "type": "manufacturer",
+          "publisher": "BMW Group Classic",
+          "title": "BMW 3 Series Touring (E46)",
+          "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-1039-1.bmw-3-series-touring-e46.html",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model description; production period",
+          "fields": [
+            "years",
+            "bodyStyles"
+          ],
+          "limitations": "Covers the Touring only (01/1999–05/2005)."
+        },
+        {
+          "id": "bmw-e46-coupe-history",
+          "type": "manufacturer",
+          "publisher": "BMW Group Classic",
+          "title": "BMW 3 Series Coupé (E46)",
+          "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-563-1.bmw-3-series-coupe-e46.html",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model description; production period",
+          "fields": [
+            "years",
+            "bodyStyles"
+          ],
+          "limitations": "Covers the coupé only (12/1998–05/2006)."
+        },
+        {
+          "id": "bmw-e46-convertible-history",
+          "type": "manufacturer",
+          "publisher": "BMW Group Classic",
+          "title": "BMW 3 Series Convertible (E46)",
+          "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-994-1.bmw-3-series-convertible-e46.html",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model description; production period",
+          "fields": [
+            "years",
+            "bodyStyles"
+          ],
+          "limitations": "Covers the convertible only (12/1999–11/2006)."
+        },
+        {
+          "id": "bmw-e46-compact-history",
+          "type": "manufacturer",
+          "publisher": "BMW Group Classic",
+          "title": "BMW 3 Series Compact (E46)",
+          "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-995-1.bmw-3-series-compact-e46.html",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model description; production period",
+          "fields": [
+            "years",
+            "bodyStyles"
+          ],
+          "limitations": "Covers the Compact only (04/2000–12/2004)."
+        },
+        {
+          "id": "bmw-e46-my2005-table",
+          "type": "manufacturer",
+          "publisher": "BMW Group",
+          "title": "E46 Limousine/Coupé wheel and tyre combinations, model year 2005",
+          "url": "https://myair-bdr.bmwgroup.com/static/manual/RadReif/RadReif/00/mj2005/e46limousine_2005.htm",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Section 316i/318d, Baureihe 3 (E46-4/-2), Stand 10/04",
+          "fields": [
+            "market",
+            "offset",
+            "fitments"
+          ],
+          "limitations": "Only the explicitly named MY2005 engine group and E46/4 / E46/2 scope is imported."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21"
+    },
+    {
+      "id": "bmw-3-series-e46-m3-2000-2006-5x120",
+      "maker": "BMW",
+      "makerSlug": "bmw",
+      "model": "3 Series",
+      "modelSlug": "3-series",
+      "generation": "E46 M3",
+      "aliases": [
+        "E46 M3"
+      ],
+      "years": [
+        {
+          "from": 2000,
+          "to": 2006
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 120
+      },
+      "centerBore": 72.6,
+      "fastenerType": "bolt",
+      "threadSize": "M12x1.5",
+      "fastenerDetails": {
+        "seat": "conical"
+      },
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 100
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "fitments": [
+        {
+          "id": "e46-m3-18-front",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 8,
+            "offsetEt": 47,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/45R18",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "summer",
+          "setId": "e46-m3-18"
+        },
+        {
+          "id": "e46-m3-18-rear",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 9,
+            "offsetEt": 26,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "255/40R18",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "summer",
+          "setId": "e46-m3-18"
+        },
+        {
+          "id": "e46-m3-19-front",
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 8,
+            "offsetEt": 47,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/40R19",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "summer",
+          "setId": "e46-m3-19"
+        },
+        {
+          "id": "e46-m3-19-rear",
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 9.5,
+            "offsetEt": 27,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "255/35R19",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "summer",
+          "setId": "e46-m3-19"
+        },
+        {
+          "id": "e46-m3-winter-18-front",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 7.5,
+            "offsetEt": 41,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/40R18",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "winter",
+          "setId": "e46-m3-winter-18"
+        },
+        {
+          "id": "e46-m3-winter-18-rear",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 7.5,
+            "offsetEt": 25,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "225/40R18",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "winter",
+          "setId": "e46-m3-winter-18"
+        },
+        {
+          "id": "e46-m3-winter-17-front",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7.5,
+            "offsetEt": 47,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/45R17",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "winter",
+          "setId": "e46-m3-winter-17"
+        },
+        {
+          "id": "e46-m3-winter-17-rear",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7.5,
+            "offsetEt": 25,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "225/45R17",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-m3-my2005-table"
+          ],
+          "years": [
+            {
+              "from": 2005,
+              "to": 2005
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3"
+          ],
+          "season": "winter",
+          "setId": "e46-m3-winter-17"
+        }
+      ],
+      "variants": [
+        {
+          "name": "M3 Coupé",
+          "years": [
+            {
+              "from": 2000,
+              "to": 2006
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "fitmentIds": [
+            "e46-m3-18-front",
+            "e46-m3-18-rear",
+            "e46-m3-19-front",
+            "e46-m3-19-rear",
+            "e46-m3-winter-18-front",
+            "e46-m3-winter-18-rear",
+            "e46-m3-winter-17-front",
+            "e46-m3-winter-17-rear"
+          ],
+          "sourceRefs": [
+            "bmw-e46-m3-history",
+            "bmw-e46-m3-my2005-table"
+          ]
+        }
+      ],
+      "restrictions": [
+        "M3 fitments are separate from non-M E46.",
+        "Front and rear entries sharing a set ID must be used as a pair.",
+        "The table restricts tyre makes and excludes snow chains for the summer staggered sets."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Wheel combinations are verified for BMW model year 2005 M3 Coupé; the record years describe the M3 Coupé production envelope."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bmw-e46-core-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV",
+          "title": "ABE 78001 — BMW E46 applications",
+          "url": "https://www.njt-tuning.de/media/files_public/9ead8a9a692b1bcf7434177d5abed137/doc_780012_780012.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Main document pp. 2–3 and E46 application annex",
+          "fields": [
+            "generation",
+            "boltPattern",
+            "centerBore"
+          ],
+          "limitations": "The certificate identifies E46 type codes; wheel/tyre combinations are sourced from BMW tables."
+        },
+        {
+          "id": "bmw-e46-fastener-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV Austria",
+          "title": "ABE Hexa 8x18 Typ 634 — BMW E46 types",
+          "url": "https://gumi.hu/assets/media/kba-momo/HEXA/ABE%20Hexa%208x18%20Typ%20634.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Application pages for types 346C/K/L/R/X",
+          "fields": [
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails",
+            "torque"
+          ],
+          "limitations": "Hub diameter is rounded in this certificate and is not used for the centre-bore value."
+        },
+        {
+          "id": "bmw-e46-m3-history",
+          "type": "manufacturer",
+          "publisher": "BMW Group Classic",
+          "title": "BMW M3 Coupé (E46)",
+          "url": "https://www.bmwgroup-classic.com/en/models/bmw-classics/product-description-page.ad-843-1.bmw-m3-coupe-e46.html",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Model description; production period",
+          "fields": [
+            "generation",
+            "years",
+            "bodyStyles"
+          ],
+          "limitations": "Covers the M3 Coupé only (07/2000–03/2006)."
+        },
+        {
+          "id": "bmw-e46-m3-my2005-table",
+          "type": "manufacturer",
+          "publisher": "BMW Group",
+          "title": "E46 M3 Coupé wheel and tyre combinations, model year 2005",
+          "url": "https://myair-bdr.bmwgroup.com/static/manual/RadReif/RadReif/00/M-GmbH/MJ2005/e46m3_2005.htm",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "E46M3 Coupé table, Stand 11/04",
+          "fields": [
+            "market",
+            "offset",
+            "fitments",
+            "restrictions"
+          ],
+          "limitations": "Applies to the M3 Coupé table and model year 2005; it is not a non-M approval."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21"
+    },
+    {
+      "id": "bmw-3-series-e46-m3-csl-2003-5x120",
+      "maker": "BMW",
+      "makerSlug": "bmw",
+      "model": "3 Series",
+      "modelSlug": "3-series",
+      "generation": "E46 M3 CSL",
+      "aliases": [
+        "E46 CSL"
+      ],
+      "years": [
+        {
+          "from": 2003,
+          "to": 2003
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 120
+      },
+      "centerBore": 72.6,
+      "fastenerType": "bolt",
+      "threadSize": "M12x1.5",
+      "fastenerDetails": {
+        "seat": "conical"
+      },
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 100
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "fitments": [
+        {
+          "id": "e46-csl-19-front",
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 8.5,
+            "offsetEt": 44,
+            "position": "front"
+          },
+          "tire": {
+            "size": "235/35R19",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table"
+          ],
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3 CSL"
+          ],
+          "season": "summer",
+          "setId": "e46-csl-19"
+        },
+        {
+          "id": "e46-csl-19-rear",
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 9.5,
+            "offsetEt": 27,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "265/30R19",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table"
+          ],
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3 CSL"
+          ],
+          "season": "summer",
+          "setId": "e46-csl-19"
+        },
+        {
+          "id": "e46-csl-alt-19-front",
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 8,
+            "offsetEt": 47,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/40R19",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table"
+          ],
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3 CSL"
+          ],
+          "season": "summer",
+          "setId": "e46-csl-alt-19"
+        },
+        {
+          "id": "e46-csl-alt-19-rear",
+          "wheel": {
+            "diameterIn": 19,
+            "widthIn": 9.5,
+            "offsetEt": 27,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "255/35R19",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table"
+          ],
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3 CSL"
+          ],
+          "season": "summer",
+          "setId": "e46-csl-alt-19"
+        },
+        {
+          "id": "e46-csl-winter-front",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 7.5,
+            "offsetEt": 41,
+            "position": "front"
+          },
+          "tire": {
+            "size": "225/40R18",
+            "position": "front"
+          },
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table"
+          ],
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3 CSL"
+          ],
+          "season": "winter",
+          "setId": "e46-csl-winter"
+        },
+        {
+          "id": "e46-csl-winter-rear",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 7.5,
+            "offsetEt": 25,
+            "position": "rear"
+          },
+          "tire": {
+            "size": "225/40R18",
+            "position": "rear"
+          },
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table"
+          ],
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "trims": [
+            "M3 CSL"
+          ],
+          "season": "winter",
+          "setId": "e46-csl-winter"
+        }
+      ],
+      "variants": [
+        {
+          "name": "M3 CSL",
+          "years": [
+            {
+              "from": 2003,
+              "to": 2003
+            }
+          ],
+          "bodyStyles": [
+            "Coupé"
+          ],
+          "fitmentIds": [
+            "e46-csl-19-front",
+            "e46-csl-19-rear",
+            "e46-csl-alt-19-front",
+            "e46-csl-alt-19-rear",
+            "e46-csl-winter-front",
+            "e46-csl-winter-rear"
+          ],
+          "sourceRefs": [
+            "bmw-e46-csl-my2003-table",
+            "bmw-e46-csl-press-kit"
+          ]
+        }
+      ],
+      "restrictions": [
+        "Exact verified scope is BMW model year 2003 M3 CSL.",
+        "Front and rear entries sharing a set ID must be used as a pair.",
+        "The table restricts tyre makes and excludes snow chains for the summer sets."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "CSL is a separate verified variant; no CSL dimensions are applied to ordinary M3 or non-M E46 records."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bmw-e46-core-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV",
+          "title": "ABE 78001 — BMW E46 applications",
+          "url": "https://www.njt-tuning.de/media/files_public/9ead8a9a692b1bcf7434177d5abed137/doc_780012_780012.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Main document pp. 2–3 and E46 application annex",
+          "fields": [
+            "generation",
+            "boltPattern",
+            "centerBore"
+          ],
+          "limitations": "The certificate identifies E46 type codes; wheel/tyre combinations are sourced from BMW tables."
+        },
+        {
+          "id": "bmw-e46-fastener-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV Austria",
+          "title": "ABE Hexa 8x18 Typ 634 — BMW E46 types",
+          "url": "https://gumi.hu/assets/media/kba-momo/HEXA/ABE%20Hexa%208x18%20Typ%20634.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Application pages for types 346C/K/L/R/X",
+          "fields": [
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails",
+            "torque"
+          ],
+          "limitations": "Hub diameter is rounded in this certificate and is not used for the centre-bore value."
+        },
+        {
+          "id": "bmw-e46-csl-my2003-table",
+          "type": "manufacturer",
+          "publisher": "BMW Group",
+          "title": "E46 M3 CSL wheel and tyre combinations, model year 2003",
+          "url": "https://myair-bdr.bmwgroup.com/static/manual/RadReif/RadReif/00/M-GmbH/MJ2003/e46m3_CSL_2003.htm",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "M3 CSL table, Stand 03/03",
+          "fields": [
+            "generation",
+            "market",
+            "offset",
+            "fitments",
+            "restrictions"
+          ],
+          "limitations": "Exact scope is M3 CSL model year 2003."
+        },
+        {
+          "id": "bmw-e46-csl-press-kit",
+          "type": "manufacturer",
+          "publisher": "BMW Group PressClub",
+          "title": "BMW M3 CSL press kit",
+          "url": "https://www.press.bmwgroup.com/usa/article/attachment/T0022168EN_US/41493/AG030228_M3_CSL_Press_Kit_GB_finalversion.pdf",
+          "documentDate": "2003-02-28",
+          "checkedAt": "2026-09-21",
+          "pages": "PDF p. 6; February 2003 press kit",
+          "fields": [
+            "years",
+            "bodyStyles"
+          ],
+          "limitations": "Used to corroborate the 2003 CSL launch scope; wheel dimensions are taken from the BMW wheel table."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21"
     },
     {
       "id": "bmw-3-series-e90-e91-e92-e93-2005-2013-5x120",
@@ -7340,12 +8965,14 @@
       "lastVerifiedAt": null
     },
     {
-      "id": "opel-vauxhall-astra-h-2004-2010-5x110",
       "maker": "Opel / Vauxhall",
       "makerSlug": "opel-vauxhall",
       "model": "Astra",
       "modelSlug": "astra",
-      "generation": "H",
+      "generation": "H — 4-bolt",
+      "aliases": [
+        "Astra H"
+      ],
       "years": [
         {
           "from": 2004,
@@ -7355,24 +8982,444 @@
       "market": [
         "EU"
       ],
+      "productionNotes": "Generation/body envelope only; exact body production periods vary.",
+      "bodyStyles": [
+        "5-door hatchback",
+        "GTC 3-door",
+        "TwinTop",
+        "Caravan / Estate",
+        "Sedan",
+        "Astravan"
+      ],
+      "fastenerType": "bolt",
+      "threadSize": "M12x1.5",
+      "torque": {
+        "valueNm": 110
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "restrictions": [
+        "Do not choose PCD from engine, power output or body style alone.",
+        "Check the physical bolt count and confirm against CoC, type approval or VIN-specific documentation.",
+        "ET45, 215/50R17 and undocumented 19-inch VXR wheel width/ET are not included."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Astra H exists with both 4x100 and 5x110. The two records are intentionally separate."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21",
+      "id": "opel-vauxhall-astra-h-2004-2010-4x100",
+      "boltPattern": {
+        "holes": 4,
+        "diameterMm": 100
+      },
+      "centerBore": 56.6,
+      "fastenerDetails": {
+        "seat": "conical",
+        "lengthMm": 23
+      },
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "fitments": [
+        {
+          "id": "astra-h-4bolt-15-et35",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6.5,
+            "offsetEt": 35,
+            "position": "all"
+          },
+          "tire": {
+            "size": "195/65R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-4bolt-abe",
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ],
+          "notes": [
+            "Use only where the vehicle is physically equipped and approved for four wheel bolts."
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "name": "Astra H 4-bolt",
+          "years": [
+            {
+              "from": 2004,
+              "to": 2010
+            }
+          ],
+          "notes": [
+            "Application follows the type-code rows in the certificate, not engine power alone."
+          ],
+          "fitmentIds": [
+            "astra-h-4bolt-15-et35"
+          ],
+          "sourceRefs": [
+            "opel-astra-h-4bolt-abe",
+            "opel-astra-h-4bolt-hub-abe"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "opel-astra-h-history",
+          "type": "manufacturer",
+          "publisher": "Opel / Stellantis Media",
+          "title": "Opel Kadett and Astra: 85 years in the compact class",
+          "url": "https://www.media.stellantis.com/em-en/opel/press/opel-kadett-and-astra-85-years-as-defining-force-of-compact-class",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Astra H generation history section",
+          "fields": [
+            "generation",
+            "years",
+            "market",
+            "bodyStyles"
+          ],
+          "limitations": "Generation envelope only; body-specific end dates can differ and must be checked in model documentation."
+        },
+        {
+          "id": "opel-astra-h-owner-manual",
+          "type": "manufacturer",
+          "publisher": "Opel",
+          "title": "Astra H Owner’s Manual",
+          "url": "https://public-servicebox.opel.com/OVddb/OV/en_AU/Astra_H/2010_2016/2010_5/manual_user/Astra_H_4_en.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF p. 193, wheel changing",
+          "fields": [
+            "torque"
+          ],
+          "limitations": "Used for the 110 Nm tightening torque; it does not determine 4-bolt versus 5-bolt application."
+        },
+        {
+          "id": "opel-astra-h-gtc-accessories",
+          "type": "manufacturer",
+          "publisher": "Opel Accessories",
+          "title": "Astra H GTC accessory catalogue",
+          "url": "https://www.opel-accessories.com/file-service/getFile?app_name=opel_catalog&file_name=AOC_Catalog_Astra-H_GTC_Croatia_Croatian.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF pp. 1–3, alloy wheel applications",
+          "fields": [
+            "offset",
+            "fitments"
+          ],
+          "limitations": "GTC accessory applications only; they are not generalised to every body, engine or brake package. 215/50R17 and undocumented 19-inch width/ET are excluded from this batch."
+        },
+        {
+          "id": "opel-astra-h-4bolt-abe",
+          "type": "certificationDocument",
+          "publisher": "Irmscher / TÜV",
+          "title": "ABE 7 61 10 521 — Astra H 4-hole applications",
+          "url": "https://www.irmscher.com/media/custom/upload/files/7_61_10_521.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF p. 4, Astra H application rows",
+          "fields": [
+            "boltPattern",
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails",
+            "offset",
+            "fitments"
+          ],
+          "limitations": "Applies only to the listed Astra H type and body codes."
+        },
+        {
+          "id": "opel-astra-h-4bolt-hub-abe",
+          "type": "certificationDocument",
+          "publisher": "TÜV / wheel certification archive",
+          "title": "RA-000717 — Astra H 4-hole application",
+          "url": "https://cdn.grip500.com/assets/img/auto/certificates/ga/R05/RA-000717-104-F0-12b-1-001.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Astra H application and centring-ring table",
+          "fields": [
+            "centerBore"
+          ],
+          "limitations": "Used for the exact 56.6 mm centre-bore value and exact vehicle identification."
+        }
+      ]
+    },
+    {
+      "maker": "Opel / Vauxhall",
+      "makerSlug": "opel-vauxhall",
+      "model": "Astra",
+      "modelSlug": "astra",
+      "generation": "H — 5-bolt",
+      "aliases": [
+        "Astra H"
+      ],
+      "years": [
+        {
+          "from": 2004,
+          "to": 2010
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "productionNotes": "Generation/body envelope only; exact body production periods vary.",
+      "bodyStyles": [
+        "5-door hatchback",
+        "GTC 3-door",
+        "TwinTop",
+        "Caravan / Estate",
+        "Sedan",
+        "Astravan"
+      ],
+      "fastenerType": "bolt",
+      "threadSize": "M12x1.5",
+      "torque": {
+        "valueNm": 110
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "restrictions": [
+        "Do not choose PCD from engine, power output or body style alone.",
+        "Check the physical bolt count and confirm against CoC, type approval or VIN-specific documentation.",
+        "ET45, 215/50R17 and undocumented 19-inch VXR wheel width/ET are not included."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Astra H exists with both 4x100 and 5x110. The two records are intentionally separate."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21",
+      "id": "opel-vauxhall-astra-h-2004-2010-5x110",
       "boltPattern": {
         "holes": 5,
         "diameterMm": 110
       },
       "centerBore": 65.1,
-      "fastenerType": "bolt",
-      "threadSize": "M12x1.5",
-      "offset": {
-        "minEt": 35,
-        "maxEt": 45
+      "fastenerDetails": {
+        "seat": "conical",
+        "lengthMm": 30
       },
-      "torque": null,
-      "wheelSizes": [],
-      "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "fitments": [
+        {
+          "id": "astra-h-5bolt-15-et35",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6.5,
+            "offsetEt": 35,
+            "position": "all"
+          },
+          "tire": {
+            "size": "195/65R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ]
+        },
+        {
+          "id": "astra-h-5bolt-16-et37",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 6.5,
+            "offsetEt": 37,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/55R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ]
+        },
+        {
+          "id": "astra-h-5bolt-16-et39",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 6.5,
+            "offsetEt": 39,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/55R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ]
+        },
+        {
+          "id": "astra-h-5bolt-17-et35",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7,
+            "offsetEt": 35,
+            "position": "all"
+          },
+          "tire": {
+            "size": "225/45R17",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ]
+        },
+        {
+          "id": "astra-h-5bolt-17-et39",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7,
+            "offsetEt": 39,
+            "position": "all"
+          },
+          "tire": {
+            "size": "225/45R17",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ]
+        },
+        {
+          "id": "astra-h-5bolt-18-et37",
+          "wheel": {
+            "diameterIn": 18,
+            "widthIn": 7.5,
+            "offsetEt": 37,
+            "position": "all"
+          },
+          "tire": {
+            "size": "225/40R18",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "opel-astra-h-gtc-accessories"
+          ],
+          "bodyStyles": [
+            "GTC 3-door"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "name": "Astra H 5-bolt",
+          "years": [
+            {
+              "from": 2004,
+              "to": 2010
+            }
+          ],
+          "notes": [
+            "Application follows the type-code rows in the certificate, not engine power alone."
+          ],
+          "fitmentIds": [
+            "astra-h-5bolt-15-et35",
+            "astra-h-5bolt-16-et37",
+            "astra-h-5bolt-16-et39",
+            "astra-h-5bolt-17-et35",
+            "astra-h-5bolt-17-et39",
+            "astra-h-5bolt-18-et37"
+          ],
+          "sourceRefs": [
+            "opel-astra-h-5bolt-abe",
+            "opel-astra-h-gtc-accessories"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "opel-astra-h-history",
+          "type": "manufacturer",
+          "publisher": "Opel / Stellantis Media",
+          "title": "Opel Kadett and Astra: 85 years in the compact class",
+          "url": "https://www.media.stellantis.com/em-en/opel/press/opel-kadett-and-astra-85-years-as-defining-force-of-compact-class",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Astra H generation history section",
+          "fields": [
+            "generation",
+            "years",
+            "market",
+            "bodyStyles"
+          ],
+          "limitations": "Generation envelope only; body-specific end dates can differ and must be checked in model documentation."
+        },
+        {
+          "id": "opel-astra-h-owner-manual",
+          "type": "manufacturer",
+          "publisher": "Opel",
+          "title": "Astra H Owner’s Manual",
+          "url": "https://public-servicebox.opel.com/OVddb/OV/en_AU/Astra_H/2010_2016/2010_5/manual_user/Astra_H_4_en.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF p. 193, wheel changing",
+          "fields": [
+            "torque"
+          ],
+          "limitations": "Used for the 110 Nm tightening torque; it does not determine 4-bolt versus 5-bolt application."
+        },
+        {
+          "id": "opel-astra-h-gtc-accessories",
+          "type": "manufacturer",
+          "publisher": "Opel Accessories",
+          "title": "Astra H GTC accessory catalogue",
+          "url": "https://www.opel-accessories.com/file-service/getFile?app_name=opel_catalog&file_name=AOC_Catalog_Astra-H_GTC_Croatia_Croatian.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF pp. 1–3, alloy wheel applications",
+          "fields": [
+            "offset",
+            "fitments"
+          ],
+          "limitations": "GTC accessory applications only; they are not generalised to every body, engine or brake package. 215/50R17 and undocumented 19-inch width/ET are excluded from this batch."
+        },
+        {
+          "id": "opel-astra-h-5bolt-abe",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV",
+          "title": "ABE 48360, Anlage 6a — Astra H",
+          "url": "https://www.yumpu.com/de/document/view/26481440/gutachten-zur-erteilung-der-abe-nr-48360-nach-a-22-stvzo-nr-",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Annex 6a p. 1 and Astra H application pages",
+          "fields": [
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails"
+          ],
+          "limitations": "Third-party document viewer hosting a KBA/TÜV certificate; used only for the exact listed 5-hole hardware and identified Astra H applications."
+        }
+      ]
     },
     {
       "id": "opel-vauxhall-astra-j-k-2009-2021-5x105",
@@ -8453,7 +10500,10 @@
       "makerSlug": "volvo",
       "model": "S70",
       "modelSlug": "s70",
-      "generation": "P80",
+      "generation": "S70 / Type L",
+      "aliases": [
+        "P80"
+      ],
       "years": [
         {
           "from": 1997,
@@ -8461,26 +10511,299 @@
         }
       ],
       "market": [
-        "GLOBAL"
+        "EU"
+      ],
+      "productionNotes": "Launched in late 1996; model years covered here are 1997–2000.",
+      "bodyStyles": [
+        "Sedan"
       ],
       "boltPattern": {
         "holes": 5,
         "diameterMm": 108
       },
       "centerBore": 65.1,
-      "fastenerType": "nut",
+      "fastenerType": "bolt",
       "threadSize": "M12x1.75",
-      "offset": {
-        "minEt": 43,
-        "maxEt": 49
+      "fastenerDetails": {
+        "seat": "conical",
+        "lengthMm": 29
       },
-      "torque": null,
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 110
+      },
       "wheelSizes": [],
       "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
+      "fitments": [
+        {
+          "id": "volvo-15-195-fwd-awd",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6.5,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "tire": {
+            "size": "195/60R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "volvo-x70-accessories"
+          ],
+          "drivetrains": [
+            "FWD",
+            "AWD"
+          ]
+        },
+        {
+          "id": "volvo-15-205-fwd-awd",
+          "wheel": {
+            "diameterIn": 15,
+            "widthIn": 6.5,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/55R15",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "volvo-x70-accessories"
+          ],
+          "drivetrains": [
+            "FWD",
+            "AWD"
+          ]
+        },
+        {
+          "id": "volvo-16-205-50-fwd",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 6.5,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/50R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "volvo-x70-accessories"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "brakeRestrictions": [
+            "Not for 302 mm / 16-inch brake package where specified by the catalogue"
+          ],
+          "notes": [
+            "Diesel requires load index 88; steering limiter required on specified non-turbo applications."
+          ]
+        },
+        {
+          "id": "volvo-16-205-55-awd",
+          "wheel": {
+            "diameterIn": 16,
+            "widthIn": 6.5,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/55R16",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "volvo-x70-accessories"
+          ],
+          "drivetrains": [
+            "AWD"
+          ],
+          "brakeRestrictions": [
+            "Not for 302 mm / 16-inch brake package where specified by the catalogue"
+          ]
+        },
+        {
+          "id": "volvo-17-205-45-fwd",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "tire": {
+            "size": "205/45R17",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "volvo-x70-accessories"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "brakeRestrictions": [
+            "Required for the Volvo 320 mm performance brake kit"
+          ],
+          "notes": [
+            "Excluded for diesel applications; steering limiter required."
+          ]
+        },
+        {
+          "id": "volvo-17-215-45-awd",
+          "wheel": {
+            "diameterIn": 17,
+            "widthIn": 7,
+            "offsetEt": 43,
+            "position": "all"
+          },
+          "tire": {
+            "size": "215/45R17",
+            "position": "all"
+          },
+          "sourceRefs": [
+            "volvo-x70-accessories"
+          ],
+          "drivetrains": [
+            "AWD"
+          ],
+          "brakeRestrictions": [
+            "Required for the Volvo 320 mm performance brake kit"
+          ],
+          "notes": [
+            "Steering limiter required."
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "name": "S70 FWD",
+          "years": [
+            {
+              "from": 1997,
+              "to": 2000
+            }
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "fitmentIds": [
+            "volvo-15-195-fwd-awd",
+            "volvo-15-205-fwd-awd",
+            "volvo-16-205-50-fwd",
+            "volvo-17-205-45-fwd"
+          ],
+          "sourceRefs": [
+            "volvo-s70-heritage",
+            "volvo-x70-accessories"
+          ]
+        },
+        {
+          "name": "S70 AWD",
+          "years": [
+            {
+              "from": 1997,
+              "to": 2000
+            }
+          ],
+          "drivetrains": [
+            "AWD"
+          ],
+          "fitmentIds": [
+            "volvo-15-195-fwd-awd",
+            "volvo-15-205-fwd-awd",
+            "volvo-16-205-55-awd",
+            "volvo-17-215-45-awd"
+          ],
+          "sourceRefs": [
+            "volvo-s70-heritage",
+            "volvo-x70-accessories"
+          ]
+        }
+      ],
+      "restrictions": [
+        "Do not generalise ET43 to an ET range.",
+        "Diesel, steering-limiter and brake-package restrictions must be checked per combination.",
+        "The 320 mm Volvo performance brake kit requires 17-inch wheels."
+      ],
+      "notes": [
+        {
+          "language": "en",
+          "text": "European S70 / Type L scope. Confirm the exact brake package and drivetrain before selecting a listed combination."
+        }
+      ],
+      "sources": [
+        {
+          "id": "volvo-s70-heritage",
+          "type": "manufacturer",
+          "publisher": "Volvo Cars",
+          "title": "Volvo S70 — legacy model",
+          "url": "https://www.volvocars.com/de/cars/legacy-models/s70/",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Sections “Volvo S70” and model facts",
+          "fields": [
+            "generation",
+            "years",
+            "market",
+            "productionNotes",
+            "bodyStyles",
+            "variants"
+          ],
+          "limitations": "The page describes the European legacy model and production history; it does not provide wheel hardware dimensions."
+        },
+        {
+          "id": "volvo-x70-accessories",
+          "type": "manufacturer",
+          "publisher": "Volvo Cars",
+          "title": "S70/V70/C70 Sport Styling & Accessories",
+          "url": "https://accessories.volvocars.com/LegacyCatalog/Pdf/X70_sportstyling_FR_GB_NL_DE.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Printed pp. 6, 27, 39, 44 and 61",
+          "fields": [
+            "offset",
+            "fitments",
+            "restrictions"
+          ],
+          "limitations": "Accessory catalogue applications are verified Volvo-approved combinations, not a claim that every combination was standard factory equipment."
+        },
+        {
+          "id": "volvo-type-l-tuv",
+          "type": "certificationDocument",
+          "publisher": "TÜV / Alcar",
+          "title": "Gutachten AU 807 17 — Volvo Type L",
+          "url": "https://felgen.jfnet.de/abe/AU%20807_17_abe.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "PDF pp. 2–5; application table Type L S70/V70",
+          "fields": [
+            "generation",
+            "boltPattern",
+            "fastenerType",
+            "threadSize",
+            "fastenerDetails",
+            "torque"
+          ],
+          "limitations": "The certificate rounds the hub diameter to 65 mm; the 65.1 mm value is sourced separately."
+        },
+        {
+          "id": "volvo-type-l-hub",
+          "type": "certificationDocument",
+          "publisher": "Kerscher Tuning / TÜV",
+          "title": "Distanzscheiben applications — Volvo Type L",
+          "url": "https://www.kerscher-tuning.de/download/daten/06-Distanzscheiben_2015.pdf",
+          "documentDate": null,
+          "checkedAt": "2026-09-21",
+          "pages": "Volvo Type L application row",
+          "fields": [
+            "centerBore"
+          ],
+          "limitations": "Used only for the exact 65.1 mm centre-bore value; wheel combinations come from Volvo documentation."
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-21"
     },
     {
       "id": "volvo-s40-v40-v50-s40-v40-i-1995-2004-4x114-3",

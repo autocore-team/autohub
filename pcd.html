@@ -393,6 +393,16 @@
       font-size: 12px;
       white-space: nowrap;
     }
+    .tag.verified { background:#dcfce7;color:#166534 }
+    .record-details { margin-top:14px }
+    .record-details h4 { margin:16px 0 8px;font-size:15px }
+    .record-meta { display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px;color:var(--muted);font-size:13px }
+    .record-meta span { border:1px solid var(--line);border-radius:999px;padding:4px 8px;background:#f8fafc }
+    .compact-list { margin:8px 0 0;padding-left:20px;color:#475569;line-height:1.45 }
+    .source-list { display:grid;gap:8px;margin-top:8px }
+    .source-item { border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:#f8fafc;font-size:13px;line-height:1.4 }
+    .source-item a { color:var(--accent-dark);font-weight:700 }
+    .source-item small { display:block;color:var(--muted);margin-top:4px }
     @media (max-width: 900px) {
       .layout {
         grid-template-columns: 1fr;
@@ -522,7 +532,9 @@
         noModels: 'No models found for this filter.',
         noRecords: 'No records match this filter.',
         chooseModel: 'Choose a model to see PCD and center bore.',
-        notice: 'Starter data is under review. Always verify wheel fitment by vehicle year, market, trim and official documentation before buying wheels.',
+        noticeVerifiedOnly: 'These records are source-verified for a defined scope. Match the exact year, market, body or trim, and brake package before buying wheels.',
+        noticeLegacyOnly: 'These legacy records are still under review. Verify every value against official documentation for the exact year, market, body or trim, and brake package.',
+        noticeMixed: 'This result mixes source-verified and legacy records that are still under review. Check each status and match the exact year, market, body or trim, and brake package.',
         generation: 'Generation',
         years: 'Years',
         market: 'Market',
@@ -536,6 +548,20 @@
         fastenerNuts: 'nuts',
         statusNeedsReview: 'under review',
         statusVerified: 'verified',
+        verifiedOn: 'Verified on',
+        torque: 'Torque',
+        variants: 'Variants and scope',
+        restrictions: 'Restrictions',
+        combinations: 'Documented wheel combinations',
+        wheel: 'Wheel',
+        tire: 'Tire',
+        scope: 'Scope',
+        sources: 'Sources',
+        sourceFields: 'Fields',
+        sourceLimitations: 'Limits',
+        noTireClaim: 'not asserted',
+        verifiedScopeWarning: 'Verified values apply only to the stated market, model year, body, engine/trim and brake scope.',
+        legacyWarning: 'This legacy record is still under review; its values are not source-verified.',
         popularSearches: 'Popular wheel fitment searches',
         popularVolvoS70: 'Volvo S70 tire size',
         popularOpelAstra: 'Opel Astra PCD',
@@ -575,7 +601,9 @@
         noModels: 'No se encontraron modelos para este filtro.',
         noRecords: 'No hay registros para este filtro.',
         chooseModel: 'Elige un modelo para ver PCD y buje central.',
-        notice: 'Los datos iniciales están en revisión. Verifica siempre la compatibilidad por año, mercado, versión y documentación oficial antes de comprar llantas.',
+        noticeVerifiedOnly: 'Estos registros están verificados con fuentes para un alcance definido. Comprueba el año, mercado, carrocería o versión y paquete de frenos exactos antes de comprar llantas.',
+        noticeLegacyOnly: 'Estos registros heredados siguen en revisión. Verifica cada valor con documentación oficial para el año, mercado, carrocería o versión y paquete de frenos exactos.',
+        noticeMixed: 'Este resultado combina registros verificados con fuentes y registros heredados aún en revisión. Comprueba cada estado y el año, mercado, carrocería o versión y paquete de frenos exactos.',
         generation: 'Generación',
         years: 'Años',
         market: 'Mercado',
@@ -589,6 +617,20 @@
         fastenerNuts: 'tuercas',
         statusNeedsReview: 'en revisión',
         statusVerified: 'verificado',
+        verifiedOn: 'Verificado el',
+        torque: 'Par de apriete',
+        variants: 'Variantes y alcance',
+        restrictions: 'Restricciones',
+        combinations: 'Combinaciones de rueda documentadas',
+        wheel: 'Llanta',
+        tire: 'Neumático',
+        scope: 'Alcance',
+        sources: 'Fuentes',
+        sourceFields: 'Campos',
+        sourceLimitations: 'Límites',
+        noTireClaim: 'no afirmado',
+        verifiedScopeWarning: 'Los valores verificados solo se aplican al mercado, año, carrocería, motor/versión y frenos indicados.',
+        legacyWarning: 'Este registro heredado sigue en revisión; sus valores no están verificados con fuentes.',
         popularSearches: 'Búsquedas populares de compatibilidad',
         popularVolvoS70: 'Medida de neumáticos Volvo S70',
         popularOpelAstra: 'PCD Opel Astra',
@@ -628,7 +670,9 @@
         noModels: 'Aucun modèle trouvé pour ce filtre.',
         noRecords: 'Aucune ligne ne correspond à ce filtre.',
         chooseModel: 'Choisissez un modèle pour voir le PCD et l’alésage central.',
-        notice: 'Les données initiales sont en cours de vérification. Vérifiez toujours le montage selon l’année, le marché, la finition et la documentation officielle avant achat.',
+        noticeVerifiedOnly: 'Ces entrées sont vérifiées par des sources pour un périmètre défini. Vérifiez l’année, le marché, la carrosserie ou finition et le freinage exacts avant achat.',
+        noticeLegacyOnly: 'Ces entrées héritées sont encore en cours de vérification. Contrôlez chaque valeur dans la documentation officielle pour l’année, le marché, la carrosserie ou finition et le freinage exacts.',
+        noticeMixed: 'Ce résultat mélange des entrées vérifiées par des sources et des entrées héritées encore à vérifier. Contrôlez chaque statut ainsi que l’année, le marché, la carrosserie ou finition et le freinage exacts.',
         generation: 'Génération',
         years: 'Années',
         market: 'Marché',
@@ -642,6 +686,20 @@
         fastenerNuts: 'écrous',
         statusNeedsReview: 'à vérifier',
         statusVerified: 'vérifié',
+        verifiedOn: 'Vérifié le',
+        torque: 'Couple',
+        variants: 'Variantes et périmètre',
+        restrictions: 'Restrictions',
+        combinations: 'Combinaisons de roues documentées',
+        wheel: 'Jante',
+        tire: 'Pneu',
+        scope: 'Périmètre',
+        sources: 'Sources',
+        sourceFields: 'Champs',
+        sourceLimitations: 'Limites',
+        noTireClaim: 'non indiqué',
+        verifiedScopeWarning: 'Les valeurs vérifiées ne valent que pour le marché, l’année-modèle, la carrosserie, le moteur/finition et les freins indiqués.',
+        legacyWarning: 'Cette entrée héritée reste à vérifier ; ses valeurs ne sont pas validées par des sources.',
         popularSearches: 'Recherches populaires de compatibilité',
         popularVolvoS70: 'Dimension pneus Volvo S70',
         popularOpelAstra: 'PCD Opel Astra',
@@ -681,7 +739,9 @@
         noModels: 'Keine Modelle für diesen Filter gefunden.',
         noRecords: 'Keine Einträge für diesen Filter.',
         chooseModel: 'Wähle ein Modell, um PCD und Mittenloch zu sehen.',
-        notice: 'Die Startdaten werden geprüft. Prüfe die Passung vor dem Felgenkauf immer nach Baujahr, Markt, Ausstattung und offizieller Dokumentation.',
+        noticeVerifiedOnly: 'Diese Einträge sind für einen festgelegten Umfang quellengeprüft. Vor dem Felgenkauf exaktes Baujahr, Markt, Karosserie oder Ausstattung und Bremspaket abgleichen.',
+        noticeLegacyOnly: 'Diese Alteinträge werden noch geprüft. Jeden Wert anhand offizieller Unterlagen für exaktes Baujahr, Markt, Karosserie oder Ausstattung und Bremspaket bestätigen.',
+        noticeMixed: 'Dieses Ergebnis enthält quellengeprüfte und noch ungeprüfte Alteinträge. Jeden Status sowie exaktes Baujahr, Markt, Karosserie oder Ausstattung und Bremspaket beachten.',
         generation: 'Generation',
         years: 'Baujahre',
         market: 'Markt',
@@ -695,6 +755,20 @@
         fastenerNuts: 'Radmuttern',
         statusNeedsReview: 'in Prüfung',
         statusVerified: 'geprüft',
+        verifiedOn: 'Geprüft am',
+        torque: 'Anzugsmoment',
+        variants: 'Varianten und Geltungsbereich',
+        restrictions: 'Einschränkungen',
+        combinations: 'Dokumentierte Radkombinationen',
+        wheel: 'Felge',
+        tire: 'Reifen',
+        scope: 'Geltungsbereich',
+        sources: 'Quellen',
+        sourceFields: 'Felder',
+        sourceLimitations: 'Grenzen',
+        noTireClaim: 'nicht angegeben',
+        verifiedScopeWarning: 'Geprüfte Werte gelten nur für den genannten Markt-, Modelljahr-, Karosserie-, Motor-/Ausstattungs- und Bremsenumfang.',
+        legacyWarning: 'Dieser Altdatensatz wird noch geprüft; seine Werte sind nicht quellenverifiziert.',
         popularSearches: 'Beliebte Felgenpassungs-Suchen',
         popularVolvoS70: 'Volvo S70 Reifengröße',
         popularOpelAstra: 'Opel Astra PCD',
@@ -972,6 +1046,54 @@
       return [...new Set(values)].join(' / ') || '-';
     }
 
+    function yearRanges(intervals = []) {
+      return intervals.map(({ from, to }) => from === to ? `${from}` : `${from}-${to}`).join(', ');
+    }
+
+    function fitmentScope(fitment) {
+      return [
+        fitment.years?.length ? `${t('years')}: ${yearRanges(fitment.years)}` : '',
+        ...(fitment.bodyStyles || []),
+        ...(fitment.drivetrains || []),
+        ...(fitment.engines || []),
+        ...(fitment.trims || []),
+        ...(fitment.brakeRestrictions || []),
+        ...(fitment.notes || [])
+      ].filter(Boolean).join('; ') || '-';
+    }
+
+    function renderRecordDetails(record) {
+      const verified = record.status === 'verified';
+      const fastenerDetails = record.fastenerDetails
+        ? `${record.fastenerDetails.seat}${record.fastenerDetails.lengthMm ? `, ${record.fastenerDetails.lengthMm} mm` : ''}`
+        : '';
+      const variants = (record.variants || []).map(variant => `<li><strong>${variant.name}</strong> — ${yearRanges(variant.years)}${variant.notes?.length ? `; ${variant.notes.join(' ')}` : ''}</li>`).join('');
+      const restrictions = (record.restrictions || []).map(item => `<li>${item}</li>`).join('');
+      const fitments = (record.fitments || []).map(item => `<tr>
+        <td>${item.wheel.widthIn}Jx${item.wheel.diameterIn} ET${item.wheel.offsetEt}${item.wheel.position && item.wheel.position !== 'all' ? ` (${item.wheel.position})` : ''}</td>
+        <td>${item.tire?.size || t('noTireClaim')}</td>
+        <td>${fitmentScope(item)}</td>
+      </tr>`).join('');
+      const sources = (record.sources || []).map(item => `<div class="source-item">
+        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.publisher}: ${item.title}</a>
+        <small>${item.type} · ${item.pages} · ${t('sourceFields')}: ${item.fields.join(', ')}</small>
+        <small>${t('sourceLimitations')}: ${item.limitations}</small>
+      </div>`).join('');
+      return `<section class="record-details" data-record-id="${record.id}">
+        <h4>${record.generation} <span class="tag ${verified ? 'verified' : ''}">${statusLabel(record.status)}</span></h4>
+        <div class="record-meta">
+          <span>${t('torque')}: ${record.torque || '-'}</span>
+          ${fastenerDetails ? `<span>${t('fastener')}: ${fastenerDetails}</span>` : ''}
+          ${record.lastVerifiedAt ? `<span>${t('verifiedOn')}: ${record.lastVerifiedAt}</span>` : ''}
+        </div>
+        <div class="notice">${verified ? t('verifiedScopeWarning') : t('legacyWarning')}</div>
+        ${variants ? `<h4>${t('variants')}</h4><ul class="compact-list">${variants}</ul>` : ''}
+        ${fitments ? `<h4>${t('combinations')}</h4><div class="table-scroll"><table><thead><tr><th>${t('wheel')}</th><th>${t('tire')}</th><th>${t('scope')}</th></tr></thead><tbody>${fitments}</tbody></table></div>` : ''}
+        ${restrictions ? `<h4>${t('restrictions')}</h4><ul class="compact-list">${restrictions}</ul>` : ''}
+        ${sources ? `<h4>${t('sources')}</h4><div class="source-list">${sources}</div>` : ''}
+      </section>`;
+    }
+
     function renderDetails() {
       if (!selectedModel) {
         detailsEl.innerHTML = `<div class="empty">${t('chooseModel')}</div>`;
@@ -982,6 +1104,12 @@
         detailsEl.innerHTML = `<div class="empty">${t('noRecords')}</div>`;
         return;
       }
+      const noticeState = searchApi?.verificationNoticeState(records) || 'legacy-only';
+      const noticeKey = {
+        'verified-only': 'noticeVerifiedOnly',
+        'legacy-only': 'noticeLegacyOnly',
+        mixed: 'noticeMixed'
+      }[noticeState];
       const rows = records.map(record => `
         <tr>
           <td>${record.generation || ''}</td>
@@ -992,7 +1120,7 @@
           <td>${record.thread || ''}</td>
           <td>${fastenerLabel(record.fastener)}</td>
           <td>${record.offset || ''}</td>
-          <td><span class="tag">${statusLabel(record.status)}</span></td>
+          <td><span class="tag ${record.status === 'verified' ? 'verified' : ''}">${statusLabel(record.status)}</span></td>
         </tr>
       `).join('');
       const specSummary = `
@@ -1006,7 +1134,7 @@
       detailsEl.innerHTML = `
         <h3 class="details-title">${modelTitle()}</h3>
         ${specSummary}
-        <div class="notice">${t('notice')}</div>
+        <div class="notice" data-verification-notice="${noticeState}">${t(noticeKey)}</div>
         <div class="table-scroll">
           <table>
             <thead>
@@ -1025,6 +1153,7 @@
             <tbody>${rows}</tbody>
           </table>
         </div>
+        ${records.map(renderRecordDetails).join('')}
         <div class="guide">
           <strong>${t('guideTitle')}</strong>
           ${t('guideText')}

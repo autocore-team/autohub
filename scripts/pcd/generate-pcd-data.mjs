@@ -21,12 +21,20 @@ function marketLabel(record) {
 }
 
 function offsetLabel(offset) {
+  if (offset.fitmentSpecific) return 'fitment-specific';
   if (offset.legacyValue) return offset.legacyValue;
   return offset.minEt === offset.maxEt ? `ET${numberLabel(offset.minEt)}` : `ET${numberLabel(offset.minEt)}-${numberLabel(offset.maxEt)}`;
 }
 
 function publicStatus(status) {
   return status === 'legacyPending' ? 'needs_review' : status;
+}
+
+function torqueLabel(torque) {
+  if (!torque) return null;
+  if (torque.valueNm) return `${numberLabel(torque.valueNm)} Nm`;
+  if (torque.minNm && torque.maxNm) return `${numberLabel(torque.minNm)}-${numberLabel(torque.maxNm)} Nm`;
+  return torque.legacyValue || null;
 }
 
 export function toPublicPcdData(source) {
@@ -50,15 +58,26 @@ export function toPublicPcdData(source) {
     }
 
     model.records.push({
+      id: record.id,
       generation: record.generation,
+      aliases: record.aliases || [],
       years: yearsLabel(record),
       market: marketLabel(record),
       pcd: `${record.boltPattern.holes}x${numberLabel(record.boltPattern.diameterMm)}`,
       centerBore: numberLabel(record.centerBore),
       thread: record.threadSize,
       fastener: record.fastenerType === 'bolt' ? 'bolts' : 'nuts',
+      fastenerDetails: record.fastenerDetails || null,
       offset: offsetLabel(record.offset),
-      status: publicStatus(record.verificationStatus)
+      torque: torqueLabel(record.torque),
+      status: publicStatus(record.verificationStatus),
+      lastVerifiedAt: record.lastVerifiedAt,
+      variants: record.variants || [],
+      fitments: record.fitments || [],
+      restrictions: record.restrictions || [],
+      sources: record.sources.map(({ id, type, publisher, title, url, documentDate, checkedAt, pages, fields, limitations }) => ({
+        id, type, publisher, title, url, documentDate: documentDate || null, checkedAt, pages, fields, limitations
+      }))
     });
   }
 
