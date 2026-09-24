@@ -272,7 +272,7 @@ export function loadPcdSource() {
 
 export function validatePcdData(data) {
   assert(isObject(data), 'PCD source must be an object');
-  assertKeys(data, ['schemaVersion', 'records'], ['$schema'], 'PCD source');
+  assertKeys(data, ['schemaVersion', 'records', 'migrationMap'], ['$schema'], 'PCD source');
   assert(data.schemaVersion === 1, 'PCD schemaVersion must be 1');
   assert(Array.isArray(data.records), 'PCD records must be an array');
 
@@ -307,6 +307,13 @@ export function validatePcdData(data) {
     assert(!priorModelSlug || priorModelSlug === record.modelSlug, `Model ${modelNameScope} maps to multiple slugs`);
     modelSlugsByName.set(modelNameScope, record.modelSlug);
   });
+
+  assert(isObject(data.migrationMap), 'PCD migrationMap must be an object');
+  for (const [legacyId, replacementIds] of Object.entries(data.migrationMap)) {
+    assert(slugPattern.test(legacyId), `PCD migrationMap key is not a slug: ${legacyId}`);
+    validateStringArray(replacementIds, `PCD migrationMap.${legacyId}`, { allowEmpty: false });
+    replacementIds.forEach((id) => assert(ids.has(id), `PCD migrationMap ${legacyId} references unknown record ${id}`));
+  }
 
   return {
     records: data.records.length,

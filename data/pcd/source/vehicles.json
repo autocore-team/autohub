@@ -107,12 +107,12 @@
       "lastVerifiedAt": null
     },
     {
-      "id": "audi-a3-8p-2003-2013-5x112",
+      "id": "audi-a3-8p-base-2003-2013-5x112",
       "maker": "Audi",
       "makerSlug": "audi",
       "model": "A3",
       "modelSlug": "a3",
-      "generation": "8P",
+      "generation": "8P (non-S3/non-RS3)",
       "years": [
         {
           "from": 2003,
@@ -122,6 +122,1772 @@
       "market": [
         "EU"
       ],
+      "aliases": [
+        "A3 8P",
+        "8PA",
+        "5x112",
+        "audi-a3-8p-2003-2013-5x112"
+      ],
+      "bodyStyles": [
+        "3-door hatchback",
+        "Sportback",
+        "Cabriolet"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27.5
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "Excludes S3 and RS3.",
+        "BF1 only: 120 Nm; do not apply BF2 140 Nm."
+      ],
+      "sources": [
+        {
+          "id": "abe-50836",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 50836: 5G0 071 498A 7½Jx18 ET51",
+          "url": "https://assets.volkswagen.com/is/content/cso/b43a544c0c2ec6f4d7981631f3a25bdf_20231025204841841pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 20–21",
+          "fields": [
+            "Audi 8P EC types",
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø25.6 mm",
+            "27.5 mm shaft length",
+            "120 Nm BF1",
+            "exact 7.5Jx18 ET51 / 225/40R18 combination",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; applies to listed non-S3/non-RS3 Audi A3 8P approvals.",
+          "limitations": "Not a factory wheel table; BF2 140 Nm applies to other vehicle groups and is excluded from this record."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "abe-50836-18",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 18,
+            "offsetEt": 51
+          },
+          "tire": {
+            "size": "225/40R18"
+          },
+          "years": [
+            {
+              "from": 2003,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "3-door hatchback",
+            "Sportback",
+            "Cabriolet"
+          ],
+          "drivetrains": [
+            "FWD",
+            "quattro"
+          ],
+          "engines": [
+            "66–147 kW only"
+          ],
+          "trims": [
+            "A3 8P base; excludes S3/RS3"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 50836, p. 21, listed 8P approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre/approval restriction: the cited ABE applies only to listed EC approvals.",
+            "M+S restriction: not stated; no winter fitment inferred.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-50836"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "skoda-octavia-1z-2004-2013-5x112",
+      "maker": "Skoda",
+      "makerSlug": "skoda",
+      "model": "Octavia",
+      "modelSlug": "octavia",
+      "generation": "II / Type 1Z base",
+      "years": [
+        {
+          "from": 2004,
+          "to": 2013
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Octavia II",
+        "1Z",
+        "5x112",
+        "skoda-octavia-1z-5e-nx-2004-2026-5x112"
+      ],
+      "bodyStyles": [
+        "Liftback",
+        "Combi"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "Excludes Octavia RS/vRS and Scout."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        },
+        {
+          "id": "skoda-octavia-ii-accessories",
+          "type": "certificationDocument",
+          "publisher": "Škoda Auto a.s.",
+          "title": "Octavia II alloy-wheel catalog: Proxima / Cepeus",
+          "url": "https://catalog.skoda-auto.com/eu/eu/en/eu/en/alloy-wheel-proxima-16-for-octavia-ii/p/1Z0071494B",
+          "checkedAt": "2026-09-24",
+          "pages": "Product pages: Proxima 16 and Cepeus 17",
+          "fields": [
+            "exact 6.5Jx16 ET50 / 205/55R16",
+            "exact 7Jx17 ET54 / 225/45R17",
+            "Octavia II applicability",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU manufacturer accessory catalog.",
+          "limitations": "Manufacturer-approved accessories, not standard factory-delivery combinations; the catalog does not state engine, brake, M+S or minimum-production-tyre boundaries."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "abe-46462-205-50r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "205/50R17"
+          },
+          "years": [
+            {
+              "from": 2004,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Liftback",
+            "Combi"
+          ],
+          "drivetrains": [
+            "FWD",
+            "4x4"
+          ],
+          "engines": [
+            "55–118 kW only"
+          ],
+          "trims": [
+            "Octavia II base; excludes RS/vRS and Scout"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 p. 21, listed 1Z approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 15 inch.",
+            "M+S restriction: no M+S marking stated for this tyre.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        },
+        {
+          "id": "abe-46462-215-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "215/45R17"
+          },
+          "years": [
+            {
+              "from": 2004,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Liftback",
+            "Combi"
+          ],
+          "drivetrains": [
+            "FWD",
+            "4x4"
+          ],
+          "engines": [
+            "55–118 kW only"
+          ],
+          "trims": [
+            "Octavia II base; excludes RS/vRS and Scout"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 p. 21, listed 1Z approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 15 inch.",
+            "M+S restriction: no M+S marking stated for this tyre.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        },
+        {
+          "id": "abe-46462-225-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2004,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Liftback",
+            "Combi"
+          ],
+          "drivetrains": [
+            "FWD",
+            "4x4"
+          ],
+          "engines": [
+            "55–118 kW only"
+          ],
+          "trims": [
+            "Octavia II base; excludes RS/vRS and Scout"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 p. 21, listed 1Z approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 15 inch.",
+            "M+S restriction: no M+S marking stated for this tyre.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        },
+        {
+          "id": "proxima-16",
+          "wheel": {
+            "widthIn": 6.5,
+            "diameterIn": 16,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "205/55R16"
+          },
+          "years": [
+            {
+              "from": 2004,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Liftback",
+            "Combi"
+          ],
+          "drivetrains": [
+            "FWD",
+            "4x4"
+          ],
+          "engines": [
+            "Power restriction: none stated by the manufacturer accessory catalog."
+          ],
+          "trims": [
+            "Octavia II base; excludes RS/vRS and Scout"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by the catalog.",
+            "M+S restriction: none stated by the catalog.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "skoda-octavia-ii-accessories"
+          ]
+        },
+        {
+          "id": "cepeus-17",
+          "wheel": {
+            "widthIn": 7,
+            "diameterIn": 17,
+            "offsetEt": 54
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2008,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Liftback",
+            "Combi"
+          ],
+          "drivetrains": [
+            "FWD",
+            "4x4"
+          ],
+          "engines": [
+            "Power restriction: none stated by the manufacturer accessory catalog."
+          ],
+          "trims": [
+            "Octavia II base; excludes RS/vRS and Scout"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by the catalog.",
+            "M+S restriction: none stated by the catalog.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "skoda-octavia-ii-accessories"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "skoda-octavia-vrs-1z-2005-2013-5x112",
+      "maker": "Skoda",
+      "makerSlug": "skoda",
+      "model": "Octavia",
+      "modelSlug": "octavia",
+      "generation": "II / Type 1Z RS/vRS",
+      "years": [
+        {
+          "from": 2005,
+          "to": 2013
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Octavia II vRS",
+        "Octavia RS",
+        "1Z RS",
+        "5x112",
+        "skoda-octavia-1z-5e-nx-2004-2026-5x112"
+      ],
+      "bodyStyles": [
+        "Liftback",
+        "Combi"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "Performance variant kept separate from base Octavia."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "abe-46462-rs-225-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2005,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Liftback",
+            "Combi"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "125–147 kW only"
+          ],
+          "trims": [
+            "Octavia II RS/vRS"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 p. 22, listed 1Z approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 16 inch; source condition applies.",
+            "M+S restriction: 225/45R17 has no M+S marking in this ABE row.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "skoda-octavia-scout-1z-2007-2013-5x112",
+      "maker": "Skoda",
+      "makerSlug": "skoda",
+      "model": "Octavia",
+      "modelSlug": "octavia",
+      "generation": "II / Type 1Z Scout",
+      "years": [
+        {
+          "from": 2007,
+          "to": 2013
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Octavia Scout",
+        "1Z Scout",
+        "5x112",
+        "skoda-octavia-1z-5e-nx-2004-2026-5x112"
+      ],
+      "bodyStyles": [
+        "Combi"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "Scout kept separate from base Octavia and RS/vRS."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "abe-46462-scout-225-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2007,
+              "to": 2013
+            }
+          ],
+          "bodyStyles": [
+            "Combi"
+          ],
+          "drivetrains": [
+            "4x4"
+          ],
+          "engines": [
+            "103–118 kW only"
+          ],
+          "trims": [
+            "Octavia II Scout"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 p. 22, Scout 1Z approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: source condition applies to Scout approvals.",
+            "M+S restriction: 225/45R17 has no M+S marking in this ABE row.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "seat-leon-1p-2005-2012-5x112",
+      "maker": "Seat",
+      "makerSlug": "seat",
+      "model": "Leon",
+      "modelSlug": "leon",
+      "generation": "II / Type 1P base",
+      "years": [
+        {
+          "from": 2005,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Leon II",
+        "1P",
+        "5x112",
+        "seat-leon-1p-5f-kl-2005-2026-5x112"
+      ],
+      "bodyStyles": [
+        "5-door hatchback"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "FWD base only; excludes FR, Cupra and Cupra R."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        },
+        {
+          "id": "seat-leon-manual",
+          "type": "serviceDocumentation",
+          "publisher": "SEAT S.A.",
+          "title": "Leon owner’s manual, model year 2012",
+          "url": "https://www.seat.com/datamanual-manual/leon/my12_w45/en-uk/Leon_EN.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "p. 240",
+          "fields": [
+            "120 Nm wheel-bolt torque",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "UK/EU owner manual for Leon 1P.",
+          "limitations": "Torque confirmation only; it does not provide an exact wheel/tyre/ET table."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "abe-46462-205-50r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "205/50R17"
+          },
+          "years": [
+            {
+              "from": 2005,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "63–155 kW only"
+          ],
+          "trims": [
+            "Leon II base; excludes FR/Cupra/Cupra R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 pp. 17–19, listed 1P approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 15 inch / 195 or 205 section, as applicable in ABE.",
+            "M+S restriction: no M+S marking stated for this tyre.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        },
+        {
+          "id": "abe-46462-215-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "215/45R17"
+          },
+          "years": [
+            {
+              "from": 2005,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "63–155 kW only"
+          ],
+          "trims": [
+            "Leon II base; excludes FR/Cupra/Cupra R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 pp. 17–19, listed 1P approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 15 inch / 195 or 205 section, as applicable in ABE.",
+            "M+S restriction: no M+S marking stated for this tyre.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        },
+        {
+          "id": "abe-46462-225-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2005,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "63–155 kW only"
+          ],
+          "trims": [
+            "Leon II base; excludes FR/Cupra/Cupra R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 pp. 17–19, listed 1P approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 15 inch / 195 or 205 section, as applicable in ABE.",
+            "M+S restriction: no M+S marking stated for this tyre.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "volkswagen-golf-vi-5k-base-2008-2012-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Golf VI / Type 5K (EC type 1K) base",
+      "years": [
+        {
+          "from": 2008,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Golf VI",
+        "Golf 6",
+        "Type 5K",
+        "5x112",
+        "volkswagen-golf-mk6-2008-2012-5x112"
+      ],
+      "bodyStyles": [
+        "3-door hatchback",
+        "5-door hatchback"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "Normal hatchback only; excludes GTI, GTD, R, Plus, Variant and Cabriolet."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        },
+        {
+          "id": "vw-golf-vi-accessories",
+          "type": "certificationDocument",
+          "publisher": "Volkswagen AG",
+          "title": "Golf VI alloy-wheel accessory price list",
+          "url": "https://www.motor-talk.de/forum/aktion/Attachment.html?attachmentId=631715",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 1–2",
+          "fields": [
+            "exact wheel width",
+            "diameter",
+            "ET",
+            "tire size",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU accessory catalogue; URL is an archival mirror of an original Volkswagen document.",
+          "limitations": "Manufacturer-approved accessory list, not proof of standard factory delivery; trim, brake and engine applicability must be checked against the vehicle CoC."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "vw-accessory-7j17-et54",
+          "wheel": {
+            "widthIn": 7,
+            "diameterIn": 17,
+            "offsetEt": 54
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2008,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "3-door hatchback",
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory catalogue."
+          ],
+          "trims": [
+            "Golf VI base; excludes GTI/GTD/R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory catalogue.",
+            "M+S restriction: none stated by accessory catalogue.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-golf-vi-accessories"
+          ]
+        },
+        {
+          "id": "vw-accessory-75j17-et50-225",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "225/45R17"
+          },
+          "years": [
+            {
+              "from": 2008,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "3-door hatchback",
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory catalogue."
+          ],
+          "trims": [
+            "Golf VI base; excludes GTI/GTD/R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory catalogue.",
+            "M+S restriction: none stated by accessory catalogue.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-golf-vi-accessories"
+          ]
+        },
+        {
+          "id": "vw-accessory-75j17-et50-215",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "215/45R17"
+          },
+          "years": [
+            {
+              "from": 2008,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "3-door hatchback",
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory catalogue."
+          ],
+          "trims": [
+            "Golf VI base; excludes GTI/GTD/R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory catalogue.",
+            "M+S restriction: none stated by accessory catalogue.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-golf-vi-accessories"
+          ]
+        },
+        {
+          "id": "vw-accessory-8j18-et50",
+          "wheel": {
+            "widthIn": 8,
+            "diameterIn": 18,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "225/40R18"
+          },
+          "years": [
+            {
+              "from": 2008,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "3-door hatchback",
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory catalogue."
+          ],
+          "trims": [
+            "Golf VI base; excludes GTI/GTD/R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory catalogue.",
+            "M+S restriction: none stated by accessory catalogue.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-golf-vi-accessories"
+          ]
+        },
+        {
+          "id": "vw-accessory-75j18-et51",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 18,
+            "offsetEt": 51
+          },
+          "tire": {
+            "size": "225/40R18"
+          },
+          "years": [
+            {
+              "from": 2008,
+              "to": 2012
+            }
+          ],
+          "bodyStyles": [
+            "3-door hatchback",
+            "5-door hatchback"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory catalogue."
+          ],
+          "trims": [
+            "Golf VI base; excludes GTI/GTD/R"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory catalogue.",
+            "M+S restriction: none stated by accessory catalogue.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-golf-vi-accessories"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "volkswagen-touran-1t-2003-2015-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Touran",
+      "modelSlug": "touran",
+      "generation": "I / Type 1T base",
+      "years": [
+        {
+          "from": 2003,
+          "to": 2015
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Touran I",
+        "1T",
+        "5x112",
+        "volkswagen-touran-1t-5t-2003-2026-5x112"
+      ],
+      "bodyStyles": [
+        "5-door MPV"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "FWD base Touran only; excludes CrossTouran."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        },
+        {
+          "id": "vw-touran-accessories",
+          "type": "certificationDocument",
+          "publisher": "Volkswagen AG",
+          "title": "Touran alloy-wheel accessory brochure",
+          "url": "https://www.autocentrum.cz/data/File/modely/VW/prospekt_touran.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 7–8",
+          "fields": [
+            "exact wheel width",
+            "diameter",
+            "ET",
+            "tire size",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU accessory brochure; URL is an archival dealer mirror.",
+          "limitations": "Manufacturer-approved accessory list, not proof of standard factory delivery; it does not state power, brake or M+S boundaries."
+        },
+        {
+          "id": "vw-touran-history",
+          "type": "manufacturer",
+          "publisher": "Volkswagen AG",
+          "title": "Touran 1 (2003–2015)",
+          "url": "https://www.volkswagen-newsroom.com/en/touran-1-20032015-19719",
+          "checkedAt": "2026-09-24",
+          "pages": "Model overview and 2006/2007 update sections",
+          "fields": [
+            "Type 1T",
+            "production years",
+            "5-door body",
+            "CrossTouran distinction",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "Volkswagen newsroom historical overview, EU model context.",
+          "limitations": "Does not specify wheel fitments or hardware."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "tangis-15",
+          "wheel": {
+            "widthIn": 6.5,
+            "diameterIn": 15,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "195/65R15"
+          },
+          "years": [
+            {
+              "from": 2003,
+              "to": 2015
+            }
+          ],
+          "bodyStyles": [
+            "5-door MPV"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory brochure."
+          ],
+          "trims": [
+            "Touran I base; excludes CrossTouran"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory brochure.",
+            "M+S restriction: none stated by accessory brochure.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-touran-accessories"
+          ]
+        },
+        {
+          "id": "sima-16",
+          "wheel": {
+            "widthIn": 6,
+            "diameterIn": 16,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "205/55R16"
+          },
+          "years": [
+            {
+              "from": 2003,
+              "to": 2015
+            }
+          ],
+          "bodyStyles": [
+            "5-door MPV"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory brochure."
+          ],
+          "trims": [
+            "Touran I base; excludes CrossTouran"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory brochure.",
+            "M+S restriction: none stated by accessory brochure.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-touran-accessories"
+          ]
+        },
+        {
+          "id": "namib-16",
+          "wheel": {
+            "widthIn": 7,
+            "diameterIn": 16,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "205/55R16"
+          },
+          "years": [
+            {
+              "from": 2003,
+              "to": 2015
+            }
+          ],
+          "bodyStyles": [
+            "5-door MPV"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory brochure."
+          ],
+          "trims": [
+            "Touran I base; excludes CrossTouran"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory brochure.",
+            "M+S restriction: none stated by accessory brochure.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-touran-accessories"
+          ]
+        },
+        {
+          "id": "goal-17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "215/45R17"
+          },
+          "years": [
+            {
+              "from": 2003,
+              "to": 2015
+            }
+          ],
+          "bodyStyles": [
+            "5-door MPV"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "Power restriction: none stated by accessory brochure."
+          ],
+          "trims": [
+            "Touran I base; excludes CrossTouran"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: no brake-package boundary stated by this source; confirm CoC/brake clearance."
+          ],
+          "notes": [
+            "Minimum factory tyre restriction: none stated by accessory brochure.",
+            "M+S restriction: none stated by accessory brochure.",
+            "Manufacturer-approved accessory; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "vw-touran-accessories"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "volkswagen-crosstouran-1t-2007-2015-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Touran",
+      "modelSlug": "touran",
+      "generation": "I / Type 1T CrossTouran",
+      "years": [
+        {
+          "from": 2007,
+          "to": 2015
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "CrossTouran",
+        "Touran Cross",
+        "1T",
+        "5x112",
+        "volkswagen-touran-1t-5t-2003-2026-5x112"
+      ],
+      "bodyStyles": [
+        "5-door MPV"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "fastenerDetails": {
+        "seat": "spherical",
+        "lengthMm": 27
+      },
+      "threadSize": "M14x1.5",
+      "offset": {
+        "fitmentSpecific": true
+      },
+      "torque": {
+        "valueNm": 120
+      },
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [
+        {
+          "language": "en",
+          "text": "Documented centre bore: 57.06 mm; stored nominally as 57.1 mm."
+        }
+      ],
+      "restrictions": [
+        "CrossTouran is separate from base Touran; raised suspension."
+      ],
+      "sources": [
+        {
+          "id": "abe-46462",
+          "type": "certificationDocument",
+          "publisher": "KBA / TÜV NORD",
+          "title": "ABE 46462: Volkswagen Zubehör Goal 7½Jx17H2 ET50",
+          "url": "https://www.kunzmann.de/produkt/reifen-und-raeder-volkswagen-golf-5-felgen-original-goal-felgensatz-17-zoll,5609,ABE-Bescheiniung-Goal.pdf",
+          "checkedAt": "2026-09-24",
+          "pages": "pp. 17–29; vehicle-specific annexes",
+          "fields": [
+            "PCD",
+            "centre bore 57.06 mm",
+            "M14x1.5 bolt",
+            "spherical seat Ø26 mm",
+            "27 mm shaft length",
+            "120 Nm",
+            "exact wheel/tire combinations",
+            "power, tyre, body and M+S restrictions",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "EU type-approval document; URL is a dealer-hosted mirror of the approval PDF.",
+          "limitations": "Not a manufacturer factory-delivery table; each annex applies only to its listed EC types and conditions."
+        },
+        {
+          "id": "vw-touran-history",
+          "type": "manufacturer",
+          "publisher": "Volkswagen AG",
+          "title": "Touran 1 (2003–2015)",
+          "url": "https://www.volkswagen-newsroom.com/en/touran-1-20032015-19719",
+          "checkedAt": "2026-09-24",
+          "pages": "Model overview and 2006/2007 update sections",
+          "fields": [
+            "Type 1T",
+            "production years",
+            "5-door body",
+            "CrossTouran distinction",
+            "generation",
+            "years",
+            "market",
+            "boltPattern",
+            "centerBore",
+            "fastenerType",
+            "threadSize",
+            "offset",
+            "torque"
+          ],
+          "notes": "Volkswagen newsroom historical overview, EU model context.",
+          "limitations": "Does not specify wheel fitments or hardware."
+        }
+      ],
+      "fitments": [
+        {
+          "id": "abe-46462-cross-215-45r17",
+          "wheel": {
+            "widthIn": 7.5,
+            "diameterIn": 17,
+            "offsetEt": 50
+          },
+          "tire": {
+            "size": "215/45R17"
+          },
+          "years": [
+            {
+              "from": 2007,
+              "to": 2015
+            }
+          ],
+          "bodyStyles": [
+            "5-door MPV"
+          ],
+          "drivetrains": [
+            "FWD"
+          ],
+          "engines": [
+            "75–130 kW only"
+          ],
+          "trims": [
+            "CrossTouran"
+          ],
+          "brakeRestrictions": [
+            "Brake restriction: ABE 46462 pp. 27–28, CrossTouran approvals only."
+          ],
+          "notes": [
+            "Minimum factory tyre: 16 inch.",
+            "M+S restriction: M+S only.",
+            "ABE/type-approval combination; not standard factory delivery."
+          ],
+          "season": "summer",
+          "sourceRefs": [
+            "abe-46462"
+          ]
+        }
+      ],
+      "verificationStatus": "verified",
+      "lastVerifiedAt": "2026-09-24"
+    },
+    {
+      "id": "volkswagen-golf-gti-mk6-2009-2012-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Golf VI GTI / Type 5K",
+      "years": [
+        {
+          "from": 2009,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Golf GTI Mk6",
+        "5x112",
+        "volkswagen-golf-mk6-2008-2012-5x112"
+      ],
       "boltPattern": {
         "holes": 5,
         "diameterMm": 112
@@ -130,8 +1896,7 @@
       "fastenerType": "bolt",
       "threadSize": "M14x1.5",
       "offset": {
-        "minEt": 45,
-        "maxEt": 56
+        "legacyValue": "fitment pending review"
       },
       "torque": null,
       "wheelSizes": [],
@@ -139,7 +1904,533 @@
       "notes": [],
       "sources": [],
       "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "volkswagen-golf-gtd-mk6-2009-2012-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Golf VI GTD / Type 5K",
+      "years": [
+        {
+          "from": 2009,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Golf GTD Mk6",
+        "5x112",
+        "volkswagen-golf-mk6-2008-2012-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "volkswagen-golf-r-mk6-2009-2012-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Golf",
+      "modelSlug": "golf",
+      "generation": "Golf VI R / Type 5K",
+      "years": [
+        {
+          "from": 2009,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Golf R Mk6",
+        "4MOTION",
+        "5x112",
+        "volkswagen-golf-mk6-2008-2012-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "audi-s3-8p-2006-2013-5x112",
+      "maker": "Audi",
+      "makerSlug": "audi",
+      "model": "A3",
+      "modelSlug": "a3",
+      "generation": "S3 8P",
+      "years": [
+        {
+          "from": 2006,
+          "to": 2013
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "S3 8P",
+        "5x112",
+        "audi-a3-8p-2003-2013-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "audi-rs3-8pa-2011-2013-5x112",
+      "maker": "Audi",
+      "makerSlug": "audi",
+      "model": "A3",
+      "modelSlug": "a3",
+      "generation": "RS3 Sportback 8PA",
+      "years": [
+        {
+          "from": 2011,
+          "to": 2013
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "RS3 8PA",
+        "5x112",
+        "audi-a3-8p-2003-2013-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "seat-leon-fr-1p-2006-2012-5x112",
+      "maker": "Seat",
+      "makerSlug": "seat",
+      "model": "Leon",
+      "modelSlug": "leon",
+      "generation": "Leon II FR / Type 1P",
+      "years": [
+        {
+          "from": 2006,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Leon FR 1P",
+        "5x112",
+        "seat-leon-1p-5f-kl-2005-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "seat-leon-cupra-1p-2006-2012-5x112",
+      "maker": "Seat",
+      "makerSlug": "seat",
+      "model": "Leon",
+      "modelSlug": "leon",
+      "generation": "Leon II Cupra / Type 1P",
+      "years": [
+        {
+          "from": 2006,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Leon Cupra 1P",
+        "5x112",
+        "seat-leon-1p-5f-kl-2005-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "seat-leon-cupra-r-1p-2010-2012-5x112",
+      "maker": "Seat",
+      "makerSlug": "seat",
+      "model": "Leon",
+      "modelSlug": "leon",
+      "generation": "Leon II Cupra R / Type 1P",
+      "years": [
+        {
+          "from": 2010,
+          "to": 2012
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Leon Cupra R 1P",
+        "5x112",
+        "seat-leon-1p-5f-kl-2005-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "skoda-octavia-5e-2012-2020-5x112",
+      "maker": "Skoda",
+      "makerSlug": "skoda",
+      "model": "Octavia",
+      "modelSlug": "octavia",
+      "generation": "III / Type 5E",
+      "years": [
+        {
+          "from": 2012,
+          "to": 2020
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Octavia III",
+        "5E",
+        "5x112",
+        "skoda-octavia-1z-5e-nx-2004-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "skoda-octavia-nx-2019-2026-5x112",
+      "maker": "Skoda",
+      "makerSlug": "skoda",
+      "model": "Octavia",
+      "modelSlug": "octavia",
+      "generation": "IV / Type NX",
+      "years": [
+        {
+          "from": 2019,
+          "to": 2026
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Octavia IV",
+        "NX",
+        "5x112",
+        "skoda-octavia-1z-5e-nx-2004-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "seat-leon-5f-2012-2020-5x112",
+      "maker": "Seat",
+      "makerSlug": "seat",
+      "model": "Leon",
+      "modelSlug": "leon",
+      "generation": "Leon III / Type 5F",
+      "years": [
+        {
+          "from": 2012,
+          "to": 2020
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Leon III",
+        "5F",
+        "5x112",
+        "seat-leon-1p-5f-kl-2005-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "seat-leon-kl-2020-2026-5x112",
+      "maker": "Seat",
+      "makerSlug": "seat",
+      "model": "Leon",
+      "modelSlug": "leon",
+      "generation": "Leon IV / Type KL",
+      "years": [
+        {
+          "from": 2020,
+          "to": 2026
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Leon IV",
+        "KL",
+        "5x112",
+        "seat-leon-1p-5f-kl-2005-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
+    },
+    {
+      "id": "volkswagen-touran-5t-2015-2026-5x112",
+      "maker": "Volkswagen",
+      "makerSlug": "volkswagen",
+      "model": "Touran",
+      "modelSlug": "touran",
+      "generation": "II / Type 5T",
+      "years": [
+        {
+          "from": 2015,
+          "to": 2026
+        }
+      ],
+      "market": [
+        "EU"
+      ],
+      "aliases": [
+        "Touran II",
+        "5T",
+        "5x112",
+        "volkswagen-touran-1t-5t-2003-2026-5x112"
+      ],
+      "boltPattern": {
+        "holes": 5,
+        "diameterMm": 112
+      },
+      "centerBore": 57.1,
+      "fastenerType": "bolt",
+      "threadSize": "M14x1.5",
+      "offset": {
+        "legacyValue": "fitment pending review"
+      },
+      "torque": null,
+      "wheelSizes": [],
+      "tireSizes": [],
+      "notes": [],
+      "sources": [],
+      "verificationStatus": "legacyPending",
+      "lastVerifiedAt": null,
+      "restrictions": [
+        "legacyPending: separate variant/generation; do not infer wheel, tyre or ET from a base-model, power-match, platform or shared bolt-pattern record.",
+        "No exact fitment is published until a source with the precise trim, body, drivetrain and brake scope is recorded."
+      ]
     },
     {
       "id": "audi-a3-8v-8y-2012-2026-5x112",
@@ -702,41 +2993,6 @@
       "lastVerifiedAt": null
     },
     {
-      "id": "seat-leon-1p-5f-kl-2005-2026-5x112",
-      "maker": "Seat",
-      "makerSlug": "seat",
-      "model": "Leon",
-      "modelSlug": "leon",
-      "generation": "1P / 5F / KL",
-      "years": [
-        {
-          "from": 2005,
-          "to": 2026
-        }
-      ],
-      "market": [
-        "EU"
-      ],
-      "boltPattern": {
-        "holes": 5,
-        "diameterMm": 112
-      },
-      "centerBore": 57.1,
-      "fastenerType": "bolt",
-      "threadSize": "M14x1.5",
-      "offset": {
-        "minEt": 45,
-        "maxEt": 51
-      },
-      "torque": null,
-      "wheelSizes": [],
-      "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
-    },
-    {
       "id": "seat-toledo-1l-1995-1999-4x100",
       "maker": "Seat",
       "makerSlug": "seat",
@@ -1007,41 +3263,6 @@
       "offset": {
         "minEt": 35,
         "maxEt": 42
-      },
-      "torque": null,
-      "wheelSizes": [],
-      "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
-    },
-    {
-      "id": "skoda-octavia-1z-5e-nx-2004-2026-5x112",
-      "maker": "Skoda",
-      "makerSlug": "skoda",
-      "model": "Octavia",
-      "modelSlug": "octavia",
-      "generation": "1Z / 5E / NX",
-      "years": [
-        {
-          "from": 2004,
-          "to": 2026
-        }
-      ],
-      "market": [
-        "EU"
-      ],
-      "boltPattern": {
-        "holes": 5,
-        "diameterMm": 112
-      },
-      "centerBore": 57.1,
-      "fastenerType": "bolt",
-      "threadSize": "M14x1.5",
-      "offset": {
-        "minEt": 45,
-        "maxEt": 51
       },
       "torque": null,
       "wheelSizes": [],
@@ -1436,41 +3657,6 @@
       "lastVerifiedAt": "2026-09-21"
     },
     {
-      "id": "volkswagen-golf-mk6-2008-2012-5x112",
-      "maker": "Volkswagen",
-      "makerSlug": "volkswagen",
-      "model": "Golf",
-      "modelSlug": "golf",
-      "generation": "Mk6",
-      "years": [
-        {
-          "from": 2008,
-          "to": 2012
-        }
-      ],
-      "market": [
-        "EU"
-      ],
-      "boltPattern": {
-        "holes": 5,
-        "diameterMm": 112
-      },
-      "centerBore": 57.1,
-      "fastenerType": "bolt",
-      "threadSize": "M14x1.5",
-      "offset": {
-        "minEt": 45,
-        "maxEt": 51
-      },
-      "torque": null,
-      "wheelSizes": [],
-      "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
-    },
-    {
       "id": "volkswagen-golf-mk7-2012-2019-5x112",
       "maker": "Volkswagen",
       "makerSlug": "volkswagen",
@@ -1813,41 +3999,6 @@
       "offset": {
         "minEt": 33,
         "maxEt": 45
-      },
-      "torque": null,
-      "wheelSizes": [],
-      "tireSizes": [],
-      "notes": [],
-      "sources": [],
-      "verificationStatus": "legacyPending",
-      "lastVerifiedAt": null
-    },
-    {
-      "id": "volkswagen-touran-1t-5t-2003-2026-5x112",
-      "maker": "Volkswagen",
-      "makerSlug": "volkswagen",
-      "model": "Touran",
-      "modelSlug": "touran",
-      "generation": "1T / 5T",
-      "years": [
-        {
-          "from": 2003,
-          "to": 2026
-        }
-      ],
-      "market": [
-        "EU"
-      ],
-      "boltPattern": {
-        "holes": 5,
-        "diameterMm": 112
-      },
-      "centerBore": 57.1,
-      "fastenerType": "bolt",
-      "threadSize": "M14x1.5",
-      "offset": {
-        "minEt": 45,
-        "maxEt": 51
       },
       "torque": null,
       "wheelSizes": [],
@@ -12000,5 +14151,38 @@
       "verificationStatus": "legacyPending",
       "lastVerifiedAt": null
     }
-  ]
+  ],
+  "migrationMap": {
+    "volkswagen-golf-mk6-2008-2012-5x112": [
+      "volkswagen-golf-vi-5k-base-2008-2012-5x112",
+      "volkswagen-golf-gti-mk6-2009-2012-5x112",
+      "volkswagen-golf-gtd-mk6-2009-2012-5x112",
+      "volkswagen-golf-r-mk6-2009-2012-5x112"
+    ],
+    "audi-a3-8p-2003-2013-5x112": [
+      "audi-a3-8p-base-2003-2013-5x112",
+      "audi-s3-8p-2006-2013-5x112",
+      "audi-rs3-8pa-2011-2013-5x112"
+    ],
+    "skoda-octavia-1z-5e-nx-2004-2026-5x112": [
+      "skoda-octavia-1z-2004-2013-5x112",
+      "skoda-octavia-vrs-1z-2005-2013-5x112",
+      "skoda-octavia-scout-1z-2007-2013-5x112",
+      "skoda-octavia-5e-2012-2020-5x112",
+      "skoda-octavia-nx-2019-2026-5x112"
+    ],
+    "seat-leon-1p-5f-kl-2005-2026-5x112": [
+      "seat-leon-1p-2005-2012-5x112",
+      "seat-leon-fr-1p-2006-2012-5x112",
+      "seat-leon-cupra-1p-2006-2012-5x112",
+      "seat-leon-cupra-r-1p-2010-2012-5x112",
+      "seat-leon-5f-2012-2020-5x112",
+      "seat-leon-kl-2020-2026-5x112"
+    ],
+    "volkswagen-touran-1t-5t-2003-2026-5x112": [
+      "volkswagen-touran-1t-2003-2015-5x112",
+      "volkswagen-crosstouran-1t-2007-2015-5x112",
+      "volkswagen-touran-5t-2015-2026-5x112"
+    ]
+  }
 }
