@@ -87,12 +87,12 @@ function offsetLabel(record) {
 
 const source = loadPcdSource();
 const summary = validatePcdData(source);
-check(summary.records === 280, `Expected 280 PCD records, found ${summary.records}`);
+check(summary.records === 296, `Expected 296 PCD records, found ${summary.records}`);
 check(summary.makers === 33, `Expected 33 PCD makers, found ${summary.makers}`);
 check(summary.models === 183, `Expected 183 PCD models, found ${summary.models}`);
-check(summary.statuses.legacyPending === 273 && summary.statuses.verified === 7, 'Expected 273 legacyPending and 7 verified records');
+check(summary.statuses.legacyPending === 281 && summary.statuses.verified === 15, 'Expected 281 legacyPending and 15 verified records');
 check(source.records.filter((record) => record.verificationStatus === 'legacyPending').every((record) => record.sources.length === 0 && record.lastVerifiedAt === null), 'Legacy records gained invented sources or verification dates');
-check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && record.lastVerifiedAt === '2026-09-21'), 'Verified batch date/source policy failed');
+check(source.records.filter((record) => record.verificationStatus === 'verified').every((record) => record.sources.length > 0 && ['2026-09-21', '2026-09-24'].includes(record.lastVerifiedAt)), 'Verified batch date/source policy failed');
 console.log('PASS PCD schema and verified batch counts');
 
 for (const status of ['verified', 'corroborated']) {
@@ -123,9 +123,23 @@ const requiredQueries = new Map([
   ['Volvo S70', 1],
   ['Opel Astra', 5],
   ['Golf 5', 1],
-  ['5x112', 59],
-  ['5×112', 59],
-  ['M14x1.5', 94]
+  ['Golf VI', 4],
+  ['Audi A3 8P', 3],
+  ['Octavia II', 3],
+  ['Octavia vRS', 1],
+  ['Octavia Scout', 1],
+  ['Seat Leon II', 4],
+  ['Touran I', 2],
+  ['CrossTouran', 1],
+  ['1Z', 5],
+  ['1P', 6],
+  ['1T', 3],
+  ['Octavia 1Z 5E NX', 5],
+  ['Leon 1P 5F KL', 6],
+  ['Touran 1T 5T', 3],
+  ['5x112', 75],
+  ['5×112', 75],
+  ['M14x1.5', 110]
 ]);
 for (const [query, expectedRecords] of requiredQueries) {
   const databaseResults = search.searchDatabase(publicData, query);
@@ -138,10 +152,10 @@ for (const [query, expectedRecords] of requiredQueries) {
   console.log(`PASS PCD search "${query}": ${results.length} record${results.length === 1 ? '' : 's'}`);
 }
 check(search.normalizeSearchText('5×112') === '5x112', 'Multiplication-sign normalization failed');
-check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 59, 'PCD hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 94, 'Thread hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, '5-112')).length === 75, 'PCD hyphen normalization failed');
+check(flattenResults(search.searchDatabase(publicData, 'M14-1.5')).length === 110, 'Thread hyphen normalization failed');
 check(flattenResults(search.searchDatabase(publicData, 'gOlF-5')).length === 1, 'Case/hyphen normalization failed');
-check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 6, 'Volkswagen alias search failed');
+check(flattenResults(search.searchDatabase(publicData, 'VW Golf')).length === 9, 'Volkswagen alias search failed');
 check(flattenResults(search.searchDatabase(publicData, 'Golf V')).length === 1, 'Golf generation alias search failed');
 
 const noticeCases = [
@@ -208,11 +222,41 @@ check(e46.some((record) => record.generation === 'E46 non-M') && e46.some((recor
 check(!JSON.stringify(e46).includes('ET35-50'), 'BMW verified data retained generic ET35-50');
 check(e46.find((record) => record.generation === 'E46 M3 CSL').years[0].from === 2003, 'CSL is not restricted to exact MY2003 scope');
 
-const golfRecords = source.records.filter((record) => record.makerSlug === 'volkswagen' && record.modelSlug === 'golf' && /^Golf V|^Mk[678]/.test(record.generation));
-check(golfRecords.length === 4, `Expected split Golf V–VIII records, found ${golfRecords.length}`);
-check(golfRecords.find((record) => record.generation === 'Golf V / Type 1K')?.verificationStatus === 'verified', 'Golf V is not verified');
-check(golfRecords.filter((record) => /^Mk[678]/.test(record.generation)).every((record) => record.verificationStatus === 'legacyPending'), 'Golf Mk6–Mk8 status was inflated');
-check(golfRecords.find((record) => record.generation === 'Golf V / Type 1K').fitments[0].tire === undefined, 'Golf inaccessible historical tyre data was asserted');
+const batch02VerifiedIds = new Set([
+  'volkswagen-golf-vi-5k-base-2008-2012-5x112', 'audi-a3-8p-base-2003-2013-5x112',
+  'skoda-octavia-1z-2004-2013-5x112', 'skoda-octavia-vrs-1z-2005-2013-5x112',
+  'skoda-octavia-scout-1z-2007-2013-5x112', 'seat-leon-1p-2005-2012-5x112',
+  'volkswagen-touran-1t-2003-2015-5x112', 'volkswagen-crosstouran-1t-2007-2015-5x112'
+]);
+const batch02LegacyIds = new Set([
+  'volkswagen-golf-gti-mk6-2009-2012-5x112', 'volkswagen-golf-gtd-mk6-2009-2012-5x112', 'volkswagen-golf-r-mk6-2009-2012-5x112',
+  'audi-s3-8p-2006-2013-5x112', 'audi-rs3-8pa-2011-2013-5x112', 'seat-leon-fr-1p-2006-2012-5x112',
+  'seat-leon-cupra-1p-2006-2012-5x112', 'seat-leon-cupra-r-1p-2010-2012-5x112', 'skoda-octavia-5e-2012-2020-5x112',
+  'skoda-octavia-nx-2019-2026-5x112', 'seat-leon-5f-2012-2020-5x112', 'seat-leon-kl-2020-2026-5x112', 'volkswagen-touran-5t-2015-2026-5x112'
+]);
+const batch02Records = source.records.filter((record) => batch02VerifiedIds.has(record.id) || batch02LegacyIds.has(record.id));
+check(batch02Records.length === 21, 'Batch 02 record count changed');
+check(source.records.filter((record) => batch02VerifiedIds.has(record.id) && record.verificationStatus === 'verified').length === 8, 'Batch 02 must contain exactly eight verified records');
+check(source.records.filter((record) => batch02LegacyIds.has(record.id)).every((record) => record.verificationStatus === 'legacyPending'), 'Performance and later-generation Batch 02 records must remain legacyPending');
+for (const record of source.records.filter((item) => batch02VerifiedIds.has(item.id))) {
+  check(record.market.length === 1 && record.market[0] === 'EU', `${record.id} market scope is not EU only`);
+  check(record.boltPattern.holes === 5 && record.boltPattern.diameterMm === 112 && record.centerBore === 57.1, `${record.id} core PCD/CB failed`);
+  check(record.offset.fitmentSpecific && record.threadSize === 'M14x1.5' && record.torque.valueNm === 120, `${record.id} core offset/thread/torque failed`);
+  check(record.notes.some((item) => item.text.includes('57.06 mm')), `${record.id} lacks documented 57.06 mm centre-bore note`);
+  check(record.fitments.length > 0 && record.fitments.every((item) => item.tire?.size && Number.isFinite(item.wheel.offsetEt)), `${record.id} has an incomplete exact fitment`);
+  check(record.fitments.every((item) => item.sourceRefs.length && item.engines?.length && item.bodyStyles?.length && item.drivetrains?.length && item.brakeRestrictions?.length && item.notes?.some((note) => note.includes('M+S restriction'))), `${record.id} fitment restrictions/source coverage failed`);
+}
+const a3 = source.records.find((record) => record.id === 'audi-a3-8p-base-2003-2013-5x112');
+check(a3.fastenerDetails.seat === 'spherical' && a3.fastenerDetails.lengthMm === 27.5 && a3.torque.valueNm === 120, 'Audi 8P BF1 hardware failed');
+check(a3.torque.valueNm !== 140 && !a3.fitments.some((item) => item.notes?.some((note) => /^Torque: 140 Nm/.test(note))), 'Audi 8P must not receive BF2 140 Nm');
+for (const record of source.records.filter((item) => ['volkswagen', 'skoda', 'seat'].includes(item.makerSlug) && batch02VerifiedIds.has(item.id))) {
+  check(record.fastenerDetails.seat === 'spherical' && record.fastenerDetails.lengthMm === 27, `${record.id} VAG spherical 27 mm hardware failed`);
+}
+const golfBase = source.records.find((record) => record.id === 'volkswagen-golf-vi-5k-base-2008-2012-5x112');
+const golfRecords = [source.records.find((record) => record.generation === 'Golf V / Type 1K')];
+check(!source.records.filter((record) => /Golf VI (GTI|GTD|R)/.test(record.generation)).some((record) => record.fitments?.length), 'Golf performance fitments must not be published');
+check(golfBase.fitments.every((item) => item.trims.every((trim) => trim.includes('excludes GTI/GTD/R'))), 'Golf base fitments leak into performance scope');
+check(Object.values(source.migrationMap).flat().every((id) => source.records.some((record) => record.id === id)), 'Migration map has a dangling replacement');
 
 const astraH = source.records.filter((record) => record.makerSlug === 'opel-vauxhall' && record.generation.startsWith('H —'));
 check(astraH.length === 2 && astraH.every((record) => record.verificationStatus === 'verified'), 'Astra H 4/5-bolt split failed');
@@ -221,15 +265,15 @@ check(astraH.some((record) => pcdLabel(record) === '5x110' && record.centerBore 
 const astraFitments = astraH.flatMap((record) => record.fitments);
 check(!astraFitments.some((item) => item.wheel.offsetEt === 45 || item.wheel.diameterIn === 19 || item.tire?.size === '215/50R17'), 'Astra banned values entered verified fitments');
 
-const unchangedLegacy = source.records.filter((record) => !(
-  record.id === 'volvo-s70-p80-1997-2000-5x108' ||
-  (record.makerSlug === 'bmw' && record.modelSlug === '3-series' && record.generation.includes('E46')) ||
-  (record.makerSlug === 'volkswagen' && record.modelSlug === 'golf' && (record.generation === 'Golf V / Type 1K' || /^Mk[678]/.test(record.generation))) ||
-  (record.makerSlug === 'opel-vauxhall' && record.generation.startsWith('H —'))
-));
-check(unchangedLegacy.length === 270, `Expected 270 untouched legacy records, found ${unchangedLegacy.length}`);
-const unchangedLegacyHash = crypto.createHash('sha256').update(JSON.stringify(unchangedLegacy)).digest('hex');
-check(unchangedLegacyHash === 'd2ca1e69e5cbcc544606342df976e9cef0dbc82640d0019ebc4e2f9ac69214cc', `Untouched legacy records changed: ${unchangedLegacyHash}`);
+function canonical(value) {
+  if (Array.isArray(value)) return value.map(canonical);
+  if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])]));
+  return value;
+}
+const unrelatedRecords = source.records.filter((record) => !batch02VerifiedIds.has(record.id) && !batch02LegacyIds.has(record.id));
+check(unrelatedRecords.length === 275, `Expected 275 unrelated records, found ${unrelatedRecords.length}`);
+const unrelatedHash = crypto.createHash('sha256').update(JSON.stringify(canonical(unrelatedRecords))).digest('hex');
+check(unrelatedHash === '7741403851985ed036295d7352b15bb2ca1b1bc7184ecda7c8d17d79723472f6', `Unrelated records changed: ${unrelatedHash}`);
 
 const vehiclePages = new Map([
   ['pcd/volvo/s70.html', [volvo]],
