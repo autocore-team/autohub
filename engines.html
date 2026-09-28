@@ -23,6 +23,7 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
+      overflow-x: hidden;
       background: var(--bg);
       color: var(--text);
       font-family: Arial, sans-serif;
@@ -174,6 +175,13 @@
       line-height: 1.45;
       font-size: 14px;
     }
+    .engine-search-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #334155;
+      font-size: 14px;
+      font-weight: 700;
+    }
     .engine-search-row {
       display: flex;
       align-items: center;
@@ -184,54 +192,173 @@
       flex: 1 1 360px;
       width: auto;
     }
-    .engine-search-button {
+    .engine-search-button,
+    .engine-secondary-button,
+    .region-toggle,
+    .maker-button,
+    .back-button {
       min-height: 42px;
-      border: 1px solid var(--accent);
       border-radius: 6px;
-      background: var(--accent);
-      color: #fff;
       padding: 0 16px;
       font-weight: 700;
       cursor: pointer;
     }
-    .engine-search-button:hover {
+    .engine-search-button {
+      border: 1px solid var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+    .engine-search-button:hover,
+    .engine-search-button:focus-visible {
       background: var(--accent-dark);
     }
-    .region-tabs,
-    .maker-tabs {
+    .engine-secondary-button,
+    .back-button {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #334155;
+    }
+    .engine-secondary-button:hover,
+    .engine-secondary-button:focus-visible,
+    .back-button:hover,
+    .back-button:focus-visible {
+      border-color: var(--accent);
+      color: var(--accent-dark);
+    }
+    .engine-search-help {
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .browse-heading,
+    .search-results-heading {
       display: flex;
-      gap: 8px;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
       flex-wrap: wrap;
+      margin-top: 22px;
+    }
+    .browse-heading h3,
+    .search-results-heading h3 {
+      margin: 0;
+      font-size: 17px;
+    }
+    .browse-heading p,
+    .search-results-heading p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .region-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
       margin-top: 12px;
     }
-    .maker-tabs {
-      gap: 6px;
-      margin-top: 10px;
-    }
-    .region-tabs button,
-    .maker-tabs button {
-      min-height: 34px;
+    .region-card {
+      min-width: 0;
       border: 1px solid var(--line);
-      border-radius: 6px;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .region-card.selected {
+      border-color: #5eead4;
+      box-shadow: 0 0 0 2px rgba(15, 118, 110, .08);
+    }
+    .region-toggle {
+      width: 100%;
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      border: 0;
+      background: #fff;
+      color: var(--text);
+      padding: 12px 14px;
+      text-align: left;
+    }
+    .region-toggle:hover,
+    .region-toggle:focus-visible,
+    .region-toggle[aria-expanded="true"] {
+      background: #f0fdfa;
+    }
+    .region-toggle:focus-visible,
+    .maker-button:focus-visible,
+    .back-button:focus-visible,
+    .engine-match:focus-visible {
+      outline: 3px solid rgba(15, 118, 110, .25);
+      outline-offset: 2px;
+    }
+    .region-name {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 16px;
+    }
+    .region-counts {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .region-action {
+      flex: 0 0 auto;
+      color: var(--accent-dark);
+      font-size: 12px;
+    }
+    .region-panel {
+      padding: 14px;
+      border-top: 1px solid var(--line);
+      background: var(--soft);
+    }
+    .region-panel[hidden],
+    .region-browser[hidden],
+    .search-results[hidden] {
+      display: none;
+    }
+    .region-panel-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .region-panel-heading h4 {
+      margin: 0;
+      font-size: 14px;
+    }
+    .maker-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+    .maker-button {
+      min-height: 38px;
+      border: 1px solid var(--line);
       background: #fff;
       color: #334155;
       padding: 0 11px;
       font-size: 13px;
-      cursor: pointer;
     }
-    .maker-tabs button {
-      min-height: 32px;
-      padding: 0 10px;
-      color: #475569;
-    }
-    .region-tabs button.selected,
-    .maker-tabs button.selected {
-      background: var(--accent);
+    .maker-button:hover,
+    .maker-button:focus-visible,
+    .maker-button[aria-pressed="true"] {
       border-color: var(--accent);
+      background: var(--accent);
       color: #fff;
     }
+    .manufacturer-engines {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
     .engine-search-meta {
-      margin: 12px 0 0;
+      margin: 0;
       color: var(--muted);
       font-size: 13px;
     }
@@ -250,6 +377,14 @@
       padding: 11px 12px;
       text-align: left;
       cursor: pointer;
+    }
+    .engine-match-meta,
+    .engine-match-specs {
+      display: block;
+    }
+    .engine-match-specs {
+      margin-top: 7px;
+      color: #334155;
     }
     .engine-match:hover,
     .engine-match.selected {
@@ -394,6 +529,9 @@
       .engine-analysis {
         grid-template-columns: 1fr;
       }
+      .region-list {
+        grid-template-columns: 1fr;
+      }
       .engine-spec,
       .engine-spec:nth-child(3n+2),
       .engine-spec:nth-child(3n+3) {
@@ -409,8 +547,16 @@
         width: 100%;
       }
       .engine-search-row,
-      .engine-search-button {
+      .engine-search-button,
+      .engine-secondary-button {
         width: 100%;
+      }
+      .region-toggle {
+        min-height: 76px;
+      }
+      .maker-button,
+      .back-button {
+        min-height: 44px;
       }
     }
   </style>
@@ -454,22 +600,37 @@
       <h2 id="engineFinderTitle" data-i18n="finderTitle">Find an engine by code</h2>
       <div class="panel-body">
         <p data-i18n="finderLead">Enter an engine code or family, for example B5202S, M54, EA888, K20, G4KD or LM7.</p>
+        <label class="engine-search-label" for="engineCodeSearch" data-i18n="searchLabel">Search all engine records</label>
         <div class="engine-search-row">
-          <input id="engineCodeSearch" type="search" list="engineSuggestions" placeholder="B5202S, M54, EA888, K20, G4KD, LM7" autocomplete="off">
+          <input id="engineCodeSearch" type="search" list="engineSuggestions" placeholder="B5202S, M54, EA888, K20, G4KD, LM7" autocomplete="off" aria-describedby="engineSearchHelp">
           <datalist id="engineSuggestions"></datalist>
           <button type="button" class="engine-search-button" id="engineFindButton" data-i18n="finderButton">Open engine details</button>
+          <button type="button" class="engine-secondary-button" id="engineClearButton" hidden data-i18n="clearSearch">Clear search</button>
+          <button type="button" class="engine-secondary-button" id="engineCopyButton" data-i18n="copyLink">Copy link</button>
         </div>
-        <div class="region-tabs" aria-label="Engine regions">
-          <button type="button" class="selected" data-engine-region="all" data-i18n="regionAll">All regions</button>
-          <button type="button" data-engine-region="europe" data-i18n="regionEurope">Europe</button>
-          <button type="button" data-engine-region="japan" data-i18n="regionJapan">Japan</button>
-          <button type="button" data-engine-region="korea" data-i18n="regionKorea">Korea</button>
-          <button type="button" data-engine-region="usa" data-i18n="regionUsa">USA</button>
-        </div>
-        <div class="maker-tabs" id="engineMakerTabs" aria-label="Engine makers"></div>
-        <p class="engine-search-meta" id="engineSearchMeta"></p>
-        <div class="engine-match-list" id="engineMatchList"></div>
-        <p class="engine-empty" id="engineEmpty" hidden data-i18n="finderEmpty">No matching engine code found. Try a shorter code or send a request.</p>
+        <p class="engine-search-help" id="engineSearchHelp" data-i18n="searchHelp">Search by engine code, manufacturer, model, engine family or alias across every region.</p>
+        <p class="engine-search-help" id="engineCopyStatus" role="status" aria-live="polite"></p>
+
+        <section class="region-browser" id="engineRegionBrowser" aria-labelledby="regionBrowserTitle">
+          <div class="browse-heading">
+            <div>
+              <h3 id="regionBrowserTitle" data-i18n="browseByRegion">Browse by region</h3>
+              <p data-i18n="browseDescription">Open a region, choose a manufacturer and then review its engine records.</p>
+            </div>
+          </div>
+          <div class="region-list" id="engineRegionList"></div>
+        </section>
+
+        <section class="search-results" id="engineSearchResults" aria-labelledby="searchResultsTitle" hidden>
+          <div class="search-results-heading">
+            <div>
+              <h3 id="searchResultsTitle" data-i18n="searchResults">Search results</h3>
+              <p class="engine-search-meta" id="engineSearchMeta" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="engine-match-list" id="engineMatchList"></div>
+          <p class="engine-empty" id="engineEmpty" hidden data-i18n="noMatchingEngines">No matching engines.</p>
+        </section>
       </div>
     </section>
 
@@ -519,6 +680,7 @@
   <script src="data/engines/japan.js?v=20260624-1"></script>
   <script src="data/engines/korea.js?v=20260624-1"></script>
   <script src="data/engines/usa.js?v=20260624-1"></script>
+  <script src="assets/js/engine-search-core.js?v=20260928-1"></script>
   <script>
     const translations = {
       en: {
@@ -539,11 +701,24 @@
         finderTitle: 'Find an engine by code',
         finderLead: 'Enter an engine code or family, for example B5202S, M54, EA888, K20, G4KD or LM7.',
         finderButton: 'Open engine details',
-        regionAll: 'All regions', regionEurope: 'Europe', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
+        petrolHybrid: 'Petrol hybrid', mildHybrid: 'Mild hybrid', dualInjection: 'Direct and multipoint injection', variantAspiration: 'Naturally aspirated / turbocharged depending on version', alternateFuel: 'Alternative fuel',
         makerAll: 'All makers',
         finderCount: '{count} engine records available.',
         browsePrompt: 'Type a code or choose a region / maker to show matching engines.',
         finderEmpty: 'No matching engine code found. Try a shorter code or send a request.',
+        searchLabel: 'Search all engine records',
+        searchHelp: 'Search by engine code, manufacturer, model, engine family or alias across every region.',
+        browseByRegion: 'Browse by region',
+        browseDescription: 'Open a region, choose a manufacturer and then review its engine records.',
+        manufacturersLabel: 'manufacturers', engineCountLabel: 'engines',
+        showRegion: 'Show region', hideRegion: 'Hide region',
+        chooseManufacturer: 'Choose manufacturer', backToManufacturers: 'Back to manufacturers',
+        manufacturerEngines: '{manufacturer} engines', searchResults: 'Search results',
+        clearSearch: 'Clear search', noMatchingEngines: 'No matching engines.',
+        copyLink: 'Copy link', linkCopied: 'Link copied.', copyFailed: 'Could not copy the link.',
+        resultSummary: '{count} matching engines', verificationStatus: 'Verification status',
+        verificationVerified: 'Verified', verificationCorroborated: 'Corroborated', verificationLegacyPending: 'Legacy record under review',
+        applicationLabel: 'Application', availableSpecs: 'Available specifications',
         detailTitle: 'Engine details', region: 'Region', displacement: 'Displacement', configuration: 'Configuration', power: 'Power', torque: 'Torque', engineSpeed: 'Engine speed', rpmUnit: 'rpm', secondaryPowerUnit: 'hp', fuelType: 'Fuel', aspiration: 'Aspiration', injection: 'Injection', block: 'Block', timingDrive: 'Timing drive',
         manufacturerLife: 'Manufacturer-declared life', observedLife: 'Observed service life', fuelConsumption: 'Indicative fuel consumption',
         observedLifeNote: 'Non-official range reported for maintained engines; not a guarantee.',
@@ -585,11 +760,24 @@
         finderTitle: 'Buscar un motor por código',
         finderLead: 'Introduce un código o familia, por ejemplo B5202S, M54, EA888, K20, G4KD o LM7.',
         finderButton: 'Abrir detalles del motor',
-        regionAll: 'Todas las regiones', regionEurope: 'Europa', regionJapan: 'Japón', regionKorea: 'Corea', regionUsa: 'EE. UU.',
+        petrolHybrid: 'Híbrido de gasolina', mildHybrid: 'Híbrido ligero', dualInjection: 'Inyección directa y multipunto', variantAspiration: 'Atmosférico / turboalimentado según la versión', alternateFuel: 'Combustible alternativo',
         makerAll: 'Todas las marcas',
         finderCount: '{count} registros de motores disponibles.',
         browsePrompt: 'Introduce un código o elige una región / marca para ver motores coincidentes.',
         finderEmpty: 'No se encontró el código. Prueba un código más corto o envía una solicitud.',
+        searchLabel: 'Buscar en todos los registros de motores',
+        searchHelp: 'Busca por código, fabricante, modelo, familia de motor o alias en todas las regiones.',
+        browseByRegion: 'Explorar por región',
+        browseDescription: 'Abre una región, elige un fabricante y consulta sus registros de motores.',
+        manufacturersLabel: 'fabricantes', engineCountLabel: 'motores',
+        showRegion: 'Mostrar región', hideRegion: 'Ocultar región',
+        chooseManufacturer: 'Elegir fabricante', backToManufacturers: 'Volver a fabricantes',
+        manufacturerEngines: 'Motores de {manufacturer}', searchResults: 'Resultados de búsqueda',
+        clearSearch: 'Borrar búsqueda', noMatchingEngines: 'No hay motores coincidentes.',
+        copyLink: 'Copiar enlace', linkCopied: 'Enlace copiado.', copyFailed: 'No se pudo copiar el enlace.',
+        resultSummary: '{count} motores coincidentes', verificationStatus: 'Estado de verificación',
+        verificationVerified: 'Verificado', verificationCorroborated: 'Corroborado', verificationLegacyPending: 'Registro heredado en revisión',
+        applicationLabel: 'Aplicación', availableSpecs: 'Especificaciones disponibles',
         detailTitle: 'Detalles del motor', region: 'Región', displacement: 'Cilindrada', configuration: 'Configuración', power: 'Potencia', torque: 'Par', engineSpeed: 'Régimen', rpmUnit: 'rpm', secondaryPowerUnit: 'CV', fuelType: 'Combustible', aspiration: 'Aspiración', injection: 'Inyección', block: 'Bloque', timingDrive: 'Distribución',
         manufacturerLife: 'Vida declarada por fabricante', observedLife: 'Vida útil observada', fuelConsumption: 'Consumo orientativo',
         observedLifeNote: 'Rango no oficial observado con mantenimiento; no es una garantía.',
@@ -631,11 +819,24 @@
         finderTitle: 'Trouver un moteur par code',
         finderLead: 'Entrez un code ou une famille, par exemple B5202S, M54, EA888, K20, G4KD ou LM7.',
         finderButton: 'Ouvrir les détails du moteur',
-        regionAll: 'Toutes régions', regionEurope: 'Europe', regionJapan: 'Japon', regionKorea: 'Corée', regionUsa: 'États-Unis',
+        petrolHybrid: 'Hybride essence', mildHybrid: 'Hybride léger', dualInjection: 'Injection directe et multipoint', variantAspiration: 'Atmosphérique / turbocompressé selon la version', alternateFuel: 'Carburant alternatif',
         makerAll: 'Toutes marques',
         finderCount: '{count} fiches moteur disponibles.',
         browsePrompt: 'Saisissez un code ou choisissez une région / marque pour afficher les moteurs correspondants.',
         finderEmpty: 'Aucun code moteur trouvé. Essayez un code plus court ou envoyez une demande.',
+        searchLabel: 'Rechercher dans toutes les fiches moteur',
+        searchHelp: 'Recherchez par code moteur, constructeur, modèle, famille ou alias dans toutes les régions.',
+        browseByRegion: 'Parcourir par région',
+        browseDescription: 'Ouvrez une région, choisissez un constructeur puis consultez ses moteurs.',
+        manufacturersLabel: 'constructeurs', engineCountLabel: 'moteurs',
+        showRegion: 'Afficher la région', hideRegion: 'Masquer la région',
+        chooseManufacturer: 'Choisir un constructeur', backToManufacturers: 'Retour aux constructeurs',
+        manufacturerEngines: 'Moteurs {manufacturer}', searchResults: 'Résultats de recherche',
+        clearSearch: 'Effacer la recherche', noMatchingEngines: 'Aucun moteur correspondant.',
+        copyLink: 'Copier le lien', linkCopied: 'Lien copié.', copyFailed: 'Impossible de copier le lien.',
+        resultSummary: '{count} moteurs correspondants', verificationStatus: 'État de vérification',
+        verificationVerified: 'Vérifié', verificationCorroborated: 'Corroboré', verificationLegacyPending: 'Ancienne fiche en cours de vérification',
+        applicationLabel: 'Application', availableSpecs: 'Caractéristiques disponibles',
         detailTitle: 'Détails du moteur', region: 'Région', displacement: 'Cylindrée', configuration: 'Configuration', power: 'Puissance', torque: 'Couple', engineSpeed: 'Régime moteur', rpmUnit: 'tr/min', secondaryPowerUnit: 'ch', fuelType: 'Carburant', aspiration: 'Suralimentation', injection: 'Injection', block: 'Bloc', timingDrive: 'Distribution',
         manufacturerLife: 'Durée déclarée par constructeur', observedLife: 'Durée de service observée', fuelConsumption: 'Consommation indicative',
         observedLifeNote: 'Plage non officielle observée avec entretien ; ce n’est pas une garantie.',
@@ -677,11 +878,24 @@
         finderTitle: 'Motor nach Code finden',
         finderLead: 'Motorcode oder Familie eingeben, zum Beispiel B5202S, M54, EA888, K20, G4KD oder LM7.',
         finderButton: 'Motordetails öffnen',
-        regionAll: 'Alle Regionen', regionEurope: 'Europa', regionJapan: 'Japan', regionKorea: 'Korea', regionUsa: 'USA',
+        petrolHybrid: 'Benzin-Hybrid', mildHybrid: 'Mild-Hybrid', dualInjection: 'Direkt- und Saugrohreinspritzung', variantAspiration: 'Saugmotor / Turbolader je nach Version', alternateFuel: 'Alternativer Kraftstoff',
         makerAll: 'Alle Marken',
         finderCount: '{count} Motordatensätze verfügbar.',
         browsePrompt: 'Code eingeben oder Region / Marke wählen, um passende Motoren anzuzeigen.',
         finderEmpty: 'Kein Motorcode gefunden. Kürzeren Code versuchen oder Anfrage senden.',
+        searchLabel: 'Alle Motordatensätze durchsuchen',
+        searchHelp: 'Nach Motorcode, Hersteller, Modell, Motorfamilie oder Alias in allen Regionen suchen.',
+        browseByRegion: 'Nach Region durchsuchen',
+        browseDescription: 'Region öffnen, Hersteller wählen und anschließend dessen Motoren anzeigen.',
+        manufacturersLabel: 'Hersteller', engineCountLabel: 'Motoren',
+        showRegion: 'Region anzeigen', hideRegion: 'Region ausblenden',
+        chooseManufacturer: 'Hersteller wählen', backToManufacturers: 'Zurück zu den Herstellern',
+        manufacturerEngines: 'Motoren von {manufacturer}', searchResults: 'Suchergebnisse',
+        clearSearch: 'Suche löschen', noMatchingEngines: 'Keine passenden Motoren.',
+        copyLink: 'Link kopieren', linkCopied: 'Link kopiert.', copyFailed: 'Link konnte nicht kopiert werden.',
+        resultSummary: '{count} passende Motoren', verificationStatus: 'Prüfstatus',
+        verificationVerified: 'Verifiziert', verificationCorroborated: 'Bestätigt', verificationLegacyPending: 'Altdatensatz in Prüfung',
+        applicationLabel: 'Anwendung', availableSpecs: 'Verfügbare Daten',
         detailTitle: 'Motordetails', region: 'Region', displacement: 'Hubraum', configuration: 'Bauart', power: 'Leistung', torque: 'Drehmoment', engineSpeed: 'Drehzahl', rpmUnit: 'U/min', secondaryPowerUnit: 'PS', fuelType: 'Kraftstoff', aspiration: 'Aufladung', injection: 'Einspritzung', block: 'Motorblock', timingDrive: 'Steuertrieb',
         manufacturerLife: 'Vom Hersteller genannte Laufleistung', observedLife: 'Beobachtete Laufleistung', fuelConsumption: 'Richtverbrauch',
         observedLifeNote: 'Nichtoffizieller Bereich bei gewarteten Motoren; keine Garantie.',
@@ -707,26 +921,34 @@
       }
     };
 
+    const engineSearchCore = window.D3_ENGINE_SEARCH_CORE;
+    const engineRegions = ['europe', 'japan', 'korea', 'usa'];
+    const supportedLanguages = ['en', 'es', 'fr', 'de'];
     const initialUrl = new URL(window.location.href);
-    let lang = translations[initialUrl.searchParams.get('lang')] ? initialUrl.searchParams.get('lang') : 'en';
     const enginePagePaths = {
       'volvo-b5202s': 'engines/volvo-b5202.html'
     };
-    let activeRegion = ['all', 'europe', 'japan', 'korea', 'usa'].includes(initialUrl.searchParams.get('region'))
-      ? initialUrl.searchParams.get('region')
-      : 'all';
-    let selectedEngineId = '';
     const engineRecords = Object.values(window.AUTOHUB_ENGINE_DATA_REGIONS || {}).flat();
-    let activeMaker = 'all';
+    let viewState = engineSearchCore.stateFromUrl(initialUrl, engineRecords, engineRegions, supportedLanguages);
+    let lang = viewState.lang;
+    let activeRegion = viewState.region;
+    let activeMaker = viewState.maker;
+    let selectedEngineId = viewState.engine;
     const engineCodeSearch = document.getElementById('engineCodeSearch');
     const engineSuggestions = document.getElementById('engineSuggestions');
     const engineFindButton = document.getElementById('engineFindButton');
+    const engineClearButton = document.getElementById('engineClearButton');
+    const engineCopyButton = document.getElementById('engineCopyButton');
+    const engineCopyStatus = document.getElementById('engineCopyStatus');
+    const engineRegionBrowser = document.getElementById('engineRegionBrowser');
+    const engineRegionList = document.getElementById('engineRegionList');
+    const engineSearchResults = document.getElementById('engineSearchResults');
     const engineSearchMeta = document.getElementById('engineSearchMeta');
     const engineMatchList = document.getElementById('engineMatchList');
-    const engineMakerTabs = document.getElementById('engineMakerTabs');
     const engineEmpty = document.getElementById('engineEmpty');
     const engineDetail = document.getElementById('engineDetail');
     const engineDetailContent = document.getElementById('engineDetailContent');
+    engineCodeSearch.value = viewState.query;
 
     function t(key) {
       return translations[lang][key] || translations.en[key] || key;
@@ -745,95 +967,177 @@
         .replaceAll("'", '&#039;');
     }
 
-    function makerSlug(value) {
-      return String(value || '')
-        .toLowerCase()
-        .replace(/&/g, 'and')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '');
+    function currentState() {
+      return {
+        lang,
+        query: engineCodeSearch.value.trim(),
+        region: activeRegion,
+        maker: activeMaker,
+        engine: selectedEngineId
+      };
     }
 
-    function updateFilterUrl() {
-      const url = new URL(window.location.href);
-      url.searchParams.set('lang', lang);
-      if (activeRegion !== 'all') url.searchParams.set('region', activeRegion);
-      else url.searchParams.delete('region');
-      if (activeMaker !== 'all') url.searchParams.set('maker', activeMaker);
-      else url.searchParams.delete('maker');
-      window.history.replaceState({}, '', url);
+    function updateUrl(mode = 'replace') {
+      const url = engineSearchCore.applyStateToUrl(window.location.href, currentState());
+      window.history[`${mode}State`]({}, '', url);
     }
 
-    function engineSearchText(record) {
-      return [record.code, record.maker, record.regionKey, record.years]
-        .concat(record.aliases || [], record.applications || [])
-        .join(' ')
-        .toLowerCase();
+    function verificationLabel(record) {
+      const status = record.verification?.status || 'legacyPending';
+      const key = {
+        verified: 'verificationVerified',
+        corroborated: 'verificationCorroborated',
+        legacyPending: 'verificationLegacyPending'
+      }[status] || 'verificationLegacyPending';
+      return t(key);
     }
 
-    function matchingEngines() {
-      const query = engineCodeSearch.value.trim().toLowerCase();
-      return engineRecords.filter((record) => {
-        const regionOk = activeRegion === 'all' || record.regionKey === activeRegion;
-        const makerOk = activeMaker === 'all' || makerSlug(record.maker) === activeMaker;
-        const queryOk = !query || engineSearchText(record).includes(query);
-        return regionOk && makerOk && queryOk;
-      });
+    function compactSpecs(record) {
+      const values = [record.displacement, record.layout];
+      if (record.performance?.powerKw) {
+        const power = formatNumericRange(record.performance.powerKw);
+        if (power) values.push(`${power} kW`);
+      }
+      if (record.performance?.torqueNm) {
+        const torque = formatNumericRange(record.performance.torqueNm);
+        if (torque) values.push(`${torque} Nm`);
+      }
+      return values.filter(Boolean).join(' · ');
     }
 
-    function renderEngineMatches() {
-      const matches = matchingEngines();
-      const query = engineCodeSearch.value.trim();
-      const shouldShowMatches = Boolean(query) || activeRegion !== 'all' || activeMaker !== 'all';
-      const countText = formatSummary(t('finderCount'), { count: matches.length });
-      engineSearchMeta.textContent = shouldShowMatches ? countText : `${countText} ${t('browsePrompt')}`;
-      engineEmpty.hidden = matches.length > 0 || !shouldShowMatches;
-      engineMatchList.innerHTML = shouldShowMatches ? matches.map((record) => `
+    function engineCard(record) {
+      const application = (record.applications || [])[0] || t('notSpecified');
+      return `
         <button type="button" class="engine-match${record.id === selectedEngineId ? ' selected' : ''}" data-engine-id="${escapeHtml(record.id)}">
           <strong>${escapeHtml(record.code)}</strong>
-          <span>${escapeHtml(record.maker)} · ${escapeHtml(record.years)} · ${escapeHtml(t(record.regionKey))}</span>
+          <span class="engine-match-meta">${escapeHtml(record.maker)} · ${escapeHtml(application)}</span>
+          <span class="engine-match-meta">${escapeHtml(t(record.regionKey))} · ${escapeHtml(t('verificationStatus'))}: ${escapeHtml(verificationLabel(record))}</span>
+          <span class="engine-match-specs">${escapeHtml(compactSpecs(record))}</span>
         </button>
-      `).join('') : '';
-      engineMatchList.querySelectorAll('[data-engine-id]').forEach((button) => {
+      `;
+    }
+
+    function bindEngineCards(container) {
+      container.querySelectorAll('[data-engine-id]').forEach((button) => {
         button.addEventListener('click', () => openEngine(button.dataset.engineId, true, true));
       });
     }
 
-    function makerOptionsForActiveRegion() {
-      const counts = new Map();
-      engineRecords.forEach((record) => {
-        if (activeRegion !== 'all' && record.regionKey !== activeRegion) return;
-        const slug = makerSlug(record.maker);
-        if (!counts.has(slug)) counts.set(slug, { slug, label: record.maker, count: 0 });
-        counts.get(slug).count += 1;
-      });
-      return [...counts.values()].sort((a, b) => a.label.localeCompare(b.label));
+    function focusRegionControl(region) {
+      [...engineRegionList.querySelectorAll('[data-engine-region]')]
+        .find((button) => button.dataset.engineRegion === region)
+        ?.focus();
     }
 
-    function renderMakerTabs() {
-      const makers = makerOptionsForActiveRegion();
-      if (activeMaker !== 'all' && !makers.some((maker) => maker.slug === activeMaker)) {
-        activeMaker = 'all';
-      }
-      const allCount = makers.reduce((sum, maker) => sum + maker.count, 0);
-      engineMakerTabs.innerHTML = `
-        <button type="button" class="${activeMaker === 'all' ? 'selected' : ''}" data-engine-maker="all">${escapeHtml(t('makerAll'))} (${allCount})</button>
-        ${makers.map((maker) => `
-          <button type="button" class="${activeMaker === maker.slug ? 'selected' : ''}" data-engine-maker="${escapeHtml(maker.slug)}">${escapeHtml(maker.label)} (${maker.count})</button>
-        `).join('')}
-      `;
-      engineMakerTabs.querySelectorAll('[data-engine-maker]').forEach((button) => {
+    function focusMakerControl(maker) {
+      [...engineRegionList.querySelectorAll('[data-engine-maker]')]
+        .find((button) => button.dataset.engineMaker === maker)
+        ?.focus();
+    }
+
+    function renderRegionalNavigation() {
+      const model = engineSearchCore.navigationModel(engineRecords, engineRegions, {
+        region: activeRegion,
+        maker: activeMaker
+      });
+
+      engineRegionList.innerHTML = model.map((item) => {
+        const panelId = `engine-region-panel-${item.region}`;
+        const buttonId = `engine-region-button-${item.region}`;
+        const selectedMaker = item.makers.find((maker) => maker.slug === activeMaker);
+        const makerButtons = item.makers.map((maker) => `
+          <button type="button" class="maker-button" data-engine-maker="${escapeHtml(maker.slug)}" aria-pressed="${maker.slug === activeMaker}">
+            ${escapeHtml(maker.label)} (${maker.count})
+          </button>
+        `).join('');
+        const manufacturerResults = selectedMaker ? `
+          <div class="manufacturer-engines">
+            <div class="region-panel-heading">
+              <h4>${escapeHtml(formatSummary(t('manufacturerEngines'), { manufacturer: selectedMaker.label }))}</h4>
+              <button type="button" class="back-button" data-back-to-manufacturers>${escapeHtml(t('backToManufacturers'))}</button>
+            </div>
+            <div class="engine-match-list">${item.selectedEngines.map(engineCard).join('')}</div>
+          </div>
+        ` : '';
+
+        return `
+          <article class="region-card${item.expanded ? ' selected' : ''}">
+            <button type="button" class="region-toggle" id="${buttonId}" data-engine-region="${escapeHtml(item.region)}" aria-expanded="${item.expanded}" aria-controls="${panelId}">
+              <span>
+                <strong class="region-name">${escapeHtml(t(item.region))}</strong>
+                <span class="region-counts">${escapeHtml(engineSearchCore.formatRegionSummary(item, {
+                  manufacturers: t('manufacturersLabel'),
+                  engines: t('engineCountLabel')
+                }))}</span>
+              </span>
+              <span class="region-action">${escapeHtml(t(item.expanded ? 'hideRegion' : 'showRegion'))}</span>
+            </button>
+            <div class="region-panel" id="${panelId}" role="region" aria-labelledby="${buttonId}"${item.expanded ? '' : ' hidden'}>
+              ${item.expanded ? `
+                <div class="region-panel-heading"><h4>${escapeHtml(t('chooseManufacturer'))}</h4></div>
+                <div class="maker-list">${makerButtons}</div>
+                ${manufacturerResults}
+              ` : ''}
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      engineRegionList.querySelectorAll('[data-engine-region]').forEach((button) => {
         button.addEventListener('click', () => {
-          activeMaker = button.dataset.engineMaker;
-          updateFilterUrl();
-          renderMakerTabs();
-          renderEngineMatches();
+          const nextRegion = button.dataset.engineRegion;
+          activeRegion = activeRegion === nextRegion ? '' : nextRegion;
+          activeMaker = '';
+          selectedEngineId = '';
+          engineDetail.hidden = true;
+          updateUrl('push');
+          renderRegionalNavigation();
+          focusRegionControl(nextRegion);
         });
       });
+      engineRegionList.querySelectorAll('[data-engine-maker]').forEach((button) => {
+        button.addEventListener('click', () => {
+          activeMaker = button.dataset.engineMaker;
+          selectedEngineId = '';
+          engineDetail.hidden = true;
+          updateUrl('push');
+          renderRegionalNavigation();
+          focusMakerControl(activeMaker);
+        });
+      });
+      engineRegionList.querySelectorAll('[data-back-to-manufacturers]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const previousMaker = activeMaker;
+          activeMaker = '';
+          selectedEngineId = '';
+          engineDetail.hidden = true;
+          updateUrl('push');
+          renderRegionalNavigation();
+          focusMakerControl(previousMaker);
+        });
+      });
+      bindEngineCards(engineRegionList);
     }
 
-    const initialMaker = initialUrl.searchParams.get('maker');
-    if (initialMaker && makerOptionsForActiveRegion().some((maker) => maker.slug === initialMaker)) {
-      activeMaker = initialMaker;
+    function renderSearchResults() {
+      const query = engineCodeSearch.value.trim();
+      const searchIsActive = Boolean(query);
+      engineRegionBrowser.hidden = searchIsActive;
+      engineSearchResults.hidden = !searchIsActive;
+      engineClearButton.hidden = !searchIsActive;
+
+      if (!searchIsActive) {
+        engineSearchMeta.textContent = '';
+        engineMatchList.innerHTML = '';
+        engineEmpty.hidden = true;
+        return;
+      }
+
+      const matches = engineSearchCore.searchRecords(engineRecords, query);
+      engineSearchMeta.textContent = formatSummary(t('resultSummary'), { count: matches.length });
+      engineMatchList.innerHTML = matches.map(engineCard).join('');
+      engineEmpty.hidden = matches.length > 0;
+      bindEngineCards(engineMatchList);
     }
 
     function specItem(label, value) {
@@ -897,14 +1201,13 @@
       return items.join('');
     }
 
-    function openEngine(engineId, updateUrl = true, scrollToResult = false) {
+    function openEngine(engineId, updateHistory = true, scrollToResult = false) {
       const record = engineRecords.find((item) => item.id === engineId);
       if (!record) {
         engineDetail.hidden = true;
         return;
       }
       selectedEngineId = record.id;
-      engineCodeSearch.value = record.code;
       const text = record.text[lang] || record.text.en;
       const aliases = (record.aliases || []).length ? ` · ${(record.aliases || []).join(' / ')}` : '';
       const observedValue = `${escapeHtml(record.typicalLife)}<br><small>${escapeHtml(t('observedLifeNote'))}</small>`;
@@ -924,7 +1227,7 @@
             <h3>${escapeHtml(record.code)}</h3>
             <p>${escapeHtml(record.maker)}${escapeHtml(aliases)}</p>
           </div>
-          <span class="status-badge">${escapeHtml(t(record.statusKey))}</span>
+          <span class="status-badge">${escapeHtml(verificationLabel(record))}</span>
         </div>
         <div class="engine-spec-grid">
           ${specItem(t('maker'), escapeHtml(record.maker))}
@@ -956,30 +1259,42 @@
         </div>
       `;
       engineDetail.hidden = false;
-      renderEngineMatches();
 
-      if (updateUrl) {
-        const url = new URL(window.location.href);
-        url.searchParams.set('engine', record.id);
-        url.searchParams.set('lang', lang);
-        if (activeRegion !== 'all') url.searchParams.set('region', activeRegion);
-        else url.searchParams.delete('region');
-        if (activeMaker !== 'all') url.searchParams.set('maker', activeMaker);
-        else url.searchParams.delete('maker');
-        window.history.replaceState({}, '', url);
-      }
+      if (updateHistory) updateUrl('push');
+      renderRegionalNavigation();
+      renderSearchResults();
       if (scrollToResult) engineDetail.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
     function openBestMatch() {
-      const query = engineCodeSearch.value.trim().toLowerCase();
-      const matches = matchingEngines();
-      const exact = matches.find((record) => record.code.toLowerCase() === query || (record.aliases || []).some((alias) => alias.toLowerCase() === query));
-      const record = exact || matches[0];
-      if (exact && enginePagePaths[exact.id]) {
-        window.location.href = `${enginePagePaths[exact.id]}?lang=${encodeURIComponent(lang)}`;
-      } else if (record) openEngine(record.id, true, true);
+      const matches = engineSearchCore.searchRecords(engineRecords, engineCodeSearch.value);
+      if (matches[0]) openEngine(matches[0].id, true, true);
       else engineDetail.hidden = true;
+    }
+
+    async function copyCurrentLink() {
+      updateUrl('replace');
+      let copied = false;
+      try {
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(window.location.href);
+          copied = true;
+        }
+      } catch (error) {
+        copied = false;
+      }
+      if (!copied) {
+        const fallback = document.createElement('textarea');
+        fallback.value = window.location.href;
+        fallback.setAttribute('readonly', '');
+        fallback.style.position = 'fixed';
+        fallback.style.opacity = '0';
+        document.body.appendChild(fallback);
+        fallback.select();
+        copied = document.execCommand('copy');
+        fallback.remove();
+      }
+      engineCopyStatus.textContent = t(copied ? 'linkCopied' : 'copyFailed');
     }
 
     function translatePage() {
@@ -992,17 +1307,14 @@
       document.querySelectorAll('[data-lang]').forEach((button) => {
         button.classList.toggle('selected', button.dataset.lang === lang);
       });
-      document.querySelectorAll('[data-engine-region]').forEach((button) => {
-        button.classList.toggle('selected', button.dataset.engineRegion === activeRegion);
-      });
-      renderMakerTabs();
       document.querySelectorAll('[data-engine-link]').forEach((link) => {
         link.href = `engines.html?engine=${encodeURIComponent(link.dataset.engineLink)}&lang=${encodeURIComponent(lang)}`;
       });
       document.querySelectorAll('[data-engine-page]').forEach((link) => {
         link.href = `${enginePagePaths[link.dataset.enginePage]}?lang=${encodeURIComponent(lang)}`;
       });
-      renderEngineMatches();
+      renderRegionalNavigation();
+      renderSearchResults();
       if (selectedEngineId) openEngine(selectedEngineId, false, false);
     }
 
@@ -1018,35 +1330,47 @@
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.addEventListener('click', () => {
         lang = button.dataset.lang;
-        const url = new URL(window.location.href);
-        url.searchParams.set('lang', lang);
-        window.history.replaceState({}, '', url);
+        updateUrl('replace');
         translatePage();
       });
     });
 
-    document.querySelectorAll('[data-engine-region]').forEach((button) => {
-      button.addEventListener('click', () => {
-        activeRegion = button.dataset.engineRegion;
-        document.querySelectorAll('[data-engine-region]').forEach((item) => {
-          item.classList.toggle('selected', item.dataset.engineRegion === activeRegion);
-        });
-        renderMakerTabs();
-        updateFilterUrl();
-        renderEngineMatches();
-      });
+    engineCodeSearch.addEventListener('input', () => {
+      selectedEngineId = '';
+      engineDetail.hidden = true;
+      updateUrl('replace');
+      renderSearchResults();
     });
-
-    engineCodeSearch.addEventListener('input', renderEngineMatches);
     engineCodeSearch.addEventListener('keydown', (event) => {
       if (event.key === 'Enter') openBestMatch();
     });
     engineFindButton.addEventListener('click', openBestMatch);
+    engineClearButton.addEventListener('click', () => {
+      engineCodeSearch.value = '';
+      selectedEngineId = '';
+      engineDetail.hidden = true;
+      updateUrl('push');
+      renderRegionalNavigation();
+      renderSearchResults();
+      engineCodeSearch.focus();
+    });
+    engineCopyButton.addEventListener('click', copyCurrentLink);
 
-    const requestedEngine = initialUrl.searchParams.get('engine');
-    if (requestedEngine && engineRecords.some((record) => record.id === requestedEngine)) {
-      selectedEngineId = requestedEngine;
-      engineCodeSearch.value = engineRecords.find((record) => record.id === requestedEngine).code;
+    window.addEventListener('popstate', () => {
+      viewState = engineSearchCore.stateFromUrl(window.location.href, engineRecords, engineRegions, supportedLanguages);
+      lang = viewState.lang;
+      activeRegion = viewState.region;
+      activeMaker = viewState.maker;
+      selectedEngineId = viewState.engine;
+      engineCodeSearch.value = viewState.query;
+      engineCopyStatus.textContent = '';
+      engineDetail.hidden = !selectedEngineId;
+      translatePage();
+    });
+
+    const normalizedInitialUrl = engineSearchCore.applyStateToUrl(initialUrl, currentState());
+    if (normalizedInitialUrl.search !== initialUrl.search) {
+      window.history.replaceState({}, '', normalizedInitialUrl);
     }
     translatePage();
   </script>
