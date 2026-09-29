@@ -22,6 +22,7 @@ const generatedMonolithic = loadMonolithicRecords();
 const generatedRegions = loadRegionalRecords();
 const generatedRegionalFlat = Object.values(generatedRegions).flat();
 const errors = [];
+let legacyUsesUsaRegion = false;
 
 function compareFingerprint(left, right, label) {
   if (canonicalFingerprint(left) !== canonicalFingerprint(right)) {
@@ -67,6 +68,8 @@ if (compareLegacyHead) {
   } else {
     const context = loadBrowserGlobal(legacyResult.stdout, `${legacyRef}:engine-data.js`);
     const legacyRecords = context.window.AUTOHUB_ENGINE_DATA?.records || [];
+    const legacyUsaCount = legacyRecords.filter((record) => record.regionKey === 'usa').length;
+    legacyUsesUsaRegion = legacyUsaCount > 0;
 
     const sourceById = new Map(sourceRecords.map((record) => [record.id, record]));
     let exactRegionMigrations = 0;
@@ -110,18 +113,23 @@ if (compareLegacyHead) {
       const { currentComparable, legacyComparable } = comparableLegacyRecords(record, legacy);
       compareFingerprint(currentComparable, legacyComparable, `${record.id}: legacy preservation`);
     }
-    if (legacyRecords.length === 500 && sourceRecords.length === 500) {
+    if (legacyUsesUsaRegion && legacyRecords.length === 500 && sourceRecords.length === 500) {
+      if (legacyUsaCount !== 88) errors.push(`Legacy USA baseline contains ${legacyUsaCount} records; expected exactly 88.`);
       if (exactRegionMigrations !== 88) errors.push(`Region migration changed ${exactRegionMigrations} records; expected exactly 88.`);
       if (semanticallyUnchanged !== 412) errors.push(`${semanticallyUnchanged} records were unchanged; expected exactly 412.`);
       if (unchangedStatuses !== 500) errors.push(`${unchangedStatuses} verification statuses were preserved; expected 500.`);
     }
     if (!errors.length) {
-      console.log(`Legacy migration audit: ${exactRegionMigrations} records changed only regionKey usa -> north-america; ${semanticallyUnchanged} records are identical; ${unchangedStatuses} statuses preserved.`);
+      if (legacyUsesUsaRegion) {
+        console.log(`Legacy migration audit: ${exactRegionMigrations} records changed only regionKey usa -> north-america; ${semanticallyUnchanged} records are identical; ${unchangedStatuses} statuses preserved.`);
+      } else {
+        console.log(`Legacy baseline audit: ${semanticallyUnchanged} records are identical; ${unchangedStatuses} statuses preserved; one-time USA migration assertions are not applicable.`);
+      }
     }
   }
 
   for (const region of REGIONS) {
-    const legacyRegion = region === 'north-america' ? 'usa' : region;
+    const legacyRegion = region === 'north-america' && legacyUsesUsaRegion ? 'usa' : region;
     const regionResult = spawnSync('git', ['show', `${legacyRef}:data/engines/${legacyRegion}.js`], {
       cwd: new URL('../../', import.meta.url),
       encoding: 'utf8',
