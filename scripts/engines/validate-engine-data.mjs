@@ -1,5 +1,7 @@
+import { pathToFileURL } from 'node:url';
 import {
   LANGUAGES,
+  EMPTY_REGIONS,
   LEGACY_CANONICAL_PATH,
   REGIONS,
   SOURCE_SCHEMA_PATH,
@@ -62,7 +64,9 @@ export function validateEngineData(sourceData = readSourceData()) {
     assertCondition(sourceFile?.schemaVersion === 1, `${sourceLabel}: schemaVersion must be 1.`, errors);
     assertCondition(sourceFile?.region === region, `${sourceLabel}: region must be ${region}.`, errors);
     assertCondition(Array.isArray(sourceFile?.records), `${sourceLabel}: records must be an array.`, errors);
-    assertCondition((sourceFile?.records || []).length >= 25, `${sourceLabel}: expected at least 25 records, got ${(sourceFile?.records || []).length}.`, errors);
+    if (!EMPTY_REGIONS.has(region)) {
+      assertCondition((sourceFile?.records || []).length >= 25, `${sourceLabel}: expected at least 25 records, got ${(sourceFile?.records || []).length}.`, errors);
+    }
     for (const record of sourceFile?.records || []) {
       assertCondition(record.regionKey === region, `${sourceLabel}: ${record.id || 'record'} has regionKey ${record.regionKey}.`, errors);
     }
@@ -127,25 +131,29 @@ export function validateEngineData(sourceData = readSourceData()) {
 
   const counts = formatCounts(records);
   for (const region of REGIONS) {
-    assertCondition(counts[region] >= 25, `${region}: expected at least 25 records, got ${counts[region]}.`, errors);
+    if (!EMPTY_REGIONS.has(region)) {
+      assertCondition(counts[region] >= 25, `${region}: expected at least 25 records, got ${counts[region]}.`, errors);
+    }
   }
 
   return { errors, counts, records };
 }
 
-const { errors, counts, records } = validateEngineData();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const { errors, counts, records } = validateEngineData();
 
-if (errors.length) {
-  console.error('Engine data validation failed:');
-  errors.forEach((error) => console.error(`- ${error}`));
-  process.exit(1);
+  if (errors.length) {
+    console.error('Engine data validation failed:');
+    errors.forEach((error) => console.error(`- ${error}`));
+    process.exit(1);
+  }
+
+  const statusCounts = Object.fromEntries(VERIFICATION_STATUSES.map((status) => [
+    status,
+    records.filter((record) => record.verification.status === status).length
+  ]));
+  console.log(`Engine data validation passed: ${records.length} records.`);
+  console.log(`Region counts: ${REGIONS.map((region) => `${region}=${counts[region]}`).join(', ')}.`);
+  console.log(`Verification states: ${VERIFICATION_STATUSES.map((status) => `${status}=${statusCounts[status]}`).join(', ')}.`);
+  console.log('B5202S source: Volvo S70 Specifications 1997 (manufacturer, checked 2026-08-22), page 2.');
 }
-
-const statusCounts = Object.fromEntries(VERIFICATION_STATUSES.map((status) => [
-  status,
-  records.filter((record) => record.verification.status === status).length
-]));
-console.log(`Engine data validation passed: ${records.length} records.`);
-console.log(`Region counts: ${REGIONS.map((region) => `${region}=${counts[region]}`).join(', ')}.`);
-console.log(`Verification states: ${VERIFICATION_STATUSES.map((status) => `${status}=${statusCounts[status]}`).join(', ')}.`);
-console.log('B5202S source: Volvo S70 Specifications 1997 (manufacturer, checked 2026-08-22), page 2.');

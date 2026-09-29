@@ -190,8 +190,37 @@ for (const migration of [MIGRATIONS.volvo, MIGRATIONS.bmw]) {
   expectRejected('changed migration id', current, legacy);
 }
 
+{
+  const legacy = record('region-fixture', [fillerSource(0)], { regionKey: 'usa' });
+  const current = clone(legacy);
+  current.regionKey = 'north-america';
+  expectComparable('exact USA to North America region migration', current, legacy);
+}
+
+{
+  const legacy = record('region-fixture', [fillerSource(0)], { regionKey: 'usa' });
+  const current = clone(legacy);
+  current.regionKey = 'north-america';
+  current.years = '1998-2001';
+  expectRejected('region migration with technical data change', current, legacy);
+}
+
+{
+  const legacy = record('region-fixture', [fillerSource(0)], { regionKey: 'north-america' });
+  const current = clone(legacy);
+  current.regionKey = 'usa';
+  expectRejected('reverse North America to USA migration', current, legacy);
+}
+
+{
+  const legacy = record('region-fixture', [fillerSource(0)], { regionKey: 'usa' });
+  const current = clone(legacy);
+  current.regionKey = 'south-america';
+  expectRejected('USA to South America reclassification', current, legacy);
+}
+
 assert.deepEqual(BEFORE_FIELDS, ['performance.powerKw', 'performance.torqueNm']);
 assert.deepEqual(AFTER_FIELDS, ['performance.powerKw', 'performance.torqueNm', 'code']);
 assert.equal(clone(AFTER_FIELDS).filter((field) => field === 'code').length, 1);
 
-console.log('Legacy identity migration policy fixture tests passed: 12 cases.');
+console.log('Legacy identity migration policy fixture tests passed: 16 cases.');

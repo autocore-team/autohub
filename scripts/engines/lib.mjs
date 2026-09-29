@@ -10,7 +10,8 @@ export const REGIONS_DIR = path.join(ROOT_DIR, 'data', 'engines');
 export const SOURCE_DIR = path.join(REGIONS_DIR, 'source');
 export const SOURCE_REGIONS_DIR = path.join(SOURCE_DIR, 'regions');
 export const SOURCE_SCHEMA_PATH = path.join(SOURCE_DIR, 'schema.json');
-export const REGIONS = ['europe', 'japan', 'korea', 'usa'];
+export const REGIONS = ['europe', 'japan', 'korea', 'north-america', 'south-america'];
+export const EMPTY_REGIONS = new Set(['south-america']);
 export const LANGUAGES = ['en', 'es', 'fr', 'de'];
 export const VERIFIED_ENGINE_ID = 'volvo-b5202s';
 
@@ -59,7 +60,10 @@ export function buildMonolithicJs(records) {
 }
 
 export function buildRegionalJs(region, records) {
-  return `${generatedHeader()}window.AUTOHUB_ENGINE_DATA_REGIONS = window.AUTOHUB_ENGINE_DATA_REGIONS || {};\nwindow.AUTOHUB_ENGINE_DATA_REGIONS.${region} = ${JSON.stringify(records, null, 2)};\n`;
+  const accessor = /^[A-Za-z_$][A-Za-z0-9_$]*$/.test(region)
+    ? `.${region}`
+    : `[${JSON.stringify(region)}]`;
+  return `${generatedHeader()}window.AUTOHUB_ENGINE_DATA_REGIONS = window.AUTOHUB_ENGINE_DATA_REGIONS || {};\nwindow.AUTOHUB_ENGINE_DATA_REGIONS${accessor} = ${JSON.stringify(records, null, 2)};\n`;
 }
 
 export function regionFilePath(region) {

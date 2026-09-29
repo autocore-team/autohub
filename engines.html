@@ -679,7 +679,8 @@
   <script src="data/engines/europe.js?v=20260822-1"></script>
   <script src="data/engines/japan.js?v=20260624-1"></script>
   <script src="data/engines/korea.js?v=20260624-1"></script>
-  <script src="data/engines/usa.js?v=20260624-1"></script>
+  <script src="data/engines/north-america.js?v=20260929-1"></script>
+  <script src="data/engines/south-america.js?v=20260929-1"></script>
   <script src="assets/js/engine-search-core.js?v=20260928-1"></script>
   <script>
     const translations = {
@@ -729,7 +730,8 @@
         multiPointInjection: 'Multipoint injection', directInjection: 'Direct injection', variantInjection: 'MPI / GDI depending on version', commonRail: 'Common-rail direct injection',
         aluminumLiners: 'Aluminium / light-alloy block', castIronBlock: 'Cast-iron block', timingBelt: 'Timing belt', timingChain: 'Timing chain',
         notPublished: 'No fixed kilometre figure published', starterReview: 'Starter record - primary sources still being checked', generationCritical: 'Exact generation and suffix required', recallCheck: 'Check VIN recalls and service campaigns',
-        europe: 'Europe', japan: 'Japan', korea: 'Korea', usa: 'USA',
+        europe: 'Europe', japan: 'Japan', korea: 'Korea',
+        'north-america': 'North America', 'south-america': 'South America',
         popularTitle: 'Popular engine searches',
         maker: 'Maker',
         years: 'Years',
@@ -788,7 +790,8 @@
         multiPointInjection: 'Inyección multipunto', directInjection: 'Inyección directa', variantInjection: 'MPI / GDI según versión', commonRail: 'Inyección directa common rail',
         aluminumLiners: 'Bloque de aluminio / aleación ligera', castIronBlock: 'Bloque de hierro fundido', timingBelt: 'Correa de distribución', timingChain: 'Cadena de distribución',
         notPublished: 'No hay una cifra fija publicada', starterReview: 'Registro inicial: fuentes primarias en revisión', generationCritical: 'Se requiere generación y sufijo exactos', recallCheck: 'Comprueba campañas y llamadas por VIN',
-        europe: 'Europa', japan: 'Japón', korea: 'Corea', usa: 'EE. UU.',
+        europe: 'Europa', japan: 'Japón', korea: 'Corea',
+        'north-america': 'Norteamérica', 'south-america': 'Sudamérica',
         popularTitle: 'Búsquedas populares de motores',
         maker: 'Fabricante',
         years: 'Años',
@@ -847,7 +850,8 @@
         multiPointInjection: 'Injection multipoint', directInjection: 'Injection directe', variantInjection: 'MPI / GDI selon version', commonRail: 'Injection directe common rail',
         aluminumLiners: 'Bloc aluminium / alliage léger', castIronBlock: 'Bloc en fonte', timingBelt: 'Courroie de distribution', timingChain: 'Chaîne de distribution',
         notPublished: 'Aucun kilométrage fixe publié', starterReview: 'Fiche initiale : sources primaires en vérification', generationCritical: 'Génération et suffixe exacts requis', recallCheck: 'Vérifier rappels et campagnes par VIN',
-        europe: 'Europe', japan: 'Japon', korea: 'Corée', usa: 'États-Unis',
+        europe: 'Europe', japan: 'Japon', korea: 'Corée',
+        'north-america': 'Amérique du Nord', 'south-america': 'Amérique du Sud',
         popularTitle: 'Recherches populaires de moteurs',
         maker: 'Fabricant',
         years: 'Années',
@@ -906,7 +910,8 @@
         multiPointInjection: 'Saugrohreinspritzung', directInjection: 'Direkteinspritzung', variantInjection: 'MPI / GDI je nach Version', commonRail: 'Common-Rail-Direkteinspritzung',
         aluminumLiners: 'Aluminium- / Leichtmetallblock', castIronBlock: 'Graugussblock', timingBelt: 'Zahnriemen', timingChain: 'Steuerkette',
         notPublished: 'Keine feste Kilometerangabe veröffentlicht', starterReview: 'Starter-Datensatz: Primärquellen werden geprüft', generationCritical: 'Genaue Generation und Suffix erforderlich', recallCheck: 'VIN-Rückrufe und Serviceaktionen prüfen',
-        europe: 'Europa', japan: 'Japan', korea: 'Korea', usa: 'USA',
+        europe: 'Europa', japan: 'Japan', korea: 'Korea',
+        'north-america': 'Nordamerika', 'south-america': 'Südamerika',
         popularTitle: 'Beliebte Motorsuchen',
         maker: 'Hersteller',
         years: 'Baujahre',
@@ -922,7 +927,7 @@
     };
 
     const engineSearchCore = window.D3_ENGINE_SEARCH_CORE;
-    const engineRegions = ['europe', 'japan', 'korea', 'usa'];
+    const engineRegions = ['europe', 'japan', 'korea', 'north-america', 'south-america'];
     const supportedLanguages = ['en', 'es', 'fr', 'de'];
     const initialUrl = new URL(window.location.href);
     const enginePagePaths = {
@@ -1365,6 +1370,7 @@
       engineCodeSearch.value = viewState.query;
       engineCopyStatus.textContent = '';
       engineDetail.hidden = !selectedEngineId;
+      updateUrl('replace');
       translatePage();
     });
 

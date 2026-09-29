@@ -2,6 +2,19 @@
   'use strict';
 
   const API = {};
+  const REGION_ALIASES = {
+    usa: 'north-america',
+    us: 'north-america',
+    'united-states': 'north-america'
+  };
+  const REGION_SEARCH_ALIASES = {
+    'north-america': ['north-america', 'north america', 'usa', 'us', 'united states'],
+    'south-america': ['south-america', 'south america', 'argentina', 'brazil']
+  };
+  const SEARCH_ALIAS_REGIONS = Object.fromEntries(
+    Object.entries(REGION_SEARCH_ALIASES)
+      .flatMap(([region, aliases]) => aliases.map((alias) => [alias, region]))
+  );
 
   function normalize(value) {
     return String(value || '').trim().toLowerCase();
@@ -14,6 +27,11 @@
       .replace(/^-+|-+$/g, '');
   }
 
+  function normalizeRegionKey(value) {
+    const key = normalize(value).replace(/\s+/g, '-');
+    return REGION_ALIASES[key] || key;
+  }
+
   function recordSearchParts(record) {
     return {
       code: normalize(record.code),
@@ -21,7 +39,8 @@
       family: normalize(record.family),
       aliases: (record.aliases || []).map(normalize),
       applications: (record.applications || []).map(normalize),
-      region: normalize(record.regionKey),
+      region: normalize(record.regionKey).replace(/-/g, ' '),
+      regionAliases: REGION_SEARCH_ALIASES[record.regionKey] || [],
       years: normalize(record.years)
     };
   }
@@ -40,13 +59,15 @@
     if (parts.maker.includes(needle)) return 6;
     if (parts.applications.some((value) => value.includes(needle))) return 7;
     if (parts.family.includes(needle)) return 8;
-    if ([parts.region, parts.years].some((value) => value.includes(needle))) return 9;
+    if ([parts.region, parts.years, ...parts.regionAliases].some((value) => value.includes(needle))) return 9;
     return Number.POSITIVE_INFINITY;
   }
 
   function searchRecords(records, query) {
     const needle = normalize(query);
     if (!needle) return [];
+    const aliasRegion = SEARCH_ALIAS_REGIONS[needle];
+    if (aliasRegion) return records.filter((record) => record.regionKey === aliasRegion);
 
     return records
       .map((record, index) => ({ record, index, rank: searchRank(record, needle) }))
@@ -67,11 +88,13 @@
   }
 
   function regionSummaries(records, regions) {
-    return regions.map((region) => ({
-      region,
-      engineCount: records.filter((record) => record.regionKey === region).length,
-      manufacturerCount: makersForRegion(records, region).length
-    }));
+    return regions
+      .map((region) => ({
+        region,
+        engineCount: records.filter((record) => record.regionKey === region).length,
+        manufacturerCount: makersForRegion(records, region).length
+      }))
+      .filter((summary) => summary.engineCount > 0);
   }
 
   function formatRegionSummary(summary, labels) {
@@ -104,7 +127,7 @@
     const makerRecord = requestedMaker
       ? records.find((record) => makerSlug(record.maker) === requestedMaker)
       : null;
-    const requestedRegion = url.searchParams.get('region');
+    const requestedRegion = normalizeRegionKey(url.searchParams.get('region'));
     let region = regions.includes(requestedRegion) ? requestedRegion : '';
     let maker = requestedMaker;
 
@@ -137,7 +160,7 @@
     const managed = {
       lang: state.lang,
       search: state.query,
-      region: state.region,
+      region: normalizeRegionKey(state.region),
       maker: state.maker,
       engine: state.engine
     };
@@ -164,6 +187,7 @@
 
   API.normalize = normalize;
   API.makerSlug = makerSlug;
+  API.normalizeRegionKey = normalizeRegionKey;
   API.searchRank = searchRank;
   API.searchRecords = searchRecords;
   API.makersForRegion = makersForRegion;
