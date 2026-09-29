@@ -69,6 +69,9 @@ if (compareLegacyHead) {
     const legacyRecords = context.window.AUTOHUB_ENGINE_DATA?.records || [];
 
     const sourceById = new Map(sourceRecords.map((record) => [record.id, record]));
+    let exactRegionMigrations = 0;
+    let semanticallyUnchanged = 0;
+    let unchangedStatuses = 0;
     for (const record of sourceRecords) {
       if (sourceById.get(record.id) !== record) continue;
       if (legacyRecords.some((legacyRecord) => legacyRecord.id === record.id)) continue;
@@ -88,21 +91,46 @@ if (compareLegacyHead) {
         errors.push(`${legacy.id}: missing from current source data.`);
         continue;
       }
+      if (record.verification?.status === legacy.verification?.status) unchangedStatuses += 1;
+      if (canonicalFingerprint(record) === canonicalFingerprint(legacy)) {
+        semanticallyUnchanged += 1;
+      } else {
+        const currentWithoutRegion = structuredClone(record);
+        const legacyWithoutRegion = structuredClone(legacy);
+        delete currentWithoutRegion.regionKey;
+        delete legacyWithoutRegion.regionKey;
+        if (
+          legacy.regionKey === 'usa'
+          && record.regionKey === 'north-america'
+          && canonicalFingerprint(currentWithoutRegion) === canonicalFingerprint(legacyWithoutRegion)
+        ) {
+          exactRegionMigrations += 1;
+        }
+      }
       const { currentComparable, legacyComparable } = comparableLegacyRecords(record, legacy);
       compareFingerprint(currentComparable, legacyComparable, `${record.id}: legacy preservation`);
+    }
+    if (legacyRecords.length === 500 && sourceRecords.length === 500) {
+      if (exactRegionMigrations !== 88) errors.push(`Region migration changed ${exactRegionMigrations} records; expected exactly 88.`);
+      if (semanticallyUnchanged !== 412) errors.push(`${semanticallyUnchanged} records were unchanged; expected exactly 412.`);
+      if (unchangedStatuses !== 500) errors.push(`${unchangedStatuses} verification statuses were preserved; expected 500.`);
+    }
+    if (!errors.length) {
+      console.log(`Legacy migration audit: ${exactRegionMigrations} records changed only regionKey usa -> north-america; ${semanticallyUnchanged} records are identical; ${unchangedStatuses} statuses preserved.`);
     }
   }
 
   for (const region of REGIONS) {
-    const regionResult = spawnSync('git', ['show', `${legacyRef}:data/engines/${region}.js`], {
+    const legacyRegion = region === 'north-america' ? 'usa' : region;
+    const regionResult = spawnSync('git', ['show', `${legacyRef}:data/engines/${legacyRegion}.js`], {
       cwd: new URL('../../', import.meta.url),
       encoding: 'utf8',
       maxBuffer: gitShowMaxBuffer
     });
     if (regionResult.status !== 0) continue;
 
-    const legacyRegionContext = loadBrowserGlobal(regionResult.stdout, `${legacyRef}:data/engines/${region}.js`);
-    const legacyRegionRecords = legacyRegionContext.window.AUTOHUB_ENGINE_DATA_REGIONS?.[region] || [];
+    const legacyRegionContext = loadBrowserGlobal(regionResult.stdout, `${legacyRef}:data/engines/${legacyRegion}.js`);
+    const legacyRegionRecords = legacyRegionContext.window.AUTOHUB_ENGINE_DATA_REGIONS?.[legacyRegion] || [];
     const currentRegionContext = loadBrowserGlobal(readText(regionFilePath(region)), regionFilePath(region));
     const currentRegionRecords = currentRegionContext.window.AUTOHUB_ENGINE_DATA_REGIONS?.[region] || [];
     const currentRegionById = new Map(currentRegionRecords.map((record) => [record.id, record]));

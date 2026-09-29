@@ -26,7 +26,7 @@ const outputs = generatedOutputs(sourceData);
 const changed = [];
 
 for (const [filePath, content] of outputs) {
-  const current = readText(filePath);
+  const current = fs.existsSync(filePath) ? readText(filePath) : '';
   if (current !== content) {
     changed.push(filePath);
   }

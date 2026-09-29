@@ -131,12 +131,13 @@ Commands:
 
 ## Engine Data Pipeline
 
-Engine data has four editable regional source files:
+Engine data has five editable regional source files. Empty regional files are valid and remain hidden in the public data-driven navigation until their first record is added:
 
 * `data/engines/source/regions/europe.json`
 * `data/engines/source/regions/japan.json`
 * `data/engines/source/regions/korea.json`
-* `data/engines/source/regions/usa.json`
+* `data/engines/source/regions/north-america.json`
+* `data/engines/source/regions/south-america.json`
 
 The formal source structure is documented in:
 
@@ -158,7 +159,10 @@ Generated files:
 * `data/engines/europe.js`
 * `data/engines/japan.js`
 * `data/engines/korea.js`
-* `data/engines/usa.js`
+* `data/engines/north-america.js`
+* `data/engines/south-america.js`
+
+Regional classification follows the origin of the manufacturer or the specific engine family/development, not merely the vehicle assembly location. North America includes the USA, Canada and Mexico. South America includes Argentina, Brazil and the other countries of that region. A North American manufacturer's engine assembled in Argentina does not thereby become South American. An independently developed South American engine belongs to South America. Joint developments require a separately documented classification decision; do not reclassify disputed families without sources.
 
 Commands:
 

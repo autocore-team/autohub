@@ -49,6 +49,12 @@ function isFirstVerifiedPerformanceAddition(currentRecord, legacyRecord) {
     && passesVerificationPolicy(currentRecord);
 }
 
+function applyExactRegionMigration(currentComparable, legacyComparable) {
+  if (legacyComparable.regionKey === 'usa' && currentComparable.regionKey === 'north-america') {
+    legacyComparable.regionKey = 'north-america';
+  }
+}
+
 function applyExactIdentityFieldMigrations(currentComparable, legacyComparable) {
   if (currentComparable.verification?.status !== 'verified' || legacyComparable.verification?.status !== 'verified') return;
   if (currentComparable.id !== legacyComparable.id) return;
@@ -70,6 +76,7 @@ function applyExactIdentityFieldMigrations(currentComparable, legacyComparable) 
 export function comparableLegacyRecords(currentRecord, legacyRecord) {
   const currentComparable = clone(currentRecord);
   const legacyComparable = clone(legacyRecord);
+  applyExactRegionMigration(currentComparable, legacyComparable);
   if (isFirstVerifiedPerformanceAddition(currentRecord, legacyRecord)) {
     delete currentComparable.performance;
     delete currentComparable.verification;

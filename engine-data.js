@@ -38364,7 +38364,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.3 Vortec"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1999-2007",
     "displacement": "5.3 L · 5,328 cc",
     "layout": "V8 · OHV · 16V",
@@ -38421,7 +38421,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.0 Ti-VCT"
     ],
     "maker": "Ford",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2011-present",
     "displacement": "5.0 L",
     "layout": "V8 · DOHC · 32V",
@@ -38478,7 +38478,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "ERB"
     ],
     "maker": "Chrysler / Stellantis",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2011-present",
     "displacement": "3.6 L · 3,604 cc",
     "layout": "V6 · DOHC · 24V",
@@ -38537,7 +38537,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.3 EcoTec3"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2014-2019",
     "displacement": "5.3 L · 5,328 cc",
     "layout": "V8 · OHV · 16V",
@@ -38594,7 +38594,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "LFX V6"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2012-2020",
     "displacement": "3.6 L · 3,564 cc",
     "layout": "V6 · DOHC · 24V",
@@ -38652,7 +38652,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "2.3L EcoBoost"
     ],
     "maker": "Ford",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2015-present",
     "displacement": "2.3 L · 2,261 cc",
     "layout": "I4 · DOHC · 16V",
@@ -38712,7 +38712,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "3.5L Twin Turbo"
     ],
     "maker": "Ford",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2009-present",
     "displacement": "3.5 L · 3,496 cc",
     "layout": "V6 · DOHC · 24V",
@@ -38772,7 +38772,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "EZB"
     ],
     "maker": "Chrysler / Dodge / Ram",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2003-present",
     "displacement": "5.7 L · 5,654 cc",
     "layout": "V8 · OHV · 16V",
@@ -38832,7 +38832,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM LS3 V8"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2008-2017",
     "displacement": "6.2 L · 6,162 cc",
     "layout": "V8 · OHV · 16V",
@@ -38892,7 +38892,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM Ecotec 2.2"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2000-2008",
     "displacement": "2.2 L · 2,198 cc",
     "layout": "I4 · DOHC · 16V",
@@ -38952,7 +38952,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Ford 3.5 V6 NA"
     ],
     "maker": "Ford / Lincoln",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2007-2020",
     "displacement": "3.5 L · 3,496 cc",
     "layout": "V6 · DOHC · 24V",
@@ -39013,7 +39013,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Buick 3800"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1995-2008",
     "displacement": "3.8 L · 3,791 cc",
     "layout": "V6 · OHV · 12V",
@@ -39074,7 +39074,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Windsor 4.6"
     ],
     "maker": "Ford / Lincoln / Mercury",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1996-2014",
     "displacement": "4.6 L · 4,601 cc",
     "layout": "V8 · SOHC · 16V",
@@ -39135,7 +39135,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "ERH"
     ],
     "maker": "Jeep / AMC",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1995-2006",
     "displacement": "4.0 L · 3,956 cc",
     "layout": "I6 · OHV · 12V",
@@ -39195,7 +39195,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 6.0 truck"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1999-2007",
     "displacement": "6.0 L · 5,967 cc",
     "layout": "V8 · OHV · 16V",
@@ -39255,7 +39255,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Modular 5.4 3-valve"
     ],
     "maker": "Ford / Lincoln",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2004-2014",
     "displacement": "5.4 L · 5,408 cc",
     "layout": "V8 · SOHC · 24V",
@@ -39316,7 +39316,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Dodge 2.4 World Engine"
     ],
     "maker": "Chrysler / Dodge / Jeep",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2006-2020",
     "displacement": "2.4 L · 2,360 cc",
     "layout": "I4 · DOHC · 16V",
@@ -39376,7 +39376,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Alloytec 3.6"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2004-2012",
     "displacement": "3.6 L · 3,564 cc",
     "layout": "V6 · DOHC · 24V",
@@ -39437,7 +39437,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "EKG"
     ],
     "maker": "Jeep / Dodge / Chrysler",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2002-2012",
     "displacement": "3.7 L · 3,701 cc",
     "layout": "V6 · SOHC · 12V",
@@ -39497,7 +39497,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Ecotec 2.4 VVT"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2006-2012",
     "displacement": "2.4 L · 2,384 cc",
     "layout": "I4 · DOHC · 16V",
@@ -39557,7 +39557,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Mazda AJ derivatives"
     ],
     "maker": "Ford / Mercury / Mazda",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1996-2012",
     "displacement": "3.0 L · 2,967 cc",
     "layout": "V6 · DOHC · 24V",
@@ -39617,7 +39617,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 6.0 flex fuel"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2010-2020",
     "displacement": "6.0 L · 5,967 cc",
     "layout": "V8 · OHV · 16V",
@@ -39712,7 +39712,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Ti-VCT 3.7"
     ],
     "maker": "Ford / Lincoln",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2011-2020",
     "displacement": "3.7 L · 3,726 cc",
     "layout": "V6 · DOHC · 24V",
@@ -39772,7 +39772,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "EGG"
     ],
     "maker": "Chrysler / Dodge",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "1998-2010",
     "displacement": "3.5 L · 3,518 cc",
     "layout": "V6 · SOHC · 24V",
@@ -39832,7 +39832,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 2.4 Ecotec DI"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2010-2017",
     "displacement": "2.4 L · 2,384 cc",
     "layout": "I4 · DOHC · 16V",
@@ -39891,7 +39891,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 1.5 Turbo"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2023 GM Powered Solutions specification",
     "displacement": "1.5 L · 1,490 cc",
     "layout": "I4 · DOHC · 16V",
@@ -39985,7 +39985,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 1.8 LHE"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "October 2024 GM Powered Solutions specification",
     "displacement": "1.8 L · 1,796 cc",
     "layout": "I4 · SOHC · 8V",
@@ -40079,7 +40079,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 1.8 alternate fuel"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "October 2024 GM Powered Solutions specification",
     "displacement": "1.8 L · 1,796 cc",
     "layout": "I4 · SOHC · 8V",
@@ -40173,7 +40173,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Duramax 2.8"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "July 2024 GM Powered Solutions specification",
     "displacement": "2.8 L · 2,776 cc",
     "layout": "I4 · DOHC diesel · 16V",
@@ -40267,7 +40267,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Duramax 3.0"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "September 2024 GM Powered Solutions specification",
     "displacement": "3.0 L · 2,999 cc",
     "layout": "I6 · DOHC diesel · 24V",
@@ -40361,7 +40361,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 4.3 EcoTec3"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2021 GM Powered Solutions specification",
     "displacement": "4.3 L · 4,301 cc",
     "layout": "V6 · OHV · 12V",
@@ -40455,7 +40455,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.3 EcoTec3 DFM"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2021 GM Powered Solutions specification",
     "displacement": "5.3 L · 5,328 cc",
     "layout": "V8 · OHV · 16V",
@@ -40549,7 +40549,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "6.2 EcoTec3 DFM"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2022 GM Powered Solutions specification",
     "displacement": "6.2 L · 6,162 cc",
     "layout": "V8 · OHV · 16V",
@@ -40643,7 +40643,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 6.6 gasoline V8"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2021 GM Powered Solutions specification",
     "displacement": "6.6 L · 6,564 cc",
     "layout": "V8 · OHV · 16V",
@@ -40737,7 +40737,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Duramax 6.6"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "September 2024 GM Powered Solutions specification",
     "displacement": "6.6 L · 6,604 cc",
     "layout": "V8 · OHV diesel · 32V",
@@ -40831,7 +40831,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM LT4 supercharged"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2021 GM Powered Solutions specification",
     "displacement": "6.2 L · 6,162 cc",
     "layout": "V8 · OHV · 16V",
@@ -40925,7 +40925,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM LSX 454"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2021 GM Powered Solutions test-unit specification",
     "displacement": "7.4 L · 7,400 cc",
     "layout": "V8 · OHV · 16V",
@@ -41019,7 +41019,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "GM 6.0 CNG LPG"
     ],
     "maker": "General Motors",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2021 GM Powered Solutions alternate-fuel specification",
     "displacement": "6.0 L · 5,967 cc",
     "layout": "V8 · OHV · 16V",
@@ -41113,7 +41113,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19541143"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.6 L · 400 cu in",
     "layout": "V8 · Gen V Small-Block",
@@ -41211,7 +41211,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19431953"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · Gen V Small-Block",
@@ -41309,7 +41309,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19434650"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.0 L · 364 cu in",
     "layout": "V8 · Gen III Small-Block",
@@ -41407,7 +41407,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19540156"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · Gen IV Small-Block",
@@ -41505,7 +41505,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19435102"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · Gen IV Small-Block",
@@ -41603,7 +41603,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19540157"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · Gen IV Small-Block",
@@ -41701,7 +41701,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 12624262"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "Discontinued Chevrolet Performance U.S. long-block specification (page checked 2026-09-08)",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · Gen IV Small-Block",
@@ -41799,7 +41799,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19417356"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · LSX-Series Gen IV Small-Block",
@@ -41897,7 +41897,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433031"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -41995,7 +41995,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433034"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42093,7 +42093,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433040"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42191,7 +42191,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433042"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42289,7 +42289,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433044"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42387,7 +42387,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433036"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.3 L · 383 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42485,7 +42485,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19435449"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.3 L · 383 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42583,7 +42583,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19435452"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.3 L · 383 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42681,7 +42681,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433046"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.3 L · 383 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -42778,7 +42778,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Chevrolet Performance ZZ427/480 Deluxe"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "7.0 L · 427 cu in",
     "layout": "V8 · Gen IV Big-Block",
@@ -42876,7 +42876,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433409"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "7.4 L · 454 cu in",
     "layout": "V8 · Gen VI Big-Block",
@@ -42974,7 +42974,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433410"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "7.4 L · 454 cu in",
     "layout": "V8 · Gen VI Big-Block",
@@ -43072,7 +43072,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19421200"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "8.2 L · 502 cu in",
     "layout": "V8 · Gen IV Big-Block",
@@ -43170,7 +43170,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433156"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "8.2 L · 502 cu in",
     "layout": "V8 · Gen IV Big-Block",
@@ -43268,7 +43268,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433157"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "8.2 L · 502 cu in",
     "layout": "V8 · Gen IV Big-Block",
@@ -43366,7 +43366,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19433162"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "8.2 L · 502 cu in",
     "layout": "V8 · Gen IV Big-Block",
@@ -43464,7 +43464,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19331583"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "9.4 L · 572 cu in",
     "layout": "V8 · Gen VI Big-Block",
@@ -43562,7 +43562,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19331585"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "9.4 L · 572 cu in",
     "layout": "V8 · Gen VI Big-Block Tall Deck",
@@ -43660,7 +43660,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19432060"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "10.4 L · 632 cu in",
     "layout": "V8 · Gen VI Big-Block Tall Deck",
@@ -43758,7 +43758,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19435602"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -43856,7 +43856,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19435604"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "5.7 L · 350 cu in",
     "layout": "V8 · Gen I Small-Block",
@@ -43954,7 +43954,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "P/N 19434598"
     ],
     "maker": "General Motors / Chevrolet Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Chevrolet Performance U.S. product-page specification",
     "displacement": "6.2 L · 376 cu in",
     "layout": "V8 · Gen IV Small-Block",
@@ -44051,7 +44051,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "2.3L EcoBoost MPC Crate Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "2.3 L",
     "layout": "I4 · DOHC · turbo",
@@ -44151,7 +44151,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "3.3L V6 Duratec NA Crate Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "3.3 L",
     "layout": "V6 · DOHC",
@@ -44251,7 +44251,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "Raptor 3.5L 450HP EcoBoost Crate Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "3.5 L",
     "layout": "V6 · DOHC · twin turbo",
@@ -44351,7 +44351,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "572 Cubic Inch 655 HP Big Block Street Crate Engine-Front Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "572 cu in",
     "layout": "V8 · 385 Series big-block · OHV",
@@ -44451,7 +44451,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "572 Cubic Inch 655 HP Big Block Street Crate Engine-Rear Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "572 cu in",
     "layout": "V8 · 385 Series big-block · OHV",
@@ -44551,7 +44551,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "7.3L 2024 Super Duty Crate Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "7.3 L",
     "layout": "V8 · OHV",
@@ -44651,7 +44651,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.2L Aluminator 5.2 XS Crate Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "5.2 L · 317 cu in",
     "layout": "V8 · DOHC · 32V",
@@ -44751,7 +44751,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "347 Cubic Inch 415 HP Sealed Racing Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "347 cu in",
     "layout": "V8 · OHV",
@@ -44851,7 +44851,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "347 Cubic Inches 415 HP Sealed Racing Engine 7MM Valves"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "347 cu in",
     "layout": "V8 · OHV",
@@ -44951,7 +44951,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.0L Gen 4 Mustang Crate Engine W/ Flywheel"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "5.0 L",
     "layout": "V8 · DOHC · 32V",
@@ -45051,7 +45051,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "5.0L Gen 4 Mustang Crate Engine - Auto"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "5.0 L",
     "layout": "V8 · DOHC · 32V",
@@ -45151,7 +45151,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "7.3L Megazilla™ 612 HP Crate Engine"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "7.3 L",
     "layout": "V8 · OHV",
@@ -45251,7 +45251,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "347CI 350HP Crate Engine-Sealed Racing X2 Cylinder Head"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "347 cu in",
     "layout": "V8 · OHV",
@@ -45351,7 +45351,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "302 Cubic Inch 340 HP BOSS Crate Engine W/ \"E\" Cam"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "302 cu in",
     "layout": "V8 · 302 small-block · OHV",
@@ -45471,7 +45471,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "363 Cubic Inch 507 HP BOSS Crate Engine-Z2 Heads-Front Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "363 cu in",
     "layout": "V8 · 351-based small-block · OHV",
@@ -45571,7 +45571,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "363 Cubic Inch 507 HP BOSS Crate Engine-Z2 Heads-Rear Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "363 cu in",
     "layout": "V8 · 351-based small-block · OHV",
@@ -45671,7 +45671,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "427 Cubic Inch 535 HP BOSS Crate Engine-Z2 Heads-Front Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "427 cu in",
     "layout": "V8 · 351-based small-block · OHV",
@@ -45791,7 +45791,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "427 Cubic Inch 535 HP BOSS Crate Engine-Z2 Heads-Rear Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "427 cu in",
     "layout": "V8 · 351-based small-block · OHV",
@@ -45911,7 +45911,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "460 Cubic Inch 575 HP BOSS Crate Engine-Front Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "460 cu in",
     "layout": "V8 · 351-based small-block · OHV",
@@ -46011,7 +46011,7 @@ window.AUTOHUB_ENGINE_DATA = {
       "460 Cubic Inch 575 HP BOSS Crate Engine-Rear Sump Pan"
     ],
     "maker": "Ford Performance",
-    "regionKey": "usa",
+    "regionKey": "north-america",
     "years": "2026 Ford Performance U.S. product specification",
     "displacement": "460 cu in",
     "layout": "V8 · 351-based small-block · OHV",

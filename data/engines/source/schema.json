@@ -20,7 +20,8 @@
         "europe",
         "japan",
         "korea",
-        "usa"
+        "north-america",
+        "south-america"
       ]
     },
     "records": {
@@ -79,7 +80,8 @@
             "europe",
             "japan",
             "korea",
-            "usa"
+            "north-america",
+            "south-america"
           ]
         },
         "years": {
