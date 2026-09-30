@@ -261,6 +261,67 @@
     "verification": {
       "type": "object",
       "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "sourceRefs"
+            ]
+          },
+          "then": {
+            "required": [
+              "sources",
+              "scope"
+            ],
+            "properties": {
+              "sources": {
+                "items": {
+                  "allOf": [
+                    {
+                      "required": [
+                        "id",
+                        "scope"
+                      ]
+                    },
+                    {
+                      "oneOf": [
+                        {
+                          "required": [
+                            "identityBindingRef"
+                          ],
+                          "properties": {
+                            "scope": {
+                              "not": {
+                                "required": [
+                                  "codes"
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "not": {
+                            "required": [
+                              "identityBindingRef"
+                            ]
+                          },
+                          "properties": {
+                            "scope": {
+                              "required": [
+                                "codes"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ],
       "required": [
         "status"
       ],
@@ -278,6 +339,18 @@
           "items": {
             "$ref": "#/$defs/source"
           }
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scope": {
+          "$ref": "#/$defs/verificationScope"
         }
       }
     },
@@ -295,6 +368,15 @@
         "fields"
       ],
       "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identityBindingRef": {
+          "type": "string",
+          "minLength": 1,
+          "description": "For strict supplemental evidence without a published engine code, references a validated direct exactVariant identity source in the same verification.sources registry. Mutually exclusive with scope.codes."
+        },
         "type": {
           "type": "string",
           "enum": [
@@ -336,7 +418,97 @@
         },
         "pageNotes": {
           "$ref": "#/$defs/stringArray"
+        },
+        "scope": {
+          "$ref": "#/$defs/sourceScope"
         }
+      }
+    },
+    "sourceScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "applications",
+        "years",
+        "markets"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "exactVariant",
+            "family",
+            "aggregate"
+          ]
+        },
+        "codes": {
+          "$ref": "#/$defs/nonEmptyUniqueStringArray",
+          "description": "Exact engine codes explicitly present in the document. Required by the direct-code path and omitted by the identity-bridge path."
+        },
+        "applications": {
+          "$ref": "#/$defs/nonEmptyUniqueStringArray"
+        },
+        "years": {
+          "$ref": "#/$defs/yearScope"
+        },
+        "markets": {
+          "$ref": "#/$defs/nonEmptyUniqueStringArray"
+        }
+      }
+    },
+    "verificationScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "applications",
+        "years",
+        "markets"
+      ],
+      "properties": {
+        "applications": {
+          "$ref": "#/$defs/nonEmptyUniqueStringArray"
+        },
+        "years": {
+          "$ref": "#/$defs/yearScope"
+        },
+        "markets": {
+          "$ref": "#/$defs/nonEmptyUniqueStringArray"
+        }
+      }
+    },
+    "yearScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "to"
+      ],
+      "properties": {
+        "from": {
+          "type": "integer",
+          "minimum": 1885
+        },
+        "to": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 1885
+            },
+            {
+              "const": "present"
+            }
+          ]
+        }
+      }
+    },
+    "nonEmptyUniqueStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
       }
     }
   }

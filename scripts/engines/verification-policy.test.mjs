@@ -64,20 +64,124 @@ function verifiedRecord(sources) {
   return record('verified', sources);
 }
 
+let passedCases = 0;
+
 function expectPass(name, fixture) {
-  const errors = verificationPolicyErrors(fixture, name);
+  const errors = verificationPolicyErrors(fixture);
   assert.deepEqual(errors, [], `${name} should pass, got:\n${errors.join('\n')}`);
+  passedCases += 1;
   console.log(`PASS ${name}`);
 }
 
 function expectFail(name, fixture, expectedErrorPart) {
-  const errors = verificationPolicyErrors(fixture, name);
+  const errors = verificationPolicyErrors(fixture);
   assert.notEqual(errors.length, 0, `${name} should fail.`);
   assert(
     errors.some((error) => error.includes(expectedErrorPart)),
     `${name} should include "${expectedErrorPart}", got:\n${errors.join('\n')}`
   );
+  passedCases += 1;
   console.log(`PASS ${name}`);
+}
+
+const strictScope = {
+  level: 'exactVariant',
+  codes: ['X20A'],
+  applications: ['Example Model'],
+  years: { from: 2010, to: 2015 },
+  markets: ['EU']
+};
+
+const strictRecordScope = {
+  applications: ['Example Model'],
+  years: { from: 2012, to: 2014 },
+  markets: ['EU']
+};
+
+function scoped(overrides = {}) {
+  return { ...clone(strictScope), ...overrides };
+}
+
+function bridgedScope(overrides = {}) {
+  const result = scoped(overrides);
+  delete result.codes;
+  return result;
+}
+
+function officialSource(id, fields, overrides = {}) {
+  return source({
+    id,
+    type: 'manufacturer',
+    publisher: 'Example Manufacturer',
+    url: `https://manufacturer.example/documents/${id}`,
+    fields,
+    scope: clone(strictScope),
+    pageNotes: [
+      'The cited page documents the declared fields for X20A and explicitly includes the Example Model scope.'
+    ],
+    ...overrides
+  });
+}
+
+function strictVerifiedRecord(sources, sourceRefs = sources.map((item) => item.id)) {
+  return {
+    id: 'example-x20a',
+    code: 'X20A',
+    aliases: ['Example 2.0'],
+    maker: 'Example Motors',
+    years: '2012-2014',
+    displacement: '2.0 L',
+    layout: 'I4 · DOHC · 16V',
+    fuelKey: 'petrol',
+    aspirationKey: 'turbocharged',
+    injectionKey: 'directInjection',
+    applications: ['Example Model'],
+    performance: clone(basePerformance),
+    verification: {
+      status: 'verified',
+      sources,
+      sourceRefs,
+      scope: clone(strictRecordScope)
+    }
+  };
+}
+
+function strictSources() {
+  return [
+    officialSource('identity-document', [
+      'maker',
+      'code',
+      'applications',
+      'years'
+    ]),
+    officialSource('technical-specification', [
+      'displacement',
+      'layout',
+      'fuelKey',
+      'aspirationKey',
+      'injectionKey',
+      'code'
+    ], {
+      type: 'serviceDocumentation',
+      scope: scoped({
+        level: 'family',
+        codes: ['X20A', 'X20B'],
+        applications: ['Example Model', 'Example Utility'],
+        years: { from: 2008, to: 2020 },
+        markets: ['Global']
+      })
+    }),
+    officialSource('performance-certificate', [
+      'performance.powerKw',
+      'performance.powerKw.rpm',
+      'performance.torqueNm',
+      'performance.torqueNm.rpm'
+    ], {
+      type: 'certificationDocument',
+      identityBindingRef: 'identity-document',
+      scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+    })
+  ];
 }
 
 const independentSourceA = source();
@@ -231,4 +335,492 @@ expectFail(
   'code or aliases'
 );
 
-console.log('Verification policy fixture tests passed: 17 cases.');
+expectPass(
+  'verified strict multi-source with different compatible scopes',
+  strictVerifiedRecord(strictSources())
+);
+
+{
+  const sources = strictSources();
+  sources[0].type = 'serviceDocumentation';
+  sources[0].title = 'Official Parts and Service Application Guide';
+  sources[2].type = 'manufacturer';
+  sources[2].title = 'Official Model Brochure';
+  expectPass(
+    'future batch service identity plus manufacturer brochure performance',
+    strictVerifiedRecord(sources)
+  );
+}
+
+{
+  const sources = [
+    officialSource('manufacturer-model-page', [
+      'maker', 'code', 'applications', 'years', 'displacement', 'layout',
+      'fuelKey', 'aspirationKey', 'injectionKey'
+    ]),
+    officialSource('certification-document', [
+      'performance.powerKw', 'performance.powerKw.rpm',
+      'performance.torqueNm', 'performance.torqueNm.rpm'
+    ], {
+      type: 'certificationDocument',
+      identityBindingRef: 'manufacturer-model-page',
+      scope: bridgedScope({ years: { from: 2011, to: 2016 }, markets: ['Global'] })
+    })
+  ];
+  expectPass(
+    'future batch manufacturer model page plus certification document',
+    strictVerifiedRecord(sources)
+  );
+}
+
+{
+  const sources = [
+    officialSource('identity-and-construction', [
+      'maker', 'code', 'applications', 'years', 'displacement', 'layout', 'fuelKey'
+    ]),
+    officialSource('aspiration-document', ['aspirationKey'], {
+      type: 'manufacturer',
+      identityBindingRef: 'identity-and-construction',
+      scope: bridgedScope({ years: { from: 2009, to: 2018 }, markets: ['Global'] })
+    }),
+    officialSource('injection-document', ['injectionKey'], {
+      identityBindingRef: 'identity-and-construction',
+      scope: bridgedScope({ years: { from: 2010, to: 2014 } })
+    }),
+    officialSource('performance-document', [
+      'performance.powerKw', 'performance.powerKw.rpm',
+      'performance.torqueNm', 'performance.torqueNm.rpm'
+    ], {
+      type: 'certificationDocument',
+      identityBindingRef: 'identity-and-construction',
+      scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+    })
+  ];
+  expectPass(
+    'future batch separate aspiration injection and performance documents',
+    strictVerifiedRecord(sources)
+  );
+}
+
+{
+  const sources = strictSources();
+  sources.forEach((item) => { item.scope.markets = ['Global']; });
+  expectPass(
+    'global official source scopes cover regional record market',
+    strictVerifiedRecord(sources)
+  );
+}
+
+{
+  const sources = strictSources();
+  delete sources[2].identityBindingRef;
+  sources[2].scope = scoped({ years: { from: 2012, to: 2014 } });
+  sources[2].fields.push('code');
+  expectPass(
+    'direct-code supplemental performance without identity bridge',
+    strictVerifiedRecord(sources)
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[0].fields = ['maker', 'aliases', 'applications', 'years'];
+  expectFail(
+    'strict coverage without official exact code binding',
+    strictVerifiedRecord(sources),
+    'exact code, applications and years identity binding'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].fields = sources[1].fields.filter((field) => field !== 'injectionKey');
+  expectFail(
+    'strict coverage missing one required field',
+    strictVerifiedRecord(sources),
+    'example-x20a: verified field injectionKey is uncovered'
+  );
+}
+
+{
+  const sources = strictSources();
+  delete sources[2].identityBindingRef;
+  expectFail(
+    'supplemental brochure without code or identityBindingRef',
+    strictVerifiedRecord(sources),
+    'must use exactly one evidence path: scope.codes or identityBindingRef'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].identityBindingRef = 'missing-identity';
+  expectFail(
+    'identityBindingRef points to unknown source',
+    strictVerifiedRecord(sources),
+    'identityBindingRef missing-identity does not resolve'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].identityBindingRef = 'technical-specification';
+  expectFail(
+    'identityBindingRef points to family source',
+    strictVerifiedRecord(sources),
+    'identityBindingRef technical-specification does not point to an exactVariant source'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].scope.level = 'aggregate';
+  sources[2].identityBindingRef = 'technical-specification';
+  expectFail(
+    'identityBindingRef points to aggregate source',
+    strictVerifiedRecord(sources),
+    'identityBindingRef technical-specification does not point to an exactVariant source'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources.push(officialSource('bridged-aspiration', ['aspirationKey'], {
+    identityBindingRef: 'identity-document',
+    scope: bridgedScope()
+  }));
+  sources[2].identityBindingRef = 'bridged-aspiration';
+  expectFail(
+    'identityBindingRef points to supplemental source chain',
+    strictVerifiedRecord(sources),
+    'points to a supplemental binding; chains and cycles are not allowed'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources.push(officialSource('cycle-a', ['aspirationKey'], {
+    identityBindingRef: 'cycle-b',
+    scope: bridgedScope()
+  }));
+  sources.push(officialSource('cycle-b', ['injectionKey'], {
+    identityBindingRef: 'cycle-a',
+    scope: bridgedScope()
+  }));
+  expectFail(
+    'identity bridge cycle is rejected',
+    strictVerifiedRecord(sources),
+    'chains and cycles are not allowed'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.applications = ['Example Model', 'Example Model Hybrid'];
+  expectFail(
+    'bridged brochure application is broader than identity application',
+    strictVerifiedRecord(sources),
+    'application scope does not exactly match identityBindingRef identity-document'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.level = 'family';
+  expectFail(
+    'bridged brochure covers model with multiple engines',
+    strictVerifiedRecord(sources),
+    'identity-bridge supplemental scope must be exactVariant'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.applications = ['Example Model 2.0'];
+  expectFail(
+    'identity bridge rejects approximate application match',
+    strictVerifiedRecord(sources),
+    'scope applications do not contain every record application'
+  );
+}
+
+{
+  const sources = strictSources();
+  delete sources[2].identityBindingRef;
+  sources[2].scope = scoped({ years: { from: 2012, to: 2014 } });
+  expectFail(
+    'direct supplemental cannot claim code outside declared fields',
+    strictVerifiedRecord(sources),
+    'direct-code evidence must declare code in fields'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[0].fields = sources[0].fields.filter((field) => field !== 'years');
+  expectFail(
+    'identity source must declare code applications and years together',
+    strictVerifiedRecord(sources),
+    'is not an accepted exact identity source declaring code, applications and years'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].identityBindingRef = ['identity-document', 'technical-specification'];
+  expectFail(
+    'supplemental cannot declare multiple contradictory identity bindings',
+    strictVerifiedRecord(sources),
+    'identityBindingRef must be a non-empty string'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].fields = ['performance.powerKw', 'performance.powerKw.rpm'];
+  expectFail(
+    'strict coverage with power but no torque',
+    strictVerifiedRecord(sources),
+    'verified field performance.torqueNm is uncovered'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  delete fixture.performance.powerKw.rpm;
+  fixture.verification.sources[2].fields = fixture.verification.sources[2].fields.filter((field) => field !== 'performance.powerKw.rpm');
+  expectFail(
+    'strict coverage with power but no power rpm',
+    fixture,
+    'missing required field performance.powerKw.rpm'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  delete fixture.performance.torqueNm.rpm;
+  fixture.verification.sources[2].fields = fixture.verification.sources[2].fields.filter((field) => field !== 'performance.torqueNm.rpm');
+  expectFail(
+    'strict coverage with torque but no torque rpm',
+    fixture,
+    'missing required field performance.torqueNm.rpm'
+  );
+}
+
+expectFail(
+  'strict coverage with unresolved sourceRef',
+  strictVerifiedRecord(strictSources(), ['identity-document', 'technical-specification', 'missing-source']),
+  'sourceRef missing-source does not resolve'
+);
+
+{
+  const sources = strictSources();
+  sources[2].fields = sources[2].fields.filter((field) => field !== 'performance.torqueNm');
+  expectFail(
+    'strict source exists without declared torque field',
+    strictVerifiedRecord(sources),
+    'sourceRefs [identity-document, technical-specification, performance-certificate] do not declare it in fields'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].fields = sources[1].fields.filter((field) => field !== 'injectionKey');
+  sources.push(officialSource('secondary-injection', ['injectionKey'], { type: 'technicalReference' }));
+  expectFail(
+    'strict required field covered only by secondary source',
+    strictVerifiedRecord(sources),
+    'sourceRef secondary-injection is not accepted: type technicalReference'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].fields = sources[1].fields.filter((field) => field !== 'injectionKey');
+  sources.push(officialSource('aggregator-injection', ['injectionKey'], { type: 'aggregator' }));
+  expectFail(
+    'strict required field covered only by aggregator',
+    strictVerifiedRecord(sources),
+    'sourceRef aggregator-injection is not accepted: type aggregator'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].fields = sources[1].fields.filter((field) => field !== 'injectionKey');
+  sources.push(officialSource('inferred-injection', ['injectionKey'], { type: 'inferred' }));
+  expectFail(
+    'strict required field covered only by inferred source',
+    strictVerifiedRecord(sources),
+    'sourceRef inferred-injection is not accepted: type inferred'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].scope.codes = ['X20B'];
+  expectFail(
+    'strict document lists neighboring variant but not target code',
+    strictVerifiedRecord(sources),
+    'scope codes do not explicitly include exact record code X20A'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.applications = ['Other Model'];
+  expectFail(
+    'strict source application does not include record application',
+    strictVerifiedRecord(sources),
+    'scope applications do not contain every record application'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.markets = ['US'];
+  expectFail(
+    'strict source market is incompatible',
+    strictVerifiedRecord(sources),
+    'scope markets do not contain the record market scope'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.years = { from: 2013, to: 2015 };
+  expectFail(
+    'strict source years cover only part of record years',
+    strictVerifiedRecord(sources),
+    'scope years do not fully contain the record year interval'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.years = { from: 2018, to: 2020 };
+  expectFail(
+    'strict source years do not overlap record years',
+    strictVerifiedRecord(sources),
+    'scope years do not fully contain the record year interval'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].scope.level = 'family';
+  sources[1].scope.codes = ['X20B', 'X20C'];
+  expectFail(
+    'strict family source without exact variant mapping',
+    strictVerifiedRecord(sources),
+    'scope codes do not explicitly include exact record code X20A'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[2].scope.level = 'aggregate';
+  expectFail(
+    'strict aggregate performance range',
+    strictVerifiedRecord(sources),
+    'scope level aggregate is aggregate or unsupported'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  fixture.verification.scope.markets = ['Global'];
+  expectFail(
+    'global record cannot use only regional source scope',
+    fixture,
+    'scope markets do not contain the record market scope'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  fixture.years = 'model years 2012 through 2014';
+  expectFail(
+    'unparseable record year scope is rejected',
+    fixture,
+    'cannot be parsed safely'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  fixture.verification.scope.years = { from: 2013, to: 2014 };
+  expectFail(
+    'normalized verification years cannot narrow the record silently',
+    fixture,
+    'verification.scope.years must exactly describe parsed record years'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  fixture.applications.push('Example Utility');
+  expectFail(
+    'normalized verification applications cannot omit a record application',
+    fixture,
+    'verification.scope.applications must exactly describe record applications'
+  );
+}
+
+{
+  const fixture = strictVerifiedRecord(strictSources());
+  fixture.verification.scope.markets = ['Global', 'EU'];
+  expectFail(
+    'global and regional record markets cannot be mixed',
+    fixture,
+    'Global cannot be combined with regional markets'
+  );
+}
+
+expectFail(
+  'strict empty sourceRefs cannot bypass coverage',
+  strictVerifiedRecord(strictSources(), []),
+  'requires at least one sourceRef'
+);
+
+{
+  const sources = strictSources();
+  sources[1].fields = [];
+  expectFail(
+    'strict empty declared fields cannot bypass coverage',
+    strictVerifiedRecord(sources),
+    'sourceRef technical-specification is not accepted: declared fields coverage is empty'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].pageNotes = [];
+  expectFail(
+    'strict formal source without evidence notes',
+    strictVerifiedRecord(sources),
+    'pageNotes do not document the exact evidence and scope'
+  );
+}
+
+{
+  const sources = strictSources();
+  sources[1].id = 'identity-document';
+  expectFail(
+    'strict duplicate source registry id',
+    strictVerifiedRecord(sources, ['identity-document', 'performance-certificate']),
+    'source id identity-document is duplicated'
+  );
+}
+
+{
+  const sources = strictSources();
+  delete sources[1].id;
+  expectFail(
+    'strict source without registry id',
+    strictVerifiedRecord(sources, ['identity-document', 'performance-certificate']),
+    'must have a unique id'
+  );
+}
+
+console.log(`Verification policy fixture tests passed: ${passedCases} cases.`);
