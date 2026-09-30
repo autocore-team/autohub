@@ -18736,5 +18736,1358 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "mercedes-m111-943",
+    "code": "M111.943",
+    "aliases": [
+      "M 111 E 20 ML / 111.943"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "1996-2000",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML (170.445)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.943 is the supercharged 2.0 L I4 with 16 valves documented for the 1996-2000 Mercedes-Benz SLK 200 Compressor (170.445).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited SLK 200 Compressor specification and must not be generalized to other M111 variants."
+      },
+      "es": {
+        "construction": "M111.943 es el I4 sobrealimentado de 2,0 L y 16 válvulas documentado para el Mercedes-Benz SLK 200 Compressor (170.445) de 1996-2000.",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la especificación citada del SLK 200 Compressor y no deben generalizarse a otras variantes M111."
+      },
+      "fr": {
+        "construction": "M111.943 est le quatre-cylindres en ligne suralimenté de 2,0 L et 16 soupapes documenté pour la Mercedes-Benz SLK 200 Compressor (170.445) de 1996 à 2000.",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à la spécification SLK 200 Compressor citée et ne doivent pas être généralisés aux autres variantes M111."
+      },
+      "de": {
+        "construction": "M111.943 ist der aufgeladene 2,0-L-Reihenvierzylinder mit 16 Ventilen für den Mercedes-Benz SLK 200 Kompressor (170.445) von 1996 bis 2000.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte SLK-200-Kompressor-Spezifikation und dürfen nicht auf andere M111-Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 141,
+        "max": 141,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5012"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML (170.445)"
+        ],
+        "years": {
+          "from": 1996,
+          "to": 2000
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5012",
+          "type": "manufacturer",
+          "title": "SLK 200 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5012",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 111 E 20 ML / 111.943 in SLK 200 Compressor design 170.445. Standard production ran from August 1996 to February 2000; the separate November 1995 pre-production start is excluded.",
+            "The Engine section publishes 1,998 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes four-stroke Otto manifold injection, a supercharger with charge-air cooling, 141 kW at 5,300 rpm and 270 N·m at 2,500-4,800 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M111.943"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML (170.445)"
+            ],
+            "years": {
+              "from": 1996,
+              "to": 2000
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-958",
+    "code": "M111.958",
+    "aliases": [
+      "M 111 E 20 ML EVO / 111.958"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2000-2004",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.958 is the I4 · DOHC · 16 valves 2.0 L · 1,998 cc engine documented for Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO (2000-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M111.958 es el motor I4 · DOHC · 16 valves de 2.0 L · 1,998 cc documentado para Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO (2000-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M111.958 est le moteur I4 · DOHC · 16 valves de 2.0 L · 1,998 cc documenté pour Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO (2000-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M111.958 ist der für Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO (2000-2004) dokumentierte I4 · DOHC · 16 valves-Motor mit 2.0 L · 1,998 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5020"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2004
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5020",
+          "type": "manufacturer",
+          "title": "SLK 200 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5020",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 111 E 20 ML EVO / 111.958 in Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO. Standard production ran from February 2000 to April 2004; the separate July 1999 pre-production start is excluded. The Engine section publishes 1,998 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes petrol HFM injection, a supercharger with intercooling, 120 kW at 5,300 rpm and 230 N·m at 2,500-4,800 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M111.958"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 200 Compressor / R 170 E 20 ML EVO"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2004
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-973",
+    "code": "M111.973",
+    "aliases": [
+      "M 111 E 23 ML / 111.973"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "1996-2000",
+    "displacement": "2.3 L · 2,295 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.973 is the I4 · DOHC · 16 valves 2.3 L · 2,295 cc engine documented for Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML (1996-2000).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M111.973 es el motor I4 · DOHC · 16 valves de 2.3 L · 2,295 cc documentado para Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML (1996-2000).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M111.973 est le moteur I4 · DOHC · 16 valves de 2.3 L · 2,295 cc documenté pour Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML (1996-2000).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M111.973 ist der für Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML (1996-2000) dokumentierte I4 · DOHC · 16 valves-Motor mit 2.3 L · 2,295 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5013"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML"
+        ],
+        "years": {
+          "from": 1996,
+          "to": 2000
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5013",
+          "type": "manufacturer",
+          "title": "SLK 230 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1996,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5013",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 111 E 23 ML / 111.973 in Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML. Standard production ran from July 1996 to February 2000; the separate October 1995 pre-production start is excluded. The Engine section publishes 2,295 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes petrol HFM injection, a supercharger with intercooling, 142 kW at 5,300 rpm and 280 N·m at 2,500-4,800 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M111.973"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML"
+            ],
+            "years": {
+              "from": 1996,
+              "to": 2000
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-983",
+    "code": "M111.983",
+    "aliases": [
+      "M 111 E 23 ML EVO / 111.983"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2000-2004",
+    "displacement": "2.3 L · 2,295 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.983 is the I4 · DOHC · 16 valves 2.3 L · 2,295 cc engine documented for Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO (2000-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M111.983 es el motor I4 · DOHC · 16 valves de 2.3 L · 2,295 cc documentado para Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO (2000-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M111.983 est le moteur I4 · DOHC · 16 valves de 2.3 L · 2,295 cc documenté pour Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO (2000-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M111.983 ist der für Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO (2000-2004) dokumentierte I4 · DOHC · 16 valves-Motor mit 2.3 L · 2,295 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 145,
+        "max": 145,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280,
+        "rpm": {
+          "min": 2500,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5021"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2004
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5021",
+          "type": "manufacturer",
+          "title": "SLK 230 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5021",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 111 E 23 ML EVO / 111.983 in Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO. Standard production ran from February 2000 to April 2004; the separate June 1999 pre-production start is excluded. The Engine section publishes 2,295 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes petrol HFM injection, a supercharger with intercooling, 145 kW at 5,300 rpm and 280 N·m at 2,500-5,000 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M111.983"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 230 Compressor / R 170 E 23 ML EVO"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2004
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-960",
+    "code": "M112.960",
+    "aliases": [
+      "M 112 E 32 ML AMG / 112.960"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2001-2004",
+    "displacement": "3.2 L · 3,199 cc",
+    "layout": "V6 · SOHC per bank · 18 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 32 AMG / R 170 E 32 ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.960 is the V6 · SOHC · 18 valves 3.2 L · 3,199 cc engine documented for Mercedes-Benz SLK 32 AMG / R 170 E 32 ML (2001-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M112.960 es el motor V6 · SOHC · 18 valves de 3.2 L · 3,199 cc documentado para Mercedes-Benz SLK 32 AMG / R 170 E 32 ML (2001-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M112.960 est le moteur V6 · SOHC · 18 valves de 3.2 L · 3,199 cc documenté pour Mercedes-Benz SLK 32 AMG / R 170 E 32 ML (2001-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M112.960 ist der für Mercedes-Benz SLK 32 AMG / R 170 E 32 ML (2001-2004) dokumentierte V6 · SOHC · 18 valves-Motor mit 3.2 L · 3,199 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 260,
+        "max": 260,
+        "rpm": {
+          "min": 6100,
+          "max": 6100
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5023"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 32 AMG / R 170 E 32 ML"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2004
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5023",
+          "type": "manufacturer",
+          "title": "SLK 32 AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5023",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 112 E 32 ML AMG / 112.960 in Mercedes-Benz SLK 32 AMG / R 170 E 32 ML. Standard production ran from January 2001 to March 2004; the separate August 2000 pre-production start is excluded. The Engine section publishes 3,199 cc and a 90-degree V6 with two intake and one exhaust valve per cylinder (18 valves total), operated by one overhead camshaft per cylinder bank (two camshafts total; SOHC per bank). It also publishes petrol HFM injection, a supercharger with intercooling, 260 kW at 6,100 rpm and 450 N·m at 4,400 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M112.960"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 32 AMG / R 170 E 32 ML"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2004
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-955",
+    "code": "M111.955",
+    "aliases": [
+      "M 111 E 20 ML EVO / 111.955"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2000-2002",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 Compressor / W 203 E 20 ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.955 is the I4 · DOHC · 16 valves 2.0 L · 1,998 cc engine documented for Mercedes-Benz C 200 Compressor / W 203 E 20 ML (2000-2002).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M111.955 es el motor I4 · DOHC · 16 valves de 2.0 L · 1,998 cc documentado para Mercedes-Benz C 200 Compressor / W 203 E 20 ML (2000-2002).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M111.955 est le moteur I4 · DOHC · 16 valves de 2.0 L · 1,998 cc documenté pour Mercedes-Benz C 200 Compressor / W 203 E 20 ML (2000-2002).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M111.955 ist der für Mercedes-Benz C 200 Compressor / W 203 E 20 ML (2000-2002) dokumentierte I4 · DOHC · 16 valves-Motor mit 2.0 L · 1,998 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5534"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 Compressor / W 203 E 20 ML"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2002
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5534",
+          "type": "manufacturer",
+          "title": "C 200 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5534",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 111 E 20 ML EVO / 111.955 in Mercedes-Benz C 200 Compressor / W 203 E 20 ML. Standard production ran from February 2000 to August 2002; the separate March 1999 pre-production start is excluded. The Engine section publishes 1,998 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes petrol HFM injection, a supercharger with intercooling, 120 kW at 5,300 rpm and 230 N·m at 2,500-4,800 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M111.955"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 Compressor / W 203 E 20 ML"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2002
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om611-962-c200",
+    "code": "OM611.962",
+    "aliases": [
+      "OM 611 DE 22 LA LR / 611.962"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2000-2003",
+    "displacement": "2.1 L · 2,148 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM611.962 is the I4 · DOHC · 16 valves 2.1 L · 2,148 cc engine documented for Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2000-2003).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM611.962 es el motor I4 · DOHC · 16 valves de 2.1 L · 2,148 cc documentado para Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2000-2003).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM611.962 est le moteur I4 · DOHC · 16 valves de 2.1 L · 2,148 cc documenté pour Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2000-2003).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM611.962 ist der für Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2000-2003) dokumentierte I4 · DOHC · 16 valves-Motor mit 2.1 L · 2,148 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1400,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5537"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2003
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5537",
+          "type": "manufacturer",
+          "title": "C 200 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5537",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify OM 611 DE 22 LA LR / 611.962 in Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR. Standard production ran from July 2000 to June 2003; the separate June 1999 pre-production start is excluded. The Engine section publishes 2,148 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes electronically controlled common-rail direct injection, a turbocharger with intercooling, 85 kW at 4,200 rpm and 250 N·m at 1,400-2,600 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM611.962"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2003
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om612-962",
+    "code": "OM612.962",
+    "aliases": [
+      "OM 612 DE 27 LA / 612.962"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2000-2001",
+    "displacement": "2.7 L · 2,685 cc",
+    "layout": "I5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 270 CDI / W 203 DE 27 LA with 6-speed manual transmission (pre-June 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM612.962 is the 2.7 L I5 DOHC 20-valve engine documented for the 2000-2001 Mercedes-Benz C 270 CDI / W 203 DE 27 LA with 6-speed manual transmission, using the pre-June 2002 specification.",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM612.962 es el motor I5 DOHC de 2,7 L y 20 válvulas documentado para el Mercedes-Benz C 270 CDI / W 203 DE 27 LA de 2000-2001 con cambio manual de seis marchas y especificación anterior a junio de 2002.",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM612.962 est le moteur cinq-cylindres DOHC de 2,7 L et 20 soupapes documenté pour la Mercedes-Benz C 270 CDI / W 203 DE 27 LA de 2000 à 2001 avec boîte manuelle à six rapports et spécification antérieure à juin 2002.",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM612.962 ist der 2,7-L-Reihenfünfzylinder mit DOHC und 20 Ventilen für den Mercedes-Benz C 270 CDI / W 203 DE 27 LA von 2000 bis 2001 mit Sechsgang-Schaltgetriebe in der Spezifikation vor Juni 2002.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370,
+        "rpm": {
+          "min": 1600,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5539"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 270 CDI / W 203 DE 27 LA with 6-speed manual transmission (pre-June 2002 specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2001
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5539",
+          "type": "manufacturer",
+          "title": "C 270 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5539",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine, production-period and transmission sections identify OM 612 DE 27 LA / 612.962 in Mercedes-Benz C 270 CDI / W 203 DE 27 LA and list a 6-speed manual transmission as standard. Standard production ran from November 2000 to March 2004; the separate June 1999 pre-production start is excluded.",
+            "The Engine section publishes five in-line cylinders with two intake and two exhaust valves each (20 valves total), operated by two overhead camshafts total (DOHC), plus 2,685 cc, common-rail direct injection, a turbocharger with intercooling and 125 kW at 4,200 rpm.",
+            "Rated torque is conditional: the manual transmission has 370 N·m at 1,600-2,800 rpm before June 2002 and 400 N·m at the same 1,600-2,800 rpm from June 2002; the automatic transmission has 400 N·m at 1,800-2,600 rpm. Because the data model cannot attach performance values to gearbox/time conditions, this record is narrowed to the 2000-2001 6-speed manual pre-June 2002 specification and stores only 370 N·m at 1,600-2,800 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM612.962"
+            ],
+            "applications": [
+              "Mercedes-Benz C 270 CDI / W 203 DE 27 LA with 6-speed manual transmission (pre-June 2002 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2004
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m112-961",
+    "code": "M112.961",
+    "aliases": [
+      "M 112 E 32 ML AMG / 112.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2001-2004",
+    "displacement": "3.2 L · 3,199 cc",
+    "layout": "V6 · SOHC per bank · 18 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 32 AMG / W 203 E 32 ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M112.961 is the V6 · SOHC · 18 valves 3.2 L · 3,199 cc engine documented for Mercedes-Benz C 32 AMG / W 203 E 32 ML (2001-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M112.961 es el motor V6 · SOHC · 18 valves de 3.2 L · 3,199 cc documentado para Mercedes-Benz C 32 AMG / W 203 E 32 ML (2001-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M112.961 est le moteur V6 · SOHC · 18 valves de 3.2 L · 3,199 cc documenté pour Mercedes-Benz C 32 AMG / W 203 E 32 ML (2001-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M112.961 ist der für Mercedes-Benz C 32 AMG / W 203 E 32 ML (2001-2004) dokumentierte V6 · SOHC · 18 valves-Motor mit 3.2 L · 3,199 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 260,
+        "max": 260,
+        "rpm": {
+          "min": 6100,
+          "max": 6100
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5540"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 32 AMG / W 203 E 32 ML"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2004
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5540",
+          "type": "manufacturer",
+          "title": "C 32 AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2001,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5540",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 112 E 32 ML AMG / 112.961 in Mercedes-Benz C 32 AMG / W 203 E 32 ML. Standard production ran from April 2001 to March 2004; the separate October 2000 pre-production start is excluded. The Engine section publishes 3,199 cc and a 90-degree V6 with two intake and one exhaust valve per cylinder (18 valves total), operated by one overhead camshaft per cylinder bank (two camshafts total; SOHC per bank). It also publishes petrol HFM injection, a supercharger with intercooling, 260 kW at 6,100 rpm and 450 N·m at 4,400 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M112.961"
+            ],
+            "applications": [
+              "Mercedes-Benz C 32 AMG / W 203 E 32 ML"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2004
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m111-956",
+    "code": "M111.956",
+    "aliases": [
+      "M 111 E 20 ML EVO / 111.956"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2000-2001",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M111.956 is the I4 · DOHC · 16 valves 2.0 L · 1,998 cc engine documented for Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO (2000-2001).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M111.956 es el motor I4 · DOHC · 16 valves de 2.0 L · 1,998 cc documentado para Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO (2000-2001).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M111.956 est le moteur I4 · DOHC · 16 valves de 2.0 L · 1,998 cc documenté pour Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO (2000-2001).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M111.956 ist der für Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO (2000-2001) dokumentierte I4 · DOHC · 16 valves-Motor mit 2.0 L · 1,998 cc.",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5568"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2001
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5568",
+          "type": "manufacturer",
+          "title": "C 200 Kompressor station wagon",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2000,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/x.xhtml?oid=5568",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Engine and production-period sections identify M 111 E 20 ML EVO / 111.956 in Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO. Standard production ran from May 2000 to January 2001; the separate March 2000 pre-production start is excluded. The Engine section publishes 1,998 cc and four in-line cylinders with two intake and two exhaust valves each (16 valves total), operated by two overhead camshafts total (DOHC). It also publishes petrol HFM injection, a supercharger with intercooling, 120 kW at 5,300 rpm and 230 N·m at 2,500-4,800 rpm.",
+            "The archive card is not market-qualified, so the normalized record uses a single Global market scope and makes no claim about market-specific calibrations."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M111.956"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 Kompressor station wagon / S 202 E 20 ML EVO"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2001
+            },
+            "markets": [
+              "Global"
+            ]
+          }
+        }
+      ]
+    }
   }
 ];

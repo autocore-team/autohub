@@ -11,6 +11,7 @@ import {
   readSourceData
 } from '../../scripts/engines/lib.mjs';
 import { validateEngineData } from '../../scripts/engines/validate-engine-data.mjs';
+import { verificationPolicyErrors } from '../../scripts/engines/verification-policy.mjs';
 
 const testDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(testDirectory, '../..');
@@ -19,7 +20,8 @@ const coreText = fs.readFileSync(path.join(root, 'assets/js/engine-search-core.j
 const context = { window: {}, URL };
 vm.runInNewContext(coreText, context, { filename: 'engine-search-core.js' });
 const core = context.window.D3_ENGINE_SEARCH_CORE;
-const records = readSourceData().records;
+const sourceData = readSourceData();
+const records = sourceData.records;
 const languages = ['en', 'es', 'fr', 'de'];
 
 function check(condition, message) {
@@ -31,17 +33,98 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 500, `Engine count changed: expected 500, found ${records.length}`);
+check(records.length === 510, `Engine count changed: expected 510, found ${records.length}`);
 check(
-  semanticHash === '285441e2e4c553d817065f1d10de76cd04299b5266bbfbe1ced83388c3862187',
+  semanticHash === '42c983d3fb6841f2d1b5ba3c2c15a99e804d6787e0c372ff2501f02f5de9cd3c',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
 
+const baselineRegionCounts = {
+  europe: 196,
+  japan: 167,
+  korea: 49,
+  'north-america': 88,
+  'south-america': 0
+};
+const baselineRecords = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, baselineRegionCounts[sourceFile.region])
+));
+const baselineHash = crypto.createHash('sha256').update(canonicalFingerprint(baselineRecords)).digest('hex');
+check(baselineRecords.length === 500, `Batch 07a baseline changed: expected 500 records, found ${baselineRecords.length}`);
+check(
+  baselineHash === '285441e2e4c553d817065f1d10de76cd04299b5266bbfbe1ced83388c3862187',
+  `Batch 07a changed an original record or its regional order: ${baselineHash}`
+);
+pass(`Batch 07a preserves all original 500 records (${baselineHash})`);
+
+const batch07aIds = [
+  'mercedes-m111-943',
+  'mercedes-m111-958',
+  'mercedes-m111-973',
+  'mercedes-m111-983',
+  'mercedes-m112-960',
+  'mercedes-m111-955',
+  'mercedes-om611-962-c200',
+  'mercedes-om612-962',
+  'mercedes-m112-961',
+  'mercedes-m111-956'
+];
+const batch07aRecords = batch07aIds.map((id) => records.find((record) => record.id === id));
+const batch07aExpectedLayouts = new Map([
+  ['mercedes-m111-943', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m111-958', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m111-973', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m111-983', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m112-960', 'V6 · SOHC per bank · 18 valves · 2 camshafts total'],
+  ['mercedes-m111-955', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om611-962-c200', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om612-962', 'I5 · DOHC · 20 valves · 2 camshafts total'],
+  ['mercedes-m112-961', 'V6 · SOHC per bank · 18 valves · 2 camshafts total'],
+  ['mercedes-m111-956', 'I4 · DOHC · 16 valves · 2 camshafts total']
+]);
+check(batch07aRecords.every(Boolean), 'Batch 07a is missing one or more expected IDs');
+check(new Set(batch07aIds).size === batch07aIds.length, 'Batch 07a expected IDs are not unique');
+check(new Set(records.map((record) => record.id)).size === records.length, 'Dataset contains duplicate engine IDs');
+for (const record of batch07aRecords) {
+  check(record.verification?.status === 'verified', `${record.id} is not verified`);
+  check(record.verification?.sourceRefs?.length > 0, `${record.id} does not use strict sourceRefs`);
+  check(verificationPolicyErrors(record).length === 0, `${record.id} fails strict verification policy`);
+  check(record.layout === batch07aExpectedLayouts.get(record.id), `${record.id} cylinder/valve/camshaft layout changed`);
+  const results = core.searchRecords(records, record.code);
+  check(results[0]?.id === record.id, `${record.code} is not the top exact-code search result`);
+}
+const om612 = records.find((record) => record.id === 'mercedes-om612-962');
+check(om612.years === '2000-2001', 'OM612.962 must remain scoped before the June 2002 torque change');
+check(om612.applications.length === 1 && om612.applications[0].includes('6-speed manual transmission'), 'OM612.962 application must retain its gearbox condition');
+check(
+  om612.performance.torqueNm.min === 370
+    && om612.performance.torqueNm.max === 370
+    && om612.performance.torqueNm.rpm.min === 1600
+    && om612.performance.torqueNm.rpm.max === 2800,
+  'OM612.962 must store only the pre-June 2002 manual-transmission torque specification'
+);
+check(om612.verification.sources[0].pageNotes.some((note) => note.includes('automatic transmission has 400 N·m at 1,800-2,600 rpm')), 'OM612.962 evidence must preserve the excluded automatic-transmission condition');
+pass('Batch 07a valve/camshaft layouts and conditional OM612.962 torque scope pass');
+const normalizedIdentity = (value) => String(value).trim().toUpperCase().replace(/\s+/g, ' ');
+const identityOwners = new Map();
+for (const record of records) {
+  for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
+    if (!identityOwners.has(identity)) identityOwners.set(identity, new Set());
+    identityOwners.get(identity).add(record.id);
+  }
+}
+for (const record of batch07aRecords) {
+  for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
+    check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
+  }
+}
+pass('Batch 07a IDs, strict evidence, exact-code search and code/alias collision checks pass');
+
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 196, manufacturerCount: 11 },
+    { region: 'europe', engineCount: 206, manufacturerCount: 11 },
     { region: 'japan', engineCount: 167, manufacturerCount: 15 },
     { region: 'korea', engineCount: 49, manufacturerCount: 2 },
     { region: 'north-america', engineCount: 88, manufacturerCount: 13 }
@@ -49,7 +132,7 @@ check(
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 500, 'Regional engineCount sum does not equal 500');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 510, 'Regional engineCount sum does not equal 510');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
