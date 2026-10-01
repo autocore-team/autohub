@@ -20091,6 +20091,2033 @@ window.AUTOHUB_ENGINE_DATA = {
     }
   },
   {
+    "id": "mercedes-om605-962",
+    "code": "OM605.962",
+    "aliases": [
+      "OM 605 D 25 LA / 605.962"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "1997-1999",
+    "displacement": "2.5 L · 2,497 cc",
+    "layout": "I5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "indirectInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM605.962 is the I5 · DOHC · 20 valves · 2 camshafts total 2.5 L · 2,497 cc engine documented for Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA (1997-1999).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM605.962: I5 · DOHC · 20 valves · 2 camshafts total, 2.5 L · 2,497 cc; aplicación documentada: Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA (1997-1999).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM605.962 : I5 · DOHC · 20 valves · 2 camshafts total, 2.5 L · 2,497 cc ; application documentée : Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA (1997-1999).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM605.962: I5 · DOHC · 20 valves · 2 camshafts total, 2.5 L · 2,497 cc; dokumentierte Anwendung: Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA (1997-1999).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280,
+        "rpm": {
+          "min": 1800,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-5321"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1999
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-5321",
+          "type": "manufacturer",
+          "title": "E 250 Turbodiesel",
+          "publisher": "Mercedes-Benz AG",
+          "year": 1997,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=5321",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 605 D 25 LA / 605.962 in Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA. Standard production ran from September 1997 to July 1999; the separate July 1997 pre-production start is excluded. The construction fields publish 2,497 cc, five in-line cylinders; two intake and two exhaust valves per cylinder, yielding 20 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish indirect injection and a turbocharger with intercooling. Rated performance is 110 kW at 5,000 rpm and 280 N·m at 1,800-3,600 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM605.962"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 Turbodiesel / W 210 D 25 LA"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1999
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om612-990",
+    "code": "OM612.990",
+    "aliases": [
+      "OM 612 DE 30 LA / 612.990"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2003-2004",
+    "displacement": "3.0 L · 2,950 cc",
+    "layout": "I5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM612.990 is the I5 · DOHC · 20 valves · 2 camshafts total 3.0 L · 2,950 cc engine documented for Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission (2003-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM612.990: I5 · DOHC · 20 valves · 2 camshafts total, 3.0 L · 2,950 cc; aplicación documentada: Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission (2003-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM612.990 : I5 · DOHC · 20 valves · 2 camshafts total, 3.0 L · 2,950 cc ; application documentée : Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission (2003-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM612.990: I5 · DOHC · 20 valves · 2 camshafts total, 3.0 L · 2,950 cc; dokumentierte Anwendung: Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission (2003-2004).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      },
+      "torqueNm": {
+        "min": 540,
+        "max": 540,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298649"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2004
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298649",
+          "type": "manufacturer",
+          "title": "C 30 CDI AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2003,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298649",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 612 DE 30 LA / 612.990 in Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission. Standard production ran from February 2003 to March 2004; the separate August 2002 pre-production start is excluded. The construction fields publish 2,950 cc, five in-line cylinders; two intake and two exhaust valves per cylinder, yielding 20 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish common-rail direct injection and a turbocharger with intercooling. Rated performance is 170 kW at 3,800 rpm and 540 N·m at 2,000 rpm.",
+            "The rated 540 N·m at 2,000 rpm is explicitly qualified for the automatic transmission, and the card lists the 5-speed automatic as standard; the application preserves that gearbox condition.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM612.990"
+            ],
+            "applications": [
+              "Mercedes-Benz C 30 CDI AMG / W 203 DE 30 LA with 5-speed automatic transmission"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2004
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-946",
+    "code": "M271.946",
+    "aliases": [
+      "M 271 E 18 ML LR / 271.946"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2004",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.946 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR (2002-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M271.946: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR (2002-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M271.946 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR (2002-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M271.946: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR (2002-2004).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 2500,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298650"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2004
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298650",
+          "type": "manufacturer",
+          "title": "C 180 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298650",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 271 E 18 ML LR / 271.946 in Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR. Standard production ran from May 2002 to March 2004; the separate January 2002 pre-production start is excluded. The construction fields publish 1,796 cc, four in-line cylinders; two intake and two exhaust valves per cylinder, yielding 16 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish manifold injection and a supercharger with intercooling. Rated performance is 105 kW at 5,200 rpm and 220 N·m at 2,500-4,200 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.946"
+            ],
+            "applications": [
+              "Mercedes-Benz C 180 Compressor / W 203 E 18 ML LR"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2004
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-940",
+    "code": "M271.940",
+    "aliases": [
+      "M 271 E 18 ML / 271.940"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2004",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 Compressor / W 203 E 18 ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.940 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 200 Compressor / W 203 E 18 ML (2002-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M271.940: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 200 Compressor / W 203 E 18 ML (2002-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M271.940 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 200 Compressor / W 203 E 18 ML (2002-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M271.940: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 200 Compressor / W 203 E 18 ML (2002-2004).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 3000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298651"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 Compressor / W 203 E 18 ML"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2004
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298651",
+          "type": "manufacturer",
+          "title": "C 200 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298651",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 271 E 18 ML / 271.940 in Mercedes-Benz C 200 Compressor / W 203 E 18 ML. Standard production ran from May 2002 to March 2004; the separate December 2001 pre-production start is excluded. The construction fields publish 1,796 cc, four in-line cylinders; two intake and two exhaust valves per cylinder, yielding 16 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish manifold injection and a supercharger with intercooling. Rated performance is 120 kW at 5,500 rpm and 240 N·m at 3,000-4,000 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.940"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 Compressor / W 203 E 18 ML"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2004
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-942",
+    "code": "M271.942",
+    "aliases": [
+      "M 271 DE 18 ML / 271.942"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2003-2004",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 CGI / W 203 E 18 DE ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.942 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 200 CGI / W 203 E 18 DE ML (2003-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M271.942: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 200 CGI / W 203 E 18 DE ML (2003-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M271.942 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 200 CGI / W 203 E 18 DE ML (2003-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M271.942: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 200 CGI / W 203 E 18 DE ML (2003-2004).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298652"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 CGI / W 203 E 18 DE ML"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2004
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298652",
+          "type": "manufacturer",
+          "title": "C 200 CGI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2003,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298652",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 271 DE 18 ML / 271.942 in Mercedes-Benz C 200 CGI / W 203 E 18 DE ML. Standard production ran from August 2003 to March 2004; the separate July 2002 pre-production start is excluded. The construction fields publish 1,796 cc, four in-line cylinders; two intake and two exhaust valves per cylinder, yielding 16 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish petrol direct injection and a supercharger with intercooling. Rated performance is 125 kW at 5,500 rpm and 250 N·m at 3,500 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.942"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 CGI / W 203 E 18 DE ML"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2004
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-948",
+    "code": "M271.948",
+    "aliases": [
+      "M 271 E 18 ML / 271.948"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2004",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.948 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1 (2002-2004).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M271.948: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1 (2002-2004).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M271.948 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1 (2002-2004).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M271.948: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1 (2002-2004).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 141,
+        "max": 141,
+        "rpm": {
+          "min": 5800,
+          "max": 5800
+        }
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260,
+        "rpm": {
+          "min": 3500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298653"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2004
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298653",
+          "type": "manufacturer",
+          "title": "C 230 Compressor",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298653",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 271 E 18 ML / 271.948 in Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1. Standard production ran from November 2002 to March 2004; the separate August 2002 pre-production start is excluded. The construction fields publish 1,796 cc, four in-line cylinders; two intake and two exhaust valves per cylinder, yielding 16 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish manifold injection and a supercharger with intercooling. Rated performance is 141 kW at 5,800 rpm and 260 N·m at 3,500-4,000 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.948"
+            ],
+            "applications": [
+              "Mercedes-Benz C 230 Compressor / W 203 E 18 ML/1"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2004
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om646-962",
+    "code": "OM646.962",
+    "aliases": [
+      "OM 646 DE 22 LA LR / 646.962"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2004-2007",
+    "displacement": "2.1 L · 2,148 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM646.962 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,148 cc engine documented for Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2004-2007).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM646.962: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,148 cc; aplicación documentada: Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2004-2007).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM646.962 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,148 cc ; application documentée : Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2004-2007).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM646.962: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,148 cc; dokumentierte Anwendung: Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR (2004-2007).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1600,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298656"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2007
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298656",
+          "type": "manufacturer",
+          "title": "C 200 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2004,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298656",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 646 DE 22 LA LR / 646.962 in Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR. Standard production ran from April 2004 to March 2007. The construction fields publish 2,148 cc, four in-line cylinders; two intake and two exhaust valves per cylinder, yielding 16 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish common-rail direct injection and a turbocharger with intercooling. Rated performance is 90 kW at 4,200 rpm and 270 N·m at 1,600-2,800 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM646.962"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 CDI / W 203 DE 22 LA LR"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2007
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om646-963",
+    "code": "OM646.963",
+    "aliases": [
+      "OM 646 DE 22 LA / 646.963"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2004-2007",
+    "displacement": "2.1 L · 2,148 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 220 CDI / W 203 DE 22 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM646.963 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,148 cc engine documented for Mercedes-Benz C 220 CDI / W 203 DE 22 LA (2004-2007).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM646.963: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,148 cc; aplicación documentada: Mercedes-Benz C 220 CDI / W 203 DE 22 LA (2004-2007).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM646.963 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,148 cc ; application documentée : Mercedes-Benz C 220 CDI / W 203 DE 22 LA (2004-2007).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM646.963: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,148 cc; dokumentierte Anwendung: Mercedes-Benz C 220 CDI / W 203 DE 22 LA (2004-2007).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-298657"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 220 CDI / W 203 DE 22 LA"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2007
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-298657",
+          "type": "manufacturer",
+          "title": "C 220 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2004,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=298657",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 646 DE 22 LA / 646.963 in Mercedes-Benz C 220 CDI / W 203 DE 22 LA. Standard production ran from April 2004 to March 2007. The construction fields publish 2,148 cc, four in-line cylinders; two intake and two exhaust valves per cylinder, yielding 16 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish common-rail direct injection and a turbocharger with intercooling. Rated performance is 110 kW at 4,200 rpm and 340 N·m at 2,000 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM646.963"
+            ],
+            "applications": [
+              "Mercedes-Benz C 220 CDI / W 203 DE 22 LA"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2007
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om648-960",
+    "code": "OM648.960",
+    "aliases": [
+      "OM 648 DE 32 LA / 648.960"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2005",
+    "displacement": "3.2 L · 3,222 cc",
+    "layout": "I6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 320 CDI / W 220 DE 32 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM648.960 is the I6 · DOHC · 24 valves · 2 camshafts total 3.2 L · 3,222 cc engine documented for Mercedes-Benz S 320 CDI / W 220 DE 32 LA (2002-2005).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM648.960: I6 · DOHC · 24 valves · 2 camshafts total, 3.2 L · 3,222 cc; aplicación documentada: Mercedes-Benz S 320 CDI / W 220 DE 32 LA (2002-2005).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM648.960 : I6 · DOHC · 24 valves · 2 camshafts total, 3.2 L · 3,222 cc ; application documentée : Mercedes-Benz S 320 CDI / W 220 DE 32 LA (2002-2005).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM648.960: I6 · DOHC · 24 valves · 2 camshafts total, 3.2 L · 3,222 cc; dokumentierte Anwendung: Mercedes-Benz S 320 CDI / W 220 DE 32 LA (2002-2005).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1800,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-2461742"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 320 CDI / W 220 DE 32 LA"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2005
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-2461742",
+          "type": "manufacturer",
+          "title": "S 320 CDI",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=2461742",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 648 DE 32 LA / 648.960 in Mercedes-Benz S 320 CDI / W 220 DE 32 LA. Standard production ran from September 2002 to August 2005; the separate January 2002 pre-production start is excluded. The construction fields publish 3,222 cc, six in-line cylinders; two intake and two exhaust valves per cylinder, yielding 24 valves total; and two overhead camshafts total (DOHC). The combustion and fuel-system fields explicitly publish common-rail direct injection and a turbocharger with intercooling. Rated performance is 150 kW at 4,200 rpm and 500 N·m at 1,800-2,600 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM648.960"
+            ],
+            "applications": [
+              "Mercedes-Benz S 320 CDI / W 220 DE 32 LA"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2005
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m275-950",
+    "code": "M275.950",
+    "aliases": [
+      "M 275 E 55 LA / 275.950"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2005",
+    "displacement": "5.5 L · 5,513 cc",
+    "layout": "V12 · SOHC per bank · 36 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M275.950 is the V12 · SOHC per bank · 36 valves · 2 camshafts total 5.5 L · 5,513 cc engine documented for Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA (2002-2005).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M275.950: V12 · SOHC per bank · 36 valves · 2 camshafts total, 5.5 L · 5,513 cc; aplicación documentada: Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA (2002-2005).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M275.950 : V12 · SOHC per bank · 36 valves · 2 camshafts total, 5.5 L · 5,513 cc ; application documentée : Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA (2002-2005).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M275.950: V12 · SOHC per bank · 36 valves · 2 camshafts total, 5.5 L · 5,513 cc; dokumentierte Anwendung: Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA (2002-2005).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 368,
+        "max": 368,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800,
+        "rpm": {
+          "min": 1800,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-2461760"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2005
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-2461760",
+          "type": "manufacturer",
+          "title": "S 600 long wheelbase",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=2461760",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 275 E 55 LA / 275.950 in Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA. Standard production ran from August 2002 to December 2005; the separate January 2002 pre-production start is excluded. The construction fields publish 5,513 cc, a 60-degree V12; two intake and one exhaust valve per cylinder, yielding 36 valves total; and one overhead camshaft per bank, yielding two camshafts total (SOHC per bank). The combustion and fuel-system fields explicitly publish intake-manifold injection and two turbochargers with intercooling. Rated performance is 368 kW at 5,000 rpm and 800 N·m at 1,800-3,500 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M275.950"
+            ],
+            "applications": [
+              "Mercedes-Benz S 600 long wheelbase / V 220 E 55 LA"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2005
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m113-991",
+    "code": "M113.991",
+    "aliases": [
+      "M 113 E 55 ML AMG / 113.991"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2002-2005",
+    "displacement": "5.4 L · 5,439 cc",
+    "layout": "V8 · SOHC per bank · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 55 AMG / W 220 E 55 ML"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M113.991 is the V8 · SOHC per bank · 24 valves · 2 camshafts total 5.4 L · 5,439 cc engine documented for Mercedes-Benz S 55 AMG / W 220 E 55 ML (2002-2005).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M113.991: V8 · SOHC per bank · 24 valves · 2 camshafts total, 5.4 L · 5,439 cc; aplicación documentada: Mercedes-Benz S 55 AMG / W 220 E 55 ML (2002-2005).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M113.991 : V8 · SOHC per bank · 24 valves · 2 camshafts total, 5.4 L · 5,439 cc ; application documentée : Mercedes-Benz S 55 AMG / W 220 E 55 ML (2002-2005).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M113.991: V8 · SOHC per bank · 24 valves · 2 camshafts total, 5.4 L · 5,439 cc; dokumentierte Anwendung: Mercedes-Benz S 55 AMG / W 220 E 55 ML (2002-2005).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 6100,
+          "max": 6100
+        }
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700,
+        "rpm": {
+          "min": 2750,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-2461761"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 55 AMG / W 220 E 55 ML"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2005
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-2461761",
+          "type": "manufacturer",
+          "title": "S 55 AMG",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2002,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=2461761",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 113 E 55 ML AMG / 113.991 in Mercedes-Benz S 55 AMG / W 220 E 55 ML. Standard production ran from September 2002 to July 2005; the separate April 2002 pre-production start is excluded. The construction fields publish 5,439 cc, a 90-degree V8; two intake and one exhaust valve per cylinder, yielding 24 valves total; and one overhead camshaft per bank, yielding two camshafts total (SOHC per bank). The combustion and fuel-system fields explicitly publish manifold injection and a supercharger with intercooling. Rated performance is 350 kW at 6,100 rpm and 700 N·m at 2,750-4,000 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M113.991"
+            ],
+            "applications": [
+              "Mercedes-Benz S 55 AMG / W 220 E 55 ML"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2005
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m275-980",
+    "code": "M275.980",
+    "aliases": [
+      "M 275 E 60 LA AMG / 275.980"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2004-2005",
+    "displacement": "6.0 L · 5,980 cc",
+    "layout": "V12 · SOHC per bank · 36 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M275.980 is the V12 · SOHC per bank · 36 valves · 2 camshafts total 6.0 L · 5,980 cc engine documented for Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA (2004-2005).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M275.980: V12 · SOHC per bank · 36 valves · 2 camshafts total, 6.0 L · 5,980 cc; aplicación documentada: Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA (2004-2005).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M275.980 : V12 · SOHC per bank · 36 valves · 2 camshafts total, 6.0 L · 5,980 cc ; application documentée : Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA (2004-2005).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M275.980: V12 · SOHC per bank · 36 valves · 2 camshafts total, 6.0 L · 5,980 cc; dokumentierte Anwendung: Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA (2004-2005).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 4800,
+          "max": 5100
+        }
+      },
+      "torqueNm": {
+        "min": 1000,
+        "max": 1000,
+        "rpm": {
+          "min": 2000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-2461763"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2005
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-2461763",
+          "type": "manufacturer",
+          "title": "S 65 AMG long wheelbase",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2004,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=2461763",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 275 E 60 LA AMG / 275.980 in Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA. Standard production ran from March 2004 to July 2005; the separate June 2003 pre-production start is excluded. The construction fields publish 5,980 cc, a 60-degree V12; two intake and one exhaust valve per cylinder, yielding 36 valves total; and one overhead camshaft per bank, yielding two camshafts total (SOHC per bank). The combustion and fuel-system fields explicitly publish intake-manifold injection and two turbochargers with intercooling. Rated performance is 450 kW at 4,800-5,100 rpm and 1,000 N·m at 2,000-4,000 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M275.980"
+            ],
+            "applications": [
+              "Mercedes-Benz S 65 AMG long wheelbase / V 220 E 60 LA"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2005
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om642-931",
+    "code": "OM642.931",
+    "aliases": [
+      "OM 642 DE 30 LA / 642.931"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2006-2007",
+    "displacement": "3.0 L · 2,987 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM642.931 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.0 L · 2,987 cc engine documented for Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification) (2006-2007).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM642.931: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; aplicación documentada: Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification) (2006-2007).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM642.931 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc ; application documentée : Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification) (2006-2007).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM642.931: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; dokumentierte Anwendung: Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification) (2006-2007).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 173,
+        "max": 173,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 540,
+        "max": 540,
+        "rpm": {
+          "min": 1600,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-191730140"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2007
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-191730140",
+          "type": "manufacturer",
+          "title": "S 320 CDI, 2005 - 2009 (from 12.2008: S 320 CDI BlueEFFICIENCY)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2005,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=191730140",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 642 DE 30 LA / 642.931 in Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification). Standard production ran from December 2005 to May 2009; the separate August 2004 pre-production start is excluded. The construction fields publish 2,987 cc, a 72-degree V6; four valves per cylinder, yielding 24 valves total; and two overhead camshafts per bank, yielding four camshafts total (DOHC per bank). The combustion and fuel-system fields explicitly publish common-rail cylinder-direct injection and a turbocharger with intercooling. Rated performance is 173 kW at 3,600 rpm and 540 N·m at 1,600-2,800 rpm.",
+            "From December 2008 the same 540 N·m is listed at 1,600-2,400 rpm. Because the model cannot attach rpm bands to time variants, this record is narrowed to 2006-2007 and stores only the earlier 1,600-2,800 rpm band.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM642.931"
+            ],
+            "applications": [
+              "Mercedes-Benz S 320 CDI / W 221 D 30 (pre-December 2008 torque-rpm specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2009
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om629-911",
+    "code": "OM629.911",
+    "aliases": [
+      "OM 629 DE 40 LA / 629.911"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2006-2009",
+    "displacement": "4.0 L · 3,996 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 420 CDI / W 221 DE 40 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM629.911 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.0 L · 3,996 cc engine documented for Mercedes-Benz S 420 CDI / W 221 DE 40 LA (2006-2009).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "OM629.911: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.0 L · 3,996 cc; aplicación documentada: Mercedes-Benz S 420 CDI / W 221 DE 40 LA (2006-2009).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "OM629.911 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.0 L · 3,996 cc ; application documentée : Mercedes-Benz S 420 CDI / W 221 DE 40 LA (2006-2009).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "OM629.911: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.0 L · 3,996 cc; dokumentierte Anwendung: Mercedes-Benz S 420 CDI / W 221 DE 40 LA (2006-2009).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 235,
+        "max": 235,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 730,
+        "max": 730,
+        "rpm": {
+          "min": 2200,
+          "max": 2200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-191730146"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 420 CDI / W 221 DE 40 LA"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2009
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-191730146",
+          "type": "manufacturer",
+          "title": "S 420 CDI, 2006 - 2009",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2006,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=191730146",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify OM 629 DE 40 LA / 629.911 in Mercedes-Benz S 420 CDI / W 221 DE 40 LA. Standard production ran from October 2006 to May 2009; the separate November 2004 pre-production start is excluded. The construction fields publish 3,996 cc, a 90-degree V8; four valves per cylinder, yielding 32 valves total; and two overhead camshafts per bank, yielding four camshafts total (DOHC per bank). The combustion and fuel-system fields explicitly publish common-rail cylinder-direct injection and turbocharging with intercooling. Rated performance is 235 kW at 3,600 rpm and 730 N·m at 2,200 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM629.911"
+            ],
+            "applications": [
+              "Mercedes-Benz S 420 CDI / W 221 DE 40 LA"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2009
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m275-953",
+    "code": "M275.953",
+    "aliases": [
+      "M 275 E 55 LA / 275.953"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2005-2009",
+    "displacement": "5.5 L · 5,513 cc",
+    "layout": "V12 · SOHC per bank · 36 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M275.953 is the V12 · SOHC per bank · 36 valves · 2 camshafts total 5.5 L · 5,513 cc engine documented for Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA (2005-2009).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "No unverified strengths are claimed; the manufacturer evidence covers the exact application and complete required specification.",
+        "cons": "The figures apply only to the cited application and must not be generalized to other variants."
+      },
+      "es": {
+        "construction": "M275.953: V12 · SOHC per bank · 36 valves · 2 camshafts total, 5.5 L · 5,513 cc; aplicación documentada: Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA (2005-2009).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; deben revisarse el vehículo exacto y su historial de mantenimiento.",
+        "pros": "No se atribuyen ventajas sin verificar; la evidencia del fabricante cubre la aplicación exacta y toda la especificación requerida.",
+        "cons": "Las cifras solo se aplican a la aplicación citada y no deben generalizarse a otras variantes."
+      },
+      "fr": {
+        "construction": "M275.953 : V12 · SOHC per bank · 36 valves · 2 camshafts total, 5.5 L · 5,513 cc ; application documentée : Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA (2005-2009).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; le véhicule précis et son historique d'entretien doivent être contrôlés.",
+        "pros": "Aucun avantage non vérifié n'est affirmé ; la preuve constructeur couvre l'application exacte et toute la spécification requise.",
+        "cons": "Les chiffres s'appliquent uniquement à l'application citée et ne doivent pas être généralisés aux autres variantes."
+      },
+      "de": {
+        "construction": "M275.953: V12 · SOHC per bank · 36 valves · 2 camshafts total, 5.5 L · 5,513 cc; dokumentierte Anwendung: Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA (2005-2009).",
+        "issues": "Häufige Schäden und Lebensdauer wurden in diesem Paket nicht untersucht; das konkrete Fahrzeug und seine Wartungshistorie sind zu prüfen.",
+        "pros": "Es werden keine ungeprüften Stärken behauptet; der Herstellernachweis deckt die genaue Anwendung und alle erforderlichen Spezifikationen ab.",
+        "cons": "Die Werte gelten nur für die genannte Anwendung und dürfen nicht auf andere Varianten übertragen werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 380,
+        "max": 380,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 830,
+        "max": 830,
+        "rpm": {
+          "min": 1800,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-archive-191730165"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2009
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-archive-191730165",
+          "type": "manufacturer",
+          "title": "S 600 long wheelbase, 2005 - 2009",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2005,
+          "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/x.xhtml?oid=191730165",
+          "page": 1,
+          "checkedAt": "2026-09-30",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The Engine and production-period sections identify M 275 E 55 LA / 275.953 in Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA. Standard production ran from November 2005 to May 2009; the separate August 2004 pre-production start is excluded. The construction fields publish 5,513 cc, a 60-degree V12; three valves per cylinder, yielding 36 valves total; and one overhead camshaft per bank, yielding two camshafts total (SOHC per bank). The combustion and fuel-system fields explicitly publish intake-duct injection and biturbo charging with two intercoolers. Rated performance is 380 kW at 5,000 rpm and 830 N·m at 1,800-3,500 rpm.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M275.953"
+            ],
+            "applications": [
+              "Mercedes-Benz S 600 long wheelbase / V 221 E 55 LA"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2009
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "toyota-1zz-fe",
     "code": "1ZZ-FE",
     "aliases": [
