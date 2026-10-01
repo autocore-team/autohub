@@ -33,9 +33,9 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 510, `Engine count changed: expected 510, found ${records.length}`);
+check(records.length === 525, `Engine count changed: expected 525, found ${records.length}`);
 check(
-  semanticHash === '42c983d3fb6841f2d1b5ba3c2c15a99e804d6787e0c372ff2501f02f5de9cd3c',
+  semanticHash === '570a5ace56bb5baedf17585ff318f2e613a075c89ab2de78798cbb1224b375e2',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -121,10 +121,91 @@ for (const record of batch07aRecords) {
 }
 pass('Batch 07a IDs, strict evidence, exact-code search and code/alias collision checks pass');
 
+const batch07bBaselineRegionCounts = {
+  europe: 206,
+  japan: 167,
+  korea: 49,
+  'north-america': 88,
+  'south-america': 0
+};
+const batch07bBaselineRecords = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, batch07bBaselineRegionCounts[sourceFile.region])
+));
+const batch07bBaselineHash = crypto.createHash('sha256').update(canonicalFingerprint(batch07bBaselineRecords)).digest('hex');
+check(batch07bBaselineRecords.length === 510, `Batch 07b baseline changed: expected 510 records, found ${batch07bBaselineRecords.length}`);
+check(
+  batch07bBaselineHash === '42c983d3fb6841f2d1b5ba3c2c15a99e804d6787e0c372ff2501f02f5de9cd3c',
+  `Batch 07b changed an original record or its regional order: ${batch07bBaselineHash}`
+);
+pass(`Batch 07b preserves all original 510 records (${batch07bBaselineHash})`);
+
+const batch07bIds = [
+  'mercedes-om605-962',
+  'mercedes-om612-990',
+  'mercedes-m271-946',
+  'mercedes-m271-940',
+  'mercedes-m271-942',
+  'mercedes-m271-948',
+  'mercedes-om646-962',
+  'mercedes-om646-963',
+  'mercedes-om648-960',
+  'mercedes-m275-950',
+  'mercedes-m113-991',
+  'mercedes-m275-980',
+  'mercedes-om642-931',
+  'mercedes-om629-911',
+  'mercedes-m275-953'
+];
+const batch07bExpectedLayouts = new Map([
+  ['mercedes-om605-962', 'I5 · DOHC · 20 valves · 2 camshafts total'],
+  ['mercedes-om612-990', 'I5 · DOHC · 20 valves · 2 camshafts total'],
+  ['mercedes-m271-946', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m271-940', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m271-942', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m271-948', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om646-962', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om646-963', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om648-960', 'I6 · DOHC · 24 valves · 2 camshafts total'],
+  ['mercedes-m275-950', 'V12 · SOHC per bank · 36 valves · 2 camshafts total'],
+  ['mercedes-m113-991', 'V8 · SOHC per bank · 24 valves · 2 camshafts total'],
+  ['mercedes-m275-980', 'V12 · SOHC per bank · 36 valves · 2 camshafts total'],
+  ['mercedes-om642-931', 'V6 · DOHC per bank · 24 valves · 4 camshafts total'],
+  ['mercedes-om629-911', 'V8 · DOHC per bank · 32 valves · 4 camshafts total'],
+  ['mercedes-m275-953', 'V12 · SOHC per bank · 36 valves · 2 camshafts total']
+]);
+const batch07bRecords = batch07bIds.map((id) => records.find((record) => record.id === id));
+check(batch07bRecords.every(Boolean), 'Batch 07b is missing one or more expected IDs');
+check(new Set(batch07bIds).size === batch07bIds.length, 'Batch 07b expected IDs are not unique');
+for (const record of batch07bRecords) {
+  check(record.verification?.status === 'verified', `${record.id} is not verified`);
+  check(record.verification?.sourceRefs?.length === 1, `${record.id} does not use one strict official sourceRef`);
+  check(verificationPolicyErrors(record).length === 0, `${record.id} fails strict verification policy`);
+  check(record.verification.sources[0].scope.level === 'exactVariant', `${record.id} is not direct exactVariant evidence`);
+  check(record.verification.scope.markets.length === 1 && record.verification.scope.markets[0] === 'Unspecified', `${record.id} must retain an explicitly unspecified record market`);
+  check(record.verification.sources[0].scope.markets.length === 1 && record.verification.sources[0].scope.markets[0] === 'Unspecified', `${record.id} must retain an explicitly unspecified source market`);
+  check(record.verification.sources[0].pageNotes.some((note) => note.includes('does not specify a sales market') && note.includes('does not claim worldwide')), `${record.id} evidence must explain the unknown market scope`);
+  check(record.layout === batch07bExpectedLayouts.get(record.id), `${record.id} cylinder/valve/camshaft layout changed`);
+  check(record.verification.sources[0].pageNotes.some((note) => note.includes('valves total') && note.includes('camshafts total')), `${record.id} evidence does not expose the valve/camshaft derivation`);
+  check(core.searchRecords(records, record.code)[0]?.id === record.id, `${record.code} is not the top exact-code search result`);
+  for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
+    check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
+  }
+}
+const om605 = records.find((record) => record.id === 'mercedes-om605-962');
+check(om605.injectionKey === 'indirectInjection', 'OM605.962 must retain indirect injection');
+const om612Amg = records.find((record) => record.id === 'mercedes-om612-990');
+check(om612Amg.applications[0].includes('5-speed automatic transmission'), 'OM612.990 application lost its gearbox condition');
+check(om612Amg.performance.torqueNm.min === 540 && om612Amg.performance.torqueNm.rpm.min === 2000, 'OM612.990 gearbox-qualified torque changed');
+const om642 = records.find((record) => record.id === 'mercedes-om642-931');
+check(om642.years === '2006-2007', 'OM642.931 must remain before the December 2008 torque-rpm change');
+check(om642.performance.torqueNm.rpm.min === 1600 && om642.performance.torqueNm.rpm.max === 2800, 'OM642.931 stores the wrong time-qualified torque rpm band');
+check(om642.verification.sources[0].pageNotes.some((note) => note.includes('From December 2008')), 'OM642.931 evidence must preserve the excluded December 2008 condition');
+pass('Batch 07b strict evidence, collision, construction and conditional performance checks pass');
+
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 206, manufacturerCount: 11 },
+    { region: 'europe', engineCount: 221, manufacturerCount: 11 },
     { region: 'japan', engineCount: 167, manufacturerCount: 15 },
     { region: 'korea', engineCount: 49, manufacturerCount: 2 },
     { region: 'north-america', engineCount: 88, manufacturerCount: 13 }
@@ -132,7 +213,7 @@ check(
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 510, 'Regional engineCount sum does not equal 510');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 525, 'Regional engineCount sum does not equal 525');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
