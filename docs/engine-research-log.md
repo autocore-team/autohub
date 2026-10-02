@@ -2,6 +2,41 @@
 
 Purpose: keep brief evidence trails for engine verification batches and avoid repeating the same weak source searches. Long page text is intentionally omitted.
 
+## 2026-10-02 - Engine Verified Batch 07d
+
+Added 20 direct exact-code records: 12 Japan-region records (Toyota/Lexus, Mazda and Mitsubishi) plus eight Mercedes-Benz reserve records. Direct/bridge breakdown: 20 direct `exactVariant` official sources, 0 identity bridges. Baseline: 545 records, 456 verified, 89 legacyPending; Europe 241, Japan 167, Korea 49, North America 88, South America 0; semantic hash `b4bc48a819e02a4c679db5e93475c6e09dd485583d3821908a302a16092aff46`. Result: 565 records, 476 verified, 89 legacyPending; Europe 249, Japan 179, Korea 49, North America 88, South America 0; semantic hash `5424d6844589448b0dc7f771f7613c5b80a172f0018b03ac1048cc78ababbf62`.
+
+| Code / ID | Exact application and scope | Displacement / construction | Power / torque |
+| --- | --- | --- | --- |
+| FA20 / `toyota-fa20-gt86-2017` | Toyota GT86, UK 2017 | 1,998 cc boxer-4, DOHC/bank, 16 valves, 4 cams total, NA petrol D-4S | 147 kW @ 7,000; 205 Nm @ 6,400-6,600 |
+| 1ND-TV / `toyota-1nd-tv-auris-2015` | Auris 1.4 D-4D, UK 2015 | 1,364 cc I4, SOHC, 8 valves, 1 cam total, turbo common-rail diesel | 66 kW @ 3,800; 205 Nm @ 1,800-2,800 |
+| 1WW / `toyota-1ww-auris-2015` | Auris 1.6 D-4D, UK 2015 | 1,598 cc I4, DOHC, 16 valves, 2 cams total, turbo common-rail diesel | 82 kW @ 4,000; 270 Nm @ 1,750-2,250 |
+| 1AD-FTV / `toyota-1ad-ftv-auris-2007` | Auris 2.0 D-4D, UK 2007 launch | 1,998 cc I4, DOHC, 16 valves, 2 cams total, VNT common-rail diesel | 93 kW @ 3,600; 300 Nm @ 2,000-2,800 |
+| 2AD-FHV / `toyota-2ad-fhv-auris-2007` | Auris 2.2 D-CAT, UK 2007 launch | 2,231 cc I4, DOHC, 16 valves, 2 cams total, turbo common-rail diesel | 130 kW @ 3,600; 400 Nm @ 2,000-2,600 |
+| 8AR-FTS / `lexus-8ar-fts-is200t-2015` | Lexus IS 200t, UK 2015 | 1,998 cc I4, DOHC, 16 valves, 2 cams total, turbo petrol D-4ST | 180 kW @ 5,800; 350 Nm @ 1,650-4,400 |
+| L3-VDT / `mazda-l3-vdt-atenza-2005` | Mazdaspeed Atenza, Japan 2005 | 2,260 cc I4, DOHC, 16 valves, 2 cams total, turbo DISI petrol | 200 kW @ 5,500; 380 Nm @ 3,000 |
+| 4M41 / `mitsubishi-4m41-pajero-1999` | Pajero short KH-V68W, Japan Sept. 1999 | 3,200 cc I4, DOHC, 16 valves, 2 cams total, turbo DI diesel | 129 kW @ 3,800; 382 Nm @ 2,000 |
+| 4B40 / `mitsubishi-4b40-destinator-2025` | Destinator, Indonesia 2025 launch | 1,499 cc I4, DOHC, 16 valves, 2 cams total, turbo DI+MPI petrol | 120 kW @ 5,000; 250 Nm @ 2,500-4,500 |
+| 4N16 / `mitsubishi-4n16-triton-2023` | Triton high-output spec, Thailand 2023 launch | 2,442 cc I4, DOHC, 16 valves, 2 cams total, turbo common-rail diesel | 150 kW @ 3,500; 470 Nm @ 1,500-2,750 |
+| SH-VPTR / `mazda-sh-vptr-atenza-2016` | Atenza Sedan XD LDA-GJ2FP, FF 6EC-AT, Japan 2016 | 2,188 cc I4, DOHC, 16 valves, 2 cams total, two-stage turbo common-rail diesel | 129 kW @ 4,500; 420 Nm @ 2,000 |
+| 2UR-GSE / `lexus-2ur-gse-rcf-2022` | Lexus RC F, UK 2022 model year | 4,969 cc V8, DOHC/bank, 32 valves, 4 cams total, naturally aspirated D-4S petrol | 341 kW @ 7,100; 520 Nm @ 4,800 |
+| OM642.830 / `mercedes-om642-830` | C 350 CDI BlueEFFICIENCY 204.025, 2010 | 2,987 cc V6, DOHC/bank, 24 valves, 4 cams total, turbo common-rail diesel | 170 kW @ 3,800; 540 Nm @ 1,600-2,400 |
+| OM642.832 / `mercedes-om642-832` | C 350 CDI 4MATIC BlueEFFICIENCY 204.092, 2010, 7G-TRONIC | same V6 construction | 170 kW @ 3,800; 540 Nm @ 1,600-2,400 |
+| OM642.960 / `mercedes-om642-960` | C 320 CDI 204.022, 2007-2008 (before rename) | same V6 construction | 165 kW @ 3,800; 510 Nm @ 1,600-2,800 |
+| OM642.961 / `mercedes-om642-961` | C 320 CDI 4MATIC 204.089, 2008, 7G-TRONIC | same V6 construction | 165 kW @ 3,800; 510 Nm @ 1,600-2,800 |
+| OM651.912 / `mercedes-om651-912` | C 250 CDI 4MATIC BlueEFFICIENCY 204.082, 2010, 7G-TRONIC | 2,143 cc I4, DOHC, 16 valves, 2 cams total, two-stage turbo common-rail diesel | 150 kW @ 4,200; 500 Nm @ 1,600-1,800 |
+| OM651.961 / `mercedes-om651-961` | S 250 CDI BlueEFFICIENCY 221.003, Feb. 2011-Mar. 2013 | same I4 construction | 150 kW @ 4,200; 500 Nm @ 1,600-1,800 |
+| OM651.924 / `mercedes-om651-924` | E 300 BlueTEC HYBRID Estate 212.298, Jul. 2012-Mar. 2013; combustion engine only | same I4 construction | 150 kW @ 4,200; 500 Nm @ 1,600-1,800 |
+| M271.952 / `mercedes-m271-952` | C 180 KOMPRESSOR 204.046, Jul. 2007-Jan. 2009 | 1,796 cc I4, DOHC, 16 valves, 2 cams total, supercharged port-injected petrol | 115 kW @ 5,200; 230 Nm @ 2,500-4,200 |
+
+Official evidence: Toyota/Lexus UK launch releases and technical PDFs, Mazda Japan launch/specification tables, Mitsubishi official launch documents/environment report, and Mercedes-Benz Public Archive exact vehicle cards. Market scope is explicit for the 12 Japan-region additions. Mercedes archive cards do not state a sales market, so those eight records use `Unspecified`; every evidence note says this represents only the archived specification and does not claim worldwide applicability. Inline, boxer and V-engine evidence notes explicitly derive total valves and total camshafts; the OM642 total is four (two per bank).
+
+`2UR-GSE` is an intentional repeated code, not an alias collision: the existing record covers Japan 2007/2019 and North America 2016 calibrations, while the new exact record is the separately documented UK 2022 model-year RC F calibration (341 kW/520 Nm, 4,969 cc). Exact-code search returns both records, and the regression permits only these two named owners; the new application alias remains unique.
+
+Holds: Mitsubishi Lancer Evolution VII `4G63` (the official 2001 report extraction labels the table cell `4G93`, so no silent correction); Mazda `SH-VPTS` (an existing record already owns the exact code/application, so a redundant duplicate was rejected); Mercedes `M272.982` and Mazda `PE-VPS` (exact cards do not explicitly state naturally aspirated induction); Honda `E07Z` / `S07B` turbo (official tables still do not establish a compatible injection topology).
+
+Regression coverage reconstructs and hashes the original 545 records in regional order; checks all 20 new IDs, 12/8 diversity, strict sourceRefs, exact-code search, collisions, total valves/camshafts, 4N16 high-output scope, OM651.924 combustion-engine-only performance, region totals and the full semantic hash.
+
 ## 2026-10-01 - Engine Verified Batch 07c
 
 Added 20 exact Mercedes-Benz production records from the 525-record baseline. All 20 use strict `sourceRefs` and one direct `exactVariant` manufacturer card; direct/bridge breakdown: 20 direct, 0 identity bridges. Each card binds the exact engine code to the named design/type and covers displacement, cylinder arrangement, valves, camshafts, fuel, aspiration, injection, power and torque with their engine speeds. No values from neighbouring codes, gearboxes, markets or calibrations were combined.

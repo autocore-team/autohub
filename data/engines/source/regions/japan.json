@@ -15799,6 +15799,1614 @@
           }
         ]
       }
+    },
+    {
+      "id": "toyota-fa20-gt86-2017",
+      "code": "FA20",
+      "aliases": [
+        "FA20 (Toyota GT86)"
+      ],
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "years": "2017",
+      "displacement": "2.0 L · 1,998 cc",
+      "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "dualInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Toyota GT86 (United Kingdom, 2017 model year)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Toyota GT86 (United Kingdom, 2017 model year).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Toyota GT86 (United Kingdom, 2017 model year).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Toyota GT86 (United Kingdom, 2017 model year).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Toyota GT86 (United Kingdom, 2017 model year).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147,
+          "rpm": {
+            "min": 7000,
+            "max": 7000
+          }
+        },
+        "torqueNm": {
+          "min": 205,
+          "max": 205,
+          "rpm": {
+            "min": 6400,
+            "max": 6600
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "toyota-gt86-2017-media-launch"
+        ],
+        "scope": {
+          "applications": [
+            "Toyota GT86 (United Kingdom, 2017 model year)"
+          ],
+          "years": {
+            "from": 2017,
+            "to": 2017
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "toyota-gt86-2017-media-launch",
+            "type": "manufacturer",
+            "title": "2017 Toyota GT86 European media launch",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2017,
+            "url": "https://media.toyota.co.uk/2017-toyota-gt86-european-media-launch/",
+            "page": 1,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official UK launch specification identifies the FA20 in the 2017 Toyota GT86: 1,998 cc horizontally opposed four-cylinder, naturally aspirated petrol, D-4S direct plus port injection, DOHC with four valves per cylinder, 147 kW at 7,000 rpm and 205 N·m at 6,400-6,600 rpm. Two cylinder banks/heads with DOHC yield four camshafts total; four cylinders with four valves each yield 16 valves total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "FA20"
+              ],
+              "applications": [
+                "Toyota GT86 (United Kingdom, 2017 model year)"
+              ],
+              "years": {
+                "from": 2017,
+                "to": 2017
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "toyota-1nd-tv-auris-2015",
+      "code": "1ND-TV",
+      "aliases": [
+        "1ND-TV (Auris 1.4 D-4D)"
+      ],
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "years": "2015",
+      "displacement": "1.4 L · 1,364 cc",
+      "layout": "I4 · SOHC · 8 valves · 1 camshaft total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "commonRail",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Toyota Auris 1.4 D-4D (United Kingdom, 2015)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "1ND-TV is the I4 · SOHC · 8 valves · 1 camshaft total 1.4 L · 1,364 cc engine documented for Toyota Auris 1.4 D-4D (United Kingdom, 2015).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "1ND-TV: I4 · SOHC · 8 valves · 1 camshaft total, 1.4 L · 1,364 cc; aplicación documentada: Toyota Auris 1.4 D-4D (United Kingdom, 2015).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "1ND-TV : I4 · SOHC · 8 valves · 1 camshaft total, 1.4 L · 1,364 cc ; application documentée : Toyota Auris 1.4 D-4D (United Kingdom, 2015).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "1ND-TV: I4 · SOHC · 8 valves · 1 camshaft total, 1.4 L · 1,364 cc; dokumentierte Anwendung: Toyota Auris 1.4 D-4D (United Kingdom, 2015).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 66,
+          "max": 66,
+          "rpm": {
+            "min": 3800,
+            "max": 3800
+          }
+        },
+        "torqueNm": {
+          "min": 205,
+          "max": 205,
+          "rpm": {
+            "min": 1800,
+            "max": 2800
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "toyota-auris-2015-uk-pack"
+        ],
+        "scope": {
+          "applications": [
+            "Toyota Auris 1.4 D-4D (United Kingdom, 2015)"
+          ],
+          "years": {
+            "from": 2015,
+            "to": 2015
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "toyota-auris-2015-uk-pack",
+            "type": "manufacturer",
+            "title": "Toyota Auris Gen2 MC UK launch pack",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2015,
+            "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Auris-Gen2-MC-UK-launch-pack.pdf",
+            "page": 20,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official UK Auris table identifies 1ND-TV for the 2015 1.4 D-4D: 1,364 cc inline-four, SOHC eight-valve, turbocharged/intercooled common-rail diesel, 66 kW at 3,800 rpm and 205 N·m at 1,800-2,800 rpm. SOHC on the single inline cylinder head yields one camshaft total; the table publishes eight valves total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "1ND-TV"
+              ],
+              "applications": [
+                "Toyota Auris 1.4 D-4D (United Kingdom, 2015)"
+              ],
+              "years": {
+                "from": 2015,
+                "to": 2015
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "toyota-1ww-auris-2015",
+      "code": "1WW",
+      "aliases": [
+        "1WW (Auris 1.6 D-4D)"
+      ],
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "years": "2015",
+      "displacement": "1.6 L · 1,598 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "commonRail",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Toyota Auris 1.6 D-4D (United Kingdom, 2015)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "1WW is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,598 cc engine documented for Toyota Auris 1.6 D-4D (United Kingdom, 2015).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "1WW: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; aplicación documentada: Toyota Auris 1.6 D-4D (United Kingdom, 2015).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "1WW : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc ; application documentée : Toyota Auris 1.6 D-4D (United Kingdom, 2015).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "1WW: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; dokumentierte Anwendung: Toyota Auris 1.6 D-4D (United Kingdom, 2015).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 82,
+          "max": 82,
+          "rpm": {
+            "min": 4000,
+            "max": 4000
+          }
+        },
+        "torqueNm": {
+          "min": 270,
+          "max": 270,
+          "rpm": {
+            "min": 1750,
+            "max": 2250
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "toyota-auris-2015-uk-pack-1ww"
+        ],
+        "scope": {
+          "applications": [
+            "Toyota Auris 1.6 D-4D (United Kingdom, 2015)"
+          ],
+          "years": {
+            "from": 2015,
+            "to": 2015
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "toyota-auris-2015-uk-pack-1ww",
+            "type": "manufacturer",
+            "title": "Toyota Auris Gen2 MC UK launch pack",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2015,
+            "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Auris-Gen2-MC-UK-launch-pack.pdf",
+            "page": 20,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official UK Auris table identifies 1WW for the 2015 1.6 D-4D: 1,598 cc inline-four, DOHC 16-valve, turbocharged/intercooled common-rail diesel, 82 kW at 4,000 rpm and 270 N·m at 1,750-2,250 rpm. DOHC on the single inline cylinder head yields two camshafts total; the table publishes 16 valves total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "1WW"
+              ],
+              "applications": [
+                "Toyota Auris 1.6 D-4D (United Kingdom, 2015)"
+              ],
+              "years": {
+                "from": 2015,
+                "to": 2015
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "toyota-1ad-ftv-auris-2007",
+      "code": "1AD-FTV",
+      "aliases": [
+        "1AD-FTV (Auris 2.0 D-4D)"
+      ],
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "years": "2007",
+      "displacement": "2.0 L · 1,998 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "commonRail",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "1AD-FTV is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,998 cc engine documented for Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "1AD-FTV: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "1AD-FTV : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc ; application documentée : Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "1AD-FTV: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 93,
+          "max": 93,
+          "rpm": {
+            "min": 3600,
+            "max": 3600
+          }
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300,
+          "rpm": {
+            "min": 2000,
+            "max": 2800
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "toyota-auris-2007-uk-pack-1ad"
+        ],
+        "scope": {
+          "applications": [
+            "Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch)"
+          ],
+          "years": {
+            "from": 2007,
+            "to": 2007
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "toyota-auris-2007-uk-pack-1ad",
+            "type": "manufacturer",
+            "title": "Toyota Auris first-generation launch press pack",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2007,
+            "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Auris-1st-gen-launch-press-pack.pdf",
+            "page": 24,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official UK launch table identifies 1AD-FTV for Auris 2.0 D-4D: 1,998 cc inline-four, DOHC 16-valve, variable-nozzle turbo/intercooler and common-rail direct diesel injection, 93 kW at 3,600 rpm and 300 N·m at 2,000-2,800 rpm. DOHC on the single inline head yields two camshafts total; 16 valves is stated directly."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "1AD-FTV"
+              ],
+              "applications": [
+                "Toyota Auris 2.0 D-4D (United Kingdom, 2007 launch)"
+              ],
+              "years": {
+                "from": 2007,
+                "to": 2007
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "toyota-2ad-fhv-auris-2007",
+      "code": "2AD-FHV",
+      "aliases": [
+        "2AD-FHV (Auris 2.2 D-CAT)"
+      ],
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "years": "2007",
+      "displacement": "2.2 L · 2,231 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "commonRail",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "2AD-FHV is the I4 · DOHC · 16 valves · 2 camshafts total 2.2 L · 2,231 cc engine documented for Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "2AD-FHV: I4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,231 cc; aplicación documentada: Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "2AD-FHV : I4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,231 cc ; application documentée : Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "2AD-FHV: I4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,231 cc; dokumentierte Anwendung: Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 130,
+          "max": 130,
+          "rpm": {
+            "min": 3600,
+            "max": 3600
+          }
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400,
+          "rpm": {
+            "min": 2000,
+            "max": 2600
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "toyota-auris-2007-uk-pack-2ad"
+        ],
+        "scope": {
+          "applications": [
+            "Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch)"
+          ],
+          "years": {
+            "from": 2007,
+            "to": 2007
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "toyota-auris-2007-uk-pack-2ad",
+            "type": "manufacturer",
+            "title": "Toyota Auris first-generation launch press pack",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2007,
+            "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/Auris-1st-gen-launch-press-pack.pdf",
+            "page": 24,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official UK launch table identifies 2AD-FHV for Auris 2.2 D-CAT: 2,231 cc inline-four, DOHC 16-valve, turbocharged/intercooled common-rail diesel with piezo injectors, 130 kW at 3,600 rpm and 400 N·m at 2,000-2,600 rpm. DOHC on the single inline head yields two camshafts total; 16 valves is stated directly."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "2AD-FHV"
+              ],
+              "applications": [
+                "Toyota Auris 2.2 D-CAT (United Kingdom, 2007 launch)"
+              ],
+              "years": {
+                "from": 2007,
+                "to": 2007
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "lexus-8ar-fts-is200t-2015",
+      "code": "8AR-FTS",
+      "aliases": [
+        "8AR-FTS (Lexus IS 200t)"
+      ],
+      "maker": "Lexus",
+      "regionKey": "japan",
+      "years": "2015",
+      "displacement": "2.0 L · 1,998 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "dualInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus IS 200t (United Kingdom, 2015)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "8AR-FTS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,998 cc engine documented for Lexus IS 200t (United Kingdom, 2015).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "8AR-FTS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Lexus IS 200t (United Kingdom, 2015).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "8AR-FTS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc ; application documentée : Lexus IS 200t (United Kingdom, 2015).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "8AR-FTS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Lexus IS 200t (United Kingdom, 2015).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180,
+          "rpm": {
+            "min": 5800,
+            "max": 5800
+          }
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350,
+          "rpm": {
+            "min": 1650,
+            "max": 4400
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "lexus-is200t-2015-uk"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus IS 200t (United Kingdom, 2015)"
+          ],
+          "years": {
+            "from": 2015,
+            "to": 2015
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "lexus-is200t-2015-uk",
+            "type": "manufacturer",
+            "title": "Lexus IS to gain turbo power",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2015,
+            "url": "https://media.lexus.co.uk/lexus-is-to-gain-turbo-power/",
+            "page": 1,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official Lexus UK release identifies 8AR-FTS in the 2015 IS 200t: 1,998 cc inline-four, DOHC 16-valve, turbocharged petrol with D-4ST direct and port injection, 180 kW at 5,800 rpm and 350 N·m at 1,650-4,400 rpm. DOHC on the single inline head yields two camshafts total; 16 valves is stated directly."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "8AR-FTS"
+              ],
+              "applications": [
+                "Lexus IS 200t (United Kingdom, 2015)"
+              ],
+              "years": {
+                "from": 2015,
+                "to": 2015
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mazda-l3-vdt-atenza-2005",
+      "code": "L3-VDT",
+      "aliases": [
+        "L3-VDT (Mazdaspeed Atenza)"
+      ],
+      "maker": "Mazda",
+      "regionKey": "japan",
+      "years": "2005",
+      "displacement": "2.3 L · 2,260 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mazdaspeed Atenza (Japan, 2005)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazdaspeed Atenza (Japan, 2005).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazdaspeed Atenza (Japan, 2005).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazdaspeed Atenza (Japan, 2005).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazdaspeed Atenza (Japan, 2005).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 200,
+          "max": 200,
+          "rpm": {
+            "min": 5500,
+            "max": 5500
+          }
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380,
+          "rpm": {
+            "min": 3000,
+            "max": 3000
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "mazda-mazdaspeed-atenza-2005"
+        ],
+        "scope": {
+          "applications": [
+            "Mazdaspeed Atenza (Japan, 2005)"
+          ],
+          "years": {
+            "from": 2005,
+            "to": 2005
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mazda-mazdaspeed-atenza-2005",
+            "type": "manufacturer",
+            "title": "Mazdaspeed Atenza launch release",
+            "publisher": "Mazda Motor Corporation",
+            "year": 2005,
+            "url": "https://newsroom.mazda.com/en/publicity/release/2005/200506/050623b.html",
+            "page": 1,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official Japan launch specification identifies L3-VDT in Mazdaspeed Atenza: 2,260 cc inline-four, DOHC 16-valve, turbocharged/intercooled DISI direct-injection gasoline, 200 kW at 5,500 rpm and 380 N·m at 3,000 rpm. DOHC on the single inline head yields two camshafts total; 16 valves is stated directly."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "L3-VDT"
+              ],
+              "applications": [
+                "Mazdaspeed Atenza (Japan, 2005)"
+              ],
+              "years": {
+                "from": 2005,
+                "to": 2005
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mitsubishi-4m41-pajero-1999",
+      "code": "4M41",
+      "aliases": [
+        "4M41 (DI T/C)"
+      ],
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "years": "1999",
+      "displacement": "3.2 L · 3,200 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "4M41 is the I4 · DOHC · 16 valves · 2 camshafts total 3.2 L · 3,200 cc engine documented for Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "4M41: I4 · DOHC · 16 valves · 2 camshafts total, 3.2 L · 3,200 cc; aplicación documentada: Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "4M41 : I4 · DOHC · 16 valves · 2 camshafts total, 3.2 L · 3,200 cc ; application documentée : Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "4M41: I4 · DOHC · 16 valves · 2 camshafts total, 3.2 L · 3,200 cc; dokumentierte Anwendung: Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 129,
+          "max": 129,
+          "rpm": {
+            "min": 3800,
+            "max": 3800
+          }
+        },
+        "torqueNm": {
+          "min": 382,
+          "max": 382,
+          "rpm": {
+            "min": 2000,
+            "max": 2000
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "mitsubishi-environmental-report-2000-4m41"
+        ],
+        "scope": {
+          "applications": [
+            "Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch)"
+          ],
+          "years": {
+            "from": 1999,
+            "to": 1999
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mitsubishi-environmental-report-2000-4m41",
+            "type": "manufacturer",
+            "title": "Mitsubishi Motors Environmental Report 2000",
+            "publisher": "Mitsubishi Motors Corporation",
+            "year": 1999,
+            "url": "https://www.mitsubishi-motors.com/en/corporate/social/pdf/2000e_all.pdf",
+            "page": 21,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official report identifies Pajero short wheelbase KH-V68W, September 1999, with 4M41 (DI T/C), 3.200 L inline-four, direct diesel injection, turbocharging, 129 kW (175 PS) at 3,800 rpm and 382 N·m (39.0 kg-m) at 2,000 rpm. Its construction section explicitly describes the new Pajero diesel as DOHC four-valve; four cylinders therefore yield 16 valves total and DOHC on one inline head yields two camshafts total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "4M41"
+              ],
+              "applications": [
+                "Mitsubishi Pajero short wheelbase KH-V68W (Japan, September 1999 launch)"
+              ],
+              "years": {
+                "from": 1999,
+                "to": 1999
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mitsubishi-4b40-destinator-2025",
+      "code": "4B40",
+      "aliases": [
+        "4B40 (Destinator)"
+      ],
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "years": "2025",
+      "displacement": "1.5 L · 1,499 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "dualInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mitsubishi Destinator (Indonesia, 2025 launch)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "4B40 is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,499 cc engine documented for Mitsubishi Destinator (Indonesia, 2025 launch).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "4B40: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; aplicación documentada: Mitsubishi Destinator (Indonesia, 2025 launch).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "4B40 : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc ; application documentée : Mitsubishi Destinator (Indonesia, 2025 launch).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "4B40: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; dokumentierte Anwendung: Mitsubishi Destinator (Indonesia, 2025 launch).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 120,
+          "max": 120,
+          "rpm": {
+            "min": 5000,
+            "max": 5000
+          }
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250,
+          "rpm": {
+            "min": 2500,
+            "max": 4500
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "mitsubishi-destinator-2025"
+        ],
+        "scope": {
+          "applications": [
+            "Mitsubishi Destinator (Indonesia, 2025 launch)"
+          ],
+          "years": {
+            "from": 2025,
+            "to": 2025
+          },
+          "markets": [
+            "Indonesia"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mitsubishi-destinator-2025",
+            "type": "manufacturer",
+            "title": "World Premiere of the All-New Destinator Midsize SUV in Indonesia",
+            "publisher": "Mitsubishi Motors Corporation",
+            "year": 2025,
+            "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2025/20250717_1.html",
+            "page": 1,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official Indonesia world-premiere specification identifies 4B40 in the 2025 Destinator: 1,499 cc inline-four, DOHC 16-valve, turbocharged/intercooled high-octane gasoline with direct injection plus MPI, 120 kW at 5,000 rpm and 250 N·m at 2,500-4,500 rpm. DOHC on the single inline head yields two camshafts total; 16 valves is stated directly."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "4B40"
+              ],
+              "applications": [
+                "Mitsubishi Destinator (Indonesia, 2025 launch)"
+              ],
+              "years": {
+                "from": 2025,
+                "to": 2025
+              },
+              "markets": [
+                "Indonesia"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mitsubishi-4n16-triton-2023",
+      "code": "4N16",
+      "aliases": [
+        "4N16 high-output (Triton)"
+      ],
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "years": "2023",
+      "displacement": "2.4 L · 2,442 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "commonRail",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,442 cc engine documented for Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; aplicación documentada: Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc ; application documentée : Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; dokumentierte Anwendung: Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150,
+          "rpm": {
+            "min": 3500,
+            "max": 3500
+          }
+        },
+        "torqueNm": {
+          "min": 470,
+          "max": 470,
+          "rpm": {
+            "min": 1500,
+            "max": 2750
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "mitsubishi-triton-2023-4n16"
+        ],
+        "scope": {
+          "applications": [
+            "Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023)"
+          ],
+          "years": {
+            "from": 2023,
+            "to": 2023
+          },
+          "markets": [
+            "Thailand"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mitsubishi-triton-2023-4n16",
+            "type": "manufacturer",
+            "title": "All-New Triton World Premiere in Thailand",
+            "publisher": "Mitsubishi Motors Corporation",
+            "year": 2023,
+            "url": "https://www.mitsubishi-motors.com/en/newsrelease/images/download/pdf/p_230726_p_1438.pdf",
+            "page": 10,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official Thailand launch document identifies the high-output 4N16 specification: 2,442 cc inline-four, DOHC 16-valve, intercooled turbo diesel with common-rail injection, 150 kW at 3,500 rpm and 470 N·m at 1,500-2,750 rpm. The record is limited to the explicitly labelled high-output launch specification because powertrain combinations vary by market. DOHC on one inline head yields two camshafts total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "4N16"
+              ],
+              "applications": [
+                "Mitsubishi Triton high-output 4N16 specification (Thailand launch, 2023)"
+              ],
+              "years": {
+                "from": 2023,
+                "to": 2023
+              },
+              "markets": [
+                "Thailand"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mazda-sh-vptr-atenza-2016",
+      "code": "SH-VPTR",
+      "aliases": [
+        "SH-VPTR (Atenza XD)"
+      ],
+      "maker": "Mazda",
+      "regionKey": "japan",
+      "years": "2016",
+      "displacement": "2.2 L · 2,188 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "diesel",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "commonRail",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "SH-VPTR is the I4 · DOHC · 16 valves · 2 camshafts total 2.2 L · 2,188 cc engine documented for Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "SH-VPTR: I4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,188 cc; aplicación documentada: Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "SH-VPTR : I4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,188 cc ; application documentée : Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "SH-VPTR: I4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,188 cc; dokumentierte Anwendung: Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 129,
+          "max": 129,
+          "rpm": {
+            "min": 4500,
+            "max": 4500
+          }
+        },
+        "torqueNm": {
+          "min": 420,
+          "max": 420,
+          "rpm": {
+            "min": 2000,
+            "max": 2000
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "mazda-atenza-2016-sh-vptr"
+        ],
+        "scope": {
+          "applications": [
+            "Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016)"
+          ],
+          "years": {
+            "from": 2016,
+            "to": 2016
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mazda-atenza-2016-sh-vptr",
+            "type": "manufacturer",
+            "title": "Mazda Atenza product-improvement specifications",
+            "publisher": "Mazda Motor Corporation",
+            "year": 2016,
+            "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+            "page": 1,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official Japan table binds SH-VPTR to Mazda Atenza Sedan XD, model LDA-GJ2FP, 2WD FF with 6EC-AT in 2016 and publishes 2,188 cc, inline-four DOHC 16-valve, two-stage turbo diesel, common-rail direct injection, 129 kW at 4,500 rpm and 420 N·m at 2,000 rpm. DOHC on one inline head yields two camshafts total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "SH-VPTR"
+              ],
+              "applications": [
+                "Mazda Atenza Sedan XD / LDA-GJ2FP, 2WD (FF), 6EC-AT (Japan, 2016)"
+              ],
+              "years": {
+                "from": 2016,
+                "to": 2016
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "lexus-2ur-gse-rcf-2022",
+      "code": "2UR-GSE",
+      "aliases": [
+        "2UR-GSE (Lexus RC F)"
+      ],
+      "maker": "Lexus",
+      "regionKey": "japan",
+      "years": "2022",
+      "displacement": "5.0 L · 4,969 cc",
+      "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "dualInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus RC F (United Kingdom, 2022 model year)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "2UR-GSE is the V8 · DOHC per bank · 32 valves · 4 camshafts total 5.0 L · 4,969 cc engine documented for Lexus RC F (United Kingdom, 2022 model year).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "2UR-GSE: V8 · DOHC por bancada · 32 válvulas · 4 árboles de levas en total, 5.0 L · 4,969 cc; aplicación documentada: Lexus RC F (United Kingdom, 2022 model year).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia oficial cubre la aplicación exacta y todos los campos requeridos.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "2UR-GSE : V8 · DOHC par rangée · 32 soupapes · 4 arbres à cames au total, 5.0 L · 4,969 cc ; application documentée : Lexus RC F (United Kingdom, 2022 model year).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve officielle couvre l’application exacte et tous les champs requis.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "2UR-GSE: V8 · DOHC je Zylinderbank · 32 Ventile · 4 Nockenwellen insgesamt, 5.0 L · 4,969 cc; dokumentierte Anwendung: Lexus RC F (United Kingdom, 2022 model year).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der offizielle Nachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 341,
+          "max": 341,
+          "rpm": {
+            "min": 7100,
+            "max": 7100
+          }
+        },
+        "torqueNm": {
+          "min": 520,
+          "max": 520,
+          "rpm": {
+            "min": 4800,
+            "max": 4800
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "sourceRefs": [
+          "lexus-rcf-2022-2ur-gse"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus RC F (United Kingdom, 2022 model year)"
+          ],
+          "years": {
+            "from": 2022,
+            "to": 2022
+          },
+          "markets": [
+            "United Kingdom"
+          ]
+        },
+        "sources": [
+          {
+            "id": "lexus-rcf-2022-2ur-gse",
+            "type": "manufacturer",
+            "title": "The Lexus RC F (updated October 2021)",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2021,
+            "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/211012M-RC-F-Full-Release.pdf",
+            "page": 25,
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "pageNotes": [
+              "The official UK RC F press pack identifies engine code 2UR-GSE and the 2022 model-year UK application. Its technical table publishes a 4,969 cc V8, 32-valve DOHC, D-4S direct plus port injection, 341 kW at 7,100 rpm and 520 N·m at 4,800 rpm; the introduction explicitly calls it naturally aspirated. A V8 has two cylinder banks, so DOHC means two camshafts per bank and four camshafts total; the table states 32 valves total."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "2UR-GSE"
+              ],
+              "applications": [
+                "Lexus RC F (United Kingdom, 2022 model year)"
+              ],
+              "years": {
+                "from": 2022,
+                "to": 2022
+              },
+              "markets": [
+                "United Kingdom"
+              ]
+            }
+          }
+        ]
+      }
     }
   ]
 }
