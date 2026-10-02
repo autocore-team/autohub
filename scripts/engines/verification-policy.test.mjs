@@ -823,4 +823,179 @@ expectFail(
   );
 }
 
+const tieredRequiredFields = [
+  'maker', 'code', 'applications', 'years', 'displacement', 'layout',
+  'layout.valves', 'layout.camshaftsTotal', 'fuelKey', 'aspirationKey', 'injectionKey',
+  'performance.powerKw', 'performance.powerKw.rpm',
+  'performance.torqueNm', 'performance.torqueNm.rpm'
+];
+
+function tierASource(id, fields = tieredRequiredFields, overrides = {}) {
+  return officialSource(id, fields, { evidenceTier: 'A', ...overrides });
+}
+
+function tierBBridge(id, fields, publisher, hostname, dataOrigin, overrides = {}) {
+  const claims = {};
+  if (fields.some((field) => field.startsWith('performance.powerKw'))) claims['performance.powerKw'] = clone(basePerformance.powerKw);
+  if (fields.some((field) => field.startsWith('performance.torqueNm'))) claims['performance.torqueNm'] = clone(basePerformance.torqueNm);
+  return officialSource(id, fields, {
+    type: 'technicalReference',
+    publisher,
+    url: `https://${hostname}/engines/x20a`,
+    evidenceTier: 'B',
+    dataOrigin,
+    independenceNotes: [`${publisher} maintains its own editorial dataset independently of the other cited publishers.`],
+    identityBindingRef: 'tier-a-identity',
+    scope: bridgedScope({ years: { from: 2012, to: 2014 } }),
+    ...(Object.keys(claims).length ? { claims } : {}),
+    ...overrides
+  });
+}
+
+function tieredRecord(sources, evidenceBasis = 'official') {
+  const fixture = strictVerifiedRecord(sources);
+  fixture.layout = 'I4 · DOHC · 16 valves · 2 camshafts total';
+  fixture.verification.evidenceBasis = evidenceBasis;
+  return fixture;
+}
+
+expectPass(
+  'tiered authoritative government certification source',
+  tieredRecord([tierASource('government-certificate', tieredRequiredFields, {
+    type: 'certificationDocument',
+    publisher: 'National Vehicle Certification Authority',
+    url: 'https://certification.gov.example/type-approval/x20a'
+  })])
+);
+
+expectPass(
+  'tiered authoritative identity plus professional supplemental source',
+  tieredRecord([
+    tierASource('tier-a-identity', ['maker', 'code', 'applications', 'years']),
+    tierASource('licensed-professional-specification', tieredRequiredFields.filter((field) => !['maker', 'code', 'applications', 'years'].includes(field)), {
+      type: 'technicalReference',
+      publisher: 'Licensed Technical Data Press',
+      url: 'https://licensed-data.example/x20a/specification',
+      authorityNotes: ['The variant table is maintained under a licensed manufacturer-data programme with named editorial responsibility.'],
+      identityBindingRef: 'tier-a-identity',
+      scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+    })
+  ])
+);
+
+function tierBInjectionFixture() {
+  const tierAFields = tieredRequiredFields.filter((field) => field !== 'injectionKey');
+  return tieredRecord([
+    tierASource('tier-a-identity', tierAFields),
+    tierBBridge('tier-b-injection-one', ['injectionKey'], 'Independent Technical Press One', 'press-one.example', 'press-one-original'),
+    tierBBridge('tier-b-injection-two', ['injectionKey'], 'Independent Technical Press Two', 'press-two.example', 'press-two-original')
+  ], 'corroborated');
+}
+
+expectPass('tiered two independent Tier B sources confirm one field', tierBInjectionFixture());
+
+{
+  const tierAFields = tieredRequiredFields.filter((field) => !['aspirationKey', 'injectionKey'].includes(field));
+  expectPass(
+    'tiered independent Tier B pairs cover different fields',
+    tieredRecord([
+      tierASource('tier-a-identity', tierAFields),
+      tierBBridge('tier-b-aspiration-one', ['aspirationKey'], 'Aspiration Data One', 'aspiration-one.example', 'aspiration-one-original'),
+      tierBBridge('tier-b-aspiration-two', ['aspirationKey'], 'Aspiration Data Two', 'aspiration-two.example', 'aspiration-two-original'),
+      tierBBridge('tier-b-injection-one', ['injectionKey'], 'Injection Data One', 'injection-one.example', 'injection-one-original'),
+      tierBBridge('tier-b-injection-two', ['injectionKey'], 'Injection Data Two', 'injection-two.example', 'injection-two-original')
+    ], 'corroborated')
+  );
+}
+
+expectPass('tiered exact identity bridge for Tier B source without code', tierBInjectionFixture());
+
+expectFail(
+  'tiered corroborated basis cannot label an all-Tier-A record',
+  tieredRecord([tierASource('all-tier-a', tieredRequiredFields)], 'corroborated'),
+  'requires at least one mandatory field to rely on two independent Tier B publishers'
+);
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources.pop();
+  fixture.verification.sourceRefs.pop();
+  expectFail('tiered one Tier B source without corroboration', fixture, 'requires Tier A or two independent Tier B publishers');
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].publisher = fixture.verification.sources[1].publisher;
+  expectFail('tiered two URLs from one publisher', fixture, 'requires Tier A or two independent Tier B publishers');
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].scope.applications = ['Other Model'];
+  expectFail('tiered Tier B sources describe different variants', fixture, 'scope applications do not contain every record application');
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].scope.markets = ['US'];
+  expectFail('tiered Tier B source has a different market', fixture, 'scope markets do not contain the record market scope');
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].scope.years = { from: 2014, to: 2016 };
+  expectFail('tiered Tier B source has a different period', fixture, 'scope years do not fully contain the record year interval');
+}
+
+{
+  const fixture = tieredRecord([tierASource('family-identity', tieredRequiredFields, { scope: scoped({ level: 'family' }) })]);
+  expectFail('tiered family-level page cannot establish exact identity', fixture, 'exact code, applications and years identity binding');
+}
+
+{
+  const tierAFields = tieredRequiredFields.filter((field) => !field.startsWith('performance.'));
+  const performanceFields = tieredRequiredFields.filter((field) => field.startsWith('performance.'));
+  const fixture = tieredRecord([
+    tierASource('tier-a-identity', tierAFields),
+    tierBBridge('tier-b-performance-one', performanceFields, 'Performance Press One', 'performance-one.example', 'performance-one-original'),
+    tierBBridge('tier-b-performance-two', performanceFields, 'Performance Press Two', 'performance-two.example', 'performance-two-original')
+  ], 'corroborated');
+  fixture.verification.sources[2].claims['performance.powerKw'].max = 121;
+  expectFail('tiered conflicting power or torque is rejected', fixture, 'performance.powerKw claim conflicts');
+}
+
+{
+  const fields = tieredRequiredFields.filter((field) => !['layout.valves', 'layout.camshaftsTotal'].includes(field));
+  expectFail('tiered source omits valve and camshaft-count declarations', tieredRecord([tierASource('missing-construction-counts', fields)]), 'official evidence field layout.valves is not covered');
+}
+
+{
+  const fields = tieredRequiredFields.filter((field) => field !== 'injectionKey');
+  const fixture = tieredRecord([tierASource('notes-without-coverage', fields, {
+    pageNotes: ['The prose mentions injection, but the source does not declare injectionKey field coverage.']
+  })]);
+  expectFail('tiered pageNotes cannot replace declared field coverage', fixture, 'official evidence field injectionKey is not covered');
+}
+
+{
+  const tierAFields = tieredRequiredFields.filter((field) => field !== 'injectionKey');
+  expectFail(
+    'tiered Tier C cannot cover a mandatory field',
+    tieredRecord([
+      tierASource('tier-a-identity', tierAFields),
+      officialSource('tier-c-injection', ['injectionKey'], {
+        type: 'technicalReference', evidenceTier: 'C', identityBindingRef: 'tier-a-identity',
+        scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+      })
+    ], 'corroborated'),
+    'corroborated evidence field injectionKey requires Tier A or two independent Tier B publishers'
+  );
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].dataOrigin = fixture.verification.sources[1].dataOrigin;
+  expectFail('tiered portals sharing one upstream dataset are not independent', fixture, 'requires Tier A or two independent Tier B publishers');
+}
+
 console.log(`Verification policy fixture tests passed: ${passedCases} cases.`);

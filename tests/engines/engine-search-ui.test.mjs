@@ -33,9 +33,9 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 565, `Engine count changed: expected 565, found ${records.length}`);
+check(records.length === 665, `Engine count changed: expected 665, found ${records.length}`);
 check(
-  semanticHash === '5424d6844589448b0dc7f771f7613c5b80a172f0018b03ac1048cc78ababbf62',
+  semanticHash === 'b9be450558bdb439f60fa67c1d338c565144559aa8653f8623ff9d505a96b16d',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -114,6 +114,12 @@ for (const record of records) {
     identityOwners.get(identity).add(record.id);
   }
 }
+// Batch 08 locks every permitted repeated-code owner set below. Earlier batch
+// assertions continue to require unique aliases while allowing those later,
+// application-scoped records to share the exact code token.
+const isApplicationScopedCodeRepeat = (record, identity) => (
+  identity === normalizedIdentity(record.code) && identityOwners.get(identity).size > 1
+);
 for (const record of batch07aRecords) {
   for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
     check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
@@ -188,7 +194,7 @@ for (const record of batch07bRecords) {
   check(record.verification.sources[0].pageNotes.some((note) => note.includes('valves total') && /camshafts? total/.test(note)), `${record.id} evidence does not expose the valve/camshaft derivation`);
   check(core.searchRecords(records, record.code)[0]?.id === record.id, `${record.code} is not the top exact-code search result`);
   for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
-    check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
+    check(isApplicationScopedCodeRepeat(record, identity) || identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
   }
 }
 const om605 = records.find((record) => record.id === 'mercedes-om605-962');
@@ -279,7 +285,7 @@ for (const record of batch07cRecords) {
   check(record.verification.sources[0].pageNotes.some((note) => note.includes('valves total') && /camshafts? total/.test(note)), `${record.id} evidence does not expose the valve/camshaft derivation`);
   check(core.searchRecords(records, record.code)[0]?.id === record.id, `${record.code} is not the top exact-code search result`);
   for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
-    check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
+    check(isApplicationScopedCodeRepeat(record, identity) || identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
   }
 }
 const sl55 = records.find((record) => record.id === 'mercedes-m113-992');
@@ -369,7 +375,7 @@ for (const record of batch07dRecords) {
     if (record.id === 'lexus-2ur-gse-rcf-2022' && identity === '2UR-GSE') {
       check(JSON.stringify([...identityOwners.get(identity)].sort()) === JSON.stringify(['lexus-2ur-gse','lexus-2ur-gse-rcf-2022']), '2UR-GSE has an unexplained identity owner');
     } else {
-      check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
+      check(isApplicationScopedCodeRepeat(record, identity) || identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
     }
   }
 }
@@ -380,18 +386,82 @@ check(records.find((record) => record.id === 'mitsubishi-4n16-triton-2023').appl
 check(records.find((record) => record.id === 'mercedes-om651-924').verification.sources[0].pageNotes.some((note) => note.includes('excluding the separately published electric and system ratings')), 'OM651.924 must retain combustion-engine-only performance scope');
 pass('Batch 07d strict direct evidence, preservation, diversity, collision, construction and scope checks pass');
 
+const batch08BaselineRegionCounts = {
+  europe: 249,
+  japan: 179,
+  korea: 49,
+  'north-america': 88,
+  'south-america': 0
+};
+const batch08BaselineRecords = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, batch08BaselineRegionCounts[sourceFile.region])
+));
+const batch08BaselineHash = crypto.createHash('sha256').update(canonicalFingerprint(batch08BaselineRecords)).digest('hex');
+check(batch08BaselineRecords.length === 565, `Batch 08 baseline changed: expected 565 records, found ${batch08BaselineRecords.length}`);
+check(
+  batch08BaselineHash === '5424d6844589448b0dc7f771f7613c5b80a172f0018b03ac1048cc78ababbf62',
+  `Batch 08 changed an original record or its regional order: ${batch08BaselineHash}`
+);
+
+const batch08Records = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(batch08BaselineRegionCounts[sourceFile.region])
+));
+check(batch08Records.length === 100, `Batch 08 must add exactly 100 records, found ${batch08Records.length}`);
+const batch08IdHash = crypto.createHash('sha256').update(batch08Records.map((record) => record.id).join('\n')).digest('hex');
+check(batch08IdHash === '6d73277858d8377c570811c4215992a6767759ff00b9695b11d548d75cb15a6a', `Batch 08 ID set/order changed: ${batch08IdHash}`);
+check(batch08Records.filter((record) => record.regionKey === 'europe').length === 96, 'Batch 08 Europe count must remain 96');
+check(batch08Records.filter((record) => record.regionKey === 'japan').length === 4, 'Batch 08 Japan count must remain 4');
+check(batch08Records.filter((record) => record.maker === 'Mercedes-Benz').length === 96, 'Batch 08 Mercedes-Benz count must remain 96');
+check(batch08Records.filter((record) => record.maker === 'Mazda').length === 3, 'Batch 08 Mazda count must remain 3');
+check(batch08Records.filter((record) => record.maker === 'Toyota').length === 1, 'Batch 08 Toyota count must remain 1');
+
+for (const record of batch08Records) {
+  check(record.verification?.status === 'verified', `${record.id} is not verified`);
+  check(['official', 'corroborated'].includes(record.verification?.evidenceBasis), `${record.id} has no strict evidence basis`);
+  check(record.verification?.sourceRefs?.length > 0, `${record.id} has no strict sourceRefs`);
+  check(verificationPolicyErrors(record).length === 0, `${record.id} fails tiered strict verification policy: ${verificationPolicyErrors(record).join('; ')}`);
+  check(/\b\d+ valves\b/.test(record.layout), `${record.id} does not expose total valves`);
+  check(/\b\d+ camshafts? total\b/.test(record.layout), `${record.id} does not expose total camshafts`);
+  check(record.verification.sources.every((source) => ['A', 'B', 'C'].includes(source.evidenceTier)), `${record.id} has an unclassified evidence source`);
+  check(record.verification.sources.every((source) => source.pageNotes?.length > 0 && source.fields?.length > 0), `${record.id} has evidence without notes or declared coverage`);
+  check(record.verification.sourceRefs.every((sourceRef) => record.verification.sources.some((source) => source.id === sourceRef)), `${record.id} has an unresolved sourceRef`);
+  check(record.verification.sources.every((source) => source.scope?.codes?.includes(record.code) && !source.identityBindingRef), `${record.id} must retain direct exact-code evidence`);
+  check(core.searchRecords(records, record.code).some((result) => result.id === record.id), `${record.id} is missing from exact-code search`);
+  for (const alias of record.aliases.map(normalizedIdentity)) {
+    check(identityOwners.get(alias).size === 1, `${record.id} introduces alias collision ${alias}`);
+  }
+}
+check(batch08Records.every((record) => record.verification.evidenceBasis === 'official'), 'Batch 08 must retain 100 official evidence-basis records');
+check(batch08Records.every((record) => record.verification.sources.every((source) => source.evidenceTier === 'A')), 'Batch 08 must retain Tier A sources only');
+check(batch08Records.filter((record) => record.maker === 'Mercedes-Benz').every((record) => record.verification.scope.markets[0] === 'Unspecified'), 'Batch 08 Mercedes archive scopes must remain Unspecified');
+check(batch08Records.filter((record) => record.maker !== 'Mercedes-Benz').every((record) => record.verification.scope.markets[0] === 'Japan'), 'Batch 08 Japan manufacturer scopes must remain Japan');
+
+const batch08RepeatedCodeOwners = {};
+for (const record of batch08Records) {
+  const owners = records.filter((candidate) => normalizedIdentity(candidate.code) === normalizedIdentity(record.code)).map((candidate) => candidate.id).sort();
+  if (owners.length > 1) batch08RepeatedCodeOwners[record.code] = owners;
+}
+const repeatedOwnersHash = crypto.createHash('sha256')
+  .update(JSON.stringify(Object.fromEntries(Object.entries(batch08RepeatedCodeOwners).sort())))
+  .digest('hex');
+check(repeatedOwnersHash === '99534adb45c62e880ffb7f5ebc4aff3c27c0d103b46c4a381daea3b7c1220b2d', `Batch 08 documented repeated-code owners changed: ${repeatedOwnersHash}`);
+const l3Records = batch08Records.filter((record) => record.code === 'L3-VDT');
+check(new Set(l3Records.map((record) => JSON.stringify(record.performance))).size === 3, 'Batch 08 L3-VDT application calibrations were merged or duplicated');
+check(batch08Records.find((record) => record.id === 'toyota-g16e-gts-gr-yaris-2020')?.performance.torqueNm.rpm.max === 4600, 'GR Yaris G16E-GTS scope lost its exact torque-speed boundary');
+pass(`Batch 08 preserves the original 565 records and validates 100 tiered strict records (${batch08BaselineHash})`);
+
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 249, manufacturerCount: 11 },
-    { region: 'japan', engineCount: 179, manufacturerCount: 15 },
+    { region: 'europe', engineCount: 345, manufacturerCount: 11 },
+    { region: 'japan', engineCount: 183, manufacturerCount: 15 },
     { region: 'korea', engineCount: 49, manufacturerCount: 2 },
     { region: 'north-america', engineCount: 88, manufacturerCount: 13 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 565, 'Regional engineCount sum does not equal 565');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 665, 'Regional engineCount sum does not equal 665');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);

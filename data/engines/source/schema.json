@@ -349,6 +349,14 @@
             "minLength": 1
           }
         },
+        "evidenceBasis": {
+          "type": "string",
+          "enum": [
+            "official",
+            "corroborated"
+          ],
+          "description": "Explicit strict-evidence path for new records. Omitted on compatible legacy records."
+        },
         "scope": {
           "$ref": "#/$defs/verificationScope"
         }
@@ -385,6 +393,32 @@
             "serviceDocumentation",
             "certificationDocument"
           ]
+        },
+        "evidenceTier": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C"
+          ],
+          "description": "Trust tier assigned to this specific document and its declared fields, not to the publisher domain as a whole."
+        },
+        "dataOrigin": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Normalized upstream dataset or editorial origin. Required by policy for Tier B independence checks."
+        },
+        "independenceNotes": {
+          "$ref": "#/$defs/stringArray",
+          "description": "Why a Tier B publisher is independent from the other corroborating sources."
+        },
+        "authorityNotes": {
+          "$ref": "#/$defs/stringArray",
+          "description": "Editorial, licensing or provenance basis when a professional technical publication is classified as Tier A."
+        },
+        "claims": {
+          "$ref": "#/$defs/sourceClaims",
+          "description": "Structured Tier B performance claims used to reject conflicting values."
         },
         "title": {
           "type": "string",
@@ -454,6 +488,18 @@
         },
         "markets": {
           "$ref": "#/$defs/nonEmptyUniqueStringArray"
+        }
+      }
+    },
+    "sourceClaims": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "performance.powerKw": {
+          "$ref": "#/$defs/rangeWithRpm"
+        },
+        "performance.torqueNm": {
+          "$ref": "#/$defs/rangeWithRpm"
         }
       }
     },
