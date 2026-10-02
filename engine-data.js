@@ -25898,6 +25898,13350 @@ window.AUTOHUB_ENGINE_DATA = {
     }
   },
   {
+    "id": "mercedes-m276-825-231-465-188146394",
+    "code": "M276.825",
+    "aliases": [
+      "M 276 E 30 DEH LA / 276.825 · Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "3.0 L · 2,996 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M276.825 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.0 L · 2,996 cc engine documented for Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M276.825: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,996 cc; aplicación documentada: Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M276.825 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,996 cc ; application documentée : Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M276.825: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,996 cc; dokumentierte Anwendung: Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 245,
+        "max": 245,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480,
+        "rpm": {
+          "min": 1600,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188146394"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188146394",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "SL 400, 2014 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/SL-400-2014---2016.xhtml?oid=188146394",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 231.465 and M 276 E 30 DEH LA / 276.825. Its standard-production field is 12.2013 / 06.2014 - 03.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 2996 cc, 6 / 60° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 245 kW / 333 DIN/hp at 5250 rpm and 480 Nm at 1600 - 4000 rpm. 4 valves per cylinder yield 24 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M276.825"
+            ],
+            "applications": [
+              "Mercedes-Benz SL 400, 2014 - 2016 / type 231.465 (2015)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-927-231-473-188146395",
+    "code": "M278.927",
+    "aliases": [
+      "M 278 DE LA 46 / 278.927 · Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2015",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.927 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.927: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.927 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.927: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 320,
+        "max": 320,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700,
+        "rpm": {
+          "min": 1800,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188146395"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188146395",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "SL 500, 2012 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/SL-500-2012---2016.xhtml?oid=188146395",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 231.473 and M 278 DE LA 46 / 278.927. Its standard-production field is 03.2011 / 01.2012 - 03.2016; the stored 2012-2015 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 320 kW / 435 PS at 5250 rpm and 700 Nm at 1800 - 3500 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.927"
+            ],
+            "applications": [
+              "Mercedes-Benz SL 500, 2012 - 2016 / type 231.473 (2012-2015)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-925-212-005-188539103",
+    "code": "OM651.925",
+    "aliases": [
+      "OM 651 DE 22 LA red. / 651.925 · Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.925 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.925 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188539103"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188539103",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188539103",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.005 and OM 651 DE 22 LA red. / 651.925. Its standard-production field is 05.2008 / 07.2009 - 02.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1600 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.925"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.005 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-924-212-002-188539114",
+    "code": "OM651.924",
+    "aliases": [
+      "OM 651 DE 22 LA / 651.924 · Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.924 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.924 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188539114"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188539114",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 220 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-220-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188539114",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.002 and OM 651 DE 22 LA / 651.924. Its standard-production field is 03.2008 / 02.2009 - 02.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.924"
+            ],
+            "applications": [
+              "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.002 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-073-188539302",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188539302"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188539302",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-BlueEFFICIENCY-2011---2013.xhtml?oid=188539302",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.073 and M 278 E 46 DE LA / 278.922. Its standard-production field is 12.2010 / 07.2011 - 02.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.073 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-091-188539306",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188539306"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188539306",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 4MATIC BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-4MATIC-BlueEFFICIENCY-2011---2013.xhtml?oid=188539306",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.091 and M 278 E 46 DE LA / 278.922. Its standard-production field is 12.2010 / 09.2011 - 02.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.091 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-925-212-006-188541005",
+    "code": "OM651.925",
+    "aliases": [
+      "OM 651 DE 22 LA red. / 651.925 · Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.925 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.925 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1400,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541005"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541005",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 BlueTEC, 2014 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-BlueTEC-2014---2016.xhtml?oid=188541005",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.006 and OM 651 DE 22 LA red. / 651.925. Its standard-production field is 02.2014 / 09.2014 - 02.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1400 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.925"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.006 (2015)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-212-034-188541025",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA R / 274.920 · Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541025"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541025",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-2013---2016.xhtml?oid=188541025",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.034 and M 274 E 20 DES LA R / 274.920. Its standard-production field is 07.2012 / 03.2013 - 02.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5500 rpm and 270 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200, 2013 - 2016 / type 212.034 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-212-036-188541027",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA / 274.920 · Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541027"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541027",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-2013---2016.xhtml?oid=188541027",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.036 and M 274 E 20 DES LA / 274.920. Its standard-production field is 08.2012 / 03.2013 - 02.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250, 2013 - 2016 / type 212.036 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-073-188541036",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541036"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541036",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-2013---2015.xhtml?oid=188541036",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.073 and M 278 E 46 DE LA / 278.922. Its standard-production field is 03.2013 - 12.2015; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500, 2013 - 2015 / type 212.073 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-091-188541037",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541037"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541037",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 4MATIC, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-4MATIC-2013---2015.xhtml?oid=188541037",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.091 and M 278 E 46 DE LA / 278.922. Its standard-production field is 03.2013 - 12.2015; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 4MATIC, 2013 - 2015 / type 212.091 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m157-981-212-074-188541038",
+    "code": "M157.981",
+    "aliases": [
+      "M 157 DEH 55 LA / 157.981 · Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "5.5 L · 5,461 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M157.981 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 5.5 L · 5,461 cc engine documented for Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; aplicación documentada: Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M157.981 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc ; application documentée : Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; dokumentierte Anwendung: Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 410,
+        "max": 410,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 720,
+        "max": 720,
+        "rpm": {
+          "min": 1750,
+          "max": 5250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541038"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541038",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-63-AMG-2013---2015-ab-122014-Mercedes-AMG-E-63-AMG.xhtml?oid=188541038",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.074 and M 157 DEH 55 LA / 157.981. Its standard-production field is 03.2013 - 12.2015; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 5461 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 410 kW / 557 PS at 5500 rpm and 720 Nm at 1750 - 5250 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M157.981"
+            ],
+            "applications": [
+              "Mercedes-Benz E 63 AMG, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 AMG) / type 212.074 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m157-981-212-092-188541039",
+    "code": "M157.981",
+    "aliases": [
+      "M 157 DEH 55 LA / 157.981 · Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "5.5 L · 5,461 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M157.981 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 5.5 L · 5,461 cc engine documented for Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; aplicación documentada: Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M157.981 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc ; application documentée : Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; dokumentierte Anwendung: Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 410,
+        "max": 410,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 720,
+        "max": 720,
+        "rpm": {
+          "min": 1750,
+          "max": 5250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541039"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541039",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-63-AMG-4MATIC-2013---2015-ab-122014-Mercedes-AMG-E-63-4MATIC.xhtml?oid=188541039",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.092 and M 157 DEH 55 LA / 157.981. Its standard-production field is 08.2012 / 06.2013 - 12.2015; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 5461 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 410 kW / 557 PS at 5500 rpm and 720 Nm at 1750 - 5250 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M157.981"
+            ],
+            "applications": [
+              "Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2015 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.092 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m157-981-212-076-188541040",
+    "code": "M157.981",
+    "aliases": [
+      "M 157 DEH 55 LA / 157.981 · Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "5.5 L · 5,461 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M157.981 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 5.5 L · 5,461 cc engine documented for Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; aplicación documentada: Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M157.981 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc ; application documentée : Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; dokumentierte Anwendung: Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800,
+        "rpm": {
+          "min": 1750,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188541040"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188541040",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-63-AMG-S-4MATIC-2013---2016-ab-122014-Mercedes-AMG-E-63-S-4MATIC.xhtml?oid=188541040",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.076 and M 157 DEH 55 LA / 157.981. Its standard-production field is 11.2012 / 06.2013 - 02.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 5461 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 430 kW / 585 DIN/hp at 5500 rpm and 800 Nm at 1750 - 5000 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M157.981"
+            ],
+            "applications": [
+              "Mercedes-Benz E 63 AMG S 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.076 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-925-212-205-188823460",
+    "code": "OM651.925",
+    "aliases": [
+      "OM 651 DE 22 LA red. / 651.925 · Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.925 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.925 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823460"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823460",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188823460",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.205 and OM 651 DE 22 LA red. / 651.925. Its standard-production field is 02.2009 / 11.2009 - 03.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1600 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.925"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.205 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-924-212-202-188823489",
+    "code": "OM651.924",
+    "aliases": [
+      "OM 651 DE 22 LA / 651.924 · Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.924 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.924 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823489"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823489",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 220 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-220-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188823489",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.202 and OM 651 DE 22 LA / 651.924. Its standard-production field is 01.2009 / 09.2009 - 03.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.924"
+            ],
+            "applications": [
+              "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.202 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-924-212-203-188823490",
+    "code": "OM651.924",
+    "aliases": [
+      "OM 651 DE 22 G / 651.924 · Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.924 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.924 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823490"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823490",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188823490",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.203 and OM 651 DE 22 G / 651.924. Its standard-production field is 01.2009 / 09.2009 - 03.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 150 kW / 204 DIN/hp at 4200 rpm and 500 Nm at 1600 - 1800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.924"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 212.203 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-924-212-282-188823491",
+    "code": "OM651.924",
+    "aliases": [
+      "OM 651 DE 22 G4 / 651.924 · Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.924 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.924 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823491"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823491",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-CDI-4MATIC-BlueEFFICIENCY-2011---2013.xhtml?oid=188823491",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.282 and OM 651 DE 22 G4 / 651.924. Its standard-production field is 04.2010 / 03.2011 - 03.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 150 kW / 204 DIN/hp at 4200 rpm and 500 Nm at 1600 - 1800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.924"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 CDI 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.282 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-273-188823522",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823522"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823522",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-BlueEFFICIENCY-2011---2013.xhtml?oid=188823522",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.273 and M 278 E 46 DE LA / 278.922. Its standard-production field is 12.2010 / 02.2011 - 03.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 212.273 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-291-188823523",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823523"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823523",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 4MATIC BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-4MATIC-BlueEFFICIENCY-2011---2013.xhtml?oid=188823523",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.291 and M 278 E 46 DE LA / 278.922. Its standard-production field is 01.2011 / 07.2011 - 03.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 4MATIC BlueEFFICIENCY, 2011 - 2013 / type 212.291 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-925-212-205-188823528",
+    "code": "OM651.925",
+    "aliases": [
+      "OM 651 DE 22 LA red. / 651.925 · Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.925 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.925 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823528"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823528",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 CDI, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-CDI-2013---2015.xhtml?oid=188823528",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.205 and OM 651 DE 22 LA red. / 651.925. Its standard-production field is 02.2013 - 07.2015; the stored 2014 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1600 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.925"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 CDI, 2013 - 2015 / type 212.205 (2014)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-925-212-206-188823529",
+    "code": "OM651.925",
+    "aliases": [
+      "OM 651 D 22 R / 651.925 · Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.925 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.925 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.925: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1400,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823529"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823529",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 BlueTEC, 2014 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-BlueTEC-2014---2016.xhtml?oid=188823529",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.206 and OM 651 D 22 R / 651.925. Its standard-production field is 02.2014 / 09.2014 - 06.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1400 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.925"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 BlueTEC, 2014 - 2016 / type 212.206 (2015)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-212-234-188823541",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA R / 274.920 · Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823541"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823541",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-2013---2016.xhtml?oid=188823541",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.234 and M 274 E 20 DES LA R / 274.920. Its standard-production field is 06.2012 / 03.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5500 rpm and 270 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200, 2013 - 2016 / type 212.234 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-212-236-188823542",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA / 274.920 · Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823542"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823542",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-2013---2016.xhtml?oid=188823542",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.236 and M 274 E 20 DES LA / 274.920. Its standard-production field is 07.2012 / 03.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250, 2013 - 2016 / type 212.236 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-273-188823551",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823551"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823551",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-2013---2016.xhtml?oid=188823551",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.273 and M 278 E 46 DE LA / 278.922. Its standard-production field is 03.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500, 2013 - 2016 / type 212.273 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-212-291-188823552",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823552"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823552",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 4MATIC, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-4MATIC-2013---2016.xhtml?oid=188823552",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.291 and M 278 E 46 DE LA / 278.922. Its standard-production field is 03.2013 - 06.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 4MATIC, 2013 - 2016 / type 212.291 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m157-981-212-292-188823553",
+    "code": "M157.981",
+    "aliases": [
+      "M 157 DEH 55 LA / 157.981 · Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "5.5 L · 5,461 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M157.981 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 5.5 L · 5,461 cc engine documented for Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; aplicación documentada: Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M157.981 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc ; application documentée : Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; dokumentierte Anwendung: Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 410,
+        "max": 410,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 720,
+        "max": 720,
+        "rpm": {
+          "min": 1750,
+          "max": 5250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823553"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823553",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-63-AMG-4MATIC-2013---2016-ab-122014-Mercedes-AMG-E-63-4MATIC.xhtml?oid=188823553",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.292 and M 157 DEH 55 LA / 157.981. Its standard-production field is 08.2012 / 03.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 5461 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 410 kW / 557 PS at 5500 rpm and 720 Nm at 1750 - 5250 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M157.981"
+            ],
+            "applications": [
+              "Mercedes-Benz E 63 AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 4MATIC) / type 212.292 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m157-981-212-276-188823556",
+    "code": "M157.981",
+    "aliases": [
+      "M 157 DEH 55 LA / 157.981 · Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "5.5 L · 5,461 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M157.981 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 5.5 L · 5,461 cc engine documented for Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; aplicación documentada: Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M157.981 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc ; application documentée : Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M157.981: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.5 L · 5,461 cc; dokumentierte Anwendung: Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800,
+        "rpm": {
+          "min": 1750,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188823556"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823556",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-63-S-AMG-4MATIC-2013---2016-ab-122014-Mercedes-AMG-E-63-S-4MATIC.xhtml?oid=188823556",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 212.276 and M 157 DEH 55 LA / 157.981. Its standard-production field is 11.2012 / 03.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 5461 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (gasoline direct injection with piezo-controlled injectors), 430 kW / 585 DIN/hp at 5500 rpm and 800 Nm at 1750 - 5000 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M157.981"
+            ],
+            "applications": [
+              "Mercedes-Benz E 63 S AMG 4MATIC, 2013 - 2016 (from 12.2014: Mercedes-AMG E 63 S 4MATIC) / type 212.276 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-207-402-188954772",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 / 651.911 · Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954772"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954772",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 220 CDI BlueEFFICIENCY, 2010 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-220-CDI-BlueEFFICIENCY-2010---2013.xhtml?oid=188954772",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.402 and OM 651 D 22 / 651.911. Its standard-production field is 07.2009 / 04.2010 - 03.2013; the stored 2011-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.402 (2011-2012)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-207-403-188954773",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 G / 651.911 · Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954773"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954773",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188954773",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.403 and OM 651 D 22 G / 651.911. Its standard-production field is 03.2009 / 01.2010 - 03.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 150 kW / 204 DIN/hp at 4200 rpm and 500 Nm at 1600 - 1800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.403 (2010-2012)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-207-448-188954778",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 DEH 18 LA red EVO / 271.860 · Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2012",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954778"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954778",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-CGI-BlueEFFICIENCY-2010---2013-ab-042011-E-200-BlueEFFICIENCY.xhtml?oid=188954778",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.448 and M 271 DEH 18 LA red EVO / 271.860. Its standard-production field is 03.2009 / 03.2010 - 04.2013; the stored 2011-2012 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5250 rpm and 270 Nm at 1800 - 4600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.448 (2011-2012)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-207-302-188954779",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 / 651.911 · Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954779"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954779",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 220 CDI BlueEFFICIENCY, 2010 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-220-CDI-BlueEFFICIENCY-2010---2013.xhtml?oid=188954779",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.302 and OM 651 D 22 / 651.911. Its standard-production field is 10.2008 / 03.2010 - 03.2013; the stored 2011-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz E 220 CDI BlueEFFICIENCY, 2010 - 2013 / type 207.302 (2011-2012)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-207-447-188954780",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA EVO / 271.860 · Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310,
+        "rpm": {
+          "min": 2000,
+          "max": 4300
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954780"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954780",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-CGI-BlueEFFICIENCY-2010---2013-ab-042011-E-250-BlueEFFICIENCY.xhtml?oid=188954780",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.447 and M 271 E 18 DE LA EVO / 271.860. Its standard-production field is 03.2009 / 01.2010 - 04.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 150 kW / 204 DIN/hp at 5500 rpm and 310 Nm at 2000 - 4300 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.447 (2010-2012)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-207-473-188954802",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954802"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954802",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-BlueEFFICIENCY-2011---2013.xhtml?oid=188954802",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.473 and M 278 E 46 DE LA / 278.922. Its standard-production field is 03.2011 / 09.2011 - 03.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.473 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-207-303-188954803",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 G / 651.911 · Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954803"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954803",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250 CDI BlueEFFICIENCY, 2009 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-CDI-BlueEFFICIENCY-2009---2013.xhtml?oid=188954803",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.303 and OM 651 D 22 G / 651.911. Its standard-production field is 04.2008 / 06.2009 - 03.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 150 kW / 204 DIN/hp at 4200 rpm and 500 Nm at 1600 - 1800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 CDI BlueEFFICIENCY, 2009 - 2013 / type 207.303 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-207-348-188954806",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 DEH 18 LA red EVO / 271.860 · Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2012",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954806"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954806",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-CGI-BlueEFFICIENCY-2010---2013-ab-042011-E-200-BlueEFFICIENCY.xhtml?oid=188954806",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.348 and M 271 DEH 18 LA red EVO / 271.860. Its standard-production field is 04.2008 / 03.2010 - 04.2013; the stored 2011-2012 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5250 rpm and 270 Nm at 1800 - 4600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200 CGI BlueEFFICIENCY, 2010 - 2013 (from 04.2011: E 200 BlueEFFICIENCY) / type 207.348 (2011-2012)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-207-347-188954807",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA EVO / 271.860 · Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2012",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310,
+        "rpm": {
+          "min": 2000,
+          "max": 4300
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954807"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954807",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-CGI-BlueEFFICIENCY-2009---2013-ab-042011-E-250-BlueEFFICIENCY.xhtml?oid=188954807",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.347 and M 271 E 18 DE LA EVO / 271.860. Its standard-production field is 04.2008 / 09.2009 - 04.2013; the stored 2010-2012 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 150 kW / 204 DIN/hp at 5500 rpm and 310 Nm at 2000 - 4300 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250 CGI BlueEFFICIENCY, 2009 - 2013 (from 04.2011: E 250 BlueEFFICIENCY) / type 207.347 (2010-2012)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-207-373-188954812",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-188954812"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188954812",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500 BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-BlueEFFICIENCY-2011---2013.xhtml?oid=188954812",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.373 and M 278 E 46 DE LA / 278.922. Its standard-production field is 03.2011 / 09.2011 - 03.2013; the stored 2012 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500 BlueEFFICIENCY, 2011 - 2013 / type 207.373 (2012)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-207-401-189019449",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 SCR Europa / 651.911 · Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015-2016",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189019449"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189019449",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-220-BlueTEC-2014---2016-ab-092015-E-220-d.xhtml?oid=189019449",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.401 and OM 651 D 22 SCR Europa / 651.911. Its standard-production field is 05.2014 / 09.2014 - 12.2016; the stored 2015-2016 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.401 (2015-2016)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-207-434-189019490",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA R / 274.920 · Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2016",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189019490"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189019490",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-2013---2016.xhtml?oid=189019490",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.434 and M 274 E 20 DES LA R / 274.920. Its standard-production field is 11.2012 / 04.2013 - 12.2016; the stored 2014-2016 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5500 rpm and 270 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200, 2013 - 2016 / type 207.434 (2014-2016)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-207-436-189019499",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA / 274.920 · Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2016",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189019499"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189019499",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-2013---2016.xhtml?oid=189019499",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.436 and M 274 E 20 DES LA / 274.920. Its standard-production field is 12.2012 / 04.2013 - 12.2016; the stored 2014-2016 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250, 2013 - 2016 / type 207.436 (2014-2016)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m276-850-207-461-189019513",
+    "code": "M276.850",
+    "aliases": [
+      "M 276 E 35 DES LA G / 276.850 · Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015-2016",
+    "displacement": "3.5 L · 3,498 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M276.850 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.5 L · 3,498 cc engine documented for Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M276.850: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; aplicación documentada: Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M276.850 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc ; application documentée : Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M276.850: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; dokumentierte Anwendung: Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 245,
+        "max": 245,
+        "rpm": {
+          "min": 5250,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189019513"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189019513",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 400, 2014 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-400-2014---2016.xhtml?oid=189019513",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.461 and M 276 E 35 DES LA G / 276.850. Its standard-production field is 03.2014 / 09.2014 - 12.2016; the stored 2015-2016 interval contains only complete calendar years inside that documented period. The card publishes 3498 cc, 6 / 60° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 245 kW / 333 DIN/hp at 5250 - 6000 rpm and 480 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 24 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M276.850"
+            ],
+            "applications": [
+              "Mercedes-Benz E 400, 2014 - 2016 / type 207.461 (2015-2016)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-207-473-189019515",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2016",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189019515"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189019515",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-2013---2016.xhtml?oid=189019515",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.473 and M 278 E 46 DE LA / 278.922. Its standard-production field is 04.2013 - 12.2016; the stored 2014-2016 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500, 2013 - 2016 / type 207.473 (2014-2016)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-207-301-189019531",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 SCR Europa / 651.911 · Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015-2016",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189019531"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189019531",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-220-BlueTEC-2014---2016-ab-092015-E-220-d.xhtml?oid=189019531",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.301 and OM 651 D 22 SCR Europa / 651.911. Its standard-production field is 02.2014 / 09.2014 - 12.2016; the stored 2015-2016 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz E 220 BlueTEC, 2014 - 2016 (from 09.2015: E 220 d) / type 207.301 (2015-2016)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-207-334-189021844",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA R / 274.920 · Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2016",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189021844"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189021844",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 200, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-200-2013---2016.xhtml?oid=189021844",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.334 and M 274 E 20 DES LA R / 274.920. Its standard-production field is 11.2012 / 04.2013 - 12.2016; the stored 2014-2016 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5500 rpm and 270 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 200, 2013 - 2016 / type 207.334 (2014-2016)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-207-336-189021845",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DES LA / 274.920 · Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2016",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189021845"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189021845",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 250, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-250-2013---2016.xhtml?oid=189021845",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.336 and M 274 E 20 DES LA / 274.920. Its standard-production field is 11.2012 / 04.2013 - 12.2016; the stored 2014-2016 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz E 250, 2013 - 2016 / type 207.336 (2014-2016)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m276-850-207-361-189021869",
+    "code": "M276.850",
+    "aliases": [
+      "M 276 E 35 DES LA G / 276.850 · Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "3.5 L · 3,498 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M276.850 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.5 L · 3,498 cc engine documented for Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M276.850: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; aplicación documentada: Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M276.850 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc ; application documentée : Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M276.850: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; dokumentierte Anwendung: Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 245,
+        "max": 245,
+        "rpm": {
+          "min": 5250,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189021869"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189021869",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 400, 2014 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2014,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-400-2014---2016.xhtml?oid=189021869",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.361 and M 276 E 35 DES LA G / 276.850. Its standard-production field is 08.2014 / 09.2014 - 10.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 3498 cc, 6 / 60° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 245 kW / 333 DIN/hp at 5250 - 6000 rpm and 480 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 24 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M276.850"
+            ],
+            "applications": [
+              "Mercedes-Benz E 400, 2014 - 2016 / type 207.361 (2015)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m278-922-207-373-189021981",
+    "code": "M278.922",
+    "aliases": [
+      "M 278 E 46 DE LA / 278.922 · Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2016",
+    "displacement": "4.7 L · 4,663 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M278.922 is the V8 · DOHC per bank · 32 valves · 4 camshafts total 4.7 L · 4,663 cc engine documented for Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; aplicación documentada: Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M278.922 : V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc ; application documentée : Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M278.922: V8 · DOHC per bank · 32 valves · 4 camshafts total, 4.7 L · 4,663 cc; dokumentierte Anwendung: Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 5000,
+          "max": 5750
+        }
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600,
+        "rpm": {
+          "min": 1600,
+          "max": 4750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189021981"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2016
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189021981",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "E 500, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/E-500-2013---2016.xhtml?oid=189021981",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 207.373 and M 278 E 46 DE LA / 278.922. Its standard-production field is 04.2013 - 12.2016; the stored 2014-2016 interval contains only complete calendar years inside that documented period. The card publishes 4663 cc, 8 / 90° V, four-stroke petrol engine with two turbochargers and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 300 kW / 408 DIN/hp at 5000 - 5750 rpm and 600 Nm at 1600 - 4750 rpm. 4 valves per cylinder yield 32 valves total; “2 overhead camshafts per cylinder bank (variably adjustable)” yields 4 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M278.922"
+            ],
+            "applications": [
+              "Mercedes-Benz E 500, 2013 - 2016 / type 207.373 (2014-2016)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-913-204-001-189266521",
+    "code": "OM651.913",
+    "aliases": [
+      "OM 651 D 22 red./ 651.913 · Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.913 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.913: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.913 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.913: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189266521"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266521",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-200-CDI-BlueEFFICIENCY-2011---2014-ab-2013-C-200-CDI.xhtml?oid=189266521",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.001 and OM 651 D 22 red./ 651.913. Its standard-production field is 01.2011 - 03.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1600 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.913"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.001 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-204-002-189266522",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 / 651.911 · Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189266522"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266522",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-220-CDI-BlueEFFICIENCY-2011---2014-ab-2013-C-220-CDI.xhtml?oid=189266522",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.002 and OM 651 D 22 / 651.911. Its standard-production field is 01.2011 - 04.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.002 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-910-204-031-189266529",
+    "code": "M274.910",
+    "aliases": [
+      "M 274 E 16 DEH LA / 274.910 · Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189266529"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266529",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-180-BlueEFFICIENCY-2012---2014-ab-2013-C-180.xhtml?oid=189266529",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.031 and M 274 E 16 DEH LA / 274.910. Its standard-production field is 01.2012 / 06.2012 - 04.2014; the stored 2013 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.910"
+            ],
+            "applications": [
+              "Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.031 (2013)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-204-048-189266530",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA red / 271.860 · Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189266530"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266530",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-200-BlueEFFICIENCY-2011---2014-ab-2013-C-200.xhtml?oid=189266530",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.048 and M 271 E 18 DE LA red / 271.860. Its standard-production field is 01.2011 - 04.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5250 rpm and 270 Nm at 1800 - 4600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.048 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-204-047-189266531",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA / 271.860 · Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310,
+        "rpm": {
+          "min": 2000,
+          "max": 4300
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189266531"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266531",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-250-BlueEFFICIENCY-2011---2014-ab-2013-C-250.xhtml?oid=189266531",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.047 and M 271 E 18 DE LA / 271.860. Its standard-production field is 01.2011 - 06.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 150 kW / 204 DIN/hp at 5500 rpm and 310 Nm at 2000 - 4300 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.047 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-913-204-201-189508160",
+    "code": "OM651.913",
+    "aliases": [
+      "OM 651 DE 22 LA red./ 651.913 · Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.913 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.913: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.913 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.913: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508160"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508160",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 200 CDI BlueEFFICIENCY, 2009 - 2011",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-200-CDI-BlueEFFICIENCY-2009---2011.xhtml?oid=189508160",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.201 and OM 651 DE 22 LA red./ 651.913. Its standard-production field is 07.2009 / 12.2009 - 01.2011; the stored 2010 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1600 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.913"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 CDI BlueEFFICIENCY, 2009 - 2011 / type 204.201 (2010)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2011
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-952-204-246-189508181",
+    "code": "M271.952",
+    "aliases": [
+      "M 271 E 18 ML LR / 271.952 · Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2008",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.952 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.952: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.952 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.952: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508181"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508181",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 180 KOMPRESSOR, 2007 - 2008",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2007,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-180-KOMPRESSOR-2007---2008.xhtml?oid=189508181",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.246 and M 271 E 18 ML LR / 271.952. Its standard-production field is 03.2007 / 09.2007 - 12.2008; the stored 2008 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with compressor and intercooler, intake duct injection (microprocessor-controlled injection system with hot-film air-mass measurement), 115 kW / 156 DIN/hp at 5200 rpm and 230 Nm at 2500 - 4200 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.952"
+            ],
+            "applications": [
+              "Mercedes-Benz C 180 KOMPRESSOR, 2007 - 2008 / type 204.246 (2008)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2008
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-913-204-201-189508210",
+    "code": "OM651.913",
+    "aliases": [
+      "OM 651 D 22 red,2 / 651.913 · Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.913 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.913: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.913 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.913: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2800,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508210"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508210",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-200-CDI-BlueEFFICiENCY-2011---2014-ab-2013-C-200-CDI.xhtml?oid=189508210",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.201 and OM 651 D 22 red,2 / 651.913. Its standard-production field is 01.2011 - 03.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 100 kW / 136 DIN/hp at 2800 - 4600 rpm and 360 Nm at 1600 - 2600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.913"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 CDI BlueEFFICiENCY, 2011 - 2014 (from 2013: C 200 CDI) / type 204.201 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-204-202-189508213",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 / 651.911 · Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508213"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508213",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-220-CDI-BlueEFFICIENCY-2011---2014-ab-2013-C-220-CDI.xhtml?oid=189508213",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.202 and OM 651 D 22 / 651.911. Its standard-production field is 01.2011 - 03.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz C 220 CDI BlueEFFICIENCY, 2011 - 2014 (from 2013: C 220 CDI) / type 204.202 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-910-204-231-189508220",
+    "code": "M274.910",
+    "aliases": [
+      "M 274 E 16 DEH LA / 274.910 · Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508220"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508220",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-180-BlueEFFICIENCY-2012---2014-ab-2013-C-180.xhtml?oid=189508220",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.231 and M 274 E 16 DEH LA / 274.910. Its standard-production field is 02.2012 / 06.2012 - 03.2014; the stored 2013 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.910"
+            ],
+            "applications": [
+              "Mercedes-Benz C 180 BlueEFFICIENCY, 2012 - 2014 (from 2013: C 180) / type 204.231 (2013)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-204-248-189508221",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA red / 271.860 · Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508221"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508221",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-200-BlueEFFICIENCY-2011---2014-ab-2013-C-200.xhtml?oid=189508221",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.248 and M 271 E 18 DE LA red / 271.860. Its standard-production field is 01.2011 - 03.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5250 rpm and 270 Nm at 1800 - 4600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 200) / type 204.248 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-204-247-189508222",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA / 271.860 · Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310,
+        "rpm": {
+          "min": 2000,
+          "max": 4300
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189508222"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189508222",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-250-BlueEFFICIENCY-2011---2014-ab-2013-C-250.xhtml?oid=189508222",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.247 and M 271 E 18 DE LA / 271.860. Its standard-production field is 01.2011 - 03.2014; the stored 2011-2013 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 150 kW / 204 DIN/hp at 5500 rpm and 310 Nm at 2000 - 4300 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz C 250 BlueEFFICIENCY, 2011 - 2014 (from 2013: C 250) / type 204.247 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-911-204-302-189638968",
+    "code": "OM651.911",
+    "aliases": [
+      "OM 651 D 22 / 651.911 · Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2014",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.911 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.911 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.911: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189638968"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189638968",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-220-CDI-BlueEFFICIENCY-Coup-2011---2015-ab-2013-C-220-CDI-Coup.xhtml?oid=189638968",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.302 and OM 651 D 22 / 651.911. Its standard-production field is 09.2010 / 03.2011 - 06.2015; the stored 2012-2014 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3000 - 4200 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.911"
+            ],
+            "applications": [
+              "Mercedes-Benz C 220 CDI BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 220 CDI Coupé) / type 204.302 (2012-2014)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-910-204-331-189638971",
+    "code": "M274.910",
+    "aliases": [
+      "M 274 E 16 DEH LA / 274.910 · Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189638971"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189638971",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-180-BlueEFFICIENCY-Coup-2012---2015-ab-2013-C-180-Coup.xhtml?oid=189638971",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.331 and M 274 E 16 DEH LA / 274.910. Its standard-production field is 02.2012 / 06.2012 - 06.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.910"
+            ],
+            "applications": [
+              "Mercedes-Benz C 180 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 180 Coupé) / type 204.331 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-204-348-189638972",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA red, 2 / 271.860 · Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189638972"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189638972",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-200-BlueEFFICIENCY-Coup-2012---2015-ab-2013-C-200-Coup.xhtml?oid=189638972",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.348 and M 271 E 18 DE LA red, 2 / 271.860. Its standard-production field is 03.2012 / 06.2012 - 05.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5250 rpm and 270 Nm at 1800 - 4600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz C 200 BlueEFFICIENCY Coupé, 2012 - 2015 (from 2013: C 200 Coupé) / type 204.348 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-860-204-347-189638973",
+    "code": "M271.860",
+    "aliases": [
+      "M 271 E 18 DE LA / 271.860 · Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2014",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.860 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.860 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.860: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310,
+        "rpm": {
+          "min": 2000,
+          "max": 4300
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189638973"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189638973",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-250-BlueEFFICIENCY-Coup-2011---2015-ab-2013-C-250-Coup.xhtml?oid=189638973",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.347 and M 271 E 18 DE LA / 271.860. Its standard-production field is 08.2010 / 03.2011 - 06.2015; the stored 2012-2014 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 150 kW / 204 DIN/hp at 5500 rpm and 310 Nm at 2000 - 4300 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.860"
+            ],
+            "applications": [
+              "Mercedes-Benz C 250 BlueEFFICIENCY Coupé, 2011 - 2015 (from 2013: C 250 Coupé) / type 204.347 (2012-2014)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-911-203-731-189648401",
+    "code": "M271.911",
+    "aliases": [
+      "M 271 KE 16 ML / 271.911 · Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "1.6 L · 1,597 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.911 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,597 cc engine documented for Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.911: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc; aplicación documentada: Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.911 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc ; application documentée : Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.911: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc; dokumentierte Anwendung: Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 2500,
+          "max": 3800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189648401"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189648401",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLC-160-BlueEFFICIENCY-Sportcoup-2009---2010.xhtml?oid=189648401",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 203.731 and M 271 KE 16 ML / 271.911. Its standard-production field is 11.2008 / 03.2009 - 12.2010; the stored 2010 interval contains only complete calendar years inside that documented period. The card publishes 1597 cc, 4 / in-line, four-stroke petrol engine with supercharger and intercooler, intake duct injection (microprocessor-controlled injection system with hot-film air-mass measurement), 95 kW / 129 DIN/hp at 5000 rpm and 220 Nm at 2500 - 3800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.911"
+            ],
+            "applications": [
+              "Mercedes-Benz CLC 160 BlueEFFICIENCY Sports Coupé, 2009 - 2010 / type 203.731 (2010)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2010
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-946-203-746-189648402",
+    "code": "M271.946",
+    "aliases": [
+      "M 271 E 18 ML LR / 271.946 · Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2008-2010",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.946 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.946: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.946 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.946: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 2500,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189648402"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189648402",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2008,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLC-180-KOMPRESSOR-Sportcoup-2008---2010.xhtml?oid=189648402",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 203.746 and M 271 E 18 ML LR / 271.946. Its standard-production field is 01.2008 - 12.2010; the stored 2008-2010 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with supercharger and intercooler, intake duct injection (microprocessor-controlled injection system with hot-film air-mass measurement), 105 kW / 143 DIN/hp at 5200 rpm and 220 Nm at 2500 - 4200 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.946"
+            ],
+            "applications": [
+              "Mercedes-Benz CLC 180 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.746 (2008-2010)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2010
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-957-203-741-189648405",
+    "code": "M271.957",
+    "aliases": [
+      "M 271 E 18 ML / 271.957 · Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2008-2010",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.957 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.957: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.957 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.957: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 2800,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189648405"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189648405",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2008,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLC-200-KOMPRESSOR-Sportcoup-2008---2010.xhtml?oid=189648405",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 203.741 and M 271 E 18 ML / 271.957. Its standard-production field is 08.2007 / 01.2008 - 12.2010; the stored 2008-2010 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with supercharger and intercooler, intake duct injection (microprocessor-controlled injection system with hot-film air-mass measurement), 135 kW / 184 DIN/hp at 5500 rpm and 250 Nm at 2800 - 5000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.957"
+            ],
+            "applications": [
+              "Mercedes-Benz CLC 200 KOMPRESSOR Sports Coupé, 2008 - 2010 / type 203.741 (2008-2010)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2010
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-916-204-901-189873142",
+    "code": "OM651.916",
+    "aliases": [
+      "OM 651 D 22 red / 651.916 · Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.916 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.916: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.916 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.916: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873142"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873142",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 200 CDI BlueEFFICIENCY, 2010 - 2012",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-200-CDI-BlueEFFICIENCY-2010---2012.xhtml?oid=189873142",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.901 and OM 651 D 22 red / 651.916. Its standard-production field is 06.2010 / 09.2010 - 05.2012; the stored 2011 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 105 kW / 143 DIN/hp at 3200 rpm and 350 Nm at 1200 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.916"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2010 - 2012 / type 204.901 (2011)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2012
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-916-204-902-189873143",
+    "code": "OM651.916",
+    "aliases": [
+      "OM 651 D 22 / 651.916 · Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010-2011",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.916 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.916: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.916 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.916: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3200,
+          "max": 4800
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873143"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2011
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873143",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 220 CDI BlueEFFICIENCY, 2009 - 2012",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-220-CDI-BlueEFFICIENCY-2009---2012.xhtml?oid=189873143",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.902 and OM 651 D 22 / 651.916. Its standard-production field is 06.2008 / 09.2009 - 05.2012; the stored 2010-2011 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3200 - 4800 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.916"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 220 CDI BlueEFFICIENCY, 2009 - 2012 / type 204.902 (2010-2011)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2012
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-912-204-984-189873144",
+    "code": "OM651.912",
+    "aliases": [
+      "OM 651 D 22 / 651.912 · Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2009-2011",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.912 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.912: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.912 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.912: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125,
+        "rpm": {
+          "min": 3200,
+          "max": 4800
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1400,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873144"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011)"
+        ],
+        "years": {
+          "from": 2009,
+          "to": 2011
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873144",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2009,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-220-CDI-4MATIC-BlueEFFICIENCY-2009---2012.xhtml?oid=189873144",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.984 and OM 651 D 22 / 651.912. Its standard-production field is 05.2008 / 01.2009 - 05.2012; the stored 2009-2011 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 125 kW / 170 DIN/hp at 3200 - 4800 rpm and 400 Nm at 1400 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.912"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 220 CDI 4MATIC BlueEFFICIENCY, 2009 - 2012 / type 204.984 (2009-2011)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2012
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-912-204-982-189873145",
+    "code": "OM651.912",
+    "aliases": [
+      "OM 651 D 22 / 651.912 · Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.912 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.912: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.912 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.912: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873145"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873145",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-250-CDI-4MATIC-BlueEFFICIENCY-2010---2012.xhtml?oid=189873145",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.982 and OM 651 D 22 / 651.912. Its standard-production field is 11.2007 / 02.2010 - 06.2012; the stored 2011 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 150 kW / 204 DIN/hp at 4200 rpm and 500 Nm at 1600 - 1800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.912"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2012 / type 204.982 (2011)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2012
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-916-204-901-189873158",
+    "code": "OM651.916",
+    "aliases": [
+      "OM 651 D 22 red / 651.916 · Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.916 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.916: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.916 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.916: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105,
+        "rpm": {
+          "min": 3200,
+          "max": 4600
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873158"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873158",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-200-CDI-BlueEFFICIENCY-2012---2015-ab-042013-GLK-200-CDI.xhtml?oid=189873158",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.901 and OM 651 D 22 red / 651.916. Its standard-production field is 06.2012 - 06.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with turbocharger and intercooler, cylinder direct injection (common rail), 105 kW / 143 DIN/hp at 3200 - 4600 rpm and 350 Nm at 1200 - 2800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.916"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 200 CDI BlueEFFICIENCY, 2012 - 2015 (from 04.2013: GLK 200 CDI) / type 204.901 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-204-934-189873471",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DEH LA R / 274.920 · Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873471"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873471",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 200, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-200-2013---2015.xhtml?oid=189873471",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.934 and M 274 E 20 DEH LA R / 274.920. Its standard-production field is 07.2013 / 12.2013 - 10.2015; the stored 2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5500 rpm and 300 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 200, 2013 - 2015 / type 204.934 (2014)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-204-936-189873472",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DEH LA / 274.920 · Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873472"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873472",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 250, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-250-2013---2015.xhtml?oid=189873472",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.936 and M 274 E 20 DEH LA / 274.920. Its standard-production field is 11.2013 / 12.2013 - 05.2015; the stored 2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 250, 2013 - 2015 / type 204.936 (2014)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m274-920-204-937-189873473",
+    "code": "M274.920",
+    "aliases": [
+      "M 274 E 20 DEH LA / 274.920 · Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M274.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M274.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M274.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-189873473"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189873473",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "GLK 250 4MATIC, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/GLK-250-4MATIC-2013---2015.xhtml?oid=189873473",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 204.937 and M 274 E 20 DEH LA / 274.920. Its standard-production field is 02.2013 / 06.2013 - 12.2015; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M274.920"
+            ],
+            "applications": [
+              "Mercedes-Benz GLK 250 4MATIC, 2013 - 2015 / type 204.937 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-176-042-190028342",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 R / 270.910 · Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190028342"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190028342",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-180-BlueEFFICIENCY-2012---2015-ab-2013-A-180.xhtml?oid=190028342",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.042 and M 270 E 16 R / 270.910. Its standard-production field is 07.2011 / 07.2012 - 09.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 90 kW / 122 DIN/hp at 5000 rpm and 200 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz A 180 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 180) / type 176.042 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-176-043-190028343",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 / 270.910 · Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190028343"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190028343",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-200-BlueEFFICIENCY-2012---2015-ab-2013-A-200.xhtml?oid=190028343",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.043 and M 270 E 16 / 270.910. Its standard-production field is 06.2011 / 07.2012 - 09.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz A 200 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 200) / type 176.043 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-176-044-190028345",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA/ 270.920 · Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190028345"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190028345",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-250-BlueEFFICIENCY-2012---2015-ab-2013-A-250.xhtml?oid=190028345",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.044 and M 270 E 20 DEH LA/ 270.920. Its standard-production field is 06.2011 / 06.2012 - 09.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz A 250 BlueEFFICIENCY, 2012 - 2015 (from 2013: A 250) / type 176.044 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-176-046-190028346",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA/ 270.920 · Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190028346"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190028346",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 250 4MATIC, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-250-4MATIC-2013---2015.xhtml?oid=190028346",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.046 and M 270 E 20 DEH LA/ 270.920. Its standard-production field is 08.2011 / 06.2013 - 09.2015; the stored 2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz A 250 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m133-980-176-052-190028347",
+    "code": "M133.980",
+    "aliases": [
+      "M 133 DEH 20 LA / 133.980 · Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M133.980 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M133.980: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M133.980 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M133.980: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 265,
+        "max": 265,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 2250,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190028347"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190028347",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 45 AMG 4MATIC, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-45-AMG-4MATIC-2013---2015.xhtml?oid=190028347",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.052 and M 133 DEH 20 LA / 133.980. Its standard-production field is 07.2011 / 03.2013 - 09.2015; the stored 2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 265 kW / 360 DIN/hp at 6000 rpm and 450 Nm at 2250 - 5000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M133.980"
+            ],
+            "applications": [
+              "Mercedes-Benz A 45 AMG 4MATIC, 2013 - 2015 / type 176.052 (2014)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-117-342-190140631",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 DEH LA R / 270.910 · Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190140631"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190140631",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 180, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-180-2013---2016.xhtml?oid=190140631",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.342 and M 270 E 16 DEH LA R / 270.910. Its standard-production field is 06.2012 / 02.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 90 kW / 122 DIN/hp at 5000 rpm and 200 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 180, 2013 - 2016 / type 117.342 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-117-343-190140632",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 DEH LA / 270.910 · Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190140632"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190140632",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 200, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-200-2013---2016.xhtml?oid=190140632",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.343 and M 270 E 16 DEH LA / 270.910. Its standard-production field is 06.2012 / 02.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 200, 2013 - 2016 / type 117.343 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-117-344-190140633",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA (from 06.2014: M 270 E 20 DES LA / 270.920 · Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190140633"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190140633",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 250, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-250-2013---2016.xhtml?oid=190140633",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.344 and M 270 E 20 DEH LA (from 06.2014: M 270 E 20 DES LA / 270.920. Its standard-production field is 06.2012 / 01.2013 - 05.2016; the stored 2013-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 250, 2013 - 2016 / type 117.344 (2013-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-117-346-190140634",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA / 270.920 · Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014-2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190140634"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190140634",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 250 4MATIC, 2013 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-250-4MATIC-2013---2016.xhtml?oid=190140634",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.346 and M 270 E 20 DEH LA / 270.920. Its standard-production field is 06.2012 / 08.2013 - 05.2016; the stored 2014-2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 250 4MATIC, 2013 - 2016 / type 117.346 (2014-2015)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-117-942-190341569",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 DEH LA R / 270.910 · Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190341569"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190341569",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 180, 2015 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2015,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-180-2015---2016.xhtml?oid=190341569",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.942 and M 270 E 16 DEH LA R / 270.910. Its standard-production field is 06.2014 / 01.2015 - 05.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 90 kW / 122 DIN/hp at 5000 rpm and 200 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 180, 2015 - 2016 / type 117.942 (2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-117-943-190341570",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 DEH LA / 270.910 · Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190341570"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190341570",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 200, 2015 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2015,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-200-2015---2016.xhtml?oid=190341570",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.943 and M 270 E 16 DEH LA / 270.910. Its standard-production field is 12.2013 / 01.2015 - 05.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 200, 2015 - 2016 / type 117.943 (2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-117-944-190341571",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DES LA) / 270.920 · Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190341571"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190341571",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 250, 2015 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2015,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-250-2015---2016.xhtml?oid=190341571",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.944 and M 270 E 20 DES LA) / 270.920. Its standard-production field is 12.2013 / 01.2015 - 05.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 250, 2015 - 2016 / type 117.944 (2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-117-946-190341572",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA / 270.920 · Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-190341572"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-190341572",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "CLA 250 4MATIC, 2015 - 2016",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2015,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/CLA-250-4MATIC-2015---2016.xhtml?oid=190341572",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 117.946 and M 270 E 20 DEH LA / 270.920. Its standard-production field is 12.2013 / 01.2015 - 05.2016; the stored 2015 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz CLA 250 4MATIC, 2015 - 2016 / type 117.946 (2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-861-172-448-192007450",
+    "code": "M271.861",
+    "aliases": [
+      "M 271 E 18 DE LA / 271.861 · Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2014",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.861 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.861: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.861 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.861: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1800,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192007450"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192007450",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/SLK-200-BlueEFFICIENCY-2010---2015-ab-ca-042013-SLK-200.xhtml?oid=192007450",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 172.448 and M 271 E 18 DE LA / 271.861. Its standard-production field is 03.2010 / 12.2010 - 07.2015; the stored 2011-2014 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 135 kW / 184 DIN/hp at 5250 rpm and 270 Nm at 1800 - 4600 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.861"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 200 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 200) / type 172.448 (2011-2014)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-861-172-447-192007453",
+    "code": "M271.861",
+    "aliases": [
+      "M 271 E 18 DE LA / 271.861 · Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2014",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.861 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.861: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.861 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.861: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310,
+        "rpm": {
+          "min": 2000,
+          "max": 4300
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192007453"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192007453",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/SLK-250-BlueEFFICIENCY-2010---2015-ab-ca-042013-SLK-250.xhtml?oid=192007453",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 172.447 and M 271 E 18 DE LA / 271.861. Its standard-production field is 03.2010 / 12.2010 - 06.2015; the stored 2011-2014 interval contains only complete calendar years inside that documented period. The card publishes 1796 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (gasoline direct injection), 150 kW / 204 DIN/hp at 5500 rpm and 310 Nm at 2000 - 4300 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.861"
+            ],
+            "applications": [
+              "Mercedes-Benz SLK 250 BlueEFFICIENCY, 2010 - 2015 (from approx. 04.2013: SLK 250) / type 172.447 (2011-2014)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-176-044-192245619",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA/ 270.920 · Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013-2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192245619"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192245619",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 250 Sport, 2012 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-250-Sport-2012---2015.xhtml?oid=192245619",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.044 and M 270 E 20 DEH LA/ 270.920. Its standard-production field is 06.2011 / 06.2012 - 09.2015; the stored 2013-2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz A 250 Sport, 2012 - 2015 / type 176.044 (2013-2014)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-176-046-192245620",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 DEH LA/ 270.920 · Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192245620"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192245620",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "A 250 Sport 4MATIC, 2013 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2013,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/A-250-Sport-4MATIC-2013---2015.xhtml?oid=192245620",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 176.046 and M 270 E 20 DEH LA/ 270.920. Its standard-production field is 08.2011 / 06.2013 - 09.2015; the stored 2014 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz A 250 Sport 4MATIC, 2013 - 2015 / type 176.046 (2014)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-246-242-192287786",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 R / 270.910 · Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2013",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192287786"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192287786",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/B-180-BlueEFFICIENCY-2011---2014-ab-ca-042013-B-180.xhtml?oid=192287786",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 246.242 and M 270 E 16 R / 270.910. Its standard-production field is 12.2010 / 08.2011 - 10.2014; the stored 2012-2013 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 90 kW / 122 DIN/hp at 5000 rpm and 200 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz B 180 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 180) / type 246.242 (2012-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-910-246-243-192287787",
+    "code": "M270.910",
+    "aliases": [
+      "M 270 E 16 / 270.910 · Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2013",
+    "displacement": "1.6 L · 1,595 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.910 is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,595 cc engine documented for Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; aplicación documentada: Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.910 : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc ; application documentée : Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.910: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,595 cc; dokumentierte Anwendung: Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5300,
+          "max": 5300
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1250,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192287787"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192287787",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/B-200-BlueEFFICIENCY-2011---2014-ab-ca-042013-B-200.xhtml?oid=192287787",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 246.243 and M 270 E 16 / 270.910. Its standard-production field is 12.2010 / 08.2011 - 10.2014; the stored 2012-2013 interval contains only complete calendar years inside that documented period. The card publishes 1595 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 115 kW / 156 DIN/hp at 5300 rpm and 250 Nm at 1250 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.910"
+            ],
+            "applications": [
+              "Mercedes-Benz B 200 BlueEFFICIENCY, 2011 - 2014 (from approx. 04.2013: B 200) / type 246.243 (2012-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m270-920-246-244-192287791",
+    "code": "M270.920",
+    "aliases": [
+      "M 270 E 20 LA / 270.920 · Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2.0 L · 1,991 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M270.920 is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,991 cc engine documented for Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; aplicación documentada: Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M270.920 : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc ; application documentée : Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M270.920: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,991 cc; dokumentierte Anwendung: Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1200,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192287791"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192287791",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250)",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/B-250-BlueEFFICIENCY-2012---2014-ab-ca-042013-B-250.xhtml?oid=192287791",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 246.244 and M 270 E 20 LA / 270.920. Its standard-production field is 10.2011 / 08.2012 - 10.2014; the stored 2013 interval contains only complete calendar years inside that documented period. The card publishes 1991 cc, 4 / in-line, four-stroke petrol engine with turbocharger and intercooler, cylinder direct injection (spray-guided gasoline direct injection with piezo-controlled injectors), 155 kW / 211 DIN/hp at 5500 rpm and 350 Nm at 1200 - 4000 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts (variably adjustable)” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M270.920"
+            ],
+            "applications": [
+              "Mercedes-Benz B 250 BlueEFFICIENCY, 2012 - 2014 (from approx. 04.2013: B 250) / type 246.244 (2013)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2014
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-960-166-004-192703093",
+    "code": "OM651.960",
+    "aliases": [
+      "OM 651 DE 22 LA SCR / 651.960 · Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014)"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2014",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.960 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.960: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.960 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.960: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mb-publicarchive-192703093"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2014
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-192703093",
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "title": "ML 250 BlueTEC 4MATIC, 2011 - 2015",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/ML-250-BlueTEC-4MATIC-2011---2015.xhtml?oid=192703093",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The exact archive card identifies type 166.004 and OM 651 DE 22 LA SCR / 651.960. Its standard-production field is 11.2010 / 06.2011 - 06.2015; the stored 2012-2014 interval contains only complete calendar years inside that documented period. The card publishes 2143 cc, 4 / in-line, four-stroke diesel engine with two-stage turbocharger and intercooler, cylinder direct injection (common rail), 150 kW / 204 DIN/hp at 4200 rpm and 500 Nm at 1600 - 1800 rpm. 4 valves per cylinder yield 16 valves total; “2 overhead camshafts” yields 2 camshafts total.",
+            "The archive card does not specify a sales market. Unspecified denotes only this exact archived specification and does not claim worldwide or inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.960"
+            ],
+            "applications": [
+              "Mercedes-Benz ML 250 BlueTEC 4MATIC, 2011 - 2015 / type 166.004 (2012-2014)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2015
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "toyota-1zz-fe",
     "code": "1ZZ-FE",
     "aliases": [
@@ -43297,6 +56641,601 @@ window.AUTOHUB_ENGINE_DATA = {
             },
             "markets": [
               "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-l3-vdt-mpv-23t-2006",
+    "code": "L3-VDT",
+    "aliases": [
+      "L3-VDT (Mazda MPV 23T Japan 2006)"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2006",
+    "displacement": "2.3 L · 2,260 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mazda-mpv-2006-l3-vdt"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mazda-mpv-2006-l3-vdt",
+          "title": "Mazda Launches All-New MPV in Japan",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2006,
+          "url": "https://newsroom.mazda.com/en/publicity/release/2006/200602/060202.html",
+          "page": 1,
+          "pageNotes": [
+            "The official Japan launch table binds L3-VDT to the MPV 23T FWD six-speed Activematic specification and publishes a 2,260 cc water-cooled inline-four DOHC 16-valve DISI turbo petrol engine, 180 kW at 5,000 rpm and 350 N·m at 2,500 rpm. DOHC on the single inline cylinder head means two camshafts total."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L3-VDT"
+            ],
+            "applications": [
+              "Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-l3-vdt-mazdaspeed-axela-2006",
+    "code": "L3-VDT",
+    "aliases": [
+      "L3-VDT (Mazdaspeed Axela Japan 2006)"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2006",
+    "displacement": "2.3 L · 2,260 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 194,
+        "max": 194,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mazda-axela-2006-l3-vdt"
+      ],
+      "scope": {
+        "applications": [
+          "Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mazda-axela-2006-l3-vdt",
+          "title": "Mazda Launches Freshened Mazda Axela in Japan",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2006,
+          "url": "https://newsroom.mazda.com/en/publicity/release/2006/200606/060606.html",
+          "page": 1,
+          "pageNotes": [
+            "The official Japan specification table binds L3-VDT to the Mazdaspeed Axela FWD 6MT and publishes a 2,260 cc water-cooled inline-four DOHC 16-valve DISI turbo petrol engine, 194 kW at 5,500 rpm and 380 N·m at 3,000 rpm. DOHC on the single inline cylinder head means two camshafts total."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L3-VDT"
+            ],
+            "applications": [
+              "Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mazda-l3-vdt-cx7-2006",
+    "code": "L3-VDT",
+    "aliases": [
+      "L3-VDT (Mazda CX-7 Japan 2006)"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2006",
+    "displacement": "2.3 L · 2,260 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 175,
+        "max": 175,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "mazda-cx7-2006-l3-vdt"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mazda-cx7-2006-l3-vdt",
+          "title": "Mazda Launches New Crossover SUV Mazda CX-7 in Japan",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2006,
+          "url": "https://newsroom.mazda.com/en/publicity/release/2006/200612/061219.html",
+          "page": 1,
+          "pageNotes": [
+            "The official Japan table binds L3-VDT to both named CX-7 grades, FWD and 4WD, with the same six-speed Activematic calibration. It publishes a 2,260 cc water-cooled inline-four DOHC 16-valve direct-injection turbo petrol engine, 175 kW at 5,000 rpm and 350 N·m at 2,500 rpm. DOHC on the single inline cylinder head means two camshafts total."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L3-VDT"
+            ],
+            "applications": [
+              "Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "toyota-g16e-gts-gr-yaris-2020",
+    "code": "G16E-GTS",
+    "aliases": [
+      "G16E-GTS (GR Yaris RZ/RC Japan 2020)"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "1.6 L · 1,618 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "G16E-GTS is the I3 · DOHC · 12 valves · 2 camshafts total 1.6 L · 1,618 cc engine documented for Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; aplicación documentada: Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "G16E-GTS : I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc ; application documentée : Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; dokumentierte Anwendung: Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370,
+        "rpm": {
+          "min": 3000,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "toyota-gr-yaris-launch-2020",
+        "toyota-ttr66-g16e-gts"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "toyota-gr-yaris-launch-2020",
+          "title": "Toyota Announces its Line-up for the New GR Yaris in Japan",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2020,
+          "url": "https://global.toyota/en/newsroom/toyota/32741087.html",
+          "page": 1,
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey"
+          ],
+          "pageNotes": [
+            "The official Japan launch table binds G16E-GTS to GR Yaris RZ and RC with six-speed iMT and GR-FOUR 4WD, and explicitly identifies a 1,618 cc inline-three intercooler turbo direct-injection engine. The record is limited to this 2020 Japan launch specification."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "checkedAt": "2026-10-02",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "G16E-GTS"
+            ],
+            "applications": [
+              "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        },
+        {
+          "id": "toyota-ttr66-g16e-gts",
+          "title": "Development of a High-Performance Engine for the GR Yaris — The New 1.6-Liter Turbocharged Engine",
+          "publisher": "Toyota Motor Corporation",
+          "year": 2021,
+          "url": "https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol66_E.pdf",
+          "page": 112,
+          "pageNotes": [
+            "Toyota Technical Review Vol. 66 identifies G16E-GTS as developed for the GR Yaris. Table 1 publishes inline three-cylinder, four-valve DOHC with roller rocker, 1,618 cc, high-octane fuel, D-4ST, 200 kW at 6,500 rpm and 370 N·m at 3,000-4,600 rpm; the article identifies turbocharging. Four valves per cylinder yield 12 valves total, and DOHC on the single inline head yields two camshafts total."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "G16E-GTS"
+            ],
+            "applications": [
+              "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Japan"
             ]
           }
         }

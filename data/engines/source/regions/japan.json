@@ -17407,6 +17407,601 @@
           }
         ]
       }
+    },
+    {
+      "id": "mazda-l3-vdt-mpv-23t-2006",
+      "code": "L3-VDT",
+      "aliases": [
+        "L3-VDT (Mazda MPV 23T Japan 2006)"
+      ],
+      "maker": "Mazda",
+      "regionKey": "japan",
+      "years": "2006",
+      "displacement": "2.3 L · 2,260 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180,
+          "rpm": {
+            "min": 5000,
+            "max": 5000
+          }
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350,
+          "rpm": {
+            "min": 2500,
+            "max": 2500
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "official",
+        "sourceRefs": [
+          "mazda-mpv-2006-l3-vdt"
+        ],
+        "scope": {
+          "applications": [
+            "Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006)"
+          ],
+          "years": {
+            "from": 2006,
+            "to": 2006
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mazda-mpv-2006-l3-vdt",
+            "title": "Mazda Launches All-New MPV in Japan",
+            "publisher": "Mazda Motor Corporation",
+            "year": 2006,
+            "url": "https://newsroom.mazda.com/en/publicity/release/2006/200602/060202.html",
+            "page": 1,
+            "pageNotes": [
+              "The official Japan launch table binds L3-VDT to the MPV 23T FWD six-speed Activematic specification and publishes a 2,260 cc water-cooled inline-four DOHC 16-valve DISI turbo petrol engine, 180 kW at 5,000 rpm and 350 N·m at 2,500 rpm. DOHC on the single inline cylinder head means two camshafts total."
+            ],
+            "type": "manufacturer",
+            "evidenceTier": "A",
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "L3-VDT"
+              ],
+              "applications": [
+                "Mazda MPV 23T, FWD, 6-speed Activematic (Japan launch specification, 2006)"
+              ],
+              "years": {
+                "from": 2006,
+                "to": 2006
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mazda-l3-vdt-mazdaspeed-axela-2006",
+      "code": "L3-VDT",
+      "aliases": [
+        "L3-VDT (Mazdaspeed Axela Japan 2006)"
+      ],
+      "maker": "Mazda",
+      "regionKey": "japan",
+      "years": "2006",
+      "displacement": "2.3 L · 2,260 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194,
+          "rpm": {
+            "min": 5500,
+            "max": 5500
+          }
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380,
+          "rpm": {
+            "min": 3000,
+            "max": 3000
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "official",
+        "sourceRefs": [
+          "mazda-axela-2006-l3-vdt"
+        ],
+        "scope": {
+          "applications": [
+            "Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006)"
+          ],
+          "years": {
+            "from": 2006,
+            "to": 2006
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mazda-axela-2006-l3-vdt",
+            "title": "Mazda Launches Freshened Mazda Axela in Japan",
+            "publisher": "Mazda Motor Corporation",
+            "year": 2006,
+            "url": "https://newsroom.mazda.com/en/publicity/release/2006/200606/060606.html",
+            "page": 1,
+            "pageNotes": [
+              "The official Japan specification table binds L3-VDT to the Mazdaspeed Axela FWD 6MT and publishes a 2,260 cc water-cooled inline-four DOHC 16-valve DISI turbo petrol engine, 194 kW at 5,500 rpm and 380 N·m at 3,000 rpm. DOHC on the single inline cylinder head means two camshafts total."
+            ],
+            "type": "manufacturer",
+            "evidenceTier": "A",
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "L3-VDT"
+              ],
+              "applications": [
+                "Mazdaspeed Axela, FWD, 6MT (Japan launch specification, 2006)"
+              ],
+              "years": {
+                "from": 2006,
+                "to": 2006
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mazda-l3-vdt-cx7-2006",
+      "code": "L3-VDT",
+      "aliases": [
+        "L3-VDT (Mazda CX-7 Japan 2006)"
+      ],
+      "maker": "Mazda",
+      "regionKey": "japan",
+      "years": "2006",
+      "displacement": "2.3 L · 2,260 cc",
+      "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "L3-VDT is the I4 · DOHC · 16 valves · 2 camshafts total 2.3 L · 2,260 cc engine documented for Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; aplicación documentada: Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "L3-VDT : I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc ; application documentée : Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "L3-VDT: I4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,260 cc; dokumentierte Anwendung: Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 175,
+          "max": 175,
+          "rpm": {
+            "min": 5000,
+            "max": 5000
+          }
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350,
+          "rpm": {
+            "min": 2500,
+            "max": 2500
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "official",
+        "sourceRefs": [
+          "mazda-cx7-2006-l3-vdt"
+        ],
+        "scope": {
+          "applications": [
+            "Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006)"
+          ],
+          "years": {
+            "from": 2006,
+            "to": 2006
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "mazda-cx7-2006-l3-vdt",
+            "title": "Mazda Launches New Crossover SUV Mazda CX-7 in Japan",
+            "publisher": "Mazda Motor Corporation",
+            "year": 2006,
+            "url": "https://newsroom.mazda.com/en/publicity/release/2006/200612/061219.html",
+            "page": 1,
+            "pageNotes": [
+              "The official Japan table binds L3-VDT to both named CX-7 grades, FWD and 4WD, with the same six-speed Activematic calibration. It publishes a 2,260 cc water-cooled inline-four DOHC 16-valve direct-injection turbo petrol engine, 175 kW at 5,000 rpm and 350 N·m at 2,500 rpm. DOHC on the single inline cylinder head means two camshafts total."
+            ],
+            "type": "manufacturer",
+            "evidenceTier": "A",
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "L3-VDT"
+              ],
+              "applications": [
+                "Mazda CX-7 / CX-7 Cruising Package, FWD or 4WD, 6-speed Activematic (Japan launch specification, 2006)"
+              ],
+              "years": {
+                "from": 2006,
+                "to": 2006
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "toyota-g16e-gts-gr-yaris-2020",
+      "code": "G16E-GTS",
+      "aliases": [
+        "G16E-GTS (GR Yaris RZ/RC Japan 2020)"
+      ],
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "years": "2020",
+      "displacement": "1.6 L · 1,618 cc",
+      "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "G16E-GTS is the I3 · DOHC · 12 valves · 2 camshafts total 1.6 L · 1,618 cc engine documented for Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+          "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+          "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+          "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+        },
+        "es": {
+          "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; aplicación documentada: Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+          "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+          "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+          "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+        },
+        "fr": {
+          "construction": "G16E-GTS : I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc ; application documentée : Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+          "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+          "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+          "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+        },
+        "de": {
+          "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; dokumentierte Anwendung: Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020).",
+          "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+          "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+          "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 200,
+          "max": 200,
+          "rpm": {
+            "min": 6500,
+            "max": 6500
+          }
+        },
+        "torqueNm": {
+          "min": 370,
+          "max": 370,
+          "rpm": {
+            "min": 3000,
+            "max": 4600
+          }
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "official",
+        "sourceRefs": [
+          "toyota-gr-yaris-launch-2020",
+          "toyota-ttr66-g16e-gts"
+        ],
+        "scope": {
+          "applications": [
+            "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+          ],
+          "years": {
+            "from": 2020,
+            "to": 2020
+          },
+          "markets": [
+            "Japan"
+          ]
+        },
+        "sources": [
+          {
+            "id": "toyota-gr-yaris-launch-2020",
+            "title": "Toyota Announces its Line-up for the New GR Yaris in Japan",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2020,
+            "url": "https://global.toyota/en/newsroom/toyota/32741087.html",
+            "page": 1,
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey"
+            ],
+            "pageNotes": [
+              "The official Japan launch table binds G16E-GTS to GR Yaris RZ and RC with six-speed iMT and GR-FOUR 4WD, and explicitly identifies a 1,618 cc inline-three intercooler turbo direct-injection engine. The record is limited to this 2020 Japan launch specification."
+            ],
+            "type": "manufacturer",
+            "evidenceTier": "A",
+            "checkedAt": "2026-10-02",
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "G16E-GTS"
+              ],
+              "applications": [
+                "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+              ],
+              "years": {
+                "from": 2020,
+                "to": 2020
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          },
+          {
+            "id": "toyota-ttr66-g16e-gts",
+            "title": "Development of a High-Performance Engine for the GR Yaris — The New 1.6-Liter Turbocharged Engine",
+            "publisher": "Toyota Motor Corporation",
+            "year": 2021,
+            "url": "https://global.toyota/pages/global_toyota/mobility/technology/toyota-technical-review/TTR_Vol66_E.pdf",
+            "page": 112,
+            "pageNotes": [
+              "Toyota Technical Review Vol. 66 identifies G16E-GTS as developed for the GR Yaris. Table 1 publishes inline three-cylinder, four-valve DOHC with roller rocker, 1,618 cc, high-octane fuel, D-4ST, 200 kW at 6,500 rpm and 370 N·m at 3,000-4,600 rpm; the article identifies turbocharging. Four valves per cylinder yield 12 valves total, and DOHC on the single inline head yields two camshafts total."
+            ],
+            "type": "manufacturer",
+            "evidenceTier": "A",
+            "checkedAt": "2026-10-02",
+            "fields": [
+              "maker",
+              "code",
+              "aliases",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.powerKw.rpm",
+              "performance.torqueNm",
+              "performance.torqueNm.rpm"
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "codes": [
+                "G16E-GTS"
+              ],
+              "applications": [
+                "Toyota GR Yaris RZ / RC, 6-speed iMT (Japan launch specification, 2020)"
+              ],
+              "years": {
+                "from": 2020,
+                "to": 2020
+              },
+              "markets": [
+                "Japan"
+              ]
+            }
+          }
+        ]
+      }
     }
   ]
 }
