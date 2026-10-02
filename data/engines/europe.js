@@ -24816,5 +24816,1085 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "mercedes-om642-830",
+    "code": "OM642.830",
+    "aliases": [
+      "OM 642 DE 30 LA / 642.830"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "3.0 L · 2,987 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM642.830 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.0 L · 2,987 cc engine documented for Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM642.830: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; aplicación documentada: Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM642.830 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc ; application documentée : Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM642.830: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; dokumentierte Anwendung: Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      },
+      "torqueNm": {
+        "min": 540,
+        "max": 540,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-189266730"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266730",
+          "type": "manufacturer",
+          "title": "C 350 CDI BlueEFFICIENCY, 2009 - 2011",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-350-CDI-BlueEFFICIENCY-2009---2011.xhtml?oid=189266730",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 204.025 and OM 642 DE 30 LA / 642.830; standard production ran December 2009-March 2011. Stored scope is the fully covered 2010 calendar specification. It publishes 2,987 cc, 72-degree V6, turbo/intercooler, common-rail cylinder-direct diesel injection, 170 kW at 3,800 rpm and 540 N·m at 1,600-2,400 rpm. Four valves per cylinder yield 24 valves total; two overhead camshafts per bank yield four camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM642.830"
+            ],
+            "applications": [
+              "Mercedes-Benz C 350 CDI BlueEFFICIENCY / W 204 D 30, type 204.025 (2010)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om642-832",
+    "code": "OM642.832",
+    "aliases": [
+      "OM 642 DE 30 LA / 642.832"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "3.0 L · 2,987 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM642.832 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.0 L · 2,987 cc engine documented for Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM642.832: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; aplicación documentada: Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM642.832 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc ; application documentée : Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM642.832: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; dokumentierte Anwendung: Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      },
+      "torqueNm": {
+        "min": 540,
+        "max": 540,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-189266731"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266731",
+          "type": "manufacturer",
+          "title": "C 350 CDI 4MATIC BlueEFFICIENCY, 2009 - 2011",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-350-CDI-4MATIC-BlueEFFICIENCY-2009---2011.xhtml?oid=189266731",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 204.092 and OM 642 DE 30 LA / 642.832; standard production ran December 2009-January 2011. Stored scope is the fully covered 2010 calendar specification with standard 7G-TRONIC and 4MATIC. It publishes 2,987 cc, 72-degree V6, turbo/intercooler, common-rail cylinder-direct diesel injection, 170 kW at 3,800 rpm and 540 N·m at 1,600-2,400 rpm. Four valves per cylinder yield 24 valves total; two overhead camshafts per bank yield four camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM642.832"
+            ],
+            "applications": [
+              "Mercedes-Benz C 350 CDI 4MATIC BlueEFFICIENCY / W 204 D 30 4, type 204.092 (2010)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om642-960",
+    "code": "OM642.960",
+    "aliases": [
+      "OM 642 DE 30 LA / 642.960"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2007-2008",
+    "displacement": "3.0 L · 2,987 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM642.960 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.0 L · 2,987 cc engine documented for Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM642.960: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; aplicación documentada: Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM642.960 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc ; application documentée : Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM642.960: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; dokumentierte Anwendung: Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      },
+      "torqueNm": {
+        "min": 510,
+        "max": 510,
+        "rpm": {
+          "min": 1600,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-189266728"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2008
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266728",
+          "type": "manufacturer",
+          "title": "C 320 CDI, 2007 - 2009",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2007,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-320-CDI-2007---2009-from-042009-C-350-CDI-only-for-export-until-2012.xhtml?oid=189266728",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 204.022 and OM 642 DE 30 LA / 642.960; standard production began April 2007 and the name changed from C 320 CDI in April 2009. Stored scope is narrowed to 2007-2008. It publishes 2,987 cc, 72-degree V6, turbo/intercooler, common-rail cylinder-direct diesel injection, 165 kW at 3,800 rpm and 510 N·m at 1,600-2,800 rpm. Four valves per cylinder yield 24 valves total; two overhead camshafts per bank yield four camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM642.960"
+            ],
+            "applications": [
+              "Mercedes-Benz C 320 CDI / W 204 D 30, type 204.022 (2007-2008)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2008
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om642-961",
+    "code": "OM642.961",
+    "aliases": [
+      "OM 642 DE 30 LA / 642.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2008",
+    "displacement": "3.0 L · 2,987 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM642.961 is the V6 · DOHC per bank · 24 valves · 4 camshafts total 3.0 L · 2,987 cc engine documented for Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM642.961: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; aplicación documentada: Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM642.961 : V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc ; application documentée : Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM642.961: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.0 L · 2,987 cc; dokumentierte Anwendung: Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165,
+        "rpm": {
+          "min": 3800,
+          "max": 3800
+        }
+      },
+      "torqueNm": {
+        "min": 510,
+        "max": 510,
+        "rpm": {
+          "min": 1600,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-189266729"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266729",
+          "type": "manufacturer",
+          "title": "C 320 CDI 4MATIC, 2007 - 2009",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2008,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-320-CDI-4MATIC-2007---2009-from-022009-C-350-CDI-4MATIC.xhtml?oid=189266729",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 204.089 and OM 642 DE 30 LA / 642.961; standard production began September 2007 and the name changed in February 2009. Stored scope is narrowed to 2008 with standard 7G-TRONIC and 4MATIC. It publishes 2,987 cc, 72-degree V6, turbo/intercooler, common-rail cylinder-direct diesel injection, 165 kW at 3,800 rpm and 510 N·m at 1,600-2,800 rpm. Four valves per cylinder yield 24 valves total; two overhead camshafts per bank yield four camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM642.961"
+            ],
+            "applications": [
+              "Mercedes-Benz C 320 CDI 4MATIC / type 204.089 (2008)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-912",
+    "code": "OM651.912",
+    "aliases": [
+      "OM 651 DE 22 LA / 651.912"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.912 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.912: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.912 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.912: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-189267113"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189267113",
+          "type": "manufacturer",
+          "title": "C 250 CDI 4MATIC BlueEFFICIENCY, 2010 - 2011",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2010,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-250-CDI-4MATIC-BlueEFFICIENCY-2010---2011.xhtml?oid=189267113",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 204.082 and OM 651 DE 22 LA / 651.912; standard production ran September 2010-January 2011. Stored scope is narrowed to the 2010 specification with standard 7G-TRONIC and 4MATIC. It publishes 2,143 cc inline-four, two-stage turbo/intercooler, common-rail cylinder-direct diesel injection, 150 kW at 4,200 rpm and 500 N·m at 1,600-1,800 rpm. Four valves per cylinder yield 16 valves total; two overhead camshafts yield two camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.912"
+            ],
+            "applications": [
+              "Mercedes-Benz C 250 CDI 4MATIC BlueEFFICIENCY / type 204.082 (2010)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-961",
+    "code": "OM651.961",
+    "aliases": [
+      "OM 651 DE 22 LA / 651.961"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2011-2013",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.961 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.961: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.961 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.961: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-191730293"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-191730293",
+          "type": "manufacturer",
+          "title": "S 250 CDI BlueEFFICIENCY, 2011 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2011,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/S-250-CDI-BlueEFFICIENCY-2011---2013.xhtml?oid=191730293",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 221.003 and OM 651 DE 22 LA / 651.961; standard production ran February 2011-March 2013. It publishes 2,143 cc inline-four, two-stage turbo/intercooler, common-rail cylinder-direct diesel injection, 150 kW at 4,200 rpm and 500 N·m at 1,600-1,800 rpm. Four valves per cylinder yield 16 valves total; two overhead camshafts yield two camshafts total. The displayed period preserves the card title while this note records its exact month boundaries.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.961"
+            ],
+            "applications": [
+              "Mercedes-Benz S 250 CDI BlueEFFICIENCY / W 221 D 22 G, type 221.003 (2011-2013)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-om651-924",
+    "code": "OM651.924",
+    "aliases": [
+      "OM 651 D 22 MH / 651.924"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2012-2013",
+    "displacement": "2.1 L · 2,143 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "OM651.924 is the I4 · DOHC · 16 valves · 2 camshafts total 2.1 L · 2,143 cc engine documented for Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; aplicación documentada: Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "OM651.924 : I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc ; application documentée : Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "OM651.924: I4 · DOHC · 16 valves · 2 camshafts total, 2.1 L · 2,143 cc; dokumentierte Anwendung: Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1600,
+          "max": 1800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-188823495"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2013
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-188823495",
+          "type": "manufacturer",
+          "title": "E 300 BlueTEC HYBRID Estate, 2012 - 2013",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2012,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/de/instance/ko/E-300-BlueTEC-HYBRID-T-Modell-2012---2013.xhtml?oid=188823495",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies Estate type 212.298 and combustion engine OM 651 D 22 MH / 651.924; standard production ran July 2012-March 2013. Stored performance is the combustion engine alone, excluding the separately published electric and system ratings: 2,143 cc inline-four, two-stage turbo/intercooler, common-rail cylinder-direct diesel injection, 150 kW at 4,200 rpm and 500 N·m at 1,600-1,800 rpm. Four valves per cylinder yield 16 valves total; two overhead camshafts yield two camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "OM651.924"
+            ],
+            "applications": [
+              "Mercedes-Benz E 300 BlueTEC HYBRID Estate / S 212 D 22 GH, type 212.298 (2012-2013)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2013
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "mercedes-m271-952",
+    "code": "M271.952",
+    "aliases": [
+      "M 271 E 18 ML LR / 271.952"
+    ],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2007-2009",
+    "displacement": "1.8 L · 1,796 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M271.952 is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,796 cc engine documented for Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Official manufacturer evidence covers the exact application and all required specification fields.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M271.952: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; aplicación documentada: Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia oficial del fabricante cubre la aplicación exacta y todos los campos requeridos.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M271.952 : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc ; application documentée : Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve officielle du constructeur couvre l’application exacte et tous les champs requis.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M271.952: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,796 cc; dokumentierte Anwendung: Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der offizielle Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "sourceRefs": [
+        "mb-publicarchive-189266740"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2009
+        },
+        "markets": [
+          "Unspecified"
+        ]
+      },
+      "sources": [
+        {
+          "id": "mb-publicarchive-189266740",
+          "type": "manufacturer",
+          "title": "C 180 KOMPRESSOR, 2007 - 2009",
+          "publisher": "Mercedes-Benz AG",
+          "year": 2007,
+          "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/C-180-KOMPRESSOR-2007---2009.xhtml?oid=189266740",
+          "page": 1,
+          "checkedAt": "2026-10-02",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The card identifies type 204.046 and M 271 E 18 ML LR / 271.952; standard production ran July 2007-January 2009. It explicitly publishes a four-stroke petrol engine with compressor and intercooler, intake-duct microprocessor-controlled injection, 1,796 cc inline-four, 115 kW at 5,200 rpm and 230 N·m at 2,500-4,200 rpm. Four valves per cylinder yield 16 valves total; two overhead camshafts yield two camshafts total.",
+            "The archive card does not specify a sales market. The Unspecified scope denotes only this exact archived specification; it does not claim worldwide or any inferred regional applicability."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M271.952"
+            ],
+            "applications": [
+              "Mercedes-Benz C 180 KOMPRESSOR / type 204.046 (2007-2009)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2009
+            },
+            "markets": [
+              "Unspecified"
+            ]
+          }
+        }
+      ]
+    }
   }
 ];

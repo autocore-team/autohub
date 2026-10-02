@@ -33,9 +33,9 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 545, `Engine count changed: expected 545, found ${records.length}`);
+check(records.length === 565, `Engine count changed: expected 565, found ${records.length}`);
 check(
-  semanticHash === 'b4bc48a819e02a4c679db5e93475c6e09dd485583d3821908a302a16092aff46',
+  semanticHash === '5424d6844589448b0dc7f771f7613c5b80a172f0018b03ac1048cc78ababbf62',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -287,18 +287,111 @@ check(sl55.years === '2003-2005', 'M113.992 must remain inside the from-June-200
 check(sl55.verification.sources[0].pageNotes.some((note) => note.includes('applies from June 2002')), 'M113.992 evidence must preserve its rated-speed date condition');
 pass('Batch 07c strict direct evidence, collision, construction, market and period checks pass');
 
+const batch07dBaselineRegionCounts = {
+  europe: 241,
+  japan: 167,
+  korea: 49,
+  'north-america': 88,
+  'south-america': 0
+};
+const batch07dBaselineRecords = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, batch07dBaselineRegionCounts[sourceFile.region])
+));
+const batch07dBaselineHash = crypto.createHash('sha256').update(canonicalFingerprint(batch07dBaselineRecords)).digest('hex');
+check(batch07dBaselineRecords.length === 545, `Batch 07d baseline changed: expected 545 records, found ${batch07dBaselineRecords.length}`);
+check(
+  batch07dBaselineHash === 'b4bc48a819e02a4c679db5e93475c6e09dd485583d3821908a302a16092aff46',
+  `Batch 07d changed an original record or its regional order: ${batch07dBaselineHash}`
+);
+pass(`Batch 07d preserves all original 545 records (${batch07dBaselineHash})`);
+
+const batch07dIds = [
+  'toyota-fa20-gt86-2017',
+  'toyota-1nd-tv-auris-2015',
+  'toyota-1ww-auris-2015',
+  'toyota-1ad-ftv-auris-2007',
+  'toyota-2ad-fhv-auris-2007',
+  'lexus-8ar-fts-is200t-2015',
+  'mazda-l3-vdt-atenza-2005',
+  'mitsubishi-4m41-pajero-1999',
+  'mitsubishi-4b40-destinator-2025',
+  'mitsubishi-4n16-triton-2023',
+  'mazda-sh-vptr-atenza-2016',
+  'lexus-2ur-gse-rcf-2022',
+  'mercedes-om642-830',
+  'mercedes-om642-832',
+  'mercedes-om642-960',
+  'mercedes-om642-961',
+  'mercedes-om651-912',
+  'mercedes-om651-961',
+  'mercedes-om651-924',
+  'mercedes-m271-952'
+];
+const batch07dExpectedLayouts = new Map([
+  ['toyota-fa20-gt86-2017', 'Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total'],
+  ['toyota-1nd-tv-auris-2015', 'I4 · SOHC · 8 valves · 1 camshaft total'],
+  ['toyota-1ww-auris-2015', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['toyota-1ad-ftv-auris-2007', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['toyota-2ad-fhv-auris-2007', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['lexus-8ar-fts-is200t-2015', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mazda-l3-vdt-atenza-2005', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mitsubishi-4m41-pajero-1999', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mitsubishi-4b40-destinator-2025', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mitsubishi-4n16-triton-2023', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mazda-sh-vptr-atenza-2016', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['lexus-2ur-gse-rcf-2022', 'V8 · DOHC per bank · 32 valves · 4 camshafts total'],
+  ['mercedes-om642-830', 'V6 · DOHC per bank · 24 valves · 4 camshafts total'],
+  ['mercedes-om642-832', 'V6 · DOHC per bank · 24 valves · 4 camshafts total'],
+  ['mercedes-om642-960', 'V6 · DOHC per bank · 24 valves · 4 camshafts total'],
+  ['mercedes-om642-961', 'V6 · DOHC per bank · 24 valves · 4 camshafts total'],
+  ['mercedes-om651-912', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om651-961', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-om651-924', 'I4 · DOHC · 16 valves · 2 camshafts total'],
+  ['mercedes-m271-952', 'I4 · DOHC · 16 valves · 2 camshafts total']
+]);
+const batch07dRecords = batch07dIds.map((id) => records.find((record) => record.id === id));
+check(batch07dRecords.every(Boolean), 'Batch 07d is missing one or more expected IDs');
+check(new Set(batch07dIds).size === batch07dIds.length, 'Batch 07d expected IDs are not unique');
+for (const record of batch07dRecords) {
+  check(record.verification?.status === 'verified', `${record.id} is not verified`);
+  check(record.verification?.sourceRefs?.length === 1, `${record.id} does not use one strict official sourceRef`);
+  check(verificationPolicyErrors(record).length === 0, `${record.id} fails strict verification policy`);
+  check(record.verification.sources[0].scope.level === 'exactVariant', `${record.id} is not direct exactVariant evidence`);
+  check(record.layout === batch07dExpectedLayouts.get(record.id), `${record.id} cylinder/valve/camshaft layout changed`);
+  check(record.verification.sources[0].pageNotes.some((note) => note.includes('valve') && /camshafts? total/.test(note)), `${record.id} evidence does not expose valve/camshaft totals`);
+  const exactResults = core.searchRecords(records, record.code);
+  if (record.id === 'lexus-2ur-gse-rcf-2022') {
+    check(exactResults.some((result) => result.id === record.id), '2UR-GSE UK 2022 specification is missing from exact-code search');
+  } else {
+    check(exactResults[0]?.id === record.id, `${record.code} is not the top exact-code search result`);
+  }
+  for (const identity of [record.code, ...record.aliases].map(normalizedIdentity)) {
+    if (record.id === 'lexus-2ur-gse-rcf-2022' && identity === '2UR-GSE') {
+      check(JSON.stringify([...identityOwners.get(identity)].sort()) === JSON.stringify(['lexus-2ur-gse','lexus-2ur-gse-rcf-2022']), '2UR-GSE has an unexplained identity owner');
+    } else {
+      check(identityOwners.get(identity).size === 1, `${record.id} introduces code/alias collision ${identity}`);
+    }
+  }
+}
+check(batch07dRecords.filter((record) => record.maker !== 'Mercedes-Benz').length === 12, 'Batch 07d must retain 12 non-Mercedes records');
+check(batch07dRecords.filter((record) => record.maker === 'Mercedes-Benz').length === 8, 'Batch 07d Mercedes reserve must remain capped at eight records');
+check(batch07dRecords.filter((record) => record.maker === 'Mercedes-Benz').every((record) => record.verification.scope.markets[0] === 'Unspecified'), 'Batch 07d Mercedes archive scopes must remain Unspecified');
+check(records.find((record) => record.id === 'mitsubishi-4n16-triton-2023').applications[0].includes('high-output'), '4N16 must retain its high-output calibration scope');
+check(records.find((record) => record.id === 'mercedes-om651-924').verification.sources[0].pageNotes.some((note) => note.includes('excluding the separately published electric and system ratings')), 'OM651.924 must retain combustion-engine-only performance scope');
+pass('Batch 07d strict direct evidence, preservation, diversity, collision, construction and scope checks pass');
+
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 241, manufacturerCount: 11 },
-    { region: 'japan', engineCount: 167, manufacturerCount: 15 },
+    { region: 'europe', engineCount: 249, manufacturerCount: 11 },
+    { region: 'japan', engineCount: 179, manufacturerCount: 15 },
     { region: 'korea', engineCount: 49, manufacturerCount: 2 },
     { region: 'north-america', engineCount: 88, manufacturerCount: 13 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 545, 'Regional engineCount sum does not equal 545');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 565, 'Regional engineCount sum does not equal 565');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
