@@ -3824,5 +3824,143 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.korea = [
         }
       ]
     }
+  },
+  {
+    "id": "batch09-hyundai-g4ft-santa-fe-inspiration-awd-2026",
+    "code": "G4FT",
+    "aliases": [
+      "G4FT Santa Fe Inspiration AWD Thailand 2026"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2026",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "G4FT is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,598 cc engine documented for Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "G4FT: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; aplicación documentada: Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "G4FT : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc ; application documentée : Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "G4FT: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; dokumentierte Anwendung: Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265,
+        "rpm": {
+          "min": 1500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-hyundai-g4ft-santa-fe-inspiration-awd-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-hyundai-g4ft-santa-fe-inspiration-awd-2026-source",
+          "title": "The New Santa Fe Hybrid product specification",
+          "publisher": "Hyundai Motor Thailand",
+          "year": 2026,
+          "url": "https://www.hyundai.com/content/dam/hyundai/th/en/data/marketing/brochure/product/all-new-santa-fe-awd/2026-POSM-Leaflet-The-New-SANTA-FE-EN.pdf?productCode=all-new-santa-fe-hybrid",
+          "page": 2,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Page 2 of the official Thailand product sheet identifies the sole listed Inspiration HTRAC AWD trim and G4FT: 1,598 cc inline-four DOHC 16-valve, E10 petrol, T-GDI direct injection, 178 hp (manufacturer-equivalent 132 kW) at 5,500 rpm and 265 N-m at 1,500-4,500 rpm. Electric-motor and combined-system ratings are excluded."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "G4FT"
+            ],
+            "applications": [
+              "Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
   }
 ];
