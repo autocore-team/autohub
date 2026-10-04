@@ -57243,6 +57243,13668 @@ window.AUTOHUB_ENGINE_DATA = {
     }
   },
   {
+    "id": "batch09-toyota-a25a-fxs-rav4-design-fwd-2024",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A-FXS RAV4 Design FWD 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A25A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,487 cc engine documented for Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; aplicación documentada: Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "A25A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc ; application documentée : Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; dokumentierte Anwendung: Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-a25a-fxs-rav4-design-fwd-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-a25a-fxs-rav4-design-fwd-2024-source",
+          "title": "Toyota RAV4 Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/241127-RAV4-Tech-Specs.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RAV4 technical specification identify A25A-FXS, its 2,487 cc inline-four 16-valve DOHC D-4S naturally aspirated petrol specification, 131 kW at 5,700 rpm and 221 N-m at 3,600-5,200 rpm, and explicitly list Design FWD in the FWD/AWD-i grade table."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A25A-FXS"
+            ],
+            "applications": [
+              "Toyota RAV4 2.5 Hybrid Design FWD (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-a25a-fxs-rav4-design-awd-2024",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A-FXS RAV4 Design AWD-i 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A25A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,487 cc engine documented for Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; aplicación documentada: Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "A25A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc ; application documentée : Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; dokumentierte Anwendung: Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-a25a-fxs-rav4-design-awd-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-a25a-fxs-rav4-design-awd-2024-source",
+          "title": "Toyota RAV4 Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/241127-RAV4-Tech-Specs.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RAV4 technical specification identify A25A-FXS, its 2,487 cc inline-four 16-valve DOHC D-4S naturally aspirated petrol specification, 131 kW at 5,700 rpm and 221 N-m at 3,600-5,200 rpm, and explicitly list Design AWD-i in the FWD/AWD-i grade table."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A25A-FXS"
+            ],
+            "applications": [
+              "Toyota RAV4 2.5 Hybrid Design AWD-i (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-a25a-fxs-rav4-excel-fwd-2024",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A-FXS RAV4 Excel FWD 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A25A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,487 cc engine documented for Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; aplicación documentada: Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "A25A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc ; application documentée : Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; dokumentierte Anwendung: Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-a25a-fxs-rav4-excel-fwd-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-a25a-fxs-rav4-excel-fwd-2024-source",
+          "title": "Toyota RAV4 Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/241127-RAV4-Tech-Specs.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RAV4 technical specification identify A25A-FXS, its 2,487 cc inline-four 16-valve DOHC D-4S naturally aspirated petrol specification, 131 kW at 5,700 rpm and 221 N-m at 3,600-5,200 rpm, and explicitly list Excel FWD in the FWD/AWD-i grade table."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A25A-FXS"
+            ],
+            "applications": [
+              "Toyota RAV4 2.5 Hybrid Excel FWD (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-a25a-fxs-rav4-excel-awd-2024",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A-FXS RAV4 Excel AWD-i 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A25A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,487 cc engine documented for Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; aplicación documentada: Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "A25A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc ; application documentée : Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; dokumentierte Anwendung: Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-a25a-fxs-rav4-excel-awd-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-a25a-fxs-rav4-excel-awd-2024-source",
+          "title": "Toyota RAV4 Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/241127-RAV4-Tech-Specs.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RAV4 technical specification identify A25A-FXS, its 2,487 cc inline-four 16-valve DOHC D-4S naturally aspirated petrol specification, 131 kW at 5,700 rpm and 221 N-m at 3,600-5,200 rpm, and explicitly list Excel AWD-i in the FWD/AWD-i grade table."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A25A-FXS"
+            ],
+            "applications": [
+              "Toyota RAV4 2.5 Hybrid Excel AWD-i (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-a25a-fxs-rav4-gr-sport-awd-2024",
+    "code": "A25A-FXS",
+    "aliases": [
+      "A25A-FXS RAV4 GR Sport AWD-i 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.5 L · 2,487 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A25A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,487 cc engine documented for Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; aplicación documentada: Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "A25A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc ; application documentée : Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "A25A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,487 cc; dokumentierte Anwendung: Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 131,
+        "max": 131,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 3600,
+          "max": 5200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-a25a-fxs-rav4-gr-sport-awd-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-a25a-fxs-rav4-gr-sport-awd-2024-source",
+          "title": "Toyota RAV4 Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/241127-RAV4-Tech-Specs.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RAV4 technical specification identify A25A-FXS, its 2,487 cc inline-four 16-valve DOHC D-4S naturally aspirated petrol specification, 131 kW at 5,700 rpm and 221 N-m at 3,600-5,200 rpm, and explicitly list GR Sport AWD-i in the FWD/AWD-i grade table."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A25A-FXS"
+            ],
+            "applications": [
+              "Toyota RAV4 2.5 Hybrid GR Sport AWD-i (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-g16e-gts-gr-yaris-6mt-2024",
+    "code": "G16E-GTS",
+    "aliases": [
+      "G16E-GTS GR Yaris 6-speed iMT 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "1.6 L · 1,618 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota GR Yaris 6-speed iMT (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "G16E-GTS is the I3 · DOHC · 12 valves · 2 camshafts total 1.6 L · 1,618 cc engine documented for Toyota GR Yaris 6-speed iMT (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; aplicación documentada: Toyota GR Yaris 6-speed iMT (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "G16E-GTS : I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc ; application documentée : Toyota GR Yaris 6-speed iMT (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; dokumentierte Anwendung: Toyota GR Yaris 6-speed iMT (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 206,
+        "max": 206,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 390,
+        "max": 390,
+        "rpm": {
+          "min": 3250,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-g16e-gts-gr-yaris-6mt-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota GR Yaris 6-speed iMT (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-g16e-gts-gr-yaris-6mt-2024-source",
+          "title": "Toyota GR Yaris Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240621-GR-Yaris-Tech-Specs-2.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Page 1 of the official GR Yaris technical specification identifies G16E-GTS, 1,618 cc inline-three 12-valve DOHC, D-4ST direct plus port injection, turbocharging, 206 kW at 6,500 rpm and 390 N-m at 3,250-4,600 rpm, and lists the 6-speed iMT column."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "G16E-GTS"
+            ],
+            "applications": [
+              "Toyota GR Yaris 6-speed iMT (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-g16e-gts-gr-yaris-8at-2024",
+    "code": "G16E-GTS",
+    "aliases": [
+      "G16E-GTS GR Yaris 8-speed Gazoo Racing Direct Automatic 2024"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "1.6 L · 1,618 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "G16E-GTS is the I3 · DOHC · 12 valves · 2 camshafts total 1.6 L · 1,618 cc engine documented for Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; aplicación documentada: Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "G16E-GTS : I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc ; application documentée : Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "G16E-GTS: I3 · DOHC · 12 valves · 2 camshafts total, 1.6 L · 1,618 cc; dokumentierte Anwendung: Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 206,
+        "max": 206,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 390,
+        "max": 390,
+        "rpm": {
+          "min": 3250,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-g16e-gts-gr-yaris-8at-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-g16e-gts-gr-yaris-8at-2024-source",
+          "title": "Toyota GR Yaris Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2024,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240621-GR-Yaris-Tech-Specs-2.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Page 1 of the official GR Yaris technical specification identifies G16E-GTS, 1,618 cc inline-three 12-valve DOHC, D-4ST direct plus port injection, turbocharging, 206 kW at 6,500 rpm and 390 N-m at 3,250-4,600 rpm, and lists the 8-speed Gazoo Racing Direct Automatic column."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "G16E-GTS"
+            ],
+            "applications": [
+              "Toyota GR Yaris 8-speed Gazoo Racing Direct Automatic (UK specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-hatchback-icon-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Hatchback Icon 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-hatchback-icon-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-hatchback-icon-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Hatchback Icon grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Hatchback Icon (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-hatchback-design-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Hatchback Design 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-hatchback-design-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-hatchback-design-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Hatchback Design grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Hatchback Design (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-hatchback-gr-sport-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Hatchback GR Sport 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-hatchback-gr-sport-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-hatchback-gr-sport-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Hatchback GR Sport grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Hatchback GR Sport (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-hatchback-excel-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Hatchback Excel 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-hatchback-excel-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-hatchback-excel-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Hatchback Excel grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Hatchback Excel (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-icon-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Touring Sports Icon 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-touring-sports-icon-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-icon-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Touring Sports Icon grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Touring Sports Icon (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-design-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Touring Sports Design 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-touring-sports-design-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-design-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Touring Sports Design grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Touring Sports Design (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-gr-sport-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Touring Sports GR Sport 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-touring-sports-gr-sport-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-gr-sport-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Touring Sports GR Sport grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Touring Sports GR Sport (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-excel-2026",
+    "code": "M20A-FXS",
+    "aliases": [
+      "M20A-FXS Corolla Touring Sports Excel 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.0 L · 1,987 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M20A-FXS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,987 cc engine documented for Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; aplicación documentada: Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "M20A-FXS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc ; application documentée : Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "M20A-FXS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,987 cc; dokumentierte Anwendung: Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 112,
+        "max": 112,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-m20a-fxs-corolla-touring-sports-excel-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-m20a-fxs-corolla-touring-sports-excel-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify M20A-FXS, 1,987 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 112 kW at 6,000 rpm and 190 N-m at 4,400 rpm, and list the Touring Sports Excel grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M20A-FXS"
+            ],
+            "applications": [
+              "Toyota Corolla 2.0 Hybrid Touring Sports Excel (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-2zr-fxe-corolla-hatchback-icon-2026",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE Corolla Hatchback Icon 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-2zr-fxe-corolla-hatchback-icon-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-2zr-fxe-corolla-hatchback-icon-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm, and list the Hatchback Icon grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Toyota Corolla 1.8 Hybrid Hatchback Icon (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-2zr-fxe-corolla-hatchback-design-2026",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE Corolla Hatchback Design 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-2zr-fxe-corolla-hatchback-design-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-2zr-fxe-corolla-hatchback-design-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm, and list the Hatchback Design grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Toyota Corolla 1.8 Hybrid Hatchback Design (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-2zr-fxe-corolla-hatchback-gr-sport-2026",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE Corolla Hatchback GR Sport 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-2zr-fxe-corolla-hatchback-gr-sport-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-2zr-fxe-corolla-hatchback-gr-sport-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm, and list the Hatchback GR Sport grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Toyota Corolla 1.8 Hybrid Hatchback GR Sport (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-2zr-fxe-corolla-hatchback-excel-2026",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE Corolla Hatchback Excel 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-2zr-fxe-corolla-hatchback-excel-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-2zr-fxe-corolla-hatchback-excel-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm, and list the Hatchback Excel grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Toyota Corolla 1.8 Hybrid Hatchback Excel (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-toyota-2zr-fxe-corolla-touring-sports-icon-2026",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE Corolla Touring Sports Icon 2026"
+    ],
+    "maker": "Toyota",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-toyota-2zr-fxe-corolla-touring-sports-icon-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-toyota-2zr-fxe-corolla-touring-sports-icon-2026-source",
+          "title": "Toyota Corolla Technical Specifications",
+          "publisher": "Toyota (GB) PLC",
+          "year": 2026,
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official Corolla technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, petrol electronic fuel injection (topology not further specified), natural aspiration, 72 kW at 5,200 rpm and 142 N-m at 3,600 rpm, and list the Touring Sports Icon grade/body row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Toyota Corolla 1.8 Hybrid Touring Sports Icon (UK specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-is-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE IS 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus IS 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus IS 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus IS 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus IS 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus IS 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-is-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus IS 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-is-2021-source",
+          "title": "Lexus IS 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612175114210129MISTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official IS 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, D-4S, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the IS grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus IS 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-is-comfort-pack-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE IS Comfort Pack 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus IS Comfort Pack 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus IS Comfort Pack 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus IS Comfort Pack 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus IS Comfort Pack 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus IS Comfort Pack 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-is-comfort-pack-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus IS Comfort Pack 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-is-comfort-pack-2021-source",
+          "title": "Lexus IS 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612175114210129MISTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official IS 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, D-4S, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the IS Comfort Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus IS Comfort Pack 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-is-premier-pack-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE IS Premier Pack 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus IS Premier Pack 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus IS Premier Pack 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus IS Premier Pack 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus IS Premier Pack 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus IS Premier Pack 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-is-premier-pack-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus IS Premier Pack 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-is-premier-pack-2021-source",
+          "title": "Lexus IS 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612175114210129MISTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official IS 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, D-4S, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the IS Premier Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus IS Premier Pack 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-is-sport-pack-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE IS Sport Pack 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus IS Sport Pack 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus IS Sport Pack 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus IS Sport Pack 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus IS Sport Pack 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus IS Sport Pack 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-is-sport-pack-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus IS Sport Pack 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-is-sport-pack-2021-source",
+          "title": "Lexus IS 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612175114210129MISTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official IS 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, D-4S, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the IS Sport Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus IS Sport Pack 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-is-f-sport-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE IS F Sport 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus IS F Sport 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus IS F Sport 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus IS F Sport 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus IS F Sport 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus IS F Sport 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-is-f-sport-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus IS F Sport 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-is-f-sport-2021-source",
+          "title": "Lexus IS 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612175114210129MISTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official IS 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, D-4S, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the IS F Sport grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus IS F Sport 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2zr-fxe-ct-2021",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE CT 200h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus CT 200h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Lexus CT 200h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Lexus CT 200h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Lexus CT 200h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Lexus CT 200h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 2800,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2zr-fxe-ct-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus CT 200h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2zr-fxe-ct-2021-source",
+          "title": "Lexus CT 200h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612176799210129MCTTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official CT 200h technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, intake-port multipoint injection, natural aspiration, 73 kW at 5,200 rpm and 142 N-m at 2,800-4,400 rpm, and list the CT grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Lexus CT 200h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2zr-fxe-ct-sport-pack-2021",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE CT Sport Pack 200h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus CT Sport Pack 200h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Lexus CT Sport Pack 200h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Lexus CT Sport Pack 200h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Lexus CT Sport Pack 200h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Lexus CT Sport Pack 200h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 2800,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2zr-fxe-ct-sport-pack-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus CT Sport Pack 200h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2zr-fxe-ct-sport-pack-2021-source",
+          "title": "Lexus CT 200h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612176799210129MCTTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official CT 200h technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, intake-port multipoint injection, natural aspiration, 73 kW at 5,200 rpm and 142 N-m at 2,800-4,400 rpm, and list the CT Sport Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Lexus CT Sport Pack 200h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2zr-fxe-ct-premium-pack-2021",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE CT Premium Pack 200h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus CT Premium Pack 200h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Lexus CT Premium Pack 200h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Lexus CT Premium Pack 200h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Lexus CT Premium Pack 200h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Lexus CT Premium Pack 200h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 2800,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2zr-fxe-ct-premium-pack-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus CT Premium Pack 200h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2zr-fxe-ct-premium-pack-2021-source",
+          "title": "Lexus CT 200h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612176799210129MCTTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official CT 200h technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, intake-port multipoint injection, natural aspiration, 73 kW at 5,200 rpm and 142 N-m at 2,800-4,400 rpm, and list the CT Premium Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Lexus CT Premium Pack 200h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2zr-fxe-ct-premium-tech-pack-2021",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE CT Premium Tech Pack 200h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus CT Premium Tech Pack 200h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Lexus CT Premium Tech Pack 200h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Lexus CT Premium Tech Pack 200h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Lexus CT Premium Tech Pack 200h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Lexus CT Premium Tech Pack 200h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 2800,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2zr-fxe-ct-premium-tech-pack-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus CT Premium Tech Pack 200h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2zr-fxe-ct-premium-tech-pack-2021-source",
+          "title": "Lexus CT 200h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612176799210129MCTTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official CT 200h technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, intake-port multipoint injection, natural aspiration, 73 kW at 5,200 rpm and 142 N-m at 2,800-4,400 rpm, and list the CT Premium Tech Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Lexus CT Premium Tech Pack 200h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2zr-fxe-ct-f-sport-2021",
+    "code": "2ZR-FXE",
+    "aliases": [
+      "2ZR-FXE CT F Sport 200h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.8 L · 1,798 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus CT F Sport 200h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2ZR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 1.8 L · 1,798 cc engine documented for Lexus CT F Sport 200h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; aplicación documentada: Lexus CT F Sport 200h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2ZR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc ; application documentée : Lexus CT F Sport 200h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2ZR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,798 cc; dokumentierte Anwendung: Lexus CT F Sport 200h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 2800,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2zr-fxe-ct-f-sport-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus CT F Sport 200h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2zr-fxe-ct-f-sport-2021-source",
+          "title": "Lexus CT 200h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612176799210129MCTTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official CT 200h technical specification identify 2ZR-FXE, 1,798 cc inline-four 16-valve DOHC, intake-port multipoint injection, natural aspiration, 73 kW at 5,200 rpm and 142 N-m at 2,800-4,400 rpm, and list the CT F Sport grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2ZR-FXE"
+            ],
+            "applications": [
+              "Lexus CT F Sport 200h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-8ar-fts-nx200t-f-sport-awd-2015",
+    "code": "8AR-FTS",
+    "aliases": [
+      "8AR-FTS NX 200t F Sport AWD 2015"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX 200t F Sport AWD (UK specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "8AR-FTS is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,998 cc engine documented for Lexus NX 200t F Sport AWD (UK specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "8AR-FTS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Lexus NX 200t F Sport AWD (UK specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "8AR-FTS : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc ; application documentée : Lexus NX 200t F Sport AWD (UK specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "8AR-FTS: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Lexus NX 200t F Sport AWD (UK specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 175,
+        "max": 175,
+        "rpm": {
+          "min": 4800,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350,
+        "rpm": {
+          "min": 1650,
+          "max": 1650
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-8ar-fts-nx200t-f-sport-awd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus NX 200t F Sport AWD (UK specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-8ar-fts-nx200t-f-sport-awd-2015-source",
+          "title": "Lexus NX 200t and NX 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2015,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/2015-NX-300h-and-200t-Gen1.pdf",
+          "page": 26,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 23 and 26 of the official first-generation NX release state that NX 200t was UK-exclusive to F Sport AWD and identify 8AR-FTS, 1,998 cc inline-four 16-valve DOHC, D-4ST, turbocharging, 175 kW at 4,800-5,600 rpm and 350 N-m at 1,650 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "8AR-FTS"
+            ],
+            "applications": [
+              "Lexus NX 200t F Sport AWD (UK specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fxe-nx300h-s-fwd-2015",
+    "code": "2AR-FXE",
+    "aliases": [
+      "2AR-FXE NX 300h S FWD 2015"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX 300h S FWD (UK specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus NX 300h S FWD (UK specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus NX 300h S FWD (UK specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus NX 300h S FWD (UK specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus NX 300h S FWD (UK specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 210,
+        "max": 210,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fxe-nx300h-s-fwd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus NX 300h S FWD (UK specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fxe-nx300h-s-fwd-2015-source",
+          "title": "Lexus NX 200t and NX 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2015,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/2015-NX-300h-and-200t-Gen1.pdf",
+          "page": 26,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 23 and 26 of the official first-generation NX release identify the S FWD application and 2AR-FXE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 114 kW at 5,700 rpm and 210 N-m at 4,200-4,400 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FXE"
+            ],
+            "applications": [
+              "Lexus NX 300h S FWD (UK specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fxe-nx300h-se-awd-2015",
+    "code": "2AR-FXE",
+    "aliases": [
+      "2AR-FXE NX 300h SE AWD 2015"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX 300h SE AWD (UK specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus NX 300h SE AWD (UK specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus NX 300h SE AWD (UK specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus NX 300h SE AWD (UK specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus NX 300h SE AWD (UK specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 210,
+        "max": 210,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fxe-nx300h-se-awd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus NX 300h SE AWD (UK specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fxe-nx300h-se-awd-2015-source",
+          "title": "Lexus NX 200t and NX 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2015,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/2015-NX-300h-and-200t-Gen1.pdf",
+          "page": 26,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 23 and 26 of the official first-generation NX release identify the SE AWD application and 2AR-FXE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 114 kW at 5,700 rpm and 210 N-m at 4,200-4,400 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FXE"
+            ],
+            "applications": [
+              "Lexus NX 300h SE AWD (UK specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fxe-nx300h-luxury-awd-2015",
+    "code": "2AR-FXE",
+    "aliases": [
+      "2AR-FXE NX 300h Luxury AWD 2015"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX 300h Luxury AWD (UK specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus NX 300h Luxury AWD (UK specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus NX 300h Luxury AWD (UK specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus NX 300h Luxury AWD (UK specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus NX 300h Luxury AWD (UK specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 210,
+        "max": 210,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fxe-nx300h-luxury-awd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus NX 300h Luxury AWD (UK specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fxe-nx300h-luxury-awd-2015-source",
+          "title": "Lexus NX 200t and NX 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2015,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/2015-NX-300h-and-200t-Gen1.pdf",
+          "page": 26,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 23 and 26 of the official first-generation NX release identify the Luxury AWD application and 2AR-FXE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 114 kW at 5,700 rpm and 210 N-m at 4,200-4,400 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FXE"
+            ],
+            "applications": [
+              "Lexus NX 300h Luxury AWD (UK specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fxe-nx300h-f-sport-awd-2015",
+    "code": "2AR-FXE",
+    "aliases": [
+      "2AR-FXE NX 300h F Sport AWD 2015"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX 300h F Sport AWD (UK specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus NX 300h F Sport AWD (UK specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus NX 300h F Sport AWD (UK specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus NX 300h F Sport AWD (UK specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus NX 300h F Sport AWD (UK specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 210,
+        "max": 210,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fxe-nx300h-f-sport-awd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus NX 300h F Sport AWD (UK specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fxe-nx300h-f-sport-awd-2015-source",
+          "title": "Lexus NX 200t and NX 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2015,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/2015-NX-300h-and-200t-Gen1.pdf",
+          "page": 26,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 23 and 26 of the official first-generation NX release identify the F Sport AWD application and 2AR-FXE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 114 kW at 5,700 rpm and 210 N-m at 4,200-4,400 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FXE"
+            ],
+            "applications": [
+              "Lexus NX 300h F Sport AWD (UK specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fxe-nx300h-premier-awd-2015",
+    "code": "2AR-FXE",
+    "aliases": [
+      "2AR-FXE NX 300h Premier AWD 2015"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus NX 300h Premier AWD (UK specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FXE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus NX 300h Premier AWD (UK specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus NX 300h Premier AWD (UK specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FXE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus NX 300h Premier AWD (UK specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FXE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus NX 300h Premier AWD (UK specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 210,
+        "max": 210,
+        "rpm": {
+          "min": 4200,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fxe-nx300h-premier-awd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus NX 300h Premier AWD (UK specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fxe-nx300h-premier-awd-2015-source",
+          "title": "Lexus NX 200t and NX 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2015,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/2015-NX-300h-and-200t-Gen1.pdf",
+          "page": 26,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 23 and 26 of the official first-generation NX release identify the Premier AWD application and 2AR-FXE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 114 kW at 5,700 rpm and 210 N-m at 4,200-4,400 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FXE"
+            ],
+            "applications": [
+              "Lexus NX 300h Premier AWD (UK specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-rc-300h-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE RC 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus RC 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus RC 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus RC 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus RC 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus RC 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-rc-300h-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus RC 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-rc-300h-2021-source",
+          "title": "Lexus RC 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612189975210201MRCTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RC 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the RC grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus RC 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-rc-f-sport-300h-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE RC F Sport 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus RC F Sport 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus RC F Sport 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus RC F Sport 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus RC F Sport 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus RC F Sport 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-rc-f-sport-300h-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus RC F Sport 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-rc-f-sport-300h-2021-source",
+          "title": "Lexus RC 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612189975210201MRCTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RC 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the RC F Sport grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus RC F Sport 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-rc-f-sport-takumi-pack-300h-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE RC F Sport Takumi Pack 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus RC F Sport Takumi Pack 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus RC F Sport Takumi Pack 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus RC F Sport Takumi Pack 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus RC F Sport Takumi Pack 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus RC F Sport Takumi Pack 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-rc-f-sport-takumi-pack-300h-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus RC F Sport Takumi Pack 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-rc-f-sport-takumi-pack-300h-2021-source",
+          "title": "Lexus RC 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612189975210201MRCTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RC 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the RC F Sport Takumi Pack grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus RC F Sport Takumi Pack 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-lexus-2ar-fse-rc-takumi-300h-2021",
+    "code": "2AR-FSE",
+    "aliases": [
+      "2AR-FSE RC Takumi 300h 2021"
+    ],
+    "maker": "Lexus",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,494 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lexus RC Takumi 300h (UK specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2AR-FSE is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,494 cc engine documented for Lexus RC Takumi 300h (UK specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; aplicación documentada: Lexus RC Takumi 300h (UK specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "2AR-FSE : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc ; application documentée : Lexus RC Takumi 300h (UK specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "2AR-FSE: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,494 cc; dokumentierte Anwendung: Lexus RC Takumi 300h (UK specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4200,
+          "max": 5400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-lexus-2ar-fse-rc-takumi-300h-2021-source"
+      ],
+      "scope": {
+        "applications": [
+          "Lexus RC Takumi 300h (UK specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-lexus-2ar-fse-rc-takumi-300h-2021-source",
+          "title": "Lexus RC 300h Technical Specifications",
+          "publisher": "Lexus UK",
+          "year": 2021,
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2021/06/1612189975210201MRCTechSpec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Pages 1-2 of the official RC 300h technical specification identify 2AR-FSE, 2,494 cc inline-four 16-valve DOHC, petrol injection topology not further specified, natural aspiration, 133 kW at 6,000 rpm and 221 N-m at 4,200-5,400 rpm, and list the RC Takumi grade/pack row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "2AR-FSE"
+            ],
+            "applications": [
+              "Lexus RC Takumi 300h (UK specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United Kingdom"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-wrx-s4-sti-sport-10130321-2020-041",
+    "code": "FA20",
+    "aliases": [
+      "FA20 WRX S4 STI Sport#-10130321 2020"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-wrx-s4-sti-sport-10130321-2020"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-wrx-s4-sti-sport-10130321-2020",
+          "title": "WRX S4 STI Sport# catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2020,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10130321",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2020 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru WRX S4 STI Sport# (Japan catalogue specification, 2020)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-r-customize-package-10117758-2018-042",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ R Customize Package-10117758 2018"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ R Customize Package (Japan catalogue specification, 2018)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ R Customize Package (Japan catalogue specification, 2018).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ R Customize Package (Japan catalogue specification, 2018).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ R Customize Package (Japan catalogue specification, 2018).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ R Customize Package (Japan catalogue specification, 2018).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152,
+        "max": 152,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 212,
+        "max": 212,
+        "rpm": {
+          "min": 6400,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-r-customize-package-10117758-2018"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ R Customize Package (Japan catalogue specification, 2018)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-r-customize-package-10117758-2018",
+          "title": "BRZ R Customize Package catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2018,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10117758",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ R Customize Package (Japan catalogue specification, 2018); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 152 kW at 7000 rpm and 212 N-m at 6400-6800 rpm. The record is limited to this named 2018 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ R Customize Package (Japan catalogue specification, 2018)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-legacy-b4-2-0gt-dit-10082885-2013-043",
+    "code": "FA20",
+    "aliases": [
+      "FA20 Legacy B4 2.0GT DIT-10082885 2013"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2013",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-legacy-b4-2-0gt-dit-10082885-2013"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-legacy-b4-2-0gt-dit-10082885-2013",
+          "title": "Legacy B4 2.0GT DIT catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2013,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10082885",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2013 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru Legacy B4 2.0GT DIT (Japan catalogue specification, 2013)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-ra-10084304-2013-044",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ RA-10084304 2013"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2013",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ RA (Japan catalogue specification, 2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ RA (Japan catalogue specification, 2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ RA (Japan catalogue specification, 2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ RA (Japan catalogue specification, 2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ RA (Japan catalogue specification, 2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205,
+        "rpm": {
+          "min": 6400,
+          "max": 6600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-ra-10084304-2013"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ RA (Japan catalogue specification, 2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-ra-10084304-2013",
+          "title": "BRZ RA catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2013,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10084304",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ RA (Japan catalogue specification, 2013); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 147 kW at 7000 rpm and 205 N-m at 6400-6600 rpm. The record is limited to this named 2013 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ RA (Japan catalogue specification, 2013)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-sti-sport-10124721-2019-045",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ STI Sport-10124721 2019"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ STI Sport (Japan catalogue specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ STI Sport (Japan catalogue specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ STI Sport (Japan catalogue specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ STI Sport (Japan catalogue specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ STI Sport (Japan catalogue specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152,
+        "max": 152,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 212,
+        "max": 212,
+        "rpm": {
+          "min": 6400,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-sti-sport-10124721-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ STI Sport (Japan catalogue specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-sti-sport-10124721-2019",
+          "title": "BRZ STI Sport catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2019,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10124721",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ STI Sport (Japan catalogue specification, 2019); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 152 kW at 7000 rpm and 212 N-m at 6400-6800 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ STI Sport (Japan catalogue specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-gt-10106698-2016-046",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ GT-10106698 2016"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ GT (Japan catalogue specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ GT (Japan catalogue specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ GT (Japan catalogue specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ GT (Japan catalogue specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ GT (Japan catalogue specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205,
+        "rpm": {
+          "min": 6400,
+          "max": 6600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-gt-10106698-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ GT (Japan catalogue specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-gt-10106698-2016",
+          "title": "BRZ GT catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2016,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10106698",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ GT (Japan catalogue specification, 2016); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 147 kW at 7000 rpm and 205 N-m at 6400-6600 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ GT (Japan catalogue specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-wrx-s4-2-0gt-s-eyesight-10121363-2019-047",
+    "code": "FA20",
+    "aliases": [
+      "FA20 WRX S4 2.0GT-S EyeSight-10121363 2019"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-wrx-s4-2-0gt-s-eyesight-10121363-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-wrx-s4-2-0gt-s-eyesight-10121363-2019",
+          "title": "WRX S4 2.0GT-S EyeSight catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2019,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10121363",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-levorg-2-0-sti-sport-eyesight-10121225-2019-048",
+    "code": "FA20",
+    "aliases": [
+      "FA20 Levorg 2.0 STI Sport EyeSight-10121225 2019"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-levorg-2-0-sti-sport-eyesight-10121225-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-levorg-2-0-sti-sport-eyesight-10121225-2019",
+          "title": "Levorg 2.0 STI Sport EyeSight catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2019,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10121225",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-gt-10111695-2017-049",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ GT-10111695 2017"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ GT (Japan catalogue specification, 2017)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ GT (Japan catalogue specification, 2017).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ GT (Japan catalogue specification, 2017).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ GT (Japan catalogue specification, 2017).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ GT (Japan catalogue specification, 2017).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152,
+        "max": 152,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 212,
+        "max": 212,
+        "rpm": {
+          "min": 6400,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-gt-10111695-2017"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ GT (Japan catalogue specification, 2017)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-gt-10111695-2017",
+          "title": "BRZ GT catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2017,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10111695",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ GT (Japan catalogue specification, 2017); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 152 kW at 7000 rpm and 212 N-m at 6400-6800 rpm. The record is limited to this named 2017 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ GT (Japan catalogue specification, 2017)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-wrx-s4-2-0gt-s-eyesight-10103238-2016-050",
+    "code": "FA20",
+    "aliases": [
+      "FA20 WRX S4 2.0GT-S EyeSight-10103238 2016"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-wrx-s4-2-0gt-s-eyesight-10103238-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-wrx-s4-2-0gt-s-eyesight-10103238-2016",
+          "title": "WRX S4 2.0GT-S EyeSight catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2016,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10103238",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru WRX S4 2.0GT-S EyeSight (Japan catalogue specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-sti-sport-cool-grey-khaki-edition-10112473-2017-051",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ STI Sport Cool Grey Khaki Edition-10112473 2017"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152,
+        "max": 152,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 212,
+        "max": 212,
+        "rpm": {
+          "min": 6400,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-sti-sport-cool-grey-khaki-edition-10112473-2017"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-sti-sport-cool-grey-khaki-edition-10112473-2017",
+          "title": "BRZ STI Sport Cool Grey Khaki Edition catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2017,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10112473",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 152 kW at 7000 rpm and 212 N-m at 6400-6800 rpm. The record is limited to this named 2017 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ STI Sport Cool Grey Khaki Edition (Japan catalogue specification, 2017)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-levorg-2-0-sti-sport-eyesight-10104620-2016-052",
+    "code": "FA20",
+    "aliases": [
+      "FA20 Levorg 2.0 STI Sport EyeSight-10104620 2016"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-levorg-2-0-sti-sport-eyesight-10104620-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-levorg-2-0-sti-sport-eyesight-10104620-2016",
+          "title": "Levorg 2.0 STI Sport EyeSight catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2016,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10104620",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru Levorg 2.0 STI Sport EyeSight (Japan catalogue specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-ra-racing-10124702-2019-053",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ RA Racing-10124702 2019"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ RA Racing (Japan catalogue specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ RA Racing (Japan catalogue specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ RA Racing (Japan catalogue specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ RA Racing (Japan catalogue specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ RA Racing (Japan catalogue specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152,
+        "max": 152,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 212,
+        "max": 212,
+        "rpm": {
+          "min": 6400,
+          "max": 6800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-ra-racing-10124702-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ RA Racing (Japan catalogue specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-ra-racing-10124702-2019",
+          "title": "BRZ RA Racing catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2019,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10124702",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ RA Racing (Japan catalogue specification, 2019); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 152 kW at 7000 rpm and 212 N-m at 6400-6800 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ RA Racing (Japan catalogue specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-brz-ra-10074322-2012-054",
+    "code": "FA20",
+    "aliases": [
+      "FA20 BRZ RA-10074322 2012"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2012",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru BRZ RA (Japan catalogue specification, 2012)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru BRZ RA (Japan catalogue specification, 2012).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru BRZ RA (Japan catalogue specification, 2012).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru BRZ RA (Japan catalogue specification, 2012).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru BRZ RA (Japan catalogue specification, 2012).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205,
+        "rpm": {
+          "min": 6400,
+          "max": 6600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-brz-ra-10074322-2012"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru BRZ RA (Japan catalogue specification, 2012)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-brz-ra-10074322-2012",
+          "title": "BRZ RA catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2012,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10074322",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru BRZ RA (Japan catalogue specification, 2012); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, natural aspiration, D-4S direct plus port injection, 147 kW at 7000 rpm and 205 N-m at 6400-6600 rpm. The record is limited to this named 2012 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru BRZ RA (Japan catalogue specification, 2012)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-subaru-fa20-legacy-touring-wagon-2-0gt-dit-spec-b-eyesight-10085498-2013-055",
+    "code": "FA20",
+    "aliases": [
+      "FA20 Legacy Touring Wagon 2.0GT DIT Spec B EyeSight-10085498 2013"
+    ],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2013",
+    "displacement": "2.0 L · 1,998 cc",
+    "layout": "Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "FA20 is the Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total 2.0 L · 1,998 cc engine documented for Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; aplicación documentada: Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "FA20 : Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc ; application documentée : Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "FA20: Boxer-4 · DOHC per bank · 16 valves · 4 camshafts total, 2.0 L · 1,998 cc; dokumentierte Anwendung: Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2000,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-subaru-fa20-legacy-touring-wagon-2-0gt-dit-spec-b-eyesight-10085498-2013"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-subaru-fa20-legacy-touring-wagon-2-0gt-dit-spec-b-eyesight-10085498-2013",
+          "title": "Legacy Touring Wagon 2.0GT DIT Spec B EyeSight catalogue specifications",
+          "publisher": "Subaru Corporation",
+          "year": 2013,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10085498",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Subaru certified-used catalogue page provides one model/grade row with engine code, construction, induction, injection and performance. The cited manufacturer table binds FA20 to Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013); it states 2.0 L · 1,998 cc, a horizontally opposed four-cylinder with DOHC and 16 valves; the four-camshaft total is the mechanical derivation of two cylinder heads/banks × two overhead camshafts per head, petrol fuel, turbocharging, cylinder direct injection, 221 kW at 5600 rpm and 400 N-m at 2000-4800 rpm. The record is limited to this named 2013 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "FA20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon 2.0GT DIT Spec B EyeSight (Japan catalogue specification, 2013)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-alto-works-5mt-altoworks-2015-056",
+    "code": "R06A",
+    "aliases": [
+      "R06A Alto Works 5MT-altoworks 2015"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Alto Works 5MT (Japan catalogue specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Alto Works 5MT (Japan catalogue specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Alto Works 5MT (Japan catalogue specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Alto Works 5MT (Japan catalogue specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Alto Works 5MT (Japan catalogue specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-alto-works-5mt-altoworks-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Alto Works 5MT (Japan catalogue specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-alto-works-5mt-altoworks-2015",
+          "title": "Alto Works 5MT model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2015,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=altoworks&id=34",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Alto Works 5MT (Japan catalogue specification, 2015) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Alto Works 5MT (Japan catalogue specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-carry-kc-5mt-2wd-2013-057",
+    "code": "R06A",
+    "aliases": [
+      "R06A Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013)"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2013",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 37,
+        "max": 37,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 63,
+        "max": 63,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-carry-kc-5mt-2wd-carry-2018"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-carry-kc-5mt-2wd-carry-2018",
+          "title": "Carry KC 5MT 2WD model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2013,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=carry&id=107",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Carry KC 5MT 2WD (Japan catalogue specification, 2013)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-every-join-turbo-carryvan-2015-058",
+    "code": "R06A",
+    "aliases": [
+      "R06A Every JOIN Turbo-carryvan 2015"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Every JOIN Turbo (Japan catalogue specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Every JOIN Turbo (Japan catalogue specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Every JOIN Turbo (Japan catalogue specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Every JOIN Turbo (Japan catalogue specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Every JOIN Turbo (Japan catalogue specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-every-join-turbo-carryvan-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Every JOIN Turbo (Japan catalogue specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-every-join-turbo-carryvan-2015",
+          "title": "Every JOIN Turbo model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2015,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=carryvan&id=124",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Every JOIN Turbo (Japan catalogue specification, 2015) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Every JOIN Turbo (Japan catalogue specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-every-pa-carryvan-2015-059",
+    "code": "R06A",
+    "aliases": [
+      "R06A Every PA-carryvan 2015"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Every PA (Japan catalogue specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Every PA (Japan catalogue specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Every PA (Japan catalogue specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Every PA (Japan catalogue specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Every PA (Japan catalogue specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 36,
+        "max": 36,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 62,
+        "max": 62,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-every-pa-carryvan-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Every PA (Japan catalogue specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-every-pa-carryvan-2015",
+          "title": "Every PA model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2015,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=carryvan&id=124",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Every PA (Japan catalogue specification, 2015) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Every PA (Japan catalogue specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-mr-wagon-t-mrwagon-2011-060",
+    "code": "R06A",
+    "aliases": [
+      "R06A MR Wagon T-mrwagon 2011"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2011",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki MR Wagon T (Japan catalogue specification, 2011)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki MR Wagon T (Japan catalogue specification, 2011).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki MR Wagon T (Japan catalogue specification, 2011).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki MR Wagon T (Japan catalogue specification, 2011).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki MR Wagon T (Japan catalogue specification, 2011).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-mr-wagon-t-mrwagon-2011"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki MR Wagon T (Japan catalogue specification, 2011)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-mr-wagon-t-mrwagon-2011",
+          "title": "MR Wagon T model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2011,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=mrwagon&id=80",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki MR Wagon T (Japan catalogue specification, 2011) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki MR Wagon T (Japan catalogue specification, 2011)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-mr-wagon-x-mrwagon-2011-061",
+    "code": "R06A",
+    "aliases": [
+      "R06A MR Wagon X-mrwagon 2011"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2011",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki MR Wagon X (Japan catalogue specification, 2011)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki MR Wagon X (Japan catalogue specification, 2011).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki MR Wagon X (Japan catalogue specification, 2011).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki MR Wagon X (Japan catalogue specification, 2011).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki MR Wagon X (Japan catalogue specification, 2011).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 40,
+        "max": 40,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 63,
+        "max": 63,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-mr-wagon-x-mrwagon-2011"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki MR Wagon X (Japan catalogue specification, 2011)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-mr-wagon-x-mrwagon-2011",
+          "title": "MR Wagon X model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2011,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=mrwagon&id=80",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki MR Wagon X (Japan catalogue specification, 2011) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki MR Wagon X (Japan catalogue specification, 2011)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06d-alto-hybrid-x-alto-2021-062",
+    "code": "R06D",
+    "aliases": [
+      "R06D Alto Hybrid X-alto 2021"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "0.66 L · 657 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Alto Hybrid X (Japan catalogue specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06D is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 657 cc engine documented for Suzuki Alto Hybrid X (Japan catalogue specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06D: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 657 cc; aplicación documentada: Suzuki Alto Hybrid X (Japan catalogue specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06D : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 657 cc ; application documentée : Suzuki Alto Hybrid X (Japan catalogue specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06D: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 657 cc; dokumentierte Anwendung: Suzuki Alto Hybrid X (Japan catalogue specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 36,
+        "max": 36,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 58,
+        "max": 58,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06d-alto-hybrid-x-alto-2021"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Alto Hybrid X (Japan catalogue specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06d-alto-hybrid-x-alto-2021",
+          "title": "Alto Hybrid X model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2021,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/1_auto/alto.html",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06D to Suzuki Alto Hybrid X (Japan catalogue specification, 2021) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06D"
+            ],
+            "applications": [
+              "Suzuki Alto Hybrid X (Japan catalogue specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-alto-a-alto-2021-063",
+    "code": "R06A",
+    "aliases": [
+      "R06A Alto A-alto 2021"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Alto A (Japan catalogue specification, 2021)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Alto A (Japan catalogue specification, 2021).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Alto A (Japan catalogue specification, 2021).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Alto A (Japan catalogue specification, 2021).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Alto A (Japan catalogue specification, 2021).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 34,
+        "max": 34,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 58,
+        "max": 58,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-alto-a-alto-2021"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Alto A (Japan catalogue specification, 2021)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-alto-a-alto-2021",
+          "title": "Alto A model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2021,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/1_auto/alto.html",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Alto A (Japan catalogue specification, 2021) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Alto A (Japan catalogue specification, 2021)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-every-wagon-pz-turbo-special-everywagon-2015-064",
+    "code": "R06A",
+    "aliases": [
+      "R06A Every Wagon PZ Turbo Special-everywagon 2015"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-every-wagon-pz-turbo-special-everywagon-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-every-wagon-pz-turbo-special-everywagon-2015",
+          "title": "Every Wagon PZ Turbo Special model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2015,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=everywagon&id=127",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Every Wagon PZ Turbo Special (Japan catalogue specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-hustler-x-hustler-2014-065",
+    "code": "R06A",
+    "aliases": [
+      "R06A Hustler X-hustler 2014"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2014",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Hustler X (Japan catalogue specification, 2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Hustler X (Japan catalogue specification, 2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Hustler X (Japan catalogue specification, 2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Hustler X (Japan catalogue specification, 2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Hustler X (Japan catalogue specification, 2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 38,
+        "max": 38,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 63,
+        "max": 63,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-hustler-x-hustler-2014"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Hustler X (Japan catalogue specification, 2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-hustler-x-hustler-2014",
+          "title": "Hustler X model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2014,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=hustler&id=90",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Hustler X (Japan catalogue specification, 2014) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Hustler X (Japan catalogue specification, 2014)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-hustler-x-turbo-hustler-2014-066",
+    "code": "R06A",
+    "aliases": [
+      "R06A Hustler X Turbo-hustler 2014"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2014",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Hustler X Turbo (Japan catalogue specification, 2014)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Hustler X Turbo (Japan catalogue specification, 2014).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Hustler X Turbo (Japan catalogue specification, 2014).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Hustler X Turbo (Japan catalogue specification, 2014).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Hustler X Turbo (Japan catalogue specification, 2014).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-hustler-x-turbo-hustler-2014"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Hustler X Turbo (Japan catalogue specification, 2014)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-hustler-x-turbo-hustler-2014",
+          "title": "Hustler X Turbo model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2014,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=hustler&id=90",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Hustler X Turbo (Japan catalogue specification, 2014) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Hustler X Turbo (Japan catalogue specification, 2014)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-alto-lapin-x-altolapin-2015-067",
+    "code": "R06A",
+    "aliases": [
+      "R06A Alto Lapin X-altolapin 2015"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Alto Lapin X (Japan catalogue specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Alto Lapin X (Japan catalogue specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Alto Lapin X (Japan catalogue specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Alto Lapin X (Japan catalogue specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Alto Lapin X (Japan catalogue specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 38,
+        "max": 38,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 63,
+        "max": 63,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-alto-lapin-x-altolapin-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Alto Lapin X (Japan catalogue specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-alto-lapin-x-altolapin-2015",
+          "title": "Alto Lapin X model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2015,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=altolapin&id=38",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Alto Lapin X (Japan catalogue specification, 2015) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Alto Lapin X (Japan catalogue specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-jimny-xc-5mt-jimny-2018-068",
+    "code": "R06A",
+    "aliases": [
+      "R06A Jimny XC 5MT-jimny 2018"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Jimny XC 5MT (Japan catalogue specification, 2018)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Jimny XC 5MT (Japan catalogue specification, 2018).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Jimny XC 5MT (Japan catalogue specification, 2018).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Jimny XC 5MT (Japan catalogue specification, 2018).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Jimny XC 5MT (Japan catalogue specification, 2018).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-jimny-xc-5mt-jimny-2018"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Jimny XC 5MT (Japan catalogue specification, 2018)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-jimny-xc-5mt-jimny-2018",
+          "title": "Jimny XC 5MT model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2018,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=jimny&id=140",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Jimny XC 5MT (Japan catalogue specification, 2018) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Jimny XC 5MT (Japan catalogue specification, 2018)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-wagon-r-hybrid-fx-2017-069",
+    "code": "R06A",
+    "aliases": [
+      "R06A Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017)"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 38,
+        "max": 38,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 60,
+        "max": 60,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-wagon-r-fx-wagonr-2017"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-wagon-r-fx-wagonr-2017",
+          "title": "Wagon R FX model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2017,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=wagonr&id=74_75",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Wagon R Hybrid FX (Japan catalogue specification, 2017)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-suzuki-r06a-spacia-custom-ts-2013-070",
+    "code": "R06A",
+    "aliases": [
+      "R06A Suzuki Spacia Custom TS (Japan catalogue specification, 2013)"
+    ],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2013",
+    "displacement": "0.66 L · 658 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "notSpecified",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Spacia Custom TS (Japan catalogue specification, 2013)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "R06A is the I3 · DOHC · 12 valves · 2 camshafts total 0.66 L · 658 cc engine documented for Suzuki Spacia Custom TS (Japan catalogue specification, 2013).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; aplicación documentada: Suzuki Spacia Custom TS (Japan catalogue specification, 2013).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "R06A : I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc ; application documentée : Suzuki Spacia Custom TS (Japan catalogue specification, 2013).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "R06A: I3 · DOHC · 12 valves · 2 camshafts total, 0.66 L · 658 cc; dokumentierte Anwendung: Suzuki Spacia Custom TS (Japan catalogue specification, 2013).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-suzuki-r06a-palette-sw-ts-palette-2012"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Spacia Custom TS (Japan catalogue specification, 2013)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-suzuki-r06a-palette-sw-ts-palette-2012",
+          "title": "Palette SW TS model specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2013,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/pdf.html?dir1=1_auto&dir2=palette&id=83",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Suzuki Digital Library model table and its linked specification sheet bind R06A to Suzuki Spacia Custom TS (Japan catalogue specification, 2013) and publish the stored displacement, inline-three DOHC 12-valve construction, aspiration, power and torque values. Suzuki describes electronic petrol injection (EPI) but does not identify port/direct topology, so injectionKey is conservatively notSpecified. The record is limited to this named Japan catalogue application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "R06A"
+            ],
+            "applications": [
+              "Suzuki Spacia Custom TS (Japan catalogue specification, 2013)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-k20c-civic-type-r-fk2-2015-071",
+    "code": "K20C",
+    "aliases": [
+      "K20C civic-type-r-fk2 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "2.0 L · 1,995 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic Type R FK2 (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,995 cc engine documented for Honda Civic Type R FK2 (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "K20C: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,995 cc; aplicación documentada: Honda Civic Type R FK2 (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "K20C : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,995 cc ; application documentée : Honda Civic Type R FK2 (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "K20C: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,995 cc; dokumentierte Anwendung: Honda Civic Type R FK2 (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 228,
+        "max": 228,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-k20c-civic-type-r-fk2-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic Type R FK2 (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-k20c-civic-type-r-fk2-2015",
+          "title": "Civic Type R performance and specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/auto-archive/civic/type-r/2016/webcatalog/performance/spec/",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official archived Civic Type R specification binds K20C to the FK2 and states four valves per cylinder and DOHC. The cited manufacturer table binds K20C to Honda Civic Type R FK2 (Japan specification, 2015); it states 2.0 L · 1,995 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, turbocharging, PGM-FI direct injection, 228 kW at 6500 rpm and 400 N-m at 2500-4500 rpm. The record is limited to this named 2015 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C"
+            ],
+            "applications": [
+              "Honda Civic Type R FK2 (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-g-2015-072",
+    "code": "L15B",
+    "aliases": [
+      "L15B stepwgn-G 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN G L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN G L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN G L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN G L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN G L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-g-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN G L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-g-2015",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact book lists L15B, DOHC four-valve construction, direct injection and the turbo engine ratings by grade. The cited manufacturer table binds L15B to Honda Step WGN G L15B (Japan specification, 2015); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, VTEC turbocharging, direct injection, 110 kW at 5500 rpm and 203 N-m at 1600-5000 rpm. The record is limited to this named 2015 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN G L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-g-ex-2015-073",
+    "code": "L15B",
+    "aliases": [
+      "L15B stepwgn-G EX 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN G EX L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN G EX L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN G EX L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN G EX L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN G EX L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-g-ex-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN G EX L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-g-ex-2015",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact book lists L15B, DOHC four-valve construction, direct injection and the turbo engine ratings by grade. The cited manufacturer table binds L15B to Honda Step WGN G EX L15B (Japan specification, 2015); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, VTEC turbocharging, direct injection, 110 kW at 5500 rpm and 203 N-m at 1600-5000 rpm. The record is limited to this named 2015 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN G EX L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-spada-2015-074",
+    "code": "L15B",
+    "aliases": [
+      "L15B stepwgn-Spada 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN Spada L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN Spada L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN Spada L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN Spada L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN Spada L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-spada-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN Spada L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-spada-2015",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact book lists L15B, DOHC four-valve construction, direct injection and the turbo engine ratings by grade. The cited manufacturer table binds L15B to Honda Step WGN Spada L15B (Japan specification, 2015); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, VTEC turbocharging, direct injection, 110 kW at 5500 rpm and 203 N-m at 1600-5000 rpm. The record is limited to this named 2015 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN Spada L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-spada-cool-spirit-2015-075",
+    "code": "L15B",
+    "aliases": [
+      "L15B stepwgn-Spada Cool Spirit 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-spada-cool-spirit-2015"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-spada-cool-spirit-2015",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact book lists L15B, DOHC four-valve construction, direct injection and the turbo engine ratings by grade. The cited manufacturer table binds L15B to Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, VTEC turbocharging, direct injection, 110 kW at 5500 rpm and 203 N-m at 1600-5000 rpm. The record is limited to this named 2015 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN Spada Cool Spirit L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-vezel-g-2016-076",
+    "code": "L15B",
+    "aliases": [
+      "L15B vezel-G 2016"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Vezel G gasoline (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Vezel G gasoline (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Vezel G gasoline (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Vezel G gasoline (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Vezel G gasoline (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-vezel-g-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Vezel G gasoline (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-vezel-g-2016",
+          "title": "Vezel performance and specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2016,
+          "url": "https://www.honda.co.jp/auto-archive/vezel/2016/webcatalog/performance/spec/",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official archived Vezel specification lists L15B, DOHC four-valve construction and direct-injection output for the gasoline grades. The cited manufacturer table binds L15B to Honda Vezel G gasoline (Japan specification, 2016); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, direct injection, 96 kW at 6600 rpm and 155 N-m at 4600 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Vezel G gasoline (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-vezel-rs-honda-sensing-2016-077",
+    "code": "L15B",
+    "aliases": [
+      "L15B vezel-RS Honda Sensing 2016"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-vezel-rs-honda-sensing-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-vezel-rs-honda-sensing-2016",
+          "title": "Vezel performance and specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2016,
+          "url": "https://www.honda.co.jp/auto-archive/vezel/2016/webcatalog/performance/spec/",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official archived Vezel specification lists L15B, DOHC four-valve construction and direct-injection output for the gasoline grades. The cited manufacturer table binds L15B to Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, direct injection, 96 kW at 6600 rpm and 155 N-m at 4600 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Vezel RS Honda Sensing gasoline (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-freed-g-honda-sensing-2019-078",
+    "code": "L15B",
+    "aliases": [
+      "L15B Honda Freed G Honda Sensing gasoline (Japan specification, 2019)"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Freed G Honda Sensing gasoline (Japan specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Freed G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Freed G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Freed G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Freed G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-freed-g-honda-sensing-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Freed G Honda Sensing gasoline (Japan specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-freed-g-honda-sensing-2019",
+          "title": "Freed specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2019,
+          "url": "https://www.honda.co.jp/factbook/auto/FREED/201910/P07.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Freed fact-book specification identifies L15B and separates the named gasoline model variants. The cited manufacturer table binds L15B to Honda Freed G Honda Sensing gasoline (Japan specification, 2019); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, direct injection, 96 kW at 6600 rpm and 155 N-m at 4600 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Freed G Honda Sensing gasoline (Japan specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-freed-crosstar-honda-sensing-2019-079",
+    "code": "L15B",
+    "aliases": [
+      "L15B Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019)"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-freed-crosstar-honda-sensing-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-freed-crosstar-honda-sensing-2019",
+          "title": "Freed specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2019,
+          "url": "https://www.honda.co.jp/factbook/auto/FREED/201910/P07.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Freed fact-book specification identifies L15B and separates the named gasoline model variants. The cited manufacturer table binds L15B to Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, direct injection, 96 kW at 6600 rpm and 155 N-m at 4600 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Freed Crosstar Honda Sensing gasoline (Japan specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-freed-plus-g-honda-sensing-2019-080",
+    "code": "L15B",
+    "aliases": [
+      "L15B Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019)"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 4600,
+          "max": 4600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-freed-freed-g-honda-sensing-2019"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-freed-freed-g-honda-sensing-2019",
+          "title": "Freed specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2019,
+          "url": "https://www.honda.co.jp/factbook/auto/FREED/201910/P07.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Freed fact-book specification identifies L15B and separates the named gasoline model variants. The cited manufacturer table binds L15B to Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019); it states 1.5 L · 1,496 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, direct injection, 96 kW at 6600 rpm and 155 N-m at 4600 rpm. The record is limited to this named 2019 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Freed+ G Honda Sensing gasoline (Japan specification, 2019)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-pe-vpr-atenza-pe-sedan-20s-2016-081",
+    "code": "PE-VPR",
+    "aliases": [
+      "PE-VPR atenza-pe-Sedan 20S 2016"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Sedan 20S (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PE-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,997 cc engine documented for Mazda Atenza Sedan 20S (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; aplicación documentada: Mazda Atenza Sedan 20S (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PE-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc ; application documentée : Mazda Atenza Sedan 20S (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; dokumentierte Anwendung: Mazda Atenza Sedan 20S (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-pe-vpr-atenza-pe-sedan-20s-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Sedan 20S (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-pe-vpr-atenza-pe-sedan-20s-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PE-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PE-VPR to Mazda Atenza Sedan 20S (Japan specification, 2016); it states 2.0 L · 1,997 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 114 kW at 6000 rpm and 196 N-m at 4000 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PE-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Sedan 20S (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-pe-vpr-atenza-pe-sedan-20s-proactive-2016-082",
+    "code": "PE-VPR",
+    "aliases": [
+      "PE-VPR atenza-pe-Sedan 20S Proactive 2016"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Sedan 20S Proactive (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PE-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,997 cc engine documented for Mazda Atenza Sedan 20S Proactive (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; aplicación documentada: Mazda Atenza Sedan 20S Proactive (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PE-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc ; application documentée : Mazda Atenza Sedan 20S Proactive (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; dokumentierte Anwendung: Mazda Atenza Sedan 20S Proactive (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-pe-vpr-atenza-pe-sedan-20s-proactive-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Sedan 20S Proactive (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-pe-vpr-atenza-pe-sedan-20s-proactive-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PE-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PE-VPR to Mazda Atenza Sedan 20S Proactive (Japan specification, 2016); it states 2.0 L · 1,997 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 114 kW at 6000 rpm and 196 N-m at 4000 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PE-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Sedan 20S Proactive (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-pe-vpr-atenza-pe-wagon-20s-2016-083",
+    "code": "PE-VPR",
+    "aliases": [
+      "PE-VPR atenza-pe-Wagon 20S 2016"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Wagon 20S (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PE-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,997 cc engine documented for Mazda Atenza Wagon 20S (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; aplicación documentada: Mazda Atenza Wagon 20S (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PE-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc ; application documentée : Mazda Atenza Wagon 20S (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; dokumentierte Anwendung: Mazda Atenza Wagon 20S (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-pe-vpr-atenza-pe-wagon-20s-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Wagon 20S (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-pe-vpr-atenza-pe-wagon-20s-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PE-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PE-VPR to Mazda Atenza Wagon 20S (Japan specification, 2016); it states 2.0 L · 1,997 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 114 kW at 6000 rpm and 196 N-m at 4000 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PE-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Wagon 20S (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-pe-vpr-atenza-pe-wagon-20s-proactive-2016-084",
+    "code": "PE-VPR",
+    "aliases": [
+      "PE-VPR atenza-pe-Wagon 20S Proactive 2016"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Wagon 20S Proactive (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PE-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.0 L · 1,997 cc engine documented for Mazda Atenza Wagon 20S Proactive (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; aplicación documentada: Mazda Atenza Wagon 20S Proactive (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PE-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc ; application documentée : Mazda Atenza Wagon 20S Proactive (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PE-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; dokumentierte Anwendung: Mazda Atenza Wagon 20S Proactive (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-pe-vpr-atenza-pe-wagon-20s-proactive-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Wagon 20S Proactive (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-pe-vpr-atenza-pe-wagon-20s-proactive-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PE-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PE-VPR to Mazda Atenza Wagon 20S Proactive (Japan specification, 2016); it states 2.0 L · 1,997 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 114 kW at 6000 rpm and 196 N-m at 4000 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PE-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Wagon 20S Proactive (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-py-vpr-atenza-py-sedan-25s-l-package-2016-085",
+    "code": "PY-VPR",
+    "aliases": [
+      "PY-VPR atenza-py-Sedan 25S L Package 2016"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Sedan 25S L Package (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PY-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,488 cc engine documented for Mazda Atenza Sedan 25S L Package (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; aplicación documentada: Mazda Atenza Sedan 25S L Package (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PY-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc ; application documentée : Mazda Atenza Sedan 25S L Package (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; dokumentierte Anwendung: Mazda Atenza Sedan 25S L Package (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 3250,
+          "max": 3250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-py-vpr-atenza-py-sedan-25s-l-package-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Sedan 25S L Package (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-py-vpr-atenza-py-sedan-25s-l-package-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PY-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PY-VPR to Mazda Atenza Sedan 25S L Package (Japan specification, 2016); it states 2.5 L · 2,488 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 138 kW at 5700 rpm and 250 N-m at 3250 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PY-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Sedan 25S L Package (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-py-vpr-atenza-sedan-25s-l-package-sunroof-2016-086",
+    "code": "PY-VPR",
+    "aliases": [
+      "PY-VPR Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016)"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PY-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,488 cc engine documented for Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; aplicación documentada: Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PY-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc ; application documentée : Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; dokumentierte Anwendung: Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 3250,
+          "max": 3250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-py-vpr-atenza-py-sedan-25s-proactive-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-py-vpr-atenza-py-sedan-25s-proactive-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PY-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PY-VPR to Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016); it states 2.5 L · 2,488 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 138 kW at 5700 rpm and 250 N-m at 3250 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PY-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Sedan 25S L Package with factory sunroof (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-py-vpr-atenza-py-wagon-25s-l-package-2016-087",
+    "code": "PY-VPR",
+    "aliases": [
+      "PY-VPR atenza-py-Wagon 25S L Package 2016"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Wagon 25S L Package (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PY-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,488 cc engine documented for Mazda Atenza Wagon 25S L Package (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; aplicación documentada: Mazda Atenza Wagon 25S L Package (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PY-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc ; application documentée : Mazda Atenza Wagon 25S L Package (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; dokumentierte Anwendung: Mazda Atenza Wagon 25S L Package (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 3250,
+          "max": 3250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-py-vpr-atenza-py-wagon-25s-l-package-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Wagon 25S L Package (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-py-vpr-atenza-py-wagon-25s-l-package-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PY-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PY-VPR to Mazda Atenza Wagon 25S L Package (Japan specification, 2016); it states 2.5 L · 2,488 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 138 kW at 5700 rpm and 250 N-m at 3250 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PY-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Wagon 25S L Package (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mazda-py-vpr-atenza-wagon-25s-l-package-sunroof-2016-088",
+    "code": "PY-VPR",
+    "aliases": [
+      "PY-VPR Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016)"
+    ],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PY-VPR is the I4 · DOHC · 16 valves · 2 camshafts total 2.5 L · 2,488 cc engine documented for Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; aplicación documentada: Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PY-VPR : I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc ; application documentée : Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PY-VPR: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; dokumentierte Anwendung: Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 3250,
+          "max": 3250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mazda-py-vpr-atenza-py-wagon-25s-proactive-2016"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mazda-py-vpr-atenza-py-wagon-25s-proactive-2016",
+          "title": "Updated Mazda Atenza specifications",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2016,
+          "url": "https://newsroom.mazda.com/ja/publicity/release/2016/201608/160825b.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Atenza release specification table identifies PY-VPR and separates sedan/wagon and trim applications. The cited manufacturer table binds PY-VPR to Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016); it states 2.5 L · 2,488 cc, I4 · DOHC · 16 valves · 2 camshafts total, petrol fuel, natural aspiration, SKYACTIV-G direct injection, 138 kW at 5700 rpm and 250 N-m at 3250 rpm. The record is limited to this named 2016 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PY-VPR"
+            ],
+            "applications": [
+              "Mazda Atenza Wagon 25S L Package with factory sunroof (Japan specification, 2016)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4n16-triton-exceed-4x4-mt-2024-089",
+    "code": "4N16",
+    "aliases": [
+      "4N16 Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024)"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,442 cc engine documented for Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; aplicación documentada: Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc ; application documentée : Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; dokumentierte Anwendung: Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 2250,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4n16-triton-135-double-cab-plus-standard-output-2023"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4n16-triton-135-double-cab-plus-standard-output-2023",
+          "title": "Mitsubishi Triton 2024 owner manual — engine specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2024,
+          "url": "https://microsite.mitsubishi-motors.co.id/owner-manual/media/file/originals/post/2024/07/18/owners-manual-triton-24my.pdf",
+          "page": 9,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Chapter 11 engine-specification table directly maps Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024) to 4N16, 2,442 cc inline-four DOHC, electronic direct-injection diesel and the 135 kW at 3,500 rpm / 430 N-m at 2250-2500 rpm calibration. The record is limited to this named 2024 Indonesia variant."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16"
+            ],
+            "applications": [
+              "Mitsubishi Triton Exceed 4x4 MT (Indonesia specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4n16-triton-ultimate-4x4-at-2024-090",
+    "code": "4N16",
+    "aliases": [
+      "4N16 Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024)"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,442 cc engine documented for Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; aplicación documentada: Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc ; application documentée : Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; dokumentierte Anwendung: Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 2250,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4n16-triton-135-double-cab-athlete-standard-output-2023"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4n16-triton-135-double-cab-athlete-standard-output-2023",
+          "title": "Mitsubishi Triton 2024 owner manual — engine specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2024,
+          "url": "https://microsite.mitsubishi-motors.co.id/owner-manual/media/file/originals/post/2024/07/18/owners-manual-triton-24my.pdf",
+          "page": 9,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Chapter 11 engine-specification table directly maps Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024) to 4N16, 2,442 cc inline-four DOHC, electronic direct-injection diesel and the 135 kW at 3,500 rpm / 430 N-m at 2250-2500 rpm calibration. The record is limited to this named 2024 Indonesia variant."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16"
+            ],
+            "applications": [
+              "Mitsubishi Triton Ultimate 4x4 AT (Indonesia specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4n16-triton-glx-4x2-mt-2024-091",
+    "code": "4N16",
+    "aliases": [
+      "4N16 Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024)"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,442 cc engine documented for Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; aplicación documentada: Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc ; application documentée : Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; dokumentierte Anwendung: Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 330,
+        "max": 330,
+        "rpm": {
+          "min": 1500,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4n16-triton-110-single-cab-standard-output-2023"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4n16-triton-110-single-cab-standard-output-2023",
+          "title": "Mitsubishi Triton 2024 owner manual — engine specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2024,
+          "url": "https://microsite.mitsubishi-motors.co.id/owner-manual/media/file/originals/post/2024/07/18/owners-manual-triton-24my.pdf",
+          "page": 9,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Chapter 11 engine-specification table directly maps Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024) to 4N16, 2,442 cc inline-four DOHC, electronic direct-injection diesel and the 110 kW at 3,500 rpm / 330 N-m at 1500-3000 rpm calibration. The record is limited to this named 2024 Indonesia variant."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16"
+            ],
+            "applications": [
+              "Mitsubishi Triton GLX 4x2 MT (Indonesia specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4n16-triton-gls-4x4-mt-2024-092",
+    "code": "4N16",
+    "aliases": [
+      "4N16 Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024)"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,442 cc engine documented for Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; aplicación documentada: Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc ; application documentée : Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; dokumentierte Anwendung: Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 330,
+        "max": 330,
+        "rpm": {
+          "min": 1500,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4n16-triton-110-mega-cab-standard-output-2023"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4n16-triton-110-mega-cab-standard-output-2023",
+          "title": "Mitsubishi Triton 2024 owner manual — engine specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2024,
+          "url": "https://microsite.mitsubishi-motors.co.id/owner-manual/media/file/originals/post/2024/07/18/owners-manual-triton-24my.pdf",
+          "page": 9,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Chapter 11 engine-specification table directly maps Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024) to 4N16, 2,442 cc inline-four DOHC, electronic direct-injection diesel and the 110 kW at 3,500 rpm / 330 N-m at 1500-3000 rpm calibration. The record is limited to this named 2024 Indonesia variant."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16"
+            ],
+            "applications": [
+              "Mitsubishi Triton GLS 4x4 MT (Indonesia specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4n16-triton-jp-gsr-2024-093",
+    "code": "4N16",
+    "aliases": [
+      "4N16 triton-jp-GSR 2024"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.4 L · 2,439 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton GSR 4N16 (Japan specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,439 cc engine documented for Mitsubishi Triton GSR 4N16 (Japan specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,439 cc; aplicación documentada: Mitsubishi Triton GSR 4N16 (Japan specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,439 cc ; application documentée : Mitsubishi Triton GSR 4N16 (Japan specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,439 cc; dokumentierte Anwendung: Mitsubishi Triton GSR 4N16 (Japan specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 470,
+        "max": 470,
+        "rpm": {
+          "min": 1500,
+          "max": 2750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4n16-triton-jp-gsr-2024"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton GSR 4N16 (Japan specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4n16-triton-jp-gsr-2024",
+          "title": "Triton Japan specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2024,
+          "url": "https://www.mitsubishi-motors.co.jp/lineup/triton/spec/spe_02.html",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Japan Triton specification table identifies 4N16 and lists the GSR and GLS model rows. The cited manufacturer table binds 4N16 to Mitsubishi Triton GSR 4N16 (Japan specification, 2024); it states 2.4 L · 2,439 cc, I4 · DOHC · 16 valves · 2 camshafts total, diesel fuel, intercooled turbocharging, common-rail direct injection, 150 kW at 3500 rpm and 470 N-m at 1500-2750 rpm. The record is limited to this named 2024 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16"
+            ],
+            "applications": [
+              "Mitsubishi Triton GSR 4N16 (Japan specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4n16-triton-jp-gls-2024-094",
+    "code": "4N16",
+    "aliases": [
+      "4N16 triton-jp-GLS 2024"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "2.4 L · 2,439 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton GLS 4N16 (Japan specification, 2024)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 is the I4 · DOHC · 16 valves · 2 camshafts total 2.4 L · 2,439 cc engine documented for Mitsubishi Triton GLS 4N16 (Japan specification, 2024).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,439 cc; aplicación documentada: Mitsubishi Triton GLS 4N16 (Japan specification, 2024).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4N16 : I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,439 cc ; application documentée : Mitsubishi Triton GLS 4N16 (Japan specification, 2024).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4N16: I4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,439 cc; dokumentierte Anwendung: Mitsubishi Triton GLS 4N16 (Japan specification, 2024).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 470,
+        "max": 470,
+        "rpm": {
+          "min": 1500,
+          "max": 2750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4n16-triton-jp-gls-2024"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton GLS 4N16 (Japan specification, 2024)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4n16-triton-jp-gls-2024",
+          "title": "Triton Japan specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2024,
+          "url": "https://www.mitsubishi-motors.co.jp/lineup/triton/spec/spe_02.html",
+          "page": 1,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Japan Triton specification table identifies 4N16 and lists the GSR and GLS model rows. The cited manufacturer table binds 4N16 to Mitsubishi Triton GLS 4N16 (Japan specification, 2024); it states 2.4 L · 2,439 cc, I4 · DOHC · 16 valves · 2 camshafts total, diesel fuel, intercooled turbocharging, common-rail direct injection, 150 kW at 3500 rpm and 470 N-m at 1500-2750 rpm. The record is limited to this named 2024 Japan application."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16"
+            ],
+            "applications": [
+              "Mitsubishi Triton GLS 4N16 (Japan specification, 2024)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-mitsubishi-4b40-destinator-ultimate-2025-095",
+    "code": "4B40",
+    "aliases": [
+      "4B40 destinator-ultimate 2025"
+    ],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "1.5 L · 1,499 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4B40 is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,499 cc engine documented for Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "4B40: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; aplicación documentada: Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "4B40 : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc ; application documentée : Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "4B40: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; dokumentierte Anwendung: Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 2000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-mitsubishi-4b40-destinator-ultimate-2025"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Indonesia"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-mitsubishi-4b40-destinator-ultimate-2025",
+          "title": "Mitsubishi Destinator Indonesia launch specification",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2025,
+          "url": "https://www.mitsubishi-motors.co.id/siaran-pers/mitsubishi-motors-gelar-peluncuran-perdana-all-new-destinator-di-indonesia-sebuah-suv-tiga-baris-yang-nyaman-untuk-semua-penumpang?product_id=9",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Indonesia launch page lists the Ultimate, Exceed and GLS variants and its specification table directly identifies 4B40 MIVEC turbocharged with intercooler, 1,499 cc inline-four DOHC 16-valve, DI + MPI petrol injection, 120 kW at 5,000 rpm and 250 N-m at 2,000-4,000 rpm. This record is limited to the named Ultimate variant."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4B40"
+            ],
+            "applications": [
+              "Mitsubishi Destinator Ultimate 4B40 (Indonesia launch specification, 2025)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-g-4wd-2015",
+    "code": "L15B",
+    "aliases": [
+      "L15B Step WGN G 4WD 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN G 4WD L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN G 4WD L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN G 4WD L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN G 4WD L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN G 4WD L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-g-4wd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN G 4WD L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-g-4wd-2015-source",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact-book specification table identifies the G 4WD application and L15B: 1,496 cc inline-four DOHC with four valves per cylinder, petrol direct injection, VTEC turbocharging, 110 kW at 5,500 rpm and 203 N-m at 1,600-5,000 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN G 4WD L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-g-ex-4wd-2015",
+    "code": "L15B",
+    "aliases": [
+      "L15B Step WGN G EX 4WD 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN G EX 4WD L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN G EX 4WD L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN G EX 4WD L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN G EX 4WD L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN G EX 4WD L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-g-ex-4wd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN G EX 4WD L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-g-ex-4wd-2015-source",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact-book specification table identifies the G EX 4WD application and L15B: 1,496 cc inline-four DOHC with four valves per cylinder, petrol direct injection, VTEC turbocharging, 110 kW at 5,500 rpm and 203 N-m at 1,600-5,000 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN G EX 4WD L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-spada-4wd-2015",
+    "code": "L15B",
+    "aliases": [
+      "L15B Step WGN Spada 4WD 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN Spada 4WD L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN Spada 4WD L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN Spada 4WD L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN Spada 4WD L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN Spada 4WD L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-spada-4wd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN Spada 4WD L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-spada-4wd-2015-source",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact-book specification table identifies the Spada 4WD application and L15B: 1,496 cc inline-four DOHC with four valves per cylinder, petrol direct injection, VTEC turbocharging, 110 kW at 5,500 rpm and 203 N-m at 1,600-5,000 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN Spada 4WD L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-honda-l15b-stepwgn-spada-cool-spirit-4wd-2015",
+    "code": "L15B",
+    "aliases": [
+      "L15B Step WGN Spada Cool Spirit 4WD 2015"
+    ],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015",
+    "displacement": "1.5 L · 1,496 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B is the I4 · DOHC · 16 valves · 2 camshafts total 1.5 L · 1,496 cc engine documented for Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; aplicación documentada: Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "L15B : I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc ; application documentée : Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "L15B: I4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,496 cc; dokumentierte Anwendung: Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 203,
+        "max": 203,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-honda-l15b-stepwgn-spada-cool-spirit-4wd-2015-source"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-honda-l15b-stepwgn-spada-cool-spirit-4wd-2015-source",
+          "title": "Step WGN specifications",
+          "publisher": "Honda Motor Co., Ltd.",
+          "year": 2015,
+          "url": "https://www.honda.co.jp/factbook/auto/STEPWGN/201504/STEPWGN_201504.pdf",
+          "page": 7,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "The official Step WGN fact-book specification table identifies the Spada Cool Spirit 4WD application and L15B: 1,496 cc inline-four DOHC with four valves per cylinder, petrol direct injection, VTEC turbocharging, 110 kW at 5,500 rpm and 203 N-m at 1,600-5,000 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B"
+            ],
+            "applications": [
+              "Honda Step WGN Spada Cool Spirit 4WD L15B (Japan specification, 2015)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "hyundai-g4kd",
     "code": "G4KD",
     "aliases": [
@@ -61059,6 +74721,144 @@ window.AUTOHUB_ENGINE_DATA = {
           "pageNotes": [
             "The official Hyundai brochure directly ties D6CC41 to 2016 Hyundai HD1000 tractor D6CC41 Euro 4 specification and publishes 410 PS at 1900 rpm and 188 kgf·m at 1200 rpm. Stored SI values are conversions, not values printed as kW/N·m: 410 PS × 0.73549875 = 301.554487 kW → 302 kW; 188 kgf·m × 9.80665 = 1843.65020 N·m → 1844 N·m (nearest integer)."
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch09-hyundai-g4ft-santa-fe-inspiration-awd-2026",
+    "code": "G4FT",
+    "aliases": [
+      "G4FT Santa Fe Inspiration AWD Thailand 2026"
+    ],
+    "maker": "Hyundai Motor Company",
+    "regionKey": "korea",
+    "years": "2026",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "G4FT is the I4 · DOHC · 16 valves · 2 camshafts total 1.6 L · 1,598 cc engine documented for Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "G4FT: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; aplicación documentada: Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "G4FT : I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc ; application documentée : Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "G4FT: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; dokumentierte Anwendung: Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265,
+        "rpm": {
+          "min": 1500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch09-hyundai-g4ft-santa-fe-inspiration-awd-2026-source"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch09-hyundai-g4ft-santa-fe-inspiration-awd-2026-source",
+          "title": "The New Santa Fe Hybrid product specification",
+          "publisher": "Hyundai Motor Thailand",
+          "year": 2026,
+          "url": "https://www.hyundai.com/content/dam/hyundai/th/en/data/marketing/brochure/product/all-new-santa-fe-awd/2026-POSM-Leaflet-The-New-SANTA-FE-EN.pdf?productCode=all-new-santa-fe-hybrid",
+          "page": 2,
+          "checkedAt": "2026-10-04",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Page 2 of the official Thailand product sheet identifies the sole listed Inspiration HTRAC AWD trim and G4FT: 1,598 cc inline-four DOHC 16-valve, E10 petrol, T-GDI direct injection, 178 hp (manufacturer-equivalent 132 kW) at 5,500 rpm and 265 N-m at 1,500-4,500 rpm. Electric-motor and combined-system ratings are excluded."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "G4FT"
+            ],
+            "applications": [
+              "Hyundai Santa Fe Hybrid Inspiration HTRAC AWD G4FT (Thailand specification, 2026)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
         }
       ]
     }

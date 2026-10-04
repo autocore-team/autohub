@@ -33,9 +33,9 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 665, `Engine count changed: expected 665, found ${records.length}`);
+check(records.length === 765, `Engine count changed: expected 765, found ${records.length}`);
 check(
-  semanticHash === 'b9be450558bdb439f60fa67c1d338c565144559aa8653f8623ff9d505a96b16d',
+  semanticHash === 'df242a63c06cad119811c381ce930da3652dc62d0f1dfda1120034ac87af9fe1',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -404,7 +404,13 @@ check(
 );
 
 const batch08Records = sourceData.regionFiles.flatMap((sourceFile) => (
-  sourceFile.records.slice(batch08BaselineRegionCounts[sourceFile.region])
+  sourceFile.records.slice(batch08BaselineRegionCounts[sourceFile.region], ({
+    europe: 345,
+    japan: 183,
+    korea: 49,
+    'north-america': 88,
+    'south-america': 0
+  })[sourceFile.region])
 ));
 check(batch08Records.length === 100, `Batch 08 must add exactly 100 records, found ${batch08Records.length}`);
 const batch08IdHash = crypto.createHash('sha256').update(batch08Records.map((record) => record.id).join('\n')).digest('hex');
@@ -437,8 +443,17 @@ check(batch08Records.filter((record) => record.maker === 'Mercedes-Benz').every(
 check(batch08Records.filter((record) => record.maker !== 'Mercedes-Benz').every((record) => record.verification.scope.markets[0] === 'Japan'), 'Batch 08 Japan manufacturer scopes must remain Japan');
 
 const batch08RepeatedCodeOwners = {};
+const batch08OwnerUniverse = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, ({
+    europe: 345,
+    japan: 183,
+    korea: 49,
+    'north-america': 88,
+    'south-america': 0
+  })[sourceFile.region])
+));
 for (const record of batch08Records) {
-  const owners = records.filter((candidate) => normalizedIdentity(candidate.code) === normalizedIdentity(record.code)).map((candidate) => candidate.id).sort();
+  const owners = batch08OwnerUniverse.filter((candidate) => normalizedIdentity(candidate.code) === normalizedIdentity(record.code)).map((candidate) => candidate.id).sort();
   if (owners.length > 1) batch08RepeatedCodeOwners[record.code] = owners;
 }
 const repeatedOwnersHash = crypto.createHash('sha256')
@@ -450,18 +465,75 @@ check(new Set(l3Records.map((record) => JSON.stringify(record.performance))).siz
 check(batch08Records.find((record) => record.id === 'toyota-g16e-gts-gr-yaris-2020')?.performance.torqueNm.rpm.max === 4600, 'GR Yaris G16E-GTS scope lost its exact torque-speed boundary');
 pass(`Batch 08 preserves the original 565 records and validates 100 tiered strict records (${batch08BaselineHash})`);
 
+const batch09BaselineRegionCounts = {
+  europe: 345,
+  japan: 183,
+  korea: 49,
+  'north-america': 88,
+  'south-america': 0
+};
+const batch09BaselineRecords = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, batch09BaselineRegionCounts[sourceFile.region])
+));
+const batch09BaselineHash = crypto.createHash('sha256').update(canonicalFingerprint(batch09BaselineRecords)).digest('hex');
+check(batch09BaselineRecords.length === 665, `Batch 09 baseline changed: expected 665 records, found ${batch09BaselineRecords.length}`);
+check(
+  batch09BaselineHash === 'b9be450558bdb439f60fa67c1d338c565144559aa8653f8623ff9d505a96b16d',
+  `Batch 09 changed an original record or its regional order: ${batch09BaselineHash}`
+);
+
+const batch09Records = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(batch09BaselineRegionCounts[sourceFile.region])
+));
+const batch09ExpectedMakerCounts = new Map([
+  ['Toyota', 20],
+  ['Lexus', 20],
+  ['Subaru', 15],
+  ['Suzuki', 15],
+  ['Honda', 14],
+  ['Mazda', 8],
+  ['Mitsubishi', 7],
+  ['Hyundai Motor Company', 1]
+]);
+check(batch09Records.length === 100, `Batch 09 must add exactly 100 records, found ${batch09Records.length}`);
+const batch09IdHash = crypto.createHash('sha256').update(batch09Records.map((record) => record.id).join('\n')).digest('hex');
+check(batch09IdHash === 'f8e2df83559c7469b41d5d388508db9a1c965a7f8baf93d5209492166b0c70bb', `Batch 09 ID set/order changed: ${batch09IdHash}`);
+check(new Set(batch09Records.map((record) => record.maker)).size === 8, 'Batch 09 must retain eight manufacturer groups');
+check(batch09Records.every((record) => record.regionKey !== 'europe'), 'Batch 09 must retain at least 50 records outside Europe');
+for (const [maker, count] of batch09ExpectedMakerCounts) {
+  check(batch09Records.filter((record) => record.maker === maker).length === count, `Batch 09 ${maker} count must remain ${count}`);
+  check(count <= 40, `Batch 09 ${maker} exceeds the per-group cap`);
+}
+for (const record of batch09Records) {
+  check(record.verification?.status === 'verified', `${record.id} is not verified`);
+  check(record.verification?.evidenceBasis === 'official', `${record.id} is not on the official evidence path`);
+  check(verificationPolicyErrors(record).length === 0, `${record.id} fails tiered strict verification policy: ${verificationPolicyErrors(record).join('; ')}`);
+  check(/\b\d+ valves\b/.test(record.layout), `${record.id} does not expose total valves`);
+  check(/\b\d+ camshafts? total\b/.test(record.layout), `${record.id} does not expose total camshafts`);
+  check(record.verification.sources.every((source) => source.evidenceTier === 'A'), `${record.id} contains a non-Tier-A source`);
+  check(record.verification.sources.every((source) => source.scope?.level === 'exactVariant' && source.scope.codes?.includes(record.code)), `${record.id} lacks direct exact-variant code evidence`);
+  check(record.verification.sources.every((source) => source.pageNotes?.length > 0 && source.fields?.length > 0), `${record.id} has incomplete evidence notes`);
+  check(core.searchRecords(records, record.code).some((result) => result.id === record.id), `${record.id} is missing from exact-code search`);
+  for (const alias of record.aliases.map(normalizedIdentity)) {
+    check(identityOwners.get(alias).size === 1, `${record.id} introduces alias collision ${alias}`);
+  }
+}
+check(batch09Records.filter((record) => record.regionKey === 'japan').length === 99, 'Batch 09 Japan count must remain 99');
+check(batch09Records.filter((record) => record.regionKey === 'korea').length === 1, 'Batch 09 Korea count must remain 1');
+pass(`Batch 09 preserves the original 665 records and validates 100 diverse Tier A records (${batch09BaselineHash})`);
+
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
     { region: 'europe', engineCount: 345, manufacturerCount: 11 },
-    { region: 'japan', engineCount: 183, manufacturerCount: 15 },
-    { region: 'korea', engineCount: 49, manufacturerCount: 2 },
+    { region: 'japan', engineCount: 282, manufacturerCount: 16 },
+    { region: 'korea', engineCount: 50, manufacturerCount: 2 },
     { region: 'north-america', engineCount: 88, manufacturerCount: 13 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 665, 'Regional engineCount sum does not equal 665');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 765, 'Regional engineCount sum does not equal 765');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
