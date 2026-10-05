@@ -33,9 +33,9 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 765, `Engine count changed: expected 765, found ${records.length}`);
+check(records.length === 791, `Engine count changed: expected 791, found ${records.length}`);
 check(
-  semanticHash === 'df242a63c06cad119811c381ce930da3652dc62d0f1dfda1120034ac87af9fe1',
+  semanticHash === '51f99c7647b95cf56ef13d931d90c2aa27143969cc93d7fb840544eac85e58d0',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -483,7 +483,13 @@ check(
 );
 
 const batch09Records = sourceData.regionFiles.flatMap((sourceFile) => (
-  sourceFile.records.slice(batch09BaselineRegionCounts[sourceFile.region])
+  sourceFile.records.slice(batch09BaselineRegionCounts[sourceFile.region], ({
+    europe: 345,
+    japan: 282,
+    korea: 50,
+    'north-america': 88,
+    'south-america': 0
+  })[sourceFile.region])
 ));
 const batch09ExpectedMakerCounts = new Map([
   ['Toyota', 20],
@@ -522,18 +528,160 @@ check(batch09Records.filter((record) => record.regionKey === 'japan').length ===
 check(batch09Records.filter((record) => record.regionKey === 'korea').length === 1, 'Batch 09 Korea count must remain 1');
 pass(`Batch 09 preserves the original 665 records and validates 100 diverse Tier A records (${batch09BaselineHash})`);
 
+const batch10BaselineRegionCounts = {
+  europe: 345,
+  japan: 282,
+  korea: 50,
+  'north-america': 88,
+  'south-america': 0
+};
+const batch10BaselineRecords = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(0, batch10BaselineRegionCounts[sourceFile.region])
+));
+const batch10BaselineHash = crypto.createHash('sha256').update(canonicalFingerprint(batch10BaselineRecords)).digest('hex');
+check(batch10BaselineRecords.length === 765, `Batch 10 baseline changed: expected 765 records, found ${batch10BaselineRecords.length}`);
+check(
+  batch10BaselineHash === 'df242a63c06cad119811c381ce930da3652dc62d0f1dfda1120034ac87af9fe1',
+  `Batch 10 changed an original record or its regional order: ${batch10BaselineHash}`
+);
+
+const batch10Records = sourceData.regionFiles.flatMap((sourceFile) => (
+  sourceFile.records.slice(batch10BaselineRegionCounts[sourceFile.region])
+));
+const batch10ExpectedMakerCounts = new Map([
+  ['Subaru', 9],
+  ['Nissan', 14],
+  ['INFINITI', 3]
+]);
+check(batch10Records.length === 26, `Reconciled Batch 10 must retain exactly 26 honest records, found ${batch10Records.length}`);
+const batch10IdHash = crypto.createHash('sha256').update(batch10Records.map((record) => record.id).join('\n')).digest('hex');
+check(batch10IdHash === '4741ed84c70d023553e1454a25f435ba8bb0fdb8f3ef48cdb4a592a8337ee1c3', `Batch 10 ID set/order changed: ${batch10IdHash}`);
+check(new Set(batch10Records.map((record) => record.maker)).size === 3, 'Reconciled Batch 10 must retain three manufacturer groups');
+for (const [maker, count] of batch10ExpectedMakerCounts) {
+  check(batch10Records.filter((record) => record.maker === maker).length === count, `Batch 10 ${maker} count must remain ${count}`);
+}
+const requiredBatch10Fields = new Set([
+  'maker', 'code', 'aliases', 'applications', 'years', 'displacement', 'layout',
+  'layout.valves', 'layout.camshaftsTotal', 'fuelKey', 'aspirationKey', 'injectionKey',
+  'performance.powerKw', 'performance.powerKw.rpm', 'performance.torqueNm', 'performance.torqueNm.rpm'
+]);
+for (const record of batch10Records) {
+  check(record.verification?.status === 'verified', `${record.id} is not verified`);
+  check(record.verification?.evidenceBasis === 'official', `${record.id} is not on the official evidence path`);
+  check(record.verification?.sourceRefs?.length === 1, `${record.id} must retain one direct sourceRef`);
+  check(verificationPolicyErrors(record).length === 0, `${record.id} fails tiered strict verification policy: ${verificationPolicyErrors(record).join('; ')}`);
+  check(/\b\d+ valves\b/.test(record.layout), `${record.id} does not expose total valves`);
+  check(/\b\d+ camshafts? total\b/.test(record.layout), `${record.id} does not expose total camshafts`);
+  check(record.verification.sources.every((source) => source.evidenceTier === 'A'), `${record.id} contains a non-Tier-A source`);
+  check(record.verification.sources.every((source) => source.scope?.level === 'exactVariant' && source.scope.codes?.includes(record.code)), `${record.id} lacks direct exact-variant code evidence`);
+  check(record.verification.sources.every((source) => !source.identityBindingRef), `${record.id} unexpectedly uses bridge evidence`);
+  check(record.verification.sources.every((source) => [...requiredBatch10Fields].every((field) => source.fields.includes(field))), `${record.id} source does not cover every required field`);
+  check(record.verification.sources.every((source) => JSON.stringify(source.scope.applications) === JSON.stringify(record.verification.scope.applications)), `${record.id} source/application scope diverged`);
+  check(record.verification.sources.every((source) => JSON.stringify(source.scope.years) === JSON.stringify(record.verification.scope.years)), `${record.id} source/year scope diverged`);
+  check(record.verification.sources.every((source) => JSON.stringify(source.scope.markets) === JSON.stringify(record.verification.scope.markets)), `${record.id} source/market scope diverged`);
+  check(core.searchRecords(records, record.code).some((result) => result.id === record.id), `${record.id} is missing from exact-code search`);
+  for (const alias of record.aliases.map(normalizedIdentity)) {
+    check(identityOwners.get(alias).size === 1, `${record.id} introduces alias collision ${alias}`);
+  }
+}
+check(batch10Records.filter((record) => record.regionKey === 'north-america').length === 17, 'Batch 10 North America count must remain 17');
+check(batch10Records.filter((record) => record.regionKey === 'japan').length === 9, 'Batch 10 Japan count must remain 9');
+check(batch10Records.every((record) => record.regionKey !== 'europe' && record.regionKey !== 'south-america'), 'Batch 10 contains an unexpected region');
+
+const batch10ScopeMetadata = new Map([
+  ['batch10-subaru-forester-premium-s-hev-ex-10157606', { baseModel: 'Subaru Forester S:HEV' }],
+  ['batch10-subaru-impreza-g4-1-6i-l-eyesight-s-style-10118148', { baseModel: 'Subaru Impreza G4' }],
+  ['batch10-subaru-subaru-xv-1-6i-l-eyesight-10127607', { baseModel: 'Subaru XV' }],
+  ['batch10-subaru-levorg-layback-black-selection-10163624', { baseModel: 'Subaru Levorg Layback' }],
+  ['batch10-subaru-wrx-s4-sti-sport-sharp-10162872', { baseModel: 'Subaru WRX S4', materialDifference: 'FA24 Sharp torque calibration: 350 N-m at 2,000-5,200 rpm' }],
+  ['batch10-subaru-wrx-s4-sti-sport-r-ex-10155633', { baseModel: 'Subaru WRX S4', materialDifference: 'FA24 standard torque calibration: 375 N-m at 2,000-4,800 rpm' }],
+  ['batch10-subaru-impreza-g4-1-6i-l-10100091', { baseModel: 'Subaru Impreza G4', materialDifference: '2015 calibration: power at 5,600 rpm and torque at 4,000 rpm' }],
+  ['batch10-subaru-legacy-outback-base-grade-10111520', { baseModel: 'Subaru Legacy Outback' }],
+  ['batch10-subaru-levorg-1-6-sti-sport-eyesight-10104617', { baseModel: 'Subaru Levorg' }],
+  ['batch10-nissan-hr16de-versa-2025', { baseModel: 'Nissan Versa' }],
+  ['batch10-nissan-kr15ddt-rogue-2025', { baseModel: 'Nissan Rogue' }],
+  ['batch10-nissan-pr25dd-altima-fwd-2025', { baseModel: 'Nissan Altima', materialDifference: 'FWD calibration: 140 kW and 244 N-m' }],
+  ['batch10-nissan-pr25dd-altima-awd-2025', { baseModel: 'Nissan Altima', materialDifference: 'AWD calibration: 136 kW and 241 N-m' }],
+  ['batch10-nissan-vr30ddtt-z-standard-2024', { baseModel: 'Nissan Z', materialDifference: 'Sport/Performance calibration: 298 kW and 475 N-m' }],
+  ['batch10-nissan-vr30ddtt-z-nismo-2024', { baseModel: 'Nissan Z', materialDifference: 'NISMO calibration: 313 kW and 521 N-m' }],
+  ['batch10-nissan-mr20dd-sentra-2025', { baseModel: 'Nissan Sentra' }],
+  ['batch10-infiniti-vk56vd-qx80-2024', { baseModel: 'INFINITI QX80', materialDifference: '2024 naturally aspirated VK56VD generation' }],
+  ['batch10-infiniti-vr35ddtt-qx80-2025', { baseModel: 'INFINITI QX80', materialDifference: '2025 twin-turbo VR35DDTT generation' }],
+  ['batch10-nissan-vq38-frontier-2025', { baseModel: 'Nissan Frontier' }],
+  ['batch10-nissan-vq35dd-pathfinder-standard-2025', { baseModel: 'Nissan Pathfinder', materialDifference: 'standard calibration: 212 kW and 351 N-m' }],
+  ['batch10-nissan-vq35dd-pathfinder-rock-creek-2025', { baseModel: 'Nissan Pathfinder', materialDifference: 'Rock Creek calibration: 220 kW and 366 N-m' }],
+  ['batch10-nissan-vr35ddtt-armada-2025', { baseModel: 'Nissan Armada' }],
+  ['batch10-nissan-vk56vd-titan-2024', { baseModel: 'Nissan TITAN' }],
+  ['batch10-nissan-vr38dett-gtr-standard-2024', { baseModel: 'Nissan GT-R', materialDifference: 'Premium/T-spec calibration: 421 kW and 633 N-m' }],
+  ['batch10-nissan-vr38dett-gtr-nismo-2024', { baseModel: 'Nissan GT-R', materialDifference: 'NISMO calibration: 447 kW and 652 N-m' }],
+  ['batch10-infiniti-kr20ddet-qx55-2025', { baseModel: 'INFINITI QX55' }]
+]);
+check(batch10ScopeMetadata.size === batch10Records.length, 'Batch 10 scope metadata is stale or incomplete');
+check(batch10Records.every((record) => batch10ScopeMetadata.has(record.id)), 'A Batch 10 record lacks explicit base-model metadata');
+
+const normalizedMarkets = (record) => [...record.verification.scope.markets].map(normalizedIdentity).sort();
+const engineSignature = (record, includeYears = true) => JSON.stringify({
+  maker: normalizedIdentity(record.maker),
+  code: normalizedIdentity(record.code),
+  region: record.regionKey,
+  markets: normalizedMarkets(record),
+  displacement: record.displacement,
+  layout: record.layout,
+  fuel: record.fuelKey,
+  aspiration: record.aspirationKey,
+  injection: record.injectionKey,
+  power: record.performance,
+  ...(includeYears ? { years: record.verification.scope.years } : {})
+});
+const identicalBatch10Scopes = Object.values(Object.groupBy(batch10Records, (record) => engineSignature(record))).filter((group) => group.length > 1);
+for (const group of identicalBatch10Scopes) {
+  const baseModels = new Set(group.map((record) => normalizedIdentity(batch10ScopeMetadata.get(record.id).baseModel)));
+  check(baseModels.size === group.length, `Artificial Batch 10 split remains for ${group.map((record) => record.id).join(', ')}`);
+}
+
+const yearInterval = (record) => record.verification.scope.years;
+const overlapOrAdjacent = (left, right) => left.from <= right.to + 1 && right.from <= left.to + 1;
+const normalizedApplicationText = (record) => normalizedIdentity(record.applications.join(' ')).replace(/[^A-Z0-9]+/g, ' ');
+for (const record of batch10Records) {
+  const metadata = batch10ScopeMetadata.get(record.id);
+  const baseModel = normalizedIdentity(metadata.baseModel).replace(/[^A-Z0-9]+/g, ' ');
+  const duplicate = batch10BaselineRecords.find((candidate) => (
+    candidate.performance
+      && candidate.verification?.scope?.years
+      && engineSignature(candidate, false) === engineSignature(record, false)
+      && overlapOrAdjacent(yearInterval(candidate), yearInterval(record))
+      && normalizedApplicationText(candidate).includes(baseModel)
+  ));
+  check(!duplicate, `${record.id} duplicates baseline scope ${duplicate?.id}`);
+}
+pass('Batch 10 semantic duplicate and cross-baseline overlap regression passes without trim/year splitting');
+
+const batch10RepeatedCodeOwners = {};
+for (const record of batch10Records) {
+  const owners = records
+    .filter((candidate) => normalizedIdentity(candidate.code) === normalizedIdentity(record.code))
+    .map((candidate) => candidate.id)
+    .sort();
+  if (owners.length > 1) batch10RepeatedCodeOwners[record.code] = owners;
+}
+const batch10RepeatedOwnersHash = crypto.createHash('sha256')
+  .update(JSON.stringify(Object.fromEntries(Object.entries(batch10RepeatedCodeOwners).sort())))
+  .digest('hex');
+check(batch10RepeatedOwnersHash === '13b7d9bca5b693e6fc8ebb17dad6278e7c88e8d83f8e7534b447e7fe7571e946', `Batch 10 documented repeated-code owners changed: ${batch10RepeatedOwnersHash}`);
+pass(`Batch 10 preserves the original 765 records and validates 26 reconciled direct Tier A records (${batch10BaselineHash})`);
+
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
     { region: 'europe', engineCount: 345, manufacturerCount: 11 },
-    { region: 'japan', engineCount: 282, manufacturerCount: 16 },
+    { region: 'japan', engineCount: 291, manufacturerCount: 16 },
     { region: 'korea', engineCount: 50, manufacturerCount: 2 },
-    { region: 'north-america', engineCount: 88, manufacturerCount: 13 }
+    { region: 'north-america', engineCount: 105, manufacturerCount: 15 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 765, 'Regional engineCount sum does not equal 765');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 791, 'Regional engineCount sum does not equal 791');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
@@ -591,7 +739,7 @@ check(core.searchRecords(records, 'M54B30')[0]?.id === 'bmw-m54', 'Searchable al
 const northAmericaIds = records.filter((record) => record.regionKey === 'north-america').map((record) => record.id);
 for (const query of ['North America', 'USA', 'US', 'United States']) {
   const resultIds = core.searchRecords(records, query).map((record) => record.id);
-  check(JSON.stringify(resultIds) === JSON.stringify(northAmericaIds), `${query} did not return the exact 88-record North America set`);
+  check(JSON.stringify(resultIds) === JSON.stringify(northAmericaIds), `${query} did not return the exact 105-record North America set`);
   check(new Set(resultIds).size === resultIds.length, `${query} region search contains duplicates`);
 }
 for (const query of ['South America', 'Argentina', 'Brazil']) {
