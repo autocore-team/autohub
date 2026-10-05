@@ -7751,5 +7751,2351 @@ window.AUTOHUB_ENGINE_DATA_REGIONS["north-america"] = [
         }
       ]
     }
+  },
+  {
+    "id": "batch10-nissan-hr16de-versa-2025",
+    "code": "HR16DE",
+    "aliases": [
+      "HR16DE Nissan Versa (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "1.6 L · 1,598 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Versa (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HR16DE: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; documented application: Nissan Versa (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "HR16DE: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; documented application: Nissan Versa (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "HR16DE: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; documented application: Nissan Versa (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "HR16DE: I4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,598 cc; documented application: Nissan Versa (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 91,
+        "max": 91,
+        "rpm": {
+          "min": 6300,
+          "max": 6300
+        }
+      },
+      "torqueNm": {
+        "min": 155,
+        "max": 155,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-hr16de-versa-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Versa (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-hr16de-versa-2025-source",
+          "title": "2025 Nissan Versa Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-nissan-versa-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Versa Press Kit, Mechanical > Engine table: the Name row identifies HR16DE; the same table lists 1,598 cc, inline-four DOHC, four valves per cylinder (16 total), multipoint injection, naturally aspirated intake, 122 hp at 6,300 rpm and 114 lb-ft at 4,000 rpm. The grade matrix applies this engine specification across the 2025 Versa range; trim and transmission variants are intentionally represented by this single model-level record."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HR16DE"
+            ],
+            "applications": [
+              "Nissan Versa (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-kr15ddt-rogue-2025",
+    "code": "KR15DDT",
+    "aliases": [
+      "KR15DDT Nissan Rogue (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "I3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Rogue (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "KR15DDT: I3 · DOHC · 12 valves · 2 camshafts total, 1.5 L · 1,498 cc; documented application: Nissan Rogue (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "KR15DDT: I3 · DOHC · 12 valves · 2 camshafts total, 1.5 L · 1,498 cc; documented application: Nissan Rogue (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "KR15DDT: I3 · DOHC · 12 valves · 2 camshafts total, 1.5 L · 1,498 cc; documented application: Nissan Rogue (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "KR15DDT: I3 · DOHC · 12 valves · 2 camshafts total, 1.5 L · 1,498 cc; documented application: Nissan Rogue (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 305,
+        "max": 305,
+        "rpm": {
+          "min": 2800,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-kr15ddt-rogue-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Rogue (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-kr15ddt-rogue-2025-source",
+          "title": "2025 Nissan Rogue Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-nissan-rogue-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Rogue Press Kit, Mechanical > Engine table: the Name row identifies KR15DDT and the rows below list 1,498 cc, inline-three DOHC with four valves per cylinder (12 total), turbocharging, high-pressure direct injection, 201 hp at 5,600 rpm and 225 lb-ft at 2,800-4,000 rpm. The specification is common to the listed Rogue grades and FWD/AWD, so they are stored once."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "KR15DDT"
+            ],
+            "applications": [
+              "Nissan Rogue (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-pr25dd-altima-fwd-2025",
+    "code": "PR25DD",
+    "aliases": [
+      "PR25DD Nissan Altima FWD (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Altima FWD (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima FWD (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima FWD (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima FWD (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima FWD (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 244,
+        "max": 244,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-pr25dd-altima-fwd-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Altima FWD (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-pr25dd-altima-fwd-2025-source",
+          "title": "2025 Nissan Altima Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-nissan-altima-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Altima Press Kit, Mechanical > 2.5-liter Engine table, FWD column: Name PR25DD; 2,488 cc inline-four DOHC, four valves per cylinder (16 total), naturally aspirated direct injection, 188 hp at 6,000 rpm and 180 lb-ft at 3,600 rpm. This record covers the shared FWD calibration, not individual trims."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PR25DD"
+            ],
+            "applications": [
+              "Nissan Altima FWD (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-pr25dd-altima-awd-2025",
+    "code": "PR25DD",
+    "aliases": [
+      "PR25DD Nissan Altima AWD (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Altima AWD (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima AWD (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima AWD (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima AWD (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "PR25DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; documented application: Nissan Altima AWD (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 136,
+        "max": 136,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 241,
+        "max": 241,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-pr25dd-altima-awd-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Altima AWD (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-pr25dd-altima-awd-2025-source",
+          "title": "2025 Nissan Altima Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-nissan-altima-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Altima Press Kit, Mechanical > 2.5-liter Engine table, AWD column: Name PR25DD; 2,488 cc inline-four DOHC, four valves per cylinder (16 total), naturally aspirated direct injection, 182 hp at 6,000 rpm and 178 lb-ft at 3,600 rpm. The lower AWD output distinguishes this calibration from the FWD record; AWD trims are not split further."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PR25DD"
+            ],
+            "applications": [
+              "Nissan Altima AWD (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vr30ddtt-z-standard-2024",
+    "code": "VR30DDTT",
+    "aliases": [
+      "VR30DDTT Nissan Z Sport and Performance (2024 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "3.0 L · 2,997 cc",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Z Sport and Performance (2024 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z Sport and Performance (2024 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z Sport and Performance (2024 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z Sport and Performance (2024 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z Sport and Performance (2024 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 298,
+        "max": 298,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 475,
+        "max": 475,
+        "rpm": {
+          "min": 1600,
+          "max": 5600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vr30ddtt-z-standard-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Z Sport and Performance (2024 U.S. specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vr30ddtt-z-standard-2024-source",
+          "title": "2024 Nissan Z Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2024,
+          "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-z-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2024 Nissan Z Press Kit, Mechanical > Engine table, Sport/Performance column: Name VR30DDTT 3.0L V6 Twin Turbo; 2,997 cc V6 DOHC with four valves per cylinder (24 total), twin turbochargers, direct injection, 400 hp at 6,400 rpm and 350 lb-ft at 1,600-5,600 rpm. Sport, Performance, manual and automatic variants share this calibration and are represented once."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VR30DDTT"
+            ],
+            "applications": [
+              "Nissan Z Sport and Performance (2024 U.S. specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vr30ddtt-z-nismo-2024",
+    "code": "VR30DDTT",
+    "aliases": [
+      "VR30DDTT Nissan Z NISMO (2024 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "3.0 L · 2,997 cc",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Z NISMO (2024 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z NISMO (2024 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z NISMO (2024 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z NISMO (2024 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VR30DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,997 cc; documented application: Nissan Z NISMO (2024 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 313,
+        "max": 313,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 521,
+        "max": 521,
+        "rpm": {
+          "min": 1600,
+          "max": 5600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vr30ddtt-z-nismo-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Z NISMO (2024 U.S. specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vr30ddtt-z-nismo-2024-source",
+          "title": "2024 Nissan Z Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2024,
+          "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-z-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2024 Nissan Z Press Kit, Mechanical > Engine table, NISMO column: Name VR30DDTT 3.0L V6 Twin Turbo; 2,997 cc V6 DOHC with four valves per cylinder (24 total), twin turbochargers, direct injection, 420 hp at 6,400 rpm and 384 lb-ft at 2,000-5,200 rpm. The published power and torque calibration is materially different from Sport/Performance."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VR30DDTT"
+            ],
+            "applications": [
+              "Nissan Z NISMO (2024 U.S. specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-mr20dd-sentra-2025",
+    "code": "MR20DD",
+    "aliases": [
+      "MR20DD Nissan Sentra (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "2.0 L · 1,997 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Sentra (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "MR20DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; documented application: Nissan Sentra (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "MR20DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; documented application: Nissan Sentra (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "MR20DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; documented application: Nissan Sentra (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "MR20DD: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,997 cc; documented application: Nissan Sentra (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 111,
+        "max": 111,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 198,
+        "max": 198,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-mr20dd-sentra-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Sentra (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-mr20dd-sentra-2025-source",
+          "title": "2025 Nissan Sentra Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-nissan-sentra-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Sentra Press Kit, Mechanical > Engine table: Name MR20DD; 1,997 cc inline-four DOHC, four valves per cylinder (16 total), direct injection, 149 hp at 6,000 rpm and 146 lb-ft at 4,000 rpm. The transmission/grade matrix shows a shared engine specification, which is stored as one Sentra record."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "MR20DD"
+            ],
+            "applications": [
+              "Nissan Sentra (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-infiniti-vk56vd-qx80-2024",
+    "code": "VK56VD",
+    "aliases": [
+      "VK56VD INFINITI QX80 (2024 U.S. specification)"
+    ],
+    "maker": "INFINITI",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "5.6 L · 5,552 cc",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "INFINITI QX80 (2024 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VK56VD: V8 · DOHC · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: INFINITI QX80 (2024 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VK56VD: V8 · DOHC · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: INFINITI QX80 (2024 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VK56VD: V8 · DOHC · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: INFINITI QX80 (2024 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VK56VD: V8 · DOHC · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: INFINITI QX80 (2024 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 298,
+        "max": 298,
+        "rpm": {
+          "min": 5800,
+          "max": 5800
+        }
+      },
+      "torqueNm": {
+        "min": 560,
+        "max": 560,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-infiniti-vk56vd-qx80-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "INFINITI QX80 (2024 U.S. specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-infiniti-vk56vd-qx80-2024-source",
+          "title": "2024 INFINITI QX80 Press Kit",
+          "publisher": "INFINITI USA",
+          "year": 2024,
+          "url": "https://usa.infinitinews.com/en-US/releases/2024-infiniti-qx80-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2024 INFINITI QX80 Press Kit, Specifications > ENGINE table: Type VK56VD DOHC 32-valve; 5,552 cc V8, naturally aspirated, Direct Injection Gasoline, 400 hp at 5,800 rpm and 413 lb-ft at 4,000 rpm. The adjacent grade/drivetrain tables use this one engine specification, so trims and RWD/4WD are not separate records."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VK56VD"
+            ],
+            "applications": [
+              "INFINITI QX80 (2024 U.S. specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-infiniti-vr35ddtt-qx80-2025",
+    "code": "VR35DDTT",
+    "aliases": [
+      "VR35DDTT INFINITI QX80 (2025 U.S. specification)"
+    ],
+    "maker": "INFINITI",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "3.5 L · 3,492 cc",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "INFINITI QX80 (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VR35DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: INFINITI QX80 (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VR35DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: INFINITI QX80 (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VR35DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: INFINITI QX80 (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VR35DDTT: V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: INFINITI QX80 (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 336,
+        "max": 336,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-infiniti-vr35ddtt-qx80-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "INFINITI QX80 (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-infiniti-vr35ddtt-qx80-2025-source",
+          "title": "2025 INFINITI QX80 Press Kit",
+          "publisher": "INFINITI USA",
+          "year": 2025,
+          "url": "https://usa.infinitinews.com/en-US/releases/2025-qx80-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 QX80 Press Kit, All-new 2025 INFINITI QX80 Specifications > ENGINE table: Type VR35DDTT DOHC 24-valve; 3,492 cc V6, twin turbochargers, Direct Injection Gasoline, 450 hp at 5,600 rpm and 516 lb-ft at 3,600 rpm. PURE/LUXE/SENSORY/AUTOGRAPH and RWD/4WD share this engine calibration and are represented once."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VR35DDTT"
+            ],
+            "applications": [
+              "INFINITI QX80 (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vq38-frontier-2025",
+    "code": "VQ38",
+    "aliases": [
+      "VQ38 Nissan Frontier (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "3.8 L · 3,779 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Frontier (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VQ38: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,779 cc; documented application: Nissan Frontier (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VQ38: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,779 cc; documented application: Nissan Frontier (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VQ38: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,779 cc; documented application: Nissan Frontier (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VQ38: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,779 cc; documented application: Nissan Frontier (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 231,
+        "max": 231,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 381,
+        "max": 381,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vq38-frontier-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Frontier (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vq38-frontier-2025-source",
+          "title": "2025 Nissan Frontier Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-nissan-frontier-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Frontier Press Kit, Crew Cab Specifications > Mechanical > Engine table: Name VQ38; 3,779 cc longitudinal V6, DOHC 24-valve, naturally aspirated Direct Injection Gasoline, 310 hp at 6,400 rpm and 281 lb-ft at 4,400 rpm. DOHC on each V bank establishes four camshafts total; the common engine table covers the Frontier model rather than individual cab/drive trims."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VQ38"
+            ],
+            "applications": [
+              "Nissan Frontier (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vq35dd-pathfinder-standard-2025",
+    "code": "VQ35DD",
+    "aliases": [
+      "VQ35DD Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "3.5 L · 3,498 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 212,
+        "max": 212,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 351,
+        "max": 351,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vq35dd-pathfinder-standard-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vq35dd-pathfinder-standard-2025-source",
+          "title": "2025 Nissan Pathfinder Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/release-7158e34dea36832d3dfb3c2b870a2652",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Pathfinder Press Kit, Mechanical > Engine table: Name VQ35DD; 3,498 cc 60-degree V6, DOHC 24-valve, naturally aspirated multipoint plus Direct Injection Gasoline, with the S/SV/SL/Platinum row rated 284 hp at 6,400 rpm and 259 lb-ft at 4,800 rpm. Two DOHC banks give four camshafts total; trims sharing this calibration are stored once."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VQ35DD"
+            ],
+            "applications": [
+              "Nissan Pathfinder S/SV/SL/Platinum (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vq35dd-pathfinder-rock-creek-2025",
+    "code": "VQ35DD",
+    "aliases": [
+      "VQ35DD Nissan Pathfinder Rock Creek (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "3.5 L · 3,498 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Pathfinder Rock Creek (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder Rock Creek (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder Rock Creek (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder Rock Creek (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VQ35DD: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,498 cc; documented application: Nissan Pathfinder Rock Creek (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 366,
+        "max": 366,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vq35dd-pathfinder-rock-creek-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Pathfinder Rock Creek (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vq35dd-pathfinder-rock-creek-2025-source",
+          "title": "2025 Nissan Pathfinder Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/release-7158e34dea36832d3dfb3c2b870a2652",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Pathfinder Press Kit, Mechanical > Engine table: Name VQ35DD; the Rock Creek row is explicitly separated at 295 hp at 6,400 rpm and 270 lb-ft at 4,800 rpm, with premium fuel, versus the standard Pathfinder calibration. The same table lists 3,498 cc, 60-degree V6, DOHC 24-valve, naturally aspirated multipoint plus direct injection; two DOHC banks give four camshafts total."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VQ35DD"
+            ],
+            "applications": [
+              "Nissan Pathfinder Rock Creek (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vr35ddtt-armada-2025",
+    "code": "VR35DDTT",
+    "aliases": [
+      "VR35DDTT Nissan Armada (2025 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "3.5 L · 3,492 cc",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan Armada (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VR35DDTT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: Nissan Armada (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VR35DDTT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: Nissan Armada (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VR35DDTT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: Nissan Armada (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VR35DDTT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.5 L · 3,492 cc; documented application: Nissan Armada (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 317,
+        "max": 317,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vr35ddtt-armada-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan Armada (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vr35ddtt-armada-2025-source",
+          "title": "2025 Nissan Armada Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2025,
+          "url": "https://usa.nissannews.com/en-US/releases/2025-armada-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 Nissan Armada Press Kit, Mechanical > Engine table: Type VR35DDTT; 3,492 cc V6, DOHC 24-valve, twin-turbocharged direct injection, 425 hp at 5,600 rpm and 516 lb-ft at 3,600 rpm. DOHC across two V banks establishes four camshafts total; all Armada grades sharing the table are one application scope."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VR35DDTT"
+            ],
+            "applications": [
+              "Nissan Armada (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vk56vd-titan-2024",
+    "code": "VK56VD",
+    "aliases": [
+      "VK56VD Nissan TITAN (2024 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "5.6 L · 5,552 cc",
+    "layout": "V8 · DOHC per bank · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan TITAN (2024 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VK56VD: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: Nissan TITAN (2024 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VK56VD: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: Nissan TITAN (2024 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VK56VD: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: Nissan TITAN (2024 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VK56VD: V8 · DOHC per bank · 32 valves · 4 camshafts total, 5.6 L · 5,552 cc; documented application: Nissan TITAN (2024 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 298,
+        "max": 298,
+        "rpm": {
+          "min": 5800,
+          "max": 5800
+        }
+      },
+      "torqueNm": {
+        "min": 560,
+        "max": 560,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vk56vd-titan-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan TITAN (2024 U.S. specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vk56vd-titan-2024-source",
+          "title": "2024 Nissan TITAN Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2024,
+          "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-titan-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2024 Nissan TITAN Press Kit, Crew Cab Specifications > Mechanical > Engine table: Type VK56VD 5.6-liter V8 gasoline; 5,552 cc, DOHC 32-valve, naturally aspirated Direct Injection Gasoline, 400 hp at 5,800 rpm and 413 lb-ft at 4,000 rpm. Two DOHC banks establish four camshafts total; cab, trim and drive variants sharing the engine are stored once."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VK56VD"
+            ],
+            "applications": [
+              "Nissan TITAN (2024 U.S. specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vr38dett-gtr-standard-2024",
+    "code": "VR38DETT",
+    "aliases": [
+      "VR38DETT Nissan GT-R Premium/T-spec (2024 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "3.8 L",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan GT-R Premium/T-spec (2024 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R Premium/T-spec (2024 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R Premium/T-spec (2024 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R Premium/T-spec (2024 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R Premium/T-spec (2024 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 421,
+        "max": 421,
+        "rpm": {
+          "min": 6800,
+          "max": 6800
+        }
+      },
+      "torqueNm": {
+        "min": 633,
+        "max": 633,
+        "rpm": {
+          "min": 3300,
+          "max": 5800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vr38dett-gtr-standard-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan GT-R Premium/T-spec (2024 U.S. specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vr38dett-gtr-standard-2024-source",
+          "title": "2024 Nissan GT-R Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2024,
+          "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-gt-r-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2024 Nissan GT-R Press Kit, standard GT-R Mechanical > Engine table: Designation VR38DETT; 3.8-liter V6 DOHC, four valves per cylinder (24 total), Twin IHI turbochargers, sequential multipoint injection, 565 hp at 6,800 rpm and 467 lb-ft at 3,300-5,800 rpm. Two DOHC banks give four camshafts total; Premium and T-spec share this calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VR38DETT"
+            ],
+            "applications": [
+              "Nissan GT-R Premium/T-spec (2024 U.S. specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-nissan-vr38dett-gtr-nismo-2024",
+    "code": "VR38DETT",
+    "aliases": [
+      "VR38DETT Nissan GT-R NISMO (2024 U.S. specification)"
+    ],
+    "maker": "Nissan",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "3.8 L",
+    "layout": "V6 · DOHC per bank · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan GT-R NISMO (2024 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R NISMO (2024 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R NISMO (2024 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R NISMO (2024 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "VR38DETT: V6 · DOHC per bank · 24 valves · 4 camshafts total, 3.8 L · 3,799 cc; documented application: Nissan GT-R NISMO (2024 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 447,
+        "max": 447,
+        "rpm": {
+          "min": 6800,
+          "max": 6800
+        }
+      },
+      "torqueNm": {
+        "min": 652,
+        "max": 652,
+        "rpm": {
+          "min": 3600,
+          "max": 5600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-nissan-vr38dett-gtr-nismo-2024-source"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan GT-R NISMO (2024 U.S. specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-nissan-vr38dett-gtr-nismo-2024-source",
+          "title": "2024 Nissan GT-R Press Kit",
+          "publisher": "Nissan North America, Inc.",
+          "year": 2024,
+          "url": "https://usa.nissannews.com/en-US/releases/2024-nissan-gt-r-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2024 Nissan GT-R Press Kit, NISMO Specifications > Mechanical > Engine table: Designation VR38DETT; 3.8-liter V6 DOHC, four valves per cylinder (24 total), NISMO GT3 twin-turbo system, sequential multipoint injection, 600 hp at 6,800 rpm and 481 lb-ft at 3,600-5,600 rpm. This published calibration is distinct from Premium/T-spec; two DOHC banks give four camshafts total."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "VR38DETT"
+            ],
+            "applications": [
+              "Nissan GT-R NISMO (2024 U.S. specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch10-infiniti-kr20ddet-qx55-2025",
+    "code": "KR20DDET",
+    "aliases": [
+      "KR20DDET INFINITI QX55 (2025 U.S. specification)"
+    ],
+    "maker": "INFINITI",
+    "regionKey": "north-america",
+    "years": "2025",
+    "displacement": "2.0 L · 1,970-1,997 cc",
+    "layout": "I4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "INFINITI QX55 (2025 U.S. specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "KR20DDET: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,970-1,997 cc; documented application: INFINITI QX55 (2025 U.S. specification).",
+        "issues": "Common faults and service life were not researched in this batch; inspect the exact product or vehicle and its maintenance history.",
+        "pros": "Tier A manufacturer evidence covers the exact application and every required specification field.",
+        "cons": "The figures apply only to the cited specification and must not be generalized to other markets, periods or calibrations."
+      },
+      "es": {
+        "construction": "KR20DDET: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,970-1,997 cc; documented application: INFINITI QX55 (2025 U.S. specification).",
+        "issues": "Las averías comunes y la vida útil no se investigaron en este lote; revise el producto o vehículo exacto y su historial.",
+        "pros": "La evidencia Tier A del fabricante cubre la aplicación exacta y todos los campos obligatorios.",
+        "cons": "Las cifras solo se aplican a la especificación citada y no deben generalizarse."
+      },
+      "fr": {
+        "construction": "KR20DDET: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,970-1,997 cc; documented application: INFINITI QX55 (2025 U.S. specification).",
+        "issues": "Les pannes courantes et la durée de vie n'ont pas été étudiées dans ce lot ; contrôlez le produit ou véhicule précis et son historique.",
+        "pros": "La preuve constructeur Tier A couvre l’application exacte et tous les champs obligatoires.",
+        "cons": "Les chiffres s’appliquent uniquement à la spécification citée et ne doivent pas être généralisés."
+      },
+      "de": {
+        "construction": "KR20DDET: I4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,970-1,997 cc; documented application: INFINITI QX55 (2025 U.S. specification).",
+        "issues": "Häufige Schäden und Lebensdauer wurden nicht untersucht; das konkrete Produkt oder Fahrzeug und seine Historie sind zu prüfen.",
+        "pros": "Der Tier-A-Herstellernachweis deckt die genaue Anwendung und alle Pflichtfelder ab.",
+        "cons": "Die Werte gelten nur für die zitierte Spezifikation und dürfen nicht verallgemeinert werden."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380,
+        "rpm": {
+          "min": 4400,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch10-infiniti-kr20ddet-qx55-2025-source"
+      ],
+      "scope": {
+        "applications": [
+          "INFINITI QX55 (2025 U.S. specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch10-infiniti-kr20ddet-qx55-2025-source",
+          "title": "2025 INFINITI QX55 Press Kit",
+          "publisher": "INFINITI USA",
+          "year": 2025,
+          "url": "https://usa.infinitinews.com/en-US/releases/release-c97fb0d67fcb89970e02dbd1d804c6b1",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "aliases",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "2025 INFINITI QX55 Specifications, Engine table dated July 9, 2024: Type KR20DDET 2.0L-Turbo; inline four, 1,970-1,997 cc, four valves per cylinder (16 total), turbocharged, direct plus port injection, 268 hp at 5,600 rpm and 280 lb-ft at 4,400-4,800 rpm. The inline DOHC layout establishes two camshafts total; all QX55 grades share this engine scope."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "KR20DDET"
+            ],
+            "applications": [
+              "INFINITI QX55 (2025 U.S. specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        }
+      ]
+    }
   }
 ];
