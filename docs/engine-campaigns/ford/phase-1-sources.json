@@ -1,0 +1,1624 @@
+{
+  "campaignManufacturer": "Ford",
+  "phase": 1,
+  "registryPolicy": "Sources are stored once and referenced by stable sourceId. Phase 1 evidence is discovery evidence and does not itself confer production verification.",
+  "sources": [
+    {
+      "sourceId": "ford-au-mustang-2024",
+      "publisher": "Ford Australia",
+      "title": "All-New Mustang 2024MY Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/img/Australia-NewZealand/10-2023/Ford-Australia-Confirms-Pricing-and-Specifications-for-Seventh-Generation-Mustang/All-New%20Mustang_AUS_Brochure.pdf",
+      "documentDate": "2023-10",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "families": [
+        "EcoBoost",
+        "Coyote"
+      ],
+      "codes": [],
+      "location": "Powertrain specification table",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "performance"
+      ],
+      "limitations": [
+        "Current imported Mustang only; not evidence for historic Australian engines."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-au-ranger-2020",
+      "publisher": "Ford Australia",
+      "title": "Ranger 2020.25MY Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/img/Ranger-e-Brochure-Ford%20Australia.pdf",
+      "documentDate": "2019-11",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "families": [
+        "Duratorq Puma",
+        "EcoBlue"
+      ],
+      "codes": [],
+      "location": "Engine specification table",
+      "fields": [
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "performance"
+      ],
+      "limitations": [
+        "Exact engineering codes absent."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-brazil-ecosport-engineering",
+      "publisher": "Ford Brasil",
+      "title": "Novo EcoSport — Engineering",
+      "url": "https://media.ford.com/content/dam/fordmedia/South%20America/Brazil/2013/PRODUCTS/2013_Specs/NovoEcoSport-Engenharia.pdf",
+      "documentDate": "2013",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "South America"
+      ],
+      "families": [
+        "Sigma",
+        "Duratec HE"
+      ],
+      "codes": [],
+      "location": "Advanced flex engines section",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "configuration",
+        "application",
+        "market",
+        "performance"
+      ],
+      "limitations": [
+        "Vehicle-specific ratings; engineering codes absent."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-brazil-focus",
+      "publisher": "Ford Brasil",
+      "title": "Novo Focus Sedan",
+      "url": "https://media.ford.com/content/fordmedia/fsa/br/pt/products/carros/novo-focus.html",
+      "documentDate": null,
+      "sourceType": "manufacturerProductSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "South America"
+      ],
+      "families": [
+        "Sigma",
+        "Duratec Direct Flex"
+      ],
+      "codes": [],
+      "location": "Engine summary",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Product summary; engineering codes absent."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-brazil-sigma-million",
+      "publisher": "Ford Brasil",
+      "title": "Ford Produces One Million Latest-Generation Sigma Engines",
+      "url": "https://media.ford.com/content/fordmedia/fsa/br/pt/news/2014/05/07/ford-comemora-a-producao-de-1-milhao-de-motores-sigma-de-ultima-.html",
+      "documentDate": "2014-05-07",
+      "sourceType": "manufacturerMediaRelease",
+      "evidenceTier": "A",
+      "markets": [
+        "South America",
+        "Europe",
+        "India",
+        "China",
+        "Mexico"
+      ],
+      "families": [
+        "Sigma"
+      ],
+      "codes": [],
+      "location": "Release body; Brazil and worldwide production sections",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "configuration",
+        "application",
+        "market",
+        "period"
+      ],
+      "limitations": [
+        "No exact engineering codes; 1.5 and 1.6 material variants require Phase 2 separation."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-eu-ecoblue-launch",
+      "publisher": "Ford of Europe",
+      "title": "New Ford Transit and Transit Custom Offer Lower Costs and More Power with All-New Ford EcoBlue Engine",
+      "url": "https://media.ford.com/content/fordmedia/feu/en/news/2016/05/30/new-ford-transit-and-transit-custom-offer-lower-costs-and-more-p.html",
+      "documentDate": "2016-05-30",
+      "sourceType": "manufacturerMediaRelease",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "EcoBlue"
+      ],
+      "codes": [],
+      "location": "Release body",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "application",
+        "period"
+      ],
+      "limitations": [
+        "Launch-level evidence; no exact engineering-code mapping."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-eu-kuga-spec",
+      "publisher": "Ford of Europe",
+      "title": "Ford Kuga Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/productReleases/Kuga/Kuga_Euro_TechSpec.pdf",
+      "documentDate": null,
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "EcoBoost",
+        "EcoBlue"
+      ],
+      "codes": [],
+      "location": "Powertrain specification tables",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Does not bind every regional engineering code."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-eu-media-archive-shared-engine-discovery",
+      "publisher": "Ford of Europe",
+      "title": "Ford Europe Media Archive — shared-engine application discovery",
+      "url": "https://media.ford.com/content/fordmedia/feu/gb/en.html",
+      "documentDate": null,
+      "sourceType": "manufacturerMediaArchive",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "Volvo B5254T",
+        "PSA DW10"
+      ],
+      "codes": [],
+      "location": "Ford Europe media archive landing page",
+      "fields": [
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Archive landing page is discovery-only; exact Ford/partner variant, code, and year crosswalks require stable technical documents."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": "One shared registry entry replaces two former entries that pointed to this same archive URL."
+    },
+    {
+      "sourceId": "ford-eu-mondeo-powertrains",
+      "publisher": "Ford of Europe",
+      "title": "All-New Ford Mondeo Delivers Widest-Ever Range of Powertrains",
+      "url": "https://media.ford.com/content/fordmedia/feu/gb/en/news/2014/10/09/all-new-ford-mondeo-delivers-widest-ever-range-of-powertrains--i.html",
+      "documentDate": "2014-10-09",
+      "sourceType": "manufacturerMediaRelease",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "EcoBoost",
+        "Duratorq"
+      ],
+      "codes": [],
+      "location": "Powertrain descriptions",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "application",
+        "period"
+      ],
+      "limitations": [
+        "Model-level evidence; exact codes require service documentation."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-eu-tourneo-custom-spec",
+      "publisher": "Ford of Europe",
+      "title": "Tourneo Custom Technical Specification",
+      "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/en/2023/TourneoCustom/TourneoCustom_specsheet_EU_June2024_EU.pdf",
+      "documentDate": "2024-06",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "EcoBlue"
+      ],
+      "codes": [],
+      "location": "Powertrain tables",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Current vehicle scope only; PHEV system is not inventoried as a separate combustion engine without code evidence."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-eu-transit-connect-spec",
+      "publisher": "Ford of Europe",
+      "title": "Ford Transit Connect Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/productReleases/Transit%20Connect/FordTransitConnect-Specifications_EU.pdf",
+      "documentDate": null,
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "EcoBoost",
+        "Duratorq"
+      ],
+      "codes": [],
+      "location": "Engine and performance tables",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Vehicle specification identifies marketing designations, not complete engine-code coverage."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-eu-transit-courier-spec",
+      "publisher": "Ford of Europe",
+      "title": "Transit Courier Technical Specification",
+      "url": "https://media.ford.com/content/dam/fordmedia/Europe/nl/2024/01/Courier/2024_TRANSIT_COURIER_TECHNICAL_SPECIFICATION_EU.pdf",
+      "documentDate": "2024-01",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "families": [
+        "EcoBoost",
+        "EcoBlue"
+      ],
+      "codes": [],
+      "location": "Engine tables",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Current vehicle scope only."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-fap-ford-gt",
+      "publisher": "Ford Asia Pacific",
+      "title": "Ford GT Product Information",
+      "url": "https://media.ford.com/content/fordmedia/fap/en/products/cars/ford-gt.html",
+      "documentDate": null,
+      "sourceType": "manufacturerProductSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "families": [
+        "EcoBoost"
+      ],
+      "codes": [],
+      "location": "Powertrain description",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "category"
+      ],
+      "limitations": [
+        "Road/racing architecture relationship stated at family level; no engineering code."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-heritage-vault",
+      "publisher": "Ford Motor Company",
+      "title": "Ford Heritage Vault",
+      "url": "https://fordheritagevault.com/",
+      "documentDate": null,
+      "sourceType": "officialHeritageArchive",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe",
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "families": [
+        "Historic Ford engines"
+      ],
+      "codes": [],
+      "location": "Searchable vehicle brochures and sales literature",
+      "fields": [
+        "family",
+        "designation",
+        "application",
+        "period"
+      ],
+      "limitations": [
+        "Family names and engine codes are not consistently normalized; use as discovery evidence only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-india-figo",
+      "publisher": "Ford Asia Pacific",
+      "title": "Ford Figo Product Information",
+      "url": "https://media.ford.com/content/fordmedia/fap/en/products/cars/figo.html",
+      "documentDate": null,
+      "sourceType": "manufacturerProductSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "India"
+      ],
+      "families": [
+        "Sigma/Ti-VCT",
+        "DLD/TDCi"
+      ],
+      "codes": [],
+      "location": "Powertrain section",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "performance"
+      ],
+      "limitations": [
+        "Marketing designations only."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-mexico-dragon-production",
+      "publisher": "Ford de Mexico",
+      "title": "Ford EcoSport with 1.5 L Three-Cylinder Engine",
+      "url": "https://media.ford.com/content/fordmedia/fna/mx/es/news/2018/05/16/ford-ecosport-es-la-unica-suv-del-segmento-en-ofrecer-un-motor-d.html",
+      "documentDate": "2018-05-16",
+      "sourceType": "manufacturerMediaRelease",
+      "evidenceTier": "A",
+      "markets": [
+        "Mexico",
+        "North America"
+      ],
+      "families": [
+        "Dragon",
+        "Duratec I4",
+        "Power Stroke"
+      ],
+      "codes": [],
+      "location": "Engine and Chihuahua production descriptions",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "configuration",
+        "application",
+        "market",
+        "productionLocation"
+      ],
+      "limitations": [
+        "Does not provide engineering-code mapping."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-na-f650-f750-2022",
+      "publisher": "Ford Motor Company",
+      "title": "2022 F-650/F-750 Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2022/22-f650-750-techspecs.pdf",
+      "documentDate": "2022",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Godzilla",
+        "Power Stroke"
+      ],
+      "codes": [],
+      "location": "Engine table",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "performance"
+      ],
+      "limitations": [
+        "Commercial vehicle scope; internal codes absent."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-na-falcon-1961",
+      "publisher": "Ford Motor Company",
+      "title": "1961 Ford Falcon Brochure",
+      "url": "https://media.ford.com/content/dam/fordmedia/history/heritage-vault/brochures/1961_ford_falcon_brochure_ar_96_212010_8024.pdf",
+      "documentDate": "1961",
+      "sourceType": "officialHeritageBrochure",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Falcon Six"
+      ],
+      "codes": [
+        "144 Six",
+        "170 Special Six"
+      ],
+      "location": "Engine specifications",
+      "fields": [
+        "designation",
+        "displacement",
+        "fuel",
+        "configuration",
+        "application",
+        "market",
+        "period"
+      ],
+      "limitations": [
+        "Covers 1961 Falcon applications only."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-na-powerstroke-2016",
+      "publisher": "Ford Motor Company",
+      "title": "All-New Ford Super Duty",
+      "url": "https://media.ford.com/content/fordmedia/fna/ca/en/news/2015/09/24/super-duty-americas-work-truck-reinvented.html",
+      "documentDate": "2015-09-24",
+      "sourceType": "manufacturerMediaRelease",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Power Stroke",
+        "Modular"
+      ],
+      "codes": [],
+      "location": "Capability and engine lineup sections",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "relationship"
+      ],
+      "limitations": [
+        "Supports Ford-designed 6.7 L generation; not earlier Navistar-supplied generations."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-na-super-duty-2023",
+      "publisher": "Ford Motor Company",
+      "title": "2023 Super Duty Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/CA/2022/01/2023%20Super%20Duty%20Specs%20FINAL%20CDN.pdf",
+      "documentDate": "2022",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Godzilla",
+        "Power Stroke"
+      ],
+      "codes": [],
+      "location": "Engine specification table",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "application",
+        "market",
+        "performance"
+      ],
+      "limitations": [
+        "Model-year-specific specification; internal codes absent."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-otosan-ecotorq",
+      "publisher": "Ford Otosan",
+      "title": "Ecotorq Engine Family",
+      "url": "https://www.fordotosan.com.tr/en/operations/randd/technologies/ecotorq-engine-family",
+      "documentDate": null,
+      "sourceType": "manufacturerCorporateTechnical",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe",
+        "Middle East",
+        "Africa",
+        "Turkey",
+        "China"
+      ],
+      "families": [
+        "Ecotorq"
+      ],
+      "codes": [],
+      "location": "Ecotorq Engine Family page",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "application",
+        "market",
+        "relationship",
+        "performance",
+        "period"
+      ],
+      "limitations": [
+        "9 L and 13 L are family/designation identities; exact internal codes absent."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-otosan-engine-production",
+      "publisher": "Ford Otosan",
+      "title": "Engine Production",
+      "url": "https://www.fordotosan.com.tr/en/investors/at-a-glance/engine-production",
+      "documentDate": null,
+      "sourceType": "manufacturerCorporateTechnical",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe",
+        "Middle East",
+        "Africa",
+        "Turkey"
+      ],
+      "families": [
+        "Ecotorq",
+        "Duratorq",
+        "EcoBlue"
+      ],
+      "codes": [],
+      "location": "New Generation Euro 6 Ecotorq and Duratorq sections",
+      "fields": [
+        "family",
+        "designation",
+        "displacement",
+        "fuel",
+        "configuration",
+        "application",
+        "market",
+        "relationship",
+        "productionLocation"
+      ],
+      "limitations": [
+        "Family-level corporate summary; exact engine codes absent."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-performance-2020-catalog",
+      "publisher": "Ford Performance Parts",
+      "title": "2020 Ford Performance Parts Catalog",
+      "url": "https://performanceparts.ford.com/download/PDFS/2020FPPcatalog.pdf",
+      "documentDate": "2020",
+      "sourceType": "manufacturerCatalog",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Coyote",
+        "EcoBoost",
+        "Windsor/BOSS crate",
+        "Big Block crate"
+      ],
+      "codes": [],
+      "location": "Engine assemblies and crate engines sections",
+      "fields": [
+        "family",
+        "code",
+        "designation",
+        "category",
+        "performance"
+      ],
+      "limitations": [
+        "Historical catalog snapshot; individual fitment and current availability require exact product pages."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-performance-complete-engines",
+      "publisher": "Ford Performance Parts",
+      "title": "Complete Engines",
+      "url": "https://performanceparts.ford.com/category/56/CompleteEngines",
+      "documentDate": null,
+      "sourceType": "manufacturerCatalog",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engines"
+      ],
+      "codes": [],
+      "location": "Complete Engines category",
+      "fields": [
+        "family",
+        "designation",
+        "category",
+        "application"
+      ],
+      "limitations": [
+        "Current catalog only; discontinued products require archived catalogs."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-performance-engine-index",
+      "publisher": "Ford Performance Parts",
+      "title": "Ford Performance Engines",
+      "url": "https://performanceparts.ford.com/engines/",
+      "documentDate": null,
+      "sourceType": "manufacturerCatalog",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Coyote",
+        "EcoBoost",
+        "Windsor/BOSS crate",
+        "Big Block crate"
+      ],
+      "codes": [],
+      "location": "Engine category index",
+      "fields": [
+        "family",
+        "designation",
+        "category"
+      ],
+      "limitations": [
+        "Category index changes over time; exact part pages remain the identity source."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "ford-performance-m-6007-z2427f-pair-instruction",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z2427FFT / M-6007-Z2427FRT instruction sheet",
+      "url": "https://performanceparts.ford.com/download/instructionsheets/FORDINSTSHTM-6007-Z2427FFT-FRT.PDF",
+      "documentDate": null,
+      "sourceType": "manufacturerInstructionSheet",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z2427FFT",
+        "M-6007-Z2427FRT"
+      ],
+      "location": "Complete instruction sheet; shared front/rear-sump product coverage",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is limited to the two exact Ford Performance products named in the document."
+      ],
+      "accessStatus": "available",
+      "notes": "One document intentionally supports both sump variants."
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-23tb-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-23TB product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-23TB",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-23TB"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-33v6na-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-33V6NA product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-33V6NA",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-33V6NA"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-35ta-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-35TA product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-35TA",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-35TA"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-572df-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-572DF product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-572DF",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-572DF"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-572dr-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-572DR product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-572DR",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-572DR"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-73b-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-73B product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-73B",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-73B"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-a52xs-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-A52XS product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-A52XS",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-A52XS"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-d347sr-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-D347SR product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-D347SR",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-D347SR"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-d347sr7-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-D347SR7 product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-D347SR7",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-D347SR7"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-m50d-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-M50D product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-M50D",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-M50D"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-m50dauto-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-M50DAUTO product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-M50DAUTO",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-M50DAUTO"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-mz73-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-MZ73 product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-MZ73",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-MZ73"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-s347jr2-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-S347JR2 product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-S347JR2",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-S347JR2"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-x2302e-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-X2302E product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-X2302E",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-X2302E"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-x2302e-2",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-X2302E product evidence",
+      "url": "https://performanceparts.ford.com/download/instructionsheets/FORDINSTSHTM-6007-X2302E.PDF",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-X2302E"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-z2363ft-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z2363FT product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-Z2363FT",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z2363FT"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-z2363rt-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z2363RT product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-Z2363RT",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z2363RT"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-z2427fft-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z2427FFT product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-Z2427FFT",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z2427FFT"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-z2427frt-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z2427FRT product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-Z2427FRT",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z2427FRT"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-z460fft-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z460FFT product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-Z460FFT",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z460FFT"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "production-ford-performance-m-6007-z460frt-1",
+      "publisher": "Ford Performance Parts",
+      "title": "M-6007-Z460FRT product evidence",
+      "url": "https://performanceparts.ford.com/part/M-6007-Z460FRT",
+      "documentDate": null,
+      "sourceType": "manufacturerProductPage",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "families": [
+        "Ford Performance crate engine"
+      ],
+      "codes": [
+        "M-6007-Z460FRT"
+      ],
+      "location": "Product page / instruction sheet",
+      "fields": [
+        "code",
+        "designation",
+        "category",
+        "displacement",
+        "fuel",
+        "aspiration",
+        "configuration",
+        "performance",
+        "application",
+        "market"
+      ],
+      "limitations": [
+        "Evidence scope is the exact Ford Performance product only."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    }
+  ]
+}

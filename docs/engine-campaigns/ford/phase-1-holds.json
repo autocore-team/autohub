@@ -1,0 +1,2224 @@
+{
+  "campaignManufacturer": "Ford",
+  "phase": 1,
+  "summary": {
+    "total": 90,
+    "byReason": {
+      "INSUFFICIENT_OFFICIAL_EVIDENCE": 10,
+      "SHARED_ENGINE_IDENTITY": 2,
+      "UNKNOWN_CODE": 78
+    },
+    "unknownCodeAssessment": {
+      "codeProbablyExistsButNotFound": 7,
+      "likelyNoDistinctPublicCode": 39,
+      "marketingDesignationOnly": 25,
+      "sharedCoDevelopedIdentityUnresolved": 7
+    }
+  },
+  "holds": [
+    {
+      "holdId": "hold-ford-23-ecoboost-legacy-evidence",
+      "candidateId": "ford-23-ecoboost",
+      "family": "EcoBoost",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "2.3 EcoBoost",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-335-400-unknown-code",
+      "candidateId": "ford-335-400",
+      "family": "335",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "400",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-35-ecoboost-legacy-evidence",
+      "candidateId": "ford-35-ecoboost",
+      "family": "EcoBoost",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "3.5 EcoBoost",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-385-460-unknown-code",
+      "candidateId": "ford-385-460",
+      "family": "385 / Lima big-block",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "460",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-australia-boss-335-unknown-code",
+      "candidateId": "ford-australia-boss-335",
+      "family": "Australian Boss",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "F",
+      "status": "open",
+      "designationFound": "Boss 335",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-barra-182-unknown-code",
+      "candidateId": "ford-barra-182",
+      "family": "Barra",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "F",
+      "status": "open",
+      "designationFound": "Barra 182",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-barra-240t-unknown-code",
+      "candidateId": "ford-barra-240t",
+      "family": "Barra",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "F",
+      "status": "open",
+      "designationFound": "Barra 240T",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-barra-270t-unknown-code",
+      "candidateId": "ford-barra-270t",
+      "family": "Barra",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "F",
+      "status": "open",
+      "designationFound": "Barra 270T",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-barra-ecolpi-unknown-code",
+      "candidateId": "ford-barra-ecolpi",
+      "family": "Barra",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "F",
+      "status": "open",
+      "designationFound": "EcoLPi Barra",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-big-six-300-unknown-code",
+      "candidateId": "ford-big-six-300",
+      "family": "Ford Big Six",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "300 / 4.9 I6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-cht-1600-unknown-code",
+      "candidateId": "ford-cht-1600",
+      "family": "CHT",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "E",
+      "status": "open",
+      "designationFound": "1.6 CHT",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-cleveland-351c-unknown-code",
+      "candidateId": "ford-cleveland-351c",
+      "family": "Cleveland",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "351 Cleveland",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-cologne-v6-2800-unknown-code",
+      "candidateId": "ford-cologne-v6-2800",
+      "family": "Cologne V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.8 Cologne V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-cologne-v6-2900-unknown-code",
+      "candidateId": "ford-cologne-v6-2900",
+      "family": "Cologne V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.9 Cologne V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-cosworth-bda-identity-evidence",
+      "candidateId": "ford-cosworth-bda",
+      "family": "Ford Cosworth BDA",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "code-to-application binding",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "BDA is an exact Cosworth code/designation, but the current source is a broad Ford heritage archive and does not bind the code to the complete Ford application/year scope.",
+      "evidenceStillNeeded": "Official Ford or Cosworth homologation, parts, or technical documentation binding the exact code to applications and years.",
+      "recommendedNextAction": "Keep the exact code, replace the archive-level evidence with an exact technical document, then assess production eligibility.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "BDA",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-cosworth-yb-identity-evidence",
+      "candidateId": "ford-cosworth-yb",
+      "family": "Ford Cosworth YB",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "code-to-application binding",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "YB is an exact Cosworth code/designation, but the current source is a broad Ford heritage archive and does not bind the code to the complete Ford application/year scope.",
+      "evidenceStillNeeded": "Official Ford or Cosworth homologation, parts, or technical documentation binding the exact code to applications and years.",
+      "recommendedNextAction": "Keep the exact code, replace the archive-level evidence with an exact technical document, then assess production eligibility.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "YB",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-coyote-legacy-evidence",
+      "candidateId": "ford-coyote",
+      "family": "Coyote",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "5.0 Coyote",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-coyote-predator-52-unknown-code",
+      "candidateId": "ford-coyote-predator-52",
+      "family": "Coyote derivative",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "5.2 Predator",
+      "officialSourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-coyote-voodoo-52-unknown-code",
+      "candidateId": "ford-coyote-voodoo-52",
+      "family": "Coyote derivative",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "5.2 Voodoo",
+      "officialSourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-cvh-1600-turbo-unknown-code",
+      "candidateId": "ford-cvh-1600-turbo",
+      "family": "CVH",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 CVH Turbo",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-cvh-1600-unknown-code",
+      "candidateId": "ford-cvh-1600",
+      "family": "CVH",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 CVH",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-cyclone-33-unknown-code",
+      "candidateId": "ford-cyclone-33",
+      "family": "Cyclone",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "3.3 Duratec V6",
+      "officialSourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-cyclone-37-legacy-evidence",
+      "candidateId": "ford-cyclone-37",
+      "family": "Cyclone",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "3.7 Cyclone",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-dld-1400-tdci-unknown-code",
+      "candidateId": "ford-dld-1400-tdci",
+      "family": "DLD",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-india-figo"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "1.4 TDCi",
+      "officialSourcesChecked": [
+        "ford-india-figo"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-dld-1500-tdci-unknown-code",
+      "candidateId": "ford-dld-1500-tdci",
+      "family": "DLD",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-india-figo"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "1.5 TDCi",
+      "officialSourcesChecked": [
+        "ford-india-figo"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-dld-1600-tdci-unknown-code",
+      "candidateId": "ford-dld-1600-tdci",
+      "family": "DLD",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-transit-connect-spec"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 TDCi",
+      "officialSourcesChecked": [
+        "ford-eu-transit-connect-spec"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-dragon-1500-ti-vct-unknown-code",
+      "candidateId": "ford-dragon-1500-ti-vct",
+      "family": "Dragon",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-mexico-dragon-production"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "1.5 Ti-VCT three-cylinder",
+      "officialSourcesChecked": [
+        "ford-mexico-dragon-production"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-duratec-30-legacy-evidence",
+      "candidateId": "ford-duratec-30",
+      "family": "Duratec V",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "3.0 Duratec V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-duratec-35-legacy-evidence",
+      "candidateId": "ford-duratec-35",
+      "family": "Duratec / Cyclone",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "3.5 Duratec / Cyclone",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-duratec-direct-flex-2000-unknown-code",
+      "candidateId": "ford-duratec-direct-flex-2000",
+      "family": "Duratec Direct Flex",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-brazil-focus"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "E",
+      "status": "open",
+      "designationFound": "2.0 Duratec Direct Flex",
+      "officialSourcesChecked": [
+        "ford-brazil-focus"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-duratec-he-2000-unknown-code",
+      "candidateId": "ford-duratec-he-2000",
+      "family": "Duratec HE / Mazda L",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-brazil-ecosport-engineering"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.0 Duratec HE",
+      "officialSourcesChecked": [
+        "ford-brazil-ecosport-engineering"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-duratorq-puma-2200-unknown-code",
+      "candidateId": "ford-duratorq-puma-2200",
+      "family": "Duratorq Puma",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-otosan-engine-production"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.2 Duratorq TDCi",
+      "officialSourcesChecked": [
+        "ford-otosan-engine-production"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-duratorq-puma-3200-unknown-code",
+      "candidateId": "ford-duratorq-puma-3200",
+      "family": "Duratorq Puma",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-au-ranger-2020"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "3.2 Duratorq TDCi",
+      "officialSourcesChecked": [
+        "ford-au-ranger-2020"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoblue-1500-unknown-code",
+      "candidateId": "ford-ecoblue-1500",
+      "family": "EcoBlue",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-kuga-spec",
+        "ford-eu-transit-courier-spec"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.5 EcoBlue",
+      "officialSourcesChecked": [
+        "ford-eu-kuga-spec",
+        "ford-eu-transit-courier-spec"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoblue-2000-unknown-code",
+      "candidateId": "ford-ecoblue-2000",
+      "family": "EcoBlue / Panther",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-au-ranger-2020",
+        "ford-eu-ecoblue-launch",
+        "ford-eu-tourneo-custom-spec",
+        "ford-otosan-engine-production"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.0 EcoBlue",
+      "officialSourcesChecked": [
+        "ford-au-ranger-2020",
+        "ford-eu-ecoblue-launch",
+        "ford-eu-tourneo-custom-spec",
+        "ford-otosan-engine-production"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-1000-unknown-code",
+      "candidateId": "ford-ecoboost-1000",
+      "family": "EcoBoost",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-transit-courier-spec"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.0 EcoBoost",
+      "officialSourcesChecked": [
+        "ford-eu-transit-courier-spec"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-1500-dragon-unknown-code",
+      "candidateId": "ford-ecoboost-1500-dragon",
+      "family": "Dragon / EcoBoost",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-kuga-spec",
+        "ford-mexico-dragon-production"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.5 EcoBoost three-cylinder",
+      "officialSourcesChecked": [
+        "ford-eu-kuga-spec",
+        "ford-mexico-dragon-production"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-1600-unknown-code",
+      "candidateId": "ford-ecoboost-1600",
+      "family": "EcoBoost",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-mondeo-powertrains",
+        "ford-eu-transit-connect-spec"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 EcoBoost",
+      "officialSourcesChecked": [
+        "ford-eu-mondeo-powertrains",
+        "ford-eu-transit-connect-spec"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-2000-unknown-code",
+      "candidateId": "ford-ecoboost-2000",
+      "family": "EcoBoost",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.0 EcoBoost",
+      "officialSourcesChecked": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-27-v6-unknown-code",
+      "candidateId": "ford-ecoboost-27-v6",
+      "family": "Nano / EcoBoost V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "2.7 EcoBoost V6",
+      "officialSourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-30-v6-unknown-code",
+      "candidateId": "ford-ecoboost-30-v6",
+      "family": "Nano / EcoBoost V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "3.0 EcoBoost V6",
+      "officialSourcesChecked": [
+        "ford-performance-engine-index"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecoboost-35-gt-racing-unknown-code",
+      "candidateId": "ford-ecoboost-35-gt-racing",
+      "family": "EcoBoost V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-fap-ford-gt"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "3.5 EcoBoost race architecture",
+      "officialSourcesChecked": [
+        "ford-fap-ford-gt"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecotorq-13000-unknown-code",
+      "candidateId": "ford-ecotorq-13000",
+      "family": "Ecotorq",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "13 L Ecotorq",
+      "officialSourcesChecked": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-ecotorq-9000-unknown-code",
+      "candidateId": "ford-ecotorq-9000",
+      "family": "Ecotorq",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "9 L Ecotorq",
+      "officialSourcesChecked": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-endura-e-1300-unknown-code",
+      "candidateId": "ford-endura-e-1300",
+      "family": "Endura-E",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.3 Endura-E",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-essex-v4-1700-unknown-code",
+      "candidateId": "ford-essex-v4-1700",
+      "family": "Essex V4",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.7 Essex V4",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-essex-v6-3000-unknown-code",
+      "candidateId": "ford-essex-v6-3000",
+      "family": "Essex V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "3.0 Essex V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-falcon-six-144-unknown-code",
+      "candidateId": "ford-falcon-six-144",
+      "family": "Falcon Six",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-na-falcon-1961"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "144 Six",
+      "officialSourcesChecked": [
+        "ford-na-falcon-1961"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-falcon-six-170-unknown-code",
+      "candidateId": "ford-falcon-six-170",
+      "family": "Falcon Six",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-na-falcon-1961"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "170 Special Six",
+      "officialSourcesChecked": [
+        "ford-na-falcon-1961"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-fe-390-unknown-code",
+      "candidateId": "ford-fe-390",
+      "family": "FE",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "390 FE",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-fe-427-unknown-code",
+      "candidateId": "ford-fe-427",
+      "family": "FE",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "427 FE",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-flathead-v8-221-unknown-code",
+      "candidateId": "ford-flathead-v8-221",
+      "family": "Flathead V8",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "221 Flathead V8",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-flathead-v8-239-unknown-code",
+      "candidateId": "ford-flathead-v8-239",
+      "family": "Flathead V8",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "239 Flathead V8",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-godzilla-73-unknown-code",
+      "candidateId": "ford-godzilla-73",
+      "family": "Godzilla",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-na-f650-f750-2022",
+        "ford-na-super-duty-2023"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "7.3 V8 gasoline",
+      "officialSourcesChecked": [
+        "ford-na-f650-f750-2022",
+        "ford-na-super-duty-2023"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-hcs-1100-unknown-code",
+      "candidateId": "ford-hcs-1100",
+      "family": "HCS",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.1 HCS",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-kent-crossflow-1300-unknown-code",
+      "candidateId": "ford-kent-crossflow-1300",
+      "family": "Kent Crossflow",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1300 Crossflow",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-kent-crossflow-1600-unknown-code",
+      "candidateId": "ford-kent-crossflow-1600",
+      "family": "Kent Crossflow",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1600 Crossflow",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-kent-pre-crossflow-997-unknown-code",
+      "candidateId": "ford-kent-pre-crossflow-997",
+      "family": "Kent",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "997 cc pre-crossflow",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-lima-2300-unknown-code",
+      "candidateId": "ford-lima-2300",
+      "family": "Lima OHC",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "2.3 Lima OHC",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-modular-46-2v-legacy-evidence",
+      "candidateId": "ford-modular-46-2v",
+      "family": "Modular V",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "4.6 Modular 2V",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-modular-46-4v-unknown-code",
+      "candidateId": "ford-modular-46-4v",
+      "family": "Modular",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "4.6 Modular 4V",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-modular-54-4v-unknown-code",
+      "candidateId": "ford-modular-54-4v",
+      "family": "Modular",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "5.4 Modular 4V",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-modular-68-v10-unknown-code",
+      "candidateId": "ford-modular-68-v10",
+      "family": "Modular",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-na-powerstroke-2016"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "6.8 Triton V10",
+      "officialSourcesChecked": [
+        "ford-na-powerstroke-2016"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-navistar-power-stroke-60-unknown-code",
+      "candidateId": "ford-navistar-power-stroke-60",
+      "family": "Navistar VT365 / Power Stroke",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "6.0 Power Stroke",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-navistar-power-stroke-73-unknown-code",
+      "candidateId": "ford-navistar-power-stroke-73",
+      "family": "Navistar T444E / Power Stroke",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "7.3 Power Stroke",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-pinto-ohc-1600-unknown-code",
+      "candidateId": "ford-pinto-ohc-1600",
+      "family": "Pinto OHC",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 OHC",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-pinto-ohc-2000-unknown-code",
+      "candidateId": "ford-pinto-ohc-2000",
+      "family": "Pinto OHC",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.0 OHC",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-power-stroke-30-unknown-code",
+      "candidateId": "ford-power-stroke-30",
+      "family": "Power Stroke / Lion",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "3.0 Power Stroke V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-power-stroke-67-unknown-code",
+      "candidateId": "ford-power-stroke-67",
+      "family": "Power Stroke",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-na-f650-f750-2022",
+        "ford-na-powerstroke-2016",
+        "ford-na-super-duty-2023"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "6.7 Power Stroke V8",
+      "officialSourcesChecked": [
+        "ford-na-f650-f750-2022",
+        "ford-na-powerstroke-2016",
+        "ford-na-super-duty-2023"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-psa-dw12-2200-unknown-code",
+      "candidateId": "ford-psa-dw12-2200",
+      "family": "PSA DW12 / Ford Duratorq",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.2 TDCi / HDi",
+      "officialSourcesChecked": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-sho-yamaha-30-unknown-code",
+      "candidateId": "ford-sho-yamaha-30",
+      "family": "SHO V6",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "3.0 SHO V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "sharedCoDevelopedIdentityUnresolved",
+      "whyNotExactCode": "The Ford designation is not yet cross-walked to the partner family/code with authoritative identity evidence.",
+      "documentNeeded": "Official Ford and partner parts/service/type-approval documents establishing the cross-manufacturer code mapping.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-sigma-1200-ti-vct-unknown-code",
+      "candidateId": "ford-sigma-1200-ti-vct",
+      "family": "Sigma / Ti-VCT",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-india-figo"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "G",
+      "status": "open",
+      "designationFound": "1.2 Ti-VCT",
+      "officialSourcesChecked": [
+        "ford-india-figo"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-sigma-flex-1500-unknown-code",
+      "candidateId": "ford-sigma-flex-1500",
+      "family": "Sigma",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-brazil-sigma-million"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "E",
+      "status": "open",
+      "designationFound": "1.5 Sigma Flex",
+      "officialSourcesChecked": [
+        "ford-brazil-sigma-million"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-sigma-flex-1600-unknown-code",
+      "candidateId": "ford-sigma-flex-1600",
+      "family": "Sigma",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-brazil-ecosport-engineering",
+        "ford-brazil-focus",
+        "ford-brazil-sigma-million"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "E",
+      "status": "open",
+      "designationFound": "1.6 Sigma Ti-VCT Flex",
+      "officialSourcesChecked": [
+        "ford-brazil-ecosport-engineering",
+        "ford-brazil-focus",
+        "ford-brazil-sigma-million"
+      ],
+      "identifierAssessment": "marketingDesignationOnly",
+      "whyNotExactCode": "The reviewed Ford material publishes a marketing or output designation rather than an engineering code.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-triton-54-3v-legacy-evidence",
+      "candidateId": "ford-triton-54-3v",
+      "family": "Triton V",
+      "reason": "INSUFFICIENT_OFFICIAL_EVIDENCE",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "5.4 Triton 3V",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ]
+    },
+    {
+      "holdId": "hold-ford-valencia-1100-unknown-code",
+      "candidateId": "ford-valencia-1100",
+      "family": "Valencia",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.1 Valencia",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-vulcan-30-unknown-code",
+      "candidateId": "ford-vulcan-30",
+      "family": "Vulcan",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "3.0 Vulcan V6",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-windsor-289-unknown-code",
+      "candidateId": "ford-windsor-289",
+      "family": "Windsor small-block",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "289 Windsor",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-windsor-302-unknown-code",
+      "candidateId": "ford-windsor-302",
+      "family": "Windsor small-block",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "302 / 5.0 Windsor",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-windsor-351w-unknown-code",
+      "candidateId": "ford-windsor-351w",
+      "family": "Windsor small-block",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "351 Windsor",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-y-block-292-unknown-code",
+      "candidateId": "ford-y-block-292",
+      "family": "Y-block",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "292 Y-block",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-y-block-312-unknown-code",
+      "candidateId": "ford-y-block-312",
+      "family": "Y-block",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "D",
+      "status": "open",
+      "designationFound": "312 Y-block",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-zetec-e-1600-unknown-code",
+      "candidateId": "ford-zetec-e-1600",
+      "family": "Zetec-E",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 Zetec-E",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-zetec-e-1800-unknown-code",
+      "candidateId": "ford-zetec-e-1800",
+      "family": "Zetec-E",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.8 Zetec-E",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-zetec-e-2000-unknown-code",
+      "candidateId": "ford-zetec-e-2000",
+      "family": "Zetec-E",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "2.0 Zetec-E",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-zetec-rocam-1600-unknown-code",
+      "candidateId": "ford-zetec-rocam-1600",
+      "family": "Zetec Rocam",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "E",
+      "status": "open",
+      "designationFound": "1.6 Zetec Rocam",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "codeProbablyExistsButNotFound",
+      "whyNotExactCode": "The technical variant likely has an internal manufacturer or engineering code, but the reviewed public official material exposes only the family/designation.",
+      "documentNeeded": "Official Ford parts, workshop, homologation, or engineering documentation that binds the internal code to the listed application and period.",
+      "productionSchemaCompatibility": "notEligibleForNewStrictRecordUntilExactIdentityIsBound",
+      "architectureDecisionRequired": false,
+      "architectureIssue": null
+    },
+    {
+      "holdId": "hold-ford-zetec-se-1250-unknown-code",
+      "candidateId": "ford-zetec-se-1250",
+      "family": "Zetec-SE / Sigma",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.25 Zetec-SE",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-ford-zetec-se-1600-unknown-code",
+      "candidateId": "ford-zetec-se-1600",
+      "family": "Zetec-SE / Sigma",
+      "reason": "UNKNOWN_CODE",
+      "disputedField": "code",
+      "sourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "conflictDescription": "Phase 1 found a Ford family/marketing designation but no stable official document binding an exact manufacturer or engineering code.",
+      "evidenceStillNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "recommendedNextAction": "Resolve during the proposed family batch before creating any production record.",
+      "checkpoint": "C",
+      "status": "open",
+      "designationFound": "1.6 Zetec-SE",
+      "officialSourcesChecked": [
+        "ford-heritage-vault"
+      ],
+      "identifierAssessment": "likelyNoDistinctPublicCode",
+      "whyNotExactCode": "Ford public material commonly identifies this historical identity by family and displacement/designation; Phase 1 found no distinct public code that can safely replace it.",
+      "documentNeeded": "Period Ford parts, workshop, homologation, or casting-number documentation; if no distinct code exists, a policy decision permitting a stable historical designation.",
+      "productionSchemaCompatibility": "designationRepresentableButStrictExactCodePolicyDecisionRequired",
+      "architectureDecisionRequired": true,
+      "architectureIssue": "The current strict policy expects an exact variant code, while some historic Ford engines may have been sold and documented primarily by family/displacement designation."
+    },
+    {
+      "holdId": "hold-psa-dw10-legacy-evidence",
+      "candidateId": "psa-dw10",
+      "family": "DW  HDi",
+      "reason": "SHARED_ENGINE_IDENTITY",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-eu-media-archive-shared-engine-discovery"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "DW10 2.0 HDi",
+      "officialSourcesChecked": [
+        "ford-eu-media-archive-shared-engine-discovery"
+      ]
+    },
+    {
+      "holdId": "hold-volvo-b5254t-legacy-evidence",
+      "candidateId": "volvo-b5254t",
+      "family": "BT family",
+      "reason": "SHARED_ENGINE_IDENTITY",
+      "disputedField": "verification evidence",
+      "sourcesChecked": [
+        "ford-eu-media-archive-shared-engine-discovery"
+      ],
+      "conflictDescription": "The existing production record is legacyPending and Phase 1 did not establish complete strict field coverage.",
+      "evidenceStillNeeded": "Exact-variant official identity, application/year/market scope, construction, and performance evidence.",
+      "recommendedNextAction": "Retain the production record unchanged and research it in the matching Phase 2 family batch.",
+      "checkpoint": "I",
+      "status": "open",
+      "designationFound": "B5254T family",
+      "officialSourcesChecked": [
+        "ford-eu-media-archive-shared-engine-discovery"
+      ]
+    }
+  ]
+}
