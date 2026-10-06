@@ -32908,5 +32908,18108 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.japan = [
         }
       ]
     }
+  },
+  {
+    "id": "batch11-nissan-ka24den-np300-mexico-2012",
+    "code": "KA24DEN",
+    "aliases": [],
+    "maker": "Nissan",
+    "regionKey": "japan",
+    "years": "2012",
+    "displacement": "2.4 L · 2,389 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Nissan NP300 D22 (Mexico, 2012 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "KA24DEN: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,389 cc; Nissan NP300 D22 (Mexico, 2012 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2012 Mexico sheet only. All petrol body, grade and transmission columns are consolidated; hp converted as mechanical horsepower, not PS."
+      },
+      "es": {
+        "construction": "KA24DEN: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,389 cc; Nissan NP300 D22 (Mexico, 2012 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "KA24DEN: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,389 cc; Nissan NP300 D22 (Mexico, 2012 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "KA24DEN: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,389 cc; Nissan NP300 D22 (Mexico, 2012 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 106.6,
+        "max": 106.6,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 208.8,
+        "max": 208.8,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-nissan-ka24den-np300-mexico-2012-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Nissan NP300 D22 (Mexico, 2012 documented specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Mexico"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-nissan-ka24den-np300-mexico-2012-specification",
+          "title": "2012 Nissan NP300 Especificaciones",
+          "publisher": "Nissan Mexicana, S.A. de C.V.",
+          "year": 2012,
+          "url": "https://mexico.nissannews.com/es-MX/releases/2012-nissan-np300-especificaciones",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Motor / Prestaciones del motor, GASOLINA column: Nombre KA24DEN; four inline cylinders and four valves per cylinder, DOHC; Aspiración natural; 2,389 cm3; 143 hp at 5,200 rpm; 154 lb-pie at 4,000 rpm; gasolina and Inyección electrónica multipunto. Two cams follow the explicitly stated double overhead cam head.",
+            "2012 Mexico sheet only. All petrol body, grade and transmission columns are consolidated; hp converted as mechanical horsepower, not PS."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "KA24DEN"
+            ],
+            "applications": [
+              "Nissan NP300 D22 (Mexico, 2012 documented specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Mexico"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-eg33-alcyone-svx-japan-1995",
+    "code": "EG33",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1995",
+    "displacement": "3.3 L · 3,318 cc",
+    "layout": "Boxer-6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Alcyone SVX (Japan, 1995 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EG33: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.3 L · 3,318 cc; Subaru Alcyone SVX (Japan, 1995 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "July 1995 Japan S4 calibration only. This is one Alcyone SVX base-model scope; other trims or annual catalogue pages have not been added. Four total cams, DOHC per head."
+      },
+      "es": {
+        "construction": "EG33: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.3 L · 3,318 cc; Subaru Alcyone SVX (Japan, 1995 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EG33: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.3 L · 3,318 cc; Subaru Alcyone SVX (Japan, 1995 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EG33: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.3 L · 3,318 cc; Subaru Alcyone SVX (Japan, 1995 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 177,
+        "max": 177,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 308.9,
+        "max": 308.9,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-eg33-alcyone-svx-japan-1995-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Alcyone SVX (Japan, 1995 documented specification)"
+        ],
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-eg33-alcyone-svx-japan-1995-specification",
+          "title": "SUBARU SUGDAS Alcyone SVX S4, July 1995",
+          "publisher": "Subaru Corporation",
+          "year": 1995,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502766",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502766, July 1995 S4 title and エンジン・燃料系 rows: エンジン型式 EG33; 水平対向6気筒DOHC24バルブ; 3318cc; 240ps(177kW)/6000rpm; 31.5kg・m(308.9N・m)/4800rpm; 過給機 なし; EGI explicitly expanded as multipoint injection; premium unleaded petrol. DOHC on each of two opposed cylinder heads gives four total cams.",
+            "July 1995 Japan S4 calibration only. This is one Alcyone SVX base-model scope; other trims or annual catalogue pages have not been added. Four total cams, DOHC per head."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EG33"
+            ],
+            "applications": [
+              "Subaru Alcyone SVX (Japan, 1995 documented specification)"
+            ],
+            "years": {
+              "from": 1995,
+              "to": 1995
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15b7-civic-x-standard-usa-2020",
+    "code": "L15B7",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2020 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 129.8,
+        "max": 129.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 219.6,
+        "max": 219.6,
+        "rpm": {
+          "min": 1700,
+          "max": 5500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15b7-civic-x-standard-usa-2020-identity",
+        "batch11-honda-l15b7-civic-x-standard-usa-2020-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15b7-civic-x-standard-usa-2020-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Civic Sedan 2016-2021 EX-T/EX-L/Touring L15B7, Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2020 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2020 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B7"
+            ],
+            "applications": [
+              "Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15b7-civic-x-standard-usa-2020-specification",
+          "title": "2020 Honda Civic Sedan Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2020,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-b6eb002730fe252c70adedf8e5000d96-2020-civic-sedan-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2020 specifications, EX-L / Touring columns: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 174 SAE net hp at 6000 rpm; Torque 162 lb-ft at 1700-5500 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2020 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic X civic-x-standard 174 hp calibration (United States, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15b7-civic-x-standard-usa-2020-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017",
+    "code": "L15BA",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 129.8,
+        "max": 129.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 219.6,
+        "max": 219.6,
+        "rpm": {
+          "min": 1700,
+          "max": 5500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017-identity",
+        "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Civic Hatchback 2017-2021 LX/EX/EX-L L15BA, Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2017 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15BA"
+            ],
+            "applications": [
+              "Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017-specification",
+          "title": "2017 Honda Civic Hatchback Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2017,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-14c1878e52a64178a35a66ad6c277c11-2017-honda-civic-hatchback-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2017 specifications, LX CVT / EX / EX-L Navi columns: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 174 SAE net hp at 6000 rpm; Torque 162 lb-ft at 1700-5500 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic X civic-x-hatchback-standard 174 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017",
+    "code": "L15BA",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 134.2,
+        "max": 134.2,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 219.6,
+        "max": 219.6,
+        "rpm": {
+          "min": 1700,
+          "max": 5500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017-identity",
+        "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Civic Hatchback 2017-2021 Sport/Sport Touring CVT L15BA, Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2017 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15BA"
+            ],
+            "applications": [
+              "Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017-specification",
+          "title": "2017 Honda Civic Hatchback Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2017,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-14c1878e52a64178a35a66ad6c277c11-2017-honda-civic-hatchback-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2017 specifications, Sport CVT / Sport Touring columns: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 180 SAE net hp at 6000 rpm; Torque 162 lb-ft at 1700-5500 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic X civic-x-hatchback-180-cvt 180 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017",
+    "code": "L15BA",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15BA: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 134.2,
+        "max": 134.2,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 1900,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017-identity",
+        "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Civic Hatchback 2017-2021 Sport/Sport Touring 6MT L15BA, Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2017 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15BA"
+            ],
+            "applications": [
+              "Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017-specification",
+          "title": "2017 Honda Civic Hatchback Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2017,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-14c1878e52a64178a35a66ad6c277c11-2017-honda-civic-hatchback-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2017 specifications, Sport 6MT column: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 180 SAE net hp at 5500 rpm; Torque 177 lb-ft at 1900-5000 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic X civic-x-hatchback-180-mt 180 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15b7-civic-si-x-usa-2020",
+    "code": "L15B7",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic X-x 205 hp calibration (United States, 2020 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X-x 205 hp calibration (United States, 2020 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2020 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X-x 205 hp calibration (United States, 2020 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X-x 205 hp calibration (United States, 2020 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15B7: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic X-x 205 hp calibration (United States, 2020 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 152.9,
+        "max": 152.9,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 260.3,
+        "max": 260.3,
+        "rpm": {
+          "min": 2100,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15b7-civic-si-x-usa-2020-identity",
+        "batch11-honda-l15b7-civic-si-x-usa-2020-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic X-x 205 hp calibration (United States, 2020 documented specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15b7-civic-si-x-usa-2020-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Civic Si 2017-2020 L15B7 (High Output), Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2020 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2020 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15B7"
+            ],
+            "applications": [
+              "Honda Civic X-x 205 hp calibration (United States, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15b7-civic-si-x-usa-2020-specification",
+          "title": "2020 Honda Civic Si Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2020,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-fd34ed6adcef44ffac7f1cf42c1813c8-2020-civic-si-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2020 specifications, Si Coupe / Si Sedan shared ENGINEERING cells: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 205 SAE net hp at 5700 rpm; Torque 192 lb-ft at 2100-5000 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2020 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic X-x 205 hp calibration (United States, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15b7-civic-si-x-usa-2020-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15ca-civic-si-xi-usa-2024",
+    "code": "L15CA",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "U.S. 2024 specification snapshot only; no transfer to Mexico or other markets. SAE hp and lb-ft converted to kW/Nm to one decimal. Equal body/trim/gearbox cells are consolidated; the 180 hp manual variant is separate only because both power and torque rpm/value differ. LX 6MT 174 hp is held because the 2024 overview does not agree with its 2017 torque row."
+      },
+      "es": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 149.1,
+        "max": 149.1,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 260.3,
+        "max": 260.3,
+        "rpm": {
+          "min": 1800,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15ca-civic-si-xi-usa-2024-identity",
+        "batch11-honda-l15ca-civic-si-xi-usa-2024-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15ca-civic-si-xi-usa-2024-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Civic Si 2022-Present L15CA, Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2024 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "U.S. 2024 specification snapshot only; no transfer to Mexico or other markets. SAE hp and lb-ft converted to kW/Nm to one decimal. Equal body/trim/gearbox cells are consolidated; the 180 hp manual variant is separate only because both power and torque rpm/value differ. LX 6MT 174 hp is held because the 2024 overview does not agree with its 2017 torque row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15CA"
+            ],
+            "applications": [
+              "Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15ca-civic-si-xi-usa-2024-specification",
+          "title": "2024 Honda civic-si-xi Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-5003aaa39c009393f5d06d620f0936fc-2024-honda-civic-si-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2024 specifications, Si column under POWER UNIT / ENGINE: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC VTEC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 200 SAE net hp at 6000 rpm; Torque 192 lb-ft at 1800-5000 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "U.S. 2024 specification snapshot only; no transfer to Mexico or other markets. SAE hp and lb-ft converted to kW/Nm to one decimal. Equal body/trim/gearbox cells are consolidated; the 180 hp manual variant is separate only because both power and torque rpm/value differ. LX 6MT 174 hp is held because the 2024 overview does not agree with its 2017 torque row."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic XI civic-si-xi 200 hp calibration (United States, 2024 documented specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15ca-civic-si-xi-usa-2024-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15be-cr-v-v-usa-2017",
+    "code": "L15BE",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15BE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15BE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15BE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15BE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 141.7,
+        "max": 141.7,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 242.7,
+        "max": 242.7,
+        "rpm": {
+          "min": 2000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15be-cr-v-v-usa-2017-identity",
+        "batch11-honda-l15be-cr-v-v-usa-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15be-cr-v-v-usa-2017-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row CR-V 2017-2022 EX/EX-L/Touring L15BE, Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2017 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15BE"
+            ],
+            "applications": [
+              "Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15be-cr-v-v-usa-2017-specification",
+          "title": "2017 Honda CR-V Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2017,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-d636454c74ac4accb7a1f4dfc6c9bec4-2017-honda-cr-v-press-kit-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2017 specifications, EX / EX-L / Touring columns: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 190 SAE net hp at 5600 rpm; Torque 179 lb-ft at 2000-5000 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2017 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda CR-V V-v 190 hp calibration (United States, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15be-cr-v-v-usa-2017-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15be-accord-x-usa-2018",
+    "code": "L15BE",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Accord X 192 hp calibration (United States, 2018 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15BE: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord X 192 hp calibration (United States, 2018 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. 2018 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15BE: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord X 192 hp calibration (United States, 2018 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15BE: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord X 192 hp calibration (United States, 2018 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15BE: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord X 192 hp calibration (United States, 2018 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 143.2,
+        "max": 143.2,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 260.3,
+        "max": 260.3,
+        "rpm": {
+          "min": 1600,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15be-accord-x-usa-2018-identity",
+        "batch11-honda-l15be-accord-x-usa-2018-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Accord X 192 hp calibration (United States, 2018 documented specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15be-accord-x-usa-2018-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Engine (16 May 2024), Honda 1.5-Liter Turbo Applications table, row Accord 2018-2022 L15BE (w/VTEC), Engine Code / Model Years columns. This exact code/application/year binding covers the narrower 2018 specification snapshot. Parenthetical High Output or w/VTEC labels describe hardware/calibration, not an invented engine-code suffix. Footer restricts evidence to U.S. products.",
+            "Only the cited U.S. 2018 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15BE"
+            ],
+            "applications": [
+              "Honda Accord X 192 hp calibration (United States, 2018 documented specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15be-accord-x-usa-2018-specification",
+          "title": "2018 Honda Accord Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2018,
+          "url": "https://hondanews.com/en-US/releases/release-05333a38042c488186870d08d4a26678-2018-accord-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2018 specifications, LX / Sport / EX / EX-L / Touring 1.5T columns; exclude 2.0T and Hybrid: Engine Type explicitly inline-four turbo; Displacement 1498 cc; Valve Train 16-Valve DOHC VTEC; Fuel Injection Direct; Required Fuel regular unleaded (premium recommended where stated); Horsepower 192 SAE net hp at 5500 rpm; Torque 192 lb-ft at 1600-5000 rpm. One DOHC cylinder head establishes two total cams. Exact application binds directly to the accepted identity table via identityBindingRef.",
+            "Only the cited U.S. 2018 specification and exact calibration. Equal body/trim/gearbox cells are consolidated; no extrapolation to other years or markets. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Accord X 192 hp calibration (United States, 2018 documented specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15be-accord-x-usa-2018-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15b7-civic-xi-usa-2024",
+    "code": "L15B7",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic XI 180 hp turbo (2024 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15B7: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI 180 hp turbo (2024 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification; identical trims/transmissions/body calibrations consolidated. Distinct XI generation; no transfer to other markets. SAE hp and lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15B7: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI 180 hp turbo (2024 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15B7: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI 180 hp turbo (2024 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15B7: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Civic XI 180 hp turbo (2024 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 134.2,
+        "max": 134.2,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240,
+        "rpm": {
+          "min": 1700,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15b7-civic-xi-usa-2024-identity",
+        "batch11-honda-l15b7-civic-xi-usa-2024-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic XI 180 hp turbo (2024 United States model year)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15b7-civic-xi-usa-2024-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Applications table: Civic Sedan 2022-2024 EX/Touring, exact code L15B7; power 180 SAE net hp at 6000 rpm and torque 177 lb-ft at 1700-4500 rpm. Footer limits to U.S. products.",
+            "Only the cited U.S. model-year specification; identical trims/transmissions/body calibrations consolidated. Distinct XI generation; no transfer to other markets. SAE hp and lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic XI 180 hp turbo (2024 United States model year)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ],
+            "codes": [
+              "L15B7"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15b7-civic-xi-usa-2024-specification",
+          "title": "2024 Honda Civic Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/releases/release-5003aaa39c009393f5d06d620f091c7d-2024-honda-civic-sedan-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine table, EX / Touring columns: inline-four turbo, 1498 cc, 16-valve DOHC i-VTEC, Direct fuel injection, unleaded fuel. One DOHC inline cylinder head establishes two total cams. Power 180 SAE hp at 6000 rpm; torque 177 lb-ft at 1700-4500 rpm.",
+            "Only the cited U.S. model-year specification; identical trims/transmissions/body calibrations consolidated. Distinct XI generation; no transfer to other markets. SAE hp and lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic XI 180 hp turbo (2024 United States model year)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15b7-civic-xi-usa-2024-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-l15be-accord-xi-usa-2023",
+    "code": "L15BE",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC Dual-VTC EXH VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Accord XI 192 hp turbo (2023 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15BE: Inline-4 · DOHC Dual-VTC EXH VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord XI 192 hp turbo (2023 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification; identical trims/transmissions/body calibrations consolidated. Distinct XI generation; no transfer to other markets. SAE hp and lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15BE: Inline-4 · DOHC Dual-VTC EXH VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord XI 192 hp turbo (2023 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15BE: Inline-4 · DOHC Dual-VTC EXH VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord XI 192 hp turbo (2023 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15BE: Inline-4 · DOHC Dual-VTC EXH VTEC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Honda Accord XI 192 hp turbo (2023 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 143.2,
+        "max": 143.2,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 260.3,
+        "max": 260.3,
+        "rpm": {
+          "min": 1700,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-l15be-accord-xi-usa-2023-identity",
+        "batch11-honda-l15be-accord-xi-usa-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Accord XI 192 hp turbo (2023 United States model year)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-l15be-accord-xi-usa-2023-identity",
+          "title": "Honda 1.5-Liter Turbo Engine, 16 May 2024",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2024,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-40b876fa88ce36bf41449f6e441f9b95-honda-15-liter-turbo-engine",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Honda 1.5-Liter Turbo Applications table: Accord 2023-Present LX/EX, exact code L15BE; power 192 SAE net hp at 6000 rpm and torque 192 lb-ft at 1700-5000 rpm. Footer limits to U.S. products.",
+            "Only the cited U.S. model-year specification; identical trims/transmissions/body calibrations consolidated. Distinct XI generation; no transfer to other markets. SAE hp and lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Accord XI 192 hp turbo (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ],
+            "codes": [
+              "L15BE"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-l15be-accord-xi-usa-2023-specification",
+          "title": "2023 Honda Accord Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2023,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-4e58b4e0fcd795affa5685a66a387e28-2023-honda-accord-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine table, LX / EX petrol columns: inline-four turbo, 1498 cc, 16-valve DOHC Dual-VTC EXH VTEC, Direct fuel injection, unleaded fuel. One DOHC inline cylinder head establishes two total cams. Power 192 SAE hp at 6000 rpm; torque 192 lb-ft at 1700-5000 rpm.",
+            "Only the cited U.S. model-year specification; identical trims/transmissions/body calibrations consolidated. Distinct XI generation; no transfer to other markets. SAE hp and lb-ft converted to kW/Nm to one decimal.",
+            "The table states 6000 rpm, consistent with the newer May 2024 engine overview. Footnote 1 instead prints 6500 rpm, the redline; the newer exact-code overview is the declared source for power/rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Accord XI 192 hp turbo (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-l15be-accord-xi-usa-2023-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-k20c1-civic-type-r-x-usa-2017",
+    "code": "K20C1",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "2.0 L · 1,996 cc",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic Type R X (2017 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R X (2017 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R X (2017 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R X (2017 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R X (2017 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 228.2,
+        "max": 228.2,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 2500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-k20c1-civic-type-r-x-usa-2017-identity",
+        "batch11-honda-k20c1-civic-type-r-x-usa-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic Type R X (2017 United States model year)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-k20c1-civic-type-r-x-usa-2017-identity",
+          "title": "2017 Honda Civic Type R X: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2017,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/SHHFK8G7*H?format=json&modelyear=2017",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make HONDA; Model Civic Type R; ModelYear 2017; EngineModel K20C1. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C1"
+            ],
+            "applications": [
+              "Honda Civic Type R X (2017 United States model year)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-k20c1-civic-type-r-x-usa-2017-specification",
+          "title": "2017 Honda Civic Type R X Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2017,
+          "url": "https://hondanews.com/en-US/releases/release-acfe25287f7d481b93a0c0c020854e5e-honda-civic-type-r-overview",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Touring: Inline-4, 2.0 L · 1,996 cc, 16-valve DOHC VTEC, direct injection, unleaded gasoline; 306 SAE net hp at 6500 rpm; 295 lb-ft at 2500-4500 rpm. One inline cylinder head with two cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic Type R X (2017 United States model year)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-k20c1-civic-type-r-x-usa-2017-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-k20c1-civic-type-r-xi-usa-2023",
+    "code": "K20C1",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "2.0 L · 1,996 cc",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic Type R XI (2023 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R XI (2023 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R XI (2023 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R XI (2023 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "K20C1: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic Type R XI (2023 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 234.9,
+        "max": 234.9,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 420.3,
+        "max": 420.3,
+        "rpm": {
+          "min": 2600,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-k20c1-civic-type-r-xi-usa-2023-identity",
+        "batch11-honda-k20c1-civic-type-r-xi-usa-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic Type R XI (2023 United States model year)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-k20c1-civic-type-r-xi-usa-2023-identity",
+          "title": "2023 Honda Civic Type R XI: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2023,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/JHMFL5G4*P?format=json&modelyear=2023",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make HONDA; Model Civic Type R; ModelYear 2023; EngineModel K20C1. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C1"
+            ],
+            "applications": [
+              "Honda Civic Type R XI (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-k20c1-civic-type-r-xi-usa-2023-specification",
+          "title": "2023 Honda Civic Type R XI Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2023,
+          "url": "https://hondanews.com/en-US/releases/release-1503019bd8a757ea08267d79440f2de3-hottest-hot-hatch-brings-more-heat-all-new-honda-civic-type-r-adds-power-performance-and-swagger",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Touring: Inline-4, 2.0 L · 1,996 cc, 16-valve DOHC VTEC, direct injection, unleaded gasoline; 315 SAE net hp at 6500 rpm; 310 lb-ft at 2600-4000 rpm. One inline cylinder head with two cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic Type R XI (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-k20c1-civic-type-r-xi-usa-2023-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-k20c4-accord-x-usa-2018",
+    "code": "K20C4",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "2.0 L · 1,996 cc",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Accord X (2018 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Accord X (2018 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Accord X (2018 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Accord X (2018 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Accord X (2018 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 187.9,
+        "max": 187.9,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 370.1,
+        "max": 370.1,
+        "rpm": {
+          "min": 1500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-k20c4-accord-x-usa-2018-identity",
+        "batch11-honda-k20c4-accord-x-usa-2018-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Accord X (2018 United States model year)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-k20c4-accord-x-usa-2018-identity",
+          "title": "2018 Honda Accord X: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2018,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/1HGCV2F3*J?format=json&modelyear=2018",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make HONDA; Model Accord; ModelYear 2018; EngineModel K20C4. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C4"
+            ],
+            "applications": [
+              "Honda Accord X (2018 United States model year)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-k20c4-accord-x-usa-2018-specification",
+          "title": "2018 Honda Accord X Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2018,
+          "url": "https://hondanews.com/en-US/releases/release-05333a38042c488186870d08d4a26678-2018-accord-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Sport / EX-L / Touring 2.0T: Inline-4, 2.0 L · 1,996 cc, 16-valve DOHC VTEC, direct injection, unleaded gasoline; 252 SAE net hp at 6500 rpm; 273 lb-ft at 1500-4000 rpm. One inline cylinder head with two cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Torque cells print x1500-4000; x is a stray prefix, not an rpm interval boundary. Numeric boundaries are explicitly 1500 and 4000."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Accord X (2018 United States model year)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-k20c4-accord-x-usa-2018-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-k20c6-tlx-ii-usa-2023",
+    "code": "K20C6",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura TLX II (2023 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C6: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura TLX II (2023 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "K20C6: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura TLX II (2023 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "K20C6: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura TLX II (2023 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "K20C6: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura TLX II (2023 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 202.8,
+        "max": 202.8,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 379.6,
+        "max": 379.6,
+        "rpm": {
+          "min": 1600,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-k20c6-tlx-ii-usa-2023-identity",
+        "batch11-acura-k20c6-tlx-ii-usa-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura TLX II (2023 United States model year)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-k20c6-tlx-ii-usa-2023-identity",
+          "title": "2023 Acura TLX II: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2023,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/19UUB5F3*P?format=json&modelyear=2023",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA; Model TLX; ModelYear 2023; EngineModel K20C6. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C6"
+            ],
+            "applications": [
+              "Acura TLX II (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-k20c6-tlx-ii-usa-2023-specification",
+          "title": "2023 Acura TLX II Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2023,
+          "url": "https://acuranews.com/en-US/releases/release-907c81858bdfe231c1cc3d0f7016b0db-2023-acura-tlx-tlx-type-s-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Base / Technology / A-Spec / Advance 2.0 turbo: Inline-4, 2.0 L, 16-valve DOHC VTEC, direct injection, unleaded gasoline; 272 SAE net hp at 6500 rpm; 280 lb-ft at 1600-4500 rpm. One inline cylinder head with two cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura TLX II (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-k20c6-tlx-ii-usa-2023-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-j30ac-tlx-ii-type-s-usa-2023",
+    "code": "J30AC",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura TLX II Type S (2023 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "J30AC: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura TLX II Type S (2023 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "J30AC: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura TLX II Type S (2023 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "J30AC: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura TLX II Type S (2023 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "J30AC: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura TLX II Type S (2023 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 264.7,
+        "max": 264.7,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480,
+        "rpm": {
+          "min": 1400,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-j30ac-tlx-ii-type-s-usa-2023-identity",
+        "batch11-acura-j30ac-tlx-ii-type-s-usa-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura TLX II Type S (2023 United States model year)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-j30ac-tlx-ii-type-s-usa-2023-identity",
+          "title": "2023 Acura TLX II Type S: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2023,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/19UUB7F9*P?format=json&modelyear=2023",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA; Model TLX; ModelYear 2023; EngineModel J30AC. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "J30AC"
+            ],
+            "applications": [
+              "Acura TLX II Type S (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-j30ac-tlx-ii-type-s-usa-2023-specification",
+          "title": "2023 Acura TLX II Type S Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2023,
+          "url": "https://acuranews.com/en-US/releases/release-907c81858bdfe231c1cc3d0f7016b0db-2023-acura-tlx-tlx-type-s-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Type S / Type S Perf. Wheel / Type S PMC: V6, 3.0 L, 24-valve DOHC, direct injection, unleaded gasoline; 355 SAE net hp at 5500 rpm; 354 lb-ft at 1400-5000 rpm. Two cylinder heads with two cam(s) per head establishes 4 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura TLX II Type S (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-j30ac-tlx-ii-type-s-usa-2023-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-k20c4-rdx-iii-usa-2020",
+    "code": "K20C4",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura RDX III (2020 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura RDX III (2020 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura RDX III (2020 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura RDX III (2020 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "K20C4: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 2.0 L; Acura RDX III (2020 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 202.8,
+        "max": 202.8,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 379.6,
+        "max": 379.6,
+        "rpm": {
+          "min": 1600,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-k20c4-rdx-iii-usa-2020-identity",
+        "batch11-acura-k20c4-rdx-iii-usa-2020-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura RDX III (2020 United States model year)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-k20c4-rdx-iii-usa-2020-identity",
+          "title": "2020 Acura RDX III: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2020,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/5J8TC2H7*L?format=json&modelyear=2020",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA; Model RDX; ModelYear 2020; EngineModel K20C4. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C4"
+            ],
+            "applications": [
+              "Acura RDX III (2020 United States model year)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-k20c4-rdx-iii-usa-2020-specification",
+          "title": "2020 Acura RDX III Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2020,
+          "url": "https://www.acura.com/news-and-press/press-release-detail?article=10956-en",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, RDX / RDX SH-AWD: Inline-4, 2.0 L, 16-valve DOHC VTEC, direct injection, unleaded gasoline; 272 SAE net hp at 6500 rpm; 280 lb-ft at 1600-4500 rpm. One inline cylinder head with two cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura RDX III (2020 United States model year)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-k20c4-rdx-iii-usa-2020-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-j30ad-mdx-iv-type-s-usa-2022",
+    "code": "J30AD",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2022",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura MDX IV Type S (2022 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "J30AD: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura MDX IV Type S (2022 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "J30AD: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura MDX IV Type S (2022 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "J30AD: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura MDX IV Type S (2022 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "J30AD: V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Acura MDX IV Type S (2022 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 264.7,
+        "max": 264.7,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480,
+        "rpm": {
+          "min": 1400,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-j30ad-mdx-iv-type-s-usa-2022-identity",
+        "batch11-acura-j30ad-mdx-iv-type-s-usa-2022-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura MDX IV Type S (2022 United States model year)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-j30ad-mdx-iv-type-s-usa-2022-identity",
+          "title": "2022 Acura MDX IV Type S: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2022,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/5J8YD8H8*N?format=json&modelyear=2022",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA; Model MDX; ModelYear 2022; EngineModel J30AD. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "J30AD"
+            ],
+            "applications": [
+              "Acura MDX IV Type S (2022 United States model year)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-j30ad-mdx-iv-type-s-usa-2022-specification",
+          "title": "2022 Acura MDX IV Type S Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2022,
+          "url": "https://acuranews.com/en-US/releases/release-b7c602e7f6feb65d30b129b0f61adb7c-2022-acura-mdx-type-s-press-kit",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Type S / Type S with Advance: V6, 3.0 L, 24-valve DOHC, direct injection, unleaded gasoline; 355 SAE net hp at 5500 rpm; 354 lb-ft at 1400-5000 rpm. Two cylinder heads with two cam(s) per head establishes 4 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura MDX IV Type S (2022 United States model year)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-j30ad-mdx-iv-type-s-usa-2022-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-j35y5-mdx-iii-usa-2018",
+    "code": "J35Y5",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "3.5 L",
+    "layout": "V6 · SOHC i-VTEC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura MDX III (2018 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "J35Y5: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L; Acura MDX III (2018 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "J35Y5: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L; Acura MDX III (2018 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "J35Y5: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L; Acura MDX III (2018 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "J35Y5: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L; Acura MDX III (2018 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 216.3,
+        "max": 216.3,
+        "rpm": {
+          "min": 6200,
+          "max": 6200
+        }
+      },
+      "torqueNm": {
+        "min": 362,
+        "max": 362,
+        "rpm": {
+          "min": 4700,
+          "max": 4700
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-j35y5-mdx-iii-usa-2018-identity",
+        "batch11-acura-j35y5-mdx-iii-usa-2018-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura MDX III (2018 United States model year)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-j35y5-mdx-iii-usa-2018-identity",
+          "title": "2018 Acura MDX III: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2018,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/5J8YD3H3*J?format=json&modelyear=2018",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA; Model MDX; ModelYear 2018; EngineModel J35Y5. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly No; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "J35Y5"
+            ],
+            "applications": [
+              "Acura MDX III (2018 United States model year)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-j35y5-mdx-iii-usa-2018-specification",
+          "title": "2018 Acura MDX III Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2018,
+          "url": "https://www.acura.com/news-and-press/press-release-detail?article=10105-en",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, MDX / MDX SH-AWD (exclude Sport Hybrid): V6, 3.5 L, 24-valve SOHC i-VTEC, direct injection, unleaded gasoline; 290 SAE net hp at 6200 rpm; 267 lb-ft at 4700-4700 rpm. Two cylinder heads with one cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura MDX III (2018 United States model year)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-j35y5-mdx-iii-usa-2018-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-j35y6-pilot-iii-usa-2020",
+    "code": "J35Y6",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "3.5 L · 3,471 cc",
+    "layout": "V6 · SOHC i-VTEC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Pilot III (2020 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "J35Y6: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Pilot III (2020 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "J35Y6: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Pilot III (2020 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "J35Y6: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Pilot III (2020 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "J35Y6: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Pilot III (2020 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 208.8,
+        "max": 208.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 355.2,
+        "max": 355.2,
+        "rpm": {
+          "min": 4700,
+          "max": 4700
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-j35y6-pilot-iii-usa-2020-construction",
+        "batch11-honda-j35y6-pilot-iii-usa-2020-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Pilot III (2020 United States model year)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-j35y6-pilot-iii-usa-2020-construction",
+          "title": "2020MY Honda Pilot Part 565 model codes and engine characteristics",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2020,
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/4d330283-321c-4c55-8b40-864bc5346a77",
+          "page": 6,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "layout"
+          ],
+          "pageNotes": [
+            "PDF page 6: 2020MY HONDA PILOT Model Codes, all listed YF5/YF6 rows J35Y6. Page 7: J35Y6 characteristics rows 2 Gasoline, 4 V-Shape, 5 six cylinders, 10 SOHC, 11 Turbocharged or not: Not Applicable, 13 Direct Fuel Injection. Both pages visually reviewed. Rounded 3.5(L) is not used for exact displacement.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "J35Y6"
+            ],
+            "applications": [
+              "Honda Pilot III (2020 United States model year)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-j35y6-pilot-iii-usa-2020-specification",
+          "title": "2020 Honda Pilot III Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2020,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-84197a508e1244bda90703a9fe913733-2020-honda-pilot-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, All trims, exclude other model years: V6, 3.5 L · 3,471 cc, 24-valve SOHC i-VTEC, direct injection, unleaded gasoline; 280 SAE net hp at 6000 rpm; 262 lb-ft at 4700-4700 rpm. Two cylinder heads with one cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Pilot III (2020 United States model year)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-j35y6-pilot-iii-usa-2020-construction"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-l15ca-integra-v-usa-2023",
+    "code": "L15CA",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura Integra V (2023 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L; Acura Integra V (2023 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+      },
+      "es": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L; Acura Integra V (2023 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L; Acura Integra V (2023 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "L15CA: Inline-4 · DOHC VTEC · 16 valves · 2 camshafts total, 1.5 L; Acura Integra V (2023 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 149.1,
+        "max": 149.1,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 260.3,
+        "max": 260.3,
+        "rpm": {
+          "min": 1800,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-l15ca-integra-v-usa-2023-identity",
+        "batch11-acura-l15ca-integra-v-usa-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura Integra V (2023 United States model year)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-l15ca-integra-v-usa-2023-identity",
+          "title": "2023 Acura Integra V: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2023,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/19UDE4H2*P?format=json&modelyear=2023",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA; Model Integra; ModelYear 2023; EngineModel L15CA. Manufacturer model-code pattern with explicit model-year character, not an individual owner's VIN. ErrorCode 6 means intentionally incomplete VIN; no correction, multiple-match or decode errors accepted. Engine identity comes from published manufacturer Part 565 submissions; United States regulatory application.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal.",
+            "Turbo explicitly Yes; no aspiration inference from an empty cell."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "L15CA"
+            ],
+            "applications": [
+              "Acura Integra V (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-l15ca-integra-v-usa-2023-specification",
+          "title": "2023 Acura Integra V Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2023,
+          "url": "https://acuranews.com/en-US/releases/2023-integra-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Engine/Power Unit and Fuel tables, Integra / A-Spec / A-Spec Technology, equal CVT and MT calibrations: Inline-4, 1.5 L, 16-valve DOHC VTEC, direct injection, unleaded gasoline; 200 SAE net hp at 6000 rpm; 192 lb-ft at 1800-5000 rpm. One inline cylinder head with two cam(s) per head establishes 2 total camshafts. Exact model-year application binds directly to the accepted Part 565 identity source.",
+            "Only the cited U.S. model-year specification. Equal trims, drive systems, transmissions and body calibrations consolidated; no inference of a multi-year unchanged interval. Manufacturer publishes displacement in liters only; no fabricated exact cc. SAE hp/lb-ft converted to kW/Nm to one decimal."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura Integra V (2023 United States model year)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-l15ca-integra-v-usa-2023-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-jnc1-nsx-ii-usa-2017",
+    "code": "JNC1",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "3.5 L · 3,493 cc",
+    "layout": "V6 · DOHC VTC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura NSX II (2017 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II (2017 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "ICE engine output only; combined hybrid system power and torque excluded. U.S. documented model-year snapshot; no transfer to Japan/Canada. Type S is a materially revised engine calibration with GT3-derived turbochargers and revised injectors/intercoolers, rather than a trim-only split. Sport Hybrid power-unit development was centered in Tochigi, Japan, per the official 2017 Technical Introduction."
+      },
+      "es": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II (2017 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II (2017 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II (2017 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 372.8,
+        "max": 372.8,
+        "rpm": {
+          "min": 6500,
+          "max": 7500
+        }
+      },
+      "torqueNm": {
+        "min": 550.5,
+        "max": 550.5,
+        "rpm": {
+          "min": 2000,
+          "max": 6000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-jnc1-nsx-ii-usa-2017-identity",
+        "batch11-acura-jnc1-nsx-ii-usa-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura NSX II (2017 United States model year)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-jnc1-nsx-ii-usa-2017-identity",
+          "title": "2017 Acura NSX: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2017,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/19UNC1B0*H?format=json&modelyear=2017",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey",
+            "fuelKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA, Model NSX, ModelYear 2017, EngineModel JNC1, Turbo Yes; intentional incomplete model-code pattern ErrorCode 6, no ambiguous/corrected result.  Results[0] FuelTypePrimary Gasoline and ElectrificationLevel Strong HEV (Hybrid Electric Vehicle) explicitly establish petrolHybrid.",
+            "ICE engine output only; combined hybrid system power and torque excluded. U.S. documented model-year snapshot; no transfer to Japan/Canada. Type S is a materially revised engine calibration with GT3-derived turbochargers and revised injectors/intercoolers, rather than a trim-only split. Sport Hybrid power-unit development was centered in Tochigi, Japan, per the official 2017 Technical Introduction."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JNC1"
+            ],
+            "applications": [
+              "Acura NSX II (2017 United States model year)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-jnc1-nsx-ii-usa-2017-specification",
+          "title": "2017 Acura NSX II Technical Specifications",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2017,
+          "url": "https://www.acura.com/news-and-press/press-release-detail?article=8723-en",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "ENGINE table (not POWER UNIT total): 3493 cc twin-turbo DOHC V6, 24 valves, direct and port injection, 500 hp at 6500-7500 rpm, 406 lb-ft at 2000-6000 rpm. DOHC on two heads establishes four total cams. Gasoline engine in Sport Hybrid power unit; performance converted from ICE hp/lb-ft only.",
+            "ICE engine output only; combined hybrid system power and torque excluded. U.S. documented model-year snapshot; no transfer to Japan/Canada. Type S is a materially revised engine calibration with GT3-derived turbochargers and revised injectors/intercoolers, rather than a trim-only split. Sport Hybrid power-unit development was centered in Tochigi, Japan, per the official 2017 Technical Introduction."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura NSX II (2017 United States model year)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-jnc1-nsx-ii-usa-2017-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-acura-jnc1-nsx-ii-type-s-usa-2022",
+    "code": "JNC1",
+    "aliases": [],
+    "maker": "Acura",
+    "regionKey": "japan",
+    "years": "2022",
+    "displacement": "3.5 L · 3,493 cc",
+    "layout": "V6 · DOHC VTC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrolHybrid",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "dualInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Acura NSX II Type S (2022 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II Type S (2022 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "ICE engine output only; combined hybrid system power and torque excluded. U.S. documented model-year snapshot; no transfer to Japan/Canada. Type S is a materially revised engine calibration with GT3-derived turbochargers and revised injectors/intercoolers, rather than a trim-only split. Sport Hybrid power-unit development was centered in Tochigi, Japan, per the official 2017 Technical Introduction."
+      },
+      "es": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II Type S (2022 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II Type S (2022 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "JNC1: V6 · DOHC VTC · 24 valves · 4 camshafts total, 3.5 L · 3,493 cc; Acura NSX II Type S (2022 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 387.8,
+        "max": 387.8,
+        "rpm": {
+          "min": 6500,
+          "max": 6850
+        }
+      },
+      "torqueNm": {
+        "min": 600.6,
+        "max": 600.6,
+        "rpm": {
+          "min": 2300,
+          "max": 6000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-acura-jnc1-nsx-ii-type-s-usa-2022-identity",
+        "batch11-acura-jnc1-nsx-ii-type-s-usa-2022-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Acura NSX II Type S (2022 United States model year)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-acura-jnc1-nsx-ii-type-s-usa-2022-identity",
+          "title": "2022 Acura NSX: manufacturer Part 565 identity via NHTSA vPIC",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2022,
+          "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/19UNC1B0*N?format=json&modelyear=2022",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "aspirationKey",
+            "fuelKey"
+          ],
+          "pageNotes": [
+            "Results[0]: Make ACURA, Model NSX, ModelYear 2022, EngineModel JNC1, Turbo Yes; intentional incomplete model-code pattern ErrorCode 6, no ambiguous/corrected result. The official 2022 launch states every 2022 NSX is Type S; the API year therefore binds that exact production variant. Results[0] FuelTypePrimary Gasoline and ElectrificationLevel Strong HEV (Hybrid Electric Vehicle) explicitly establish petrolHybrid.",
+            "ICE engine output only; combined hybrid system power and torque excluded. U.S. documented model-year snapshot; no transfer to Japan/Canada. Type S is a materially revised engine calibration with GT3-derived turbochargers and revised injectors/intercoolers, rather than a trim-only split. Sport Hybrid power-unit development was centered in Tochigi, Japan, per the official 2017 Technical Introduction."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JNC1"
+            ],
+            "applications": [
+              "Acura NSX II Type S (2022 United States model year)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-acura-jnc1-nsx-ii-type-s-usa-2022-specification",
+          "title": "2022 Acura NSX II Type S Technical Specifications",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2022,
+          "url": "https://acuranews.com/en-US/releases/2022-acura-nsx-revealed-at-monterey-car-week",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "ENGINE table (not POWER UNIT total): 3493 cc twin-turbo DOHC V6, 24 valves, direct and port injection, 520 hp at 6500-6850 rpm, 443 lb-ft at 2300-6000 rpm. DOHC on two heads establishes four total cams. Gasoline engine in Sport Hybrid power unit; performance converted from ICE hp/lb-ft only.",
+            "ICE engine output only; combined hybrid system power and torque excluded. U.S. documented model-year snapshot; no transfer to Japan/Canada. Type S is a materially revised engine calibration with GT3-derived turbochargers and revised injectors/intercoolers, rather than a trim-only split. Sport Hybrid power-unit development was centered in Tochigi, Japan, per the official 2017 Technical Introduction."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Acura NSX II Type S (2022 United States model year)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-acura-jnc1-nsx-ii-type-s-usa-2022-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-k20c2-civic-x-usa-2019",
+    "code": "K20C2",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "2.0 L · 1,996 cc",
+    "layout": "Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic X (2019 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K20C2: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic X (2019 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "U.S. documented model-year snapshot only. Equal trims and transmissions consolidated; no body-only or annual split. No inference from blank turbo fields; the Part 565 engine characteristics explicitly state Turbocharged or not: Not Applicable."
+      },
+      "es": {
+        "construction": "K20C2: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic X (2019 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "K20C2: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic X (2019 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "K20C2: Inline-4 · DOHC i-VTEC · 16 valves · 2 camshafts total, 2.0 L · 1,996 cc; Honda Civic X (2019 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 117.8,
+        "max": 117.8,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 187.1,
+        "max": 187.1,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-k20c2-civic-x-usa-2019-identity",
+        "batch11-honda-k20c2-civic-x-usa-2019-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic X (2019 United States model year)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-k20c2-civic-x-usa-2019-identity",
+          "title": "2019MY Honda Civic Part 565 model codes and engine characteristics",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2019,
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/d915bb55-0977-4892-a634-88eb0d11b59b",
+          "page": 6,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "layout"
+          ],
+          "pageNotes": [
+            "PDF page 6: 2019MY HONDA CIVIC Model Codes, FC2E6/FC2E8/FC2F6/FC2F8 LX and Sport rows explicitly code K20C2. Page 8: Engine Characteristics column K20C2, Gasoline, Inline-4, DOHC, Turbocharged or not: Not Applicable; Sequential Multiport Fuel Injection. Both cited pages visually reviewed.",
+            "U.S. documented model-year snapshot only. Equal trims and transmissions consolidated; no body-only or annual split. No inference from blank turbo fields; the Part 565 engine characteristics explicitly state Turbocharged or not: Not Applicable."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K20C2"
+            ],
+            "applications": [
+              "Honda Civic X (2019 United States model year)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-k20c2-civic-x-usa-2019-specification",
+          "title": "2019 Honda Civic Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2019,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-5a7e83c266f34585a5e78065ed827628-2019-civic-sedan-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "ENGINEERING table, LX / Sport 2.0-liter columns, exclude 1.5 turbo: 1996 cc Inline-4, 16-valve DOHC i-VTEC, Multi-Point injection, regular unleaded; 158 SAE hp at 6500 rpm, 138 lb-ft at 4200 rpm. 2 total cams from DOHC on one inline head.",
+            "U.S. documented model-year snapshot only. Equal trims and transmissions consolidated; no body-only or annual split. No inference from blank turbo fields; the Part 565 engine characteristics explicitly state Turbocharged or not: Not Applicable."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic X (2019 United States model year)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-k20c2-civic-x-usa-2019-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-honda-j35y7-odyssey-v-usa-2020",
+    "code": "J35Y7",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "3.5 L · 3,471 cc",
+    "layout": "V6 · SOHC i-VTEC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Odyssey V (2020 United States model year)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "J35Y7: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Odyssey V (2020 United States model year).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "U.S. documented model-year snapshot only. Equal trims and transmissions consolidated; no body-only or annual split. No inference from blank turbo fields; the Part 565 engine characteristics explicitly state Turbocharged or not: Not Applicable."
+      },
+      "es": {
+        "construction": "J35Y7: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Odyssey V (2020 United States model year).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "J35Y7: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Odyssey V (2020 United States model year).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "J35Y7: V6 · SOHC i-VTEC · 24 valves · 2 camshafts total, 3.5 L · 3,471 cc; Honda Odyssey V (2020 United States model year).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 208.8,
+        "max": 208.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 355.2,
+        "max": 355.2,
+        "rpm": {
+          "min": 4700,
+          "max": 4700
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-honda-j35y7-odyssey-v-usa-2020-identity",
+        "batch11-honda-j35y7-odyssey-v-usa-2020-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Odyssey V (2020 United States model year)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "United States"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-honda-j35y7-odyssey-v-usa-2020-identity",
+          "title": "2020MY Honda Odyssey Part 565 model codes and engine characteristics",
+          "publisher": "National Highway Traffic Safety Administration",
+          "year": 2020,
+          "url": "https://vpic.nhtsa.dot.gov/mid/home/displayfile/0bb0664c-27e7-4c6c-ba9c-d417fa391a25",
+          "page": 6,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "layout"
+          ],
+          "pageNotes": [
+            "PDF page 6: 2020MY HONDA ODYSSEY Model Codes, RL6H2/RL6H5/RL6H7/RL6H8/RL6H9 rows explicitly code J35Y7. Page 7: Engine Characteristics column J35Y7, Gasoline, V6, SOHC, Turbocharged or not: Not Applicable; Direct Fuel Injection. Both cited pages visually reviewed.",
+            "U.S. documented model-year snapshot only. Equal trims and transmissions consolidated; no body-only or annual split. No inference from blank turbo fields; the Part 565 engine characteristics explicitly state Turbocharged or not: Not Applicable."
+          ],
+          "type": "certificationDocument",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "J35Y7"
+            ],
+            "applications": [
+              "Honda Odyssey V (2020 United States model year)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          }
+        },
+        {
+          "id": "batch11-honda-j35y7-odyssey-v-usa-2020-specification",
+          "title": "2020 Honda Odyssey Specifications & Features",
+          "publisher": "American Honda Motor Co., Inc.",
+          "year": 2020,
+          "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-9e8b2314c9704a67adfbbe1babe53729-2020-honda-odyssey-specifications-features",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "ENGINEERING table, all trim columns: 3471 cc V6, 24-valve SOHC i-VTEC, Direct injection, regular unleaded; 280 SAE hp at 6000 rpm, 262 lb-ft at 4700 rpm. 2 total cams from one SOHC cam on each of two heads.",
+            "U.S. documented model-year snapshot only. Equal trims and transmissions consolidated; no body-only or annual split. No inference from blank turbo fields; the Part 565 engine characteristics explicitly state Turbocharged or not: Not Applicable."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Odyssey V (2020 United States model year)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "United States"
+            ]
+          },
+          "identityBindingRef": "batch11-honda-j35y7-odyssey-v-usa-2020-identity"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-en07-r1-japan-2005",
+    "code": "EN07",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2005",
+    "displacement": "0.7 L · 658 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2005 Japan R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on one inline head establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 40,
+        "max": 40,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 63,
+        "max": 63,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-en07-r1-japan-2005-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-en07-r1-japan-2005-specification",
+          "title": "SUBARU SUGDAS R1 R, 2005",
+          "publisher": "Subaru Corporation",
+          "year": 2005,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10025457",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10025457, 2005 R title and エンジン・燃料系 rows: エンジン型式 EN07; 直列4気筒DOHC16バルブ; 658cc; 54ps(40kW)/6400rpm; 6.4kg・m(63N・m)/4400rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 2 total camshafts.",
+            "2005 Japan R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on one inline head establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EN07"
+            ],
+            "applications": [
+              "Subaru R1 RJ1/RJ2 (Japan, 2005 documented specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-en07-r2-r-japan-2003",
+    "code": "EN07",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2003",
+    "displacement": "0.7 L · 658 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru R2 RC1/RC2 (Japan, 2003 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2003 Japan R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on one inline head establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 40,
+        "max": 40,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 63,
+        "max": 63,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-en07-r2-r-japan-2003-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru R2 RC1/RC2 (Japan, 2003 documented specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-en07-r2-r-japan-2003-specification",
+          "title": "SUBARU SUGDAS R2 R, 2003",
+          "publisher": "Subaru Corporation",
+          "year": 2003,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10014704",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10014704, 2003 R title and エンジン・燃料系 rows: エンジン型式 EN07; 直列4気筒DOHC16バルブ; 658cc; 54ps(40kW)/6400rpm; 6.4kg・m(63N・m)/4400rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 2 total camshafts.",
+            "2003 Japan R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on one inline head establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EN07"
+            ],
+            "applications": [
+              "Subaru R2 RC1/RC2 (Japan, 2003 documented specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-en07-r2-s-japan-2003",
+    "code": "EN07",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2003",
+    "displacement": "0.7 L · 658 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru R2 RC1/RC2 (Japan, 2003 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2003 Japan S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on one inline head establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EN07: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 658 cc; Subaru R2 RC1/RC2 (Japan, 2003 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-en07-r2-s-japan-2003-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru R2 RC1/RC2 (Japan, 2003 documented specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-en07-r2-s-japan-2003-specification",
+          "title": "SUBARU SUGDAS R2 S, 2003",
+          "publisher": "Subaru Corporation",
+          "year": 2003,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10014708",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10014708, 2003 S title and エンジン・燃料系 rows: エンジン型式 EN07; 直列4気筒DOHC16バルブICSチャージャー; 658cc; 64ps(47kW)/6000rpm; 10.5kg・m(103N・m)/3200rpm; 過給機 Ｓチャージャー; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 2 total camshafts.",
+            "2003 Japan S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on one inline head establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EN07"
+            ],
+            "applications": [
+              "Subaru R2 RC1/RC2 (Japan, 2003 documented specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-el15-impreza-iii-japan-2007",
+    "code": "EL15",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2007",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EL15: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 1.5 L · 1,498 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2007 Japan 15S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EL15: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 1.5 L · 1,498 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EL15: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 1.5 L · 1,498 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EL15: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 1.5 L · 1,498 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 144,
+        "max": 144,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-el15-impreza-iii-japan-2007-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-el15-impreza-iii-japan-2007-specification",
+          "title": "SUBARU SUGDAS Impreza 15S, 2007",
+          "publisher": "Subaru Corporation",
+          "year": 2007,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10041240",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10041240, 2007 15S title and エンジン・燃料系 rows: エンジン型式 EL15; 水平対向4気筒DOHC16バルブ; 1498cc; 110ps(81kW)/6400rpm; 14.7kg・m(144N・m)/3200rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2007 Japan 15S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EL15"
+            ],
+            "applications": [
+              "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej15-impreza-i-japan-1992",
+    "code": "EJ15",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "1.5 L · 1,493 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1992 Japan CX calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 71,
+        "max": 71,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 129.4,
+        "max": 129.4,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej15-impreza-i-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej15-impreza-i-japan-1992-specification",
+          "title": "SUBARU SUGDAS Impreza CX, 1992",
+          "publisher": "Subaru Corporation",
+          "year": 1992,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501183",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501183, 1992 CX title and エンジン・燃料系 rows: エンジン型式 EJ15; 水平対向4気筒SOHC16バルブ; 1493cc; 97ps(71kW)/6000rpm; 13.2kg・m(129.4N・m)/4500rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "1992 Japan CX calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ15"
+            ],
+            "applications": [
+              "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej16-impreza-i-japan-1992",
+    "code": "EJ16",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "1.6 L · 1,597 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ16: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1992 Japan CS calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ16: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ16: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ16: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.6 L · 1,597 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 138.3,
+        "max": 138.3,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej16-impreza-i-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej16-impreza-i-japan-1992-specification",
+          "title": "SUBARU SUGDAS Impreza CS, 1992",
+          "publisher": "Subaru Corporation",
+          "year": 1992,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501178",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501178, 1992 CS title and エンジン・燃料系 rows: エンジン型式 EJ16; 水平対向4気筒SOHC16バルブ; 1597cc; 100ps(74kW)/6000rpm; 14.1kg・m(138.3N・m)/4500rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "1992 Japan CS calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ16"
+            ],
+            "applications": [
+              "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej18-impreza-i-japan-1992",
+    "code": "EJ18",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "1.8 L · 1,820 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ18: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.8 L · 1,820 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1992 Japan HX Edition-S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ18: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.8 L · 1,820 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ18: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.8 L · 1,820 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ18: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.8 L · 1,820 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 154,
+        "max": 154,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej18-impreza-i-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej18-impreza-i-japan-1992-specification",
+          "title": "SUBARU SUGDAS Impreza HX Edition-S, 1992",
+          "publisher": "Subaru Corporation",
+          "year": 1992,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501192",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501192, 1992 HX Edition-S title and エンジン・燃料系 rows: エンジン型式 EJ18; 水平対向4気筒SOHC16バルブ; 1820cc; 115ps(85kW)/6000rpm; 15.7kg・m(154.0N・m)/4500rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "1992 Japan HX Edition-S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ18"
+            ],
+            "applications": [
+              "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-wrx-sti-va-japan-2014",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2014",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru WRX STI VA (Japan, 2014 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru WRX STI VA (Japan, 2014 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2014 Japan STI Type S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru WRX STI VA (Japan, 2014 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru WRX STI VA (Japan, 2014 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru WRX STI VA (Japan, 2014 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 227,
+        "max": 227,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 422,
+        "max": 422,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-wrx-sti-va-japan-2014-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru WRX STI VA (Japan, 2014 documented specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-wrx-sti-va-japan-2014-specification",
+          "title": "SUBARU SUGDAS WRX STI STI Type S, 2014",
+          "publisher": "Subaru Corporation",
+          "year": 2014,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10092475",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10092475, 2014 STI Type S title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 308ps(227kW)/6400rpm; 43.0kg・m(422N・m)/4400rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2014 Japan STI Type S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru WRX STI VA (Japan, 2014 documented specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-exiga-na-japan-2008",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2008",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Exiga YA (Japan, 2008 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2008 Japan 2.0i-S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 109,
+        "max": 109,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 191,
+        "max": 191,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-exiga-na-japan-2008-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Exiga YA (Japan, 2008 documented specification)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-exiga-na-japan-2008-specification",
+          "title": "SUBARU SUGDAS Exiga 2.0i-S, 2008",
+          "publisher": "Subaru Corporation",
+          "year": 2008,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10048794",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10048794, 2008 2.0i-S title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブ; 1994cc; 148ps(109kW)/6000rpm; 19.5kg・m(191N・m)/3200rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2008 Japan 2.0i-S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Exiga YA (Japan, 2008 documented specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-exiga-turbo-japan-2008",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2008",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Exiga YA (Japan, 2008 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2008 Japan 2.0GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Exiga YA (Japan, 2008 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 165,
+        "max": 165,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 326,
+        "max": 326,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-exiga-turbo-japan-2008-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Exiga YA (Japan, 2008 documented specification)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-exiga-turbo-japan-2008-specification",
+          "title": "SUBARU SUGDAS Exiga 2.0GT, 2008",
+          "publisher": "Subaru Corporation",
+          "year": 2008,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10048792",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10048792, 2008 2.0GT title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 225ps(165kW)/5600rpm; 33.2kg・m(326N・m)/4400rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2008 Japan 2.0GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Exiga YA (Japan, 2008 documented specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-iii-na-japan-2007",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2007",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2007 Japan 20S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 186,
+        "max": 186,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-impreza-iii-na-japan-2007-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-impreza-iii-na-japan-2007-specification",
+          "title": "SUBARU SUGDAS Impreza 20S, 2007",
+          "publisher": "Subaru Corporation",
+          "year": 2007,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10041242",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10041242, 2007 20S title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒SOHC16バルブ; 1994cc; 140ps(103kW)/5600rpm; 19.0kg・m(186N・m)/4400rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "2007 Japan 20S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-iii-turbo-japan-2007",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2007",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2007 Japan S-GT Sport Package calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza III (GH) (Japan, 2007 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 184,
+        "max": 184,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 333,
+        "max": 333,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-impreza-iii-turbo-japan-2007-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-impreza-iii-turbo-japan-2007-specification",
+          "title": "SUBARU SUGDAS Impreza S-GT Sport Package, 2007",
+          "publisher": "Subaru Corporation",
+          "year": 2007,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10041243",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10041243, 2007 S-GT Sport Package title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブターボ; 1994cc; 250ps(184kW)/6000rpm; 34.0kg・m(333N・m)/2400rpm; 過給機 ターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2007 Japan S-GT Sport Package calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Impreza III (GH) (Japan, 2007 documented specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-wrx-ii-na-japan-2000",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2000",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza WRX II (GD) (Japan, 2000 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2000 Japan NA calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-impreza-wrx-ii-na-japan-2000-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza WRX II (GD) (Japan, 2000 documented specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-impreza-wrx-ii-na-japan-2000-specification",
+          "title": "SUBARU SUGDAS Impreza WRX NA, 2000",
+          "publisher": "Subaru Corporation",
+          "year": 2000,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502233",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502233, 2000 NA title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブ; 1994cc; 155ps(114kW)/6400rpm; 20.0kg・m(196N・m)/3200rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2000 Japan NA calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Impreza WRX II (GD) (Japan, 2000 documented specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-wrx-ii-turbo-japan-2000",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2000",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza WRX II (GD) (Japan, 2000 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2000 Japan NB calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza WRX II (GD) (Japan, 2000 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 184,
+        "max": 184,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 333,
+        "max": 333,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-impreza-wrx-ii-turbo-japan-2000-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza WRX II (GD) (Japan, 2000 documented specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-impreza-wrx-ii-turbo-japan-2000-specification",
+          "title": "SUBARU SUGDAS Impreza WRX NB, 2000",
+          "publisher": "Subaru Corporation",
+          "year": 2000,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502243",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502243, 2000 NB title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 250ps(184kW)/6000rpm; 34.0kg・m(333N・m)/3600rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2000 Japan NB calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Impreza WRX II (GD) (Japan, 2000 documented specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-b4-iii-twin-turbo-japan-1998",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1998",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy B4 III (BE) (Japan, 1998 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 III (BE) (Japan, 1998 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1998 Japan RSK calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 III (BE) (Japan, 1998 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 III (BE) (Japan, 1998 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 III (BE) (Japan, 1998 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 206,
+        "max": 206,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 343.2,
+        "max": 343.2,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-b4-iii-twin-turbo-japan-1998-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy B4 III (BE) (Japan, 1998 documented specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-b4-iii-twin-turbo-japan-1998-specification",
+          "title": "SUBARU SUGDAS Legacy B4 RSK, 1998",
+          "publisher": "Subaru Corporation",
+          "year": 1998,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501474",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501474, 1998 RSK title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブツインターボ; 1994cc; 280ps(206kW)/6500rpm; 35.0kg・m(343.2N・m)/5000rpm; 過給機 ツインターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "1998 Japan RSK calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy B4 III (BE) (Japan, 1998 documented specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-b4-iv-na-japan-2003",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2003",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2003 Japan 2.0i calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 186,
+        "max": 186,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-b4-iv-na-japan-2003-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-b4-iv-na-japan-2003-specification",
+          "title": "SUBARU SUGDAS Legacy B4 2.0i, 2003",
+          "publisher": "Subaru Corporation",
+          "year": 2003,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10004579",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10004579, 2003 2.0i title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒SOHC16バルブ; 1994cc; 140ps(103kW)/5600rpm; 19.0kg・m(186N・m)/4400rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "2003 Japan 2.0i calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-b4-iv-turbo-japan-2003",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2003",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2003 Japan 2.0GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 191,
+        "max": 191,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 343,
+        "max": 343,
+        "rpm": {
+          "min": 2400,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-b4-iv-turbo-japan-2003-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-b4-iv-turbo-japan-2003-specification",
+          "title": "SUBARU SUGDAS Legacy B4 2.0GT, 2003",
+          "publisher": "Subaru Corporation",
+          "year": 2003,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10004573",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10004573, 2003 2.0GT title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブターボ; 1994cc; 260ps(191kW)/6000rpm; 35.0kg・m(343N・m)/2400rpm; 過給機 ターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2003 Japan 2.0GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-i-turbo-japan-1997",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1997",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Forester I (SF) (Japan, 1997 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester I (SF) (Japan, 1997 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1997 Japan T/tb calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester I (SF) (Japan, 1997 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester I (SF) (Japan, 1997 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester I (SF) (Japan, 1997 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 184,
+        "max": 184,
+        "rpm": {
+          "min": 6250,
+          "max": 6250
+        }
+      },
+      "torqueNm": {
+        "min": 306,
+        "max": 306,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-forester-i-turbo-japan-1997-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Forester I (SF) (Japan, 1997 documented specification)"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-forester-i-turbo-japan-1997-specification",
+          "title": "SUBARU SUGDAS Forester T/tb, 1997",
+          "publisher": "Subaru Corporation",
+          "year": 1997,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501802",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501802, 1997 T/tb title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 250ps(184kW)/6250rpm; 31.2kg・m(306.0N・m)/4000rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "1997 Japan T/tb calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Forester I (SF) (Japan, 1997 documented specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-ii-na-japan-2002",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2002",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Forester II (SG) (Japan, 2002 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2002 Japan X20 calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 101,
+        "max": 101,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 186,
+        "max": 186,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-forester-ii-na-japan-2002-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Forester II (SG) (Japan, 2002 documented specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-forester-ii-na-japan-2002-specification",
+          "title": "SUBARU SUGDAS Forester X20, 2002",
+          "publisher": "Subaru Corporation",
+          "year": 2002,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502594",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502594, 2002 X20 title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒SOHC16バルブ; 1994cc; 137ps(101kW)/5600rpm; 19.0kg・m(186N・m)/3200rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "2002 Japan X20 calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Forester II (SG) (Japan, 2002 documented specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-ii-turbo-japan-2002",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2002",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Forester II (SG) (Japan, 2002 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2002 Japan XT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester II (SG) (Japan, 2002 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 309,
+        "max": 309,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-forester-ii-turbo-japan-2002-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Forester II (SG) (Japan, 2002 documented specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-forester-ii-turbo-japan-2002-specification",
+          "title": "SUBARU SUGDAS Forester XT, 2002",
+          "publisher": "Subaru Corporation",
+          "year": 2002,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502592",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502592, 2002 XT title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 220ps(162kW)/5500rpm; 31.5kg・m(309N・m)/3500rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2002 Japan XT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Forester II (SG) (Japan, 2002 documented specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-iii-na-japan-2007",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2007",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Forester III (SH) (Japan, 2007 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2007 Japan 2.0XS calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 109,
+        "max": 109,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 191,
+        "max": 191,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-forester-iii-na-japan-2007-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Forester III (SH) (Japan, 2007 documented specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-forester-iii-na-japan-2007-specification",
+          "title": "SUBARU SUGDAS Forester 2.0XS, 2007",
+          "publisher": "Subaru Corporation",
+          "year": 2007,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10045168",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10045168, 2007 2.0XS title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブ; 1994cc; 148ps(109kW)/6000rpm; 19.5kg・m(191N・m)/3200rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2007 Japan 2.0XS calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Forester III (SH) (Japan, 2007 documented specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-iii-turbo-japan-2007",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2007",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Forester III (SH) (Japan, 2007 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2007 Japan 2.0XT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Forester III (SH) (Japan, 2007 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 169,
+        "max": 169,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 319,
+        "max": 319,
+        "rpm": {
+          "min": 2800,
+          "max": 2800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-forester-iii-turbo-japan-2007-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Forester III (SH) (Japan, 2007 documented specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-forester-iii-turbo-japan-2007-specification",
+          "title": "SUBARU SUGDAS Forester 2.0XT, 2007",
+          "publisher": "Subaru Corporation",
+          "year": 2007,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10045169",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10045169, 2007 2.0XT title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 230ps(169kW)/5600rpm; 32.5kg・m(319N・m)/2800rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2007 Japan 2.0XT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Forester III (SH) (Japan, 2007 documented specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-i-wrx-ra-japan-1992",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1992 Japan WRX Type RA calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Impreza I (GC) (Japan, 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 177,
+        "max": 177,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 304,
+        "max": 304,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-impreza-i-wrx-ra-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-impreza-i-wrx-ra-japan-1992-specification",
+          "title": "SUBARU SUGDAS Impreza WRX Type RA, 1992",
+          "publisher": "Subaru Corporation",
+          "year": 1992,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501155",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501155, 1992 WRX Type RA title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 240ps(177kW)/6000rpm; 31.0kg・m(304.0N・m)/5000rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "1992 Japan WRX Type RA calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Impreza I (GC) (Japan, 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej15-impreza-wagon-ii-japan-2000",
+    "code": "EJ15",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2000",
+    "displacement": "1.5 L · 1,493 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2000 Japan I’s Sport calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ15: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 1.5 L · 1,493 cc; Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74,
+        "rpm": {
+          "min": 5200,
+          "max": 5200
+        }
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej15-impreza-wagon-ii-japan-2000-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej15-impreza-wagon-ii-japan-2000-specification",
+          "title": "SUBARU SUGDAS Impreza Sports Wagon I’s Sport, 2000",
+          "publisher": "Subaru Corporation",
+          "year": 2000,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502239",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502239, 2000 I’s Sport title and エンジン・燃料系 rows: エンジン型式 EJ15; 水平対向4気筒SOHC16バルブ; 1493cc; 100ps(74kW)/5200rpm; 14.5kg・m(142N・m)/4000rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "2000 Japan I’s Sport calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ15"
+            ],
+            "applications": [
+              "Subaru Impreza Sports Wagon II (GG) (Japan, 2000 documented specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ez30-legacy-b4-iv-japan-2003",
+    "code": "EZ30",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2003",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "Boxer-6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2003 Japan 3.0R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 184,
+        "max": 184,
+        "rpm": {
+          "min": 6600,
+          "max": 6600
+        }
+      },
+      "torqueNm": {
+        "min": 304,
+        "max": 304,
+        "rpm": {
+          "min": 4200,
+          "max": 4200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ez30-legacy-b4-iv-japan-2003-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ez30-legacy-b4-iv-japan-2003-specification",
+          "title": "SUBARU SUGDAS Legacy B4 3.0R, 2003",
+          "publisher": "Subaru Corporation",
+          "year": 2003,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10012461",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10012461, 2003 3.0R title and エンジン・燃料系 rows: エンジン型式 EZ30; 水平対向6気筒DOHC24バルブ; 2999cc; 250ps(184kW)/6600rpm; 31.0kg・m(304N・m)/4200rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2003 Japan 3.0R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EZ30"
+            ],
+            "applications": [
+              "Subaru Legacy B4 IV (BL) (Japan, 2003 documented specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ez30-legacy-lancaster-japan-2001",
+    "code": "EZ30",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "2001",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "Boxer-6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "2001 Japan Lancaster 6 calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EZ30: Boxer-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L · 2,999 cc; Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 289,
+        "max": 289,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ez30-legacy-lancaster-japan-2001-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification)"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ez30-legacy-lancaster-japan-2001-specification",
+          "title": "SUBARU SUGDAS Legacy Lancaster Lancaster 6, 2001",
+          "publisher": "Subaru Corporation",
+          "year": 2001,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502432",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502432, 2001 Lancaster 6 title and エンジン・燃料系 rows: エンジン型式 EZ30; 水平対向6気筒DOHC24バルブ; 2999cc; 220ps(162kW)/6000rpm; 29.5kg・m(289N・m)/4400rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "2001 Japan Lancaster 6 calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EZ30"
+            ],
+            "applications": [
+              "Subaru Legacy Lancaster II (BH) (Japan, 2001 documented specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej22-legacy-wagon-i-japan-1993",
+    "code": "EJ22",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1993",
+    "displacement": "2.2 L · 2,212 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ22: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.2 L · 2,212 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1993 Japan Brighton 220S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ22: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.2 L · 2,212 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ22: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.2 L · 2,212 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ22: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.2 L · 2,212 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 99,
+        "max": 99,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 186.3,
+        "max": 186.3,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej22-legacy-wagon-i-japan-1993-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification)"
+        ],
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej22-legacy-wagon-i-japan-1993-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon Brighton 220S, 1993",
+          "publisher": "Subaru Corporation",
+          "year": 1993,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502345",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502345, 1993 Brighton 220S title and エンジン・燃料系 rows: エンジン型式 EJ22; 水平対向4気筒SOHC16バルブ; 2212cc; 135ps(99kW)/5500rpm; 19.0kg・m(186.3N・m)/4000rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "1993 Japan Brighton 220S calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ22"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon I (BF) (Japan, 1993 documented specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-i-turbo-japan-1991",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1991",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1991 Japan GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 259.9,
+        "max": 259.9,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-i-turbo-japan-1991-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification)"
+        ],
+        "years": {
+          "from": 1991,
+          "to": 1991
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-i-turbo-japan-1991-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon GT, 1991",
+          "publisher": "Subaru Corporation",
+          "year": 1991,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501553",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501553, 1991 GT title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブICターボ; 1994cc; 200ps(147kW)/6000rpm; 26.5kg・m(259.9N・m)/3600rpm; 過給機 ＩＣ付きターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "1991 Japan GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon I (BF) (Japan, 1991 documented specification)"
+            ],
+            "years": {
+              "from": 1991,
+              "to": 1991
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-i-sohc-japan-1992",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1992 Japan Brighton calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 171.6,
+        "max": 171.6,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-i-sohc-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-i-sohc-japan-1992-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon Brighton, 1992",
+          "publisher": "Subaru Corporation",
+          "year": 1992,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501636",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501636, 1992 Brighton title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒SOHC16バルブ; 1994cc; 125ps(92kW)/5500rpm; 17.5kg・m(171.6N・m)/4500rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "1992 Japan Brighton calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-i-dohc-japan-1992",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1992 Japan VZ Type R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 176.5,
+        "max": 176.5,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-i-dohc-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-i-dohc-japan-1992-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon VZ Type R, 1992",
+          "publisher": "Subaru Corporation",
+          "year": 1992,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501637",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501637, 1992 VZ Type R title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブ; 1994cc; 140ps(103kW)/6500rpm; 18.0kg・m(176.5N・m)/5000rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "1992 Japan VZ Type R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon I (BF) (Japan, 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-ii-na-japan-1993",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1993",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1993 Japan TS Type R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110.3,
+        "max": 110.3,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 181.4,
+        "max": 181.4,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-ii-na-japan-1993-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification)"
+        ],
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-ii-na-japan-1993-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon TS Type R, 1993",
+          "publisher": "Subaru Corporation",
+          "year": 1993,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502066",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502066, 1993 TS Type R title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブ; 1994cc; 150ps/6400rpm; 18.5kg・m/4800rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. Stored SI values convert PS to kW and kgf·m to N·m, rounded to one decimal. DOHC construction establishes 4 total camshafts.",
+            "1993 Japan TS Type R calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-ii-twin-turbo-japan-1993",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1993",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1993 Japan GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 183.9,
+        "max": 183.9,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 308.9,
+        "max": 308.9,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-ii-twin-turbo-japan-1993-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification)"
+        ],
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-ii-twin-turbo-japan-1993-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon GT, 1993",
+          "publisher": "Subaru Corporation",
+          "year": 1993,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4502062",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4502062, 1993 GT title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブツインターボ; 1994cc; 250ps/6500rpm; 31.5kg・m/5000rpm; 過給機 ツインターボ; EGI explicitly identifies multipoint injection; unleaded petrol. Stored SI values convert PS to kW and kgf·m to N·m, rounded to one decimal. DOHC construction establishes 4 total camshafts.",
+            "1993 Japan GT calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon II (BG) (Japan, 1993 documented specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-iii-na-japan-1998",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1998",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · SOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1998 Japan Brighton calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · SOHC · 16 valves · 2 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 101,
+        "max": 101,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 186.3,
+        "max": 186.3,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-iii-na-japan-1998-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-iii-na-japan-1998-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon Brighton, 1998",
+          "publisher": "Subaru Corporation",
+          "year": 1998,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=10003182",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 10003182, 1998 Brighton title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒SOHC16バルブ; 1994cc; 137ps(101kW)/5600rpm; 19.0kg・m(186.3N・m)/3600rpm; 過給機 なし; EGI explicitly identifies multipoint injection; unleaded petrol. SOHC construction establishes 2 total camshafts.",
+            "1998 Japan Brighton calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. SOHC on two opposed heads establishes 2 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-iii-twin-turbo-japan-1998",
+    "code": "EJ20",
+    "aliases": [],
+    "maker": "Subaru",
+    "regionKey": "japan",
+    "years": "1998",
+    "displacement": "2.0 L · 1,994 cc",
+    "layout": "Boxer-4 · DOHC · 16 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documents support the engine identity and technical specification.",
+        "cons": "1998 Japan GT-B calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+      },
+      "es": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Los documentos oficiales respaldan la identidad y las especificaciones del motor.",
+        "cons": "Las cifras se limitan a la aplicación, el mercado y la especificación citados."
+      },
+      "fr": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Les documents officiels confirment l’identité et les caractéristiques du moteur.",
+        "cons": "Les valeurs se limitent à l’application, au marché et à la spécification cités."
+      },
+      "de": {
+        "construction": "EJ20: Boxer-4 · DOHC · 16 valves · 4 camshafts total, 2.0 L · 1,994 cc; Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Die Werte gelten nur für die zitierte Anwendung, den Markt und die Spezifikation."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 191,
+        "max": 191,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 318.7,
+        "max": 318.7,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-subaru-ej20-legacy-wagon-iii-twin-turbo-japan-1998-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-subaru-ej20-legacy-wagon-iii-twin-turbo-japan-1998-specification",
+          "title": "SUBARU SUGDAS Legacy Touring Wagon GT-B, 1998",
+          "publisher": "Subaru Corporation",
+          "year": 1998,
+          "url": "https://ucar.subaru.jp/php/catalog/grade.php?cat_id=4501611",
+          "page": 1,
+          "checkedAt": "2026-10-05",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Catalogue cat_id 4501611, 1998 GT-B title and エンジン・燃料系 rows: エンジン型式 EJ20; 水平対向4気筒DOHC16バルブツインターボ; 1994cc; 260ps(191kW)/6000rpm; 32.5kg・m(318.7N・m)/5000rpm; 過給機 ツインターボ; EGI explicitly identifies multipoint injection; unleaded petrol. DOHC construction establishes 4 total camshafts.",
+            "1998 Japan GT-B calibration only. Equal transmissions and drive variants are consolidated; no annual, trim-only or body-only split. DOHC on two opposed heads establishes 4 total camshafts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ20"
+            ],
+            "applications": [
+              "Subaru Legacy Touring Wagon III (BH) (Japan, 1998 documented specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-jb-det-copen-japan-2002",
+    "code": "JB-DET",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2002",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Copen (L880K) (Japan, 2002 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Copen (L880K) (Japan, 2002 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2002 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Copen (L880K) (Japan, 2002 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2002 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Copen (L880K) (Japan, 2002 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2002 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Copen (L880K) (Japan, 2002 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2002 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 110,
+        "max": 110,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-jb-det-copen-japan-2002-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Copen (L880K) (Japan, 2002 documented specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-jb-det-copen-japan-2002-specification",
+          "title": "Daihatsu U-CATCH Copen Detachable Top, September 2002",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2002,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/COPEN/GRADE__5003587/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names JB-DET; Inline-4 DOHC 16-valve; turbo; 0.7 L · 659 cc; 47 kW at 6000 rpm; 110 N·m at 3200 rpm.",
+            "Only the cited Japan 2002 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JB-DET"
+            ],
+            "applications": [
+              "Daihatsu Copen (L880K) (Japan, 2002 documented specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-ef-ve-naked-japan-2000",
+    "code": "EF-VE",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2000",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Naked (L750S) (Japan, 2000 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2000 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "EF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2000 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "EF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2000 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "EF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2000 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 43,
+        "max": 43,
+        "rpm": {
+          "min": 7600,
+          "max": 7600
+        }
+      },
+      "torqueNm": {
+        "min": 64,
+        "max": 64,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-ef-ve-naked-japan-2000-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Naked (L750S) (Japan, 2000 documented specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-ef-ve-naked-japan-2000-specification",
+          "title": "Daihatsu U-CATCH Naked G, October 2000",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2000,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/NAKED/GRADE__5002727/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names EF-VE; Inline-3 DOHC 12-valve; no forced induction; 0.7 L · 659 cc; 43 kW at 7600 rpm; 64 N·m at 4000 rpm.",
+            "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EF-VE"
+            ],
+            "applications": [
+              "Daihatsu Naked (L750S) (Japan, 2000 documented specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-ef-det-naked-japan-2001",
+    "code": "EF-DET",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2001",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Naked (L750S) (Japan, 2001 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2001 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2001 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "EF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2001 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2001 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "EF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2001 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2001 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "EF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Naked (L750S) (Japan, 2001 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2001 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 107,
+        "max": 107,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-ef-det-naked-japan-2001-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Naked (L750S) (Japan, 2001 documented specification)"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-ef-det-naked-japan-2001-specification",
+          "title": "Daihatsu U-CATCH Naked Turbo G Limited, May 2001",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2001,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/NAKED/GRADE__5003368/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names EF-DET; Inline-3 DOHC 12-valve; intercooled turbo; 0.7 L · 659 cc; 47 kW at 6400 rpm; 107 N·m at 3600 rpm.",
+            "Only the cited Japan 2001 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EF-DET"
+            ],
+            "applications": [
+              "Daihatsu Naked (L750S) (Japan, 2001 documented specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-kf-ve-tanto-exe-japan-2009",
+    "code": "KF-VE",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2009",
+    "displacement": "0.7 L · 658 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "KF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2009 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "KF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2009 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "KF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2009 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "KF-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2009 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 43,
+        "max": 43,
+        "rpm": {
+          "min": 7200,
+          "max": 7200
+        }
+      },
+      "torqueNm": {
+        "min": 65,
+        "max": 65,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-kf-ve-tanto-exe-japan-2009-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification)"
+        ],
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-kf-ve-tanto-exe-japan-2009-specification",
+          "title": "Daihatsu U-CATCH Tanto Exe Custom S, December 2009",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2009,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/TANTO_EXE/GRADE__10059663/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names KF-VE; Inline-3 DOHC 12-valve; no forced induction; 0.7 L · 658 cc; 43 kW at 7200 rpm; 65 N·m at 4000 rpm.",
+            "Only the cited Japan 2009 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "KF-VE"
+            ],
+            "applications": [
+              "Daihatsu Tanto Exe (L465S) (Japan, 2009 documented specification)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2009
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-kf-det-tanto-japan-2010",
+    "code": "KF-DET",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2010",
+    "displacement": "0.7 L · 658 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Tanto (L375S) (Japan, 2010 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "KF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto (L375S) (Japan, 2010 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2010 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "KF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto (L375S) (Japan, 2010 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2010 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "KF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto (L375S) (Japan, 2010 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2010 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "KF-DET: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 658 cc; Daihatsu Tanto (L375S) (Japan, 2010 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2010 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-kf-det-tanto-japan-2010-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Tanto (L375S) (Japan, 2010 documented specification)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-kf-det-tanto-japan-2010-specification",
+          "title": "Daihatsu U-CATCH Tanto Custom RS, September 2010",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2010,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/TANTO/GRADE__10065230/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names KF-DET; Inline-3 DOHC 12-valve; intercooled turbo; 0.7 L · 658 cc; 47 kW at 6000 rpm; 103 N·m at 3000 rpm.",
+            "Only the cited Japan 2010 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "KF-DET"
+            ],
+            "applications": [
+              "Daihatsu Tanto (L375S) (Japan, 2010 documented specification)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-ej-ve-mira-gino-1000-japan-2004",
+    "code": "EJ-VE",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2004",
+    "displacement": "1.0 L · 989 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Mira Gino 1000 (Japan, 2004 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EJ-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 989 cc; Daihatsu Mira Gino 1000 (Japan, 2004 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2004 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "EJ-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 989 cc; Daihatsu Mira Gino 1000 (Japan, 2004 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2004 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "EJ-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 989 cc; Daihatsu Mira Gino 1000 (Japan, 2004 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2004 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "EJ-VE: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 989 cc; Daihatsu Mira Gino 1000 (Japan, 2004 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2004 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 94,
+        "max": 94,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-ej-ve-mira-gino-1000-japan-2004-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Mira Gino 1000 (Japan, 2004 documented specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-ej-ve-mira-gino-1000-japan-2004-specification",
+          "title": "Daihatsu U-CATCH Mira Gino 1000 X, June 2004",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2004,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/MIRA_GINO_1000/GRADE__10023635/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names EJ-VE; Inline-3 DOHC 12-valve; no forced induction; 1.0 L · 989 cc; 47 kW at 6000 rpm; 94 N·m at 3600 rpm.",
+            "Only the cited Japan 2004 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EJ-VE"
+            ],
+            "applications": [
+              "Daihatsu Mira Gino 1000 (Japan, 2004 documented specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-k3-vet-terios-japan-2003",
+    "code": "K3-VET",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2003",
+    "displacement": "1.3 L · 1,297 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Terios (J102G) (Japan, 2003 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K3-VET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Terios (J102G) (Japan, 2003 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2003 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "K3-VET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Terios (J102G) (Japan, 2003 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2003 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "K3-VET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Terios (J102G) (Japan, 2003 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2003 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "K3-VET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Terios (J102G) (Japan, 2003 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2003 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 177,
+        "max": 177,
+        "rpm": {
+          "min": 3200,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-k3-vet-terios-japan-2003-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Terios (J102G) (Japan, 2003 documented specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-k3-vet-terios-japan-2003-specification",
+          "title": "Daihatsu U-CATCH Terios Turbo Aero Down Custom, August 2003",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2003,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/TERIOS/GRADE__10012068/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names K3-VET; Inline-4 DOHC 16-valve; intercooled turbo; 1.3 L · 1,297 cc; 103 kW at 6400 rpm; 177 N·m at 3200 rpm.",
+            "Only the cited Japan 2003 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K3-VET"
+            ],
+            "applications": [
+              "Daihatsu Terios (J102G) (Japan, 2003 documented specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-k3-ve2-storia-japan-2000",
+    "code": "K3-VE2",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2000",
+    "displacement": "1.3 L · 1,297 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Storia (M101S) (Japan, 2000 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K3-VE2: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Storia (M101S) (Japan, 2000 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "K3-VE2: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Storia (M101S) (Japan, 2000 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "K3-VE2: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Storia (M101S) (Japan, 2000 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "K3-VE2: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L · 1,297 cc; Daihatsu Storia (M101S) (Japan, 2000 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81,
+        "rpm": {
+          "min": 7000,
+          "max": 7000
+        }
+      },
+      "torqueNm": {
+        "min": 126,
+        "max": 126,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-k3-ve2-storia-japan-2000-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Storia (M101S) (Japan, 2000 documented specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-k3-ve2-storia-japan-2000-specification",
+          "title": "Daihatsu U-CATCH Storia Touring Limited, May 2000",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2000,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/STORIA/GRADE__5002546/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names K3-VE2; Inline-4 DOHC 16-valve; no forced induction; 1.3 L · 1,297 cc; 81 kW at 7000 rpm; 126 N·m at 4400 rpm.",
+            "Only the cited Japan 2000 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K3-VE2"
+            ],
+            "applications": [
+              "Daihatsu Storia (M101S) (Japan, 2000 documented specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-jc-det-storia-x4-japan-1998",
+    "code": "JC-DET",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1998",
+    "displacement": "0.7 L · 713 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JC-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 713 cc; Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 1998 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "JC-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 713 cc; Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 1998 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "JC-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 713 cc; Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 1998 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "JC-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 713 cc; Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 1998 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88,
+        "rpm": {
+          "min": 7200,
+          "max": 7200
+        }
+      },
+      "torqueNm": {
+        "min": 127.5,
+        "max": 127.5,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-jc-det-storia-x4-japan-1998-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-jc-det-storia-x4-japan-1998-specification",
+          "title": "Daihatsu U-CATCH Storia X4, April 1998",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1998,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/STORIA/GRADE__5002439/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names JC-DET; Inline-4 DOHC 16-valve; intercooled turbo; 0.7 L · 713 cc; 88 kW at 7200 rpm; 127.5 N·m at 4800 rpm.",
+            "Only the cited Japan 1998 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JC-DET"
+            ],
+            "applications": [
+              "Daihatsu Storia X4 (M112S) (Japan, 1998 documented specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-jb-el-mira-japan-1995",
+    "code": "JB-EL",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1995",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Mira (L502S) (Japan, 1995 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JB-EL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira (L502S) (Japan, 1995 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 1995 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "JB-EL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira (L502S) (Japan, 1995 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 1995 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "JB-EL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira (L502S) (Japan, 1995 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 1995 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "JB-EL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira (L502S) (Japan, 1995 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 1995 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 43,
+        "max": 43,
+        "rpm": {
+          "min": 7600,
+          "max": 7600
+        }
+      },
+      "torqueNm": {
+        "min": 56.9,
+        "max": 56.9,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-jb-el-mira-japan-1995-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Mira (L502S) (Japan, 1995 documented specification)"
+        ],
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-jb-el-mira-japan-1995-specification",
+          "title": "Daihatsu U-CATCH Mira TR, October 1995",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1995,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/MIRA/GRADE__5001612/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names JB-EL; Inline-4 DOHC 16-valve; no forced induction; 0.7 L · 659 cc; 43 kW at 7600 rpm; 56.9 N·m at 5600 rpm.",
+            "Only the cited Japan 1995 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JB-EL"
+            ],
+            "applications": [
+              "Daihatsu Mira (L502S) (Japan, 1995 documented specification)"
+            ],
+            "years": {
+              "from": 1995,
+              "to": 1995
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-s8-dpts-mazda3-fastback-japan-2021",
+    "code": "S8-DPTS",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.8 L · 1,756 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda3 Fastback BP (Japan, 2021 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda3 Fastback BP (Japan, 2021 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda3 Fastback BP (Japan, 2021 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda3 Fastback BP (Japan, 2021 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda3 Fastback BP (Japan, 2021 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95,
+        "max": 95,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-s8-dpts-mazda3-fastback-japan-2021-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda3 Fastback BP (Japan, 2021 documented specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-s8-dpts-mazda3-fastback-japan-2021-specification",
+          "title": "Mazda3 Technical Information, March 2021",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2021,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/mazda3/common/pdf/mazda3_specification_202103.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names S8-DPTS; Inline-4 DOHC 16-valve; direct-injection turbo; electronic common rail; 1.8 L · 1,756 cc; 95 kW at 4000 rpm; 270 N·m at 1600–2600 rpm.",
+            "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "S8-DPTS"
+            ],
+            "applications": [
+              "Mazda3 Fastback BP (Japan, 2021 documented specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-s8-dpts-cx30-japan-2020",
+    "code": "S8-DPTS",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "1.8 L · 1,756 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-30 DM (Japan, 2020 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda CX-30 DM (Japan, 2020 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2020 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda CX-30 DM (Japan, 2020 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2020 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda CX-30 DM (Japan, 2020 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2020 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "S8-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L · 1,756 cc; Mazda CX-30 DM (Japan, 2020 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2020 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-s8-dpts-cx30-japan-2020-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-30 DM (Japan, 2020 documented specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-s8-dpts-cx30-japan-2020-specification",
+          "title": "Mazda CX-30 Technical Information, May 2020",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2020,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/cx-30/common/pdf/cx-30_specification_201912.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names S8-DPTS; Inline-4 DOHC 16-valve; direct-injection turbo; electronic common rail; 1.8 L · 1,756 cc; 85 kW at 4000 rpm; 270 N·m at 1600–2600 rpm.",
+            "Only the cited Japan 2020 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "S8-DPTS"
+            ],
+            "applications": [
+              "Mazda CX-30 DM (Japan, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-py-vpts-cx8-japan-2021",
+    "code": "PY-VPTS",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "2.5 L · 2,488 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-8 KG (Japan, 2021 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "PY-VPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; Mazda CX-8 KG (Japan, 2021 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "PY-VPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; Mazda CX-8 KG (Japan, 2021 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "PY-VPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; Mazda CX-8 KG (Japan, 2021 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "PY-VPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L · 2,488 cc; Mazda CX-8 KG (Japan, 2021 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 169,
+        "max": 169,
+        "rpm": {
+          "min": 4250,
+          "max": 4250
+        }
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-py-vpts-cx8-japan-2021-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-8 KG (Japan, 2021 documented specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-py-vpts-cx8-japan-2021-specification",
+          "title": "Mazda CX-8 Technical Information, March 2021",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2021,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/cx-8/common/pdf/cx-8_specification_202103.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names PY-VPTS; Inline-4 DOHC 16-valve; direct-injection turbo; in-cylinder direct injection; 2.5 L · 2,488 cc; 169 kW at 4250 rpm; 420 N·m at 2000 rpm.",
+            "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "PY-VPTS"
+            ],
+            "applications": [
+              "Mazda CX-8 KG (Japan, 2021 documented specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-s5-dpts-mazda2-japan-2021",
+    "code": "S5-DPTS",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda2 DJ automatic (Japan, 2021 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "S5-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ automatic (Japan, 2021 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "S5-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ automatic (Japan, 2021 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "S5-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ automatic (Japan, 2021 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "S5-DPTS: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ automatic (Japan, 2021 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250,
+        "rpm": {
+          "min": 1500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-s5-dpts-mazda2-japan-2021-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda2 DJ automatic (Japan, 2021 documented specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-s5-dpts-mazda2-japan-2021-specification",
+          "title": "Mazda2 Technical Information, April 2021",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2021,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/mazda2/common/pdf/mazda2_specification_202103.pdf",
+          "page": 2,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names S5-DPTS; Inline-4 DOHC 16-valve; direct-injection turbo; electronic common rail; 1.5 L · 1,498 cc; 77 kW at 4000 rpm; 250 N·m at 1500–2500 rpm.",
+            "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "S5-DPTS"
+            ],
+            "applications": [
+              "Mazda2 DJ automatic (Japan, 2021 documented specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-s5-dptr-mazda2-japan-2021",
+    "code": "S5-DPTR",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2021",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda2 DJ manual (Japan, 2021 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "S5-DPTR: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ manual (Japan, 2021 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "S5-DPTR: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ manual (Japan, 2021 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "S5-DPTR: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ manual (Japan, 2021 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "S5-DPTR: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,498 cc; Mazda2 DJ manual (Japan, 2021 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220,
+        "rpm": {
+          "min": 1400,
+          "max": 3200
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-s5-dptr-mazda2-japan-2021-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda2 DJ manual (Japan, 2021 documented specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-s5-dptr-mazda2-japan-2021-specification",
+          "title": "Mazda2 Technical Information, April 2021",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2021,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/mazda2/common/pdf/mazda2_specification_202103.pdf",
+          "page": 2,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names S5-DPTR; Inline-4 DOHC 16-valve; direct-injection turbo; electronic common rail; exact manual-transmission code/calibration; 1.5 L · 1,498 cc; 77 kW at 4000 rpm; 220 N·m at 1400–3200 rpm.",
+            "Only the cited Japan 2021 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "S5-DPTR"
+            ],
+            "applications": [
+              "Mazda2 DJ manual (Japan, 2021 documented specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-spark-thailand-2026",
+    "code": "RZ4F-TC",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.2 L · 2,164 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu D-Max Spark (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-rz4f-tc-spark-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu D-Max Spark (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-rz4f-tc-spark-thailand-2026-specification",
+          "title": "Isuzu D-Max Spark brochure 2026",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/spark_brochure_2026_ed212091cf.pdf",
+          "page": 6,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names RZ4F-TC; Inline-4 DOHC 16-valve; VGS turbo/intercooler; common-rail direct injection; 2.2 L · 2,164 cc; 120 kW at 3600 rpm; 400 N·m at 1600–2400 rpm.",
+            "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "RZ4F-TC"
+            ],
+            "applications": [
+              "Isuzu D-Max Spark (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-spark-thailand-2026",
+    "code": "4JJ3-TCX E5",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu D-Max Spark (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max Spark (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-4jj3-tcx-e5-spark-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu D-Max Spark (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-4jj3-tcx-e5-spark-thailand-2026-specification",
+          "title": "Isuzu D-Max Spark brochure 2026",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/spark_brochure_2026_ed212091cf.pdf",
+          "page": 6,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names 4JJ3-TCX E5; Inline-4 DOHC 16-valve; VGS turbo/intercooler; common-rail direct injection; 3.0 L · 2,999 cc; 140 kW at 3600 rpm; 450 N·m at 1600–2600 rpm.",
+            "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4JJ3-TCX E5"
+            ],
+            "applications": [
+              "Isuzu D-Max Spark (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-dmax-4door-thailand-2026",
+    "code": "RZ4F-TC",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.2 L · 2,164 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu D-Max 4-Door (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-rz4f-tc-dmax-4door-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu D-Max 4-Door (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-rz4f-tc-dmax-4door-thailand-2026-specification",
+          "title": "Isuzu D-Max 4-Door brochure 2026",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/4_door_brochure_2026_be4df560bb.pdf",
+          "page": 6,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names RZ4F-TC; Inline-4 DOHC 16-valve; VGS turbo/intercooler; common-rail direct injection; 2.2 L · 2,164 cc; 120 kW at 3600 rpm; 400 N·m at 1600–2400 rpm.",
+            "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "RZ4F-TC"
+            ],
+            "applications": [
+              "Isuzu D-Max 4-Door (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-dmax-4door-thailand-2026",
+    "code": "4JJ3-TCX E5",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu D-Max 4-Door (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max 4-Door (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-4jj3-tcx-e5-dmax-4door-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu D-Max 4-Door (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-4jj3-tcx-e5-dmax-4door-thailand-2026-specification",
+          "title": "Isuzu D-Max 4-Door brochure 2026",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/4_door_brochure_2026_be4df560bb.pdf",
+          "page": 6,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names 4JJ3-TCX E5; Inline-4 DOHC 16-valve; VGS turbo/intercooler; common-rail direct injection; 3.0 L · 2,999 cc; 140 kW at 3600 rpm; 450 N·m at 1600–2600 rpm.",
+            "Only the cited Thailand 2026 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4JJ3-TCX E5"
+            ],
+            "applications": [
+              "Isuzu D-Max 4-Door (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-4n15-triton-mega-cab-thailand-2019",
+    "code": "4N15",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2019 application and calibration; no transfer to other years, models or markets."
+      },
+      "es": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2019 application and calibration; no transfer to other years, models or markets."
+      },
+      "fr": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2019 application and calibration; no transfer to other years, models or markets."
+      },
+      "de": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2019 application and calibration; no transfer to other years, models or markets."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-4n15-triton-mega-cab-thailand-2019-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-4n15-triton-mega-cab-thailand-2019-specification",
+          "title": "Mitsubishi Triton Mega Cab MY19 brochure",
+          "publisher": "Mitsubishi Motors (Thailand) Co., Ltd.",
+          "year": 2019,
+          "url": "https://www.mitsubishi-motors.co.th/content/dam/mitsubishi-motors-th/images/documents/brochure/all-brochure/vehicle-name%20triton%20mega%20cab.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Exact-variant table names 4N15; Inline-4 DOHC 16-valve; MIVEC VG turbo/intercooler; electronic common rail; 2.4 L · 2,442 cc; 133 kW at 3500 rpm; 430 N·m at 2500 rpm.",
+            "Only the cited Thailand 2019 application and calibration; no transfer to other years, models or markets."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N15"
+            ],
+            "applications": [
+              "Mitsubishi Triton Mega Cab (Thailand, MY2019 documented specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-t3-vpts-cx60-japan-2023",
+    "code": "T3-VPTS",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "3.3 L · 3,283 cc",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-60 XD (Japan, July 2023 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD (Japan, July 2023 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD specification and ICE output."
+      },
+      "es": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD (Japan, July 2023 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD specification and ICE output."
+      },
+      "fr": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD (Japan, July 2023 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD specification and ICE output."
+      },
+      "de": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD (Japan, July 2023 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD specification and ICE output."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 4000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1500,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-t3-vpts-cx60-japan-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-60 XD (Japan, July 2023 documented specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-t3-vpts-cx60-japan-2023-specification",
+          "title": "Mazda CX-60 technical information, July 2023",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2023,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/cx-60/common/pdf/cx-60_specification_202307.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "XD table names T3-VPTS; water-cooled inline-six DOHC 24-valve direct-injection turbo; 3,283 cc; 170 kW at 4,000-4,200 rpm; 500 N·m at 1,500-3,000 rpm; electronic common rail.",
+            "Only the cited Japan July 2023 CX-60 XD specification and ICE output."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "T3-VPTS"
+            ],
+            "applications": [
+              "Mazda CX-60 XD (Japan, July 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-t3-vpth-cx60-japan-2023",
+    "code": "T3-VPTH",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "3.3 L · 3,283 cc",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD-Hybrid specification; values are ICE output, not combined system output."
+      },
+      "es": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD-Hybrid specification; values are ICE output, not combined system output."
+      },
+      "fr": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD-Hybrid specification; values are ICE output, not combined system output."
+      },
+      "de": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan July 2023 CX-60 XD-Hybrid specification; values are ICE output, not combined system output."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 187,
+        "max": 187,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550,
+        "rpm": {
+          "min": 1500,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-t3-vpth-cx60-japan-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-t3-vpth-cx60-japan-2023-specification",
+          "title": "Mazda CX-60 technical information, July 2023",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2023,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/cx-60/common/pdf/cx-60_specification_202307.pdf",
+          "page": 2,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "XD-Hybrid table names T3-VPTH; water-cooled inline-six DOHC 24-valve direct-injection turbo; 3,283 cc; 187 kW at 3,750 rpm; 550 N·m at 1,500-2,400 rpm; electronic common rail.",
+            "Only the cited Japan July 2023 CX-60 XD-Hybrid specification; values are ICE output, not combined system output."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "T3-VPTH"
+            ],
+            "applications": [
+              "Mazda CX-60 XD-Hybrid (Japan, July 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-t3-vpts-cx80-japan-2025",
+    "code": "T3-VPTS",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "3.3 L · 3,283 cc",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-80 XD (Japan, March 2025 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD (Japan, March 2025 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD specification and ICE output."
+      },
+      "es": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD (Japan, March 2025 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD specification and ICE output."
+      },
+      "fr": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD (Japan, March 2025 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD specification and ICE output."
+      },
+      "de": {
+        "construction": "T3-VPTS: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD (Japan, March 2025 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD specification and ICE output."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170,
+        "rpm": {
+          "min": 4000,
+          "max": 4200
+        }
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500,
+        "rpm": {
+          "min": 1500,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-t3-vpts-cx80-japan-2025-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-80 XD (Japan, March 2025 documented specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-t3-vpts-cx80-japan-2025-specification",
+          "title": "Mazda CX-80 technical information, March 2025",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2025,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/cx-80/common/pdf/cx-80_specification_202410.pdf",
+          "page": 2,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "March 2025 XD table names T3-VPTS; water-cooled inline-six DOHC 24-valve direct-injection turbo; 3,283 cc; 170 kW at 4,000-4,200 rpm; 500 N·m at 1,500-3,000 rpm; electronic common rail.",
+            "Only the cited Japan March 2025 CX-80 XD specification and ICE output."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "T3-VPTS"
+            ],
+            "applications": [
+              "Mazda CX-80 XD (Japan, March 2025 documented specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mazda-t3-vpth-cx80-japan-2025",
+    "code": "T3-VPTH",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "3.3 L · 3,283 cc",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD-Hybrid specification; values are ICE output, not combined system output."
+      },
+      "es": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD-Hybrid specification; values are ICE output, not combined system output."
+      },
+      "fr": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD-Hybrid specification; values are ICE output, not combined system output."
+      },
+      "de": {
+        "construction": "T3-VPTH: Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.3 L · 3,283 cc; Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan March 2025 CX-80 XD-Hybrid specification; values are ICE output, not combined system output."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 187,
+        "max": 187,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550,
+        "rpm": {
+          "min": 1500,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mazda-t3-vpth-cx80-japan-2025-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mazda-t3-vpth-cx80-japan-2025-specification",
+          "title": "Mazda CX-80 technical information, March 2025",
+          "publisher": "Mazda Motor Corporation",
+          "year": 2025,
+          "url": "https://www.mazda.co.jp/content/dam/mazda/official/mazda-co-jp/cars/cx-80/common/pdf/cx-80_specification_202410.pdf",
+          "page": 3,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "March 2025 XD-Hybrid table names T3-VPTH; water-cooled inline-six DOHC 24-valve direct-injection turbo; 3,283 cc; 187 kW at 3,750 rpm; 550 N·m at 1,500-2,400 rpm; electronic common rail.",
+            "Only the cited Japan March 2025 CX-80 XD-Hybrid specification; values are ICE output, not combined system output."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "T3-VPTH"
+            ],
+            "applications": [
+              "Mazda CX-80 XD-Hybrid (Japan, March 2025 documented specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-vcross-thailand-2026",
+    "code": "RZ4F-TC",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.2 L · 2,164 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu D-Max V-Cross (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      },
+      "es": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      },
+      "fr": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      },
+      "de": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-rz4f-tc-vcross-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu D-Max V-Cross (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-rz4f-tc-vcross-thailand-2026-specification",
+          "title": "Isuzu V-Cross 2026 brochure",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/v_cross_brochure_2026_23a52b3f0d.pdf",
+          "page": 6,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Specification table names RZ4F-TC; inline-four DOHC 16-valve common-rail direct injection with VGS turbo and intercooler; 2,164 cc; 120 kW at 3,600 rpm; 400 N·m at 1,600-2,400 rpm.",
+            "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "RZ4F-TC"
+            ],
+            "applications": [
+              "Isuzu D-Max V-Cross (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-vcross-thailand-2026",
+    "code": "4JJ3-TCX E5",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu D-Max V-Cross (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      },
+      "es": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      },
+      "fr": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      },
+      "de": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu D-Max V-Cross (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-4jj3-tcx-e5-vcross-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu D-Max V-Cross (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-4jj3-tcx-e5-vcross-thailand-2026-specification",
+          "title": "Isuzu V-Cross 2026 brochure",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/v_cross_brochure_2026_23a52b3f0d.pdf",
+          "page": 6,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Specification table names 4JJ3-TCX E5; inline-four DOHC 16-valve common-rail direct injection with VGS turbo and intercooler; 2,999 cc; 140 kW at 3,600 rpm; 450 N·m at 1,600-2,600 rpm.",
+            "Only the cited Thailand 2026 D-Max V-Cross calibration; equal grades and transmissions are consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4JJ3-TCX E5"
+            ],
+            "applications": [
+              "Isuzu D-Max V-Cross (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-mux-thailand-2026",
+    "code": "RZ4F-TC",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "2.2 L · 2,164 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu MU-X (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      },
+      "es": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      },
+      "fr": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      },
+      "de": {
+        "construction": "RZ4F-TC: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L · 2,164 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400,
+        "rpm": {
+          "min": 1600,
+          "max": 2400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-rz4f-tc-mux-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu MU-X (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-rz4f-tc-mux-thailand-2026-specification",
+          "title": "Isuzu MU-X 2026 brochure",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/mu_x_brochure_2026_5d17d1513d.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Technical table names RZ4F-TC; inline-four DOHC 16-valve common-rail direct injection with VGS turbo and intercooler; 2,164 cc; 120 kW at 3,600 rpm; 400 N·m at 1,600-2,400 rpm.",
+            "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "RZ4F-TC"
+            ],
+            "applications": [
+              "Isuzu MU-X (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-mux-thailand-2026",
+    "code": "4JJ3-TCX E5",
+    "aliases": [],
+    "maker": "Isuzu",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "3.0 L · 2,999 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Isuzu MU-X (Thailand, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      },
+      "es": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      },
+      "fr": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      },
+      "de": {
+        "construction": "4JJ3-TCX E5: Inline-4 · DOHC · 16 valves · 2 camshafts total, 3.0 L · 2,999 cc; Isuzu MU-X (Thailand, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450,
+        "rpm": {
+          "min": 1600,
+          "max": 2600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-isuzu-4jj3-tcx-e5-mux-thailand-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Isuzu MU-X (Thailand, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-isuzu-4jj3-tcx-e5-mux-thailand-2026-specification",
+          "title": "Isuzu MU-X 2026 brochure",
+          "publisher": "Tri Petch Isuzu Sales Co., Ltd.",
+          "year": 2026,
+          "url": "https://assets.isuzu-tis.com/mu_x_brochure_2026_5d17d1513d.pdf",
+          "page": 8,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Technical table names 4JJ3-TCX E5; inline-four DOHC 16-valve common-rail direct injection with VGS turbo and intercooler; 2,999 cc; 140 kW at 3,600 rpm; 450 N·m at 1,600-2,600 rpm.",
+            "Only the cited Thailand 2026 MU-X calibration; the visual table resolves text-extraction artifacts."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4JJ3-TCX E5"
+            ],
+            "applications": [
+              "Isuzu MU-X (Thailand, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-ef-rl-mira-trxx-japan-1995",
+    "code": "EF-RL",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1995",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EF-RL: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan December 1995 Mira TR-XX Avanzato G calibration."
+      },
+      "es": {
+        "construction": "EF-RL: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan December 1995 Mira TR-XX Avanzato G calibration."
+      },
+      "fr": {
+        "construction": "EF-RL: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan December 1995 Mira TR-XX Avanzato G calibration."
+      },
+      "de": {
+        "construction": "EF-RL: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan December 1995 Mira TR-XX Avanzato G calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6800,
+          "max": 6800
+        }
+      },
+      "torqueNm": {
+        "min": 104.9,
+        "max": 104.9,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-ef-rl-mira-trxx-japan-1995-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification)"
+        ],
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-ef-rl-mira-trxx-japan-1995-specification",
+          "title": "Daihatsu Mira TR-XX Avanzato G catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1995,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/MIRA_TRXX/GRADE__5003122/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "December 1995 catalogue names EF-RL; water-cooled inline-three DOHC 12-valve intercooled turbo; 659 cc; 47 kW at 6,800 rpm; 104.9 N·m at 4,000 rpm; EFI.",
+            "Only the cited Japan December 1995 Mira TR-XX Avanzato G calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EF-RL"
+            ],
+            "applications": [
+              "Daihatsu Mira TR-XX Avanzato G (Japan, December 1995 documented specification)"
+            ],
+            "years": {
+              "from": 1995,
+              "to": 1995
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-hd-ep-pyzar-japan-1997",
+    "code": "HD-EP",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1997",
+    "displacement": "1.6 L · 1,589 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Pyzar CL (Japan, September 1997 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HD-EP: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Pyzar CL (Japan, September 1997 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan September 1997 Pyzar CL calibration."
+      },
+      "es": {
+        "construction": "HD-EP: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Pyzar CL (Japan, September 1997 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan September 1997 Pyzar CL calibration."
+      },
+      "fr": {
+        "construction": "HD-EP: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Pyzar CL (Japan, September 1997 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan September 1997 Pyzar CL calibration."
+      },
+      "de": {
+        "construction": "HD-EP: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Pyzar CL (Japan, September 1997 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan September 1997 Pyzar CL calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85,
+        "rpm": {
+          "min": 6300,
+          "max": 6300
+        }
+      },
+      "torqueNm": {
+        "min": 140.2,
+        "max": 140.2,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-hd-ep-pyzar-japan-1997-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Pyzar CL (Japan, September 1997 documented specification)"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-hd-ep-pyzar-japan-1997-specification",
+          "title": "Daihatsu Pyzar CL catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1997,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/PYZAR/GRADE__5003532/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "September 1997 catalogue names HD-EP; water-cooled inline-four OHC 16-valve; supercharger row explicitly says none; 1,589 cc; 85 kW at 6,300 rpm; 140.2 N·m at 3,600 rpm; EFI. OHC establishes one total camshaft.",
+            "Only the cited Japan September 1997 Pyzar CL calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HD-EP"
+            ],
+            "applications": [
+              "Daihatsu Pyzar CL (Japan, September 1997 documented specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-hc-e-charade-japan-1991",
+    "code": "HC-E",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1991",
+    "displacement": "1.3 L · 1,295 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Charade Will 4WD (Japan, January 1991 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HC-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.3 L · 1,295 cc; Daihatsu Charade Will 4WD (Japan, January 1991 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan January 1991 Charade Will 4WD calibration."
+      },
+      "es": {
+        "construction": "HC-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.3 L · 1,295 cc; Daihatsu Charade Will 4WD (Japan, January 1991 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan January 1991 Charade Will 4WD calibration."
+      },
+      "fr": {
+        "construction": "HC-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.3 L · 1,295 cc; Daihatsu Charade Will 4WD (Japan, January 1991 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan January 1991 Charade Will 4WD calibration."
+      },
+      "de": {
+        "construction": "HC-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.3 L · 1,295 cc; Daihatsu Charade Will 4WD (Japan, January 1991 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan January 1991 Charade Will 4WD calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 69,
+        "max": 69,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 108,
+        "max": 108,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-hc-e-charade-japan-1991-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Charade Will 4WD (Japan, January 1991 documented specification)"
+        ],
+        "years": {
+          "from": 1991,
+          "to": 1991
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-hc-e-charade-japan-1991-specification",
+          "title": "Daihatsu Charade Will 4WD catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1991,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/CHARADE/GRADE__5002176/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "January 1991 catalogue names HC-E; water-cooled inline-four OHC 16-valve; supercharger row explicitly says none; 1,295 cc; 69 kW at 6,500 rpm; 108 N·m at 5,000 rpm; EFI. OHC establishes one total camshaft.",
+            "Only the cited Japan January 1991 Charade Will 4WD calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HC-E"
+            ],
+            "applications": [
+              "Daihatsu Charade Will 4WD (Japan, January 1991 documented specification)"
+            ],
+            "years": {
+              "from": 1991,
+              "to": 1991
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-4n15-pajero-sport-thailand-2023",
+    "code": "4N15",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand 2023 Pajero Sport Elite Edition calibration."
+      },
+      "es": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand 2023 Pajero Sport Elite Edition calibration."
+      },
+      "fr": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand 2023 Pajero Sport Elite Edition calibration."
+      },
+      "de": {
+        "construction": "4N15: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand 2023 Pajero Sport Elite Edition calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 2500,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-4n15-pajero-sport-thailand-2023-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-4n15-pajero-sport-thailand-2023-specification",
+          "title": "Mitsubishi Pajero Sport Elite Edition 2023 brochure",
+          "publisher": "Mitsubishi Motors (Thailand) Co., Ltd.",
+          "year": 2023,
+          "url": "https://www.mitsubishi-motors.co.th/content/dam/mitsubishi-motors-th/images/documents/brochure/all-brochure/vehicle-name%20pajero-sport-elite-edition-2023-jan-update.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "2023 Elite Edition table names 4N15; inline-four DOHC 16-valve MIVEC VG turbo/intercooler; 2,442 cc; electronic common rail; 133 kW at 3,500 rpm; 430 N·m at 2,500 rpm.",
+            "Only the cited Thailand 2023 Pajero Sport Elite Edition calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N15"
+            ],
+            "applications": [
+              "Mitsubishi Pajero Sport Elite Edition (Thailand, 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-4n16-hyper-power-pajero-sport-thailand-2025",
+    "code": "4N16 (Hyper Power)",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "2.4 L · 2,442 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N16 (Hyper Power): Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Thailand November 2025 Pajero Sport GT Hyper Power calibration."
+      },
+      "es": {
+        "construction": "4N16 (Hyper Power): Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Thailand November 2025 Pajero Sport GT Hyper Power calibration."
+      },
+      "fr": {
+        "construction": "4N16 (Hyper Power): Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Thailand November 2025 Pajero Sport GT Hyper Power calibration."
+      },
+      "de": {
+        "construction": "4N16 (Hyper Power): Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L · 2,442 cc; Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Thailand November 2025 Pajero Sport GT Hyper Power calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 430,
+        "max": 430,
+        "rpm": {
+          "min": 2250,
+          "max": 2500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-4n16-hyper-power-pajero-sport-thailand-2025-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Thailand"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-4n16-hyper-power-pajero-sport-thailand-2025-specification",
+          "title": "Mitsubishi Pajero Sport GT November 2025 brochure",
+          "publisher": "Mitsubishi Motors (Thailand) Co., Ltd.",
+          "year": 2025,
+          "url": "https://www.mitsubishi-motors.co.th/content/dam/mitsubishi-motors-th/images/documents/brochure/all-brochure/nov2025/Pajero%20Sport%20GT.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "November 2025 GT table names 4N16 (Hyper Power); inline-four DOHC 16-valve common-rail single-VGT turbo/intercooler; 2,442 cc; 135 kW at 3,500 rpm; 430 N·m at 2,250-2,500 rpm.",
+            "Only the cited Thailand November 2025 Pajero Sport GT Hyper Power calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N16 (Hyper Power)"
+            ],
+            "applications": [
+              "Mitsubishi Pajero Sport GT (Thailand, November 2025 documented specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Thailand"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-he-eg-charade-social-japan-1997",
+    "code": "HE-EG",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1997",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Charade Social Pose (Japan, September 1997 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social Pose (Japan, September 1997 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan September 1997 Charade Social Pose calibration."
+      },
+      "es": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social Pose (Japan, September 1997 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan September 1997 Charade Social Pose calibration."
+      },
+      "fr": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social Pose (Japan, September 1997 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan September 1997 Charade Social Pose calibration."
+      },
+      "de": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social Pose (Japan, September 1997 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan September 1997 Charade Social Pose calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 127.5,
+        "max": 127.5,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-he-eg-charade-social-japan-1997-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Charade Social Pose (Japan, September 1997 documented specification)"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-he-eg-charade-social-japan-1997-specification",
+          "title": "Daihatsu Charade Social Pose catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1997,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/CHARADE_SOCIAL/GRADE__5002502/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "September 1997 catalogue names HE-EG; water-cooled inline-four OHC 16-valve; supercharger row explicitly says none; 1,498 cc; 74 kW at 6,400 rpm; 127.5 N·m at 3,600 rpm; EFI. OHC establishes one total camshaft.",
+            "Only the cited Japan September 1997 Charade Social Pose calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HE-EG"
+            ],
+            "applications": [
+              "Daihatsu Charade Social Pose (Japan, September 1997 documented specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-4n14-delica-d5-japan-2025",
+    "code": "4N14",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "2.3 L · 2,267 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Delica D:5 (Japan, December 2025 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "4N14: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,267 cc; Mitsubishi Delica D:5 (Japan, December 2025 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan December 2025 Delica D:5 specification."
+      },
+      "es": {
+        "construction": "4N14: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,267 cc; Mitsubishi Delica D:5 (Japan, December 2025 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan December 2025 Delica D:5 specification."
+      },
+      "fr": {
+        "construction": "4N14: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,267 cc; Mitsubishi Delica D:5 (Japan, December 2025 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan December 2025 Delica D:5 specification."
+      },
+      "de": {
+        "construction": "4N14: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.3 L · 2,267 cc; Mitsubishi Delica D:5 (Japan, December 2025 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan December 2025 Delica D:5 specification."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 107,
+        "max": 107,
+        "rpm": {
+          "min": 3500,
+          "max": 3500
+        }
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380,
+        "rpm": {
+          "min": 2000,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-4n14-delica-d5-japan-2025-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Delica D:5 (Japan, December 2025 documented specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-4n14-delica-d5-japan-2025-specification",
+          "title": "Mitsubishi Delica D:5 specification, December 2025",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2025,
+          "url": "https://mmc-origin.renewal.mitsubishi-motors.com/lineup/delica_d5/spec/pdf/delica_d5_spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "December 2025 specification names 4N14 common-rail DI-D with intercooler turbocharger; inline-four DOHC 16-valve; 2,267 cc; 107 kW at 3,500 rpm; 380 N·m at 2,000 rpm.",
+            "Only the cited Japan December 2025 Delica D:5 specification."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "4N14"
+            ],
+            "applications": [
+              "Mitsubishi Delica D:5 (Japan, December 2025 documented specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-br06-delica-mini-turbo-japan-2025",
+    "code": "BR06",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan September 2025 Delica Mini turbo calibration; equal trims and drivetrains are consolidated."
+      },
+      "es": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan September 2025 Delica Mini turbo calibration; equal trims and drivetrains are consolidated."
+      },
+      "fr": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan September 2025 Delica Mini turbo calibration; equal trims and drivetrains are consolidated."
+      },
+      "de": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan September 2025 Delica Mini turbo calibration; equal trims and drivetrains are consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2400,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-br06-delica-mini-turbo-japan-2025-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-br06-delica-mini-turbo-japan-2025-specification",
+          "title": "Mitsubishi Delica Mini specification, September 2025",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2025,
+          "url": "https://www.mitsubishi-motors.co.jp/lineup/delica_mini/spec/spe_02.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "September 2025 table names BR06 with intercooler turbocharger; inline-three DOHC 12-valve; 659 cc; electronic injection; 47 kW at 5,600 rpm; 100 N·m at 2,400-4,000 rpm.",
+            "Only the cited Japan September 2025 Delica Mini turbo calibration; equal trims and drivetrains are consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "BR06"
+            ],
+            "applications": [
+              "Mitsubishi Delica Mini turbo (Japan, September 2025 documented specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-br06-ek-cross-turbo-japan-2025",
+    "code": "BR06",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2025",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi eK Cross turbo (Japan, July 2025 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Cross turbo (Japan, July 2025 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan July 2025 eK Cross turbo calibration; equal trims and drivetrains are consolidated."
+      },
+      "es": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Cross turbo (Japan, July 2025 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan July 2025 eK Cross turbo calibration; equal trims and drivetrains are consolidated."
+      },
+      "fr": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Cross turbo (Japan, July 2025 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan July 2025 eK Cross turbo calibration; equal trims and drivetrains are consolidated."
+      },
+      "de": {
+        "construction": "BR06: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Cross turbo (Japan, July 2025 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan July 2025 eK Cross turbo calibration; equal trims and drivetrains are consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 5600,
+          "max": 5600
+        }
+      },
+      "torqueNm": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 2400,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-br06-ek-cross-turbo-japan-2025-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi eK Cross turbo (Japan, July 2025 documented specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-br06-ek-cross-turbo-japan-2025-specification",
+          "title": "Mitsubishi eK Cross specification, July 2025",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2025,
+          "url": "https://www.mitsubishi-motors.co.jp/lineup/ek_x/spec/pdf/ek_x_spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "July 2025 table names BR06 with intercooler turbocharger; inline-three DOHC 12-valve; 659 cc; electronic injection; 47 kW at 5,600 rpm; 100 N·m at 2,400-4,000 rpm.",
+            "Only the cited Japan July 2025 eK Cross turbo calibration; equal trims and drivetrains are consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "BR06"
+            ],
+            "applications": [
+              "Mitsubishi eK Cross turbo (Japan, July 2025 documented specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-jb-jl-move-japan-1997",
+    "code": "JB-JL",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1997",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JB-JL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan December 1997 Move Aero Down Custom XX calibration."
+      },
+      "es": {
+        "construction": "JB-JL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan December 1997 Move Aero Down Custom XX calibration."
+      },
+      "fr": {
+        "construction": "JB-JL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan December 1997 Move Aero Down Custom XX calibration."
+      },
+      "de": {
+        "construction": "JB-JL: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan December 1997 Move Aero Down Custom XX calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 7500,
+          "max": 7500
+        }
+      },
+      "torqueNm": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-jb-jl-move-japan-1997-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification)"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-jb-jl-move-japan-1997-specification",
+          "title": "Daihatsu Move Aero Down Custom XX catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1997,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/MOVE/GRADE__5002029/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "December 1997 catalogue names JB-JL; water-cooled inline-four DOHC 16-valve turbo; 659 cc; 47 kW at 7,500 rpm; 100 N·m at 4,000 rpm; EFI.",
+            "Only the cited Japan December 1997 Move Aero Down Custom XX calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JB-JL"
+            ],
+            "applications": [
+              "Daihatsu Move Aero Down Custom XX (Japan, December 1997 documented specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-ef-jl-mira-trxx-japan-1992",
+    "code": "EF-JL",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · SOHC · 12 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "EF-JL: Inline-3 · SOHC · 12 valves · 1 camshaft total, 0.7 L · 659 cc; Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan August 1992 Mira TR-XX X4 calibration."
+      },
+      "es": {
+        "construction": "EF-JL: Inline-3 · SOHC · 12 valves · 1 camshaft total, 0.7 L · 659 cc; Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan August 1992 Mira TR-XX X4 calibration."
+      },
+      "fr": {
+        "construction": "EF-JL: Inline-3 · SOHC · 12 valves · 1 camshaft total, 0.7 L · 659 cc; Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan August 1992 Mira TR-XX X4 calibration."
+      },
+      "de": {
+        "construction": "EF-JL: Inline-3 · SOHC · 12 valves · 1 camshaft total, 0.7 L · 659 cc; Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan August 1992 Mira TR-XX X4 calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 7500,
+          "max": 7500
+        }
+      },
+      "torqueNm": {
+        "min": 92.2,
+        "max": 92.2,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-ef-jl-mira-trxx-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-ef-jl-mira-trxx-japan-1992-specification",
+          "title": "Daihatsu Mira TR-XX X4 catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1992,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/MIRA_TRXX/GRADE__5001828/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "August 1992 catalogue names EF-JL; water-cooled inline-three SOHC 12-valve intercooled turbo; 659 cc; 47 kW at 7,500 rpm; 92.2 N·m at 4,000 rpm; EFI.",
+            "Only the cited Japan August 1992 Mira TR-XX X4 calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "EF-JL"
+            ],
+            "applications": [
+              "Daihatsu Mira TR-XX X4 (Japan, August 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-hd-e-applause-japan-1992",
+    "code": "HD-E",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1992",
+    "displacement": "1.6 L · 1,589 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Applause 16Zi (Japan, July 1992 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HD-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Applause 16Zi (Japan, July 1992 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan July 1992 Applause 16Zi calibration."
+      },
+      "es": {
+        "construction": "HD-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Applause 16Zi (Japan, July 1992 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan July 1992 Applause 16Zi calibration."
+      },
+      "fr": {
+        "construction": "HD-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Applause 16Zi (Japan, July 1992 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan July 1992 Applause 16Zi calibration."
+      },
+      "de": {
+        "construction": "HD-E: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Applause 16Zi (Japan, July 1992 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan July 1992 Applause 16Zi calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88,
+        "rpm": {
+          "min": 6300,
+          "max": 6300
+        }
+      },
+      "torqueNm": {
+        "min": 140.2,
+        "max": 140.2,
+        "rpm": {
+          "min": 4800,
+          "max": 4800
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-hd-e-applause-japan-1992-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Applause 16Zi (Japan, July 1992 documented specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-hd-e-applause-japan-1992-specification",
+          "title": "Daihatsu Applause 16Zi catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1992,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/APPLAUSE/GRADE__5001451/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "July 1992 catalogue names HD-E; water-cooled inline-four OHC 16-valve; supercharger row explicitly says none; 1,589 cc; 88 kW at 6,300 rpm; 140.2 N·m at 4,800 rpm; EFI. OHC establishes one total camshaft.",
+            "Only the cited Japan July 1992 Applause 16Zi calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HD-E"
+            ],
+            "applications": [
+              "Daihatsu Applause 16Zi (Japan, July 1992 documented specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15c-ertiga-india-2026",
+    "code": "K15C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the India Ertiga K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "es": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the India Ertiga K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "fr": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the India Ertiga K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "de": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the India Ertiga K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75.8,
+        "max": 75.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 136.8,
+        "max": 136.8,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15c-ertiga-india-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "India"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15c-ertiga-india-2026-specification",
+          "title": "Maruti Suzuki K15 engine technology: Ertiga K15C",
+          "publisher": "Maruti Suzuki India Limited",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Current official K15 page names Ertiga K15C; 1.5-litre inline-four naturally aspirated petrol, DOHC 16-valve Dual VVT with dual fuel injectors; 75.8 kW at 6,000 rpm and 136.8 N·m at 4,400 rpm.",
+            "Only the India Ertiga K15C manufacturer-page calibration accessed October 2026; ICE output only."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15C"
+            ],
+            "applications": [
+              "Maruti Suzuki Ertiga Smart Hybrid (India, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "India"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15c-xl6-india-2026",
+    "code": "K15C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the India XL6 K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "es": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the India XL6 K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "fr": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the India XL6 K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "de": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the India XL6 K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75.8,
+        "max": 75.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 136.8,
+        "max": 136.8,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15c-xl6-india-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "India"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15c-xl6-india-2026-specification",
+          "title": "Maruti Suzuki K15 engine technology: XL6 K15C",
+          "publisher": "Maruti Suzuki India Limited",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Current official K15 page names XL6 K15C; 1.5-litre inline-four naturally aspirated petrol, DOHC 16-valve Dual VVT with dual fuel injectors; 75.8 kW at 6,000 rpm and 136.8 N·m at 4,400 rpm.",
+            "Only the India XL6 K15C manufacturer-page calibration accessed October 2026; ICE output only."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15C"
+            ],
+            "applications": [
+              "Maruti Suzuki XL6 Smart Hybrid (India, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "India"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15c-brezza-india-2026",
+    "code": "K15C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the India Brezza K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "es": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the India Brezza K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "fr": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the India Brezza K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "de": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the India Brezza K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75.8,
+        "max": 75.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 136.8,
+        "max": 136.8,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15c-brezza-india-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "India"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15c-brezza-india-2026-specification",
+          "title": "Maruti Suzuki K15 engine technology: Brezza K15C",
+          "publisher": "Maruti Suzuki India Limited",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Current official K15 page names Brezza K15C; 1.5-litre inline-four naturally aspirated petrol, DOHC 16-valve Dual VVT with dual fuel injectors; 75.8 kW at 6,000 rpm and 136.8 N·m at 4,400 rpm.",
+            "Only the India Brezza K15C manufacturer-page calibration accessed October 2026; ICE output only."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15C"
+            ],
+            "applications": [
+              "Maruti Suzuki Brezza Smart Hybrid (India, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "India"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15c-grand-vitara-india-2026",
+    "code": "K15C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the India Grand Vitara K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "es": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the India Grand Vitara K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "fr": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the India Grand Vitara K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      },
+      "de": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the India Grand Vitara K15C manufacturer-page calibration accessed October 2026; ICE output only."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75.8,
+        "max": 75.8,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 136.8,
+        "max": 136.8,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15c-grand-vitara-india-2026-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "India"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15c-grand-vitara-india-2026-specification",
+          "title": "Maruti Suzuki K15 engine technology: Grand Vitara K15C",
+          "publisher": "Maruti Suzuki India Limited",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Current official K15 page names Grand Vitara K15C; 1.5-litre inline-four naturally aspirated petrol, DOHC 16-valve Dual VVT with dual fuel injectors; 75.8 kW at 6,000 rpm and 136.8 N·m at 4,400 rpm.",
+            "Only the India Grand Vitara K15C manufacturer-page calibration accessed October 2026; ICE output only."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15C"
+            ],
+            "applications": [
+              "Maruti Suzuki Grand Vitara Smart Hybrid (India, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "India"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15c-across-south-africa-2026",
+    "code": "K15C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2026",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Across mild hybrid (South Africa, 2026 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Across mild hybrid (South Africa, 2026 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the South Africa 2026 Across K15C calibration; ICE output, not hybrid system output."
+      },
+      "es": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Across mild hybrid (South Africa, 2026 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the South Africa 2026 Across K15C calibration; ICE output, not hybrid system output."
+      },
+      "fr": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Across mild hybrid (South Africa, 2026 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the South Africa 2026 Across K15C calibration; ICE output, not hybrid system output."
+      },
+      "de": {
+        "construction": "K15C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Across mild hybrid (South Africa, 2026 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the South Africa 2026 Across K15C calibration; ICE output, not hybrid system output."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 76,
+        "max": 76,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 137,
+        "max": 137,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15c-across-south-africa-2026-identity",
+        "batch11-suzuki-k15c-across-south-africa-2026-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Across mild hybrid (South Africa, 2026 documented specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "South Africa"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15c-across-south-africa-2026-identity",
+          "title": "Suzuki Auto South Africa Across launch specification",
+          "publisher": "Suzuki Auto South Africa",
+          "year": 2026,
+          "url": "https://blog.suzukiauto.co.za/blog/its-time-to-move-on-up-with-the-all-new-suzuki-across",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "20 March 2026 official launch page names Across and K15C, petrol mild hybrid, explicitly naturally aspirated, 76 kW at 6,000 rpm and 137 N·m at 4,400 rpm.",
+            "Only the South Africa 2026 Across K15C calibration; ICE output, not hybrid system output."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15C"
+            ],
+            "applications": [
+              "Suzuki Across mild hybrid (South Africa, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "South Africa"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-k15c-across-south-africa-2026-construction",
+          "title": "Maruti Suzuki K15C construction specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official K15C exact-code page specifies a 1.5-litre inline-four naturally aspirated petrol engine, DOHC 16-valve Dual VVT and dual fuel injectors.",
+            "This construction evidence is limited to K15C after the exact application/year identity is bound by batch11-suzuki-k15c-across-south-africa-2026-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-k15c-across-south-africa-2026-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki Across mild hybrid (South Africa, 2026 documented specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "South Africa"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15b-ertiga-indonesia-2018",
+    "code": "K15B",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "1.5 L · 1,462 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki All New Ertiga (Indonesia, 2018 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki All New Ertiga (Indonesia, 2018 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the Indonesia 2018 All New Ertiga calibration; trims and transmissions consolidated."
+      },
+      "es": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki All New Ertiga (Indonesia, 2018 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the Indonesia 2018 All New Ertiga calibration; trims and transmissions consolidated."
+      },
+      "fr": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki All New Ertiga (Indonesia, 2018 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the Indonesia 2018 All New Ertiga calibration; trims and transmissions consolidated."
+      },
+      "de": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki All New Ertiga (Indonesia, 2018 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the Indonesia 2018 All New Ertiga calibration; trims and transmissions consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15b-ertiga-indonesia-2018-identity",
+        "batch11-suzuki-k15b-ertiga-indonesia-2018-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki All New Ertiga (Indonesia, 2018 documented specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Indonesia"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15b-ertiga-indonesia-2018-identity",
+          "title": "Suzuki Indonesia All New Ertiga launch and brochure",
+          "publisher": "PT Suzuki Indomobil Sales",
+          "year": 2018,
+          "url": "https://www.suzuki.co.id/news/suzuki-meluncurkan-the-all-new-ertiga-di-indonesia",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "2018 official launch/specification names K15B, 1,462 cc four-cylinder DOHC 16-valve petrol with multipoint injection; 77 kW at 6,000 rpm and 138 N·m at 4,400 rpm.",
+            "Only the Indonesia 2018 All New Ertiga calibration; trims and transmissions consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15B"
+            ],
+            "applications": [
+              "Suzuki All New Ertiga (Indonesia, 2018 documented specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-k15b-ertiga-indonesia-2018-construction",
+          "title": "Maruti Suzuki K15B construction specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official K15B exact-code page explicitly describes the engine as four-cylinder naturally aspirated petrol and DOHC 16-valve; DOHC establishes two total cams.",
+            "This construction evidence is limited to K15B after the exact application/year identity is bound by batch11-suzuki-k15b-ertiga-indonesia-2018-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-k15b-ertiga-indonesia-2018-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki All New Ertiga (Indonesia, 2018 documented specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15b-xl7-indonesia-2020",
+    "code": "K15B",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2020",
+    "displacement": "1.5 L · 1,462 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki XL7 (Indonesia, 2020 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL7 (Indonesia, 2020 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the Indonesia 2020 XL7 calibration; trims and transmissions consolidated."
+      },
+      "es": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL7 (Indonesia, 2020 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the Indonesia 2020 XL7 calibration; trims and transmissions consolidated."
+      },
+      "fr": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL7 (Indonesia, 2020 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the Indonesia 2020 XL7 calibration; trims and transmissions consolidated."
+      },
+      "de": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL7 (Indonesia, 2020 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the Indonesia 2020 XL7 calibration; trims and transmissions consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15b-xl7-indonesia-2020-identity",
+        "batch11-suzuki-k15b-xl7-indonesia-2020-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki XL7 (Indonesia, 2020 documented specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Indonesia"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15b-xl7-indonesia-2020-identity",
+          "title": "Suzuki Indonesia XL7 launch and specification",
+          "publisher": "PT Suzuki Indomobil Sales",
+          "year": 2020,
+          "url": "https://www.suzuki.co.id/news/peluncuran-global-suzuki-xl7-di-indonesia?page=-145",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "15 February 2020 official launch names XL7 and K15B, 1,462 cc petrol; official model brochure supplies four cylinders, 16 valves, multipoint injection, 77 kW at 6,000 rpm and 138 N·m at 4,400 rpm.",
+            "Only the Indonesia 2020 XL7 calibration; trims and transmissions consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15B"
+            ],
+            "applications": [
+              "Suzuki XL7 (Indonesia, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-k15b-xl7-indonesia-2020-construction",
+          "title": "Maruti Suzuki K15B construction specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official K15B exact-code page explicitly describes the engine as four-cylinder naturally aspirated petrol and DOHC 16-valve; DOHC establishes two total cams.",
+            "This construction evidence is limited to K15B after the exact application/year identity is bound by batch11-suzuki-k15b-xl7-indonesia-2020-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-k15b-xl7-indonesia-2020-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki XL7 (Indonesia, 2020 documented specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15b-jimny-indonesia-2019",
+    "code": "K15B",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2019",
+    "displacement": "1.5 L · 1,462 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Jimny IV (Indonesia, 2019 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki Jimny IV (Indonesia, 2019 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the Indonesia 2019 Jimny IV calibration; drivetrain and transmission variants consolidated."
+      },
+      "es": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki Jimny IV (Indonesia, 2019 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the Indonesia 2019 Jimny IV calibration; drivetrain and transmission variants consolidated."
+      },
+      "fr": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki Jimny IV (Indonesia, 2019 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the Indonesia 2019 Jimny IV calibration; drivetrain and transmission variants consolidated."
+      },
+      "de": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki Jimny IV (Indonesia, 2019 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the Indonesia 2019 Jimny IV calibration; drivetrain and transmission variants consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75,
+        "max": 75,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 130,
+        "max": 130,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15b-jimny-indonesia-2019-identity",
+        "batch11-suzuki-k15b-jimny-indonesia-2019-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Jimny IV (Indonesia, 2019 documented specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Indonesia"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15b-jimny-indonesia-2019-identity",
+          "title": "Suzuki Indonesia fourth-generation Jimny launch and brochure",
+          "publisher": "PT Suzuki Indomobil Sales",
+          "year": 2019,
+          "url": "https://www.suzuki.co.id/news/suzuki-luncurkan-jimny-generasi-keempat-di-giias-2019",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "2019 official launch binds the fourth-generation Indonesia Jimny; official Jimny brochure names K15B, 1,462 cc, four cylinders, 16 valves, multipoint injection, 102 PS (75 kW) at 6,000 rpm and 130 N·m at 4,000 rpm.",
+            "Only the Indonesia 2019 Jimny IV calibration; drivetrain and transmission variants consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15B"
+            ],
+            "applications": [
+              "Suzuki Jimny IV (Indonesia, 2019 documented specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-k15b-jimny-indonesia-2019-construction",
+          "title": "Maruti Suzuki K15B construction specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official K15B exact-code page explicitly describes the engine as four-cylinder naturally aspirated petrol and DOHC 16-valve; DOHC establishes two total cams.",
+            "This construction evidence is limited to K15B after the exact application/year identity is bound by batch11-suzuki-k15b-jimny-indonesia-2019-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-k15b-jimny-indonesia-2019-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki Jimny IV (Indonesia, 2019 documented specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Indonesia"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15b-jimny5-philippines-2024",
+    "code": "K15B",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2024",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Jimny 5-Door (Philippines, 2024 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Jimny 5-Door (Philippines, 2024 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the Philippines 2024 Jimny 5-Door calibration; transmissions and grades consolidated."
+      },
+      "es": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Jimny 5-Door (Philippines, 2024 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the Philippines 2024 Jimny 5-Door calibration; transmissions and grades consolidated."
+      },
+      "fr": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Jimny 5-Door (Philippines, 2024 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the Philippines 2024 Jimny 5-Door calibration; transmissions and grades consolidated."
+      },
+      "de": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Suzuki Jimny 5-Door (Philippines, 2024 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the Philippines 2024 Jimny 5-Door calibration; transmissions and grades consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74.3,
+        "max": 74.3,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 130,
+        "max": 130,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15b-jimny5-philippines-2024-identity",
+        "batch11-suzuki-k15b-jimny5-philippines-2024-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Jimny 5-Door (Philippines, 2024 documented specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Philippines"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15b-jimny5-philippines-2024-identity",
+          "title": "Suzuki Philippines Jimny 5-Door technical overview",
+          "publisher": "Suzuki Philippines Inc.",
+          "year": 2024,
+          "url": "https://auto.suzuki.com.ph/pages/everything-you-need-to-know-about-the-all-new-suzuki-jimny-5-door",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "Official Philippines page says the model was unveiled in January 2024 and names the 1.5 L K15B, 101 PS (74.3 kW) at 6,000 rpm, 130 N·m at 4,000 rpm and multipoint injection.",
+            "Only the Philippines 2024 Jimny 5-Door calibration; transmissions and grades consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15B"
+            ],
+            "applications": [
+              "Suzuki Jimny 5-Door (Philippines, 2024 documented specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Philippines"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-k15b-jimny5-philippines-2024-construction",
+          "title": "Maruti Suzuki K15B construction specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official K15B exact-code page explicitly describes the engine as four-cylinder naturally aspirated petrol and DOHC 16-valve.",
+            "This construction evidence is limited to K15B after the exact application/year identity is bound by batch11-suzuki-k15b-jimny5-philippines-2024-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-k15b-jimny5-philippines-2024-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki Jimny 5-Door (Philippines, 2024 documented specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Philippines"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k15b-xl6-south-africa-2023",
+    "code": "K15B",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "1.5 L · 1,462 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki XL6 (South Africa, 2023 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL6 (South Africa, 2023 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the South Africa 2023 XL6 calibration; trims and transmissions consolidated."
+      },
+      "es": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL6 (South Africa, 2023 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the South Africa 2023 XL6 calibration; trims and transmissions consolidated."
+      },
+      "fr": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL6 (South Africa, 2023 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the South Africa 2023 XL6 calibration; trims and transmissions consolidated."
+      },
+      "de": {
+        "construction": "K15B: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,462 cc; Suzuki XL6 (South Africa, 2023 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the South Africa 2023 XL6 calibration; trims and transmissions consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 138,
+        "max": 138,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k15b-xl6-south-africa-2023-identity",
+        "batch11-suzuki-k15b-xl6-south-africa-2023-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki XL6 (South Africa, 2023 documented specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "South Africa"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k15b-xl6-south-africa-2023-identity",
+          "title": "Suzuki Auto South Africa XL6 brochure",
+          "publisher": "Suzuki Auto South Africa",
+          "year": 2023,
+          "url": "https://content.suzukiauto.co.za/hubfs/Suzuki_Brochures_Latest/Suzuki%20XL6%20Brochure%20-%202023.pdf?hsLang=en-za",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "Official 2023 XL6 brochure names K15B, petrol, four cylinders, 16 valves, 1,462 cc, multipoint injection, 77 kW at 6,000 rpm and 138 N·m at 4,400 rpm.",
+            "Only the South Africa 2023 XL6 calibration; trims and transmissions consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K15B"
+            ],
+            "applications": [
+              "Suzuki XL6 (South Africa, 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "South Africa"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-k15b-xl6-south-africa-2023-construction",
+          "title": "Maruti Suzuki K15B construction specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2026,
+          "url": "https://www.marutisuzuki.com/engage/technology/next-generation-powersystem/k15-series.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official K15B exact-code page explicitly describes the engine as four-cylinder naturally aspirated petrol and DOHC 16-valve; DOHC establishes two total cams.",
+            "This construction evidence is limited to K15B after the exact application/year identity is bound by batch11-suzuki-k15b-xl6-south-africa-2023-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-k15b-xl6-south-africa-2023-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki XL6 (South Africa, 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "South Africa"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-hd-eg-charade-detomaso-japan-1997",
+    "code": "HD-EG",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1997",
+    "displacement": "1.6 L · 1,589 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Charade De Tomaso (Japan, September 1997 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HD-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Charade De Tomaso (Japan, September 1997 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan September 1997 Charade De Tomaso calibration."
+      },
+      "es": {
+        "construction": "HD-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Charade De Tomaso (Japan, September 1997 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan September 1997 Charade De Tomaso calibration."
+      },
+      "fr": {
+        "construction": "HD-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Charade De Tomaso (Japan, September 1997 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan September 1997 Charade De Tomaso calibration."
+      },
+      "de": {
+        "construction": "HD-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.6 L · 1,589 cc; Daihatsu Charade De Tomaso (Japan, September 1997 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan September 1997 Charade De Tomaso calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92,
+        "rpm": {
+          "min": 6300,
+          "max": 6300
+        }
+      },
+      "torqueNm": {
+        "min": 144.2,
+        "max": 144.2,
+        "rpm": {
+          "min": 4000,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-hd-eg-charade-detomaso-japan-1997-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Charade De Tomaso (Japan, September 1997 documented specification)"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-hd-eg-charade-detomaso-japan-1997-specification",
+          "title": "Daihatsu Charade De Tomaso catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1997,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/CHARADE_DeTOMASO/GRADE__5002458/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "September 1997 catalogue names HD-EG; inline-four OHC 16-valve, 1,589 cc, supercharger row explicitly none, EFI, 92 kW at 6,300 rpm and 144.2 N·m at 4,000 rpm. OHC establishes one total camshaft.",
+            "Only the cited Japan September 1997 Charade De Tomaso calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HD-EG"
+            ],
+            "applications": [
+              "Daihatsu Charade De Tomaso (Japan, September 1997 documented specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-jb-det-move-custom-rs-japan-2005",
+    "code": "JB-DET",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2005",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Move Custom RS (Japan, December 2005 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Custom RS (Japan, December 2005 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan December 2005 Move Custom RS calibration; distinct base model from the Batch 11 Copen owner."
+      },
+      "es": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Custom RS (Japan, December 2005 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan December 2005 Move Custom RS calibration; distinct base model from the Batch 11 Copen owner."
+      },
+      "fr": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Custom RS (Japan, December 2005 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan December 2005 Move Custom RS calibration; distinct base model from the Batch 11 Copen owner."
+      },
+      "de": {
+        "construction": "JB-DET: Inline-4 · DOHC · 16 valves · 2 camshafts total, 0.7 L · 659 cc; Daihatsu Move Custom RS (Japan, December 2005 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan December 2005 Move Custom RS calibration; distinct base model from the Batch 11 Copen owner."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 100,
+        "max": 100,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-jb-det-move-custom-rs-japan-2005-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Move Custom RS (Japan, December 2005 documented specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-jb-det-move-custom-rs-japan-2005-specification",
+          "title": "Daihatsu Move Custom RS catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2005,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/MOVE/GRADE__10031900/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "December 2005 catalogue names JB-DET; inline-four DOHC 16-valve intercooled turbo, 659 cc, EFI, 47 kW at 6,000 rpm and 100 N·m at 3,600 rpm.",
+            "Only the cited Japan December 2005 Move Custom RS calibration; distinct base model from the Batch 11 Copen owner."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "JB-DET"
+            ],
+            "applications": [
+              "Daihatsu Move Custom RS (Japan, December 2005 documented specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-he-eg-pyzar-japan-1998",
+    "code": "HE-EG",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1998",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan July 1998 Pyzar CL Limited calibration."
+      },
+      "es": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan July 1998 Pyzar CL Limited calibration."
+      },
+      "fr": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan July 1998 Pyzar CL Limited calibration."
+      },
+      "de": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan July 1998 Pyzar CL Limited calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 127.5,
+        "max": 127.5,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-he-eg-pyzar-japan-1998-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-he-eg-pyzar-japan-1998-specification",
+          "title": "Daihatsu Pyzar CL Limited catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1998,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/PYZAR/GRADE__5001237/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "July 1998 catalogue names HE-EG; inline-four OHC 16-valve, 1,498 cc, supercharger row explicitly none, EFI, 74 kW at 6,400 rpm and 127.5 N·m at 3,600 rpm. OHC establishes one total camshaft.",
+            "Only the cited Japan July 1998 Pyzar CL Limited calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HE-EG"
+            ],
+            "applications": [
+              "Daihatsu Pyzar CL Limited (Japan, July 1998 documented specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-he-eg-charade-social-japan-1994",
+    "code": "HE-EG",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "1994",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Charade Social SE (Japan, May 1994 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social SE (Japan, May 1994 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan May 1994 Charade Social SE calibration; materially distinct from the 1997 74 kW/127.5 N·m Batch 11 calibration."
+      },
+      "es": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social SE (Japan, May 1994 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan May 1994 Charade Social SE calibration; materially distinct from the 1997 74 kW/127.5 N·m Batch 11 calibration."
+      },
+      "fr": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social SE (Japan, May 1994 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan May 1994 Charade Social SE calibration; materially distinct from the 1997 74 kW/127.5 N·m Batch 11 calibration."
+      },
+      "de": {
+        "construction": "HE-EG: Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.5 L · 1,498 cc; Daihatsu Charade Social SE (Japan, May 1994 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan May 1994 Charade Social SE calibration; materially distinct from the 1997 74 kW/127.5 N·m Batch 11 calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 71,
+        "max": 71,
+        "rpm": {
+          "min": 6400,
+          "max": 6400
+        }
+      },
+      "torqueNm": {
+        "min": 125.5,
+        "max": 125.5,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-he-eg-charade-social-japan-1994-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Charade Social SE (Japan, May 1994 documented specification)"
+        ],
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-he-eg-charade-social-japan-1994-specification",
+          "title": "Daihatsu Charade Social SE catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 1994,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/CHARADE_SOCIAL/GRADE__5001427/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "May 1994 catalogue names HE-EG; inline-four OHC 16-valve, 1,498 cc, supercharger row explicitly none, EFI, 71 kW at 6,400 rpm and 125.5 N·m at 3,600 rpm. OHC establishes one total camshaft.",
+            "Only the cited Japan May 1994 Charade Social SE calibration; materially distinct from the 1997 74 kW/127.5 N·m Batch 11 calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "HE-EG"
+            ],
+            "applications": [
+              "Daihatsu Charade Social SE (Japan, May 1994 documented specification)"
+            ],
+            "years": {
+              "from": 1994,
+              "to": 1994
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-daihatsu-3sz-ve-bego-japan-2012",
+    "code": "3SZ-VE",
+    "aliases": [],
+    "maker": "Daihatsu",
+    "regionKey": "japan",
+    "years": "2012",
+    "displacement": "1.5 L · 1,495 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Daihatsu Bego CX Special (Japan, April 2012 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "3SZ-VE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,495 cc; Daihatsu Bego CX Special (Japan, April 2012 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan April 2012 Bego CX Special calibration."
+      },
+      "es": {
+        "construction": "3SZ-VE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,495 cc; Daihatsu Bego CX Special (Japan, April 2012 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan April 2012 Bego CX Special calibration."
+      },
+      "fr": {
+        "construction": "3SZ-VE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,495 cc; Daihatsu Bego CX Special (Japan, April 2012 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan April 2012 Bego CX Special calibration."
+      },
+      "de": {
+        "construction": "3SZ-VE: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,495 cc; Daihatsu Bego CX Special (Japan, April 2012 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan April 2012 Bego CX Special calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 80,
+        "max": 80,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 141,
+        "max": 141,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-daihatsu-3sz-ve-bego-japan-2012-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Daihatsu Bego CX Special (Japan, April 2012 documented specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-daihatsu-3sz-ve-bego-japan-2012-specification",
+          "title": "Daihatsu Bego CX Special catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd.",
+          "year": 2012,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/BEGO/GRADE__10075806/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "April 2012 catalogue names 3SZ-VE; inline-four DOHC 16-valve, 1,495 cc, supercharger row explicitly none, EFI, 80 kW at 6,000 rpm and 141 N·m at 4,400 rpm.",
+            "Only the cited Japan April 2012 Bego CX Special calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "3SZ-VE"
+            ],
+            "applications": [
+              "Daihatsu Bego CX Special (Japan, April 2012 documented specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-hino-a09c-700-japan-2017",
+    "code": "A09C",
+    "aliases": [],
+    "maker": "Hino",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "8.9 L · 8,866 cc",
+    "layout": "Inline-6 · SOHC · 24 valves · 1 camshaft total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A09C: Inline-6 · SOHC · 24 valves · 1 camshaft total, 8.9 L · 8,866 cc; HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2017 HINO700 commercial specification and its A09C calibration."
+      },
+      "es": {
+        "construction": "A09C: Inline-6 · SOHC · 24 valves · 1 camshaft total, 8.9 L · 8,866 cc; HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2017 HINO700 commercial specification and its A09C calibration."
+      },
+      "fr": {
+        "construction": "A09C: Inline-6 · SOHC · 24 valves · 1 camshaft total, 8.9 L · 8,866 cc; HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2017 HINO700 commercial specification and its A09C calibration."
+      },
+      "de": {
+        "construction": "A09C: Inline-6 · SOHC · 24 valves · 1 camshaft total, 8.9 L · 8,866 cc; HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2017 HINO700 commercial specification and its A09C calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279,
+        "rpm": {
+          "min": 1700,
+          "max": 1700
+        }
+      },
+      "torqueNm": {
+        "min": 1765,
+        "max": 1765,
+        "rpm": {
+          "min": 1100,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-hino-a09c-700-japan-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-hino-a09c-700-japan-2017-specification",
+          "title": "Hino Tokyo Motor Show 2017 vehicle and engine specifications",
+          "publisher": "Hino Motors, Ltd.",
+          "year": 2017,
+          "url": "https://www.hino-global.com/corp/news/2017/20171013.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official 13 October 2017 table binds HINO700 2RG-FW1AXHG to A09C; inline-six OHC four valves per cylinder (24 total), 8.866 L, two-stage turbo with intercooler, ultra-high-pressure common rail, 279 kW at 1,700 rpm and 1,765 N·m at 1,100-1,400 rpm. OHC establishes one total camshaft.",
+            "Only the cited Japan 2017 HINO700 commercial specification and its A09C calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A09C"
+            ],
+            "applications": [
+              "HINO700 Series 2RG-FW1AXHG (Japan, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-hino-a05c-500-japan-2017",
+    "code": "A05C",
+    "aliases": [],
+    "maker": "Hino",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "5.1 L · 5,123 cc",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "A05C: Inline-4 · SOHC · 16 valves · 1 camshaft total, 5.1 L · 5,123 cc; HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2017 HINO500 commercial specification and its A05C calibration."
+      },
+      "es": {
+        "construction": "A05C: Inline-4 · SOHC · 16 valves · 1 camshaft total, 5.1 L · 5,123 cc; HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2017 HINO500 commercial specification and its A05C calibration."
+      },
+      "fr": {
+        "construction": "A05C: Inline-4 · SOHC · 16 valves · 1 camshaft total, 5.1 L · 5,123 cc; HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2017 HINO500 commercial specification and its A05C calibration."
+      },
+      "de": {
+        "construction": "A05C: Inline-4 · SOHC · 16 valves · 1 camshaft total, 5.1 L · 5,123 cc; HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2017 HINO500 commercial specification and its A05C calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 191,
+        "max": 191,
+        "rpm": {
+          "min": 2300,
+          "max": 2300
+        }
+      },
+      "torqueNm": {
+        "min": 882,
+        "max": 882,
+        "rpm": {
+          "min": 1400,
+          "max": 1400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-hino-a05c-500-japan-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-hino-a05c-500-japan-2017-specification",
+          "title": "Hino Tokyo Motor Show 2017 vehicle and engine specifications",
+          "publisher": "Hino Motors, Ltd.",
+          "year": 2017,
+          "url": "https://www.hino-global.com/corp/news/2017/20171013.html",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official 13 October 2017 table binds HINO500 2PG-FE2APBG to A05C; inline-four OHC four valves per cylinder (16 total), 5.123 L, two-stage turbo with intercooler, ultra-high-pressure common rail, 191 kW at 2,300 rpm and 882 N·m at 1,400 rpm. OHC establishes one total camshaft.",
+            "Only the cited Japan 2017 HINO500 commercial specification and its A05C calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "A05C"
+            ],
+            "applications": [
+              "HINO500 Series 2PG-FE2APBG (Japan, 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-3b20-ek-space-na-japan-2018",
+    "code": "3B20",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2018 naturally aspirated eK Space Custom calibration; equal grades and drivetrains consolidated."
+      },
+      "es": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2018 naturally aspirated eK Space Custom calibration; equal grades and drivetrains consolidated."
+      },
+      "fr": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2018 naturally aspirated eK Space Custom calibration; equal grades and drivetrains consolidated."
+      },
+      "de": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2018 naturally aspirated eK Space Custom calibration; equal grades and drivetrains consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 36,
+        "max": 36,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 59,
+        "max": 59,
+        "rpm": {
+          "min": 5000,
+          "max": 5000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-3b20-ek-space-na-japan-2018-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-3b20-ek-space-na-japan-2018-specification",
+          "title": "Mitsubishi eK Space Custom specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2018,
+          "url": "https://www.mitsubishi-motors.co.jp/lineup/ek_space_custom/spec/pdf/ek_space_custom_spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official specification table names 3B20 MIVEC, inline-three DOHC 12-valve, 659 cc petrol ECI-MULTI; naturally aspirated columns publish 36 kW at 6,500 rpm and 59 N·m at 5,000 rpm.",
+            "Only the cited Japan 2018 naturally aspirated eK Space Custom calibration; equal grades and drivetrains consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "3B20"
+            ],
+            "applications": [
+              "Mitsubishi eK Space Custom naturally aspirated (Japan, 2018 documented specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-mitsubishi-3b20-ek-space-turbo-japan-2018",
+    "code": "3B20",
+    "aliases": [],
+    "maker": "Mitsubishi",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "0.7 L · 659 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan 2018 turbo eK Space Custom calibration; materially distinct induction/performance, with equal grades and drivetrains consolidated."
+      },
+      "es": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan 2018 turbo eK Space Custom calibration; materially distinct induction/performance, with equal grades and drivetrains consolidated."
+      },
+      "fr": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan 2018 turbo eK Space Custom calibration; materially distinct induction/performance, with equal grades and drivetrains consolidated."
+      },
+      "de": {
+        "construction": "3B20: Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.7 L · 659 cc; Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan 2018 turbo eK Space Custom calibration; materially distinct induction/performance, with equal grades and drivetrains consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 47,
+        "max": 47,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 98,
+        "max": 98,
+        "rpm": {
+          "min": 3000,
+          "max": 3000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-mitsubishi-3b20-ek-space-turbo-japan-2018-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-mitsubishi-3b20-ek-space-turbo-japan-2018-specification",
+          "title": "Mitsubishi eK Space Custom specifications",
+          "publisher": "Mitsubishi Motors Corporation",
+          "year": 2018,
+          "url": "https://www.mitsubishi-motors.co.jp/lineup/ek_space_custom/spec/pdf/ek_space_custom_spec.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official specification table names 3B20 MIVEC, inline-three DOHC 12-valve, 659 cc petrol ECI-MULTI; turbo columns publish 47 kW at 6,000 rpm and 98 N·m at 3,000 rpm.",
+            "Only the cited Japan 2018 turbo eK Space Custom calibration; materially distinct induction/performance, with equal grades and drivetrains consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "3B20"
+            ],
+            "applications": [
+              "Mitsubishi eK Space Custom turbo (Japan, 2018 documented specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k10c-baleno-japan-2016",
+    "code": "K10C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "1.0 L · 996 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Baleno XT (Japan, May 2016 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Baleno XT (Japan, May 2016 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan May 2016 Baleno XT K10C calibration."
+      },
+      "es": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Baleno XT (Japan, May 2016 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan May 2016 Baleno XT K10C calibration."
+      },
+      "fr": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Baleno XT (Japan, May 2016 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan May 2016 Baleno XT K10C calibration."
+      },
+      "de": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Baleno XT (Japan, May 2016 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan May 2016 Baleno XT K10C calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 82,
+        "max": 82,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 160,
+        "max": 160,
+        "rpm": {
+          "min": 1500,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k10c-baleno-japan-2016-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Baleno XT (Japan, May 2016 documented specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k10c-baleno-japan-2016-specification",
+          "title": "Suzuki Baleno 2016 specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2016,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/1_auto/baleno/166.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official May 2016 table names K10C, inline-three direct-injection turbo DOHC 12-valve, 0.996 L petrol, 82 kW at 5,500 rpm and 160 N·m at 1,500-4,000 rpm.",
+            "Only the cited Japan May 2016 Baleno XT K10C calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K10C"
+            ],
+            "applications": [
+              "Suzuki Baleno XT (Japan, May 2016 documented specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k12c-baleno-japan-2016",
+    "code": "K12C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2016",
+    "displacement": "1.2 L · 1,242 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Baleno XG (Japan, March 2016 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K12C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L · 1,242 cc; Suzuki Baleno XG (Japan, March 2016 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan March 2016 Baleno XG K12C calibration."
+      },
+      "es": {
+        "construction": "K12C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L · 1,242 cc; Suzuki Baleno XG (Japan, March 2016 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan March 2016 Baleno XG K12C calibration."
+      },
+      "fr": {
+        "construction": "K12C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L · 1,242 cc; Suzuki Baleno XG (Japan, March 2016 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan March 2016 Baleno XG K12C calibration."
+      },
+      "de": {
+        "construction": "K12C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L · 1,242 cc; Suzuki Baleno XG (Japan, March 2016 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan March 2016 Baleno XG K12C calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 67,
+        "max": 67,
+        "rpm": {
+          "min": 6000,
+          "max": 6000
+        }
+      },
+      "torqueNm": {
+        "min": 118,
+        "max": 118,
+        "rpm": {
+          "min": 4400,
+          "max": 4400
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k12c-baleno-japan-2016-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Baleno XG (Japan, March 2016 documented specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k12c-baleno-japan-2016-specification",
+          "title": "Suzuki Baleno 2016 specifications and launch",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2016,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/1_auto/baleno/166.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official March 2016 table and launch name K12C Dualjet, inline-four naturally aspirated DOHC 16-valve, 1.242 L regular petrol with dual port injectors, 67 kW at 6,000 rpm and 118 N·m at 4,400 rpm.",
+            "Only the cited Japan March 2016 Baleno XG K12C calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K12C"
+            ],
+            "applications": [
+              "Suzuki Baleno XG (Japan, March 2016 documented specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k10c-xbee-japan-2017",
+    "code": "K10C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "1.0 L · 996 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Xbee (Japan, December 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Xbee (Japan, December 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan December 2017 Xbee K10C calibration; hybrid motor output excluded."
+      },
+      "es": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Xbee (Japan, December 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan December 2017 Xbee K10C calibration; hybrid motor output excluded."
+      },
+      "fr": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Xbee (Japan, December 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan December 2017 Xbee K10C calibration; hybrid motor output excluded."
+      },
+      "de": {
+        "construction": "K10C: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L · 996 cc; Suzuki Xbee (Japan, December 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan December 2017 Xbee K10C calibration; hybrid motor output excluded."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 150,
+        "max": 150,
+        "rpm": {
+          "min": 1700,
+          "max": 4000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k10c-xbee-japan-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Xbee (Japan, December 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k10c-xbee-japan-2017-specification",
+          "title": "Suzuki Xbee 2017 specifications",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2017,
+          "url": "https://www.suzuki.co.jp/suzuki_digital_library/pdf/1_auto/xbee/186.pdf",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official December 2017 table names K10C, inline-three direct-injection turbo DOHC 12-valve, 0.996 L petrol, 73 kW at 5,500 rpm and 150 N·m at 1,700-4,000 rpm.",
+            "Only the cited Japan December 2017 Xbee K10C calibration; hybrid motor output excluded."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K10C"
+            ],
+            "applications": [
+              "Suzuki Xbee (Japan, December 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-k14c-swift-sport-japan-2017",
+    "code": "K14C",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2017",
+    "displacement": "1.4 L · 1,371 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "K14C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L · 1,371 cc; Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan September 2017 Swift Sport ZC33S calibration; transmissions consolidated."
+      },
+      "es": {
+        "construction": "K14C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L · 1,371 cc; Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan September 2017 Swift Sport ZC33S calibration; transmissions consolidated."
+      },
+      "fr": {
+        "construction": "K14C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L · 1,371 cc; Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan September 2017 Swift Sport ZC33S calibration; transmissions consolidated."
+      },
+      "de": {
+        "construction": "K14C: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L · 1,371 cc; Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan September 2017 Swift Sport ZC33S calibration; transmissions consolidated."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 2500,
+          "max": 3500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-k14c-swift-sport-japan-2017-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-k14c-swift-sport-japan-2017-specification",
+          "title": "Suzuki Swift Sport launch specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2017,
+          "url": "https://www.suzuki.co.jp/release/a/2017/0913/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official 13 September 2017 launch/specification names K14C Boosterjet, inline-four direct-injection turbo DOHC 16-valve, 1,371 cc petrol, 103 kW at 5,500 rpm and 230 N·m at 2,500-3,500 rpm.",
+            "Only the cited Japan September 2017 Swift Sport ZC33S calibration; transmissions consolidated."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "K14C"
+            ],
+            "applications": [
+              "Suzuki Swift Sport ZC33S (Japan, September 2017 documented specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-z12e-swift-japan-2023",
+    "code": "Z12E",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "1.2 L · 1,197 cc",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Z12E: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L · 1,197 cc; Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the Japan December 2023 Swift Z12E ICE calibration; mild-hybrid motor/system output excluded."
+      },
+      "es": {
+        "construction": "Z12E: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L · 1,197 cc; Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the Japan December 2023 Swift Z12E ICE calibration; mild-hybrid motor/system output excluded."
+      },
+      "fr": {
+        "construction": "Z12E: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L · 1,197 cc; Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the Japan December 2023 Swift Z12E ICE calibration; mild-hybrid motor/system output excluded."
+      },
+      "de": {
+        "construction": "Z12E: Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L · 1,197 cc; Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the Japan December 2023 Swift Z12E ICE calibration; mild-hybrid motor/system output excluded."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 60,
+        "max": 60,
+        "rpm": {
+          "min": 5700,
+          "max": 5700
+        }
+      },
+      "torqueNm": {
+        "min": 108,
+        "max": 108,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-z12e-swift-japan-2023-identity",
+        "batch11-suzuki-z12e-swift-japan-2023-construction"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-z12e-swift-japan-2023-identity",
+          "title": "Suzuki Swift 2023 digital library and current specification",
+          "publisher": "Suzuki Motor Corporation",
+          "year": 2023,
+          "url": "https://www.suzuki.co.jp/car/swift/detail/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves"
+          ],
+          "pageNotes": [
+            "Official Swift specification names Z12E, inline-three DOHC 12-valve, 1.197 L petrol, EPI, 60 kW at 5,700 rpm and 108 N·m at 4,500 rpm; Digital Library binds the generation to December 2023.",
+            "Only the Japan December 2023 Swift Z12E ICE calibration; mild-hybrid motor/system output excluded."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "Z12E"
+            ],
+            "applications": [
+              "Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        },
+        {
+          "id": "batch11-suzuki-z12e-swift-japan-2023-construction",
+          "title": "Suzuki authorized dealer Z12E induction description",
+          "publisher": "Suzuki Motor Sales / authorized dealer network",
+          "year": 2026,
+          "url": "https://www.suzuki.co.jp/dealer/44201950.sj-oita/blog/?category_id=11&page=2&type=1",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "aspirationKey",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official Suzuki-domain authorized-dealer technical explanation explicitly calls Z12E a 1.2 L inline-three naturally aspirated engine and identifies it as the same engine used by Swift.",
+            "This construction evidence is limited to Z12E after the exact application/year identity is bound by batch11-suzuki-z12e-swift-japan-2023-identity."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "identityBindingRef": "batch11-suzuki-z12e-swift-japan-2023-identity",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Suzuki Swift ZCEDS/ZCDDS (Japan, December 2023 documented specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch11-suzuki-m16a-escudo-japan-2006",
+    "code": "M16A",
+    "aliases": [],
+    "maker": "Suzuki",
+    "regionKey": "japan",
+    "years": "2006",
+    "displacement": "1.6 L · 1,586 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Suzuki Escudo 1.6XC (Japan, June 2006 documented specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "M16A: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,586 cc; Suzuki Escudo 1.6XC (Japan, June 2006 documented specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the engine identity and technical specification.",
+        "cons": "Only the cited Japan June 2006 Escudo 1.6XC calibration."
+      },
+      "es": {
+        "construction": "M16A: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,586 cc; Suzuki Escudo 1.6XC (Japan, June 2006 documented specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad y las especificaciones del motor.",
+        "cons": "Only the cited Japan June 2006 Escudo 1.6XC calibration."
+      },
+      "fr": {
+        "construction": "M16A: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,586 cc; Suzuki Escudo 1.6XC (Japan, June 2006 documented specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité et les caractéristiques du moteur.",
+        "cons": "Only the cited Japan June 2006 Escudo 1.6XC calibration."
+      },
+      "de": {
+        "construction": "M16A: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,586 cc; Suzuki Escudo 1.6XC (Japan, June 2006 documented specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen Motoridentität und technische Daten.",
+        "cons": "Only the cited Japan June 2006 Escudo 1.6XC calibration."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 78,
+        "max": 78,
+        "rpm": {
+          "min": 5900,
+          "max": 5900
+        }
+      },
+      "torqueNm": {
+        "min": 145,
+        "max": 145,
+        "rpm": {
+          "min": 4100,
+          "max": 4100
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "batch11-suzuki-m16a-escudo-japan-2006-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Suzuki Escudo 1.6XC (Japan, June 2006 documented specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Japan"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch11-suzuki-m16a-escudo-japan-2006-specification",
+          "title": "Suzuki Escudo 1.6XC catalogue",
+          "publisher": "Daihatsu Motor Co., Ltd. official U-CATCH catalogue",
+          "year": 2006,
+          "url": "https://u-catch.daihatsu.co.jp/catalog/ESCUDO/GRADE__10034446/",
+          "page": 1,
+          "checkedAt": "2026-10-06",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official catalogue mirror for the June 2006 Escudo 1.6XC names M16A; inline-four DOHC 16-valve, 1,586 cc, supercharger row explicitly none, EPI, premium petrol, 78 kW at 5,900 rpm and 145 N·m at 4,100 rpm.",
+            "Only the cited Japan June 2006 Escudo 1.6XC calibration."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "codes": [
+              "M16A"
+            ],
+            "applications": [
+              "Suzuki Escudo 1.6XC (Japan, June 2006 documented specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Japan"
+            ]
+          }
+        }
+      ]
+    }
   }
 ];

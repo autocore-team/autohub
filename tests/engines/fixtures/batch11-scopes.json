@@ -1,0 +1,3377 @@
+[
+  {
+    "id": "batch11-nissan-ka24den-np300-mexico-2012",
+    "baseModel": "Nissan NP300",
+    "generation": "D22",
+    "code": "KA24DEN",
+    "maker": "Nissan",
+    "market": "Mexico",
+    "year": 2012,
+    "cc": 2389,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 106.6,
+    "powerRpm": [
+      5200,
+      5200
+    ],
+    "torque": 208.8,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-subaru-eg33-alcyone-svx-japan-1995",
+    "baseModel": "Subaru Alcyone SVX",
+    "generation": "CX",
+    "code": "EG33",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1995,
+    "cc": 3318,
+    "valves": 24,
+    "cams": 4,
+    "layout": "Boxer-6",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 177,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 308.9,
+    "torqueRpm": [
+      4800,
+      4800
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-honda-l15b7-civic-x-standard-usa-2020",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "L15B7",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2020,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 129.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 219.6,
+    "torqueRpm": [
+      1700,
+      5500
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-honda-l15ba-civic-x-hatchback-standard-usa-2017",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "L15BA",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2017,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 129.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 219.6,
+    "torqueRpm": [
+      1700,
+      5500
+    ],
+    "reason": "Distinct documented power or power/torque rpm calibration; gearbox/body alone is not sufficient."
+  },
+  {
+    "id": "batch11-honda-l15ba-civic-x-hatchback-180-cvt-usa-2017",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "L15BA",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2017,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 134.2,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 219.6,
+    "torqueRpm": [
+      1700,
+      5500
+    ],
+    "reason": "Distinct documented power or power/torque rpm calibration; gearbox/body alone is not sufficient."
+  },
+  {
+    "id": "batch11-honda-l15ba-civic-x-hatchback-180-mt-usa-2017",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "L15BA",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2017,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 134.2,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 240,
+    "torqueRpm": [
+      1900,
+      5000
+    ],
+    "reason": "Distinct documented power or power/torque rpm calibration; gearbox/body alone is not sufficient."
+  },
+  {
+    "id": "batch11-honda-l15b7-civic-si-x-usa-2020",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "L15B7",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2020,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 152.9,
+    "powerRpm": [
+      5700,
+      5700
+    ],
+    "torque": 260.3,
+    "torqueRpm": [
+      2100,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-honda-l15ca-civic-si-xi-usa-2024",
+    "baseModel": "Honda Civic",
+    "generation": "XI",
+    "code": "L15CA",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2024,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 149.1,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 260.3,
+    "torqueRpm": [
+      1800,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-honda-l15be-cr-v-v-usa-2017",
+    "baseModel": "Honda CR-V",
+    "generation": "V",
+    "code": "L15BE",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2017,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 141.7,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 242.7,
+    "torqueRpm": [
+      2000,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-honda-l15be-accord-x-usa-2018",
+    "baseModel": "Honda Accord",
+    "generation": "X",
+    "code": "L15BE",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2018,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 143.2,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 260.3,
+    "torqueRpm": [
+      1600,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual duplicate."
+  },
+  {
+    "id": "batch11-honda-l15b7-civic-xi-usa-2024",
+    "baseModel": "Honda Civic",
+    "generation": "XI",
+    "code": "L15B7",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2024,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 134.2,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 240,
+    "torqueRpm": [
+      1700,
+      4500
+    ],
+    "reason": "Separate documented XI generation and calibration versus earlier generation; no annual/trim split."
+  },
+  {
+    "id": "batch11-honda-l15be-accord-xi-usa-2023",
+    "baseModel": "Honda Accord",
+    "generation": "XI",
+    "code": "L15BE",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2023,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 143.2,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 260.3,
+    "torqueRpm": [
+      1700,
+      5000
+    ],
+    "reason": "Separate documented XI generation and calibration versus earlier generation; no annual/trim split."
+  },
+  {
+    "id": "batch11-honda-k20c1-civic-type-r-x-usa-2017",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "K20C1",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2017,
+    "cc": 1996,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 228.2,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 400,
+    "torqueRpm": [
+      2500,
+      4500
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-honda-k20c1-civic-type-r-xi-usa-2023",
+    "baseModel": "Honda Civic",
+    "generation": "XI",
+    "code": "K20C1",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2023,
+    "cc": 1996,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 234.9,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 420.3,
+    "torqueRpm": [
+      2600,
+      4000
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-honda-k20c4-accord-x-usa-2018",
+    "baseModel": "Honda Accord",
+    "generation": "X",
+    "code": "K20C4",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2018,
+    "cc": 1996,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 187.9,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 370.1,
+    "torqueRpm": [
+      1500,
+      4000
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-k20c6-tlx-ii-usa-2023",
+    "baseModel": "Acura TLX",
+    "generation": "II",
+    "code": "K20C6",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2023,
+    "displacement": "2.0 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 202.8,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 379.6,
+    "torqueRpm": [
+      1600,
+      4500
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-j30ac-tlx-ii-type-s-usa-2023",
+    "baseModel": "Acura TLX",
+    "generation": "II",
+    "code": "J30AC",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2023,
+    "displacement": "3.0 L",
+    "valves": 24,
+    "cams": 4,
+    "layout": "V6",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 264.7,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 480,
+    "torqueRpm": [
+      1400,
+      5000
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-k20c4-rdx-iii-usa-2020",
+    "baseModel": "Acura RDX",
+    "generation": "III",
+    "code": "K20C4",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2020,
+    "displacement": "2.0 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 202.8,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 379.6,
+    "torqueRpm": [
+      1600,
+      4500
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-j30ad-mdx-iv-type-s-usa-2022",
+    "baseModel": "Acura MDX",
+    "generation": "IV",
+    "code": "J30AD",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2022,
+    "displacement": "3.0 L",
+    "valves": 24,
+    "cams": 4,
+    "layout": "V6",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 264.7,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 480,
+    "torqueRpm": [
+      1400,
+      5000
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-j35y5-mdx-iii-usa-2018",
+    "baseModel": "Acura MDX",
+    "generation": "III",
+    "code": "J35Y5",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2018,
+    "displacement": "3.5 L",
+    "valves": 24,
+    "cams": 2,
+    "layout": "V6",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "directInjection",
+    "power": 216.3,
+    "powerRpm": [
+      6200,
+      6200
+    ],
+    "torque": 362,
+    "torqueRpm": [
+      4700,
+      4700
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-honda-j35y6-pilot-iii-usa-2020",
+    "baseModel": "Honda Pilot",
+    "generation": "III",
+    "code": "J35Y6",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2020,
+    "cc": 3471,
+    "valves": 24,
+    "cams": 2,
+    "layout": "V6",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "directInjection",
+    "power": 208.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 355.2,
+    "torqueRpm": [
+      4700,
+      4700
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-l15ca-integra-v-usa-2023",
+    "baseModel": "Acura Integra",
+    "generation": "V",
+    "code": "L15CA",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2023,
+    "displacement": "1.5 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 149.1,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 260.3,
+    "torqueRpm": [
+      1800,
+      5000
+    ],
+    "reason": "Distinct exact model/generation or documented engine calibration; repeated annual/trim/body/transmission rows consolidated."
+  },
+  {
+    "id": "batch11-acura-jnc1-nsx-ii-usa-2017",
+    "baseModel": "Acura NSX",
+    "generation": "II",
+    "code": "JNC1",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2017,
+    "cc": 3493,
+    "valves": 24,
+    "cams": 4,
+    "layout": "V6",
+    "fuel": "petrolHybrid",
+    "aspiration": "turbocharged",
+    "injection": "dualInjection",
+    "power": 372.8,
+    "powerRpm": [
+      6500,
+      7500
+    ],
+    "torque": 550.5,
+    "torqueRpm": [
+      2000,
+      6000
+    ],
+    "reason": "Type S hardware and ICE performance differ materially from the standard second-generation NSX; combined hybrid figures excluded."
+  },
+  {
+    "id": "batch11-acura-jnc1-nsx-ii-type-s-usa-2022",
+    "baseModel": "Acura NSX",
+    "generation": "II",
+    "code": "JNC1",
+    "maker": "Acura",
+    "market": "United States",
+    "year": 2022,
+    "cc": 3493,
+    "valves": 24,
+    "cams": 4,
+    "layout": "V6",
+    "fuel": "petrolHybrid",
+    "aspiration": "turbocharged",
+    "injection": "dualInjection",
+    "power": 387.8,
+    "powerRpm": [
+      6500,
+      6850
+    ],
+    "torque": 600.6,
+    "torqueRpm": [
+      2300,
+      6000
+    ],
+    "reason": "Type S hardware and ICE performance differ materially from the standard second-generation NSX; combined hybrid figures excluded."
+  },
+  {
+    "id": "batch11-honda-k20c2-civic-x-usa-2019",
+    "baseModel": "Honda Civic",
+    "generation": "X",
+    "code": "K20C2",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2019,
+    "cc": 1996,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 117.8,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 187.1,
+    "torqueRpm": [
+      4200,
+      4200
+    ],
+    "reason": "Separate exact engine/application; all matching trims/gearboxes consolidated, no annual/body split."
+  },
+  {
+    "id": "batch11-honda-j35y7-odyssey-v-usa-2020",
+    "baseModel": "Honda Odyssey",
+    "generation": "V",
+    "code": "J35Y7",
+    "maker": "Honda",
+    "market": "United States",
+    "year": 2020,
+    "cc": 3471,
+    "valves": 24,
+    "cams": 2,
+    "layout": "V6",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "directInjection",
+    "power": 208.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 355.2,
+    "torqueRpm": [
+      4700,
+      4700
+    ],
+    "reason": "Separate exact engine/application; all matching trims/gearboxes consolidated, no annual/body split."
+  },
+  {
+    "id": "batch11-subaru-en07-r1-japan-2005",
+    "baseModel": "Subaru R1",
+    "generation": "RJ1/RJ2",
+    "code": "EN07",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2005,
+    "cc": 658,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 40,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 63,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-en07-r2-r-japan-2003",
+    "baseModel": "Subaru R2",
+    "generation": "RC1/RC2",
+    "code": "EN07",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2003,
+    "cc": 658,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 40,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 63,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-en07-r2-s-japan-2003",
+    "baseModel": "Subaru R2",
+    "generation": "RC1/RC2",
+    "code": "EN07",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2003,
+    "cc": 658,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "supercharged",
+    "injection": "multiPointInjection",
+    "power": 47,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 103,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-el15-impreza-iii-japan-2007",
+    "baseModel": "Subaru Impreza",
+    "generation": "III (GH)",
+    "code": "EL15",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2007,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 81,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 144,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej15-impreza-i-japan-1992",
+    "baseModel": "Subaru Impreza",
+    "generation": "I (GC)",
+    "code": "EJ15",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1493,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 71,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 129.4,
+    "torqueRpm": [
+      4500,
+      4500
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej16-impreza-i-japan-1992",
+    "baseModel": "Subaru Impreza",
+    "generation": "I (GC)",
+    "code": "EJ16",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1597,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 74,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 138.3,
+    "torqueRpm": [
+      4500,
+      4500
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej18-impreza-i-japan-1992",
+    "baseModel": "Subaru Impreza",
+    "generation": "I (GC)",
+    "code": "EJ18",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1820,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 85,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 154,
+    "torqueRpm": [
+      4500,
+      4500
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-wrx-sti-va-japan-2014",
+    "baseModel": "Subaru WRX STI",
+    "generation": "VA",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2014,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 227,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 422,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-exiga-na-japan-2008",
+    "baseModel": "Subaru Exiga",
+    "generation": "YA",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2008,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 109,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 191,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-exiga-turbo-japan-2008",
+    "baseModel": "Subaru Exiga",
+    "generation": "YA",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2008,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 165,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 326,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-iii-na-japan-2007",
+    "baseModel": "Subaru Impreza",
+    "generation": "III (GH)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2007,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 103,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 186,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-iii-turbo-japan-2007",
+    "baseModel": "Subaru Impreza",
+    "generation": "III (GH)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2007,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 184,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 333,
+    "torqueRpm": [
+      2400,
+      2400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-wrx-ii-na-japan-2000",
+    "baseModel": "Subaru Impreza WRX",
+    "generation": "II (GD)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2000,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 114,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 196,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-wrx-ii-turbo-japan-2000",
+    "baseModel": "Subaru Impreza WRX",
+    "generation": "II (GD)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2000,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 184,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 333,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-b4-iii-twin-turbo-japan-1998",
+    "baseModel": "Subaru Legacy B4",
+    "generation": "III (BE)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1998,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 206,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 343.2,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-b4-iv-na-japan-2003",
+    "baseModel": "Subaru Legacy B4",
+    "generation": "IV (BL)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2003,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 103,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 186,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-b4-iv-turbo-japan-2003",
+    "baseModel": "Subaru Legacy B4",
+    "generation": "IV (BL)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2003,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 191,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 343,
+    "torqueRpm": [
+      2400,
+      2400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-i-turbo-japan-1997",
+    "baseModel": "Subaru Forester",
+    "generation": "I (SF)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1997,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 184,
+    "powerRpm": [
+      6250,
+      6250
+    ],
+    "torque": 306,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-ii-na-japan-2002",
+    "baseModel": "Subaru Forester",
+    "generation": "II (SG)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2002,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 101,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 186,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-ii-turbo-japan-2002",
+    "baseModel": "Subaru Forester",
+    "generation": "II (SG)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2002,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 162,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 309,
+    "torqueRpm": [
+      3500,
+      3500
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-iii-na-japan-2007",
+    "baseModel": "Subaru Forester",
+    "generation": "III (SH)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2007,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 109,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 191,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-forester-iii-turbo-japan-2007",
+    "baseModel": "Subaru Forester",
+    "generation": "III (SH)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2007,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 169,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 319,
+    "torqueRpm": [
+      2800,
+      2800
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-impreza-i-wrx-ra-japan-1992",
+    "baseModel": "Subaru Impreza",
+    "generation": "I (GC)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 177,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 304,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej15-impreza-wagon-ii-japan-2000",
+    "baseModel": "Subaru Impreza Sports Wagon",
+    "generation": "II (GG)",
+    "code": "EJ15",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2000,
+    "cc": 1493,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 74,
+    "powerRpm": [
+      5200,
+      5200
+    ],
+    "torque": 142,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ez30-legacy-b4-iv-japan-2003",
+    "baseModel": "Subaru Legacy B4",
+    "generation": "IV (BL)",
+    "code": "EZ30",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2003,
+    "cc": 2999,
+    "valves": 24,
+    "cams": 4,
+    "layout": "Boxer-6",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 184,
+    "powerRpm": [
+      6600,
+      6600
+    ],
+    "torque": 304,
+    "torqueRpm": [
+      4200,
+      4200
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ez30-legacy-lancaster-japan-2001",
+    "baseModel": "Subaru Legacy Lancaster",
+    "generation": "II (BH)",
+    "code": "EZ30",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 2001,
+    "cc": 2999,
+    "valves": 24,
+    "cams": 4,
+    "layout": "Boxer-6",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 162,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 289,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej22-legacy-wagon-i-japan-1993",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "I (BF)",
+    "code": "EJ22",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1993,
+    "cc": 2212,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 99,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 186.3,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-i-turbo-japan-1991",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "I (BF)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1991,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 147,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 259.9,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-i-sohc-japan-1992",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "I (BF)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 92,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 171.6,
+    "torqueRpm": [
+      4500,
+      4500
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-i-dohc-japan-1992",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "I (BF)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 103,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 176.5,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-ii-na-japan-1993",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "II (BG)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1993,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 110.3,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 181.4,
+    "torqueRpm": [
+      4800,
+      4800
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-ii-twin-turbo-japan-1993",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "II (BG)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1993,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 183.9,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 308.9,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-iii-na-japan-1998",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "III (BH)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1998,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 101,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 186.3,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-subaru-ej20-legacy-wagon-iii-twin-turbo-japan-1998",
+    "baseModel": "Subaru Legacy Touring Wagon",
+    "generation": "III (BH)",
+    "code": "EJ20",
+    "maker": "Subaru",
+    "market": "Japan",
+    "year": 1998,
+    "cc": 1994,
+    "valves": 16,
+    "cams": 4,
+    "layout": "Boxer-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 191,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 318.7,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact application/code/calibration; no annual, trim-only, transmission-only or body-only duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-jb-det-copen-japan-2002",
+    "baseModel": "Daihatsu Copen",
+    "generation": "L880K",
+    "code": "JB-DET",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2002,
+    "cc": 659,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 110,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-ef-ve-naked-japan-2000",
+    "baseModel": "Daihatsu Naked",
+    "generation": "L750S",
+    "code": "EF-VE",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2000,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 43,
+    "powerRpm": [
+      7600,
+      7600
+    ],
+    "torque": 64,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-ef-det-naked-japan-2001",
+    "baseModel": "Daihatsu Naked",
+    "generation": "L750S",
+    "code": "EF-DET",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2001,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 107,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-kf-ve-tanto-exe-japan-2009",
+    "baseModel": "Daihatsu Tanto Exe",
+    "generation": "L465S",
+    "code": "KF-VE",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2009,
+    "cc": 658,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 43,
+    "powerRpm": [
+      7200,
+      7200
+    ],
+    "torque": 65,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-kf-det-tanto-japan-2010",
+    "baseModel": "Daihatsu Tanto",
+    "generation": "L375S",
+    "code": "KF-DET",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2010,
+    "cc": 658,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 103,
+    "torqueRpm": [
+      3000,
+      3000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-ej-ve-mira-gino-1000-japan-2004",
+    "baseModel": "Daihatsu Mira Gino 1000",
+    "generation": "L700",
+    "code": "EJ-VE",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2004,
+    "cc": 989,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 94,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-k3-vet-terios-japan-2003",
+    "baseModel": "Daihatsu Terios",
+    "generation": "J102G",
+    "code": "K3-VET",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2003,
+    "cc": 1297,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 103,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 177,
+    "torqueRpm": [
+      3200,
+      3200
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-k3-ve2-storia-japan-2000",
+    "baseModel": "Daihatsu Storia",
+    "generation": "M101S",
+    "code": "K3-VE2",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2000,
+    "cc": 1297,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 81,
+    "powerRpm": [
+      7000,
+      7000
+    ],
+    "torque": 126,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-jc-det-storia-x4-japan-1998",
+    "baseModel": "Daihatsu Storia X4",
+    "generation": "M112S",
+    "code": "JC-DET",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1998,
+    "cc": 713,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 88,
+    "powerRpm": [
+      7200,
+      7200
+    ],
+    "torque": 127.5,
+    "torqueRpm": [
+      4800,
+      4800
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-jb-el-mira-japan-1995",
+    "baseModel": "Daihatsu Mira",
+    "generation": "L502S",
+    "code": "JB-EL",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1995,
+    "cc": 659,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 43,
+    "powerRpm": [
+      7600,
+      7600
+    ],
+    "torque": 56.9,
+    "torqueRpm": [
+      5600,
+      5600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-s8-dpts-mazda3-fastback-japan-2021",
+    "baseModel": "Mazda3 Fastback",
+    "generation": "BP",
+    "code": "S8-DPTS",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2021,
+    "cc": 1756,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 95,
+    "powerRpm": [
+      4000,
+      4000
+    ],
+    "torque": 270,
+    "torqueRpm": [
+      1600,
+      2600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-s8-dpts-cx30-japan-2020",
+    "baseModel": "Mazda CX-30",
+    "generation": "DM",
+    "code": "S8-DPTS",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2020,
+    "cc": 1756,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 85,
+    "powerRpm": [
+      4000,
+      4000
+    ],
+    "torque": 270,
+    "torqueRpm": [
+      1600,
+      2600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-py-vpts-cx8-japan-2021",
+    "baseModel": "Mazda CX-8",
+    "generation": "KG",
+    "code": "PY-VPTS",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2021,
+    "cc": 2488,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 169,
+    "powerRpm": [
+      4250,
+      4250
+    ],
+    "torque": 420,
+    "torqueRpm": [
+      2000,
+      2000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-s5-dpts-mazda2-japan-2021",
+    "baseModel": "Mazda2",
+    "generation": "DJ automatic",
+    "code": "S5-DPTS",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2021,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 77,
+    "powerRpm": [
+      4000,
+      4000
+    ],
+    "torque": 250,
+    "torqueRpm": [
+      1500,
+      2500
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-s5-dptr-mazda2-japan-2021",
+    "baseModel": "Mazda2",
+    "generation": "DJ manual",
+    "code": "S5-DPTR",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2021,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 77,
+    "powerRpm": [
+      4000,
+      4000
+    ],
+    "torque": 220,
+    "torqueRpm": [
+      1400,
+      3200
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-spark-thailand-2026",
+    "baseModel": "Isuzu D-Max Spark",
+    "generation": "RG",
+    "code": "RZ4F-TC",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2164,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 120,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 400,
+    "torqueRpm": [
+      1600,
+      2400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-spark-thailand-2026",
+    "baseModel": "Isuzu D-Max Spark",
+    "generation": "RG",
+    "code": "4JJ3-TCX E5",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2999,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 140,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 450,
+    "torqueRpm": [
+      1600,
+      2600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-dmax-4door-thailand-2026",
+    "baseModel": "Isuzu D-Max 4-Door",
+    "generation": "RG",
+    "code": "RZ4F-TC",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2164,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 120,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 400,
+    "torqueRpm": [
+      1600,
+      2400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-dmax-4door-thailand-2026",
+    "baseModel": "Isuzu D-Max 4-Door",
+    "generation": "RG",
+    "code": "4JJ3-TCX E5",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2999,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 140,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 450,
+    "torqueRpm": [
+      1600,
+      2600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-4n15-triton-mega-cab-thailand-2019",
+    "baseModel": "Mitsubishi Triton Mega Cab",
+    "generation": "MY2019",
+    "code": "4N15",
+    "maker": "Mitsubishi",
+    "market": "Thailand",
+    "year": 2019,
+    "cc": 2442,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 133,
+    "powerRpm": [
+      3500,
+      3500
+    ],
+    "torque": 430,
+    "torqueRpm": [
+      2500,
+      2500
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-t3-vpts-cx60-japan-2023",
+    "baseModel": "Mazda CX-60 XD",
+    "generation": "KH",
+    "code": "T3-VPTS",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2023,
+    "cc": 3283,
+    "valves": 24,
+    "cams": 2,
+    "layout": "Inline-6",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 170,
+    "powerRpm": [
+      4000,
+      4200
+    ],
+    "torque": 500,
+    "torqueRpm": [
+      1500,
+      3000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-t3-vpth-cx60-japan-2023",
+    "baseModel": "Mazda CX-60 XD-Hybrid",
+    "generation": "KH",
+    "code": "T3-VPTH",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2023,
+    "cc": 3283,
+    "valves": 24,
+    "cams": 2,
+    "layout": "Inline-6",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 187,
+    "powerRpm": [
+      3750,
+      3750
+    ],
+    "torque": 550,
+    "torqueRpm": [
+      1500,
+      2400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-t3-vpts-cx80-japan-2025",
+    "baseModel": "Mazda CX-80 XD",
+    "generation": "KL",
+    "code": "T3-VPTS",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2025,
+    "cc": 3283,
+    "valves": 24,
+    "cams": 2,
+    "layout": "Inline-6",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 170,
+    "powerRpm": [
+      4000,
+      4200
+    ],
+    "torque": 500,
+    "torqueRpm": [
+      1500,
+      3000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mazda-t3-vpth-cx80-japan-2025",
+    "baseModel": "Mazda CX-80 XD-Hybrid",
+    "generation": "KL",
+    "code": "T3-VPTH",
+    "maker": "Mazda",
+    "market": "Japan",
+    "year": 2025,
+    "cc": 3283,
+    "valves": 24,
+    "cams": 2,
+    "layout": "Inline-6",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 187,
+    "powerRpm": [
+      3750,
+      3750
+    ],
+    "torque": 550,
+    "torqueRpm": [
+      1500,
+      2400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-vcross-thailand-2026",
+    "baseModel": "Isuzu D-Max V-Cross",
+    "generation": "RG",
+    "code": "RZ4F-TC",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2164,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 120,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 400,
+    "torqueRpm": [
+      1600,
+      2400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-vcross-thailand-2026",
+    "baseModel": "Isuzu D-Max V-Cross",
+    "generation": "RG",
+    "code": "4JJ3-TCX E5",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2999,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 140,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 450,
+    "torqueRpm": [
+      1600,
+      2600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-rz4f-tc-mux-thailand-2026",
+    "baseModel": "Isuzu MU-X",
+    "generation": "RF",
+    "code": "RZ4F-TC",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2164,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 120,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 400,
+    "torqueRpm": [
+      1600,
+      2400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-isuzu-4jj3-tcx-e5-mux-thailand-2026",
+    "baseModel": "Isuzu MU-X",
+    "generation": "RF",
+    "code": "4JJ3-TCX E5",
+    "maker": "Isuzu",
+    "market": "Thailand",
+    "year": 2026,
+    "cc": 2999,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 140,
+    "powerRpm": [
+      3600,
+      3600
+    ],
+    "torque": 450,
+    "torqueRpm": [
+      1600,
+      2600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-ef-rl-mira-trxx-japan-1995",
+    "baseModel": "Daihatsu Mira TR-XX Avanzato G",
+    "generation": "L500S",
+    "code": "EF-RL",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1995,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      6800,
+      6800
+    ],
+    "torque": 104.9,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-hd-ep-pyzar-japan-1997",
+    "baseModel": "Daihatsu Pyzar CL",
+    "generation": "G311G",
+    "code": "HD-EP",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1997,
+    "cc": 1589,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 85,
+    "powerRpm": [
+      6300,
+      6300
+    ],
+    "torque": 140.2,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-hc-e-charade-japan-1991",
+    "baseModel": "Daihatsu Charade Will 4WD",
+    "generation": "G112S",
+    "code": "HC-E",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1991,
+    "cc": 1295,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 69,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 108,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-4n15-pajero-sport-thailand-2023",
+    "baseModel": "Mitsubishi Pajero Sport Elite Edition",
+    "generation": "III",
+    "code": "4N15",
+    "maker": "Mitsubishi",
+    "market": "Thailand",
+    "year": 2023,
+    "cc": 2442,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 133,
+    "powerRpm": [
+      3500,
+      3500
+    ],
+    "torque": 430,
+    "torqueRpm": [
+      2500,
+      2500
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-4n16-hyper-power-pajero-sport-thailand-2025",
+    "baseModel": "Mitsubishi Pajero Sport GT",
+    "generation": "III",
+    "code": "4N16 (Hyper Power)",
+    "maker": "Mitsubishi",
+    "market": "Thailand",
+    "year": 2025,
+    "cc": 2442,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 135,
+    "powerRpm": [
+      3500,
+      3500
+    ],
+    "torque": 430,
+    "torqueRpm": [
+      2250,
+      2500
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-he-eg-charade-social-japan-1997",
+    "baseModel": "Daihatsu Charade Social Pose",
+    "generation": "G203S",
+    "code": "HE-EG",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1997,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 74,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 127.5,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-4n14-delica-d5-japan-2025",
+    "baseModel": "Mitsubishi Delica D:5",
+    "generation": "CV1W",
+    "code": "4N14",
+    "maker": "Mitsubishi",
+    "market": "Japan",
+    "year": 2025,
+    "cc": 2267,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 107,
+    "powerRpm": [
+      3500,
+      3500
+    ],
+    "torque": 380,
+    "torqueRpm": [
+      2000,
+      2000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-br06-delica-mini-turbo-japan-2025",
+    "baseModel": "Mitsubishi Delica Mini turbo",
+    "generation": "BA",
+    "code": "BR06",
+    "maker": "Mitsubishi",
+    "market": "Japan",
+    "year": 2025,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 100,
+    "torqueRpm": [
+      2400,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-br06-ek-cross-turbo-japan-2025",
+    "baseModel": "Mitsubishi eK Cross turbo",
+    "generation": "B35W/B38W",
+    "code": "BR06",
+    "maker": "Mitsubishi",
+    "market": "Japan",
+    "year": 2025,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      5600,
+      5600
+    ],
+    "torque": 100,
+    "torqueRpm": [
+      2400,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-jb-jl-move-japan-1997",
+    "baseModel": "Daihatsu Move Aero Down Custom XX",
+    "generation": "L602S",
+    "code": "JB-JL",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1997,
+    "cc": 659,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      7500,
+      7500
+    ],
+    "torque": 100,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-ef-jl-mira-trxx-japan-1992",
+    "baseModel": "Daihatsu Mira TR-XX X4",
+    "generation": "L210S",
+    "code": "EF-JL",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 659,
+    "valves": 12,
+    "cams": 1,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      7500,
+      7500
+    ],
+    "torque": 92.2,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-hd-e-applause-japan-1992",
+    "baseModel": "Daihatsu Applause 16Zi",
+    "generation": "A111S",
+    "code": "HD-E",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1992,
+    "cc": 1589,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 88,
+    "powerRpm": [
+      6300,
+      6300
+    ],
+    "torque": 140.2,
+    "torqueRpm": [
+      4800,
+      4800
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15c-ertiga-india-2026",
+    "baseModel": "Maruti Suzuki Ertiga",
+    "generation": "II",
+    "code": "K15C",
+    "maker": "Suzuki",
+    "market": "India",
+    "year": 2026,
+    "displacement": "1.5 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 75.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 136.8,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15c-xl6-india-2026",
+    "baseModel": "Maruti Suzuki XL6",
+    "generation": "II",
+    "code": "K15C",
+    "maker": "Suzuki",
+    "market": "India",
+    "year": 2026,
+    "displacement": "1.5 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 75.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 136.8,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15c-brezza-india-2026",
+    "baseModel": "Maruti Suzuki Brezza",
+    "generation": "II",
+    "code": "K15C",
+    "maker": "Suzuki",
+    "market": "India",
+    "year": 2026,
+    "displacement": "1.5 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 75.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 136.8,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15c-grand-vitara-india-2026",
+    "baseModel": "Maruti Suzuki Grand Vitara",
+    "generation": "III",
+    "code": "K15C",
+    "maker": "Suzuki",
+    "market": "India",
+    "year": 2026,
+    "displacement": "1.5 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 75.8,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 136.8,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15c-across-south-africa-2026",
+    "baseModel": "Suzuki Across",
+    "generation": "I",
+    "code": "K15C",
+    "maker": "Suzuki",
+    "market": "South Africa",
+    "year": 2026,
+    "displacement": "1.5 L",
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 76,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 137,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15b-ertiga-indonesia-2018",
+    "baseModel": "Suzuki Ertiga",
+    "generation": "II",
+    "code": "K15B",
+    "maker": "Suzuki",
+    "market": "Indonesia",
+    "year": 2018,
+    "cc": 1462,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 77,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 138,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15b-xl7-indonesia-2020",
+    "baseModel": "Suzuki XL7",
+    "generation": "I",
+    "code": "K15B",
+    "maker": "Suzuki",
+    "market": "Indonesia",
+    "year": 2020,
+    "cc": 1462,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 77,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 138,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15b-jimny-indonesia-2019",
+    "baseModel": "Suzuki Jimny",
+    "generation": "IV",
+    "code": "K15B",
+    "maker": "Suzuki",
+    "market": "Indonesia",
+    "year": 2019,
+    "cc": 1462,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 75,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 130,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k15b-jimny5-philippines-2024",
+    "baseModel": "Suzuki Jimny 5-Door",
+    "generation": "IV",
+    "code": "K15B",
+    "maker": "Suzuki",
+    "market": "Philippines",
+    "year": 2024,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 74.3,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 130,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate.",
+    "displacement": "1.5 L"
+  },
+  {
+    "id": "batch11-suzuki-k15b-xl6-south-africa-2023",
+    "baseModel": "Suzuki XL6",
+    "generation": "I",
+    "code": "K15B",
+    "maker": "Suzuki",
+    "market": "South Africa",
+    "year": 2023,
+    "cc": 1462,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 77,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 138,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-hd-eg-charade-detomaso-japan-1997",
+    "baseModel": "Daihatsu Charade De Tomaso",
+    "generation": "G201S",
+    "code": "HD-EG",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1997,
+    "cc": 1589,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 92,
+    "powerRpm": [
+      6300,
+      6300
+    ],
+    "torque": 144.2,
+    "torqueRpm": [
+      4000,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-jb-det-move-custom-rs-japan-2005",
+    "baseModel": "Daihatsu Move Custom RS",
+    "generation": "L152S",
+    "code": "JB-DET",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2005,
+    "cc": 659,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "electronicFuelInjection",
+    "power": 47,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 100,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-he-eg-pyzar-japan-1998",
+    "baseModel": "Daihatsu Pyzar CL Limited",
+    "generation": "G303G",
+    "code": "HE-EG",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1998,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 74,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 127.5,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-he-eg-charade-social-japan-1994",
+    "baseModel": "Daihatsu Charade Social",
+    "generation": "G203S",
+    "code": "HE-EG",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 1994,
+    "cc": 1498,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 71,
+    "powerRpm": [
+      6400,
+      6400
+    ],
+    "torque": 125.5,
+    "torqueRpm": [
+      3600,
+      3600
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-daihatsu-3sz-ve-bego-japan-2012",
+    "baseModel": "Daihatsu Bego",
+    "generation": "J200G",
+    "code": "3SZ-VE",
+    "maker": "Daihatsu",
+    "market": "Japan",
+    "year": 2012,
+    "cc": 1495,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 80,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 141,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-hino-a09c-700-japan-2017",
+    "baseModel": "HINO700 Series",
+    "generation": "2RG-FW1AXHG",
+    "code": "A09C",
+    "maker": "Hino",
+    "market": "Japan",
+    "year": 2017,
+    "cc": 8866,
+    "valves": 24,
+    "cams": 1,
+    "layout": "Inline-6",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 279,
+    "powerRpm": [
+      1700,
+      1700
+    ],
+    "torque": 1765,
+    "torqueRpm": [
+      1100,
+      1400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-hino-a05c-500-japan-2017",
+    "baseModel": "HINO500 Series",
+    "generation": "2PG-FE2APBG",
+    "code": "A05C",
+    "maker": "Hino",
+    "market": "Japan",
+    "year": 2017,
+    "cc": 5123,
+    "valves": 16,
+    "cams": 1,
+    "layout": "Inline-4",
+    "fuel": "diesel",
+    "aspiration": "turbocharged",
+    "injection": "commonRail",
+    "power": 191,
+    "powerRpm": [
+      2300,
+      2300
+    ],
+    "torque": 882,
+    "torqueRpm": [
+      1400,
+      1400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-3b20-ek-space-na-japan-2018",
+    "baseModel": "Mitsubishi eK Space Custom",
+    "generation": "B11A",
+    "code": "3B20",
+    "maker": "Mitsubishi",
+    "market": "Japan",
+    "year": 2018,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 36,
+    "powerRpm": [
+      6500,
+      6500
+    ],
+    "torque": 59,
+    "torqueRpm": [
+      5000,
+      5000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-mitsubishi-3b20-ek-space-turbo-japan-2018",
+    "baseModel": "Mitsubishi eK Space Custom",
+    "generation": "B11A turbo",
+    "code": "3B20",
+    "maker": "Mitsubishi",
+    "market": "Japan",
+    "year": 2018,
+    "cc": 659,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "multiPointInjection",
+    "power": 47,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 98,
+    "torqueRpm": [
+      3000,
+      3000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k10c-baleno-japan-2016",
+    "baseModel": "Suzuki Baleno",
+    "generation": "WB42S",
+    "code": "K10C",
+    "maker": "Suzuki",
+    "market": "Japan",
+    "year": 2016,
+    "cc": 996,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 82,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 160,
+    "torqueRpm": [
+      1500,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k12c-baleno-japan-2016",
+    "baseModel": "Suzuki Baleno",
+    "generation": "WB32S",
+    "code": "K12C",
+    "maker": "Suzuki",
+    "market": "Japan",
+    "year": 2016,
+    "cc": 1242,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "multiPointInjection",
+    "power": 67,
+    "powerRpm": [
+      6000,
+      6000
+    ],
+    "torque": 118,
+    "torqueRpm": [
+      4400,
+      4400
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k10c-xbee-japan-2017",
+    "baseModel": "Suzuki Xbee",
+    "generation": "MN71S",
+    "code": "K10C",
+    "maker": "Suzuki",
+    "market": "Japan",
+    "year": 2017,
+    "cc": 996,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 73,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 150,
+    "torqueRpm": [
+      1700,
+      4000
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-k14c-swift-sport-japan-2017",
+    "baseModel": "Suzuki Swift Sport",
+    "generation": "ZC33S",
+    "code": "K14C",
+    "maker": "Suzuki",
+    "market": "Japan",
+    "year": 2017,
+    "cc": 1371,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "turbocharged",
+    "injection": "directInjection",
+    "power": 103,
+    "powerRpm": [
+      5500,
+      5500
+    ],
+    "torque": 230,
+    "torqueRpm": [
+      2500,
+      3500
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-z12e-swift-japan-2023",
+    "baseModel": "Suzuki Swift",
+    "generation": "ZCEDS/ZCDDS",
+    "code": "Z12E",
+    "maker": "Suzuki",
+    "market": "Japan",
+    "year": 2023,
+    "cc": 1197,
+    "valves": 12,
+    "cams": 2,
+    "layout": "Inline-3",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 60,
+    "powerRpm": [
+      5700,
+      5700
+    ],
+    "torque": 108,
+    "torqueRpm": [
+      4500,
+      4500
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  },
+  {
+    "id": "batch11-suzuki-m16a-escudo-japan-2006",
+    "baseModel": "Suzuki Escudo 1.6XC",
+    "generation": "TA74W",
+    "code": "M16A",
+    "maker": "Suzuki",
+    "market": "Japan",
+    "year": 2006,
+    "cc": 1586,
+    "valves": 16,
+    "cams": 2,
+    "layout": "Inline-4",
+    "fuel": "petrol",
+    "aspiration": "naturallyAspirated",
+    "injection": "electronicFuelInjection",
+    "power": 78,
+    "powerRpm": [
+      5900,
+      5900
+    ],
+    "torque": 145,
+    "torqueRpm": [
+      4100,
+      4100
+    ],
+    "reason": "Exact official application/code/calibration; no cosmetic duplicate."
+  }
+]

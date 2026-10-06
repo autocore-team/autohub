@@ -12,6 +12,7 @@ import {
 } from '../../scripts/engines/lib.mjs';
 import { validateEngineData } from '../../scripts/engines/validate-engine-data.mjs';
 import { verificationPolicyErrors } from '../../scripts/engines/verification-policy.mjs';
+import './batch11-semantic.test.mjs';
 
 const testDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(testDirectory, '../..');
@@ -33,9 +34,9 @@ function pass(message) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 791, `Engine count changed: expected 791, found ${records.length}`);
+check(records.length === 916, `Engine count changed: expected 916, found ${records.length}`);
 check(
-  semanticHash === '51f99c7647b95cf56ef13d931d90c2aa27143969cc93d7fb840544eac85e58d0',
+  semanticHash === '92b39177bda0e206293b60e4a238a9dad1d42097957fda3d3180bda0aafa6fe1',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -546,7 +547,9 @@ check(
 );
 
 const batch10Records = sourceData.regionFiles.flatMap((sourceFile) => (
-  sourceFile.records.slice(batch10BaselineRegionCounts[sourceFile.region])
+  sourceFile.records.slice(batch10BaselineRegionCounts[sourceFile.region], ({
+    europe: 345, japan: 291, korea: 50, 'north-america': 105, 'south-america': 0
+  })[sourceFile.region])
 ));
 const batch10ExpectedMakerCounts = new Map([
   ['Subaru', 9],
@@ -674,14 +677,14 @@ const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
     { region: 'europe', engineCount: 345, manufacturerCount: 11 },
-    { region: 'japan', engineCount: 291, manufacturerCount: 16 },
+    { region: 'japan', engineCount: 416, manufacturerCount: 20 },
     { region: 'korea', engineCount: 50, manufacturerCount: 2 },
     { region: 'north-america', engineCount: 105, manufacturerCount: 15 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 791, 'Regional engineCount sum does not equal 791');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 916, 'Regional engineCount sum does not equal 916');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
