@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://d3-orient.example/schemas/ford-phase-1-inventory.schema.json",
+  "title": "Ford Manufacturer Campaign Phase 1 Inventory",
+  "type": "object",
+  "required": ["campaign", "existingProductionAudit", "familyInventory", "candidates", "sharedIdentityAudit"],
+  "properties": {
+    "campaign": { "type": "object" },
+    "existingProductionAudit": { "type": "array", "items": { "type": "object" } },
+    "familyInventory": { "type": "array", "items": { "type": "object", "required": ["familyId", "canonicalFamilyName", "primaryFamilySourceRefs", "estimatedCompleteness"] } },
+    "sharedIdentityAudit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["candidateId", "fordRelationship", "partner", "baseFamily", "fordDesignation", "partnerDesignation", "applications", "sourceRefs", "evidenceStatus", "doubleCountControl"]
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidateId", "campaignManufacturer", "engineManufacturer", "family", "code",
+          "identifierType", "designations", "aliases", "category", "relationship",
+          "displacementCc", "fuel", "aspiration", "configuration", "cylinderCount",
+          "productionYears", "specificationVariants", "applications", "markets", "sourceRefs",
+          "fieldCoverage", "status", "confidence", "phase2Readiness", "existingProductionIds",
+          "duplicateOf", "notes", "lastCheckpoint"
+        ],
+        "properties": {
+          "candidateId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "campaignManufacturer": { "const": "Ford" },
+          "engineManufacturer": { "type": ["string", "null"] },
+          "family": { "type": "string", "minLength": 1 },
+          "code": { "type": ["string", "null"] },
+          "identifierType": { "enum": ["manufacturerCode", "engineeringCode", "familyDesignation", "marketingDesignation", "partNumber", "unknown"] },
+          "designations": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "category": { "enum": ["passengerVehicle", "suvPickup", "lightCommercial", "heavyCommercial", "crateEngine", "racing", "industrial", "marine", "uncertain"] },
+          "relationship": { "enum": ["fordDesigned", "partnerDesigned", "coDeveloped", "suppliedByPartner", "licensed", "rebadged", "sharedFamily", "uncertain"] },
+          "displacementCc": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+          "fuel": { "type": ["string", "null"] },
+          "aspiration": { "type": ["string", "null"] },
+          "configuration": { "type": ["string", "null"] },
+          "cylinderCount": { "type": ["integer", "null"], "minimum": 1 },
+          "productionYears": {
+            "type": "object",
+            "required": ["start", "end", "approximate"],
+            "properties": { "start": { "type": ["integer", "null"] }, "end": { "type": ["integer", "null"] }, "approximate": { "type": "boolean" } },
+            "additionalProperties": false
+          },
+          "specificationVariants": { "type": "array" },
+          "applications": { "type": "array", "items": { "type": "string" } },
+          "markets": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "sourceRefs": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "fieldCoverage": { "type": "object" },
+          "status": { "enum": ["existingProduction", "candidate", "partialCandidate", "hold", "duplicate", "sharedIdentity", "outOfScope"] },
+          "confidence": { "enum": ["official", "officialPartial", "corroborated", "unresolved"] },
+          "phase2Readiness": { "enum": ["readyForEnrichment", "needsIdentityEvidence", "needsConstructionEvidence", "needsPerformanceEvidence", "needsScopeResolution", "hold", "alreadyRepresented"] },
+          "existingProductionIds": { "type": "array", "items": { "type": "string" } },
+          "duplicateOf": { "type": ["string", "null"] },
+          "notes": { "type": "string" },
+          "lastCheckpoint": { "enum": ["A", "B", "C", "D", "E", "F", "G", "H", "I"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
