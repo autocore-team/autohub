@@ -32,9 +32,35 @@
     return REGION_ALIASES[key] || key;
   }
 
-  function recordSearchParts(record) {
+  function primaryIdentity(record) {
+    const explicit = record && record.identity;
+    if (explicit && explicit.type === 'officialPublicDesignation') {
+      return { type: explicit.type, value: String(explicit.value || ''), labelKey: 'officialEngineDesignation' };
+    }
     return {
-      code: normalize(record.code),
+      type: 'exactCode',
+      value: String((explicit && explicit.value) || (record && record.code) || ''),
+      labelKey: 'engineCodeLabel'
+    };
+  }
+
+  function identityValues(record) {
+    const values = [primaryIdentity(record).value, record && record.code, ...((record && record.aliases) || [])];
+    return [...new Set(values.map((value) => String(value || '').trim()).filter(Boolean))];
+  }
+
+  function identityDisplay(record, translate) {
+    const identity = primaryIdentity(record);
+    return {
+      ...identity,
+      label: typeof translate === 'function' ? String(translate(identity.labelKey) || '') : identity.labelKey
+    };
+  }
+
+  function recordSearchParts(record) {
+    const identity = primaryIdentity(record);
+    return {
+      identity: normalize(identity.value),
       maker: normalize(record.maker),
       family: normalize(record.family),
       aliases: (record.aliases || []).map(normalize),
@@ -50,9 +76,9 @@
     if (!needle) return Number.POSITIVE_INFINITY;
 
     const parts = recordSearchParts(record);
-    if (parts.code === needle) return 0;
+    if (parts.identity === needle) return 0;
     if (parts.aliases.includes(needle)) return 1;
-    if (parts.code.startsWith(needle)) return 2;
+    if (parts.identity.startsWith(needle)) return 2;
     if (parts.maker === needle) return 3;
     if (parts.applications.includes(needle)) return 4;
     if (parts.aliases.some((value) => value.includes(needle))) return 5;
@@ -111,7 +137,7 @@
     const needle = normalize(requested);
     if (!needle) return null;
     return records.find((record) => normalize(record.id) === needle)
-      || records.find((record) => normalize(record.code) === needle)
+      || records.find((record) => normalize(primaryIdentity(record).value) === needle)
       || records.find((record) => (record.aliases || []).some((alias) => normalize(alias) === needle))
       || null;
   }
@@ -188,6 +214,9 @@
   API.normalize = normalize;
   API.makerSlug = makerSlug;
   API.normalizeRegionKey = normalizeRegionKey;
+  API.primaryIdentity = primaryIdentity;
+  API.identityValues = identityValues;
+  API.identityDisplay = identityDisplay;
   API.searchRank = searchRank;
   API.searchRecords = searchRecords;
   API.makersForRegion = makersForRegion;
