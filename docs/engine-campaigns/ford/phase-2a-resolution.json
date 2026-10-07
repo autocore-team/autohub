@@ -1,0 +1,4507 @@
+{
+  "campaign": {
+    "title": "Ford Manufacturer Campaign — Phase 2A Identity Resolution",
+    "phase": "2A",
+    "scope": "identityResolutionOnly",
+    "baseCommit": "b45d2b2626e8b9a09eed1c8a9f0ebc4f639a82ec",
+    "phase1PartialCandidates": 80,
+    "processedCandidates": 80,
+    "statusCounts": {
+      "identityResolved": 0,
+      "identityBridgeReady": 0,
+      "publicDesignationOnly": 26,
+      "sharedIdentityResolved": 2,
+      "unresolved": 52,
+      "notProductionEligible": 0
+    },
+    "identifierFindings": {
+      "manufacturerCodes": 0,
+      "engineeringCodes": 0,
+      "partnerCodes": 0,
+      "publicDesignationsOnly": 26,
+      "officialPartnerDesignations": 2
+    },
+    "readyForPhase2B": 0,
+    "checkpoints": [
+      {
+        "processed": 20,
+        "status": "complete"
+      },
+      {
+        "processed": 40,
+        "status": "complete"
+      },
+      {
+        "processed": 60,
+        "status": "complete"
+      },
+      {
+        "processed": 80,
+        "status": "complete"
+      }
+    ],
+    "coverage": {
+      "families": {
+        "ford-family-335": 1,
+        "ford-family-385-lima-big-block": 1,
+        "ford-family-australian-boss": 1,
+        "ford-family-barra": 4,
+        "ford-family-cht": 1,
+        "ford-family-cleveland": 1,
+        "ford-family-cologne-v6": 2,
+        "ford-family-coyote-derivative": 2,
+        "ford-family-cvh": 2,
+        "ford-family-cyclone": 1,
+        "ford-family-dld": 3,
+        "ford-family-dragon": 1,
+        "ford-family-dragon-ecoboost": 1,
+        "ford-family-duratec-direct-flex": 1,
+        "ford-family-duratec-he-mazda-l": 1,
+        "ford-family-duratorq-puma": 2,
+        "ford-family-ecoblue": 1,
+        "ford-family-ecoblue-panther": 1,
+        "ford-family-ecoboost": 3,
+        "ford-family-ecoboost-v6": 1,
+        "ford-family-ecotorq": 2,
+        "ford-family-endura-e": 1,
+        "ford-family-essex-v4": 1,
+        "ford-family-essex-v6": 1,
+        "ford-family-falcon-six": 2,
+        "ford-family-fe": 2,
+        "ford-family-flathead-v8": 2,
+        "ford-family-ford-big-six": 1,
+        "ford-family-ford-cosworth-bda": 1,
+        "ford-family-ford-cosworth-yb": 1,
+        "ford-family-godzilla": 1,
+        "ford-family-hcs": 1,
+        "ford-family-kent": 1,
+        "ford-family-kent-crossflow": 2,
+        "ford-family-lima-ohc": 1,
+        "ford-family-modular": 3,
+        "ford-family-nano-ecoboost-v6": 2,
+        "ford-family-navistar-t444e-power-stroke": 1,
+        "ford-family-navistar-vt365-power-stroke": 1,
+        "ford-family-pinto-ohc": 2,
+        "ford-family-power-stroke": 1,
+        "ford-family-power-stroke-lion": 1,
+        "ford-family-psa-dw12-ford-duratorq": 1,
+        "ford-family-sho-v6": 1,
+        "ford-family-sigma": 2,
+        "ford-family-sigma-ti-vct": 1,
+        "ford-family-valencia": 1,
+        "ford-family-vulcan": 1,
+        "ford-family-windsor-small-block": 3,
+        "ford-family-y-block": 2,
+        "ford-family-zetec-e": 3,
+        "ford-family-zetec-rocam": 1,
+        "ford-family-zetec-se-sigma": 2
+      },
+      "markets": {
+        "Africa": 6,
+        "Asia": 6,
+        "Australia/New Zealand": 10,
+        "China": 3,
+        "Europe": 36,
+        "India": 4,
+        "Mexico": 2,
+        "Middle East": 5,
+        "North America": 40,
+        "South America": 10,
+        "Turkey": 2
+      },
+      "categories": {
+        "heavyCommercial": 2,
+        "lightCommercial": 4,
+        "passengerVehicle": 58,
+        "racing": 2,
+        "suvPickup": 14
+      }
+    },
+    "publicIdentityQualityCounts": {
+      "stableOfficialDesignation": 15,
+      "descriptiveLabelOnly": 4,
+      "ambiguousAcrossVariants": 7
+    },
+    "unresolvedBlockerCounts": {
+      "MISSING_STABLE_IDENTIFIER": 5,
+      "DESCRIPTIVE_DESIGNATION_ONLY": 2,
+      "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS": 3,
+      "MISSING_CODE_APPLICATION_BINDING": 2,
+      "SHARED_RELATIONSHIP_UNRESOLVED": 7,
+      "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE": 33
+    },
+    "partNumberReconciliation": {
+      "phase1Total": 20,
+      "alreadyRepresented": 20,
+      "phase2aCandidates": 0,
+      "categoryCounts": {
+        "crateEngine": 20,
+        "racing": 0,
+        "industrial": 0,
+        "marine": 0
+      },
+      "candidateIds": [
+        "ford-performance-m-6007-23tb",
+        "ford-performance-m-6007-33v6na",
+        "ford-performance-m-6007-35ta",
+        "ford-performance-m-6007-572df",
+        "ford-performance-m-6007-572dr",
+        "ford-performance-m-6007-73b",
+        "ford-performance-m-6007-a52xs",
+        "ford-performance-m-6007-d347sr",
+        "ford-performance-m-6007-d347sr7",
+        "ford-performance-m-6007-m50d",
+        "ford-performance-m-6007-m50dauto",
+        "ford-performance-m-6007-mz73",
+        "ford-performance-m-6007-s347jr2",
+        "ford-performance-m-6007-x2302e",
+        "ford-performance-m-6007-z2363ft",
+        "ford-performance-m-6007-z2363rt",
+        "ford-performance-m-6007-z2427fft",
+        "ford-performance-m-6007-z2427frt",
+        "ford-performance-m-6007-z460fft",
+        "ford-performance-m-6007-z460frt"
+      ],
+      "conclusion": "All Phase 1 part-number identities are existing Ford Performance crate-engine product records in the 30 alreadyRepresented set; none belongs to the 80 Phase 2A candidates."
+    },
+    "officialPublicDesignationFeasibility": {
+      "currentPublicDesignationOnlyPotential": 15,
+      "unresolvedPotentialAfterEnrichment": 37,
+      "unresolvedStillRequiringExactCodeOrRelationshipEvidence": 15,
+      "recommendation": "implementWithStrictSeparateIdentityType"
+    }
+  },
+  "resolutions": [
+    {
+      "candidateId": "ford-335-400",
+      "familyId": "ford-family-335",
+      "phase1Designation": "400",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "400",
+      "partnerCode": null,
+      "applications": [
+        "Ford passenger cars",
+        "Ford F-Series"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_STABLE_IDENTIFIER",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-385-460",
+      "familyId": "ford-family-385-lima-big-block",
+      "phase1Designation": "460",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "460",
+      "partnerCode": null,
+      "applications": [
+        "Ford F-Series",
+        "Lincoln passenger cars"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_STABLE_IDENTIFIER",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-australia-boss-335",
+      "familyId": "ford-family-australian-boss",
+      "phase1Designation": "Boss 335",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "Boss 335",
+      "partnerCode": null,
+      "applications": [
+        "FPV GT"
+      ],
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-182",
+      "familyId": "ford-family-barra",
+      "phase1Designation": "Barra 182",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "Barra 182",
+      "partnerCode": null,
+      "applications": [
+        "Ford Falcon BA"
+      ],
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-240t",
+      "familyId": "ford-family-barra",
+      "phase1Designation": "Barra 240T",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "Barra 240T",
+      "partnerCode": null,
+      "applications": [
+        "Ford Falcon XR6 Turbo BA"
+      ],
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-270t",
+      "familyId": "ford-family-barra",
+      "phase1Designation": "Barra 270T",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "Barra 270T",
+      "partnerCode": null,
+      "applications": [
+        "Ford Falcon XR6 Turbo FG"
+      ],
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-ecolpi",
+      "familyId": "ford-family-barra",
+      "phase1Designation": "EcoLPi Barra",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "EcoLPi Barra",
+      "partnerCode": null,
+      "applications": [
+        "Ford Falcon FG"
+      ],
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-big-six-300",
+      "familyId": "ford-family-ford-big-six",
+      "phase1Designation": "300 / 4.9 I6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "300 / 4.9 I6",
+      "partnerCode": null,
+      "applications": [
+        "Ford F-Series",
+        "Ford E-Series"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_STABLE_IDENTIFIER",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-cht-1600",
+      "familyId": "ford-family-cht",
+      "phase1Designation": "1.6 CHT",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "licensed",
+      "partner": "Renault",
+      "fordDesignation": "1.6 CHT",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Del Rey"
+      ],
+      "markets": [
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-cleveland-351c",
+      "familyId": "ford-family-cleveland",
+      "phase1Designation": "351 Cleveland",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "351 Cleveland",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford Falcon"
+      ],
+      "markets": [
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cologne-v6-2800",
+      "familyId": "ford-family-cologne-v6",
+      "phase1Designation": "2.8 Cologne V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.8 Cologne V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford Capri",
+        "Ford Granada",
+        "Ford Bronco II"
+      ],
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cologne-v6-2900",
+      "familyId": "ford-family-cologne-v6",
+      "phase1Designation": "2.9 Cologne V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.9 Cologne V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford Sierra",
+        "Ford Scorpio",
+        "Ford Ranger"
+      ],
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cosworth-bda",
+      "familyId": "ford-family-ford-cosworth-bda",
+      "phase1Designation": "BDA",
+      "previousIdentifierType": "manufacturerCode",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "officialPartnerDesignation",
+      "manufacturerOwner": "Cosworth",
+      "fordRelationship": "partnerDesigned",
+      "partner": "Cosworth",
+      "fordDesignation": "BDA",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort road cars",
+        "Ford Escort rally cars"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": 1969,
+        "end": null,
+        "approximate": false,
+        "scope": "Cosworth production-road introduction; Ford Escort road and rally applications"
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "sharedIdentityResolved",
+      "resolutionReason": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-cosworth-company-history"
+      ],
+      "exactEvidenceLocation": "Cosworth timeline: 1969 Hitting The Road — BDA developed for Ford Escort road and rally cars.",
+      "identityLimitation": "Cosworth publishes BDA as its engine designation and binds it to Ford Escort road and rally use; the source does not label BDA a Ford manufacturer or engineering code.",
+      "productionEligibility": "blockedPendingOfficialPublicDesignationPolicy",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "identityPolicyDecision",
+        "construction.valves",
+        "construction.camshafts",
+        "construction.injection",
+        "construction.aspiration"
+      ],
+      "recommendedPhase2BAction": "Retain the official Cosworth designation and application binding; wait for an approved officialPublicDesignation identity path or exact code evidence before constructing a verified record.",
+      "checkpoint": 20,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential",
+      "resolvedDesignation": "BDA",
+      "partnerDesignation": "BDA",
+      "phase1Correction": "Phase 1 classified BDA as manufacturerCode. Phase 2A narrows that claim: BDA is an official Cosworth engine designation with an application binding, but the registered evidence does not prove code type."
+    },
+    {
+      "candidateId": "ford-cosworth-yb",
+      "familyId": "ford-family-ford-cosworth-yb",
+      "phase1Designation": "YB",
+      "previousIdentifierType": "manufacturerCode",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "officialPartnerDesignation",
+      "manufacturerOwner": "Cosworth",
+      "fordRelationship": "partnerDesigned",
+      "partner": "Cosworth",
+      "fordDesignation": "YB",
+      "partnerCode": null,
+      "applications": [
+        "Ford Sierra RS Cosworth"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": 1985,
+        "end": null,
+        "approximate": false,
+        "scope": "First production-road YB-family application documented by Cosworth: Ford Sierra RS Cosworth"
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "sharedIdentityResolved",
+      "resolutionReason": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-cosworth-company-history"
+      ],
+      "exactEvidenceLocation": "Cosworth timeline: 1984 Performance to the Road — YBB in the Ford Sierra RS Cosworth.",
+      "identityLimitation": "Cosworth uses YB for the production-engine family and YBB for the specific Ford Sierra RS Cosworth road variant; the source does not label either term a Ford manufacturer or engineering code.",
+      "productionEligibility": "blockedPendingOfficialPublicDesignationPolicy",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "identityPolicyDecision",
+        "construction.valves",
+        "construction.camshafts",
+        "construction.injection",
+        "construction.aspiration"
+      ],
+      "recommendedPhase2BAction": "Retain the official Cosworth designation and application binding; wait for an approved officialPublicDesignation identity path or exact code evidence before constructing a verified record.",
+      "checkpoint": 20,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential",
+      "resolvedDesignation": "YBB",
+      "partnerDesignation": "YBB",
+      "phase1Correction": "Phase 1 classified YB as an exact manufacturerCode. Phase 2A narrows YB to the Cosworth family designation and uses YBB as the official exact variant designation for the first Sierra RS Cosworth road application; code type is not proven."
+    },
+    {
+      "candidateId": "ford-coyote-predator-52",
+      "familyId": "ford-family-coyote-derivative",
+      "phase1Designation": "5.2 Predator",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "5.2 Predator",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang Shelby GT500"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_STABLE_IDENTIFIER",
+      "sourceRefs": [
+        "ford-performance-engine-index"
+      ],
+      "exactEvidenceLocation": "ford-performance-engine-index — Engine category index",
+      "identityLimitation": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Find a Ford parts/service document that uses the nickname as a formal identity or replace it with the exact published engine code; do not promote an enthusiast nickname.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-coyote-voodoo-52",
+      "familyId": "ford-family-coyote-derivative",
+      "phase1Designation": "5.2 Voodoo",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "5.2 Voodoo",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang Shelby GT350"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_STABLE_IDENTIFIER",
+      "sourceRefs": [
+        "ford-performance-engine-index"
+      ],
+      "exactEvidenceLocation": "ford-performance-engine-index — Engine category index",
+      "identityLimitation": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Find a Ford parts/service document that uses the nickname as a formal identity or replace it with the exact published engine code; do not promote an enthusiast nickname.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-cvh-1600",
+      "familyId": "ford-family-cvh",
+      "phase1Designation": "1.6 CVH",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 CVH",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Fiesta"
+      ],
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cvh-1600-turbo",
+      "familyId": "ford-family-cvh",
+      "phase1Designation": "1.6 CVH Turbo",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 CVH Turbo",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort RS Turbo",
+        "Ford Fiesta RS Turbo"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cyclone-33",
+      "familyId": "ford-family-cyclone",
+      "phase1Designation": "3.3 Duratec V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "3.3 Duratec V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford F-150"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-performance-engine-index",
+        "p2a-ford-f150-2021-spec"
+      ],
+      "exactEvidenceLocation": "2021 F-150 Technical Specifications, engine table: 3.3-liter Ti-VCT V6 FFV.",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 20,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-dld-1400-tdci",
+      "familyId": "ford-family-dld",
+      "phase1Designation": "1.4 TDCi",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.4 TDCi",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Fusion"
+      ],
+      "markets": [
+        "Europe",
+        "India"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_CODE_APPLICATION_BINDING",
+      "sourceRefs": [
+        "ford-india-figo"
+      ],
+      "exactEvidenceLocation": "ford-india-figo — Powertrain section",
+      "identityLimitation": "The available identity evidence does not bind the required code to the complete candidate application scope.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 20,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-dld-1500-tdci",
+      "familyId": "ford-family-dld",
+      "phase1Designation": "1.5 TDCi",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.5 TDCi",
+      "partnerCode": null,
+      "applications": [
+        "Ford Figo",
+        "Ford EcoSport"
+      ],
+      "markets": [
+        "India",
+        "Asia",
+        "Africa"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-india-figo"
+      ],
+      "exactEvidenceLocation": "ford-india-figo — Powertrain section",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-dld-1600-tdci",
+      "familyId": "ford-family-dld",
+      "phase1Designation": "1.6 TDCi",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 TDCi",
+      "partnerCode": null,
+      "applications": [
+        "Ford Focus",
+        "Ford Transit Connect"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-eu-transit-connect-spec"
+      ],
+      "exactEvidenceLocation": "ford-eu-transit-connect-spec — Engine and performance tables",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-dragon-1500-ti-vct",
+      "familyId": "ford-family-dragon",
+      "phase1Designation": "1.5 Ti-VCT three-cylinder",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.5 Ti-VCT three-cylinder",
+      "partnerCode": null,
+      "applications": [
+        "Ford EcoSport",
+        "Ford Ka/Figo"
+      ],
+      "markets": [
+        "India",
+        "South America",
+        "Mexico"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-mexico-dragon-production"
+      ],
+      "exactEvidenceLocation": "ford-mexico-dragon-production — Engine and Chihuahua production descriptions",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "descriptiveLabelOnly",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-duratec-direct-flex-2000",
+      "familyId": "ford-family-duratec-direct-flex",
+      "phase1Designation": "2.0 Duratec Direct Flex",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.0 Duratec Direct Flex",
+      "partnerCode": null,
+      "applications": [
+        "Ford Focus"
+      ],
+      "markets": [
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-brazil-focus"
+      ],
+      "exactEvidenceLocation": "ford-brazil-focus — Engine summary",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-duratec-he-2000",
+      "familyId": "ford-family-duratec-he-mazda-l",
+      "phase1Designation": "2.0 Duratec HE",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Mazda Motor Corporation / Ford Motor Company",
+      "fordRelationship": "partnerDesigned",
+      "partner": "Mazda",
+      "fordDesignation": "2.0 Duratec HE",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Focus",
+        "Ford EcoSport"
+      ],
+      "markets": [
+        "Europe",
+        "North America",
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-brazil-ecosport-engineering"
+      ],
+      "exactEvidenceLocation": "ford-brazil-ecosport-engineering — Advanced flex engines section",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 40,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-duratorq-puma-2200",
+      "familyId": "ford-family-duratorq-puma",
+      "phase1Designation": "2.2 Duratorq TDCi",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.2 Duratorq TDCi",
+      "partnerCode": null,
+      "applications": [
+        "Ford Transit",
+        "Ford Ranger",
+        "Ford Everest"
+      ],
+      "markets": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "Middle East"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "lightCommercial",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocation": "ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-duratorq-puma-3200",
+      "familyId": "ford-family-duratorq-puma",
+      "phase1Designation": "3.2 Duratorq TDCi",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "3.2 Duratorq TDCi",
+      "partnerCode": null,
+      "applications": [
+        "Ford Ranger",
+        "Ford Everest"
+      ],
+      "markets": [
+        "Australia/New Zealand",
+        "Asia",
+        "Africa",
+        "Middle East"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-au-ranger-2020"
+      ],
+      "exactEvidenceLocation": "ford-au-ranger-2020 — Engine specification table",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-ecoblue-1500",
+      "familyId": "ford-family-ecoblue",
+      "phase1Designation": "1.5 EcoBlue",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.5 EcoBlue",
+      "partnerCode": null,
+      "applications": [
+        "Ford Kuga",
+        "Ford Transit Courier"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "lightCommercial",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-eu-kuga-spec",
+        "ford-eu-transit-courier-spec"
+      ],
+      "exactEvidenceLocation": "ford-eu-kuga-spec — Powertrain specification tables; ford-eu-transit-courier-spec — Engine tables",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-ecoblue-2000",
+      "familyId": "ford-family-ecoblue-panther",
+      "phase1Designation": "2.0 EcoBlue",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.0 EcoBlue",
+      "partnerCode": null,
+      "applications": [
+        "Ford Transit",
+        "Ford Tourneo Custom",
+        "Ford Ranger"
+      ],
+      "markets": [
+        "Europe",
+        "Australia/New Zealand",
+        "Africa",
+        "Middle East"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "lightCommercial",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-au-ranger-2020",
+        "ford-eu-ecoblue-launch",
+        "ford-eu-tourneo-custom-spec",
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocation": "ford-au-ranger-2020 — Engine specification table; ford-eu-ecoblue-launch — Release body; ford-eu-tourneo-custom-spec — Powertrain tables; ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-ecoboost-1000",
+      "familyId": "ford-family-ecoboost",
+      "phase1Designation": "1.0 EcoBoost",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.0 EcoBoost",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Focus",
+        "Ford Transit Courier"
+      ],
+      "markets": [
+        "Europe",
+        "Asia",
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-eu-transit-courier-spec"
+      ],
+      "exactEvidenceLocation": "ford-eu-transit-courier-spec — Engine tables",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecoboost-1500-dragon",
+      "familyId": "ford-family-dragon-ecoboost",
+      "phase1Designation": "1.5 EcoBoost three-cylinder",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.5 EcoBoost three-cylinder",
+      "partnerCode": null,
+      "applications": [
+        "Ford Kuga",
+        "Ford Escape"
+      ],
+      "markets": [
+        "Europe",
+        "North America",
+        "China"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-eu-kuga-spec",
+        "ford-mexico-dragon-production"
+      ],
+      "exactEvidenceLocation": "ford-eu-kuga-spec — Powertrain specification tables; ford-mexico-dragon-production — Engine and Chihuahua production descriptions",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecoboost-1600",
+      "familyId": "ford-family-ecoboost",
+      "phase1Designation": "1.6 EcoBoost",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 EcoBoost",
+      "partnerCode": null,
+      "applications": [
+        "Ford Focus",
+        "Ford Mondeo",
+        "Ford Transit Connect"
+      ],
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-eu-mondeo-powertrains",
+        "ford-eu-transit-connect-spec"
+      ],
+      "exactEvidenceLocation": "ford-eu-mondeo-powertrains — Powertrain descriptions; ford-eu-transit-connect-spec — Engine and performance tables",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecoboost-2000",
+      "familyId": "ford-family-ecoboost",
+      "phase1Designation": "2.0 EcoBoost",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.0 EcoBoost",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Edge",
+        "Ford Escape"
+      ],
+      "markets": [
+        "Europe",
+        "North America",
+        "Asia"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "exactEvidenceLocation": "ford-eu-mondeo-powertrains — Powertrain descriptions",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecoboost-27-v6",
+      "familyId": "ford-family-nano-ecoboost-v6",
+      "phase1Designation": "2.7 EcoBoost V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.7 EcoBoost V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford F-150",
+        "Ford Bronco",
+        "Lincoln Nautilus"
+      ],
+      "markets": [
+        "North America",
+        "China"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-performance-engine-index",
+        "p2a-ford-f150-2021-spec"
+      ],
+      "exactEvidenceLocation": "2021 F-150 Technical Specifications, engine table: 2.7-liter EcoBoost V6.",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecoboost-30-v6",
+      "familyId": "ford-family-nano-ecoboost-v6",
+      "phase1Designation": "3.0 EcoBoost V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "3.0 EcoBoost V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford Explorer ST",
+        "Ford Bronco Raptor",
+        "Lincoln Aviator"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-performance-engine-index",
+        "p2a-ford-explorer-2020-order-guide"
+      ],
+      "exactEvidenceLocation": "2020 Explorer Order Guide, powertrain table: ST/Platinum 3.0L EcoBoost V6.",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "ambiguousAcrossVariants",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecoboost-35-gt-racing",
+      "familyId": "ford-family-ecoboost-v6",
+      "phase1Designation": "3.5 EcoBoost race architecture",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "3.5 EcoBoost race architecture",
+      "partnerCode": null,
+      "applications": [
+        "Ford GT",
+        "IMSA Daytona Prototype"
+      ],
+      "markets": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "racing",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-fap-ford-gt"
+      ],
+      "exactEvidenceLocation": "ford-fap-ford-gt — Powertrain description",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresRoadRaceScopeSplitAndDesignationPolicy",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Split the Ford GT road application from the race-architecture statement, then decide whether the public designation can serve as the production identity.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "descriptiveLabelOnly",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-ecotorq-13000",
+      "familyId": "ford-family-ecotorq",
+      "phase1Designation": "13 L Ecotorq",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "13 L Ecotorq",
+      "partnerCode": null,
+      "applications": [
+        "Ford Trucks",
+        "JMC Weilong"
+      ],
+      "markets": [
+        "Europe",
+        "Middle East",
+        "Africa",
+        "Turkey",
+        "China"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "heavyCommercial",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocation": "ford-otosan-ecotorq — Ecotorq Engine Family page; ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-ecotorq-9000",
+      "familyId": "ford-family-ecotorq",
+      "phase1Designation": "9 L Ecotorq",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "9 L Ecotorq",
+      "partnerCode": null,
+      "applications": [
+        "Ford Trucks"
+      ],
+      "markets": [
+        "Europe",
+        "Middle East",
+        "Africa",
+        "Turkey"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "heavyCommercial",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocation": "ford-otosan-ecotorq — Ecotorq Engine Family page; ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 40,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-endura-e-1300",
+      "familyId": "ford-family-endura-e",
+      "phase1Designation": "1.3 Endura-E",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.3 Endura-E",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Ka"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 40,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-essex-v4-1700",
+      "familyId": "ford-family-essex-v4",
+      "phase1Designation": "1.7 Essex V4",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.7 Essex V4",
+      "partnerCode": null,
+      "applications": [
+        "Ford Transit",
+        "Ford Capri"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 40,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-essex-v6-3000",
+      "familyId": "ford-family-essex-v6",
+      "phase1Designation": "3.0 Essex V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "3.0 Essex V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford Capri",
+        "Ford Granada"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-falcon-six-144",
+      "familyId": "ford-family-falcon-six",
+      "phase1Designation": "144 Six",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "144 Six",
+      "partnerCode": null,
+      "applications": [
+        "1961 Ford Falcon"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-na-falcon-1961"
+      ],
+      "exactEvidenceLocation": "ford-na-falcon-1961 — Engine specifications",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 60,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-falcon-six-170",
+      "familyId": "ford-family-falcon-six",
+      "phase1Designation": "170 Special Six",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "170 Special Six",
+      "partnerCode": null,
+      "applications": [
+        "1961 Ford Falcon"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-na-falcon-1961"
+      ],
+      "exactEvidenceLocation": "ford-na-falcon-1961 — Engine specifications",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 60,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-fe-390",
+      "familyId": "ford-family-fe",
+      "phase1Designation": "390 FE",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "390 FE",
+      "partnerCode": null,
+      "applications": [
+        "Ford Galaxie",
+        "Ford Mustang",
+        "Ford trucks"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-fe-427",
+      "familyId": "ford-family-fe",
+      "phase1Designation": "427 FE",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "427 FE",
+      "partnerCode": null,
+      "applications": [
+        "Ford Galaxie",
+        "Ford GT40 derivatives"
+      ],
+      "markets": [
+        "North America",
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "racing",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "MISSING_CODE_APPLICATION_BINDING",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The available identity evidence does not bind the required code to the complete candidate application scope.",
+      "productionEligibility": "requiresRoadRaceScopeSplit",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Separate any homologated road application from race-only architecture and obtain an exact code binding for each retained identity.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-flathead-v8-221",
+      "familyId": "ford-family-flathead-v8",
+      "phase1Designation": "221 Flathead V8",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "221 Flathead V8",
+      "partnerCode": null,
+      "applications": [
+        "Ford passenger cars"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-flathead-v8-239",
+      "familyId": "ford-family-flathead-v8",
+      "phase1Designation": "239 Flathead V8",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "239 Flathead V8",
+      "partnerCode": null,
+      "applications": [
+        "Ford passenger cars",
+        "Ford trucks"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-godzilla-73",
+      "familyId": "ford-family-godzilla",
+      "phase1Designation": "7.3 V8 gasoline",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "7.3 V8 gasoline",
+      "partnerCode": null,
+      "applications": [
+        "Ford Super Duty",
+        "Ford F-650/F-750"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-na-f650-f750-2022",
+        "ford-na-super-duty-2023"
+      ],
+      "exactEvidenceLocation": "ford-na-f650-f750-2022 — Engine table; ford-na-super-duty-2023 — Engine specification table",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 60,
+      "publicIdentityQuality": "descriptiveLabelOnly",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-hcs-1100",
+      "familyId": "ford-family-hcs",
+      "phase1Designation": "1.1 HCS",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.1 HCS",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Escort"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-kent-crossflow-1300",
+      "familyId": "ford-family-kent-crossflow",
+      "phase1Designation": "1300 Crossflow",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1300 Crossflow",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Cortina"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-kent-crossflow-1600",
+      "familyId": "ford-family-kent-crossflow",
+      "phase1Designation": "1600 Crossflow",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1600 Crossflow",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Cortina"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-kent-pre-crossflow-997",
+      "familyId": "ford-family-kent",
+      "phase1Designation": "997 cc pre-crossflow",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "997 cc pre-crossflow",
+      "partnerCode": null,
+      "applications": [
+        "Ford Anglia"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-lima-2300",
+      "familyId": "ford-family-lima-ohc",
+      "phase1Designation": "2.3 Lima OHC",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.3 Lima OHC",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford Pinto",
+        "Ford Ranger"
+      ],
+      "markets": [
+        "North America",
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-modular-46-4v",
+      "familyId": "ford-family-modular",
+      "phase1Designation": "4.6 Modular 4V",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "4.6 Modular 4V",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang Cobra",
+        "Lincoln Mark VIII"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-modular-54-4v",
+      "familyId": "ford-family-modular",
+      "phase1Designation": "5.4 Modular 4V",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "5.4 Modular 4V",
+      "partnerCode": null,
+      "applications": [
+        "Ford F-150 Lightning",
+        "Ford GT"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-modular-68-v10",
+      "familyId": "ford-family-modular",
+      "phase1Designation": "6.8 Triton V10",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "6.8 Triton V10",
+      "partnerCode": null,
+      "applications": [
+        "Ford Super Duty",
+        "Ford E-Series"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "lightCommercial",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-na-powerstroke-2016"
+      ],
+      "exactEvidenceLocation": "ford-na-powerstroke-2016 — Capability and engine lineup sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 60,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-navistar-power-stroke-60",
+      "familyId": "ford-family-navistar-vt365-power-stroke",
+      "phase1Designation": "6.0 Power Stroke",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": null,
+      "fordRelationship": "suppliedByPartner",
+      "partner": "International/Navistar",
+      "fordDesignation": "6.0 Power Stroke",
+      "partnerCode": null,
+      "applications": [
+        "Ford Super Duty",
+        "Ford E-Series"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-navistar-2011-annual-report",
+        "p2a-navistar-tool-inventory"
+      ],
+      "exactEvidenceLocation": "Navistar annual report confirms supply to Ford; service-tool inventory lists the partner code and period, but neither document supplies the exact crosswalk.",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-navistar-power-stroke-73",
+      "familyId": "ford-family-navistar-t444e-power-stroke",
+      "phase1Designation": "7.3 Power Stroke",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": null,
+      "fordRelationship": "suppliedByPartner",
+      "partner": "International/Navistar",
+      "fordDesignation": "7.3 Power Stroke",
+      "partnerCode": null,
+      "applications": [
+        "Ford Super Duty",
+        "Ford E-Series"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-navistar-2011-annual-report",
+        "p2a-navistar-tool-inventory"
+      ],
+      "exactEvidenceLocation": "Navistar annual report confirms supply to Ford; service-tool inventory lists the partner code and period, but neither document supplies the exact crosswalk.",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-pinto-ohc-1600",
+      "familyId": "ford-family-pinto-ohc",
+      "phase1Designation": "1.6 OHC",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 OHC",
+      "partnerCode": null,
+      "applications": [
+        "Ford Cortina",
+        "Ford Sierra"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "DESCRIPTIVE_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The available label describes displacement and architecture but does not distinguish a stable engine identity.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-pinto-ohc-2000",
+      "familyId": "ford-family-pinto-ohc",
+      "phase1Designation": "2.0 OHC",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.0 OHC",
+      "partnerCode": null,
+      "applications": [
+        "Ford Cortina",
+        "Ford Capri",
+        "Ford Sierra"
+      ],
+      "markets": [
+        "Europe",
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "DESCRIPTIVE_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The available label describes displacement and architecture but does not distinguish a stable engine identity.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 60,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-power-stroke-30",
+      "familyId": "ford-family-power-stroke-lion",
+      "phase1Designation": "3.0 Power Stroke V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "sharedFamily",
+      "partner": "PSA; Jaguar/Land Rover",
+      "fordDesignation": "3.0 Power Stroke V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford F-150"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-ford-f150-2021-spec",
+        "p2a-ford-f150-30-powerstroke-factsheet"
+      ],
+      "exactEvidenceLocation": "2018 F-150 engine factsheet and 2021 F-150 engine table: 3.0-liter V6 Power Stroke diesel.",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-power-stroke-67",
+      "familyId": "ford-family-power-stroke",
+      "phase1Designation": "6.7 Power Stroke V8",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "6.7 Power Stroke V8",
+      "partnerCode": null,
+      "applications": [
+        "Ford Super Duty",
+        "Ford F-650/F-750"
+      ],
+      "markets": [
+        "North America",
+        "Mexico"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "suvPickup",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-na-f650-f750-2022",
+        "ford-na-powerstroke-2016",
+        "ford-na-super-duty-2023"
+      ],
+      "exactEvidenceLocation": "ford-na-f650-f750-2022 — Engine table; ford-na-powerstroke-2016 — Capability and engine lineup sections; ford-na-super-duty-2023 — Engine specification table",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 80,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-psa-dw12-2200",
+      "familyId": "ford-family-psa-dw12-ford-duratorq",
+      "phase1Designation": "2.2 TDCi / HDi",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "coDeveloped",
+      "partner": "PSA Peugeot Citroen",
+      "fordDesignation": "2.2 TDCi",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Galaxy"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "exactEvidenceLocation": "ford-eu-mondeo-powertrains — Powertrain descriptions",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-sho-yamaha-30",
+      "familyId": "ford-family-sho-v6",
+      "phase1Designation": "3.0 SHO V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "coDeveloped",
+      "partner": "Yamaha",
+      "fordDesignation": "3.0 SHO V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford Taurus SHO"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-sigma-1200-ti-vct",
+      "familyId": "ford-family-sigma-ti-vct",
+      "phase1Designation": "1.2 Ti-VCT",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.2 Ti-VCT",
+      "partnerCode": null,
+      "applications": [
+        "Ford Figo"
+      ],
+      "markets": [
+        "India"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-india-figo"
+      ],
+      "exactEvidenceLocation": "ford-india-figo — Powertrain section",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 80,
+      "publicIdentityQuality": "descriptiveLabelOnly",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-sigma-flex-1500",
+      "familyId": "ford-family-sigma",
+      "phase1Designation": "1.5 Sigma Flex",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.5 Sigma Flex",
+      "partnerCode": null,
+      "applications": [
+        "Ford New Fiesta",
+        "Ford EcoSport"
+      ],
+      "markets": [
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-brazil-sigma-million"
+      ],
+      "exactEvidenceLocation": "ford-brazil-sigma-million — Release body; Brazil and worldwide production sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 80,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-sigma-flex-1600",
+      "familyId": "ford-family-sigma",
+      "phase1Designation": "1.6 Sigma Ti-VCT Flex",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 Sigma Ti-VCT Flex",
+      "partnerCode": null,
+      "applications": [
+        "Ford New Fiesta",
+        "Ford EcoSport",
+        "Ford Focus"
+      ],
+      "markets": [
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "publicDesignationOnly",
+      "resolutionReason": "PUBLIC_DESIGNATION_ONLY",
+      "sourceRefs": [
+        "ford-brazil-ecosport-engineering",
+        "ford-brazil-focus",
+        "ford-brazil-sigma-million"
+      ],
+      "exactEvidenceLocation": "ford-brazil-ecosport-engineering — Advanced flex engines section; ford-brazil-focus — Engine summary; ford-brazil-sigma-million — Release body; Brazil and worldwide production sections",
+      "identityLimitation": "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+      "productionEligibility": "requiresDesignationPolicyDecision",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "designationPolicyDecision",
+        "constructionEvidence",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Decide whether the stable public designation is permitted by the exact-code policy; only then begin Phase 2B construction enrichment.",
+      "checkpoint": 80,
+      "publicIdentityQuality": "stableOfficialDesignation",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotential"
+    },
+    {
+      "candidateId": "ford-valencia-1100",
+      "familyId": "ford-family-valencia",
+      "phase1Designation": "1.1 Valencia",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.1 Valencia",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-vulcan-30",
+      "familyId": "ford-family-vulcan",
+      "phase1Designation": "3.0 Vulcan V6",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "3.0 Vulcan V6",
+      "partnerCode": null,
+      "applications": [
+        "Ford Taurus",
+        "Ford Ranger"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-windsor-289",
+      "familyId": "ford-family-windsor-small-block",
+      "phase1Designation": "289 Windsor",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "289 Windsor",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford Falcon"
+      ],
+      "markets": [
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-windsor-302",
+      "familyId": "ford-family-windsor-small-block",
+      "phase1Designation": "302 / 5.0 Windsor",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "302 / 5.0 Windsor",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford F-Series",
+        "Ford Falcon"
+      ],
+      "markets": [
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-windsor-351w",
+      "familyId": "ford-family-windsor-small-block",
+      "phase1Designation": "351 Windsor",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "351 Windsor",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford F-Series"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-y-block-292",
+      "familyId": "ford-family-y-block",
+      "phase1Designation": "292 Y-block",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "292 Y-block",
+      "partnerCode": null,
+      "applications": [
+        "Ford passenger cars",
+        "Ford trucks"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-y-block-312",
+      "familyId": "ford-family-y-block",
+      "phase1Designation": "312 Y-block",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "312 Y-block",
+      "partnerCode": null,
+      "applications": [
+        "Ford",
+        "Mercury"
+      ],
+      "markets": [
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-e-1600",
+      "familyId": "ford-family-zetec-e",
+      "phase1Designation": "1.6 Zetec-E",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 Zetec-E",
+      "partnerCode": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Focus"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-e-1800",
+      "familyId": "ford-family-zetec-e",
+      "phase1Designation": "1.8 Zetec-E",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.8 Zetec-E",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Focus"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-e-2000",
+      "familyId": "ford-family-zetec-e",
+      "phase1Designation": "2.0 Zetec-E",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "2.0 Zetec-E",
+      "partnerCode": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Focus"
+      ],
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-rocam-1600",
+      "familyId": "ford-family-zetec-rocam",
+      "phase1Designation": "1.6 Zetec Rocam",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 Zetec Rocam",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford EcoSport",
+        "Ford Ka"
+      ],
+      "markets": [
+        "South America"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-se-1250",
+      "familyId": "ford-family-zetec-se-sigma",
+      "phase1Designation": "1.25 Zetec-SE",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.25 Zetec-SE",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-se-1600",
+      "familyId": "ford-family-zetec-se-sigma",
+      "phase1Designation": "1.6 Zetec-SE",
+      "previousIdentifierType": "familyDesignation",
+      "resolvedCode": null,
+      "resolvedIdentifierType": "none",
+      "manufacturerOwner": "Ford Motor Company",
+      "fordRelationship": "fordDesigned",
+      "partner": null,
+      "fordDesignation": "1.6 Zetec-SE",
+      "partnerCode": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Focus"
+      ],
+      "markets": [
+        "Europe"
+      ],
+      "documentedPeriod": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "category": "passengerVehicle",
+      "phase2aStatus": "unresolved",
+      "resolutionReason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocation": "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application.",
+      "identityLimitation": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "productionEligibility": "blockedPendingIdentityEvidence",
+      "readyForPhase2B": false,
+      "nextRequiredFields": [
+        "exactCode",
+        "codeApplicationBinding",
+        "documentedYears"
+      ],
+      "recommendedPhase2BAction": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "checkpoint": 80,
+      "publicIdentityQuality": null,
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    }
+  ],
+  "sharedIdentityReview": [
+    {
+      "candidateId": "ford-cht-1600",
+      "phase1Scope": "partialCandidate",
+      "partner": "Renault",
+      "fordRelationship": "licensed",
+      "fordDesignation": "1.6 CHT",
+      "partnerDesignation": "Cleon-Fonte derivative",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "ford-cosworth-bda",
+      "phase1Scope": "partialCandidate",
+      "partner": "Cosworth",
+      "fordRelationship": "partnerDesigned",
+      "fordDesignation": "BDA",
+      "partnerDesignation": "BDA",
+      "phase2aOutcome": "sharedIdentityResolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-cosworth-company-history"
+      ],
+      "limitation": "BDA is an official Cosworth designation bound to Ford Escort road and rally use; its treatment as a code is not established by the registered source.",
+      "resolvedPartnerDesignation": "BDA"
+    },
+    {
+      "candidateId": "ford-cosworth-yb",
+      "phase1Scope": "partialCandidate",
+      "partner": "Cosworth",
+      "fordRelationship": "partnerDesigned",
+      "fordDesignation": "YB",
+      "partnerDesignation": "YBB",
+      "phase2aOutcome": "sharedIdentityResolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-cosworth-company-history"
+      ],
+      "limitation": "YB is the Cosworth family designation; YBB is the official exact variant designation bound to the first Sierra RS Cosworth road application. Code type is not established.",
+      "resolvedPartnerDesignation": "YBB"
+    },
+    {
+      "candidateId": "ford-duratec-30",
+      "phase1Scope": "existingProduction",
+      "partner": "Mazda; Jaguar/Land Rover",
+      "fordRelationship": "sharedFamily",
+      "fordDesignation": "3.0 Duratec V6",
+      "partnerDesignation": "Mazda AJ derivatives; Jaguar AJ-V6 derivatives",
+      "phase2aOutcome": "existingProductionNotReopened",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "limitation": "Existing production match was not re-audited; retain its Phase 1 legacy/verification state."
+    },
+    {
+      "candidateId": "ford-duratec-he-2000",
+      "phase1Scope": "partialCandidate",
+      "partner": "Mazda",
+      "fordRelationship": "partnerDesigned",
+      "fordDesignation": "2.0 Duratec HE",
+      "partnerDesignation": "Mazda L/MZR",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-brazil-ecosport-engineering"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "ford-navistar-power-stroke-60",
+      "phase1Scope": "partialCandidate",
+      "partner": "International/Navistar",
+      "fordRelationship": "suppliedByPartner",
+      "fordDesignation": "6.0 Power Stroke",
+      "partnerDesignation": "VT365",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-navistar-2011-annual-report",
+        "p2a-navistar-tool-inventory"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "ford-navistar-power-stroke-73",
+      "phase1Scope": "partialCandidate",
+      "partner": "International/Navistar",
+      "fordRelationship": "suppliedByPartner",
+      "fordDesignation": "7.3 Power Stroke",
+      "partnerDesignation": "T444E",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-navistar-2011-annual-report",
+        "p2a-navistar-tool-inventory"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "ford-power-stroke-30",
+      "phase1Scope": "partialCandidate",
+      "partner": "PSA; Jaguar/Land Rover",
+      "fordRelationship": "sharedFamily",
+      "fordDesignation": "3.0 Power Stroke V6",
+      "partnerDesignation": "Lion/AJD-V6 derivatives",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-ford-f150-2021-spec",
+        "p2a-ford-f150-30-powerstroke-factsheet"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "ford-psa-dw12-2200",
+      "phase1Scope": "partialCandidate",
+      "partner": "PSA Peugeot Citroen",
+      "fordRelationship": "coDeveloped",
+      "fordDesignation": "2.2 TDCi",
+      "partnerDesignation": "DW12 / 2.2 HDi",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "ford-sho-yamaha-30",
+      "phase1Scope": "partialCandidate",
+      "partner": "Yamaha",
+      "fordRelationship": "coDeveloped",
+      "fordDesignation": "3.0 SHO V6",
+      "partnerDesignation": "Yamaha-developed SHO V6",
+      "phase2aOutcome": "unresolved",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "limitation": "Partner attribution or a likely partner code is known, but no authoritative exact code → Ford application bridge closes the candidate scope."
+    },
+    {
+      "candidateId": "psa-dw10",
+      "phase1Scope": "existingProduction",
+      "partner": "PSA Peugeot Citroen; Volvo",
+      "fordRelationship": "coDeveloped",
+      "fordDesignation": "2.0 TDCi",
+      "partnerDesignation": "DW10 / 2.0 HDi; Volvo D4204T derivatives",
+      "phase2aOutcome": "existingProductionNotReopened",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-eu-media-archive-shared-engine-discovery"
+      ],
+      "limitation": "Existing production match was not re-audited; retain its Phase 1 legacy/verification state."
+    },
+    {
+      "candidateId": "volvo-b5254t",
+      "phase1Scope": "existingProduction",
+      "partner": "Volvo Cars",
+      "fordRelationship": "suppliedByPartner",
+      "fordDesignation": "Ford 2.5T application",
+      "partnerDesignation": "B5254T derivatives",
+      "phase2aOutcome": "existingProductionNotReopened",
+      "resolvedPartnerCode": null,
+      "sourceRefs": [
+        "ford-eu-media-archive-shared-engine-discovery"
+      ],
+      "limitation": "Existing production match was not re-audited; retain its Phase 1 legacy/verification state."
+    }
+  ],
+  "unresolvedQueue": [
+    {
+      "candidateId": "ford-335-400",
+      "reason": "MISSING_STABLE_IDENTIFIER",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-385-460",
+      "reason": "MISSING_STABLE_IDENTIFIER",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-australia-boss-335",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-182",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-240t",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-270t",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-barra-ecolpi",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-big-six-300",
+      "reason": "MISSING_STABLE_IDENTIFIER",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-cht-1600",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-cleveland-351c",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cologne-v6-2800",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cologne-v6-2900",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-coyote-predator-52",
+      "reason": "MISSING_STABLE_IDENTIFIER",
+      "missingDocument": "Find a Ford parts/service document that uses the nickname as a formal identity or replace it with the exact published engine code; do not promote an enthusiast nickname.",
+      "sourceRefs": [
+        "ford-performance-engine-index"
+      ],
+      "blocker": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-coyote-voodoo-52",
+      "reason": "MISSING_STABLE_IDENTIFIER",
+      "missingDocument": "Find a Ford parts/service document that uses the nickname as a formal identity or replace it with the exact published engine code; do not promote an enthusiast nickname.",
+      "sourceRefs": [
+        "ford-performance-engine-index"
+      ],
+      "blocker": "The registered evidence does not establish a stable official identifier beyond a displacement label or an unconfirmed nickname.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-cvh-1600",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-cvh-1600-turbo",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-dld-1400-tdci",
+      "reason": "MISSING_CODE_APPLICATION_BINDING",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-india-figo"
+      ],
+      "blocker": "The available identity evidence does not bind the required code to the complete candidate application scope.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-duratec-he-2000",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-brazil-ecosport-engineering"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-endura-e-1300",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-essex-v4-1700",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-essex-v6-3000",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-fe-390",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-fe-427",
+      "reason": "MISSING_CODE_APPLICATION_BINDING",
+      "missingDocument": "Separate any homologated road application from race-only architecture and obtain an exact code binding for each retained identity.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The available identity evidence does not bind the required code to the complete candidate application scope.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-flathead-v8-221",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-flathead-v8-239",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-hcs-1100",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-kent-crossflow-1300",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-kent-crossflow-1600",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-kent-pre-crossflow-997",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-lima-2300",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-modular-46-4v",
+      "reason": "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-modular-54-4v",
+      "reason": "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-navistar-power-stroke-60",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-navistar-2011-annual-report",
+        "p2a-navistar-tool-inventory"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-navistar-power-stroke-73",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-navistar-2011-annual-report",
+        "p2a-navistar-tool-inventory"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-pinto-ohc-1600",
+      "reason": "DESCRIPTIVE_DESIGNATION_ONLY",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The available label describes displacement and architecture but does not distinguish a stable engine identity.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-pinto-ohc-2000",
+      "reason": "DESCRIPTIVE_DESIGNATION_ONLY",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The available label describes displacement and architecture but does not distinguish a stable engine identity.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-power-stroke-30",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-ford-f150-2021-spec",
+        "p2a-ford-f150-30-powerstroke-factsheet"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-psa-dw12-2200",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-eu-mondeo-powertrains"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-sho-yamaha-30",
+      "reason": "SHARED_RELATIONSHIP_UNRESOLVED",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The partner or shared-family relationship is known, but the authoritative crosswalk to the Ford application remains unresolved.",
+      "futureIdentityPathAssessment": "exactCodeOrRelationshipRequired"
+    },
+    {
+      "candidateId": "ford-valencia-1100",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-vulcan-30",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-windsor-289",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-windsor-302",
+      "reason": "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-windsor-351w",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-y-block-292",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-y-block-312",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-e-1600",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-e-1800",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-e-2000",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-rocam-1600",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-se-1250",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    },
+    {
+      "candidateId": "ford-zetec-se-1600",
+      "reason": "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+      "missingDocument": "Locate an official parts, service, homologation, or application document that literally binds the exact code to the candidate application and period.",
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "blocker": "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+      "futureIdentityPathAssessment": "officialPublicDesignationPotentialAfterEnrichment"
+    }
+  ],
+  "notProductionEligible": [],
+  "productionConflictReview": {
+    "productionBaseline": 916,
+    "exactCandidateIdCollisions": [],
+    "explainedPotentialOverlaps": [
+      {
+        "candidateId": "ford-cosworth-bda",
+        "existingProductionId": null,
+        "explanation": "No current production ID; a future BDA record must use the official Cosworth designation type and remain separate from generic Kent identities because it is a material DOHC variant."
+      },
+      {
+        "candidateId": "ford-cosworth-yb",
+        "existingProductionId": null,
+        "explanation": "No current production ID; a future YBB record must use the exact Cosworth variant designation and remain narrower than the YB family or generic Pinto/OHC identities."
+      },
+      {
+        "candidateId": "ford-ecoboost-27-v6",
+        "existingProductionId": null,
+        "explanation": "Distinct displacement from existing 3.5 EcoBoost; no exact ID collision."
+      },
+      {
+        "candidateId": "ford-power-stroke-30",
+        "existingProductionId": null,
+        "explanation": "Shared Lion-family attribution remains explicit; do not duplicate a future JLR/PSA identity without a cross-manufacturer scope decision."
+      }
+    ]
+  }
+}
