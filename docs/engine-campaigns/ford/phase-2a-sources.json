@@ -1,0 +1,177 @@
+{
+  "campaignManufacturer": "Ford",
+  "phase": "2A",
+  "policy": "Only new Phase 2A sources are stored here. Source refs may also resolve to the immutable Phase 1 source registry.",
+  "sources": [
+    {
+      "sourceId": "p2a-cosworth-company-history",
+      "publisher": "Cosworth",
+      "title": "About Us — 65 Years of Cosworth",
+      "url": "https://www.cosworth.com/about-us/",
+      "documentDate": null,
+      "sourceType": "officialPartnerHistory",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "candidateIds": [
+        "ford-cosworth-bda",
+        "ford-cosworth-yb"
+      ],
+      "location": "65 Years of Cosworth timeline, 1969 Hitting The Road and 1984 Performance to the Road",
+      "fields": [
+        "officialPartnerDesignation",
+        "partner",
+        "relationship",
+        "application",
+        "period"
+      ],
+      "limitations": [
+        "BDA is tied to Ford Escort road and rally cars. The Sierra entry names YBB specifically; it does not resolve every later YB-family suffix."
+      ],
+      "accessStatus": "available",
+      "notes": "Authoritative partner evidence for two designation/application bindings. Cosworth identifies BDA as an engine used by Ford and YBB as the exact Sierra RS Cosworth road variant, but does not characterize either term as a manufacturer or engineering code."
+    },
+    {
+      "sourceId": "p2a-ford-explorer-2020-order-guide",
+      "publisher": "Ford Motor Company",
+      "title": "2020 Ford Explorer Order Guide",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2020/Explorer/2020-Explorer-Order-Guide.pdf",
+      "documentDate": "2020",
+      "sourceType": "manufacturerApplicationGuide",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "candidateIds": [
+        "ford-ecoboost-30-v6"
+      ],
+      "location": "Powertrain tables: ST and Platinum 3.0L EcoBoost V6",
+      "fields": [
+        "designation",
+        "application",
+        "period"
+      ],
+      "limitations": [
+        "Publishes a marketing designation, not a manufacturer or engineering code."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "p2a-ford-f150-2021-spec",
+      "publisher": "Ford Motor Company",
+      "title": "2021 Ford F-150 Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2021/f150/pdfs/2021-F-150-Technical-Specs.pdf",
+      "documentDate": "2021",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "candidateIds": [
+        "ford-cyclone-33",
+        "ford-ecoboost-27-v6",
+        "ford-power-stroke-30"
+      ],
+      "location": "Engine tables: 3.3-liter Ti-VCT V6, 2.7-liter EcoBoost V6, and 3.0-liter Power Stroke V6",
+      "fields": [
+        "designation",
+        "application",
+        "displacement",
+        "configuration",
+        "fuel",
+        "aspiration",
+        "performance"
+      ],
+      "limitations": [
+        "Publishes Ford marketing designations and F-150 application, not manufacturer or engineering codes."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "p2a-ford-f150-30-powerstroke-factsheet",
+      "publisher": "Ford Motor Company",
+      "title": "F-150 All-New 3.0-Liter V6 Power Stroke Diesel Factsheet",
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/US/product/2018/f-150/2018-F150-engine-factsheet.pdf",
+      "documentDate": "2018",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "candidateIds": [
+        "ford-power-stroke-30"
+      ],
+      "location": "Engine specifications panel",
+      "fields": [
+        "designation",
+        "application",
+        "displacement",
+        "configuration",
+        "fuel",
+        "aspiration",
+        "performance"
+      ],
+      "limitations": [
+        "Does not publish the partner-family code or an engineering code."
+      ],
+      "accessStatus": "headRequestRestricted",
+      "notes": ""
+    },
+    {
+      "sourceId": "p2a-navistar-2011-annual-report",
+      "publisher": "Navistar International Corporation",
+      "title": "Navistar 2011 Annual Report",
+      "url": "https://ir.navistar.com/files/doc_Financials/Annual_Reports/Navistar_2011_Annual_Report_Form_10-K.pdf",
+      "documentDate": "2011",
+      "sourceType": "officialPartnerCorporateFiling",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "candidateIds": [
+        "ford-navistar-power-stroke-60",
+        "ford-navistar-power-stroke-73"
+      ],
+      "location": "Legal proceedings discussion of Power Stroke engines supplied to Ford",
+      "fields": [
+        "partner",
+        "relationship",
+        "application"
+      ],
+      "limitations": [
+        "Confirms Navistar supplied Power Stroke engines to Ford, but does not bind T444E or VT365 to a specific Ford application in the same passage."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    },
+    {
+      "sourceId": "p2a-navistar-tool-inventory",
+      "publisher": "Navistar, Inc.",
+      "title": "Tool Instruction 4328235R3",
+      "url": "https://msi.navistar.com/portals/ui/public/viewer/66db1bab4feaae2b90382d71/nocontext/4328235.pdf",
+      "documentDate": "2016",
+      "sourceType": "officialPartnerServiceDocument",
+      "evidenceTier": "A",
+      "markets": [
+        "North America"
+      ],
+      "candidateIds": [
+        "ford-navistar-power-stroke-60",
+        "ford-navistar-power-stroke-73"
+      ],
+      "location": "Application list: VT365 (2002–2006) and T444E (1997–2003)",
+      "fields": [
+        "partnerCode",
+        "period"
+      ],
+      "limitations": [
+        "Lists Navistar codes and periods but does not state the Ford Power Stroke crosswalk; it cannot close the identity bridge alone."
+      ],
+      "accessStatus": "available",
+      "notes": ""
+    }
+  ]
+}

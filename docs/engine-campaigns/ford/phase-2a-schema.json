@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://d3-orient.example/schemas/ford-phase-2a-resolution.schema.json",
+  "title": "Ford Manufacturer Campaign Phase 2A Identity Resolution",
+  "type": "object",
+  "required": [
+    "campaign",
+    "resolutions",
+    "sharedIdentityReview",
+    "unresolvedQueue",
+    "notProductionEligible",
+    "productionConflictReview"
+  ],
+  "properties": {
+    "campaign": {
+      "type": "object"
+    },
+    "resolutions": {
+      "type": "array",
+      "minItems": 80,
+      "maxItems": 80,
+      "items": {
+        "type": "object",
+        "required": [
+          "candidateId",
+          "familyId",
+          "phase1Designation",
+          "previousIdentifierType",
+          "resolvedCode",
+          "resolvedIdentifierType",
+          "manufacturerOwner",
+          "fordRelationship",
+          "partner",
+          "fordDesignation",
+          "partnerCode",
+          "applications",
+          "markets",
+          "documentedPeriod",
+          "category",
+          "phase2aStatus",
+          "resolutionReason",
+          "sourceRefs",
+          "exactEvidenceLocation",
+          "identityLimitation",
+          "productionEligibility",
+          "readyForPhase2B",
+          "nextRequiredFields",
+          "recommendedPhase2BAction",
+          "checkpoint",
+          "publicIdentityQuality",
+          "futureIdentityPathAssessment"
+        ],
+        "properties": {
+          "candidateId": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "familyId": {
+            "type": "string",
+            "pattern": "^ford-family-"
+          },
+          "phase1Designation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "previousIdentifierType": {
+            "enum": [
+              "manufacturerCode",
+              "engineeringCode",
+              "familyDesignation",
+              "marketingDesignation",
+              "partNumber",
+              "unknown"
+            ]
+          },
+          "resolvedCode": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "resolvedIdentifierType": {
+            "enum": [
+              "manufacturerCode",
+              "engineeringCode",
+              "partnerCode",
+              "officialPartnerDesignation",
+              "none"
+            ]
+          },
+          "manufacturerOwner": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fordRelationship": {
+            "enum": [
+              "fordDesigned",
+              "partnerDesigned",
+              "coDeveloped",
+              "suppliedByPartner",
+              "licensed",
+              "rebadged",
+              "sharedFamily",
+              "uncertain"
+            ]
+          },
+          "partner": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fordDesignation": {
+            "type": "string"
+          },
+          "partnerCode": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "applications": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "markets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "documentedPeriod": {
+            "type": "object"
+          },
+          "category": {
+            "enum": [
+              "passengerVehicle",
+              "suvPickup",
+              "lightCommercial",
+              "heavyCommercial",
+              "crateEngine",
+              "racing",
+              "industrial",
+              "marine",
+              "uncertain"
+            ]
+          },
+          "phase2aStatus": {
+            "enum": [
+              "identityResolved",
+              "identityBridgeReady",
+              "publicDesignationOnly",
+              "sharedIdentityResolved",
+              "unresolved",
+              "notProductionEligible"
+            ]
+          },
+          "resolutionReason": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              null,
+              "PUBLIC_DESIGNATION_ONLY",
+              "MISSING_STABLE_IDENTIFIER",
+              "DESCRIPTIVE_DESIGNATION_ONLY",
+              "AMBIGUOUS_DESIGNATION_ACROSS_VARIANTS",
+              "MISSING_CODE_APPLICATION_BINDING",
+              "SHARED_RELATIONSHIP_UNRESOLVED",
+              "INSUFFICIENT_SOURCE_IDENTITY_EVIDENCE",
+              "NON_VEHICLE_IDENTITY"
+            ]
+          },
+          "sourceRefs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "exactEvidenceLocation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "identityLimitation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "productionEligibility": {
+            "type": "string",
+            "minLength": 1
+          },
+          "readyForPhase2B": {
+            "type": "boolean"
+          },
+          "nextRequiredFields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "recommendedPhase2BAction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "checkpoint": {
+            "enum": [
+              20,
+              40,
+              60,
+              80
+            ]
+          },
+          "resolvedDesignation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "partnerDesignation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "phase1Correction": {
+            "type": "string"
+          },
+          "publicIdentityQuality": {
+            "enum": [
+              null,
+              "stableOfficialDesignation",
+              "descriptiveLabelOnly",
+              "ambiguousAcrossVariants"
+            ]
+          },
+          "futureIdentityPathAssessment": {
+            "enum": [
+              "officialPublicDesignationPotential",
+              "officialPublicDesignationPotentialAfterEnrichment",
+              "exactCodeOrRelationshipRequired"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sharedIdentityReview": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12
+    },
+    "unresolvedQueue": {
+      "type": "array"
+    },
+    "notProductionEligible": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "productionConflictReview": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}
