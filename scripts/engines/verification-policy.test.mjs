@@ -998,4 +998,245 @@ expectFail(
   expectFail('tiered portals sharing one upstream dataset are not independent', fixture, 'requires Tier A or two independent Tier B publishers');
 }
 
+const designationField = 'identity.officialPublicDesignation';
+
+function officialDesignationFixture() {
+  const fixture = tieredRecord([tierASource('designation-identity', tieredRequiredFields.map((field) => field === 'code' ? designationField : field))]);
+  delete fixture.code;
+  fixture.identity = {
+    type: 'officialPublicDesignation',
+    value: 'EcoBoost 2.3L High Output',
+    review: {
+      officialPublicationConfirmed: true,
+      stableAndDistinct: true,
+      genericDescriptionRejected: true,
+      materialVariantsSeparated: true,
+      notes: ['Ford publishes this literal designation for the exact application and the review separates materially different variants.']
+    }
+  };
+  delete fixture.verification.sources[0].scope.codes;
+  fixture.verification.sources[0].scope.designations = [fixture.identity.value];
+  return fixture;
+}
+
+function corroboratedDesignationFixture({ mixedTierA = false } = {}) {
+  const fixture = officialDesignationFixture();
+  const identitySource = fixture.verification.sources[0];
+  identitySource.id = 'tier-a-identity';
+  fixture.verification.sourceRefs[0] = identitySource.id;
+  fixture.verification.evidenceBasis = 'corroborated';
+  const identityFields = ['maker', designationField, 'applications', 'years'];
+  const technicalFields = identitySource.fields.filter((field) => !identityFields.includes(field));
+  identitySource.fields = identityFields;
+
+  let tierBFields = technicalFields;
+  if (mixedTierA) {
+    const tierAFields = technicalFields.filter((field) => !field.startsWith('performance.') && field !== 'injectionKey');
+    tierBFields = technicalFields.filter((field) => !tierAFields.includes(field));
+    fixture.verification.sources.push(tierASource('tier-a-designation-technical', tierAFields, {
+      identityBindingRef: identitySource.id,
+      scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+    }));
+    fixture.verification.sourceRefs.push('tier-a-designation-technical');
+  }
+
+  fixture.verification.sources.push(
+    tierBBridge('tier-b-designation-one', tierBFields, 'Designation Data One', 'designation-one.example', 'designation-origin-one'),
+    tierBBridge('tier-b-designation-two', tierBFields, 'Designation Data Two', 'designation-two.example', 'designation-origin-two')
+  );
+  fixture.verification.sourceRefs.push('tier-b-designation-one', 'tier-b-designation-two');
+  return fixture;
+}
+
+expectPass('official public designation with direct exact-variant Tier A evidence', officialDesignationFixture());
+
+expectPass(
+  'Tier A designation identity plus independent Tier B technical coverage is corroborated',
+  corroboratedDesignationFixture()
+);
+
+expectPass(
+  'Tier A designation identity plus mixed Tier A and Tier B technical coverage is corroborated',
+  corroboratedDesignationFixture({ mixedTierA: true })
+);
+
+{
+  const fixture = officialDesignationFixture();
+  const identityFields = ['maker', designationField, 'applications', 'years'];
+  const supplementalFields = fixture.verification.sources[0].fields.filter((field) => !identityFields.includes(field));
+  fixture.verification.sources[0].fields = identityFields;
+  fixture.verification.sources.push(tierASource('designation-specification', supplementalFields, {
+    identityBindingRef: 'designation-identity',
+    scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+  }));
+  fixture.verification.sourceRefs.push('designation-specification');
+  expectPass('official public designation supports an exact-application supplemental bridge', fixture);
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.identity.value = '';
+  fixture.verification.sources[0].scope.designations = ['EcoBoost 2.3L High Output'];
+  expectFail('official public designation value is required', fixture, 'identity.value must be a non-empty string');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.identity.value = '2.0L petrol engine';
+  fixture.verification.sources[0].scope.designations = [fixture.identity.value];
+  expectFail('generic public description is not a stable identity', fixture, 'cannot be a generic displacement');
+}
+
+for (const genericDesignation of ['V6 diesel', 'turbocharged four-cylinder', '2.0L petrol I4 turbocharged']) {
+  const fixture = officialDesignationFixture();
+  fixture.identity.value = genericDesignation;
+  fixture.verification.sources[0].scope.designations = [genericDesignation];
+  expectFail(`generic designation ${genericDesignation}`, fixture, 'cannot be a generic displacement');
+}
+
+for (const stableDesignation of ['EcoBoost 2.3L High Output', 'Power Stroke 6.7L', 'Duratorq TDCi 2.0']) {
+  const fixture = officialDesignationFixture();
+  fixture.identity.value = stableDesignation;
+  fixture.verification.sources[0].scope.designations = [stableDesignation];
+  expectPass(`stable branded designation ${stableDesignation}`, fixture);
+}
+
+{
+  const fixture = officialDesignationFixture();
+  delete fixture.identity.review;
+  expectFail('official public designation requires manual review declaration', fixture, 'requires an explicit review declaration');
+}
+
+{
+  const fixture = corroboratedDesignationFixture();
+  fixture.verification.sources[2].dataOrigin = fixture.verification.sources[1].dataOrigin;
+  expectFail('dependent Tier B designation supplements cannot close a field', fixture, 'requires Tier A or two independent Tier B publishers');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.evidenceBasis = 'corroborated';
+  fixture.verification.sources[0].fields = fixture.verification.sources[0].fields.filter((field) => field !== 'injectionKey');
+  fixture.verification.sources.push(tierASource('tier-c-designation-injection', ['injectionKey'], {
+    type: 'technicalReference', evidenceTier: 'C', identityBindingRef: 'designation-identity',
+    scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+  }));
+  fixture.verification.sourceRefs.push('tier-c-designation-injection');
+  expectFail('Tier C designation supplement cannot close a mandatory field', fixture, 'corroborated evidence field injectionKey requires Tier A or two independent Tier B publishers');
+}
+
+{
+  const fixture = corroboratedDesignationFixture();
+  const identitySource = fixture.verification.sources[0];
+  identitySource.evidenceTier = 'B';
+  identitySource.type = 'technicalReference';
+  identitySource.dataOrigin = 'tier-b-identity-origin';
+  identitySource.independenceNotes = ['This publisher maintains its own editorial dataset.'];
+  expectFail('corroborated designation record still requires Tier A identity', fixture, 'no accepted Tier A sourceRef declares the exact official public designation');
+}
+
+{
+  const fixture = corroboratedDesignationFixture();
+  const changingSource = fixture.verification.sources[1];
+  delete changingSource.identityBindingRef;
+  changingSource.fields.push(designationField);
+  changingSource.scope.designations = ['EcoBoost 2.3L High-Output'];
+  expectFail('Tier B supplement cannot change designation spelling', fixture, 'scope designations do not explicitly include target identity');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.code = fixture.identity.value;
+  expectFail('official public designation cannot masquerade as code', fixture, 'must omit code');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].scope.applications = ['Other Model'];
+  expectFail('designation evidence rejects incompatible application', fixture, 'scope applications do not contain every record application');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].scope.years = { from: 2013, to: 2014 };
+  expectFail('designation evidence rejects partial year coverage', fixture, 'scope years do not fully contain the record year interval');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].scope.markets = ['US'];
+  expectFail('designation evidence rejects incompatible market', fixture, 'scope markets do not contain the record market scope');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].scope.level = 'aggregate';
+  expectFail('designation evidence rejects aggregate scope', fixture, 'aggregate or unsupported');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].fields = fixture.verification.sources[0].fields.filter((field) => field !== designationField);
+  expectFail('designation identity field must be declared', fixture, `must declare ${designationField}`);
+}
+
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].fields = fixture.verification.sources[0].fields.filter((field) => field !== designationField);
+  fixture.verification.sources[0].pageNotes.push(`The prose alone mentions ${fixture.identity.value}.`);
+  expectFail('designation mentioned only in notes does not create coverage', fixture, `must declare ${designationField}`);
+}
+
+{
+  const fixture = officialDesignationFixture();
+  delete fixture.verification.sources[0].scope.designations;
+  fixture.verification.sources[0].scope.codes = ['X20A'];
+  expectFail('designation identity cannot use scope.codes', fixture, 'uses codes for the wrong identity type');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].scope.level = 'family';
+  expectFail('designation family source cannot establish identity', fixture, 'exact official public designation');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  const wrongCodeSource = fixture.verification.sources[0];
+  wrongCodeSource.fields = wrongCodeSource.fields.map((field) => field === designationField ? 'code' : field);
+  delete wrongCodeSource.scope.designations;
+  wrongCodeSource.scope.codes = ['NEIGHBOR-CODE'];
+  const bridge = tierASource('designation-performance-bridge', ['performance.powerKw'], {
+    identityBindingRef: wrongCodeSource.id,
+    scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+  });
+  fixture.verification.sources.push(bridge);
+  fixture.verification.sourceRefs.push(bridge.id);
+  expectFail('designation bridge cannot bind through neighboring code source', fixture, 'uses codes for the wrong identity type');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.verification.sources[0].scope.codes = ['X20A'];
+  expectFail('designation source cannot declare simultaneous code path', fixture, 'cannot declare both codes and designations');
+}
+
+{
+  const fixture = officialDesignationFixture();
+  const identitySource = fixture.verification.sources[0];
+  const bridge = tierASource('designation-bridge', ['performance.powerKw'], {
+    identityBindingRef: identitySource.id,
+    scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+  });
+  bridge.identityBindingRef = 'designation-bridge-two';
+  const bridgeTwo = tierASource('designation-bridge-two', ['performance.torqueNm'], {
+    identityBindingRef: 'designation-bridge',
+    scope: bridgedScope({ years: { from: 2012, to: 2014 } })
+  });
+  fixture.verification.sources.push(bridge, bridgeTwo);
+  fixture.verification.sourceRefs.push(bridge.id, bridgeTwo.id);
+  expectFail('designation identity bridge chains and cycles are rejected', fixture, 'chains and cycles are not allowed');
+}
+
 console.log(`Verification policy fixture tests passed: ${passedCases} cases.`);

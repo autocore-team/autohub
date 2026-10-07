@@ -37,7 +37,6 @@
       "additionalProperties": false,
       "required": [
         "id",
-        "code",
         "aliases",
         "maker",
         "regionKey",
@@ -62,6 +61,9 @@
         "id": {
           "type": "string",
           "minLength": 1
+        },
+        "identity": {
+          "$ref": "#/$defs/engineIdentity"
         },
         "code": {
           "type": "string",
@@ -147,6 +149,62 @@
         "verification": {
           "$ref": "#/$defs/verification"
         }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": ["identity"],
+            "properties": {
+              "identity": {
+                "properties": { "type": { "const": "officialPublicDesignation" } },
+                "required": ["type"]
+              }
+            }
+          },
+          "then": {
+            "not": { "required": ["code"] }
+          },
+          "else": {
+            "required": ["code"]
+          }
+        }
+      ]
+    },
+    "engineIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "value"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["exactCode", "officialPublicDesignation"]
+        },
+        "value": { "type": "string", "minLength": 1 },
+        "review": { "$ref": "#/$defs/officialDesignationReview" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "officialPublicDesignation" } } },
+          "then": { "required": ["review"] }
+        }
+      ]
+    },
+    "officialDesignationReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "officialPublicationConfirmed",
+        "stableAndDistinct",
+        "genericDescriptionRejected",
+        "materialVariantsSeparated",
+        "notes"
+      ],
+      "properties": {
+        "officialPublicationConfirmed": { "const": true },
+        "stableAndDistinct": { "const": true },
+        "genericDescriptionRejected": { "const": true },
+        "materialVariantsSeparated": { "const": true },
+        "notes": { "$ref": "#/$defs/nonEmptyUniqueStringArray" }
       }
     },
     "stringArray": {
@@ -291,11 +349,10 @@
                           ],
                           "properties": {
                             "scope": {
-                              "not": {
-                                "required": [
-                                  "codes"
-                                ]
-                              }
+                              "allOf": [
+                                { "not": { "required": ["codes"] } },
+                                { "not": { "required": ["designations"] } }
+                              ]
                             }
                           }
                         },
@@ -307,9 +364,19 @@
                           },
                           "properties": {
                             "scope": {
-                              "required": [
-                                "codes"
-                              ]
+                              "required": ["codes"],
+                              "not": { "required": ["designations"] }
+                            }
+                          }
+                        },
+                        {
+                          "not": {
+                            "required": ["identityBindingRef"]
+                          },
+                          "properties": {
+                            "scope": {
+                              "required": ["designations"],
+                              "not": { "required": ["codes"] }
                             }
                           }
                         }
@@ -383,7 +450,7 @@
         "identityBindingRef": {
           "type": "string",
           "minLength": 1,
-          "description": "For strict supplemental evidence without a published engine code, references a validated direct exactVariant identity source in the same verification.sources registry. Mutually exclusive with scope.codes."
+          "description": "For strict supplemental evidence without direct identity coverage, references a validated direct exactVariant identity source in the same verification.sources registry. Mutually exclusive with scope.codes and scope.designations."
         },
         "type": {
           "type": "string",
@@ -478,7 +545,11 @@
         },
         "codes": {
           "$ref": "#/$defs/nonEmptyUniqueStringArray",
-          "description": "Exact engine codes explicitly present in the document. Required by the direct-code path and omitted by the identity-bridge path."
+          "description": "Exact engine codes explicitly present in the document. Required by the direct-code path and omitted by the designation and identity-bridge paths."
+        },
+        "designations": {
+          "$ref": "#/$defs/nonEmptyUniqueStringArray",
+          "description": "Official public engine designations explicitly present in the document. Mutually exclusive with codes and identityBindingRef."
         },
         "applications": {
           "$ref": "#/$defs/nonEmptyUniqueStringArray"

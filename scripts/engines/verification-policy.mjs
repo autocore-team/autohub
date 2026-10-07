@@ -6,7 +6,9 @@ const EVIDENCE_BASES = ['official', 'corroborated'];
 const EVIDENCE_TIERS = ['A', 'B', 'C'];
 
 const PERFORMANCE_FIELDS = ['performance.powerKw', 'performance.torqueNm'];
+const OFFICIAL_DESIGNATION_FIELD = 'identity.officialPublicDesignation';
 const IDENTITY_FIELDS = ['code', 'aliases'];
+const STRICT_IDENTITY_FIELDS = [...IDENTITY_FIELDS, OFFICIAL_DESIGNATION_FIELD];
 export const VERIFIED_REQUIRED_FIELDS = [
   'maker',
   'code',
@@ -24,6 +26,7 @@ export const VERIFIED_REQUIRED_FIELDS = [
 ];
 const STRICT_COVERAGE_FIELDS = new Set([
   ...VERIFIED_REQUIRED_FIELDS,
+  OFFICIAL_DESIGNATION_FIELD,
   'layout.valves',
   'layout.camshaftsTotal',
   'aliases',
@@ -31,6 +34,66 @@ const STRICT_COVERAGE_FIELDS = new Set([
   'timingKey',
   'consumption'
 ]);
+
+function identityPolicy(record) {
+  if (record?.identity?.type === 'officialPublicDesignation') {
+    return {
+      type: 'officialPublicDesignation',
+      value: record.identity.value,
+      field: OFFICIAL_DESIGNATION_FIELD,
+      scopeKey: 'designations'
+    };
+  }
+  return { type: 'exactCode', value: record?.identity?.value || record?.code, field: 'code', scopeKey: 'codes' };
+}
+
+function requiredFieldsFor(record) {
+  const identity = identityPolicy(record);
+  return VERIFIED_REQUIRED_FIELDS.map((field) => field === 'code' ? identity.field : field);
+}
+
+function identityLabel(identity) {
+  return identity.type === 'exactCode' ? 'code' : 'official public designation';
+}
+
+function validateIdentity(record, label, errors) {
+  const identity = record?.identity;
+  if (identity === undefined) return;
+  addErrorIf(!isObject(identity), `${label}: identity must be an object.`, errors);
+  if (!isObject(identity)) return;
+  addErrorIf(!['exactCode', 'officialPublicDesignation'].includes(identity.type), `${label}: identity.type must be exactCode or officialPublicDesignation.`, errors);
+  addErrorIf(!isNonEmptyString(identity.value), `${label}: identity.value must be a non-empty string.`, errors);
+  if (identity.type === 'exactCode') {
+    addErrorIf(!isNonEmptyString(record.code), `${label}: exactCode identity requires code.`, errors);
+    addErrorIf(identity.value !== record.code, `${label}: exactCode identity.value must equal code.`, errors);
+    return;
+  }
+  if (identity.type !== 'officialPublicDesignation') return;
+  addErrorIf(Object.hasOwn(record, 'code'), `${label}: officialPublicDesignation records must omit code.`, errors);
+  addErrorIf(record?.verification?.status !== 'verified', `${label}: officialPublicDesignation is only valid for verified records.`, errors);
+  addErrorIf(!EVIDENCE_BASES.includes(record?.verification?.evidenceBasis), `${label}: officialPublicDesignation requires an explicit official or corroborated evidenceBasis.`, errors);
+  addErrorIf(!Array.isArray(record?.verification?.sourceRefs) || record.verification.sourceRefs.length === 0, `${label}: officialPublicDesignation requires strict sourceRefs.`, errors);
+  const review = identity.review;
+  addErrorIf(!isObject(review), `${label}: officialPublicDesignation requires an explicit review declaration.`, errors);
+  if (isObject(review)) {
+    for (const field of ['officialPublicationConfirmed', 'stableAndDistinct', 'genericDescriptionRejected', 'materialVariantsSeparated']) {
+      addErrorIf(review[field] !== true, `${label}: identity.review.${field} must be true.`, errors);
+    }
+    addErrorIf(!isNonEmptyUniqueStringArray(review.notes), `${label}: identity.review.notes must be a non-empty unique string array.`, errors);
+  }
+  const normalized = String(identity.value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const genericTokens = new Set([
+    'engine', 'motor', 'petrol', 'gasoline', 'diesel', 'hybrid', 'turbo', 'turbocharged',
+    'naturally', 'aspirated', 'supercharged', 'inline', 'cylinder', 'cylinders', 'cyl',
+    'three', 'four', 'five', 'six', 'eight', 'ten', 'twelve', 'efi', 'gdi', 'mpi'
+  ]);
+  const meaningful = normalized.split(' ').filter(Boolean).filter((token) => (
+    !genericTokens.has(token)
+    && !/^\d+(?:\.\d+)?(?:l|kw|hp|ps)?$/.test(token)
+    && !/^(?:i|v|h|w|flat|boxer)\d{1,2}$/.test(token)
+  ));
+  addErrorIf(meaningful.length === 0, `${label}: officialPublicDesignation cannot be a generic displacement, fuel, layout, aspiration or power description.`, errors);
+}
 
 function addError(errors, message) {
   errors.push(message);
@@ -71,6 +134,7 @@ function valueAtPath(value, path) {
 }
 
 function recordHasCoverageField(record, field) {
+  if (field === OFFICIAL_DESIGNATION_FIELD) return isNonEmptyString(record?.identity?.value);
   if (field === 'layout.valves') return /\b\d+ valves\b/i.test(record?.layout || '');
   if (field === 'layout.camshaftsTotal') return /\b\d+ camshafts? total\b/i.test(record?.layout || '');
   const value = valueAtPath(record, field);
@@ -172,6 +236,7 @@ function validateSourceScope(scope, label, errors) {
   if (!isObject(scope)) return;
   addErrorIf(!SOURCE_SCOPE_LEVELS.includes(scope.level), `${label}.level must be exactVariant, family or aggregate.`, errors);
   if (Object.hasOwn(scope, 'codes')) validateStringScope(scope.codes, `${label}.codes`, errors);
+  if (Object.hasOwn(scope, 'designations')) validateStringScope(scope.designations, `${label}.designations`, errors);
   validateStringScope(scope.applications, `${label}.applications`, errors);
   validateYearScope(scope.years, `${label}.years`, errors);
   validateMarketScope(scope.markets, `${label}.markets`, errors);
@@ -293,6 +358,8 @@ export function validateRecordVerificationPolicy(record, label, errors) {
   const sources = Array.isArray(verification?.sources) ? verification.sources : [];
   const sourceRefs = Array.isArray(verification?.sourceRefs) ? verification.sourceRefs : [];
 
+  validateIdentity(record, label, errors);
+
   addErrorIf(!isObject(verification), `${label}: verification must be an object.`, errors);
   addErrorIf(!VERIFICATION_STATUSES.includes(verification?.status), `${label}: verification.status must be verified, corroborated or legacyPending.`, errors);
   if (hasSourcesProperty) {
@@ -348,6 +415,11 @@ function validateVerifiedPolicy(record, hasPerformance, sources, sourceRefs, str
     return;
   }
 
+  if (record?.identity?.type === 'officialPublicDesignation') {
+    addError(errors, `${label}: officialPublicDesignation cannot use the compatible single-source rule.`);
+    return;
+  }
+
   const hasOfficialSource = sources.some((source) => (
     OFFICIAL_SOURCE_TYPES.includes(source.type) && sourceHasPerformanceAndIdentity(source)
   ));
@@ -395,6 +467,8 @@ function validateStrictVerifiedPolicy(record, sources, sourceRefs, label, errors
     return;
   }
 
+  const identity = identityPolicy(record);
+  const requiredFields = requiredFieldsFor(record);
   const directAccepted = new Map();
   const bridgeCandidates = [];
   const referencedSourceIds = new Set(sourceRefs.filter(isNonEmptyString));
@@ -443,21 +517,30 @@ function validateStrictVerifiedPolicy(record, sources, sourceRefs, label, errors
     }
 
     const hasDirectCodes = isObject(scope) && Object.hasOwn(scope, 'codes');
+    const hasDirectDesignations = isObject(scope) && Object.hasOwn(scope, 'designations');
+    const hasDirectIdentity = identity.type === 'exactCode' ? hasDirectCodes : hasDirectDesignations;
     const hasIdentityBinding = Object.hasOwn(source, 'identityBindingRef');
-    if (hasDirectCodes === hasIdentityBinding) {
-      rejectionReasons.push('must use exactly one evidence path: scope.codes or identityBindingRef');
-    } else if (hasDirectCodes) {
-      if (!isNonEmptyUniqueStringArray(scope.codes) || !scope.codes.includes(record?.code)) {
-        rejectionReasons.push(`scope codes do not explicitly include exact record code ${record?.code || '(missing)'}`);
+    if (hasDirectCodes && hasDirectDesignations) rejectionReasons.push('scope cannot declare both codes and designations');
+    if (Number(hasDirectCodes) + Number(hasDirectDesignations) + Number(hasIdentityBinding) !== 1) {
+      rejectionReasons.push('must use exactly one evidence path: scope.codes or identityBindingRef for exact codes; scope.designations or identityBindingRef for official designations');
+    } else if (hasDirectIdentity) {
+      if (!isNonEmptyUniqueStringArray(scope[identity.scopeKey]) || !scope[identity.scopeKey].includes(identity.value)) {
+        rejectionReasons.push(identity.type === 'exactCode'
+          ? `scope codes do not explicitly include exact record code ${identity.value || '(missing)'}`
+          : `scope designations do not explicitly include target identity ${identity.value || '(missing)'}`);
       }
-      if (!sourceHasField(source, 'code')) {
-        rejectionReasons.push('direct-code evidence must declare code in fields');
+      if (!sourceHasField(source, identity.field)) {
+        rejectionReasons.push(identity.type === 'exactCode'
+          ? 'direct-code evidence must declare code in fields'
+          : `direct identity evidence must declare ${identity.field} in fields`);
       }
+    } else if (hasDirectCodes || hasDirectDesignations) {
+      rejectionReasons.push(`direct evidence uses ${identity.type === 'exactCode' ? 'designations' : 'codes'} for the wrong identity type`);
     } else {
       if (!isNonEmptyString(source.identityBindingRef)) rejectionReasons.push('identityBindingRef is empty');
       if (scope?.level !== 'exactVariant') rejectionReasons.push('identity-bridge supplemental scope must be exactVariant');
-      if (sourceHasField(source, 'code') || sourceHasField(source, 'aliases')) {
-        rejectionReasons.push('identity-bridge supplemental source must not claim code or aliases coverage');
+      if (STRICT_IDENTITY_FIELDS.some((field) => sourceHasField(source, field))) {
+        rejectionReasons.push('identity-bridge supplemental source must not claim identity coverage');
       }
     }
 
@@ -466,13 +549,13 @@ function validateStrictVerifiedPolicy(record, sources, sourceRefs, label, errors
       continue;
     }
 
-    if (hasDirectCodes) directAccepted.set(sourceRef, source);
+    if (hasDirectIdentity) directAccepted.set(sourceRef, source);
     else bridgeCandidates.push({ sourceRef, source });
   }
 
   const identitySources = new Map([...directAccepted].filter(([, source]) => (
     source.scope?.level === 'exactVariant'
-    && sourceHasField(source, 'code')
+    && sourceHasField(source, identity.field)
     && sourceHasField(source, 'applications')
     && sourceHasField(source, 'years')
     && sameStringSet(source.scope?.applications, recordScope?.applications)
@@ -489,7 +572,7 @@ function validateStrictVerifiedPolicy(record, sources, sourceRefs, label, errors
       if (!referencedSourceIds.has(bindingRef)) rejectionReasons.push(`identityBindingRef ${bindingRef} is not included in verification.sourceRefs`);
       if (Object.hasOwn(binding, 'identityBindingRef')) rejectionReasons.push(`identityBindingRef ${bindingRef} points to a supplemental binding; chains and cycles are not allowed`);
       if (binding.scope?.level !== 'exactVariant') rejectionReasons.push(`identityBindingRef ${bindingRef} does not point to an exactVariant source`);
-      if (!identitySources.has(bindingRef)) rejectionReasons.push(`identityBindingRef ${bindingRef} is not an accepted exact identity source declaring code, applications and years`);
+      if (!identitySources.has(bindingRef)) rejectionReasons.push(`identityBindingRef ${bindingRef} is not an accepted exact identity source declaring ${identity.field}, applications and years`);
       if (!sameStringSet(source.scope?.applications, binding.scope?.applications)) {
         rejectionReasons.push(`application scope does not exactly match identityBindingRef ${bindingRef}`);
       }
@@ -504,12 +587,12 @@ function validateStrictVerifiedPolicy(record, sources, sourceRefs, label, errors
   const hasExactIdentityBinding = identitySources.size > 0;
   addErrorIf(
     !hasExactIdentityBinding,
-    `${label}: no accepted official sourceRef declares the exact code, applications and years identity binding.`,
+    `${label}: no accepted official sourceRef declares the exact ${identityLabel(identity)}, applications and years identity binding.`,
     errors
   );
 
   const acceptedFields = new Set(acceptedSources.flatMap((source) => source.fields));
-  for (const field of VERIFIED_REQUIRED_FIELDS) {
+  for (const field of requiredFields) {
     if (!recordHasCoverageField(record, field)) {
       addError(errors, `${label}: verified record is missing required field ${field}.`);
     }
@@ -522,7 +605,8 @@ function validateStrictVerifiedPolicy(record, sources, sourceRefs, label, errors
 
 function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, label, errors) {
   const recordScope = record.verification.scope;
-  const requiredFields = [...VERIFIED_REQUIRED_FIELDS, 'layout.valves', 'layout.camshaftsTotal'];
+  const identity = identityPolicy(record);
+  const requiredFields = [...requiredFieldsFor(record), 'layout.valves', 'layout.camshaftsTotal'];
   const acceptedDirect = new Map();
   const bridgeCandidates = [];
   const accepted = new Map();
@@ -568,16 +652,25 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
     }
 
     const hasDirectCodes = isObject(scope) && Object.hasOwn(scope, 'codes');
+    const hasDirectDesignations = isObject(scope) && Object.hasOwn(scope, 'designations');
+    const hasDirectIdentity = identity.type === 'exactCode' ? hasDirectCodes : hasDirectDesignations;
     const hasIdentityBinding = Object.hasOwn(source, 'identityBindingRef');
-    if (hasDirectCodes === hasIdentityBinding) {
-      rejectionReasons.push('must use exactly one evidence path: scope.codes or identityBindingRef');
-    } else if (hasDirectCodes) {
-      if (!isNonEmptyUniqueStringArray(scope.codes) || !scope.codes.includes(record.code)) rejectionReasons.push(`scope codes do not explicitly include exact record code ${record.code}`);
-      if (!sourceHasField(source, 'code')) rejectionReasons.push('direct-code evidence must declare code in fields');
+    if (hasDirectCodes && hasDirectDesignations) rejectionReasons.push('scope cannot declare both codes and designations');
+    if (Number(hasDirectCodes) + Number(hasDirectDesignations) + Number(hasIdentityBinding) !== 1) {
+      rejectionReasons.push('must use exactly one evidence path: scope.codes or identityBindingRef for exact codes; scope.designations or identityBindingRef for official designations');
+    } else if (hasDirectIdentity) {
+      if (!isNonEmptyUniqueStringArray(scope[identity.scopeKey]) || !scope[identity.scopeKey].includes(identity.value)) rejectionReasons.push(identity.type === 'exactCode'
+        ? `scope codes do not explicitly include exact record code ${identity.value}`
+        : `scope designations do not explicitly include target identity ${identity.value}`);
+      if (!sourceHasField(source, identity.field)) rejectionReasons.push(identity.type === 'exactCode'
+        ? 'direct-code evidence must declare code in fields'
+        : `direct identity evidence must declare ${identity.field} in fields`);
+    } else if (hasDirectCodes || hasDirectDesignations) {
+      rejectionReasons.push(`direct evidence uses ${identity.type === 'exactCode' ? 'designations' : 'codes'} for the wrong identity type`);
     } else {
       if (!isNonEmptyString(source.identityBindingRef)) rejectionReasons.push('identityBindingRef is empty');
       if (scope?.level !== 'exactVariant') rejectionReasons.push('identity-bridge supplemental scope must be exactVariant');
-      if (sourceHasField(source, 'code') || sourceHasField(source, 'aliases')) rejectionReasons.push('identity-bridge supplemental source must not claim code or aliases coverage');
+      if (STRICT_IDENTITY_FIELDS.some((field) => sourceHasField(source, field))) rejectionReasons.push('identity-bridge supplemental source must not claim identity coverage');
     }
 
     if (tier === 'B') {
@@ -597,14 +690,14 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
       continue;
     }
     accepted.set(sourceRef, source);
-    if (hasDirectCodes) acceptedDirect.set(sourceRef, source);
+    if (hasDirectIdentity) acceptedDirect.set(sourceRef, source);
     else bridgeCandidates.push({ sourceRef, source });
   }
 
   const identitySources = new Map([...acceptedDirect].filter(([, source]) => (
-    source.evidenceTier !== 'C'
+    (identity.type === 'exactCode' || (source.evidenceTier === 'A' && OFFICIAL_SOURCE_TYPES.includes(source.type)))
     && source.scope?.level === 'exactVariant'
-    && sourceHasField(source, 'code')
+    && sourceHasField(source, identity.field)
     && sourceHasField(source, 'applications')
     && sourceHasField(source, 'years')
     && sameStringSet(source.scope.applications, recordScope.applications)
@@ -619,14 +712,15 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
       if (!referencedSourceIds.has(bindingRef)) rejectionReasons.push(`identityBindingRef ${bindingRef} is not included in verification.sourceRefs`);
       if (Object.hasOwn(binding, 'identityBindingRef')) rejectionReasons.push(`identityBindingRef ${bindingRef} points to a supplemental binding; chains and cycles are not allowed`);
       if (binding.scope?.level !== 'exactVariant') rejectionReasons.push(`identityBindingRef ${bindingRef} does not point to an exactVariant source`);
-      if (!identitySources.has(bindingRef)) rejectionReasons.push(`identityBindingRef ${bindingRef} is not an accepted exact identity source declaring code, applications and years`);
+      if (!identitySources.has(bindingRef)) rejectionReasons.push(`identityBindingRef ${bindingRef} is not an accepted exact identity source declaring ${identity.field}, applications and years`);
       if (!sameStringSet(source.scope?.applications, binding.scope?.applications)) rejectionReasons.push(`application scope does not exactly match identityBindingRef ${bindingRef}`);
     }
     rejectionReasons.forEach((reason) => addError(errors, `${label}: sourceRef ${sourceRef} is not accepted: ${reason}.`));
     if (rejectionReasons.length) accepted.delete(sourceRef);
   }
 
-  addErrorIf(identitySources.size === 0, `${label}: no accepted Tier A/B sourceRef declares the exact code, applications and years identity binding.`, errors);
+  const identityTierLabel = identity.type === 'officialPublicDesignation' ? 'Tier A' : 'Tier A/B';
+  addErrorIf(identitySources.size === 0, `${label}: no accepted ${identityTierLabel} sourceRef declares the exact ${identityLabel(identity)}, applications and years identity binding.`, errors);
 
   let fieldsUsingTierBCorroboration = 0;
   for (const field of requiredFields) {

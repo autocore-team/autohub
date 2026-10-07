@@ -17,13 +17,65 @@ import {
   validateRecordVerificationPolicy
 } from './verification-policy.mjs';
 
+function normalizeIdentityValue(value) {
+  return String(value || '').normalize('NFKC').trim().toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+}
+
+function normalizedIdentityValues(record) {
+  return new Set([
+    record?.identity?.value,
+    record?.code,
+    ...(record?.aliases || [])
+  ].map(normalizeIdentityValue).filter(Boolean));
+}
+
+function normalizedApplicationScope(record) {
+  const cosmetic = /\b(sport|luxury|premium|base|trim|grade|automatic|manual|awd|4wd|2wd|rwd|fwd|sedan|saloon|coupe|wagon|estate|hatchback|transmission|drivetrain)\b/gi;
+  return (record?.applications || [])
+    .map((value) => String(value).toLowerCase().replace(cosmetic, '').replace(/\b(?:19|20)\d{2}\b/g, '').replace(/[^a-z0-9]+/g, ' ').trim())
+    .sort()
+    .join('|');
+}
+
+function calibrationSignature(record) {
+  return JSON.stringify({
+    displacement: record?.displacement,
+    layout: record?.layout,
+    fuelKey: record?.fuelKey,
+    aspirationKey: record?.aspirationKey,
+    injectionKey: record?.injectionKey,
+    performance: record?.performance,
+    markets: [...(record?.verification?.scope?.markets || [])].sort()
+  });
+}
+
+export function engineIdentityCollisionErrors(records) {
+  const errors = [];
+  for (let leftIndex = 0; leftIndex < records.length; leftIndex += 1) {
+    for (let rightIndex = leftIndex + 1; rightIndex < records.length; rightIndex += 1) {
+      const left = records[leftIndex];
+      const right = records[rightIndex];
+      if (!left?.identity && !right?.identity) continue;
+      const overlap = [...normalizedIdentityValues(left)].find((value) => normalizedIdentityValues(right).has(value));
+      const sameApplication = normalizedApplicationScope(left) === normalizedApplicationScope(right);
+      const sameCalibration = calibrationSignature(left) === calibrationSignature(right);
+      const sameMaker = normalizeIdentityValue(left?.maker) === normalizeIdentityValue(right?.maker);
+      const sameSemanticScope = sameMaker && sameApplication && sameCalibration;
+      if (sameSemanticScope || (overlap && sameCalibration)) {
+        const collision = overlap ? `normalized identity ${overlap}` : 'one semantic engine scope through different identity types';
+        errors.push(`${left.id || 'record'} and ${right.id || 'record'} reuse ${collision} without a documented material calibration or market-specific specification difference.`);
+      }
+    }
+  }
+  return errors;
+}
+
 export function validateEngineData(sourceData = readSourceData()) {
   const records = sourceData.records || [];
   const errors = [];
 
   const requiredStringFields = [
     'id',
-    'code',
     'maker',
     'regionKey',
     'years',
@@ -78,6 +130,13 @@ export function validateEngineData(sourceData = readSourceData()) {
     assertCondition(record && typeof record === 'object' && !Array.isArray(record), `${label}: record must be an object.`, errors);
     if (!record || typeof record !== 'object') continue;
 
+    const usesOfficialDesignation = record.identity?.type === 'officialPublicDesignation';
+    assertCondition(
+      usesOfficialDesignation || typeof record.code === 'string',
+      `${label}: code must be a string unless identity.type is officialPublicDesignation.`,
+      errors
+    );
+
     for (const field of requiredStringFields) {
       assertCondition(typeof record[field] === 'string', `${label}: ${field} must be a string.`, errors);
     }
@@ -130,6 +189,7 @@ export function validateEngineData(sourceData = readSourceData()) {
   }
 
   const counts = formatCounts(records);
+  errors.push(...engineIdentityCollisionErrors(records));
   for (const region of REGIONS) {
     if (!EMPTY_REGIONS.has(region)) {
       assertCondition(counts[region] >= 25, `${region}: expected at least 25 records, got ${counts[region]}.`, errors);

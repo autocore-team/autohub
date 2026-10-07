@@ -10,7 +10,7 @@ import {
   loadBrowserGlobal,
   readSourceData
 } from '../../scripts/engines/lib.mjs';
-import { validateEngineData } from '../../scripts/engines/validate-engine-data.mjs';
+import { engineIdentityCollisionErrors, validateEngineData } from '../../scripts/engines/validate-engine-data.mjs';
 import { verificationPolicyErrors } from '../../scripts/engines/verification-policy.mjs';
 import './batch11-semantic.test.mjs';
 
@@ -24,6 +24,7 @@ const core = context.window.D3_ENGINE_SEARCH_CORE;
 const sourceData = readSourceData();
 const records = sourceData.records;
 const languages = ['en', 'es', 'fr', 'de'];
+const sourceSchema = JSON.parse(fs.readFileSync(path.join(root, 'data/engines/source/schema.json'), 'utf8'));
 
 function check(condition, message) {
   if (!condition) throw new Error(message);
@@ -31,6 +32,152 @@ function check(condition, message) {
 
 function pass(message) {
   console.log(`PASS ${message}`);
+}
+
+function schemaErrors(value, schema, location = '$', errors = []) {
+  if (schema.$ref) {
+    const target = schema.$ref.split('/').slice(1).reduce((current, key) => current[key.replaceAll('~1', '/').replaceAll('~0', '~')], sourceSchema);
+    return schemaErrors(value, target, location, errors);
+  }
+  const typeMatches = {
+    object: value !== null && typeof value === 'object' && !Array.isArray(value),
+    array: Array.isArray(value),
+    string: typeof value === 'string',
+    integer: Number.isInteger(value),
+    number: typeof value === 'number' && Number.isFinite(value),
+    boolean: typeof value === 'boolean'
+  };
+  if (schema.type && !typeMatches[schema.type]) {
+    errors.push(`${location} must be ${schema.type}`);
+    return errors;
+  }
+  if (schema.const !== undefined && value !== schema.const) errors.push(`${location} must equal ${JSON.stringify(schema.const)}`);
+  if (schema.enum && !schema.enum.includes(value)) errors.push(`${location} is not in enum`);
+  if (typeof value === 'string') {
+    if (schema.minLength !== undefined && value.length < schema.minLength) errors.push(`${location} is too short`);
+    if (schema.pattern && !(new RegExp(schema.pattern)).test(value)) errors.push(`${location} does not match pattern`);
+    if (schema.format === 'uri') {
+      try { new URL(value); } catch { errors.push(`${location} is not a URI`); }
+    }
+  }
+  if (typeof value === 'number' && schema.minimum !== undefined && value < schema.minimum) errors.push(`${location} is below minimum`);
+  if (Array.isArray(value)) {
+    if (schema.minItems !== undefined && value.length < schema.minItems) errors.push(`${location} has too few items`);
+    if (schema.uniqueItems && new Set(value.map((item) => JSON.stringify(item))).size !== value.length) errors.push(`${location} has duplicate items`);
+    if (schema.items) value.forEach((item, index) => schemaErrors(item, schema.items, `${location}[${index}]`, errors));
+  }
+  if (value !== null && typeof value === 'object' && !Array.isArray(value)) {
+    for (const required of schema.required || []) if (!Object.hasOwn(value, required)) errors.push(`${location}.${required} is required`);
+    for (const [key, child] of Object.entries(schema.properties || {})) {
+      if (Object.hasOwn(value, key)) schemaErrors(value[key], child, `${location}.${key}`, errors);
+    }
+    if (schema.additionalProperties === false) {
+      const allowed = new Set(Object.keys(schema.properties || {}));
+      for (const key of Object.keys(value)) if (!allowed.has(key)) errors.push(`${location}.${key} is not allowed`);
+    }
+  }
+  for (const child of schema.allOf || []) schemaErrors(value, child, location, errors);
+  if (schema.oneOf) {
+    const matches = schema.oneOf.filter((child) => schemaErrors(value, child, location, []).length === 0).length;
+    if (matches !== 1) errors.push(`${location} must match exactly one oneOf branch`);
+  }
+  if (schema.if) {
+    const branch = schemaErrors(value, schema.if, location, []).length === 0 ? schema.then : schema.else;
+    if (branch) schemaErrors(value, branch, location, errors);
+  }
+  if (schema.not && schemaErrors(value, schema.not, location, []).length === 0) errors.push(`${location} matches a forbidden schema`);
+  return errors;
+}
+
+function syntheticDesignationRecord(evidenceBasis = 'official') {
+  const requiredFields = [
+    'maker', 'code', 'applications', 'years', 'displacement', 'layout',
+    'layout.valves', 'layout.camshaftsTotal', 'fuelKey', 'aspirationKey', 'injectionKey',
+    'performance.powerKw', 'performance.powerKw.rpm', 'performance.torqueNm', 'performance.torqueNm.rpm'
+  ];
+  const template = records.find((record) => (
+    record.verification?.evidenceBasis === 'official'
+    && record.verification?.sourceRefs?.length === 1
+    && requiredFields.every((field) => record.verification.sources[0]?.fields?.includes(field))
+  ));
+  check(template, 'No single-source Tier A template exists for synthetic designation validation');
+  const record = structuredClone(template);
+  record.id = `synthetic-designation-${evidenceBasis}`;
+  record.maker = 'Synthetic Motor Company';
+  record.applications = ['Synthetic Model X'];
+  record.aliases = [`Quantum ${evidenceBasis}`];
+  delete record.code;
+  record.identity = {
+    type: 'officialPublicDesignation',
+    value: evidenceBasis === 'official' ? 'QuantumDrive X1' : 'QuantumDrive X1 Corroborated',
+    review: {
+      officialPublicationConfirmed: true,
+      stableAndDistinct: true,
+      genericDescriptionRejected: true,
+      materialVariantsSeparated: true,
+      notes: ['Synthetic fixture records a completed manual review of the literal manufacturer designation and exact scope.']
+    }
+  };
+  record.verification.evidenceBasis = evidenceBasis;
+  record.verification.scope.applications = [...record.applications];
+  const identitySource = record.verification.sources[0];
+  identitySource.id = 'synthetic-tier-a-identity';
+  identitySource.type = 'manufacturer';
+  identitySource.evidenceTier = 'A';
+  identitySource.fields = identitySource.fields.map((field) => field === 'code' ? 'identity.officialPublicDesignation' : field);
+  identitySource.scope.applications = [...record.applications];
+  delete identitySource.scope.codes;
+  identitySource.scope.designations = [record.identity.value];
+  identitySource.pageNotes = ['The manufacturer page publishes the literal designation for Synthetic Model X and the complete record scope.'];
+  record.verification.sourceRefs = [identitySource.id];
+
+  if (evidenceBasis === 'corroborated') {
+    const identityFields = ['maker', 'identity.officialPublicDesignation', 'aliases', 'applications', 'years'];
+    const technicalFields = identitySource.fields.filter((field) => !identityFields.includes(field));
+    identitySource.fields = identityFields;
+    const tierBSource = (id, publisher, hostname, dataOrigin) => ({
+      id,
+      type: 'technicalReference',
+      evidenceTier: 'B',
+      dataOrigin,
+      independenceNotes: [`${publisher} maintains an independent editorial dataset.`],
+      identityBindingRef: identitySource.id,
+      title: `${publisher} technical specification`,
+      publisher,
+      year: 2025,
+      url: `https://${hostname}/synthetic-model-x`,
+      page: 1,
+      checkedAt: '2026-10-07',
+      fields: technicalFields,
+      claims: {
+        'performance.powerKw': structuredClone(record.performance.powerKw),
+        'performance.torqueNm': structuredClone(record.performance.torqueNm)
+      },
+      pageNotes: ['The exact application table supplies the declared technical fields and performance boundaries.'],
+      scope: {
+        level: 'exactVariant',
+        applications: [...record.applications],
+        years: structuredClone(record.verification.scope.years),
+        markets: structuredClone(record.verification.scope.markets)
+      }
+    });
+    record.verification.sources.push(
+      tierBSource('synthetic-tier-b-one', 'Synthetic Technical Press One', 'synthetic-one.example', 'synthetic-origin-one'),
+      tierBSource('synthetic-tier-b-two', 'Synthetic Technical Press Two', 'synthetic-two.example', 'synthetic-origin-two')
+    );
+    record.verification.sourceRefs.push('synthetic-tier-b-one', 'synthetic-tier-b-two');
+  }
+  return record;
+}
+
+function validateSyntheticDesignation(record) {
+  const schemaResult = schemaErrors({ schemaVersion: 1, region: record.regionKey, records: [record] }, sourceSchema);
+  check(schemaResult.length === 0, `Synthetic designation fails source schema:\n${schemaResult.join('\n')}`);
+  const candidateData = structuredClone(sourceData);
+  candidateData.regionFiles.find((regionFile) => regionFile.region === record.regionKey).records.push(record);
+  candidateData.records = candidateData.regionFiles.flatMap((regionFile) => regionFile.records);
+  const validationErrors = validateEngineData(candidateData).errors;
+  check(validationErrors.length === 0, `Synthetic designation fails executable validation:\n${validationErrors.join('\n')}`);
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
@@ -739,6 +886,88 @@ for (const code of ['B5202S', 'EA888', 'K20', 'G4KD', 'LM7']) {
 check(core.searchRecords(records, 'BMW').some((record) => record.maker === 'BMW'), 'Manufacturer search failed');
 check(core.searchRecords(records, 'E46').some((record) => record.applications.some((application) => application.includes('E46'))), 'Model/application search failed');
 check(core.searchRecords(records, 'M54B30')[0]?.id === 'bmw-m54', 'Searchable alias search failed');
+const designationRecord = syntheticDesignationRecord('official');
+designationRecord.aliases = ['Quantum X1'];
+const corroboratedDesignationRecord = syntheticDesignationRecord('corroborated');
+validateSyntheticDesignation(designationRecord);
+validateSyntheticDesignation(corroboratedDesignationRecord);
+check(core.primaryIdentity(records[0]).value === records[0].code, 'Legacy exact-code fallback identity changed');
+check(core.primaryIdentity(designationRecord).labelKey === 'officialEngineDesignation', 'Designation label key is incorrect');
+check(core.searchRecords([records[0], designationRecord], designationRecord.identity.value)[0]?.id === designationRecord.id, 'Exact designation search did not receive top priority');
+check(core.searchRank(designationRecord, designationRecord.identity.value) === 0, 'Exact designation rank is not zero');
+check(core.searchRecords([designationRecord], 'Quantum X1')[0]?.id === designationRecord.id, 'Designation alias search failed');
+check(core.resolveEngine([designationRecord], designationRecord.identity.value)?.id === designationRecord.id, 'Designation URL resolution failed');
+check(core.identityValues(designationRecord).every(Boolean), 'Designation identity values contain an empty value');
+const designationUrlState = core.stateFromUrl(
+  `https://d3orient.com/engines.html?engine=${encodeURIComponent(designationRecord.identity.value)}`,
+  [designationRecord], REGIONS, languages
+);
+check(designationUrlState.engine === designationRecord.id, 'Designation URL state restoration failed');
+const renderedIdentity = core.identityDisplay(designationRecord, (key) => ({ officialEngineDesignation: 'Official engine designation' })[key]);
+const syntheticListMarkup = `<strong>${renderedIdentity.value}</strong><span>${renderedIdentity.label}</span>`;
+const syntheticDetailMarkup = `<h3>${renderedIdentity.value}</h3><p>${renderedIdentity.label}</p>`;
+check(syntheticListMarkup.includes('QuantumDrive X1') && syntheticListMarkup.includes('Official engine designation'), 'Synthetic list identity rendering failed');
+check(syntheticDetailMarkup.includes('QuantumDrive X1') && syntheticDetailMarkup.includes('Official engine designation'), 'Synthetic detail identity rendering failed');
+check(core.searchRecords([corroboratedDesignationRecord], corroboratedDesignationRecord.identity.value)[0]?.id === corroboratedDesignationRecord.id, 'Corroborated designation search failed');
+check(engineIdentityCollisionErrors([designationRecord]).length === 0, 'Synthetic designation produced a self collision');
+pass('direct and corroborated synthetic designation records pass schema, validator, search, rendering, URL and collision paths');
+
+const exactCollision = { ...records[0], id: 'synthetic-code-owner', code: designationRecord.identity.value, aliases: [] };
+const designationCollision = {
+  ...exactCollision,
+  id: 'synthetic-designation-owner',
+  identity: structuredClone(designationRecord.identity),
+  aliases: []
+};
+delete designationCollision.code;
+check(engineIdentityCollisionErrors([exactCollision, designationCollision]).length > 0, 'Code/designation collision was not rejected');
+const aliasCollision = { ...exactCollision, code: 'OTHER-CODE', aliases: [designationRecord.identity.value] };
+check(engineIdentityCollisionErrors([aliasCollision, designationCollision]).length > 0, 'Alias/designation collision was not rejected');
+const cosmeticYearCollision = {
+  ...designationCollision,
+  id: 'synthetic-cosmetic-split',
+  identity: { ...designationCollision.identity, type: 'exactCode' },
+  code: designationCollision.identity.value,
+  years: '2099',
+  applications: designationCollision.applications.map((application) => `${application} Sport AWD automatic`)
+};
+check(engineIdentityCollisionErrors([designationCollision, cosmeticYearCollision]).length > 0, 'Cosmetic trim/year identity split was not rejected');
+const identityTypeOnlySplit = {
+  ...exactCollision,
+  id: 'synthetic-identity-type-split',
+  identity: { type: 'officialPublicDesignation', value: 'Different Public Name' },
+  code: undefined
+};
+check(engineIdentityCollisionErrors([exactCollision, identityTypeOnlySplit]).length > 0, 'Identity type alone created a duplicate semantic engine');
+const provenDifferentScope = {
+  ...designationCollision,
+  id: 'synthetic-proven-scope',
+  applications: ['Different Model'],
+  performance: { ...designationCollision.performance, powerKw: { min: 999, max: 999, rpm: { min: 6000, max: 6000 } } }
+};
+check(engineIdentityCollisionErrors([designationCollision, provenDifferentScope]).length === 0, 'Materially different application/calibration scope was rejected');
+const sameApplicationDifferentCalibration = {
+  ...designationCollision,
+  id: 'synthetic-same-model-calibration',
+  performance: { ...designationCollision.performance, torqueNm: { min: 777, max: 777, rpm: { min: 3000, max: 3000 } } }
+};
+check(engineIdentityCollisionErrors([designationCollision, sameApplicationDifferentCalibration]).length === 0, 'Two documented calibrations in one application were rejected');
+const differentModelSameCalibration = {
+  ...designationCollision,
+  id: 'synthetic-different-model-same-calibration',
+  applications: ['Different Model']
+};
+check(engineIdentityCollisionErrors([designationCollision, differentModelSameCalibration]).length > 0, 'Identical calibration split across application labels was accepted');
+const differentMarketSpecification = {
+  ...designationCollision,
+  id: 'synthetic-market-specification',
+  verification: {
+    ...designationCollision.verification,
+    scope: { ...designationCollision.verification.scope, markets: ['Synthetic Export Market'] }
+  }
+};
+check(engineIdentityCollisionErrors([designationCollision, differentMarketSpecification]).length === 0, 'Documented market-specific specification was rejected');
+pass('normalized code, designation and alias collision guard rejects semantic duplicates');
 const northAmericaIds = records.filter((record) => record.regionKey === 'north-america').map((record) => record.id);
 for (const query of ['North America', 'USA', 'US', 'United States']) {
   const resultIds = core.searchRecords(records, query).map((record) => record.id);
@@ -828,7 +1057,7 @@ const englishKeys = Object.keys(translations.en).sort();
 const requiredKeys = [
   'browseByRegion', 'manufacturersLabel', 'engineCountLabel', 'showRegion', 'hideRegion',
   'chooseManufacturer', 'backToManufacturers', 'searchResults', 'clearSearch',
-  'noMatchingEngines', 'searchHelp', 'searchLabel'
+  'noMatchingEngines', 'searchHelp', 'searchLabel', 'engineCodeLabel', 'officialEngineDesignation'
 ];
 for (const language of languages) {
   check(JSON.stringify(Object.keys(translations[language]).sort()) === JSON.stringify(englishKeys), `${language} translation keys differ from EN`);
@@ -842,6 +1071,17 @@ for (const language of languages) {
   for (const region of ['north-america', 'south-america']) check(Boolean(translations[language][region]), `${language}.${region} is missing`);
 }
 pass(`engine page script syntax and EN/ES/FR/DE translation parity (${englishKeys.length} keys)`);
+
+check(translations.en.officialEngineDesignation === 'Official engine designation', 'English designation label changed');
+for (const language of languages) {
+  check(translations[language].officialEngineDesignation !== 'officialEngineDesignation', `${language} exposes the raw designation translation key`);
+  check(translations[language].engineCodeLabel !== 'engineCodeLabel', `${language} exposes the raw exact-code translation key`);
+}
+check(html.includes('${escapeHtml(identity.label)}'), 'Engine list/detail does not render the translated identity label');
+check(html.match(/engineSearchCore\.identityDisplay\(record, t\)/g)?.length >= 3, 'List, detail and suggestions do not share identityDisplay');
+check(!html.includes('<h3>${escapeHtml(record.code)}</h3>'), 'Engine detail still renders code directly');
+check(!html.includes('option.label = `${record.maker} · ${record.code}`'), 'Suggestions still render code directly');
+pass('identity labels are translated and list/detail/suggestions use the shared helper');
 
 check(/<label[^>]*for="engineCodeSearch"[^>]*data-i18n="searchLabel"/.test(html), 'Search is missing its permanent label');
 check(html.includes('aria-expanded="${item.expanded}"'), 'Region controls do not render aria-expanded');
