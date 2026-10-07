@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ford Phase 2B enrichment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "campaign",
+    "generatedAt",
+    "candidatePool",
+    "outcomeCounts",
+    "candidates"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "campaign": {
+      "const": "Ford Manufacturer Campaign Phase 2B"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "candidatePool": {
+      "type": "object"
+    },
+    "outcomeCounts": {
+      "type": "object"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 54,
+      "maxItems": 54,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidateId",
+          "officialDesignation",
+          "relationship",
+          "partner",
+          "applications",
+          "years",
+          "markets",
+          "category",
+          "construction",
+          "performance",
+          "sourceRefs",
+          "exactEvidenceLocations",
+          "outcome",
+          "holdReason",
+          "productionRecordId",
+          "duplicateOf",
+          "limitationNotes"
+        ],
+        "properties": {
+          "candidateId": {
+            "type": "string"
+          },
+          "officialDesignation": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "partner": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "applications": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "years": {
+            "type": "object"
+          },
+          "markets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "category": {
+            "type": "string"
+          },
+          "construction": {
+            "type": "object"
+          },
+          "performance": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "sourceRefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "exactEvidenceLocations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "outcome": {
+            "enum": [
+              "implemented",
+              "readyButDuplicate",
+              "holdMissingConstruction",
+              "holdMissingPerformance",
+              "holdMissingApplicationScope",
+              "holdIdentityAmbiguous",
+              "holdSourceConflict",
+              "notProductionEligible"
+            ]
+          },
+          "holdReason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "productionRecordId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "duplicateOf": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "limitationNotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

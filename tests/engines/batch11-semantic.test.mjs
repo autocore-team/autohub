@@ -9,7 +9,8 @@ export function checkBatch11() {
   const data = readSourceData();
   const limits = { europe: 345, japan: 291, korea: 50, 'north-america': 105, 'south-america': 0 };
   const baseline = data.regionFiles.flatMap(f => f.records.slice(0, limits[f.region]));
-  const added = data.regionFiles.flatMap(f => f.records.slice(limits[f.region]));
+  const tableIds = new Set(table.map(r => r.id));
+  const added = data.records.filter(r => tableIds.has(r.id));
   const digest = x => crypto.createHash('sha256').update(canonicalFingerprint(x)).digest('hex');
   assert.equal(baseline.length, 791);
   assert.equal(digest(baseline), '51f99c7647b95cf56ef13d931d90c2aa27143969cc93d7fb840544eac85e58d0', 'Batch 11 changed baseline data/order');

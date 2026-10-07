@@ -10097,5 +10097,778 @@ window.AUTOHUB_ENGINE_DATA_REGIONS["north-america"] = [
         }
       ]
     }
+  },
+  {
+    "id": "ford-phase2b-duratec-direct-flex-2000-focus-2015",
+    "identity": {
+      "type": "officialPublicDesignation",
+      "value": "2.0L Duratec Direct Flex",
+      "review": {
+        "officialPublicationConfirmed": true,
+        "stableAndDistinct": true,
+        "genericDescriptionRejected": true,
+        "materialVariantsSeparated": true,
+        "notes": [
+          "The cited Ford Tier A source literally publishes this designation for the exact application and year.",
+          "Performance and construction are restricted to the documented calibration; neighboring variants are not merged."
+        ]
+      }
+    },
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2015",
+    "displacement": "2.0 L · 1,999 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "alternativeFuel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus (Brazil, 2015 owner-manual specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "2.0L Duratec Direct Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,999 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the public identity and technical specification.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "es": {
+        "construction": "2.0L Duratec Direct Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,999 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad pública y las especificaciones técnicas.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "fr": {
+        "construction": "2.0L Duratec Direct Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,999 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité publique et les caractéristiques techniques.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "de": {
+        "construction": "2.0L Duratec Direct Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L · 1,999 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen die öffentliche Identität und die technischen Daten.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130.9,
+        "max": 130.9,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 221,
+        "max": 221,
+        "rpm": {
+          "min": 4500,
+          "max": 4500
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "p2b-ford-focus-2015-owner-manual"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus (Brazil, 2015 owner-manual specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Brazil"
+        ]
+      },
+      "sources": [
+        {
+          "id": "p2b-ford-focus-2015-owner-manual",
+          "title": "Ford Focus 2015 Brazil Owner Manual",
+          "publisher": "Ford Motor Company",
+          "year": 2015,
+          "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/Focus_2015_BR.pdf",
+          "page": 288,
+          "checkedAt": "2026-10-07",
+          "fields": [
+            "maker",
+            "identity.officialPublicDesignation",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Capacidades e Especificações, page 288, ESPECIFICAÇÕES DO MOTOR 2.0L DURATEC DIRECT FLEX: inline four, four valves per cylinder, two independently variable camshafts, 1,999 cc, flex fuel, direct injection and naturally aspirated induction. Stored headline calibration is ethanol: 178 cv × 0.73549875 = 130.9 kW (project one-decimal rounding) at 6,500 rpm and 221 N·m at 4,500 rpm. The separate gasoline calibration is 175 cv × 0.73549875 = 128.7 kW at 6,500 rpm and 211 N·m at 4,500 rpm. The current data model cannot bind multiple performance values to fuel conditions, so the gasoline calibration is evidence-only and does not add field coverage."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus (Brazil, 2015 owner-manual specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Brazil"
+            ],
+            "designations": [
+              "2.0L Duratec Direct Flex"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ford-phase2b-sigma-tivct-flex-1600-focus-2015",
+    "identity": {
+      "type": "officialPublicDesignation",
+      "value": "1.6L Sigma Flex",
+      "review": {
+        "officialPublicationConfirmed": true,
+        "stableAndDistinct": true,
+        "genericDescriptionRejected": true,
+        "materialVariantsSeparated": true,
+        "notes": [
+          "The cited Ford Tier A source literally publishes this designation for the exact application and year.",
+          "Performance and construction are restricted to the documented calibration; neighboring variants are not merged."
+        ]
+      }
+    },
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2015",
+    "displacement": "1.6 L · 1,596 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "alternativeFuel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus (Brazil, 2015 owner-manual specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "1.6L Sigma Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,596 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the public identity and technical specification.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "es": {
+        "construction": "1.6L Sigma Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,596 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad pública y las especificaciones técnicas.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "fr": {
+        "construction": "1.6L Sigma Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,596 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité publique et les caractéristiques techniques.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "de": {
+        "construction": "1.6L Sigma Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L · 1,596 cc; Ford Focus (Brazil, 2015 owner-manual specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen die öffentliche Identität und die technischen Daten.",
+        "cons": "Only the cited 2015 Ford Focus calibration and market scope; no adjacent model years or calibrations are implied."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 99.3,
+        "max": 99.3,
+        "rpm": {
+          "min": 6500,
+          "max": 6500
+        }
+      },
+      "torqueNm": {
+        "min": 163.7,
+        "max": 163.7,
+        "rpm": {
+          "min": 5250,
+          "max": 5250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "p2b-ford-focus-2015-owner-manual"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus (Brazil, 2015 owner-manual specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Brazil"
+        ]
+      },
+      "sources": [
+        {
+          "id": "p2b-ford-focus-2015-owner-manual",
+          "title": "Ford Focus 2015 Brazil Owner Manual",
+          "publisher": "Ford Motor Company",
+          "year": 2015,
+          "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/Focus_2015_BR.pdf",
+          "page": 287,
+          "checkedAt": "2026-10-07",
+          "fields": [
+            "maker",
+            "identity.officialPublicDesignation",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Capacidades e Especificações, page 287, ESPECIFICAÇÕES DO MOTOR 1.6L SIGMA FLEX: 1.6L TiVCT inline four, four valves per cylinder, two independently variable camshafts, 1,596 cc, flex fuel, sequential multipoint PFI and naturally aspirated induction. Stored headline calibration is ethanol: 135 cv × 0.73549875 = 99.3 kW (project one-decimal rounding) at 6,500 rpm and 163.7 N·m at 5,250 rpm. The separate gasoline calibration is 131 cv × 0.73549875 = 96.3 kW at 6,500 rpm and 158.9 N·m at 3,000 rpm. The current data model cannot bind multiple performance values to fuel conditions, so the gasoline calibration is evidence-only and does not add field coverage."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus (Brazil, 2015 owner-manual specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Brazil"
+            ],
+            "designations": [
+              "1.6L Sigma Flex"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ford-phase2b-sigma-flex-1500-new-fiesta-2014",
+    "identity": {
+      "type": "officialPublicDesignation",
+      "value": "Sigma 1.5 Flex",
+      "review": {
+        "officialPublicationConfirmed": true,
+        "stableAndDistinct": true,
+        "genericDescriptionRejected": true,
+        "materialVariantsSeparated": true,
+        "notes": [
+          "The cited Ford Tier A source literally publishes this designation for the exact application and year.",
+          "Performance and construction are restricted to the documented calibration; neighboring variants are not merged."
+        ]
+      }
+    },
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "1.5 L · 1,499 cc",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "alternativeFuel",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford New Fiesta (Brazil, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Sigma 1.5 Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; Ford New Fiesta (Brazil, 2014 specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the public identity and technical specification.",
+        "cons": "Only the cited 2014 Ford New Fiesta calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "es": {
+        "construction": "Sigma 1.5 Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; Ford New Fiesta (Brazil, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad pública y las especificaciones técnicas.",
+        "cons": "Only the cited 2014 Ford New Fiesta calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "fr": {
+        "construction": "Sigma 1.5 Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; Ford New Fiesta (Brazil, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité publique et les caractéristiques techniques.",
+        "cons": "Only the cited 2014 Ford New Fiesta calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "de": {
+        "construction": "Sigma 1.5 Flex: Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L · 1,499 cc; Ford New Fiesta (Brazil, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen die öffentliche Identität und die technischen Daten.",
+        "cons": "Only the cited 2014 Ford New Fiesta calibration and market scope; no adjacent model years or calibrations are implied."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 82.2,
+        "max": 82.2,
+        "rpm": {
+          "min": 5500,
+          "max": 5500
+        }
+      },
+      "torqueNm": {
+        "min": 146.8,
+        "max": 146.8,
+        "rpm": {
+          "min": 4250,
+          "max": 4250
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "p2b-ford-new-fiesta-2014-launch",
+        "p2b-ford-new-fiesta-2014-owner-manual"
+      ],
+      "scope": {
+        "applications": [
+          "Ford New Fiesta (Brazil, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Brazil"
+        ]
+      },
+      "sources": [
+        {
+          "id": "p2b-ford-new-fiesta-2014-launch",
+          "title": "Ford New Fiesta 2014 launch",
+          "publisher": "Ford Brasil",
+          "year": 2013,
+          "url": "https://media.ford.com/content/fordmedia/fsa/br/pt/news/2013/04/21/ford-new-fiesta-2014--esportividade--tecnologia--seguranca-e-eco.html",
+          "page": 1,
+          "checkedAt": "2026-10-07",
+          "fields": [
+            "maker",
+            "identity.officialPublicDesignation",
+            "applications",
+            "years",
+            "layout.valves",
+            "layout.camshaftsTotal"
+          ],
+          "pageNotes": [
+            "Official Ford Brasil launch for model-year 2014 literally names the Sigma 1.5 Flex in the New Fiesta and states DOHC 16V construction, establishing 16 valves and two camshafts for this exact application-year scope."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford New Fiesta (Brazil, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Brazil"
+            ],
+            "designations": [
+              "Sigma 1.5 Flex"
+            ]
+          }
+        },
+        {
+          "id": "p2b-ford-new-fiesta-2014-owner-manual",
+          "identityBindingRef": "p2b-ford-new-fiesta-2014-launch",
+          "title": "Ford New Fiesta 2014 Brazil Owner Manual",
+          "publisher": "Ford Motor Company",
+          "year": 2014,
+          "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/New_Fiesta_2014_BR.pdf",
+          "page": 189,
+          "checkedAt": "2026-10-07",
+          "fields": [
+            "displacement",
+            "layout",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Capacidades e Especificações, page 189, ESPECIFICAÇÕES DO MOTOR 1.5L FLEX: N-VCT inline four, 1,498.52 cc, flex fuel, sequential multipoint PFI and naturally aspirated induction. Stored headline calibration is ethanol: 111.8 cv × 0.73549875 = 82.2 kW (project one-decimal rounding) at 5,500 rpm and 146.8 N·m at 4,250 rpm. The separate gasoline calibration is 107.1 cv × 0.73549875 = 78.8 kW at 6,500 rpm and 145.9 N·m at 4,250 rpm. The current data model cannot bind multiple performance values to fuel conditions, so the gasoline calibration is evidence-only and does not add field coverage."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford New Fiesta (Brazil, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Brazil"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ford-phase2b-dld-1500-tdci-ecosport-2015",
+    "identity": {
+      "type": "officialPublicDesignation",
+      "value": "1.5-litre TDCi (95PS) ECOnetic Technology",
+      "review": {
+        "officialPublicationConfirmed": true,
+        "stableAndDistinct": true,
+        "genericDescriptionRejected": true,
+        "materialVariantsSeparated": true,
+        "notes": [
+          "The cited Ford Tier A source literally publishes this designation for the exact application and year.",
+          "Performance and construction are restricted to the documented calibration; neighboring variants are not merged."
+        ]
+      }
+    },
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2015",
+    "displacement": "1.5 L · 1,498 cc",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Ford EcoSport (Europe, 2015 technical specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "1.5-litre TDCi (95PS) ECOnetic Technology: Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.5 L · 1,498 cc; Ford EcoSport (Europe, 2015 technical specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the public identity and technical specification.",
+        "cons": "Only the cited 2015 Ford EcoSport calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "es": {
+        "construction": "1.5-litre TDCi (95PS) ECOnetic Technology: Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.5 L · 1,498 cc; Ford EcoSport (Europe, 2015 technical specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad pública y las especificaciones técnicas.",
+        "cons": "Only the cited 2015 Ford EcoSport calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "fr": {
+        "construction": "1.5-litre TDCi (95PS) ECOnetic Technology: Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.5 L · 1,498 cc; Ford EcoSport (Europe, 2015 technical specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité publique et les caractéristiques techniques.",
+        "cons": "Only the cited 2015 Ford EcoSport calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "de": {
+        "construction": "1.5-litre TDCi (95PS) ECOnetic Technology: Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.5 L · 1,498 cc; Ford EcoSport (Europe, 2015 technical specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen die öffentliche Identität und die technischen Daten.",
+        "cons": "Only the cited 2015 Ford EcoSport calibration and market scope; no adjacent model years or calibrations are implied."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70,
+        "rpm": {
+          "min": 3750,
+          "max": 3750
+        }
+      },
+      "torqueNm": {
+        "min": 215,
+        "max": 215,
+        "rpm": {
+          "min": 1750,
+          "max": 1750
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "p2b-ford-ecosport-2015-technical-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Ford EcoSport (Europe, 2015 technical specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "p2b-ford-ecosport-2015-technical-specification",
+          "title": "Ford EcoSport Technical Specifications",
+          "publisher": "Ford of Europe",
+          "year": 2015,
+          "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/productReleases/EcoSport/EcoSportSpecifications_EU.pdf",
+          "page": 2,
+          "checkedAt": "2026-10-07",
+          "fields": [
+            "maker",
+            "identity.officialPublicDesignation",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "timingKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Diesel Engine table: 1.5-litre TDCi (95PS) EcoSport; inline four turbo diesel, 1,498 cc, DOHC with two valves per cylinder (eight total and two camshafts), common-rail direct injection, belt/chain camshaft drive, 70 kW at 3,750 rpm and 215 N·m at 1,750 rpm. Record is narrowed to the cited 2015 European specification."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford EcoSport (Europe, 2015 technical specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ],
+            "designations": [
+              "1.5-litre TDCi (95PS) ECOnetic Technology"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ford-phase2b-dld-1600-tdci-transit-connect-2013",
+    "identity": {
+      "type": "officialPublicDesignation",
+      "value": "1.6-litre Duratorq TDCi (95PS)",
+      "review": {
+        "officialPublicationConfirmed": true,
+        "stableAndDistinct": true,
+        "genericDescriptionRejected": true,
+        "materialVariantsSeparated": true,
+        "notes": [
+          "The cited Ford Tier A source literally publishes this designation for the exact application and year.",
+          "Performance and construction are restricted to the documented calibration; neighboring variants are not merged."
+        ]
+      }
+    },
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "north-america",
+    "years": "2013",
+    "displacement": "1.6 L · 1,560 cc",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshaft total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "timingBelt",
+    "applications": [
+      "Ford Transit Connect (Europe, 2013 95PS specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "1.6-litre Duratorq TDCi (95PS): Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.6 L · 1,560 cc; Ford Transit Connect (Europe, 2013 95PS specification).",
+        "issues": "Faults and service life are not covered by this specification record.",
+        "pros": "Official manufacturer documentation supports the public identity and technical specification.",
+        "cons": "Only the cited 2013 Ford Transit Connect calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "es": {
+        "construction": "1.6-litre Duratorq TDCi (95PS): Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.6 L · 1,560 cc; Ford Transit Connect (Europe, 2013 95PS specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "La documentación oficial respalda la identidad pública y las especificaciones técnicas.",
+        "cons": "Only the cited 2013 Ford Transit Connect calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "fr": {
+        "construction": "1.6-litre Duratorq TDCi (95PS): Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.6 L · 1,560 cc; Ford Transit Connect (Europe, 2013 95PS specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "La documentation officielle confirme l’identité publique et les caractéristiques techniques.",
+        "cons": "Only the cited 2013 Ford Transit Connect calibration and market scope; no adjacent model years or calibrations are implied."
+      },
+      "de": {
+        "construction": "1.6-litre Duratorq TDCi (95PS): Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.6 L · 1,560 cc; Ford Transit Connect (Europe, 2013 95PS specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Offizielle Herstellerunterlagen belegen die öffentliche Identität und die technischen Daten.",
+        "cons": "Only the cited 2013 Ford Transit Connect calibration and market scope; no adjacent model years or calibrations are implied."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70,
+        "rpm": {
+          "min": 3600,
+          "max": 3600
+        }
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230,
+        "rpm": {
+          "min": 1500,
+          "max": 2000
+        }
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "official",
+      "sourceRefs": [
+        "p2b-ford-transit-connect-2013-technical-specification"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Transit Connect (Europe, 2013 95PS specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "p2b-ford-transit-connect-2013-technical-specification",
+          "title": "Ford Transit Connect Technical Specifications",
+          "publisher": "Ford of Europe",
+          "year": 2013,
+          "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/productReleases/Transit%20Connect/FordTransitConnect-Specifications_EU.pdf",
+          "page": 4,
+          "checkedAt": "2026-10-07",
+          "fields": [
+            "maker",
+            "identity.officialPublicDesignation",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "timingKey",
+            "performance.powerKw",
+            "performance.powerKw.rpm",
+            "performance.torqueNm",
+            "performance.torqueNm.rpm"
+          ],
+          "pageNotes": [
+            "Diesel Engine table for the all-new 2013 Transit Connect: 1.6-litre Duratorq TDCi 95PS; inline four turbo diesel, 1,560 cc, SOHC with two valves per cylinder (eight total and one camshaft), common-rail direct injection, timing belt, 70 kW at 3,600 rpm and 230 N·m at 1,500-2,000 rpm."
+          ],
+          "type": "manufacturer",
+          "evidenceTier": "A",
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Transit Connect (Europe, 2013 95PS specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ],
+            "designations": [
+              "1.6-litre Duratorq TDCi (95PS)"
+            ]
+          }
+        }
+      ]
+    }
   }
 ];

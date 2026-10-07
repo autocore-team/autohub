@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "campaign": "Ford Manufacturer Campaign Phase 2B",
+  "generatedAt": "2026-10-07",
+  "sources": [
+    {
+      "sourceId": "p2b-ford-focus-2015-owner-manual",
+      "publisher": "Ford Motor Company",
+      "title": "Ford Focus 2015 Brazil Owner Manual",
+      "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/Focus_2015_BR.pdf",
+      "documentDate": "2015",
+      "sourceType": "manufacturerOwnerManual",
+      "evidenceTier": "A",
+      "markets": [
+        "Brazil"
+      ],
+      "candidateIds": [
+        "ford-duratec-direct-flex-2000",
+        "ford-sigma-flex-1600"
+      ],
+      "location": "Owner manual pp. 287–288, ESPECIFICAÇÕES DO MOTOR 1.6L SIGMA FLEX and 2.0L DURATEC DIRECT FLEX",
+      "fields": [
+        "maker",
+        "identity.officialPublicDesignation",
+        "applications",
+        "years",
+        "displacement",
+        "layout",
+        "layout.valves",
+        "layout.camshaftsTotal",
+        "fuelKey",
+        "aspirationKey",
+        "injectionKey",
+        "performance.powerKw",
+        "performance.powerKw.rpm",
+        "performance.torqueNm",
+        "performance.torqueNm.rpm"
+      ],
+      "limitations": [
+        "Only the cited application/year scope; no adjacent calibrations or years."
+      ],
+      "accessStatus": "available",
+      "notes": "Capacidades e Especificações, page 287, ESPECIFICAÇÕES DO MOTOR 1.6L SIGMA FLEX: 1.6L TiVCT inline four, four valves per cylinder, two independently variable camshafts, 1,596 cc, flex fuel, sequential multipoint PFI and naturally aspirated induction. Stored headline calibration is ethanol: 135 cv × 0.73549875 = 99.3 kW (project one-decimal rounding) at 6,500 rpm and 163.7 N·m at 5,250 rpm. The separate gasoline calibration is 131 cv × 0.73549875 = 96.3 kW at 6,500 rpm and 158.9 N·m at 3,000 rpm. The current data model cannot bind multiple performance values to fuel conditions, so the gasoline calibration is evidence-only and does not add field coverage. Capacidades e Especificações, page 288, ESPECIFICAÇÕES DO MOTOR 2.0L DURATEC DIRECT FLEX: inline four, four valves per cylinder, two independently variable camshafts, 1,999 cc, flex fuel, direct injection and naturally aspirated induction. Stored headline calibration is ethanol: 178 cv × 0.73549875 = 130.9 kW (project one-decimal rounding) at 6,500 rpm and 221 N·m at 4,500 rpm. The separate gasoline calibration is 175 cv × 0.73549875 = 128.7 kW at 6,500 rpm and 211 N·m at 4,500 rpm. The current data model cannot bind multiple performance values to fuel conditions, so the gasoline calibration is evidence-only and does not add field coverage."
+    },
+    {
+      "sourceId": "p2b-ford-new-fiesta-2014-launch",
+      "publisher": "Ford Brasil",
+      "title": "Ford New Fiesta 2014 launch",
+      "url": "https://media.ford.com/content/fordmedia/fsa/br/pt/news/2013/04/21/ford-new-fiesta-2014--esportividade--tecnologia--seguranca-e-eco.html",
+      "documentDate": "2013",
+      "sourceType": "manufacturerMediaRelease",
+      "evidenceTier": "A",
+      "markets": [
+        "Brazil"
+      ],
+      "candidateIds": [
+        "ford-sigma-flex-1500"
+      ],
+      "location": "Launch body, engine choices and Sigma 1.5 DOHC 16V Flex paragraph",
+      "fields": [
+        "maker",
+        "identity.officialPublicDesignation",
+        "applications",
+        "years",
+        "layout.valves",
+        "layout.camshaftsTotal"
+      ],
+      "limitations": [
+        "Only the cited application/year scope; no adjacent calibrations or years."
+      ],
+      "accessStatus": "available",
+      "notes": "Official Ford Brasil launch for model-year 2014 literally names the Sigma 1.5 Flex in the New Fiesta and states DOHC 16V construction, establishing 16 valves and two camshafts for this exact application-year scope."
+    },
+    {
+      "sourceId": "p2b-ford-new-fiesta-2014-owner-manual",
+      "publisher": "Ford Motor Company",
+      "title": "Ford New Fiesta 2014 Brazil Owner Manual",
+      "url": "https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/New_Fiesta_2014_BR.pdf",
+      "documentDate": "2014",
+      "sourceType": "manufacturerOwnerManual",
+      "evidenceTier": "A",
+      "markets": [
+        "Brazil"
+      ],
+      "candidateIds": [
+        "ford-sigma-flex-1500"
+      ],
+      "location": "Owner manual p. 189, ESPECIFICAÇÕES DO MOTOR 1.5L FLEX",
+      "fields": [
+        "displacement",
+        "layout",
+        "fuelKey",
+        "aspirationKey",
+        "injectionKey",
+        "performance.powerKw",
+        "performance.powerKw.rpm",
+        "performance.torqueNm",
+        "performance.torqueNm.rpm"
+      ],
+      "limitations": [
+        "Only the cited application/year scope; no adjacent calibrations or years."
+      ],
+      "accessStatus": "available",
+      "notes": "Capacidades e Especificações, page 189, ESPECIFICAÇÕES DO MOTOR 1.5L FLEX: N-VCT inline four, 1,498.52 cc, flex fuel, sequential multipoint PFI and naturally aspirated induction. Stored headline calibration is ethanol: 111.8 cv × 0.73549875 = 82.2 kW (project one-decimal rounding) at 5,500 rpm and 146.8 N·m at 4,250 rpm. The separate gasoline calibration is 107.1 cv × 0.73549875 = 78.8 kW at 6,500 rpm and 145.9 N·m at 4,250 rpm. The current data model cannot bind multiple performance values to fuel conditions, so the gasoline calibration is evidence-only and does not add field coverage."
+    },
+    {
+      "sourceId": "p2b-ford-ecosport-2015-technical-specification",
+      "publisher": "Ford of Europe",
+      "title": "Ford EcoSport Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/productReleases/EcoSport/EcoSportSpecifications_EU.pdf",
+      "documentDate": "2015",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "candidateIds": [
+        "ford-dld-1500-tdci"
+      ],
+      "location": "Technical specification, Diesel Engine and Performance/Economy tables",
+      "fields": [
+        "maker",
+        "identity.officialPublicDesignation",
+        "applications",
+        "years",
+        "displacement",
+        "layout",
+        "layout.valves",
+        "layout.camshaftsTotal",
+        "fuelKey",
+        "aspirationKey",
+        "injectionKey",
+        "timingKey",
+        "performance.powerKw",
+        "performance.powerKw.rpm",
+        "performance.torqueNm",
+        "performance.torqueNm.rpm"
+      ],
+      "limitations": [
+        "Only the cited application/year scope; no adjacent calibrations or years."
+      ],
+      "accessStatus": "available",
+      "notes": "Diesel Engine table: 1.5-litre TDCi (95PS) ECOnetic Technology; inline four turbo diesel, 1,498 cc, DOHC with two valves per cylinder (eight total and two camshafts), common-rail direct injection, belt from crankshaft to intake cam plus chain from intake to exhaust cam, published 70 kW at 3,750 rpm and 215 N·m at 1,750 rpm. Record is narrowed to the cited 2015 European specification."
+    },
+    {
+      "sourceId": "p2b-ford-transit-connect-2013-technical-specification",
+      "publisher": "Ford of Europe",
+      "title": "Ford Transit Connect Technical Specifications",
+      "url": "https://media.ford.com/content/dam/fordmedia/Europe/documents/productReleases/Transit%20Connect/FordTransitConnect-Specifications_EU.pdf",
+      "documentDate": "2013",
+      "sourceType": "manufacturerTechnicalSpecification",
+      "evidenceTier": "A",
+      "markets": [
+        "Europe"
+      ],
+      "candidateIds": [
+        "ford-dld-1600-tdci"
+      ],
+      "location": "Technical specification p. 4, Diesel Engine 95PS column",
+      "fields": [
+        "maker",
+        "identity.officialPublicDesignation",
+        "applications",
+        "years",
+        "displacement",
+        "layout",
+        "layout.valves",
+        "layout.camshaftsTotal",
+        "fuelKey",
+        "aspirationKey",
+        "injectionKey",
+        "timingKey",
+        "performance.powerKw",
+        "performance.powerKw.rpm",
+        "performance.torqueNm",
+        "performance.torqueNm.rpm"
+      ],
+      "limitations": [
+        "Only the cited application/year scope; no adjacent calibrations or years."
+      ],
+      "accessStatus": "available",
+      "notes": "Diesel Engine table for the all-new 2013 Transit Connect: 1.6-litre Duratorq TDCi 95PS; inline four turbo diesel, 1,560 cc, SOHC with two valves per cylinder (eight total and one camshaft), common-rail direct injection, timing belt, 70 kW at 3,600 rpm and 230 N·m at 1,500-2,000 rpm."
+    },
+    {
+      "sourceId": "p2b-ford-super-duty-2021-caribbean-brochure",
+      "publisher": "Ford Caribbean",
+      "title": "2021 Ford Super Duty Brochure",
+      "url": "https://www.caribe.ford.com/content/dam/Ford/website-assets/cca/cca-compartido/brochures-caribe/ford-caribbean-super-duty-2021-super-duty-brochure-download-eng.pdf",
+      "documentDate": "2021",
+      "sourceType": "manufacturerBrochure",
+      "evidenceTier": "A",
+      "markets": [
+        "Caribbean"
+      ],
+      "candidateIds": [
+        "ford-power-stroke-67"
+      ],
+      "location": "Brochure Engines table, 6.7L Power Stroke column",
+      "fields": [
+        "maker",
+        "identity.officialPublicDesignation",
+        "applications",
+        "years",
+        "displacement",
+        "layout",
+        "layout.valves",
+        "fuelKey",
+        "aspirationKey",
+        "injectionKey",
+        "performance.powerKw",
+        "performance.powerKw.rpm",
+        "performance.torqueNm",
+        "performance.torqueNm.rpm"
+      ],
+      "limitations": [
+        "Only the cited application/year scope; no adjacent calibrations or years.",
+        "The brochure does not state total camshaft count; OHV is not treated as proof of one camshaft."
+      ],
+      "accessStatus": "available",
+      "notes": "Engines table: 6.7L Power Stroke V8 Turbo Diesel for 2021 Super Duty; OHV 32-valve V8 with pushrod/rocker valve operation, high-pressure common-rail injection and single-sequential turbocharger; 475 hp at 2,600 rpm and 1,050 lb-ft at 1,600 rpm. Mechanical hp × 0.7456998716 = 354.2 kW and lb-ft × 1.3558179483 = 1,423.6 N·m using project one-decimal rounding. The table does not publish total camshaft count."
+    }
+  ]
+}

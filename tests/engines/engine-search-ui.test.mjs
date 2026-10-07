@@ -181,9 +181,9 @@ function validateSyntheticDesignation(record) {
 }
 
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 916, `Engine count changed: expected 916, found ${records.length}`);
+check(records.length === 921, `Engine count changed: expected 921, found ${records.length}`);
 check(
-  semanticHash === '92b39177bda0e206293b60e4a238a9dad1d42097957fda3d3180bda0aafa6fe1',
+  semanticHash === '470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c',
   `Engine semantic hash changed: ${semanticHash}`
 );
 pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
@@ -826,12 +826,12 @@ check(
     { region: 'europe', engineCount: 345, manufacturerCount: 11 },
     { region: 'japan', engineCount: 416, manufacturerCount: 20 },
     { region: 'korea', engineCount: 50, manufacturerCount: 2 },
-    { region: 'north-america', engineCount: 105, manufacturerCount: 15 }
+    { region: 'north-america', engineCount: 110, manufacturerCount: 15 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 916, 'Regional engineCount sum does not equal 916');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 921, 'Regional engineCount sum does not equal 921');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
@@ -971,7 +971,7 @@ pass('normalized code, designation and alias collision guard rejects semantic du
 const northAmericaIds = records.filter((record) => record.regionKey === 'north-america').map((record) => record.id);
 for (const query of ['North America', 'USA', 'US', 'United States']) {
   const resultIds = core.searchRecords(records, query).map((record) => record.id);
-  check(JSON.stringify(resultIds) === JSON.stringify(northAmericaIds), `${query} did not return the exact 105-record North America set`);
+  check(JSON.stringify(resultIds) === JSON.stringify(northAmericaIds), `${query} did not return the exact 110-record North America set`);
   check(new Set(resultIds).size === resultIds.length, `${query} region search contains duplicates`);
 }
 for (const query of ['South America', 'Argentina', 'Brazil']) {

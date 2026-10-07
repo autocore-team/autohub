@@ -1,0 +1,2521 @@
+{
+  "schemaVersion": 1,
+  "campaign": "Ford Manufacturer Campaign Phase 2B",
+  "generatedAt": "2026-10-07",
+  "candidatePool": {
+    "total": 54,
+    "stableOfficialDesignations": 15,
+    "enrichmentCandidates": 37,
+    "officialPartnerDesignations": [
+      "BDA",
+      "YBB"
+    ]
+  },
+  "outcomeCounts": {
+    "implemented": 5,
+    "readyButDuplicate": 0,
+    "holdMissingConstruction": 6,
+    "holdMissingPerformance": 4,
+    "holdMissingApplicationScope": 37,
+    "holdIdentityAmbiguous": 2,
+    "holdSourceConflict": 0,
+    "notProductionEligible": 0
+  },
+  "candidates": [
+    {
+      "candidateId": "ford-australia-boss-335",
+      "officialDesignation": "Boss 335",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "FPV GT"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 4951,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "supercharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-barra-182",
+      "officialDesignation": "Barra 182",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Falcon BA"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 3984,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-barra-240t",
+      "officialDesignation": "Barra 240T",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Falcon XR6 Turbo BA"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 3984,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-barra-270t",
+      "officialDesignation": "Barra 270T",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Falcon XR6 Turbo FG"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 3984,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-barra-ecolpi",
+      "officialDesignation": "EcoLPi Barra",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Falcon FG"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 3984,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "lpg",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-cleveland-351c",
+      "officialDesignation": "351 Cleveland",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford Falcon"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 5752,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-cologne-v6-2800",
+      "officialDesignation": "2.8 Cologne V6",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Capri",
+        "Ford Granada",
+        "Ford Bronco II"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2792,
+        "configuration": "V",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-cologne-v6-2900",
+      "officialDesignation": "2.9 Cologne V6",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Sierra",
+        "Ford Scorpio",
+        "Ford Ranger"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2933,
+        "configuration": "V",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-cosworth-bda",
+      "officialDesignation": "BDA",
+      "relationship": "partnerDesigned",
+      "partner": "Cosworth",
+      "applications": [
+        "Ford Escort road cars",
+        "Ford Escort rally cars"
+      ],
+      "years": {
+        "start": 1969,
+        "end": null,
+        "approximate": false,
+        "scope": "Cosworth production-road introduction; Ford Escort road and rally applications"
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1601,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-cosworth-company-history"
+      ],
+      "exactEvidenceLocations": [
+        "Cosworth timeline: 1969 Hitting The Road — BDA developed for Ford Escort road and rally cars."
+      ],
+      "outcome": "holdMissingPerformance",
+      "holdReason": "The authoritative identity/application evidence does not provide both power and torque with engine-speed locations for one road calibration.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Cosworth publishes BDA as its engine designation and binds it to Ford Escort road and rally use; the source does not label BDA a Ford manufacturer or engineering code.",
+        "Missing next fields: identityPolicyDecision, construction.valves, construction.camshafts, construction.injection, construction.aspiration."
+      ]
+    },
+    {
+      "candidateId": "ford-cosworth-yb",
+      "officialDesignation": "YBB",
+      "relationship": "partnerDesigned",
+      "partner": "Cosworth",
+      "applications": [
+        "Ford Sierra RS Cosworth"
+      ],
+      "years": {
+        "start": 1985,
+        "end": null,
+        "approximate": false,
+        "scope": "First production-road YB-family application documented by Cosworth: Ford Sierra RS Cosworth"
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1993,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault",
+        "p2a-cosworth-company-history"
+      ],
+      "exactEvidenceLocations": [
+        "Cosworth timeline: 1984 Performance to the Road — YBB in the Ford Sierra RS Cosworth."
+      ],
+      "outcome": "holdMissingPerformance",
+      "holdReason": "The authoritative identity/application evidence does not provide both power and torque with engine-speed locations for one road calibration.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Cosworth uses YB for the production-engine family and YBB for the specific Ford Sierra RS Cosworth road variant; the source does not label either term a Ford manufacturer or engineering code.",
+        "Missing next fields: identityPolicyDecision, construction.valves, construction.camshafts, construction.injection, construction.aspiration."
+      ]
+    },
+    {
+      "candidateId": "ford-cvh-1600",
+      "officialDesignation": "1.6 CVH",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Fiesta"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1597,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-cvh-1600-turbo",
+      "officialDesignation": "1.6 CVH Turbo",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Escort RS Turbo",
+        "Ford Fiesta RS Turbo"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1597,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-dld-1400-tdci",
+      "officialDesignation": "1.4 TDCi",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Fusion"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "India"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1399,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-india-figo"
+      ],
+      "exactEvidenceLocations": [
+        "ford-india-figo — Powertrain section"
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The available identity evidence does not bind the required code to the complete candidate application scope.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-dld-1500-tdci",
+      "officialDesignation": "1.5-litre TDCi (95PS) ECOnetic Technology",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford EcoSport (Europe, 2015 technical specification)"
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2015
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacement": "1.5 L · 1,498 cc",
+        "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+        "valvesTotal": 8,
+        "camshaftsTotal": 2,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": "commonRail"
+      },
+      "performance": {
+        "powerKw": {
+          "min": 70,
+          "max": 70,
+          "rpm": {
+            "min": 3750,
+            "max": 3750
+          }
+        },
+        "torqueNm": {
+          "min": 215,
+          "max": 215,
+          "rpm": {
+            "min": 1750,
+            "max": 1750
+          }
+        }
+      },
+      "sourceRefs": [
+        "p2b-ford-ecosport-2015-technical-specification"
+      ],
+      "exactEvidenceLocations": [
+        "p2b-ford-ecosport-2015-technical-specification — Technical specification, Diesel Engine and Performance/Economy tables"
+      ],
+      "outcome": "implemented",
+      "holdReason": null,
+      "productionRecordId": "ford-phase2b-dld-1500-tdci-ecosport-2015",
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Exact 2015 application/calibration only.",
+        "No code is claimed; identity is the authoritative public designation."
+      ]
+    },
+    {
+      "candidateId": "ford-dld-1600-tdci",
+      "officialDesignation": "1.6-litre Duratorq TDCi (95PS)",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Transit Connect (Europe, 2013 95PS specification)"
+      ],
+      "years": {
+        "from": 2013,
+        "to": 2013
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacement": "1.6 L · 1,560 cc",
+        "layout": "Inline-4 · SOHC · 8 valves · 1 camshaft total",
+        "valvesTotal": 8,
+        "camshaftsTotal": 1,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": "commonRail"
+      },
+      "performance": {
+        "powerKw": {
+          "min": 70,
+          "max": 70,
+          "rpm": {
+            "min": 3600,
+            "max": 3600
+          }
+        },
+        "torqueNm": {
+          "min": 230,
+          "max": 230,
+          "rpm": {
+            "min": 1500,
+            "max": 2000
+          }
+        }
+      },
+      "sourceRefs": [
+        "p2b-ford-transit-connect-2013-technical-specification"
+      ],
+      "exactEvidenceLocations": [
+        "p2b-ford-transit-connect-2013-technical-specification — Technical specification p. 4, Diesel Engine 95PS column"
+      ],
+      "outcome": "implemented",
+      "holdReason": null,
+      "productionRecordId": "ford-phase2b-dld-1600-tdci-transit-connect-2013",
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Exact 2013 application/calibration only.",
+        "No code is claimed; identity is the authoritative public designation."
+      ]
+    },
+    {
+      "candidateId": "ford-duratec-direct-flex-2000",
+      "officialDesignation": "2.0L Duratec Direct Flex",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Focus (Brazil, 2015 owner-manual specification)"
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2015
+      },
+      "markets": [
+        "Brazil"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacement": "2.0 L · 1,999 cc",
+        "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+        "valvesTotal": 16,
+        "camshaftsTotal": 2,
+        "fuel": "alternativeFuel",
+        "aspiration": "naturallyAspirated",
+        "injection": "directInjection"
+      },
+      "performance": {
+        "powerKw": {
+          "min": 130.9,
+          "max": 130.9,
+          "rpm": {
+            "min": 6500,
+            "max": 6500
+          }
+        },
+        "torqueNm": {
+          "min": 221,
+          "max": 221,
+          "rpm": {
+            "min": 4500,
+            "max": 4500
+          }
+        }
+      },
+      "sourceRefs": [
+        "p2b-ford-focus-2015-owner-manual"
+      ],
+      "exactEvidenceLocations": [
+        "p2b-ford-focus-2015-owner-manual — Owner manual p. 288, ESPECIFICAÇÕES DO MOTOR 2.0L DURATEC DIRECT FLEX"
+      ],
+      "outcome": "implemented",
+      "holdReason": null,
+      "productionRecordId": "ford-phase2b-duratec-direct-flex-2000-focus-2015",
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Exact 2015 application/calibration only.",
+        "Stored performance is the official ethanol headline calibration; gasoline values remain separately documented in evidence notes because the current model cannot bind performance to fuel condition.",
+        "No code is claimed; identity is the authoritative public designation."
+      ]
+    },
+    {
+      "candidateId": "ford-duratorq-puma-2200",
+      "officialDesignation": "2.2 Duratorq TDCi",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Transit",
+        "Ford Ranger",
+        "Ford Everest"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "Asia",
+        "Africa",
+        "Middle East"
+      ],
+      "category": "lightCommercial",
+      "construction": {
+        "displacementCc": 2198,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocations": [
+        "ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections"
+      ],
+      "outcome": "holdMissingConstruction",
+      "holdReason": "The authoritative scope lacks at least one mandatory construction field, especially explicit total camshafts and/or injection coverage.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-duratorq-puma-3200",
+      "officialDesignation": "3.2 Duratorq TDCi",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Ranger",
+        "Ford Everest"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Australia/New Zealand",
+        "Asia",
+        "Africa",
+        "Middle East"
+      ],
+      "category": "suvPickup",
+      "construction": {
+        "displacementCc": 3198,
+        "configuration": "inline",
+        "cylinderCount": 5,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-au-ranger-2020"
+      ],
+      "exactEvidenceLocations": [
+        "ford-au-ranger-2020 — Engine specification table"
+      ],
+      "outcome": "holdMissingConstruction",
+      "holdReason": "The authoritative scope lacks at least one mandatory construction field, especially explicit total camshafts and/or injection coverage.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-ecoblue-1500",
+      "officialDesignation": "1.5 EcoBlue",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Kuga",
+        "Ford Transit Courier"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "lightCommercial",
+      "construction": {
+        "displacementCc": 1499,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-eu-kuga-spec",
+        "ford-eu-transit-courier-spec"
+      ],
+      "exactEvidenceLocations": [
+        "ford-eu-kuga-spec — Powertrain specification tables; ford-eu-transit-courier-spec — Engine tables"
+      ],
+      "outcome": "holdIdentityAmbiguous",
+      "holdReason": "The designation spans materially different calibrations/applications and existing evidence does not provide a collision-safe exact scope split with complete construction and performance.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-ecoblue-2000",
+      "officialDesignation": "2.0 EcoBlue",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Transit",
+        "Ford Tourneo Custom",
+        "Ford Ranger"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "Australia/New Zealand",
+        "Africa",
+        "Middle East"
+      ],
+      "category": "lightCommercial",
+      "construction": {
+        "displacementCc": 1996,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-au-ranger-2020",
+        "ford-eu-ecoblue-launch",
+        "ford-eu-tourneo-custom-spec",
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocations": [
+        "ford-au-ranger-2020 — Engine specification table; ford-eu-ecoblue-launch — Release body; ford-eu-tourneo-custom-spec — Powertrain tables; ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections"
+      ],
+      "outcome": "holdIdentityAmbiguous",
+      "holdReason": "The designation spans materially different calibrations/applications and existing evidence does not provide a collision-safe exact scope split with complete construction and performance.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-ecotorq-13000",
+      "officialDesignation": "13 L Ecotorq",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Trucks",
+        "JMC Weilong"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "Middle East",
+        "Africa",
+        "Turkey",
+        "China"
+      ],
+      "category": "heavyCommercial",
+      "construction": {
+        "displacementCc": 13000,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocations": [
+        "ford-otosan-ecotorq — Ecotorq Engine Family page; ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections"
+      ],
+      "outcome": "holdMissingConstruction",
+      "holdReason": "The authoritative scope lacks at least one mandatory construction field, especially explicit total camshafts and/or injection coverage.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-ecotorq-9000",
+      "officialDesignation": "9 L Ecotorq",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Trucks"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "Middle East",
+        "Africa",
+        "Turkey"
+      ],
+      "category": "heavyCommercial",
+      "construction": {
+        "displacementCc": 9000,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-otosan-ecotorq",
+        "ford-otosan-engine-production"
+      ],
+      "exactEvidenceLocations": [
+        "ford-otosan-ecotorq — Ecotorq Engine Family page; ford-otosan-engine-production — New Generation Euro 6 Ecotorq and Duratorq sections"
+      ],
+      "outcome": "holdMissingConstruction",
+      "holdReason": "The authoritative scope lacks at least one mandatory construction field, especially explicit total camshafts and/or injection coverage.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-endura-e-1300",
+      "officialDesignation": "1.3 Endura-E",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Ka"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1299,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-essex-v4-1700",
+      "officialDesignation": "1.7 Essex V4",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Transit",
+        "Ford Capri"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1699,
+        "configuration": "V",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-essex-v6-3000",
+      "officialDesignation": "3.0 Essex V6",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Capri",
+        "Ford Granada"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2994,
+        "configuration": "V",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-falcon-six-144",
+      "officialDesignation": "144 Six",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "1961 Ford Falcon"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2360,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-na-falcon-1961"
+      ],
+      "exactEvidenceLocations": [
+        "ford-na-falcon-1961 — Engine specifications"
+      ],
+      "outcome": "holdMissingPerformance",
+      "holdReason": "The authoritative identity/application evidence does not provide both power and torque with engine-speed locations for one road calibration.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-falcon-six-170",
+      "officialDesignation": "170 Special Six",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "1961 Ford Falcon"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2786,
+        "configuration": "inline",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-na-falcon-1961"
+      ],
+      "exactEvidenceLocations": [
+        "ford-na-falcon-1961 — Engine specifications"
+      ],
+      "outcome": "holdMissingPerformance",
+      "holdReason": "The authoritative identity/application evidence does not provide both power and torque with engine-speed locations for one road calibration.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-fe-390",
+      "officialDesignation": "390 FE",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Galaxie",
+        "Ford Mustang",
+        "Ford trucks"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 6391,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-flathead-v8-221",
+      "officialDesignation": "221 Flathead V8",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford passenger cars"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 3622,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-flathead-v8-239",
+      "officialDesignation": "239 Flathead V8",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford passenger cars",
+        "Ford trucks"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 3917,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-hcs-1100",
+      "officialDesignation": "1.1 HCS",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Escort"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1119,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-kent-crossflow-1300",
+      "officialDesignation": "1300 Crossflow",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Cortina"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1298,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-kent-crossflow-1600",
+      "officialDesignation": "1600 Crossflow",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Cortina"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1599,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-kent-pre-crossflow-997",
+      "officialDesignation": "997 cc pre-crossflow",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Anglia"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 997,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-lima-2300",
+      "officialDesignation": "2.3 Lima OHC",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford Pinto",
+        "Ford Ranger"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America",
+        "South America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2301,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-modular-46-4v",
+      "officialDesignation": "4.6 Modular 4V",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mustang Cobra",
+        "Lincoln Mark VIII"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 4601,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-modular-54-4v",
+      "officialDesignation": "5.4 Modular 4V",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford F-150 Lightning",
+        "Ford GT"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "suvPickup",
+      "construction": {
+        "displacementCc": 5408,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "supercharged",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-modular-68-v10",
+      "officialDesignation": "6.8 Triton V10",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Super Duty",
+        "Ford E-Series"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "lightCommercial",
+      "construction": {
+        "displacementCc": 6760,
+        "configuration": "V",
+        "cylinderCount": 10,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-na-powerstroke-2016"
+      ],
+      "exactEvidenceLocations": [
+        "ford-na-powerstroke-2016 — Capability and engine lineup sections"
+      ],
+      "outcome": "holdMissingConstruction",
+      "holdReason": "The authoritative scope lacks at least one mandatory construction field, especially explicit total camshafts and/or injection coverage.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The reviewed official public document identifies this engine by a stable family/marketing designation and application, but does not publish a manufacturer or engineering code.",
+        "Missing next fields: designationPolicyDecision, constructionEvidence, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-power-stroke-67",
+      "officialDesignation": "6.7L Power Stroke V8 Turbo Diesel",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Super Duty F-250/F-350/F-450 (Caribbean, 2021 specification)"
+      ],
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "markets": [
+        "Caribbean"
+      ],
+      "category": "suvPickup",
+      "construction": {
+        "displacement": "6.7 L",
+        "layout": "V8 · OHV · 32 valves · 1 camshaft total",
+        "valvesTotal": 32,
+        "camshaftsTotal": null,
+        "fuel": "diesel",
+        "aspiration": "turbocharged",
+        "injection": "commonRail"
+      },
+      "performance": {
+        "powerKw": {
+          "min": 354.2,
+          "max": 354.2,
+          "rpm": {
+            "min": 2600,
+            "max": 2600
+          }
+        },
+        "torqueNm": {
+          "min": 1423.6,
+          "max": 1423.6,
+          "rpm": {
+            "min": 1600,
+            "max": 1600
+          }
+        }
+      },
+      "sourceRefs": [
+        "p2b-ford-super-duty-2021-caribbean-brochure"
+      ],
+      "exactEvidenceLocations": [
+        "p2b-ford-super-duty-2021-caribbean-brochure — Brochure Engines table, 6.7L Power Stroke column"
+      ],
+      "outcome": "holdMissingConstruction",
+      "holdReason": "The 2021 Ford brochure establishes OHV and 32 valves but does not state total camshaft count; OHV alone is not accepted as proof of one camshaft, and the available 2023 Ford service document is outside the exact 2021 scope.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The exact 2021 application/calibration, identity, performance and most construction fields remain documented.",
+        "Missing next field: an authoritative 2021-compatible source that explicitly establishes total camshaft count."
+      ]
+    },
+    {
+      "candidateId": "ford-sigma-flex-1500",
+      "officialDesignation": "Sigma 1.5 Flex",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford New Fiesta (Brazil, 2014 specification)"
+      ],
+      "years": {
+        "from": 2014,
+        "to": 2014
+      },
+      "markets": [
+        "Brazil"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacement": "1.5 L · 1,499 cc",
+        "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+        "valvesTotal": 16,
+        "camshaftsTotal": 2,
+        "fuel": "alternativeFuel",
+        "aspiration": "naturallyAspirated",
+        "injection": "multiPointInjection"
+      },
+      "performance": {
+        "powerKw": {
+          "min": 82.2,
+          "max": 82.2,
+          "rpm": {
+            "min": 5500,
+            "max": 5500
+          }
+        },
+        "torqueNm": {
+          "min": 146.8,
+          "max": 146.8,
+          "rpm": {
+            "min": 4250,
+            "max": 4250
+          }
+        }
+      },
+      "sourceRefs": [
+        "p2b-ford-new-fiesta-2014-launch",
+        "p2b-ford-new-fiesta-2014-owner-manual"
+      ],
+      "exactEvidenceLocations": [
+        "p2b-ford-new-fiesta-2014-launch — Launch body, engine choices and Sigma 1.5 DOHC 16V Flex paragraph",
+        "p2b-ford-new-fiesta-2014-owner-manual — Owner manual p. 189, ESPECIFICAÇÕES DO MOTOR 1.5L FLEX"
+      ],
+      "outcome": "implemented",
+      "holdReason": null,
+      "productionRecordId": "ford-phase2b-sigma-flex-1500-new-fiesta-2014",
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Exact 2014 application/calibration only.",
+        "Stored performance is the official ethanol headline calibration; gasoline values remain separately documented in evidence notes because the current model cannot bind performance to fuel condition.",
+        "No code is claimed; identity is the authoritative public designation."
+      ]
+    },
+    {
+      "candidateId": "ford-sigma-flex-1600",
+      "officialDesignation": "1.6L Sigma Flex",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Focus (Brazil, 2015 owner-manual specification)"
+      ],
+      "years": {
+        "from": 2015,
+        "to": 2015
+      },
+      "markets": [
+        "Brazil"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacement": "1.6 L · 1,596 cc",
+        "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+        "valvesTotal": 16,
+        "camshaftsTotal": 2,
+        "fuel": "alternativeFuel",
+        "aspiration": "naturallyAspirated",
+        "injection": "multiPointInjection"
+      },
+      "performance": {
+        "powerKw": {
+          "min": 99.3,
+          "max": 99.3,
+          "rpm": {
+            "min": 6500,
+            "max": 6500
+          }
+        },
+        "torqueNm": {
+          "min": 163.7,
+          "max": 163.7,
+          "rpm": {
+            "min": 5250,
+            "max": 5250
+          }
+        }
+      },
+      "sourceRefs": [
+        "p2b-ford-focus-2015-owner-manual"
+      ],
+      "exactEvidenceLocations": [
+        "p2b-ford-focus-2015-owner-manual — Owner manual p. 287, ESPECIFICAÇÕES DO MOTOR 1.6L SIGMA FLEX"
+      ],
+      "outcome": "implemented",
+      "holdReason": null,
+      "productionRecordId": "ford-phase2b-sigma-tivct-flex-1600-focus-2015",
+      "duplicateOf": null,
+      "limitationNotes": [
+        "Exact 2015 application/calibration only.",
+        "Stored performance is the official ethanol headline calibration; gasoline values remain separately documented in evidence notes because the current model cannot bind performance to fuel condition.",
+        "No code is claimed; identity is the authoritative public designation."
+      ]
+    },
+    {
+      "candidateId": "ford-valencia-1100",
+      "officialDesignation": "1.1 Valencia",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1117,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-vulcan-30",
+      "officialDesignation": "3.0 Vulcan V6",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Taurus",
+        "Ford Ranger"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 2986,
+        "configuration": "V",
+        "cylinderCount": 6,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-windsor-289",
+      "officialDesignation": "289 Windsor",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford Falcon"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 4736,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-windsor-302",
+      "officialDesignation": "302 / 5.0 Windsor",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford F-Series",
+        "Ford Falcon"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America",
+        "Australia/New Zealand"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 4942,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The designation spans materially different variants and must be split by application, market, and period before it can identify a record.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-windsor-351w",
+      "officialDesignation": "351 Windsor",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mustang",
+        "Ford F-Series"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 5752,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-y-block-292",
+      "officialDesignation": "292 Y-block",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford passenger cars",
+        "Ford trucks"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 4786,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-y-block-312",
+      "officialDesignation": "312 Y-block",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford",
+        "Mercury"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 5113,
+        "configuration": "V",
+        "cylinderCount": 8,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-zetec-e-1600",
+      "officialDesignation": "1.6 Zetec-E",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Escort",
+        "Ford Focus"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1597,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-zetec-e-1800",
+      "officialDesignation": "1.8 Zetec-E",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Focus"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1796,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-zetec-e-2000",
+      "officialDesignation": "2.0 Zetec-E",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Mondeo",
+        "Ford Focus"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe",
+        "North America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1988,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-zetec-rocam-1600",
+      "officialDesignation": "1.6 Zetec Rocam",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford EcoSport",
+        "Ford Ka"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "South America"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1598,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "flexFuel",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-zetec-se-1250",
+      "officialDesignation": "1.25 Zetec-SE",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1242,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    },
+    {
+      "candidateId": "ford-zetec-se-1600",
+      "officialDesignation": "1.6 Zetec-SE",
+      "relationship": "fordDesigned",
+      "partner": null,
+      "applications": [
+        "Ford Fiesta",
+        "Ford Focus"
+      ],
+      "years": {
+        "start": null,
+        "end": null,
+        "approximate": true
+      },
+      "markets": [
+        "Europe"
+      ],
+      "category": "passengerVehicle",
+      "construction": {
+        "displacementCc": 1596,
+        "configuration": "inline",
+        "cylinderCount": 4,
+        "valvesTotal": null,
+        "camshaftsTotal": null,
+        "fuel": "petrol",
+        "aspiration": "naturallyAspirated",
+        "injection": null
+      },
+      "performance": null,
+      "sourceRefs": [
+        "ford-heritage-vault"
+      ],
+      "exactEvidenceLocations": [
+        "Phase 1 points only to the Ford Heritage Vault landing archive; no candidate-specific page or section binds an exact code/application."
+      ],
+      "outcome": "holdMissingApplicationScope",
+      "holdReason": "Existing research does not bind a safe exact application and complete year interval; technical fields also remain incomplete, so no production scope can be formed.",
+      "productionRecordId": null,
+      "duplicateOf": null,
+      "limitationNotes": [
+        "The registered source is an archive-level discovery lead and does not publish candidate-specific identity evidence.",
+        "Missing next fields: exactCode, codeApplicationBinding, documentedYears."
+      ]
+    }
+  ]
+}
