@@ -1567,3 +1567,39 @@ Qualified reserve retained outside the fixture: Daihatsu Atrai EF-TS (explicit v
 - Evidence: official=125, corroborated=0; 125 records have complete Tier A coverage. Referenced sources: Tier A=156, Tier B=0, Tier C=0. Evidence paths: direct=94, bound supplemental bridge=31.
 - Exact-code diversity: 65 distinct codes. Twenty-four code groups have more than one owner. Only EJ20 exceeds five owners (23); the preserved checkpoint audit separates base models/generations and published naturally aspirated, turbo, twin-turbo, SOHC/DOHC and calibration scopes while ignoring year/trim/body/transmission/drivetrain cosmetics. Final-phase repeated groups are audited above.
 - Final validation completed after the last source edit: generator produced 916 aligned source/monolithic/regional records; targeted Batch 11 semantic regression passed; full `npm test` passed; separate legacy-head comparison confirmed all 791 baseline records identical. The full test already performed generator freshness/idempotence and the ordinary semantic comparison, so those suites were not repeated separately.
+
+
+
+## Engine Verified Batch 12 — corrected final audit (2026-10-09)
+
+The original one-pass pool remains fixed at 180 non-Ford candidates; no replacement search or new candidate pool was used. The 75 previously collected records were reclassified under the corrected Tier B independence and identity rules. Twenty-eight records have the same exact engine code in both publications and are restored as `exactCode`. Forty-seven code-less candidates were reviewed only as application-scoped technical specifications; two identical-specification pairs were consolidated, leaving 45 `applicationScopedSpecification` records. Final arithmetic: 28 exact-code + 45 application-scoped + 2 consolidation duplicates + 25 previous duplicates + 70 previous holds + 10 rejected = 180. Production Batch 12 size: 73 records.
+
+### Source-independence matrix
+
+| Publisher | Owner / editorial team | Hostname | Uses | Audit result |
+| --- | --- | --- | ---: | --- |
+| encyCARpedia | encyCARpedia / encyCARpedia editorial team | encycarpedia.com | 75 | Original editorial publication; not a mirror, translation, syndicated copy or client of the same commercial database as the paired source. |
+| Automobile-Catalog / ProfessCars | ProfessCars / ProfessCars editorial team | automobile-catalog.com | 75 | Separate owner, editorial operation and domain; not a mirror, translation, syndicated copy or shared-commercial-database client. |
+
+The only pair remains encyCARpedia + Automobile-Catalog / ProfessCars. URL duplicates: 0; title duplicates: 0; mirrors/translations/syndication: 0; common owner/editorial team: 0; shared commercial database: 0. The publications are editorially independent. Both may ultimately reproduce the same manufacturer-origin technical facts, but a common OEM origin is permitted and does not by itself make separately owned and edited publications dependent.
+
+### Stratified review
+
+Both sources must agree on exact code/application for `exactCode`, or on application scope for `applicationScopedSpecification`. Required technical fields may use union coverage: each must appear in at least one accepted source and conflicts are rejected. Displacement, layout, valvetrain, total valves, total camshafts, fuel, aspiration, injection, power and torque remain mandatory. All 73 records use `completeness: core`; no RPM value is asserted. No fuel-, gearbox-, year-, market- or gross/net-dependent values were combined into free ranges.
+
+### Exact-code records restored
+
+`batch12-bmw-bmw-840i-2020`, `batch12-bmw-bmw-520i-2020`, `batch12-mercedes-benz-c-200-2014`, `batch12-bmw-bmw-520d-2020`, `batch12-bmw-bmw-m2-cs-2020`, `batch12-bmw-bmw-530i-xdrive-2020`, `batch12-mini-mini-cooper-countryman-2020`, `batch12-bmw-bmw-m4-coupe-2014`, `batch12-mercedes-benz-e-450-4matic-2020`, `batch12-mercedes-benz-gle-580-4matic-2020`, `batch12-bmw-bmw-128ti-2020`, `batch12-bmw-bmw-m5-2020`, `batch12-mercedes-benz-gla-200-2020`, `batch12-bmw-bmw-540d-xdrive-2017`, `batch12-bmw-bmw-530d-xdrive-2017`, `batch12-bmw-bmw-m550d-2017`, `batch12-bmw-bmw-m4-cs-2017`, `batch12-bmw-bmw-540i-2017`, `batch12-bmw-bmw-220i-coupe-2014`, `batch12-bmw-bmw-435d-2014`, `batch12-bmw-bmw-428i-2014`, `batch12-bmw-bmw-x6-xdrive35i-2014`, `batch12-bmw-bmw-220d-coupe-2014`, `batch12-mercedes-benz-s-560-2017`, `batch12-mercedes-benz-e-300-coupe-2017`, `batch12-mercedes-benz-mercedes-amg-gt-2017`, `batch12-honda-honda-civic-limousine-1-5-2017`, `batch12-chevrolet-chevrolet-hhr-ss-2008`
+
+All 28 are restored with the code agreed by both sources, `evidenceBasis: corroborated` and `completeness: core`.
+
+### Application-scoped specifications and duplicate audit
+
+The remaining candidates do not use model or trim text as an engine designation. Their generated identity value is explicitly a technical label, and the UI labels the type “Application-specific engine specification” rather than “Engine code” or “Engine designation”. Manual review confirms the bounded applications and that no code/designation is claimed.
+
+Two pairs had identical maker, displacement, layout, valvetrain, valve/cam counts, fuel, aspiration, injection, power and torque, so model/body/year differences did not justify separate records:
+
+- Ferrari F8 Spider (2020) and Ferrari 488 Pista (2018): consolidated into `batch12-ferrari-ferrari-f8-spider-2020` with both applications.
+- Aston Martin DB12 Volante (2023) and Aston Martin Vantage S (2025): consolidated into `batch12-aston-martin-aston-martin-db12-volante-2023` with both applications.
+
+Materially different calibrations remain separate. The final Batch 12 identity breakdown is exactCode=28, applicationScopedSpecification=45; evidence breakdown corroborated=73; completeness breakdown core=73. The first 921 records remain the compatibility baseline with SHA-256 `470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c`.

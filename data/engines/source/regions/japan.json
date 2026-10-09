@@ -51009,6 +51009,1310 @@
           }
         ]
       }
+    },
+    {
+      "id": "batch12-lexus-lexus-is-350-2020",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Lexus 3.5 L V6 naturally aspirated 231.9 kW / 380 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+            "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Lexus",
+      "regionKey": "japan",
+      "years": "2020",
+      "displacement": "3.5 L",
+      "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "dualInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus IS 350 (North America, 2020 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 Liter; Lexus IS 350 (North America, 2020 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "es": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 Liter; Lexus IS 350 (North America, 2020 specification).",
+          "issues": "Esta ficha no cubre averías ni vida útil.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "fr": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 Liter; Lexus IS 350 (North America, 2020 specification).",
+          "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "de": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 Liter; Lexus IS 350 (North America, 2020 specification).",
+          "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 231.9,
+          "max": 231.9
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch12-lexus-lexus-is-350-2020-ency",
+          "batch12-lexus-lexus-is-350-2020-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus IS 350 (North America, 2020 specification)"
+          ],
+          "years": {
+            "from": 2020,
+            "to": 2020
+          },
+          "markets": [
+            "North America"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch12-lexus-lexus-is-350-2020-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "Lexus IS 350 (XE30) specs (2020-2025): performance, dimensions & technical specifications - encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2020,
+            "url": "https://www.encycarpedia.com/us/lexus/20-is-350-sedan",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 231.9,
+                "max": 231.9
+              },
+              "performance.torqueNm": {
+                "min": 380,
+                "max": 380
+              }
+            },
+            "pageNotes": [
+              "Direct + Port gasoline, natural V6 specification with 4 valves per cylinder (24 total), DOHC, 231.9 kW and 380 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 315 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus IS 350 (North America, 2020 specification)"
+              ],
+              "years": {
+                "from": 2020,
+                "to": 2020
+              },
+              "markets": [
+                "North America"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch12-lexus-lexus-is-350-2020-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "2020 Lexus IS 350 Specs Review (231.9 kW / 315 PS / 311 hp) (until September 2020 for North America )",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2020,
+            "url": "https://www.automobile-catalog.com/car/2020/2573945/lexus_is_350.html",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 231.9,
+                "max": 231.9
+              },
+              "performance.torqueNm": {
+                "min": 380,
+                "max": 380
+              }
+            },
+            "pageNotes": [
+              "Direct + Port gasoline, natural V6 specification with 4 valves per cylinder (24 total), DOHC, 231.9 kW and 380 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 315 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus IS 350 (North America, 2020 specification)"
+              ],
+              "years": {
+                "from": 2020,
+                "to": 2020
+              },
+              "markets": [
+                "North America"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch12-honda-honda-civic-type-r-2020",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Honda 2.0 L Inline-4 turbocharged 235 kW / 400 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+            "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Honda",
+      "regionKey": "japan",
+      "years": "2020",
+      "displacement": "2.0 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Honda Civic Type R (Europe, 2020 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Honda Civic Type R (Europe, 2020 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Honda Civic Type R (Europe, 2020 specification).",
+          "issues": "Esta ficha no cubre averías ni vida útil.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Honda Civic Type R (Europe, 2020 specification).",
+          "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Honda Civic Type R (Europe, 2020 specification).",
+          "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 235,
+          "max": 235
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch12-honda-honda-civic-type-r-2020-ency",
+          "batch12-honda-honda-civic-type-r-2020-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Honda Civic Type R (Europe, 2020 specification)"
+          ],
+          "years": {
+            "from": 2020,
+            "to": 2020
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch12-honda-honda-civic-type-r-2020-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "Honda Civic Type R (FK8) specs (2020-2021): performance, dimensions & technical specifications - encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2020,
+            "url": "https://www.encycarpedia.com/us/honda/20-civic-type-r-fk8-hatch",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 235,
+                "max": 235
+              },
+              "performance.torqueNm": {
+                "min": 400,
+                "max": 400
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 235 kW and 400 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 320 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda Civic Type R (Europe, 2020 specification)"
+              ],
+              "years": {
+                "from": 2020,
+                "to": 2020
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch12-honda-honda-civic-type-r-2020-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "2020 Honda Civic Type R Specs Review (235 kW / 320 PS / 315 hp) (since Spring 2020 for Europe )",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2020,
+            "url": "https://www.automobile-catalog.com/car/2020/2961695/honda_civic_type_r.html",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 235,
+                "max": 235
+              },
+              "performance.torqueNm": {
+                "min": 400,
+                "max": 400
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 235 kW and 400 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 320 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda Civic Type R (Europe, 2020 specification)"
+              ],
+              "years": {
+                "from": 2020,
+                "to": 2020
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Honda 1.5 L Inline-4 naturally aspirated 95.5 kW / 155 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+            "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Honda",
+      "regionKey": "japan",
+      "years": "2018",
+      "displacement": "1.5 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification).",
+          "issues": "Esta ficha no cubre averías ni vida útil.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification).",
+          "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification).",
+          "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 95.5,
+          "max": 95.5
+        },
+        "torqueNm": {
+          "min": 155,
+          "max": 155
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018-ency",
+          "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification)"
+          ],
+          "years": {
+            "from": 2018,
+            "to": 2018
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "Honda HR-V 1.5 i-VTEC CVT specs (2018-2020): performance, dimensions & technical specifications - encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2018,
+            "url": "https://www.encycarpedia.com/us/honda/18-hr-v-1-5-i-vtec-cvt-suv",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 95.5,
+                "max": 95.5
+              },
+              "performance.torqueNm": {
+                "min": 155,
+                "max": 155
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, natural Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 95.5 kW and 155 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 130 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification)"
+              ],
+              "years": {
+                "from": 2018,
+                "to": 2018
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "2018 Honda HR-V 1.5 i-VTEC CVT Specs Review (95.5 kW / 130 PS / 128 hp) (since October 2018 for Europe )",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2018,
+            "url": "https://www.automobile-catalog.com/car/2018/2767385/honda_hr-v_1_5_i-vtec_cvt.html",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 95.5,
+                "max": 95.5
+              },
+              "performance.torqueNm": {
+                "min": 155,
+                "max": 155
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, natural Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 95.5 kW and 155 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 130 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification)"
+              ],
+              "years": {
+                "from": 2018,
+                "to": 2018
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch12-honda-honda-civic-limousine-1-5-2017",
+      "identity": {
+        "type": "exactCode",
+        "value": "L15B7"
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Honda",
+      "regionKey": "japan",
+      "years": "2017",
+      "displacement": "1.5 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Honda Civic Limousine 1 5 (Europe, 2017 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda Civic Limousine 1 5 (Europe, 2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda Civic Limousine 1 5 (Europe, 2017 specification).",
+          "issues": "Esta ficha no cubre averías ni vida útil.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda Civic Limousine 1 5 (Europe, 2017 specification).",
+          "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda Civic Limousine 1 5 (Europe, 2017 specification).",
+          "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 134,
+          "max": 134
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch12-honda-honda-civic-limousine-1-5-2017-ency",
+          "batch12-honda-honda-civic-limousine-1-5-2017-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Honda Civic Limousine 1 5 (Europe, 2017 specification)"
+          ],
+          "years": {
+            "from": 2017,
+            "to": 2017
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch12-honda-honda-civic-limousine-1-5-2017-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "Honda Civic Limousine 1.5 Turbo specs (2017-2022): performance, dimensions & technical specifications - encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2017,
+            "url": "https://www.encycarpedia.com/us/honda/17-civic-limousine-1-5-turbo-sedan",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "code",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 134,
+                "max": 134
+              },
+              "performance.torqueNm": {
+                "min": 240,
+                "max": 240
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 134 kW and 240 N·m. Both publications expose engine code L15B7 for this application and calibration. encyCARpedia publishes 182 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda Civic Limousine 1 5 (Europe, 2017 specification)"
+              ],
+              "years": {
+                "from": 2017,
+                "to": 2017
+              },
+              "markets": [
+                "Europe"
+              ],
+              "codes": [
+                "L15B7"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch12-honda-honda-civic-limousine-1-5-2017-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "2017 Honda Civic Limousine 1.5 VTEC Turbo Specs Review (134 kW / 182 PS / 180 hp) (since May 2017 for Europe )",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2017,
+            "url": "https://www.automobile-catalog.com/car/2017/2548445/honda_civic_limousine_1_5_vtec_turbo.html",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "code",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 134,
+                "max": 134
+              },
+              "performance.torqueNm": {
+                "min": 240,
+                "max": 240
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 134 kW and 240 N·m. Both publications expose engine code L15B7 for this application and calibration. encyCARpedia publishes 182 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda Civic Limousine 1 5 (Europe, 2017 specification)"
+              ],
+              "years": {
+                "from": 2017,
+                "to": 2017
+              },
+              "markets": [
+                "Europe"
+              ],
+              "codes": [
+                "L15B7"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      },
+      "code": "L15B7"
+    },
+    {
+      "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Honda 1.5 L Inline-4 turbocharged 127 kW / 220 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+            "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Honda",
+      "regionKey": "japan",
+      "years": "2018",
+      "displacement": "1.5 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification).",
+          "issues": "Esta ficha no cubre averías ni vida útil.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification).",
+          "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification).",
+          "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 127,
+          "max": 127
+        },
+        "torqueNm": {
+          "min": 220,
+          "max": 220
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018-ency",
+          "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification)"
+          ],
+          "years": {
+            "from": 2018,
+            "to": 2018
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "Honda CR-V 1.5 VTEC Turbo AWD specs (2018-2021): performance, dimensions & technical specifications - encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2018,
+            "url": "https://www.encycarpedia.com/us/honda/18-cr-v-1-5-vtec-turbo-awd-suv",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 127,
+                "max": 127
+              },
+              "performance.torqueNm": {
+                "min": 220,
+                "max": 220
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 127 kW and 220 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 172 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification)"
+              ],
+              "years": {
+                "from": 2018,
+                "to": 2018
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "2018 Honda CR-V 1.5 VTEC Turbo AWD Specs Review (127 kW / 173 PS / 170 hp) (since mid-year 2018 for Europe )",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2018,
+            "url": "https://www.automobile-catalog.com/car/2018/2740055/honda_cr-v_1_5_vtec_turbo_awd.html",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 127,
+                "max": 127
+              },
+              "performance.torqueNm": {
+                "min": 220,
+                "max": 220
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 127 kW and 220 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 172 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification)"
+              ],
+              "years": {
+                "from": 2018,
+                "to": 2018
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Honda 1.5 L Inline-4 turbocharged 142 kW / 243 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+            "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Honda",
+      "regionKey": "japan",
+      "years": "2018",
+      "displacement": "1.5 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification).",
+          "issues": "Esta ficha no cubre averías ni vida útil.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification).",
+          "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 Liter; Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification).",
+          "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+          "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+          "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 142,
+          "max": 142
+        },
+        "torqueNm": {
+          "min": 243,
+          "max": 243
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018-ency",
+          "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification)"
+          ],
+          "years": {
+            "from": 2018,
+            "to": 2018
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "Honda CR-V 1.5 VTEC Turbo CVT specs (2018-2021): performance, dimensions & technical specifications - encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2018,
+            "url": "https://www.encycarpedia.com/us/honda/18-cr-v-1-5-vtec-turbo-cvt-suv",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 142,
+                "max": 142
+              },
+              "performance.torqueNm": {
+                "min": 243,
+                "max": 243
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 142 kW and 243 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 193 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification)"
+              ],
+              "years": {
+                "from": 2018,
+                "to": 2018
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+            ],
+            "title": "2018 Honda CR-V 1.5 VTEC Turbo AWD CVT Specs Review (142 kW / 193 PS / 190 hp) (since mid-year 2018 for Europe )",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2018,
+            "url": "https://www.automobile-catalog.com/car/2018/2740070/honda_cr-v_1_5_vtec_turbo_awd_cvt.html",
+            "page": 1,
+            "checkedAt": "2026-10-08",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 142,
+                "max": 142
+              },
+              "performance.torqueNm": {
+                "min": 243,
+                "max": 243
+              }
+            },
+            "pageNotes": [
+              "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 142 kW and 243 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 193 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+              "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification)"
+              ],
+              "years": {
+                "from": 2018,
+                "to": 2018
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
     }
   ]
 }

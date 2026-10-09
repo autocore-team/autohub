@@ -37,16 +37,17 @@ function normalizedApplicationScope(record) {
     .join('|');
 }
 
-function calibrationSignature(record) {
-  return JSON.stringify({
+function calibrationSignature(record, includeMarkets = true) {
+  const signature = {
     displacement: record?.displacement,
     layout: record?.layout,
     fuelKey: record?.fuelKey,
     aspirationKey: record?.aspirationKey,
     injectionKey: record?.injectionKey,
-    performance: record?.performance,
-    markets: [...(record?.verification?.scope?.markets || [])].sort()
-  });
+    performance: record?.performance
+  };
+  if (includeMarkets) signature.markets = [...(record?.verification?.scope?.markets || [])].sort();
+  return JSON.stringify(signature);
 }
 
 export function engineIdentityCollisionErrors(records) {
@@ -59,9 +60,14 @@ export function engineIdentityCollisionErrors(records) {
       const overlap = [...normalizedIdentityValues(left)].find((value) => normalizedIdentityValues(right).has(value));
       const sameApplication = normalizedApplicationScope(left) === normalizedApplicationScope(right);
       const sameCalibration = calibrationSignature(left) === calibrationSignature(right);
+      const sameApplicationSpecification = calibrationSignature(left, false) === calibrationSignature(right, false);
       const sameMaker = normalizeIdentityValue(left?.maker) === normalizeIdentityValue(right?.maker);
       const sameSemanticScope = sameMaker && sameApplication && sameCalibration;
-      if (sameSemanticScope || (overlap && sameCalibration)) {
+      const applicationSpecificationCollision = sameMaker
+        && sameApplicationSpecification
+        && left?.identity?.type === 'applicationScopedSpecification'
+        && right?.identity?.type === 'applicationScopedSpecification';
+      if (applicationSpecificationCollision || sameSemanticScope || (overlap && sameCalibration)) {
         const collision = overlap ? `normalized identity ${overlap}` : 'one semantic engine scope through different identity types';
         errors.push(`${left.id || 'record'} and ${right.id || 'record'} reuse ${collision} without a documented material calibration or market-specific specification difference.`);
       }
@@ -130,10 +136,10 @@ export function validateEngineData(sourceData = readSourceData()) {
     assertCondition(record && typeof record === 'object' && !Array.isArray(record), `${label}: record must be an object.`, errors);
     if (!record || typeof record !== 'object') continue;
 
-    const usesOfficialDesignation = record.identity?.type === 'officialPublicDesignation';
+    const usesNonCodeIdentity = ['officialPublicDesignation', 'applicationScopedSpecification'].includes(record.identity?.type);
     assertCondition(
-      usesOfficialDesignation || typeof record.code === 'string',
-      `${label}: code must be a string unless identity.type is officialPublicDesignation.`,
+      usesNonCodeIdentity || typeof record.code === 'string',
+      `${label}: code must be a string unless identity.type is a supported non-code identity.`,
       errors
     );
 

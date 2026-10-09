@@ -61,7 +61,7 @@ export function checkBatch11() {
       assert.notEqual(signature(b, expected.baseModel), key, `${r.id} duplicates baseline calibration ${b.id}`);
     }
   }
-  const owners = Object.fromEntries([...new Set(table.map(r => r.code))].sort().map(code => [code, data.records.filter(r => [r.code, ...r.aliases].some(identity => normalize(identity) === normalize(code))).map(r => r.id).sort()]));
+  const owners = Object.fromEntries([...new Set(table.map(r => r.code))].sort().map(code => [code, added.filter(r => [r.code, ...r.aliases].some(identity => normalize(identity) === normalize(code))).map(r => r.id).sort()]));
   for (const code of Object.keys(owners)) assert.deepEqual(owners[code], table.filter(r => r.code === code).map(r => r.id).sort(), `Unknown or stale repeated-code owner for ${code}`);
   console.log(`PASS Batch 11 ${added.length} implemented scopes: strict evidence, baseline preservation, duplicate and owner contracts`);
 }

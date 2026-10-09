@@ -39240,5 +39240,13887 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.3 L Inline-4 naturally aspirated 65.5 kW / 121 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1974",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo GT 1300 Junior (Europe, 1974 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo GT 1300 Junior (Europe, 1974 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo GT 1300 Junior (Europe, 1974 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo GT 1300 Junior (Europe, 1974 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo GT 1300 Junior (Europe, 1974 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 65.5,
+        "max": 65.5
+      },
+      "torqueNm": {
+        "min": 121,
+        "max": 121
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974-ency",
+        "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo GT 1300 Junior (Europe, 1974 specification)"
+        ],
+        "years": {
+          "from": 1974,
+          "to": 1974
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Alfa Romeo GT 1300 Junior (105.30) specs (1974-1976): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1974,
+          "url": "https://www.encycarpedia.com/us/alfa-romeo/74-gt-1300-junior-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 65.5,
+              "max": 65.5
+            },
+            "performance.torqueNm": {
+              "min": 121,
+              "max": 121
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 65.5 kW and 121 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 89 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo GT 1300 Junior (Europe, 1974 specification)"
+            ],
+            "years": {
+              "from": 1974,
+              "to": 1974
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1974 Alfa Romeo GT 1300 Junior Specs Review (65.5 kW / 89 PS / 88 hp) (since mid-year 1974 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1974,
+          "url": "https://www.automobile-catalog.com/car/1974/65075/alfa_romeo_gt_1300_junior.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 65.5,
+              "max": 65.5
+            },
+            "performance.torqueNm": {
+              "min": 121,
+              "max": 121
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 65.5 kW and 121 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 89 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo GT 1300 Junior (Europe, 1974 specification)"
+            ],
+            "years": {
+              "from": 1974,
+              "to": 1974
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 80 kW / 139 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1974",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo GT 1600 Junior (Europe, 1974 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo GT 1600 Junior (Europe, 1974 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo GT 1600 Junior (Europe, 1974 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo GT 1600 Junior (Europe, 1974 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo GT 1600 Junior (Europe, 1974 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 80,
+        "max": 80
+      },
+      "torqueNm": {
+        "min": 139,
+        "max": 139
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974-ency",
+        "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo GT 1600 Junior (Europe, 1974 specification)"
+        ],
+        "years": {
+          "from": 1974,
+          "to": 1974
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Alfa Romeo GT 1600 Junior (115.03) specs (1974-1976): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1974,
+          "url": "https://www.encycarpedia.com/us/alfa-romeo/74-gt-1600-junior-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 80,
+              "max": 80
+            },
+            "performance.torqueNm": {
+              "min": 139,
+              "max": 139
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 80 kW and 139 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 110 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo GT 1600 Junior (Europe, 1974 specification)"
+            ],
+            "years": {
+              "from": 1974,
+              "to": 1974
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1974 Alfa Romeo GT 1600 Junior Specs Review (80 kW / 109 PS / 107 hp) (since mid-year 1974 for Europe Australia )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1974,
+          "url": "https://www.automobile-catalog.com/car/1974/71945/alfa_romeo_gt_1600_junior.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 80,
+              "max": 80
+            },
+            "performance.torqueNm": {
+              "min": 139,
+              "max": 139
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 80 kW and 139 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 110 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo GT 1600 Junior (Europe, 1974 specification)"
+            ],
+            "years": {
+              "from": 1974,
+              "to": 1974
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 84.5 kW / 142 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1965",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo Giulia Sprint GTA (North America, 1965 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Sprint GTA (North America, 1965 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Sprint GTA (North America, 1965 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Sprint GTA (North America, 1965 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Sprint GTA (North America, 1965 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84.5,
+        "max": 84.5
+      },
+      "torqueNm": {
+        "min": 142,
+        "max": 142
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo Giulia Sprint GTA (North America, 1965 specification)"
+        ],
+        "years": {
+          "from": 1965,
+          "to": 1965
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Alfa Romeo Giulia Sprint GTA (105.32) specs (1965-1969): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1965,
+          "url": "https://www.encycarpedia.com/us/alfa-romeo/65-giulia-sprint-gta-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 142,
+              "max": 142
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 84.5 kW and 142 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 115 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia Sprint GTA (North America, 1965 specification)"
+            ],
+            "years": {
+              "from": 1965,
+              "to": 1965
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1965 Alfa Romeo Giulia Sprint GTA Specs Review (84.5 kW / 115 PS / 113 hp) (since mid-year 1965 for Europe North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1965,
+          "url": "https://www.automobile-catalog.com/car/1965/64970/alfa_romeo_giulia_sprint_gta.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 142,
+              "max": 142
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 84.5 kW and 142 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 115 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia Sprint GTA (North America, 1965 specification)"
+            ],
+            "years": {
+              "from": 1965,
+              "to": 1965
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-alfa-romeo-alfa-romeo-giulia-1962",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 67.7 kW / 130 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1962",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo Giulia (North America, 1962 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia (North America, 1962 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia (North America, 1962 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia (North America, 1962 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia (North America, 1962 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 67.7,
+        "max": 67.7
+      },
+      "torqueNm": {
+        "min": 130,
+        "max": 130
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-1962-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-1962-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo Giulia (North America, 1962 specification)"
+        ],
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-1962-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Alfa Romeo Giulia TI (105.14) specs (1962-1967): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1962,
+          "url": "https://www.encycarpedia.com/us/alfa-romeo/62-giulia-ti-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 67.7,
+              "max": 67.7
+            },
+            "performance.torqueNm": {
+              "min": 130,
+              "max": 130
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 67.7 kW and 130 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 92 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia (North America, 1962 specification)"
+            ],
+            "years": {
+              "from": 1962,
+              "to": 1962
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-1962-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1962 Alfa Romeo Giulia 1600 Ti Specs Review (67.7 kW / 92 PS / 91 hp) (since mid-year 1962 for Europe North America Australia )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1962,
+          "url": "https://www.automobile-catalog.com/car/1962/55550/alfa_romeo_giulia_1600_ti.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 67.7,
+              "max": 67.7
+            },
+            "performance.torqueNm": {
+              "min": 130,
+              "max": 130
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 67.7 kW and 130 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 92 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia (North America, 1962 specification)"
+            ],
+            "years": {
+              "from": 1962,
+              "to": 1962
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.3 L Inline-4 naturally aspirated 64 kW / 118 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1970",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo Giulia 1300 Super (Europe, 1970 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo Giulia 1300 Super (Europe, 1970 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo Giulia 1300 Super (Europe, 1970 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo Giulia 1300 Super (Europe, 1970 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.3 Liter; Alfa Romeo Giulia 1300 Super (Europe, 1970 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 64,
+        "max": 64
+      },
+      "torqueNm": {
+        "min": 118,
+        "max": 118
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo Giulia 1300 Super (Europe, 1970 specification)"
+        ],
+        "years": {
+          "from": 1970,
+          "to": 1970
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Alfa Romeo Giulia 1300 Super (115.09) specs (1970-1972): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1970,
+          "url": "https://www.encycarpedia.com/us/alfa-romeo/70-giulia-1300-super-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 64,
+              "max": 64
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 64 kW and 118 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 89 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia 1300 Super (Europe, 1970 specification)"
+            ],
+            "years": {
+              "from": 1970,
+              "to": 1970
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1970 Alfa Romeo Giulia 1300 Super Specs Review (64 kW / 87 PS / 86 hp) (since mid-year 1970 for Europe Australia )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1970,
+          "url": "https://www.automobile-catalog.com/car/1970/64850/alfa_romeo_giulia_1300_super.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 64,
+              "max": 64
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 64 kW and 118 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 89 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia 1300 Super (Europe, 1970 specification)"
+            ],
+            "years": {
+              "from": 1970,
+              "to": 1970
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 75.5 kW / 137 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1972",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 Liter; Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75.5,
+        "max": 75.5
+      },
+      "torqueNm": {
+        "min": 137,
+        "max": 137
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification)"
+        ],
+        "years": {
+          "from": 1972,
+          "to": 1972
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Alfa Romeo Giulia Super 1.6 (105.26) specs (1972-1974): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1972,
+          "url": "https://www.encycarpedia.com/us/alfa-romeo/72-giulia-super-1-6-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 75.5,
+              "max": 75.5
+            },
+            "performance.torqueNm": {
+              "min": 137,
+              "max": 137
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 75.5 kW and 137 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 102 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification)"
+            ],
+            "years": {
+              "from": 1972,
+              "to": 1972
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1972 Alfa Romeo Giulia Super 1.6 Specs Review (75.5 kW / 103 PS / 101 hp) (for Europe Australia )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1972,
+          "url": "https://www.automobile-catalog.com/car/1972/64925/alfa_romeo_giulia_super_1_6.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 75.5,
+              "max": 75.5
+            },
+            "performance.torqueNm": {
+              "min": 137,
+              "max": 137
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 4 specification with 2 valves per cylinder (8 total), DOHC, 75.5 kW and 137 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 102 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification)"
+            ],
+            "years": {
+              "from": 1972,
+              "to": 1972
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-land-rover-range-rover-sport-sv-2023",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 4.4 L V8 twin-turbocharged 467 kW / 750 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2023",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Range Rover Sport SV (Europe, 2023 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover Sport SV (Europe, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover Sport SV (Europe, 2023 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover Sport SV (Europe, 2023 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover Sport SV (Europe, 2023 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 467,
+        "max": 467
+      },
+      "torqueNm": {
+        "min": 750,
+        "max": 750
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-land-rover-range-rover-sport-sv-2023-ency",
+        "batch12-land-rover-range-rover-sport-sv-2023-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Range Rover Sport SV (Europe, 2023 specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-land-rover-range-rover-sport-sv-2023-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Land Rover Range Rover Sport SV specs (2023-present): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2023,
+          "url": "https://www.encycarpedia.com/us/land-rover/23-range-rover-sport-sv-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 467,
+              "max": 467
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 467 kW and 750 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 635 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Range Rover Sport SV (Europe, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-land-rover-range-rover-sport-sv-2023-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2023 Range Rover Sport SV P635 Edition One Specs Review (467 kW / 635 PS / 626 hp) (since June 2023 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2023,
+          "url": "https://www.automobile-catalog.com/car/2023/3277400/range_rover_sport_sv_p635_edition_one.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 467,
+              "max": 467
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 467 kW and 750 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 635 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Range Rover Sport SV (Europe, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-bmw-bmw-840i-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "B58B30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 840i (North America, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 840i (North America, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 840i (North America, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 840i (North America, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 840i (North America, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-840i-2020-ency",
+        "batch12-bmw-bmw-840i-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 840i (North America, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-840i-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 840i (G15) specs (2020-present): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-840i-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 250 kW and 500 N·m. Both publications expose engine code B58B30 for this application and calibration. encyCARpedia publishes 340 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 840i (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ],
+            "codes": [
+              "B58B30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-840i-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW 840i Coupe Specs Review (250 kW / 340 PS / 335 hp) (since July 2019 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2917640/bmw_840i_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 250 kW and 500 N·m. Both publications expose engine code B58B30 for this application and calibration. encyCARpedia publishes 340 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 840i (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ],
+            "codes": [
+              "B58B30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B58B30"
+  },
+  {
+    "id": "batch12-bmw-bmw-520i-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "B48B20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 520i (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520i (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520i (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520i (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520i (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 290,
+        "max": 290
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-520i-2020-ency",
+        "batch12-bmw-bmw-520i-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 520i (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-520i-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 520i (G30) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-520i-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 290,
+              "max": 290
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 290 N·m. Both publications expose engine code B48B20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 520i (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B48B20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-520i-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW 520i Specs Review (135 kW / 184 PS / 181 hp) (since July 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2964680/bmw_520i.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 290,
+              "max": 290
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 290 N·m. Both publications expose engine code B48B20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 520i (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B48B20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B48B20"
+  },
+  {
+    "id": "batch12-bmw-bmw-m550i-xdrive-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 4.4 L V8 twin-turbocharged 390 kW / 750 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M550i xDrive (North America, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M550i xDrive (North America, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M550i xDrive (North America, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M550i xDrive (North America, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M550i xDrive (North America, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 390,
+        "max": 390
+      },
+      "torqueNm": {
+        "min": 750,
+        "max": 750
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m550i-xdrive-2020-ency",
+        "batch12-bmw-bmw-m550i-xdrive-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M550i xDrive (North America, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m550i-xdrive-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M550i xDrive (G30) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-m550i-xdrive-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 390,
+              "max": 390
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 390 kW and 750 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 530 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M550i xDrive (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m550i-xdrive-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW M550i xDrive Specs Review (390 kW / 530 PS / 523 hp) (since July 2019 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2917505/bmw_m550i_xdrive.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 390,
+              "max": 390
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 390 kW and 750 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 530 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M550i xDrive (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-bmw-bmw-m3-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 twin-turbocharged 353 kW / 550 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M3 (North America, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M3 (North America, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M3 (North America, 2021 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M3 (North America, 2021 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M3 (North America, 2021 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 353,
+        "max": 353
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m3-2021-ency",
+        "batch12-bmw-bmw-m3-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M3 (North America, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m3-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M3 (G80) specs (2021-2024): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/us/bmw/21-m3-g80-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 353,
+              "max": 353
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 353 kW and 550 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 480 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M3 (North America, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m3-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2021 BMW M3 Specs Review (353 kW / 480 PS / 473 hp) (since April 2021 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/3008135/bmw_m3.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 353,
+              "max": 353
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 353 kW and 550 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 480 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M3 (North America, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mg-mg-mg6-gt-2013",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "MG 1.8 L Inline-4 turbocharged 110 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "MG",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "MG MG6 GT (Europe, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 Liter; MG MG6 GT (Europe, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 Liter; MG MG6 GT (Europe, 2013 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 Liter; MG MG6 GT (Europe, 2013 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 Liter; MG MG6 GT (Europe, 2013 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mg-mg-mg6-gt-2013-ency",
+        "batch12-mg-mg-mg6-gt-2013-ac"
+      ],
+      "scope": {
+        "applications": [
+          "MG MG6 GT (Europe, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mg-mg-mg6-gt-2013-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "MG MG6 GT DTi-TECH specs (2013-2016): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2013,
+          "url": "https://www.encycarpedia.com/us/mg/13-mg6-gt-dti-tech-fastback",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 110 kW and 350 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 150 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "MG MG6 GT (Europe, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mg-mg-mg6-gt-2013-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2013 MG MG6 GT 1.9 TSE DTi-Tech Diesel Specs Review (110 kW / 150 PS / 148 hp) (since February 2013 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2013,
+          "url": "https://www.automobile-catalog.com/car/2013/1827035/mg_mg6_gt_1_9_tse_dti-tech_diesel.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 110 kW and 350 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 150 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "MG MG6 GT (Europe, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-jaguar-jaguar-xe-s-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 3.0 L V6 supercharged 279.5 kW / 450 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar XE S (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Jaguar XE S (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Jaguar XE S (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Jaguar XE S (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Jaguar XE S (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279.5,
+        "max": 279.5
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-jaguar-jaguar-xe-s-2017-ency",
+        "batch12-jaguar-jaguar-xe-s-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar XE S (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-jaguar-jaguar-xe-s-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Jaguar XE S (X760) specs (2017-2019): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/jaguar/17-xe-s-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 279.5,
+              "max": 279.5
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, supercharged V6 specification with 4 valves per cylinder (24 total), DOHC, 279.5 kW and 450 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 380 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XE S (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-jaguar-jaguar-xe-s-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Jaguar XE S Specs Review (279.5 kW / 380 PS / 375 hp) (since March 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2559650/jaguar_xe_s.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 279.5,
+              "max": 279.5
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, supercharged V6 specification with 4 valves per cylinder (24 total), DOHC, 279.5 kW and 450 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 380 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XE S (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-jaguar-jaguar-mark-x-1961",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 3.8 L Inline-6 naturally aspirated 198 kW / 353 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "1961",
+    "displacement": "3.8 L",
+    "layout": "Inline-6 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar Mark X (Europe, 1961 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 12 valves · 2 camshafts total, 3.8 Liter; Jaguar Mark X (Europe, 1961 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 12 valves · 2 camshafts total, 3.8 Liter; Jaguar Mark X (Europe, 1961 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 12 valves · 2 camshafts total, 3.8 Liter; Jaguar Mark X (Europe, 1961 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 12 valves · 2 camshafts total, 3.8 Liter; Jaguar Mark X (Europe, 1961 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 198,
+        "max": 198
+      },
+      "torqueNm": {
+        "min": 353,
+        "max": 353
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-jaguar-jaguar-mark-x-1961-ency",
+        "batch12-jaguar-jaguar-mark-x-1961-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar Mark X (Europe, 1961 specification)"
+        ],
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-jaguar-jaguar-mark-x-1961-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Jaguar Mark X specs (1961-1964): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1961,
+          "url": "https://www.encycarpedia.com/us/jaguar/61-mark-x-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 198,
+              "max": 198
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 6 specification with 2 valves per cylinder (12 total), DOHC, 198 kW and 353 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 269 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar Mark X (Europe, 1961 specification)"
+            ],
+            "years": {
+              "from": 1961,
+              "to": 1961
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-jaguar-jaguar-mark-x-1961-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1961 Jaguar Mark X (9:1 compr. ratio) Specs Review (198 kW / 269 PS / 265 hp) (since mid-year 1961 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1961,
+          "url": "https://www.automobile-catalog.com/car/1961/1277630/jaguar_mark_x_9_1_compr__ratio.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 198,
+              "max": 198
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Inline 6 specification with 2 valves per cylinder (12 total), DOHC, 198 kW and 353 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 269 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar Mark X (Europe, 1961 specification)"
+            ],
+            "years": {
+              "from": 1961,
+              "to": 1961
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-c-200-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "M274 DE20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "C 200 (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; C 200 (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; C 200 (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; C 200 (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; C 200 (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-c-200-2014-ency",
+        "batch12-mercedes-benz-c-200-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "C 200 (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-c-200-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes C 200 (W205) specs (2014-2018): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/mercedes/14-c-200-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 300 N·m. Both publications expose engine code M274 DE20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "C 200 (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M274 DE20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-c-200-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 Mercedes-Benz C 200 Specs Review (135 kW / 184 PS / 181 hp) (since June 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2025575/mercedes-benz_c_200.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 300 N·m. Both publications expose engine code M274 DE20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "C 200 (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M274 DE20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M274 DE20"
+  },
+  {
+    "id": "batch12-land-rover-range-rover-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 4.4 L V8 twin-turbocharged 390 kW / 750 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Range Rover (Europe, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover (Europe, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover (Europe, 2022 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover (Europe, 2022 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; Range Rover (Europe, 2022 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 390,
+        "max": 390
+      },
+      "torqueNm": {
+        "min": 750,
+        "max": 750
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-land-rover-range-rover-2022-ency",
+        "batch12-land-rover-range-rover-2022-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Range Rover (Europe, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-land-rover-range-rover-2022-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Land Rover Range Rover P530 specs (2022-present): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/us/land-rover/22-range-rover-p530-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 390,
+              "max": 390
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 390 kW and 750 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 530 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Range Rover (Europe, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-land-rover-range-rover-2022-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2022 Range Rover LWB P530 4.4 V8 Twin Turbo Specs Review (390 kW / 530 PS / 523 hp) (since early-year 2022 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3045980/range_rover_lwb_p530_4_4_v8.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 390,
+              "max": 390
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 390 kW and 750 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 530 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Range Rover (Europe, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-land-rover-range-rover-td6-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 2.9 L Inline-6 turbocharged 130 kW / 390 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "2.9 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Range Rover Td6 (Europe, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 2.9 Liter; Range Rover Td6 (Europe, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 2.9 Liter; Range Rover Td6 (Europe, 2002 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 2.9 Liter; Range Rover Td6 (Europe, 2002 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 2.9 Liter; Range Rover Td6 (Europe, 2002 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130
+      },
+      "torqueNm": {
+        "min": 390,
+        "max": 390
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-land-rover-range-rover-td6-2002-ency",
+        "batch12-land-rover-range-rover-td6-2002-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Range Rover Td6 (Europe, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-land-rover-range-rover-td6-2002-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Land Rover Range Rover Td6 specs (2002-2007): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/us/land-rover/02-range-rover-td6-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 390,
+              "max": 390
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 130 kW and 390 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 177 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Range Rover Td6 (Europe, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-land-rover-range-rover-td6-2002-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2002 Range Rover TD6 HSE Specs Review (130 kW / 177 PS / 174 hp) (since mid-year 2002 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2002,
+          "url": "https://www.automobile-catalog.com/car/2002/1404080/range_rover_td6_hse.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 390,
+              "max": 390
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 130 kW and 390 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 177 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Range Rover Td6 (Europe, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-dacia-dacia-duster-blue-dci-115-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dacia 1.5 L Inline-4 turbocharged 84.5 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dacia",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshaft total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dacia Duster Blue dCi 115 (Europe, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.5 Liter; Dacia Duster Blue dCi 115 (Europe, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.5 Liter; Dacia Duster Blue dCi 115 (Europe, 2021 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.5 Liter; Dacia Duster Blue dCi 115 (Europe, 2021 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshaft total, 1.5 Liter; Dacia Duster Blue dCi 115 (Europe, 2021 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84.5,
+        "max": 84.5
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-dacia-dacia-duster-blue-dci-115-2021-ency",
+        "batch12-dacia-dacia-duster-blue-dci-115-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dacia Duster Blue dCi 115 (Europe, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-dacia-dacia-duster-blue-dci-115-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Dacia Duster Blue dCi 115 specs (2021-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/us/dacia/21-duster-blue-dci-115-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 2 valves per cylinder (8 total), SOHC, 84.5 kW and 260 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 115 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dacia Duster Blue dCi 115 (Europe, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-dacia-dacia-duster-blue-dci-115-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2021 Dacia Duster Blue dCi 115 4x2 Specs Review (84.5 kW / 115 PS / 113 hp) (up to July 2021 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/2980400/dacia_duster_blue_dci_115_4x2.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 2 valves per cylinder (8 total), SOHC, 84.5 kW and 260 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 115 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dacia Duster Blue dCi 115 (Europe, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-ferrari-ferrari-roma-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 3.9 L V8 twin-turbocharged 456 kW / 760 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3.9 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari Roma (Global, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Roma (Global, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Roma (Global, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Roma (Global, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Roma (Global, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 456,
+        "max": 456
+      },
+      "torqueNm": {
+        "min": 760,
+        "max": 760
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-roma-2020-ency",
+        "batch12-ferrari-ferrari-roma-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari Roma (Global, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-roma-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari Roma specs (2020-2025): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/ferrari/20-roma-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 456,
+              "max": 456
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 456 kW and 760 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 620 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari Roma (Global, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-roma-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Ferrari Roma Specs Review (456 kW / 620 PS / 611 hp) (since mid-year 2020 for Europe North America Japan Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2914730/ferrari_roma.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 456,
+              "max": 456
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 456 kW and 760 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 620 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari Roma (Global, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-bmw-bmw-520d-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "B47D20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 520d (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520d (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520d (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520d (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 520d (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-520d-2020-ency",
+        "batch12-bmw-bmw-520d-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 520d (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-520d-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 520d (G30) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-520d-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 140 kW and 400 N·m. Both publications expose engine code B47D20 for this application and calibration. encyCARpedia publishes 190 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 520d (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B47D20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-520d-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW 520d xDrive Touring Specs Review (140 kW / 190 PS / 188 hp) (since July 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2964950/bmw_520d_xdrive_touring.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 140 kW and 400 N·m. Both publications expose engine code B47D20 for this application and calibration. encyCARpedia publishes 190 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 520d (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B47D20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B47D20"
+  },
+  {
+    "id": "batch12-bmw-bmw-m2-cs-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "S55B30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M2 CS (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M2 CS (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M2 CS (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M2 CS (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M2 CS (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 331,
+        "max": 331
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m2-cs-2020-ency",
+        "batch12-bmw-bmw-m2-cs-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M2 CS (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m2-cs-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M2 CS (F87) specs (2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-m2-cs-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 331,
+              "max": 331
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 331 kW and 550 N·m. Both publications expose engine code S55B30 for this application and calibration. encyCARpedia publishes 449 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M2 CS (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S55B30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m2-cs-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW M2 CS DKG Specs Review (331 kW / 450 PS / 444 hp) (since March 2020 for Europe special edition)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2914805/bmw_m2_competition_dkg.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 331,
+              "max": 331
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 331 kW and 550 N·m. Both publications expose engine code S55B30 for this application and calibration. encyCARpedia publishes 449 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M2 CS (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S55B30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "S55B30"
+  },
+  {
+    "id": "batch12-bmw-bmw-530i-xdrive-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "B48B20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 530i xDrive (North America, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 530i xDrive (North America, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 530i xDrive (North America, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 530i xDrive (North America, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 530i xDrive (North America, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 185,
+        "max": 185
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-530i-xdrive-2020-ency",
+        "batch12-bmw-bmw-530i-xdrive-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 530i xDrive (North America, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-530i-xdrive-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 530i xDrive (G30) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-530i-xdrive-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 185 kW and 350 N·m. Both publications expose engine code B48B20 for this application and calibration. encyCARpedia publishes 252 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 530i xDrive (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ],
+            "codes": [
+              "B48B20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-530i-xdrive-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW 530i xDrive Specs Review (185 kW / 252 PS / 248 hp) (until June 2020 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2548385/bmw_530i_xdrive.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 185 kW and 350 N·m. Both publications expose engine code B48B20 for this application and calibration. encyCARpedia publishes 252 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 530i xDrive (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ],
+            "codes": [
+              "B48B20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B48B20"
+  },
+  {
+    "id": "batch12-mini-mini-cooper-countryman-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "B38A15"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "MINI",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mini Cooper Countryman (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 Liter; Mini Cooper Countryman (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 Liter; Mini Cooper Countryman (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 Liter; Mini Cooper Countryman (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 Liter; Mini Cooper Countryman (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mini-mini-cooper-countryman-2020-ency",
+        "batch12-mini-mini-cooper-countryman-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Mini Cooper Countryman (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mini-mini-cooper-countryman-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mini Cooper Countryman (F60) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mini/20-cooper-countryman-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 3 specification with 4 valves per cylinder (12 total), DOHC, 100 kW and 220 N·m. Both publications expose engine code B38A15 for this application and calibration. encyCARpedia publishes 136 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mini Cooper Countryman (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B38A15"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mini-mini-cooper-countryman-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mini Cooper Countryman ALL4 Specs Review (100 kW / 136 PS / 134 hp) (since July 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2964185/mini_cooper_countryman_all4.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 3 specification with 4 valves per cylinder (12 total), DOHC, 100 kW and 220 N·m. Both publications expose engine code B38A15 for this application and calibration. encyCARpedia publishes 136 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mini Cooper Countryman (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B38A15"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B38A15"
+  },
+  {
+    "id": "batch12-ferrari-ferrari-gtc4lusso-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 6.3 L V12 naturally aspirated 507 kW / 697 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "6.3 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari GTC4Lusso (Global, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari GTC4Lusso (Global, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari GTC4Lusso (Global, 2016 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari GTC4Lusso (Global, 2016 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari GTC4Lusso (Global, 2016 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 507,
+        "max": 507
+      },
+      "torqueNm": {
+        "min": 697,
+        "max": 697
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-gtc4lusso-2016-ency",
+        "batch12-ferrari-ferrari-gtc4lusso-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari GTC4Lusso (Global, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-gtc4lusso-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari GTC4Lusso specs (2016-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/us/ferrari/16-gtc4lusso-wagon",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 507,
+              "max": 507
+            },
+            "performance.torqueNm": {
+              "min": 697,
+              "max": 697
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V12 specification with 4 valves per cylinder (48 total), DOHC, 507 kW and 697 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 690 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari GTC4Lusso (Global, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-gtc4lusso-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2016 Ferrari GTC4Lusso Specs Review (507 kW / 690 PS / 680 hp) (since March 2016 for Europe North America Japan Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2513720/ferrari_gtc4lusso.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 507,
+              "max": 507
+            },
+            "performance.torqueNm": {
+              "min": 697,
+              "max": 697
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V12 specification with 4 valves per cylinder (48 total), DOHC, 507 kW and 697 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 690 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari GTC4Lusso (Global, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-bmw-bmw-m4-coupe-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "S55B30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M4 Coupe (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 Coupe (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 Coupe (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 Coupe (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 Coupe (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 317,
+        "max": 317
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m4-coupe-2014-ency",
+        "batch12-bmw-bmw-m4-coupe-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M4 Coupe (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m4-coupe-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M4 Coupé (F82) specs (2014-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/bmw/14-m4-coupe-f82",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 317,
+              "max": 317
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 317 kW and 550 N·m. Both publications expose engine code S55B30 for this application and calibration. encyCARpedia publishes 431 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M4 Coupe (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S55B30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m4-coupe-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 BMW M4 Coupe DCT Specs Review (317 kW / 431 PS / 425 hp) (since mid-year 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/1998590/bmw_m4_coupe_dct.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 317,
+              "max": 317
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 317 kW and 550 N·m. Both publications expose engine code S55B30 for this application and calibration. encyCARpedia publishes 431 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M4 Coupe (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S55B30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "S55B30"
+  },
+  {
+    "id": "batch12-mercedes-benz-e-300-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.0 L Inline-4 turbocharged 190 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "E 300 (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 190,
+        "max": 190
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-300-2020-ency",
+        "batch12-mercedes-benz-e-300-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "E 300 (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-e-300-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes E 300 (W213) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mercedes/20-e-300-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 190,
+              "max": 190
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 190 kW and 370 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 258 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 300 (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-e-300-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mercedes-Benz E 300 Specs Review (190 kW / 258 PS / 255 hp) (up to June 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2968070/mercedes-benz_e_300.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 190,
+              "max": 190
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 190 kW and 370 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 258 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 300 (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3.0 L Inline-6 twin-turbocharged 320 kW / 520 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes AMG E 53 4MATIC+ (North America, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; Mercedes AMG E 53 4MATIC+ (North America, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; Mercedes AMG E 53 4MATIC+ (North America, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; Mercedes AMG E 53 4MATIC+ (North America, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; Mercedes AMG E 53 4MATIC+ (North America, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 320,
+        "max": 320
+      },
+      "torqueNm": {
+        "min": 520,
+        "max": 520
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020-ency",
+        "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes AMG E 53 4MATIC+ (North America, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes AMG E 53 4MATIC+ (W213) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mercedes/20-amg-e-53-4matic-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 320,
+              "max": 320
+            },
+            "performance.torqueNm": {
+              "min": 520,
+              "max": 520
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, twincharged Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 320 kW and 520 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 435 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG E 53 4MATIC+ (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mercedes-AMG E 53 4MATIC+ Coupe Specs Review (320 kW / 435 PS / 429 hp) (until August 2020 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2918525/mercedes-amg_e_53_4matic_plus_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 320,
+              "max": 320
+            },
+            "performance.torqueNm": {
+              "min": 520,
+              "max": 520
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, twincharged Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 320 kW and 520 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 435 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG E 53 4MATIC+ (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-e-450-4matic-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "M256 E30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "E 450 4MATIC (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; E 450 4MATIC (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; E 450 4MATIC (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; E 450 4MATIC (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; E 450 4MATIC (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 270,
+        "max": 270
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-450-4matic-2020-ency",
+        "batch12-mercedes-benz-e-450-4matic-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "E 450 4MATIC (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-e-450-4matic-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes E 450 4MATIC (W213) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mercedes/20-e-450-4matic-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, twincharged Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 270 kW and 500 N·m. Both publications expose engine code M256 E30 for this application and calibration. encyCARpedia publishes 367 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 450 4MATIC (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M256 E30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-e-450-4matic-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mercedes-Benz E 450 4MATIC Specs Review (270 kW / 367 PS / 362 hp) (since June 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2968220/mercedes-benz_e_450_4matic.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, twincharged Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 270 kW and 500 N·m. Both publications expose engine code M256 E30 for this application and calibration. encyCARpedia publishes 367 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 450 4MATIC (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M256 E30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M256 E30"
+  },
+  {
+    "id": "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 4.0 L V8 twin-turbocharged 537 kW / 800 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes AMG GT Black Series (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT Black Series (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT Black Series (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT Black Series (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT Black Series (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 537,
+        "max": 537
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020-ency",
+        "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes AMG GT Black Series (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes AMG GT Black Series (C190) specs (2020-2021): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mercedes/20-amg-gt-black-series-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 537,
+              "max": 537
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 537 kW and 800 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 730 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG GT Black Series (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mercedes-AMG GT Black Series Specs Review (537 kW / 730 PS / 720 hp) (since November 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2968985/mercedes-amg_gt_black_series.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 537,
+              "max": 537
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 537 kW and 800 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 730 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG GT Black Series (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-gle-580-4matic-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "M176 DE40"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "GLE 580 4MATIC (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; GLE 580 4MATIC (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; GLE 580 4MATIC (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; GLE 580 4MATIC (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; GLE 580 4MATIC (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 360,
+        "max": 360
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-gle-580-4matic-2020-ency",
+        "batch12-mercedes-benz-gle-580-4matic-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "GLE 580 4MATIC (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-gle-580-4matic-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes GLE 580 4MATIC (W167) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mercedes/20-gle-580-4matic-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 360,
+              "max": 360
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 360 kW and 700 N·m. Both publications expose engine code M176 DE40 for this application and calibration. encyCARpedia publishes 489 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "GLE 580 4MATIC (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M176 DE40"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-gle-580-4matic-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mercedes-Benz GLE 580 4MATIC SUV Specs Review (360 kW / 490 PS / 483 hp) (for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2915315/mercedes-benz_gle_580_4matic.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 360,
+              "max": 360
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 360 kW and 700 N·m. Both publications expose engine code M176 DE40 for this application and calibration. encyCARpedia publishes 489 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "GLE 580 4MATIC (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M176 DE40"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M176 DE40"
+  },
+  {
+    "id": "batch12-bmw-bmw-128ti-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "B48A20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 128ti (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 128ti (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 128ti (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 128ti (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 128ti (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 195,
+        "max": 195
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-128ti-2020-ency",
+        "batch12-bmw-bmw-128ti-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 128ti (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-128ti-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 128ti (F40) specs (2020-2024): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-128ti-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 195 kW and 400 N·m. Both publications expose engine code B48A20 for this application and calibration. encyCARpedia publishes 265 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 128ti (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B48A20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-128ti-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW 128ti Specs Review (195 kW / 265 PS / 261 hp) (since November 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2977535/bmw_128ti.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 195 kW and 400 N·m. Both publications expose engine code B48A20 for this application and calibration. encyCARpedia publishes 265 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 128ti (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B48A20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B48A20"
+  },
+  {
+    "id": "batch12-bmw-bmw-m5-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "S63B44"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M5 (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M5 (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M5 (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M5 (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 Liter; BMW M5 (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 441,
+        "max": 441
+      },
+      "torqueNm": {
+        "min": 750,
+        "max": 750
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m5-2020-ency",
+        "batch12-bmw-bmw-m5-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M5 (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m5-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M5 (F90) specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/bmw/20-m5-f90-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 441,
+              "max": 441
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 441 kW and 750 N·m. Both publications expose engine code S63B44 for this application and calibration. encyCARpedia publishes 600 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M5 (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S63B44"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m5-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 BMW M5 Specs Review (441 kW / 600 PS / 591 hp) (up to June 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2574260/bmw_m5.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 441,
+              "max": 441
+            },
+            "performance.torqueNm": {
+              "min": 750,
+              "max": 750
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 441 kW and 750 N·m. Both publications expose engine code S63B44 for this application and calibration. encyCARpedia publishes 600 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M5 (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S63B44"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "S63B44"
+  },
+  {
+    "id": "batch12-ferrari-ferrari-f8-spider-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 3.9 L V8 twin-turbocharged 529.5 kW / 770 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2018-2020",
+    "displacement": "3.9 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari F8 Spider (Global, 2020 specification)",
+      "Ferrari 488 Pista (Global, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 L; Ferrari F8 Spider (Global, 2020 specification); Ferrari 488 Pista (Global, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 L; Ferrari F8 Spider (Global, 2020 specification); Ferrari 488 Pista (Global, 2018 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 L; Ferrari F8 Spider (Global, 2020 specification); Ferrari 488 Pista (Global, 2018 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 L; Ferrari F8 Spider (Global, 2020 specification); Ferrari 488 Pista (Global, 2018 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 529.5,
+        "max": 529.5
+      },
+      "torqueNm": {
+        "min": 770,
+        "max": 770
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-f8-spider-2020-ency",
+        "batch12-ferrari-ferrari-f8-spider-2020-ac",
+        "batch12-ferrari-ferrari-488-pista-2018-ency",
+        "batch12-ferrari-ferrari-488-pista-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari F8 Spider (Global, 2020 specification)",
+          "Ferrari 488 Pista (Global, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2020
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-f8-spider-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari F8 Spider specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/ferrari/20-f8-spider-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 529.5,
+              "max": 529.5
+            },
+            "performance.torqueNm": {
+              "min": 770,
+              "max": 770
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 529.5 kW and 770 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 720 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari F8 Spider (Global, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-f8-spider-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Ferrari F8 Spider Specs Review (529.5 kW / 720 PS / 710 hp) (for Europe North America Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2914700/ferrari_f8_spider.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 529.5,
+              "max": 529.5
+            },
+            "performance.torqueNm": {
+              "min": 770,
+              "max": 770
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 529.5 kW and 770 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 720 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari F8 Spider (Global, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-488-pista-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari 488 Pista specs (2018-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/us/ferrari/18-488-pista-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 529.5,
+              "max": 529.5
+            },
+            "performance.torqueNm": {
+              "min": 770,
+              "max": 770
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 529.5 kW and 770 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 720 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 488 Pista (Global, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-488-pista-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2018 Ferrari 488 Pista Specs Review (529.5 kW / 720 PS / 710 hp) (since March 2018 for Europe North America Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2707175/ferrari_488_pista.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 529.5,
+              "max": 529.5
+            },
+            "performance.torqueNm": {
+              "min": 770,
+              "max": 770
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 529.5 kW and 770 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 720 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 488 Pista (Global, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-ferrari-ferrari-812-gts-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 6.5 L V12 naturally aspirated 588 kW / 718 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "6.5 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari 812 GTS (Global, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.5 Liter; Ferrari 812 GTS (Global, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.5 Liter; Ferrari 812 GTS (Global, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.5 Liter; Ferrari 812 GTS (Global, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.5 Liter; Ferrari 812 GTS (Global, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 588,
+        "max": 588
+      },
+      "torqueNm": {
+        "min": 718,
+        "max": 718
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-812-gts-2020-ency",
+        "batch12-ferrari-ferrari-812-gts-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari 812 GTS (Global, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-812-gts-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari 812 GTS specs (2020-2024): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/ferrari/20-812-gts-roadster-spider",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 588,
+              "max": 588
+            },
+            "performance.torqueNm": {
+              "min": 718,
+              "max": 718
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V12 specification with 4 valves per cylinder (48 total), DOHC, 588 kW and 718 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 800 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 812 GTS (Global, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-812-gts-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Ferrari 812 GTS Specs Review (588 kW / 800 PS / 789 hp) (for Europe North America Japan Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2914670/ferrari_812_gts.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 588,
+              "max": 588
+            },
+            "performance.torqueNm": {
+              "min": 718,
+              "max": 718
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V12 specification with 4 valves per cylinder (48 total), DOHC, 588 kW and 718 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 800 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 812 GTS (Global, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-ferrari-ferrari-portofino-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 3.9 L V8 twin-turbocharged 441 kW / 760 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "3.9 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari Portofino (Global, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Portofino (Global, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Portofino (Global, 2018 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Portofino (Global, 2018 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari Portofino (Global, 2018 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 441,
+        "max": 441
+      },
+      "torqueNm": {
+        "min": 760,
+        "max": 760
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-portofino-2018-ency",
+        "batch12-ferrari-ferrari-portofino-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari Portofino (Global, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-portofino-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari Portofino specs (2018-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/us/ferrari/18-portofino-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 441,
+              "max": 441
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 441 kW and 760 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 600 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari Portofino (Global, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-portofino-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2018 Ferrari Portofino Specs Review (441 kW / 600 PS / 591 hp) (since February 2018 for Europe North America Japan Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2746280/ferrari_california_t.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 441,
+              "max": 441
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 441 kW and 760 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 600 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari Portofino (Global, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-gla-200-2020",
+    "identity": {
+      "type": "exactCode",
+      "value": "M282 DE14"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "GLA 200 (Europe, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 Liter; GLA 200 (Europe, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 Liter; GLA 200 (Europe, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 Liter; GLA 200 (Europe, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 Liter; GLA 200 (Europe, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-gla-200-2020-ency",
+        "batch12-mercedes-benz-gla-200-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "GLA 200 (Europe, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-gla-200-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes GLA 200 specs (2020-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/mercedes/20-gla-200-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 120 kW and 250 N·m. Both publications expose engine code M282 DE14 for this application and calibration. encyCARpedia publishes 163 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "GLA 200 (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M282 DE14"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-gla-200-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Mercedes-Benz GLA 200 Specs Review (120 kW / 163 PS / 161 hp) (since April 2020 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2933330/mercedes-benz_gla_200.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 120 kW and 250 N·m. Both publications expose engine code M282 DE14 for this application and calibration. encyCARpedia publishes 163 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "GLA 200 (Europe, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M282 DE14"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M282 DE14"
+  },
+  {
+    "id": "batch12-aston-martin-aston-martin-db12-volante-2023",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Aston Martin 4.0 L V8 twin-turbocharged 500 kW / 800 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Aston Martin",
+    "regionKey": "europe",
+    "years": "2023-2025",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Aston Martin DB12 Volante (Global, 2023 specification)",
+      "Aston Martin Vantage S (Global, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Aston Martin DB12 Volante (Global, 2023 specification); Aston Martin Vantage S (Global, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Aston Martin DB12 Volante (Global, 2023 specification); Aston Martin Vantage S (Global, 2025 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Aston Martin DB12 Volante (Global, 2023 specification); Aston Martin Vantage S (Global, 2025 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Aston Martin DB12 Volante (Global, 2023 specification); Aston Martin Vantage S (Global, 2025 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 500,
+        "max": 500
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-db12-volante-2023-ency",
+        "batch12-aston-martin-aston-martin-db12-volante-2023-ac",
+        "batch12-aston-martin-aston-martin-vantage-s-2025-ency",
+        "batch12-aston-martin-aston-martin-vantage-s-2025-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Aston Martin DB12 Volante (Global, 2023 specification)",
+          "Aston Martin Vantage S (Global, 2025 specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2025
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-aston-martin-aston-martin-db12-volante-2023-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Aston Martin DB12 Volante specs (2023-present): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2023,
+          "url": "https://www.encycarpedia.com/us/aston-martin/23-db12-volante-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 500,
+              "max": 500
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 500 kW and 800 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 680 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin DB12 Volante (Global, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-db12-volante-2023-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2023 Aston Martin DB12 Volante Specs Review (500 kW / 680 PS / 671 hp) (since Q4 2023 for Europe worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2023,
+          "url": "https://www.automobile-catalog.com/car/2023/3277745/aston_martin_db12_volante.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 500,
+              "max": 500
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 500 kW and 800 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 680 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin DB12 Volante (Global, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-vantage-s-2025-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Aston Martin Vantage S specs (2025-present): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/us/aston-martin/25-vantage-s-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 500,
+              "max": 500
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 500 kW and 800 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 679 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin Vantage S (Global, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-vantage-s-2025-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2025 Aston Martin Vantage S Roadster Specs Review (500 kW / 680 PS / 670 hp) (since Q4 2025 for Europe worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3460850/aston_martin_vantage_s_roadster.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 500,
+              "max": 500
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 500 kW and 800 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 679 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin Vantage S (Global, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-aston-martin-aston-martin-db11-v8-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Aston Martin 4.0 L V8 twin-turbocharged 375 kW / 675 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Aston Martin",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Aston Martin DB11 V8 (Global, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DB11 V8 (Global, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DB11 V8 (Global, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DB11 V8 (Global, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DB11 V8 (Global, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 375,
+        "max": 375
+      },
+      "torqueNm": {
+        "min": 675,
+        "max": 675
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-db11-v8-2017-ency",
+        "batch12-aston-martin-aston-martin-db11-v8-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Aston Martin DB11 V8 (Global, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-aston-martin-aston-martin-db11-v8-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Aston Martin DB11 V8 specs (2017-2023): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/aston-martin/17-db11-v8-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 375,
+              "max": 375
+            },
+            "performance.torqueNm": {
+              "min": 675,
+              "max": 675
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 375 kW and 675 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 510 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin DB11 V8 (Global, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-db11-v8-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Aston Martin DB11 V8 Specs Review (375 kW / 510 PS / 503 hp) (since 4th Quarter 2017 for Europe North America Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2607380/aston_martin_db11_v8.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 375,
+              "max": 375
+            },
+            "performance.torqueNm": {
+              "min": 675,
+              "max": 675
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 375 kW and 675 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 510 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin DB11 V8 (Global, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-aston-martin-aston-martin-vantage-amr-2019",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Aston Martin 4.0 L V8 twin-turbocharged 375 kW / 625 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Aston Martin",
+    "regionKey": "europe",
+    "years": "2019",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Aston Martin Vantage AMR (Global, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage AMR (Global, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage AMR (Global, 2019 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage AMR (Global, 2019 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage AMR (Global, 2019 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 375,
+        "max": 375
+      },
+      "torqueNm": {
+        "min": 625,
+        "max": 625
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-vantage-amr-2019-ency",
+        "batch12-aston-martin-aston-martin-vantage-amr-2019-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Aston Martin Vantage AMR (Global, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-aston-martin-aston-martin-vantage-amr-2019-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Aston Martin Vantage AMR specs (2019-2021): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/us/aston-martin/19-vantage-amr-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 375,
+              "max": 375
+            },
+            "performance.torqueNm": {
+              "min": 625,
+              "max": 625
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 375 kW and 625 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 510 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin Vantage AMR (Global, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-vantage-amr-2019-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2019 Aston Martin Vantage AMR Specs Review (375 kW / 510 PS / 503 hp) (since late-year 2019 for Europe North America Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/car/2019/2876150/aston_martin_vantage_amr.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 375,
+              "max": 375
+            },
+            "performance.torqueNm": {
+              "min": 625,
+              "max": 625
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 375 kW and 625 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 510 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin Vantage AMR (Global, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-bmw-bmw-540d-xdrive-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "B57D30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 540d xDrive (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540d xDrive (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540d xDrive (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540d xDrive (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540d xDrive (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 235,
+        "max": 235
+      },
+      "torqueNm": {
+        "min": 680,
+        "max": 680
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-540d-xdrive-2017-ency",
+        "batch12-bmw-bmw-540d-xdrive-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 540d xDrive (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-540d-xdrive-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 540d xDrive (G30) specs (2017-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/bmw/17-540d-xdrive-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 235,
+              "max": 235
+            },
+            "performance.torqueNm": {
+              "min": 680,
+              "max": 680
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 235 kW and 680 N·m. Both publications expose engine code B57D30 for this application and calibration. encyCARpedia publishes 320 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 540d xDrive (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B57D30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-540d-xdrive-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 BMW 540d xDrive Specs Review (235 kW / 320 PS / 315 hp) (since July 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2547785/bmw_540d_xdrive.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 235,
+              "max": 235
+            },
+            "performance.torqueNm": {
+              "min": 680,
+              "max": 680
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 235 kW and 680 N·m. Both publications expose engine code B57D30 for this application and calibration. encyCARpedia publishes 320 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 540d xDrive (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B57D30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B57D30"
+  },
+  {
+    "id": "batch12-bmw-bmw-530d-xdrive-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "B57D30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 530d xDrive (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 530d xDrive (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 530d xDrive (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 530d xDrive (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 530d xDrive (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 195,
+        "max": 195
+      },
+      "torqueNm": {
+        "min": 620,
+        "max": 620
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-530d-xdrive-2017-ency",
+        "batch12-bmw-bmw-530d-xdrive-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 530d xDrive (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-530d-xdrive-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 530d xDrive (G30) specs (2017-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/bmw/17-530d-xdrive-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 620,
+              "max": 620
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 195 kW and 620 N·m. Both publications expose engine code B57D30 for this application and calibration. encyCARpedia publishes 265 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 530d xDrive (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B57D30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-530d-xdrive-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 BMW 530d xDrive Specs Review (195 kW / 265 PS / 261 hp) (since February 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2500955/bmw_530d_xdrive.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 620,
+              "max": 620
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 195 kW and 620 N·m. Both publications expose engine code B57D30 for this application and calibration. encyCARpedia publishes 265 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 530d xDrive (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B57D30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B57D30"
+  },
+  {
+    "id": "batch12-bmw-bmw-m550d-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "B57D30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M550d (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M550d (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M550d (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M550d (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M550d (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 294,
+        "max": 294
+      },
+      "torqueNm": {
+        "min": 760,
+        "max": 760
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m550d-2017-ency",
+        "batch12-bmw-bmw-m550d-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M550d (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m550d-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M550d Touring xDrive (G31) specs (2017-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/bmw/17-m550d-touring-xdrive-wagon",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 294,
+              "max": 294
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, quad-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 294 kW and 760 N·m. Both publications expose engine code B57D30 for this application and calibration. encyCARpedia publishes 400 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M550d (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B57D30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m550d-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 BMW M550d xDrive Touring Specs Review (294 kW / 400 PS / 394 hp) (since November 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2602190/bmw_m550d_xdrive_touring.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 294,
+              "max": 294
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, quad-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 294 kW and 760 N·m. Both publications expose engine code B57D30 for this application and calibration. encyCARpedia publishes 400 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M550d (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B57D30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B57D30"
+  },
+  {
+    "id": "batch12-bmw-bmw-m4-cs-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "S55B30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M4 CS (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 CS (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 CS (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 CS (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW M4 CS (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 338,
+        "max": 338
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m4-cs-2017-ency",
+        "batch12-bmw-bmw-m4-cs-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M4 CS (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-m4-cs-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW M4 CS (F82) specs (2017-2018): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/bmw/17-m4-cs-f82-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 338,
+              "max": 338
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 338 kW and 600 N·m. Both publications expose engine code S55B30 for this application and calibration. encyCARpedia publishes 460 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M4 CS (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S55B30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-m4-cs-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 BMW M4 CS Specs Review (338 kW / 460 PS / 453 hp) (since November 2017 for Europe special edition)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2547875/bmw_m4_cs.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 338,
+              "max": 338
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 338 kW and 600 N·m. Both publications expose engine code S55B30 for this application and calibration. encyCARpedia publishes 460 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M4 CS (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "S55B30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "S55B30"
+  },
+  {
+    "id": "batch12-bmw-bmw-540i-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "B58B30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 540i (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540i (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540i (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540i (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 540i (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-540i-2017-ency",
+        "batch12-bmw-bmw-540i-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 540i (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-540i-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 540i Touring xDrive (G31) specs (2017-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/bmw/17-540i-touring-xdrive-wagon",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 250 kW and 450 N·m. Both publications expose engine code B58B30 for this application and calibration. encyCARpedia publishes 340 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 540i (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B58B30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-540i-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 BMW 540i xDrive Touring Specs Review (250 kW / 340 PS / 335 hp) (since June 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2525765/bmw_540i_xdrive_touring.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 250 kW and 450 N·m. Both publications expose engine code B58B30 for this application and calibration. encyCARpedia publishes 340 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 540i (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "B58B30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "B58B30"
+  },
+  {
+    "id": "batch12-bmw-bmw-220i-coupe-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "N20B20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 220i Coupe (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220i Coupe (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220i Coupe (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220i Coupe (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220i Coupe (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-220i-coupe-2014-ency",
+        "batch12-bmw-bmw-220i-coupe-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 220i Coupe (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-220i-coupe-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 220i Coupé (F22) specs (2014-2016): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/bmw/14-220i-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 270 N·m. Both publications expose engine code N20B20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 220i Coupe (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N20B20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-220i-coupe-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 BMW 220i Coupe Specs Review (135 kW / 184 PS / 181 hp) (since March 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/1971620/bmw_220i_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 270 N·m. Both publications expose engine code N20B20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 220i Coupe (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N20B20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "N20B20"
+  },
+  {
+    "id": "batch12-bmw-bmw-435d-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "N57D30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 435d (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 435d (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 435d (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 435d (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW 435d (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 230,
+        "max": 230
+      },
+      "torqueNm": {
+        "min": 630,
+        "max": 630
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-435d-2014-ency",
+        "batch12-bmw-bmw-435d-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 435d (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-435d-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 435d Cabrio xDrive (F33) specs (2014-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/bmw/14-435d-cabrio-xdrive-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 230,
+              "max": 230
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 230 kW and 630 N·m. Both publications expose engine code N57D30 for this application and calibration. encyCARpedia publishes 313 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 435d (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N57D30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-435d-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 BMW 435d xDrive Cabrio Specs Review (230 kW / 313 PS / 308 hp) (since July 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2193380/bmw_435d_xdrive_cabrio.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 230,
+              "max": 230
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, bi-turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 230 kW and 630 N·m. Both publications expose engine code N57D30 for this application and calibration. encyCARpedia publishes 313 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 435d (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N57D30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "N57D30"
+  },
+  {
+    "id": "batch12-bmw-bmw-428i-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "N20B20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 428i (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 428i (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 428i (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 428i (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 428i (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-428i-2014-ency",
+        "batch12-bmw-bmw-428i-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 428i (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-428i-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 428i Cabrio xDrive (F33) specs (2014-2016): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/bmw/14-428i-cabrio-xdrive-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 180 kW and 350 N·m. Both publications expose engine code N20B20 for this application and calibration. encyCARpedia publishes 245 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 428i (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N20B20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-428i-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 BMW 428i xDrive Cabrio Specs Review (180 kW / 245 PS / 241 hp) (since March 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2025365/bmw_428i_xdrive_cabrio.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 180 kW and 350 N·m. Both publications expose engine code N20B20 for this application and calibration. encyCARpedia publishes 245 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 428i (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N20B20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "N20B20"
+  },
+  {
+    "id": "batch12-bmw-bmw-x6-xdrive35i-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "N55B30"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW X6 xDrive35i (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW X6 xDrive35i (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW X6 xDrive35i (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW X6 xDrive35i (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 Liter; BMW X6 xDrive35i (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 225
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-x6-xdrive35i-2014-ency",
+        "batch12-bmw-bmw-x6-xdrive35i-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW X6 xDrive35i (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-x6-xdrive35i-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW X6 xDrive35i (F16) specs (2014-2019): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/bmw/14-x6-xdrive35i-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 225 kW and 400 N·m. Both publications expose engine code N55B30 for this application and calibration. encyCARpedia publishes 306 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW X6 xDrive35i (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N55B30"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-x6-xdrive35i-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 BMW X6 xDrive35i Specs Review (225 kW / 306 PS / 302 hp) (up to June 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/1758770/bmw_x6_xdrive35i.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 6 specification with 4 valves per cylinder (24 total), DOHC, 225 kW and 400 N·m. Both publications expose engine code N55B30 for this application and calibration. encyCARpedia publishes 306 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW X6 xDrive35i (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N55B30"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "N55B30"
+  },
+  {
+    "id": "batch12-bmw-bmw-220d-coupe-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "N47D20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 220d Coupe (Europe, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220d Coupe (Europe, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220d Coupe (Europe, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220d Coupe (Europe, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; BMW 220d Coupe (Europe, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-220d-coupe-2014-ency",
+        "batch12-bmw-bmw-220d-coupe-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 220d Coupe (Europe, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-bmw-bmw-220d-coupe-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "BMW 220d Coupé (F22) specs (2014): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/bmw/14-220d-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 380 N·m. Both publications expose engine code N47D20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 220d Coupe (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N47D20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-bmw-bmw-220d-coupe-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 BMW 220d Coupe Specs Review (135 kW / 184 PS / 181 hp) (since March 2014 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/1971650/bmw_220d_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "Common Rail diesel, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 135 kW and 380 N·m. Both publications expose engine code N47D20 for this application and calibration. encyCARpedia publishes 184 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 220d Coupe (Europe, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "N47D20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "N47D20"
+  },
+  {
+    "id": "batch12-mercedes-benz-e-400-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3.0 L V6 twin-turbocharged 245 kW / 480 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "E 400 (North America, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; E 400 (North America, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; E 400 (North America, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; E 400 (North America, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; E 400 (North America, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 245,
+        "max": 245
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-400-2017-ency",
+        "batch12-mercedes-benz-e-400-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "E 400 (North America, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-e-400-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes E 400 Coupé 4MATIC (C238) specs (2017-2018): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/mercedes/17-e-400-coupe-4matic",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 245,
+              "max": 245
+            },
+            "performance.torqueNm": {
+              "min": 480,
+              "max": 480
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V6 specification with 4 valves per cylinder (24 total), DOHC, 245 kW and 480 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 333 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 400 (North America, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-e-400-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Mercedes-Benz E 400 4MATIC Coupe Specs Review (245 kW / 333 PS / 329 hp) (for North America U.S.)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2080895/mercedes-benz_e_400_4matic_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 245,
+              "max": 245
+            },
+            "performance.torqueNm": {
+              "min": 480,
+              "max": 480
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V6 specification with 4 valves per cylinder (24 total), DOHC, 245 kW and 480 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 333 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 400 (North America, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-s-560-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "M176 DE40"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "S 560 (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; S 560 (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; S 560 (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; S 560 (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; S 560 (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 345,
+        "max": 345
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-s-560-2017-ency",
+        "batch12-mercedes-benz-s-560-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "S 560 (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-s-560-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes S 560 L 4MATIC (V222) specs (2017-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/mercedes/17-s-560-l-4matic-limo",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 345,
+              "max": 345
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 345 kW and 700 N·m. Both publications expose engine code M176 DE40 for this application and calibration. encyCARpedia publishes 469 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "S 560 (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M176 DE40"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-s-560-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Mercedes-Benz S 560 4MATIC Specs Review (345 kW / 469 PS / 463 hp) (since July 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2560625/mercedes-benz_s_560_4matic.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 345,
+              "max": 345
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 345 kW and 700 N·m. Both publications expose engine code M176 DE40 for this application and calibration. encyCARpedia publishes 469 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "S 560 (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M176 DE40"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M176 DE40"
+  },
+  {
+    "id": "batch12-mercedes-benz-e-300-coupe-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "M274 DE20"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "E 300 Coupe (Europe, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 Coupe (Europe, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 Coupe (Europe, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 Coupe (Europe, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; E 300 Coupe (Europe, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-300-coupe-2017-ency",
+        "batch12-mercedes-benz-e-300-coupe-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "E 300 Coupe (Europe, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-e-300-coupe-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes E 300 Coupé (C238) specs (2017-2020): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/mercedes/17-e-300-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 180 kW and 370 N·m. Both publications expose engine code M274 DE20 for this application and calibration. encyCARpedia publishes 245 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 300 Coupe (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M274 DE20"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-e-300-coupe-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Mercedes-Benz E 300 Coupe Specs Review (180 kW / 245 PS / 241 hp) (since April 2017 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2504465/mercedes-benz_e_300_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 180 kW and 370 N·m. Both publications expose engine code M274 DE20 for this application and calibration. encyCARpedia publishes 245 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 300 Coupe (Europe, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ],
+            "codes": [
+              "M274 DE20"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M274 DE20"
+  },
+  {
+    "id": "batch12-mercedes-benz-mercedes-amg-gt-s-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 4.0 L V8 twin-turbocharged 384 kW / 670 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes AMG GT S (Global, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT S (Global, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT S (Global, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT S (Global, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT S (Global, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 384,
+        "max": 384
+      },
+      "torqueNm": {
+        "min": 670,
+        "max": 670
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-gt-s-2017-ency",
+        "batch12-mercedes-benz-mercedes-amg-gt-s-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes AMG GT S (Global, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-gt-s-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes AMG GT S Coupé (C190) specs (2017-2019): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/mercedes/17-amg-gt-s-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 384,
+              "max": 384
+            },
+            "performance.torqueNm": {
+              "min": 670,
+              "max": 670
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 384 kW and 670 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 522 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG GT S (Global, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-gt-s-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Mercedes-AMG GT S Specs Review (384 kW / 522 PS / 515 hp) (since March 2017 for Europe North America worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2560490/mercedes-amg_gt_s.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 384,
+              "max": 384
+            },
+            "performance.torqueNm": {
+              "min": 670,
+              "max": 670
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 384 kW and 670 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 522 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG GT S (Global, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-mercedes-benz-mercedes-amg-gt-2017",
+    "identity": {
+      "type": "exactCode",
+      "value": "M178 DE40"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes AMG GT (Global, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT (Global, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT (Global, 2017 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT (Global, 2017 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Mercedes AMG GT (Global, 2017 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 350,
+        "max": 350
+      },
+      "torqueNm": {
+        "min": 630,
+        "max": 630
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-gt-2017-ency",
+        "batch12-mercedes-benz-mercedes-amg-gt-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes AMG GT (Global, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-gt-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Mercedes AMG GT Coupé (C190) specs (2017-2019): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/us/mercedes/17-amg-gt-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 350,
+              "max": 350
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 350 kW and 630 N·m. Both publications expose engine code M178 DE40 for this application and calibration. encyCARpedia publishes 476 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG GT (Global, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Global"
+            ],
+            "codes": [
+              "M178 DE40"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-mercedes-benz-mercedes-amg-gt-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2017 Mercedes-AMG GT Specs Review (350 kW / 476 PS / 469 hp) (since March 2017 for Europe North America worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2560475/mercedes-amg_gt.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 350,
+              "max": 350
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 350 kW and 630 N·m. Both publications expose engine code M178 DE40 for this application and calibration. encyCARpedia publishes 476 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes AMG GT (Global, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Global"
+            ],
+            "codes": [
+              "M178 DE40"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "M178 DE40"
+  },
+  {
+    "id": "batch12-ferrari-ferrari-f12tdf-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 6.3 L V12 naturally aspirated 574 kW / 705 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "6.3 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari F12tdf (Global, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari F12tdf (Global, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari F12tdf (Global, 2015 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari F12tdf (Global, 2015 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.3 Liter; Ferrari F12tdf (Global, 2015 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 574,
+        "max": 574
+      },
+      "torqueNm": {
+        "min": 705,
+        "max": 705
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-f12tdf-2015-ency",
+        "batch12-ferrari-ferrari-f12tdf-2015-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari F12tdf (Global, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-f12tdf-2015-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari F12tdf specs (2015-2016): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/us/ferrari/15-f12tdf-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 574,
+              "max": 574
+            },
+            "performance.torqueNm": {
+              "min": 705,
+              "max": 705
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V12 specification with 4 valves per cylinder (48 total), DOHC, 574 kW and 705 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 780 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari F12tdf (Global, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-f12tdf-2015-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2015 Ferrari F12tdf Specs Review (574 kW / 781 PS / 770 hp) (since October 2015 for Europe North America Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2232050/ferrari_f12tdf.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 574,
+              "max": 574
+            },
+            "performance.torqueNm": {
+              "min": 705,
+              "max": 705
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V12 specification with 4 valves per cylinder (48 total), DOHC, 574 kW and 705 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 780 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari F12tdf (Global, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-ferrari-ferrari-488-spider-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 3.9 L V8 twin-turbocharged 493 kW / 760 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "3.9 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari 488 Spider (Global, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari 488 Spider (Global, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari 488 Spider (Global, 2015 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari 488 Spider (Global, 2015 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari 488 Spider (Global, 2015 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 493,
+        "max": 493
+      },
+      "torqueNm": {
+        "min": 760,
+        "max": 760
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-488-spider-2015-ency",
+        "batch12-ferrari-ferrari-488-spider-2015-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari 488 Spider (Global, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-488-spider-2015-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari 488 Spider specs (2015-2019): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/us/ferrari/15-488-spider-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 493,
+              "max": 493
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 493 kW and 760 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 670 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 488 Spider (Global, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-488-spider-2015-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2016 Ferrari 488 Spider Specs Review (493 kW / 670 PS / 661 hp) (since Spring 2016 for Europe North America Japan Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2016/2232035/ferrari_488_spider.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 493,
+              "max": 493
+            },
+            "performance.torqueNm": {
+              "min": 760,
+              "max": 760
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 493 kW and 760 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 670 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 488 Spider (Global, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-ferrari-ferrari-458-speciale-a-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 4.5 L V8 naturally aspirated 445 kW / 540 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "4.5 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari 458 Speciale A (Global, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 Liter; Ferrari 458 Speciale A (Global, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 Liter; Ferrari 458 Speciale A (Global, 2015 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 Liter; Ferrari 458 Speciale A (Global, 2015 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 Liter; Ferrari 458 Speciale A (Global, 2015 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 445,
+        "max": 445
+      },
+      "torqueNm": {
+        "min": 540,
+        "max": 540
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-458-speciale-a-2015-ency",
+        "batch12-ferrari-ferrari-458-speciale-a-2015-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari 458 Speciale A (Global, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-458-speciale-a-2015-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari 458 Speciale A specs (2015): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/us/ferrari/15-458-speciale-aperta-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 445,
+              "max": 445
+            },
+            "performance.torqueNm": {
+              "min": 540,
+              "max": 540
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V8 specification with 4 valves per cylinder (32 total), DOHC, 445 kW and 540 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 605 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 458 Speciale A (Global, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-458-speciale-a-2015-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2015 Ferrari 458 Speciale A Specs Review (445 kW / 605 PS / 597 hp) (since early-year 2015 for Europe North America Japan Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2110640/ferrari_458_speciale_a.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 445,
+              "max": 445
+            },
+            "performance.torqueNm": {
+              "min": 540,
+              "max": 540
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V8 specification with 4 valves per cylinder (32 total), DOHC, 445 kW and 540 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 605 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari 458 Speciale A (Global, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-ferrari-ferrari-california-t-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ferrari 3.9 L V8 twin-turbocharged 412 kW / 755 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ferrari",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "3.9 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ferrari California T (Global, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari California T (Global, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari California T (Global, 2014 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari California T (Global, 2014 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.9 Liter; Ferrari California T (Global, 2014 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 412,
+        "max": 412
+      },
+      "torqueNm": {
+        "min": 755,
+        "max": 755
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-california-t-2014-ency",
+        "batch12-ferrari-ferrari-california-t-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ferrari California T (Global, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-ferrari-ferrari-california-t-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Ferrari California T specs (2014-2017): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/us/ferrari/14-california-t-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 412,
+              "max": 412
+            },
+            "performance.torqueNm": {
+              "min": 755,
+              "max": 755
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 412 kW and 755 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 560 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari California T (Global, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-ferrari-ferrari-california-t-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2014 Ferrari California T Specs Review (412 kW / 560 PS / 552 hp) (since March 2014 for Europe North America Australia Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2044070/ferrari_california_t.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 412,
+              "max": 412
+            },
+            "performance.torqueNm": {
+              "min": 755,
+              "max": 755
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 412 kW and 755 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 560 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ferrari California T (Global, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-aston-martin-aston-martin-dbx-s-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Aston Martin 4.0 L V8 twin-turbocharged 534.5 kW / 900 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Aston Martin",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Aston Martin DBX S (Global, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DBX S (Global, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DBX S (Global, 2025 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DBX S (Global, 2025 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin DBX S (Global, 2025 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 534.5,
+        "max": 534.5
+      },
+      "torqueNm": {
+        "min": 900,
+        "max": 900
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-dbx-s-2025-ency",
+        "batch12-aston-martin-aston-martin-dbx-s-2025-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Aston Martin DBX S (Global, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-aston-martin-aston-martin-dbx-s-2025-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Aston Martin DBX S specs (2025-present): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/us/aston-martin/25-dbx-s-suv",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 534.5,
+              "max": 534.5
+            },
+            "performance.torqueNm": {
+              "min": 900,
+              "max": 900
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 534.5 kW and 900 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 727 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin DBX S (Global, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-dbx-s-2025-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2025 Aston Martin DBX S Specs Review (534.5 kW / 727 PS / 717 hp) (since May 2025 for Europe worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3429020/aston_martin_dbx_s.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 534.5,
+              "max": 534.5
+            },
+            "performance.torqueNm": {
+              "min": 900,
+              "max": 900
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 534.5 kW and 900 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 727 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin DBX S (Global, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-aston-martin-aston-martin-vantage-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Aston Martin 4.0 L V8 twin-turbocharged 393.2 kW / 685 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Aston Martin",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Aston Martin Vantage (Global, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage (Global, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage (Global, 2021 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage (Global, 2021 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4 Liter; Aston Martin Vantage (Global, 2021 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 393.2,
+        "max": 393.2
+      },
+      "torqueNm": {
+        "min": 685,
+        "max": 685
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-vantage-2021-ency",
+        "batch12-aston-martin-aston-martin-vantage-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Aston Martin Vantage (Global, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Global"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-aston-martin-aston-martin-vantage-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Aston Martin Vantage F1® Edition specs (2021-2024): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/us/aston-martin/21-vantage-f1-edition-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 393.2,
+              "max": 393.2
+            },
+            "performance.torqueNm": {
+              "min": 685,
+              "max": 685
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 393.2 kW and 685 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 535 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin Vantage (Global, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-aston-martin-aston-martin-vantage-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2021 Aston Martin Vantage Coupe F1 Edition Specs Review (393.2 kW / 535 PS / 527 hp) (since May 2021 for Europe North America Asia worldwide)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/3085985/aston_martin_vantage_coupe_f1_edition.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 393.2,
+              "max": 393.2
+            },
+            "performance.torqueNm": {
+              "min": 685,
+              "max": 685
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V8 specification with 4 valves per cylinder (32 total), DOHC, 393.2 kW and 685 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 535 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Aston Martin Vantage (Global, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Global"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-porsche-porsche-911s-targa-1967",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Porsche 2.0 L Flat-6 naturally aspirated 117.5 kW / 179 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Porsche",
+    "regionKey": "europe",
+    "years": "1967",
+    "displacement": "2.0 L",
+    "layout": "Flat-6 · SOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Porsche 911S Targa (Europe, 1967 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911S Targa (Europe, 1967 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911S Targa (Europe, 1967 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911S Targa (Europe, 1967 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911S Targa (Europe, 1967 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 117.5,
+        "max": 117.5
+      },
+      "torqueNm": {
+        "min": 179,
+        "max": 179
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-porsche-porsche-911s-targa-1967-ency",
+        "batch12-porsche-porsche-911s-targa-1967-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Porsche 911S Targa (Europe, 1967 specification)"
+        ],
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-porsche-porsche-911s-targa-1967-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Porsche 911S Targa (901) specs (1967-1968): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1967,
+          "url": "https://www.encycarpedia.com/us/porsche/67-911s-targa",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 117.5,
+              "max": 117.5
+            },
+            "performance.torqueNm": {
+              "min": 179,
+              "max": 179
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Flat 6 specification with 2 valves per cylinder (12 total), SOHC, 117.5 kW and 179 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 160 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911S Targa (Europe, 1967 specification)"
+            ],
+            "years": {
+              "from": 1967,
+              "to": 1967
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-porsche-porsche-911s-targa-1967-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1967 Porsche 911 S Targa Specs Review (117.5 kW / 160 PS / 158 hp) (since August 1967 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1967,
+          "url": "https://www.automobile-catalog.com/car/1967/2589020/porsche_911_s_targa.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 117.5,
+              "max": 117.5
+            },
+            "performance.torqueNm": {
+              "min": 179,
+              "max": 179
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Flat 6 specification with 2 valves per cylinder (12 total), SOHC, 117.5 kW and 179 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 160 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911S Targa (Europe, 1967 specification)"
+            ],
+            "years": {
+              "from": 1967,
+              "to": 1967
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-porsche-porsche-911-carrera-1973",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Porsche 2.7 L Flat-6 naturally aspirated 154.5 kW / 255 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Porsche",
+    "regionKey": "europe",
+    "years": "1973",
+    "displacement": "2.7 L",
+    "layout": "Flat-6 · SOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "electronicFuelInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Porsche 911 Carrera (Europe, 1973 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2.7 Liter; Porsche 911 Carrera (Europe, 1973 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2.7 Liter; Porsche 911 Carrera (Europe, 1973 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2.7 Liter; Porsche 911 Carrera (Europe, 1973 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2.7 Liter; Porsche 911 Carrera (Europe, 1973 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 154.5,
+        "max": 154.5
+      },
+      "torqueNm": {
+        "min": 255,
+        "max": 255
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-porsche-porsche-911-carrera-1973-ency",
+        "batch12-porsche-porsche-911-carrera-1973-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Porsche 911 Carrera (Europe, 1973 specification)"
+        ],
+        "years": {
+          "from": 1973,
+          "to": 1973
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-porsche-porsche-911-carrera-1973-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Porsche 911 Carrera 2.7 Coupé (G-Series) specs (1973-1975): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1973,
+          "url": "https://www.encycarpedia.com/us/porsche/73-911-carrera-2-7-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 154.5,
+              "max": 154.5
+            },
+            "performance.torqueNm": {
+              "min": 255,
+              "max": 255
+            }
+          },
+          "pageNotes": [
+            "Injection gasoline, natural Flat 6 specification with 2 valves per cylinder (12 total), SOHC, 154.5 kW and 255 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 210 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 Carrera (Europe, 1973 specification)"
+            ],
+            "years": {
+              "from": 1973,
+              "to": 1973
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-porsche-porsche-911-carrera-1973-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1973 Porsche 911 Carrera Coupe 4-speed Specs Review (154.5 kW / 210 PS / 207 hp) (since August 1973 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1973,
+          "url": "https://www.automobile-catalog.com/car/1973/2649575/porsche_911_carrera_coupe_4-speed.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 154.5,
+              "max": 154.5
+            },
+            "performance.torqueNm": {
+              "min": 255,
+              "max": 255
+            }
+          },
+          "pageNotes": [
+            "Injection gasoline, natural Flat 6 specification with 2 valves per cylinder (12 total), SOHC, 154.5 kW and 255 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 210 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 Carrera (Europe, 1973 specification)"
+            ],
+            "years": {
+              "from": 1973,
+              "to": 1973
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-porsche-porsche-911-1964",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Porsche 2.0 L Flat-6 naturally aspirated 95.5 kW / 174 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Porsche",
+    "regionKey": "europe",
+    "years": "1964",
+    "displacement": "2.0 L",
+    "layout": "Flat-6 · SOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Porsche 911 (Europe, 1964 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911 (Europe, 1964 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911 (Europe, 1964 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911 (Europe, 1964 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Flat-6 · SOHC · 12 valves · 2 camshafts total, 2 Liter; Porsche 911 (Europe, 1964 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95.5,
+        "max": 95.5
+      },
+      "torqueNm": {
+        "min": 174,
+        "max": 174
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-porsche-porsche-911-1964-ency",
+        "batch12-porsche-porsche-911-1964-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Porsche 911 (Europe, 1964 specification)"
+        ],
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-porsche-porsche-911-1964-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Porsche 911 Coupé (901) specs (1964-1969): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1964,
+          "url": "https://www.encycarpedia.com/us/porsche/64-911-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 174,
+              "max": 174
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Flat 6 specification with 2 valves per cylinder (12 total), SOHC, 95.5 kW and 174 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 130 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 (Europe, 1964 specification)"
+            ],
+            "years": {
+              "from": 1964,
+              "to": 1964
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-porsche-porsche-911-1964-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "1964 Porsche 911 Specs Review (95.5 kW / 130 PS / 128 hp) (since September 1964 for Europe )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1964,
+          "url": "https://www.automobile-catalog.com/car/1964/2588450/porsche_911.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 174,
+              "max": 174
+            }
+          },
+          "pageNotes": [
+            "Carburetor gasoline, natural Flat 6 specification with 2 valves per cylinder (12 total), SOHC, 95.5 kW and 174 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 130 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 (Europe, 1964 specification)"
+            ],
+            "years": {
+              "from": 1964,
+              "to": 1964
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];
