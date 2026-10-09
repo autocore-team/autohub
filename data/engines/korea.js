@@ -3962,5 +3962,3704 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.korea = [
         }
       ]
     }
+  },
+  {
+    "id": "batch14-genesis-g80-5-0-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 5.0 L V8 naturally aspirated 313 kW / 519 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2017-2017",
+    "displacement": "5.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis G80 5.0 (United States/Canada market, 2017 specification)",
+      "Genesis G90 5.0 (United States/Canada market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.0 L; Genesis G80 5.0 (United States/Canada market, 2017 specification); Genesis G90 5.0 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.0 L; Genesis G80 5.0 (United States/Canada market, 2017 specification); Genesis G90 5.0 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.0 L; Genesis G80 5.0 (United States/Canada market, 2017 specification); Genesis G90 5.0 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.0 L; Genesis G80 5.0 (United States/Canada market, 2017 specification); Genesis G90 5.0 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 313,
+        "max": 313
+      },
+      "torqueNm": {
+        "min": 519,
+        "max": 519
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-g80-5-0-2017-ency",
+        "batch14-genesis-g80-5-0-2017-ac",
+        "batch14-genesis-g90-5-0-2017-ency",
+        "batch14-genesis-g90-5-0-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis G80 5.0 (United States/Canada market, 2017 specification)",
+          "Genesis G90 5.0 (United States/Canada market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-g80-5-0-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Genesis G80 5.0 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/genesis/17-g80-5-0-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 519,
+              "max": 519
+            }
+          },
+          "pageNotes": [
+            "5.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 313 kW and 519 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G80 5.0 (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g80-5-0-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Genesis G80 5.0 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2495690/genesis_g80_5_0.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 519,
+              "max": 519
+            }
+          },
+          "pageNotes": [
+            "5.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 313 kW and 519 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G80 5.0 (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g90-5-0-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Genesis G90 5.0 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/genesis/17-g90-5-0-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 519,
+              "max": 519
+            }
+          },
+          "pageNotes": [
+            "5.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 313 kW and 519 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G90 5.0 (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g90-5-0-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Genesis G90 5.0 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2495735/genesis_g90_5_0_ultimate.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 519,
+              "max": 519
+            }
+          },
+          "pageNotes": [
+            "5.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 313 kW and 519 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G90 5.0 (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-genesis-g70-3-3t-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 3.3 L V6 twin turbocharged 272 kW / 510 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2017-2018",
+    "displacement": "3.3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis G70 3.3T (United States/Canada market, 2018 specification)",
+      "Genesis G90 3.3T (United States/Canada market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.3 L; Genesis G70 3.3T (United States/Canada market, 2018 specification); Genesis G90 3.3T (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.3 L; Genesis G70 3.3T (United States/Canada market, 2018 specification); Genesis G90 3.3T (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.3 L; Genesis G70 3.3T (United States/Canada market, 2018 specification); Genesis G90 3.3T (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.3 L; Genesis G70 3.3T (United States/Canada market, 2018 specification); Genesis G90 3.3T (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 272,
+        "max": 272
+      },
+      "torqueNm": {
+        "min": 510,
+        "max": 510
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-g70-3-3t-2018-ency",
+        "batch14-genesis-g70-3-3t-2018-ac",
+        "batch14-genesis-g90-3-3t-2017-ency",
+        "batch14-genesis-g90-3-3t-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis G70 3.3T (United States/Canada market, 2018 specification)",
+          "Genesis G90 3.3T (United States/Canada market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2018
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-g70-3-3t-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Genesis G70 3.3T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/genesis/18-g70-3-3t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 272,
+              "max": 272
+            },
+            "performance.torqueNm": {
+              "min": 510,
+              "max": 510
+            }
+          },
+          "pageNotes": [
+            "3.3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 272 kW and 510 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G70 3.3T (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g70-3-3t-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Genesis G70 3.3T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_g70.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 272,
+              "max": 272
+            },
+            "performance.torqueNm": {
+              "min": 510,
+              "max": 510
+            }
+          },
+          "pageNotes": [
+            "3.3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 272 kW and 510 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G70 3.3T (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g90-3-3t-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Genesis G90 3.3T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/genesis/17-g90-3-3t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 272,
+              "max": 272
+            },
+            "performance.torqueNm": {
+              "min": 510,
+              "max": 510
+            }
+          },
+          "pageNotes": [
+            "3.3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 272 kW and 510 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G90 3.3T (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g90-3-3t-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Genesis G90 3.3T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_g90.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 272,
+              "max": 272
+            },
+            "performance.torqueNm": {
+              "min": 510,
+              "max": 510
+            }
+          },
+          "pageNotes": [
+            "3.3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 272 kW and 510 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G90 3.3T (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-genesis-g70-2-0t-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 2.0 L Inline-4 turbocharged 185 kW / 353 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2018",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis G70 2.0T (United States/Canada market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Genesis G70 2.0T (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Genesis G70 2.0T (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Genesis G70 2.0T (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Genesis G70 2.0T (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 185,
+        "max": 185
+      },
+      "torqueNm": {
+        "min": 353,
+        "max": 353
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-g70-2-0t-2018-ency",
+        "batch14-genesis-g70-2-0t-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis G70 2.0T (United States/Canada market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-g70-2-0t-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Genesis G70 2.0T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/genesis/18-g70-2-0t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 185 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G70 2.0T (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g70-2-0t-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Genesis G70 2.0T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_g70.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 185 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G70 2.0T (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-genesis-g80-2-5t-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 2.5 L Inline-4 turbocharged 224 kW / 422 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2021-2022",
+    "displacement": "2.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis G80 2.5T (United States/Canada market, 2021 specification)",
+      "Genesis GV70 2.5T (United States/Canada market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L; Genesis G80 2.5T (United States/Canada market, 2021 specification); Genesis GV70 2.5T (United States/Canada market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L; Genesis G80 2.5T (United States/Canada market, 2021 specification); Genesis GV70 2.5T (United States/Canada market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L; Genesis G80 2.5T (United States/Canada market, 2021 specification); Genesis GV70 2.5T (United States/Canada market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.5 L; Genesis G80 2.5T (United States/Canada market, 2021 specification); Genesis GV70 2.5T (United States/Canada market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 224,
+        "max": 224
+      },
+      "torqueNm": {
+        "min": 422,
+        "max": 422
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-g80-2-5t-2021-ency",
+        "batch14-genesis-g80-2-5t-2021-ac",
+        "batch14-genesis-gv70-2-5t-2022-ency",
+        "batch14-genesis-gv70-2-5t-2022-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis G80 2.5T (United States/Canada market, 2021 specification)",
+          "Genesis GV70 2.5T (United States/Canada market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2022
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-g80-2-5t-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Genesis G80 2.5T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/genesis/21-g80-2-5t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 422,
+              "max": 422
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 224 kW and 422 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G80 2.5T (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g80-2-5t-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Genesis G80 2.5T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_g80.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 422,
+              "max": 422
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 224 kW and 422 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G80 2.5T (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-gv70-2-5t-2022-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Genesis GV70 2.5T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/genesis/22-gv70-2-5t-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 422,
+              "max": 422
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 224 kW and 422 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis GV70 2.5T (United States/Canada market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-gv70-2-5t-2022-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Genesis GV70 2.5T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_gv70.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 422,
+              "max": 422
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 224 kW and 422 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis GV70 2.5T (United States/Canada market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-genesis-g80-3-5t-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 3.5 L V6 twin turbocharged 279 kW / 530 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2021",
+    "displacement": "3.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis G80 3.5T (United States/Canada market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G80 3.5T (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G80 3.5T (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G80 3.5T (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G80 3.5T (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 279,
+        "max": 279
+      },
+      "torqueNm": {
+        "min": 530,
+        "max": 530
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-g80-3-5t-2021-ency",
+        "batch14-genesis-g80-3-5t-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis G80 3.5T (United States/Canada market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-g80-3-5t-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Genesis G80 3.5T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/genesis/21-g80-3-5t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 279,
+              "max": 279
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 279 kW and 530 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G80 3.5T (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g80-3-5t-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Genesis G80 3.5T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_g80.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 279,
+              "max": 279
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 279 kW and 530 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G80 3.5T (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-genesis-gv80-3-0d-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 3.0 L Inline-6 turbocharged 204 kW / 588 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2021",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 204,
+        "max": 204
+      },
+      "torqueNm": {
+        "min": 588,
+        "max": 588
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-gv80-3-0d-2021-ency",
+        "batch14-genesis-gv80-3-0d-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-gv80-3-0d-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Genesis GV80 3.0D technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/genesis/21-gv80-3-0d-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 204,
+              "max": 204
+            },
+            "performance.torqueNm": {
+              "min": 588,
+              "max": 588
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 204 kW and 588 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-gv80-3-0d-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Genesis GV80 3.0D technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_gv80.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 204,
+              "max": 204
+            },
+            "performance.torqueNm": {
+              "min": 588,
+              "max": 588
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 204 kW and 588 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-genesis-g90-3-5t-2023",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Genesis 3.5 L V6 twin turbocharged 280 kW / 530 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Genesis",
+    "regionKey": "korea",
+    "years": "2023",
+    "displacement": "3.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Genesis G90 3.5T (United States/Canada market, 2023 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G90 3.5T (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G90 3.5T (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G90 3.5T (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Genesis G90 3.5T (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 280,
+        "max": 280
+      },
+      "torqueNm": {
+        "min": 530,
+        "max": 530
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-genesis-g90-3-5t-2023-ency",
+        "batch14-genesis-g90-3-5t-2023-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Genesis G90 3.5T (United States/Canada market, 2023 specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-genesis-g90-3-5t-2023-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Genesis G90 3.5T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2023,
+          "url": "https://www.encycarpedia.com/genesis/23-g90-3-5t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 280,
+              "max": 280
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 280 kW and 530 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G90 3.5T (United States/Canada market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-genesis-g90-3-5t-2023-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Genesis G90 3.5T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2023,
+          "url": "https://www.automobile-catalog.com/model/genesis/genesis_g90.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 280,
+              "max": 280
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 280 kW and 530 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Genesis G90 3.5T (United States/Canada market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-korando-3-2-1997",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 3.2 L Inline-6 naturally aspirated 162 kW / 307 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "1997",
+    "displacement": "3.2 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.2 L; SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.2 L; SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.2 L; SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.2 L; SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162
+      },
+      "torqueNm": {
+        "min": 307,
+        "max": 307
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-korando-3-2-1997-ency",
+        "batch14-ssangyong-korando-3-2-1997-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification)"
+        ],
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-korando-3-2-1997-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1997 SsangYong Korando 3.2 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1997,
+          "url": "https://www.encycarpedia.com/ssangyong/97-korando-3-2-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 307,
+              "max": 307
+            }
+          },
+          "pageNotes": [
+            "3.2 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 162 kW and 307 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-korando-3-2-1997-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1997 SsangYong Korando 3.2 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1997,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_korando.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 307,
+              "max": 307
+            }
+          },
+          "pageNotes": [
+            "3.2 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 162 kW and 307 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification)"
+            ],
+            "years": {
+              "from": 1997,
+              "to": 1997
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-musso-2-9-td-1998",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 2.9 L Inline-5 turbocharged 88 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "1998",
+    "displacement": "2.9 L",
+    "layout": "Inline-5 · SOHC · 10 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "indirectInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · SOHC · 10 valves · 1 camshafts total, 2.9 L; SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · SOHC · 10 valves · 1 camshafts total, 2.9 L; SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · SOHC · 10 valves · 1 camshafts total, 2.9 L; SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · SOHC · 10 valves · 1 camshafts total, 2.9 L; SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-musso-2-9-td-1998-ency",
+        "batch14-ssangyong-musso-2-9-td-1998-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-musso-2-9-td-1998-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 SsangYong Musso 2.9 TD technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1998,
+          "url": "https://www.encycarpedia.com/ssangyong/98-musso-2-9-td-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "2.9 L Inline-5, SOHC, 10 valves and 1 total camshafts; diesel, turbocharged, indirectInjection; 88 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-musso-2-9-td-1998-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 SsangYong Musso 2.9 TD technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1998,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_musso.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "2.9 L Inline-5, SOHC, 10 valves and 1 total camshafts; diesel, turbocharged, indirectInjection; 88 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-rexton-2-7-xdi-2004",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 2.7 L Inline-5 turbocharged 120 kW / 345 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "2004",
+    "displacement": "2.7 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.7 L; SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.7 L; SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.7 L; SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.7 L; SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 345,
+        "max": 345
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-rexton-2-7-xdi-2004-ency",
+        "batch14-ssangyong-rexton-2-7-xdi-2004-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-rexton-2-7-xdi-2004-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 SsangYong Rexton 2.7 Xdi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2004,
+          "url": "https://www.encycarpedia.com/ssangyong/04-rexton-rx-270-xdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 345,
+              "max": 345
+            }
+          },
+          "pageNotes": [
+            "2.7 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 345 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-rexton-2-7-xdi-2004-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 SsangYong Rexton 2.7 Xdi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2004,
+          "url": "https://www.automobile-catalog.com/car/2004/3162950/ssangyong_rexton_rx270_xdi.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 345,
+              "max": 345
+            }
+          },
+          "pageNotes": [
+            "2.7 L Inline-5, DOHC, 20 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 345 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-kyron-2-0-xdi-2006",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 2.0 L Inline-4 turbocharged 104 kW / 310 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "2006",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 104,
+        "max": 104
+      },
+      "torqueNm": {
+        "min": 310,
+        "max": 310
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-kyron-2-0-xdi-2006-ency",
+        "batch14-ssangyong-kyron-2-0-xdi-2006-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-kyron-2-0-xdi-2006-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 SsangYong Kyron 2.0 Xdi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2006,
+          "url": "https://www.encycarpedia.com/ssangyong/06-kyron-2-0-xdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 104,
+              "max": 104
+            },
+            "performance.torqueNm": {
+              "min": 310,
+              "max": 310
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 104 kW and 310 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-kyron-2-0-xdi-2006-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 SsangYong Kyron 2.0 Xdi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2006,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_kyron.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 104,
+              "max": 104
+            },
+            "performance.torqueNm": {
+              "min": 310,
+              "max": 310
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 104 kW and 310 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-korando-2-0-e-xdi-2011",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 2.0 L Inline-4 turbocharged 129 kW / 360 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "2011",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 129,
+        "max": 129
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-korando-2-0-e-xdi-2011-ency",
+        "batch14-ssangyong-korando-2-0-e-xdi-2011-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-korando-2-0-e-xdi-2011-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2011 SsangYong Korando 2.0 e-XDi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2011,
+          "url": "https://www.encycarpedia.com/ssangyong/11-korando-2-0-e-xdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 129,
+              "max": 129
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 129 kW and 360 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-korando-2-0-e-xdi-2011-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2011 SsangYong Korando 2.0 e-XDi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2011,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_korando.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 129,
+              "max": 129
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 129 kW and 360 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-tivoli-1-6-e-xgi-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 1.6 L Inline-4 naturally aspirated 94 kW / 160 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "2015",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 94,
+        "max": 94
+      },
+      "torqueNm": {
+        "min": 160,
+        "max": 160
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-tivoli-1-6-e-xgi-2015-ency",
+        "batch14-ssangyong-tivoli-1-6-e-xgi-2015-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-tivoli-1-6-e-xgi-2015-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 SsangYong Tivoli 1.6 e-XGi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/ssangyong/15-tivoli-1-6-e-xgi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 94,
+              "max": 94
+            },
+            "performance.torqueNm": {
+              "min": 160,
+              "max": 160
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 94 kW and 160 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-tivoli-1-6-e-xgi-2015-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 SsangYong Tivoli 1.6 e-XGi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_tivoli.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 94,
+              "max": 94
+            },
+            "performance.torqueNm": {
+              "min": 160,
+              "max": 160
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 94 kW and 160 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ssangyong-musso-2-2-e-xdi-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SsangYong 2.2 L Inline-4 turbocharged 133 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SsangYong",
+    "regionKey": "korea",
+    "years": "2018",
+    "displacement": "2.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ssangyong-musso-2-2-e-xdi-2018-ency",
+        "batch14-ssangyong-musso-2-2-e-xdi-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ssangyong-musso-2-2-e-xdi-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 SsangYong Musso 2.2 e-XDi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/ssangyong/18-musso-2-2-e-xdi-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 133,
+              "max": 133
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 133 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ssangyong-musso-2-2-e-xdi-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 SsangYong Musso 2.2 e-XDi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_musso.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 133,
+              "max": 133
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 133 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-kgm-torres-1-5-t-gdi-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "KGM 1.5 L Inline-4 turbocharged 120 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "KGM",
+    "regionKey": "korea",
+    "years": "2022",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-kgm-torres-1-5-t-gdi-2022-ency",
+        "batch14-kgm-torres-1-5-t-gdi-2022-ac"
+      ],
+      "scope": {
+        "applications": [
+          "KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-kgm-torres-1-5-t-gdi-2022-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 KGM Torres 1.5 T-GDi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/ssangyong/22-torres-1-5-t-gdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 120 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-kgm-torres-1-5-t-gdi-2022-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 KGM Torres 1.5 T-GDi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/model/ssangyong/ssangyong_torres.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 120 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];

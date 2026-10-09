@@ -1,0 +1,3400 @@
+{
+  "candidatePool": 200,
+  "targetMin": 100,
+  "targetMax": 125,
+  "productionPeriod": {
+    "from": 1990,
+    "to": 2025
+  },
+  "requestedQuotas": {
+    "Toyota": 20,
+    "Nissan": 20,
+    "Mitsubishi": 15,
+    "Subaru": 15,
+    "Suzuki": 15,
+    "Daihatsu": 10,
+    "Chevrolet": 20,
+    "Cadillac": 10,
+    "Chrysler/Dodge/Jeep/Ram": 20,
+    "Fiat": 15,
+    "Lancia": 10,
+    "Saab": 10,
+    "Genesis": 10,
+    "KGM/SsangYong": 10
+  },
+  "actualQuotas": {
+    "Toyota": 20,
+    "Nissan": 20,
+    "Mitsubishi": 15,
+    "Subaru": 15,
+    "Suzuki": 15,
+    "Daihatsu": 10,
+    "Chevrolet": 20,
+    "Cadillac": 10,
+    "Chrysler/Dodge/Jeep/Ram": 20,
+    "Fiat": 15,
+    "Lancia": 10,
+    "Saab": 10,
+    "Genesis": 10,
+    "KGM/SsangYong": 10
+  },
+  "reserveManufacturersUsed": [],
+  "accepted": 108,
+  "duplicates": 3,
+  "holds": 89,
+  "rejected": 0,
+  "productionRecords": 108,
+  "identityBreakdown": {
+    "exactCode": 45,
+    "applicationScopedSpecification": 63
+  },
+  "evidenceBreakdown": {
+    "corroborated": 108
+  },
+  "completenessBreakdown": {
+    "core": 108
+  },
+  "withoutRpm": 108,
+  "acceptedByManufacturer": {
+    "Toyota": 4,
+    "Nissan": 4,
+    "Mitsubishi": 4,
+    "Subaru": 4,
+    "Suzuki": 4,
+    "Daihatsu": 3,
+    "Chevrolet": 15,
+    "Cadillac": 8,
+    "Chrysler/Dodge/Jeep/Ram": 18,
+    "Fiat": 12,
+    "Lancia": 8,
+    "Saab": 9,
+    "Genesis": 7,
+    "KGM/SsangYong": 8
+  },
+  "sourcePair": {
+    "publishers": [
+      "encyCARpedia",
+      "Automobile-Catalog / ProfessCars"
+    ],
+    "independent": true,
+    "commonOriginAllowed": "manufacturer-published-technical-specifications"
+  },
+  "duplicateConsolidations": [
+    {
+      "absorbedId": "batch14-genesis-g90-5-0-2017",
+      "keptId": "batch14-genesis-g80-5-0-2017"
+    },
+    {
+      "absorbedId": "batch14-genesis-g90-3-3t-2017",
+      "keptId": "batch14-genesis-g70-3-3t-2018"
+    },
+    {
+      "absorbedId": "batch14-genesis-gv70-2-5t-2022",
+      "keptId": "batch14-genesis-g80-2-5t-2021"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "batch14-toyota-supra-turbo-1993",
+      "label": "Toyota Supra Turbo (Europe/United Kingdom market, 1993 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-toyota-celica-gt-four-1994",
+      "label": "Toyota Celica GT-Four (Europe/United Kingdom market, 1994 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-toyota-mr2-gt-1994",
+      "label": "Toyota MR2 GT (Japan market, 1994 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-toyota-land-cruiser-4-7-v8-1998",
+      "label": "Toyota Land Cruiser 4.7 V8 (Europe/United Kingdom market, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-toyota-01",
+      "label": "Aristo 3.0V (1991)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-02",
+      "label": "Soarer 2.5 GT-T (1996)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-03",
+      "label": "Chaser Tourer V (1996)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-04",
+      "label": "Crown Athlete V (1999)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-05",
+      "label": "Altezza RS200 (1999)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-06",
+      "label": "Caldina GT-Four (2002)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-07",
+      "label": "Avensis 2.4 (2003)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-08",
+      "label": "Hilux 3.0 D-4D (2005)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-09",
+      "label": "Aurion 3.5 V6 (2006)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-10",
+      "label": "FJ Cruiser 4.0 V6 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-11",
+      "label": "Land Cruiser 4.5 D-4D (2008)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-12",
+      "label": "GT86 (2012)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-13",
+      "label": "Yaris GRMN (2018)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-14",
+      "label": "GR Supra 3.0 (2019)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-15",
+      "label": "GR Yaris (2020)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-toyota-16",
+      "label": "Land Cruiser 3.3D (2021)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-nissan-300zx-twin-turbo-1990",
+      "label": "Nissan 300ZX Twin Turbo (United States/Canada market, 1990 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-nissan-skyline-gt-r-1999",
+      "label": "Nissan Skyline GT-R (Japan market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-nissan-350z-2003",
+      "label": "Nissan 350Z (Europe/United Kingdom market, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-nissan-juke-nismo-rs-2015",
+      "label": "Nissan Juke Nismo RS (Europe/United Kingdom market, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-nissan-01",
+      "label": "Pulsar GTI-R (1990)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-02",
+      "label": "Cima 4.1 V8 (1991)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-03",
+      "label": "Silvia K’s (1993)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-04",
+      "label": "Stagea 260RS (1997)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-05",
+      "label": "Primera GT (1998)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-06",
+      "label": "Patrol 4.8 (2001)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-07",
+      "label": "Murano 3.5 (2003)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-08",
+      "label": "Navara 2.5 dCi (2005)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-09",
+      "label": "GT-R (2008)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-10",
+      "label": "370Z (2009)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-11",
+      "label": "Leaf (2011)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-12",
+      "label": "Qashqai 1.6 dCi (2012)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-13",
+      "label": "X-Trail 1.6 dCi (2014)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-14",
+      "label": "Micra IG-T 90 (2017)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-15",
+      "label": "Patrol 5.6 V8 (2020)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-nissan-16",
+      "label": "Ariya (2022)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-mitsubishi-3000gt-vr-4-1990",
+      "label": "Mitsubishi 3000GT VR-4 (United States/Canada market, 1990 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-mitsubishi-eclipse-gs-t-1995",
+      "label": "Mitsubishi Eclipse GS-T (United States/Canada market, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-mitsubishi-lancer-evolution-vi-1999",
+      "label": "Mitsubishi Lancer Evolution VI (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-mitsubishi-pajero-3-5-gdi-1999",
+      "label": "Mitsubishi Pajero 3.5 GDI (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-mitsubishi-01",
+      "label": "Galant VR-4 (1990)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-02",
+      "label": "FTO GPX (1994)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-03",
+      "label": "Carisma GDI (1997)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-04",
+      "label": "Pajero Evolution (1997)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-05",
+      "label": "Lancer Evolution VIII (2003)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-06",
+      "label": "Colt CZT (2005)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-07",
+      "label": "Grandis 2.4 (2005)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-08",
+      "label": "Outlander 2.0 DI-D (2007)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-09",
+      "label": "Lancer Ralliart (2008)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-10",
+      "label": "ASX 1.8 DI-D (2010)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-mitsubishi-11",
+      "label": "Eclipse Cross 1.5T (2018)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-subaru-svx-1992",
+      "label": "Subaru SVX (United States/Canada market, 1992 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-subaru-impreza-wrx-sti-2002",
+      "label": "Subaru Impreza WRX STI (Europe/United Kingdom market, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-subaru-legacy-3-0r-2004",
+      "label": "Subaru Legacy 3.0R (Europe/United Kingdom market, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-subaru-brz-2012",
+      "label": "Subaru BRZ (Europe/United Kingdom market, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-subaru-01",
+      "label": "Legacy RS Turbo (1990)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-02",
+      "label": "Impreza WRX (1992)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-03",
+      "label": "Legacy GT-B (1996)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-04",
+      "label": "Forester S-Turbo (1998)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-05",
+      "label": "Outback H6 (2001)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-06",
+      "label": "Forester XT (2003)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-07",
+      "label": "Tribeca 3.0 (2006)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-08",
+      "label": "Impreza WRX STI 2.5 (2008)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-09",
+      "label": "Legacy 2.0D (2008)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-10",
+      "label": "Levorg 2.0 GT (2014)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-subaru-11",
+      "label": "WRX STI (2015)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-suzuki-swift-gti-1990",
+      "label": "Suzuki Swift GTi (Europe/United Kingdom market, 1990 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-suzuki-vitara-v6-1995",
+      "label": "Suzuki Vitara V6 (Europe/United Kingdom market, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-suzuki-jimny-1-3-2005",
+      "label": "Suzuki Jimny 1.3 (Europe/United Kingdom market, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-suzuki-kizashi-2-4-2010",
+      "label": "Suzuki Kizashi 2.4 (Europe/United Kingdom market, 2010 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-suzuki-01",
+      "label": "Cappuccino (1991)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-02",
+      "label": "Samurai 1.3 (1992)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-03",
+      "label": "Baleno 1.8 (1996)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-04",
+      "label": "Grand Vitara 2.5 V6 (1998)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-05",
+      "label": "Ignis Sport (2003)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-06",
+      "label": "Grand Vitara 2.7 V6 (2005)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-07",
+      "label": "SX4 2.0 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-08",
+      "label": "Swift Sport 1.6 (2012)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-09",
+      "label": "Vitara S 1.4 BoosterJet (2016)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-10",
+      "label": "Swift Sport 1.4 BoosterJet (2018)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-suzuki-11",
+      "label": "Across Plug-in Hybrid (2020)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-daihatsu-copen-2003",
+      "label": "Daihatsu Copen (Japan market, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-daihatsu-sirion-1-3-sport-2002",
+      "label": "Daihatsu Sirion 1.3 Sport (Europe/United Kingdom market, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-daihatsu-terios-1-5-2006",
+      "label": "Daihatsu Terios 1.5 (Europe/United Kingdom market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-daihatsu-01",
+      "label": "Charade GTti (1990)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-daihatsu-02",
+      "label": "Applause 1.6 (1990)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-daihatsu-03",
+      "label": "Rocky 2.8 TD (1991)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-daihatsu-04",
+      "label": "Move SR-XX (1997)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-daihatsu-05",
+      "label": "YRV Turbo (2001)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-daihatsu-06",
+      "label": "Materia 1.5 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-daihatsu-07",
+      "label": "Rocky 1.0 Turbo (2019)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-chevrolet-corvette-zr-1-1990",
+      "label": "Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-impala-ss-1994",
+      "label": "Chevrolet Impala SS (United States/Canada market, 1994 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-camaro-z28-1998",
+      "label": "Chevrolet Camaro Z28 (United States/Canada market, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-corvette-z06-2001",
+      "label": "Chevrolet Corvette Z06 (United States/Canada market, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-ssr-2003",
+      "label": "Chevrolet SSR (United States/Canada market, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-trailblazer-ss-2006",
+      "label": "Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-corvette-zr1-2009",
+      "label": "Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-camaro-zl1-2012",
+      "label": "Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-corvette-stingray-2014",
+      "label": "Chevrolet Corvette Stingray (United States/Canada market, 2014 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-colorado-2-8-duramax-2016",
+      "label": "Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-camaro-ss-2016",
+      "label": "Chevrolet Camaro SS (United States/Canada market, 2016 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-silverado-1500-6-2-2019",
+      "label": "Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-tahoe-3-0-duramax-2021",
+      "label": "Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-corvette-z06-2023",
+      "label": "Chevrolet Corvette Z06 (United States/Canada market, 2023 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chevrolet-trax-1-2-turbo-2024",
+      "label": "Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-chevrolet-01",
+      "label": "Caprice 5.7 LT1 (1994)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-chevrolet-02",
+      "label": "Monte Carlo SS (2006)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-chevrolet-03",
+      "label": "Avalanche 6.0 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-chevrolet-04",
+      "label": "Volt (2011)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-chevrolet-05",
+      "label": "Sonic RS (2013)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-cadillac-allante-northstar-1993",
+      "label": "Cadillac Allante Northstar (United States/Canada market, 1993 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-seville-sts-1998",
+      "label": "Cadillac Seville STS (United States/Canada market, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-cts-v-2004",
+      "label": "Cadillac CTS-V (United States/Canada market, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-sts-v-2006",
+      "label": "Cadillac STS-V (United States/Canada market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-cts-v-2009",
+      "label": "Cadillac CTS-V (United States/Canada market, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-ats-v-2016",
+      "label": "Cadillac ATS-V (United States/Canada market, 2016 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-ct6-v-2019",
+      "label": "Cadillac CT6-V (United States/Canada market, 2019 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-cadillac-escalade-v-2023",
+      "label": "Cadillac Escalade-V (United States/Canada market, 2023 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-cadillac-01",
+      "label": "DeVille Concours (1994)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-cadillac-02",
+      "label": "XLR-V (2006)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-chrysler-300c-5-7-hemi-2005",
+      "label": "Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chrysler-300c-srt8-2006",
+      "label": "Chrysler 300C SRT8 (United States/Canada market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chrysler-crossfire-srt-6-2005",
+      "label": "Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-chrysler-pacifica-3-6-2017",
+      "label": "Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-dodge-viper-rt-10-1992",
+      "label": "Dodge Viper RT/10 (United States/Canada market, 1992 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-dodge-viper-gts-1996",
+      "label": "Dodge Viper GTS (United States/Canada market, 1996 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-dodge-neon-srt-4-2003",
+      "label": "Dodge Neon SRT-4 (United States/Canada market, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-dodge-challenger-srt8-392-2011",
+      "label": "Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-dodge-challenger-srt-hellcat-2015",
+      "label": "Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-dodge-viper-srt-2013",
+      "label": "Dodge Viper SRT (United States/Canada market, 2013 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-jeep-grand-cherokee-5-9-limited-1998",
+      "label": "Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-jeep-grand-cherokee-srt8-2006",
+      "label": "Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-jeep-wrangler-3-6-2012",
+      "label": "Jeep Wrangler 3.6 (United States/Canada market, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-jeep-grand-cherokee-trackhawk-2018",
+      "label": "Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-jeep-wrangler-2-0-turbo-2018",
+      "label": "Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ram-srt-10-2004",
+      "label": "Ram SRT-10 (United States/Canada market, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ram-1500-ecodiesel-2014",
+      "label": "Ram 1500 EcoDiesel (United States/Canada market, 2014 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ram-1500-trx-2021",
+      "label": "Ram 1500 TRX (United States/Canada market, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-chrysler-dodge-jeep-ram-01",
+      "label": "Dodge Durango SRT (2018)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-chrysler-dodge-jeep-ram-02",
+      "label": "Jeep Gladiator EcoDiesel (2021)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-fiat-barchetta-1995",
+      "label": "Fiat Barchetta (Europe/United Kingdom market, 1995 specification) + Fiat Punto HGT (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-coupe-20v-turbo-1996",
+      "label": "Fiat Coupe 20V Turbo (Europe/United Kingdom market, 1996 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-bravo-hgt-1997",
+      "label": "Fiat Bravo HGT (Europe/United Kingdom market, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-multipla-1-6-1999",
+      "label": "Fiat Multipla 1.6 (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-stilo-abarth-2001",
+      "label": "Fiat Stilo Abarth (Europe/United Kingdom market, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-panda-100hp-2006",
+      "label": "Fiat Panda 100HP (Europe/United Kingdom market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-500-abarth-2008",
+      "label": "Fiat 500 Abarth (Europe/United Kingdom market, 2008 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-punto-evo-abarth-2010",
+      "label": "Fiat Punto Evo Abarth (Europe/United Kingdom market, 2010 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-freemont-3-6-v6-2011",
+      "label": "Fiat Freemont 3.6 V6 (Europe/United Kingdom market, 2011 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-124-spider-2016",
+      "label": "Fiat 124 Spider (Europe/United Kingdom market, 2016 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-tipo-1-4-t-jet-2016",
+      "label": "Fiat Tipo 1.4 T-Jet (Europe/United Kingdom market, 2016 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-ducato-2-3-multijet-2017",
+      "label": "Fiat Ducato 2.3 MultiJet (Europe/United Kingdom market, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-fiat-punto-hgt-1999",
+      "label": "Fiat Punto HGT (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "hold",
+      "reason": "Split after targeted audit: the saved sources conflict on Punto HGT torque (164 N·m versus 158 N·m), so a conflict-free production record cannot be emitted."
+    },
+    {
+      "id": "batch14-hold-fiat-01",
+      "label": "Uno Turbo i.e. (1990)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-fiat-02",
+      "label": "Croma 2.4 MultiJet (2005)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-lancia-delta-hf-integrale-evoluzione-1992",
+      "label": "Lancia Delta HF Integrale Evoluzione (Europe/United Kingdom market, 1992 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-kappa-2-0-turbo-1998",
+      "label": "Lancia Kappa 2.0 Turbo (Europe/United Kingdom market, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-thesis-3-2-v6-2003",
+      "label": "Lancia Thesis 3.2 V6 (Europe/United Kingdom market, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-ypsilon-1-4-16v-2006",
+      "label": "Lancia Ypsilon 1.4 16V (Europe/United Kingdom market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-delta-1-8-di-turbojet-2009",
+      "label": "Lancia Delta 1.8 Di TurboJet (Europe/United Kingdom market, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-thema-3-0-v6-multijet-2011",
+      "label": "Lancia Thema 3.0 V6 MultiJet (Europe/United Kingdom market, 2011 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-voyager-2-8-crd-2012",
+      "label": "Lancia Voyager 2.8 CRD (Europe/United Kingdom market, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-lancia-ypsilon-0-9-twinair-2012",
+      "label": "Lancia Ypsilon 0.9 TwinAir (Europe/United Kingdom market, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-lancia-01",
+      "label": "Dedra Integrale (1991)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-hold-lancia-02",
+      "label": "Lybra 2.4 JTD (1999)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-saab-9000-aero-1993",
+      "label": "Saab 9000 Aero (Europe/United Kingdom market, 1993 specification) + Saab 9-3 Viggen (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-900-turbo-1994",
+      "label": "Saab 900 Turbo (Europe/United Kingdom market, 1994 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-5-aero-2002",
+      "label": "Saab 9-5 Aero (Europe/United Kingdom market, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-3-2-0t-2003",
+      "label": "Saab 9-3 2.0T (Europe/United Kingdom market, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-7x-aero-2008",
+      "label": "Saab 9-7X Aero (United States/Canada market, 2008 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-3-turbo-x-2008",
+      "label": "Saab 9-3 Turbo X (Europe/United Kingdom market, 2008 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-5-2-0t-2010",
+      "label": "Saab 9-5 2.0T (Europe/United Kingdom market, 2010 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-4x-aero-2011",
+      "label": "Saab 9-4X Aero (United States/Canada market, 2011 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-saab-9-3-viggen-1999",
+      "label": "Saab 9-3 Viggen (Europe/United Kingdom market, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-hold-saab-01",
+      "label": "9000 3.0 V6 (1995)",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch14-genesis-g80-5-0-2017",
+      "label": "Genesis G80 5.0 (United States/Canada market, 2017 specification) + Genesis G90 5.0 (United States/Canada market, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-g70-3-3t-2018",
+      "label": "Genesis G70 3.3T (United States/Canada market, 2018 specification) + Genesis G90 3.3T (United States/Canada market, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-g70-2-0t-2018",
+      "label": "Genesis G70 2.0T (United States/Canada market, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-g80-2-5t-2021",
+      "label": "Genesis G80 2.5T (United States/Canada market, 2021 specification) + Genesis GV70 2.5T (United States/Canada market, 2022 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-g80-3-5t-2021",
+      "label": "Genesis G80 3.5T (United States/Canada market, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-gv80-3-0d-2021",
+      "label": "Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-g90-3-5t-2023",
+      "label": "Genesis G90 3.5T (United States/Canada market, 2023 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-genesis-g90-5-0-2017",
+      "label": "Genesis G90 5.0 (United States/Canada market, 2017 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch14-genesis-g80-5-0-2017."
+    },
+    {
+      "id": "batch14-genesis-g90-3-3t-2017",
+      "label": "Genesis G90 3.3T (United States/Canada market, 2017 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch14-genesis-g70-3-3t-2018."
+    },
+    {
+      "id": "batch14-genesis-gv70-2-5t-2022",
+      "label": "Genesis GV70 2.5T (United States/Canada market, 2022 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch14-genesis-g80-2-5t-2021."
+    },
+    {
+      "id": "batch14-ssangyong-korando-3-2-1997",
+      "label": "SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-musso-2-9-td-1998",
+      "label": "SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-rexton-2-7-xdi-2004",
+      "label": "SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification) + SsangYong Rodius 2.7 Xdi (Europe/United Kingdom market, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-kyron-2-0-xdi-2006",
+      "label": "SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification) + SsangYong Actyon 2.0 Xdi (Europe/United Kingdom market, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-korando-2-0-e-xdi-2011",
+      "label": "SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-tivoli-1-6-e-xgi-2015",
+      "label": "SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-musso-2-2-e-xdi-2018",
+      "label": "SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-kgm-torres-1-5-t-gdi-2022",
+      "label": "KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch14-ssangyong-rodius-2-7-xdi-2005",
+      "label": "SsangYong Rodius 2.7 Xdi (Europe/United Kingdom market, 2005 specification)",
+      "outcome": "hold",
+      "reason": "Split after targeted audit: Rexton and Rodius share D27DT identity, but their published calibrations differ and the saved Rodius sources conflict (120/342 versus 121/340)."
+    },
+    {
+      "id": "batch14-ssangyong-actyon-2-0-xdi-2006",
+      "label": "SsangYong Actyon 2.0 Xdi (Europe/United Kingdom market, 2006 specification)",
+      "outcome": "hold",
+      "reason": "Split after targeted audit: both applications use D20DT, but the saved Actyon sources conflict on power (107 kW versus 104 kW), so the candidate remains on hold."
+    }
+  ],
+  "records": [
+    {
+      "id": "batch14-fiat-barchetta-1995",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.7 L Inline-4 naturally aspirated 96 kW / 164 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Barchetta (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 96,
+          "max": 96
+        },
+        "torqueNm": {
+          "min": 164,
+          "max": 164
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-coupe-20v-turbo-1996",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 2.0 L Inline-5 turbocharged 162 kW / 310 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Coupe 20V Turbo (Europe/United Kingdom market, 1996 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 162,
+          "max": 162
+        },
+        "torqueNm": {
+          "min": 310,
+          "max": 310
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-bravo-hgt-1997",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 2.0 L Inline-5 naturally aspirated 108 kW / 186 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Bravo HGT (Europe/United Kingdom market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 108,
+          "max": 108
+        },
+        "torqueNm": {
+          "min": 186,
+          "max": 186
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-multipla-1-6-1999",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.6 L Inline-4 naturally aspirated 76 kW / 145 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Multipla 1.6 (Europe/United Kingdom market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 76,
+          "max": 76
+        },
+        "torqueNm": {
+          "min": 145,
+          "max": 145
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-stilo-abarth-2001",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 2.4 L Inline-5 naturally aspirated 125 kW / 221 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Stilo Abarth (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 125,
+          "max": 125
+        },
+        "torqueNm": {
+          "min": 221,
+          "max": 221
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-panda-100hp-2006",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.4 L Inline-4 naturally aspirated 74 kW / 131 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Panda 100HP (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 74,
+          "max": 74
+        },
+        "torqueNm": {
+          "min": 131,
+          "max": 131
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-500-abarth-2008",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.4 L Inline-4 turbocharged 99 kW / 206 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat 500 Abarth (Europe/United Kingdom market, 2008 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 99,
+          "max": 99
+        },
+        "torqueNm": {
+          "min": 206,
+          "max": 206
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-punto-evo-abarth-2010",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.4 L Inline-4 turbocharged 121 kW / 250 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Punto Evo Abarth (Europe/United Kingdom market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 121,
+          "max": 121
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-freemont-3-6-v6-2011",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 3.6 L V6 naturally aspirated 206 kW / 342 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Freemont 3.6 V6 (Europe/United Kingdom market, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 342,
+          "max": 342
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-124-spider-2016",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.4 L Inline-4 turbocharged 103 kW / 240 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat 124 Spider (Europe/United Kingdom market, 2016 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 103,
+          "max": 103
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-tipo-1-4-t-jet-2016",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 1.4 L Inline-4 turbocharged 88 kW / 215 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Tipo 1.4 T-Jet (Europe/United Kingdom market, 2016 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 88,
+          "max": 88
+        },
+        "torqueNm": {
+          "min": 215,
+          "max": 215
+        }
+      }
+    },
+    {
+      "id": "batch14-fiat-ducato-2-3-multijet-2017",
+      "maker": "Fiat",
+      "regionKey": "europe",
+      "identity": "Fiat 2.3 L Inline-4 turbocharged 96 kW / 320 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Fiat Ducato 2.3 MultiJet (Europe/United Kingdom market, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 96,
+          "max": 96
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-delta-hf-integrale-evoluzione-1992",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 2.0 L Inline-4 turbocharged 155 kW / 304 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Delta HF Integrale Evoluzione (Europe/United Kingdom market, 1992 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 155,
+          "max": 155
+        },
+        "torqueNm": {
+          "min": 304,
+          "max": 304
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-kappa-2-0-turbo-1998",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 2.0 L Inline-5 turbocharged 151 kW / 298 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Kappa 2.0 Turbo (Europe/United Kingdom market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 151,
+          "max": 151
+        },
+        "torqueNm": {
+          "min": 298,
+          "max": 298
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-thesis-3-2-v6-2003",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 3.2 L V6 naturally aspirated 169 kW / 289 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Thesis 3.2 V6 (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 169,
+          "max": 169
+        },
+        "torqueNm": {
+          "min": 289,
+          "max": 289
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-ypsilon-1-4-16v-2006",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 1.4 L Inline-4 naturally aspirated 70 kW / 128 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Ypsilon 1.4 16V (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 70,
+          "max": 70
+        },
+        "torqueNm": {
+          "min": 128,
+          "max": 128
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-delta-1-8-di-turbojet-2009",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 1.7 L Inline-4 turbocharged 147 kW / 320 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Delta 1.8 Di TurboJet (Europe/United Kingdom market, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-thema-3-0-v6-multijet-2011",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 3.0 L V6 turbocharged 176 kW / 550 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Thema 3.0 V6 MultiJet (Europe/United Kingdom market, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 176,
+          "max": 176
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-voyager-2-8-crd-2012",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 2.8 L Inline-4 turbocharged 120 kW / 360 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Voyager 2.8 CRD (Europe/United Kingdom market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 120,
+          "max": 120
+        },
+        "torqueNm": {
+          "min": 360,
+          "max": 360
+        }
+      }
+    },
+    {
+      "id": "batch14-lancia-ypsilon-0-9-twinair-2012",
+      "maker": "Lancia",
+      "regionKey": "europe",
+      "identity": "Lancia 0.9 L Inline-2 turbocharged 63 kW / 145 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lancia Ypsilon 0.9 TwinAir (Europe/United Kingdom market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 63,
+          "max": 63
+        },
+        "torqueNm": {
+          "min": 145,
+          "max": 145
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9000-aero-1993",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.3 L Inline-4 turbocharged 165 kW / 342 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9000 Aero (Europe/United Kingdom market, 1993 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 165,
+          "max": 165
+        },
+        "torqueNm": {
+          "min": 342,
+          "max": 342
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-900-turbo-1994",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.0 L Inline-4 turbocharged 136 kW / 263 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 900 Turbo (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 136,
+          "max": 136
+        },
+        "torqueNm": {
+          "min": 263,
+          "max": 263
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-5-aero-2002",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.3 L Inline-4 turbocharged 184 kW / 350 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-5 Aero (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 184,
+          "max": 184
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-3-2-0t-2003",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.0 L Inline-4 turbocharged 154 kW / 300 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-3 2.0T (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 154,
+          "max": 154
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-7x-aero-2008",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 6.0 L V8 naturally aspirated 291 kW / 542 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-7X Aero (United States/Canada market, 2008 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 291,
+          "max": 291
+        },
+        "torqueNm": {
+          "min": 542,
+          "max": 542
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-3-turbo-x-2008",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.8 L V6 turbocharged 206 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-3 Turbo X (Europe/United Kingdom market, 2008 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-5-2-0t-2010",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.0 L Inline-4 turbocharged 162 kW / 350 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-5 2.0T (Europe/United Kingdom market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 162,
+          "max": 162
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-4x-aero-2011",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.8 L V6 turbocharged 221 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-4X Aero (United States/Canada market, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 221,
+          "max": 221
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch14-saab-9-3-viggen-1999",
+      "maker": "Saab",
+      "regionKey": "europe",
+      "identity": "Saab 2.3 L Inline-4 turbocharged 169 kW / 350 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Saab 9-3 Viggen (Europe/United Kingdom market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 169,
+          "max": 169
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch14-toyota-supra-turbo-1993",
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "identity": "Toyota 3.0 L Inline-6 twin turbocharged 243 kW / 441 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Toyota Supra Turbo (Europe/United Kingdom market, 1993 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 243,
+          "max": 243
+        },
+        "torqueNm": {
+          "min": 441,
+          "max": 441
+        }
+      }
+    },
+    {
+      "id": "batch14-toyota-celica-gt-four-1994",
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "identity": "3S-GTE",
+      "identityType": "exactCode",
+      "code": "3S-GTE",
+      "applications": [
+        "Toyota Celica GT-Four (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 178,
+          "max": 178
+        },
+        "torqueNm": {
+          "min": 302,
+          "max": 302
+        }
+      }
+    },
+    {
+      "id": "batch14-toyota-mr2-gt-1994",
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "identity": "3S-GTE",
+      "identityType": "exactCode",
+      "code": "3S-GTE",
+      "applications": [
+        "Toyota MR2 GT (Japan market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180
+        },
+        "torqueNm": {
+          "min": 304,
+          "max": 304
+        }
+      }
+    },
+    {
+      "id": "batch14-toyota-land-cruiser-4-7-v8-1998",
+      "maker": "Toyota",
+      "regionKey": "japan",
+      "identity": "2UZ-FE",
+      "identityType": "exactCode",
+      "code": "2UZ-FE",
+      "applications": [
+        "Toyota Land Cruiser 4.7 V8 (Europe/United Kingdom market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 173,
+          "max": 173
+        },
+        "torqueNm": {
+          "min": 434,
+          "max": 434
+        }
+      }
+    },
+    {
+      "id": "batch14-nissan-300zx-twin-turbo-1990",
+      "maker": "Nissan",
+      "regionKey": "japan",
+      "identity": "VG30DETT",
+      "identityType": "exactCode",
+      "code": "VG30DETT",
+      "applications": [
+        "Nissan 300ZX Twin Turbo (United States/Canada market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 208,
+          "max": 208
+        },
+        "torqueNm": {
+          "min": 384,
+          "max": 384
+        }
+      }
+    },
+    {
+      "id": "batch14-nissan-skyline-gt-r-1999",
+      "maker": "Nissan",
+      "regionKey": "japan",
+      "identity": "RB26DETT",
+      "identityType": "exactCode",
+      "code": "RB26DETT",
+      "applications": [
+        "Nissan Skyline GT-R (Japan market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 392,
+          "max": 392
+        }
+      }
+    },
+    {
+      "id": "batch14-nissan-350z-2003",
+      "maker": "Nissan",
+      "regionKey": "japan",
+      "identity": "VQ35DE",
+      "identityType": "exactCode",
+      "code": "VQ35DE",
+      "applications": [
+        "Nissan 350Z (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 363,
+          "max": 363
+        }
+      }
+    },
+    {
+      "id": "batch14-nissan-juke-nismo-rs-2015",
+      "maker": "Nissan",
+      "regionKey": "japan",
+      "identity": "MR16DDT",
+      "identityType": "exactCode",
+      "code": "MR16DDT",
+      "applications": [
+        "Nissan Juke Nismo RS (Europe/United Kingdom market, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 160,
+          "max": 160
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch14-mitsubishi-3000gt-vr-4-1990",
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "identity": "6G72",
+      "identityType": "exactCode",
+      "code": "6G72",
+      "applications": [
+        "Mitsubishi 3000GT VR-4 (United States/Canada market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 210,
+          "max": 210
+        },
+        "torqueNm": {
+          "min": 407,
+          "max": 407
+        }
+      }
+    },
+    {
+      "id": "batch14-mitsubishi-eclipse-gs-t-1995",
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "identity": "4G63",
+      "identityType": "exactCode",
+      "code": "4G63",
+      "applications": [
+        "Mitsubishi Eclipse GS-T (United States/Canada market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 157,
+          "max": 157
+        },
+        "torqueNm": {
+          "min": 290,
+          "max": 290
+        }
+      }
+    },
+    {
+      "id": "batch14-mitsubishi-lancer-evolution-vi-1999",
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "identity": "4G63",
+      "identityType": "exactCode",
+      "code": "4G63",
+      "applications": [
+        "Mitsubishi Lancer Evolution VI (Europe/United Kingdom market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 373,
+          "max": 373
+        }
+      }
+    },
+    {
+      "id": "batch14-mitsubishi-pajero-3-5-gdi-1999",
+      "maker": "Mitsubishi",
+      "regionKey": "japan",
+      "identity": "6G74",
+      "identityType": "exactCode",
+      "code": "6G74",
+      "applications": [
+        "Mitsubishi Pajero 3.5 GDI (Europe/United Kingdom market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 149,
+          "max": 149
+        },
+        "torqueNm": {
+          "min": 318,
+          "max": 318
+        }
+      }
+    },
+    {
+      "id": "batch14-subaru-svx-1992",
+      "maker": "Subaru",
+      "regionKey": "japan",
+      "identity": "EG33",
+      "identityType": "exactCode",
+      "code": "EG33",
+      "applications": [
+        "Subaru SVX (United States/Canada market, 1992 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 169,
+          "max": 169
+        },
+        "torqueNm": {
+          "min": 309,
+          "max": 309
+        }
+      }
+    },
+    {
+      "id": "batch14-subaru-impreza-wrx-sti-2002",
+      "maker": "Subaru",
+      "regionKey": "japan",
+      "identity": "EJ20",
+      "identityType": "exactCode",
+      "code": "EJ20",
+      "applications": [
+        "Subaru Impreza WRX STI (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 195,
+          "max": 195
+        },
+        "torqueNm": {
+          "min": 343,
+          "max": 343
+        }
+      }
+    },
+    {
+      "id": "batch14-subaru-legacy-3-0r-2004",
+      "maker": "Subaru",
+      "regionKey": "japan",
+      "identity": "EZ30",
+      "identityType": "exactCode",
+      "code": "EZ30",
+      "applications": [
+        "Subaru Legacy 3.0R (Europe/United Kingdom market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180
+        },
+        "torqueNm": {
+          "min": 297,
+          "max": 297
+        }
+      }
+    },
+    {
+      "id": "batch14-subaru-brz-2012",
+      "maker": "Subaru",
+      "regionKey": "japan",
+      "identity": "FA20",
+      "identityType": "exactCode",
+      "code": "FA20",
+      "applications": [
+        "Subaru BRZ (Europe/United Kingdom market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 205,
+          "max": 205
+        }
+      }
+    },
+    {
+      "id": "batch14-suzuki-swift-gti-1990",
+      "maker": "Suzuki",
+      "regionKey": "japan",
+      "identity": "G13B",
+      "identityType": "exactCode",
+      "code": "G13B",
+      "applications": [
+        "Suzuki Swift GTi (Europe/United Kingdom market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 74,
+          "max": 74
+        },
+        "torqueNm": {
+          "min": 113,
+          "max": 113
+        }
+      }
+    },
+    {
+      "id": "batch14-suzuki-vitara-v6-1995",
+      "maker": "Suzuki",
+      "regionKey": "japan",
+      "identity": "H20A",
+      "identityType": "exactCode",
+      "code": "H20A",
+      "applications": [
+        "Suzuki Vitara V6 (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 100,
+          "max": 100
+        },
+        "torqueNm": {
+          "min": 172,
+          "max": 172
+        }
+      }
+    },
+    {
+      "id": "batch14-suzuki-jimny-1-3-2005",
+      "maker": "Suzuki",
+      "regionKey": "japan",
+      "identity": "M13A",
+      "identityType": "exactCode",
+      "code": "M13A",
+      "applications": [
+        "Suzuki Jimny 1.3 (Europe/United Kingdom market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 63,
+          "max": 63
+        },
+        "torqueNm": {
+          "min": 110,
+          "max": 110
+        }
+      }
+    },
+    {
+      "id": "batch14-suzuki-kizashi-2-4-2010",
+      "maker": "Suzuki",
+      "regionKey": "japan",
+      "identity": "J24B",
+      "identityType": "exactCode",
+      "code": "J24B",
+      "applications": [
+        "Suzuki Kizashi 2.4 (Europe/United Kingdom market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 131,
+          "max": 131
+        },
+        "torqueNm": {
+          "min": 230,
+          "max": 230
+        }
+      }
+    },
+    {
+      "id": "batch14-daihatsu-copen-2003",
+      "maker": "Daihatsu",
+      "regionKey": "japan",
+      "identity": "JB-DET",
+      "identityType": "exactCode",
+      "code": "JB-DET",
+      "applications": [
+        "Daihatsu Copen (Japan market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 47,
+          "max": 47
+        },
+        "torqueNm": {
+          "min": 110,
+          "max": 110
+        }
+      }
+    },
+    {
+      "id": "batch14-daihatsu-sirion-1-3-sport-2002",
+      "maker": "Daihatsu",
+      "regionKey": "japan",
+      "identity": "K3-VE",
+      "identityType": "exactCode",
+      "code": "K3-VE",
+      "applications": [
+        "Daihatsu Sirion 1.3 Sport (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 75,
+          "max": 75
+        },
+        "torqueNm": {
+          "min": 120,
+          "max": 120
+        }
+      }
+    },
+    {
+      "id": "batch14-daihatsu-terios-1-5-2006",
+      "maker": "Daihatsu",
+      "regionKey": "japan",
+      "identity": "3SZ-VE",
+      "identityType": "exactCode",
+      "code": "3SZ-VE",
+      "applications": [
+        "Daihatsu Terios 1.5 (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 77,
+          "max": 77
+        },
+        "torqueNm": {
+          "min": 140,
+          "max": 140
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-g80-5-0-2017",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 5.0 L V8 naturally aspirated 313 kW / 519 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis G80 5.0 (United States/Canada market, 2017 specification)",
+        "Genesis G90 5.0 (United States/Canada market, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 313,
+          "max": 313
+        },
+        "torqueNm": {
+          "min": 519,
+          "max": 519
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-g70-3-3t-2018",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 3.3 L V6 twin turbocharged 272 kW / 510 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis G70 3.3T (United States/Canada market, 2018 specification)",
+        "Genesis G90 3.3T (United States/Canada market, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 272,
+          "max": 272
+        },
+        "torqueNm": {
+          "min": 510,
+          "max": 510
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-g70-2-0t-2018",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 2.0 L Inline-4 turbocharged 185 kW / 353 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis G70 2.0T (United States/Canada market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 185,
+          "max": 185
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-g80-2-5t-2021",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 2.5 L Inline-4 turbocharged 224 kW / 422 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis G80 2.5T (United States/Canada market, 2021 specification)",
+        "Genesis GV70 2.5T (United States/Canada market, 2022 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 422,
+          "max": 422
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-g80-3-5t-2021",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 3.5 L V6 twin turbocharged 279 kW / 530 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis G80 3.5T (United States/Canada market, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 279,
+          "max": 279
+        },
+        "torqueNm": {
+          "min": 530,
+          "max": 530
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-gv80-3-0d-2021",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 3.0 L Inline-6 turbocharged 204 kW / 588 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis GV80 3.0D (Europe/United Kingdom market, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 204,
+          "max": 204
+        },
+        "torqueNm": {
+          "min": 588,
+          "max": 588
+        }
+      }
+    },
+    {
+      "id": "batch14-genesis-g90-3-5t-2023",
+      "maker": "Genesis",
+      "regionKey": "korea",
+      "identity": "Genesis 3.5 L V6 twin turbocharged 280 kW / 530 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Genesis G90 3.5T (United States/Canada market, 2023 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 280,
+          "max": 280
+        },
+        "torqueNm": {
+          "min": 530,
+          "max": 530
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-korando-3-2-1997",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 3.2 L Inline-6 naturally aspirated 162 kW / 307 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Korando 3.2 (Europe/United Kingdom market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 162,
+          "max": 162
+        },
+        "torqueNm": {
+          "min": 307,
+          "max": 307
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-musso-2-9-td-1998",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 2.9 L Inline-5 turbocharged 88 kW / 250 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Musso 2.9 TD (Europe/United Kingdom market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 88,
+          "max": 88
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-rexton-2-7-xdi-2004",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 2.7 L Inline-5 turbocharged 120 kW / 345 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Rexton 2.7 Xdi (Europe/United Kingdom market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 120,
+          "max": 120
+        },
+        "torqueNm": {
+          "min": 345,
+          "max": 345
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-kyron-2-0-xdi-2006",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 2.0 L Inline-4 turbocharged 104 kW / 310 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Kyron 2.0 Xdi (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 104,
+          "max": 104
+        },
+        "torqueNm": {
+          "min": 310,
+          "max": 310
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-korando-2-0-e-xdi-2011",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 2.0 L Inline-4 turbocharged 129 kW / 360 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Korando 2.0 e-XDi (Europe/United Kingdom market, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 129,
+          "max": 129
+        },
+        "torqueNm": {
+          "min": 360,
+          "max": 360
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-tivoli-1-6-e-xgi-2015",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 1.6 L Inline-4 naturally aspirated 94 kW / 160 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Tivoli 1.6 e-XGi (Europe/United Kingdom market, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 94,
+          "max": 94
+        },
+        "torqueNm": {
+          "min": 160,
+          "max": 160
+        }
+      }
+    },
+    {
+      "id": "batch14-ssangyong-musso-2-2-e-xdi-2018",
+      "maker": "SsangYong",
+      "regionKey": "korea",
+      "identity": "SsangYong 2.2 L Inline-4 turbocharged 133 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "SsangYong Musso 2.2 e-XDi (Europe/United Kingdom market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 133,
+          "max": 133
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch14-kgm-torres-1-5-t-gdi-2022",
+      "maker": "KGM",
+      "regionKey": "korea",
+      "identity": "KGM 1.5 L Inline-4 turbocharged 120 kW / 280 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "KGM Torres 1.5 T-GDi (Europe/United Kingdom market, 2022 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 120,
+          "max": 120
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-corvette-zr-1-1990",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LT5",
+      "identityType": "exactCode",
+      "code": "LT5",
+      "applications": [
+        "Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 280,
+          "max": 280
+        },
+        "torqueNm": {
+          "min": 502,
+          "max": 502
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-impala-ss-1994",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LT1",
+      "identityType": "exactCode",
+      "code": "LT1",
+      "applications": [
+        "Chevrolet Impala SS (United States/Canada market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194
+        },
+        "torqueNm": {
+          "min": 447,
+          "max": 447
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-camaro-z28-1998",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LS1",
+      "identityType": "exactCode",
+      "code": "LS1",
+      "applications": [
+        "Chevrolet Camaro Z28 (United States/Canada market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 227,
+          "max": 227
+        },
+        "torqueNm": {
+          "min": 454,
+          "max": 454
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-corvette-z06-2001",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LS6",
+      "identityType": "exactCode",
+      "code": "LS6",
+      "applications": [
+        "Chevrolet Corvette Z06 (United States/Canada market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 287,
+          "max": 287
+        },
+        "torqueNm": {
+          "min": 522,
+          "max": 522
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-ssr-2003",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LM4",
+      "identityType": "exactCode",
+      "code": "LM4",
+      "applications": [
+        "Chevrolet SSR (United States/Canada market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 449,
+          "max": 449
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-trailblazer-ss-2006",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LS2",
+      "identityType": "exactCode",
+      "code": "LS2",
+      "applications": [
+        "Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 295,
+          "max": 295
+        },
+        "torqueNm": {
+          "min": 542,
+          "max": 542
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-corvette-zr1-2009",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LS9",
+      "identityType": "exactCode",
+      "code": "LS9",
+      "applications": [
+        "Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 476,
+          "max": 476
+        },
+        "torqueNm": {
+          "min": 819,
+          "max": 819
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-camaro-zl1-2012",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LSA",
+      "identityType": "exactCode",
+      "code": "LSA",
+      "applications": [
+        "Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 432,
+          "max": 432
+        },
+        "torqueNm": {
+          "min": 754,
+          "max": 754
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-corvette-stingray-2014",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LT1",
+      "identityType": "exactCode",
+      "code": "LT1",
+      "applications": [
+        "Chevrolet Corvette Stingray (United States/Canada market, 2014 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 339,
+          "max": 339
+        },
+        "torqueNm": {
+          "min": 624,
+          "max": 624
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-colorado-2-8-duramax-2016",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LWN",
+      "identityType": "exactCode",
+      "code": "LWN",
+      "applications": [
+        "Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 135,
+          "max": 135
+        },
+        "torqueNm": {
+          "min": 500,
+          "max": 500
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-camaro-ss-2016",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LT1",
+      "identityType": "exactCode",
+      "code": "LT1",
+      "applications": [
+        "Chevrolet Camaro SS (United States/Canada market, 2016 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 339,
+          "max": 339
+        },
+        "torqueNm": {
+          "min": 617,
+          "max": 617
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-silverado-1500-6-2-2019",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "L87",
+      "identityType": "exactCode",
+      "code": "L87",
+      "applications": [
+        "Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 313,
+          "max": 313
+        },
+        "torqueNm": {
+          "min": 624,
+          "max": 624
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-tahoe-3-0-duramax-2021",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LM2",
+      "identityType": "exactCode",
+      "code": "LM2",
+      "applications": [
+        "Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 207,
+          "max": 207
+        },
+        "torqueNm": {
+          "min": 623,
+          "max": 623
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-corvette-z06-2023",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LT6",
+      "identityType": "exactCode",
+      "code": "LT6",
+      "applications": [
+        "Chevrolet Corvette Z06 (United States/Canada market, 2023 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 500,
+          "max": 500
+        },
+        "torqueNm": {
+          "min": 623,
+          "max": 623
+        }
+      }
+    },
+    {
+      "id": "batch14-chevrolet-trax-1-2-turbo-2024",
+      "maker": "Chevrolet",
+      "regionKey": "north-america",
+      "identity": "LIH",
+      "identityType": "exactCode",
+      "code": "LIH",
+      "applications": [
+        "Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 102,
+          "max": 102
+        },
+        "torqueNm": {
+          "min": 220,
+          "max": 220
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-allante-northstar-1993",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "L37",
+      "identityType": "exactCode",
+      "code": "L37",
+      "applications": [
+        "Cadillac Allante Northstar (United States/Canada market, 1993 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 220,
+          "max": 220
+        },
+        "torqueNm": {
+          "min": 393,
+          "max": 393
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-seville-sts-1998",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "L37",
+      "identityType": "exactCode",
+      "code": "L37",
+      "applications": [
+        "Cadillac Seville STS (United States/Canada market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-cts-v-2004",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "LS6",
+      "identityType": "exactCode",
+      "code": "LS6",
+      "applications": [
+        "Cadillac CTS-V (United States/Canada market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 298,
+          "max": 298
+        },
+        "torqueNm": {
+          "min": 536,
+          "max": 536
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-sts-v-2006",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "LC3",
+      "identityType": "exactCode",
+      "code": "LC3",
+      "applications": [
+        "Cadillac STS-V (United States/Canada market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 350,
+          "max": 350
+        },
+        "torqueNm": {
+          "min": 595,
+          "max": 595
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-cts-v-2009",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "LSA",
+      "identityType": "exactCode",
+      "code": "LSA",
+      "applications": [
+        "Cadillac CTS-V (United States/Canada market, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 415,
+          "max": 415
+        },
+        "torqueNm": {
+          "min": 747,
+          "max": 747
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-ats-v-2016",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "LF4",
+      "identityType": "exactCode",
+      "code": "LF4",
+      "applications": [
+        "Cadillac ATS-V (United States/Canada market, 2016 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 346,
+          "max": 346
+        },
+        "torqueNm": {
+          "min": 603,
+          "max": 603
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-ct6-v-2019",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "LTA",
+      "identityType": "exactCode",
+      "code": "LTA",
+      "applications": [
+        "Cadillac CT6-V (United States/Canada market, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 410,
+          "max": 410
+        },
+        "torqueNm": {
+          "min": 868,
+          "max": 868
+        }
+      }
+    },
+    {
+      "id": "batch14-cadillac-escalade-v-2023",
+      "maker": "Cadillac",
+      "regionKey": "north-america",
+      "identity": "LT4",
+      "identityType": "exactCode",
+      "code": "LT4",
+      "applications": [
+        "Cadillac Escalade-V (United States/Canada market, 2023 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 508,
+          "max": 508
+        },
+        "torqueNm": {
+          "min": 885,
+          "max": 885
+        }
+      }
+    },
+    {
+      "id": "batch14-chrysler-300c-5-7-hemi-2005",
+      "maker": "Chrysler",
+      "regionKey": "north-america",
+      "identity": "Chrysler 5.7 L V8 naturally aspirated 250 kW / 525 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 525,
+          "max": 525
+        }
+      }
+    },
+    {
+      "id": "batch14-chrysler-300c-srt8-2006",
+      "maker": "Chrysler",
+      "regionKey": "north-america",
+      "identity": "Chrysler 6.1 L V8 naturally aspirated 317 kW / 569 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Chrysler 300C SRT8 (United States/Canada market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 317,
+          "max": 317
+        },
+        "torqueNm": {
+          "min": 569,
+          "max": 569
+        }
+      }
+    },
+    {
+      "id": "batch14-chrysler-crossfire-srt-6-2005",
+      "maker": "Chrysler",
+      "regionKey": "north-america",
+      "identity": "Chrysler 3.2 L V6 supercharged 246 kW / 420 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 246,
+          "max": 246
+        },
+        "torqueNm": {
+          "min": 420,
+          "max": 420
+        }
+      }
+    },
+    {
+      "id": "batch14-chrysler-pacifica-3-6-2017",
+      "maker": "Chrysler",
+      "regionKey": "north-america",
+      "identity": "Chrysler 3.6 L V6 naturally aspirated 214 kW / 355 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 214,
+          "max": 214
+        },
+        "torqueNm": {
+          "min": 355,
+          "max": 355
+        }
+      }
+    },
+    {
+      "id": "batch14-dodge-viper-rt-10-1992",
+      "maker": "Dodge",
+      "regionKey": "north-america",
+      "identity": "Dodge 8.0 L V10 naturally aspirated 298 kW / 630 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dodge Viper RT/10 (United States/Canada market, 1992 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 298,
+          "max": 298
+        },
+        "torqueNm": {
+          "min": 630,
+          "max": 630
+        }
+      }
+    },
+    {
+      "id": "batch14-dodge-viper-gts-1996",
+      "maker": "Dodge",
+      "regionKey": "north-america",
+      "identity": "Dodge 8.0 L V10 naturally aspirated 335 kW / 664 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dodge Viper GTS (United States/Canada market, 1996 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 335,
+          "max": 335
+        },
+        "torqueNm": {
+          "min": 664,
+          "max": 664
+        }
+      }
+    },
+    {
+      "id": "batch14-dodge-neon-srt-4-2003",
+      "maker": "Dodge",
+      "regionKey": "north-america",
+      "identity": "Dodge 2.4 L Inline-4 turbocharged 160 kW / 332 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dodge Neon SRT-4 (United States/Canada market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 160,
+          "max": 160
+        },
+        "torqueNm": {
+          "min": 332,
+          "max": 332
+        }
+      }
+    },
+    {
+      "id": "batch14-dodge-challenger-srt8-392-2011",
+      "maker": "Dodge",
+      "regionKey": "north-america",
+      "identity": "Dodge 6.4 L V8 naturally aspirated 350 kW / 637 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 350,
+          "max": 350
+        },
+        "torqueNm": {
+          "min": 637,
+          "max": 637
+        }
+      }
+    },
+    {
+      "id": "batch14-dodge-challenger-srt-hellcat-2015",
+      "maker": "Dodge",
+      "regionKey": "north-america",
+      "identity": "Dodge 6.2 L V8 supercharged 527 kW / 881 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 527,
+          "max": 527
+        },
+        "torqueNm": {
+          "min": 881,
+          "max": 881
+        }
+      }
+    },
+    {
+      "id": "batch14-dodge-viper-srt-2013",
+      "maker": "Dodge",
+      "regionKey": "north-america",
+      "identity": "Dodge 8.4 L V10 naturally aspirated 477 kW / 814 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dodge Viper SRT (United States/Canada market, 2013 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 477,
+          "max": 477
+        },
+        "torqueNm": {
+          "min": 814,
+          "max": 814
+        }
+      }
+    },
+    {
+      "id": "batch14-jeep-grand-cherokee-5-9-limited-1998",
+      "maker": "Jeep",
+      "regionKey": "north-america",
+      "identity": "Jeep 5.9 L V8 naturally aspirated 183 kW / 468 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 183,
+          "max": 183
+        },
+        "torqueNm": {
+          "min": 468,
+          "max": 468
+        }
+      }
+    },
+    {
+      "id": "batch14-jeep-grand-cherokee-srt8-2006",
+      "maker": "Jeep",
+      "regionKey": "north-america",
+      "identity": "Jeep 6.1 L V8 naturally aspirated 313 kW / 569 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 313,
+          "max": 313
+        },
+        "torqueNm": {
+          "min": 569,
+          "max": 569
+        }
+      }
+    },
+    {
+      "id": "batch14-jeep-wrangler-3-6-2012",
+      "maker": "Jeep",
+      "regionKey": "north-america",
+      "identity": "Jeep 3.6 L V6 naturally aspirated 209 kW / 353 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jeep Wrangler 3.6 (United States/Canada market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 209,
+          "max": 209
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch14-jeep-grand-cherokee-trackhawk-2018",
+      "maker": "Jeep",
+      "regionKey": "north-america",
+      "identity": "Jeep 6.2 L V8 supercharged 527 kW / 875 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 527,
+          "max": 527
+        },
+        "torqueNm": {
+          "min": 875,
+          "max": 875
+        }
+      }
+    },
+    {
+      "id": "batch14-jeep-wrangler-2-0-turbo-2018",
+      "maker": "Jeep",
+      "regionKey": "north-america",
+      "identity": "Jeep 2.0 L Inline-4 turbocharged 200 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 200,
+          "max": 200
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch14-ram-srt-10-2004",
+      "maker": "Ram",
+      "regionKey": "north-america",
+      "identity": "Ram 8.3 L V10 naturally aspirated 373 kW / 712 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ram SRT-10 (United States/Canada market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 373,
+          "max": 373
+        },
+        "torqueNm": {
+          "min": 712,
+          "max": 712
+        }
+      }
+    },
+    {
+      "id": "batch14-ram-1500-ecodiesel-2014",
+      "maker": "Ram",
+      "regionKey": "north-america",
+      "identity": "Ram 3.0 L V6 turbocharged 179 kW / 569 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ram 1500 EcoDiesel (United States/Canada market, 2014 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 179,
+          "max": 179
+        },
+        "torqueNm": {
+          "min": 569,
+          "max": 569
+        }
+      }
+    },
+    {
+      "id": "batch14-ram-1500-trx-2021",
+      "maker": "Ram",
+      "regionKey": "north-america",
+      "identity": "Ram 6.2 L V8 supercharged 523 kW / 881 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ram 1500 TRX (United States/Canada market, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 523,
+          "max": 523
+        },
+        "torqueNm": {
+          "min": 881,
+          "max": 881
+        }
+      }
+    }
+  ]
+}
