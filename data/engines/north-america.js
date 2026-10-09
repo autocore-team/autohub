@@ -11738,5 +11738,8974 @@ window.AUTOHUB_ENGINE_DATA_REGIONS["north-america"] = [
         }
       ]
     }
+  },
+  {
+    "id": "batch14-chevrolet-corvette-zr-1-1990",
+    "identity": {
+      "type": "exactCode",
+      "value": "LT5"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "1990",
+    "displacement": "5.7 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.7 L; Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT5; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.7 L; Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT5; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.7 L; Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT5; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.7 L; Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT5; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 280,
+        "max": 280
+      },
+      "torqueNm": {
+        "min": 502,
+        "max": 502
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-corvette-zr-1-1990-ency",
+        "batch14-chevrolet-corvette-zr-1-1990-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification)"
+        ],
+        "years": {
+          "from": 1990,
+          "to": 1990
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-corvette-zr-1-1990-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1990 Chevrolet Corvette ZR-1 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1990,
+          "url": "https://www.encycarpedia.com/chevrolet/90-corvette-zr-1-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 280,
+              "max": 280
+            },
+            "performance.torqueNm": {
+              "min": 502,
+              "max": 502
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 280 kW and 502 N·m. Both publications identify engine code LT5.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification)"
+            ],
+            "years": {
+              "from": 1990,
+              "to": 1990
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT5"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-corvette-zr-1-1990-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1990 Chevrolet Corvette ZR-1 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1990,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_corvette.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 280,
+              "max": 280
+            },
+            "performance.torqueNm": {
+              "min": 502,
+              "max": 502
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 280 kW and 502 N·m. Both publications identify engine code LT5.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette ZR-1 (United States/Canada market, 1990 specification)"
+            ],
+            "years": {
+              "from": 1990,
+              "to": 1990
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT5"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LT5"
+  },
+  {
+    "id": "batch14-chevrolet-impala-ss-1994",
+    "identity": {
+      "type": "exactCode",
+      "value": "LT1"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "1994",
+    "displacement": "5.7 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Impala SS (United States/Canada market, 1994 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Impala SS (United States/Canada market, 1994 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Impala SS (United States/Canada market, 1994 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Impala SS (United States/Canada market, 1994 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Impala SS (United States/Canada market, 1994 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 194,
+        "max": 194
+      },
+      "torqueNm": {
+        "min": 447,
+        "max": 447
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-impala-ss-1994-ency",
+        "batch14-chevrolet-impala-ss-1994-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Impala SS (United States/Canada market, 1994 specification)"
+        ],
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-impala-ss-1994-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1994 Chevrolet Impala SS technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1994,
+          "url": "https://www.encycarpedia.com/chevrolet/94-impala-ss-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 194,
+              "max": 194
+            },
+            "performance.torqueNm": {
+              "min": 447,
+              "max": 447
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 194 kW and 447 N·m. Both publications identify engine code LT1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Impala SS (United States/Canada market, 1994 specification)"
+            ],
+            "years": {
+              "from": 1994,
+              "to": 1994
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT1"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-impala-ss-1994-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1994 Chevrolet Impala SS technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1994,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_impala.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 194,
+              "max": 194
+            },
+            "performance.torqueNm": {
+              "min": 447,
+              "max": 447
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 194 kW and 447 N·m. Both publications identify engine code LT1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Impala SS (United States/Canada market, 1994 specification)"
+            ],
+            "years": {
+              "from": 1994,
+              "to": 1994
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT1"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LT1"
+  },
+  {
+    "id": "batch14-chevrolet-camaro-z28-1998",
+    "identity": {
+      "type": "exactCode",
+      "value": "LS1"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "1998",
+    "displacement": "5.7 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Camaro Z28 (United States/Canada market, 1998 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Camaro Z28 (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS1; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Camaro Z28 (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS1; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Camaro Z28 (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS1; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Camaro Z28 (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS1; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 227,
+        "max": 227
+      },
+      "torqueNm": {
+        "min": 454,
+        "max": 454
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-camaro-z28-1998-ency",
+        "batch14-chevrolet-camaro-z28-1998-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Camaro Z28 (United States/Canada market, 1998 specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-camaro-z28-1998-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Chevrolet Camaro Z28 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1998,
+          "url": "https://www.encycarpedia.com/chevrolet/98-camaro-z28-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 227,
+              "max": 227
+            },
+            "performance.torqueNm": {
+              "min": 454,
+              "max": 454
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 227 kW and 454 N·m. Both publications identify engine code LS1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Camaro Z28 (United States/Canada market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS1"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-camaro-z28-1998-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Chevrolet Camaro Z28 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1998,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_camaro.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 227,
+              "max": 227
+            },
+            "performance.torqueNm": {
+              "min": 454,
+              "max": 454
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 227 kW and 454 N·m. Both publications identify engine code LS1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Camaro Z28 (United States/Canada market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS1"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LS1"
+  },
+  {
+    "id": "batch14-chevrolet-corvette-z06-2001",
+    "identity": {
+      "type": "exactCode",
+      "value": "LS6"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2001",
+    "displacement": "5.7 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Corvette Z06 (United States/Canada market, 2001 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Corvette Z06 (United States/Canada market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Corvette Z06 (United States/Canada market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Corvette Z06 (United States/Canada market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chevrolet Corvette Z06 (United States/Canada market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 287,
+        "max": 287
+      },
+      "torqueNm": {
+        "min": 522,
+        "max": 522
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-corvette-z06-2001-ency",
+        "batch14-chevrolet-corvette-z06-2001-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Corvette Z06 (United States/Canada market, 2001 specification)"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-corvette-z06-2001-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2001 Chevrolet Corvette Z06 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2001,
+          "url": "https://www.encycarpedia.com/chevrolet/01-corvette-z06-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 287,
+              "max": 287
+            },
+            "performance.torqueNm": {
+              "min": 522,
+              "max": 522
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 287 kW and 522 N·m. Both publications identify engine code LS6.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette Z06 (United States/Canada market, 2001 specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS6"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-corvette-z06-2001-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2001 Chevrolet Corvette Z06 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2001,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_corvette.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 287,
+              "max": 287
+            },
+            "performance.torqueNm": {
+              "min": 522,
+              "max": 522
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 287 kW and 522 N·m. Both publications identify engine code LS6.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette Z06 (United States/Canada market, 2001 specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS6"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LS6"
+  },
+  {
+    "id": "batch14-chevrolet-ssr-2003",
+    "identity": {
+      "type": "exactCode",
+      "value": "LM4"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2003",
+    "displacement": "5.3 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet SSR (United States/Canada market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.3 L; Chevrolet SSR (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM4; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.3 L; Chevrolet SSR (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM4; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.3 L; Chevrolet SSR (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM4; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.3 L; Chevrolet SSR (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM4; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 224,
+        "max": 224
+      },
+      "torqueNm": {
+        "min": 449,
+        "max": 449
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-ssr-2003-ency",
+        "batch14-chevrolet-ssr-2003-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet SSR (United States/Canada market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-ssr-2003-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Chevrolet SSR technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2003,
+          "url": "https://www.encycarpedia.com/chevrolet/03-ssr-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 449,
+              "max": 449
+            }
+          },
+          "pageNotes": [
+            "5.3 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 449 N·m. Both publications identify engine code LM4.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet SSR (United States/Canada market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LM4"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-ssr-2003-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Chevrolet SSR technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2003,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_ssr.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 449,
+              "max": 449
+            }
+          },
+          "pageNotes": [
+            "5.3 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 449 N·m. Both publications identify engine code LM4.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet SSR (United States/Canada market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LM4"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LM4"
+  },
+  {
+    "id": "batch14-chevrolet-trailblazer-ss-2006",
+    "identity": {
+      "type": "exactCode",
+      "value": "LS2"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2006",
+    "displacement": "6.0 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.0 L; Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS2; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.0 L; Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS2; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.0 L; Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS2; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.0 L; Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS2; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 295,
+        "max": 295
+      },
+      "torqueNm": {
+        "min": 542,
+        "max": 542
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-trailblazer-ss-2006-ency",
+        "batch14-chevrolet-trailblazer-ss-2006-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-trailblazer-ss-2006-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Chevrolet TrailBlazer SS technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2006,
+          "url": "https://www.encycarpedia.com/chevrolet/06-trailblazer-ss-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 295,
+              "max": 295
+            },
+            "performance.torqueNm": {
+              "min": 542,
+              "max": 542
+            }
+          },
+          "pageNotes": [
+            "6.0 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 295 kW and 542 N·m. Both publications identify engine code LS2.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS2"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-trailblazer-ss-2006-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Chevrolet TrailBlazer SS technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2006,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_trailblazer.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 295,
+              "max": 295
+            },
+            "performance.torqueNm": {
+              "min": 542,
+              "max": 542
+            }
+          },
+          "pageNotes": [
+            "6.0 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 295 kW and 542 N·m. Both publications identify engine code LS2.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet TrailBlazer SS (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS2"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LS2"
+  },
+  {
+    "id": "batch14-chevrolet-corvette-zr1-2009",
+    "identity": {
+      "type": "exactCode",
+      "value": "LS9"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2009",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS9; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS9; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS9; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS9; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 476,
+        "max": 476
+      },
+      "torqueNm": {
+        "min": 819,
+        "max": 819
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-corvette-zr1-2009-ency",
+        "batch14-chevrolet-corvette-zr1-2009-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification)"
+        ],
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-corvette-zr1-2009-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2009 Chevrolet Corvette ZR1 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2009,
+          "url": "https://www.encycarpedia.com/chevrolet/09-corvette-zr1-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 476,
+              "max": 476
+            },
+            "performance.torqueNm": {
+              "min": 819,
+              "max": 819
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 476 kW and 819 N·m. Both publications identify engine code LS9.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2009
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS9"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-corvette-zr1-2009-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2009 Chevrolet Corvette ZR1 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2009,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_corvette.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 476,
+              "max": 476
+            },
+            "performance.torqueNm": {
+              "min": 819,
+              "max": 819
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 476 kW and 819 N·m. Both publications identify engine code LS9.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette ZR1 (United States/Canada market, 2009 specification)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2009
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS9"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LS9"
+  },
+  {
+    "id": "batch14-chevrolet-camaro-zl1-2012",
+    "identity": {
+      "type": "exactCode",
+      "value": "LSA"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2012",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 432,
+        "max": 432
+      },
+      "torqueNm": {
+        "min": 754,
+        "max": 754
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-camaro-zl1-2012-ency",
+        "batch14-chevrolet-camaro-zl1-2012-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-camaro-zl1-2012-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 Chevrolet Camaro ZL1 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2012,
+          "url": "https://www.encycarpedia.com/chevrolet/12-camaro-zl1-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 432,
+              "max": 432
+            },
+            "performance.torqueNm": {
+              "min": 754,
+              "max": 754
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 432 kW and 754 N·m. Both publications identify engine code LSA.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LSA"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-camaro-zl1-2012-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 Chevrolet Camaro ZL1 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2012,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_camaro.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 432,
+              "max": 432
+            },
+            "performance.torqueNm": {
+              "min": 754,
+              "max": 754
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 432 kW and 754 N·m. Both publications identify engine code LSA.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Camaro ZL1 (United States/Canada market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LSA"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LSA"
+  },
+  {
+    "id": "batch14-chevrolet-corvette-stingray-2014",
+    "identity": {
+      "type": "exactCode",
+      "value": "LT1"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Corvette Stingray (United States/Canada market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette Stingray (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette Stingray (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette Stingray (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Corvette Stingray (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 339,
+        "max": 339
+      },
+      "torqueNm": {
+        "min": 624,
+        "max": 624
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-corvette-stingray-2014-ency",
+        "batch14-chevrolet-corvette-stingray-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Corvette Stingray (United States/Canada market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-corvette-stingray-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Chevrolet Corvette Stingray technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/chevrolet/14-corvette-stingray-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 339,
+              "max": 339
+            },
+            "performance.torqueNm": {
+              "min": 624,
+              "max": 624
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, directInjection; 339 kW and 624 N·m. Both publications identify engine code LT1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette Stingray (United States/Canada market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT1"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-corvette-stingray-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Chevrolet Corvette Stingray technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_corvette.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 339,
+              "max": 339
+            },
+            "performance.torqueNm": {
+              "min": 624,
+              "max": 624
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, directInjection; 339 kW and 624 N·m. Both publications identify engine code LT1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette Stingray (United States/Canada market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT1"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LT1"
+  },
+  {
+    "id": "batch14-chevrolet-colorado-2-8-duramax-2016",
+    "identity": {
+      "type": "exactCode",
+      "value": "LWN"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2016",
+    "displacement": "2.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.8 L; Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LWN; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.8 L; Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LWN; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.8 L; Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LWN; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.8 L; Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LWN; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-colorado-2-8-duramax-2016-ency",
+        "batch14-chevrolet-colorado-2-8-duramax-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-colorado-2-8-duramax-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Chevrolet Colorado 2.8 Duramax technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/chevrolet/16-colorado-2-8-duramax-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "2.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 135 kW and 500 N·m. Both publications identify engine code LWN.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LWN"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-colorado-2-8-duramax-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Chevrolet Colorado 2.8 Duramax technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_colorado.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "2.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 135 kW and 500 N·m. Both publications identify engine code LWN.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Colorado 2.8 Duramax (United States/Canada market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LWN"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LWN"
+  },
+  {
+    "id": "batch14-chevrolet-camaro-ss-2016",
+    "identity": {
+      "type": "exactCode",
+      "value": "LT1"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2016",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Camaro SS (United States/Canada market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro SS (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro SS (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro SS (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Camaro SS (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT1; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 339,
+        "max": 339
+      },
+      "torqueNm": {
+        "min": 617,
+        "max": 617
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-camaro-ss-2016-ency",
+        "batch14-chevrolet-camaro-ss-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Camaro SS (United States/Canada market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-camaro-ss-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Chevrolet Camaro SS technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/chevrolet/16-camaro-ss-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 339,
+              "max": 339
+            },
+            "performance.torqueNm": {
+              "min": 617,
+              "max": 617
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, directInjection; 339 kW and 617 N·m. Both publications identify engine code LT1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Camaro SS (United States/Canada market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT1"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-camaro-ss-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Chevrolet Camaro SS technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_camaro.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 339,
+              "max": 339
+            },
+            "performance.torqueNm": {
+              "min": 617,
+              "max": 617
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, directInjection; 339 kW and 617 N·m. Both publications identify engine code LT1.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Camaro SS (United States/Canada market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT1"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LT1"
+  },
+  {
+    "id": "batch14-chevrolet-silverado-1500-6-2-2019",
+    "identity": {
+      "type": "exactCode",
+      "value": "L87"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2019",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L87; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L87; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L87; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L87; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 313,
+        "max": 313
+      },
+      "torqueNm": {
+        "min": 624,
+        "max": 624
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-silverado-1500-6-2-2019-ency",
+        "batch14-chevrolet-silverado-1500-6-2-2019-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-silverado-1500-6-2-2019-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 Chevrolet Silverado 1500 6.2 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/chevrolet/19-silverado-1500-6-2-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 624,
+              "max": 624
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, directInjection; 313 kW and 624 N·m. Both publications identify engine code L87.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "L87"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-silverado-1500-6-2-2019-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 Chevrolet Silverado 1500 6.2 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_silverado.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 624,
+              "max": 624
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, directInjection; 313 kW and 624 N·m. Both publications identify engine code L87.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Silverado 1500 6.2 (United States/Canada market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "L87"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "L87"
+  },
+  {
+    "id": "batch14-chevrolet-tahoe-3-0-duramax-2021",
+    "identity": {
+      "type": "exactCode",
+      "value": "LM2"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2021",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM2; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM2; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM2; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LM2; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 207,
+        "max": 207
+      },
+      "torqueNm": {
+        "min": 623,
+        "max": 623
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-tahoe-3-0-duramax-2021-ency",
+        "batch14-chevrolet-tahoe-3-0-duramax-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-tahoe-3-0-duramax-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Chevrolet Tahoe 3.0 Duramax technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/chevrolet/21-tahoe-3-0-duramax-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 207,
+              "max": 207
+            },
+            "performance.torqueNm": {
+              "min": 623,
+              "max": 623
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 207 kW and 623 N·m. Both publications identify engine code LM2.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LM2"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-tahoe-3-0-duramax-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Chevrolet Tahoe 3.0 Duramax technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_tahoe.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 207,
+              "max": 207
+            },
+            "performance.torqueNm": {
+              "min": 623,
+              "max": 623
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 207 kW and 623 N·m. Both publications identify engine code LM2.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Tahoe 3.0 Duramax (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LM2"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LM2"
+  },
+  {
+    "id": "batch14-chevrolet-corvette-z06-2023",
+    "identity": {
+      "type": "exactCode",
+      "value": "LT6"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2023",
+    "displacement": "5.5 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Corvette Z06 (United States/Canada market, 2023 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Chevrolet Corvette Z06 (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT6; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Chevrolet Corvette Z06 (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT6; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Chevrolet Corvette Z06 (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT6; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 5.5 L; Chevrolet Corvette Z06 (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT6; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 500,
+        "max": 500
+      },
+      "torqueNm": {
+        "min": 623,
+        "max": 623
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-corvette-z06-2023-ency",
+        "batch14-chevrolet-corvette-z06-2023-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Corvette Z06 (United States/Canada market, 2023 specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-corvette-z06-2023-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Chevrolet Corvette Z06 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2023,
+          "url": "https://www.encycarpedia.com/chevrolet/23-corvette-z06-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 500,
+              "max": 500
+            },
+            "performance.torqueNm": {
+              "min": 623,
+              "max": 623
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 500 kW and 623 N·m. Both publications identify engine code LT6.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette Z06 (United States/Canada market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT6"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-corvette-z06-2023-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Chevrolet Corvette Z06 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2023,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_corvette.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 500,
+              "max": 500
+            },
+            "performance.torqueNm": {
+              "min": 623,
+              "max": 623
+            }
+          },
+          "pageNotes": [
+            "5.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 500 kW and 623 N·m. Both publications identify engine code LT6.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Corvette Z06 (United States/Canada market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT6"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LT6"
+  },
+  {
+    "id": "batch14-chevrolet-trax-1-2-turbo-2024",
+    "identity": {
+      "type": "exactCode",
+      "value": "LIH"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2024",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LIH; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LIH; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LIH; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LIH; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 102,
+        "max": 102
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chevrolet-trax-1-2-turbo-2024-ency",
+        "batch14-chevrolet-trax-1-2-turbo-2024-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chevrolet-trax-1-2-turbo-2024-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Chevrolet Trax 1.2 Turbo technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/chevrolet/24-trax-1-2-turbo-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 102,
+              "max": 102
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 102 kW and 220 N·m. Both publications identify engine code LIH.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LIH"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chevrolet-trax-1-2-turbo-2024-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Chevrolet Trax 1.2 Turbo technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/model/chevrolet/chevrolet_trax.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 102,
+              "max": 102
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 102 kW and 220 N·m. Both publications identify engine code LIH.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet Trax 1.2 Turbo (United States/Canada market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LIH"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LIH"
+  },
+  {
+    "id": "batch14-cadillac-allante-northstar-1993",
+    "identity": {
+      "type": "exactCode",
+      "value": "L37"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "1993",
+    "displacement": "4.6 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac Allante Northstar (United States/Canada market, 1993 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Allante Northstar (United States/Canada market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Allante Northstar (United States/Canada market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Allante Northstar (United States/Canada market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Allante Northstar (United States/Canada market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 220,
+        "max": 220
+      },
+      "torqueNm": {
+        "min": 393,
+        "max": 393
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-allante-northstar-1993-ency",
+        "batch14-cadillac-allante-northstar-1993-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac Allante Northstar (United States/Canada market, 1993 specification)"
+        ],
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-allante-northstar-1993-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1993 Cadillac Allante Northstar technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1993,
+          "url": "https://www.encycarpedia.com/cadillac/93-allante-northstar-convertible",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220,
+              "max": 220
+            },
+            "performance.torqueNm": {
+              "min": 393,
+              "max": 393
+            }
+          },
+          "pageNotes": [
+            "4.6 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 220 kW and 393 N·m. Both publications identify engine code L37.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac Allante Northstar (United States/Canada market, 1993 specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "L37"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-allante-northstar-1993-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1993 Cadillac Allante Northstar technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1993,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_allante.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220,
+              "max": 220
+            },
+            "performance.torqueNm": {
+              "min": 393,
+              "max": 393
+            }
+          },
+          "pageNotes": [
+            "4.6 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 220 kW and 393 N·m. Both publications identify engine code L37.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac Allante Northstar (United States/Canada market, 1993 specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "L37"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "L37"
+  },
+  {
+    "id": "batch14-cadillac-seville-sts-1998",
+    "identity": {
+      "type": "exactCode",
+      "value": "L37"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "1998",
+    "displacement": "4.6 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac Seville STS (United States/Canada market, 1998 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Seville STS (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Seville STS (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Seville STS (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.6 L; Cadillac Seville STS (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code L37; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 224,
+        "max": 224
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-seville-sts-1998-ency",
+        "batch14-cadillac-seville-sts-1998-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac Seville STS (United States/Canada market, 1998 specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-seville-sts-1998-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Cadillac Seville STS technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1998,
+          "url": "https://www.encycarpedia.com/cadillac/98-seville-sts-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "4.6 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 400 N·m. Both publications identify engine code L37.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac Seville STS (United States/Canada market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "L37"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-seville-sts-1998-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Cadillac Seville STS technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1998,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_seville.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 224,
+              "max": 224
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "4.6 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 400 N·m. Both publications identify engine code L37.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac Seville STS (United States/Canada market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "L37"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "L37"
+  },
+  {
+    "id": "batch14-cadillac-cts-v-2004",
+    "identity": {
+      "type": "exactCode",
+      "value": "LS6"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2004",
+    "displacement": "5.7 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac CTS-V (United States/Canada market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Cadillac CTS-V (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Cadillac CTS-V (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Cadillac CTS-V (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Cadillac CTS-V (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LS6; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 298,
+        "max": 298
+      },
+      "torqueNm": {
+        "min": 536,
+        "max": 536
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-cts-v-2004-ency",
+        "batch14-cadillac-cts-v-2004-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac CTS-V (United States/Canada market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-cts-v-2004-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Cadillac CTS-V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2004,
+          "url": "https://www.encycarpedia.com/cadillac/04-cts-v-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 298,
+              "max": 298
+            },
+            "performance.torqueNm": {
+              "min": 536,
+              "max": 536
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 298 kW and 536 N·m. Both publications identify engine code LS6.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CTS-V (United States/Canada market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS6"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-cts-v-2004-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Cadillac CTS-V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2004,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_cts.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 298,
+              "max": 298
+            },
+            "performance.torqueNm": {
+              "min": 536,
+              "max": 536
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 298 kW and 536 N·m. Both publications identify engine code LS6.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CTS-V (United States/Canada market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LS6"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LS6"
+  },
+  {
+    "id": "batch14-cadillac-sts-v-2006",
+    "identity": {
+      "type": "exactCode",
+      "value": "LC3"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2006",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac STS-V (United States/Canada market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Cadillac STS-V (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LC3; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Cadillac STS-V (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LC3; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Cadillac STS-V (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LC3; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Cadillac STS-V (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LC3; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 350,
+        "max": 350
+      },
+      "torqueNm": {
+        "min": 595,
+        "max": 595
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-sts-v-2006-ency",
+        "batch14-cadillac-sts-v-2006-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac STS-V (United States/Canada market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-sts-v-2006-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Cadillac STS-V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2006,
+          "url": "https://www.encycarpedia.com/cadillac/06-sts-v-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 350,
+              "max": 350
+            },
+            "performance.torqueNm": {
+              "min": 595,
+              "max": 595
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; petrol, supercharged, multiPointInjection; 350 kW and 595 N·m. Both publications identify engine code LC3.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac STS-V (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LC3"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-sts-v-2006-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Cadillac STS-V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2006,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_sts.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 350,
+              "max": 350
+            },
+            "performance.torqueNm": {
+              "min": 595,
+              "max": 595
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; petrol, supercharged, multiPointInjection; 350 kW and 595 N·m. Both publications identify engine code LC3.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac STS-V (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LC3"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LC3"
+  },
+  {
+    "id": "batch14-cadillac-cts-v-2009",
+    "identity": {
+      "type": "exactCode",
+      "value": "LSA"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2009",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac CTS-V (United States/Canada market, 2009 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac CTS-V (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac CTS-V (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac CTS-V (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac CTS-V (United States/Canada market, 2009 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LSA; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 415,
+        "max": 415
+      },
+      "torqueNm": {
+        "min": 747,
+        "max": 747
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-cts-v-2009-ency",
+        "batch14-cadillac-cts-v-2009-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac CTS-V (United States/Canada market, 2009 specification)"
+        ],
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-cts-v-2009-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2009 Cadillac CTS-V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2009,
+          "url": "https://www.encycarpedia.com/cadillac/09-cts-v-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 415,
+              "max": 415
+            },
+            "performance.torqueNm": {
+              "min": 747,
+              "max": 747
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 415 kW and 747 N·m. Both publications identify engine code LSA.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CTS-V (United States/Canada market, 2009 specification)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2009
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LSA"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-cts-v-2009-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2009 Cadillac CTS-V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2009,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_cts.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 415,
+              "max": 415
+            },
+            "performance.torqueNm": {
+              "min": 747,
+              "max": 747
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 415 kW and 747 N·m. Both publications identify engine code LSA.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CTS-V (United States/Canada market, 2009 specification)"
+            ],
+            "years": {
+              "from": 2009,
+              "to": 2009
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LSA"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LSA"
+  },
+  {
+    "id": "batch14-cadillac-ats-v-2016",
+    "identity": {
+      "type": "exactCode",
+      "value": "LF4"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2016",
+    "displacement": "3.6 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac ATS-V (United States/Canada market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Cadillac ATS-V (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LF4; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Cadillac ATS-V (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LF4; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Cadillac ATS-V (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LF4; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Cadillac ATS-V (United States/Canada market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LF4; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 346,
+        "max": 346
+      },
+      "torqueNm": {
+        "min": 603,
+        "max": 603
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-ats-v-2016-ency",
+        "batch14-cadillac-ats-v-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac ATS-V (United States/Canada market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-ats-v-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Cadillac ATS-V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/cadillac/16-ats-v-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 346,
+              "max": 346
+            },
+            "performance.torqueNm": {
+              "min": 603,
+              "max": 603
+            }
+          },
+          "pageNotes": [
+            "3.6 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 346 kW and 603 N·m. Both publications identify engine code LF4.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac ATS-V (United States/Canada market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LF4"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-ats-v-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Cadillac ATS-V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_ats.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 346,
+              "max": 346
+            },
+            "performance.torqueNm": {
+              "min": 603,
+              "max": 603
+            }
+          },
+          "pageNotes": [
+            "3.6 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 346 kW and 603 N·m. Both publications identify engine code LF4.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac ATS-V (United States/Canada market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LF4"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LF4"
+  },
+  {
+    "id": "batch14-cadillac-ct6-v-2019",
+    "identity": {
+      "type": "exactCode",
+      "value": "LTA"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2019",
+    "displacement": "4.2 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac CT6-V (United States/Canada market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Cadillac CT6-V (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LTA; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Cadillac CT6-V (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LTA; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Cadillac CT6-V (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LTA; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Cadillac CT6-V (United States/Canada market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LTA; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 410,
+        "max": 410
+      },
+      "torqueNm": {
+        "min": 868,
+        "max": 868
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-ct6-v-2019-ency",
+        "batch14-cadillac-ct6-v-2019-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac CT6-V (United States/Canada market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-ct6-v-2019-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 Cadillac CT6-V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/cadillac/19-ct6-v-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 410,
+              "max": 410
+            },
+            "performance.torqueNm": {
+              "min": 868,
+              "max": 868
+            }
+          },
+          "pageNotes": [
+            "4.2 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 410 kW and 868 N·m. Both publications identify engine code LTA.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT6-V (United States/Canada market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LTA"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-ct6-v-2019-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 Cadillac CT6-V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_ct6.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 410,
+              "max": 410
+            },
+            "performance.torqueNm": {
+              "min": 868,
+              "max": 868
+            }
+          },
+          "pageNotes": [
+            "4.2 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 410 kW and 868 N·m. Both publications identify engine code LTA.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT6-V (United States/Canada market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LTA"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LTA"
+  },
+  {
+    "id": "batch14-cadillac-escalade-v-2023",
+    "identity": {
+      "type": "exactCode",
+      "value": "LT4"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2023",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac Escalade-V (United States/Canada market, 2023 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac Escalade-V (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT4; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac Escalade-V (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT4; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac Escalade-V (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT4; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Cadillac Escalade-V (United States/Canada market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Exact engine code LT4; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 508,
+        "max": 508
+      },
+      "torqueNm": {
+        "min": 885,
+        "max": 885
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-cadillac-escalade-v-2023-ency",
+        "batch14-cadillac-escalade-v-2023-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac Escalade-V (United States/Canada market, 2023 specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-cadillac-escalade-v-2023-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Cadillac Escalade-V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2023,
+          "url": "https://www.encycarpedia.com/cadillac/23-escalade-v-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 508,
+              "max": 508
+            },
+            "performance.torqueNm": {
+              "min": 885,
+              "max": 885
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, directInjection; 508 kW and 885 N·m. Both publications identify engine code LT4.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac Escalade-V (United States/Canada market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT4"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-cadillac-escalade-v-2023-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Cadillac Escalade-V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2023,
+          "url": "https://www.automobile-catalog.com/model/cadillac/cadillac_escalade.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 508,
+              "max": 508
+            },
+            "performance.torqueNm": {
+              "min": 885,
+              "max": 885
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, directInjection; 508 kW and 885 N·m. Both publications identify engine code LT4.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac Escalade-V (United States/Canada market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ],
+            "codes": [
+              "LT4"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LT4"
+  },
+  {
+    "id": "batch14-chrysler-300c-5-7-hemi-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Chrysler 5.7 L V8 naturally aspirated 250 kW / 525 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chrysler",
+    "regionKey": "north-america",
+    "years": "2005",
+    "displacement": "5.7 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.7 L; Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 525,
+        "max": 525
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chrysler-300c-5-7-hemi-2005-ency",
+        "batch14-chrysler-300c-5-7-hemi-2005-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chrysler-300c-5-7-hemi-2005-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Chrysler 300C 5.7 Hemi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/chrysler/05-300c-5-7-hemi-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 525,
+              "max": 525
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 250 kW and 525 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chrysler-300c-5-7-hemi-2005-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Chrysler 300C 5.7 Hemi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2005,
+          "url": "https://www.automobile-catalog.com/model/chrysler/chrysler_300c.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 525,
+              "max": 525
+            }
+          },
+          "pageNotes": [
+            "5.7 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 250 kW and 525 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler 300C 5.7 Hemi (United States/Canada market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-chrysler-300c-srt8-2006",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Chrysler 6.1 L V8 naturally aspirated 317 kW / 569 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chrysler",
+    "regionKey": "north-america",
+    "years": "2006",
+    "displacement": "6.1 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chrysler 300C SRT8 (United States/Canada market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Chrysler 300C SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Chrysler 300C SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Chrysler 300C SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Chrysler 300C SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 317,
+        "max": 317
+      },
+      "torqueNm": {
+        "min": 569,
+        "max": 569
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chrysler-300c-srt8-2006-ency",
+        "batch14-chrysler-300c-srt8-2006-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chrysler 300C SRT8 (United States/Canada market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chrysler-300c-srt8-2006-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Chrysler 300C SRT8 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2006,
+          "url": "https://www.encycarpedia.com/chrysler/06-300c-srt8-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 317,
+              "max": 317
+            },
+            "performance.torqueNm": {
+              "min": 569,
+              "max": 569
+            }
+          },
+          "pageNotes": [
+            "6.1 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 317 kW and 569 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler 300C SRT8 (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chrysler-300c-srt8-2006-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Chrysler 300C SRT8 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2006,
+          "url": "https://www.automobile-catalog.com/model/chrysler/chrysler_300c.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 317,
+              "max": 317
+            },
+            "performance.torqueNm": {
+              "min": 569,
+              "max": 569
+            }
+          },
+          "pageNotes": [
+            "6.1 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 317 kW and 569 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler 300C SRT8 (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-chrysler-crossfire-srt-6-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Chrysler 3.2 L V6 supercharged 246 kW / 420 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chrysler",
+    "regionKey": "north-america",
+    "years": "2005",
+    "displacement": "3.2 L",
+    "layout": "V6 · SOHC · 18 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · SOHC · 18 valves · 2 camshafts total, 3.2 L; Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · SOHC · 18 valves · 2 camshafts total, 3.2 L; Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · SOHC · 18 valves · 2 camshafts total, 3.2 L; Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · SOHC · 18 valves · 2 camshafts total, 3.2 L; Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 246,
+        "max": 246
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chrysler-crossfire-srt-6-2005-ency",
+        "batch14-chrysler-crossfire-srt-6-2005-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chrysler-crossfire-srt-6-2005-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Chrysler Crossfire SRT-6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/chrysler/05-crossfire-srt-6-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 246,
+              "max": 246
+            },
+            "performance.torqueNm": {
+              "min": 420,
+              "max": 420
+            }
+          },
+          "pageNotes": [
+            "3.2 L V6, SOHC, 18 valves and 2 total camshafts; petrol, supercharged, multiPointInjection; 246 kW and 420 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chrysler-crossfire-srt-6-2005-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Chrysler Crossfire SRT-6 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2005,
+          "url": "https://www.automobile-catalog.com/model/chrysler/chrysler_crossfire.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 246,
+              "max": 246
+            },
+            "performance.torqueNm": {
+              "min": 420,
+              "max": 420
+            }
+          },
+          "pageNotes": [
+            "3.2 L V6, SOHC, 18 valves and 2 total camshafts; petrol, supercharged, multiPointInjection; 246 kW and 420 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler Crossfire SRT-6 (United States/Canada market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-chrysler-pacifica-3-6-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Chrysler 3.6 L V6 naturally aspirated 214 kW / 355 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chrysler",
+    "regionKey": "north-america",
+    "years": "2017",
+    "displacement": "3.6 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 214,
+        "max": 214
+      },
+      "torqueNm": {
+        "min": 355,
+        "max": 355
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-chrysler-pacifica-3-6-2017-ency",
+        "batch14-chrysler-pacifica-3-6-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-chrysler-pacifica-3-6-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Chrysler Pacifica 3.6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/chrysler/17-pacifica-3-6-mpv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 214,
+              "max": 214
+            },
+            "performance.torqueNm": {
+              "min": 355,
+              "max": 355
+            }
+          },
+          "pageNotes": [
+            "3.6 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 214 kW and 355 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-chrysler-pacifica-3-6-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Chrysler Pacifica 3.6 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/model/chrysler/chrysler_pacifica.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 214,
+              "max": 214
+            },
+            "performance.torqueNm": {
+              "min": 355,
+              "max": 355
+            }
+          },
+          "pageNotes": [
+            "3.6 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 214 kW and 355 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chrysler Pacifica 3.6 (United States/Canada market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-dodge-viper-rt-10-1992",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dodge 8.0 L V10 naturally aspirated 298 kW / 630 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dodge",
+    "regionKey": "north-america",
+    "years": "1992",
+    "displacement": "8.0 L",
+    "layout": "V10 · OHV · 20 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dodge Viper RT/10 (United States/Canada market, 1992 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper RT/10 (United States/Canada market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper RT/10 (United States/Canada market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper RT/10 (United States/Canada market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper RT/10 (United States/Canada market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 298,
+        "max": 298
+      },
+      "torqueNm": {
+        "min": 630,
+        "max": 630
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-dodge-viper-rt-10-1992-ency",
+        "batch14-dodge-viper-rt-10-1992-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dodge Viper RT/10 (United States/Canada market, 1992 specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-dodge-viper-rt-10-1992-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Dodge Viper RT/10 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1992,
+          "url": "https://www.encycarpedia.com/dodge/92-viper-rt-10-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 298,
+              "max": 298
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "8.0 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 298 kW and 630 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Viper RT/10 (United States/Canada market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-dodge-viper-rt-10-1992-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Dodge Viper RT/10 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1992,
+          "url": "https://www.automobile-catalog.com/model/dodge/dodge_viper.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 298,
+              "max": 298
+            },
+            "performance.torqueNm": {
+              "min": 630,
+              "max": 630
+            }
+          },
+          "pageNotes": [
+            "8.0 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 298 kW and 630 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Viper RT/10 (United States/Canada market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-dodge-viper-gts-1996",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dodge 8.0 L V10 naturally aspirated 335 kW / 664 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dodge",
+    "regionKey": "north-america",
+    "years": "1996",
+    "displacement": "8.0 L",
+    "layout": "V10 · OHV · 20 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dodge Viper GTS (United States/Canada market, 1996 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper GTS (United States/Canada market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper GTS (United States/Canada market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper GTS (United States/Canada market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.0 L; Dodge Viper GTS (United States/Canada market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 335,
+        "max": 335
+      },
+      "torqueNm": {
+        "min": 664,
+        "max": 664
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-dodge-viper-gts-1996-ency",
+        "batch14-dodge-viper-gts-1996-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dodge Viper GTS (United States/Canada market, 1996 specification)"
+        ],
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-dodge-viper-gts-1996-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1996 Dodge Viper GTS technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1996,
+          "url": "https://www.encycarpedia.com/dodge/96-viper-gts-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 335,
+              "max": 335
+            },
+            "performance.torqueNm": {
+              "min": 664,
+              "max": 664
+            }
+          },
+          "pageNotes": [
+            "8.0 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 335 kW and 664 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Viper GTS (United States/Canada market, 1996 specification)"
+            ],
+            "years": {
+              "from": 1996,
+              "to": 1996
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-dodge-viper-gts-1996-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1996 Dodge Viper GTS technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1996,
+          "url": "https://www.automobile-catalog.com/model/dodge/dodge_viper.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 335,
+              "max": 335
+            },
+            "performance.torqueNm": {
+              "min": 664,
+              "max": 664
+            }
+          },
+          "pageNotes": [
+            "8.0 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 335 kW and 664 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Viper GTS (United States/Canada market, 1996 specification)"
+            ],
+            "years": {
+              "from": 1996,
+              "to": 1996
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-dodge-neon-srt-4-2003",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dodge 2.4 L Inline-4 turbocharged 160 kW / 332 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dodge",
+    "regionKey": "north-america",
+    "years": "2003",
+    "displacement": "2.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dodge Neon SRT-4 (United States/Canada market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L; Dodge Neon SRT-4 (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L; Dodge Neon SRT-4 (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L; Dodge Neon SRT-4 (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.4 L; Dodge Neon SRT-4 (United States/Canada market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 160,
+        "max": 160
+      },
+      "torqueNm": {
+        "min": 332,
+        "max": 332
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-dodge-neon-srt-4-2003-ency",
+        "batch14-dodge-neon-srt-4-2003-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dodge Neon SRT-4 (United States/Canada market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-dodge-neon-srt-4-2003-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Dodge Neon SRT-4 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2003,
+          "url": "https://www.encycarpedia.com/dodge/03-neon-srt-4-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 160,
+              "max": 160
+            },
+            "performance.torqueNm": {
+              "min": 332,
+              "max": 332
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 160 kW and 332 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Neon SRT-4 (United States/Canada market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-dodge-neon-srt-4-2003-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Dodge Neon SRT-4 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2003,
+          "url": "https://www.automobile-catalog.com/model/dodge/dodge_neon.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 160,
+              "max": 160
+            },
+            "performance.torqueNm": {
+              "min": 332,
+              "max": 332
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 160 kW and 332 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Neon SRT-4 (United States/Canada market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-dodge-challenger-srt8-392-2011",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dodge 6.4 L V8 naturally aspirated 350 kW / 637 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dodge",
+    "regionKey": "north-america",
+    "years": "2011",
+    "displacement": "6.4 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.4 L; Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.4 L; Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.4 L; Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.4 L; Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 350,
+        "max": 350
+      },
+      "torqueNm": {
+        "min": 637,
+        "max": 637
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-dodge-challenger-srt8-392-2011-ency",
+        "batch14-dodge-challenger-srt8-392-2011-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-dodge-challenger-srt8-392-2011-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2011 Dodge Challenger SRT8 392 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2011,
+          "url": "https://www.encycarpedia.com/dodge/11-challenger-srt8-392-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 350,
+              "max": 350
+            },
+            "performance.torqueNm": {
+              "min": 637,
+              "max": 637
+            }
+          },
+          "pageNotes": [
+            "6.4 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 350 kW and 637 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-dodge-challenger-srt8-392-2011-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2011 Dodge Challenger SRT8 392 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2011,
+          "url": "https://www.automobile-catalog.com/model/dodge/dodge_challenger.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 350,
+              "max": 350
+            },
+            "performance.torqueNm": {
+              "min": 637,
+              "max": 637
+            }
+          },
+          "pageNotes": [
+            "6.4 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 350 kW and 637 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Challenger SRT8 392 (United States/Canada market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-dodge-challenger-srt-hellcat-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dodge 6.2 L V8 supercharged 527 kW / 881 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dodge",
+    "regionKey": "north-america",
+    "years": "2015",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 527,
+        "max": 527
+      },
+      "torqueNm": {
+        "min": 881,
+        "max": 881
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-dodge-challenger-srt-hellcat-2015-ency",
+        "batch14-dodge-challenger-srt-hellcat-2015-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-dodge-challenger-srt-hellcat-2015-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Dodge Challenger SRT Hellcat technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/dodge/15-challenger-srt-hellcat-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 527,
+              "max": 527
+            },
+            "performance.torqueNm": {
+              "min": 881,
+              "max": 881
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 527 kW and 881 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-dodge-challenger-srt-hellcat-2015-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Dodge Challenger SRT Hellcat technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/model/dodge/dodge_challenger.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 527,
+              "max": 527
+            },
+            "performance.torqueNm": {
+              "min": 881,
+              "max": 881
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 527 kW and 881 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Challenger SRT Hellcat (United States/Canada market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-dodge-viper-srt-2013",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Dodge 8.4 L V10 naturally aspirated 477 kW / 814 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Dodge",
+    "regionKey": "north-america",
+    "years": "2013",
+    "displacement": "8.4 L",
+    "layout": "V10 · OHV · 20 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Dodge Viper SRT (United States/Canada market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.4 L; Dodge Viper SRT (United States/Canada market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.4 L; Dodge Viper SRT (United States/Canada market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.4 L; Dodge Viper SRT (United States/Canada market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.4 L; Dodge Viper SRT (United States/Canada market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 477,
+        "max": 477
+      },
+      "torqueNm": {
+        "min": 814,
+        "max": 814
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-dodge-viper-srt-2013-ency",
+        "batch14-dodge-viper-srt-2013-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Dodge Viper SRT (United States/Canada market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-dodge-viper-srt-2013-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Dodge Viper SRT technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2013,
+          "url": "https://www.encycarpedia.com/dodge/13-viper-srt-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 477,
+              "max": 477
+            },
+            "performance.torqueNm": {
+              "min": 814,
+              "max": 814
+            }
+          },
+          "pageNotes": [
+            "8.4 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 477 kW and 814 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Viper SRT (United States/Canada market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-dodge-viper-srt-2013-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Dodge Viper SRT technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2013,
+          "url": "https://www.automobile-catalog.com/model/dodge/dodge_viper.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 477,
+              "max": 477
+            },
+            "performance.torqueNm": {
+              "min": 814,
+              "max": 814
+            }
+          },
+          "pageNotes": [
+            "8.4 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 477 kW and 814 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Dodge Viper SRT (United States/Canada market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-jeep-grand-cherokee-5-9-limited-1998",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jeep 5.9 L V8 naturally aspirated 183 kW / 468 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jeep",
+    "regionKey": "north-america",
+    "years": "1998",
+    "displacement": "5.9 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.9 L; Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.9 L; Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.9 L; Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 5.9 L; Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 183,
+        "max": 183
+      },
+      "torqueNm": {
+        "min": 468,
+        "max": 468
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-jeep-grand-cherokee-5-9-limited-1998-ency",
+        "batch14-jeep-grand-cherokee-5-9-limited-1998-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-jeep-grand-cherokee-5-9-limited-1998-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Jeep Grand Cherokee 5.9 Limited technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1998,
+          "url": "https://www.encycarpedia.com/jeep/98-grand-cherokee-5-9-limited-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 183,
+              "max": 183
+            },
+            "performance.torqueNm": {
+              "min": 468,
+              "max": 468
+            }
+          },
+          "pageNotes": [
+            "5.9 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 183 kW and 468 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-jeep-grand-cherokee-5-9-limited-1998-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Jeep Grand Cherokee 5.9 Limited technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1998,
+          "url": "https://www.automobile-catalog.com/model/jeep/jeep_grand_cherokee.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 183,
+              "max": 183
+            },
+            "performance.torqueNm": {
+              "min": 468,
+              "max": 468
+            }
+          },
+          "pageNotes": [
+            "5.9 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 183 kW and 468 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Grand Cherokee 5.9 Limited (United States/Canada market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-jeep-grand-cherokee-srt8-2006",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jeep 6.1 L V8 naturally aspirated 313 kW / 569 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jeep",
+    "regionKey": "north-america",
+    "years": "2006",
+    "displacement": "6.1 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.1 L; Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 313,
+        "max": 313
+      },
+      "torqueNm": {
+        "min": 569,
+        "max": 569
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-jeep-grand-cherokee-srt8-2006-ency",
+        "batch14-jeep-grand-cherokee-srt8-2006-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-jeep-grand-cherokee-srt8-2006-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Jeep Grand Cherokee SRT8 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2006,
+          "url": "https://www.encycarpedia.com/jeep/06-grand-cherokee-srt8-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 569,
+              "max": 569
+            }
+          },
+          "pageNotes": [
+            "6.1 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 313 kW and 569 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-jeep-grand-cherokee-srt8-2006-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Jeep Grand Cherokee SRT8 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2006,
+          "url": "https://www.automobile-catalog.com/model/jeep/jeep_grand_cherokee.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 313,
+              "max": 313
+            },
+            "performance.torqueNm": {
+              "min": 569,
+              "max": 569
+            }
+          },
+          "pageNotes": [
+            "6.1 L V8, OHV, 16 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 313 kW and 569 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Grand Cherokee SRT8 (United States/Canada market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-jeep-wrangler-3-6-2012",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jeep 3.6 L V6 naturally aspirated 209 kW / 353 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jeep",
+    "regionKey": "north-america",
+    "years": "2012",
+    "displacement": "3.6 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jeep Wrangler 3.6 (United States/Canada market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Jeep Wrangler 3.6 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Jeep Wrangler 3.6 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Jeep Wrangler 3.6 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 L; Jeep Wrangler 3.6 (United States/Canada market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 209,
+        "max": 209
+      },
+      "torqueNm": {
+        "min": 353,
+        "max": 353
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-jeep-wrangler-3-6-2012-ency",
+        "batch14-jeep-wrangler-3-6-2012-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jeep Wrangler 3.6 (United States/Canada market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-jeep-wrangler-3-6-2012-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 Jeep Wrangler 3.6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2012,
+          "url": "https://www.encycarpedia.com/jeep/12-wrangler-3-6-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 209,
+              "max": 209
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "3.6 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 209 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Wrangler 3.6 (United States/Canada market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-jeep-wrangler-3-6-2012-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 Jeep Wrangler 3.6 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2012,
+          "url": "https://www.automobile-catalog.com/model/jeep/jeep_wrangler.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 209,
+              "max": 209
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "3.6 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 209 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Wrangler 3.6 (United States/Canada market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-jeep-grand-cherokee-trackhawk-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jeep 6.2 L V8 supercharged 527 kW / 875 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jeep",
+    "regionKey": "north-america",
+    "years": "2018",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 527,
+        "max": 527
+      },
+      "torqueNm": {
+        "min": 875,
+        "max": 875
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-jeep-grand-cherokee-trackhawk-2018-ency",
+        "batch14-jeep-grand-cherokee-trackhawk-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-jeep-grand-cherokee-trackhawk-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Jeep Grand Cherokee Trackhawk technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/jeep/18-grand-cherokee-trackhawk-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 527,
+              "max": 527
+            },
+            "performance.torqueNm": {
+              "min": 875,
+              "max": 875
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 527 kW and 875 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-jeep-grand-cherokee-trackhawk-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Jeep Grand Cherokee Trackhawk technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/model/jeep/jeep_grand_cherokee.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 527,
+              "max": 527
+            },
+            "performance.torqueNm": {
+              "min": 875,
+              "max": 875
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 527 kW and 875 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Grand Cherokee Trackhawk (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-jeep-wrangler-2-0-turbo-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jeep 2.0 L Inline-4 turbocharged 200 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jeep",
+    "regionKey": "north-america",
+    "years": "2018",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-jeep-wrangler-2-0-turbo-2018-ency",
+        "batch14-jeep-wrangler-2-0-turbo-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-jeep-wrangler-2-0-turbo-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Jeep Wrangler 2.0 Turbo technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/jeep/18-wrangler-2-0-turbo-suv",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 200 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-jeep-wrangler-2-0-turbo-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Jeep Wrangler 2.0 Turbo technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/model/jeep/jeep_wrangler.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 200 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jeep Wrangler 2.0 Turbo (United States/Canada market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ram-srt-10-2004",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ram 8.3 L V10 naturally aspirated 373 kW / 712 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ram",
+    "regionKey": "north-america",
+    "years": "2004",
+    "displacement": "8.3 L",
+    "layout": "V10 · OHV · 20 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ram SRT-10 (United States/Canada market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.3 L; Ram SRT-10 (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.3 L; Ram SRT-10 (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.3 L; Ram SRT-10 (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V10 · OHV · 20 valves · 1 camshafts total, 8.3 L; Ram SRT-10 (United States/Canada market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 373,
+        "max": 373
+      },
+      "torqueNm": {
+        "min": 712,
+        "max": 712
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ram-srt-10-2004-ency",
+        "batch14-ram-srt-10-2004-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ram SRT-10 (United States/Canada market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ram-srt-10-2004-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Ram SRT-10 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2004,
+          "url": "https://www.encycarpedia.com/dodge/04-ram-srt-10-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 373,
+              "max": 373
+            },
+            "performance.torqueNm": {
+              "min": 712,
+              "max": 712
+            }
+          },
+          "pageNotes": [
+            "8.3 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 373 kW and 712 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ram SRT-10 (United States/Canada market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ram-srt-10-2004-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Ram SRT-10 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2004,
+          "url": "https://www.automobile-catalog.com/model/ram/dodge_ram.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 373,
+              "max": 373
+            },
+            "performance.torqueNm": {
+              "min": 712,
+              "max": 712
+            }
+          },
+          "pageNotes": [
+            "8.3 L V10, OHV, 20 valves and 1 total camshafts; petrol, naturallyAspirated, multiPointInjection; 373 kW and 712 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ram SRT-10 (United States/Canada market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ram-1500-ecodiesel-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ram 3.0 L V6 turbocharged 179 kW / 569 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ram",
+    "regionKey": "north-america",
+    "years": "2014",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ram 1500 EcoDiesel (United States/Canada market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ram 1500 EcoDiesel (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ram 1500 EcoDiesel (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ram 1500 EcoDiesel (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ram 1500 EcoDiesel (United States/Canada market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 179,
+        "max": 179
+      },
+      "torqueNm": {
+        "min": 569,
+        "max": 569
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ram-1500-ecodiesel-2014-ency",
+        "batch14-ram-1500-ecodiesel-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ram 1500 EcoDiesel (United States/Canada market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ram-1500-ecodiesel-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Ram 1500 EcoDiesel technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/ram/14-1500-ecodiesel-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 179,
+              "max": 179
+            },
+            "performance.torqueNm": {
+              "min": 569,
+              "max": 569
+            }
+          },
+          "pageNotes": [
+            "3.0 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 179 kW and 569 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ram 1500 EcoDiesel (United States/Canada market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ram-1500-ecodiesel-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Ram 1500 EcoDiesel technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/model/ram/dodge_ram.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 179,
+              "max": 179
+            },
+            "performance.torqueNm": {
+              "min": 569,
+              "max": 569
+            }
+          },
+          "pageNotes": [
+            "3.0 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 179 kW and 569 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ram 1500 EcoDiesel (United States/Canada market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch14-ram-1500-trx-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ram 6.2 L V8 supercharged 523 kW / 881 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ram",
+    "regionKey": "north-america",
+    "years": "2021",
+    "displacement": "6.2 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ram 1500 TRX (United States/Canada market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Ram 1500 TRX (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Ram 1500 TRX (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Ram 1500 TRX (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshafts total, 6.2 L; Ram 1500 TRX (United States/Canada market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 523,
+        "max": 523
+      },
+      "torqueNm": {
+        "min": 881,
+        "max": 881
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch14-ram-1500-trx-2021-ency",
+        "batch14-ram-1500-trx-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ram 1500 TRX (United States/Canada market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "United States",
+          "Canada"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch14-ram-1500-trx-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Ram 1500 TRX technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/ram/21-1500-trx-pickup",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 523,
+              "max": 523
+            },
+            "performance.torqueNm": {
+              "min": 881,
+              "max": 881
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 523 kW and 881 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ram 1500 TRX (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch14-ram-1500-trx-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Ram 1500 TRX technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/model/ram/dodge_ram.html",
+          "page": 1,
+          "checkedAt": "2026-10-10",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 523,
+              "max": 523
+            },
+            "performance.torqueNm": {
+              "min": 881,
+              "max": 881
+            }
+          },
+          "pageNotes": [
+            "6.2 L V8, OHV, 16 valves and 1 total camshafts; petrol, supercharged, multiPointInjection; 523 kW and 881 N·m. No shared engine code or stable public designation is claimed.",
+            "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ram 1500 TRX (United States/Canada market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "United States",
+              "Canada"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];
