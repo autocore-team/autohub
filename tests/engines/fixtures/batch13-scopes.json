@@ -1,0 +1,2995 @@
+{
+  "candidatePool": 200,
+  "targetMin": 100,
+  "targetMax": 125,
+  "markets": [
+    "Europe",
+    "United Kingdom"
+  ],
+  "productionPeriod": {
+    "from": 1995,
+    "to": 2025
+  },
+  "requestedQuotas": {
+    "Volkswagen": 20,
+    "Audi": 20,
+    "Skoda": 15,
+    "SEAT/Cupra": 15,
+    "Renault": 20,
+    "Peugeot": 20,
+    "Citroen": 15,
+    "Opel/Vauxhall": 15,
+    "Hyundai": 20,
+    "Kia": 20,
+    "Volvo": 10,
+    "Mazda": 10
+  },
+  "actualQuotas": {
+    "Volkswagen": 20,
+    "Audi": 20,
+    "Skoda": 15,
+    "SEAT/Cupra": 15,
+    "Renault": 20,
+    "Peugeot": 20,
+    "Citroen": 15,
+    "Opel/Vauxhall": 15,
+    "Hyundai": 20,
+    "Kia": 20,
+    "Volvo": 10,
+    "Mazda": 10
+  },
+  "accepted": 100,
+  "duplicates": 5,
+  "holds": 95,
+  "rejected": 0,
+  "productionRecords": 100,
+  "identityBreakdown": {
+    "applicationScopedSpecification": 100
+  },
+  "evidenceBreakdown": {
+    "corroborated": 100
+  },
+  "completenessBreakdown": {
+    "core": 100
+  },
+  "withoutRpm": 100,
+  "sourcePair": {
+    "publishers": [
+      "encyCARpedia",
+      "Automobile-Catalog / ProfessCars (or candidate-specific independent editorial source)"
+    ],
+    "independent": true
+  },
+  "duplicateConsolidations": [
+    {
+      "absorbedId": "batch13-skoda-karoq-1-5-tsi-150-2018",
+      "keptId": "batch13-skoda-scala-1-5-tsi-150-2019"
+    },
+    {
+      "absorbedId": "batch13-peugeot-307-2-0-16v-135-2001",
+      "keptId": "batch13-peugeot-206-gti-1999"
+    },
+    {
+      "absorbedId": "batch13-peugeot-208-gti-2013",
+      "keptId": "batch13-peugeot-rcz-thp-200-2010"
+    },
+    {
+      "absorbedId": "batch13-citroen-c3-puretech-110-2017",
+      "keptId": "batch13-citroen-c4-cactus-puretech-110-2018"
+    },
+    {
+      "absorbedId": "batch13-opel-speedster-turbo-2003",
+      "keptId": "batch13-opel-astra-opc-2002"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "batch13-volkswagen-golf-r32-2005",
+      "label": "Volkswagen Golf R32 (Europe/United Kingdom, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-volkswagen-scirocco-r-2010",
+      "label": "Volkswagen Scirocco R (Europe/United Kingdom, 2010 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-volkswagen-01",
+      "label": "Polo GTI 1.8T 150 (2000)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-02",
+      "label": "Passat W8 4.0 (2001)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-03",
+      "label": "Touareg V10 TDI (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-04",
+      "label": "Phaeton W12 (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-05",
+      "label": "Golf GTI 2.0 TFSI 200 (2004)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-06",
+      "label": "Golf GTI Edition 30 (2006)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-07",
+      "label": "Passat R36 (2008)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-08",
+      "label": "Golf GTI 210 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-09",
+      "label": "Golf R 270 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-10",
+      "label": "Polo GTI 1.4 TSI 180 (2010)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-11",
+      "label": "Touareg 4.2 V8 TDI (2010)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-12",
+      "label": "Passat GTE (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-13",
+      "label": "Amarok 3.0 V6 TDI (2016)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-14",
+      "label": "up! GTI 115 (2018)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-15",
+      "label": "Arteon R 320 (2020)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-16",
+      "label": "Tiguan R 320 (2020)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-17",
+      "label": "Golf R 320 (2020)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volkswagen-18",
+      "label": "Transporter 2.5 TDI 174 (2003)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-audi-a6-2-8-30v-1995",
+      "label": "Audi A6 2.8 30V (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-a4-1-8-t-1995",
+      "label": "Audi A4 1.8 T (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-s4-2-7-biturbo-1999",
+      "label": "Audi S4 2.7 biturbo (Europe/United Kingdom, 1999 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-rs6-4-2-quattro-2002",
+      "label": "Audi RS6 4.2 quattro (Europe/United Kingdom, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-s8-5-2-v10-2006",
+      "label": "Audi S8 5.2 V10 (Europe/United Kingdom, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-r8-4-2-fsi-quattro-2007",
+      "label": "Audi R8 4.2 FSI quattro (Europe/United Kingdom, 2007 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-q7-v12-tdi-quattro-2008",
+      "label": "Audi Q7 V12 TDI quattro (Europe/United Kingdom, 2008 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-rs5-coupe-4-2-fsi-quattro-2010",
+      "label": "Audi RS5 Coupe 4.2 FSI quattro (Europe/United Kingdom, 2010 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-a1-1-4-tfsi-185-2012",
+      "label": "Audi A1 1.4 TFSI 185 (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-audi-a4-35-tfsi-2020",
+      "label": "Audi A4 35 TFSI (Europe/United Kingdom, 2020 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-audi-01",
+      "label": "TT 1.8T quattro 225 (1999)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-02",
+      "label": "RS4 2.7 biturbo (2000)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-03",
+      "label": "A8 6.0 W12 (2001)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-04",
+      "label": "RS4 4.2 FSI (2006)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-05",
+      "label": "TT RS 2.5 TFSI (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-06",
+      "label": "RS3 Sportback 2.5 TFSI (2011)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-07",
+      "label": "RS6 4.0 TFSI (2013)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-08",
+      "label": "S1 2.0 TFSI (2014)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-09",
+      "label": "R8 V10 Plus (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-audi-10",
+      "label": "RS Q8 4.0 TFSI (2020)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-skoda-felicia-1-6-1995",
+      "label": "Skoda Felicia 1.6 (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-octavia-vrs-1-8-turbo-2001",
+      "label": "Skoda Octavia vRS 1.8 Turbo (Europe/United Kingdom, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-fabia-vrs-1-9-tdi-2003",
+      "label": "Skoda Fabia vRS 1.9 TDI (Europe/United Kingdom, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-superb-v6-2-8-30v-2002",
+      "label": "Skoda Superb V6 2.8 30V (Europe/United Kingdom, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-yeti-1-8-tsi-4x4-160-2009",
+      "label": "Skoda Yeti 1.8 TSI 4x4 160 (Europe/United Kingdom, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-citigo-1-0-mpi-60-2012",
+      "label": "Skoda Citigo 1.0 MPI 60 (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-kodiaq-2-0-tsi-4x4-180-2017",
+      "label": "Skoda Kodiaq 2.0 TSI 4x4 180 (Europe/United Kingdom, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-scala-1-5-tsi-150-2019",
+      "label": "Skoda Scala 1.5 TSI 150 (Europe/United Kingdom, 2019 specification) + Skoda Karoq 1.5 TSI 150 (Europe/United Kingdom, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-superb-2-0-tsi-4x4-280-2017",
+      "label": "Skoda Superb 2.0 TSI 4x4 280 (Europe/United Kingdom, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-octavia-vrs-245-2018",
+      "label": "Skoda Octavia vRS 245 (Europe/United Kingdom, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-skoda-karoq-1-5-tsi-150-2018",
+      "label": "Skoda Karoq 1.5 TSI 150 (Europe/United Kingdom, 2018 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch13-skoda-scala-1-5-tsi-150-2019."
+    },
+    {
+      "id": "batch13-hold-skoda-01",
+      "label": "Octavia RS 2.0 TFSI 200 (2005)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-skoda-02",
+      "label": "Superb 3.6 FSI 4x4 (2008)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-skoda-03",
+      "label": "Fabia vRS 1.4 TSI 180 (2010)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-skoda-04",
+      "label": "Kodiaq RS 2.0 BiTDI (2018)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-seat-ibiza-2-0-16v-cupra-1997",
+      "label": "SEAT Ibiza 2.0 16V Cupra (Europe/United Kingdom, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-leon-cupra-r-1-8t-20v-2003",
+      "label": "SEAT Leon Cupra R 1.8T 20V (Europe/United Kingdom, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-leon-cupra-2-0-tfsi-240-2006",
+      "label": "SEAT Leon Cupra 2.0 TFSI 240 (Europe/United Kingdom, 2006 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-exeo-2-0-tsi-200-2009",
+      "label": "SEAT Exeo 2.0 TSI 200 (Europe/United Kingdom, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-altea-2-0-fsi-150-2004",
+      "label": "SEAT Altea 2.0 FSI 150 (Europe/United Kingdom, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-mii-1-0-60-2012",
+      "label": "SEAT Mii 1.0 60 (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-cupra-ateca-2-0-tsi-300-2018",
+      "label": "Cupra Ateca 2.0 TSI 300 (Europe/United Kingdom, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-cupra-formentor-vz-2-0-tsi-310-2020",
+      "label": "Cupra Formentor VZ 2.0 TSI 310 (Europe/United Kingdom, 2020 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-ateca-1-5-ecotsi-150-2018",
+      "label": "SEAT Ateca 1.5 EcoTSI 150 (Europe/United Kingdom, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-seat-exeo-2-0-tsi-210-2012",
+      "label": "SEAT Exeo 2.0 TSI 210 (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-seat-cupra-01",
+      "label": "Ibiza Cupra 1.8T 180 (2000)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-seat-cupra-02",
+      "label": "Alhambra 2.8 V6 (2001)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-seat-cupra-03",
+      "label": "Leon Cupra R 265 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-seat-cupra-04",
+      "label": "Ibiza Cupra 1.4 TSI 180 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-seat-cupra-05",
+      "label": "Leon Cupra 290 (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-renault-clio-williams-2-0-16v-1995",
+      "label": "Renault Clio Williams 2.0 16V (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-laguna-3-0-v6-1995",
+      "label": "Renault Laguna 3.0 V6 (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-megane-coupe-2-0-16v-1996",
+      "label": "Renault Megane Coupe 2.0 16V (Europe/United Kingdom, 1996 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-clio-rs-172-2000",
+      "label": "Renault Clio RS 172 (Europe/United Kingdom, 2000 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-clio-v6-2001",
+      "label": "Renault Clio V6 (Europe/United Kingdom, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-megane-r-s-225-2004",
+      "label": "Renault Megane R.S. 225 (Europe/United Kingdom, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-vel-satis-3-5-v6-2002",
+      "label": "Renault Vel Satis 3.5 V6 (Europe/United Kingdom, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-twingo-energy-tce-90-2017",
+      "label": "Renault Twingo Energy TCe 90 (Europe/United Kingdom, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-clio-energy-tce-120-2016",
+      "label": "Renault Clio Energy TCe 120 (Europe/United Kingdom, 2016 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-megane-r-s-trophy-300-2019",
+      "label": "Renault Megane R.S. Trophy 300 (Europe/United Kingdom, 2019 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-clio-r-s-200-2010",
+      "label": "Renault Clio R.S. 200 (Europe/United Kingdom, 2010 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-renault-megane-r-s-280-2018",
+      "label": "Renault Megane R.S. 280 (Europe/United Kingdom, 2018 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-renault-01",
+      "label": "Safrane Biturbo (1995)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-02",
+      "label": "Espace 3.0 V6 24V (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-03",
+      "label": "Avantime 3.0 V6 (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-04",
+      "label": "Laguna GT 2.0T 205 (2005)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-05",
+      "label": "Megane R.S. R26.R (2008)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-06",
+      "label": "Twingo R.S. 133 (2008)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-07",
+      "label": "Clio R.S. Trophy 220 (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-renault-08",
+      "label": "Captur TCe 155 (2019)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-peugeot-106-rallye-1-3-1995",
+      "label": "Peugeot 106 Rallye 1.3 (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-306-s16-1995",
+      "label": "Peugeot 306 S16 (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-406-coupe-3-0-v6-1997",
+      "label": "Peugeot 406 Coupe 3.0 V6 (Europe/United Kingdom, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-206-gti-1999",
+      "label": "Peugeot 206 GTI (Europe/United Kingdom, 1999 specification) + Peugeot 307 2.0 16V 135 (Europe/United Kingdom, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-206-rc-2003",
+      "label": "Peugeot 206 RC (Europe/United Kingdom, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-407-coupe-v6-hdi-205-2005",
+      "label": "Peugeot 407 Coupe V6 HDi 205 (Europe/United Kingdom, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-rcz-thp-200-2010",
+      "label": "Peugeot RCZ THP 200 (Europe/United Kingdom, 2010 specification) + Peugeot 208 GTi (Europe/United Kingdom, 2013 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-308-gti-270-2015",
+      "label": "Peugeot 308 GTi 270 (Europe/United Kingdom, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-508-puretech-180-2019",
+      "label": "Peugeot 508 PureTech 180 (Europe/United Kingdom, 2019 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-508-gt-puretech-225-2019",
+      "label": "Peugeot 508 GT PureTech 225 (Europe/United Kingdom, 2019 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-306-xsi-1995",
+      "label": "Peugeot 306 XSi (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-406-2-2i-16v-2002",
+      "label": "Peugeot 406 2.2i 16V (Europe/United Kingdom, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-peugeot-307-2-0-16v-135-2001",
+      "label": "Peugeot 307 2.0 16V 135 (Europe/United Kingdom, 2001 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch13-peugeot-206-gti-1999."
+    },
+    {
+      "id": "batch13-peugeot-208-gti-2013",
+      "label": "Peugeot 208 GTi (Europe/United Kingdom, 2013 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch13-peugeot-rcz-thp-200-2010."
+    },
+    {
+      "id": "batch13-hold-peugeot-01",
+      "label": "605 SV 3.0 24V (1995)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-peugeot-02",
+      "label": "406 HDi 110 (1999)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-peugeot-03",
+      "label": "807 3.0 V6 (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-peugeot-04",
+      "label": "207 RC 175 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-peugeot-05",
+      "label": "208 GTi by Peugeot Sport (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-peugeot-06",
+      "label": "508 BlueHDi 180 (2018)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-citroen-saxo-vts-1-6-16v-1997",
+      "label": "Citroen Saxo VTS 1.6 16V (Europe/United Kingdom, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-xantia-v6-activa-1997",
+      "label": "Citroen Xantia V6 Activa (Europe/United Kingdom, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-xsara-coupe-2-0-16v-vts-1997",
+      "label": "Citroen Xsara Coupe 2.0 16V VTS (Europe/United Kingdom, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-c5-3-0-v6-2001",
+      "label": "Citroen C5 3.0 V6 (Europe/United Kingdom, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-c4-coupe-vts-2-0-180-2004",
+      "label": "Citroen C4 Coupe VTS 2.0 180 (Europe/United Kingdom, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-c6-hdi-205-biturbo-2005",
+      "label": "Citroen C6 HDi 205 biturbo (Europe/United Kingdom, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-ds3-racing-2011",
+      "label": "Citroen DS3 Racing (Europe/United Kingdom, 2011 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-c4-cactus-puretech-110-2018",
+      "label": "Citroen C4 Cactus PureTech 110 (Europe/United Kingdom, 2018 specification) + Citroen C3 PureTech 110 (Europe/United Kingdom, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-c5-aircross-puretech-180-2019",
+      "label": "Citroen C5 Aircross PureTech 180 (Europe/United Kingdom, 2019 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-ds4-thp-200-2012",
+      "label": "Citroen DS4 THP 200 (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-citroen-c3-puretech-110-2017",
+      "label": "Citroen C3 PureTech 110 (Europe/United Kingdom, 2017 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch13-citroen-c4-cactus-puretech-110-2018."
+    },
+    {
+      "id": "batch13-hold-citroen-01",
+      "label": "XM 3.0 V6 24V (1997)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-citroen-02",
+      "label": "C2 VTS 125 (2004)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-citroen-03",
+      "label": "DS3 THP 155 (2010)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-citroen-04",
+      "label": "C5 3.0 V6 HDi 240 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-opel-calibra-2-0-turbo-1995",
+      "label": "Opel Calibra 2.0 Turbo (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-omega-mv6-1995",
+      "label": "Opel Omega MV6 (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-astra-opc-2002",
+      "label": "Opel Astra OPC (Europe/United Kingdom, 2002 specification) + Opel Speedster Turbo (Europe/United Kingdom, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-vectra-opc-2005",
+      "label": "Opel Vectra OPC (Europe/United Kingdom, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-insignia-opc-2009",
+      "label": "Opel Insignia OPC (Europe/United Kingdom, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-corsa-opc-2015",
+      "label": "Opel Corsa OPC (Europe/United Kingdom, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-astra-1-4-turbo-150-2015",
+      "label": "Opel Astra 1.4 Turbo 150 (Europe/United Kingdom, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-adam-s-2015",
+      "label": "Opel Adam S (Europe/United Kingdom, 2015 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-astra-opc-280-2012",
+      "label": "Opel Astra OPC 280 (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-astra-gtc-opc-240-2005",
+      "label": "Opel Astra GTC OPC 240 (Europe/United Kingdom, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-opel-speedster-turbo-2003",
+      "label": "Opel Speedster Turbo (Europe/United Kingdom, 2003 specification)",
+      "outcome": "duplicate",
+      "reason": "Identical technical specification consolidated into batch13-opel-astra-opc-2002."
+    },
+    {
+      "id": "batch13-hold-opel-vauxhall-01",
+      "label": "Zafira OPC (2001)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-opel-vauxhall-02",
+      "label": "Signum 3.2 V6 (2003)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-opel-vauxhall-03",
+      "label": "Astra GTC 1.6 Turbo 180 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-opel-vauxhall-04",
+      "label": "Corsa GSi 1.4 Turbo (2018)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hyundai-coupe-2-0-fx-1997",
+      "label": "Hyundai Coupe 2.0 FX (Europe/United Kingdom, 1997 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-coupe-2-7-v6-2002",
+      "label": "Hyundai Coupe 2.7 V6 (Europe/United Kingdom, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-getz-1-6-2002",
+      "label": "Hyundai Getz 1.6 (Europe/United Kingdom, 2002 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-santa-fe-2-7-v6-2001",
+      "label": "Hyundai Santa Fe 2.7 V6 (Europe/United Kingdom, 2001 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-i30-2-0-143-2007",
+      "label": "Hyundai i30 2.0 143 (Europe/United Kingdom, 2007 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-genesis-coupe-2-0t-2009",
+      "label": "Hyundai Genesis Coupe 2.0T (Europe/United Kingdom, 2009 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-veloster-turbo-2012",
+      "label": "Hyundai Veloster Turbo (Europe/United Kingdom, 2012 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-i30-n-2017",
+      "label": "Hyundai i30 N (Europe/United Kingdom, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-kona-n-2021",
+      "label": "Hyundai Kona N (Europe/United Kingdom, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hyundai-i20-n-2021",
+      "label": "Hyundai i20 N (Europe/United Kingdom, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-hyundai-01",
+      "label": "Lantra 1.8 (1995)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-02",
+      "label": "Matrix 1.8 (2001)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-03",
+      "label": "Terracan 2.9 CRDi (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-04",
+      "label": "Tucson 2.7 V6 (2004)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-05",
+      "label": "i20 1.4 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-06",
+      "label": "ix35 2.0 CRDi (2010)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-07",
+      "label": "i40 1.7 CRDi (2011)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-08",
+      "label": "i10 1.2 (2014)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-09",
+      "label": "Santa Fe 2.2 CRDi (2016)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-hyundai-10",
+      "label": "i30 N Performance (2017)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-kia-sephia-1-5-dohc-1995",
+      "label": "Kia Sephia 1.5 DOHC (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-shuma-1-8-1998",
+      "label": "Kia Shuma 1.8 (Europe/United Kingdom, 1998 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-rio-1-5-2000",
+      "label": "Kia Rio 1.5 (Europe/United Kingdom, 2000 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-sorento-3-5-v6-2003",
+      "label": "Kia Sorento 3.5 V6 (Europe/United Kingdom, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-picanto-1-1-2004",
+      "label": "Kia Picanto 1.1 (Europe/United Kingdom, 2004 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-ceed-2-0-cvvt-2007",
+      "label": "Kia Ceed 2.0 CVVT (Europe/United Kingdom, 2007 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-proceed-gt-2013",
+      "label": "Kia ProCeed GT (Europe/United Kingdom, 2013 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-stinger-3-3t-gt-2017",
+      "label": "Kia Stinger 3.3T GT (Europe/United Kingdom, 2017 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-ceed-1-5-t-gdi-160-2021",
+      "label": "Kia Ceed 1.5 T-GDI 160 (Europe/United Kingdom, 2021 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-kia-sportage-1-6-t-gdi-180-2022",
+      "label": "Kia Sportage 1.6 T-GDI 180 (Europe/United Kingdom, 2022 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-kia-01",
+      "label": "Clarus 2.0 (1996)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-02",
+      "label": "Carnival 2.9 CRDi (2001)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-03",
+      "label": "Carens 2.0 (2002)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-04",
+      "label": "Cerato 2.0 (2004)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-05",
+      "label": "Sportage 2.0 CRDi (2005)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-06",
+      "label": "Soul 1.6 (2009)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-07",
+      "label": "Optima 2.0 T-GDI (2016)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-08",
+      "label": "Rio 1.0 T-GDI (2017)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-09",
+      "label": "XCeed 1.6 T-GDI (2019)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-kia-10",
+      "label": "Sorento 2.2 CRDi (2020)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-volvo-s60-r-2003",
+      "label": "Volvo S60 R (Europe/United Kingdom, 2003 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-volvo-xc90-v8-awd-2005",
+      "label": "Volvo XC90 V8 AWD (Europe/United Kingdom, 2005 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-volvo-01",
+      "label": "850 R (1996)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-02",
+      "label": "S80 T6 (1998)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-03",
+      "label": "V70 R (2003)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-04",
+      "label": "XC90 T6 (2003)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-05",
+      "label": "C30 T5 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-06",
+      "label": "S60 Polestar (2014)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-07",
+      "label": "XC90 T8 Twin Engine (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-volvo-08",
+      "label": "S90 B6 (2020)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-mazda-mx-5-1-8-1995",
+      "label": "Mazda MX-5 1.8 (Europe/United Kingdom, 1995 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-mazda-mazda3-mps-cx-7-2-3-disi-turbo-2006",
+      "label": "Mazda Mazda3 MPS / CX-7 2.3 DISI Turbo (Europe/United Kingdom, 2006 specification) + Mazda CX-7 2.3 DISI Turbo (Europe/United Kingdom, 2007 specification)",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch13-hold-mazda-01",
+      "label": "Xedos 9 2.3 Miller (1995)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-02",
+      "label": "RX-8 231 (2003)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-03",
+      "label": "Mazda6 MPS (2005)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-04",
+      "label": "CX-9 3.7 V6 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-05",
+      "label": "Mazda2 1.5 (2007)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-06",
+      "label": "MX-5 2.0 160 (2015)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-07",
+      "label": "CX-5 2.2 Skyactiv-D 175 (2017)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch13-hold-mazda-08",
+      "label": "Mazda3 Skyactiv-X 180 (2019)",
+      "outcome": "hold",
+      "reason": "The fixed catalogue lead did not close every mandatory field with a conflict-free admissible source pair."
+    }
+  ],
+  "records": [
+    {
+      "id": "batch13-volkswagen-golf-r32-2005",
+      "maker": "Volkswagen",
+      "identity": "Volkswagen 3.2 L V6 naturally aspirated 184 kW / 320 Nm application specification",
+      "applications": [
+        "Volkswagen Golf R32 (Europe/United Kingdom, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 184,
+          "max": 184
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch13-volkswagen-scirocco-r-2010",
+      "maker": "Volkswagen",
+      "identity": "Volkswagen 2.0 L Inline-4 turbocharged 195 kW / 350 Nm application specification",
+      "applications": [
+        "Volkswagen Scirocco R (Europe/United Kingdom, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 195,
+          "max": 195
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-a6-2-8-30v-1995",
+      "maker": "Audi",
+      "identity": "Audi 2.8 L V6 naturally aspirated 142 kW / 280 Nm application specification",
+      "applications": [
+        "Audi A6 2.8 30V (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 142,
+          "max": 142
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-a4-1-8-t-1995",
+      "maker": "Audi",
+      "identity": "Audi 1.8 L Inline-4 turbocharged 110 kW / 210 Nm application specification",
+      "applications": [
+        "Audi A4 1.8 T (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 210,
+          "max": 210
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-s4-2-7-biturbo-1999",
+      "maker": "Audi",
+      "identity": "Audi 2.7 L V6 twin turbo 195 kW / 400 Nm application specification",
+      "applications": [
+        "Audi S4 2.7 biturbo (Europe/United Kingdom, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 195,
+          "max": 195
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-rs6-4-2-quattro-2002",
+      "maker": "Audi",
+      "identity": "Audi 4.2 L V8 twin turbo 331 kW / 560 Nm application specification",
+      "applications": [
+        "Audi RS6 4.2 quattro (Europe/United Kingdom, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 331,
+          "max": 331
+        },
+        "torqueNm": {
+          "min": 560,
+          "max": 560
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-s8-5-2-v10-2006",
+      "maker": "Audi",
+      "identity": "Audi 5.2 L V10 naturally aspirated 331 kW / 540 Nm application specification",
+      "applications": [
+        "Audi S8 5.2 V10 (Europe/United Kingdom, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 331,
+          "max": 331
+        },
+        "torqueNm": {
+          "min": 540,
+          "max": 540
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-r8-4-2-fsi-quattro-2007",
+      "maker": "Audi",
+      "identity": "Audi 4.2 L V8 naturally aspirated 309 kW / 430 Nm application specification",
+      "applications": [
+        "Audi R8 4.2 FSI quattro (Europe/United Kingdom, 2007 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 309,
+          "max": 309
+        },
+        "torqueNm": {
+          "min": 430,
+          "max": 430
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-q7-v12-tdi-quattro-2008",
+      "maker": "Audi",
+      "identity": "Audi 5.9 L V12 twin turbo 368 kW / 1000 Nm application specification",
+      "applications": [
+        "Audi Q7 V12 TDI quattro (Europe/United Kingdom, 2008 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 368,
+          "max": 368
+        },
+        "torqueNm": {
+          "min": 1000,
+          "max": 1000
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-rs5-coupe-4-2-fsi-quattro-2010",
+      "maker": "Audi",
+      "identity": "Audi 4.2 L V8 naturally aspirated 331 kW / 430 Nm application specification",
+      "applications": [
+        "Audi RS5 Coupe 4.2 FSI quattro (Europe/United Kingdom, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 331,
+          "max": 331
+        },
+        "torqueNm": {
+          "min": 430,
+          "max": 430
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-a1-1-4-tfsi-185-2012",
+      "maker": "Audi",
+      "identity": "Audi 1.4 L Inline-4 twincharged 136 kW / 250 Nm application specification",
+      "applications": [
+        "Audi A1 1.4 TFSI 185 (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 136,
+          "max": 136
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-audi-a4-35-tfsi-2020",
+      "maker": "Audi",
+      "identity": "Audi 2.0 L Inline-4 turbocharged 110 kW / 270 Nm application specification",
+      "applications": [
+        "Audi A4 35 TFSI (Europe/United Kingdom, 2020 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 270,
+          "max": 270
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-felicia-1-6-1995",
+      "maker": "Skoda",
+      "identity": "Skoda 1.6 L Inline-4 naturally aspirated 55 kW / 135 Nm application specification",
+      "applications": [
+        "Skoda Felicia 1.6 (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 55,
+          "max": 55
+        },
+        "torqueNm": {
+          "min": 135,
+          "max": 135
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-octavia-vrs-1-8-turbo-2001",
+      "maker": "Skoda",
+      "identity": "Skoda 1.8 L Inline-4 turbocharged 132 kW / 235 Nm application specification",
+      "applications": [
+        "Skoda Octavia vRS 1.8 Turbo (Europe/United Kingdom, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 132,
+          "max": 132
+        },
+        "torqueNm": {
+          "min": 235,
+          "max": 235
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-fabia-vrs-1-9-tdi-2003",
+      "maker": "Skoda",
+      "identity": "Skoda 1.9 L Inline-4 turbocharged 96 kW / 310 Nm application specification",
+      "applications": [
+        "Skoda Fabia vRS 1.9 TDI (Europe/United Kingdom, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 96,
+          "max": 96
+        },
+        "torqueNm": {
+          "min": 310,
+          "max": 310
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-superb-v6-2-8-30v-2002",
+      "maker": "Skoda",
+      "identity": "Skoda 2.8 L V6 naturally aspirated 142 kW / 280 Nm application specification",
+      "applications": [
+        "Skoda Superb V6 2.8 30V (Europe/United Kingdom, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 142,
+          "max": 142
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-yeti-1-8-tsi-4x4-160-2009",
+      "maker": "Skoda",
+      "identity": "Skoda 1.8 L Inline-4 turbocharged 118 kW / 250 Nm application specification",
+      "applications": [
+        "Skoda Yeti 1.8 TSI 4x4 160 (Europe/United Kingdom, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 118,
+          "max": 118
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-citigo-1-0-mpi-60-2012",
+      "maker": "Skoda",
+      "identity": "Skoda 1.0 L Inline-3 naturally aspirated 44 kW / 95 Nm application specification",
+      "applications": [
+        "Skoda Citigo 1.0 MPI 60 (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 44,
+          "max": 44
+        },
+        "torqueNm": {
+          "min": 95,
+          "max": 95
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-kodiaq-2-0-tsi-4x4-180-2017",
+      "maker": "Skoda",
+      "identity": "Skoda 2.0 L Inline-4 turbocharged 132 kW / 320 Nm application specification",
+      "applications": [
+        "Skoda Kodiaq 2.0 TSI 4x4 180 (Europe/United Kingdom, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 132,
+          "max": 132
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-scala-1-5-tsi-150-2019",
+      "maker": "Skoda",
+      "identity": "Skoda 1.5 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "applications": [
+        "Skoda Scala 1.5 TSI 150 (Europe/United Kingdom, 2019 specification)",
+        "Skoda Karoq 1.5 TSI 150 (Europe/United Kingdom, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-superb-2-0-tsi-4x4-280-2017",
+      "maker": "Skoda",
+      "identity": "Skoda 2.0 L Inline-4 turbocharged 206 kW / 350 Nm application specification",
+      "applications": [
+        "Skoda Superb 2.0 TSI 4x4 280 (Europe/United Kingdom, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch13-skoda-octavia-vrs-245-2018",
+      "maker": "Skoda",
+      "identity": "Skoda 2.0 L Inline-4 turbocharged 180 kW / 370 Nm application specification",
+      "applications": [
+        "Skoda Octavia vRS 245 (Europe/United Kingdom, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180
+        },
+        "torqueNm": {
+          "min": 370,
+          "max": 370
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-ibiza-2-0-16v-cupra-1997",
+      "maker": "SEAT",
+      "identity": "SEAT 2.0 L Inline-4 naturally aspirated 110 kW / 180 Nm application specification",
+      "applications": [
+        "SEAT Ibiza 2.0 16V Cupra (Europe/United Kingdom, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 180,
+          "max": 180
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-leon-cupra-r-1-8t-20v-2003",
+      "maker": "SEAT",
+      "identity": "SEAT 1.8 L Inline-4 turbocharged 165 kW / 280 Nm application specification",
+      "applications": [
+        "SEAT Leon Cupra R 1.8T 20V (Europe/United Kingdom, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 165,
+          "max": 165
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-leon-cupra-2-0-tfsi-240-2006",
+      "maker": "SEAT",
+      "identity": "SEAT 2.0 L Inline-4 turbocharged 177 kW / 300 Nm application specification",
+      "applications": [
+        "SEAT Leon Cupra 2.0 TFSI 240 (Europe/United Kingdom, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 177,
+          "max": 177
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-exeo-2-0-tsi-200-2009",
+      "maker": "SEAT",
+      "identity": "SEAT 2.0 L Inline-4 turbocharged 147 kW / 280 Nm application specification",
+      "applications": [
+        "SEAT Exeo 2.0 TSI 200 (Europe/United Kingdom, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-altea-2-0-fsi-150-2004",
+      "maker": "SEAT",
+      "identity": "SEAT 2.0 L Inline-4 naturally aspirated 110 kW / 200 Nm application specification",
+      "applications": [
+        "SEAT Altea 2.0 FSI 150 (Europe/United Kingdom, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 200,
+          "max": 200
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-mii-1-0-60-2012",
+      "maker": "SEAT",
+      "identity": "SEAT 1.0 L Inline-3 naturally aspirated 44 kW / 95 Nm application specification",
+      "applications": [
+        "SEAT Mii 1.0 60 (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 44,
+          "max": 44
+        },
+        "torqueNm": {
+          "min": 95,
+          "max": 95
+        }
+      }
+    },
+    {
+      "id": "batch13-cupra-ateca-2-0-tsi-300-2018",
+      "maker": "Cupra",
+      "identity": "Cupra 2.0 L Inline-4 turbocharged 221 kW / 400 Nm application specification",
+      "applications": [
+        "Cupra Ateca 2.0 TSI 300 (Europe/United Kingdom, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 221,
+          "max": 221
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch13-cupra-formentor-vz-2-0-tsi-310-2020",
+      "maker": "Cupra",
+      "identity": "Cupra 2.0 L Inline-4 turbocharged 228 kW / 400 Nm application specification",
+      "applications": [
+        "Cupra Formentor VZ 2.0 TSI 310 (Europe/United Kingdom, 2020 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 228,
+          "max": 228
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-ateca-1-5-ecotsi-150-2018",
+      "maker": "SEAT",
+      "identity": "SEAT 1.5 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "applications": [
+        "SEAT Ateca 1.5 EcoTSI 150 (Europe/United Kingdom, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-seat-exeo-2-0-tsi-210-2012",
+      "maker": "SEAT",
+      "identity": "SEAT 2.0 L Inline-4 turbocharged 155 kW / 320 Nm application specification",
+      "applications": [
+        "SEAT Exeo 2.0 TSI 210 (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 155,
+          "max": 155
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-clio-williams-2-0-16v-1995",
+      "maker": "Renault",
+      "identity": "Renault 2.0 L Inline-4 naturally aspirated 110 kW / 175 Nm application specification",
+      "applications": [
+        "Renault Clio Williams 2.0 16V (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 175,
+          "max": 175
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-laguna-3-0-v6-1995",
+      "maker": "Renault",
+      "identity": "Renault 3.0 L V6 naturally aspirated 123 kW / 235 Nm application specification",
+      "applications": [
+        "Renault Laguna 3.0 V6 (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 123,
+          "max": 123
+        },
+        "torqueNm": {
+          "min": 235,
+          "max": 235
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-megane-coupe-2-0-16v-1996",
+      "maker": "Renault",
+      "identity": "Renault 2.0 L Inline-4 naturally aspirated 110 kW / 185 Nm application specification",
+      "applications": [
+        "Renault Megane Coupe 2.0 16V (Europe/United Kingdom, 1996 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 185,
+          "max": 185
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-clio-rs-172-2000",
+      "maker": "Renault",
+      "identity": "Renault 2.0 L Inline-4 naturally aspirated 124 kW / 200 Nm application specification",
+      "applications": [
+        "Renault Clio RS 172 (Europe/United Kingdom, 2000 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 124,
+          "max": 124
+        },
+        "torqueNm": {
+          "min": 200,
+          "max": 200
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-clio-v6-2001",
+      "maker": "Renault",
+      "identity": "Renault 2.9 L V6 naturally aspirated 169 kW / 300 Nm application specification",
+      "applications": [
+        "Renault Clio V6 (Europe/United Kingdom, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 169,
+          "max": 169
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-megane-r-s-225-2004",
+      "maker": "Renault",
+      "identity": "Renault 2.0 L Inline-4 turbocharged 165 kW / 300 Nm application specification",
+      "applications": [
+        "Renault Megane R.S. 225 (Europe/United Kingdom, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 165,
+          "max": 165
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-vel-satis-3-5-v6-2002",
+      "maker": "Renault",
+      "identity": "Renault 3.5 L V6 naturally aspirated 177 kW / 330 Nm application specification",
+      "applications": [
+        "Renault Vel Satis 3.5 V6 (Europe/United Kingdom, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 177,
+          "max": 177
+        },
+        "torqueNm": {
+          "min": 330,
+          "max": 330
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-twingo-energy-tce-90-2017",
+      "maker": "Renault",
+      "identity": "Renault 0.9 L Inline-3 turbocharged 66 kW / 135 Nm application specification",
+      "applications": [
+        "Renault Twingo Energy TCe 90 (Europe/United Kingdom, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 66,
+          "max": 66
+        },
+        "torqueNm": {
+          "min": 135,
+          "max": 135
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-clio-energy-tce-120-2016",
+      "maker": "Renault",
+      "identity": "Renault 1.2 L Inline-4 turbocharged 87 kW / 205 Nm application specification",
+      "applications": [
+        "Renault Clio Energy TCe 120 (Europe/United Kingdom, 2016 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 87,
+          "max": 87
+        },
+        "torqueNm": {
+          "min": 205,
+          "max": 205
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-megane-r-s-trophy-300-2019",
+      "maker": "Renault",
+      "identity": "Renault 1.8 L Inline-4 turbocharged 220 kW / 420 Nm application specification",
+      "applications": [
+        "Renault Megane R.S. Trophy 300 (Europe/United Kingdom, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 220,
+          "max": 220
+        },
+        "torqueNm": {
+          "min": 420,
+          "max": 420
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-clio-r-s-200-2010",
+      "maker": "Renault",
+      "identity": "Renault 2.0 L Inline-4 naturally aspirated 147.5 kW / 215 Nm application specification",
+      "applications": [
+        "Renault Clio R.S. 200 (Europe/United Kingdom, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147.5,
+          "max": 147.5
+        },
+        "torqueNm": {
+          "min": 215,
+          "max": 215
+        }
+      }
+    },
+    {
+      "id": "batch13-renault-megane-r-s-280-2018",
+      "maker": "Renault",
+      "identity": "Renault 1.8 L Inline-4 turbocharged 205 kW / 390 Nm application specification",
+      "applications": [
+        "Renault Megane R.S. 280 (Europe/United Kingdom, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 205,
+          "max": 205
+        },
+        "torqueNm": {
+          "min": 390,
+          "max": 390
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-106-rallye-1-3-1995",
+      "maker": "Peugeot",
+      "identity": "Peugeot 1.3 L Inline-4 naturally aspirated 72.5 kW / 108 Nm application specification",
+      "applications": [
+        "Peugeot 106 Rallye 1.3 (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 72.5,
+          "max": 72.5
+        },
+        "torqueNm": {
+          "min": 108,
+          "max": 108
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-306-s16-1995",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.0 L Inline-4 naturally aspirated 112 kW / 187 Nm application specification",
+      "applications": [
+        "Peugeot 306 S16 (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 112,
+          "max": 112
+        },
+        "torqueNm": {
+          "min": 187,
+          "max": 187
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-406-coupe-3-0-v6-1997",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.9 L V6 naturally aspirated 140 kW / 267 Nm application specification",
+      "applications": [
+        "Peugeot 406 Coupe 3.0 V6 (Europe/United Kingdom, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 140,
+          "max": 140
+        },
+        "torqueNm": {
+          "min": 267,
+          "max": 267
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-206-gti-1999",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.0 L Inline-4 naturally aspirated 100 kW / 190 Nm application specification",
+      "applications": [
+        "Peugeot 206 GTI (Europe/United Kingdom, 1999 specification)",
+        "Peugeot 307 2.0 16V 135 (Europe/United Kingdom, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 100,
+          "max": 100
+        },
+        "torqueNm": {
+          "min": 190,
+          "max": 190
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-206-rc-2003",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.0 L Inline-4 naturally aspirated 130 kW / 202 Nm application specification",
+      "applications": [
+        "Peugeot 206 RC (Europe/United Kingdom, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 130,
+          "max": 130
+        },
+        "torqueNm": {
+          "min": 202,
+          "max": 202
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-407-coupe-v6-hdi-205-2005",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.7 L V6 twin turbo 150 kW / 440 Nm application specification",
+      "applications": [
+        "Peugeot 407 Coupe V6 HDi 205 (Europe/United Kingdom, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150
+        },
+        "torqueNm": {
+          "min": 440,
+          "max": 440
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-rcz-thp-200-2010",
+      "maker": "Peugeot",
+      "identity": "Peugeot 1.6 L Inline-4 turbocharged 147 kW / 275 Nm application specification",
+      "applications": [
+        "Peugeot RCZ THP 200 (Europe/United Kingdom, 2010 specification)",
+        "Peugeot 208 GTi (Europe/United Kingdom, 2013 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 275,
+          "max": 275
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-308-gti-270-2015",
+      "maker": "Peugeot",
+      "identity": "Peugeot 1.6 L Inline-4 turbocharged 200 kW / 330 Nm application specification",
+      "applications": [
+        "Peugeot 308 GTi 270 (Europe/United Kingdom, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 200,
+          "max": 200
+        },
+        "torqueNm": {
+          "min": 330,
+          "max": 330
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-508-puretech-180-2019",
+      "maker": "Peugeot",
+      "identity": "Peugeot 1.6 L Inline-4 turbocharged 132.5 kW / 250 Nm application specification",
+      "applications": [
+        "Peugeot 508 PureTech 180 (Europe/United Kingdom, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 132.5,
+          "max": 132.5
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-508-gt-puretech-225-2019",
+      "maker": "Peugeot",
+      "identity": "Peugeot 1.6 L Inline-4 turbocharged 165.5 kW / 300 Nm application specification",
+      "applications": [
+        "Peugeot 508 GT PureTech 225 (Europe/United Kingdom, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 165.5,
+          "max": 165.5
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-306-xsi-1995",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.0 L Inline-4 naturally aspirated 89 kW / 176 Nm application specification",
+      "applications": [
+        "Peugeot 306 XSi (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 89,
+          "max": 89
+        },
+        "torqueNm": {
+          "min": 176,
+          "max": 176
+        }
+      }
+    },
+    {
+      "id": "batch13-peugeot-406-2-2i-16v-2002",
+      "maker": "Peugeot",
+      "identity": "Peugeot 2.2 L Inline-4 naturally aspirated 116 kW / 217 Nm application specification",
+      "applications": [
+        "Peugeot 406 2.2i 16V (Europe/United Kingdom, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 116,
+          "max": 116
+        },
+        "torqueNm": {
+          "min": 217,
+          "max": 217
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-saxo-vts-1-6-16v-1997",
+      "maker": "Citroen",
+      "identity": "Citroen 1.6 L Inline-4 naturally aspirated 87 kW / 145 Nm application specification",
+      "applications": [
+        "Citroen Saxo VTS 1.6 16V (Europe/United Kingdom, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 87,
+          "max": 87
+        },
+        "torqueNm": {
+          "min": 145,
+          "max": 145
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-xantia-v6-activa-1997",
+      "maker": "Citroen",
+      "identity": "Citroen 2.9 L V6 naturally aspirated 140 kW / 267 Nm application specification",
+      "applications": [
+        "Citroen Xantia V6 Activa (Europe/United Kingdom, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 140,
+          "max": 140
+        },
+        "torqueNm": {
+          "min": 267,
+          "max": 267
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-xsara-coupe-2-0-16v-vts-1997",
+      "maker": "Citroen",
+      "identity": "Citroen 2.0 L Inline-4 naturally aspirated 123 kW / 193 Nm application specification",
+      "applications": [
+        "Citroen Xsara Coupe 2.0 16V VTS (Europe/United Kingdom, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 123,
+          "max": 123
+        },
+        "torqueNm": {
+          "min": 193,
+          "max": 193
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-c5-3-0-v6-2001",
+      "maker": "Citroen",
+      "identity": "Citroen 2.9 L V6 naturally aspirated 152 kW / 285 Nm application specification",
+      "applications": [
+        "Citroen C5 3.0 V6 (Europe/United Kingdom, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 152,
+          "max": 152
+        },
+        "torqueNm": {
+          "min": 285,
+          "max": 285
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-c4-coupe-vts-2-0-180-2004",
+      "maker": "Citroen",
+      "identity": "Citroen 2.0 L Inline-4 naturally aspirated 130 kW / 202 Nm application specification",
+      "applications": [
+        "Citroen C4 Coupe VTS 2.0 180 (Europe/United Kingdom, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 130,
+          "max": 130
+        },
+        "torqueNm": {
+          "min": 202,
+          "max": 202
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-c6-hdi-205-biturbo-2005",
+      "maker": "Citroen",
+      "identity": "Citroen 2.7 L V6 twin turbo 150 kW / 440 Nm application specification",
+      "applications": [
+        "Citroen C6 HDi 205 biturbo (Europe/United Kingdom, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150
+        },
+        "torqueNm": {
+          "min": 440,
+          "max": 440
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-ds3-racing-2011",
+      "maker": "Citroen",
+      "identity": "Citroen 1.6 L Inline-4 turbocharged 152 kW / 275 Nm application specification",
+      "applications": [
+        "Citroen DS3 Racing (Europe/United Kingdom, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 152,
+          "max": 152
+        },
+        "torqueNm": {
+          "min": 275,
+          "max": 275
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-c4-cactus-puretech-110-2018",
+      "maker": "Citroen",
+      "identity": "Citroen 1.2 L Inline-3 turbocharged 81 kW / 205 Nm application specification",
+      "applications": [
+        "Citroen C4 Cactus PureTech 110 (Europe/United Kingdom, 2018 specification)",
+        "Citroen C3 PureTech 110 (Europe/United Kingdom, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 81,
+          "max": 81
+        },
+        "torqueNm": {
+          "min": 205,
+          "max": 205
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-c5-aircross-puretech-180-2019",
+      "maker": "Citroen",
+      "identity": "Citroen 1.6 L Inline-4 turbocharged 133 kW / 250 Nm application specification",
+      "applications": [
+        "Citroen C5 Aircross PureTech 180 (Europe/United Kingdom, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 133,
+          "max": 133
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-citroen-ds4-thp-200-2012",
+      "maker": "Citroen",
+      "identity": "Citroen 1.6 L Inline-4 turbocharged 147 kW / 275 Nm application specification",
+      "applications": [
+        "Citroen DS4 THP 200 (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 275,
+          "max": 275
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-calibra-2-0-turbo-1995",
+      "maker": "Opel",
+      "identity": "Opel 2.0 L Inline-4 turbocharged 150 kW / 280 Nm application specification",
+      "applications": [
+        "Opel Calibra 2.0 Turbo (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-omega-mv6-1995",
+      "maker": "Opel",
+      "identity": "Opel 3.0 L V6 naturally aspirated 155 kW / 270 Nm application specification",
+      "applications": [
+        "Opel Omega MV6 (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 155,
+          "max": 155
+        },
+        "torqueNm": {
+          "min": 270,
+          "max": 270
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-astra-opc-2002",
+      "maker": "Opel",
+      "identity": "Opel 2.0 L Inline-4 turbocharged 147 kW / 250 Nm application specification",
+      "applications": [
+        "Opel Astra OPC (Europe/United Kingdom, 2002 specification)",
+        "Opel Speedster Turbo (Europe/United Kingdom, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-vectra-opc-2005",
+      "maker": "Opel",
+      "identity": "Opel 2.8 L V6 turbocharged 206 kW / 355 Nm application specification",
+      "applications": [
+        "Opel Vectra OPC (Europe/United Kingdom, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 355,
+          "max": 355
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-insignia-opc-2009",
+      "maker": "Opel",
+      "identity": "Opel 2.8 L V6 turbocharged 239 kW / 435 Nm application specification",
+      "applications": [
+        "Opel Insignia OPC (Europe/United Kingdom, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 239,
+          "max": 239
+        },
+        "torqueNm": {
+          "min": 435,
+          "max": 435
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-corsa-opc-2015",
+      "maker": "Opel",
+      "identity": "Opel 1.6 L Inline-4 turbocharged 152 kW / 245 Nm application specification",
+      "applications": [
+        "Opel Corsa OPC (Europe/United Kingdom, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 152,
+          "max": 152
+        },
+        "torqueNm": {
+          "min": 245,
+          "max": 245
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-astra-1-4-turbo-150-2015",
+      "maker": "Opel",
+      "identity": "Opel 1.4 L Inline-4 turbocharged 110 kW / 245 Nm application specification",
+      "applications": [
+        "Opel Astra 1.4 Turbo 150 (Europe/United Kingdom, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 245,
+          "max": 245
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-adam-s-2015",
+      "maker": "Opel",
+      "identity": "Opel 1.4 L Inline-4 turbocharged 110 kW / 220 Nm application specification",
+      "applications": [
+        "Opel Adam S (Europe/United Kingdom, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 220,
+          "max": 220
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-astra-opc-280-2012",
+      "maker": "Opel",
+      "identity": "Opel 2.0 L Inline-4 turbocharged 206 kW / 400 Nm application specification",
+      "applications": [
+        "Opel Astra OPC 280 (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch13-opel-astra-gtc-opc-240-2005",
+      "maker": "Opel",
+      "identity": "Opel 2.0 L Inline-4 turbocharged 177 kW / 320 Nm application specification",
+      "applications": [
+        "Opel Astra GTC OPC 240 (Europe/United Kingdom, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 177,
+          "max": 177
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-coupe-2-0-fx-1997",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.0 L Inline-4 naturally aspirated 102 kW / 180 Nm application specification",
+      "applications": [
+        "Hyundai Coupe 2.0 FX (Europe/United Kingdom, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 102,
+          "max": 102
+        },
+        "torqueNm": {
+          "min": 180,
+          "max": 180
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-coupe-2-7-v6-2002",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.7 L V6 naturally aspirated 123 kW / 245 Nm application specification",
+      "applications": [
+        "Hyundai Coupe 2.7 V6 (Europe/United Kingdom, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 123,
+          "max": 123
+        },
+        "torqueNm": {
+          "min": 245,
+          "max": 245
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-getz-1-6-2002",
+      "maker": "Hyundai",
+      "identity": "Hyundai 1.6 L Inline-4 naturally aspirated 77.2 kW / 143 Nm application specification",
+      "applications": [
+        "Hyundai Getz 1.6 (Europe/United Kingdom, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 77.2,
+          "max": 77.2
+        },
+        "torqueNm": {
+          "min": 143,
+          "max": 143
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-santa-fe-2-7-v6-2001",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.7 L V6 naturally aspirated 127 kW / 250 Nm application specification",
+      "applications": [
+        "Hyundai Santa Fe 2.7 V6 (Europe/United Kingdom, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 127,
+          "max": 127
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-i30-2-0-143-2007",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.0 L Inline-4 naturally aspirated 105 kW / 186 Nm application specification",
+      "applications": [
+        "Hyundai i30 2.0 143 (Europe/United Kingdom, 2007 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 105,
+          "max": 105
+        },
+        "torqueNm": {
+          "min": 186,
+          "max": 186
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-genesis-coupe-2-0t-2009",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.0 L Inline-4 turbocharged 155 kW / 299 Nm application specification",
+      "applications": [
+        "Hyundai Genesis Coupe 2.0T (Europe/United Kingdom, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 155,
+          "max": 155
+        },
+        "torqueNm": {
+          "min": 299,
+          "max": 299
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-veloster-turbo-2012",
+      "maker": "Hyundai",
+      "identity": "Hyundai 1.6 L Inline-4 turbocharged 137 kW / 265 Nm application specification",
+      "applications": [
+        "Hyundai Veloster Turbo (Europe/United Kingdom, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 137,
+          "max": 137
+        },
+        "torqueNm": {
+          "min": 265,
+          "max": 265
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-i30-n-2017",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.0 L Inline-4 turbocharged 184 kW / 353 Nm application specification",
+      "applications": [
+        "Hyundai i30 N (Europe/United Kingdom, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 184,
+          "max": 184
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-kona-n-2021",
+      "maker": "Hyundai",
+      "identity": "Hyundai 2.0 L Inline-4 turbocharged 206 kW / 392 Nm application specification",
+      "applications": [
+        "Hyundai Kona N (Europe/United Kingdom, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 206,
+          "max": 206
+        },
+        "torqueNm": {
+          "min": 392,
+          "max": 392
+        }
+      }
+    },
+    {
+      "id": "batch13-hyundai-i20-n-2021",
+      "maker": "Hyundai",
+      "identity": "Hyundai 1.6 L Inline-4 turbocharged 150 kW / 275 Nm application specification",
+      "applications": [
+        "Hyundai i20 N (Europe/United Kingdom, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150
+        },
+        "torqueNm": {
+          "min": 275,
+          "max": 275
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-sephia-1-5-dohc-1995",
+      "maker": "Kia",
+      "identity": "Kia 1.5 L Inline-4 naturally aspirated 59 kW / 119 Nm application specification",
+      "applications": [
+        "Kia Sephia 1.5 DOHC (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 59,
+          "max": 59
+        },
+        "torqueNm": {
+          "min": 119,
+          "max": 119
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-shuma-1-8-1998",
+      "maker": "Kia",
+      "identity": "Kia 1.8 L Inline-4 naturally aspirated 81 kW / 152 Nm application specification",
+      "applications": [
+        "Kia Shuma 1.8 (Europe/United Kingdom, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 81,
+          "max": 81
+        },
+        "torqueNm": {
+          "min": 152,
+          "max": 152
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-rio-1-5-2000",
+      "maker": "Kia",
+      "identity": "Kia 1.5 L Inline-4 naturally aspirated 72 kW / 133 Nm application specification",
+      "applications": [
+        "Kia Rio 1.5 (Europe/United Kingdom, 2000 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 72,
+          "max": 72
+        },
+        "torqueNm": {
+          "min": 133,
+          "max": 133
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-sorento-3-5-v6-2003",
+      "maker": "Kia",
+      "identity": "Kia 3.5 L V6 naturally aspirated 143 kW / 294 Nm application specification",
+      "applications": [
+        "Kia Sorento 3.5 V6 (Europe/United Kingdom, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 143,
+          "max": 143
+        },
+        "torqueNm": {
+          "min": 294,
+          "max": 294
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-picanto-1-1-2004",
+      "maker": "Kia",
+      "identity": "Kia 1.1 L Inline-4 naturally aspirated 48 kW / 97 Nm application specification",
+      "applications": [
+        "Kia Picanto 1.1 (Europe/United Kingdom, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 48,
+          "max": 48
+        },
+        "torqueNm": {
+          "min": 97,
+          "max": 97
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-ceed-2-0-cvvt-2007",
+      "maker": "Kia",
+      "identity": "Kia 2.0 L Inline-4 naturally aspirated 105 kW / 186 Nm application specification",
+      "applications": [
+        "Kia Ceed 2.0 CVVT (Europe/United Kingdom, 2007 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 105,
+          "max": 105
+        },
+        "torqueNm": {
+          "min": 186,
+          "max": 186
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-proceed-gt-2013",
+      "maker": "Kia",
+      "identity": "Kia 1.6 L Inline-4 turbocharged 150 kW / 265 Nm application specification",
+      "applications": [
+        "Kia ProCeed GT (Europe/United Kingdom, 2013 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150
+        },
+        "torqueNm": {
+          "min": 265,
+          "max": 265
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-stinger-3-3t-gt-2017",
+      "maker": "Kia",
+      "identity": "Kia 3.3 L V6 twin turbo 272 kW / 510 Nm application specification",
+      "applications": [
+        "Kia Stinger 3.3T GT (Europe/United Kingdom, 2017 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 272,
+          "max": 272
+        },
+        "torqueNm": {
+          "min": 510,
+          "max": 510
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-ceed-1-5-t-gdi-160-2021",
+      "maker": "Kia",
+      "identity": "Kia 1.5 L Inline-4 turbocharged 118 kW / 253 Nm application specification",
+      "applications": [
+        "Kia Ceed 1.5 T-GDI 160 (Europe/United Kingdom, 2021 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 118,
+          "max": 118
+        },
+        "torqueNm": {
+          "min": 253,
+          "max": 253
+        }
+      }
+    },
+    {
+      "id": "batch13-kia-sportage-1-6-t-gdi-180-2022",
+      "maker": "Kia",
+      "identity": "Kia 1.6 L Inline-4 turbocharged 132 kW / 265 Nm application specification",
+      "applications": [
+        "Kia Sportage 1.6 T-GDI 180 (Europe/United Kingdom, 2022 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 132,
+          "max": 132
+        },
+        "torqueNm": {
+          "min": 265,
+          "max": 265
+        }
+      }
+    },
+    {
+      "id": "batch13-volvo-s60-r-2003",
+      "maker": "Volvo",
+      "identity": "Volvo 2.5 L Inline-5 turbocharged 220 kW / 400 Nm application specification",
+      "applications": [
+        "Volvo S60 R (Europe/United Kingdom, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 220,
+          "max": 220
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch13-volvo-xc90-v8-awd-2005",
+      "maker": "Volvo",
+      "identity": "Volvo 4.4 L V8 naturally aspirated 232 kW / 440 Nm application specification",
+      "applications": [
+        "Volvo XC90 V8 AWD (Europe/United Kingdom, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 232,
+          "max": 232
+        },
+        "torqueNm": {
+          "min": 440,
+          "max": 440
+        }
+      }
+    },
+    {
+      "id": "batch13-mazda-mx-5-1-8-1995",
+      "maker": "Mazda",
+      "identity": "Mazda 1.8 L Inline-4 naturally aspirated 96 kW / 152 Nm application specification",
+      "applications": [
+        "Mazda MX-5 1.8 (Europe/United Kingdom, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 96,
+          "max": 96
+        },
+        "torqueNm": {
+          "min": 152,
+          "max": 152
+        }
+      }
+    },
+    {
+      "id": "batch13-mazda-mazda3-mps-cx-7-2-3-disi-turbo-2006",
+      "maker": "Mazda",
+      "identity": "Mazda 2.3 L Inline-4 turbocharged 191 kW / 380 Nm application specification",
+      "applications": [
+        "Mazda Mazda3 MPS / CX-7 2.3 DISI Turbo (Europe/United Kingdom, 2006 specification)",
+        "Mazda CX-7 2.3 DISI Turbo (Europe/United Kingdom, 2007 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 191,
+          "max": 191
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380
+        }
+      }
+    }
+  ]
+}
