@@ -1,0 +1,2461 @@
+{
+  "candidatePool": 180,
+  "maximumBatchSize": 75,
+  "originalAcceptedCandidates": 75,
+  "restoredExactCode": 28,
+  "reviewedApplicationScopedCandidates": 47,
+  "restoredApplicationScopedSpecification": 45,
+  "previousDuplicates": 25,
+  "consolidationDuplicates": [
+    {
+      "kept": "batch12-ferrari-ferrari-f8-spider-2020",
+      "absorbed": "batch12-ferrari-ferrari-488-pista-2018",
+      "reason": "Identical 3.9 L twin-turbo V8, valvetrain, fuel, injection, 529.5 kW and 770 N·m specification; model and year alone are not a material engine difference."
+    },
+    {
+      "kept": "batch12-aston-martin-aston-martin-db12-volante-2023",
+      "absorbed": "batch12-aston-martin-aston-martin-vantage-s-2025",
+      "reason": "Identical 4.0 L twin-turbo V8, valvetrain, fuel, injection, 500 kW and 800 N·m specification; model, body and year alone are not a material engine difference."
+    }
+  ],
+  "holds": 70,
+  "rejected": 10,
+  "sourcePair": {
+    "publishers": [
+      "encyCARpedia",
+      "Automobile-Catalog / ProfessCars"
+    ],
+    "owners": [
+      "encyCARpedia",
+      "ProfessCars"
+    ],
+    "editorialTeams": [
+      "encyCARpedia editorial team",
+      "ProfessCars editorial team"
+    ],
+    "hostnames": [
+      "encycarpedia.com",
+      "automobile-catalog.com"
+    ],
+    "commonOriginAllowed": "manufacturer-published-technical-specifications",
+    "independent": true,
+    "finding": "Distinct publishers, owners, editorial teams and domains; no mirror, translation, syndication or shared commercial database relationship. A common OEM origin for technical facts does not defeat editorial independence."
+  },
+  "records": [
+    {
+      "id": "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974",
+      "maker": "Alfa Romeo",
+      "region": "europe",
+      "identity": "Alfa Romeo 1.3 L Inline-4 naturally aspirated 65.5 kW / 121 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974-ency",
+        "batch12-alfa-romeo-alfa-romeo-gt-1300-junior-1974-ac"
+      ],
+      "applications": [
+        "Alfa Romeo GT 1300 Junior (Europe, 1974 specification)"
+      ],
+      "years": "1974",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 8,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 65.5,
+          "max": 65.5
+        },
+        "torqueNm": {
+          "min": 121,
+          "max": 121
+        }
+      }
+    },
+    {
+      "id": "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974",
+      "maker": "Alfa Romeo",
+      "region": "europe",
+      "identity": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 80 kW / 139 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974-ency",
+        "batch12-alfa-romeo-alfa-romeo-gt-1600-junior-1974-ac"
+      ],
+      "applications": [
+        "Alfa Romeo GT 1600 Junior (Europe, 1974 specification)"
+      ],
+      "years": "1974",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 8,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 80,
+          "max": 80
+        },
+        "torqueNm": {
+          "min": 139,
+          "max": 139
+        }
+      }
+    },
+    {
+      "id": "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965",
+      "maker": "Alfa Romeo",
+      "region": "europe",
+      "identity": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 84.5 kW / 142 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-sprint-gta-1965-ac"
+      ],
+      "applications": [
+        "Alfa Romeo Giulia Sprint GTA (North America, 1965 specification)"
+      ],
+      "years": "1965",
+      "markets": [
+        "North America"
+      ],
+      "valves": 8,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 84.5,
+          "max": 84.5
+        },
+        "torqueNm": {
+          "min": 142,
+          "max": 142
+        }
+      }
+    },
+    {
+      "id": "batch12-alfa-romeo-alfa-romeo-giulia-1962",
+      "maker": "Alfa Romeo",
+      "region": "europe",
+      "identity": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 67.7 kW / 130 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-1962-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-1962-ac"
+      ],
+      "applications": [
+        "Alfa Romeo Giulia (North America, 1962 specification)"
+      ],
+      "years": "1962",
+      "markets": [
+        "North America"
+      ],
+      "valves": 8,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 67.7,
+          "max": 67.7
+        },
+        "torqueNm": {
+          "min": 130,
+          "max": 130
+        }
+      }
+    },
+    {
+      "id": "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970",
+      "maker": "Alfa Romeo",
+      "region": "europe",
+      "identity": "Alfa Romeo 1.3 L Inline-4 naturally aspirated 64 kW / 118 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-1300-super-1970-ac"
+      ],
+      "applications": [
+        "Alfa Romeo Giulia 1300 Super (Europe, 1970 specification)"
+      ],
+      "years": "1970",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 8,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 64,
+          "max": 64
+        },
+        "torqueNm": {
+          "min": 118,
+          "max": 118
+        }
+      }
+    },
+    {
+      "id": "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972",
+      "maker": "Alfa Romeo",
+      "region": "europe",
+      "identity": "Alfa Romeo 1.6 L Inline-4 naturally aspirated 75.5 kW / 137 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972-ency",
+        "batch12-alfa-romeo-alfa-romeo-giulia-super-1-6-1972-ac"
+      ],
+      "applications": [
+        "Alfa Romeo Giulia Super 1 6 (Europe, 1972 specification)"
+      ],
+      "years": "1972",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 8,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 75.5,
+          "max": 75.5
+        },
+        "torqueNm": {
+          "min": 137,
+          "max": 137
+        }
+      }
+    },
+    {
+      "id": "batch12-land-rover-range-rover-sport-sv-2023",
+      "maker": "Land Rover",
+      "region": "europe",
+      "identity": "Land Rover 4.4 L V8 twin-turbocharged 467 kW / 750 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-land-rover-range-rover-sport-sv-2023-ency",
+        "batch12-land-rover-range-rover-sport-sv-2023-ac"
+      ],
+      "applications": [
+        "Range Rover Sport SV (Europe, 2023 specification)"
+      ],
+      "years": "2023",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 467,
+          "max": 467
+        },
+        "torqueNm": {
+          "min": 750,
+          "max": 750
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-840i-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B58B30",
+      "identityType": "exactCode",
+      "code": "B58B30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-840i-2020-ency",
+        "batch12-bmw-bmw-840i-2020-ac"
+      ],
+      "applications": [
+        "BMW 840i (North America, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 500,
+          "max": 500
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-520i-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B48B20",
+      "identityType": "exactCode",
+      "code": "B48B20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-520i-2020-ency",
+        "batch12-bmw-bmw-520i-2020-ac"
+      ],
+      "applications": [
+        "BMW 520i (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 135,
+          "max": 135
+        },
+        "torqueNm": {
+          "min": 290,
+          "max": 290
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m550i-xdrive-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "BMW 4.4 L V8 twin-turbocharged 390 kW / 750 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m550i-xdrive-2020-ency",
+        "batch12-bmw-bmw-m550i-xdrive-2020-ac"
+      ],
+      "applications": [
+        "BMW M550i xDrive (North America, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "North America"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 390,
+          "max": 390
+        },
+        "torqueNm": {
+          "min": 750,
+          "max": 750
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m3-2021",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "BMW 3.0 L Inline-6 twin-turbocharged 353 kW / 550 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m3-2021-ency",
+        "batch12-bmw-bmw-m3-2021-ac"
+      ],
+      "applications": [
+        "BMW M3 (North America, 2021 specification)"
+      ],
+      "years": "2021",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 353,
+          "max": 353
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch12-mg-mg-mg6-gt-2013",
+      "maker": "MG",
+      "region": "europe",
+      "identity": "MG 1.8 L Inline-4 turbocharged 110 kW / 350 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mg-mg-mg6-gt-2013-ency",
+        "batch12-mg-mg-mg6-gt-2013-ac"
+      ],
+      "applications": [
+        "MG MG6 GT (Europe, 2013 specification)"
+      ],
+      "years": "2013",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch12-jaguar-jaguar-xe-s-2017",
+      "maker": "Jaguar",
+      "region": "europe",
+      "identity": "Jaguar 3.0 L V6 supercharged 279.5 kW / 450 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-jaguar-jaguar-xe-s-2017-ency",
+        "batch12-jaguar-jaguar-xe-s-2017-ac"
+      ],
+      "applications": [
+        "Jaguar XE S (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 279.5,
+          "max": 279.5
+        },
+        "torqueNm": {
+          "min": 450,
+          "max": 450
+        }
+      }
+    },
+    {
+      "id": "batch12-jaguar-jaguar-mark-x-1961",
+      "maker": "Jaguar",
+      "region": "europe",
+      "identity": "Jaguar 3.8 L Inline-6 naturally aspirated 198 kW / 353 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-jaguar-jaguar-mark-x-1961-ency",
+        "batch12-jaguar-jaguar-mark-x-1961-ac"
+      ],
+      "applications": [
+        "Jaguar Mark X (Europe, 1961 specification)"
+      ],
+      "years": "1961",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 12,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 198,
+          "max": 198
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-c-200-2014",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M274 DE20",
+      "identityType": "exactCode",
+      "code": "M274 DE20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-c-200-2014-ency",
+        "batch12-mercedes-benz-c-200-2014-ac"
+      ],
+      "applications": [
+        "C 200 (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 135,
+          "max": 135
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch12-land-rover-range-rover-2022",
+      "maker": "Land Rover",
+      "region": "europe",
+      "identity": "Land Rover 4.4 L V8 twin-turbocharged 390 kW / 750 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-land-rover-range-rover-2022-ency",
+        "batch12-land-rover-range-rover-2022-ac"
+      ],
+      "applications": [
+        "Range Rover (Europe, 2022 specification)"
+      ],
+      "years": "2022",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 390,
+          "max": 390
+        },
+        "torqueNm": {
+          "min": 750,
+          "max": 750
+        }
+      }
+    },
+    {
+      "id": "batch12-land-rover-range-rover-td6-2002",
+      "maker": "Land Rover",
+      "region": "europe",
+      "identity": "Land Rover 2.9 L Inline-6 turbocharged 130 kW / 390 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-land-rover-range-rover-td6-2002-ency",
+        "batch12-land-rover-range-rover-td6-2002-ac"
+      ],
+      "applications": [
+        "Range Rover Td6 (Europe, 2002 specification)"
+      ],
+      "years": "2002",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 130,
+          "max": 130
+        },
+        "torqueNm": {
+          "min": 390,
+          "max": 390
+        }
+      }
+    },
+    {
+      "id": "batch12-dacia-dacia-duster-blue-dci-115-2021",
+      "maker": "Dacia",
+      "region": "europe",
+      "identity": "Dacia 1.5 L Inline-4 turbocharged 84.5 kW / 260 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-dacia-dacia-duster-blue-dci-115-2021-ency",
+        "batch12-dacia-dacia-duster-blue-dci-115-2021-ac"
+      ],
+      "applications": [
+        "Dacia Duster Blue dCi 115 (Europe, 2021 specification)"
+      ],
+      "years": "2021",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 8,
+      "cams": 1,
+      "performance": {
+        "powerKw": {
+          "min": 84.5,
+          "max": 84.5
+        },
+        "torqueNm": {
+          "min": 260,
+          "max": 260
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-roma-2020",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 3.9 L V8 twin-turbocharged 456 kW / 760 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-roma-2020-ency",
+        "batch12-ferrari-ferrari-roma-2020-ac"
+      ],
+      "applications": [
+        "Ferrari Roma (Global, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 456,
+          "max": 456
+        },
+        "torqueNm": {
+          "min": 760,
+          "max": 760
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-520d-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B47D20",
+      "identityType": "exactCode",
+      "code": "B47D20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-520d-2020-ency",
+        "batch12-bmw-bmw-520d-2020-ac"
+      ],
+      "applications": [
+        "BMW 520d (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 140,
+          "max": 140
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m2-cs-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "S55B30",
+      "identityType": "exactCode",
+      "code": "S55B30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m2-cs-2020-ency",
+        "batch12-bmw-bmw-m2-cs-2020-ac"
+      ],
+      "applications": [
+        "BMW M2 CS (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 331,
+          "max": 331
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-530i-xdrive-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B48B20",
+      "identityType": "exactCode",
+      "code": "B48B20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-530i-xdrive-2020-ency",
+        "batch12-bmw-bmw-530i-xdrive-2020-ac"
+      ],
+      "applications": [
+        "BMW 530i xDrive (North America, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "North America"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 185,
+          "max": 185
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch12-mini-mini-cooper-countryman-2020",
+      "maker": "MINI",
+      "region": "europe",
+      "identity": "B38A15",
+      "identityType": "exactCode",
+      "code": "B38A15",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mini-mini-cooper-countryman-2020-ency",
+        "batch12-mini-mini-cooper-countryman-2020-ac"
+      ],
+      "applications": [
+        "Mini Cooper Countryman (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 12,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 100,
+          "max": 100
+        },
+        "torqueNm": {
+          "min": 220,
+          "max": 220
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-gtc4lusso-2016",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 6.3 L V12 naturally aspirated 507 kW / 697 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-gtc4lusso-2016-ency",
+        "batch12-ferrari-ferrari-gtc4lusso-2016-ac"
+      ],
+      "applications": [
+        "Ferrari GTC4Lusso (Global, 2016 specification)"
+      ],
+      "years": "2016",
+      "markets": [
+        "Global"
+      ],
+      "valves": 48,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 507,
+          "max": 507
+        },
+        "torqueNm": {
+          "min": 697,
+          "max": 697
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m4-coupe-2014",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "S55B30",
+      "identityType": "exactCode",
+      "code": "S55B30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m4-coupe-2014-ency",
+        "batch12-bmw-bmw-m4-coupe-2014-ac"
+      ],
+      "applications": [
+        "BMW M4 Coupe (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 317,
+          "max": 317
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-e-300-2020",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "Mercedes-Benz 2.0 L Inline-4 turbocharged 190 kW / 370 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-300-2020-ency",
+        "batch12-mercedes-benz-e-300-2020-ac"
+      ],
+      "applications": [
+        "E 300 (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 190,
+          "max": 190
+        },
+        "torqueNm": {
+          "min": 370,
+          "max": 370
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "Mercedes-Benz 3.0 L Inline-6 twin-turbocharged 320 kW / 520 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020-ency",
+        "batch12-mercedes-benz-mercedes-amg-e-53-4matic-2020-ac"
+      ],
+      "applications": [
+        "Mercedes AMG E 53 4MATIC+ (North America, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 320,
+          "max": 320
+        },
+        "torqueNm": {
+          "min": 520,
+          "max": 520
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-e-450-4matic-2020",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M256 E30",
+      "identityType": "exactCode",
+      "code": "M256 E30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-450-4matic-2020-ency",
+        "batch12-mercedes-benz-e-450-4matic-2020-ac"
+      ],
+      "applications": [
+        "E 450 4MATIC (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 270,
+          "max": 270
+        },
+        "torqueNm": {
+          "min": 500,
+          "max": 500
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "Mercedes-Benz 4.0 L V8 twin-turbocharged 537 kW / 800 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020-ency",
+        "batch12-mercedes-benz-mercedes-amg-gt-black-series-2020-ac"
+      ],
+      "applications": [
+        "Mercedes AMG GT Black Series (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 537,
+          "max": 537
+        },
+        "torqueNm": {
+          "min": 800,
+          "max": 800
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-gle-580-4matic-2020",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M176 DE40",
+      "identityType": "exactCode",
+      "code": "M176 DE40",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-gle-580-4matic-2020-ency",
+        "batch12-mercedes-benz-gle-580-4matic-2020-ac"
+      ],
+      "applications": [
+        "GLE 580 4MATIC (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 360,
+          "max": 360
+        },
+        "torqueNm": {
+          "min": 700,
+          "max": 700
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-128ti-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B48A20",
+      "identityType": "exactCode",
+      "code": "B48A20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-128ti-2020-ency",
+        "batch12-bmw-bmw-128ti-2020-ac"
+      ],
+      "applications": [
+        "BMW 128ti (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 195,
+          "max": 195
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m5-2020",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "S63B44",
+      "identityType": "exactCode",
+      "code": "S63B44",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m5-2020-ency",
+        "batch12-bmw-bmw-m5-2020-ac"
+      ],
+      "applications": [
+        "BMW M5 (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 441,
+          "max": 441
+        },
+        "torqueNm": {
+          "min": 750,
+          "max": 750
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-f8-spider-2020",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 3.9 L V8 twin-turbocharged 529.5 kW / 770 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-f8-spider-2020-ency",
+        "batch12-ferrari-ferrari-f8-spider-2020-ac",
+        "batch12-ferrari-ferrari-488-pista-2018-ency",
+        "batch12-ferrari-ferrari-488-pista-2018-ac"
+      ],
+      "applications": [
+        "Ferrari F8 Spider (Global, 2020 specification)",
+        "Ferrari 488 Pista (Global, 2018 specification)"
+      ],
+      "years": "2018-2020",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 529.5,
+          "max": 529.5
+        },
+        "torqueNm": {
+          "min": 770,
+          "max": 770
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-812-gts-2020",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 6.5 L V12 naturally aspirated 588 kW / 718 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-812-gts-2020-ency",
+        "batch12-ferrari-ferrari-812-gts-2020-ac"
+      ],
+      "applications": [
+        "Ferrari 812 GTS (Global, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Global"
+      ],
+      "valves": 48,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 588,
+          "max": 588
+        },
+        "torqueNm": {
+          "min": 718,
+          "max": 718
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-portofino-2018",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 3.9 L V8 twin-turbocharged 441 kW / 760 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-portofino-2018-ency",
+        "batch12-ferrari-ferrari-portofino-2018-ac"
+      ],
+      "applications": [
+        "Ferrari Portofino (Global, 2018 specification)"
+      ],
+      "years": "2018",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 441,
+          "max": 441
+        },
+        "torqueNm": {
+          "min": 760,
+          "max": 760
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-gla-200-2020",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M282 DE14",
+      "identityType": "exactCode",
+      "code": "M282 DE14",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-gla-200-2020-ency",
+        "batch12-mercedes-benz-gla-200-2020-ac"
+      ],
+      "applications": [
+        "GLA 200 (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 120,
+          "max": 120
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch12-aston-martin-aston-martin-db12-volante-2023",
+      "maker": "Aston Martin",
+      "region": "europe",
+      "identity": "Aston Martin 4.0 L V8 twin-turbocharged 500 kW / 800 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-db12-volante-2023-ency",
+        "batch12-aston-martin-aston-martin-db12-volante-2023-ac",
+        "batch12-aston-martin-aston-martin-vantage-s-2025-ency",
+        "batch12-aston-martin-aston-martin-vantage-s-2025-ac"
+      ],
+      "applications": [
+        "Aston Martin DB12 Volante (Global, 2023 specification)",
+        "Aston Martin Vantage S (Global, 2025 specification)"
+      ],
+      "years": "2023-2025",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 500,
+          "max": 500
+        },
+        "torqueNm": {
+          "min": 800,
+          "max": 800
+        }
+      }
+    },
+    {
+      "id": "batch12-aston-martin-aston-martin-db11-v8-2017",
+      "maker": "Aston Martin",
+      "region": "europe",
+      "identity": "Aston Martin 4.0 L V8 twin-turbocharged 375 kW / 675 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-db11-v8-2017-ency",
+        "batch12-aston-martin-aston-martin-db11-v8-2017-ac"
+      ],
+      "applications": [
+        "Aston Martin DB11 V8 (Global, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 375,
+          "max": 375
+        },
+        "torqueNm": {
+          "min": 675,
+          "max": 675
+        }
+      }
+    },
+    {
+      "id": "batch12-aston-martin-aston-martin-vantage-amr-2019",
+      "maker": "Aston Martin",
+      "region": "europe",
+      "identity": "Aston Martin 4.0 L V8 twin-turbocharged 375 kW / 625 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-vantage-amr-2019-ency",
+        "batch12-aston-martin-aston-martin-vantage-amr-2019-ac"
+      ],
+      "applications": [
+        "Aston Martin Vantage AMR (Global, 2019 specification)"
+      ],
+      "years": "2019",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 375,
+          "max": 375
+        },
+        "torqueNm": {
+          "min": 625,
+          "max": 625
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-540d-xdrive-2017",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B57D30",
+      "identityType": "exactCode",
+      "code": "B57D30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-540d-xdrive-2017-ency",
+        "batch12-bmw-bmw-540d-xdrive-2017-ac"
+      ],
+      "applications": [
+        "BMW 540d xDrive (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 235,
+          "max": 235
+        },
+        "torqueNm": {
+          "min": 680,
+          "max": 680
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-530d-xdrive-2017",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B57D30",
+      "identityType": "exactCode",
+      "code": "B57D30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-530d-xdrive-2017-ency",
+        "batch12-bmw-bmw-530d-xdrive-2017-ac"
+      ],
+      "applications": [
+        "BMW 530d xDrive (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 195,
+          "max": 195
+        },
+        "torqueNm": {
+          "min": 620,
+          "max": 620
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m550d-2017",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B57D30",
+      "identityType": "exactCode",
+      "code": "B57D30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m550d-2017-ency",
+        "batch12-bmw-bmw-m550d-2017-ac"
+      ],
+      "applications": [
+        "BMW M550d (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 294,
+          "max": 294
+        },
+        "torqueNm": {
+          "min": 760,
+          "max": 760
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-m4-cs-2017",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "S55B30",
+      "identityType": "exactCode",
+      "code": "S55B30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-m4-cs-2017-ency",
+        "batch12-bmw-bmw-m4-cs-2017-ac"
+      ],
+      "applications": [
+        "BMW M4 CS (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 338,
+          "max": 338
+        },
+        "torqueNm": {
+          "min": 600,
+          "max": 600
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-540i-2017",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "B58B30",
+      "identityType": "exactCode",
+      "code": "B58B30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-540i-2017-ency",
+        "batch12-bmw-bmw-540i-2017-ac"
+      ],
+      "applications": [
+        "BMW 540i (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 450,
+          "max": 450
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-220i-coupe-2014",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "N20B20",
+      "identityType": "exactCode",
+      "code": "N20B20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-220i-coupe-2014-ency",
+        "batch12-bmw-bmw-220i-coupe-2014-ac"
+      ],
+      "applications": [
+        "BMW 220i Coupe (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 135,
+          "max": 135
+        },
+        "torqueNm": {
+          "min": 270,
+          "max": 270
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-435d-2014",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "N57D30",
+      "identityType": "exactCode",
+      "code": "N57D30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-435d-2014-ency",
+        "batch12-bmw-bmw-435d-2014-ac"
+      ],
+      "applications": [
+        "BMW 435d (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 230,
+          "max": 230
+        },
+        "torqueNm": {
+          "min": 630,
+          "max": 630
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-428i-2014",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "N20B20",
+      "identityType": "exactCode",
+      "code": "N20B20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-428i-2014-ency",
+        "batch12-bmw-bmw-428i-2014-ac"
+      ],
+      "applications": [
+        "BMW 428i (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-x6-xdrive35i-2014",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "N55B30",
+      "identityType": "exactCode",
+      "code": "N55B30",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-x6-xdrive35i-2014-ency",
+        "batch12-bmw-bmw-x6-xdrive35i-2014-ac"
+      ],
+      "applications": [
+        "BMW X6 xDrive35i (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 24,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 225,
+          "max": 225
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch12-bmw-bmw-220d-coupe-2014",
+      "maker": "BMW",
+      "region": "europe",
+      "identity": "N47D20",
+      "identityType": "exactCode",
+      "code": "N47D20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-bmw-bmw-220d-coupe-2014-ency",
+        "batch12-bmw-bmw-220d-coupe-2014-ac"
+      ],
+      "applications": [
+        "BMW 220d Coupe (Europe, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 135,
+          "max": 135
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-e-400-2017",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "Mercedes-Benz 3.0 L V6 twin-turbocharged 245 kW / 480 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-400-2017-ency",
+        "batch12-mercedes-benz-e-400-2017-ac"
+      ],
+      "applications": [
+        "E 400 (North America, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 245,
+          "max": 245
+        },
+        "torqueNm": {
+          "min": 480,
+          "max": 480
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-s-560-2017",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M176 DE40",
+      "identityType": "exactCode",
+      "code": "M176 DE40",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-s-560-2017-ency",
+        "batch12-mercedes-benz-s-560-2017-ac"
+      ],
+      "applications": [
+        "S 560 (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 345,
+          "max": 345
+        },
+        "torqueNm": {
+          "min": 700,
+          "max": 700
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-e-300-coupe-2017",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M274 DE20",
+      "identityType": "exactCode",
+      "code": "M274 DE20",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-e-300-coupe-2017-ency",
+        "batch12-mercedes-benz-e-300-coupe-2017-ac"
+      ],
+      "applications": [
+        "E 300 Coupe (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 180,
+          "max": 180
+        },
+        "torqueNm": {
+          "min": 370,
+          "max": 370
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-mercedes-amg-gt-s-2017",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "Mercedes-Benz 4.0 L V8 twin-turbocharged 384 kW / 670 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-gt-s-2017-ency",
+        "batch12-mercedes-benz-mercedes-amg-gt-s-2017-ac"
+      ],
+      "applications": [
+        "Mercedes AMG GT S (Global, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 384,
+          "max": 384
+        },
+        "torqueNm": {
+          "min": 670,
+          "max": 670
+        }
+      }
+    },
+    {
+      "id": "batch12-mercedes-benz-mercedes-amg-gt-2017",
+      "maker": "Mercedes-Benz",
+      "region": "europe",
+      "identity": "M178 DE40",
+      "identityType": "exactCode",
+      "code": "M178 DE40",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-mercedes-benz-mercedes-amg-gt-2017-ency",
+        "batch12-mercedes-benz-mercedes-amg-gt-2017-ac"
+      ],
+      "applications": [
+        "Mercedes AMG GT (Global, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 350,
+          "max": 350
+        },
+        "torqueNm": {
+          "min": 630,
+          "max": 630
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-f12tdf-2015",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 6.3 L V12 naturally aspirated 574 kW / 705 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-f12tdf-2015-ency",
+        "batch12-ferrari-ferrari-f12tdf-2015-ac"
+      ],
+      "applications": [
+        "Ferrari F12tdf (Global, 2015 specification)"
+      ],
+      "years": "2015",
+      "markets": [
+        "Global"
+      ],
+      "valves": 48,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 574,
+          "max": 574
+        },
+        "torqueNm": {
+          "min": 705,
+          "max": 705
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-488-spider-2015",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 3.9 L V8 twin-turbocharged 493 kW / 760 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-488-spider-2015-ency",
+        "batch12-ferrari-ferrari-488-spider-2015-ac"
+      ],
+      "applications": [
+        "Ferrari 488 Spider (Global, 2015 specification)"
+      ],
+      "years": "2015",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 493,
+          "max": 493
+        },
+        "torqueNm": {
+          "min": 760,
+          "max": 760
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-458-speciale-a-2015",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 4.5 L V8 naturally aspirated 445 kW / 540 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-458-speciale-a-2015-ency",
+        "batch12-ferrari-ferrari-458-speciale-a-2015-ac"
+      ],
+      "applications": [
+        "Ferrari 458 Speciale A (Global, 2015 specification)"
+      ],
+      "years": "2015",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 445,
+          "max": 445
+        },
+        "torqueNm": {
+          "min": 540,
+          "max": 540
+        }
+      }
+    },
+    {
+      "id": "batch12-ferrari-ferrari-california-t-2014",
+      "maker": "Ferrari",
+      "region": "europe",
+      "identity": "Ferrari 3.9 L V8 twin-turbocharged 412 kW / 755 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-ferrari-ferrari-california-t-2014-ency",
+        "batch12-ferrari-ferrari-california-t-2014-ac"
+      ],
+      "applications": [
+        "Ferrari California T (Global, 2014 specification)"
+      ],
+      "years": "2014",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 412,
+          "max": 412
+        },
+        "torqueNm": {
+          "min": 755,
+          "max": 755
+        }
+      }
+    },
+    {
+      "id": "batch12-aston-martin-aston-martin-dbx-s-2025",
+      "maker": "Aston Martin",
+      "region": "europe",
+      "identity": "Aston Martin 4.0 L V8 twin-turbocharged 534.5 kW / 900 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-dbx-s-2025-ency",
+        "batch12-aston-martin-aston-martin-dbx-s-2025-ac"
+      ],
+      "applications": [
+        "Aston Martin DBX S (Global, 2025 specification)"
+      ],
+      "years": "2025",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 534.5,
+          "max": 534.5
+        },
+        "torqueNm": {
+          "min": 900,
+          "max": 900
+        }
+      }
+    },
+    {
+      "id": "batch12-aston-martin-aston-martin-vantage-2021",
+      "maker": "Aston Martin",
+      "region": "europe",
+      "identity": "Aston Martin 4.0 L V8 twin-turbocharged 393.2 kW / 685 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-aston-martin-aston-martin-vantage-2021-ency",
+        "batch12-aston-martin-aston-martin-vantage-2021-ac"
+      ],
+      "applications": [
+        "Aston Martin Vantage (Global, 2021 specification)"
+      ],
+      "years": "2021",
+      "markets": [
+        "Global"
+      ],
+      "valves": 32,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 393.2,
+          "max": 393.2
+        },
+        "torqueNm": {
+          "min": 685,
+          "max": 685
+        }
+      }
+    },
+    {
+      "id": "batch12-porsche-porsche-911s-targa-1967",
+      "maker": "Porsche",
+      "region": "europe",
+      "identity": "Porsche 2.0 L Flat-6 naturally aspirated 117.5 kW / 179 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-porsche-porsche-911s-targa-1967-ency",
+        "batch12-porsche-porsche-911s-targa-1967-ac"
+      ],
+      "applications": [
+        "Porsche 911S Targa (Europe, 1967 specification)"
+      ],
+      "years": "1967",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 12,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 117.5,
+          "max": 117.5
+        },
+        "torqueNm": {
+          "min": 179,
+          "max": 179
+        }
+      }
+    },
+    {
+      "id": "batch12-porsche-porsche-911-carrera-1973",
+      "maker": "Porsche",
+      "region": "europe",
+      "identity": "Porsche 2.7 L Flat-6 naturally aspirated 154.5 kW / 255 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-porsche-porsche-911-carrera-1973-ency",
+        "batch12-porsche-porsche-911-carrera-1973-ac"
+      ],
+      "applications": [
+        "Porsche 911 Carrera (Europe, 1973 specification)"
+      ],
+      "years": "1973",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 12,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 154.5,
+          "max": 154.5
+        },
+        "torqueNm": {
+          "min": 255,
+          "max": 255
+        }
+      }
+    },
+    {
+      "id": "batch12-porsche-porsche-911-1964",
+      "maker": "Porsche",
+      "region": "europe",
+      "identity": "Porsche 2.0 L Flat-6 naturally aspirated 95.5 kW / 174 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-porsche-porsche-911-1964-ency",
+        "batch12-porsche-porsche-911-1964-ac"
+      ],
+      "applications": [
+        "Porsche 911 (Europe, 1964 specification)"
+      ],
+      "years": "1964",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 12,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 95.5,
+          "max": 95.5
+        },
+        "torqueNm": {
+          "min": 174,
+          "max": 174
+        }
+      }
+    },
+    {
+      "id": "batch12-lexus-lexus-is-350-2020",
+      "maker": "Lexus",
+      "region": "japan",
+      "identity": "Lexus 3.5 L V6 naturally aspirated 231.9 kW / 380 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-lexus-lexus-is-350-2020-ency",
+        "batch12-lexus-lexus-is-350-2020-ac"
+      ],
+      "applications": [
+        "Lexus IS 350 (North America, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 231.9,
+          "max": 231.9
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380
+        }
+      }
+    },
+    {
+      "id": "batch12-honda-honda-civic-type-r-2020",
+      "maker": "Honda",
+      "region": "japan",
+      "identity": "Honda 2.0 L Inline-4 turbocharged 235 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-honda-honda-civic-type-r-2020-ency",
+        "batch12-honda-honda-civic-type-r-2020-ac"
+      ],
+      "applications": [
+        "Honda Civic Type R (Europe, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 235,
+          "max": 235
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018",
+      "maker": "Honda",
+      "region": "japan",
+      "identity": "Honda 1.5 L Inline-4 naturally aspirated 95.5 kW / 155 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018-ency",
+        "batch12-honda-honda-hr-v-1-5-i-vtec-cvt-2018-ac"
+      ],
+      "applications": [
+        "Honda HR V 1 5 i VTEC CVT (Europe, 2018 specification)"
+      ],
+      "years": "2018",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 95.5,
+          "max": 95.5
+        },
+        "torqueNm": {
+          "min": 155,
+          "max": 155
+        }
+      }
+    },
+    {
+      "id": "batch12-honda-honda-civic-limousine-1-5-2017",
+      "maker": "Honda",
+      "region": "japan",
+      "identity": "L15B7",
+      "identityType": "exactCode",
+      "code": "L15B7",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-honda-honda-civic-limousine-1-5-2017-ency",
+        "batch12-honda-honda-civic-limousine-1-5-2017-ac"
+      ],
+      "applications": [
+        "Honda Civic Limousine 1 5 (Europe, 2017 specification)"
+      ],
+      "years": "2017",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 134,
+          "max": 134
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      }
+    },
+    {
+      "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018",
+      "maker": "Honda",
+      "region": "japan",
+      "identity": "Honda 1.5 L Inline-4 turbocharged 127 kW / 220 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018-ency",
+        "batch12-honda-honda-cr-v-1-5-vtec-turbo-awd-2018-ac"
+      ],
+      "applications": [
+        "Honda CR V 1 5 VTEC Turbo AWD (Europe, 2018 specification)"
+      ],
+      "years": "2018",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 127,
+          "max": 127
+        },
+        "torqueNm": {
+          "min": 220,
+          "max": 220
+        }
+      }
+    },
+    {
+      "id": "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018",
+      "maker": "Honda",
+      "region": "japan",
+      "identity": "Honda 1.5 L Inline-4 turbocharged 142 kW / 243 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018-ency",
+        "batch12-honda-honda-cr-v-1-5-vtec-turbo-2018-ac"
+      ],
+      "applications": [
+        "Honda CR V 1 5 VTEC Turbo (Europe, 2018 specification)"
+      ],
+      "years": "2018",
+      "markets": [
+        "Europe"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 142,
+          "max": 142
+        },
+        "torqueNm": {
+          "min": 243,
+          "max": 243
+        }
+      }
+    },
+    {
+      "id": "batch12-cadillac-cadillac-ct5-v-awd-2020",
+      "maker": "Cadillac",
+      "region": "north-america",
+      "identity": "Cadillac 3.0 L V6 twin-turbocharged 268.5 kW / 550 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-cadillac-cadillac-ct5-v-awd-2020-ency",
+        "batch12-cadillac-cadillac-ct5-v-awd-2020-ac"
+      ],
+      "applications": [
+        "Cadillac CT5 V AWD (North America, 2020 specification)"
+      ],
+      "years": "2020",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 268.5,
+          "max": 268.5
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch12-chevrolet-chevrolet-hhr-ss-2008",
+      "maker": "Chevrolet",
+      "region": "north-america",
+      "identity": "LNF",
+      "identityType": "exactCode",
+      "code": "LNF",
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-chevrolet-chevrolet-hhr-ss-2008-ency",
+        "batch12-chevrolet-chevrolet-hhr-ss-2008-ac"
+      ],
+      "applications": [
+        "Chevrolet HHR SS (North America, 2008 specification)"
+      ],
+      "years": "2008",
+      "markets": [
+        "North America"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch12-cadillac-cadillac-ct6-3-2016",
+      "maker": "Cadillac",
+      "region": "north-america",
+      "identity": "Cadillac 3.6 L V6 naturally aspirated 250 kW / 385 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-cadillac-cadillac-ct6-3-2016-ency",
+        "batch12-cadillac-cadillac-ct6-3-2016-ac"
+      ],
+      "applications": [
+        "Cadillac CT6 3 (North America, 2016 specification)"
+      ],
+      "years": "2016",
+      "markets": [
+        "North America"
+      ],
+      "valves": 24,
+      "cams": 4,
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 385,
+          "max": 385
+        }
+      }
+    },
+    {
+      "id": "batch12-cadillac-cadillac-ct6-2-2016",
+      "maker": "Cadillac",
+      "region": "north-america",
+      "identity": "Cadillac 2.0 L Inline-4 turbocharged 198 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "code": null,
+      "completeness": "core",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-cadillac-cadillac-ct6-2-2016-ency",
+        "batch12-cadillac-cadillac-ct6-2-2016-ac"
+      ],
+      "applications": [
+        "Cadillac CT6 2 (North America, 2016 specification)"
+      ],
+      "years": "2016",
+      "markets": [
+        "North America"
+      ],
+      "valves": 16,
+      "cams": 2,
+      "performance": {
+        "powerKw": {
+          "min": 198,
+          "max": 198
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    }
+  ]
+}

@@ -37,6 +37,9 @@
     if (explicit && explicit.type === 'officialPublicDesignation') {
       return { type: explicit.type, value: String(explicit.value || ''), labelKey: 'officialEngineDesignation' };
     }
+    if (explicit && explicit.type === 'applicationScopedSpecification') {
+      return { type: explicit.type, value: String(explicit.value || ''), labelKey: 'applicationSpecificEngineSpecification' };
+    }
     return {
       type: 'exactCode',
       value: String((explicit && explicit.value) || (record && record.code) || ''),

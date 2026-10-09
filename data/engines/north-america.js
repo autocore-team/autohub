@@ -10870,5 +10870,873 @@ window.AUTOHUB_ENGINE_DATA_REGIONS["north-america"] = [
         }
       ]
     }
+  },
+  {
+    "id": "batch12-cadillac-cadillac-ct5-v-awd-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Cadillac 3.0 L V6 twin-turbocharged 268.5 kW / 550 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2020",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac CT5 V AWD (North America, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Cadillac CT5 V AWD (North America, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Cadillac CT5 V AWD (North America, 2020 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Cadillac CT5 V AWD (North America, 2020 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 Liter; Cadillac CT5 V AWD (North America, 2020 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 268.5,
+        "max": 268.5
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-cadillac-cadillac-ct5-v-awd-2020-ency",
+        "batch12-cadillac-cadillac-ct5-v-awd-2020-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac CT5 V AWD (North America, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-cadillac-cadillac-ct5-v-awd-2020-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Cadillac CT5-V AWD specs (2020-2024): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/us/cadillac/20-ct5-v-awd-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 268.5,
+              "max": 268.5
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V6 specification with 4 valves per cylinder (24 total), DOHC, 268.5 kW and 550 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 365 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT5 V AWD (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-cadillac-cadillac-ct5-v-awd-2020-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2020 Cadillac CT5-V AWD Specs Review (268.5 kW / 365 PS / 360 hp) (since Fall 2019 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2876510/cadillac_ct5-v_awd.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 268.5,
+              "max": 268.5
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, bi-turbo V6 specification with 4 valves per cylinder (24 total), DOHC, 268.5 kW and 550 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 365 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT5 V AWD (North America, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-chevrolet-chevrolet-hhr-ss-2008",
+    "identity": {
+      "type": "exactCode",
+      "value": "LNF"
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Chevrolet",
+    "regionKey": "north-america",
+    "years": "2008",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Chevrolet HHR SS (North America, 2008 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Chevrolet HHR SS (North America, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Chevrolet HHR SS (North America, 2008 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Chevrolet HHR SS (North America, 2008 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Chevrolet HHR SS (North America, 2008 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 194,
+        "max": 194
+      },
+      "torqueNm": {
+        "min": 353,
+        "max": 353
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-chevrolet-chevrolet-hhr-ss-2008-ency",
+        "batch12-chevrolet-chevrolet-hhr-ss-2008-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Chevrolet HHR SS (North America, 2008 specification)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-chevrolet-chevrolet-hhr-ss-2008-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Chevrolet HHR SS (Delta) specs (2008-2010): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2008,
+          "url": "https://www.encycarpedia.com/us/chevrolet/08-hhr-ss-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 194,
+              "max": 194
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 194 kW and 353 N·m. Both publications expose engine code LNF for this application and calibration. encyCARpedia publishes 264 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet HHR SS (North America, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "North America"
+            ],
+            "codes": [
+              "LNF"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-chevrolet-chevrolet-hhr-ss-2008-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2009 Chevrolet HHR SS Specs Review (194 kW / 264 PS / 260 hp) (since mid-year 2008 for North America U.S.)",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2008,
+          "url": "https://www.automobile-catalog.com/car/2009/481190/chevrolet_hhr_ss.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "code",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 194,
+              "max": 194
+            },
+            "performance.torqueNm": {
+              "min": 353,
+              "max": 353
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 194 kW and 353 N·m. Both publications expose engine code LNF for this application and calibration. encyCARpedia publishes 264 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Chevrolet HHR SS (North America, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "North America"
+            ],
+            "codes": [
+              "LNF"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    },
+    "code": "LNF"
+  },
+  {
+    "id": "batch12-cadillac-cadillac-ct6-3-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Cadillac 3.6 L V6 naturally aspirated 250 kW / 385 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2016",
+    "displacement": "3.6 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac CT6 3 (North America, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 Liter; Cadillac CT6 3 (North America, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 Liter; Cadillac CT6 3 (North America, 2016 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 Liter; Cadillac CT6 3 (North America, 2016 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.6 Liter; Cadillac CT6 3 (North America, 2016 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 385,
+        "max": 385
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-cadillac-cadillac-ct6-3-2016-ency",
+        "batch12-cadillac-cadillac-ct6-3-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac CT6 3 (North America, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-cadillac-cadillac-ct6-3-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Cadillac CT6 3.6 V6 specs (2016-2018): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/us/cadillac/16-ct6-3-6-v6-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 385,
+              "max": 385
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V6 specification with 4 valves per cylinder (24 total), DOHC, 250 kW and 385 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 340 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT6 3 (North America, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-cadillac-cadillac-ct6-3-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2016 Cadillac CT6 3.6L AWD Specs Review (250 kW / 340 PS / 335 hp) (since April 2016 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2298155/cadillac_ct6_3_6l_awd.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 385,
+              "max": 385
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, natural V6 specification with 4 valves per cylinder (24 total), DOHC, 250 kW and 385 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 340 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT6 3 (North America, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch12-cadillac-cadillac-ct6-2-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Cadillac 2.0 L Inline-4 turbocharged 198 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two editorially independent Tier B publishers cover the stated applications and the required technical specification.",
+          "The value is a generated technical label for an application-scoped record, not an engine code or engine designation."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Cadillac",
+    "regionKey": "north-america",
+    "years": "2016",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Cadillac CT6 2 (North America, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Cadillac CT6 2 (North America, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Cadillac CT6 2 (North America, 2016 specification).",
+        "issues": "Esta ficha no cubre averías ni vida útil.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Cadillac CT6 2 (North America, 2016 specification).",
+        "issues": "Cette fiche ne couvre pas les pannes ni la durée de vie.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 Liter; Cadillac CT6 2 (North America, 2016 specification).",
+        "issues": "Diese Daten behandeln weder Schäden noch Lebensdauer.",
+        "pros": "Two editorially independent professional technical catalogues provide union coverage of the required core specification.",
+        "cons": "This is an application-specific specification, not an asserted engine code or engine designation; RPM is not published in the stored scope."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 198,
+        "max": 198
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch12-cadillac-cadillac-ct6-2-2016-ency",
+        "batch12-cadillac-cadillac-ct6-2-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Cadillac CT6 2 (North America, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch12-cadillac-cadillac-ct6-2-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "Cadillac CT6 2.0 Turbo specs (2016-2018): performance, dimensions & technical specifications - encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/us/cadillac/16-ct6-2-0-turbo-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 198,
+              "max": 198
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 198 kW and 400 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 269 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT6 2 (North America, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch12-cadillac-cadillac-ct6-2-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The publisher, owner, editorial team and domain are distinct from the paired source; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "The publications may use the same manufacturer-origin technical facts; common OEM origin alone does not make their editorial publications dependent."
+          ],
+          "title": "2016 Cadillac CT6 2.0L Turbo Specs Review (198 kW / 269 PS / 265 hp) (since April 2016 for North America )",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2298140/cadillac_ct6_2_0l_turbo.html",
+          "page": 1,
+          "checkedAt": "2026-10-08",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 198,
+              "max": 198
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "Direct Injection gasoline, turbo Inline 4 specification with 4 valves per cylinder (16 total), DOHC, 198 kW and 400 N·m. This is an application-scoped technical specification; no engine code or public engine designation is claimed. encyCARpedia publishes 269 PS; the project value uses the independently matching Automobile-Catalog kW figure. Power conversions use 1 PS = 0.73549875 kW and retain the catalogue's published project precision.",
+            "Performance RPM is omitted from the record because a common normalized RPM claim was not established across both independent publications; no RPM value is inferred."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Cadillac CT6 2 (North America, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];

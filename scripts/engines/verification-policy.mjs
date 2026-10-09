@@ -7,8 +7,9 @@ const EVIDENCE_TIERS = ['A', 'B', 'C'];
 
 const PERFORMANCE_FIELDS = ['performance.powerKw', 'performance.torqueNm'];
 const OFFICIAL_DESIGNATION_FIELD = 'identity.officialPublicDesignation';
+const APPLICATION_SPECIFICATION_FIELD = 'identity.applicationScopedSpecification';
 const IDENTITY_FIELDS = ['code', 'aliases'];
-const STRICT_IDENTITY_FIELDS = [...IDENTITY_FIELDS, OFFICIAL_DESIGNATION_FIELD];
+const STRICT_IDENTITY_FIELDS = [...IDENTITY_FIELDS, OFFICIAL_DESIGNATION_FIELD, APPLICATION_SPECIFICATION_FIELD];
 export const VERIFIED_REQUIRED_FIELDS = [
   'maker',
   'code',
@@ -27,6 +28,7 @@ export const VERIFIED_REQUIRED_FIELDS = [
 const STRICT_COVERAGE_FIELDS = new Set([
   ...VERIFIED_REQUIRED_FIELDS,
   OFFICIAL_DESIGNATION_FIELD,
+  APPLICATION_SPECIFICATION_FIELD,
   'layout.valves',
   'layout.camshaftsTotal',
   'aliases',
@@ -44,16 +46,28 @@ function identityPolicy(record) {
       scopeKey: 'designations'
     };
   }
+  if (record?.identity?.type === 'applicationScopedSpecification') {
+    return {
+      type: 'applicationScopedSpecification',
+      value: record.identity.value,
+      field: APPLICATION_SPECIFICATION_FIELD,
+      scopeKey: null
+    };
+  }
   return { type: 'exactCode', value: record?.identity?.value || record?.code, field: 'code', scopeKey: 'codes' };
 }
 
 function requiredFieldsFor(record) {
   const identity = identityPolicy(record);
-  return VERIFIED_REQUIRED_FIELDS.map((field) => field === 'code' ? identity.field : field);
+  const completeness = record?.completeness || 'full';
+  return VERIFIED_REQUIRED_FIELDS
+    .map((field) => field === 'code' ? identity.field : field)
+    .filter((field) => completeness === 'full' || !field.endsWith('.rpm'));
 }
 
 function identityLabel(identity) {
-  return identity.type === 'exactCode' ? 'code' : 'official public designation';
+  if (identity.type === 'exactCode') return 'code';
+  return identity.type === 'officialPublicDesignation' ? 'official public designation' : 'application-scoped specification';
 }
 
 function validateIdentity(record, label, errors) {
@@ -61,26 +75,34 @@ function validateIdentity(record, label, errors) {
   if (identity === undefined) return;
   addErrorIf(!isObject(identity), `${label}: identity must be an object.`, errors);
   if (!isObject(identity)) return;
-  addErrorIf(!['exactCode', 'officialPublicDesignation'].includes(identity.type), `${label}: identity.type must be exactCode or officialPublicDesignation.`, errors);
+  addErrorIf(!['exactCode', 'officialPublicDesignation', 'applicationScopedSpecification'].includes(identity.type), `${label}: identity.type must be exactCode, officialPublicDesignation or applicationScopedSpecification.`, errors);
   addErrorIf(!isNonEmptyString(identity.value), `${label}: identity.value must be a non-empty string.`, errors);
   if (identity.type === 'exactCode') {
     addErrorIf(!isNonEmptyString(record.code), `${label}: exactCode identity requires code.`, errors);
     addErrorIf(identity.value !== record.code, `${label}: exactCode identity.value must equal code.`, errors);
     return;
   }
-  if (identity.type !== 'officialPublicDesignation') return;
-  addErrorIf(Object.hasOwn(record, 'code'), `${label}: officialPublicDesignation records must omit code.`, errors);
-  addErrorIf(record?.verification?.status !== 'verified', `${label}: officialPublicDesignation is only valid for verified records.`, errors);
-  addErrorIf(!EVIDENCE_BASES.includes(record?.verification?.evidenceBasis), `${label}: officialPublicDesignation requires an explicit official or corroborated evidenceBasis.`, errors);
-  addErrorIf(!Array.isArray(record?.verification?.sourceRefs) || record.verification.sourceRefs.length === 0, `${label}: officialPublicDesignation requires strict sourceRefs.`, errors);
+  if (!['officialPublicDesignation', 'applicationScopedSpecification'].includes(identity.type)) return;
+  const identityType = identity.type;
+  addErrorIf(Object.hasOwn(record, 'code'), `${label}: ${identityType} records must omit code.`, errors);
+  addErrorIf(record?.verification?.status !== 'verified', `${label}: ${identityType} is only valid for verified records.`, errors);
+  addErrorIf(!EVIDENCE_BASES.includes(record?.verification?.evidenceBasis), `${label}: ${identityType} requires an explicit official or corroborated evidenceBasis.`, errors);
+  if (identityType === 'applicationScopedSpecification') {
+    addErrorIf(record?.verification?.evidenceBasis !== 'corroborated', `${label}: applicationScopedSpecification requires corroborated evidenceBasis.`, errors);
+  }
+  addErrorIf(!Array.isArray(record?.verification?.sourceRefs) || record.verification.sourceRefs.length === 0, `${label}: ${identityType} requires strict sourceRefs.`, errors);
   const review = identity.review;
-  addErrorIf(!isObject(review), `${label}: officialPublicDesignation requires an explicit review declaration.`, errors);
+  addErrorIf(!isObject(review), `${label}: ${identityType} requires an explicit review declaration.`, errors);
   if (isObject(review)) {
-    for (const field of ['officialPublicationConfirmed', 'stableAndDistinct', 'genericDescriptionRejected', 'materialVariantsSeparated']) {
+    const requiredReviewFields = identityType === 'officialPublicDesignation'
+      ? ['officialPublicationConfirmed', 'stableAndDistinct', 'genericDescriptionRejected', 'materialVariantsSeparated']
+      : ['manualReviewConfirmed', 'applicationScopeConfirmed', 'codeOrDesignationNotClaimed', 'materialVariantsSeparated', 'cosmeticVariantsConsolidated'];
+    for (const field of requiredReviewFields) {
       addErrorIf(review[field] !== true, `${label}: identity.review.${field} must be true.`, errors);
     }
     addErrorIf(!isNonEmptyUniqueStringArray(review.notes), `${label}: identity.review.notes must be a non-empty unique string array.`, errors);
   }
+  if (identityType !== 'officialPublicDesignation') return;
   const normalized = String(identity.value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   const genericTokens = new Set([
     'engine', 'motor', 'petrol', 'gasoline', 'diesel', 'hybrid', 'turbo', 'turbocharged',
@@ -134,7 +156,7 @@ function valueAtPath(value, path) {
 }
 
 function recordHasCoverageField(record, field) {
-  if (field === OFFICIAL_DESIGNATION_FIELD) return isNonEmptyString(record?.identity?.value);
+  if ([OFFICIAL_DESIGNATION_FIELD, APPLICATION_SPECIFICATION_FIELD].includes(field)) return isNonEmptyString(record?.identity?.value);
   if (field === 'layout.valves') return /\b\d+ valves\b/i.test(record?.layout || '');
   if (field === 'layout.camshaftsTotal') return /\b\d+ camshafts? total\b/i.test(record?.layout || '');
   const value = valueAtPath(record, field);
@@ -215,6 +237,25 @@ function sourceApplicationsContainRecord(sourceApplications, recordApplications)
     && recordApplications.every((application) => sourceApplications.includes(application));
 }
 
+function recordApplicationsContainSource(recordApplications, sourceApplications) {
+  return isNonEmptyUniqueStringArray(sourceApplications)
+    && isNonEmptyUniqueStringArray(recordApplications)
+    && sourceApplications.every((application) => recordApplications.includes(application));
+}
+
+function recordYearsContainSource(recordYears, sourceYears) {
+  return isValidYearScope(recordYears)
+    && isValidYearScope(sourceYears)
+    && recordYears.from <= sourceYears.from
+    && normalizedYearEnd(recordYears.to) >= normalizedYearEnd(sourceYears.to);
+}
+
+function recordMarketsContainSource(recordMarkets, sourceMarkets) {
+  if (!isValidMarketScope(recordMarkets) || !isValidMarketScope(sourceMarkets)) return false;
+  if (recordMarkets.includes('Global')) return true;
+  return sourceMarkets.every((market) => recordMarkets.includes(market));
+}
+
 function sourceMarketsContainRecord(sourceMarkets, recordMarkets) {
   if (!isValidMarketScope(sourceMarkets) || !isValidMarketScope(recordMarkets)) return false;
   const sourceIsGlobal = sourceMarkets.includes('Global');
@@ -248,6 +289,10 @@ function normalizePublisher(publisher) {
     : '';
 }
 
+function normalizeEditorialParty(value) {
+  return typeof value === 'string' ? value.trim().toLowerCase().replace(/\s+/g, ' ') : '';
+}
+
 function normalizeHostname(url) {
   try {
     return new URL(url).hostname.toLowerCase().replace(/^www\./, '');
@@ -261,9 +306,20 @@ function sameClaim(left, right) {
 }
 
 function sourcesAreIndependent(left, right) {
+  const leftOwner = normalizeEditorialParty(left?.owner || left?.publisher);
+  const rightOwner = normalizeEditorialParty(right?.owner || right?.publisher);
+  const leftTeam = normalizeEditorialParty(left?.editorialTeam || left?.publisher);
+  const rightTeam = normalizeEditorialParty(right?.editorialTeam || right?.publisher);
+  const leftDatabase = normalizeEditorialParty(left?.upstreamDatabase);
+  const rightDatabase = normalizeEditorialParty(right?.upstreamDatabase);
+  const originalContent = [left, right].every((source) => !source?.contentRelationship || source.contentRelationship === 'originalEditorial');
+  const sharedCommercialDatabase = leftDatabase && rightDatabase && leftDatabase === rightDatabase;
   return normalizePublisher(left?.publisher) !== normalizePublisher(right?.publisher)
     && normalizeHostname(left?.url) !== normalizeHostname(right?.url)
-    && left?.dataOrigin.trim().toLowerCase() !== right?.dataOrigin.trim().toLowerCase();
+    && leftOwner !== rightOwner
+    && leftTeam !== rightTeam
+    && originalContent
+    && !sharedCommercialDatabase;
 }
 
 function hasIndependentPair(sources) {
@@ -299,6 +355,12 @@ function validateSource(source, label, errors) {
   }
   if (Object.hasOwn(source, 'dataOrigin')) {
     addErrorIf(!isNonEmptyString(source.dataOrigin), `${label}.dataOrigin must be a non-empty string.`, errors);
+  }
+  for (const partyField of ['owner', 'editorialTeam', 'upstreamDatabase']) {
+    if (Object.hasOwn(source, partyField)) addErrorIf(!isNonEmptyString(source[partyField]), `${label}.${partyField} must be a non-empty string.`, errors);
+  }
+  if (Object.hasOwn(source, 'contentRelationship')) {
+    addErrorIf(!['originalEditorial', 'mirror', 'translation', 'syndicated'].includes(source.contentRelationship), `${label}.contentRelationship must be originalEditorial, mirror, translation or syndicated.`, errors);
   }
   for (const notesField of ['independenceNotes', 'authorityNotes']) {
     if (Object.hasOwn(source, notesField)) {
@@ -360,6 +422,10 @@ export function validateRecordVerificationPolicy(record, label, errors) {
 
   validateIdentity(record, label, errors);
 
+  if (Object.hasOwn(record || {}, 'completeness')) {
+    addErrorIf(!['full', 'core'].includes(record.completeness), `${label}: completeness must be full or core.`, errors);
+  }
+
   addErrorIf(!isObject(verification), `${label}: verification must be an object.`, errors);
   addErrorIf(!VERIFICATION_STATUSES.includes(verification?.status), `${label}: verification.status must be verified, corroborated or legacyPending.`, errors);
   if (hasSourcesProperty) {
@@ -389,6 +455,14 @@ export function validateRecordVerificationPolicy(record, label, errors) {
   if (hasPerformance) {
     validateRange(record.performance?.powerKw, `${label}: performance.powerKw`, errors);
     validateRange(record.performance?.torqueNm, `${label}: performance.torqueNm`, errors);
+    if (Object.hasOwn(record || {}, 'completeness')) {
+      const evidenceNotes = sources.flatMap((source) => source?.pageNotes || []).join(' ').toLowerCase();
+      for (const [field, range] of Object.entries(record.performance || {})) {
+        if (!isObject(range) || range.min === range.max) continue;
+        addErrorIf(!evidenceNotes.includes('published range'), `${label}: performance.${field} range is allowed only when evidence notes identify it as a published range of one specification.`, errors);
+        addErrorIf(/(?:gasoline|petrol).*(?:ethanol|e85)|(?:ethanol|e85).*(?:gasoline|petrol)|gearbox-dependent|market-dependent|date-dependent/.test(evidenceNotes), `${label}: performance.${field} range cannot merge fuel-, gearbox-, market- or date-dependent values.`, errors);
+      }
+    }
   }
 
   if (verification?.status === 'verified') {
@@ -415,8 +489,8 @@ function validateVerifiedPolicy(record, hasPerformance, sources, sourceRefs, str
     return;
   }
 
-  if (record?.identity?.type === 'officialPublicDesignation') {
-    addError(errors, `${label}: officialPublicDesignation cannot use the compatible single-source rule.`);
+  if (['officialPublicDesignation', 'applicationScopedSpecification'].includes(record?.identity?.type)) {
+    addError(errors, `${label}: ${record.identity.type} cannot use the compatible single-source rule.`);
     return;
   }
 
@@ -642,24 +716,38 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
     if (!sourceHasPageNotes(source)) rejectionReasons.push('pageNotes do not document the exact evidence and scope');
 
     const scope = source.scope;
+    const applicationScoped = identity.type === 'applicationScopedSpecification';
     if (!isObject(scope)) {
       rejectionReasons.push('scope is missing');
     } else {
       if (!['exactVariant', 'family'].includes(scope.level)) rejectionReasons.push(`scope level ${scope.level || '(missing)'} is aggregate or unsupported`);
-      if (!sourceApplicationsContainRecord(scope.applications, recordScope.applications)) rejectionReasons.push('scope applications do not contain every record application');
-      if (!sourceYearsContainRecord(scope.years, recordScope.years)) rejectionReasons.push('scope years do not fully contain the record year interval');
-      if (!sourceMarketsContainRecord(scope.markets, recordScope.markets)) rejectionReasons.push('scope markets do not contain the record market scope');
+      if (applicationScoped) {
+        if (!recordApplicationsContainSource(recordScope.applications, scope.applications)) rejectionReasons.push('scope applications are outside the consolidated record applications');
+        if (!recordYearsContainSource(recordScope.years, scope.years)) rejectionReasons.push('scope years are outside the consolidated record year interval');
+        if (!recordMarketsContainSource(recordScope.markets, scope.markets)) rejectionReasons.push('scope markets are outside the consolidated record markets');
+      } else {
+        if (!sourceApplicationsContainRecord(scope.applications, recordScope.applications)) rejectionReasons.push('scope applications do not contain every record application');
+        if (!sourceYearsContainRecord(scope.years, recordScope.years)) rejectionReasons.push('scope years do not fully contain the record year interval');
+        if (!sourceMarketsContainRecord(scope.markets, recordScope.markets)) rejectionReasons.push('scope markets do not contain the record market scope');
+      }
     }
 
     const hasDirectCodes = isObject(scope) && Object.hasOwn(scope, 'codes');
     const hasDirectDesignations = isObject(scope) && Object.hasOwn(scope, 'designations');
-    const hasDirectIdentity = identity.type === 'exactCode' ? hasDirectCodes : hasDirectDesignations;
+    const hasApplicationSpecification = applicationScoped
+      && !hasDirectCodes
+      && !hasDirectDesignations
+      && !Object.hasOwn(source, 'identityBindingRef')
+      && sourceHasField(source, APPLICATION_SPECIFICATION_FIELD);
+    const hasDirectIdentity = identity.type === 'exactCode'
+      ? hasDirectCodes
+      : (identity.type === 'officialPublicDesignation' ? hasDirectDesignations : hasApplicationSpecification);
     const hasIdentityBinding = Object.hasOwn(source, 'identityBindingRef');
     if (hasDirectCodes && hasDirectDesignations) rejectionReasons.push('scope cannot declare both codes and designations');
-    if (Number(hasDirectCodes) + Number(hasDirectDesignations) + Number(hasIdentityBinding) !== 1) {
-      rejectionReasons.push('must use exactly one evidence path: scope.codes or identityBindingRef for exact codes; scope.designations or identityBindingRef for official designations');
+    if (Number(hasDirectCodes) + Number(hasDirectDesignations) + Number(hasIdentityBinding) + Number(hasApplicationSpecification) !== 1) {
+      rejectionReasons.push('must use exactly one evidence path: scope.codes, scope.designations, identityBindingRef or application-scoped specification coverage');
     } else if (hasDirectIdentity) {
-      if (!isNonEmptyUniqueStringArray(scope[identity.scopeKey]) || !scope[identity.scopeKey].includes(identity.value)) rejectionReasons.push(identity.type === 'exactCode'
+      if (identity.scopeKey && (!isNonEmptyUniqueStringArray(scope[identity.scopeKey]) || !scope[identity.scopeKey].includes(identity.value))) rejectionReasons.push(identity.type === 'exactCode'
         ? `scope codes do not explicitly include exact record code ${identity.value}`
         : `scope designations do not explicitly include target identity ${identity.value}`);
       if (!sourceHasField(source, identity.field)) rejectionReasons.push(identity.type === 'exactCode'
@@ -695,12 +783,16 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
   }
 
   const identitySources = new Map([...acceptedDirect].filter(([, source]) => (
-    (identity.type === 'exactCode' || (source.evidenceTier === 'A' && OFFICIAL_SOURCE_TYPES.includes(source.type)))
-    && source.scope?.level === 'exactVariant'
+    (identity.type === 'exactCode'
+      || (identity.type === 'officialPublicDesignation' && source.evidenceTier === 'A' && OFFICIAL_SOURCE_TYPES.includes(source.type))
+      || (identity.type === 'applicationScopedSpecification' && source.evidenceTier === 'B' && source.type === 'technicalReference'))
+    && ['exactVariant', 'family'].includes(source.scope?.level)
     && sourceHasField(source, identity.field)
     && sourceHasField(source, 'applications')
     && sourceHasField(source, 'years')
-    && sameStringSet(source.scope.applications, recordScope.applications)
+    && (identity.type === 'applicationScopedSpecification'
+      ? recordApplicationsContainSource(recordScope.applications, source.scope.applications)
+      : sameStringSet(source.scope.applications, recordScope.applications))
   )));
 
   for (const { sourceRef, source } of bridgeCandidates) {
@@ -719,10 +811,26 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
     if (rejectionReasons.length) accepted.delete(sourceRef);
   }
 
-  const identityTierLabel = identity.type === 'officialPublicDesignation' ? 'Tier A' : 'Tier A/B';
+  const identityTierLabel = identity.type === 'officialPublicDesignation' ? 'Tier A' : (identity.type === 'applicationScopedSpecification' ? 'independent Tier B application pair' : 'Tier A/B');
   addErrorIf(identitySources.size === 0, `${label}: no accepted ${identityTierLabel} sourceRef declares the exact ${identityLabel(identity)}, applications and years identity binding.`, errors);
+  if (record.verification.evidenceBasis === 'corroborated' && identity.type === 'exactCode') {
+    const identityEvidence = [...identitySources.values()];
+    const hasTierAIdentity = identityEvidence.some((source) => source.evidenceTier === 'A');
+    addErrorIf(!hasTierAIdentity && !hasIndependentPair(identityEvidence.filter((source) => source.evidenceTier === 'B')), `${label}: corroborated exactCode requires Tier A identity evidence or two editorially independent Tier B sources that agree on code and application.` , errors);
+  }
+  if (identity.type === 'applicationScopedSpecification') {
+    for (const application of recordScope.applications) {
+      const applicationSources = [...identitySources.values()].filter((source) => source.scope.applications.includes(application));
+      addErrorIf(!hasIndependentPair(applicationSources), `${label}: applicationScopedSpecification requires two editorially independent Tier B sources for application ${application}.`, errors);
+    }
+  }
 
-  let fieldsUsingTierBCorroboration = 0;
+  const acceptedTierB = [...accepted.values()].filter((source) => source.evidenceTier === 'B');
+  if (record.verification.evidenceBasis === 'corroborated') {
+    addErrorIf(!hasIndependentPair(acceptedTierB), `${label}: corroborated evidenceBasis requires two editorially independent Tier B sources.` , errors);
+  }
+
+  let fieldsUsingTierB = 0;
   for (const field of requiredFields) {
     if (!recordHasCoverageField(record, field)) addError(errors, `${label}: verified record is missing required field ${field}.`);
     const fieldSources = [...accepted.values()].filter((source) => sourceHasField(source, field));
@@ -730,16 +838,14 @@ function validateTieredStrictVerifiedPolicy(record, sourcesById, sourceRefs, lab
     const tierB = fieldSources.filter((source) => source.evidenceTier === 'B');
     if (record.verification.evidenceBasis === 'official') {
       if (tierA.length === 0) addError(errors, `${label}: official evidence field ${field} is not covered by Tier A evidence.`);
+    } else if (tierA.length === 0 && tierB.length === 0) {
+      addError(errors, `${label}: corroborated evidence field ${field} requires coverage from at least one accepted Tier B source in the independent source pair.`);
     } else if (tierA.length === 0) {
-      if (!hasIndependentPair(tierB)) {
-        addError(errors, `${label}: corroborated evidence field ${field} requires Tier A or two independent Tier B publishers with different domains and data origins.`);
-      } else {
-        fieldsUsingTierBCorroboration += 1;
-      }
+      fieldsUsingTierB += 1;
     }
   }
-  if (record.verification.evidenceBasis === 'corroborated' && fieldsUsingTierBCorroboration === 0) {
-    addError(errors, `${label}: corroborated evidenceBasis requires at least one mandatory field to rely on two independent Tier B publishers.`);
+  if (record.verification.evidenceBasis === 'corroborated' && fieldsUsingTierB === 0) {
+    addError(errors, `${label}: corroborated evidenceBasis requires at least one mandatory field to rely on Tier B evidence.`);
   }
 }
 

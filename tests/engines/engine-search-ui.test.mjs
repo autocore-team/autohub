@@ -13,6 +13,7 @@ import {
 import { engineIdentityCollisionErrors, validateEngineData } from '../../scripts/engines/validate-engine-data.mjs';
 import { verificationPolicyErrors } from '../../scripts/engines/verification-policy.mjs';
 import './batch11-semantic.test.mjs';
+import './batch12-semantic.test.mjs';
 
 const testDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(testDirectory, '../..');
@@ -180,13 +181,15 @@ function validateSyntheticDesignation(record) {
   check(validationErrors.length === 0, `Synthetic designation fails executable validation:\n${validationErrors.join('\n')}`);
 }
 
-const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(records)).digest('hex');
-check(records.length === 921, `Engine count changed: expected 921, found ${records.length}`);
+const batch12BaselineLimits = { europe: 345, japan: 416, korea: 50, 'north-america': 110, 'south-america': 0 };
+const batch12BaselineRecords = sourceData.regionFiles.flatMap((file) => file.records.slice(0, batch12BaselineLimits[file.region]));
+const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(batch12BaselineRecords)).digest('hex');
+check(records.length === 994, `Engine count changed: expected 994, found ${records.length}`);
 check(
   semanticHash === '470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c',
-  `Engine semantic hash changed: ${semanticHash}`
+  `First 921-record baseline semantic hash changed: ${semanticHash}`
 );
-pass(`engine data count and migrated semantic hash match (${records.length}, ${semanticHash})`);
+pass(`engine data count and first 921-record baseline hash match (${records.length}, ${semanticHash})`);
 
 const baselineRegionCounts = {
   europe: 196,
@@ -823,22 +826,22 @@ pass(`Batch 10 preserves the original 765 records and validates 26 reconciled di
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 345, manufacturerCount: 11 },
-    { region: 'japan', engineCount: 416, manufacturerCount: 20 },
+    { region: 'europe', engineCount: 408, manufacturerCount: 20 },
+    { region: 'japan', engineCount: 422, manufacturerCount: 20 },
     { region: 'korea', engineCount: 50, manufacturerCount: 2 },
-    { region: 'north-america', engineCount: 110, manufacturerCount: 15 }
+    { region: 'north-america', engineCount: 114, manufacturerCount: 17 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 921, 'Regional engineCount sum does not equal 921');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 994, 'Regional engineCount sum does not equal 994');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
   check(renderedSummary.includes(String(summary.engineCount)), `${summary.region} summary is missing its engine count`);
   check(!/·\s*engines\b/.test(renderedSummary), `${summary.region} summary renders “· engines” without a count`);
 }
-pass('existing region classification and counts are preserved');
+pass('region classification and Batch 12 counts are correct');
 
 check(!summaries.some((summary) => summary.region === 'south-america'), 'Empty South America region is visible');
 const futureSouthAmericaRecord = {
@@ -859,7 +862,7 @@ pass('initial navigation keeps all regions closed and manufacturers hidden');
 
 const europeNavigation = core.navigationModel(records, REGIONS, { region: 'europe', maker: '' });
 const openEurope = europeNavigation.find((region) => region.region === 'europe');
-check(openEurope.expanded && openEurope.makers.length === 11, 'Europe did not expose its 11 manufacturers');
+check(openEurope.expanded && openEurope.makers.length === 20, 'Europe did not expose its 20 manufacturers');
 check(europeNavigation.filter((region) => region.region !== 'europe').every((region) => region.makers.length === 0), 'A closed region exposed manufacturers');
 for (const region of REGIONS) {
   const expected = new Set(records.filter((record) => record.regionKey === region).map((record) => core.makerSlug(record.maker)));
@@ -1057,7 +1060,8 @@ const englishKeys = Object.keys(translations.en).sort();
 const requiredKeys = [
   'browseByRegion', 'manufacturersLabel', 'engineCountLabel', 'showRegion', 'hideRegion',
   'chooseManufacturer', 'backToManufacturers', 'searchResults', 'clearSearch',
-  'noMatchingEngines', 'searchHelp', 'searchLabel', 'engineCodeLabel', 'officialEngineDesignation'
+  'noMatchingEngines', 'searchHelp', 'searchLabel', 'engineCodeLabel', 'officialEngineDesignation',
+  'applicationSpecificEngineSpecification', 'verifiedOfficialSources', 'verifiedCorroboratedSources', 'fullSpecifications', 'coreSpecifications'
 ];
 for (const language of languages) {
   check(JSON.stringify(Object.keys(translations[language]).sort()) === JSON.stringify(englishKeys), `${language} translation keys differ from EN`);
@@ -1073,12 +1077,15 @@ for (const language of languages) {
 pass(`engine page script syntax and EN/ES/FR/DE translation parity (${englishKeys.length} keys)`);
 
 check(translations.en.officialEngineDesignation === 'Official engine designation', 'English designation label changed');
+check(translations.en.applicationSpecificEngineSpecification === 'Application-specific engine specification', 'English application-scoped label changed');
 for (const language of languages) {
   check(translations[language].officialEngineDesignation !== 'officialEngineDesignation', `${language} exposes the raw designation translation key`);
+  check(translations[language].applicationSpecificEngineSpecification !== 'applicationSpecificEngineSpecification', `${language} exposes the raw application-scoped translation key`);
   check(translations[language].engineCodeLabel !== 'engineCodeLabel', `${language} exposes the raw exact-code translation key`);
 }
 check(html.includes('${escapeHtml(identity.label)}'), 'Engine list/detail does not render the translated identity label');
 check(html.match(/engineSearchCore\.identityDisplay\(record, t\)/g)?.length >= 3, 'List, detail and suggestions do not share identityDisplay');
+check(html.includes("return rpmValue ? `<br><small>"), 'Optional core-completeness RPM is not suppressed when absent');
 check(!html.includes('<h3>${escapeHtml(record.code)}</h3>'), 'Engine detail still renders code directly');
 check(!html.includes('option.label = `${record.maker} · ${record.code}`'), 'Suggestions still render code directly');
 pass('identity labels are translated and list/detail/suggestions use the shared helper');

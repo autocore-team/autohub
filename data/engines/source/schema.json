@@ -65,6 +65,11 @@
         "identity": {
           "$ref": "#/$defs/engineIdentity"
         },
+        "completeness": {
+          "type": "string",
+          "enum": ["full", "core"],
+          "description": "Optional on existing records. New strict records use full when both performance RPM fields are documented, or core when one or both RPM fields are unavailable."
+        },
         "code": {
           "type": "string",
           "minLength": 1
@@ -156,7 +161,7 @@
             "required": ["identity"],
             "properties": {
               "identity": {
-                "properties": { "type": { "const": "officialPublicDesignation" } },
+                "properties": { "type": { "enum": ["officialPublicDesignation", "applicationScopedSpecification"] } },
                 "required": ["type"]
               }
             }
@@ -177,15 +182,27 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["exactCode", "officialPublicDesignation"]
+          "enum": ["exactCode", "officialPublicDesignation", "applicationScopedSpecification"]
         },
         "value": { "type": "string", "minLength": 1 },
-        "review": { "$ref": "#/$defs/officialDesignationReview" }
+        "review": {
+          "oneOf": [
+            { "$ref": "#/$defs/officialDesignationReview" },
+            { "$ref": "#/$defs/applicationScopedSpecificationReview" }
+          ]
+        }
       },
       "allOf": [
         {
           "if": { "properties": { "type": { "const": "officialPublicDesignation" } } },
           "then": { "required": ["review"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "applicationScopedSpecification" } } },
+          "then": {
+            "required": ["review"],
+            "properties": { "review": { "$ref": "#/$defs/applicationScopedSpecificationReview" } }
+          }
         }
       ]
     },
@@ -204,6 +221,26 @@
         "stableAndDistinct": { "const": true },
         "genericDescriptionRejected": { "const": true },
         "materialVariantsSeparated": { "const": true },
+        "notes": { "$ref": "#/$defs/nonEmptyUniqueStringArray" }
+      }
+    },
+    "applicationScopedSpecificationReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "manualReviewConfirmed",
+        "applicationScopeConfirmed",
+        "codeOrDesignationNotClaimed",
+        "materialVariantsSeparated",
+        "cosmeticVariantsConsolidated",
+        "notes"
+      ],
+      "properties": {
+        "manualReviewConfirmed": { "const": true },
+        "applicationScopeConfirmed": { "const": true },
+        "codeOrDesignationNotClaimed": { "const": true },
+        "materialVariantsSeparated": { "const": true },
+        "cosmeticVariantsConsolidated": { "const": true },
         "notes": { "$ref": "#/$defs/nonEmptyUniqueStringArray" }
       }
     },
@@ -379,6 +416,22 @@
                               "not": { "required": ["codes"] }
                             }
                           }
+                        },
+                        {
+                          "not": {
+                            "required": ["identityBindingRef"]
+                          },
+                          "properties": {
+                            "scope": {
+                              "allOf": [
+                                { "not": { "required": ["codes"] } },
+                                { "not": { "required": ["designations"] } }
+                              ]
+                            },
+                            "fields": {
+                              "contains": { "const": "identity.applicationScopedSpecification" }
+                            }
+                          }
                         }
                       ]
                     }
@@ -474,6 +527,26 @@
           "type": "string",
           "minLength": 1,
           "description": "Normalized upstream dataset or editorial origin. Required by policy for Tier B independence checks."
+        },
+        "owner": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Legal or organizational owner of the publication. Distinct ownership is required for editorial independence when declared."
+        },
+        "editorialTeam": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Editorial operation responsible for the published specification."
+        },
+        "contentRelationship": {
+          "type": "string",
+          "enum": ["originalEditorial", "mirror", "translation", "syndicated"],
+          "description": "Relationship of this publication to the paired evidence. Mirrors, translations and syndicated copies are not independent."
+        },
+        "upstreamDatabase": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Named commercial upstream database, when applicable. Matching values make two publications dependent."
         },
         "independenceNotes": {
           "$ref": "#/$defs/stringArray",

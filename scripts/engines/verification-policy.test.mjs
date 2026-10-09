@@ -844,6 +844,9 @@ function tierBBridge(id, fields, publisher, hostname, dataOrigin, overrides = {}
     url: `https://${hostname}/engines/x20a`,
     evidenceTier: 'B',
     dataOrigin,
+    owner: `${publisher} owner`,
+    editorialTeam: `${publisher} editorial team`,
+    contentRelationship: 'originalEditorial',
     independenceNotes: [`${publisher} maintains its own editorial dataset independently of the other cited publishers.`],
     identityBindingRef: 'tier-a-identity',
     scope: bridgedScope({ years: { from: 2012, to: 2014 } }),
@@ -913,20 +916,20 @@ expectPass('tiered exact identity bridge for Tier B source without code', tierBI
 expectFail(
   'tiered corroborated basis cannot label an all-Tier-A record',
   tieredRecord([tierASource('all-tier-a', tieredRequiredFields)], 'corroborated'),
-  'requires at least one mandatory field to rely on two independent Tier B publishers'
+  'requires two editorially independent Tier B sources'
 );
 
 {
   const fixture = tierBInjectionFixture();
   fixture.verification.sources.pop();
   fixture.verification.sourceRefs.pop();
-  expectFail('tiered one Tier B source without corroboration', fixture, 'requires Tier A or two independent Tier B publishers');
+  expectFail('tiered one Tier B source without corroboration', fixture, 'requires two editorially independent Tier B sources');
 }
 
 {
   const fixture = tierBInjectionFixture();
   fixture.verification.sources[2].publisher = fixture.verification.sources[1].publisher;
-  expectFail('tiered two URLs from one publisher', fixture, 'requires Tier A or two independent Tier B publishers');
+  expectFail('tiered two URLs from one publisher', fixture, 'requires two editorially independent Tier B sources');
 }
 
 {
@@ -949,7 +952,7 @@ expectFail(
 
 {
   const fixture = tieredRecord([tierASource('family-identity', tieredRequiredFields, { scope: scoped({ level: 'family' }) })]);
-  expectFail('tiered family-level page cannot establish exact identity', fixture, 'exact code, applications and years identity binding');
+  expectPass('tiered family-level page can establish a bounded engine/application identity', fixture);
 }
 
 {
@@ -988,14 +991,33 @@ expectFail(
         scope: bridgedScope({ years: { from: 2012, to: 2014 } })
       })
     ], 'corroborated'),
-    'corroborated evidence field injectionKey requires Tier A or two independent Tier B publishers'
+    'corroborated evidence field injectionKey requires coverage from at least one accepted Tier B source'
   );
 }
 
 {
   const fixture = tierBInjectionFixture();
   fixture.verification.sources[2].dataOrigin = fixture.verification.sources[1].dataOrigin;
-  expectFail('tiered portals sharing one upstream dataset are not independent', fixture, 'requires Tier A or two independent Tier B publishers');
+  expectPass('tiered editorial sources may share an OEM technical origin', fixture);
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].owner = fixture.verification.sources[1].owner;
+  expectFail('tiered sources with a common owner are dependent', fixture, 'requires two editorially independent Tier B sources');
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[2].contentRelationship = 'mirror';
+  expectFail('tiered mirror sources are dependent', fixture, 'requires two editorially independent Tier B sources');
+}
+
+{
+  const fixture = tierBInjectionFixture();
+  fixture.verification.sources[1].upstreamDatabase = 'Shared Commercial Engine DB';
+  fixture.verification.sources[2].upstreamDatabase = 'Shared Commercial Engine DB';
+  expectFail('tiered clients of one commercial database are dependent', fixture, 'requires two editorially independent Tier B sources');
 }
 
 const designationField = 'identity.officialPublicDesignation';
@@ -1110,7 +1132,7 @@ for (const stableDesignation of ['EcoBoost 2.3L High Output', 'Power Stroke 6.7L
 {
   const fixture = corroboratedDesignationFixture();
   fixture.verification.sources[2].dataOrigin = fixture.verification.sources[1].dataOrigin;
-  expectFail('dependent Tier B designation supplements cannot close a field', fixture, 'requires Tier A or two independent Tier B publishers');
+  expectPass('Tier B designation supplements may share an OEM technical origin', fixture);
 }
 
 {
@@ -1122,7 +1144,7 @@ for (const stableDesignation of ['EcoBoost 2.3L High Output', 'Power Stroke 6.7L
     scope: bridgedScope({ years: { from: 2012, to: 2014 } })
   }));
   fixture.verification.sourceRefs.push('tier-c-designation-injection');
-  expectFail('Tier C designation supplement cannot close a mandatory field', fixture, 'corroborated evidence field injectionKey requires Tier A or two independent Tier B publishers');
+  expectFail('Tier C designation supplement cannot close a mandatory field', fixture, 'corroborated evidence field injectionKey requires coverage from at least one accepted Tier B source');
 }
 
 {
@@ -1198,7 +1220,7 @@ for (const stableDesignation of ['EcoBoost 2.3L High Output', 'Power Stroke 6.7L
 {
   const fixture = officialDesignationFixture();
   fixture.verification.sources[0].scope.level = 'family';
-  expectFail('designation family source cannot establish identity', fixture, 'exact official public designation');
+  expectPass('designation family source can establish a bounded application identity', fixture);
 }
 
 {
@@ -1237,6 +1259,114 @@ for (const stableDesignation of ['EcoBoost 2.3L High Output', 'Power Stroke 6.7L
   fixture.verification.sources.push(bridge, bridgeTwo);
   fixture.verification.sourceRefs.push(bridge.id, bridgeTwo.id);
   expectFail('designation identity bridge chains and cycles are rejected', fixture, 'chains and cycles are not allowed');
+}
+
+function directTierBSource(id, fields, publisher, hostname, dataOrigin, identityField = 'code', identityValue = 'X20A') {
+  const claims = {};
+  if (fields.some((field) => field.startsWith('performance.powerKw'))) claims['performance.powerKw'] = clone(basePerformance.powerKw);
+  if (fields.some((field) => field.startsWith('performance.torqueNm'))) claims['performance.torqueNm'] = clone(basePerformance.torqueNm);
+  return officialSource(id, fields, {
+    type: 'technicalReference',
+    publisher,
+    url: `https://${hostname}/engine/x20a`,
+    evidenceTier: 'B',
+    dataOrigin,
+    owner: `${publisher} owner`,
+    editorialTeam: `${publisher} editorial team`,
+    contentRelationship: 'originalEditorial',
+    independenceNotes: [`${publisher} maintains an independent editorial specification dataset.`],
+    scope: {
+      level: 'family',
+      ...(identityField === 'code' ? { codes: [identityValue] } : {}),
+      ...(identityField === 'designation' ? { designations: [identityValue] } : {}),
+      applications: ['Example Model'],
+      years: { from: 2010, to: 2015 },
+      markets: ['EU']
+    },
+    ...(Object.keys(claims).length ? { claims } : {})
+  });
+}
+
+{
+  const identityFields = ['maker', 'code', 'applications', 'years'];
+  const technicalFields = tieredRequiredFields.filter((field) => !identityFields.includes(field));
+  const fixture = tieredRecord([
+    directTierBSource('code-one', [...identityFields, ...technicalFields.filter((_, index) => index % 2 === 0)], 'Code Data One', 'code-one.example', 'manufacturer-origin'),
+    directTierBSource('code-two', [...identityFields, ...technicalFields.filter((_, index) => index % 2 === 1)], 'Code Data Two', 'code-two.example', 'manufacturer-origin')
+  ], 'corroborated');
+  expectPass('corroborated exact code accepts union field coverage from independent Tier B sources with common OEM origin', fixture);
+}
+
+{
+  const coreFields = tieredRequiredFields.filter((field) => !field.endsWith('.rpm'));
+  const fixture = tieredRecord([tierASource('core-official', coreFields, { pageNotes: ['The document publishes one engine specification; performance RPM is not stated.'] })]);
+  fixture.completeness = 'core';
+  fixture.performance.powerKw.max = fixture.performance.powerKw.min;
+  fixture.performance.torqueNm.max = fixture.performance.torqueNm.min;
+  delete fixture.performance.powerKw.rpm;
+  delete fixture.performance.torqueNm.rpm;
+  expectPass('core completeness allows omitted unpublished performance rpm', fixture);
+}
+
+{
+  const fixture = tieredRecord([tierASource('full-official', tieredRequiredFields, { pageNotes: ['The document publishes the stated power and torque as a published range of one specification.'] })]);
+  fixture.completeness = 'full';
+  expectPass('full completeness retains both performance rpm fields', fixture);
+  delete fixture.performance.powerKw.rpm;
+  expectFail('full completeness rejects missing power rpm', fixture, 'missing required field performance.powerKw.rpm');
+}
+
+{
+  const specification = 'Example Motors 2.0 L I4 turbocharged 120 kW / 250 Nm application specification';
+  const specificationFields = tieredRequiredFields.map((field) => field === 'code' ? 'identity.applicationScopedSpecification' : field);
+  const fixture = tieredRecord([
+    directTierBSource('application-one', specificationFields, 'Application Press One', 'application-press-one.example', 'manufacturer-origin', 'application', specification),
+    directTierBSource('application-two', specificationFields, 'Application Press Two', 'application-press-two.example', 'manufacturer-origin', 'application', specification)
+  ], 'corroborated');
+  delete fixture.code;
+  fixture.identity = {
+    type: 'applicationScopedSpecification',
+    value: specification,
+    review: {
+      manualReviewConfirmed: true,
+      applicationScopeConfirmed: true,
+      codeOrDesignationNotClaimed: true,
+      materialVariantsSeparated: true,
+      cosmeticVariantsConsolidated: true,
+      notes: ['Two independent technical publishers cover the bounded application specification without asserting a code or designation.']
+    }
+  };
+  fixture.verification.sources.forEach((source) => {
+    source.scope.years = clone(fixture.verification.scope.years);
+  });
+  expectPass('application-scoped specification uses two independent Tier B publishers', fixture);
+  fixture.verification.sources[1].dataOrigin = fixture.verification.sources[0].dataOrigin;
+  expectPass('application-scoped specification allows shared OEM origin', fixture);
+}
+
+{
+  const fixture = officialDesignationFixture();
+  fixture.identity.value = '2.0 petrol engine';
+  fixture.verification.sources[0].scope.designations = [fixture.identity.value];
+  expectFail('generic public designation remains rejected', fixture, 'cannot be a generic displacement');
+}
+
+{
+  const fields = tieredRequiredFields.filter((field) => field !== 'layout.valves');
+  expectFail('new full record rejects missing valves evidence', tieredRecord([tierASource('missing-valves', fields)]), 'layout.valves is not covered');
+}
+
+{
+  const fields = tieredRequiredFields.filter((field) => field !== 'layout.camshaftsTotal');
+  expectFail('new full record rejects missing camshaft evidence', tieredRecord([tierASource('missing-camshafts', fields)]), 'layout.camshaftsTotal is not covered');
+}
+
+{
+  const fixture = tieredRecord([tierASource('mixed-calibration', tieredRequiredFields, {
+    pageNotes: ['Gasoline and ethanol calibrations were combined into one range.']
+  })]);
+  fixture.completeness = 'full';
+  expectFail('conditional fuel performance cannot become a free range', fixture, 'range is allowed only when evidence notes identify it as a published range');
 }
 
 console.log(`Verification policy fixture tests passed: ${passedCases} cases.`);
