@@ -15,7 +15,10 @@ const data = readSourceData();
 const digest = (value) => crypto.createHash('sha256').update(canonicalFingerprint(value)).digest('hex');
 const baselineLimits = { europe: 345, japan: 416, korea: 50, 'north-america': 110, 'south-america': 0 };
 const baseline = data.regionFiles.flatMap((file) => file.records.slice(0, baselineLimits[file.region]));
-const added = data.regionFiles.flatMap((file) => file.records.slice(baselineLimits[file.region]));
+const batch12Limits = { europe: 408, japan: 422, korea: 50, 'north-america': 114, 'south-america': 0 };
+const batch12Checkpoint = data.regionFiles.flatMap((file) => file.records.slice(0, batch12Limits[file.region]));
+const fixtureIds = new Set(fixture.records.map((entry) => entry.id));
+const added = data.records.filter((record) => fixtureIds.has(record.id));
 
 assert.equal(baseline.length, 921);
 assert.equal(digest(baseline), '470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c');
@@ -35,9 +38,11 @@ assert.equal(fixture.records.length, 73);
 assert.equal(new Set(fixture.records.map((entry) => entry.id)).size, 73);
 assert.deepEqual(added.map((record) => record.id), fixture.records.map((entry) => entry.id));
 assert.equal(added.length, 73);
-assert.equal(data.records.length, 994);
+assert.equal(batch12Checkpoint.length, 994);
+assert.equal(digest(batch12Checkpoint), '3da8657b2303cba6e3a21858c140c073b4f80f3503d822a3110cc2c43584b1d1');
+assert.ok(data.records.length >= 994);
 
-assert.deepEqual(Object.fromEntries(['europe', 'japan', 'korea', 'north-america', 'south-america'].map((region) => [region, data.records.filter((record) => record.regionKey === region).length])), {
+assert.deepEqual(Object.fromEntries(['europe', 'japan', 'korea', 'north-america', 'south-america'].map((region) => [region, batch12Checkpoint.filter((record) => record.regionKey === region).length])), {
   europe: 408, japan: 422, korea: 50, 'north-america': 114, 'south-america': 0
 });
 assert.equal(added.filter((record) => record.verification.evidenceBasis === 'corroborated').length, 73);

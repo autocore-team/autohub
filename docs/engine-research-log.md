@@ -1603,3 +1603,38 @@ Two pairs had identical maker, displacement, layout, valvetrain, valve/cam count
 - Aston Martin DB12 Volante (2023) and Aston Martin Vantage S (2025): consolidated into `batch12-aston-martin-aston-martin-db12-volante-2023` with both applications.
 
 Materially different calibrations remain separate. The final Batch 12 identity breakdown is exactCode=28, applicationScopedSpecification=45; evidence breakdown corroborated=73; completeness breakdown core=73. The first 921 records remain the compatibility baseline with SHA-256 `470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c`.
+
+
+## Engine Throughput Batch 13 — final one-pass audit (2026-10-09)
+
+The candidate pool was fixed at exactly 200 named Europe/United Kingdom catalogue leads from model years 1995–2025. Ford and Ford Campaign holds, racing, crate, marine and industrial applications were excluded. The pool was not expanded after fixation and no reserve manufacturer was needed. Reconciliation is 100 accepted + 5 semantic duplicates + 95 holds + 0 rejected = 200. Production Batch 13 size is 100 records, within the 100–125 target.
+
+| Manufacturer quota | Requested | Actual pool | Accepted | Duplicates | Holds |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Volkswagen | 20 | 20 | 2 | 0 | 18 |
+| Audi | 20 | 20 | 10 | 0 | 10 |
+| Škoda | 15 | 15 | 10 | 1 | 4 |
+| SEAT/Cupra | 15 | 15 | 10 | 0 | 5 |
+| Renault | 20 | 20 | 12 | 0 | 8 |
+| Peugeot | 20 | 20 | 12 | 2 | 6 |
+| Citroën | 15 | 15 | 10 | 1 | 4 |
+| Opel/Vauxhall | 15 | 15 | 10 | 1 | 4 |
+| Hyundai | 20 | 20 | 10 | 0 | 10 |
+| Kia | 20 | 20 | 10 | 0 | 10 |
+| Volvo | 10 | 10 | 2 | 0 | 8 |
+| Mazda | 10 | 10 | 2 | 0 | 8 |
+| **Total** | **200** | **200** | **100** | **5** | **95** |
+
+All 100 production records are manually reviewed `applicationScopedSpecification` identities with `evidenceBasis: corroborated` and `completeness: core`; none claims an engine code or public designation. Mandatory displacement, layout, valvetrain, total valves, total camshafts, fuel, aspiration, injection, power and torque are present. RPM is unpublished in the normalized scope and omitted from all 100 records. No fuel-, gearbox-, year-, market- or gross/net-dependent value was widened into a free range.
+
+The evidence set contains 210 Tier B publications: 100 encyCARpedia pages, 98 Automobile-Catalog / ProfessCars pages, one ADAC technical publication and one Car and Driver technical publication. Every pair has distinct publishers, owners, editorial teams and domains; mirrors, translations, syndication, common owners and shared commercial databases remain forbidden. A shared manufacturer origin for technical facts is allowed and does not make separately owned editorial publications dependent.
+
+Five model/trim/body/year splits had identical maker, displacement, layout, valvetrain, valve/cam counts, fuel, aspiration, injection, power and torque and were consolidated rather than emitted as separate engines:
+
+- Škoda Karoq 1.5 TSI 150 (2018) into Scala 1.5 TSI 150 (2019).
+- Peugeot 307 2.0 16V 135 (2001) into 206 GTI (1999).
+- Peugeot 208 GTi (2013) into RCZ THP 200 (2010).
+- Citroën C3 PureTech 110 (2017) into C4 Cactus PureTech 110 (2018).
+- Opel Speedster Turbo (2003) into Astra OPC (2002).
+
+Materially different calibrations remain separate. The 994-record Batch 12 baseline and its regional order are unchanged, with semantic SHA-256 `3da8657b2303cba6e3a21858c140c073b4f80f3503d822a3110cc2c43584b1d1`. Result: 1094 records, 1005 verified and 89 legacyPending; Europe 508, Japan 422, Korea 50, North America 114, South America 0. Full semantic SHA-256: `56376a76431798b95d7d64873e4d6e5d4526ed6e23039abdd65ba47faf37ddd0`.
