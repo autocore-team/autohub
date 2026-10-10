@@ -1,0 +1,3412 @@
+{
+  "candidatePool": 200,
+  "targetMin": 100,
+  "targetMax": 125,
+  "productionPeriod": {
+    "from": 1990,
+    "to": 2025
+  },
+  "requestedQuotas": {
+    "BMW": 20,
+    "Mercedes-Benz": 20,
+    "MINI": 10,
+    "Porsche": 15,
+    "Jaguar": 15,
+    "Land Rover": 15,
+    "Alfa Romeo": 15,
+    "Ferrari": 10,
+    "Aston Martin": 10,
+    "Honda": 20,
+    "Acura": 10,
+    "Lexus": 15,
+    "MG": 10,
+    "Dacia": 10,
+    "Maserati": 5
+  },
+  "actualQuotas": {
+    "BMW": 20,
+    "Mercedes-Benz": 20,
+    "MINI": 10,
+    "Porsche": 15,
+    "Jaguar": 15,
+    "Land Rover": 15,
+    "Alfa Romeo": 15,
+    "Ferrari": 10,
+    "Aston Martin": 10,
+    "Honda": 20,
+    "Acura": 10,
+    "Lexus": 15,
+    "MG": 10,
+    "Dacia": 10,
+    "Maserati": 5
+  },
+  "reserveManufacturersUsed": [],
+  "accepted": 100,
+  "duplicates": 2,
+  "holds": 98,
+  "rejected": 0,
+  "productionRecords": 100,
+  "identityBreakdown": {
+    "applicationScopedSpecification": 100
+  },
+  "evidenceBreakdown": {
+    "corroborated": 100
+  },
+  "completenessBreakdown": {
+    "core": 100
+  },
+  "withoutRpm": 100,
+  "acceptedByManufacturer": {
+    "BMW": 4,
+    "Mercedes-Benz": 0,
+    "MINI": 8,
+    "Porsche": 10,
+    "Jaguar": 10,
+    "Land Rover": 10,
+    "Alfa Romeo": 10,
+    "Ferrari": 7,
+    "Aston Martin": 7,
+    "Honda": 3,
+    "Acura": 5,
+    "Lexus": 5,
+    "MG": 8,
+    "Dacia": 8,
+    "Maserati": 5
+  },
+  "sourcePair": {
+    "publishers": [
+      "encyCARpedia",
+      "Automobile-Catalog / ProfessCars"
+    ],
+    "independent": true,
+    "commonOriginAllowed": "manufacturer-published-technical-specifications"
+  },
+  "duplicateConsolidations": [
+    {
+      "absorbedId": "batch15-jaguar-xj-super-v8-2003",
+      "keptId": "batch15-jaguar-s-type-r-2002",
+      "family": "Jaguar AJ34 4.2 V8 supercharged",
+      "construction": "V8 DOHC 32 valves, 4 camshafts, supercharged multi-point injection",
+      "calibration": {
+        "powerKw": 291,
+        "torqueNm": 541
+      }
+    },
+    {
+      "absorbedId": "batch15-alfa-romeo-stelvio-quadrifoglio-2018",
+      "keptId": "batch15-alfa-romeo-giulia-quadrifoglio-2016",
+      "family": "Alfa Romeo 2.9 V6 Bi-Turbo",
+      "construction": "V6 DOHC 24 valves, 4 camshafts, twin-turbo direct injection",
+      "calibration": {
+        "powerKw": 375,
+        "torqueNm": 600
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "batch15-bmw-z8-2000",
+      "label": "BMW Z8 (Europe/United Kingdom market, 2000 specification)",
+      "manufacturer": "BMW",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-bmw-850csi-1992",
+      "label": "BMW 850CSi (Europe/United Kingdom market, 1992 specification)",
+      "manufacturer": "BMW",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-bmw-m3-csl-2003",
+      "label": "BMW M3 CSL (Europe/United Kingdom market, 2003 specification)",
+      "manufacturer": "BMW",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-bmw-m5-e34-3-8-1992",
+      "label": "BMW M5 E34 3.8 (Europe/United Kingdom market, 1992 specification)",
+      "manufacturer": "BMW",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-bmw-01",
+      "label": "BMW i8 combustion engine (2014)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-02",
+      "label": "750i E38 (1994)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-03",
+      "label": "Z3 M Roadster (1997)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-04",
+      "label": "M5 E39 (1998)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-05",
+      "label": "X5 4.6is (2001)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-06",
+      "label": "760Li E66 (2003)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-07",
+      "label": "M5 E60 (2005)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-08",
+      "label": "335i E90 (2006)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-09",
+      "label": "X6 M E71 (2009)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-10",
+      "label": "1 Series M Coupe (2011)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-11",
+      "label": "M6 Gran Coupe (2013)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-12",
+      "label": "X5 M F85 (2015)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-13",
+      "label": "M760Li xDrive (2016)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-14",
+      "label": "M8 Competition (2019)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-15",
+      "label": "XM Label (2023)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-bmw-16",
+      "label": "M5 G90 combustion engine (2024)",
+      "manufacturer": "BMW",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-01",
+      "label": "500 E W124 (1991)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-02",
+      "label": "SL 600 R129 (1992)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-03",
+      "label": "C 36 AMG (1993)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-04",
+      "label": "E 50 AMG (1996)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-05",
+      "label": "CLK 55 AMG (1999)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-06",
+      "label": "C 32 AMG (2001)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-07",
+      "label": "SL 55 AMG (2002)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-08",
+      "label": "E 55 AMG (2003)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-09",
+      "label": "SLK 55 AMG (2004)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-10",
+      "label": "CLS 55 AMG (2005)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-11",
+      "label": "S 65 AMG (2006)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-12",
+      "label": "CL 63 AMG (2007)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-13",
+      "label": "SLS AMG (2010)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-14",
+      "label": "A 45 AMG (2013)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-15",
+      "label": "AMG GT S (2015)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-16",
+      "label": "E 63 S (2017)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-17",
+      "label": "AMG GT 63 S 4-Door (2018)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-18",
+      "label": "GLS 600 Maybach (2020)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-19",
+      "label": "AMG SL 63 (2022)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mercedes-benz-20",
+      "label": "AMG GT 63 S E Performance combustion engine (2024)",
+      "manufacturer": "Mercedes-Benz",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-mini-countryman-jcw-2012",
+      "label": "MINI Countryman John Cooper Works (Europe/United Kingdom market, 2012 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-jcw-gp-2006",
+      "label": "MINI John Cooper Works GP (Europe/United Kingdom market, 2006 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-cooper-s-r56-2007",
+      "label": "MINI Cooper S R56 (Europe/United Kingdom market, 2007 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-jcw-r56-2008",
+      "label": "MINI John Cooper Works R56 (Europe/United Kingdom market, 2008 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-cooper-sd-r56-2011",
+      "label": "MINI Cooper SD R56 (Europe/United Kingdom market, 2011 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-cooper-s-f56-2014",
+      "label": "MINI Cooper S F56 (Europe/United Kingdom market, 2014 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-jcw-f56-2015",
+      "label": "MINI John Cooper Works F56 (Europe/United Kingdom market, 2015 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mini-clubman-jcw-2019",
+      "label": "MINI Clubman John Cooper Works (Europe/United Kingdom market, 2019 specification)",
+      "manufacturer": "MINI",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-mini-01",
+      "label": "MINI Cooper D R56 (2007)",
+      "manufacturer": "MINI",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mini-02",
+      "label": "MINI Cooper S R53 (2002)",
+      "manufacturer": "MINI",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-porsche-968-1992",
+      "label": "Porsche 968 (Europe/United Kingdom market, 1992 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-911-carrera-993-1994",
+      "label": "Porsche 911 Carrera 993 (Europe/United Kingdom market, 1994 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-911-turbo-993-1995",
+      "label": "Porsche 911 Turbo 993 (Europe/United Kingdom market, 1995 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-boxster-986-1996",
+      "label": "Porsche Boxster 986 (Europe/United Kingdom market, 1996 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-911-carrera-996-1997",
+      "label": "Porsche 911 Carrera 996 (Europe/United Kingdom market, 1997 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-cayenne-turbo-2002",
+      "label": "Porsche Cayenne Turbo (Europe/United Kingdom market, 2002 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-carrera-gt-2003",
+      "label": "Porsche Carrera GT (Europe/United Kingdom market, 2003 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-cayman-s-2005",
+      "label": "Porsche Cayman S (Europe/United Kingdom market, 2005 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-panamera-turbo-2009",
+      "label": "Porsche Panamera Turbo (Europe/United Kingdom market, 2009 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-porsche-911-gt2-996-2001",
+      "label": "Porsche 911 GT2 996 (Europe/United Kingdom market, 2001 specification)",
+      "manufacturer": "Porsche",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-porsche-01",
+      "label": "Porsche 918 Spyder combustion engine (2013)",
+      "manufacturer": "Porsche",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-porsche-02",
+      "label": "Porsche 911 GT3 RS 997 (2006)",
+      "manufacturer": "Porsche",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-porsche-03",
+      "label": "Porsche Cayenne Diesel (2009)",
+      "manufacturer": "Porsche",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-porsche-04",
+      "label": "Porsche Macan Turbo (2014)",
+      "manufacturer": "Porsche",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-porsche-05",
+      "label": "Porsche 911 GT3 RS 992 (2022)",
+      "manufacturer": "Porsche",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-jaguar-xfr-2009",
+      "label": "Jaguar XFR (Europe/United Kingdom market, 2009 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-xjr-x300-1994",
+      "label": "Jaguar XJR X300 (Europe/United Kingdom market, 1994 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-xk8-1996",
+      "label": "Jaguar XK8 (Europe/United Kingdom market, 1996 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-xkr-1998",
+      "label": "Jaguar XKR (Europe/United Kingdom market, 1998 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-s-type-r-2002",
+      "label": "Jaguar S-Type R (Europe/United Kingdom market, 2002 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-xj-super-v8-2003",
+      "label": "Jaguar XJ Super V8 (Europe/United Kingdom market, 2003 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "duplicate",
+      "reason": "Consolidated into batch15-jaguar-s-type-r-2002: same Jaguar AJ34 4.2 V8 supercharged identity, construction and 291 kW / 541 N·m calibration."
+    },
+    {
+      "id": "batch15-jaguar-xkr-2006",
+      "label": "Jaguar XKR (Europe/United Kingdom market, 2006 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-xf-3-0d-s-2009",
+      "label": "Jaguar XF 3.0D S (Europe/United Kingdom market, 2009 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-f-type-v8-s-2013",
+      "label": "Jaguar F-Type V8 S (Europe/United Kingdom market, 2013 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-f-pace-svr-2018",
+      "label": "Jaguar F-Pace SVR (Europe/United Kingdom market, 2018 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-jaguar-f-type-r-575-2020",
+      "label": "Jaguar F-Type R 575 (Europe/United Kingdom market, 2020 specification)",
+      "manufacturer": "Jaguar",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-jaguar-01",
+      "label": "Jaguar X-Type 3.0 (2001)",
+      "manufacturer": "Jaguar",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-jaguar-02",
+      "label": "Jaguar XJ 2.7D (2005)",
+      "manufacturer": "Jaguar",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-jaguar-03",
+      "label": "Jaguar XJ220 (1992)",
+      "manufacturer": "Jaguar",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-jaguar-04",
+      "label": "Jaguar XE 2.0d (2015)",
+      "manufacturer": "Jaguar",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-land-rover-discovery-3-9-v8-1994",
+      "label": "Land Rover Discovery 3.9 V8 (Europe/United Kingdom market, 1994 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-range-rover-4-6-hse-1995",
+      "label": "Range Rover 4.6 HSE (Europe/United Kingdom market, 1995 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-freelander-1-8-1997",
+      "label": "Land Rover Freelander 1.8 (Europe/United Kingdom market, 1997 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-discovery-td5-1998",
+      "label": "Land Rover Discovery II Td5 (Europe/United Kingdom market, 1998 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-freelander-v6-2001",
+      "label": "Land Rover Freelander V6 (Europe/United Kingdom market, 2001 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-discovery-3-4-4-v8-2004",
+      "label": "Land Rover Discovery 3 4.4 V8 (Europe/United Kingdom market, 2004 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-range-rover-sport-supercharged-2005",
+      "label": "Range Rover Sport Supercharged (Europe/United Kingdom market, 2005 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-freelander-2-td4-2006",
+      "label": "Land Rover Freelander 2 TD4 (Europe/United Kingdom market, 2006 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-discovery-4-sdv6-2010",
+      "label": "Land Rover Discovery 4 SDV6 (Europe/United Kingdom market, 2010 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-land-rover-defender-v8-2018",
+      "label": "Land Rover Defender Works V8 (Europe/United Kingdom market, 2018 specification)",
+      "manufacturer": "Land Rover",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-land-rover-01",
+      "label": "Range Rover 2.5 DSE (1996)",
+      "manufacturer": "Land Rover",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-land-rover-02",
+      "label": "Discovery 3 TDV6 (2004)",
+      "manufacturer": "Land Rover",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-land-rover-03",
+      "label": "Range Rover Evoque Si4 (2011)",
+      "manufacturer": "Land Rover",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-land-rover-04",
+      "label": "Range Rover Velar P380 (2017)",
+      "manufacturer": "Land Rover",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-land-rover-05",
+      "label": "Defender P400 (2020)",
+      "manufacturer": "Land Rover",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-alfa-romeo-164-q4-1993",
+      "label": "Alfa Romeo 164 Q4 (Europe/United Kingdom market, 1993 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-gtv-2-0-twin-spark-1995",
+      "label": "Alfa Romeo GTV 2.0 Twin Spark (Europe/United Kingdom market, 1995 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-gtv-3-0-v6-1997",
+      "label": "Alfa Romeo GTV 3.0 V6 24V (Europe/United Kingdom market, 1997 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-156-2-5-v6-1997",
+      "label": "Alfa Romeo 156 2.5 V6 (Europe/United Kingdom market, 1997 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-156-gta-2002",
+      "label": "Alfa Romeo 156 GTA (Europe/United Kingdom market, 2002 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-gt-3-2-v6-2003",
+      "label": "Alfa Romeo GT 3.2 V6 (Europe/United Kingdom market, 2003 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-brera-3-2-jts-2005",
+      "label": "Alfa Romeo Brera 3.2 JTS (Europe/United Kingdom market, 2005 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-159-2-4-jtdm-2005",
+      "label": "Alfa Romeo 159 2.4 JTDM (Europe/United Kingdom market, 2005 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-giulietta-qv-2010",
+      "label": "Alfa Romeo Giulietta Quadrifoglio Verde (Europe/United Kingdom market, 2010 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-giulia-quadrifoglio-2016",
+      "label": "Alfa Romeo Giulia Quadrifoglio (Europe/United Kingdom market, 2016 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-alfa-romeo-stelvio-quadrifoglio-2018",
+      "label": "Alfa Romeo Stelvio Quadrifoglio (Europe/United Kingdom market, 2018 specification)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "duplicate",
+      "reason": "Consolidated into batch15-alfa-romeo-giulia-quadrifoglio-2016: same Alfa Romeo 2.9 V6 Bi-Turbo identity, construction and 375 kW / 600 N·m calibration."
+    },
+    {
+      "id": "batch15-hold-alfa-romeo-01",
+      "label": "Alfa Romeo 147 GTA (2002)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-alfa-romeo-02",
+      "label": "Alfa Romeo 8C Competizione (2007)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-alfa-romeo-03",
+      "label": "Alfa Romeo 4C (2013)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-alfa-romeo-04",
+      "label": "Alfa Romeo 166 3.2 V6 (2003)",
+      "manufacturer": "Alfa Romeo",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-ferrari-348-tb-1990",
+      "label": "Ferrari 348 TB (Europe/United Kingdom market, 1990 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-ferrari-512-tr-1991",
+      "label": "Ferrari 512 TR (Europe/United Kingdom market, 1991 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-ferrari-f355-berlinetta-1994",
+      "label": "Ferrari F355 Berlinetta (Europe/United Kingdom market, 1994 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-ferrari-550-maranello-1996",
+      "label": "Ferrari 550 Maranello (Europe/United Kingdom market, 1996 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-ferrari-360-modena-1999",
+      "label": "Ferrari 360 Modena (Europe/United Kingdom market, 1999 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-ferrari-enzo-2002",
+      "label": "Ferrari Enzo (Europe/United Kingdom market, 2002 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-ferrari-599-gtb-2006",
+      "label": "Ferrari 599 GTB Fiorano (Europe/United Kingdom market, 2006 specification)",
+      "manufacturer": "Ferrari",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-ferrari-01",
+      "label": "Ferrari F430 (2004)",
+      "manufacturer": "Ferrari",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-ferrari-02",
+      "label": "Ferrari 458 Italia (2009)",
+      "manufacturer": "Ferrari",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-ferrari-03",
+      "label": "Ferrari LaFerrari combustion engine (2013)",
+      "manufacturer": "Ferrari",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-aston-martin-virage-1990",
+      "label": "Aston Martin Virage (Europe/United Kingdom market, 1990 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-aston-martin-db7-3-2-1994",
+      "label": "Aston Martin DB7 3.2 (Europe/United Kingdom market, 1994 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-aston-martin-db7-vantage-1999",
+      "label": "Aston Martin DB7 Vantage (Europe/United Kingdom market, 1999 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-aston-martin-vanquish-2001",
+      "label": "Aston Martin Vanquish (Europe/United Kingdom market, 2001 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-aston-martin-db9-2004",
+      "label": "Aston Martin DB9 (Europe/United Kingdom market, 2004 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-aston-martin-v8-vantage-2005",
+      "label": "Aston Martin V8 Vantage (Europe/United Kingdom market, 2005 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-aston-martin-dbs-2007",
+      "label": "Aston Martin DBS (Europe/United Kingdom market, 2007 specification)",
+      "manufacturer": "Aston Martin",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-aston-martin-01",
+      "label": "Aston Martin One-77 (2009)",
+      "manufacturer": "Aston Martin",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-aston-martin-02",
+      "label": "Aston Martin Rapide S (2013)",
+      "manufacturer": "Aston Martin",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-aston-martin-03",
+      "label": "Aston Martin Valkyrie combustion engine (2021)",
+      "manufacturer": "Aston Martin",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-honda-nsx-1990",
+      "label": "Honda NSX (Japan market, 1990 specification)",
+      "manufacturer": "Honda",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-honda-integra-type-r-1998",
+      "label": "Honda Integra Type R (Japan market, 1998 specification)",
+      "manufacturer": "Honda",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-honda-s2000-1999",
+      "label": "Honda S2000 (Japan market, 1999 specification)",
+      "manufacturer": "Honda",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-honda-01",
+      "label": "Honda Prelude VTEC (1992)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-02",
+      "label": "Honda Civic Type R EK9 (1997)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-03",
+      "label": "Honda Accord Type R (1998)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-04",
+      "label": "Honda NSX-R (2002)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-05",
+      "label": "Honda Civic Type R EP3 (2002)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-06",
+      "label": "Honda Integra Type R DC5 (2002)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-07",
+      "label": "Honda Accord Euro R CL7 (2002)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-08",
+      "label": "Honda Legend 3.5 (2004)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-09",
+      "label": "Honda S2000 2.2 (2004)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-10",
+      "label": "Honda Civic Type R FD2 (2007)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-11",
+      "label": "Honda CR-Z (2010)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-12",
+      "label": "Honda Civic Type R FK2 (2015)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-13",
+      "label": "Honda NSX II combustion engine (2016)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-14",
+      "label": "Honda Civic Si (2017)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-15",
+      "label": "Honda Accord 2.0T (2018)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-16",
+      "label": "Honda Civic Type R FL5 (2022)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-honda-17",
+      "label": "Honda ZR-V 2.0 combustion engine (2023)",
+      "manufacturer": "Honda",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-acura-integra-type-r-1997",
+      "label": "Acura Integra Type R (United States/Canada market, 1997 specification)",
+      "manufacturer": "Acura",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-acura-tl-type-s-2002",
+      "label": "Acura TL Type S (United States/Canada market, 2002 specification)",
+      "manufacturer": "Acura",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-acura-rsx-type-s-2002",
+      "label": "Acura RSX Type S (United States/Canada market, 2002 specification)",
+      "manufacturer": "Acura",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-acura-rl-2005",
+      "label": "Acura RL (United States/Canada market, 2005 specification)",
+      "manufacturer": "Acura",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-acura-zdx-2010",
+      "label": "Acura ZDX (United States/Canada market, 2010 specification)",
+      "manufacturer": "Acura",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-acura-01",
+      "label": "Acura Legend 3.2 (1991)",
+      "manufacturer": "Acura",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-acura-02",
+      "label": "Acura NSX 3.0 (1991)",
+      "manufacturer": "Acura",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-acura-03",
+      "label": "Acura CL Type S (2001)",
+      "manufacturer": "Acura",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-acura-04",
+      "label": "Acura TSX (2004)",
+      "manufacturer": "Acura",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-acura-05",
+      "label": "Acura MDX 3.7 (2007)",
+      "manufacturer": "Acura",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-lexus-ls400-1990",
+      "label": "Lexus LS 400 (United States/Canada market, 1990 specification)",
+      "manufacturer": "Lexus",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-lexus-gs300-1993",
+      "label": "Lexus GS 300 (United States/Canada market, 1993 specification)",
+      "manufacturer": "Lexus",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-lexus-ls430-2000",
+      "label": "Lexus LS 430 (United States/Canada market, 2000 specification)",
+      "manufacturer": "Lexus",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-lexus-is300-2001",
+      "label": "Lexus IS 300 (United States/Canada market, 2001 specification)",
+      "manufacturer": "Lexus",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-lexus-lfa-2010",
+      "label": "Lexus LFA (United States/Canada market, 2010 specification)",
+      "manufacturer": "Lexus",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-lexus-01",
+      "label": "Lexus SC 400 (1991)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-02",
+      "label": "Lexus ES 300 (1992)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-03",
+      "label": "Lexus LX 450 (1996)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-04",
+      "label": "Lexus GS 400 (1998)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-05",
+      "label": "Lexus RX 300 (1998)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-06",
+      "label": "Lexus IS F (2007)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-07",
+      "label": "Lexus GS F (2015)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-08",
+      "label": "Lexus LC 500 (2017)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-09",
+      "label": "Lexus UX 250h combustion engine (2018)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-lexus-10",
+      "label": "Lexus RX 500h combustion engine (2022)",
+      "manufacturer": "Lexus",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-mg-rv8-1993",
+      "label": "MG RV8 (Europe/United Kingdom market, 1993 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-mgf-1-8i-1995",
+      "label": "MGF 1.8i (Europe/United Kingdom market, 1995 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-mgf-vvc-1995",
+      "label": "MGF VVC (Europe/United Kingdom market, 1995 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-zr-160-2001",
+      "label": "MG ZR 160 (Europe/United Kingdom market, 2001 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-zs-180-2001",
+      "label": "MG ZS 180 (Europe/United Kingdom market, 2001 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-zt-190-2001",
+      "label": "MG ZT 190 (Europe/United Kingdom market, 2001 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-zt-260-2003",
+      "label": "MG ZT 260 (Europe/United Kingdom market, 2003 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-mg-mg3-1-5-2013",
+      "label": "MG3 1.5 (Europe/United Kingdom market, 2013 specification)",
+      "manufacturer": "MG",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-mg-01",
+      "label": "MG TF 160 (2002)",
+      "manufacturer": "MG",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-mg-02",
+      "label": "MG GS 1.5 TGI (2016)",
+      "manufacturer": "MG",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-dacia-logan-1-4-2004",
+      "label": "Dacia Logan 1.4 (Europe market, 2004 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-logan-1-6-16v-2006",
+      "label": "Dacia Logan 1.6 16V (Europe market, 2006 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-logan-1-5-dci-2005",
+      "label": "Dacia Logan 1.5 dCi (Europe market, 2005 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-duster-1-5-dci-110-2010",
+      "label": "Dacia Duster 1.5 dCi 110 (Europe market, 2010 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-lodgy-1-2-tce-2012",
+      "label": "Dacia Lodgy 1.2 TCe (Europe market, 2012 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-dokker-1-5-dci-90-2012",
+      "label": "Dacia Dokker 1.5 dCi 90 (Europe market, 2012 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-sandero-tce-90-2013",
+      "label": "Dacia Sandero TCe 90 (Europe market, 2013 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-dacia-duster-1-3-tce-150-2019",
+      "label": "Dacia Duster 1.3 TCe 150 (Europe market, 2019 specification)",
+      "manufacturer": "Dacia",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-hold-dacia-01",
+      "label": "Dacia Sandero 1.6 MPI (2008)",
+      "manufacturer": "Dacia",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-hold-dacia-02",
+      "label": "Dacia Jogger 1.0 TCe (2022)",
+      "manufacturer": "Dacia",
+      "outcome": "hold",
+      "reason": "The fixed lead did not close every mandatory field with a conflict-free admissible source pair."
+    },
+    {
+      "id": "batch15-maserati-shamal-1990",
+      "label": "Maserati Shamal (Europe/United Kingdom market, 1990 specification)",
+      "manufacturer": "Maserati",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-maserati-quattroporte-2-8-1994",
+      "label": "Maserati Quattroporte 2.8 (Europe/United Kingdom market, 1994 specification)",
+      "manufacturer": "Maserati",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-maserati-3200-gt-1998",
+      "label": "Maserati 3200 GT (Europe/United Kingdom market, 1998 specification)",
+      "manufacturer": "Maserati",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-maserati-coupe-cambiocorsa-2002",
+      "label": "Maserati Coupe Cambiocorsa (Europe/United Kingdom market, 2002 specification)",
+      "manufacturer": "Maserati",
+      "outcome": "accepted"
+    },
+    {
+      "id": "batch15-maserati-granturismo-s-2008",
+      "label": "Maserati GranTurismo S (Europe/United Kingdom market, 2008 specification)",
+      "manufacturer": "Maserati",
+      "outcome": "accepted"
+    }
+  ],
+  "records": [
+    {
+      "id": "batch15-bmw-z8-2000",
+      "maker": "BMW",
+      "regionKey": "europe",
+      "identity": "BMW 4.9 L V8 naturallyAspirated 294 kW / 500 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "BMW Z8 (Europe/United Kingdom market, 2000 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 294,
+          "max": 294
+        },
+        "torqueNm": {
+          "min": 500,
+          "max": 500
+        }
+      }
+    },
+    {
+      "id": "batch15-bmw-850csi-1992",
+      "maker": "BMW",
+      "regionKey": "europe",
+      "identity": "BMW 5.6 L V12 naturallyAspirated 280 kW / 550 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "BMW 850CSi (Europe/United Kingdom market, 1992 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 280,
+          "max": 280
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch15-bmw-m3-csl-2003",
+      "maker": "BMW",
+      "regionKey": "europe",
+      "identity": "BMW 3.2 L Inline-6 naturallyAspirated 265 kW / 370 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "BMW M3 CSL (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 265,
+          "max": 265
+        },
+        "torqueNm": {
+          "min": 370,
+          "max": 370
+        }
+      }
+    },
+    {
+      "id": "batch15-bmw-m5-e34-3-8-1992",
+      "maker": "BMW",
+      "regionKey": "europe",
+      "identity": "BMW 3.8 L Inline-6 naturallyAspirated 250 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "BMW M5 E34 3.8 (Europe/United Kingdom market, 1992 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-countryman-jcw-2012",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 1.6 L Inline-4 turbocharged 160 kW / 280 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI Countryman John Cooper Works (Europe/United Kingdom market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 160,
+          "max": 160
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-jcw-gp-2006",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 1.6 L Inline-4 supercharged 160 kW / 250 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI John Cooper Works GP (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 160,
+          "max": 160
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-cooper-s-r56-2007",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 1.6 L Inline-4 turbocharged 128 kW / 240 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI Cooper S R56 (Europe/United Kingdom market, 2007 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 128,
+          "max": 128
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-jcw-r56-2008",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 1.6 L Inline-4 turbocharged 155 kW / 260 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI John Cooper Works R56 (Europe/United Kingdom market, 2008 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 155,
+          "max": 155
+        },
+        "torqueNm": {
+          "min": 260,
+          "max": 260
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-cooper-sd-r56-2011",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 2.0 L Inline-4 turbocharged 105 kW / 305 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI Cooper SD R56 (Europe/United Kingdom market, 2011 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 105,
+          "max": 105
+        },
+        "torqueNm": {
+          "min": 305,
+          "max": 305
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-cooper-s-f56-2014",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 2.0 L Inline-4 turbocharged 141 kW / 280 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI Cooper S F56 (Europe/United Kingdom market, 2014 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 141,
+          "max": 141
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-jcw-f56-2015",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 2.0 L Inline-4 turbocharged 170 kW / 320 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI John Cooper Works F56 (Europe/United Kingdom market, 2015 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 170,
+          "max": 170
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      }
+    },
+    {
+      "id": "batch15-mini-clubman-jcw-2019",
+      "maker": "MINI",
+      "regionKey": "europe",
+      "identity": "MINI 2.0 L Inline-4 turbocharged 225 kW / 450 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MINI Clubman John Cooper Works (Europe/United Kingdom market, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 225,
+          "max": 225
+        },
+        "torqueNm": {
+          "min": 450,
+          "max": 450
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-968-1992",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 3.0 L Inline-4 naturallyAspirated 176.5 kW / 305 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche 968 (Europe/United Kingdom market, 1992 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 176.5,
+          "max": 176.5
+        },
+        "torqueNm": {
+          "min": 305,
+          "max": 305
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-911-carrera-993-1994",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 3.6 L Flat-6 naturallyAspirated 200 kW / 330 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche 911 Carrera 993 (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 200,
+          "max": 200
+        },
+        "torqueNm": {
+          "min": 330,
+          "max": 330
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-911-turbo-993-1995",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 3.6 L Flat-6 twinTurbocharged 300 kW / 540 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche 911 Turbo 993 (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 300,
+          "max": 300
+        },
+        "torqueNm": {
+          "min": 540,
+          "max": 540
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-boxster-986-1996",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 2.5 L Flat-6 naturallyAspirated 150 kW / 245 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche Boxster 986 (Europe/United Kingdom market, 1996 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 150,
+          "max": 150
+        },
+        "torqueNm": {
+          "min": 245,
+          "max": 245
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-911-carrera-996-1997",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 3.4 L Flat-6 naturallyAspirated 221 kW / 350 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche 911 Carrera 996 (Europe/United Kingdom market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 221,
+          "max": 221
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-cayenne-turbo-2002",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 4.5 L V8 twinTurbocharged 331 kW / 620 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche Cayenne Turbo (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 331,
+          "max": 331
+        },
+        "torqueNm": {
+          "min": 620,
+          "max": 620
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-carrera-gt-2003",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 5.7 L V10 naturallyAspirated 450 kW / 590 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche Carrera GT (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 450,
+          "max": 450
+        },
+        "torqueNm": {
+          "min": 590,
+          "max": 590
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-cayman-s-2005",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 3.4 L Flat-6 naturallyAspirated 217 kW / 340 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche Cayman S (Europe/United Kingdom market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 217,
+          "max": 217
+        },
+        "torqueNm": {
+          "min": 340,
+          "max": 340
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-panamera-turbo-2009",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 4.8 L V8 twinTurbocharged 368 kW / 700 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche Panamera Turbo (Europe/United Kingdom market, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 368,
+          "max": 368
+        },
+        "torqueNm": {
+          "min": 700,
+          "max": 700
+        }
+      }
+    },
+    {
+      "id": "batch15-porsche-911-gt2-996-2001",
+      "maker": "Porsche",
+      "regionKey": "europe",
+      "identity": "Porsche 3.6 L Flat-6 twinTurbocharged 340 kW / 620 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Porsche 911 GT2 996 (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 340,
+          "max": 340
+        },
+        "torqueNm": {
+          "min": 620,
+          "max": 620
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-xfr-2009",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 5.0 L V8 supercharged 375 kW / 625 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar XFR (Europe/United Kingdom market, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 375,
+          "max": 375
+        },
+        "torqueNm": {
+          "min": 625,
+          "max": 625
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-xjr-x300-1994",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 4.0 L Inline-6 supercharged 240 kW / 512 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar XJR X300 (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 240,
+          "max": 240
+        },
+        "torqueNm": {
+          "min": 512,
+          "max": 512
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-xk8-1996",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 4.0 L V8 naturallyAspirated 216 kW / 393 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar XK8 (Europe/United Kingdom market, 1996 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 216,
+          "max": 216
+        },
+        "torqueNm": {
+          "min": 393,
+          "max": 393
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-xkr-1998",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 4.0 L V8 supercharged 276 kW / 525 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar XKR (Europe/United Kingdom market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 276,
+          "max": 276
+        },
+        "torqueNm": {
+          "min": 525,
+          "max": 525
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-s-type-r-2002",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 4.2 L V8 supercharged 291 kW / 541 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar S-Type R (Europe/United Kingdom market, 2002 specification)",
+        "Jaguar XJ Super V8 (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 291,
+          "max": 291
+        },
+        "torqueNm": {
+          "min": 541,
+          "max": 541
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-xkr-2006",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 4.2 L V8 supercharged 309 kW / 560 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar XKR (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 309,
+          "max": 309
+        },
+        "torqueNm": {
+          "min": 560,
+          "max": 560
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-xf-3-0d-s-2009",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 3.0 L V6 twinTurbocharged 202 kW / 600 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar XF 3.0D S (Europe/United Kingdom market, 2009 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 202,
+          "max": 202
+        },
+        "torqueNm": {
+          "min": 600,
+          "max": 600
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-f-type-v8-s-2013",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 5.0 L V8 supercharged 364 kW / 625 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar F-Type V8 S (Europe/United Kingdom market, 2013 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 364,
+          "max": 364
+        },
+        "torqueNm": {
+          "min": 625,
+          "max": 625
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-f-pace-svr-2018",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 5.0 L V8 supercharged 405 kW / 680 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar F-Pace SVR (Europe/United Kingdom market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 405,
+          "max": 405
+        },
+        "torqueNm": {
+          "min": 680,
+          "max": 680
+        }
+      }
+    },
+    {
+      "id": "batch15-jaguar-f-type-r-575-2020",
+      "maker": "Jaguar",
+      "regionKey": "europe",
+      "identity": "Jaguar 5.0 L V8 supercharged 423 kW / 700 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Jaguar F-Type R 575 (Europe/United Kingdom market, 2020 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 423,
+          "max": 423
+        },
+        "torqueNm": {
+          "min": 700,
+          "max": 700
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-discovery-3-9-v8-1994",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 3.9 L V8 naturallyAspirated 134 kW / 304 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Discovery 3.9 V8 (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 134,
+          "max": 134
+        },
+        "torqueNm": {
+          "min": 304,
+          "max": 304
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-range-rover-4-6-hse-1995",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 4.6 L V8 naturallyAspirated 165 kW / 380 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Range Rover 4.6 HSE (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 165,
+          "max": 165
+        },
+        "torqueNm": {
+          "min": 380,
+          "max": 380
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-freelander-1-8-1997",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 1.8 L Inline-4 naturallyAspirated 88 kW / 165 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Freelander 1.8 (Europe/United Kingdom market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 88,
+          "max": 88
+        },
+        "torqueNm": {
+          "min": 165,
+          "max": 165
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-discovery-td5-1998",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 2.5 L Inline-5 turbocharged 101 kW / 300 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Discovery II Td5 (Europe/United Kingdom market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 101,
+          "max": 101
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-freelander-v6-2001",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 2.5 L V6 naturallyAspirated 130 kW / 240 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Freelander V6 (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 130,
+          "max": 130
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-discovery-3-4-4-v8-2004",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 4.4 L V8 naturallyAspirated 220 kW / 425 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Discovery 3 4.4 V8 (Europe/United Kingdom market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 220,
+          "max": 220
+        },
+        "torqueNm": {
+          "min": 425,
+          "max": 425
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-range-rover-sport-supercharged-2005",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 4.2 L V8 supercharged 287 kW / 550 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Range Rover Sport Supercharged (Europe/United Kingdom market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 287,
+          "max": 287
+        },
+        "torqueNm": {
+          "min": 550,
+          "max": 550
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-freelander-2-td4-2006",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 2.2 L Inline-4 turbocharged 118 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Freelander 2 TD4 (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 118,
+          "max": 118
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-discovery-4-sdv6-2010",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 3.0 L V6 twinTurbocharged 188 kW / 600 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Discovery 4 SDV6 (Europe/United Kingdom market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 188,
+          "max": 188
+        },
+        "torqueNm": {
+          "min": 600,
+          "max": 600
+        }
+      }
+    },
+    {
+      "id": "batch15-land-rover-defender-v8-2018",
+      "maker": "Land Rover",
+      "regionKey": "europe",
+      "identity": "Land Rover 5.0 L V8 naturallyAspirated 298 kW / 515 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Land Rover Defender Works V8 (Europe/United Kingdom market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 298,
+          "max": 298
+        },
+        "torqueNm": {
+          "min": 515,
+          "max": 515
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-164-q4-1993",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 3.0 L V6 naturallyAspirated 170 kW / 280 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo 164 Q4 (Europe/United Kingdom market, 1993 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 170,
+          "max": 170
+        },
+        "torqueNm": {
+          "min": 280,
+          "max": 280
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-gtv-2-0-twin-spark-1995",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 2.0 L Inline-4 naturallyAspirated 110 kW / 186 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo GTV 2.0 Twin Spark (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 186,
+          "max": 186
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-gtv-3-0-v6-1997",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 3.0 L V6 naturallyAspirated 162 kW / 270 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo GTV 3.0 V6 24V (Europe/United Kingdom market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 162,
+          "max": 162
+        },
+        "torqueNm": {
+          "min": 270,
+          "max": 270
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-156-2-5-v6-1997",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 2.5 L V6 naturallyAspirated 140 kW / 222 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo 156 2.5 V6 (Europe/United Kingdom market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 140,
+          "max": 140
+        },
+        "torqueNm": {
+          "min": 222,
+          "max": 222
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-156-gta-2002",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 3.2 L V6 naturallyAspirated 184 kW / 300 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo 156 GTA (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 184,
+          "max": 184
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-gt-3-2-v6-2003",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 3.2 L V6 naturallyAspirated 176 kW / 300 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo GT 3.2 V6 (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 176,
+          "max": 176
+        },
+        "torqueNm": {
+          "min": 300,
+          "max": 300
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-brera-3-2-jts-2005",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 3.2 L V6 naturallyAspirated 191 kW / 322 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo Brera 3.2 JTS (Europe/United Kingdom market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 191,
+          "max": 191
+        },
+        "torqueNm": {
+          "min": 322,
+          "max": 322
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-159-2-4-jtdm-2005",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 2.4 L Inline-5 turbocharged 147 kW / 400 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo 159 2.4 JTDM (Europe/United Kingdom market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 400,
+          "max": 400
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-giulietta-qv-2010",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 1.75 L Inline-4 turbocharged 173 kW / 340 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo Giulietta Quadrifoglio Verde (Europe/United Kingdom market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 173,
+          "max": 173
+        },
+        "torqueNm": {
+          "min": 340,
+          "max": 340
+        }
+      }
+    },
+    {
+      "id": "batch15-alfa-romeo-giulia-quadrifoglio-2016",
+      "maker": "Alfa Romeo",
+      "regionKey": "europe",
+      "identity": "Alfa Romeo 2.9 L V6 twinTurbocharged 375 kW / 600 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Alfa Romeo Giulia Quadrifoglio (Europe/United Kingdom market, 2016 specification)",
+        "Alfa Romeo Stelvio Quadrifoglio (Europe/United Kingdom market, 2018 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 375,
+          "max": 375
+        },
+        "torqueNm": {
+          "min": 600,
+          "max": 600
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-348-tb-1990",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 3.4 L V8 naturallyAspirated 221 kW / 324 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari 348 TB (Europe/United Kingdom market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 221,
+          "max": 221
+        },
+        "torqueNm": {
+          "min": 324,
+          "max": 324
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-512-tr-1991",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 4.9 L Flat-12 naturallyAspirated 315 kW / 491 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari 512 TR (Europe/United Kingdom market, 1991 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 315,
+          "max": 315
+        },
+        "torqueNm": {
+          "min": 491,
+          "max": 491
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-f355-berlinetta-1994",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 3.5 L V8 naturallyAspirated 280 kW / 363 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari F355 Berlinetta (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 280,
+          "max": 280
+        },
+        "torqueNm": {
+          "min": 363,
+          "max": 363
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-550-maranello-1996",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 5.5 L V12 naturallyAspirated 357 kW / 568 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari 550 Maranello (Europe/United Kingdom market, 1996 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 357,
+          "max": 357
+        },
+        "torqueNm": {
+          "min": 568,
+          "max": 568
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-360-modena-1999",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 3.6 L V8 naturallyAspirated 294 kW / 373 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari 360 Modena (Europe/United Kingdom market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 294,
+          "max": 294
+        },
+        "torqueNm": {
+          "min": 373,
+          "max": 373
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-enzo-2002",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 6.0 L V12 naturallyAspirated 485 kW / 657 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari Enzo (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 485,
+          "max": 485
+        },
+        "torqueNm": {
+          "min": 657,
+          "max": 657
+        }
+      }
+    },
+    {
+      "id": "batch15-ferrari-599-gtb-2006",
+      "maker": "Ferrari",
+      "regionKey": "europe",
+      "identity": "Ferrari 6.0 L V12 naturallyAspirated 456 kW / 608 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Ferrari 599 GTB Fiorano (Europe/United Kingdom market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 456,
+          "max": 456
+        },
+        "torqueNm": {
+          "min": 608,
+          "max": 608
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-virage-1990",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 5.3 L V8 naturallyAspirated 246 kW / 494 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin Virage (Europe/United Kingdom market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 246,
+          "max": 246
+        },
+        "torqueNm": {
+          "min": 494,
+          "max": 494
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-db7-3-2-1994",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 3.2 L Inline-6 supercharged 250 kW / 489 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin DB7 3.2 (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 489,
+          "max": 489
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-db7-vantage-1999",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 5.9 L V12 naturallyAspirated 313 kW / 542 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin DB7 Vantage (Europe/United Kingdom market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 313,
+          "max": 313
+        },
+        "torqueNm": {
+          "min": 542,
+          "max": 542
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-vanquish-2001",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 5.9 L V12 naturallyAspirated 343 kW / 542 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin Vanquish (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 343,
+          "max": 343
+        },
+        "torqueNm": {
+          "min": 542,
+          "max": 542
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-db9-2004",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 5.9 L V12 naturallyAspirated 335 kW / 570 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin DB9 (Europe/United Kingdom market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 335,
+          "max": 335
+        },
+        "torqueNm": {
+          "min": 570,
+          "max": 570
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-v8-vantage-2005",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 4.3 L V8 naturallyAspirated 283 kW / 410 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin V8 Vantage (Europe/United Kingdom market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 283,
+          "max": 283
+        },
+        "torqueNm": {
+          "min": 410,
+          "max": 410
+        }
+      }
+    },
+    {
+      "id": "batch15-aston-martin-dbs-2007",
+      "maker": "Aston Martin",
+      "regionKey": "europe",
+      "identity": "Aston Martin 5.9 L V12 naturallyAspirated 380 kW / 570 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Aston Martin DBS (Europe/United Kingdom market, 2007 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 380,
+          "max": 380
+        },
+        "torqueNm": {
+          "min": 570,
+          "max": 570
+        }
+      }
+    },
+    {
+      "id": "batch15-honda-nsx-1990",
+      "maker": "Honda",
+      "regionKey": "japan",
+      "identity": "Honda 3.0 L V6 naturallyAspirated 201 kW / 284 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Honda NSX (Japan market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 201,
+          "max": 201
+        },
+        "torqueNm": {
+          "min": 284,
+          "max": 284
+        }
+      }
+    },
+    {
+      "id": "batch15-honda-integra-type-r-1998",
+      "maker": "Honda",
+      "regionKey": "japan",
+      "identity": "Honda 1.8 L Inline-4 naturallyAspirated 147 kW / 181 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Honda Integra Type R (Japan market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 181,
+          "max": 181
+        }
+      }
+    },
+    {
+      "id": "batch15-honda-s2000-1999",
+      "maker": "Honda",
+      "regionKey": "japan",
+      "identity": "Honda 2.0 L Inline-4 naturallyAspirated 184 kW / 208 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Honda S2000 (Japan market, 1999 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 184,
+          "max": 184
+        },
+        "torqueNm": {
+          "min": 208,
+          "max": 208
+        }
+      }
+    },
+    {
+      "id": "batch15-acura-integra-type-r-1997",
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "identity": "Acura 1.8 L Inline-4 naturallyAspirated 145 kW / 176 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Acura Integra Type R (United States/Canada market, 1997 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 145,
+          "max": 145
+        },
+        "torqueNm": {
+          "min": 176,
+          "max": 176
+        }
+      }
+    },
+    {
+      "id": "batch15-acura-tl-type-s-2002",
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "identity": "Acura 3.2 L V6 naturallyAspirated 194 kW / 315 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Acura TL Type S (United States/Canada market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194
+        },
+        "torqueNm": {
+          "min": 315,
+          "max": 315
+        }
+      }
+    },
+    {
+      "id": "batch15-acura-rsx-type-s-2002",
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "identity": "Acura 2.0 L Inline-4 naturallyAspirated 149 kW / 193 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Acura RSX Type S (United States/Canada market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 149,
+          "max": 149
+        },
+        "torqueNm": {
+          "min": 193,
+          "max": 193
+        }
+      }
+    },
+    {
+      "id": "batch15-acura-rl-2005",
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "identity": "Acura 3.5 L V6 naturallyAspirated 224 kW / 353 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Acura RL (United States/Canada market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch15-acura-zdx-2010",
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "identity": "Acura 3.7 L V6 naturallyAspirated 224 kW / 366 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Acura ZDX (United States/Canada market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 366,
+          "max": 366
+        }
+      }
+    },
+    {
+      "id": "batch15-lexus-ls400-1990",
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "identity": "Lexus 4.0 L V8 naturallyAspirated 183 kW / 353 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lexus LS 400 (United States/Canada market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 183,
+          "max": 183
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      }
+    },
+    {
+      "id": "batch15-lexus-gs300-1993",
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "identity": "Lexus 3.0 L Inline-6 naturallyAspirated 162 kW / 285 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lexus GS 300 (United States/Canada market, 1993 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 162,
+          "max": 162
+        },
+        "torqueNm": {
+          "min": 285,
+          "max": 285
+        }
+      }
+    },
+    {
+      "id": "batch15-lexus-ls430-2000",
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "identity": "Lexus 4.3 L V8 naturallyAspirated 207 kW / 417 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lexus LS 430 (United States/Canada market, 2000 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 207,
+          "max": 207
+        },
+        "torqueNm": {
+          "min": 417,
+          "max": 417
+        }
+      }
+    },
+    {
+      "id": "batch15-lexus-is300-2001",
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "identity": "Lexus 3.0 L Inline-6 naturallyAspirated 160 kW / 295 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lexus IS 300 (United States/Canada market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 160,
+          "max": 160
+        },
+        "torqueNm": {
+          "min": 295,
+          "max": 295
+        }
+      }
+    },
+    {
+      "id": "batch15-lexus-lfa-2010",
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "identity": "Lexus 4.8 L V10 naturallyAspirated 412 kW / 480 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Lexus LFA (United States/Canada market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 412,
+          "max": 412
+        },
+        "torqueNm": {
+          "min": 480,
+          "max": 480
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-rv8-1993",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 3.9 L V8 naturallyAspirated 140 kW / 312 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MG RV8 (Europe/United Kingdom market, 1993 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 140,
+          "max": 140
+        },
+        "torqueNm": {
+          "min": 312,
+          "max": 312
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-mgf-1-8i-1995",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 1.8 L Inline-4 naturallyAspirated 88 kW / 165 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MGF 1.8i (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 88,
+          "max": 88
+        },
+        "torqueNm": {
+          "min": 165,
+          "max": 165
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-mgf-vvc-1995",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 1.8 L Inline-4 naturallyAspirated 107 kW / 174 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MGF VVC (Europe/United Kingdom market, 1995 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 107,
+          "max": 107
+        },
+        "torqueNm": {
+          "min": 174,
+          "max": 174
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-zr-160-2001",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 1.8 L Inline-4 naturallyAspirated 118 kW / 174 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MG ZR 160 (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 118,
+          "max": 118
+        },
+        "torqueNm": {
+          "min": 174,
+          "max": 174
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-zs-180-2001",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 2.5 L V6 naturallyAspirated 130 kW / 240 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MG ZS 180 (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 130,
+          "max": 130
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-zt-190-2001",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 2.5 L V6 naturallyAspirated 140 kW / 245 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MG ZT 190 (Europe/United Kingdom market, 2001 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 140,
+          "max": 140
+        },
+        "torqueNm": {
+          "min": 245,
+          "max": 245
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-zt-260-2003",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 4.6 L V8 naturallyAspirated 194 kW / 410 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MG ZT 260 (Europe/United Kingdom market, 2003 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194
+        },
+        "torqueNm": {
+          "min": 410,
+          "max": 410
+        }
+      }
+    },
+    {
+      "id": "batch15-mg-mg3-1-5-2013",
+      "maker": "MG",
+      "regionKey": "europe",
+      "identity": "MG 1.5 L Inline-4 naturallyAspirated 78 kW / 137 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "MG3 1.5 (Europe/United Kingdom market, 2013 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 78,
+          "max": 78
+        },
+        "torqueNm": {
+          "min": 137,
+          "max": 137
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-logan-1-4-2004",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.4 L Inline-4 naturallyAspirated 55 kW / 112 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Logan 1.4 (Europe market, 2004 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 55,
+          "max": 55
+        },
+        "torqueNm": {
+          "min": 112,
+          "max": 112
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-logan-1-6-16v-2006",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.6 L Inline-4 naturallyAspirated 77 kW / 148 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Logan 1.6 16V (Europe market, 2006 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 77,
+          "max": 77
+        },
+        "torqueNm": {
+          "min": 148,
+          "max": 148
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-logan-1-5-dci-2005",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.5 L Inline-4 turbocharged 50 kW / 160 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Logan 1.5 dCi (Europe market, 2005 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 50,
+          "max": 50
+        },
+        "torqueNm": {
+          "min": 160,
+          "max": 160
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-duster-1-5-dci-110-2010",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.5 L Inline-4 turbocharged 80 kW / 240 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Duster 1.5 dCi 110 (Europe market, 2010 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 80,
+          "max": 80
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-lodgy-1-2-tce-2012",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.2 L Inline-4 turbocharged 85 kW / 190 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Lodgy 1.2 TCe (Europe market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 85,
+          "max": 85
+        },
+        "torqueNm": {
+          "min": 190,
+          "max": 190
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-dokker-1-5-dci-90-2012",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.5 L Inline-4 turbocharged 66 kW / 200 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Dokker 1.5 dCi 90 (Europe market, 2012 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 66,
+          "max": 66
+        },
+        "torqueNm": {
+          "min": 200,
+          "max": 200
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-sandero-tce-90-2013",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 0.9 L Inline-3 turbocharged 66 kW / 135 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Sandero TCe 90 (Europe market, 2013 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 66,
+          "max": 66
+        },
+        "torqueNm": {
+          "min": 135,
+          "max": 135
+        }
+      }
+    },
+    {
+      "id": "batch15-dacia-duster-1-3-tce-150-2019",
+      "maker": "Dacia",
+      "regionKey": "europe",
+      "identity": "Dacia 1.3 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Dacia Duster 1.3 TCe 150 (Europe market, 2019 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 110,
+          "max": 110
+        },
+        "torqueNm": {
+          "min": 250,
+          "max": 250
+        }
+      }
+    },
+    {
+      "id": "batch15-maserati-shamal-1990",
+      "maker": "Maserati",
+      "regionKey": "europe",
+      "identity": "Maserati 3.2 L V8 twinTurbocharged 240 kW / 431 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Maserati Shamal (Europe/United Kingdom market, 1990 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 240,
+          "max": 240
+        },
+        "torqueNm": {
+          "min": 431,
+          "max": 431
+        }
+      }
+    },
+    {
+      "id": "batch15-maserati-quattroporte-2-8-1994",
+      "maker": "Maserati",
+      "regionKey": "europe",
+      "identity": "Maserati 2.8 L V6 twinTurbocharged 209 kW / 413 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Maserati Quattroporte 2.8 (Europe/United Kingdom market, 1994 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 209,
+          "max": 209
+        },
+        "torqueNm": {
+          "min": 413,
+          "max": 413
+        }
+      }
+    },
+    {
+      "id": "batch15-maserati-3200-gt-1998",
+      "maker": "Maserati",
+      "regionKey": "europe",
+      "identity": "Maserati 3.2 L V8 twinTurbocharged 272 kW / 491 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Maserati 3200 GT (Europe/United Kingdom market, 1998 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 272,
+          "max": 272
+        },
+        "torqueNm": {
+          "min": 491,
+          "max": 491
+        }
+      }
+    },
+    {
+      "id": "batch15-maserati-coupe-cambiocorsa-2002",
+      "maker": "Maserati",
+      "regionKey": "europe",
+      "identity": "Maserati 4.2 L V8 naturallyAspirated 287 kW / 451 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Maserati Coupe Cambiocorsa (Europe/United Kingdom market, 2002 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 287,
+          "max": 287
+        },
+        "torqueNm": {
+          "min": 451,
+          "max": 451
+        }
+      }
+    },
+    {
+      "id": "batch15-maserati-granturismo-s-2008",
+      "maker": "Maserati",
+      "regionKey": "europe",
+      "identity": "Maserati 4.7 L V8 naturallyAspirated 323 kW / 490 Nm application specification",
+      "identityType": "applicationScopedSpecification",
+      "applications": [
+        "Maserati GranTurismo S (Europe/United Kingdom market, 2008 specification)"
+      ],
+      "performance": {
+        "powerKw": {
+          "min": 323,
+          "max": 323
+        },
+        "torqueNm": {
+          "min": 490,
+          "max": 490
+        }
+      }
+    }
+  ]
+}
