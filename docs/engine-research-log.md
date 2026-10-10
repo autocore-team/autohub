@@ -1677,3 +1677,44 @@ The evidence set contains 222 Tier B source references: 111 encyCARpedia publica
 7. **SsangYong Actyon 2.0 Xdi / Kyron 2.0 Xdi — split; Actyon hold.** Both are D20DT-family 1998 cc DOHC 16-valve common-rail engines, but the saved Actyon sources conflict on power (107 versus 104 kW). Kyron remains a standalone 104 kW/310 N·m record. Evidence locations: D20DT application entries in the [SsangYong engine catalogue](https://www.enginepartsuk.net/sites/default/files/CATAE1501.pdf); encyCARpedia “Performance”/“Diesel Engine” for [Actyon](https://www.encycarpedia.com/ssangyong/06-actyon-2-0-suv) and [Kyron](https://www.encycarpedia.com/ssangyong/07-kyron-2-0-xdi-4wd-141-suv); Automobile-Catalog “Engine specifications” for [Actyon](https://www.automobile-catalog.com/car/2006/3165230/ssangyong_actyon_200_xdi_4x4.html) and [Kyron](https://www.automobile-catalog.com/car/2006/3166385/ssangyong_kyron_200_xdi_4x4_automatic.html).
 
 Only the three Genesis pairs remain consolidated. Materially different or source-conflicted calibrations are split. The first 1094 records and regional order are unchanged, with semantic SHA-256 `56376a76431798b95d7d64873e4d6e5d4526ed6e23039abdd65ba47faf37ddd0`. Result: 1202 records, 1113 verified and 89 legacyPending; Europe 537, Japan 445, Korea 65, North America 155, South America 0. Full semantic SHA-256: `fdde0fa624ff1ec32f9abb60b5759df7b413ca16d5af1391e946dd2c083b61f2`.
+
+
+## Engine Throughput Batch 15 — final one-pass audit (2026-10-10)
+
+The candidate pool was fixed at exactly 200 named catalogue leads after a baseline application and semantic-collision check. It covers the requested 1990–2025 markets and excludes racing, crate, marine and industrial engines. No reserve manufacturer was needed and the pool was not expanded. Reconciliation is 100 accepted + 2 semantic duplicates + 98 holds + 0 rejected = 200; production Batch 15 contains 100 records.
+
+| Manufacturer quota | Requested | Actual pool | Accepted records | Duplicates | Holds |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| BMW | 20 | 20 | 4 | 0 | 16 |
+| Mercedes-Benz | 20 | 20 | 0 | 0 | 20 |
+| MINI | 10 | 10 | 8 | 0 | 2 |
+| Porsche | 15 | 15 | 10 | 0 | 5 |
+| Jaguar | 15 | 15 | 10 | 1 | 4 |
+| Land Rover | 15 | 15 | 10 | 0 | 5 |
+| Alfa Romeo | 15 | 15 | 10 | 1 | 4 |
+| Ferrari | 10 | 10 | 7 | 0 | 3 |
+| Aston Martin | 10 | 10 | 7 | 0 | 3 |
+| Honda | 20 | 20 | 3 | 0 | 17 |
+| Acura | 10 | 10 | 5 | 0 | 5 |
+| Lexus | 15 | 15 | 5 | 0 | 10 |
+| MG | 10 | 10 | 8 | 0 | 2 |
+| Dacia | 10 | 10 | 8 | 0 | 2 |
+| Maserati | 5 | 5 | 5 | 0 | 0 |
+| **Total** | **200** | **200** | **100** | **2** | **98** |
+
+Mercedes-Benz already had 295 baseline records and none of its fixed leads closed a new, conflict-free scope without semantic overlap or incomplete mandatory evidence. Each remains an individual hold; no manufacturer substitution or replacement candidate was introduced.
+
+The 100 records cover 14 production manufacturers and 100 normalized engine/application specification identities. Additions by region are Europe 87, Japan 3 and North America 10; the resulting regional totals are Europe 624, Japan 448, Korea 65, North America 165 and South America 0. All 100 use `identity.type: applicationScopedSpecification`; model and trim text is confined to applications and is not represented as an engine code or designation. No source pair published a common exact code for an accepted scope. Evidence is 0 official and 100 corroborated; completeness is 0 full and 100 core, with RPM absent from all 100 records.
+
+The evidence set contains 204 Tier B source references: 102 encyCARpedia and 102 Automobile-Catalog / ProfessCars publications. The established editorial-independence decision is reused unchanged. Each accepted field is covered by the admissible pair; mandatory valves and total camshafts are explicit. Conditional fuel-, gearbox-, year-, market- and gross/net-dependent performance values are not combined into free ranges.
+
+### Consolidation audit
+
+Two consolidations were proposed and accepted:
+
+1. **Alfa Romeo Giulia Quadrifoglio (2016) + Alfa Romeo Stelvio Quadrifoglio (2018) — consolidated, same engine identity.** Both applications use Alfa Romeo's 2.9-litre V6 Bi-Turbo petrol identity with aluminium construction, DOHC, 24 valves, four total camshafts, twin turbocharging, direct injection and the same 375 kW / 600 N·m calibration. Evidence locations: the manufacturer [Giulia launch release, “510hp 2.9-litre BiTurbo Petrol Engine” section](https://www.media.stellantis.com/uk-en/alfa-romeo/press/alfa-romeo-giulia-range-unveiled-at-the-2016-geneva-motor-show); the manufacturer [Stelvio Quadrifoglio technical-data brochure, “Engine characteristics” table](https://www.media.stellantis.com/uploads/uk/UK/2018/Alfa_Romeo/Press/Alfa_Romeo_Stelvio_Quadrifoglio_brochure.pdf); and the paired encyCARpedia “Performance”/“Petrol Engine” and Automobile-Catalog “Engine specifications” locations recorded in the canonical entry. The absorbed candidate is `batch15-alfa-romeo-stelvio-quadrifoglio-2018`; the retained record is `batch15-alfa-romeo-giulia-quadrifoglio-2016`.
+2. **Jaguar S-Type R (2002) + Jaguar XJ Super V8 (2003) — consolidated, same engine identity.** Both applications use Jaguar's AJ34 4.2-litre DOHC 32-valve supercharged V8 with four total camshafts, multi-point injection and the same 291 kW / 541 N·m Europe calibration. Evidence locations: encyCARpedia [S-Type R “Performance”/“Petrol Engine” sections](https://www.encycarpedia.com/jaguar/02-s-type-r-saloon) and the paired XJ Super V8 publication; Automobile-Catalog [S-Type R](https://www.automobile-catalog.com/car/2002/1287935/jaguar_s-type_r.html) and [XJ Super V8](https://www.automobile-catalog.com/car/2003/1289150/jaguar_super_v8.html) “Engine specifications”. The absorbed candidate is `batch15-jaguar-xj-super-v8-2003`; the retained record is `batch15-jaguar-s-type-r-2002`.
+
+No other Batch 15 record was consolidated. Every other accepted scope has one application because the audit did not establish a second application with the same engine identity/family, construction, injection/aspiration and calibration. Numeric displacement/power/torque similarity alone was not used.
+
+The first 1202 records and regional order are unchanged, with semantic SHA-256 `fdde0fa624ff1ec32f9abb60b5759df7b413ca16d5af1391e946dd2c083b61f2`. Result: 1302 records, 1213 verified and 89 legacyPending. Full semantic SHA-256: `297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976`.

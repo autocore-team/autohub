@@ -20705,6 +20705,2216 @@
           }
         ]
       }
+    },
+    {
+      "id": "batch15-acura-integra-type-r-1997",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Acura 1.8 L Inline-4 naturallyAspirated 145 kW / 176 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "years": "1997",
+      "displacement": "1.8 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Acura Integra Type R (United States/Canada market, 1997 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Acura Integra Type R (United States/Canada market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Acura Integra Type R (United States/Canada market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Acura Integra Type R (United States/Canada market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Acura Integra Type R (United States/Canada market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 145,
+          "max": 145
+        },
+        "torqueNm": {
+          "min": 176,
+          "max": 176
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-acura-integra-type-r-1997-ency",
+          "batch15-acura-integra-type-r-1997-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Acura Integra Type R (United States/Canada market, 1997 specification)"
+          ],
+          "years": {
+            "from": 1997,
+            "to": 1997
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-acura-integra-type-r-1997-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1997 Acura Integra Type R technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 1997,
+            "url": "https://www.encycarpedia.com/acura/97-integra-type-r-coupe",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 145,
+                "max": 145
+              },
+              "performance.torqueNm": {
+                "min": 176,
+                "max": 176
+              }
+            },
+            "pageNotes": [
+              "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 145 kW and 176 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura Integra Type R (United States/Canada market, 1997 specification)"
+              ],
+              "years": {
+                "from": 1997,
+                "to": 1997
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-acura-integra-type-r-1997-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1997 Acura Integra Type R technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 1997,
+            "url": "https://www.automobile-catalog.com/model/acura/acura_integra_3.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 145,
+                "max": 145
+              },
+              "performance.torqueNm": {
+                "min": 176,
+                "max": 176
+              }
+            },
+            "pageNotes": [
+              "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 145 kW and 176 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura Integra Type R (United States/Canada market, 1997 specification)"
+              ],
+              "years": {
+                "from": 1997,
+                "to": 1997
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-acura-tl-type-s-2002",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Acura 3.2 L V6 naturallyAspirated 194 kW / 315 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "years": "2002",
+      "displacement": "3.2 L",
+      "layout": "V6 · SOHC · 24 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Acura TL Type S (United States/Canada market, 2002 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.2 L; Acura TL Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.2 L; Acura TL Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.2 L; Acura TL Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.2 L; Acura TL Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194
+        },
+        "torqueNm": {
+          "min": 315,
+          "max": 315
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-acura-tl-type-s-2002-ency",
+          "batch15-acura-tl-type-s-2002-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Acura TL Type S (United States/Canada market, 2002 specification)"
+          ],
+          "years": {
+            "from": 2002,
+            "to": 2002
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-acura-tl-type-s-2002-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2002 Acura TL Type S technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2002,
+            "url": "https://www.encycarpedia.com/acura/02-tl-type-s-saloon",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 194,
+                "max": 194
+              },
+              "performance.torqueNm": {
+                "min": 315,
+                "max": 315
+              }
+            },
+            "pageNotes": [
+              "3.2 L V6, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 194 kW and 315 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura TL Type S (United States/Canada market, 2002 specification)"
+              ],
+              "years": {
+                "from": 2002,
+                "to": 2002
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-acura-tl-type-s-2002-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2002 Acura TL Type S technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2002,
+            "url": "https://www.automobile-catalog.com/model/acura/acura_tl_2.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 194,
+                "max": 194
+              },
+              "performance.torqueNm": {
+                "min": 315,
+                "max": 315
+              }
+            },
+            "pageNotes": [
+              "3.2 L V6, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 194 kW and 315 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura TL Type S (United States/Canada market, 2002 specification)"
+              ],
+              "years": {
+                "from": 2002,
+                "to": 2002
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-acura-rsx-type-s-2002",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Acura 2.0 L Inline-4 naturallyAspirated 149 kW / 193 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "years": "2002",
+      "displacement": "2.0 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Acura RSX Type S (United States/Canada market, 2002 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Acura RSX Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Acura RSX Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Acura RSX Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Acura RSX Type S (United States/Canada market, 2002 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 149,
+          "max": 149
+        },
+        "torqueNm": {
+          "min": 193,
+          "max": 193
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-acura-rsx-type-s-2002-ency",
+          "batch15-acura-rsx-type-s-2002-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Acura RSX Type S (United States/Canada market, 2002 specification)"
+          ],
+          "years": {
+            "from": 2002,
+            "to": 2002
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-acura-rsx-type-s-2002-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2002 Acura RSX Type S technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2002,
+            "url": "https://www.encycarpedia.com/acura/02-rsx-type-s-coupe",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 149,
+                "max": 149
+              },
+              "performance.torqueNm": {
+                "min": 193,
+                "max": 193
+              }
+            },
+            "pageNotes": [
+              "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 149 kW and 193 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura RSX Type S (United States/Canada market, 2002 specification)"
+              ],
+              "years": {
+                "from": 2002,
+                "to": 2002
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-acura-rsx-type-s-2002-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2002 Acura RSX Type S technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2002,
+            "url": "https://www.automobile-catalog.com/model/acura/acura_rsx.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 149,
+                "max": 149
+              },
+              "performance.torqueNm": {
+                "min": 193,
+                "max": 193
+              }
+            },
+            "pageNotes": [
+              "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 149 kW and 193 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura RSX Type S (United States/Canada market, 2002 specification)"
+              ],
+              "years": {
+                "from": 2002,
+                "to": 2002
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-acura-rl-2005",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Acura 3.5 L V6 naturallyAspirated 224 kW / 353 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "years": "2005",
+      "displacement": "3.5 L",
+      "layout": "V6 · SOHC · 24 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Acura RL (United States/Canada market, 2005 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.5 L; Acura RL (United States/Canada market, 2005 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.5 L; Acura RL (United States/Canada market, 2005 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.5 L; Acura RL (United States/Canada market, 2005 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.5 L; Acura RL (United States/Canada market, 2005 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-acura-rl-2005-ency",
+          "batch15-acura-rl-2005-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Acura RL (United States/Canada market, 2005 specification)"
+          ],
+          "years": {
+            "from": 2005,
+            "to": 2005
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-acura-rl-2005-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2005 Acura RL technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2005,
+            "url": "https://www.encycarpedia.com/acura/05-rl-saloon",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 224,
+                "max": 224
+              },
+              "performance.torqueNm": {
+                "min": 353,
+                "max": 353
+              }
+            },
+            "pageNotes": [
+              "3.5 L V6, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura RL (United States/Canada market, 2005 specification)"
+              ],
+              "years": {
+                "from": 2005,
+                "to": 2005
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-acura-rl-2005-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2005 Acura RL technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2005,
+            "url": "https://www.automobile-catalog.com/model/acura/acura_rl_2.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 224,
+                "max": 224
+              },
+              "performance.torqueNm": {
+                "min": 353,
+                "max": 353
+              }
+            },
+            "pageNotes": [
+              "3.5 L V6, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura RL (United States/Canada market, 2005 specification)"
+              ],
+              "years": {
+                "from": 2005,
+                "to": 2005
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-acura-zdx-2010",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Acura 3.7 L V6 naturallyAspirated 224 kW / 366 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Acura",
+      "regionKey": "north-america",
+      "years": "2010",
+      "displacement": "3.7 L",
+      "layout": "V6 · SOHC · 24 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Acura ZDX (United States/Canada market, 2010 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.7 L; Acura ZDX (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.7 L; Acura ZDX (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.7 L; Acura ZDX (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V6 · SOHC · 24 valves · 2 camshafts total, 3.7 L; Acura ZDX (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 224,
+          "max": 224
+        },
+        "torqueNm": {
+          "min": 366,
+          "max": 366
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-acura-zdx-2010-ency",
+          "batch15-acura-zdx-2010-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Acura ZDX (United States/Canada market, 2010 specification)"
+          ],
+          "years": {
+            "from": 2010,
+            "to": 2010
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-acura-zdx-2010-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2010 Acura ZDX technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2010,
+            "url": "https://www.encycarpedia.com/acura/10-zdx-suv",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 224,
+                "max": 224
+              },
+              "performance.torqueNm": {
+                "min": 366,
+                "max": 366
+              }
+            },
+            "pageNotes": [
+              "3.7 L V6, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 366 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura ZDX (United States/Canada market, 2010 specification)"
+              ],
+              "years": {
+                "from": 2010,
+                "to": 2010
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-acura-zdx-2010-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2010 Acura ZDX technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2010,
+            "url": "https://www.automobile-catalog.com/model/acura/acura_zdx.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 224,
+                "max": 224
+              },
+              "performance.torqueNm": {
+                "min": 366,
+                "max": 366
+              }
+            },
+            "pageNotes": [
+              "3.7 L V6, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 224 kW and 366 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Acura ZDX (United States/Canada market, 2010 specification)"
+              ],
+              "years": {
+                "from": 2010,
+                "to": 2010
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-lexus-ls400-1990",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Lexus 4.0 L V8 naturallyAspirated 183 kW / 353 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "years": "1990",
+      "displacement": "4.0 L",
+      "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus LS 400 (United States/Canada market, 1990 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Lexus LS 400 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Lexus LS 400 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Lexus LS 400 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Lexus LS 400 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 183,
+          "max": 183
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-lexus-ls400-1990-ency",
+          "batch15-lexus-ls400-1990-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus LS 400 (United States/Canada market, 1990 specification)"
+          ],
+          "years": {
+            "from": 1990,
+            "to": 1990
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-lexus-ls400-1990-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1990 Lexus LS 400 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 1990,
+            "url": "https://www.encycarpedia.com/lexus/90-ls-400-saloon",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 183,
+                "max": 183
+              },
+              "performance.torqueNm": {
+                "min": 353,
+                "max": 353
+              }
+            },
+            "pageNotes": [
+              "4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 183 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus LS 400 (United States/Canada market, 1990 specification)"
+              ],
+              "years": {
+                "from": 1990,
+                "to": 1990
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-lexus-ls400-1990-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1990 Lexus LS 400 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 1990,
+            "url": "https://www.automobile-catalog.com/model/lexus/lexus_ls_1.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 183,
+                "max": 183
+              },
+              "performance.torqueNm": {
+                "min": 353,
+                "max": 353
+              }
+            },
+            "pageNotes": [
+              "4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 183 kW and 353 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus LS 400 (United States/Canada market, 1990 specification)"
+              ],
+              "years": {
+                "from": 1990,
+                "to": 1990
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-lexus-gs300-1993",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Lexus 3.0 L Inline-6 naturallyAspirated 162 kW / 285 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "years": "1993",
+      "displacement": "3.0 L",
+      "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus GS 300 (United States/Canada market, 1993 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus GS 300 (United States/Canada market, 1993 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus GS 300 (United States/Canada market, 1993 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus GS 300 (United States/Canada market, 1993 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus GS 300 (United States/Canada market, 1993 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 162,
+          "max": 162
+        },
+        "torqueNm": {
+          "min": 285,
+          "max": 285
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-lexus-gs300-1993-ency",
+          "batch15-lexus-gs300-1993-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus GS 300 (United States/Canada market, 1993 specification)"
+          ],
+          "years": {
+            "from": 1993,
+            "to": 1993
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-lexus-gs300-1993-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1993 Lexus GS 300 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 1993,
+            "url": "https://www.encycarpedia.com/lexus/93-gs-300-saloon",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 162,
+                "max": 162
+              },
+              "performance.torqueNm": {
+                "min": 285,
+                "max": 285
+              }
+            },
+            "pageNotes": [
+              "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 162 kW and 285 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus GS 300 (United States/Canada market, 1993 specification)"
+              ],
+              "years": {
+                "from": 1993,
+                "to": 1993
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-lexus-gs300-1993-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1993 Lexus GS 300 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 1993,
+            "url": "https://www.automobile-catalog.com/model/lexus/lexus_gs_1.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 162,
+                "max": 162
+              },
+              "performance.torqueNm": {
+                "min": 285,
+                "max": 285
+              }
+            },
+            "pageNotes": [
+              "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 162 kW and 285 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus GS 300 (United States/Canada market, 1993 specification)"
+              ],
+              "years": {
+                "from": 1993,
+                "to": 1993
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-lexus-ls430-2000",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Lexus 4.3 L V8 naturallyAspirated 207 kW / 417 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "years": "2000",
+      "displacement": "4.3 L",
+      "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus LS 430 (United States/Canada market, 2000 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.3 L; Lexus LS 430 (United States/Canada market, 2000 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.3 L; Lexus LS 430 (United States/Canada market, 2000 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.3 L; Lexus LS 430 (United States/Canada market, 2000 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.3 L; Lexus LS 430 (United States/Canada market, 2000 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 207,
+          "max": 207
+        },
+        "torqueNm": {
+          "min": 417,
+          "max": 417
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-lexus-ls430-2000-ency",
+          "batch15-lexus-ls430-2000-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus LS 430 (United States/Canada market, 2000 specification)"
+          ],
+          "years": {
+            "from": 2000,
+            "to": 2000
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-lexus-ls430-2000-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2000 Lexus LS 430 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2000,
+            "url": "https://www.encycarpedia.com/lexus/00-ls-430-saloon",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 207,
+                "max": 207
+              },
+              "performance.torqueNm": {
+                "min": 417,
+                "max": 417
+              }
+            },
+            "pageNotes": [
+              "4.3 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 207 kW and 417 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus LS 430 (United States/Canada market, 2000 specification)"
+              ],
+              "years": {
+                "from": 2000,
+                "to": 2000
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-lexus-ls430-2000-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2000 Lexus LS 430 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2000,
+            "url": "https://www.automobile-catalog.com/model/lexus/lexus_ls_3.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 207,
+                "max": 207
+              },
+              "performance.torqueNm": {
+                "min": 417,
+                "max": 417
+              }
+            },
+            "pageNotes": [
+              "4.3 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 207 kW and 417 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus LS 430 (United States/Canada market, 2000 specification)"
+              ],
+              "years": {
+                "from": 2000,
+                "to": 2000
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-lexus-is300-2001",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Lexus 3.0 L Inline-6 naturallyAspirated 160 kW / 295 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "years": "2001",
+      "displacement": "3.0 L",
+      "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus IS 300 (United States/Canada market, 2001 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus IS 300 (United States/Canada market, 2001 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus IS 300 (United States/Canada market, 2001 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus IS 300 (United States/Canada market, 2001 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Lexus IS 300 (United States/Canada market, 2001 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 160,
+          "max": 160
+        },
+        "torqueNm": {
+          "min": 295,
+          "max": 295
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-lexus-is300-2001-ency",
+          "batch15-lexus-is300-2001-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus IS 300 (United States/Canada market, 2001 specification)"
+          ],
+          "years": {
+            "from": 2001,
+            "to": 2001
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-lexus-is300-2001-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2001 Lexus IS 300 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2001,
+            "url": "https://www.encycarpedia.com/lexus/01-is-300-saloon",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 160,
+                "max": 160
+              },
+              "performance.torqueNm": {
+                "min": 295,
+                "max": 295
+              }
+            },
+            "pageNotes": [
+              "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 160 kW and 295 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus IS 300 (United States/Canada market, 2001 specification)"
+              ],
+              "years": {
+                "from": 2001,
+                "to": 2001
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-lexus-is300-2001-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2001 Lexus IS 300 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2001,
+            "url": "https://www.automobile-catalog.com/model/lexus/lexus_is_1.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 160,
+                "max": 160
+              },
+              "performance.torqueNm": {
+                "min": 295,
+                "max": 295
+              }
+            },
+            "pageNotes": [
+              "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 160 kW and 295 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus IS 300 (United States/Canada market, 2001 specification)"
+              ],
+              "years": {
+                "from": 2001,
+                "to": 2001
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch15-lexus-lfa-2010",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Lexus 4.8 L V10 naturallyAspirated 412 kW / 480 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Lexus",
+      "regionKey": "north-america",
+      "years": "2010",
+      "displacement": "4.8 L",
+      "layout": "V10 · DOHC · 40 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Lexus LFA (United States/Canada market, 2010 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V10 · DOHC · 40 valves · 4 camshafts total, 4.8 L; Lexus LFA (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V10 · DOHC · 40 valves · 4 camshafts total, 4.8 L; Lexus LFA (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V10 · DOHC · 40 valves · 4 camshafts total, 4.8 L; Lexus LFA (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V10 · DOHC · 40 valves · 4 camshafts total, 4.8 L; Lexus LFA (United States/Canada market, 2010 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 412,
+          "max": 412
+        },
+        "torqueNm": {
+          "min": 480,
+          "max": 480
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch15-lexus-lfa-2010-ency",
+          "batch15-lexus-lfa-2010-ac"
+        ],
+        "scope": {
+          "applications": [
+            "Lexus LFA (United States/Canada market, 2010 specification)"
+          ],
+          "years": {
+            "from": 2010,
+            "to": 2010
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch15-lexus-lfa-2010-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2010 Lexus LFA technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2010,
+            "url": "https://www.encycarpedia.com/lexus/10-lfa-coupe",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 412,
+                "max": 412
+              },
+              "performance.torqueNm": {
+                "min": 480,
+                "max": 480
+              }
+            },
+            "pageNotes": [
+              "4.8 L V10, DOHC, 40 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 412 kW and 480 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus LFA (United States/Canada market, 2010 specification)"
+              ],
+              "years": {
+                "from": 2010,
+                "to": 2010
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch15-lexus-lfa-2010-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2010 Lexus LFA technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2010,
+            "url": "https://www.automobile-catalog.com/model/lexus/lexus_lfa.html",
+            "page": 1,
+            "checkedAt": "2026-10-10",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 412,
+                "max": 412
+              },
+              "performance.torqueNm": {
+                "min": 480,
+                "max": 480
+              }
+            },
+            "pageNotes": [
+              "4.8 L V10, DOHC, 40 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 412 kW and 480 N·m. No shared engine code or stable public designation is claimed.",
+              "RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Lexus LFA (United States/Canada market, 2010 specification)"
+              ],
+              "years": {
+                "from": 2010,
+                "to": 2010
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
     }
   ]
 }

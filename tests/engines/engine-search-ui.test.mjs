@@ -16,6 +16,7 @@ import './batch11-semantic.test.mjs';
 import './batch12-semantic.test.mjs';
 import './batch13-semantic.test.mjs';
 import './batch14-semantic.test.mjs';
+import './batch15-semantic.test.mjs';
 
 const testDirectory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(testDirectory, '../..');
@@ -186,7 +187,7 @@ function validateSyntheticDesignation(record) {
 const batch12BaselineLimits = { europe: 345, japan: 416, korea: 50, 'north-america': 110, 'south-america': 0 };
 const batch12BaselineRecords = sourceData.regionFiles.flatMap((file) => file.records.slice(0, batch12BaselineLimits[file.region]));
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(batch12BaselineRecords)).digest('hex');
-check(records.length === 1202, `Engine count changed: expected 1202, found ${records.length}`);
+check(records.length === 1302, `Engine count changed: expected 1302, found ${records.length}`);
 check(
   semanticHash === '470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c',
   `First 921-record baseline semantic hash changed: ${semanticHash}`
@@ -828,22 +829,22 @@ pass(`Batch 10 preserves the original 765 records and validates 26 reconciled di
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 537, manufacturerCount: 35 },
-    { region: 'japan', engineCount: 445, manufacturerCount: 20 },
+    { region: 'europe', engineCount: 624, manufacturerCount: 36 },
+    { region: 'japan', engineCount: 448, manufacturerCount: 20 },
     { region: 'korea', engineCount: 65, manufacturerCount: 5 },
-    { region: 'north-america', engineCount: 155, manufacturerCount: 21 }
+    { region: 'north-america', engineCount: 165, manufacturerCount: 23 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 1202, 'Regional engineCount sum does not equal 1202');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 1302, 'Regional engineCount sum does not equal 1302');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
   check(renderedSummary.includes(String(summary.engineCount)), `${summary.region} summary is missing its engine count`);
   check(!/·\s*engines\b/.test(renderedSummary), `${summary.region} summary renders “· engines” without a count`);
 }
-pass('region classification and Batch 14 counts are correct');
+pass('region classification and Batch 15 counts are correct');
 
 check(!summaries.some((summary) => summary.region === 'south-america'), 'Empty South America region is visible');
 const futureSouthAmericaRecord = {
@@ -864,7 +865,7 @@ pass('initial navigation keeps all regions closed and manufacturers hidden');
 
 const europeNavigation = core.navigationModel(records, REGIONS, { region: 'europe', maker: '' });
 const openEurope = europeNavigation.find((region) => region.region === 'europe');
-check(openEurope.expanded && openEurope.makers.length === 35, 'Europe did not expose its 35 manufacturers');
+check(openEurope.expanded && openEurope.makers.length === 36, 'Europe did not expose its 36 manufacturers');
 check(europeNavigation.filter((region) => region.region !== 'europe').every((region) => region.makers.length === 0), 'A closed region exposed manufacturers');
 for (const region of REGIONS) {
   const expected = new Set(records.filter((record) => record.regionKey === region).map((record) => core.makerSlug(record.maker)));
