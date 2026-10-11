@@ -101734,5 +101734,19934 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "batch16r-ds3-crossback-puretech-155-2019",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "DS Automobiles 1.2 L Inline-3 turbocharged 114 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "DS Automobiles",
+    "regionKey": "europe",
+    "years": "2019",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-ds3-crossback-puretech-155-2019-a",
+        "batch16r-ds3-crossback-puretech-155-2019-b"
+      ],
+      "scope": {
+        "applications": [
+          "DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-ds3-crossback-puretech-155-2019-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 DS Automobiles DS 3 Crossback PureTech 155 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/ds/19-ds-3-crossback-puretech-155-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 114,
+              "max": 114
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 114 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: PureTech 155 EAT8 calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-ds3-crossback-puretech-155-2019-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 DS Automobiles DS 3 Crossback PureTech 155 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/car/2019/2969870/ds_3_crossback_1_2_puretech_155_eat8.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 114,
+              "max": 114
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 114 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: PureTech 155 EAT8 calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "DS Automobiles DS 3 Crossback PureTech 155 (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-ds7-bluehdi-180-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "DS Automobiles 2.0 L Inline-4 turbocharged 130 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "DS Automobiles",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-ds7-bluehdi-180-2018-a",
+        "batch16r-ds7-bluehdi-180-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-ds7-bluehdi-180-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 DS Automobiles DS 7 Crossback BlueHDi 180 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/ds/18-ds-7-crossback-bluehdi-180-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 130 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Diesel Engine. Scope limitation: BlueHDi 180 exact calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-ds7-bluehdi-180-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 DS Automobiles DS 7 Crossback BlueHDi 180 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2626550/ds_7_crossback_bluehdi_180.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 130 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: BlueHDi 180 exact calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "DS Automobiles DS 7 Crossback BlueHDi 180 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-abarth-695-biposto-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Abarth 1.4 L Inline-4 turbocharged 140 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Abarth",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Abarth 695 Biposto (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 695 Biposto (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 695 Biposto (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 695 Biposto (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 695 Biposto (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-abarth-695-biposto-2014-a",
+        "batch16r-abarth-695-biposto-2014-b"
+      ],
+      "scope": {
+        "applications": [
+          "Abarth 695 Biposto (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-abarth-695-biposto-2014-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Abarth 695 Biposto technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/abarth/14-695-biposto-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 140 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 695 Biposto factory calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 695 Biposto (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-abarth-695-biposto-2014-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Abarth 695 Biposto technical specification — Coches.net",
+          "publisher": "Coches.net",
+          "year": 2014,
+          "url": "https://www.coches.net/fichas_tecnicas/abarth/500/berlina/3-puertas/14_tjet_695_biposto_190hp_190cv_gasolina/62603/745463620150201/",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 140 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact 2014 695 Biposto 190 CV technical specification. Scope limitation: 695 Biposto factory calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 695 Biposto (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Coches.net",
+          "editorialTeam": "Coches.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-lotus-2-eleven-2007",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lotus 1.8 L Inline-4 supercharged 188 kW / 242 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lotus",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lotus 2-Eleven road-going version (Europe market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus 2-Eleven road-going version (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus 2-Eleven road-going version (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus 2-Eleven road-going version (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus 2-Eleven road-going version (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 188,
+        "max": 188
+      },
+      "torqueNm": {
+        "min": 242,
+        "max": 242
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-lotus-2-eleven-2007-a",
+        "batch16r-lotus-2-eleven-2007-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lotus 2-Eleven road-going version (Europe market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-lotus-2-eleven-2007-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 Lotus 2-Eleven road-going version technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2007,
+          "url": "https://www.encycarpedia.com/lotus/07-2-eleven-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 188,
+              "max": 188
+            },
+            "performance.torqueNm": {
+              "min": 242,
+              "max": 242
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, supercharged, multiPointInjection; 188 kW and 242 N·m. No shared engine code or stable public designation is claimed.",
+            "exact road-going variant; Performance; Petrol Engine. Scope limitation: road-going Launch Edition; racing-only scopes excluded. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus 2-Eleven road-going version (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-lotus-2-eleven-2007-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 Lotus 2-Eleven road-going version technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2007,
+          "url": "https://www.automobile-catalog.com/car/2007/1436360/lotus_2-eleven_launch_edition_road_going_version.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 188,
+              "max": 188
+            },
+            "performance.torqueNm": {
+              "min": 242,
+              "max": 242
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, supercharged, multiPointInjection; 188 kW and 242 N·m. No shared engine code or stable public designation is claimed.",
+            "road-going variant Identification data and Engine specifications. Scope limitation: road-going Launch Edition; racing-only scopes excluded. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus 2-Eleven road-going version (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-ds4-bluehdi-180-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "DS Automobiles 2.0 L Inline-4 turbocharged 133 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "DS Automobiles",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 133,
+        "max": 133
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-ds4-bluehdi-180-2015-a",
+        "batch16r-ds4-bluehdi-180-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-ds4-bluehdi-180-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 DS Automobiles DS 4 BlueHDi 180 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/ds/15-ds-4-bluehdi-180-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 133,
+              "max": 133
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 133 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Diesel Engine. Scope limitation: 2015 SportChic automatic calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-ds4-bluehdi-180-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 DS Automobiles DS 4 BlueHDi 180 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2139965/citroen_ds4_bluehdi_180_sportchic_automatic.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 133,
+              "max": 133
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 133 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2015 SportChic automatic calibration only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "DS Automobiles DS 4 BlueHDi 180 (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-octavia-1-0-tsi-110-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 1.0 L Inline-3 turbocharged 81 kW / 200 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-octavia-1-0-tsi-110-2022-a",
+        "batch16r-skoda-octavia-1-0-tsi-110-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-octavia-1-0-tsi-110-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Skoda Octavia 1.0 TSI 110 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/skoda/20-octavia-1-0-tsi-110-fastback",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 81 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-octavia-1-0-tsi-110-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Skoda Octavia 1.0 TSI 110 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3148115/skoda_octavia_1_0_tsi_110.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 81 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia 1.0 TSI 110 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-octavia-2-0-tdi-150-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 2.0 L Inline-4 turbocharged 110 kW / 360 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 360,
+        "max": 360
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-octavia-2-0-tdi-150-2021-a",
+        "batch16r-skoda-octavia-2-0-tdi-150-2021-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-octavia-2-0-tdi-150-2021-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Skoda Octavia 2.0 TDI 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/skoda/20-octavia-2-0-tdi-150-fastback",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 360 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2021 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-octavia-2-0-tdi-150-2021-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 Skoda Octavia 2.0 TDI 150 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/3148445/skoda_octavia_2_0_tdi_150.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 360,
+              "max": 360
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 360 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2021 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia 2.0 TDI 150 (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-karoq-2-0-tdi-150-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 2.0 L Inline-4 turbocharged 110 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-karoq-2-0-tdi-150-2022-a",
+        "batch16r-skoda-karoq-2-0-tdi-150-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-karoq-2-0-tdi-150-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Skoda Karoq 2.0 TDI 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/skoda/22-karoq-2-0-tdi-150-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 340 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-karoq-2-0-tdi-150-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Skoda Karoq 2.0 TDI 150 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3153335/skoda_karoq_2_0_tdi_scr_150.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 340 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Karoq 2.0 TDI 150 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-octavia-2-0-tdi-115-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 2.0 L Inline-4 turbocharged 85 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-octavia-2-0-tdi-115-2020-a",
+        "batch16r-skoda-octavia-2-0-tdi-115-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-octavia-2-0-tdi-115-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Octavia 2.0 TDI 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/skoda/20-octavia-2-0-tdi-115-fastback",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 85 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-octavia-2-0-tdi-115-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Octavia 2.0 TDI 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/3148325/skoda_octavia_2_0_tdi_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 85 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia 2.0 TDI 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-scala-1-6-tdi-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 1.6 L Inline-4 turbocharged 84.5 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Scala 1.6 TDI (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Skoda Scala 1.6 TDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Skoda Scala 1.6 TDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Skoda Scala 1.6 TDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Skoda Scala 1.6 TDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84.5,
+        "max": 84.5
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-scala-1-6-tdi-2020-a",
+        "batch16r-skoda-scala-1-6-tdi-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Scala 1.6 TDI (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-scala-1-6-tdi-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Scala 1.6 TDI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/skoda/19-scala-1-6-tdi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 84.5 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Scala 1.6 TDI (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-scala-1-6-tdi-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Scala 1.6 TDI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/3152345/skoda_scala_1_6_tdi_cr_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 84.5 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Scala 1.6 TDI (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-leon-cupra-300-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 2.0 L Inline-4 turbocharged 220.5 kW / 380 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon Cupra 300 (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 300 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 300 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 300 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 300 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 220.5,
+        "max": 220.5
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-leon-cupra-300-2017-a",
+        "batch16r-seat-leon-cupra-300-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon Cupra 300 (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-leon-cupra-300-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Leon Cupra 300 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/seat/17-leon-cupra-300-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220.5,
+              "max": 220.5
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 220.5 kW and 380 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon Cupra 300 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-leon-cupra-300-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Leon Cupra 300 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/3098705/seat_leon_cupra_300.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220.5,
+              "max": 220.5
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 220.5 kW and 380 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon Cupra 300 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-tarraco-2-0-tdi-150-2019",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 2.0 L Inline-4 turbocharged 110 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2019",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-tarraco-2-0-tdi-150-2019-a",
+        "batch16r-seat-tarraco-2-0-tdi-150-2019-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-tarraco-2-0-tdi-150-2019-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 SEAT Tarraco 2.0 TDI 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/seat/19-tarraco-2-0-tdi-150-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 340 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2019 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-tarraco-2-0-tdi-150-2019-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 SEAT Tarraco 2.0 TDI 150 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/car/2019/3102950/seat_tarraco_2_0_tdi_cr_150_fwd.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 340 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2019 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Tarraco 2.0 TDI 150 (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-tarraco-2-0-tsi-190-4drive-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 2.0 L Inline-4 turbocharged 140 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-tarraco-2-0-tsi-190-4drive-2021-a",
+        "batch16r-seat-tarraco-2-0-tsi-190-4drive-2021-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-tarraco-2-0-tsi-190-4drive-2021-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 SEAT Tarraco 2.0 TSI 190 4Drive technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/seat/19-tarraco-2-0-tsi-190-4drive-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 140 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2021 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-tarraco-2-0-tsi-190-4drive-2021-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 SEAT Tarraco 2.0 TSI 190 4Drive technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/3103070/seat_tarraco_2_0_tsi_190_4drive_dsg.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 140 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2021 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Tarraco 2.0 TSI 190 4Drive (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-ibiza-1-0-mpi-65-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.0 L Inline-3 naturallyAspirated 48 kW / 95 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 48,
+        "max": 48
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-ibiza-1-0-mpi-65-2017-a",
+        "batch16r-seat-ibiza-1-0-mpi-65-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-ibiza-1-0-mpi-65-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Ibiza 1.0 MPI 65 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/seat/17-ibiza-1-0-mpi-65-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 48,
+              "max": 48
+            },
+            "performance.torqueNm": {
+              "min": 95,
+              "max": 95
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 48 kW and 95 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-ibiza-1-0-mpi-65-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Ibiza 1.0 MPI 65 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/3101360/seat_ibiza_1_0_mpi_65.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 48,
+              "max": 48
+            },
+            "performance.torqueNm": {
+              "min": 95,
+              "max": 95
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 48 kW and 95 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.0 MPI 65 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-ibiza-1-0-mpi-75-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.0 L Inline-3 naturallyAspirated 55 kW / 95 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 55,
+        "max": 55
+      },
+      "torqueNm": {
+        "min": 95,
+        "max": 95
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-ibiza-1-0-mpi-75-2017-a",
+        "batch16r-seat-ibiza-1-0-mpi-75-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-ibiza-1-0-mpi-75-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Ibiza 1.0 MPI 75 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/seat/17-ibiza-1-0-mpi-75-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 55,
+              "max": 55
+            },
+            "performance.torqueNm": {
+              "min": 95,
+              "max": 95
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 55 kW and 95 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-ibiza-1-0-mpi-75-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Ibiza 1.0 MPI 75 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/3101285/seat_ibiza_1_0_mpi_75.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 55,
+              "max": 55
+            },
+            "performance.torqueNm": {
+              "min": 95,
+              "max": 95
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 55 kW and 95 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.0 MPI 75 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-ibiza-1-6-tdi-80-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.6 L Inline-4 turbocharged 59 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 59,
+        "max": 59
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-ibiza-1-6-tdi-80-2017-a",
+        "batch16r-seat-ibiza-1-6-tdi-80-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-ibiza-1-6-tdi-80-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Ibiza 1.6 TDI 80 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/seat/17-ibiza-1-6-tdi-80-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 59,
+              "max": 59
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 59 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-ibiza-1-6-tdi-80-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Ibiza 1.6 TDI 80 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/3101405/seat_ibiza_1_6_tdi_80.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 59,
+              "max": 59
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 59 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.6 TDI 80 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-arona-1-6-tdi-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.6 L Inline-4 turbocharged 70 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Arona 1.6 TDI (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Arona 1.6 TDI (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Arona 1.6 TDI (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Arona 1.6 TDI (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; SEAT Arona 1.6 TDI (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-arona-1-6-tdi-2017-a",
+        "batch16r-seat-arona-1-6-tdi-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Arona 1.6 TDI (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-arona-1-6-tdi-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Arona 1.6 TDI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/seat/17-arona-1-6-tdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 70 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Arona 1.6 TDI (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-arona-1-6-tdi-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 SEAT Arona 1.6 TDI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/3101960/seat_arona_1_6_tdi_95.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 70 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Arona 1.6 TDI (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-s3-sportback-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 228 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi S3 Sportback (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 228,
+        "max": 228
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-s3-sportback-2020-a",
+        "batch16r-audi-s3-sportback-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi S3 Sportback (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-s3-sportback-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Audi S3 Sportback technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/audi/20-s3-sportback-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 228,
+              "max": 228
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 228 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi S3 Sportback (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-s3-sportback-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Audi S3 Sportback technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2965595/audi_s3_sportback.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 228,
+              "max": 228
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 228 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi S3 Sportback (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-sq2-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 220.5 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi SQ2 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi SQ2 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi SQ2 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi SQ2 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi SQ2 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 220.5,
+        "max": 220.5
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-sq2-2020-a",
+        "batch16r-audi-sq2-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi SQ2 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-sq2-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Audi SQ2 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/audi/20-sq2-quattro-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220.5,
+              "max": 220.5
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 220.5 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi SQ2 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-sq2-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Audi SQ2 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2796755/audi_sq2_quattro.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220.5,
+              "max": 220.5
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 220.5 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi SQ2 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-s3-sportback-8v-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 228 kW / 380 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi S3 Sportback (8V) (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (8V) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (8V) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (8V) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S3 Sportback (8V) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 228,
+        "max": 228
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-s3-sportback-8v-2020-a",
+        "batch16r-audi-s3-sportback-8v-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi S3 Sportback (8V) (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-s3-sportback-8v-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Audi S3 Sportback (8V) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/audi/16-s3-sportback-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 228,
+              "max": 228
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 228 kW and 380 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi S3 Sportback (8V) (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-s3-sportback-8v-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Audi S3 Sportback (8V) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2965595/audi_s3_sportback.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 228,
+              "max": 228
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 228 kW and 380 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi S3 Sportback (8V) (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-a4-2-0-tfsi-252-b9-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 185 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 185,
+        "max": 185
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-a4-2-0-tfsi-252-b9-2017-a",
+        "batch16r-audi-a4-2-0-tfsi-252-b9-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-a4-2-0-tfsi-252-b9-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Audi A4 2.0 TFSI 252 (B9) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/audi/16-a4-2-0-tfsi-252-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 185 kW and 370 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-a4-2-0-tfsi-252-b9-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Audi A4 2.0 TFSI 252 (B9) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2601275/audi_a4_2_0_tfsi_252_quattro.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 185,
+              "max": 185
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 185 kW and 370 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A4 2.0 TFSI 252 (B9) (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-q3-35-tfsi-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 1.5 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi Q3 35 TFSI (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Audi Q3 35 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Audi Q3 35 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Audi Q3 35 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Audi Q3 35 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-q3-35-tfsi-2018-a",
+        "batch16r-audi-q3-35-tfsi-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi Q3 35 TFSI (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-q3-35-tfsi-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Audi Q3 35 TFSI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/audi/18-q3-35-tfsi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi Q3 35 TFSI (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-q3-35-tfsi-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Audi Q3 35 TFSI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2796770/audi_q3_35_tfsi.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi Q3 35 TFSI (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-2008-1-2-puretech-100-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.2 L Inline-3 turbocharged 74 kW / 205 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-2008-1-2-puretech-100-2020-a",
+        "batch16r-peugeot-2008-1-2-puretech-100-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-2008-1-2-puretech-100-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.2 PureTech 100 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-2-puretech-100-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 74 kW and 205 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-2008-1-2-puretech-100-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.2 PureTech 100 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2917070/peugeot_2008_1_2_puretech_100.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 74 kW and 205 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.2 PureTech 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-2008-1-5-bluehdi-100-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.5 L Inline-4 turbocharged 75 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75,
+        "max": 75
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-2008-1-5-bluehdi-100-2020-a",
+        "batch16r-peugeot-2008-1-5-bluehdi-100-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-2008-1-5-bluehdi-100-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.5 BlueHDi 100 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-5-bluehdi-100-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 75,
+              "max": 75
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 75 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-2008-1-5-bluehdi-100-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.5 BlueHDi 100 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2917130/peugeot_2008_1_5_bluehdi_100.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 75,
+              "max": 75
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 75 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.5 BlueHDi 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-508-1-5-bluehdi-130-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.5 L Inline-4 turbocharged 95.5 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95.5,
+        "max": 95.5
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-508-1-5-bluehdi-130-2018-a",
+        "batch16r-peugeot-508-1-5-bluehdi-130-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-508-1-5-bluehdi-130-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Peugeot 508 1.5 BlueHDi 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/peugeot/18-508-1-5-bluehdi-130-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 95.5 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-508-1-5-bluehdi-130-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Peugeot 508 1.5 BlueHDi 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2741135/peugeot_508_1_5_bluehdi_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 95.5 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 508 1.5 BlueHDi 130 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-2008-1-2-puretech-155-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.2 L Inline-3 turbocharged 114 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 114,
+        "max": 114
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-2008-1-2-puretech-155-2020-a",
+        "batch16r-peugeot-2008-1-2-puretech-155-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-2008-1-2-puretech-155-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.2 PureTech 155 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-2-puretech-155-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 114,
+              "max": 114
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 114 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-2008-1-2-puretech-155-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.2 PureTech 155 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2917115/peugeot_2008_gt_1_2_puretech_155_eat8.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 114,
+              "max": 114
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 114 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.2 PureTech 155 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-5008-puretech-130-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.2 L Inline-3 turbocharged 95.5 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 5008 PureTech 130 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 5008 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 5008 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 5008 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 5008 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95.5,
+        "max": 95.5
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-5008-puretech-130-2020-a",
+        "batch16r-peugeot-5008-puretech-130-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 5008 PureTech 130 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-5008-puretech-130-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 5008 PureTech 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/peugeot/20-5008-puretech-130-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 95.5 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 5008 PureTech 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-5008-puretech-130-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 5008 PureTech 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2741780/peugeot_5008_1_2_puretech_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 95.5 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 5008 PureTech 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-308-thp-205-s-s-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.6 L Inline-4 turbocharged 151 kW / 285 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 308 THP 205 S/S (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 308 THP 205 S/S (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 308 THP 205 S/S (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 308 THP 205 S/S (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 308 THP 205 S/S (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 151,
+        "max": 151
+      },
+      "torqueNm": {
+        "min": 285,
+        "max": 285
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-308-thp-205-s-s-2016-a",
+        "batch16r-peugeot-308-thp-205-s-s-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 308 THP 205 S/S (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-308-thp-205-s-s-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 308 THP 205 S/S technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/peugeot/16-308-thp-205-stop-start-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 151,
+              "max": 151
+            },
+            "performance.torqueNm": {
+              "min": 285,
+              "max": 285
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 151 kW and 285 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 308 THP 205 S/S (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-308-thp-205-s-s-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 308 THP 205 S/S technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2624315/peugeot_308_gt_1_6_thp_205.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 151,
+              "max": 151
+            },
+            "performance.torqueNm": {
+              "min": 285,
+              "max": 285
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 151 kW and 285 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 308 THP 205 S/S (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-3008-bluehdi-150-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 2.0 L Inline-4 turbocharged 110 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-3008-bluehdi-150-2016-a",
+        "batch16r-peugeot-3008-bluehdi-150-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-3008-bluehdi-150-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 3008 BlueHDi 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/peugeot/16-3008-bluehdi-150-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 370 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-3008-bluehdi-150-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 3008 BlueHDi 150 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2627165/peugeot_3008_2_0_bluehdi_150.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 370 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 BlueHDi 150 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-3008-thp-165-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.6 L Inline-4 turbocharged 121 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 3008 THP 165 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 THP 165 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 THP 165 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 THP 165 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 THP 165 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 121,
+        "max": 121
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-3008-thp-165-2016-a",
+        "batch16r-peugeot-3008-thp-165-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 3008 THP 165 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-3008-thp-165-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 3008 THP 165 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/peugeot/16-3008-thp-165-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 121,
+              "max": 121
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 121 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 THP 165 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-3008-thp-165-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 3008 THP 165 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2627090/peugeot_3008_1_6_thp_165_eat6.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 121,
+              "max": 121
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 121 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 THP 165 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-megane-tce-140-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.3 L Inline-4 turbocharged 103 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Megane TCe 140 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Megane TCe 140 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Megane TCe 140 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Megane TCe 140 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Megane TCe 140 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-megane-tce-140-2020-a",
+        "batch16r-renault-megane-tce-140-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Megane TCe 140 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-megane-tce-140-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Megane TCe 140 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/renault/20-megane-tce-140-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane TCe 140 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-megane-tce-140-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Megane TCe 140 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2985485/renault_megane_hatch_tce_140.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane TCe 140 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-captur-tce-130-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.3 L Inline-4 turbocharged 96 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Captur TCe 130 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-captur-tce-130-2020-a",
+        "batch16r-renault-captur-tce-130-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Captur TCe 130 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-captur-tce-130-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur TCe 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/renault/20-captur-tce-130-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur TCe 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-captur-tce-130-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur TCe 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2987615/renault_captur_tce_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur TCe 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-megane-grandtour-tce-115-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.0 L Inline-3 turbocharged 84 kW / 200 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Megane Grandtour TCe 115 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Renault Megane Grandtour TCe 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Renault Megane Grandtour TCe 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Renault Megane Grandtour TCe 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Renault Megane Grandtour TCe 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84,
+        "max": 84
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-megane-grandtour-tce-115-2020-a",
+        "batch16r-renault-megane-grandtour-tce-115-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Megane Grandtour TCe 115 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-megane-grandtour-tce-115-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Megane Grandtour TCe 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/renault/20-megane-grandtour-tce-115-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84,
+              "max": 84
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 84 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane Grandtour TCe 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-megane-grandtour-tce-115-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Megane Grandtour TCe 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2985560/renault_megane_estate_grandtour_tce_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84,
+              "max": 84
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 84 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane Grandtour TCe 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-captur-dci-115-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.5 L Inline-4 turbocharged 85 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Captur dCi 115 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-captur-dci-115-2020-a",
+        "batch16r-renault-captur-dci-115-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Captur dCi 115 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-captur-dci-115-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur dCi 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/renault/20-captur-dci-115-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 85 kW and 260 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur dCi 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-captur-dci-115-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur dCi 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2987675/renault_captur_blue_dci_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 85 kW and 260 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur dCi 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-scenic-energy-tce-115-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.2 L Inline-4 turbocharged 85 kW / 190 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 190,
+        "max": 190
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-scenic-energy-tce-115-2018-a",
+        "batch16r-renault-scenic-energy-tce-115-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-scenic-energy-tce-115-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Renault Scenic ENERGY TCe 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/renault/16-scenic-energy-tce-115-mpv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 190,
+              "max": 190
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 85 kW and 190 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-scenic-energy-tce-115-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Renault Scenic ENERGY TCe 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2985920/renault_scenic_energy_tce_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 190,
+              "max": 190
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 85 kW and 190 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Scenic ENERGY TCe 115 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-captur-dci-95-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.5 L Inline-4 turbocharged 70 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Captur dCi 95 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Captur dCi 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-captur-dci-95-2020-a",
+        "batch16r-renault-captur-dci-95-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Captur dCi 95 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-captur-dci-95-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur dCi 95 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/renault/20-captur-dci-95-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 70 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur dCi 95 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-captur-dci-95-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur dCi 95 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2987660/renault_captur_blue_dci_95.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 70 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur dCi 95 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-scenic-energy-tce-130-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.2 L Inline-4 turbocharged 96 kW / 205 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-scenic-energy-tce-130-2016-a",
+        "batch16r-renault-scenic-energy-tce-130-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-scenic-energy-tce-130-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Scenic ENERGY TCe 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/renault/16-scenic-energy-tce-130-mpv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 205 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-scenic-energy-tce-130-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Scenic ENERGY TCe 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2985710/renault_scenic_energy_tce_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 205 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Scenic ENERGY TCe 130 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-megane-grandtour-energy-dci-110-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.5 L Inline-4 turbocharged 81 kW / 260 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.5 L; Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 260,
+        "max": 260
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-megane-grandtour-energy-dci-110-2016-a",
+        "batch16r-renault-megane-grandtour-energy-dci-110-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-megane-grandtour-energy-dci-110-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Megane Grandtour ENERGY dCi 110 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/renault/16-megane-grandtour-energy-dci-110-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 81 kW and 260 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-megane-grandtour-energy-dci-110-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Megane Grandtour ENERGY dCi 110 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2984675/renault_megane_estate_grandtour_energy_dci_110_eco2.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 260,
+              "max": 260
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 81 kW and 260 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane Grandtour ENERGY dCi 110 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-talisman-energy-dci-130-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.6 L Inline-4 turbocharged 96 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Talisman Energy dCi 130 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Energy dCi 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Energy dCi 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Energy dCi 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Energy dCi 130 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-talisman-energy-dci-130-2016-a",
+        "batch16r-renault-talisman-energy-dci-130-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Talisman Energy dCi 130 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-talisman-energy-dci-130-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Talisman Energy dCi 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/renault/16-talisman-energy-dci-130-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 96 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Talisman Energy dCi 130 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-talisman-energy-dci-130-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Talisman Energy dCi 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2986520/renault_talisman_energy_dci_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 96 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Talisman Energy dCi 130 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i20-1-0-t-gdi-100-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.0 L Inline-3 turbocharged 73.5 kW / 172 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73.5,
+        "max": 73.5
+      },
+      "torqueNm": {
+        "min": 172,
+        "max": 172
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i20-1-0-t-gdi-100-2020-a",
+        "batch16r-hyundai-i20-1-0-t-gdi-100-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i20-1-0-t-gdi-100-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Hyundai i20 1.0 T-GDi 100 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/hyundai/20-i20-1-0-t-gdi-100-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73.5,
+              "max": 73.5
+            },
+            "performance.torqueNm": {
+              "min": 172,
+              "max": 172
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 73.5 kW and 172 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i20-1-0-t-gdi-100-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Hyundai i20 1.0 T-GDi 100 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2972960/hyundai_i20_1_0_t-gdi_100.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73.5,
+              "max": 73.5
+            },
+            "performance.torqueNm": {
+              "min": 172,
+              "max": 172
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 73.5 kW and 172 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i20 1.0 T-GDi 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i20-1-0-t-gdi-120-gb-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.0 L Inline-3 turbocharged 88 kW / 171 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 171,
+        "max": 171
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i20-1-0-t-gdi-120-gb-2018-a",
+        "batch16r-hyundai-i20-1-0-t-gdi-120-gb-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i20-1-0-t-gdi-120-gb-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Hyundai i20 1.0 T-GDi 120 (GB) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/hyundai/18-i20-1-0-t-gdi-120-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 171,
+              "max": 171
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 88 kW and 171 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i20-1-0-t-gdi-120-gb-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Hyundai i20 1.0 T-GDi 120 (GB) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2453915/hyundai_i20_1_0_t-gdi_120.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 171,
+              "max": 171
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 88 kW and 171 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i20 1.0 T-GDi 120 (GB) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i30-fastback-n-performance-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 2.0 L Inline-4 turbocharged 202 kW / 378 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 Fastback N Performance (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Hyundai i30 Fastback N Performance (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Hyundai i30 Fastback N Performance (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Hyundai i30 Fastback N Performance (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Hyundai i30 Fastback N Performance (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 202,
+        "max": 202
+      },
+      "torqueNm": {
+        "min": 378,
+        "max": 378
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i30-fastback-n-performance-2020-a",
+        "batch16r-hyundai-i30-fastback-n-performance-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 Fastback N Performance (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i30-fastback-n-performance-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Hyundai i30 Fastback N Performance technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/hyundai/18-i30-fastback-n-performance",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 202,
+              "max": 202
+            },
+            "performance.torqueNm": {
+              "min": 378,
+              "max": 378
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 202 kW and 378 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 Fastback N Performance (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i30-fastback-n-performance-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Hyundai i30 Fastback N Performance technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2909540/hyundai_i30_fastback_n_performance.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 202,
+              "max": 202
+            },
+            "performance.torqueNm": {
+              "min": 378,
+              "max": 378
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 202 kW and 378 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 Fastback N Performance (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-kamiq-1-0-tsi-115-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 1.0 L Inline-3 turbocharged 84.5 kW / 200 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84.5,
+        "max": 84.5
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-kamiq-1-0-tsi-115-2020-a",
+        "batch16r-skoda-kamiq-1-0-tsi-115-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-kamiq-1-0-tsi-115-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Kamiq 1.0 TSI 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/skoda/19-kamiq-1-0-tsi-115-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 84.5 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-kamiq-1-0-tsi-115-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Kamiq 1.0 TSI 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/3152525/skoda_kamiq_1_0_tsi_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 84.5 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Kamiq 1.0 TSI 115 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i30-1-4-t-gdi-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.4 L Inline-4 turbocharged 103 kW / 242 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 1.4 T-GDI (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 1.4 T-GDI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 1.4 T-GDI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 1.4 T-GDI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Hyundai i30 1.4 T-GDI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 242,
+        "max": 242
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i30-1-4-t-gdi-2018-a",
+        "batch16r-hyundai-i30-1-4-t-gdi-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 1.4 T-GDI (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i30-1-4-t-gdi-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Hyundai i30 1.4 T-GDI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/hyundai/17-i30-1-4-t-gdi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 242,
+              "max": 242
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 242 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 1.4 T-GDI (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i30-1-4-t-gdi-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Hyundai i30 1.4 T-GDI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2767430/hyundai_i30_1_4_t-gdi_140.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 242,
+              "max": 242
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 242 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 1.4 T-GDI (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i20-1-2-mpi-75-gb-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.2 L Inline-4 naturallyAspirated 55 kW / 122 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 55,
+        "max": 55
+      },
+      "torqueNm": {
+        "min": 122,
+        "max": 122
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i20-1-2-mpi-75-gb-2018-a",
+        "batch16r-hyundai-i20-1-2-mpi-75-gb-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i20-1-2-mpi-75-gb-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Hyundai i20 1.2 MPi 75 (GB) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/hyundai/18-i20-1-2-mpi-75-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 55,
+              "max": 55
+            },
+            "performance.torqueNm": {
+              "min": 122,
+              "max": 122
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 55 kW and 122 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i20-1-2-mpi-75-gb-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Hyundai i20 1.2 MPi 75 (GB) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2727350/hyundai_i20_1_2_75.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 55,
+              "max": 55
+            },
+            "performance.torqueNm": {
+              "min": 122,
+              "max": 122
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 55 kW and 122 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i20 1.2 MPi 75 (GB) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-kamiq-1-0-tsi-95-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 1.0 L Inline-3 turbocharged 70 kW / 175 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 70,
+        "max": 70
+      },
+      "torqueNm": {
+        "min": 175,
+        "max": 175
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-kamiq-1-0-tsi-95-2020-a",
+        "batch16r-skoda-kamiq-1-0-tsi-95-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-kamiq-1-0-tsi-95-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Kamiq 1.0 TSI 95 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/skoda/19-kamiq-1-0-tsi-95-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 70 kW and 175 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-kamiq-1-0-tsi-95-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Skoda Kamiq 1.0 TSI 95 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/3152510/skoda_kamiq_1_0_tsi_95.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 70,
+              "max": 70
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 70 kW and 175 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Kamiq 1.0 TSI 95 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i30-1-5-t-gdi-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.5 L Inline-4 turbocharged 117 kW / 253 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 1.5 T-GDI (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Hyundai i30 1.5 T-GDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Hyundai i30 1.5 T-GDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Hyundai i30 1.5 T-GDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Hyundai i30 1.5 T-GDI (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 117,
+        "max": 117
+      },
+      "torqueNm": {
+        "min": 253,
+        "max": 253
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i30-1-5-t-gdi-2020-a",
+        "batch16r-hyundai-i30-1-5-t-gdi-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 1.5 T-GDI (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i30-1-5-t-gdi-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Hyundai i30 1.5 T-GDI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/hyundai/20-i30-1-5-t-gdi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 117,
+              "max": 117
+            },
+            "performance.torqueNm": {
+              "min": 253,
+              "max": 253
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 117 kW and 253 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 1.5 T-GDI (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i30-1-5-t-gdi-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Hyundai i30 1.5 T-GDI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2973050/hyundai_i30_1_5_t-gdi_mhev_48v_159.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 117,
+              "max": 117
+            },
+            "performance.torqueNm": {
+              "min": 253,
+              "max": 253
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 117 kW and 253 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 1.5 T-GDI (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-optima-2-0-t-gdi-jf-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 2.0 L Inline-4 turbocharged 180 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 180,
+        "max": 180
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-optima-2-0-t-gdi-jf-2018-a",
+        "batch16r-kia-optima-2-0-t-gdi-jf-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-optima-2-0-t-gdi-jf-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Optima 2.0 T-GDI (JF) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/kia/16-optima-2-0-t-gdi-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 180 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-optima-2-0-t-gdi-jf-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Optima 2.0 T-GDI (JF) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2454320/kia_optima_gt_2_0_t-gdi.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 180,
+              "max": 180
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 180 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Optima 2.0 T-GDI (JF) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-sportage-1-6-gdi-ql-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.6 L Inline-4 naturallyAspirated 97 kW / 161 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 97,
+        "max": 97
+      },
+      "torqueNm": {
+        "min": 161,
+        "max": 161
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-sportage-1-6-gdi-ql-2018-a",
+        "batch16r-kia-sportage-1-6-gdi-ql-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-sportage-1-6-gdi-ql-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Sportage 1.6 GDI (QL) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/kia/18-sportage-1-6-gdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 97,
+              "max": 97
+            },
+            "performance.torqueNm": {
+              "min": 161,
+              "max": 161
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 97 kW and 161 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-sportage-1-6-gdi-ql-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Sportage 1.6 GDI (QL) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2739515/kia_sportage_1_6_gdi_2wd.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 97,
+              "max": 97
+            },
+            "performance.torqueNm": {
+              "min": 161,
+              "max": 161
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 97 kW and 161 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 GDI (QL) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-ceed-1-4-t-gdi-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.4 L Inline-4 turbocharged 103 kW / 242 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Ceed 1.4 T-GDi (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Kia Ceed 1.4 T-GDi (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Kia Ceed 1.4 T-GDi (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Kia Ceed 1.4 T-GDi (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Kia Ceed 1.4 T-GDi (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 242,
+        "max": 242
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-ceed-1-4-t-gdi-2018-a",
+        "batch16r-kia-ceed-1-4-t-gdi-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Ceed 1.4 T-GDi (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-ceed-1-4-t-gdi-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Ceed 1.4 T-GDi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/kia/18-ceed-1-4-t-gdi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 242,
+              "max": 242
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 242 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Ceed 1.4 T-GDi (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-ceed-1-4-t-gdi-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Ceed 1.4 T-GDi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2739830/kia_ceed_1_4_t-gdi.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 242,
+              "max": 242
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 103 kW and 242 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Ceed 1.4 T-GDi (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-ceed-1-6-crdi-136-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.6 L Inline-4 turbocharged 100 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-ceed-1-6-crdi-136-2018-a",
+        "batch16r-kia-ceed-1-6-crdi-136-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-ceed-1-6-crdi-136-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Ceed 1.6 CRDi 136 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/kia/18-ceed-1-6-crdi-136-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 100 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-ceed-1-6-crdi-136-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Ceed 1.6 CRDi 136 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2739875/kia_ceed_1_6_crdi_136.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 100 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Ceed 1.6 CRDi 136 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-picanto-1-0-ja-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.0 L Inline-3 naturallyAspirated 49 kW / 96 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Picanto 1.0 (JA) (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Kia Picanto 1.0 (JA) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Kia Picanto 1.0 (JA) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Kia Picanto 1.0 (JA) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Kia Picanto 1.0 (JA) (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 49,
+        "max": 49
+      },
+      "torqueNm": {
+        "min": 96,
+        "max": 96
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-picanto-1-0-ja-2020-a",
+        "batch16r-kia-picanto-1-0-ja-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Picanto 1.0 (JA) (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-picanto-1-0-ja-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Kia Picanto 1.0 (JA) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/kia/20-picanto-1-0-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 49,
+              "max": 49
+            },
+            "performance.torqueNm": {
+              "min": 96,
+              "max": 96
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 49 kW and 96 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Picanto 1.0 (JA) (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-picanto-1-0-ja-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Kia Picanto 1.0 (JA) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2973590/kia_picanto_1_0.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 49,
+              "max": 49
+            },
+            "performance.torqueNm": {
+              "min": 96,
+              "max": 96
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 49 kW and 96 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Picanto 1.0 (JA) (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-sportage-1-6-t-gdi-48v-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.6 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-sportage-1-6-t-gdi-48v-2022-a",
+        "batch16r-kia-sportage-1-6-t-gdi-48v-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-sportage-1-6-t-gdi-48v-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Kia Sportage 1.6 T-GDi 48V technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/kia/22-sportage-1-6-t-gdi-48v-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-sportage-1-6-t-gdi-48v-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Kia Sportage 1.6 T-GDi 48V technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3083375/kia_sportage_1_6_t-gdi_150_48v_2wd.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 T-GDi 48V (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-sportage-1-6-crdi-48v-awd-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.6 L Inline-4 turbocharged 100 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 100,
+        "max": 100
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-sportage-1-6-crdi-48v-awd-2022-a",
+        "batch16r-kia-sportage-1-6-crdi-48v-awd-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-sportage-1-6-crdi-48v-awd-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Kia Sportage 1.6 CRDi 48V AWD technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/kia/22-sportage-1-6-crdi-48v-awd-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 100 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-sportage-1-6-crdi-48v-awd-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Kia Sportage 1.6 CRDi 48V AWD technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3083495/kia_sportage_1_6_crdi_48v_136_awd_dct.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 100,
+              "max": 100
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 100 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 CRDi 48V AWD (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-optima-sportswagon-2-0-jf-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 2.0 L Inline-4 naturallyAspirated 120 kW / 196 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 196,
+        "max": 196
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-optima-sportswagon-2-0-jf-2016-a",
+        "batch16r-kia-optima-sportswagon-2-0-jf-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-optima-sportswagon-2-0-jf-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Kia Optima Sportswagon 2.0 (JF) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/kia/16-optima-sportswagon-2-0-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 196,
+              "max": 196
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 120 kW and 196 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-optima-sportswagon-2-0-jf-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Kia Optima Sportswagon 2.0 (JF) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2454245/kia_optima_sportswagon_2_0_cvvl.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 196,
+              "max": 196
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 120 kW and 196 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Optima Sportswagon 2.0 (JF) (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-sportage-1-6-crdi-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.6 L Inline-4 turbocharged 84.5 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Sportage 1.6 CRDi (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 CRDi (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 84.5,
+        "max": 84.5
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-sportage-1-6-crdi-2022-a",
+        "batch16r-kia-sportage-1-6-crdi-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Sportage 1.6 CRDi (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-sportage-1-6-crdi-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Kia Sportage 1.6 CRDi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/kia/22-sportage-1-6-crdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 84.5 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 CRDi (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-sportage-1-6-crdi-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Kia Sportage 1.6 CRDi technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3083510/kia_sportage_1_6_crdi_115_2wd.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 84.5,
+              "max": 84.5
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 84.5 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 CRDi (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c5-x-puretech-130-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.2 L Inline-3 turbocharged 96 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C5 X PureTech 130 (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C5 X PureTech 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C5 X PureTech 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C5 X PureTech 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C5 X PureTech 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c5-x-puretech-130-2022-a",
+        "batch16r-citroen-c5-x-puretech-130-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C5 X PureTech 130 (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c5-x-puretech-130-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Citroen C5 X PureTech 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/citroen/22-c5-x-puretech-130-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C5 X PureTech 130 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c5-x-puretech-130-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Citroen C5 X PureTech 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3046490/citroen_c5_x_puretech_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C5 X PureTech 130 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c3-puretech-83-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.2 L Inline-3 naturallyAspirated 61 kW / 118 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C3 PureTech 83 (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 83 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 83 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 83 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 83 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 61,
+        "max": 61
+      },
+      "torqueNm": {
+        "min": 118,
+        "max": 118
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c3-puretech-83-2022-a",
+        "batch16r-citroen-c3-puretech-83-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C3 PureTech 83 (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c3-puretech-83-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Citroen C3 PureTech 83 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/citroen/20-c3-puretech-83-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 61,
+              "max": 61
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 61 kW and 118 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C3 PureTech 83 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c3-puretech-83-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Citroen C3 PureTech 83 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/2969285/citroen_c3_puretech_83.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 61,
+              "max": 61
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 61 kW and 118 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C3 PureTech 83 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c3-bluehdi-100-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.5 L Inline-4 turbocharged 75 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C3 BlueHDi 100 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C3 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C3 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C3 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C3 BlueHDi 100 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 75,
+        "max": 75
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c3-bluehdi-100-2020-a",
+        "batch16r-citroen-c3-bluehdi-100-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C3 BlueHDi 100 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c3-bluehdi-100-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Citroen C3 BlueHDi 100 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/citroen/20-c3-bluehdi-100-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 75,
+              "max": 75
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 75 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C3 BlueHDi 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c3-bluehdi-100-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Citroen C3 BlueHDi 100 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2969330/citroen_c3_bluehdi_100.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 75,
+              "max": 75
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 75 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C3 BlueHDi 100 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c5-aircross-bluehdi-130-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.5 L Inline-4 turbocharged 96 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c5-aircross-bluehdi-130-2022-a",
+        "batch16r-citroen-c5-aircross-bluehdi-130-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c5-aircross-bluehdi-130-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Citroen C5 Aircross BlueHDi 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/citroen/22-c5-aircross-bluehdi-130-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 96 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c5-aircross-bluehdi-130-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Citroen C5 Aircross BlueHDi 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/2766740/citroen_c5_aircross_bluehdi_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 96 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C5 Aircross BlueHDi 130 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c-elysee-puretech-82-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.2 L Inline-3 naturallyAspirated 60 kW / 118 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C-Elysee PureTech 82 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C-Elysee PureTech 82 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C-Elysee PureTech 82 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C-Elysee PureTech 82 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C-Elysee PureTech 82 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 60,
+        "max": 60
+      },
+      "torqueNm": {
+        "min": 118,
+        "max": 118
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c-elysee-puretech-82-2018-a",
+        "batch16r-citroen-c-elysee-puretech-82-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C-Elysee PureTech 82 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c-elysee-puretech-82-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen C-Elysee PureTech 82 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/citroen/16-c-elysee-puretech-82-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 60,
+              "max": 60
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 60 kW and 118 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C-Elysee PureTech 82 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c-elysee-puretech-82-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen C-Elysee PureTech 82 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2513420/citroen_c-elysee_puretech_82_live.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 60,
+              "max": 60
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 60 kW and 118 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C-Elysee PureTech 82 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c-elysee-bluehdi-100-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.6 L Inline-4 turbocharged 73 kW / 254 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 73,
+        "max": 73
+      },
+      "torqueNm": {
+        "min": 254,
+        "max": 254
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c-elysee-bluehdi-100-2018-a",
+        "batch16r-citroen-c-elysee-bluehdi-100-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c-elysee-bluehdi-100-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen C-Elysee BlueHDi 100 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/citroen/16-c-elysee-bluehdi-100-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73,
+              "max": 73
+            },
+            "performance.torqueNm": {
+              "min": 254,
+              "max": 254
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 73 kW and 254 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c-elysee-bluehdi-100-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen C-Elysee BlueHDi 100 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2513435/citroen_c-elysee_bluehdi_100_live.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 73,
+              "max": 73
+            },
+            "performance.torqueNm": {
+              "min": 254,
+              "max": 254
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 73 kW and 254 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C-Elysee BlueHDi 100 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c3-puretech-82-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.2 L Inline-3 naturallyAspirated 60 kW / 118 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C3 PureTech 82 (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 82 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 82 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 82 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C3 PureTech 82 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 60,
+        "max": 60
+      },
+      "torqueNm": {
+        "min": 118,
+        "max": 118
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c3-puretech-82-2017-a",
+        "batch16r-citroen-c3-puretech-82-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C3 PureTech 82 (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c3-puretech-82-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Citroen C3 PureTech 82 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/citroen/17-c3-puretech-82-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 60,
+              "max": 60
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 60 kW and 118 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C3 PureTech 82 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c3-puretech-82-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Citroen C3 PureTech 82 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2513000/citroen_c3_puretech_82_live.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 60,
+              "max": 60
+            },
+            "performance.torqueNm": {
+              "min": 118,
+              "max": 118
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 60 kW and 118 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2017 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C3 PureTech 82 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c4-spacetourer-puretech-130-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.2 L Inline-3 turbocharged 95.5 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95.5,
+        "max": 95.5
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c4-spacetourer-puretech-130-2018-a",
+        "batch16r-citroen-c4-spacetourer-puretech-130-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c4-spacetourer-puretech-130-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen C4 SpaceTourer PureTech 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/citroen/18-c4-spacetourer-puretech-130-mpv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 95.5 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c4-spacetourer-puretech-130-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen C4 SpaceTourer PureTech 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2741420/citroen_c4_spacetourer_1_2_puretech_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 95.5 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C4 SpaceTourer PureTech 130 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-c4-spacetourer-bluehdi-130-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 1.5 L Inline-4 turbocharged 95.5 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 95.5,
+        "max": 95.5
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-c4-spacetourer-bluehdi-130-2020-a",
+        "batch16r-citroen-c4-spacetourer-bluehdi-130-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-c4-spacetourer-bluehdi-130-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Citroen C4 SpaceTourer BlueHDi 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/citroen/18-c4-spacetourer-bluehdi-130-mpv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 95.5 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-c4-spacetourer-bluehdi-130-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Citroen C4 SpaceTourer BlueHDi 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2741465/citroen_c4_spacetourer_1_5_bluehdi_130.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 95.5,
+              "max": 95.5
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 95.5 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen C4 SpaceTourer BlueHDi 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-talisman-grandtour-energy-dci-160-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.6 L Inline-4 twinTurbocharged 118 kW / 380 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 118,
+        "max": 118
+      },
+      "torqueNm": {
+        "min": 380,
+        "max": 380
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-talisman-grandtour-energy-dci-160-2018-a",
+        "batch16r-renault-talisman-grandtour-energy-dci-160-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-talisman-grandtour-energy-dci-160-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Renault Talisman Grandtour Energy dCi 160 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/renault/16-talisman-grandtour-energy-dci-160-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 118,
+              "max": 118
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, twinTurbocharged, commonRail; 118 kW and 380 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-talisman-grandtour-energy-dci-160-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Renault Talisman Grandtour Energy dCi 160 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2986655/renault_talisman_estate_grandtour_energy_dci_160_edc.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 118,
+              "max": 118
+            },
+            "performance.torqueNm": {
+              "min": 380,
+              "max": 380
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, twinTurbocharged, commonRail; 118 kW and 380 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Talisman Grandtour Energy dCi 160 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-megane-grandtour-energy-tce-205-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.6 L Inline-4 turbocharged 151 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 151,
+        "max": 151
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-megane-grandtour-energy-tce-205-2016-a",
+        "batch16r-renault-megane-grandtour-energy-tce-205-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-megane-grandtour-energy-tce-205-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Megane Grandtour ENERGY TCe 205 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/renault/16-megane-grandtour-energy-tce-205-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 151,
+              "max": 151
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 151 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-megane-grandtour-energy-tce-205-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Megane Grandtour ENERGY TCe 205 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2984645/renault_megane_estate_grandtour_energy_tce_205_edc.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 151,
+              "max": 151
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 151 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Megane Grandtour ENERGY TCe 205 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-talisman-grandtour-energy-tce-150-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.6 L Inline-4 turbocharged 110 kW / 220 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-talisman-grandtour-energy-tce-150-2016-a",
+        "batch16r-renault-talisman-grandtour-energy-tce-150-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-talisman-grandtour-energy-tce-150-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Talisman Grandtour Energy TCe 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/renault/16-talisman-grandtour-energy-tce-150-estate",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 220 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-talisman-grandtour-energy-tce-150-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Renault Talisman Grandtour Energy TCe 150 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2986565/renault_talisman_estate_grandtour_energy_tce_150_edc.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 110 kW and 220 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Talisman Grandtour Energy TCe 150 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-ibiza-1-0-mpi-80-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.0 L Inline-3 naturallyAspirated 59 kW / 93 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 59,
+        "max": 59
+      },
+      "torqueNm": {
+        "min": 93,
+        "max": 93
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-ibiza-1-0-mpi-80-2021-a",
+        "batch16r-seat-ibiza-1-0-mpi-80-2021-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-ibiza-1-0-mpi-80-2021-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 SEAT Ibiza 1.0 MPI 80 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/seat/21-ibiza-1-0-mpi-80-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 59,
+              "max": 59
+            },
+            "performance.torqueNm": {
+              "min": 93,
+              "max": 93
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 59 kW and 93 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2021 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-ibiza-1-0-mpi-80-2021-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 SEAT Ibiza 1.0 MPI 80 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/3101810/seat_ibiza_1_0_mpi_80.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 59,
+              "max": 59
+            },
+            "performance.torqueNm": {
+              "min": 93,
+              "max": 93
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 59 kW and 93 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2021 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.0 MPI 80 (Europe market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-a1-sportback-30-tfsi-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 1.0 L Inline-3 turbocharged 85 kW / 200 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A1 Sportback 30 TFSI (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Audi A1 Sportback 30 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Audi A1 Sportback 30 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Audi A1 Sportback 30 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Audi A1 Sportback 30 TFSI (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-a1-sportback-30-tfsi-2018-a",
+        "batch16r-audi-a1-sportback-30-tfsi-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A1 Sportback 30 TFSI (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-a1-sportback-30-tfsi-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Audi A1 Sportback 30 TFSI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/audi/18-a1-sportback-30-tfsi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 85 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A1 Sportback 30 TFSI (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-a1-sportback-30-tfsi-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Audi A1 Sportback 30 TFSI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2795750/audi_a1_sportback_30_tfsi.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 85 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A1 Sportback 30 TFSI (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-2008-1-2-puretech-130-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.2 L Inline-3 turbocharged 96 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-2008-1-2-puretech-130-2020-a",
+        "batch16r-peugeot-2008-1-2-puretech-130-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-2008-1-2-puretech-130-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.2 PureTech 130 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-2-puretech-130-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-2008-1-2-puretech-130-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Peugeot 2008 1.2 PureTech 130 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2917100/peugeot_2008_1_2_puretech_130_eat8.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 96 kW and 230 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 2008 1.2 PureTech 130 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-hyundai-i30-1-0-t-gdi-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Hyundai 1.0 L Inline-3 turbocharged 88 kW / 172 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Hyundai",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Hyundai i30 1.0 T-GDI (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i30 1.0 T-GDI (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i30 1.0 T-GDI (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i30 1.0 T-GDI (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Hyundai i30 1.0 T-GDI (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 172,
+        "max": 172
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-hyundai-i30-1-0-t-gdi-2022-a",
+        "batch16r-hyundai-i30-1-0-t-gdi-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Hyundai i30 1.0 T-GDI (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-hyundai-i30-1-0-t-gdi-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Hyundai i30 1.0 T-GDI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/hyundai/20-i30-1-0-t-gdi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 172,
+              "max": 172
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 88 kW and 172 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 1.0 T-GDI (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-hyundai-i30-1-0-t-gdi-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Hyundai i30 1.0 T-GDI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2022,
+          "url": "https://www.automobile-catalog.com/car/2022/3124310/hyundai_i30_1_0_t-gdi_120.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 172,
+              "max": 172
+            }
+          },
+          "pageNotes": [
+            "1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 88 kW and 172 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2022 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Hyundai i30 1.0 T-GDI (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-kia-sportage-1-6-t-gdi-ql-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Kia 1.6 L Inline-4 turbocharged 130 kW / 265 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Kia",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-kia-sportage-1-6-t-gdi-ql-2018-a",
+        "batch16r-kia-sportage-1-6-t-gdi-ql-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-kia-sportage-1-6-t-gdi-ql-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Sportage 1.6 T-GDI (QL) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/kia/18-sportage-1-6-t-gdi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 130 kW and 265 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-kia-sportage-1-6-t-gdi-ql-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Kia Sportage 1.6 T-GDI (QL) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2739530/kia_sportage_1_6_t-gdi_2wd.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 130 kW and 265 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Kia Sportage 1.6 T-GDI (QL) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-3008-bluehdi-120-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.6 L Inline-4 turbocharged 88 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.6 L; Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-3008-bluehdi-120-2016-a",
+        "batch16r-peugeot-3008-bluehdi-120-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-3008-bluehdi-120-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 3008 BlueHDi 120 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/peugeot/16-3008-bluehdi-120-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 88 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-3008-bluehdi-120-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Peugeot 3008 BlueHDi 120 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2626955/peugeot_3008_1_6_bluehdi_120_eat6.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, SOHC, 8 valves and 1 total camshafts; diesel, turbocharged, commonRail; 88 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2016 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 BlueHDi 120 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-captur-tce-155-2020",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.3 L Inline-4 turbocharged 113 kW / 270 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2020",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Captur TCe 155 (Europe market, 2020 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Renault Captur TCe 155 (Europe market, 2020 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 113,
+        "max": 113
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-captur-tce-155-2020-a",
+        "batch16r-renault-captur-tce-155-2020-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Captur TCe 155 (Europe market, 2020 specification)"
+        ],
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-captur-tce-155-2020-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur TCe 155 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2020,
+          "url": "https://www.encycarpedia.com/renault/20-captur-tce-155-suv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 113,
+              "max": 113
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 113 kW and 270 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur TCe 155 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-captur-tce-155-2020-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2020 Renault Captur TCe 155 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2020,
+          "url": "https://www.automobile-catalog.com/car/2020/2987645/renault_captur_tce_155_edc.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 113,
+              "max": 113
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 113 kW and 270 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2020 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Captur TCe 155 (Europe market, 2020 specification)"
+            ],
+            "years": {
+              "from": 2020,
+              "to": 2020
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-citroen-grand-c4-spacetourer-bluehdi-160-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Citroen 2.0 L Inline-4 turbocharged 120 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Citroen",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-citroen-grand-c4-spacetourer-bluehdi-160-2018-a",
+        "batch16r-citroen-grand-c4-spacetourer-bluehdi-160-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-citroen-grand-c4-spacetourer-bluehdi-160-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen Grand C4 SpaceTourer BlueHDi 160 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/citroen/18-grand-c4-spacetourer-bluehdi-160-mpv",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; production interval; Performance; engine and fuel section. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-citroen-grand-c4-spacetourer-bluehdi-160-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Citroen Grand C4 SpaceTourer BlueHDi 160 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2741570/citroen_grand_c4_spacetourer_2_0_bluehdi_160_eat8.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2018 Europe exact application and calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Citroen Grand C4 SpaceTourer BlueHDi 160 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-mercedes-amg-a45s-4matic-2019",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.0 L Inline-4 turbocharged 310 kW / 500 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2019-2022",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 310,
+        "max": 310
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-mercedes-amg-a45s-4matic-2019-a",
+        "batch16r-mercedes-amg-a45s-4matic-2019-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-mercedes-amg-a45s-4matic-2019-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019-2022 Mercedes-Benz AMG A 45 S 4MATIC+ (W177) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/mercedes/19-amg-a-45s-4matic-hatchback",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 310,
+              "max": 310
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 310 kW and 500 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact AMG A 45 S 4MATIC+ (W177) Europe-market calibration and the overlapping 2019-2022 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-mercedes-amg-a45s-4matic-2019-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019-2022 Mercedes-Benz AMG A 45 S 4MATIC+ (W177) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/car/2019/2908145/mercedes-amg_a_45_s_4matic.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 310,
+              "max": 310
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 310 kW and 500 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact AMG A 45 S 4MATIC+ (W177) Europe-market calibration and the overlapping 2019-2022 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz AMG A 45 S 4MATIC+ (W177) (Europe market, 2019-2022 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-megane-rs-trophy-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.8 L Inline-4 turbocharged 221 kW / 420 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2021-2022",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 221,
+        "max": 221
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-megane-rs-trophy-2021-a",
+        "batch16r-renault-megane-rs-trophy-2021-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-megane-rs-trophy-2021-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021-2022 Renault Mégane R.S. Trophy EDC technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/renault/21-megane-r-s-trophy-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 221,
+              "max": 221
+            },
+            "performance.torqueNm": {
+              "min": 420,
+              "max": 420
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 221 kW and 420 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Mégane R.S. Trophy EDC Europe-market calibration and the overlapping 2021-2022 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-megane-rs-trophy-2021-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021-2022 Renault Mégane R.S. Trophy EDC technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/2985665/renault_megane_rs_300_trophy_edc_renault_sport.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 221,
+              "max": 221
+            },
+            "performance.torqueNm": {
+              "min": 420,
+              "max": 420
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 221 kW and 420 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Mégane R.S. Trophy EDC Europe-market calibration and the overlapping 2021-2022 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Mégane R.S. Trophy EDC (Europe market, 2021-2022 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-mercedes-benz-a45-amg-2013",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.0 L Inline-4 turbocharged 265 kW / 450 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 265,
+        "max": 265
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-mercedes-benz-a45-amg-2013-a",
+        "batch16r-mercedes-benz-a45-amg-2013-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-mercedes-benz-a45-amg-2013-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Mercedes-Benz A 45 AMG 4MATIC technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2013,
+          "url": "https://www.encycarpedia.com/mercedes/13-a-45-amg-4matic-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 265,
+              "max": 265
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 265 kW and 450 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact A 45 AMG 4MATIC Europe-market calibration and the overlapping 2013 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-mercedes-benz-a45-amg-2013-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Mercedes-Benz A 45 AMG 4MATIC technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2013,
+          "url": "https://www.automobile-catalog.com/car/2013/1819880/mercedes-benz_a_45_amg.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 265,
+              "max": 265
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 265 kW and 450 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact A 45 AMG 4MATIC Europe-market calibration and the overlapping 2013 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 45 AMG 4MATIC (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-s1-quattro-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 170 kW / 370 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi S1 quattro (8X) (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S1 quattro (8X) (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S1 quattro (8X) (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S1 quattro (8X) (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi S1 quattro (8X) (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 170,
+        "max": 170
+      },
+      "torqueNm": {
+        "min": 370,
+        "max": 370
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-s1-quattro-2014-a",
+        "batch16r-audi-s1-quattro-2014-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi S1 quattro (8X) (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-s1-quattro-2014-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Audi S1 quattro (8X) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/audi/14-s1-quattro-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 170 kW and 370 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact S1 quattro (8X) Europe-market calibration and the overlapping 2014 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi S1 quattro (8X) (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-s1-quattro-2014-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Audi S1 quattro (8X) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2042480/audi_s1.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 170,
+              "max": 170
+            },
+            "performance.torqueNm": {
+              "min": 370,
+              "max": 370
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 170 kW and 370 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact S1 quattro (8X) Europe-market calibration and the overlapping 2014 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi S1 quattro (8X) (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-bmw-m235i-xdrive-coupe-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 turbocharged 240 kW / 450 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M235i xDrive Coupe (Europe market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M235i xDrive Coupe (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M235i xDrive Coupe (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M235i xDrive Coupe (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M235i xDrive Coupe (Europe market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 240,
+        "max": 240
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-bmw-m235i-xdrive-coupe-2014-a",
+        "batch16r-bmw-m235i-xdrive-coupe-2014-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M235i xDrive Coupe (Europe market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-bmw-m235i-xdrive-coupe-2014-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 BMW M235i xDrive Coupe technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/bmw/14-m235i-xdrive-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 240,
+              "max": 240
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 240 kW and 450 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact M235i xDrive Coupe Europe-market calibration and the overlapping 2014 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M235i xDrive Coupe (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-bmw-m235i-xdrive-coupe-2014-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 BMW M235i xDrive Coupe technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2083955/bmw_m235i_xdrive_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 240,
+              "max": 240
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 240 kW and 450 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact M235i xDrive Coupe Europe-market calibration and the overlapping 2014 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M235i xDrive Coupe (Europe market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-bmw-m140i-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 turbocharged 250 kW / 500 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M140i 5-door StepTronic (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M140i 5-door StepTronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M140i 5-door StepTronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M140i 5-door StepTronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M140i 5-door StepTronic (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-bmw-m140i-2016-a",
+        "batch16r-bmw-m140i-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M140i 5-door StepTronic (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-bmw-m140i-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 BMW M140i 5-door StepTronic technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/bmw/16-m140i-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 250 kW and 500 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact M140i 5-door StepTronic Europe-market calibration and the overlapping 2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M140i 5-door StepTronic (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-bmw-m140i-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 BMW M140i 5-door StepTronic technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2407760/bmw_m140i_5-door_steptronic.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 250 kW and 500 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact M140i 5-door StepTronic Europe-market calibration and the overlapping 2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M140i 5-door StepTronic (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-rs3-sportback-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.5 L Inline-5 turbocharged 270 kW / 465 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2015-2016",
+    "displacement": "2.5 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 270,
+        "max": 270
+      },
+      "torqueNm": {
+        "min": 465,
+        "max": 465
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-rs3-sportback-2015-a",
+        "batch16r-audi-rs3-sportback-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-rs3-sportback-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2016 Audi RS3 Sportback (8V) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/audi/15-rs3-sportback-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 465,
+              "max": 465
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, directInjection; 270 kW and 465 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact RS3 Sportback (8V) Europe-market calibration and the overlapping 2015-2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-rs3-sportback-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2016 Audi RS3 Sportback (8V) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2170850/audi_rs3_sportback.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 465,
+              "max": 465
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, directInjection; 270 kW and 465 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact RS3 Sportback (8V) Europe-market calibration and the overlapping 2015-2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi RS3 Sportback (8V) (Europe market, 2015-2016 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-peugeot-208-gti-peugeot-sport-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.6 L Inline-4 turbocharged 153 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2015-2018",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 153,
+        "max": 153
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-peugeot-208-gti-peugeot-sport-2015-a",
+        "batch16r-peugeot-208-gti-peugeot-sport-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-peugeot-208-gti-peugeot-sport-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2018 Peugeot 208 GTi by Peugeot Sport technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/peugeot/15-208-gti-by-peugeot-sport-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 153,
+              "max": 153
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 153 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact 208 GTi by Peugeot Sport Europe-market calibration and the overlapping 2015-2018 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-peugeot-208-gti-peugeot-sport-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2018 Peugeot 208 GTi by Peugeot Sport technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2623865/peugeot_208_gti_by_peugeot_sport.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 153,
+              "max": 153
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 153 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact 208 GTi by Peugeot Sport Europe-market calibration and the overlapping 2015-2018 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 208 GTi by Peugeot Sport (Europe market, 2015-2018 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-renault-clio-rs-200-2013",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 1.6 L Inline-4 turbocharged 147 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Clio RS 200 EDC (Europe market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Clio RS 200 EDC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Clio RS 200 EDC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Clio RS 200 EDC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Renault Clio RS 200 EDC (Europe market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-renault-clio-rs-200-2013-a",
+        "batch16r-renault-clio-rs-200-2013-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Clio RS 200 EDC (Europe market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-renault-clio-rs-200-2013-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Renault Clio RS 200 EDC technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2013,
+          "url": "https://www.encycarpedia.com/renault/13-clio-rs-200-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 147,
+              "max": 147
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 147 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Clio RS 200 EDC Europe-market calibration and the overlapping 2013 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Clio RS 200 EDC (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-renault-clio-rs-200-2013-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Renault Clio RS 200 EDC technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2013,
+          "url": "https://www.automobile-catalog.com/car/2013/2983310/renault_clio_rs_200_edc_renault_sport.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 147,
+              "max": 147
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 147 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Clio RS 200 EDC Europe-market calibration and the overlapping 2013 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Clio RS 200 EDC (Europe market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-opel-astra-opc-2012",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Opel 2.0 L Inline-4 turbocharged 206 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Opel",
+    "regionKey": "europe",
+    "years": "2012-2015",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Opel Astra OPC (Europe market, 2012-2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Opel Astra OPC (Europe market, 2012-2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Opel Astra OPC (Europe market, 2012-2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Opel Astra OPC (Europe market, 2012-2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Opel Astra OPC (Europe market, 2012-2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 206,
+        "max": 206
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-opel-astra-opc-2012-a",
+        "batch16r-opel-astra-opc-2012-b"
+      ],
+      "scope": {
+        "applications": [
+          "Opel Astra OPC (Europe market, 2012-2015 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-opel-astra-opc-2012-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012-2015 Opel Astra OPC technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2012,
+          "url": "https://www.encycarpedia.com/opel/12-astra-opc-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 206,
+              "max": 206
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 206 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Astra OPC Europe-market calibration and the overlapping 2012-2015 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Opel Astra OPC (Europe market, 2012-2015 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-opel-astra-opc-2012-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012-2015 Opel Astra OPC technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2012,
+          "url": "https://www.automobile-catalog.com/car/2012/2532365/opel_astra_opc.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 206,
+              "max": 206
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 206 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Astra OPC Europe-market calibration and the overlapping 2012-2015 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Opel Astra OPC (Europe market, 2012-2015 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-bmw-m2-coupe-f87-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 turbocharged 272 kW / 465 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M2 Coupe (F87) (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M2 Coupe (F87) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M2 Coupe (F87) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M2 Coupe (F87) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW M2 Coupe (F87) (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 272,
+        "max": 272
+      },
+      "torqueNm": {
+        "min": 465,
+        "max": 465
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-bmw-m2-coupe-f87-2016-a",
+        "batch16r-bmw-m2-coupe-f87-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M2 Coupe (F87) (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-bmw-m2-coupe-f87-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 BMW M2 Coupe (F87) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/bmw/16-m2-coupe-f87",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 272,
+              "max": 272
+            },
+            "performance.torqueNm": {
+              "min": 465,
+              "max": 465
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 272 kW and 465 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact M2 Coupe (F87) Europe-market calibration and the overlapping 2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M2 Coupe (F87) (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-bmw-m2-coupe-f87-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 BMW M2 Coupe (F87) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2229470/bmw_m2_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 272,
+              "max": 272
+            },
+            "performance.torqueNm": {
+              "min": 465,
+              "max": 465
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 272 kW and 465 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact M2 Coupe (F87) Europe-market calibration and the overlapping 2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M2 Coupe (F87) (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-audi-tt-rs-coupe-quattro-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.5 L Inline-5 turbocharged 294 kW / 480 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2016-2018",
+    "displacement": "2.5 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 294,
+        "max": 294
+      },
+      "torqueNm": {
+        "min": 480,
+        "max": 480
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-audi-tt-rs-coupe-quattro-2016-a",
+        "batch16r-audi-tt-rs-coupe-quattro-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-audi-tt-rs-coupe-quattro-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016-2018 Audi TT RS Coupé quattro (8S) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/audi/16-tt-rs-coupe-quattro",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 294,
+              "max": 294
+            },
+            "performance.torqueNm": {
+              "min": 480,
+              "max": 480
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, directInjection; 294 kW and 480 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact TT RS Coupé quattro (8S) Europe-market calibration and the overlapping 2016-2018 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-audi-tt-rs-coupe-quattro-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016-2018 Audi TT RS Coupé quattro (8S) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2470640/audi_tt_rs_coupe_s-tronic.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 294,
+              "max": 294
+            },
+            "performance.torqueNm": {
+              "min": 480,
+              "max": 480
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, directInjection; 294 kW and 480 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact TT RS Coupé quattro (8S) Europe-market calibration and the overlapping 2016-2018 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi TT RS Coupé quattro (8S) (Europe market, 2016-2018 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-seat-leon-cupra-290-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 2.0 L Inline-4 turbocharged 213 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2015-2016",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon Cupra 290 (Europe market, 2015-2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 290 (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 290 (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 290 (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; SEAT Leon Cupra 290 (Europe market, 2015-2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 213,
+        "max": 213
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-seat-leon-cupra-290-2015-a",
+        "batch16r-seat-leon-cupra-290-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon Cupra 290 (Europe market, 2015-2016 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-seat-leon-cupra-290-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2016 SEAT Leon Cupra 290 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/seat/15-leon-cupra-290-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 213,
+              "max": 213
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 213 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Leon Cupra 290 Europe-market calibration and the overlapping 2015-2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon Cupra 290 (Europe market, 2015-2016 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-seat-leon-cupra-290-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2016 SEAT Leon Cupra 290 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/3097925/seat_leon_cupra_290_dsg.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 213,
+              "max": 213
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 213 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Leon Cupra 290 Europe-market calibration and the overlapping 2015-2016 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon Cupra 290 (Europe market, 2015-2016 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-skoda-octavia-rs-230-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Skoda 2.0 L Inline-4 turbocharged 169 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Skoda",
+    "regionKey": "europe",
+    "years": "2017-2019",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 169,
+        "max": 169
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-skoda-octavia-rs-230-2017-a",
+        "batch16r-skoda-octavia-rs-230-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2019
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-skoda-octavia-rs-230-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017-2019 Skoda Octavia RS 2.0 TSI 230 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/skoda/17-octavia-vrs-230-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 169,
+              "max": 169
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 169 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Octavia RS 2.0 TSI 230 Europe-market calibration and the overlapping 2017-2019 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-skoda-octavia-rs-230-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017-2019 Skoda Octavia RS 2.0 TSI 230 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/3147035/skoda_octavia_rs_2_0_tsi_230.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 169,
+              "max": 169
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 169 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Octavia RS 2.0 TSI 230 Europe-market calibration and the overlapping 2017-2019 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Skoda Octavia RS 2.0 TSI 230 (Europe market, 2017-2019 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-mercedes-amg-a35-4matic-sedan-2019",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.0 L Inline-4 turbocharged 225 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2019",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 225,
+        "max": 225
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-mercedes-amg-a35-4matic-sedan-2019-a",
+        "batch16r-mercedes-amg-a35-4matic-sedan-2019-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification)"
+        ],
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-mercedes-amg-a35-4matic-sedan-2019-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 Mercedes-Benz AMG A 35 4MATIC Sedan (V177) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2019,
+          "url": "https://www.encycarpedia.com/mercedes/19-amg-a-35-4matic-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 225 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact AMG A 35 4MATIC Sedan (V177) Europe-market calibration and the overlapping 2019 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-mercedes-amg-a35-4matic-sedan-2019-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2019 Mercedes-Benz AMG A 35 4MATIC Sedan (V177) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2019,
+          "url": "https://www.automobile-catalog.com/car/2019/2875130/mercedes-amg_a_35_4matic_limousine_sedan.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 225,
+              "max": 225
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 225 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact AMG A 35 4MATIC Sedan (V177) Europe-market calibration and the overlapping 2019 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz AMG A 35 4MATIC Sedan (V177) (Europe market, 2019 specification)"
+            ],
+            "years": {
+              "from": 2019,
+              "to": 2019
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];

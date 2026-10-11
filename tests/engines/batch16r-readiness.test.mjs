@@ -2,29 +2,27 @@ import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import { canonicalFingerprint, readSourceData } from '../../scripts/engines/lib.mjs';
+import { engineIdentityCollisionErrors } from '../../scripts/engines/validate-engine-data.mjs';
+import { verificationPolicyErrors } from '../../scripts/engines/verification-policy.mjs';
 
 const fixture = JSON.parse(fs.readFileSync(new URL('./fixtures/batch16r-readiness.json', import.meta.url)));
 const data = readSourceData();
 const digest = (value) => crypto.createHash('sha256').update(canonicalFingerprint(value)).digest('hex');
+const baselineLimits = { europe: 624, japan: 448, korea: 65, 'north-america': 165, 'south-america': 0 };
+const baseline = data.regionFiles.flatMap((file) => file.records.slice(0, baselineLimits[file.region]));
+const added = data.records.filter((record) => record.id.startsWith('batch16r-'));
 
 assert.equal(fixture.batch, '16R');
-assert.equal(fixture.baseline.head, '8a4ed660fe529496bba240a9e403aadb0c6aa968');
-assert.equal(fixture.baseline.records, 1302);
-assert.equal(fixture.baseline.verified, 1213);
-assert.equal(fixture.baseline.legacyPending, 89);
-assert.equal(fixture.preliminarySeedAudit.checked, 11);
-assert.equal(fixture.preliminarySeedAudit.qualified, 10);
-assert.equal(fixture.preliminarySeedAudit.holds, 1);
-assert.equal(fixture.preliminarySeedAudit.qualified + fixture.preliminarySeedAudit.holds, fixture.preliminarySeedAudit.checked);
-
-assert.equal(fixture.newDiscovery.checked, 0);
-assert.deepEqual(fixture.newDiscovery.outcomes, { qualified: 0, holds: 0, rejected: 0 });
-assert.equal(fixture.newDiscovery.stopAtReadyTotal, 110);
-assert.equal(fixture.newDiscovery.stopAtNewLeads, 400);
-assert.equal(fixture.newDiscovery.productionGatePassed, false);
-assert.equal(fixture.qualifiedCandidates.length, fixture.preliminarySeedAudit.qualified);
+assert.deepEqual(fixture.production.initialProvisional, 110);
+assert.deepEqual(fixture.production.removedCollisions, 29);
+assert.deepEqual(fixture.production.retained, 81);
+assert.deepEqual(fixture.production.replacements, 19);
+assert.deepEqual(fixture.production.accepted, 100);
+assert.equal(fixture.production.removedCollisionIds.length, 29);
+assert.equal(new Set(fixture.production.removedCollisionIds).size, 29);
+assert.equal(fixture.qualifiedCandidates.length, 100);
 assert.equal(new Set(fixture.qualifiedCandidates.map((candidate) => candidate.candidateId)).size, fixture.qualifiedCandidates.length);
-assert.equal(new Set(fixture.qualifiedCandidates.map((candidate) => candidate.maker)).size, 6);
+assert.equal(new Set(fixture.qualifiedCandidates.map((candidate) => candidate.maker)).size, 19);
 
 const allowedStatuses = new Set(fixture.matrixFormat.allowedStatuses);
 for (const profile of Object.values(fixture.coverageProfiles)) {
@@ -48,21 +46,57 @@ for (const candidate of fixture.qualifiedCandidates) {
   assert.equal(new Set(sources.map((source) => new URL(source.url).hostname.replace(/^www\./, ''))).size, 2, `${candidate.candidateId}: source domains are not independent`);
   assert.ok(sources.every((source) => source.location.length > 0), `${candidate.candidateId}: missing evidence location`);
   assert.equal(candidate.duplicatePrecheck, 'clear against 1302-record baseline');
+  assert.ok(candidate.spec && Number.isFinite(candidate.spec.displacementCc), `${candidate.candidateId}: missing displacement`);
+  assert.ok(Number.isFinite(candidate.spec.powerKw), `${candidate.candidateId}: missing power`);
+  assert.ok(Number.isFinite(candidate.spec.torqueNm), `${candidate.candidateId}: missing torque`);
+  assert.match(candidate.spec.configuration, /^Inline \d+$/, `${candidate.candidateId}: unsupported layout`);
+  assert.ok(['DOHC', 'SOHC'].includes(candidate.spec.valvetrain), `${candidate.candidateId}: unsupported valvetrain`);
+  assert.ok(Number.isInteger(candidate.spec.totalValves) && candidate.spec.totalValves > 0, `${candidate.candidateId}: missing total valves`);
+  assert.ok(['Petrol', 'Diesel'].includes(candidate.spec.fuel), `${candidate.candidateId}: unsupported fuel`);
+  assert.ok(['Natural', 'Turbo', 'Bi-Turbo', 'Supercharged'].includes(candidate.spec.aspiration), `${candidate.candidateId}: unsupported aspiration`);
+  assert.ok(['Direct Injection', 'Multi-point', 'Common Rail'].includes(candidate.spec.injection), `${candidate.candidateId}: unsupported injection`);
 }
 
-assert.equal(fixture.result.qualified, fixture.preliminarySeedAudit.qualified);
-assert.equal(fixture.result.ready, fixture.preliminarySeedAudit.qualified);
-assert.equal(fixture.result.holds, fixture.preliminarySeedAudit.holds);
-assert.equal(fixture.result.accepted, 0);
-assert.equal(fixture.result.canonicalChanged, false);
-assert.equal(fixture.result.generatorRun, false);
-assert.equal(fixture.result.enginesCheckRun, true);
-assert.equal(fixture.result.fullNpmTestRun, false);
+assert.equal(baseline.length, fixture.baseline.records);
+assert.equal(digest(baseline), fixture.baseline.semanticHash);
+assert.equal(added.length, 100);
+assert.deepEqual(added.map((record) => record.id).sort(), fixture.qualifiedCandidates.map((candidate) => candidate.candidateId).sort());
+assert.equal(data.records.length, 1402);
+assert.equal(data.records.filter((record) => record.verification.status === 'verified').length, 1313);
+assert.equal(data.records.filter((record) => record.verification.status === 'legacyPending').length, 89);
+assert.equal(digest(data.records), '9d59b7f6c29489f2eb1de47662412d16ce6cd0bd6b0db8431a2fc782e76b7a23');
+assert.deepEqual(Object.fromEntries(['europe', 'japan', 'korea', 'north-america', 'south-america'].map((region) => [
+  region,
+  data.records.filter((record) => record.regionKey === region).length
+])), { europe: 715, japan: 451, korea: 65, 'north-america': 171, 'south-america': 0 });
 
-assert.equal(data.records.length, fixture.baseline.records);
-assert.equal(data.records.filter((record) => record.verification?.status === 'verified').length, fixture.baseline.verified);
-assert.equal(data.records.filter((record) => record.verification?.status === 'legacyPending').length, fixture.baseline.legacyPending);
-assert.equal(digest(data.records), fixture.baseline.semanticHash);
-assert.equal(data.records.some((record) => record.id.startsWith('batch16')), false);
+assert.equal(added.filter((record) => record.identity.type === 'applicationScopedSpecification').length, 100);
+assert.equal(added.filter((record) => record.verification.evidenceBasis === 'corroborated').length, 100);
+assert.equal(added.filter((record) => record.completeness === 'core').length, 100);
+assert.equal(added.filter((record) => Object.hasOwn(record.performance.powerKw, 'rpm') || Object.hasOwn(record.performance.torqueNm, 'rpm')).length, 0);
+assert.equal(added.reduce((total, record) => total + record.verification.sources.length, 0), 200);
+for (const record of added) {
+  assert.deepEqual(verificationPolicyErrors(record), [], record.id);
+  assert.equal(record.identity.review.manualReviewConfirmed, true);
+  assert.equal(record.identity.review.codeOrDesignationNotClaimed, true);
+  assert.match(record.layout, /\b\d+ valves\b/);
+  assert.match(record.layout, /\b\d+ camshafts? total\b/);
+  assert.equal(record.verification.sources.length, 2);
+  assert.equal(new Set(record.verification.sources.map((source) => source.publisher)).size, 2);
+  assert.equal(new Set(record.verification.sources.map((source) => new URL(source.url).hostname)).size, 2);
+  assert.ok(record.verification.sources.every((source) => source.scope.level === 'exactVariant'));
+}
+assert.deepEqual(engineIdentityCollisionErrors(data.records), []);
+assert.deepEqual(fixture.result, {
+  qualified: 100,
+  ready: 100,
+  holds: 1,
+  rejected: 29,
+  accepted: 100,
+  canonicalChanged: true,
+  generatorRun: true,
+  enginesCheckRun: true,
+  fullNpmTestRun: true
+});
 
-console.log(`PASS Batch 16R readiness: ${fixture.result.ready} ready, ${fixture.result.holds} hold, canonical ${digest(data.records)}`);
+console.log(`PASS Batch 16R: 81 retained + 19 replacements = 100 accepted, baseline ${digest(baseline)}, dataset ${digest(data.records)}`);

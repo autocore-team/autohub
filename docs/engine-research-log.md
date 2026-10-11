@@ -1719,7 +1719,9 @@ No other Batch 15 record was consolidated. Every other accepted scope has one ap
 
 The first 1202 records and regional order are unchanged, with semantic SHA-256 `fdde0fa624ff1ec32f9abb60b5759df7b413ca16d5af1391e946dd2c083b61f2`. Result: 1302 records, 1213 verified and 89 legacyPending. Full semantic SHA-256: `297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976`.
 
-## Engine Batch 16R — evidence-qualified discovery gate (2026-10-10)
+## Engine Batch 16R — superseded evidence-qualified discovery checkpoint (2026-10-10)
+
+This checkpoint is retained only as history and is superseded by the completed production audit below.
 
 Batch 16R started from clean `main` at `8a4ed660fe529496bba240a9e403aadb0c6aa968`. The failed Batch 16 research and its 11 ready seeds remain preserved in the named stash on the unpublished `feature/engine-throughput-batch-16` branch; the stash was inspected read-only and was not applied. No old Batch 16 file was restored.
 
@@ -1732,3 +1734,13 @@ The readiness matrix is stored in `tests/engines/fixtures/batch16r-readiness.jso
 The four documented calibration variants (Lincoln Mark VIII, Oldsmobile Cutlass Supreme 3.4, Abarth Grande Punto and INFINITI J30 / Nissan Leopard J. Ferie) remain excluded. No performance ranges were formed, and no unresolved calibration was selected arbitrarily.
 
 The new source-first discovery counter starts at zero. Work continues until the combined ready total reaches 110 or 400 genuinely new exact-page leads have been checked. Duplicate/consolidation audit and production remain blocked until that gate. Canonical regional JSON, generated files, counts and hashes remain unchanged: 1302 records, 1213 verified, 89 legacyPending, semantic SHA-256 `297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976`. The dedicated Batch 16R readiness test and `npm run engines:check` pass; no generator write was run, and the full npm suite remains intentionally deferred.
+
+## Engine Throughput Batch 16R — final production audit (2026-10-11)
+
+The production pass started from 110 provisional records. The full duplicate and consolidation audit removed 29 colliding candidates, retained 81 evidence-complete records and added 19 exact-application replacements. Final reconciliation is 81 retained + 19 replacements = 100 accepted production records. No research checkpoint, intermediate commit or separate research PR was created.
+
+The final audit found no reused baseline application, source URL or normalized engine specification and no remaining collision inside Batch 16R. Four initially proposed replacements were also removed after the deeper specification audit: Honda Civic Type R FK8, Mazda 3 MPS, Hyundai i30 N Performance and Skoda Superb 2.0 TSI 280 duplicated existing baseline engine specifications. Hyundai i20 N reused a Batch 13 exact source URL and was also excluded. Calibration-only Lincoln Mark VIII, Oldsmobile Cutlass Supreme 3.4, Abarth Grande Punto and INFINITI J30 / Nissan Leopard J. Ferie cases remain excluded.
+
+All 100 accepted records use manually reviewed `applicationScopedSpecification` identities, `evidenceBasis: corroborated` and `completeness: core`; none invents an engine code or public designation. Each record has two independent exact-variant publications covering application, years, market, displacement, layout, valves, total camshafts, fuel, aspiration, injection, power and torque. RPM is intentionally omitted from all 100 records. Power values derived from PS/BHP presentation were normalized to one fixed kW value only where the difference was unit conversion; no calibration was widened into a free range.
+
+Additions by region are Europe 91, Japan 3 and North America 6. The first 1302 records and their regional order remain unchanged, with semantic SHA-256 `297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976`. Result: 1402 records, 1313 verified and 89 legacyPending; Europe 715, Japan 451, Korea 65, North America 171 and South America 0. Full semantic SHA-256: `9d59b7f6c29489f2eb1de47662412d16ce6cd0bd6b0db8431a2fc782e76b7a23`.

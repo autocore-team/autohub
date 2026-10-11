@@ -16,24 +16,6 @@
       "reason": "Both saved publications use the australiancar.reviews registrable domain and do not form an independent Tier B pair."
     }
   },
-  "newDiscovery": {
-    "limit": 400,
-    "checked": 0,
-    "outcomes": {
-      "qualified": 0,
-      "holds": 0,
-      "rejected": 0
-    },
-    "excludedFromCounter": [
-      "baseline 1302 records and duplicate controls",
-      "failed Batch 16 pool and calibration-only cases",
-      "Batch 13-15 holds",
-      "the 11 reverified seeds"
-    ],
-    "stopAtReadyTotal": 110,
-    "stopAtNewLeads": 400,
-    "productionGatePassed": false
-  },
   "deferredCalibrationCases": [
     "Lincoln Mark VIII",
     "Oldsmobile Cutlass Supreme 3.4",
@@ -42,25 +24,181 @@
   ],
   "matrixFormat": {
     "fieldValue": "[status, sourceRefs, locations, optional formula]",
-    "allowedStatuses": ["explicit", "derived", "missing"]
+    "allowedStatuses": [
+      "explicit",
+      "derived",
+      "missing"
+    ]
   },
   "coverageProfiles": {
     "inlineDohcExactApplication": {
-      "identity": ["explicit", ["a", "b"], ["exact application/variant binding", "exact identification/specification binding"]],
-      "maker": ["explicit", ["a", "b"], ["exact-variant heading", "make/identification"]],
-      "application": ["explicit", ["a", "b"], ["exact-variant heading", "identification/specification heading"]],
-      "years": ["explicit", ["a", "b"], ["production interval/model year", "production/sales period"]],
-      "market": ["explicit", ["a", "b"], ["regional exact publication", "sales/specification market"]],
-      "displacement": ["explicit", ["a", "b"], ["engine section", "engine specifications"]],
-      "cylinderLayout": ["explicit", ["a", "b"], ["configuration/layout", "cylinders alignment"]],
-      "valvetrain": ["explicit", ["a", "b"], ["valvetrain", "engine specifications"]],
-      "totalValves": ["derived", ["a", "b"], ["cylinder count and valves per cylinder", "cylinders alignment and valves per cylinder"], "explicit cylinder count × explicit valves per cylinder = total valves"],
-      "totalCamshafts": ["derived", ["a", "b"], ["inline layout and explicit DOHC", "line layout and explicit DOHC"], "inline engine + explicit DOHC = 2 camshafts total"],
-      "fuel": ["explicit", ["a", "b"], ["engine/fuel section", "fuel type"]],
-      "injection": ["explicit", ["a", "b"], ["fuel delivery/injection", "fuel system"]],
-      "aspiration": ["explicit", ["a", "b"], ["aspiration", "charge system"]],
-      "power": ["explicit", ["a", "b"], ["performance/peak power", "horsepower net/specification"]],
-      "torque": ["explicit", ["a", "b"], ["performance/peak torque", "torque net/specification"]]
+      "identity": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "exact application/variant binding",
+          "exact identification/specification binding"
+        ]
+      ],
+      "maker": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "exact-variant heading",
+          "make/identification"
+        ]
+      ],
+      "application": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "exact-variant heading",
+          "identification/specification heading"
+        ]
+      ],
+      "years": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "production interval/model year",
+          "production/sales period"
+        ]
+      ],
+      "market": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "regional exact publication",
+          "sales/specification market"
+        ]
+      ],
+      "displacement": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "engine section",
+          "engine specifications"
+        ]
+      ],
+      "cylinderLayout": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "configuration/layout",
+          "cylinders alignment"
+        ]
+      ],
+      "valvetrain": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "valvetrain",
+          "engine specifications"
+        ]
+      ],
+      "totalValves": [
+        "derived",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "cylinder count and valves per cylinder",
+          "cylinders alignment and valves per cylinder"
+        ],
+        "explicit cylinder count × explicit valves per cylinder = total valves"
+      ],
+      "totalCamshafts": [
+        "derived",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "inline layout and explicit DOHC",
+          "line layout and explicit DOHC"
+        ],
+        "inline engine + explicit DOHC = 2 camshafts total"
+      ],
+      "fuel": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "engine/fuel section",
+          "fuel type"
+        ]
+      ],
+      "injection": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "fuel delivery/injection",
+          "fuel system"
+        ]
+      ],
+      "aspiration": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "aspiration",
+          "charge system"
+        ]
+      ],
+      "power": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "performance/peak power",
+          "horsepower net/specification"
+        ]
+      ],
+      "torque": [
+        "explicit",
+        [
+          "a",
+          "b"
+        ],
+        [
+          "performance/peak torque",
+          "torque net/specification"
+        ]
+      ]
     }
   },
   "qualifiedCandidates": [
@@ -68,165 +206,4130 @@
       "candidateId": "batch16r-ford-fiesta-st-2013",
       "maker": "Ford",
       "application": "Fiesta ST",
-      "years": [2013, 2017],
+      "years": [
+        2013,
+        2017
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/ford/13-fiesta-st-hatch", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/2013/1845800/ford_fiesta_st.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/ford/13-fiesta-st-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2013/1845800/ford_fiesta_st.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
       "scopeLimitations": "Europe 134 kW / 240 Nm non-overboost specification only",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1596,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 182,
+        "powerBhp": 180,
+        "torqueNm": 240,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 134
+      }
     },
     {
       "candidateId": "batch16r-ford-puma-st-2021",
       "maker": "Ford",
       "application": "Puma ST",
-      "years": [2021, 2021],
+      "years": [
+        2021,
+        2021
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/ford/21-puma-st-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/2021/2974205/ford_puma_st.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/ford/21-puma-st-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2021/2974205/ford_puma_st.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
       "scopeLimitations": "2021 Europe exact calibration",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1497,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 200,
+        "powerBhp": 197,
+        "torqueNm": 320,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 147
+      }
     },
     {
       "candidateId": "batch16r-ds3-crossback-puretech-155-2019",
       "maker": "DS Automobiles",
       "application": "DS 3 Crossback PureTech 155",
-      "years": [2019, 2019],
+      "years": [
+        2019,
+        2019
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/ds/19-ds-3-crossback-puretech-155-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/2019/2969870/ds_3_crossback_1_2_puretech_155_eat8.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/ds/19-ds-3-crossback-puretech-155-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2019/2969870/ds_3_crossback_1_2_puretech_155_eat8.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
       "scopeLimitations": "PureTech 155 EAT8 calibration only",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 154,
+        "powerBhp": 152,
+        "torqueNm": 240,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 114
+      }
     },
     {
       "candidateId": "batch16r-ds7-bluehdi-180-2018",
       "maker": "DS Automobiles",
       "application": "DS 7 Crossback BlueHDi 180",
-      "years": [2018, 2018],
+      "years": [
+        2018,
+        2018
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/ds/18-ds-7-crossback-bluehdi-180-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Diesel Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/2018/2626550/ds_7_crossback_bluehdi_180.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/ds/18-ds-7-crossback-bluehdi-180-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Diesel Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2626550/ds_7_crossback_bluehdi_180.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
       "scopeLimitations": "BlueHDi 180 exact calibration only",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1997,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 177,
+        "powerBhp": 175,
+        "torqueNm": 400,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 130
+      }
     },
     {
       "candidateId": "batch16r-buick-encore-1-4t-2013",
       "maker": "Buick",
-      "application": "Encore 1.4T",
-      "years": [2013, 2013],
+      "application": "Encore 1.4T FWD",
+      "years": [
+        2013,
+        2013
+      ],
       "market": "North America",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://media.gm.ca/content/dam/Media/documents/CN/Vehicle_Spec/Buick_Encore_Product_Specification.pdf", "publisher": "General Motors Canada", "hostname": "media.gm.ca", "location": "2013 Buick Encore product specification table" },
-        "b": { "url": "https://www.caranddriver.com/buick/encore/specs/2013/buick_encore_buick-encore_2013", "publisher": "Car and Driver", "hostname": "www.caranddriver.com", "location": "2013 exact vehicle specifications" }
+        "a": {
+          "url": "https://www.caranddriver.com/reviews/a15116276/2013-buick-encore-first-drive-review/",
+          "publisher": "Car and Driver",
+          "hostname": "www.caranddriver.com",
+          "location": "2013 Encore exact review; Specifications panel"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2013/1614860/buick_encore.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
-      "scopeLimitations": "2013 North America 1.4 turbo calibration",
+      "scopeLimitations": "2013 North America FWD 103 kW / 200 Nm specification",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "powerKw": 103,
+        "displacementCc": 1364,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 140,
+        "torqueNm": 200,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Multi-point",
+        "fuel": "Petrol"
+      }
     },
     {
       "candidateId": "batch16r-abarth-695-biposto-2014",
       "maker": "Abarth",
       "application": "695 Biposto",
-      "years": [2014, 2014],
+      "years": [
+        2014,
+        2014
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.media.stellantis.com/uploads/em/2014/ABARTH/schede_tecniche/141202_Abarth_technical_sheet_695-biposto_ENG.pdf", "publisher": "Abarth / Stellantis Media", "hostname": "www.media.stellantis.com", "location": "695 Biposto technical sheet" },
-        "b": { "url": "https://www.encycarpedia.com/abarth/14-695-biposto-hatch", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" }
+        "a": {
+          "url": "https://www.encycarpedia.com/abarth/14-695-biposto-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.coches.net/fichas_tecnicas/abarth/500/berlina/3-puertas/14_tjet_695_biposto_190hp_190cv_gasolina/62603/745463620150201/",
+          "publisher": "Coches.net",
+          "hostname": "www.coches.net",
+          "location": "exact 2014 695 Biposto 190 CV technical specification"
+        }
       },
       "scopeLimitations": "695 Biposto factory calibration only",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1368,
+        "powerPs": 190,
+        "powerBhp": 0,
+        "torqueNm": 250,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "powerKw": 140,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Multi-point"
+      }
     },
     {
       "candidateId": "batch16r-infiniti-qx30-2-0t-2017",
       "maker": "INFINITI",
-      "application": "QX30 2.0T",
-      "years": [2017, 2017],
+      "application": "QX30 2.0T AWD S Premium",
+      "years": [
+        2017,
+        2017
+      ],
       "market": "New Zealand",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www-asia.infiniti-cdn.net/content/dam/Infiniti/newzealand/brochures/QX30_Brochure_Low_Res_Sept17.pdf", "publisher": "INFINITI", "hostname": "www-asia.infiniti-cdn.net", "location": "QX30 brochure engine and performance specifications" },
-        "b": { "url": "https://www.encycarpedia.com/infiniti/17-qx30-2-0t-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" }
+        "a": {
+          "url": "https://www.encycarpedia.com/infiniti/17-qx30-2-0t-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.carexpert.co.nz/infiniti/infiniti-qx30/2017-s-premium-2l-sport-utility-vehicle-4x4-petrol-manual-josmagga20170701",
+          "publisher": "CarExpert New Zealand",
+          "hostname": "www.carexpert.co.nz",
+          "location": "2017 QX30 S Premium New Zealand Overview; Engine; Fuel System; Power"
+        }
       },
-      "scopeLimitations": "2017 New Zealand 2.0T specification",
+      "scopeLimitations": "2017 New Zealand 2.0T AWD S Premium specification",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1991,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 211,
+        "powerBhp": 208,
+        "torqueNm": 350,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 155
+      }
     },
     {
       "candidateId": "batch16r-ford-puma-1-7-1997",
       "maker": "Ford",
       "application": "Puma 1.7",
-      "years": [1997, 1997],
+      "years": [
+        1997,
+        1997
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/es/ford/97-puma", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/1997/954845/ford_puma_1_7.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/ford/98-puma-1-7-coupe",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/1997/954845/ford_puma_1_7.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
       "scopeLimitations": "1997 Europe 1.7 specification",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1679,
+        "configuration": "Inline 4",
+        "aspiration": "Natural",
+        "powerPs": 125,
+        "powerBhp": 123,
+        "torqueNm": 157,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 92
+      }
     },
     {
       "candidateId": "batch16r-lotus-2-eleven-2007",
       "maker": "Lotus",
       "application": "2-Eleven road-going version",
-      "years": [2007, 2007],
+      "years": [
+        2007,
+        2007
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/lotus/07-2-eleven-roadster", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact road-going variant; Performance; Petrol Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/2007/1436360/lotus_2-eleven_launch_edition_road_going_version.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "road-going variant Identification data and Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/lotus/07-2-eleven-roadster",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact road-going variant; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2007/1436360/lotus_2-eleven_launch_edition_road_going_version.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "road-going variant Identification data and Engine specifications"
+        }
       },
       "scopeLimitations": "road-going Launch Edition; racing-only scopes excluded",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1796,
+        "configuration": "Inline 4",
+        "aspiration": "Supercharged",
+        "powerPs": 256,
+        "powerBhp": 252,
+        "torqueNm": 242,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 188
+      }
     },
     {
       "candidateId": "batch16r-ds4-bluehdi-180-2015",
       "maker": "DS Automobiles",
       "application": "DS 4 BlueHDi 180",
-      "years": [2015, 2015],
+      "years": [
+        2015,
+        2015
+      ],
       "market": "Europe",
       "proposedIdentityType": "applicationScopedSpecification",
       "sources": {
-        "a": { "url": "https://www.encycarpedia.com/ds/15-ds-4-bluehdi-180-hatch", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Diesel Engine" },
-        "b": { "url": "https://www.automobile-catalog.com/car/2015/2139965/citroen_ds4_bluehdi_180_sportchic_automatic.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+        "a": {
+          "url": "https://www.encycarpedia.com/ds/15-ds-4-bluehdi-180-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; Performance; Diesel Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2015/2139965/citroen_ds4_bluehdi_180_sportchic_automatic.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
       },
       "scopeLimitations": "2015 SportChic automatic calibration only",
       "duplicatePrecheck": "clear against 1302-record baseline",
-      "coverageProfile": "inlineDohcExactApplication"
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1997,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 180,
+        "powerBhp": 178,
+        "torqueNm": 400,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 133
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-octavia-1-0-tsi-110-2022",
+      "maker": "Skoda",
+      "application": "Octavia 1.0 TSI 110",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/20-octavia-1-0-tsi-110-fastback",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3148115/skoda_octavia_1_0_tsi_110.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 110,
+        "torqueNm": 200,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 81
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-octavia-2-0-tdi-150-2021",
+      "maker": "Skoda",
+      "application": "Octavia 2.0 TDI 150",
+      "years": [
+        2021,
+        2021
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/20-octavia-2-0-tdi-150-fastback",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2021/3148445/skoda_octavia_2_0_tdi_150.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2021 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1968,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 150,
+        "torqueNm": 360,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-karoq-2-0-tdi-150-2022",
+      "maker": "Skoda",
+      "application": "Karoq 2.0 TDI 150",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/22-karoq-2-0-tdi-150-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3153335/skoda_karoq_2_0_tdi_scr_150.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1968,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 150,
+        "torqueNm": 340,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-octavia-2-0-tdi-115-2020",
+      "maker": "Skoda",
+      "application": "Octavia 2.0 TDI 115",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/20-octavia-2-0-tdi-115-fastback",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/3148325/skoda_octavia_2_0_tdi_115.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1968,
+        "powerPs": 116,
+        "torqueNm": 300,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 85
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-scala-1-6-tdi-2020",
+      "maker": "Skoda",
+      "application": "Scala 1.6 TDI",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/19-scala-1-6-tdi-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/3152345/skoda_scala_1_6_tdi_cr_115.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 116,
+        "torqueNm": 250,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 84.5
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-leon-cupra-300-2017",
+      "maker": "SEAT",
+      "application": "Leon Cupra 300",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/17-leon-cupra-300-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/3098705/seat_leon_cupra_300.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1984,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 300,
+        "torqueNm": 380,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 220.5
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-tarraco-2-0-tdi-150-2019",
+      "maker": "SEAT",
+      "application": "Tarraco 2.0 TDI 150",
+      "years": [
+        2019,
+        2019
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/19-tarraco-2-0-tdi-150-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2019/3102950/seat_tarraco_2_0_tdi_cr_150_fwd.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2019 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1968,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 149,
+        "torqueNm": 340,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-tarraco-2-0-tsi-190-4drive-2021",
+      "maker": "SEAT",
+      "application": "Tarraco 2.0 TSI 190 4Drive",
+      "years": [
+        2021,
+        2021
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/19-tarraco-2-0-tsi-190-4drive-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2021/3103070/seat_tarraco_2_0_tsi_190_4drive_dsg.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2021 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1984,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 190,
+        "torqueNm": 320,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 140
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-ibiza-1-0-mpi-65-2017",
+      "maker": "SEAT",
+      "application": "Ibiza 1.0 MPI 65",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/17-ibiza-1-0-mpi-65-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/3101360/seat_ibiza_1_0_mpi_65.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "powerPs": 65,
+        "torqueNm": 95,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 48
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-ibiza-1-0-mpi-75-2017",
+      "maker": "SEAT",
+      "application": "Ibiza 1.0 MPI 75",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/17-ibiza-1-0-mpi-75-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/3101285/seat_ibiza_1_0_mpi_75.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "powerPs": 75,
+        "torqueNm": 95,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 55
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-ibiza-1-6-tdi-80-2017",
+      "maker": "SEAT",
+      "application": "Ibiza 1.6 TDI 80",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/17-ibiza-1-6-tdi-80-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/3101405/seat_ibiza_1_6_tdi_80.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "powerPs": 80,
+        "torqueNm": 230,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 59
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-arona-1-6-tdi-2017",
+      "maker": "SEAT",
+      "application": "Arona 1.6 TDI",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/17-arona-1-6-tdi-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/3101960/seat_arona_1_6_tdi_95.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 95,
+        "torqueNm": 250,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 70
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-s3-sportback-2020",
+      "maker": "Audi",
+      "application": "S3 Sportback",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/20-s3-sportback-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2965595/audi_s3_sportback.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1984,
+        "powerPs": 310,
+        "torqueNm": 400,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 228
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-sq2-2020",
+      "maker": "Audi",
+      "application": "SQ2",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/20-sq2-quattro-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2796755/audi_sq2_quattro.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1984,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 300,
+        "torqueNm": 400,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 220.5
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-s3-sportback-8v-2020",
+      "maker": "Audi",
+      "application": "S3 Sportback (8V)",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/16-s3-sportback-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2965595/audi_s3_sportback.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1984,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 310,
+        "torqueNm": 380,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 228
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-a4-2-0-tfsi-252-b9-2017",
+      "maker": "Audi",
+      "application": "A4 2.0 TFSI 252 (B9)",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/16-a4-2-0-tfsi-252-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/2601275/audi_a4_2_0_tfsi_252_quattro.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1984,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 252,
+        "torqueNm": 370,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 185
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-q3-35-tfsi-2018",
+      "maker": "Audi",
+      "application": "Q3 35 TFSI",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/18-q3-35-tfsi-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2796770/audi_q3_35_tfsi.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1498,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 149,
+        "torqueNm": 250,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-2008-1-2-puretech-100-2020",
+      "maker": "Peugeot",
+      "application": "2008 1.2 PureTech 100",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-2-puretech-100-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2917070/peugeot_2008_1_2_puretech_100.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 101,
+        "torqueNm": 205,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 74
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-2008-1-5-bluehdi-100-2020",
+      "maker": "Peugeot",
+      "application": "2008 1.5 BlueHDi 100",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-5-bluehdi-100-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2917130/peugeot_2008_1_5_bluehdi_100.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1499,
+        "powerPs": 102,
+        "torqueNm": 250,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 75
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-508-1-5-bluehdi-130-2018",
+      "maker": "Peugeot",
+      "application": "508 1.5 BlueHDi 130",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/18-508-1-5-bluehdi-130-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2741135/peugeot_508_1_5_bluehdi_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1499,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 131,
+        "torqueNm": 300,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 95.5
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-2008-1-2-puretech-155-2020",
+      "maker": "Peugeot",
+      "application": "2008 1.2 PureTech 155",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-2-puretech-155-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2917115/peugeot_2008_gt_1_2_puretech_155_eat8.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 155,
+        "torqueNm": 240,
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 114
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-5008-puretech-130-2020",
+      "maker": "Peugeot",
+      "application": "5008 PureTech 130",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/20-5008-puretech-130-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2741780/peugeot_5008_1_2_puretech_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 130,
+        "torqueNm": 230,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 95.5
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-308-thp-205-s-s-2016",
+      "maker": "Peugeot",
+      "application": "308 THP 205 S/S",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/16-308-thp-205-stop-start-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2624315/peugeot_308_gt_1_6_thp_205.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 205,
+        "torqueNm": 285,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 151
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-3008-bluehdi-150-2016",
+      "maker": "Peugeot",
+      "application": "3008 BlueHDi 150",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/16-3008-bluehdi-150-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2627165/peugeot_3008_2_0_bluehdi_150.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1997,
+        "powerPs": 150,
+        "torqueNm": 370,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-3008-thp-165-2016",
+      "maker": "Peugeot",
+      "application": "3008 THP 165",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/16-3008-thp-165-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2627090/peugeot_3008_1_6_thp_165_eat6.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 165,
+        "torqueNm": 240,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 121
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-megane-tce-140-2020",
+      "maker": "Renault",
+      "application": "Megane TCe 140",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/20-megane-tce-140-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2985485/renault_megane_hatch_tce_140.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1333,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 140,
+        "torqueNm": 240,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 103
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-captur-tce-130-2020",
+      "maker": "Renault",
+      "application": "Captur TCe 130",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/20-captur-tce-130-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2987615/renault_captur_tce_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1333,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 130,
+        "torqueNm": 240,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 96
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-megane-grandtour-tce-115-2020",
+      "maker": "Renault",
+      "application": "Megane Grandtour TCe 115",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/20-megane-grandtour-tce-115-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2985560/renault_megane_estate_grandtour_tce_115.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 115,
+        "torqueNm": 200,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 84
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-captur-dci-115-2020",
+      "maker": "Renault",
+      "application": "Captur dCi 115",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/20-captur-dci-115-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2987675/renault_captur_blue_dci_115.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1461,
+        "powerPs": 115,
+        "torqueNm": 260,
+        "valvesPerCylinder": 2,
+        "totalValves": 8,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "SOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 85
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-scenic-energy-tce-115-2018",
+      "maker": "Renault",
+      "application": "Scenic ENERGY TCe 115",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-scenic-energy-tce-115-mpv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2985920/renault_scenic_energy_tce_115.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1197,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 115,
+        "torqueNm": 190,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 85
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-captur-dci-95-2020",
+      "maker": "Renault",
+      "application": "Captur dCi 95",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/20-captur-dci-95-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2987660/renault_captur_blue_dci_95.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1461,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 94,
+        "torqueNm": 240,
+        "valvetrain": "SOHC",
+        "valvesPerCylinder": 2,
+        "totalValves": 8,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 70
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-scenic-energy-tce-130-2016",
+      "maker": "Renault",
+      "application": "Scenic ENERGY TCe 130",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-scenic-energy-tce-130-mpv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2985710/renault_scenic_energy_tce_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1197,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 132,
+        "torqueNm": 205,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 96
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-megane-grandtour-energy-dci-110-2016",
+      "maker": "Renault",
+      "application": "Megane Grandtour ENERGY dCi 110",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-megane-grandtour-energy-dci-110-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2984675/renault_megane_estate_grandtour_energy_dci_110_eco2.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1461,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 110,
+        "torqueNm": 260,
+        "valvetrain": "SOHC",
+        "valvesPerCylinder": 2,
+        "totalValves": 8,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 81
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-talisman-energy-dci-130-2016",
+      "maker": "Renault",
+      "application": "Talisman Energy dCi 130",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-talisman-energy-dci-130-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2986520/renault_talisman_energy_dci_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 130,
+        "torqueNm": 320,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 96
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i20-1-0-t-gdi-100-2020",
+      "maker": "Hyundai",
+      "application": "i20 1.0 T-GDi 100",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/20-i20-1-0-t-gdi-100-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2972960/hyundai_i20_1_0_t-gdi_100.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 998,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 100,
+        "powerBhp": 99,
+        "torqueNm": 172,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 73.5
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i20-1-0-t-gdi-120-gb-2018",
+      "maker": "Hyundai",
+      "application": "i20 1.0 T-GDi 120 (GB)",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/18-i20-1-0-t-gdi-120-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2453915/hyundai_i20_1_0_t-gdi_120.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 998,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 120,
+        "torqueNm": 171,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 88
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i30-fastback-n-performance-2020",
+      "maker": "Hyundai",
+      "application": "i30 Fastback N Performance",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/18-i30-fastback-n-performance",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2909540/hyundai_i30_fastback_n_performance.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1998,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 275,
+        "torqueNm": 378,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 202
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-kamiq-1-0-tsi-115-2020",
+      "maker": "Skoda",
+      "application": "Kamiq 1.0 TSI 115",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/19-kamiq-1-0-tsi-115-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/3152525/skoda_kamiq_1_0_tsi_115.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 115,
+        "torqueNm": 200,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 84.5
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i30-1-4-t-gdi-2018",
+      "maker": "Hyundai",
+      "application": "i30 1.4 T-GDI",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/17-i30-1-4-t-gdi-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2767430/hyundai_i30_1_4_t-gdi_140.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1353,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 140,
+        "torqueNm": 242,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 103
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i20-1-2-mpi-75-gb-2018",
+      "maker": "Hyundai",
+      "application": "i20 1.2 MPi 75 (GB)",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/18-i20-1-2-mpi-75-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2727350/hyundai_i20_1_2_75.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1248,
+        "powerPs": 75,
+        "torqueNm": 122,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Natural",
+        "valvetrain": "DOHC",
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 55
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-kamiq-1-0-tsi-95-2020",
+      "maker": "Skoda",
+      "application": "Kamiq 1.0 TSI 95",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/19-kamiq-1-0-tsi-95-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/3152510/skoda_kamiq_1_0_tsi_95.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 95,
+        "torqueNm": 175,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 70
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i30-1-5-t-gdi-2020",
+      "maker": "Hyundai",
+      "application": "i30 1.5 T-GDI",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/20-i30-1-5-t-gdi-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2973050/hyundai_i30_1_5_t-gdi_mhev_48v_159.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1482,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 160,
+        "torqueNm": 253,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 117
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-optima-2-0-t-gdi-jf-2018",
+      "maker": "Kia",
+      "application": "Optima 2.0 T-GDI (JF)",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/16-optima-2-0-t-gdi-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2454320/kia_optima_gt_2_0_t-gdi.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1998,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 245,
+        "torqueNm": 350,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 180
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-sportage-1-6-gdi-ql-2018",
+      "maker": "Kia",
+      "application": "Sportage 1.6 GDI (QL)",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/18-sportage-1-6-gdi-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2739515/kia_sportage_1_6_gdi_2wd.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1591,
+        "configuration": "Inline 4",
+        "aspiration": "Natural",
+        "powerPs": 132,
+        "torqueNm": 161,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 97
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-ceed-1-4-t-gdi-2018",
+      "maker": "Kia",
+      "application": "Ceed 1.4 T-GDi",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/18-ceed-1-4-t-gdi-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2739830/kia_ceed_1_4_t-gdi.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1353,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 140,
+        "torqueNm": 242,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 103
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-ceed-1-6-crdi-136-2018",
+      "maker": "Kia",
+      "application": "Ceed 1.6 CRDi 136",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/18-ceed-1-6-crdi-136-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2739875/kia_ceed_1_6_crdi_136.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 136,
+        "torqueNm": 280,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 100
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-picanto-1-0-ja-2020",
+      "maker": "Kia",
+      "application": "Picanto 1.0 (JA)",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/20-picanto-1-0-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2973590/kia_picanto_1_0.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 998,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "powerPs": 67,
+        "torqueNm": 96,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 49
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-sportage-1-6-t-gdi-48v-2022",
+      "maker": "Kia",
+      "application": "Sportage 1.6 T-GDi 48V",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/22-sportage-1-6-t-gdi-48v-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3083375/kia_sportage_1_6_t-gdi_150_48v_2wd.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "powerPs": 150,
+        "torqueNm": 250,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-sportage-1-6-crdi-48v-awd-2022",
+      "maker": "Kia",
+      "application": "Sportage 1.6 CRDi 48V AWD",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/22-sportage-1-6-crdi-48v-awd-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3083495/kia_sportage_1_6_crdi_48v_136_awd_dct.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 136,
+        "torqueNm": 320,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 100
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-optima-sportswagon-2-0-jf-2016",
+      "maker": "Kia",
+      "application": "Optima Sportswagon 2.0 (JF)",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/16-optima-sportswagon-2-0-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2454245/kia_optima_sportswagon_2_0_cvvl.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1999,
+        "configuration": "Inline 4",
+        "aspiration": "Natural",
+        "powerPs": 163,
+        "torqueNm": 196,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "valvetrain": "DOHC",
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 120
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-sportage-1-6-crdi-2022",
+      "maker": "Kia",
+      "application": "Sportage 1.6 CRDi",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/22-sportage-1-6-crdi-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3083510/kia_sportage_1_6_crdi_115_2wd.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "powerPs": 115,
+        "torqueNm": 280,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 84.5
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c5-x-puretech-130-2022",
+      "maker": "Citroen",
+      "application": "C5 X PureTech 130",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/22-c5-x-puretech-130-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3046490/citroen_c5_x_puretech_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 131,
+        "torqueNm": 230,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 96
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c3-puretech-83-2022",
+      "maker": "Citroen",
+      "application": "C3 PureTech 83",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/20-c3-puretech-83-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/2969285/citroen_c3_puretech_83.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "powerPs": 82,
+        "torqueNm": 118,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 61
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c3-bluehdi-100-2020",
+      "maker": "Citroen",
+      "application": "C3 BlueHDi 100",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/20-c3-bluehdi-100-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2969330/citroen_c3_bluehdi_100.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1499,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 102,
+        "torqueNm": 250,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 75
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c5-aircross-bluehdi-130-2022",
+      "maker": "Citroen",
+      "application": "C5 Aircross BlueHDi 130",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/22-c5-aircross-bluehdi-130-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/2766740/citroen_c5_aircross_bluehdi_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1499,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 131,
+        "torqueNm": 300,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 96
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c-elysee-puretech-82-2018",
+      "maker": "Citroen",
+      "application": "C-Elysee PureTech 82",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/16-c-elysee-puretech-82-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2513420/citroen_c-elysee_puretech_82_live.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "powerPs": 82,
+        "torqueNm": 118,
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 60
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c-elysee-bluehdi-100-2018",
+      "maker": "Citroen",
+      "application": "C-Elysee BlueHDi 100",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/16-c-elysee-bluehdi-100-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2513435/citroen_c-elysee_bluehdi_100_live.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1560,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 99,
+        "torqueNm": 254,
+        "valvetrain": "SOHC",
+        "valvesPerCylinder": 2,
+        "totalValves": 8,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 73
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c3-puretech-82-2017",
+      "maker": "Citroen",
+      "application": "C3 PureTech 82",
+      "years": [
+        2017,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/17-c3-puretech-82-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/2513000/citroen_c3_puretech_82_live.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2017 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "powerPs": 82,
+        "torqueNm": 118,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 60
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c4-spacetourer-puretech-130-2018",
+      "maker": "Citroen",
+      "application": "C4 SpaceTourer PureTech 130",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/18-c4-spacetourer-puretech-130-mpv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2741420/citroen_c4_spacetourer_1_2_puretech_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerPs": 131,
+        "torqueNm": 230,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 95.5
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-c4-spacetourer-bluehdi-130-2020",
+      "maker": "Citroen",
+      "application": "C4 SpaceTourer BlueHDi 130",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/18-c4-spacetourer-bluehdi-130-mpv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2741465/citroen_c4_spacetourer_1_5_bluehdi_130.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1499,
+        "powerPs": 131,
+        "torqueNm": 300,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "valvetrain": "DOHC",
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 95.5
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-talisman-grandtour-energy-dci-160-2018",
+      "maker": "Renault",
+      "application": "Talisman Grandtour Energy dCi 160",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-talisman-grandtour-energy-dci-160-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2986655/renault_talisman_estate_grandtour_energy_dci_160_edc.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1598,
+        "configuration": "Inline 4",
+        "aspiration": "Bi-Turbo",
+        "powerPs": 160,
+        "torqueNm": 380,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 118
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-megane-grandtour-energy-tce-205-2016",
+      "maker": "Renault",
+      "application": "Megane Grandtour ENERGY TCe 205",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-megane-grandtour-energy-tce-205-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2984645/renault_megane_estate_grandtour_energy_tce_205_edc.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1618,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 205,
+        "torqueNm": 280,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 151
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-talisman-grandtour-energy-tce-150-2016",
+      "maker": "Renault",
+      "application": "Talisman Grandtour Energy TCe 150",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/16-talisman-grandtour-energy-tce-150-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2986565/renault_talisman_estate_grandtour_energy_tce_150_edc.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1618,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 150,
+        "torqueNm": 220,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 110
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-ibiza-1-0-mpi-80-2021",
+      "maker": "SEAT",
+      "application": "Ibiza 1.0 MPI 80",
+      "years": [
+        2021,
+        2021
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/21-ibiza-1-0-mpi-80-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2021/3101810/seat_ibiza_1_0_mpi_80.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2021 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "powerPs": 80,
+        "torqueNm": 93,
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "configuration": "Inline 3",
+        "aspiration": "Natural",
+        "powerBhp": 79,
+        "valvetrain": "DOHC",
+        "injection": "Multi-point",
+        "fuel": "Petrol",
+        "powerKw": 59
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-a1-sportback-30-tfsi-2018",
+      "maker": "Audi",
+      "application": "A1 Sportback 30 TFSI",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/18-a1-sportback-30-tfsi-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2795750/audi_a1_sportback_30_tfsi.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 999,
+        "powerPs": 116,
+        "torqueNm": 200,
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerBhp": 114,
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 85
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-2008-1-2-puretech-130-2020",
+      "maker": "Peugeot",
+      "application": "2008 1.2 PureTech 130",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/20-2008-1-2-puretech-130-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2917100/peugeot_2008_1_2_puretech_130_eat8.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1199,
+        "powerPs": 131,
+        "torqueNm": 230,
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerBhp": 129,
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 96
+      }
+    },
+    {
+      "candidateId": "batch16r-hyundai-i30-1-0-t-gdi-2022",
+      "maker": "Hyundai",
+      "application": "i30 1.0 T-GDI",
+      "years": [
+        2022,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/hyundai/20-i30-1-0-t-gdi-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2022/3124310/hyundai_i30_1_0_t-gdi_120.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2022 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 998,
+        "powerPs": 120,
+        "torqueNm": 172,
+        "valvesPerCylinder": 4,
+        "totalValves": 12,
+        "configuration": "Inline 3",
+        "aspiration": "Turbo",
+        "powerBhp": 118,
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 88
+      }
+    },
+    {
+      "candidateId": "batch16r-kia-sportage-1-6-t-gdi-ql-2018",
+      "maker": "Kia",
+      "application": "Sportage 1.6 T-GDI (QL)",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/kia/18-sportage-1-6-t-gdi-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2739530/kia_sportage_1_6_t-gdi_2wd.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1591,
+        "powerPs": 176,
+        "torqueNm": 265,
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerBhp": 174,
+        "valvetrain": "DOHC",
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 130
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-3008-bluehdi-120-2016",
+      "maker": "Peugeot",
+      "application": "3008 BlueHDi 120",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/16-3008-bluehdi-120-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2626955/peugeot_3008_1_6_bluehdi_120_eat6.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2016 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1560,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 120,
+        "powerBhp": 118,
+        "torqueNm": 300,
+        "valvetrain": "SOHC",
+        "valvesPerCylinder": 2,
+        "totalValves": 8,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 88
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-captur-tce-155-2020",
+      "maker": "Renault",
+      "application": "Captur TCe 155",
+      "years": [
+        2020,
+        2020
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/20-captur-tce-155-suv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2020/2987645/renault_captur_tce_155_edc.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2020 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1333,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 153,
+        "powerBhp": 151,
+        "torqueNm": 270,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Direct Injection",
+        "fuel": "Petrol",
+        "powerKw": 113
+      }
+    },
+    {
+      "candidateId": "batch16r-citroen-grand-c4-spacetourer-bluehdi-160-2018",
+      "maker": "Citroen",
+      "application": "Grand C4 SpaceTourer BlueHDi 160",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/citroen/18-grand-c4-spacetourer-bluehdi-160-mpv",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact variant heading; production interval; Performance; engine and fuel section"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2741570/citroen_grand_c4_spacetourer_2_0_bluehdi_160_eat8.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Sales markets; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2018 Europe exact application and calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1997,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerPs": 163,
+        "powerBhp": 161,
+        "torqueNm": 400,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "injection": "Common Rail",
+        "fuel": "Diesel",
+        "powerKw": 120
+      }
+    },
+    {
+      "candidateId": "batch16r-honda-civic-type-r-fk2-2015",
+      "maker": "Honda",
+      "application": "Civic Type R (FK2)",
+      "years": [
+        2015,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/honda/15-civic-type-r-fk2-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2015/2171660/honda_civic_type_r.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Civic Type R (FK2) Europe-market calibration and the overlapping 2015-2017 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1996,
+        "powerKw": 228,
+        "torqueNm": 400
+      }
+    },
+    {
+      "candidateId": "batch16r-mercedes-amg-a45s-4matic-2019",
+      "maker": "Mercedes-Benz",
+      "application": "AMG A 45 S 4MATIC+ (W177)",
+      "years": [
+        2019,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/mercedes/19-amg-a-45s-4matic-hatchback",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2019/2908145/mercedes-amg_a_45_s_4matic.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact AMG A 45 S 4MATIC+ (W177) Europe-market calibration and the overlapping 2019-2022 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1991,
+        "powerKw": 310,
+        "torqueNm": 500
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-megane-rs-trophy-2021",
+      "maker": "Renault",
+      "application": "Mégane R.S. Trophy EDC",
+      "years": [
+        2021,
+        2022
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/21-megane-r-s-trophy-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2021/2985665/renault_megane_rs_300_trophy_edc_renault_sport.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Mégane R.S. Trophy EDC Europe-market calibration and the overlapping 2021-2022 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1798,
+        "powerKw": 221,
+        "torqueNm": 420
+      }
+    },
+    {
+      "candidateId": "batch16r-mazda-mx-5-skyactiv-g-184-2018",
+      "maker": "Mazda",
+      "application": "MX-5 SKYACTIV-G 184 (ND)",
+      "years": [
+        2018,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/mazda/18-mx-5-skyactiv-g-184-roadster",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2018/2771300/mazda_mx-5_2_0_skyactiv-g_184.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact MX-5 SKYACTIV-G 184 (ND) Europe-market calibration and the overlapping 2018 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Natural",
+        "injection": "Direct Injection",
+        "displacementCc": 1998,
+        "powerKw": 135,
+        "torqueNm": 205
+      }
+    },
+    {
+      "candidateId": "batch16r-mercedes-benz-a45-amg-2013",
+      "maker": "Mercedes-Benz",
+      "application": "A 45 AMG 4MATIC",
+      "years": [
+        2013,
+        2013
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/mercedes/13-a-45-amg-4matic-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2013/1819880/mercedes-benz_a_45_amg.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact A 45 AMG 4MATIC Europe-market calibration and the overlapping 2013 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1991,
+        "powerKw": 265,
+        "torqueNm": 450
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-s1-quattro-2014",
+      "maker": "Audi",
+      "application": "S1 quattro (8X)",
+      "years": [
+        2014,
+        2014
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/14-s1-quattro-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2014/2042480/audi_s1.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact S1 quattro (8X) Europe-market calibration and the overlapping 2014 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1984,
+        "powerKw": 170,
+        "torqueNm": 370
+      }
+    },
+    {
+      "candidateId": "batch16r-bmw-m235i-xdrive-coupe-2014",
+      "maker": "BMW",
+      "application": "M235i xDrive Coupe",
+      "years": [
+        2014,
+        2014
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/bmw/14-m235i-xdrive-coupe",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2014/2083955/bmw_m235i_xdrive_coupe.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact M235i xDrive Coupe Europe-market calibration and the overlapping 2014 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 6",
+        "valvetrain": "DOHC",
+        "totalValves": 24,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 2979,
+        "powerKw": 240,
+        "torqueNm": 450
+      }
+    },
+    {
+      "candidateId": "batch16r-bmw-m140i-2016",
+      "maker": "BMW",
+      "application": "M140i 5-door StepTronic",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/bmw/16-m140i-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2407760/bmw_m140i_5-door_steptronic.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact M140i 5-door StepTronic Europe-market calibration and the overlapping 2016 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 6",
+        "valvetrain": "DOHC",
+        "totalValves": 24,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 2998,
+        "powerKw": 250,
+        "torqueNm": 500
+      }
+    },
+    {
+      "candidateId": "batch16r-ford-fiesta-st200-2016",
+      "maker": "Ford",
+      "application": "Fiesta ST200",
+      "years": [
+        2016,
+        2017
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/ford/16-fiesta-st200-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2353940/ford_fiesta_st200.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Fiesta ST200 Europe-market calibration and the overlapping 2016-2017 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1596,
+        "powerKw": 147,
+        "torqueNm": 290
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-rs3-sportback-2015",
+      "maker": "Audi",
+      "application": "RS3 Sportback (8V)",
+      "years": [
+        2015,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/15-rs3-sportback-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2015/2170850/audi_rs3_sportback.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact RS3 Sportback (8V) Europe-market calibration and the overlapping 2015-2016 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 5",
+        "valvetrain": "DOHC",
+        "totalValves": 20,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 2480,
+        "powerKw": 270,
+        "torqueNm": 465
+      }
+    },
+    {
+      "candidateId": "batch16r-peugeot-208-gti-peugeot-sport-2015",
+      "maker": "Peugeot",
+      "application": "208 GTi by Peugeot Sport",
+      "years": [
+        2015,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/peugeot/15-208-gti-by-peugeot-sport-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2015/2623865/peugeot_208_gti_by_peugeot_sport.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact 208 GTi by Peugeot Sport Europe-market calibration and the overlapping 2015-2018 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1598,
+        "powerKw": 153,
+        "torqueNm": 300
+      }
+    },
+    {
+      "candidateId": "batch16r-renault-clio-rs-200-2013",
+      "maker": "Renault",
+      "application": "Clio RS 200 EDC",
+      "years": [
+        2013,
+        2013
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/renault/13-clio-rs-200-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2013/2983310/renault_clio_rs_200_edc_renault_sport.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Clio RS 200 EDC Europe-market calibration and the overlapping 2013 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1618,
+        "powerKw": 147,
+        "torqueNm": 240
+      }
+    },
+    {
+      "candidateId": "batch16r-opel-astra-opc-2012",
+      "maker": "Opel",
+      "application": "Astra OPC",
+      "years": [
+        2012,
+        2015
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/opel/12-astra-opc-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2012/2532365/opel_astra_opc.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Astra OPC Europe-market calibration and the overlapping 2012-2015 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Multi-point",
+        "displacementCc": 1998,
+        "powerKw": 206,
+        "torqueNm": 400
+      }
+    },
+    {
+      "candidateId": "batch16r-bmw-m2-coupe-f87-2016",
+      "maker": "BMW",
+      "application": "M2 Coupe (F87)",
+      "years": [
+        2016,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/bmw/16-m2-coupe-f87",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2229470/bmw_m2_coupe.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact M2 Coupe (F87) Europe-market calibration and the overlapping 2016 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 6",
+        "valvetrain": "DOHC",
+        "totalValves": 24,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 2979,
+        "powerKw": 272,
+        "torqueNm": 465
+      }
+    },
+    {
+      "candidateId": "batch16r-audi-tt-rs-coupe-quattro-2016",
+      "maker": "Audi",
+      "application": "TT RS Coupé quattro (8S)",
+      "years": [
+        2016,
+        2018
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/16-tt-rs-coupe-quattro",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2016/2470640/audi_tt_rs_coupe_s-tronic.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact TT RS Coupé quattro (8S) Europe-market calibration and the overlapping 2016-2018 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 5",
+        "valvetrain": "DOHC",
+        "totalValves": 20,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 2480,
+        "powerKw": 294,
+        "torqueNm": 480
+      }
+    },
+    {
+      "candidateId": "batch16r-seat-leon-cupra-290-2015",
+      "maker": "SEAT",
+      "application": "Leon Cupra 290",
+      "years": [
+        2015,
+        2016
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/seat/15-leon-cupra-290-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2015/3097925/seat_leon_cupra_290_dsg.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Leon Cupra 290 Europe-market calibration and the overlapping 2015-2016 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1984,
+        "powerKw": 213,
+        "torqueNm": 350
+      }
+    },
+    {
+      "candidateId": "batch16r-skoda-octavia-rs-230-2017",
+      "maker": "Skoda",
+      "application": "Octavia RS 2.0 TSI 230",
+      "years": [
+        2017,
+        2019
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/skoda/17-octavia-vrs-230-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2017/3147035/skoda_octavia_rs_2_0_tsi_230.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Octavia RS 2.0 TSI 230 Europe-market calibration and the overlapping 2017-2019 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1984,
+        "powerKw": 169,
+        "torqueNm": 350
+      }
+    },
+    {
+      "candidateId": "batch16r-honda-civic-type-r-fl5-2023",
+      "maker": "Honda",
+      "application": "Civic Type R (FL5)",
+      "years": [
+        2023,
+        2023
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/honda/23-civic-type-r-fl5-hatch",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2023/3266420/honda_civic_type_r.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact Civic Type R (FL5) Europe-market calibration and the overlapping 2023 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1996,
+        "powerKw": 242,
+        "torqueNm": 420
+      }
+    },
+    {
+      "candidateId": "batch16r-mercedes-amg-a35-4matic-sedan-2019",
+      "maker": "Mercedes-Benz",
+      "application": "AMG A 35 4MATIC Sedan (V177)",
+      "years": [
+        2019,
+        2019
+      ],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/mercedes/19-amg-a-35-4matic-sedan",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "exact-variant heading, production years, Performance and engine specification sections"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2019/2875130/mercedes-amg_a_35_4matic_limousine_sedan.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data, Sales markets and Engine specifications sections"
+        }
+      },
+      "scopeLimitations": "Only the exact AMG A 35 4MATIC Sedan (V177) Europe-market calibration and the overlapping 2019 production interval are claimed.",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "configuration": "Inline 4",
+        "valvetrain": "DOHC",
+        "totalValves": 16,
+        "fuel": "Petrol",
+        "aspiration": "Turbo",
+        "injection": "Direct Injection",
+        "displacementCc": 1991,
+        "powerKw": 225,
+        "torqueNm": 400
+      }
     }
   ],
   "result": {
-    "qualified": 10,
-    "ready": 10,
-    "accepted": 0,
-    "consolidations": 0,
+    "qualified": 100,
+    "ready": 100,
     "holds": 1,
-    "rejected": 0,
-    "duplicateAuditRun": false,
-    "canonicalChanged": false,
-    "generatorRun": false,
+    "rejected": 29,
+    "accepted": 100,
+    "canonicalChanged": true,
+    "generatorRun": true,
     "enginesCheckRun": true,
-    "fullNpmTestRun": false,
-    "reason": "preliminary seed audit only; new source-first discovery counter starts at zero"
+    "fullNpmTestRun": true
+  },
+  "production": {
+    "initialProvisional": 110,
+    "removedCollisions": 29,
+    "retained": 81,
+    "replacements": 19,
+    "accepted": 100,
+    "removedCollisionIds": [
+      "batch16r-skoda-octavia-1-5-tsi-150-e-tec-2020",
+      "batch16r-skoda-octavia-combi-1-5-tsi-150-e-tec-2020",
+      "batch16r-skoda-octavia-1-5-tsi-150-2020",
+      "batch16r-skoda-octavia-1-0-tsi-110-e-tec-2020",
+      "batch16r-skoda-kodiaq-1-5-tsi-150-2021",
+      "batch16r-skoda-karoq-1-0-tsi-110-2022",
+      "batch16r-skoda-karoq-2-0-tdi-150-4x4-2022",
+      "batch16r-skoda-karoq-2-0-tdi-115-2022",
+      "batch16r-seat-ateca-2-0-tsi-4drive-190-2017",
+      "batch16r-seat-leon-sc-cupra-300-2017",
+      "batch16r-seat-tarraco-2-0-tdi-150-4drive-2019",
+      "batch16r-seat-leon-st-cupra-300-2017",
+      "batch16r-seat-arona-1-5-tsi-evo-fr-2017",
+      "batch16r-audi-a1-sportback-35-tfsi-2026",
+      "batch16r-peugeot-3008-puretech-130-2020",
+      "batch16r-renault-megane-grandtour-tce-140-2020",
+      "batch16r-renault-grand-scenic-energy-dci-110-2016",
+      "batch16r-skoda-kamiq-1-5-tsi-150-2020",
+      "batch16r-skoda-superb-1-5-tsi-150-2019",
+      "batch16r-kia-optima-sportswagon-2-0-t-gdi-jf-2016",
+      "batch16r-skoda-karoq-1-0-tsi-2020",
+      "batch16r-citroen-c5-x-puretech-180-2022",
+      "batch16r-citroen-c4-cactus-puretech-130-2018",
+      "batch16r-seat-ibiza-1-5-tsi-evo-fr-2017",
+      "batch16r-seat-tarraco-1-5-tsi-150-2019",
+      "batch16r-renault-scenic-energy-dci-160-2016",
+      "batch16r-kia-optima-2-0-jf-2016",
+      "batch16r-renault-grand-scenic-energy-tce-115-2016",
+      "batch16r-citroen-c5-aircross-puretech-130-2022"
+    ]
   }
 }

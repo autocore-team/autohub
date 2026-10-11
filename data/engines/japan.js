@@ -57955,5 +57955,662 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.japan = [
         }
       ]
     }
+  },
+  {
+    "id": "batch16r-honda-civic-type-r-fk2-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Honda 2.0 L Inline-4 turbocharged 228 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2015-2017",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic Type R (FK2) (Europe market, 2015-2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FK2) (Europe market, 2015-2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FK2) (Europe market, 2015-2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FK2) (Europe market, 2015-2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FK2) (Europe market, 2015-2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 228,
+        "max": 228
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-honda-civic-type-r-fk2-2015-a",
+        "batch16r-honda-civic-type-r-fk2-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic Type R (FK2) (Europe market, 2015-2017 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-honda-civic-type-r-fk2-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2017 Honda Civic Type R (FK2) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/honda/15-civic-type-r-fk2-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 228,
+              "max": 228
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 228 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Civic Type R (FK2) Europe-market calibration and the overlapping 2015-2017 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic Type R (FK2) (Europe market, 2015-2017 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-honda-civic-type-r-fk2-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015-2017 Honda Civic Type R (FK2) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2171660/honda_civic_type_r.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 228,
+              "max": 228
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 228 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Civic Type R (FK2) Europe-market calibration and the overlapping 2015-2017 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic Type R (FK2) (Europe market, 2015-2017 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-mazda-mx-5-skyactiv-g-184-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mazda 2.0 L Inline-4 naturallyAspirated 135 kW / 205 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mazda",
+    "regionKey": "japan",
+    "years": "2018",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-mazda-mx-5-skyactiv-g-184-2018-a",
+        "batch16r-mazda-mx-5-skyactiv-g-184-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-mazda-mx-5-skyactiv-g-184-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Mazda MX-5 SKYACTIV-G 184 (ND) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/mazda/18-mx-5-skyactiv-g-184-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 135 kW and 205 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact MX-5 SKYACTIV-G 184 (ND) Europe-market calibration and the overlapping 2018 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-mazda-mx-5-skyactiv-g-184-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Mazda MX-5 SKYACTIV-G 184 (ND) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2771300/mazda_mx-5_2_0_skyactiv-g_184.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, directInjection; 135 kW and 205 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact MX-5 SKYACTIV-G 184 (ND) Europe-market calibration and the overlapping 2018 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mazda MX-5 SKYACTIV-G 184 (ND) (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch16r-honda-civic-type-r-fl5-2023",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Honda 2.0 L Inline-4 turbocharged 242 kW / 420 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Honda",
+    "regionKey": "japan",
+    "years": "2023",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Honda Civic Type R (FL5) (Europe market, 2023 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FL5) (Europe market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FL5) (Europe market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FL5) (Europe market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Honda Civic Type R (FL5) (Europe market, 2023 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 242,
+        "max": 242
+      },
+      "torqueNm": {
+        "min": 420,
+        "max": 420
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch16r-honda-civic-type-r-fl5-2023-a",
+        "batch16r-honda-civic-type-r-fl5-2023-b"
+      ],
+      "scope": {
+        "applications": [
+          "Honda Civic Type R (FL5) (Europe market, 2023 specification)"
+        ],
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch16r-honda-civic-type-r-fl5-2023-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Honda Civic Type R (FL5) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2023,
+          "url": "https://www.encycarpedia.com/honda/23-civic-type-r-fl5-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 242,
+              "max": 242
+            },
+            "performance.torqueNm": {
+              "min": 420,
+              "max": 420
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 242 kW and 420 N·m. No shared engine code or stable public designation is claimed.",
+            "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Civic Type R (FL5) Europe-market calibration and the overlapping 2023 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic Type R (FL5) (Europe market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch16r-honda-civic-type-r-fl5-2023-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2023 Honda Civic Type R (FL5) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2023,
+          "url": "https://www.automobile-catalog.com/car/2023/3266420/honda_civic_type_r.html",
+          "page": 1,
+          "checkedAt": "2026-10-11",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 242,
+              "max": 242
+            },
+            "performance.torqueNm": {
+              "min": 420,
+              "max": 420
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 242 kW and 420 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Civic Type R (FL5) Europe-market calibration and the overlapping 2023 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Honda Civic Type R (FL5) (Europe market, 2023 specification)"
+            ],
+            "years": {
+              "from": 2023,
+              "to": 2023
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];

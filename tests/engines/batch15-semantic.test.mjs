@@ -14,7 +14,9 @@ const core = sandbox.window.D3_ENGINE_SEARCH_CORE;
 const data = readSourceData();
 const digest = (value) => crypto.createHash('sha256').update(canonicalFingerprint(value)).digest('hex');
 const baselineLimits = { europe: 537, japan: 445, korea: 65, 'north-america': 155, 'south-america': 0 };
+const checkpointLimits = { europe: 624, japan: 448, korea: 65, 'north-america': 165, 'south-america': 0 };
 const baseline = data.regionFiles.flatMap((file) => file.records.slice(0, baselineLimits[file.region]));
+const checkpoint = data.regionFiles.flatMap((file) => file.records.slice(0, checkpointLimits[file.region]));
 const added = data.records.filter((record) => record.id.startsWith('batch15-'));
 
 assert.equal(baseline.length, 1202);
@@ -37,11 +39,11 @@ assert.equal(fixture.records.length, 100);
 assert.equal(new Set(fixture.records.map((entry) => entry.id)).size, 100);
 assert.deepEqual(added.map((record) => record.id).sort(), fixture.records.map((entry) => entry.id).sort());
 assert.equal(added.length, 100);
-assert.equal(data.records.length, 1302);
-assert.equal(digest(data.records), '297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976');
+assert.equal(checkpoint.length, 1302);
+assert.equal(digest(checkpoint), '297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976');
 
 assert.deepEqual(Object.fromEntries(['europe', 'japan', 'korea', 'north-america', 'south-america'].map((region) => [region, data.records.filter((record) => record.regionKey === region).length])), {
-  europe: 624, japan: 448, korea: 65, 'north-america': 165, 'south-america': 0
+  europe: 715, japan: 451, korea: 65, 'north-america': 171, 'south-america': 0
 });
 assert.equal(new Set(added.map((record) => record.maker)).size, 14);
 assert.deepEqual(fixture.identityBreakdown, { applicationScopedSpecification: 100 });

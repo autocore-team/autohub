@@ -22915,6 +22915,1320 @@
           }
         ]
       }
+    },
+    {
+      "id": "batch16r-ford-fiesta-st-2013",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Ford 1.6 L Inline-4 turbocharged 134 kW / 240 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+            "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Ford",
+      "regionKey": "north-america",
+      "years": "2013-2017",
+      "displacement": "1.6 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Ford Fiesta ST (Europe market, 2013-2017 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST (Europe market, 2013-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST (Europe market, 2013-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST (Europe market, 2013-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST (Europe market, 2013-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 134,
+          "max": 134
+        },
+        "torqueNm": {
+          "min": 240,
+          "max": 240
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch16r-ford-fiesta-st-2013-a",
+          "batch16r-ford-fiesta-st-2013-b"
+        ],
+        "scope": {
+          "applications": [
+            "Ford Fiesta ST (Europe market, 2013-2017 specification)"
+          ],
+          "years": {
+            "from": 2013,
+            "to": 2017
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch16r-ford-fiesta-st-2013-a",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2013-2017 Ford Fiesta ST technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2013,
+            "url": "https://www.encycarpedia.com/ford/13-fiesta-st-hatch",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 134,
+                "max": 134
+              },
+              "performance.torqueNm": {
+                "min": 240,
+                "max": 240
+              }
+            },
+            "pageNotes": [
+              "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 134 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+              "exact variant heading; Performance; Petrol Engine. Scope limitation: Europe 134 kW / 240 Nm non-overboost specification only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Fiesta ST (Europe market, 2013-2017 specification)"
+              ],
+              "years": {
+                "from": 2013,
+                "to": 2017
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch16r-ford-fiesta-st-2013-b",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2013-2017 Ford Fiesta ST technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2013,
+            "url": "https://www.automobile-catalog.com/car/2013/1845800/ford_fiesta_st.html",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 134,
+                "max": 134
+              },
+              "performance.torqueNm": {
+                "min": 240,
+                "max": 240
+              }
+            },
+            "pageNotes": [
+              "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 134 kW and 240 N·m. No shared engine code or stable public designation is claimed.",
+              "Identification data; Sales markets; Engine specifications. Scope limitation: Europe 134 kW / 240 Nm non-overboost specification only. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Fiesta ST (Europe market, 2013-2017 specification)"
+              ],
+              "years": {
+                "from": 2013,
+                "to": 2017
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch16r-ford-puma-st-2021",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Ford 1.5 L Inline-3 turbocharged 147 kW / 320 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+            "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Ford",
+      "regionKey": "north-america",
+      "years": "2021",
+      "displacement": "1.5 L",
+      "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Ford Puma ST (Europe market, 2021 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; Ford Puma ST (Europe market, 2021 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; Ford Puma ST (Europe market, 2021 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; Ford Puma ST (Europe market, 2021 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; Ford Puma ST (Europe market, 2021 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 320,
+          "max": 320
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch16r-ford-puma-st-2021-a",
+          "batch16r-ford-puma-st-2021-b"
+        ],
+        "scope": {
+          "applications": [
+            "Ford Puma ST (Europe market, 2021 specification)"
+          ],
+          "years": {
+            "from": 2021,
+            "to": 2021
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch16r-ford-puma-st-2021-a",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2021 Ford Puma ST technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2021,
+            "url": "https://www.encycarpedia.com/ford/21-puma-st-suv",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 147,
+                "max": 147
+              },
+              "performance.torqueNm": {
+                "min": 320,
+                "max": 320
+              }
+            },
+            "pageNotes": [
+              "1.5 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 147 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+              "exact variant heading; Performance; Petrol Engine. Scope limitation: 2021 Europe exact calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Puma ST (Europe market, 2021 specification)"
+              ],
+              "years": {
+                "from": 2021,
+                "to": 2021
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch16r-ford-puma-st-2021-b",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2021 Ford Puma ST technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2021,
+            "url": "https://www.automobile-catalog.com/car/2021/2974205/ford_puma_st.html",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 147,
+                "max": 147
+              },
+              "performance.torqueNm": {
+                "min": 320,
+                "max": 320
+              }
+            },
+            "pageNotes": [
+              "1.5 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 147 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+              "Identification data; Sales markets; Engine specifications. Scope limitation: 2021 Europe exact calibration. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Puma ST (Europe market, 2021 specification)"
+              ],
+              "years": {
+                "from": 2021,
+                "to": 2021
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch16r-buick-encore-1-4t-2013",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Buick 1.4 L Inline-4 turbocharged 103 kW / 200 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+            "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Buick",
+      "regionKey": "north-america",
+      "years": "2013",
+      "displacement": "1.4 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Buick Encore 1.4T FWD (North America market, 2013 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Buick Encore 1.4T FWD (North America market, 2013 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Buick Encore 1.4T FWD (North America market, 2013 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Buick Encore 1.4T FWD (North America market, 2013 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Buick Encore 1.4T FWD (North America market, 2013 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 103,
+          "max": 103
+        },
+        "torqueNm": {
+          "min": 200,
+          "max": 200
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch16r-buick-encore-1-4t-2013-a",
+          "batch16r-buick-encore-1-4t-2013-b"
+        ],
+        "scope": {
+          "applications": [
+            "Buick Encore 1.4T FWD (North America market, 2013 specification)"
+          ],
+          "years": {
+            "from": 2013,
+            "to": 2013
+          },
+          "markets": [
+            "North America"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch16r-buick-encore-1-4t-2013-a",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2013 Buick Encore 1.4T FWD technical specification — Car and Driver",
+            "publisher": "Car and Driver",
+            "year": 2013,
+            "url": "https://www.caranddriver.com/reviews/a15116276/2013-buick-encore-first-drive-review/",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 103,
+                "max": 103
+              },
+              "performance.torqueNm": {
+                "min": 200,
+                "max": 200
+              }
+            },
+            "pageNotes": [
+              "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 103 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+              "2013 Encore exact review; Specifications panel. Scope limitation: 2013 North America FWD 103 kW / 200 Nm specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Buick Encore 1.4T FWD (North America market, 2013 specification)"
+              ],
+              "years": {
+                "from": 2013,
+                "to": 2013
+              },
+              "markets": [
+                "North America"
+              ]
+            },
+            "owner": "Hearst Autos",
+            "editorialTeam": "Car and Driver editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch16r-buick-encore-1-4t-2013-b",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2013 Buick Encore 1.4T FWD technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2013,
+            "url": "https://www.automobile-catalog.com/car/2013/1614860/buick_encore.html",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 103,
+                "max": 103
+              },
+              "performance.torqueNm": {
+                "min": 200,
+                "max": 200
+              }
+            },
+            "pageNotes": [
+              "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 103 kW and 200 N·m. No shared engine code or stable public designation is claimed.",
+              "Identification data; Sales markets; Engine specifications. Scope limitation: 2013 North America FWD 103 kW / 200 Nm specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Buick Encore 1.4T FWD (North America market, 2013 specification)"
+              ],
+              "years": {
+                "from": 2013,
+                "to": 2013
+              },
+              "markets": [
+                "North America"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch16r-infiniti-qx30-2-0t-2017",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 2.0 L Inline-4 turbocharged 155 kW / 350 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+            "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "north-america",
+      "years": "2017",
+      "displacement": "2.0 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 155,
+          "max": 155
+        },
+        "torqueNm": {
+          "min": 350,
+          "max": 350
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch16r-infiniti-qx30-2-0t-2017-a",
+          "batch16r-infiniti-qx30-2-0t-2017-b"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification)"
+          ],
+          "years": {
+            "from": 2017,
+            "to": 2017
+          },
+          "markets": [
+            "New Zealand"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch16r-infiniti-qx30-2-0t-2017-a",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2017 INFINITI QX30 2.0T AWD S Premium technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2017,
+            "url": "https://www.encycarpedia.com/infiniti/17-qx30-2-0t-suv",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 155,
+                "max": 155
+              },
+              "performance.torqueNm": {
+                "min": 350,
+                "max": 350
+              }
+            },
+            "pageNotes": [
+              "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 155 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+              "exact variant heading; Performance; Petrol Engine. Scope limitation: 2017 New Zealand 2.0T AWD S Premium specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification)"
+              ],
+              "years": {
+                "from": 2017,
+                "to": 2017
+              },
+              "markets": [
+                "New Zealand"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch16r-infiniti-qx30-2-0t-2017-b",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2017 INFINITI QX30 2.0T AWD S Premium technical specification — CarExpert New Zealand",
+            "publisher": "CarExpert New Zealand",
+            "year": 2017,
+            "url": "https://www.carexpert.co.nz/infiniti/infiniti-qx30/2017-s-premium-2l-sport-utility-vehicle-4x4-petrol-manual-josmagga20170701",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 155,
+                "max": 155
+              },
+              "performance.torqueNm": {
+                "min": 350,
+                "max": 350
+              }
+            },
+            "pageNotes": [
+              "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 155 kW and 350 N·m. No shared engine code or stable public designation is claimed.",
+              "2017 QX30 S Premium New Zealand Overview; Engine; Fuel System; Power. Scope limitation: 2017 New Zealand 2.0T AWD S Premium specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI QX30 2.0T AWD S Premium (New Zealand market, 2017 specification)"
+              ],
+              "years": {
+                "from": 2017,
+                "to": 2017
+              },
+              "markets": [
+                "New Zealand"
+              ]
+            },
+            "owner": "CarExpert New Zealand",
+            "editorialTeam": "CarExpert New Zealand editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch16r-ford-puma-1-7-1997",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Ford 1.7 L Inline-4 naturallyAspirated 92 kW / 157 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+            "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Ford",
+      "regionKey": "north-america",
+      "years": "1997",
+      "displacement": "1.7 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Ford Puma 1.7 (Europe market, 1997 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Ford Puma 1.7 (Europe market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Ford Puma 1.7 (Europe market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Ford Puma 1.7 (Europe market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Ford Puma 1.7 (Europe market, 1997 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 92,
+          "max": 92
+        },
+        "torqueNm": {
+          "min": 157,
+          "max": 157
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch16r-ford-puma-1-7-1997-a",
+          "batch16r-ford-puma-1-7-1997-b"
+        ],
+        "scope": {
+          "applications": [
+            "Ford Puma 1.7 (Europe market, 1997 specification)"
+          ],
+          "years": {
+            "from": 1997,
+            "to": 1997
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch16r-ford-puma-1-7-1997-a",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1997 Ford Puma 1.7 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 1997,
+            "url": "https://www.encycarpedia.com/ford/98-puma-1-7-coupe",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 92,
+                "max": 92
+              },
+              "performance.torqueNm": {
+                "min": 157,
+                "max": 157
+              }
+            },
+            "pageNotes": [
+              "1.7 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 92 kW and 157 N·m. No shared engine code or stable public designation is claimed.",
+              "exact variant heading; Performance; Petrol Engine. Scope limitation: 1997 Europe 1.7 specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Puma 1.7 (Europe market, 1997 specification)"
+              ],
+              "years": {
+                "from": 1997,
+                "to": 1997
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch16r-ford-puma-1-7-1997-b",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1997 Ford Puma 1.7 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 1997,
+            "url": "https://www.automobile-catalog.com/car/1997/954845/ford_puma_1_7.html",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 92,
+                "max": 92
+              },
+              "performance.torqueNm": {
+                "min": 157,
+                "max": 157
+              }
+            },
+            "pageNotes": [
+              "1.7 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 92 kW and 157 N·m. No shared engine code or stable public designation is claimed.",
+              "Identification data; Sales markets; Engine specifications. Scope limitation: 1997 Europe 1.7 specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Puma 1.7 (Europe market, 1997 specification)"
+              ],
+              "years": {
+                "from": 1997,
+                "to": 1997
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch16r-ford-fiesta-st200-2016",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "Ford 1.6 L Inline-4 turbocharged 147 kW / 290 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and mandatory technical specification.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+            "Similar model-family candidates remain separate where neither exact-variant source covers the other application scope."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "Ford",
+      "regionKey": "north-america",
+      "years": "2016-2017",
+      "displacement": "1.6 L",
+      "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "turbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "Ford Fiesta ST200 (Europe market, 2016-2017 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST200 (Europe market, 2016-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST200 (Europe market, 2016-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST200 (Europe market, 2016-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Ford Fiesta ST200 (Europe market, 2016-2017 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 147,
+          "max": 147
+        },
+        "torqueNm": {
+          "min": 290,
+          "max": 290
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch16r-ford-fiesta-st200-2016-a",
+          "batch16r-ford-fiesta-st200-2016-b"
+        ],
+        "scope": {
+          "applications": [
+            "Ford Fiesta ST200 (Europe market, 2016-2017 specification)"
+          ],
+          "years": {
+            "from": 2016,
+            "to": 2017
+          },
+          "markets": [
+            "Europe"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch16r-ford-fiesta-st200-2016-a",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2016-2017 Ford Fiesta ST200 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2016,
+            "url": "https://www.encycarpedia.com/ford/16-fiesta-st200-hatch",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 147,
+                "max": 147
+              },
+              "performance.torqueNm": {
+                "min": 290,
+                "max": 290
+              }
+            },
+            "pageNotes": [
+              "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 147 kW and 290 N·m. No shared engine code or stable public designation is claimed.",
+              "exact-variant heading, production years, Performance and engine specification sections. Scope limitation: Only the exact Fiesta ST200 Europe-market calibration and the overlapping 2016-2017 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Fiesta ST200 (Europe market, 2016-2017 specification)"
+              ],
+              "years": {
+                "from": 2016,
+                "to": 2017
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch16r-ford-fiesta-st200-2016-b",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2016-2017 Ford Fiesta ST200 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2016,
+            "url": "https://www.automobile-catalog.com/car/2016/2353940/ford_fiesta_st200.html",
+            "page": 1,
+            "checkedAt": "2026-10-11",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 147,
+                "max": 147
+              },
+              "performance.torqueNm": {
+                "min": 290,
+                "max": 290
+              }
+            },
+            "pageNotes": [
+              "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 147 kW and 290 N·m. No shared engine code or stable public designation is claimed.",
+              "Identification data, Sales markets and Engine specifications sections. Scope limitation: Only the exact Fiesta ST200 Europe-market calibration and the overlapping 2016-2017 production interval are claimed.. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "Ford Fiesta ST200 (Europe market, 2016-2017 specification)"
+              ],
+              "years": {
+                "from": 2016,
+                "to": 2017
+              },
+              "markets": [
+                "Europe"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
     }
   ]
 }
