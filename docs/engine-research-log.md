@@ -1718,3 +1718,17 @@ Two consolidations were proposed and accepted:
 No other Batch 15 record was consolidated. Every other accepted scope has one application because the audit did not establish a second application with the same engine identity/family, construction, injection/aspiration and calibration. Numeric displacement/power/torque similarity alone was not used.
 
 The first 1202 records and regional order are unchanged, with semantic SHA-256 `fdde0fa624ff1ec32f9abb60b5759df7b413ca16d5af1391e946dd2c083b61f2`. Result: 1302 records, 1213 verified and 89 legacyPending. Full semantic SHA-256: `297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976`.
+
+## Engine Batch 16R — evidence-qualified discovery gate (2026-10-10)
+
+Batch 16R started from clean `main` at `8a4ed660fe529496bba240a9e403aadb0c6aa968`. The failed Batch 16 research and its 11 ready seeds remain preserved in the named stash on the unpublished `feature/engine-throughput-batch-16` branch; the stash was inspected read-only and was not applied. No old Batch 16 file was restored.
+
+This is a preliminary seed audit, not a completed discovery gate. Exactly 11 permitted seeds were reverified: 10 remain qualified and Holden Astra VXR returned to hold because both saved URLs use the same `australiancar.reviews` registrable domain and therefore cannot form an independent Tier B pair. The previously reported 97 baseline duplicate controls and 292 old Batch 13-15 evidence holds are negative/reference controls only. They are not new discovery leads and are excluded from the Batch 16R discovery counter.
+
+The 10 qualified candidates cover Ford (3), DS Automobiles (3), Buick (1), Abarth (1), INFINITI (1) and Lotus (1). They therefore miss both gates: 10 is below the required 100 ready records, and six manufacturers are below the required eight. All 10 retain `applicationScopedSpecification` as the proposed honest identity. No model or trim is presented as an engine designation.
+
+The readiness matrix is stored in `tests/engines/fixtures/batch16r-readiness.json`. Every mandatory field is explicit or uses one of two permitted deterministic constructions: explicit cylinder count multiplied by explicit valves per cylinder, and inline layout plus explicit DOHC yielding two total camshafts. Source references and locations are attached to every qualified candidate; RPM is optional and is not used as a readiness blocker. The encyCARpedia and Automobile-Catalog pairs reuse the established editorial-independence decision. Official-plus-editorial pairs identify distinct publishers and registrable domains.
+
+The four documented calibration variants (Lincoln Mark VIII, Oldsmobile Cutlass Supreme 3.4, Abarth Grande Punto and INFINITI J30 / Nissan Leopard J. Ferie) remain excluded. No performance ranges were formed, and no unresolved calibration was selected arbitrarily.
+
+The new source-first discovery counter starts at zero. Work continues until the combined ready total reaches 110 or 400 genuinely new exact-page leads have been checked. Duplicate/consolidation audit and production remain blocked until that gate. Canonical regional JSON, generated files, counts and hashes remain unchanged: 1302 records, 1213 verified, 89 legacyPending, semantic SHA-256 `297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976`. The dedicated Batch 16R readiness test and `npm run engines:check` pass; no generator write was run, and the full npm suite remains intentionally deferred.

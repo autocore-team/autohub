@@ -1,0 +1,232 @@
+{
+  "batch": "16R",
+  "baseline": {
+    "head": "8a4ed660fe529496bba240a9e403aadb0c6aa968",
+    "records": 1302,
+    "verified": 1213,
+    "legacyPending": 89,
+    "semanticHash": "297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976"
+  },
+  "preliminarySeedAudit": {
+    "checked": 11,
+    "qualified": 10,
+    "holds": 1,
+    "hold": {
+      "scope": "2015 Holden Astra VXR",
+      "reason": "Both saved publications use the australiancar.reviews registrable domain and do not form an independent Tier B pair."
+    }
+  },
+  "newDiscovery": {
+    "limit": 400,
+    "checked": 0,
+    "outcomes": {
+      "qualified": 0,
+      "holds": 0,
+      "rejected": 0
+    },
+    "excludedFromCounter": [
+      "baseline 1302 records and duplicate controls",
+      "failed Batch 16 pool and calibration-only cases",
+      "Batch 13-15 holds",
+      "the 11 reverified seeds"
+    ],
+    "stopAtReadyTotal": 110,
+    "stopAtNewLeads": 400,
+    "productionGatePassed": false
+  },
+  "deferredCalibrationCases": [
+    "Lincoln Mark VIII",
+    "Oldsmobile Cutlass Supreme 3.4",
+    "Abarth Grande Punto",
+    "INFINITI J30 / Nissan Leopard J. Ferie"
+  ],
+  "matrixFormat": {
+    "fieldValue": "[status, sourceRefs, locations, optional formula]",
+    "allowedStatuses": ["explicit", "derived", "missing"]
+  },
+  "coverageProfiles": {
+    "inlineDohcExactApplication": {
+      "identity": ["explicit", ["a", "b"], ["exact application/variant binding", "exact identification/specification binding"]],
+      "maker": ["explicit", ["a", "b"], ["exact-variant heading", "make/identification"]],
+      "application": ["explicit", ["a", "b"], ["exact-variant heading", "identification/specification heading"]],
+      "years": ["explicit", ["a", "b"], ["production interval/model year", "production/sales period"]],
+      "market": ["explicit", ["a", "b"], ["regional exact publication", "sales/specification market"]],
+      "displacement": ["explicit", ["a", "b"], ["engine section", "engine specifications"]],
+      "cylinderLayout": ["explicit", ["a", "b"], ["configuration/layout", "cylinders alignment"]],
+      "valvetrain": ["explicit", ["a", "b"], ["valvetrain", "engine specifications"]],
+      "totalValves": ["derived", ["a", "b"], ["cylinder count and valves per cylinder", "cylinders alignment and valves per cylinder"], "explicit cylinder count × explicit valves per cylinder = total valves"],
+      "totalCamshafts": ["derived", ["a", "b"], ["inline layout and explicit DOHC", "line layout and explicit DOHC"], "inline engine + explicit DOHC = 2 camshafts total"],
+      "fuel": ["explicit", ["a", "b"], ["engine/fuel section", "fuel type"]],
+      "injection": ["explicit", ["a", "b"], ["fuel delivery/injection", "fuel system"]],
+      "aspiration": ["explicit", ["a", "b"], ["aspiration", "charge system"]],
+      "power": ["explicit", ["a", "b"], ["performance/peak power", "horsepower net/specification"]],
+      "torque": ["explicit", ["a", "b"], ["performance/peak torque", "torque net/specification"]]
+    }
+  },
+  "qualifiedCandidates": [
+    {
+      "candidateId": "batch16r-ford-fiesta-st-2013",
+      "maker": "Ford",
+      "application": "Fiesta ST",
+      "years": [2013, 2017],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/ford/13-fiesta-st-hatch", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/2013/1845800/ford_fiesta_st.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+      },
+      "scopeLimitations": "Europe 134 kW / 240 Nm non-overboost specification only",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-ford-puma-st-2021",
+      "maker": "Ford",
+      "application": "Puma ST",
+      "years": [2021, 2021],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/ford/21-puma-st-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/2021/2974205/ford_puma_st.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+      },
+      "scopeLimitations": "2021 Europe exact calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-ds3-crossback-puretech-155-2019",
+      "maker": "DS Automobiles",
+      "application": "DS 3 Crossback PureTech 155",
+      "years": [2019, 2019],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/ds/19-ds-3-crossback-puretech-155-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/2019/2969870/ds_3_crossback_1_2_puretech_155_eat8.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+      },
+      "scopeLimitations": "PureTech 155 EAT8 calibration only",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-ds7-bluehdi-180-2018",
+      "maker": "DS Automobiles",
+      "application": "DS 7 Crossback BlueHDi 180",
+      "years": [2018, 2018],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/ds/18-ds-7-crossback-bluehdi-180-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Diesel Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/2018/2626550/ds_7_crossback_bluehdi_180.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+      },
+      "scopeLimitations": "BlueHDi 180 exact calibration only",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-buick-encore-1-4t-2013",
+      "maker": "Buick",
+      "application": "Encore 1.4T",
+      "years": [2013, 2013],
+      "market": "North America",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://media.gm.ca/content/dam/Media/documents/CN/Vehicle_Spec/Buick_Encore_Product_Specification.pdf", "publisher": "General Motors Canada", "hostname": "media.gm.ca", "location": "2013 Buick Encore product specification table" },
+        "b": { "url": "https://www.caranddriver.com/buick/encore/specs/2013/buick_encore_buick-encore_2013", "publisher": "Car and Driver", "hostname": "www.caranddriver.com", "location": "2013 exact vehicle specifications" }
+      },
+      "scopeLimitations": "2013 North America 1.4 turbo calibration",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-abarth-695-biposto-2014",
+      "maker": "Abarth",
+      "application": "695 Biposto",
+      "years": [2014, 2014],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.media.stellantis.com/uploads/em/2014/ABARTH/schede_tecniche/141202_Abarth_technical_sheet_695-biposto_ENG.pdf", "publisher": "Abarth / Stellantis Media", "hostname": "www.media.stellantis.com", "location": "695 Biposto technical sheet" },
+        "b": { "url": "https://www.encycarpedia.com/abarth/14-695-biposto-hatch", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" }
+      },
+      "scopeLimitations": "695 Biposto factory calibration only",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-infiniti-qx30-2-0t-2017",
+      "maker": "INFINITI",
+      "application": "QX30 2.0T",
+      "years": [2017, 2017],
+      "market": "New Zealand",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www-asia.infiniti-cdn.net/content/dam/Infiniti/newzealand/brochures/QX30_Brochure_Low_Res_Sept17.pdf", "publisher": "INFINITI", "hostname": "www-asia.infiniti-cdn.net", "location": "QX30 brochure engine and performance specifications" },
+        "b": { "url": "https://www.encycarpedia.com/infiniti/17-qx30-2-0t-suv", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" }
+      },
+      "scopeLimitations": "2017 New Zealand 2.0T specification",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-ford-puma-1-7-1997",
+      "maker": "Ford",
+      "application": "Puma 1.7",
+      "years": [1997, 1997],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/es/ford/97-puma", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Petrol Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/1997/954845/ford_puma_1_7.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+      },
+      "scopeLimitations": "1997 Europe 1.7 specification",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-lotus-2-eleven-2007",
+      "maker": "Lotus",
+      "application": "2-Eleven road-going version",
+      "years": [2007, 2007],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/lotus/07-2-eleven-roadster", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact road-going variant; Performance; Petrol Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/2007/1436360/lotus_2-eleven_launch_edition_road_going_version.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "road-going variant Identification data and Engine specifications" }
+      },
+      "scopeLimitations": "road-going Launch Edition; racing-only scopes excluded",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    },
+    {
+      "candidateId": "batch16r-ds4-bluehdi-180-2015",
+      "maker": "DS Automobiles",
+      "application": "DS 4 BlueHDi 180",
+      "years": [2015, 2015],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": { "url": "https://www.encycarpedia.com/ds/15-ds-4-bluehdi-180-hatch", "publisher": "encyCARpedia", "hostname": "www.encycarpedia.com", "location": "exact variant heading; Performance; Diesel Engine" },
+        "b": { "url": "https://www.automobile-catalog.com/car/2015/2139965/citroen_ds4_bluehdi_180_sportchic_automatic.html", "publisher": "Automobile-Catalog / ProfessCars", "hostname": "www.automobile-catalog.com", "location": "Identification data; Sales markets; Engine specifications" }
+      },
+      "scopeLimitations": "2015 SportChic automatic calibration only",
+      "duplicatePrecheck": "clear against 1302-record baseline",
+      "coverageProfile": "inlineDohcExactApplication"
+    }
+  ],
+  "result": {
+    "qualified": 10,
+    "ready": 10,
+    "accepted": 0,
+    "consolidations": 0,
+    "holds": 1,
+    "rejected": 0,
+    "duplicateAuditRun": false,
+    "canonicalChanged": false,
+    "generatorRun": false,
+    "enginesCheckRun": true,
+    "fullNpmTestRun": false,
+    "reason": "preliminary seed audit only; new source-first discovery counter starts at zero"
+  }
+}
