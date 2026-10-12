@@ -1,0 +1,265 @@
+{
+  "batch": "17",
+  "baseline": {
+    "head": "ad2d2c83609446498a327372d1d5b0d21811975e",
+    "records": 1402,
+    "verified": 1313,
+    "legacyPending": 89,
+    "semanticHash": "9d59b7f6c29489f2eb1de47662412d16ce6cd0bd6b0db8431a2fc782e76b7a23"
+  },
+  "discovery": {
+    "checked": 5,
+    "outcomes": {
+      "qualified": 5,
+      "holds": 0,
+      "rejected": 0
+    },
+    "productionTarget": 100,
+    "productionGatePassed": false
+  },
+  "matrixFormat": {
+    "fieldValue": "[status, sourceRefs, locations, optional formula]",
+    "allowedStatuses": ["explicit", "derived", "missing"]
+  },
+  "coverageProfiles": {
+    "inlineDohcExactApplication": {
+      "identity": ["explicit", ["a", "b"], ["exact variant heading", "exact identification/specification heading"]],
+      "maker": ["explicit", ["a", "b"], ["exact variant heading", "make/identification"]],
+      "application": ["explicit", ["a", "b"], ["exact variant heading", "identification/specification heading"]],
+      "years": ["explicit", ["a", "b"], ["production interval", "production/model-year interval"]],
+      "market": ["explicit", ["a", "b"], ["regional publication", "sales/specification market"]],
+      "displacement": ["explicit", ["a", "b"], ["engine section", "engine specifications"]],
+      "cylinderLayout": ["explicit", ["a", "b"], ["configuration", "cylinders alignment"]],
+      "valvetrain": ["explicit", ["a", "b"], ["valvetrain", "engine specifications"]],
+      "totalValves": ["derived", ["a", "b"], ["cylinder count and valves per cylinder", "cylinders alignment and valves per cylinder"], "explicit cylinder count x explicit valves per cylinder = total valves"],
+      "totalCamshafts": ["derived", ["a", "b"], ["inline layout and explicit DOHC", "line layout and explicit DOHC"], "inline engine + explicit DOHC = 2 camshafts total"],
+      "fuel": ["explicit", ["a", "b"], ["engine/fuel section", "fuel type"]],
+      "injection": ["explicit", ["a", "b"], ["fuel delivery", "fuel system"]],
+      "aspiration": ["explicit", ["a", "b"], ["aspiration", "charge system"]],
+      "power": ["explicit", ["a", "b"], ["peak power", "horsepower net/specification"]],
+      "torque": ["explicit", ["a", "b"], ["peak torque", "torque net/specification"]]
+    },
+    "veeDohcExactApplication": {
+      "identity": ["explicit", ["a", "b"], ["exact variant heading", "exact identification/specification heading"]],
+      "maker": ["explicit", ["a", "b"], ["exact variant heading", "make/identification"]],
+      "application": ["explicit", ["a", "b"], ["exact variant heading", "identification/specification heading"]],
+      "years": ["explicit", ["a", "b"], ["production interval", "production/model-year interval"]],
+      "market": ["explicit", ["a", "b"], ["regional publication", "sales/specification market"]],
+      "displacement": ["explicit", ["a", "b"], ["engine section", "engine specifications"]],
+      "cylinderLayout": ["explicit", ["a", "b"], ["configuration", "cylinders alignment"]],
+      "valvetrain": ["explicit", ["a", "b"], ["valvetrain", "engine specifications"]],
+      "totalValves": ["derived", ["a", "b"], ["cylinder count and valves per cylinder", "cylinders alignment and valves per cylinder"], "explicit cylinder count x explicit valves per cylinder = total valves"],
+      "totalCamshafts": ["derived", ["a", "b"], ["V layout and explicit DOHC", "V layout and explicit DOHC"], "V engine + explicit DOHC = 4 camshafts total"],
+      "fuel": ["explicit", ["a", "b"], ["engine/fuel section", "fuel type"]],
+      "injection": ["explicit", ["a", "b"], ["fuel delivery", "fuel system"]],
+      "aspiration": ["explicit", ["a", "b"], ["aspiration", "charge system"]],
+      "power": ["explicit", ["a", "b"], ["peak power", "horsepower net/specification"]],
+      "torque": ["explicit", ["a", "b"], ["peak torque", "torque net/specification"]]
+    }
+  },
+  "qualifiedCandidates": [
+    {
+      "candidateId": "batch17-mercedes-e200-w214-2024",
+      "maker": "Mercedes-Benz",
+      "application": "E 200 (W214)",
+      "years": [2024, 2024],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/mercedes/24-e-200-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "2024 W214 exact heading; Performance; Petrol Engine - Mild Hybrid"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2024/3210545/mercedes-benz_e_200.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Europe sales market; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2024 Europe rear-wheel-drive W214 E 200 specification",
+      "duplicatePrecheck": "clear against 1402-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 1999,
+        "configuration": "Inline 4",
+        "aspiration": "Turbo",
+        "powerKw": 150,
+        "torqueNm": 320,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 16,
+        "totalCamshafts": 2,
+        "injection": "Direct Injection",
+        "fuel": "Petrol"
+      }
+    },
+    {
+      "candidateId": "batch17-bmw-m4-competition-rwd-2024",
+      "maker": "BMW",
+      "application": "M4 Competition Coupe RWD (G82)",
+      "years": [2024, 2024],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/bmw/24-m4-competition-coupe-g82",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "2024 G82 exact RWD heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2024/3312950/bmw_m4_competition_coupe.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Europe sales market; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2024 Europe rear-wheel-drive 375 kW calibration; xDrive excluded",
+      "duplicatePrecheck": "clear against 1402-record baseline",
+      "coverageProfile": "inlineDohcExactApplication",
+      "spec": {
+        "displacementCc": 2993,
+        "configuration": "Inline 6",
+        "aspiration": "Bi-Turbo",
+        "powerKw": 375,
+        "torqueNm": 650,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 24,
+        "totalCamshafts": 2,
+        "injection": "Direct Injection",
+        "fuel": "Petrol"
+      }
+    },
+    {
+      "candidateId": "batch17-audi-rs6-avant-gt-2024",
+      "maker": "Audi",
+      "application": "RS 6 Avant GT (C8)",
+      "years": [2024, 2025],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/audi/24-rs-6-avant-gt-estate",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "2024 C8 GT exact heading; Performance; Petrol Engine - Mild Hybrid"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2024/3317375/audi_rs6_avant_gt.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Europe special-edition interval; Engine specifications"
+        }
+      },
+      "scopeLimitations": "Europe RS 6 Avant GT special edition only; standard Performance variant excluded",
+      "duplicatePrecheck": "clear against 1402-record baseline",
+      "coverageProfile": "veeDohcExactApplication",
+      "spec": {
+        "displacementCc": 3996,
+        "configuration": "V8",
+        "aspiration": "Bi-Turbo",
+        "powerKw": 463,
+        "torqueNm": 850,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 32,
+        "totalCamshafts": 4,
+        "injection": "Direct Injection",
+        "fuel": "Petrol"
+      }
+    },
+    {
+      "candidateId": "batch17-porsche-panamera-4-2024",
+      "maker": "Porsche",
+      "application": "Panamera 4 (third generation)",
+      "years": [2024, 2024],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/porsche/24-panamera-4-saloon",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "2024 Panamera 4 exact heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://www.automobile-catalog.com/car/2024/3311390/porsche_panamera_4.html",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "hostname": "www.automobile-catalog.com",
+          "location": "Identification data; Europe sales market; Engine specifications"
+        }
+      },
+      "scopeLimitations": "2024 Europe non-hybrid Panamera 4 259.5 kW specification",
+      "duplicatePrecheck": "clear against 1402-record baseline",
+      "coverageProfile": "veeDohcExactApplication",
+      "spec": {
+        "displacementCc": 2894,
+        "configuration": "V6",
+        "aspiration": "Bi-Turbo",
+        "powerKw": 259.5,
+        "torqueNm": 500,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 24,
+        "totalCamshafts": 4,
+        "injection": "Direct Injection",
+        "fuel": "Petrol"
+      }
+    },
+    {
+      "candidateId": "batch17-ford-mustang-dark-horse-eu-2024",
+      "maker": "Ford",
+      "application": "Mustang Dark Horse Coupe",
+      "years": [2024, 2024],
+      "market": "Europe",
+      "proposedIdentityType": "applicationScopedSpecification",
+      "sources": {
+        "a": {
+          "url": "https://www.encycarpedia.com/ford/23-mustang-dark-horse-coupe",
+          "publisher": "encyCARpedia",
+          "hostname": "www.encycarpedia.com",
+          "location": "Dark Horse exact heading; Performance; Petrol Engine"
+        },
+        "b": {
+          "url": "https://media.ford.com/content/dam/fordmedia/Europe/en/2024/01/NewMustang/2024_Ford_Mustang_technical_specification_EU.pdf",
+          "publisher": "Ford of Europe",
+          "hostname": "media.ford.com",
+          "location": "2024 Mustang EU technical specification; Dark Horse powertrain column"
+        }
+      },
+      "scopeLimitations": "2024 European 373 kW / 567 Nm Dark Horse calibration only",
+      "duplicatePrecheck": "clear against 1402-record baseline",
+      "coverageProfile": "veeDohcExactApplication",
+      "spec": {
+        "displacementCc": 5038,
+        "configuration": "V8",
+        "aspiration": "Natural",
+        "powerKw": 373,
+        "torqueNm": 567,
+        "valvetrain": "DOHC",
+        "valvesPerCylinder": 4,
+        "totalValves": 32,
+        "totalCamshafts": 4,
+        "injection": "Direct + Port Injection",
+        "fuel": "Petrol"
+      }
+    }
+  ],
+  "result": {
+    "qualified": 5,
+    "ready": 5,
+    "holds": 0,
+    "rejected": 0,
+    "accepted": 0,
+    "duplicateAuditRun": true,
+    "canonicalChanged": false,
+    "generatorRun": false,
+    "enginesCheckRun": true,
+    "fullNpmTestRun": true,
+    "reason": "initial source-first Batch 17 discovery checkpoint; production gate remains closed"
+  }
+}
