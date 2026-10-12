@@ -42,8 +42,8 @@ assert.equal(added.length, 100);
 assert.equal(checkpoint.length, 1302);
 assert.equal(digest(checkpoint), '297fb778b9888a52c0fa38e03e8d7632a67ebd4f9aa3f9141b9c5d9ca1586976');
 
-assert.deepEqual(Object.fromEntries(['europe', 'japan', 'korea', 'north-america', 'south-america'].map((region) => [region, data.records.filter((record) => record.regionKey === region).length])), {
-  europe: 715, japan: 451, korea: 65, 'north-america': 171, 'south-america': 0
+assert.deepEqual(Object.fromEntries(['europe', 'japan', 'korea', 'north-america', 'south-america'].map((region) => [region, checkpoint.filter((record) => record.regionKey === region).length])), {
+  europe: 624, japan: 448, korea: 65, 'north-america': 165, 'south-america': 0
 });
 assert.equal(new Set(added.map((record) => record.maker)).size, 14);
 assert.deepEqual(fixture.identityBreakdown, { applicationScopedSpecification: 100 });

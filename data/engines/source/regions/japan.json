@@ -58610,6 +58610,1332 @@
           }
         ]
       }
+    },
+    {
+      "id": "batch17-q45-1990",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 4.5 L V8 naturallyAspirated 207 kW / 396 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "japan",
+      "years": "1990",
+      "displacement": "4.5 L",
+      "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI Q45 (United States/Canada market, 1990 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI Q45 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI Q45 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI Q45 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI Q45 (United States/Canada market, 1990 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 207,
+          "max": 207
+        },
+        "torqueNm": {
+          "min": 396,
+          "max": 396
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch17-q45-1990-ency",
+          "batch17-q45-1990-ac"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI Q45 (United States/Canada market, 1990 specification)"
+          ],
+          "years": {
+            "from": 1990,
+            "to": 1990
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch17-q45-1990-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1990 INFINITI Q45 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 1990,
+            "url": "https://www.encycarpedia.com/us/infiniti/90-q45-sedan",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 207,
+                "max": 207
+              },
+              "performance.torqueNm": {
+                "min": 396,
+                "max": 396
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 4.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 207 kW and 396 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI Q45 (United States/Canada market, 1990 specification)"
+              ],
+              "years": {
+                "from": 1990,
+                "to": 1990
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch17-q45-1990-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "1990 INFINITI Q45 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 1990,
+            "url": "https://www.automobile-catalog.com/car/1990/2165765/infiniti_q45.html",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 207,
+                "max": 207
+              },
+              "performance.torqueNm": {
+                "min": 396,
+                "max": 396
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 4.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 207 kW and 396 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI Q45 (United States/Canada market, 1990 specification)"
+              ],
+              "years": {
+                "from": 1990,
+                "to": 1990
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch17-g35-2003",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 3.5 L V6 naturallyAspirated 194 kW / 353 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "japan",
+      "years": "2003",
+      "displacement": "3.5 L",
+      "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI G35 (United States/Canada market, 2003 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; INFINITI G35 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; INFINITI G35 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; INFINITI G35 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; INFINITI G35 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 194,
+          "max": 194
+        },
+        "torqueNm": {
+          "min": 353,
+          "max": 353
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch17-g35-2003-ency",
+          "batch17-g35-2003-ac"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI G35 (United States/Canada market, 2003 specification)"
+          ],
+          "years": {
+            "from": 2003,
+            "to": 2003
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch17-g35-2003-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2003 INFINITI G35 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2003,
+            "url": "https://www.encycarpedia.com/us/infiniti/03-g35-sedan",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 194,
+                "max": 194
+              },
+              "performance.torqueNm": {
+                "min": 353,
+                "max": 353
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 194 kW and 353 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI G35 (United States/Canada market, 2003 specification)"
+              ],
+              "years": {
+                "from": 2003,
+                "to": 2003
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch17-g35-2003-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2003 INFINITI G35 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2003,
+            "url": "https://www.automobile-catalog.com/car/2003/2166815/infiniti_g35.html",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 194,
+                "max": 194
+              },
+              "performance.torqueNm": {
+                "min": 353,
+                "max": 353
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 3.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 194 kW and 353 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI G35 (United States/Canada market, 2003 specification)"
+              ],
+              "years": {
+                "from": 2003,
+                "to": 2003
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch17-fx45-2003",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 4.5 L V8 naturallyAspirated 235 kW / 446 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "japan",
+      "years": "2003",
+      "displacement": "4.5 L",
+      "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI FX45 (United States/Canada market, 2003 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI FX45 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI FX45 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI FX45 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI FX45 (United States/Canada market, 2003 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 235,
+          "max": 235
+        },
+        "torqueNm": {
+          "min": 446,
+          "max": 446
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch17-fx45-2003-ency",
+          "batch17-fx45-2003-ac"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI FX45 (United States/Canada market, 2003 specification)"
+          ],
+          "years": {
+            "from": 2003,
+            "to": 2003
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch17-fx45-2003-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2003 INFINITI FX45 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2003,
+            "url": "https://www.encycarpedia.com/us/infiniti/03-fx45-suv",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 235,
+                "max": 235
+              },
+              "performance.torqueNm": {
+                "min": 446,
+                "max": 446
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 4.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 235 kW and 446 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI FX45 (United States/Canada market, 2003 specification)"
+              ],
+              "years": {
+                "from": 2003,
+                "to": 2003
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch17-fx45-2003-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2003 INFINITI FX45 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2003,
+            "url": "https://www.automobile-catalog.com/car/2003/2168285/infiniti_fx45.html",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 235,
+                "max": 235
+              },
+              "performance.torqueNm": {
+                "min": 446,
+                "max": 446
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 4.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 235 kW and 446 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI FX45 (United States/Canada market, 2003 specification)"
+              ],
+              "years": {
+                "from": 2003,
+                "to": 2003
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch17-m45-2006",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 4.5 L V8 naturallyAspirated 250 kW / 451 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "japan",
+      "years": "2006",
+      "displacement": "4.5 L",
+      "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI M45 (United States/Canada market, 2006 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI M45 (United States/Canada market, 2006 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI M45 (United States/Canada market, 2006 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI M45 (United States/Canada market, 2006 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.5 L; INFINITI M45 (United States/Canada market, 2006 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 250,
+          "max": 250
+        },
+        "torqueNm": {
+          "min": 451,
+          "max": 451
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch17-m45-2006-ency",
+          "batch17-m45-2006-ac"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI M45 (United States/Canada market, 2006 specification)"
+          ],
+          "years": {
+            "from": 2006,
+            "to": 2006
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch17-m45-2006-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2006 INFINITI M45 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2006,
+            "url": "https://www.encycarpedia.com/us/infiniti/06-m45-sedan",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 250,
+                "max": 250
+              },
+              "performance.torqueNm": {
+                "min": 451,
+                "max": 451
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 4.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 250 kW and 451 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI M45 (United States/Canada market, 2006 specification)"
+              ],
+              "years": {
+                "from": 2006,
+                "to": 2006
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch17-m45-2006-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2006 INFINITI M45 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2006,
+            "url": "https://www.automobile-catalog.com/car/2006/2167910/infiniti_m45.html",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 250,
+                "max": 250
+              },
+              "performance.torqueNm": {
+                "min": 451,
+                "max": 451
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 4.5 L V8, DOHC, 32 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 250 kW and 451 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI M45 (United States/Canada market, 2006 specification)"
+              ],
+              "years": {
+                "from": 2006,
+                "to": 2006
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch17-g37-2008",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 3.7 L V6 naturallyAspirated 246 kW / 366 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "japan",
+      "years": "2008",
+      "displacement": "3.7 L",
+      "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "naturallyAspirated",
+      "injectionKey": "multiPointInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI G37 (United States/Canada market, 2008 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.7 L; INFINITI G37 (United States/Canada market, 2008 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.7 L; INFINITI G37 (United States/Canada market, 2008 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.7 L; INFINITI G37 (United States/Canada market, 2008 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.7 L; INFINITI G37 (United States/Canada market, 2008 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 246,
+          "max": 246
+        },
+        "torqueNm": {
+          "min": 366,
+          "max": 366
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch17-g37-2008-ency",
+          "batch17-g37-2008-ac"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI G37 (United States/Canada market, 2008 specification)"
+          ],
+          "years": {
+            "from": 2008,
+            "to": 2008
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch17-g37-2008-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2008 INFINITI G37 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2008,
+            "url": "https://www.encycarpedia.com/us/infiniti/08-g37-coupe",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 246,
+                "max": 246
+              },
+              "performance.torqueNm": {
+                "min": 366,
+                "max": 366
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 3.7 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 246 kW and 366 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI G37 (United States/Canada market, 2008 specification)"
+              ],
+              "years": {
+                "from": 2008,
+                "to": 2008
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch17-g37-2008-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2008 INFINITI G37 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2008,
+            "url": "https://www.automobile-catalog.com/car/2008/2167310/infiniti_g37_coupe.html",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 246,
+                "max": 246
+              },
+              "performance.torqueNm": {
+                "min": 366,
+                "max": 366
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 3.7 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 246 kW and 366 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI G37 (United States/Canada market, 2008 specification)"
+              ],
+              "years": {
+                "from": 2008,
+                "to": 2008
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "batch17-q50-red-sport-2016",
+      "identity": {
+        "type": "applicationScopedSpecification",
+        "value": "INFINITI 3.0 L V6 twinTurbocharged 298 kW / 475 Nm application specification",
+        "review": {
+          "manualReviewConfirmed": true,
+          "applicationScopeConfirmed": true,
+          "codeOrDesignationNotClaimed": true,
+          "materialVariantsSeparated": true,
+          "cosmeticVariantsConsolidated": true,
+          "notes": [
+            "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+            "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+          ]
+        }
+      },
+      "completeness": "core",
+      "aliases": [],
+      "maker": "INFINITI",
+      "regionKey": "japan",
+      "years": "2016",
+      "displacement": "3.0 L",
+      "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+      "fuelKey": "petrol",
+      "aspirationKey": "twinTurbocharged",
+      "injectionKey": "directInjection",
+      "blockKey": "notSpecified",
+      "timingKey": "notSpecified",
+      "applications": [
+        "INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification)"
+      ],
+      "consumption": "Not specified in verified scope",
+      "declaredLifeKey": "notPublished",
+      "typicalLife": "Not specified in verified scope",
+      "oilRecord": "",
+      "statusKey": "starterReview",
+      "text": {
+        "en": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "es": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "fr": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        },
+        "de": {
+          "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification).",
+          "issues": "Faults and service life are outside this specification record.",
+          "pros": "Two independent professional publications cover the required core specification.",
+          "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+        }
+      },
+      "performance": {
+        "powerKw": {
+          "min": 298,
+          "max": 298
+        },
+        "torqueNm": {
+          "min": 475,
+          "max": 475
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "evidenceBasis": "corroborated",
+        "sourceRefs": [
+          "batch17-q50-red-sport-2016-ency",
+          "batch17-q50-red-sport-2016-ac"
+        ],
+        "scope": {
+          "applications": [
+            "INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification)"
+          ],
+          "years": {
+            "from": 2016,
+            "to": 2016
+          },
+          "markets": [
+            "United States",
+            "Canada"
+          ]
+        },
+        "sources": [
+          {
+            "id": "batch17-q50-red-sport-2016-ency",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2016 INFINITI Q50 Red Sport 400 technical specification — encyCARpedia",
+            "publisher": "encyCARpedia",
+            "year": 2016,
+            "url": "https://www.encycarpedia.com/us/infiniti/16-q50-red-sport-400-sedan",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 298,
+                "max": 298
+              },
+              "performance.torqueNm": {
+                "min": 475,
+                "max": 475
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 298 kW and 475 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification)"
+              ],
+              "years": {
+                "from": 2016,
+                "to": 2016
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "encyCARpedia",
+            "editorialTeam": "encyCARpedia editorial team",
+            "contentRelationship": "originalEditorial"
+          },
+          {
+            "id": "batch17-q50-red-sport-2016-ac",
+            "type": "technicalReference",
+            "evidenceTier": "B",
+            "dataOrigin": "manufacturer-published-technical-specifications",
+            "independenceNotes": [
+              "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+              "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+            ],
+            "title": "2016 INFINITI Q50 Red Sport 400 technical specification — Automobile-Catalog / ProfessCars",
+            "publisher": "Automobile-Catalog / ProfessCars",
+            "year": 2016,
+            "url": "https://www.automobile-catalog.com/car/2016/2512055/infiniti_q50s_3_0t_red_sport_400.html",
+            "page": 1,
+            "checkedAt": "2026-10-12",
+            "fields": [
+              "maker",
+              "identity.applicationScopedSpecification",
+              "applications",
+              "years",
+              "displacement",
+              "layout",
+              "layout.valves",
+              "layout.camshaftsTotal",
+              "fuelKey",
+              "aspirationKey",
+              "injectionKey",
+              "performance.powerKw",
+              "performance.torqueNm"
+            ],
+            "claims": {
+              "performance.powerKw": {
+                "min": 298,
+                "max": 298
+              },
+              "performance.torqueNm": {
+                "min": 475,
+                "max": 475
+              }
+            },
+            "pageNotes": [
+              "Performance and engine-specification sections: 3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 298 kW and 475 N·m.",
+              "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+            ],
+            "scope": {
+              "level": "exactVariant",
+              "applications": [
+                "INFINITI Q50 Red Sport 400 (United States/Canada market, 2016 specification)"
+              ],
+              "years": {
+                "from": 2016,
+                "to": 2016
+              },
+              "markets": [
+                "United States",
+                "Canada"
+              ]
+            },
+            "owner": "ProfessCars",
+            "editorialTeam": "ProfessCars editorial team",
+            "contentRelationship": "originalEditorial"
+          }
+        ]
+      }
     }
   ]
 }
