@@ -133109,5 +133109,11831 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "batch18-volvo-s90-t4-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-4 turbocharged 140 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo S90 T4 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S90 T4 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S90 T4 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S90 T4 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo S90 T4 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-volvo-s90-t4-2018-a",
+        "batch18-volvo-s90-t4-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo S90 T4 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-volvo-s90-t4-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Volvo S90 T4 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/volvo/17-s90-t4-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 140 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2018 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S90 T4 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-volvo-s90-t4-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Volvo S90 T4 technical specification — Cars-Data.com",
+          "publisher": "Cars-Data.com",
+          "year": 2018,
+          "url": "https://cars-data.com/en/volvo/s90/spa/t4-r-design--93036",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 140 kW and 300 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2018 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S90 T4 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Cars-Data.com",
+          "editorialTeam": "Cars-Data.com editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-volvo-v40-t2-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2 L Inline-4 turbocharged 90 kW / 220 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo V40 T2 (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 T2 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 T2 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 T2 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Volvo V40 T2 (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-volvo-v40-t2-2016-a",
+        "batch18-volvo-v40-t2-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo V40 T2 (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-volvo-v40-t2-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Volvo V40 T2 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/volvo/15-v40-t2-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 90,
+              "max": 90
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 90 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 T2 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-volvo-v40-t2-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Volvo V40 T2 technical specification — Cars-Data.com",
+          "publisher": "Cars-Data.com",
+          "year": 2016,
+          "url": "https://cars-data.com/en/volvo/v40/2016-hatchback-facelift-8241/t2-nordic-86971--86971",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 90,
+              "max": 90
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 90 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo V40 T2 (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Cars-Data.com",
+          "editorialTeam": "Cars-Data.com editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-volvo-s40-t5-2004",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 2.5 L Inline-5 turbocharged 162 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "2004",
+    "displacement": "2.5 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo S40 T5 (Europe market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo S40 T5 (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo S40 T5 (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo S40 T5 (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Volvo S40 T5 (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-volvo-s40-t5-2004-a",
+        "batch18-volvo-s40-t5-2004-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo S40 T5 (Europe market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-volvo-s40-t5-2004-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Volvo S40 T5 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2004,
+          "url": "https://www.encycarpedia.com/volvo/04-s40-t5-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 162 kW and 320 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S40 T5 (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-volvo-s40-t5-2004-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Volvo S40 T5 technical specification — Cars-Data.com",
+          "publisher": "Cars-Data.com",
+          "year": 2004,
+          "url": "https://cars-data.com/en/volvo/s40/p1/t5-momentum-33319--33319",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 162 kW and 320 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo S40 T5 (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Cars-Data.com",
+          "editorialTeam": "Cars-Data.com editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-volvo-480-turbo-1992",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Volvo 1.7 L Inline-4 turbocharged 88 kW / 175 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Volvo",
+    "regionKey": "europe",
+    "years": "1992",
+    "displacement": "1.7 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Volvo 480 Turbo (Europe market, 1992 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.7 L; Volvo 480 Turbo (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.7 L; Volvo 480 Turbo (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.7 L; Volvo 480 Turbo (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.7 L; Volvo 480 Turbo (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 175,
+        "max": 175
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-volvo-480-turbo-1992-a",
+        "batch18-volvo-480-turbo-1992-b"
+      ],
+      "scope": {
+        "applications": [
+          "Volvo 480 Turbo (Europe market, 1992 specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-volvo-480-turbo-1992-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Volvo 480 Turbo technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1992,
+          "url": "https://www.encycarpedia.com/volvo/90-480-turbo-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.7 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, turbocharged, multiPoint; 88 kW and 175 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1992 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo 480 Turbo (Europe market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-volvo-480-turbo-1992-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Volvo 480 Turbo technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1992,
+          "url": "https://www.automobile-catalog.com/car/1992/59825/volvo_480_turbo.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.7 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, turbocharged, multiPoint; 88 kW and 175 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1992 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Volvo 480 Turbo (Europe market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-land-rover-range-rover-p440e-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 3 L Inline-6 turbocharged 105 kW / 500 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Land Rover Range Rover P440e (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover P440e (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover P440e (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover P440e (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover P440e (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 105,
+        "max": 105
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-land-rover-range-rover-p440e-2022-a",
+        "batch18-land-rover-range-rover-p440e-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Land Rover Range Rover P440e (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-land-rover-range-rover-p440e-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Land Rover Range Rover P440e technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/land-rover/22-range-rover-p440e-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 105,
+              "max": 105
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 105 kW and 500 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2022 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover P440e (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-land-rover-range-rover-p440e-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Land Rover Range Rover P440e technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2022,
+          "url": "https://www.ultimatespecs.com/car-specs/Land-Rover/139994/Land-Rover-Range-Rover-Sport-III-P440e.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 105,
+              "max": 105
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 105 kW and 500 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2022 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover P440e (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-land-rover-range-rover-4-4-sdv8-lwb-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 4.4 L V8 twinTurbocharged 249 kW / 700 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 249,
+        "max": 249
+      },
+      "torqueNm": {
+        "min": 700,
+        "max": 700
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-land-rover-range-rover-4-4-sdv8-lwb-2017-a",
+        "batch18-land-rover-range-rover-4-4-sdv8-lwb-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-land-rover-range-rover-4-4-sdv8-lwb-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Land Rover Range Rover 4.4 SDV8 LWB technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/land-rover/13-range-rover-4-4-sdv8-lwb-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 249,
+              "max": 249
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; diesel, twinTurbocharged, commonRail; 249 kW and 700 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2017 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-land-rover-range-rover-4-4-sdv8-lwb-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Land Rover Range Rover 4.4 SDV8 LWB technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2017,
+          "url": "https://www.auto-data.net/en/land-rover-range-rover-iv-facelift-2017-long-4.4-sdv8-339hp-awd-automatic-36670",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 249,
+              "max": 249
+            },
+            "performance.torqueNm": {
+              "min": 700,
+              "max": 700
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; diesel, twinTurbocharged, commonRail; 249 kW and 700 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2017 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover 4.4 SDV8 LWB (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-9-5-2-0t-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 2 L Inline-4 turbocharged 110 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 9-5 2.0t (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-5 2.0t (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-5 2.0t (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-5 2.0t (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-5 2.0t (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-9-5-2-0t-2005-a",
+        "batch18-saab-9-5-2-0t-2005-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 9-5 2.0t (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-9-5-2-0t-2005-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Saab 9-5 2.0t technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/saab/01-9-5-2-0t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 110 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-5 2.0t (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-9-5-2-0t-2005-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Saab 9-5 2.0t technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2005,
+          "url": "https://www.auto-data.net/en/saab-9-5-facelift-2005-2.0t-150hp-42729",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 110 kW and 240 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-5 2.0t (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-90-1984",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 2 L Inline-4 naturallyAspirated 74 kW / 162 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "1984",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 90 (Europe market, 1984 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 90 (Europe market, 1984 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 90 (Europe market, 1984 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 90 (Europe market, 1984 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 90 (Europe market, 1984 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74
+      },
+      "torqueNm": {
+        "min": 162,
+        "max": 162
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-90-1984-a",
+        "batch18-saab-90-1984-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 90 (Europe market, 1984 specification)"
+        ],
+        "years": {
+          "from": 1984,
+          "to": 1984
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-90-1984-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1984 Saab 90 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1984,
+          "url": "https://www.encycarpedia.com/saab/84-90-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 162,
+              "max": 162
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, carburetor; 74 kW and 162 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1984 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 90 (Europe market, 1984 specification)"
+            ],
+            "years": {
+              "from": 1984,
+              "to": 1984
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-90-1984-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1984 Saab 90 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1984,
+          "url": "https://www.automobile-catalog.com/car/1984/3027215/saab_90_5-speed.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 162,
+              "max": 162
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, carburetor; 74 kW and 162 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1984 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 90 (Europe market, 1984 specification)"
+            ],
+            "years": {
+              "from": 1984,
+              "to": 1984
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-9000-cd-1989",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 2 L Inline-4 turbocharged 120 kW / 265 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "1989",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 9000 CD (North America market, 1989 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9000 CD (North America market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9000 CD (North America market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9000 CD (North America market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9000 CD (North America market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-9000-cd-1989-a",
+        "batch18-saab-9000-cd-1989-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 9000 CD (North America market, 1989 specification)"
+        ],
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-9000-cd-1989-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1989 Saab 9000 CD technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1989,
+          "url": "https://www.encycarpedia.com/saab/88-9000-cd-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, carburetor; 120 kW and 265 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1989 North America specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9000 CD (North America market, 1989 specification)"
+            ],
+            "years": {
+              "from": 1989,
+              "to": 1989
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-9000-cd-1989-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1989 Saab 9000 CD technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1989,
+          "url": "https://www.automobile-catalog.com/car/1989/3027635/saab_9000_cd.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, carburetor; 120 kW and 265 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1989 North America specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9000 CD (North America market, 1989 specification)"
+            ],
+            "years": {
+              "from": 1989,
+              "to": 1989
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-900-1986",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 2 L Inline-4 naturallyAspirated 74 kW / 162 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "1986",
+    "displacement": "2 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 900 (Europe market, 1986 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 2 L; Saab 900 (Europe market, 1986 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 2 L; Saab 900 (Europe market, 1986 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 2 L; Saab 900 (Europe market, 1986 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 2 L; Saab 900 (Europe market, 1986 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 74,
+        "max": 74
+      },
+      "torqueNm": {
+        "min": 162,
+        "max": 162
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-900-1986-a",
+        "batch18-saab-900-1986-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 900 (Europe market, 1986 specification)"
+        ],
+        "years": {
+          "from": 1986,
+          "to": 1986
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-900-1986-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1986 Saab 900 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1986,
+          "url": "https://www.encycarpedia.com/saab/79-900-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 162,
+              "max": 162
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, naturallyAspirated, carburetor; 74 kW and 162 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1986 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 900 (Europe market, 1986 specification)"
+            ],
+            "years": {
+              "from": 1986,
+              "to": 1986
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-900-1986-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1986 Saab 900 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1986,
+          "url": "https://www.automobile-catalog.com/car/1986/3023870/saab_900_2-door.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 74,
+              "max": 74
+            },
+            "performance.torqueNm": {
+              "min": 162,
+              "max": 162
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, naturallyAspirated, carburetor; 74 kW and 162 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1986 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 900 (Europe market, 1986 specification)"
+            ],
+            "years": {
+              "from": 1986,
+              "to": 1986
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-9-5-3-0-tid-2001",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 3 L V6 turbocharged 129 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "2001",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 9-5 3.0 TiD (Europe market, 2001 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Saab 9-5 3.0 TiD (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Saab 9-5 3.0 TiD (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Saab 9-5 3.0 TiD (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Saab 9-5 3.0 TiD (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 129,
+        "max": 129
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-9-5-3-0-tid-2001-a",
+        "batch18-saab-9-5-3-0-tid-2001-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 9-5 3.0 TiD (Europe market, 2001 specification)"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-9-5-3-0-tid-2001-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2001 Saab 9-5 3.0 TiD technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2001,
+          "url": "https://www.encycarpedia.com/saab/01-9-5-3-0-tid-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 129,
+              "max": 129
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 129 kW and 350 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2001 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-5 3.0 TiD (Europe market, 2001 specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-9-5-3-0-tid-2001-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2001 Saab 9-5 3.0 TiD technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2001,
+          "url": "https://www.auto-data.net/en/saab-9-5-facelift-2001-3.0-tid-176hp-11854",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 129,
+              "max": 129
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; diesel, turbocharged, commonRail; 129 kW and 350 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2001 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-5 3.0 TiD (Europe market, 2001 specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-xj220-1992",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 3.5 L V6 twinTurbocharged 405 kW / 642 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "1992",
+    "displacement": "3.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar XJ220 (Europe market, 1992 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Jaguar XJ220 (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Jaguar XJ220 (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Jaguar XJ220 (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.5 L; Jaguar XJ220 (Europe market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 405,
+        "max": 405
+      },
+      "torqueNm": {
+        "min": 642,
+        "max": 642
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-xj220-1992-a",
+        "batch18-jaguar-xj220-1992-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar XJ220 (Europe market, 1992 specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-xj220-1992-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Jaguar XJ220 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1992,
+          "url": "https://www.encycarpedia.com/jaguar/92-xj220-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 405,
+              "max": 405
+            },
+            "performance.torqueNm": {
+              "min": 642,
+              "max": 642
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; gasoline, twinTurbocharged, multiPoint; 405 kW and 642 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1992 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJ220 (Europe market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-xj220-1992-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Jaguar XJ220 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1992,
+          "url": "https://www.automobile-catalog.com/car/1992/1284920/jaguar_xj220.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 405,
+              "max": 405
+            },
+            "performance.torqueNm": {
+              "min": 642,
+              "max": 642
+            }
+          },
+          "pageNotes": [
+            "3.5 L V6, DOHC, 24 valves and 4 total camshafts; gasoline, twinTurbocharged, multiPoint; 405 kW and 642 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1992 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJ220 (Europe market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-xj8-4-2-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 4.2 L V8 naturallyAspirated 219 kW / 411 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "4.2 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar XJ8 4.2 (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Jaguar XJ8 4.2 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Jaguar XJ8 4.2 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Jaguar XJ8 4.2 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.2 L; Jaguar XJ8 4.2 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 219,
+        "max": 219
+      },
+      "torqueNm": {
+        "min": 411,
+        "max": 411
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-xj8-4-2-2005-a",
+        "batch18-jaguar-xj8-4-2-2005-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar XJ8 4.2 (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-xj8-4-2-2005-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Jaguar XJ8 4.2 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/jaguar/03-xj8-4-2-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 219,
+              "max": 219
+            },
+            "performance.torqueNm": {
+              "min": 411,
+              "max": 411
+            }
+          },
+          "pageNotes": [
+            "4.2 L V8, DOHC, 32 valves and 4 total camshafts; gasoline, naturallyAspirated, multiPoint; 219 kW and 411 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJ8 4.2 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-xj8-4-2-2005-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Jaguar XJ8 4.2 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2005,
+          "url": "https://www.automobile-catalog.com/car/2005/1289195/jaguar_xj8_4_2.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 219,
+              "max": 219
+            },
+            "performance.torqueNm": {
+              "min": 411,
+              "max": 411
+            }
+          },
+          "pageNotes": [
+            "4.2 L V8, DOHC, 32 valves and 4 total camshafts; gasoline, naturallyAspirated, multiPoint; 219 kW and 411 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJ8 4.2 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-xj8-3-5-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 3.6 L V8 naturallyAspirated 190 kW / 355 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "3.6 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar XJ8 3.5 (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.6 L; Jaguar XJ8 3.5 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.6 L; Jaguar XJ8 3.5 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.6 L; Jaguar XJ8 3.5 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.6 L; Jaguar XJ8 3.5 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 190,
+        "max": 190
+      },
+      "torqueNm": {
+        "min": 355,
+        "max": 355
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-xj8-3-5-2005-a",
+        "batch18-jaguar-xj8-3-5-2005-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar XJ8 3.5 (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-xj8-3-5-2005-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Jaguar XJ8 3.5 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/jaguar/03-xj8-3-5-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 190,
+              "max": 190
+            },
+            "performance.torqueNm": {
+              "min": 355,
+              "max": 355
+            }
+          },
+          "pageNotes": [
+            "3.6 L V8, DOHC, 32 valves and 4 total camshafts; gasoline, naturallyAspirated, multiPoint; 190 kW and 355 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJ8 3.5 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-xj8-3-5-2005-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Jaguar XJ8 3.5 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2005,
+          "url": "https://www.automobile-catalog.com/car/2006/1289285/jaguar_xj8_3_5_sovereign_lwb.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 190,
+              "max": 190
+            },
+            "performance.torqueNm": {
+              "min": 355,
+              "max": 355
+            }
+          },
+          "pageNotes": [
+            "3.6 L V8, DOHC, 32 valves and 4 total camshafts; gasoline, naturallyAspirated, multiPoint; 190 kW and 355 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJ8 3.5 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-xjs-4-0-coupe-1991",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 4 L Inline-6 naturallyAspirated 163 kW / 371 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "1991",
+    "displacement": "4 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar XJS 4.0 Coupé (Europe market, 1991 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 4 L; Jaguar XJS 4.0 Coupé (Europe market, 1991 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 4 L; Jaguar XJS 4.0 Coupé (Europe market, 1991 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 4 L; Jaguar XJS 4.0 Coupé (Europe market, 1991 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 4 L; Jaguar XJS 4.0 Coupé (Europe market, 1991 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 163,
+        "max": 163
+      },
+      "torqueNm": {
+        "min": 371,
+        "max": 371
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-xjs-4-0-coupe-1991-a",
+        "batch18-jaguar-xjs-4-0-coupe-1991-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar XJS 4.0 Coupé (Europe market, 1991 specification)"
+        ],
+        "years": {
+          "from": 1991,
+          "to": 1991
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-xjs-4-0-coupe-1991-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1991 Jaguar XJS 4.0 Coupé technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1991,
+          "url": "https://www.encycarpedia.com/jaguar/91-xjs-4-0-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 163,
+              "max": 163
+            },
+            "performance.torqueNm": {
+              "min": 371,
+              "max": 371
+            }
+          },
+          "pageNotes": [
+            "4 L Inline-6, DOHC, 24 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 163 kW and 371 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1991 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJS 4.0 Coupé (Europe market, 1991 specification)"
+            ],
+            "years": {
+              "from": 1991,
+              "to": 1991
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-xjs-4-0-coupe-1991-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1991 Jaguar XJS 4.0 Coupé technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1991,
+          "url": "https://www.automobile-catalog.com/car/1991/1284440/jaguar_xjs_4_0_coupe_automatic_cat.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 163,
+              "max": 163
+            },
+            "performance.torqueNm": {
+              "min": 371,
+              "max": 371
+            }
+          },
+          "pageNotes": [
+            "4 L Inline-6, DOHC, 24 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 163 kW and 371 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1991 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar XJS 4.0 Coupé (Europe market, 1991 specification)"
+            ],
+            "years": {
+              "from": 1991,
+              "to": 1991
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-f-type-convertible-3-0-v6-340-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 3 L V6 supercharged 250 kW / 450 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 250,
+        "max": 250
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-f-type-convertible-3-0-v6-340-2017-a",
+        "batch18-jaguar-f-type-convertible-3-0-v6-340-2017-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-f-type-convertible-3-0-v6-340-2017-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Jaguar F-Type Convertible 3.0 V6 340 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/jaguar/17-f-type-convertible-3-0-v6-340",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; gasoline, supercharged, directInjection; 250 kW and 450 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2017 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-f-type-convertible-3-0-v6-340-2017-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 Jaguar F-Type Convertible 3.0 V6 340 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2017,
+          "url": "https://www.auto-data.net/en/jaguar-f-type-convertible-3.0-v6-340hp-automatic-18587",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 250,
+              "max": 250
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; gasoline, supercharged, directInjection; 250 kW and 450 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2017 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar F-Type Convertible 3.0 V6 340 (Europe market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-renault-laguna-2-0-16v-135-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Renault 2 L Inline-4 naturallyAspirated 99 kW / 191 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Renault",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Renault Laguna 2.0 16v 135 (Europe market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna 2.0 16v 135 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna 2.0 16v 135 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna 2.0 16v 135 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Renault Laguna 2.0 16v 135 (Europe market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 99,
+        "max": 99
+      },
+      "torqueNm": {
+        "min": 191,
+        "max": 191
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-renault-laguna-2-0-16v-135-2005-a",
+        "batch18-renault-laguna-2-0-16v-135-2005-b"
+      ],
+      "scope": {
+        "applications": [
+          "Renault Laguna 2.0 16v 135 (Europe market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-renault-laguna-2-0-16v-135-2005-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Renault Laguna 2.0 16v 135 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/renault/05-laguna-2-0-16v-135-fastback",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 191,
+              "max": 191
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 99 kW and 191 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Laguna 2.0 16v 135 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-renault-laguna-2-0-16v-135-2005-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Renault Laguna 2.0 16v 135 technical specification — Cars-Data.com",
+          "publisher": "Cars-Data.com",
+          "year": 2005,
+          "url": "https://cars-data.com/en/renault/laguna/x74-2001-hatchback/2-0-16v-elective-30477--30477",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 191,
+              "max": 191
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 99 kW and 191 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2005 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Renault Laguna 2.0 16v 135 (Europe market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Cars-Data.com",
+          "editorialTeam": "Cars-Data.com editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-peugeot-3008-hybrid4-300-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.6 L Inline-4 turbocharged 164 kW / 486 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 164,
+        "max": 164
+      },
+      "torqueNm": {
+        "min": 486,
+        "max": 486
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-peugeot-3008-hybrid4-300-2024-a",
+        "batch18-peugeot-3008-hybrid4-300-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-peugeot-3008-hybrid4-300-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Peugeot 3008 HYBRID4 300 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/peugeot/20-3008-hybrid4-300-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 164,
+              "max": 164
+            },
+            "performance.torqueNm": {
+              "min": 486,
+              "max": 486
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 164 kW and 486 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-peugeot-3008-hybrid4-300-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Peugeot 3008 HYBRID4 300 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2024,
+          "url": "https://www.ultimatespecs.com/car-specs/Peugeot/118065/Peugeot-3008-II-HYbrid4-300-74kW-Charger.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 164,
+              "max": 164
+            },
+            "performance.torqueNm": {
+              "min": 486,
+              "max": 486
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 164 kW and 486 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 3008 HYBRID4 300 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-alfa-romeo-147-1-6-twin-spark-2004",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.6 L Inline-4 naturallyAspirated 88 kW / 146 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2004",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 146,
+        "max": 146
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-alfa-romeo-147-1-6-twin-spark-2004-a",
+        "batch18-alfa-romeo-147-1-6-twin-spark-2004-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification)"
+        ],
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-alfa-romeo-147-1-6-twin-spark-2004-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Alfa Romeo 147 1.6 Twin Spark technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2004,
+          "url": "https://www.encycarpedia.com/alfa-romeo/01-147-1-6-twin-spark-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 146,
+              "max": 146
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 88 kW and 146 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-alfa-romeo-147-1-6-twin-spark-2004-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2004 Alfa Romeo 147 1.6 Twin Spark technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2004,
+          "url": "https://www.auto-data.net/en/alfa-romeo-147-facelift-2004-5-doors-1.6-twin-spark-120hp-25202",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 146,
+              "max": 146
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 88 kW and 146 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2004 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 147 1.6 Twin Spark (Europe market, 2004 specification)"
+            ],
+            "years": {
+              "from": 2004,
+              "to": 2004
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-alfa-romeo-4c-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 1.7 L Inline-4 turbocharged 177 kW / 350 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "1.7 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 4C (North America market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Alfa Romeo 4C (North America market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Alfa Romeo 4C (North America market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Alfa Romeo 4C (North America market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.7 L; Alfa Romeo 4C (North America market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 177,
+        "max": 177
+      },
+      "torqueNm": {
+        "min": 350,
+        "max": 350
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-alfa-romeo-4c-2015-a",
+        "batch18-alfa-romeo-4c-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 4C (North America market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "North America"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-alfa-romeo-4c-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Alfa Romeo 4C technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/alfa-romeo/14-4c-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 177,
+              "max": 177
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "1.7 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 177 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 North America specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 4C (North America market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-alfa-romeo-4c-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Alfa Romeo 4C technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2078405/alfa_romeo_4c.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 177,
+              "max": 177
+            },
+            "performance.torqueNm": {
+              "min": 350,
+              "max": 350
+            }
+          },
+          "pageNotes": [
+            "1.7 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 177 kW and 350 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 North America specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 4C (North America market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "North America"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-alfa-romeo-166-3-0-v6-24v-super-1999",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 3 L V6 naturallyAspirated 166 kW / 275 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1999",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 166,
+        "max": 166
+      },
+      "torqueNm": {
+        "min": 275,
+        "max": 275
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-alfa-romeo-166-3-0-v6-24v-super-1999-a",
+        "batch18-alfa-romeo-166-3-0-v6-24v-super-1999-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification)"
+        ],
+        "years": {
+          "from": 1999,
+          "to": 1999
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-alfa-romeo-166-3-0-v6-24v-super-1999-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Alfa Romeo 166 3.0 V6 24v Super technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1999,
+          "url": "https://www.encycarpedia.com/alfa-romeo/99-166-3-0-v6-24v-super-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 166,
+              "max": 166
+            },
+            "performance.torqueNm": {
+              "min": 275,
+              "max": 275
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; gasoline, naturallyAspirated, multiPoint; 166 kW and 275 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-alfa-romeo-166-3-0-v6-24v-super-1999-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Alfa Romeo 166 3.0 V6 24v Super technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 1999,
+          "url": "https://www.ultimatespecs.com/car-specs/Alfa-Romeo/1047/Alfa-Romeo-166-30-V6-24v-Super.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 166,
+              "max": 166
+            },
+            "performance.torqueNm": {
+              "min": 275,
+              "max": 275
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; gasoline, naturallyAspirated, multiPoint; 166 kW and 275 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo 166 3.0 V6 24v Super (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-peugeot-208-puretech-110-s-s-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.2 L Inline-3 turbocharged 81 kW / 205 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.2 L; Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 81,
+        "max": 81
+      },
+      "torqueNm": {
+        "min": 205,
+        "max": 205
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-peugeot-208-puretech-110-s-s-2015-a",
+        "batch18-peugeot-208-puretech-110-s-s-2015-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-peugeot-208-puretech-110-s-s-2015-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Peugeot 208 PureTech 110 S/S technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/peugeot/15-208-puretech-110-stop-start-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 81 kW and 205 N·m. 12 total valves = 4 valves/cylinder × 3 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-peugeot-208-puretech-110-s-s-2015-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Peugeot 208 PureTech 110 S/S technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2015,
+          "url": "https://www.ultimatespecs.com/car-specs/Peugeot/106163/Peugeot-208-3-door-%28Facelift-2015%29-12-PureTech-110-S-S.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 81,
+              "max": 81
+            },
+            "performance.torqueNm": {
+              "min": 205,
+              "max": 205
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, DOHC, 12 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 81 kW and 205 N·m. 12 total valves = 4 valves/cylinder × 3 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2015 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 208 PureTech 110 S/S (Europe market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-alfa-romeo-gtv-2-0-v6-tb-1995",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Alfa Romeo 2 L V6 turbocharged 149 kW / 271 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Alfa Romeo",
+    "regionKey": "europe",
+    "years": "1995",
+    "displacement": "2 L",
+    "layout": "V6 · SOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · SOHC · 12 valves · 2 camshafts total, 2 L; Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · SOHC · 12 valves · 2 camshafts total, 2 L; Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · SOHC · 12 valves · 2 camshafts total, 2 L; Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · SOHC · 12 valves · 2 camshafts total, 2 L; Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 149,
+        "max": 149
+      },
+      "torqueNm": {
+        "min": 271,
+        "max": 271
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-alfa-romeo-gtv-2-0-v6-tb-1995-a",
+        "batch18-alfa-romeo-gtv-2-0-v6-tb-1995-b"
+      ],
+      "scope": {
+        "applications": [
+          "Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification)"
+        ],
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-alfa-romeo-gtv-2-0-v6-tb-1995-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1995 Alfa Romeo GTV 2.0 V6 TB technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1995,
+          "url": "https://www.encycarpedia.com/alfa-romeo/95-gtv-2-0-v6-tb-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 149,
+              "max": 149
+            },
+            "performance.torqueNm": {
+              "min": 271,
+              "max": 271
+            }
+          },
+          "pageNotes": [
+            "2 L V6, SOHC, 12 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 149 kW and 271 N·m. 12 total valves = 2 valves/cylinder × 6 cylinders; 2 total camshafts = SOHC (1 camshaft/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1995 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification)"
+            ],
+            "years": {
+              "from": 1995,
+              "to": 1995
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-alfa-romeo-gtv-2-0-v6-tb-1995-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1995 Alfa Romeo GTV 2.0 V6 TB technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 1995,
+          "url": "https://www.auto-data.net/en/alfa-romeo-gtv-916-2.0-v6-tb-202hp-1516",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 149,
+              "max": 149
+            },
+            "performance.torqueNm": {
+              "min": 271,
+              "max": 271
+            }
+          },
+          "pageNotes": [
+            "2 L V6, SOHC, 12 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 149 kW and 271 N·m. 12 total valves = 2 valves/cylinder × 6 cylinders; 2 total camshafts = SOHC (1 camshaft/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1995 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Alfa Romeo GTV 2.0 V6 TB (Europe market, 1995 specification)"
+            ],
+            "years": {
+              "from": 1995,
+              "to": 1995
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-peugeot-206-1-4-2001",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Peugeot 1.4 L Inline-4 naturallyAspirated 55 kW / 120 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Peugeot",
+    "regionKey": "europe",
+    "years": "2001",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Peugeot 206 1.4 (Europe market, 2001 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Peugeot 206 1.4 (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Peugeot 206 1.4 (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Peugeot 206 1.4 (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.4 L; Peugeot 206 1.4 (Europe market, 2001 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 55,
+        "max": 55
+      },
+      "torqueNm": {
+        "min": 120,
+        "max": 120
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-peugeot-206-1-4-2001-a",
+        "batch18-peugeot-206-1-4-2001-b"
+      ],
+      "scope": {
+        "applications": [
+          "Peugeot 206 1.4 (Europe market, 2001 specification)"
+        ],
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-peugeot-206-1-4-2001-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2001 Peugeot 206 1.4 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2001,
+          "url": "https://www.encycarpedia.com/peugeot/01-206-1-4-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 55,
+              "max": 55
+            },
+            "performance.torqueNm": {
+              "min": 120,
+              "max": 120
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, naturallyAspirated, multiPoint; 55 kW and 120 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2001 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 206 1.4 (Europe market, 2001 specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-peugeot-206-1-4-2001-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2001 Peugeot 206 1.4 technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 2001,
+          "url": "https://www.ultimatespecs.com/car-specs/Peugeot/2120/Peugeot-206-14-Auto-XR---XT---RG.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 55,
+              "max": 55
+            },
+            "performance.torqueNm": {
+              "min": 120,
+              "max": 120
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, naturallyAspirated, multiPoint; 55 kW and 120 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2001 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Peugeot 206 1.4 (Europe market, 2001 specification)"
+            ],
+            "years": {
+              "from": 2001,
+              "to": 2001
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-rover-45-1-8-16v-2000",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rover 1.8 L Inline-4 naturallyAspirated 86 kW / 160 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rover",
+    "regionKey": "europe",
+    "years": "2000",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rover 45 1.8 16v (Europe market, 2000 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Rover 45 1.8 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Rover 45 1.8 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Rover 45 1.8 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Rover 45 1.8 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 86,
+        "max": 86
+      },
+      "torqueNm": {
+        "min": 160,
+        "max": 160
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-rover-45-1-8-16v-2000-a",
+        "batch18-rover-45-1-8-16v-2000-b"
+      ],
+      "scope": {
+        "applications": [
+          "Rover 45 1.8 16v (Europe market, 2000 specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-rover-45-1-8-16v-2000-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2000 Rover 45 1.8 16v technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2000,
+          "url": "https://www.encycarpedia.com/rover/00-45-1-8-16v-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 86,
+              "max": 86
+            },
+            "performance.torqueNm": {
+              "min": 160,
+              "max": 160
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 86 kW and 160 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2000 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 45 1.8 16v (Europe market, 2000 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-rover-45-1-8-16v-2000-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2000 Rover 45 1.8 16v technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2000,
+          "url": "https://www.automobile-catalog.com/car/2000/3014435/rover_45_1_8_16v_5-door.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 86,
+              "max": 86
+            },
+            "performance.torqueNm": {
+              "min": 160,
+              "max": 160
+            }
+          },
+          "pageNotes": [
+            "1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 86 kW and 160 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2000 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 45 1.8 16v (Europe market, 2000 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-rover-216-gti-1993",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rover 1.6 L Inline-4 naturallyAspirated 90 kW / 140 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rover",
+    "regionKey": "europe",
+    "years": "1993",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rover 216 GTi (Europe market, 1993 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Rover 216 GTi (Europe market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Rover 216 GTi (Europe market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Rover 216 GTi (Europe market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; Rover 216 GTi (Europe market, 1993 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 90,
+        "max": 90
+      },
+      "torqueNm": {
+        "min": 140,
+        "max": 140
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-rover-216-gti-1993-a",
+        "batch18-rover-216-gti-1993-b"
+      ],
+      "scope": {
+        "applications": [
+          "Rover 216 GTi (Europe market, 1993 specification)"
+        ],
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-rover-216-gti-1993-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1993 Rover 216 GTi technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1993,
+          "url": "https://www.encycarpedia.com/rover/93-216-gti-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 90,
+              "max": 90
+            },
+            "performance.torqueNm": {
+              "min": 140,
+              "max": 140
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 90 kW and 140 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1993 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 216 GTi (Europe market, 1993 specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-rover-216-gti-1993-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1993 Rover 216 GTi technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 1993,
+          "url": "https://www.auto-data.net/en/rover-200-xw-216-gti-122hp-11571",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 90,
+              "max": 90
+            },
+            "performance.torqueNm": {
+              "min": 140,
+              "max": 140
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 90 kW and 140 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1993 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 216 GTi (Europe market, 1993 specification)"
+            ],
+            "years": {
+              "from": 1993,
+              "to": 1993
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-rover-25-1-4-16v-103-2000",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rover 1.4 L Inline-4 naturallyAspirated 76 kW / 123 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rover",
+    "regionKey": "europe",
+    "years": "2000",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rover 25 1.4 16v 103 (Europe market, 2000 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Rover 25 1.4 16v 103 (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Rover 25 1.4 16v 103 (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Rover 25 1.4 16v 103 (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Rover 25 1.4 16v 103 (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 76,
+        "max": 76
+      },
+      "torqueNm": {
+        "min": 123,
+        "max": 123
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-rover-25-1-4-16v-103-2000-a",
+        "batch18-rover-25-1-4-16v-103-2000-b"
+      ],
+      "scope": {
+        "applications": [
+          "Rover 25 1.4 16v 103 (Europe market, 2000 specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-rover-25-1-4-16v-103-2000-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2000 Rover 25 1.4 16v 103 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2000,
+          "url": "https://www.encycarpedia.com/rover/00-25-1-4-16v-103-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 76,
+              "max": 76
+            },
+            "performance.torqueNm": {
+              "min": 123,
+              "max": 123
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 76 kW and 123 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2000 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 25 1.4 16v 103 (Europe market, 2000 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-rover-25-1-4-16v-103-2000-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2000 Rover 25 1.4 16v 103 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2000,
+          "url": "https://www.automobile-catalog.com/car/2000/3014330/rover_25_1_4_16v_103.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 76,
+              "max": 76
+            },
+            "performance.torqueNm": {
+              "min": 123,
+              "max": 123
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 76 kW and 123 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2000 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 25 1.4 16v 103 (Europe market, 2000 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-delta-hf-1983",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 1.6 L Inline-4 turbocharged 96 kW / 191 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "1983",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Delta HF (Europe market, 1983 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 96,
+        "max": 96
+      },
+      "torqueNm": {
+        "min": 191,
+        "max": 191
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-delta-hf-1983-a",
+        "batch18-lancia-delta-hf-1983-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Delta HF (Europe market, 1983 specification)"
+        ],
+        "years": {
+          "from": 1983,
+          "to": 1983
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-delta-hf-1983-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1983 Lancia Delta HF technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1983,
+          "url": "https://www.encycarpedia.com/lancia/83-delta-hf-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 191,
+              "max": 191
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; gasoline, turbocharged, carburetor; 96 kW and 191 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1983 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Delta HF (Europe market, 1983 specification)"
+            ],
+            "years": {
+              "from": 1983,
+              "to": 1983
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-delta-hf-1983-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1983 Lancia Delta HF technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 1983,
+          "url": "https://www.ultimatespecs.com/car-specs/Lancia/518/Lancia-Delta-HF-Turbo.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 96,
+              "max": 96
+            },
+            "performance.torqueNm": {
+              "min": 191,
+              "max": 191
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; gasoline, turbocharged, carburetor; 96 kW and 191 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1983 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Delta HF (Europe market, 1983 specification)"
+            ],
+            "years": {
+              "from": 1983,
+              "to": 1983
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-rally-037-stradale-1983",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 2 L Inline-4 supercharged 151 kW / 226 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "1983",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "carburetor",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Rally 037 Stradale (Europe market, 1983 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Lancia Rally 037 Stradale (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Lancia Rally 037 Stradale (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Lancia Rally 037 Stradale (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Lancia Rally 037 Stradale (Europe market, 1983 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 151,
+        "max": 151
+      },
+      "torqueNm": {
+        "min": 226,
+        "max": 226
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-rally-037-stradale-1983-a",
+        "batch18-lancia-rally-037-stradale-1983-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Rally 037 Stradale (Europe market, 1983 specification)"
+        ],
+        "years": {
+          "from": 1983,
+          "to": 1983
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-rally-037-stradale-1983-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1983 Lancia Rally 037 Stradale technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1983,
+          "url": "https://www.encycarpedia.com/lancia/82-rally-037-stradale-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 151,
+              "max": 151
+            },
+            "performance.torqueNm": {
+              "min": 226,
+              "max": 226
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, supercharged, carburetor; 151 kW and 226 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1983 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Rally 037 Stradale (Europe market, 1983 specification)"
+            ],
+            "years": {
+              "from": 1983,
+              "to": 1983
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-rally-037-stradale-1983-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1983 Lancia Rally 037 Stradale technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1983,
+          "url": "https://www.automobile-catalog.com/car/1983/1378565/lancia_rally_037_stradale.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 151,
+              "max": 151
+            },
+            "performance.torqueNm": {
+              "min": 226,
+              "max": 226
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, supercharged, carburetor; 151 kW and 226 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1983 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Rally 037 Stradale (Europe market, 1983 specification)"
+            ],
+            "years": {
+              "from": 1983,
+              "to": 1983
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-seat-leon-1-5-tsi-115-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.5 L Inline-4 turbocharged 85 kW / 220 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 220,
+        "max": 220
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-seat-leon-1-5-tsi-115-2025-a",
+        "batch18-seat-leon-1-5-tsi-115-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-seat-leon-1-5-tsi-115-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 SEAT Leon 1.5 TSI 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/seat/24-leon-1-5-tsi-115-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2025 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-seat-leon-1-5-tsi-115-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 SEAT Leon 1.5 TSI 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3381965/seat_leon_1_5_tsi_116.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 220,
+              "max": 220
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 220 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2025 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon 1.5 TSI 115 (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-seat-leon-1-4-tsi-2007",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.4 L Inline-4 turbocharged 92 kW / 200 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Leon 1.4 TSI (Europe market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; SEAT Leon 1.4 TSI (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; SEAT Leon 1.4 TSI (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; SEAT Leon 1.4 TSI (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; SEAT Leon 1.4 TSI (Europe market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-seat-leon-1-4-tsi-2007-a",
+        "batch18-seat-leon-1-4-tsi-2007-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Leon 1.4 TSI (Europe market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-seat-leon-1-4-tsi-2007-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 SEAT Leon 1.4 TSI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2007,
+          "url": "https://www.encycarpedia.com/seat/07-leon-1-4-tsi-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 92 kW and 200 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon 1.4 TSI (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-seat-leon-1-4-tsi-2007-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 SEAT Leon 1.4 TSI technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2007,
+          "url": "https://www.auto-data.net/en/seat-leon-iii-1.4-tsi-125hp-start-stop-19380",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 92 kW and 200 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2007 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Leon 1.4 TSI (Europe market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-seat-ibiza-1-2-12v-70-2012",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.2 L Inline-3 naturallyAspirated 51 kW / 112 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "1.2 L",
+    "layout": "Inline-3 · SOHC · 12 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · SOHC · 12 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · SOHC · 12 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · SOHC · 12 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · SOHC · 12 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 51,
+        "max": 51
+      },
+      "torqueNm": {
+        "min": 112,
+        "max": 112
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-seat-ibiza-1-2-12v-70-2012-a",
+        "batch18-seat-ibiza-1-2-12v-70-2012-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-seat-ibiza-1-2-12v-70-2012-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 SEAT Ibiza 1.2 12v 70 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2012,
+          "url": "https://www.encycarpedia.com/seat/11-ibiza-1-2-12v-70-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 51,
+              "max": 51
+            },
+            "performance.torqueNm": {
+              "min": 112,
+              "max": 112
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, SOHC, 12 valves and 1 total camshafts; gasoline, naturallyAspirated, multiPoint; 51 kW and 112 N·m. 12 total valves = 4 valves/cylinder × 3 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-seat-ibiza-1-2-12v-70-2012-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 SEAT Ibiza 1.2 12v 70 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2012,
+          "url": "https://www.automobile-catalog.com/car/2012/3094865/seat_ibiza_1_2_12v_70.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 51,
+              "max": 51
+            },
+            "performance.torqueNm": {
+              "min": 112,
+              "max": 112
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-3, SOHC, 12 valves and 1 total camshafts; gasoline, naturallyAspirated, multiPoint; 51 kW and 112 N·m. 12 total valves = 4 valves/cylinder × 3 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.2 12v 70 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-mg-tf-115-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "MG 1.6 L Inline-4 naturallyAspirated 85 kW / 145 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "MG",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "MG TF 115 (Europe market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; MG TF 115 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; MG TF 115 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; MG TF 115 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.6 L; MG TF 115 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 145,
+        "max": 145
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-mg-tf-115-2002-a",
+        "batch18-mg-tf-115-2002-b"
+      ],
+      "scope": {
+        "applications": [
+          "MG TF 115 (Europe market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-mg-tf-115-2002-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 MG TF 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/mg/02-tf-115-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 145,
+              "max": 145
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 85 kW and 145 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "MG TF 115 (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-mg-tf-115-2002-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 MG TF 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2002,
+          "url": "https://www.automobile-catalog.com/car/2002/1702160/mg_tf_115.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 145,
+              "max": 145
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 85 kW and 145 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "MG TF 115 (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-delta-hf-turbo-1985",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 1.6 L Inline-4 turbocharged 103 kW / 191 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "1985",
+    "displacement": "1.6 L",
+    "layout": "Inline-4 · DOHC · 8 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Delta HF Turbo (Europe market, 1985 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF Turbo (Europe market, 1985 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF Turbo (Europe market, 1985 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF Turbo (Europe market, 1985 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 8 valves · 2 camshafts total, 1.6 L; Lancia Delta HF Turbo (Europe market, 1985 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 103,
+        "max": 103
+      },
+      "torqueNm": {
+        "min": 191,
+        "max": 191
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-delta-hf-turbo-1985-a",
+        "batch18-lancia-delta-hf-turbo-1985-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Delta HF Turbo (Europe market, 1985 specification)"
+        ],
+        "years": {
+          "from": 1985,
+          "to": 1985
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-delta-hf-turbo-1985-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1985 Lancia Delta HF Turbo technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1985,
+          "url": "https://www.encycarpedia.com/lancia/85-delta-hf-turbo-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 191,
+              "max": 191
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 103 kW and 191 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1985 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Delta HF Turbo (Europe market, 1985 specification)"
+            ],
+            "years": {
+              "from": 1985,
+              "to": 1985
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-delta-hf-turbo-1985-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1985 Lancia Delta HF Turbo technical specification — Ultimate Specs",
+          "publisher": "Ultimate Specs",
+          "year": 1985,
+          "url": "https://www.ultimatespecs.com/car-specs/Lancia/7660/Lancia-Delta-HF-Turbo.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 103,
+              "max": 103
+            },
+            "performance.torqueNm": {
+              "min": 191,
+              "max": 191
+            }
+          },
+          "pageNotes": [
+            "1.6 L Inline-4, DOHC, 8 valves and 2 total camshafts; gasoline, turbocharged, multiPoint; 103 kW and 191 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1985 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Delta HF Turbo (Europe market, 1985 specification)"
+            ],
+            "years": {
+              "from": 1985,
+              "to": 1985
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Ultimate Specs",
+          "editorialTeam": "Ultimate Specs editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-mg-zr-105-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "MG 1.4 L Inline-4 naturallyAspirated 76 kW / 123 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "MG",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "MG ZR 105 (Europe market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; MG ZR 105 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; MG ZR 105 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; MG ZR 105 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; MG ZR 105 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 76,
+        "max": 76
+      },
+      "torqueNm": {
+        "min": 123,
+        "max": 123
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-mg-zr-105-2002-a",
+        "batch18-mg-zr-105-2002-b"
+      ],
+      "scope": {
+        "applications": [
+          "MG ZR 105 (Europe market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-mg-zr-105-2002-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 MG ZR 105 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/mg/01-zr-105-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 76,
+              "max": 76
+            },
+            "performance.torqueNm": {
+              "min": 123,
+              "max": 123
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 76 kW and 123 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "MG ZR 105 (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-mg-zr-105-2002-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 MG ZR 105 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2002,
+          "url": "https://www.automobile-catalog.com/car/2005/1702715/mg_zr_105.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 76,
+              "max": 76
+            },
+            "performance.torqueNm": {
+              "min": 123,
+              "max": 123
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 76 kW and 123 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "MG ZR 105 (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-seat-ibiza-1-2-tsi-105-2012",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "SEAT 1.2 L Inline-4 turbocharged 77 kW / 175 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "SEAT",
+    "regionKey": "europe",
+    "years": "2012",
+    "displacement": "1.2 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 77,
+        "max": 77
+      },
+      "torqueNm": {
+        "min": 175,
+        "max": 175
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-seat-ibiza-1-2-tsi-105-2012-a",
+        "batch18-seat-ibiza-1-2-tsi-105-2012-b"
+      ],
+      "scope": {
+        "applications": [
+          "SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification)"
+        ],
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-seat-ibiza-1-2-tsi-105-2012-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 SEAT Ibiza 1.2 TSI 105 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2012,
+          "url": "https://www.encycarpedia.com/seat/11-ibiza-1-2-tsi-105-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 77,
+              "max": 77
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, turbocharged, directInjection; 77 kW and 175 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-seat-ibiza-1-2-tsi-105-2012-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2012 SEAT Ibiza 1.2 TSI 105 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2012,
+          "url": "https://www.automobile-catalog.com/car/2012/3095195/seat_ibiza_1_2_tsi_105_dsg.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 77,
+              "max": 77
+            },
+            "performance.torqueNm": {
+              "min": 175,
+              "max": 175
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, turbocharged, directInjection; 77 kW and 175 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2012 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "SEAT Ibiza 1.2 TSI 105 (Europe market, 2012 specification)"
+            ],
+            "years": {
+              "from": 2012,
+              "to": 2012
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-ypsilon-1-2-8v-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 1.2 L Inline-4 naturallyAspirated 51 kW / 102 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.2 L",
+    "layout": "Inline-4 · SOHC · 8 valves · 1 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Ypsilon 1.2 8v (Europe market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; Lancia Ypsilon 1.2 8v (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; Lancia Ypsilon 1.2 8v (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; Lancia Ypsilon 1.2 8v (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 8 valves · 1 camshafts total, 1.2 L; Lancia Ypsilon 1.2 8v (Europe market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 51,
+        "max": 51
+      },
+      "torqueNm": {
+        "min": 102,
+        "max": 102
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-ypsilon-1-2-8v-2016-a",
+        "batch18-lancia-ypsilon-1-2-8v-2016-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Ypsilon 1.2 8v (Europe market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-ypsilon-1-2-8v-2016-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Lancia Ypsilon 1.2 8v technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/lancia/16-ypsilon-1-2-8v-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 51,
+              "max": 51
+            },
+            "performance.torqueNm": {
+              "min": 102,
+              "max": 102
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, naturallyAspirated, multiPoint; 51 kW and 102 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Ypsilon 1.2 8v (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-ypsilon-1-2-8v-2016-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Lancia Ypsilon 1.2 8v technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2016,
+          "url": "https://www.auto-data.net/en/lancia-ypsilon-843-facelift-2006-1.2-8v-69hp-47149",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 51,
+              "max": 51
+            },
+            "performance.torqueNm": {
+              "min": 102,
+              "max": 102
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, SOHC, 8 valves and 1 total camshafts; gasoline, naturallyAspirated, multiPoint; 51 kW and 102 N·m. 8 total valves = 2 valves/cylinder × 4 cylinders; 1 total camshafts = SOHC (1 camshaft/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2016 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Ypsilon 1.2 8v (Europe market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-ypsilon-1-2-16v-2000",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 1.2 L Inline-4 naturallyAspirated 63 kW / 113 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "2000",
+    "displacement": "1.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Ypsilon 1.2 16v (Europe market, 2000 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Lancia Ypsilon 1.2 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Lancia Ypsilon 1.2 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Lancia Ypsilon 1.2 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.2 L; Lancia Ypsilon 1.2 16v (Europe market, 2000 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 63,
+        "max": 63
+      },
+      "torqueNm": {
+        "min": 113,
+        "max": 113
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-ypsilon-1-2-16v-2000-a",
+        "batch18-lancia-ypsilon-1-2-16v-2000-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Ypsilon 1.2 16v (Europe market, 2000 specification)"
+        ],
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-ypsilon-1-2-16v-2000-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2000 Lancia Ypsilon 1.2 16v technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2000,
+          "url": "https://www.encycarpedia.com/lancia/97-ypsilon-1-2-16v-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 63,
+              "max": 63
+            },
+            "performance.torqueNm": {
+              "min": 113,
+              "max": 113
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 63 kW and 113 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2000 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Ypsilon 1.2 16v (Europe market, 2000 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-ypsilon-1-2-16v-2000-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2000 Lancia Ypsilon 1.2 16v technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2000,
+          "url": "https://www.automobile-catalog.com/car/2000/1384100/lancia_ypsilon_1_2_16v_lx.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 63,
+              "max": 63
+            },
+            "performance.torqueNm": {
+              "min": 113,
+              "max": 113
+            }
+          },
+          "pageNotes": [
+            "1.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, naturallyAspirated, multiPoint; 63 kW and 113 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2000 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Ypsilon 1.2 16v (Europe market, 2000 specification)"
+            ],
+            "years": {
+              "from": 2000,
+              "to": 2000
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-land-rover-range-rover-lwb-p400-2022",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 3 L Inline-6 turbocharged 294 kW / 550 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2022",
+    "displacement": "3 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Land Rover Range Rover LWB P400 (Europe market, 2022 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover LWB P400 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover LWB P400 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover LWB P400 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3 L; Land Rover Range Rover LWB P400 (Europe market, 2022 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 294,
+        "max": 294
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-land-rover-range-rover-lwb-p400-2022-a",
+        "batch18-land-rover-range-rover-lwb-p400-2022-b"
+      ],
+      "scope": {
+        "applications": [
+          "Land Rover Range Rover LWB P400 (Europe market, 2022 specification)"
+        ],
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-land-rover-range-rover-lwb-p400-2022-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Land Rover Range Rover LWB P400 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2022,
+          "url": "https://www.encycarpedia.com/land-rover/22-range-rover-lwb-p400-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 294,
+              "max": 294
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 294 kW and 550 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2022 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover LWB P400 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-land-rover-range-rover-lwb-p400-2022-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2022 Land Rover Range Rover LWB P400 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2022,
+          "url": "https://www.auto-data.net/en/land-rover-range-rover-v-lwb-3.0-p400-400hp-mild-hybrid-awd-automatic-7-seat-44929",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 294,
+              "max": 294
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "3 L Inline-6, DOHC, 24 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 294 kW and 550 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2022 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover LWB P400 (Europe market, 2022 specification)"
+            ],
+            "years": {
+              "from": 2022,
+              "to": 2022
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-land-rover-range-rover-4-4-sdv8-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Land Rover 4.4 L V8 twinTurbocharged 249 kW / 740 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Land Rover",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "4.4 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.4 L; Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 249,
+        "max": 249
+      },
+      "torqueNm": {
+        "min": 740,
+        "max": 740
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-land-rover-range-rover-4-4-sdv8-2018-a",
+        "batch18-land-rover-range-rover-4-4-sdv8-2018-b"
+      ],
+      "scope": {
+        "applications": [
+          "Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-land-rover-range-rover-4-4-sdv8-2018-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Land Rover Range Rover 4.4 SDV8 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/land-rover/18-range-rover-4-4-sdv8-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 249,
+              "max": 249
+            },
+            "performance.torqueNm": {
+              "min": 740,
+              "max": 740
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; diesel, twinTurbocharged, commonRail; 249 kW and 740 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2018 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-land-rover-range-rover-4-4-sdv8-2018-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Land Rover Range Rover 4.4 SDV8 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2018,
+          "url": "https://www.auto-data.net/en/land-rover-range-rover-iv-facelift-2017-4.4-sdv8-339hp-awd-automatic-36669",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 249,
+              "max": 249
+            },
+            "performance.torqueNm": {
+              "min": 740,
+              "max": 740
+            }
+          },
+          "pageNotes": [
+            "4.4 L V8, DOHC, 32 valves and 4 total camshafts; diesel, twinTurbocharged, commonRail; 249 kW and 740 N·m. 32 total valves = 4 valves/cylinder × 8 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2018 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Land Rover Range Rover 4.4 SDV8 (Europe market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-skoda-octavia-1-5-tsi-150-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 1.5 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-skoda-octavia-1-5-tsi-150-2024-a",
+        "batch18-skoda-octavia-1-5-tsi-150-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-skoda-octavia-1-5-tsi-150-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Škoda Octavia 1.5 TSI 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/skoda/24-octavia-1-5-tsi-150-fastback",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 110 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-skoda-octavia-1-5-tsi-150-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Škoda Octavia 1.5 TSI 150 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2024,
+          "url": "https://www.auto-data.net/en/skoda-octavia-iv-facelift-2024-1.5-tsi-150hp-51307",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 110 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Octavia 1.5 TSI 150 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-skoda-scala-1-0-tsi-115-2026",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Škoda 1.00 L Inline-3 turbocharged 85 kW / 200 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Škoda",
+    "regionKey": "europe",
+    "years": "2026",
+    "displacement": "1.00 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.00 L; Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.00 L; Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.00 L; Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.00 L; Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 200,
+        "max": 200
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-skoda-scala-1-0-tsi-115-2026-a",
+        "batch18-skoda-scala-1-0-tsi-115-2026-b"
+      ],
+      "scope": {
+        "applications": [
+          "Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-skoda-scala-1-0-tsi-115-2026-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2026 Škoda Scala 1.0 TSI 115 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2026,
+          "url": "https://www.encycarpedia.com/skoda/24-scala-1-0-tsi-115-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.00 L Inline-3, DOHC, 12 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 200 N·m. 12 total valves = 4 valves/cylinder × 3 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2026 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-skoda-scala-1-0-tsi-115-2026-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2026 Škoda Scala 1.0 TSI 115 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2026,
+          "url": "https://www.automobile-catalog.com/car/2026/3312080/skoda_scala_1_0_tsi_115_dsg.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 200,
+              "max": 200
+            }
+          },
+          "pageNotes": [
+            "1.00 L Inline-3, DOHC, 12 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 200 N·m. 12 total valves = 4 valves/cylinder × 3 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2026 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Škoda Scala 1.0 TSI 115 (Europe market, 2026 specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-cupra-terramar-vz-2-0-tsi-265-4drive-2026",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "CUPRA 2 L Inline-4 turbocharged 195 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "CUPRA",
+    "regionKey": "europe",
+    "years": "2026",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 195,
+        "max": 195
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-cupra-terramar-vz-2-0-tsi-265-4drive-2026-a",
+        "batch18-cupra-terramar-vz-2-0-tsi-265-4drive-2026-b"
+      ],
+      "scope": {
+        "applications": [
+          "CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification)"
+        ],
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-cupra-terramar-vz-2-0-tsi-265-4drive-2026-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2026 CUPRA Terramar VZ 2.0 TSI 265 4Drive technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2026,
+          "url": "https://www.encycarpedia.com/cupra/25-terramar-vz-2-0-tsi-265-4drive-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 195 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2026 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-cupra-terramar-vz-2-0-tsi-265-4drive-2026-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2026 CUPRA Terramar VZ 2.0 TSI 265 4Drive technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2026,
+          "url": "https://www.automobile-catalog.com/car/2025/3377525/cupra_terramar_vz_2_0_tsi_265_4drive.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 195,
+              "max": 195
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 195 kW and 400 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2026 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Terramar VZ 2.0 TSI 265 4Drive (Europe market, 2026 specification)"
+            ],
+            "years": {
+              "from": 2026,
+              "to": 2026
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-cupra-terramar-1-5-etsi-150-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "CUPRA 1.5 L Inline-4 turbocharged 110 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "CUPRA",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-cupra-terramar-1-5-etsi-150-2025-a",
+        "batch18-cupra-terramar-1-5-etsi-150-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-cupra-terramar-1-5-etsi-150-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 CUPRA Terramar 1.5 eTSI 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/cupra/25-terramar-1-5-etsi-150-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 110 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2025 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-cupra-terramar-1-5-etsi-150-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 CUPRA Terramar 1.5 eTSI 150 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2025,
+          "url": "https://www.auto-data.net/en/cupra-terramar-1.5-etsi-150hp-mild-hybrid-dsg-52621",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 110 kW and 250 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2025 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Terramar 1.5 eTSI 150 (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-cupra-formentor-1-5-e-hybrid-272-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "CUPRA 1.5 L Inline-4 turbocharged 85 kW / 330 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "CUPRA",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 330,
+        "max": 330
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-cupra-formentor-1-5-e-hybrid-272-2024-a",
+        "batch18-cupra-formentor-1-5-e-hybrid-272-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-cupra-formentor-1-5-e-hybrid-272-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 CUPRA Formentor 1.5 e-Hybrid 272 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/cupra/24-formentor-1-5-e-hybrid-272-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 330,
+              "max": 330
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 330 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-cupra-formentor-1-5-e-hybrid-272-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 CUPRA Formentor 1.5 e-Hybrid 272 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/car/2024/3342365/cupra_formentor_vz_1_5_e-hybrid_272.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 330,
+              "max": 330
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 330 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Formentor 1.5 e-Hybrid 272 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-cupra-formentor-1-4-e-hybrid-245-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "CUPRA 1.4 L Inline-4 turbocharged 85 kW / 330 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "CUPRA",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 85,
+        "max": 85
+      },
+      "torqueNm": {
+        "min": 330,
+        "max": 330
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-cupra-formentor-1-4-e-hybrid-245-2024-a",
+        "batch18-cupra-formentor-1-4-e-hybrid-245-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-cupra-formentor-1-4-e-hybrid-245-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 CUPRA Formentor 1.4 e-Hybrid 245 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/cupra/21-formentor-1-4-e-hybrid-245-suv",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 330,
+              "max": 330
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 330 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-cupra-formentor-1-4-e-hybrid-245-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 CUPRA Formentor 1.4 e-Hybrid 245 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/car/2024/3103295/cupra_formentor_vz_1_4_e-hybrid_245.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 85,
+              "max": 85
+            },
+            "performance.torqueNm": {
+              "min": 330,
+              "max": 330
+            }
+          },
+          "pageNotes": [
+            "1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; gasoline, turbocharged, directInjection; 85 kW and 330 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2024 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "CUPRA Formentor 1.4 e-Hybrid 245 (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "Automobile-Catalog / ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-rover-75-2-5-v6-1999",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rover 2.5 L V6 naturallyAspirated 130 kW / 240 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rover",
+    "regionKey": "europe",
+    "years": "1999",
+    "displacement": "2.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rover 75 2.5 V6 (Europe market, 1999 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Rover 75 2.5 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Rover 75 2.5 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Rover 75 2.5 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Rover 75 2.5 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130
+      },
+      "torqueNm": {
+        "min": 240,
+        "max": 240
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-rover-75-2-5-v6-1999-a",
+        "batch18-rover-75-2-5-v6-1999-b"
+      ],
+      "scope": {
+        "applications": [
+          "Rover 75 2.5 V6 (Europe market, 1999 specification)"
+        ],
+        "years": {
+          "from": 1999,
+          "to": 1999
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-rover-75-2-5-v6-1999-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Rover 75 2.5 V6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1999,
+          "url": "https://www.encycarpedia.com/rover/99-75-2-5-v6-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "2.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 130 kW and 240 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 75 2.5 V6 (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-rover-75-2-5-v6-1999-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Rover 75 2.5 V6 technical specification — Automobile-Catalog",
+          "publisher": "Automobile-Catalog",
+          "year": 1999,
+          "url": "https://www.automobile-catalog.com/car/1999/3015320/rover_75_2_5_v6_saloon.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 240,
+              "max": 240
+            }
+          },
+          "pageNotes": [
+            "2.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 130 kW and 240 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 75 2.5 V6 (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Automobile-Catalog",
+          "editorialTeam": "Automobile-Catalog editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-9-3-sportlimousine-2-0t-2003",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 2 L Inline-4 turbocharged 129 kW / 265 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2 L; Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 129,
+        "max": 129
+      },
+      "torqueNm": {
+        "min": 265,
+        "max": 265
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-9-3-sportlimousine-2-0t-2003-a",
+        "batch18-saab-9-3-sportlimousine-2-0t-2003-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-9-3-sportlimousine-2-0t-2003-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Saab 9-3 SportLimousine 2.0t technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2003,
+          "url": "https://www.encycarpedia.com/saab/02-9-3-sportlimousine-2-0t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 129,
+              "max": 129
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 129 kW and 265 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-9-3-sportlimousine-2-0t-2003-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Saab 9-3 SportLimousine 2.0t technical specification — Automobile-Catalog",
+          "publisher": "Automobile-Catalog",
+          "year": 2003,
+          "url": "https://www.automobile-catalog.com/car/2003/3035255/saab_9-3_2_0t.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 129,
+              "max": 129
+            },
+            "performance.torqueNm": {
+              "min": 265,
+              "max": 265
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 129 kW and 265 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2003 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-3 SportLimousine 2.0t (Europe market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Automobile-Catalog",
+          "editorialTeam": "Automobile-Catalog editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-thesis-2-4-20v-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 2.4 L Inline-5 naturallyAspirated 125 kW / 226 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "2.4 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Thesis 2.4 20v (Europe market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Lancia Thesis 2.4 20v (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Lancia Thesis 2.4 20v (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Lancia Thesis 2.4 20v (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.4 L; Lancia Thesis 2.4 20v (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125
+      },
+      "torqueNm": {
+        "min": 226,
+        "max": 226
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-thesis-2-4-20v-2002-a",
+        "batch18-lancia-thesis-2-4-20v-2002-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Thesis 2.4 20v (Europe market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-thesis-2-4-20v-2002-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Lancia Thesis 2.4 20v technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/us/lancia/01-thesis-2-4-20v-sedan",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 226,
+              "max": 226
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 125 kW and 226 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Thesis 2.4 20v (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-thesis-2-4-20v-2002-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Lancia Thesis 2.4 20v technical specification — Automobile-Catalog",
+          "publisher": "Automobile-Catalog",
+          "year": 2002,
+          "url": "https://www.automobile-catalog.com/car/2002/1385090/lancia_thesis_2_4_emblema.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 226,
+              "max": 226
+            }
+          },
+          "pageNotes": [
+            "2.4 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 125 kW and 226 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Thesis 2.4 20v (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Automobile-Catalog",
+          "editorialTeam": "Automobile-Catalog editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-s-type-3-0-v6-1999",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 3 L V6 naturallyAspirated 175 kW / 293 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "1999",
+    "displacement": "3 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar S-Type 3.0 V6 (Europe market, 1999 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar S-Type 3.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar S-Type 3.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar S-Type 3.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3 L; Jaguar S-Type 3.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 175,
+        "max": 175
+      },
+      "torqueNm": {
+        "min": 293,
+        "max": 293
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-s-type-3-0-v6-1999-a",
+        "batch18-jaguar-s-type-3-0-v6-1999-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar S-Type 3.0 V6 (Europe market, 1999 specification)"
+        ],
+        "years": {
+          "from": 1999,
+          "to": 1999
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-s-type-3-0-v6-1999-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Jaguar S-Type 3.0 V6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1999,
+          "url": "https://www.encycarpedia.com/jaguar/99-s-type-v6-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 175,
+              "max": 175
+            },
+            "performance.torqueNm": {
+              "min": 293,
+              "max": 293
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 175 kW and 293 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar S-Type 3.0 V6 (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-s-type-3-0-v6-1999-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Jaguar S-Type 3.0 V6 technical specification — Automobile-Catalog",
+          "publisher": "Automobile-Catalog",
+          "year": 1999,
+          "url": "https://www.automobile-catalog.com/car/1999/1287695/jaguar_s-type_3_0_v6.html",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 175,
+              "max": 175
+            },
+            "performance.torqueNm": {
+              "min": 293,
+              "max": 293
+            }
+          },
+          "pageNotes": [
+            "3 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 175 kW and 293 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar S-Type 3.0 V6 (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Automobile-Catalog",
+          "editorialTeam": "Automobile-Catalog editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-rover-75-2-0-v6-1999",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rover 2 L V6 naturallyAspirated 110 kW / 185 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rover",
+    "regionKey": "europe",
+    "years": "1999",
+    "displacement": "2 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rover 75 2.0 V6 (Europe market, 1999 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2 L; Rover 75 2.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2 L; Rover 75 2.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2 L; Rover 75 2.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2 L; Rover 75 2.0 V6 (Europe market, 1999 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 185,
+        "max": 185
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-rover-75-2-0-v6-1999-a",
+        "batch18-rover-75-2-0-v6-1999-b"
+      ],
+      "scope": {
+        "applications": [
+          "Rover 75 2.0 V6 (Europe market, 1999 specification)"
+        ],
+        "years": {
+          "from": 1999,
+          "to": 1999
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-rover-75-2-0-v6-1999-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Rover 75 2.0 V6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1999,
+          "url": "https://www.encycarpedia.com/rover/99-75-2-0-v6-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 185,
+              "max": 185
+            }
+          },
+          "pageNotes": [
+            "2 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 110 kW and 185 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 75 2.0 V6 (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-rover-75-2-0-v6-1999-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1999 Rover 75 2.0 V6 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 1999,
+          "url": "https://www.auto-data.net/en/rover-75-2.0-v6-150hp-11644",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 185,
+              "max": 185
+            }
+          },
+          "pageNotes": [
+            "2 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 110 kW and 185 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 1999 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rover 75 2.0 V6 (Europe market, 1999 specification)"
+            ],
+            "years": {
+              "from": 1999,
+              "to": 1999
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-lancia-thesis-2-0-turbo-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lancia 2 L Inline-5 turbocharged 136 kW / 308 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lancia",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "2 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2 L; Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 136,
+        "max": 136
+      },
+      "torqueNm": {
+        "min": 308,
+        "max": 308
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-lancia-thesis-2-0-turbo-2002-a",
+        "batch18-lancia-thesis-2-0-turbo-2002-b"
+      ],
+      "scope": {
+        "applications": [
+          "Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-lancia-thesis-2-0-turbo-2002-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Lancia Thesis 2.0 20V Turbo technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/lancia/01-thesis-2-0-20v-turbo-soft-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 136,
+              "max": 136
+            },
+            "performance.torqueNm": {
+              "min": 308,
+              "max": 308
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 136 kW and 308 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-lancia-thesis-2-0-turbo-2002-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Lancia Thesis 2.0 20V Turbo technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2002,
+          "url": "https://www.auto-data.net/en/lancia-thesis-2.0-20v-turbo-185hp-4936",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 136,
+              "max": 136
+            },
+            "performance.torqueNm": {
+              "min": 308,
+              "max": 308
+            }
+          },
+          "pageNotes": [
+            "2 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 136 kW and 308 N·m. 20 total valves = 4 valves/cylinder × 5 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lancia Thesis 2.0 20V Turbo (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-jaguar-s-type-2-5-v6-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Jaguar 2.5 L V6 naturallyAspirated 147 kW / 245 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Jaguar",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "2.5 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Jaguar S-Type 2.5 V6 (Europe market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Jaguar S-Type 2.5 V6 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Jaguar S-Type 2.5 V6 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Jaguar S-Type 2.5 V6 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.5 L; Jaguar S-Type 2.5 V6 (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 147,
+        "max": 147
+      },
+      "torqueNm": {
+        "min": 245,
+        "max": 245
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-jaguar-s-type-2-5-v6-2002-a",
+        "batch18-jaguar-s-type-2-5-v6-2002-b"
+      ],
+      "scope": {
+        "applications": [
+          "Jaguar S-Type 2.5 V6 (Europe market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-jaguar-s-type-2-5-v6-2002-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Jaguar S-Type 2.5 V6 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/jaguar/02-s-type-2-5-l-v6-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 147,
+              "max": 147
+            },
+            "performance.torqueNm": {
+              "min": 245,
+              "max": 245
+            }
+          },
+          "pageNotes": [
+            "2.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 147 kW and 245 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar S-Type 2.5 V6 (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-jaguar-s-type-2-5-v6-2002-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Jaguar S-Type 2.5 V6 technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2002,
+          "url": "https://www.auto-data.net/en/jaguar-s-type-ccx-2.5-i-v6-24v-200hp-automatic-24886",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 147,
+              "max": 147
+            },
+            "performance.torqueNm": {
+              "min": 245,
+              "max": 245
+            }
+          },
+          "pageNotes": [
+            "2.5 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 147 kW and 245 N·m. 24 total valves = 4 valves/cylinder × 6 cylinders; 4 total camshafts = DOHC (2 camshafts/bank) × 2 cylinder banks. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Jaguar S-Type 2.5 V6 (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch18-saab-9-3-2-2-tid-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Saab 2.2 L Inline-4 turbocharged 92 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent exact-variant technical publications bind the application and mandatory specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Calibration, fuel and materially different performance variants remain separate; cosmetic or drivetrain-only variants are consolidated."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Saab",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "2.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 92,
+        "max": 92
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch18-saab-9-3-2-2-tid-2002-a",
+        "batch18-saab-9-3-2-2-tid-2002-b"
+      ],
+      "scope": {
+        "applications": [
+          "Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch18-saab-9-3-2-2-tid-2002-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Saab 9-3 SportLimousine 2.2 TiD technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/saab/02-9-3-sportlimousine-2-2-tid-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 92 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch18-saab-9-3-2-2-tid-2002-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "independent-editorial-technical-compilation",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Saab 9-3 SportLimousine 2.2 TiD technical specification — Auto-Data.net",
+          "publisher": "Auto-Data.net",
+          "year": 2002,
+          "url": "https://www.auto-data.net/en/saab-9-3-sedan-ii-2.2-tid-125hp-11920",
+          "page": 1,
+          "checkedAt": "2026-10-13",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 92,
+              "max": 92
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 92 kW and 280 N·m. 16 total valves = 4 valves/cylinder × 4 cylinders; 2 total camshafts = DOHC (2 camshafts/bank) × 1 cylinder bank. No shared engine code or stable public designation is claimed.",
+            "Exact variant/application page; scope limited to the 2002 Europe specification. RPM is intentionally omitted. Construction totals use the stated cylinder layout, valvetrain and valve count; the derivation formula is recorded above."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Saab 9-3 SportLimousine 2.2 TiD (Europe market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "Auto-Data.net",
+          "editorialTeam": "Auto-Data.net editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];
