@@ -187,7 +187,7 @@ function validateSyntheticDesignation(record) {
 const batch12BaselineLimits = { europe: 345, japan: 416, korea: 50, 'north-america': 110, 'south-america': 0 };
 const batch12BaselineRecords = sourceData.regionFiles.flatMap((file) => file.records.slice(0, batch12BaselineLimits[file.region]));
 const semanticHash = crypto.createHash('sha256').update(canonicalFingerprint(batch12BaselineRecords)).digest('hex');
-check(records.length === 1402, `Engine count changed: expected 1402, found ${records.length}`);
+check(records.length === 1502, `Engine count changed: expected 1502, found ${records.length}`);
 check(
   semanticHash === '470d47d40d34f08bbe9b35749541f747f9ec7e9880bc25609ceb1c4c3a8e096c',
   `First 921-record baseline semantic hash changed: ${semanticHash}`
@@ -829,15 +829,15 @@ pass(`Batch 10 preserves the original 765 records and validates 26 reconciled di
 const summaries = core.regionSummaries(records, REGIONS);
 check(
   JSON.stringify(summaries) === JSON.stringify([
-    { region: 'europe', engineCount: 715, manufacturerCount: 39 },
-    { region: 'japan', engineCount: 451, manufacturerCount: 20 },
+    { region: 'europe', engineCount: 767, manufacturerCount: 44 },
+    { region: 'japan', engineCount: 457, manufacturerCount: 21 },
     { region: 'korea', engineCount: 65, manufacturerCount: 5 },
-    { region: 'north-america', engineCount: 171, manufacturerCount: 24 }
+    { region: 'north-america', engineCount: 213, manufacturerCount: 30 }
   ]),
   'Region engine/manufacturer summaries changed'
 );
 check(summaries.every((summary) => Number.isInteger(summary.engineCount) && summary.engineCount > 0), 'A region engineCount is not a positive integer');
-check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 1402, 'Regional engineCount sum does not equal 1402');
+check(summaries.reduce((total, summary) => total + summary.engineCount, 0) === 1502, 'Regional engineCount sum does not equal 1502');
 for (const summary of summaries) {
   const renderedSummary = core.formatRegionSummary(summary, { manufacturers: 'manufacturers', engines: 'engines' });
   check(renderedSummary.includes(String(summary.manufacturerCount)), `${summary.region} summary is missing its manufacturer count`);
@@ -865,7 +865,7 @@ pass('initial navigation keeps all regions closed and manufacturers hidden');
 
 const europeNavigation = core.navigationModel(records, REGIONS, { region: 'europe', maker: '' });
 const openEurope = europeNavigation.find((region) => region.region === 'europe');
-check(openEurope.expanded && openEurope.makers.length === 39, 'Europe did not expose its 39 manufacturers');
+check(openEurope.expanded && openEurope.makers.length === 44, 'Europe did not expose its 44 manufacturers');
 check(europeNavigation.filter((region) => region.region !== 'europe').every((region) => region.makers.length === 0), 'A closed region exposed manufacturers');
 for (const region of REGIONS) {
   const expected = new Set(records.filter((record) => record.regionKey === region).map((record) => core.makerSlug(record.maker)));

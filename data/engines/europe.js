@@ -121663,5 +121663,11451 @@ window.AUTOHUB_ENGINE_DATA_REGIONS.europe = [
         }
       ]
     }
+  },
+  {
+    "id": "batch17-escort-rs-cosworth-1992",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 2.0 L Inline-4 turbocharged 167 kW / 304 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "europe",
+    "years": "1992",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 167,
+        "max": 167
+      },
+      "torqueNm": {
+        "min": 304,
+        "max": 304
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-escort-rs-cosworth-1992-ency",
+        "batch17-escort-rs-cosworth-1992-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification)"
+        ],
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-escort-rs-cosworth-1992-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Ford Escort RS Cosworth technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1992,
+          "url": "https://www.encycarpedia.com/ford/92-escort-rs-cosworth-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 167,
+              "max": 167
+            },
+            "performance.torqueNm": {
+              "min": 304,
+              "max": 304
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 167 kW and 304 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-escort-rs-cosworth-1992-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1992 Ford Escort RS Cosworth technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1992,
+          "url": "https://www.automobile-catalog.com/car/1992/947090/ford_escort_rs_cosworth.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 167,
+              "max": 167
+            },
+            "performance.torqueNm": {
+              "min": 304,
+              "max": 304
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 167 kW and 304 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Escort RS Cosworth (Europe/United Kingdom market, 1992 specification)"
+            ],
+            "years": {
+              "from": 1992,
+              "to": 1992
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mondeo-st220-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 3.0 L V6 naturallyAspirated 166 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 166,
+        "max": 166
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mondeo-st220-2002-ency",
+        "batch17-mondeo-st220-2002-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mondeo-st220-2002-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Ford Mondeo ST220 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/ford/02-mondeo-st220-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 166,
+              "max": 166
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 166 kW and 280 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mondeo-st220-2002-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Ford Mondeo ST220 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2002,
+          "url": "https://www.automobile-catalog.com/car/2002/971105/ford_mondeo_4-dr_st_220.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 166,
+              "max": 166
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, naturallyAspirated, multiPointInjection; 166 kW and 280 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Mondeo ST220 (Europe/United Kingdom market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-focus-st-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Ford 2.5 L Inline-5 turbocharged 166 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Ford",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "2.5 L",
+    "layout": "Inline-5 · DOHC · 20 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Ford Focus ST (Europe/United Kingdom market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Ford Focus ST (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Ford Focus ST (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Ford Focus ST (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-5 · DOHC · 20 valves · 2 camshafts total, 2.5 L; Ford Focus ST (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 166,
+        "max": 166
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-focus-st-2005-ency",
+        "batch17-focus-st-2005-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Ford Focus ST (Europe/United Kingdom market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-focus-st-2005-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Ford Focus ST technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/ford/05-focus-st-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 166,
+              "max": 166
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 166 kW and 320 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus ST (Europe/United Kingdom market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-focus-st-2005-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Ford Focus ST technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2005,
+          "url": "https://www.automobile-catalog.com/car/2005/966695/ford_focus_st.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 166,
+              "max": 166
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 2.5 L Inline-5, DOHC, 20 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 166 kW and 320 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Ford Focus ST (Europe/United Kingdom market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-arnage-t-2002",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Bentley 6.75 L V8 twinTurbocharged 336 kW / 875 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Bentley",
+    "regionKey": "europe",
+    "years": "2002",
+    "displacement": "6.75 L",
+    "layout": "V8 · OHV · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Bentley Arnage T (Europe/United Kingdom market, 2002 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · OHV · 16 valves · 1 camshaft total, 6.75 L; Bentley Arnage T (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · OHV · 16 valves · 1 camshaft total, 6.75 L; Bentley Arnage T (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · OHV · 16 valves · 1 camshaft total, 6.75 L; Bentley Arnage T (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · OHV · 16 valves · 1 camshaft total, 6.75 L; Bentley Arnage T (Europe/United Kingdom market, 2002 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 336,
+        "max": 336
+      },
+      "torqueNm": {
+        "min": 875,
+        "max": 875
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-arnage-t-2002-ency",
+        "batch17-arnage-t-2002-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Bentley Arnage T (Europe/United Kingdom market, 2002 specification)"
+        ],
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-arnage-t-2002-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Bentley Arnage T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2002,
+          "url": "https://www.encycarpedia.com/bentley/02-arnage-t-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 336,
+              "max": 336
+            },
+            "performance.torqueNm": {
+              "min": 875,
+              "max": 875
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.75 L V8, OHV, 16 valves and 1 total camshafts; petrol, twinTurbocharged, multiPointInjection; 336 kW and 875 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Arnage T (Europe/United Kingdom market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-arnage-t-2002-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2002 Bentley Arnage T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2002,
+          "url": "https://www.automobile-catalog.com/car/2002/261095/bentley_arnage_t.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 336,
+              "max": 336
+            },
+            "performance.torqueNm": {
+              "min": 875,
+              "max": 875
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.75 L V8, OHV, 16 valves and 1 total camshafts; petrol, twinTurbocharged, multiPointInjection; 336 kW and 875 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Arnage T (Europe/United Kingdom market, 2002 specification)"
+            ],
+            "years": {
+              "from": 2002,
+              "to": 2002
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-continental-gt-w12-2003",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Bentley 6.0 L W12 twinTurbocharged 412 kW / 650 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Bentley",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "6.0 L",
+    "layout": "W12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 412,
+        "max": 412
+      },
+      "torqueNm": {
+        "min": 650,
+        "max": 650
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-continental-gt-w12-2003-ency",
+        "batch17-continental-gt-w12-2003-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-continental-gt-w12-2003-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Bentley Continental GT W12 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2003,
+          "url": "https://www.encycarpedia.com/bentley/03-continental-gt-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 412,
+              "max": 412
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.0 L W12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 412 kW and 650 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-continental-gt-w12-2003-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Bentley Continental GT W12 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2003,
+          "url": "https://www.automobile-catalog.com/car/2003/261275/bentley_continental_gt.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 412,
+              "max": 412
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.0 L W12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 412 kW and 650 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Continental GT W12 (Europe/United Kingdom market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-flying-spur-v8-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Bentley 4.0 L V8 twinTurbocharged 373 kW / 660 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Bentley",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 373,
+        "max": 373
+      },
+      "torqueNm": {
+        "min": 660,
+        "max": 660
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-flying-spur-v8-2014-ency",
+        "batch17-flying-spur-v8-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-flying-spur-v8-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Bentley Flying Spur V8 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/bentley/14-flying-spur-v8-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 373,
+              "max": 373
+            },
+            "performance.torqueNm": {
+              "min": 660,
+              "max": 660
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 373 kW and 660 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-flying-spur-v8-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Bentley Flying Spur V8 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2043740/bentley_flying_spur_v8.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 373,
+              "max": 373
+            },
+            "performance.torqueNm": {
+              "min": 660,
+              "max": 660
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 373 kW and 660 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Flying Spur V8 (Europe/United Kingdom market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bentayga-w12-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Bentley 6.0 L W12 twinTurbocharged 447 kW / 900 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Bentley",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "6.0 L",
+    "layout": "W12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "W12 · DOHC · 48 valves · 4 camshafts total, 6.0 L; Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 447,
+        "max": 447
+      },
+      "torqueNm": {
+        "min": 900,
+        "max": 900
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bentayga-w12-2016-ency",
+        "batch17-bentayga-w12-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bentayga-w12-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Bentley Bentayga W12 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/bentley/16-bentayga-w12-suv",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 447,
+              "max": 447
+            },
+            "performance.torqueNm": {
+              "min": 900,
+              "max": 900
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.0 L W12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 447 kW and 900 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bentayga-w12-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Bentley Bentayga W12 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2210120/bentley_bentayga.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 447,
+              "max": 447
+            },
+            "performance.torqueNm": {
+              "min": 900,
+              "max": 900
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.0 L W12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 447 kW and 900 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Bentley Bentayga W12 (Europe/United Kingdom market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-silver-seraph-1998",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rolls-Royce 5.4 L V12 naturallyAspirated 240 kW / 490 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rolls-Royce",
+    "regionKey": "europe",
+    "years": "1998",
+    "displacement": "5.4 L",
+    "layout": "V12 · SOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · SOHC · 24 valves · 2 camshafts total, 5.4 L; Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V12 · SOHC · 24 valves · 2 camshafts total, 5.4 L; Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V12 · SOHC · 24 valves · 2 camshafts total, 5.4 L; Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V12 · SOHC · 24 valves · 2 camshafts total, 5.4 L; Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 240,
+        "max": 240
+      },
+      "torqueNm": {
+        "min": 490,
+        "max": 490
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-silver-seraph-1998-ency",
+        "batch17-silver-seraph-1998-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification)"
+        ],
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-silver-seraph-1998-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Rolls-Royce Silver Seraph technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1998,
+          "url": "https://www.encycarpedia.com/rolls-royce/98-silver-seraph-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 240,
+              "max": 240
+            },
+            "performance.torqueNm": {
+              "min": 490,
+              "max": 490
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 5.4 L V12, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 240 kW and 490 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-silver-seraph-1998-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1998 Rolls-Royce Silver Seraph technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1998,
+          "url": "https://www.automobile-catalog.com/car/1998/2993855/rolls-royce_silver_seraph.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 240,
+              "max": 240
+            },
+            "performance.torqueNm": {
+              "min": 490,
+              "max": 490
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 5.4 L V12, SOHC, 24 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 240 kW and 490 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Silver Seraph (Europe/United Kingdom market, 1998 specification)"
+            ],
+            "years": {
+              "from": 1998,
+              "to": 1998
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-phantom-2003",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rolls-Royce 6.75 L V12 naturallyAspirated 338 kW / 720 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rolls-Royce",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "6.75 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 338,
+        "max": 338
+      },
+      "torqueNm": {
+        "min": 720,
+        "max": 720
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-phantom-2003-ency",
+        "batch17-phantom-2003-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-phantom-2003-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Rolls-Royce Phantom technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2003,
+          "url": "https://www.encycarpedia.com/rolls-royce/03-phantom-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 338,
+              "max": 338
+            },
+            "performance.torqueNm": {
+              "min": 720,
+              "max": 720
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.75 L V12, DOHC, 48 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 338 kW and 720 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-phantom-2003-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Rolls-Royce Phantom technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2003,
+          "url": "https://www.automobile-catalog.com/car/2003/2993945/rolls-royce_phantom.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 338,
+              "max": 338
+            },
+            "performance.torqueNm": {
+              "min": 720,
+              "max": 720
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.75 L V12, DOHC, 48 valves and 4 total camshafts; petrol, naturallyAspirated, directInjection; 338 kW and 720 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Phantom (Europe/United Kingdom market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-ghost-2010",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rolls-Royce 6.6 L V12 twinTurbocharged 420 kW / 780 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rolls-Royce",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "6.6 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 420,
+        "max": 420
+      },
+      "torqueNm": {
+        "min": 780,
+        "max": 780
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-ghost-2010-ency",
+        "batch17-ghost-2010-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-ghost-2010-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2010 Rolls-Royce Ghost technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2010,
+          "url": "https://www.encycarpedia.com/rolls-royce/10-ghost-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 420,
+              "max": 420
+            },
+            "performance.torqueNm": {
+              "min": 780,
+              "max": 780
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.6 L V12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 420 kW and 780 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-ghost-2010-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2010 Rolls-Royce Ghost technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2010,
+          "url": "https://www.automobile-catalog.com/car/2010/2994140/rolls-royce_ghost.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 420,
+              "max": 420
+            },
+            "performance.torqueNm": {
+              "min": 780,
+              "max": 780
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.6 L V12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 420 kW and 780 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Ghost (Europe/United Kingdom market, 2010 specification)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-wraith-2013",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rolls-Royce 6.6 L V12 twinTurbocharged 465 kW / 800 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rolls-Royce",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "6.6 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.6 L; Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 465,
+        "max": 465
+      },
+      "torqueNm": {
+        "min": 800,
+        "max": 800
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-wraith-2013-ency",
+        "batch17-wraith-2013-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-wraith-2013-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Rolls-Royce Wraith technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2013,
+          "url": "https://www.encycarpedia.com/rolls-royce/13-wraith-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 465,
+              "max": 465
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.6 L V12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 465 kW and 800 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-wraith-2013-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 Rolls-Royce Wraith technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2013,
+          "url": "https://www.automobile-catalog.com/car/2013/2994365/rolls-royce_wraith.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 465,
+              "max": 465
+            },
+            "performance.torqueNm": {
+              "min": 800,
+              "max": 800
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.6 L V12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 465 kW and 800 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Wraith (Europe/United Kingdom market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-cullinan-2018",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Rolls-Royce 6.75 L V12 twinTurbocharged 420 kW / 850 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Rolls-Royce",
+    "regionKey": "europe",
+    "years": "2018",
+    "displacement": "6.75 L",
+    "layout": "V12 · DOHC · 48 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V12 · DOHC · 48 valves · 4 camshafts total, 6.75 L; Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 420,
+        "max": 420
+      },
+      "torqueNm": {
+        "min": 850,
+        "max": 850
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-cullinan-2018-ency",
+        "batch17-cullinan-2018-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification)"
+        ],
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-cullinan-2018-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Rolls-Royce Cullinan technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2018,
+          "url": "https://www.encycarpedia.com/rolls-royce/18-cullinan-suv",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 420,
+              "max": 420
+            },
+            "performance.torqueNm": {
+              "min": 850,
+              "max": 850
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.75 L V12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 420 kW and 850 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-cullinan-2018-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2018 Rolls-Royce Cullinan technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2018,
+          "url": "https://www.automobile-catalog.com/car/2018/2994605/rolls-royce_cullinan.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 420,
+              "max": 420
+            },
+            "performance.torqueNm": {
+              "min": 850,
+              "max": 850
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 6.75 L V12, DOHC, 48 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 420 kW and 850 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Rolls-Royce Cullinan (Europe/United Kingdom market, 2018 specification)"
+            ],
+            "years": {
+              "from": 2018,
+              "to": 2018
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mp4-12c-2011",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "McLaren 3.8 L V8 twinTurbocharged 441 kW / 600 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "McLaren",
+    "regionKey": "europe",
+    "years": "2011",
+    "displacement": "3.8 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "McLaren MP4-12C (Europe/United Kingdom market, 2011 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren MP4-12C (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren MP4-12C (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren MP4-12C (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren MP4-12C (Europe/United Kingdom market, 2011 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 441,
+        "max": 441
+      },
+      "torqueNm": {
+        "min": 600,
+        "max": 600
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mp4-12c-2011-ency",
+        "batch17-mp4-12c-2011-ac"
+      ],
+      "scope": {
+        "applications": [
+          "McLaren MP4-12C (Europe/United Kingdom market, 2011 specification)"
+        ],
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mp4-12c-2011-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2011 McLaren MP4-12C technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2011,
+          "url": "https://www.encycarpedia.com/mclaren/11-mp4-12c-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 441,
+              "max": 441
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 441 kW and 600 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren MP4-12C (Europe/United Kingdom market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mp4-12c-2011-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2011 McLaren MP4-12C technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2011,
+          "url": "https://www.automobile-catalog.com/car/2011/1457915/mclaren_mp4-12c.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 441,
+              "max": 441
+            },
+            "performance.torqueNm": {
+              "min": 600,
+              "max": 600
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 441 kW and 600 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren MP4-12C (Europe/United Kingdom market, 2011 specification)"
+            ],
+            "years": {
+              "from": 2011,
+              "to": 2011
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-p1-combustion-2013",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "McLaren 3.8 L V8 twinTurbocharged 542 kW / 720 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "McLaren",
+    "regionKey": "europe",
+    "years": "2013",
+    "displacement": "3.8 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 542,
+        "max": 542
+      },
+      "torqueNm": {
+        "min": 720,
+        "max": 720
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-p1-combustion-2013-ency",
+        "batch17-p1-combustion-2013-ac"
+      ],
+      "scope": {
+        "applications": [
+          "McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification)"
+        ],
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-p1-combustion-2013-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 McLaren P1 combustion engine technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2013,
+          "url": "https://www.encycarpedia.com/mclaren/13-p1-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 542,
+              "max": 542
+            },
+            "performance.torqueNm": {
+              "min": 720,
+              "max": 720
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 542 kW and 720 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-p1-combustion-2013-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2013 McLaren P1 combustion engine technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2013,
+          "url": "https://www.automobile-catalog.com/car/2013/1842605/mclaren_p1.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 542,
+              "max": 542
+            },
+            "performance.torqueNm": {
+              "min": 720,
+              "max": 720
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 542 kW and 720 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren P1 combustion engine (Europe/United Kingdom market, 2013 specification)"
+            ],
+            "years": {
+              "from": 2013,
+              "to": 2013
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-650s-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "McLaren 3.8 L V8 twinTurbocharged 478 kW / 678 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "McLaren",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "3.8 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "McLaren 650S (Europe/United Kingdom market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren 650S (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren 650S (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren 650S (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 3.8 L; McLaren 650S (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 478,
+        "max": 478
+      },
+      "torqueNm": {
+        "min": 678,
+        "max": 678
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-650s-2014-ency",
+        "batch17-650s-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "McLaren 650S (Europe/United Kingdom market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-650s-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 McLaren 650S technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/mclaren/14-650s-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 478,
+              "max": 478
+            },
+            "performance.torqueNm": {
+              "min": 678,
+              "max": 678
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 478 kW and 678 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren 650S (Europe/United Kingdom market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-650s-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 McLaren 650S technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/2046110/mclaren_650s.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 478,
+              "max": 478
+            },
+            "performance.torqueNm": {
+              "min": 678,
+              "max": 678
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.8 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 478 kW and 678 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren 650S (Europe/United Kingdom market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-720s-2017",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "McLaren 4.0 L V8 twinTurbocharged 530 kW / 770 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "McLaren",
+    "regionKey": "europe",
+    "years": "2017",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "McLaren 720S (Europe/United Kingdom market, 2017 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; McLaren 720S (Europe/United Kingdom market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; McLaren 720S (Europe/United Kingdom market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; McLaren 720S (Europe/United Kingdom market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; McLaren 720S (Europe/United Kingdom market, 2017 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 530,
+        "max": 530
+      },
+      "torqueNm": {
+        "min": 770,
+        "max": 770
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-720s-2017-ency",
+        "batch17-720s-2017-ac"
+      ],
+      "scope": {
+        "applications": [
+          "McLaren 720S (Europe/United Kingdom market, 2017 specification)"
+        ],
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-720s-2017-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 McLaren 720S technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2017,
+          "url": "https://www.encycarpedia.com/mclaren/17-720s-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 530,
+              "max": 530
+            },
+            "performance.torqueNm": {
+              "min": 770,
+              "max": 770
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 530 kW and 770 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren 720S (Europe/United Kingdom market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-720s-2017-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2017 McLaren 720S technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2017,
+          "url": "https://www.automobile-catalog.com/car/2017/2561720/mclaren_720s_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 530,
+              "max": 530
+            },
+            "performance.torqueNm": {
+              "min": 770,
+              "max": 770
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, multiPointInjection; 530 kW and 770 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren 720S (Europe/United Kingdom market, 2017 specification)"
+            ],
+            "years": {
+              "from": 2017,
+              "to": 2017
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-artura-combustion-2021",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "McLaren 3.0 L V6 twinTurbocharged 430 kW / 585 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "McLaren",
+    "regionKey": "europe",
+    "years": "2021",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 430,
+        "max": 430
+      },
+      "torqueNm": {
+        "min": 585,
+        "max": 585
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-artura-combustion-2021-ency",
+        "batch17-artura-combustion-2021-ac"
+      ],
+      "scope": {
+        "applications": [
+          "McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification)"
+        ],
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-artura-combustion-2021-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 McLaren Artura combustion engine technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2021,
+          "url": "https://www.encycarpedia.com/mclaren/21-artura-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 430,
+              "max": 430
+            },
+            "performance.torqueNm": {
+              "min": 585,
+              "max": 585
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 430 kW and 585 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-artura-combustion-2021-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2021 McLaren Artura combustion engine technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2021,
+          "url": "https://www.automobile-catalog.com/car/2021/3045485/mclaren_artura.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 430,
+              "max": 430
+            },
+            "performance.torqueNm": {
+              "min": 585,
+              "max": 585
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 430 kW and 585 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "McLaren Artura combustion engine (Europe/United Kingdom market, 2021 specification)"
+            ],
+            "years": {
+              "from": 2021,
+              "to": 2021
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-esprit-turbo-se-1989",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lotus 2.2 L Inline-4 turbocharged 197 kW / 354 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lotus",
+    "regionKey": "europe",
+    "years": "1989",
+    "displacement": "2.2 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.2 L; Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 197,
+        "max": 197
+      },
+      "torqueNm": {
+        "min": 354,
+        "max": 354
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-esprit-turbo-se-1989-ency",
+        "batch17-esprit-turbo-se-1989-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification)"
+        ],
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-esprit-turbo-se-1989-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1989 Lotus Esprit Turbo SE technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1989,
+          "url": "https://www.encycarpedia.com/lotus/89-esprit-turbo-se-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 197,
+              "max": 197
+            },
+            "performance.torqueNm": {
+              "min": 354,
+              "max": 354
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 197 kW and 354 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification)"
+            ],
+            "years": {
+              "from": 1989,
+              "to": 1989
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-esprit-turbo-se-1989-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1989 Lotus Esprit Turbo SE technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1989,
+          "url": "https://www.automobile-catalog.com/car/1989/1434935/lotus_esprit_turbo_se.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 197,
+              "max": 197
+            },
+            "performance.torqueNm": {
+              "min": 354,
+              "max": 354
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 2.2 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 197 kW and 354 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus Esprit Turbo SE (Europe/United Kingdom market, 1989 specification)"
+            ],
+            "years": {
+              "from": 1989,
+              "to": 1989
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-elise-s1-1996",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lotus 1.8 L Inline-4 naturallyAspirated 88 kW / 165 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lotus",
+    "regionKey": "europe",
+    "years": "1996",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lotus Elise S1 (Europe/United Kingdom market, 1996 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Elise S1 (Europe/United Kingdom market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Elise S1 (Europe/United Kingdom market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Elise S1 (Europe/United Kingdom market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Elise S1 (Europe/United Kingdom market, 1996 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 88,
+        "max": 88
+      },
+      "torqueNm": {
+        "min": 165,
+        "max": 165
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-elise-s1-1996-ency",
+        "batch17-elise-s1-1996-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Lotus Elise S1 (Europe/United Kingdom market, 1996 specification)"
+        ],
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-elise-s1-1996-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1996 Lotus Elise S1 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 1996,
+          "url": "https://www.encycarpedia.com/lotus/96-elise-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 165,
+              "max": 165
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 88 kW and 165 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus Elise S1 (Europe/United Kingdom market, 1996 specification)"
+            ],
+            "years": {
+              "from": 1996,
+              "to": 1996
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-elise-s1-1996-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "1996 Lotus Elise S1 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 1996,
+          "url": "https://www.automobile-catalog.com/car/1996/1435670/lotus_elise.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 88,
+              "max": 88
+            },
+            "performance.torqueNm": {
+              "min": 165,
+              "max": 165
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 88 kW and 165 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus Elise S1 (Europe/United Kingdom market, 1996 specification)"
+            ],
+            "years": {
+              "from": 1996,
+              "to": 1996
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-exige-s-2006",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Lotus 1.8 L Inline-4 supercharged 162 kW / 215 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Lotus",
+    "regionKey": "europe",
+    "years": "2006",
+    "displacement": "1.8 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "supercharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Lotus Exige S (Europe/United Kingdom market, 2006 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Exige S (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Exige S (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Exige S (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.8 L; Lotus Exige S (Europe/United Kingdom market, 2006 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 162,
+        "max": 162
+      },
+      "torqueNm": {
+        "min": 215,
+        "max": 215
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-exige-s-2006-ency",
+        "batch17-exige-s-2006-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Lotus Exige S (Europe/United Kingdom market, 2006 specification)"
+        ],
+        "years": {
+          "from": 2006,
+          "to": 2006
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-exige-s-2006-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Lotus Exige S technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2006,
+          "url": "https://www.encycarpedia.com/lotus/06-exige-s-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 215,
+              "max": 215
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, supercharged, multiPointInjection; 162 kW and 215 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus Exige S (Europe/United Kingdom market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-exige-s-2006-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2006 Lotus Exige S technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2006,
+          "url": "https://www.automobile-catalog.com/car/2006/1436330/lotus_exige_s.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 162,
+              "max": 162
+            },
+            "performance.torqueNm": {
+              "min": 215,
+              "max": 215
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.8 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, supercharged, multiPointInjection; 162 kW and 215 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Lotus Exige S (Europe/United Kingdom market, 2006 specification)"
+            ],
+            "years": {
+              "from": 2006,
+              "to": 2006
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-roadster-2003",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Smart 0.7 L Inline-3 turbocharged 60 kW / 110 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Smart",
+    "regionKey": "europe",
+    "years": "2003",
+    "displacement": "0.7 L",
+    "layout": "Inline-3 · SOHC · 6 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Smart Roadster (Europe/United Kingdom market, 2003 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · SOHC · 6 valves · 1 camshaft total, 0.7 L; Smart Roadster (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · SOHC · 6 valves · 1 camshaft total, 0.7 L; Smart Roadster (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · SOHC · 6 valves · 1 camshaft total, 0.7 L; Smart Roadster (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · SOHC · 6 valves · 1 camshaft total, 0.7 L; Smart Roadster (Europe/United Kingdom market, 2003 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 60,
+        "max": 60
+      },
+      "torqueNm": {
+        "min": 110,
+        "max": 110
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-roadster-2003-ency",
+        "batch17-roadster-2003-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Smart Roadster (Europe/United Kingdom market, 2003 specification)"
+        ],
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-roadster-2003-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Smart Roadster technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2003,
+          "url": "https://www.encycarpedia.com/smart/03-roadster-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 60,
+              "max": 60
+            },
+            "performance.torqueNm": {
+              "min": 110,
+              "max": 110
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 0.7 L Inline-3, SOHC, 6 valves and 1 total camshafts; petrol, turbocharged, multiPointInjection; 60 kW and 110 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Roadster (Europe/United Kingdom market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-roadster-2003-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2003 Smart Roadster technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2003,
+          "url": "https://www.automobile-catalog.com/car/2003/3154640/smart_roadster_61.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 60,
+              "max": 60
+            },
+            "performance.torqueNm": {
+              "min": 110,
+              "max": 110
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 0.7 L Inline-3, SOHC, 6 valves and 1 total camshafts; petrol, turbocharged, multiPointInjection; 60 kW and 110 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Roadster (Europe/United Kingdom market, 2003 specification)"
+            ],
+            "years": {
+              "from": 2003,
+              "to": 2003
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-fortwo-brabus-2007",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Smart 1.0 L Inline-3 turbocharged 72 kW / 140 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Smart",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 72,
+        "max": 72
+      },
+      "torqueNm": {
+        "min": 140,
+        "max": 140
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-fortwo-brabus-2007-ency",
+        "batch17-fortwo-brabus-2007-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-fortwo-brabus-2007-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 Smart Fortwo Brabus technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2007,
+          "url": "https://www.encycarpedia.com/smart/07-fortwo-brabus-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 72,
+              "max": 72
+            },
+            "performance.torqueNm": {
+              "min": 140,
+              "max": 140
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 72 kW and 140 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-fortwo-brabus-2007-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 Smart Fortwo Brabus technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2007,
+          "url": "https://www.automobile-catalog.com/car/2007/3155030/smart_fortwo_coupe_brabus.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 72,
+              "max": 72
+            },
+            "performance.torqueNm": {
+              "min": 140,
+              "max": 140
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 72 kW and 140 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Fortwo Brabus (Europe/United Kingdom market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-fortwo-1-0-2007",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Smart 1.0 L Inline-3 naturallyAspirated 52 kW / 92 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Smart",
+    "regionKey": "europe",
+    "years": "2007",
+    "displacement": "1.0 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "naturallyAspirated",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.0 L; Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 52,
+        "max": 52
+      },
+      "torqueNm": {
+        "min": 92,
+        "max": 92
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-fortwo-1-0-2007-ency",
+        "batch17-fortwo-1-0-2007-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification)"
+        ],
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-fortwo-1-0-2007-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 Smart Fortwo 1.0 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2007,
+          "url": "https://www.encycarpedia.com/smart/07-fortwo-1-0-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 52,
+              "max": 52
+            },
+            "performance.torqueNm": {
+              "min": 92,
+              "max": 92
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 52 kW and 92 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-fortwo-1-0-2007-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2007 Smart Fortwo 1.0 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2007,
+          "url": "https://www.automobile-catalog.com/car/2007/3154985/smart_fortwo_coupe_71.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 52,
+              "max": 52
+            },
+            "performance.torqueNm": {
+              "min": 92,
+              "max": 92
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.0 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, naturallyAspirated, multiPointInjection; 52 kW and 92 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Fortwo 1.0 (Europe/United Kingdom market, 2007 specification)"
+            ],
+            "years": {
+              "from": 2007,
+              "to": 2007
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-forfour-brabus-2005",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Smart 1.5 L Inline-4 turbocharged 130 kW / 230 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Smart",
+    "regionKey": "europe",
+    "years": "2005",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 130,
+        "max": 130
+      },
+      "torqueNm": {
+        "min": 230,
+        "max": 230
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-forfour-brabus-2005-ency",
+        "batch17-forfour-brabus-2005-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification)"
+        ],
+        "years": {
+          "from": 2005,
+          "to": 2005
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-forfour-brabus-2005-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Smart Forfour Brabus technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2005,
+          "url": "https://www.encycarpedia.com/smart/05-forfour-brabus-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 130 kW and 230 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-forfour-brabus-2005-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2005 Smart Forfour Brabus technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2005,
+          "url": "https://www.automobile-catalog.com/car/2005/3154940/smart_forfour_brabus.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 130,
+              "max": 130
+            },
+            "performance.torqueNm": {
+              "min": 230,
+              "max": 230
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 130 kW and 230 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Forfour Brabus (Europe/United Kingdom market, 2005 specification)"
+            ],
+            "years": {
+              "from": 2005,
+              "to": 2005
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-forfour-0-9t-2014",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Smart 0.9 L Inline-3 turbocharged 66 kW / 135 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Smart",
+    "regionKey": "europe",
+    "years": "2014",
+    "displacement": "0.9 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.9 L; Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.9 L; Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.9 L; Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 0.9 L; Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 66,
+        "max": 66
+      },
+      "torqueNm": {
+        "min": 135,
+        "max": 135
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-forfour-0-9t-2014-ency",
+        "batch17-forfour-0-9t-2014-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification)"
+        ],
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-forfour-0-9t-2014-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Smart Forfour 0.9T technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2014,
+          "url": "https://www.encycarpedia.com/smart/14-forfour-0-9t-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 135,
+              "max": 135
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 0.9 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 66 kW and 135 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-forfour-0-9t-2014-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2014 Smart Forfour 0.9T technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2014,
+          "url": "https://www.automobile-catalog.com/car/2014/3155795/smart_forfour_90_turbo.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 66,
+              "max": 66
+            },
+            "performance.torqueNm": {
+              "min": 135,
+              "max": 135
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 0.9 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 66 kW and 135 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Smart Forfour 0.9T (Europe/United Kingdom market, 2014 specification)"
+            ],
+            "years": {
+              "from": 2014,
+              "to": 2014
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-500-2008",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Abarth 1.4 L Inline-4 turbocharged 99 kW / 206 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Abarth",
+    "regionKey": "europe",
+    "years": "2008",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Abarth 500 (Europe/United Kingdom market, 2008 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 500 (Europe/United Kingdom market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 500 (Europe/United Kingdom market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 500 (Europe/United Kingdom market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 500 (Europe/United Kingdom market, 2008 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 99,
+        "max": 99
+      },
+      "torqueNm": {
+        "min": 206,
+        "max": 206
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-500-2008-ency",
+        "batch17-500-2008-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Abarth 500 (Europe/United Kingdom market, 2008 specification)"
+        ],
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-500-2008-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2008 Abarth 500 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2008,
+          "url": "https://www.encycarpedia.com/abarth/08-500-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 206,
+              "max": 206
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 99 kW and 206 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 500 (Europe/United Kingdom market, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-500-2008-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2008 Abarth 500 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2008,
+          "url": "https://www.automobile-catalog.com/car/2008/728645/abarth_500.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 99,
+              "max": 99
+            },
+            "performance.torqueNm": {
+              "min": 206,
+              "max": 206
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 99 kW and 206 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 500 (Europe/United Kingdom market, 2008 specification)"
+            ],
+            "years": {
+              "from": 2008,
+              "to": 2008
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-punto-evo-2010",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Abarth 1.4 L Inline-4 turbocharged 121 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Abarth",
+    "regionKey": "europe",
+    "years": "2010",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Abarth Punto Evo (Europe/United Kingdom market, 2010 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth Punto Evo (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth Punto Evo (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth Punto Evo (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth Punto Evo (Europe/United Kingdom market, 2010 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 121,
+        "max": 121
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-punto-evo-2010-ency",
+        "batch17-punto-evo-2010-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Abarth Punto Evo (Europe/United Kingdom market, 2010 specification)"
+        ],
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-punto-evo-2010-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2010 Abarth Punto Evo technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2010,
+          "url": "https://www.encycarpedia.com/abarth/10-punto-evo-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 121,
+              "max": 121
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, SOHC, 16 valves and 1 total camshafts; petrol, turbocharged, multiPointInjection; 121 kW and 250 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth Punto Evo (Europe/United Kingdom market, 2010 specification)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-punto-evo-2010-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2010 Abarth Punto Evo technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2010,
+          "url": "https://www.automobile-catalog.com/car/2010/1389005/abarth_punto_evo_1_4_multiair_turbo_165_startandstop.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 121,
+              "max": 121
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, SOHC, 16 valves and 1 total camshafts; petrol, turbocharged, multiPointInjection; 121 kW and 250 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth Punto Evo (Europe/United Kingdom market, 2010 specification)"
+            ],
+            "years": {
+              "from": 2010,
+              "to": 2010
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-595-competizione-2015",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Abarth 1.4 L Inline-4 turbocharged 132 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Abarth",
+    "regionKey": "europe",
+    "years": "2015",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.4 L; Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 132,
+        "max": 132
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-595-competizione-2015-ency",
+        "batch17-595-competizione-2015-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification)"
+        ],
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-595-competizione-2015-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Abarth 595 Competizione technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2015,
+          "url": "https://www.encycarpedia.com/abarth/15-595-competizione-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 132 kW and 250 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-595-competizione-2015-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2015 Abarth 595 Competizione technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2015,
+          "url": "https://www.automobile-catalog.com/car/2015/2161385/abarth_595_competizione_mta.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 132,
+              "max": 132
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, multiPointInjection; 132 kW and 250 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 595 Competizione (Europe/United Kingdom market, 2015 specification)"
+            ],
+            "years": {
+              "from": 2015,
+              "to": 2015
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-124-spider-2016",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Abarth 1.4 L Inline-4 turbocharged 125 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and all mandatory construction/performance fields.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine code or designation; the scope was manually checked against baseline and Batch 16."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Abarth",
+    "regionKey": "europe",
+    "years": "2016",
+    "displacement": "1.4 L",
+    "layout": "Inline-4 · SOHC · 16 valves · 1 camshaft total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "multiPointInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Abarth 124 Spider (Europe/United Kingdom market, 2016 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth 124 Spider (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth 124 Spider (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth 124 Spider (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · SOHC · 16 valves · 1 camshaft total, 1.4 L; Abarth 124 Spider (Europe/United Kingdom market, 2016 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-124-spider-2016-ency",
+        "batch17-124-spider-2016-ac"
+      ],
+      "scope": {
+        "applications": [
+          "Abarth 124 Spider (Europe/United Kingdom market, 2016 specification)"
+        ],
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "markets": [
+          "Europe",
+          "United Kingdom"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-124-spider-2016-ency",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Abarth 124 Spider technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2016,
+          "url": "https://www.encycarpedia.com/abarth/16-124-spider-roadster",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, SOHC, 16 valves and 1 total camshafts; petrol, turbocharged, multiPointInjection; 125 kW and 250 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 124 Spider (Europe/United Kingdom market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-124-spider-2016-ac",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2016 Abarth 124 Spider technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2016,
+          "url": "https://www.automobile-catalog.com/car/2016/2407595/abarth_124_spider_mt.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "Performance and engine-specification sections: 1.4 L Inline-4, SOHC, 16 valves and 1 total camshafts; petrol, turbocharged, multiPointInjection; 125 kW and 250 N·m.",
+            "The exact application row/variant page is used; no engine code, alias or stable public designation is inferred from model, trim, URL or slug. RPM is intentionally omitted from the normalized core record."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Abarth 124 Spider (Europe/United Kingdom market, 2016 specification)"
+            ],
+            "years": {
+              "from": 2016,
+              "to": 2016
+            },
+            "markets": [
+              "Europe",
+              "United Kingdom"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mercedes-e200-w214-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.0 L Inline-4 turbocharged 150 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "E 200 (W214) (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; E 200 (W214) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; E 200 (W214) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; E 200 (W214) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; E 200 (W214) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mercedes-e200-w214-2024-a",
+        "batch17-mercedes-e200-w214-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "E 200 (W214) (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mercedes-e200-w214-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 E 200 (W214) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/mercedes/24-e-200-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 150 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "2024 W214 exact heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2024 Europe rear-wheel-drive W214 E 200 specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 200 (W214) (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mercedes-e200-w214-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 E 200 (W214) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/car/2024/3210545/mercedes-benz_e_200.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 150 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Europe sales market; Engine specifications. Scope limitation: 2024 Europe rear-wheel-drive W214 E 200 specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "E 200 (W214) (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-m4-competition-rwd-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 twinTurbocharged 375 kW / 650 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "M4 Competition Coupe RWD (G82) (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; M4 Competition Coupe RWD (G82) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; M4 Competition Coupe RWD (G82) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; M4 Competition Coupe RWD (G82) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; M4 Competition Coupe RWD (G82) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 375,
+        "max": 375
+      },
+      "torqueNm": {
+        "min": 650,
+        "max": 650
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-m4-competition-rwd-2024-a",
+        "batch17-bmw-m4-competition-rwd-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "M4 Competition Coupe RWD (G82) (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-m4-competition-rwd-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 M4 Competition Coupe RWD (G82) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/bmw/24-m4-competition-coupe-g82",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 375,
+              "max": 375
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, twinTurbocharged, directInjection; 375 kW and 650 N·m. No shared engine code or stable public designation is claimed.",
+            "2024 G82 exact RWD heading; Performance; Petrol Engine. Scope limitation: 2024 Europe rear-wheel-drive 375 kW calibration; xDrive excluded. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "M4 Competition Coupe RWD (G82) (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-m4-competition-rwd-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 M4 Competition Coupe RWD (G82) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/car/2024/3312950/bmw_m4_competition_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 375,
+              "max": 375
+            },
+            "performance.torqueNm": {
+              "min": 650,
+              "max": 650
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, twinTurbocharged, directInjection; 375 kW and 650 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Europe sales market; Engine specifications. Scope limitation: 2024 Europe rear-wheel-drive 375 kW calibration; xDrive excluded. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "M4 Competition Coupe RWD (G82) (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-audi-rs6-avant-gt-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 4.0 L V8 twinTurbocharged 463 kW / 850 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2024-2025",
+    "displacement": "4.0 L",
+    "layout": "V8 · DOHC · 32 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "RS 6 Avant GT (C8) (Europe market, 2024-2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; RS 6 Avant GT (C8) (Europe market, 2024-2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; RS 6 Avant GT (C8) (Europe market, 2024-2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; RS 6 Avant GT (C8) (Europe market, 2024-2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V8 · DOHC · 32 valves · 4 camshafts total, 4.0 L; RS 6 Avant GT (C8) (Europe market, 2024-2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 463,
+        "max": 463
+      },
+      "torqueNm": {
+        "min": 850,
+        "max": 850
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-audi-rs6-avant-gt-2024-a",
+        "batch17-audi-rs6-avant-gt-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "RS 6 Avant GT (C8) (Europe market, 2024-2025 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-audi-rs6-avant-gt-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024-2025 RS 6 Avant GT (C8) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/audi/24-rs-6-avant-gt-estate",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 463,
+              "max": 463
+            },
+            "performance.torqueNm": {
+              "min": 850,
+              "max": 850
+            }
+          },
+          "pageNotes": [
+            "4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 463 kW and 850 N·m. No shared engine code or stable public designation is claimed.",
+            "2024 C8 GT exact heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: Europe RS 6 Avant GT special edition only; standard Performance variant excluded. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "RS 6 Avant GT (C8) (Europe market, 2024-2025 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-audi-rs6-avant-gt-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024-2025 RS 6 Avant GT (C8) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/car/2024/3317375/audi_rs6_avant_gt.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 463,
+              "max": 463
+            },
+            "performance.torqueNm": {
+              "min": 850,
+              "max": 850
+            }
+          },
+          "pageNotes": [
+            "4.0 L V8, DOHC, 32 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 463 kW and 850 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Europe special-edition interval; Engine specifications. Scope limitation: Europe RS 6 Avant GT special edition only; standard Performance variant excluded. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "RS 6 Avant GT (C8) (Europe market, 2024-2025 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-porsche-panamera-4-2024",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Porsche 2.9 L V6 twinTurbocharged 259.5 kW / 500 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Porsche",
+    "regionKey": "europe",
+    "years": "2024",
+    "displacement": "2.9 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Panamera 4 (third generation) (Europe market, 2024 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.9 L; Panamera 4 (third generation) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.9 L; Panamera 4 (third generation) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.9 L; Panamera 4 (third generation) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 2.9 L; Panamera 4 (third generation) (Europe market, 2024 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 259.5,
+        "max": 259.5
+      },
+      "torqueNm": {
+        "min": 500,
+        "max": 500
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-porsche-panamera-4-2024-a",
+        "batch17-porsche-panamera-4-2024-b"
+      ],
+      "scope": {
+        "applications": [
+          "Panamera 4 (third generation) (Europe market, 2024 specification)"
+        ],
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-porsche-panamera-4-2024-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Panamera 4 (third generation) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2024,
+          "url": "https://www.encycarpedia.com/porsche/24-panamera-4-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 259.5,
+              "max": 259.5
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "2.9 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 259.5 kW and 500 N·m. No shared engine code or stable public designation is claimed.",
+            "2024 Panamera 4 exact heading; Performance; Petrol Engine. Scope limitation: 2024 Europe non-hybrid Panamera 4 259.5 kW specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Panamera 4 (third generation) (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-porsche-panamera-4-2024-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2024 Panamera 4 (third generation) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2024,
+          "url": "https://www.automobile-catalog.com/car/2024/3311390/porsche_panamera_4.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 259.5,
+              "max": 259.5
+            },
+            "performance.torqueNm": {
+              "min": 500,
+              "max": 500
+            }
+          },
+          "pageNotes": [
+            "2.9 L V6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 259.5 kW and 500 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Europe sales market; Engine specifications. Scope limitation: 2024 Europe non-hybrid Panamera 4 259.5 kW specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Panamera 4 (third generation) (Europe market, 2024 specification)"
+            ],
+            "years": {
+              "from": 2024,
+              "to": 2024
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-120-f70-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 1.5 L Inline-3 turbocharged 125 kW / 280 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "1.5 L",
+    "layout": "Inline-3 · DOHC · 12 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 120 (F70) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; BMW 120 (F70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; BMW 120 (F70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; BMW 120 (F70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-3 · DOHC · 12 valves · 2 camshafts total, 1.5 L; BMW 120 (F70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125
+      },
+      "torqueNm": {
+        "min": 280,
+        "max": 280
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-120-f70-2025-a",
+        "batch17-bmw-120-f70-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 120 (F70) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-120-f70-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 120 (F70) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/24-120-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 125 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 120 (F70) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-120-f70-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 120 (F70) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3317045/bmw_120.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 280,
+              "max": 280
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-3, DOHC, 12 valves and 2 total camshafts; petrol, turbocharged, directInjection; 125 kW and 280 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 120 (F70) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-735i-g70-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 turbocharged 200 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 735i (G70) (Asia market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 735i (G70) (Asia market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 735i (G70) (Asia market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 735i (G70) (Asia market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 735i (G70) (Asia market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 200,
+        "max": 200
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-735i-g70-2025-a",
+        "batch17-bmw-735i-g70-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 735i (G70) (Asia market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Asia"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-735i-g70-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 735i (G70) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/23-735i-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 200 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Asia exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 735i (G70) (Asia market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Asia"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-735i-g70-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 735i (G70) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3085535/bmw_735i.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 200,
+              "max": 200
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 200 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Asia exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 735i (G70) (Asia market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Asia"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-audi-sq5-sportback-tfsi-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 3.0 L V6 turbocharged 270 kW / 550 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "3.0 L",
+    "layout": "V6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi SQ5 Sportback TFSI (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Audi SQ5 Sportback TFSI (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Audi SQ5 Sportback TFSI (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Audi SQ5 Sportback TFSI (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "V6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Audi SQ5 Sportback TFSI (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 270,
+        "max": 270
+      },
+      "torqueNm": {
+        "min": 550,
+        "max": 550
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-audi-sq5-sportback-tfsi-2025-a",
+        "batch17-audi-sq5-sportback-tfsi-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi SQ5 Sportback TFSI (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-audi-sq5-sportback-tfsi-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Audi SQ5 Sportback TFSI technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/audi/25-sq5-sportback-tfsi-suv",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, turbocharged, directInjection; 270 kW and 550 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi SQ5 Sportback TFSI (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-audi-sq5-sportback-tfsi-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Audi SQ5 Sportback TFSI technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3377840/audi_sq5_sportback_tfsi.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 270,
+              "max": 270
+            },
+            "performance.torqueNm": {
+              "min": 550,
+              "max": 550
+            }
+          },
+          "pageNotes": [
+            "3.0 L V6, DOHC, 24 valves and 4 total camshafts; petrol, turbocharged, directInjection; 270 kW and 550 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi SQ5 Sportback TFSI (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mercedes-g500-w465-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 3.0 L Inline-6 turbocharged 330 kW / 560 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz G 500 (W465) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Mercedes-Benz G 500 (W465) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Mercedes-Benz G 500 (W465) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Mercedes-Benz G 500 (W465) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; Mercedes-Benz G 500 (W465) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 330,
+        "max": 330
+      },
+      "torqueNm": {
+        "min": 560,
+        "max": 560
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mercedes-g500-w465-2025-a",
+        "batch17-mercedes-g500-w465-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz G 500 (W465) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mercedes-g500-w465-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz G 500 (W465) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/mercedes/24-g-500-suv",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 330,
+              "max": 330
+            },
+            "performance.torqueNm": {
+              "min": 560,
+              "max": 560
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 330 kW and 560 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz G 500 (W465) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mercedes-g500-w465-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz G 500 (W465) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3314795/mercedes-benz_g_500.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 330,
+              "max": 330
+            },
+            "performance.torqueNm": {
+              "min": 560,
+              "max": 560
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; petrol, turbocharged, directInjection; 330 kW and 560 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz G 500 (W465) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-porsche-911-carrera-t-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Porsche 3.0 L Flat-6 twinTurbocharged 290 kW / 450 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Porsche",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "3.0 L",
+    "layout": "Flat-6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Porsche 911 Carrera T (992 II) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera T (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera T (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera T (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera T (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 290,
+        "max": 290
+      },
+      "torqueNm": {
+        "min": 450,
+        "max": 450
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-porsche-911-carrera-t-2025-a",
+        "batch17-porsche-911-carrera-t-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Porsche 911 Carrera T (992 II) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-porsche-911-carrera-t-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Porsche 911 Carrera T (992 II) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/porsche/25-911-carrera-t-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 290,
+              "max": 290
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "3.0 L Flat-6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 290 kW and 450 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 Carrera T (992 II) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-porsche-911-carrera-t-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Porsche 911 Carrera T (992 II) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3361355/porsche_911_carrera_t_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 290,
+              "max": 290
+            },
+            "performance.torqueNm": {
+              "min": 450,
+              "max": 450
+            }
+          },
+          "pageNotes": [
+            "3.0 L Flat-6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 290 kW and 450 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 Carrera T (992 II) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-520i-g60-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2.0 L Inline-4 turbocharged 153 kW / 330 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 520i (G60) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 520i (G60) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 520i (G60) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 520i (G60) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 520i (G60) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 153,
+        "max": 153
+      },
+      "torqueNm": {
+        "min": 330,
+        "max": 330
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-520i-g60-2025-a",
+        "batch17-bmw-520i-g60-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 520i (G60) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-520i-g60-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 520i (G60) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/23-520i-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 153,
+              "max": 153
+            },
+            "performance.torqueNm": {
+              "min": 330,
+              "max": 330
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 153 kW and 330 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 520i (G60) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-520i-g60-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 520i (G60) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3209285/bmw_520i.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 153,
+              "max": 153
+            },
+            "performance.torqueNm": {
+              "min": 330,
+              "max": 330
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 153 kW and 330 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 520i (G60) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-audi-a5-avant-tfsi-150-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 150 kW / 340 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A5 Avant TFSI 150 (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TFSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TFSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TFSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TFSI 150 (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150
+      },
+      "torqueNm": {
+        "min": 340,
+        "max": 340
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-audi-a5-avant-tfsi-150-2025-a",
+        "batch17-audi-a5-avant-tfsi-150-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A5 Avant TFSI 150 (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-audi-a5-avant-tfsi-150-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Audi A5 Avant TFSI 150 technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/audi/24-a5-avant-tfsi-150-estate",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 150 kW and 340 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A5 Avant TFSI 150 (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-audi-a5-avant-tfsi-150-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Audi A5 Avant TFSI 150 technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3343070/audi_a5_avant_tfsi_204.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 340,
+              "max": 340
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 150 kW and 340 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A5 Avant TFSI 150 (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-318i-g20-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2.0 L Inline-4 turbocharged 115 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 318i (G20) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 318i (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 318i (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 318i (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 318i (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 115,
+        "max": 115
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-318i-g20-2025-a",
+        "batch17-bmw-318i-g20-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 318i (G20) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-318i-g20-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 318i (G20) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/22-318i-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 115,
+              "max": 115
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 115 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 318i (G20) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-318i-g20-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 318i (G20) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3316670/bmw_318i.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 115,
+              "max": 115
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 115 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 318i (G20) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mercedes-a200-w177-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 1.3 L Inline-4 turbocharged 120 kW / 270 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "1.3 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 200 (W177) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Mercedes-Benz A 200 (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Mercedes-Benz A 200 (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Mercedes-Benz A 200 (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.3 L; Mercedes-Benz A 200 (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 270,
+        "max": 270
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mercedes-a200-w177-2025-a",
+        "batch17-mercedes-a200-w177-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 200 (W177) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mercedes-a200-w177-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz A 200 (W177) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/mercedes/23-a-200-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 120 kW and 270 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 200 (W177) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mercedes-a200-w177-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz A 200 (W177) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3132170/mercedes-benz_a_200.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 270,
+              "max": 270
+            }
+          },
+          "pageNotes": [
+            "1.3 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 120 kW and 270 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 200 (W177) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-320d-g20-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2.0 L Inline-4 turbocharged 140 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 320d (G20) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 320d (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 320d (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 320d (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 320d (G20) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-320d-g20-2025-a",
+        "batch17-bmw-320d-g20-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 320d (G20) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-320d-g20-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 320d (G20) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/22-320d-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 140 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Diesel Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 320d (G20) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-320d-g20-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 320d (G20) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3316760/bmw_320d.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 140 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 320d (G20) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-420i-gran-coupe-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2.0 L Inline-4 turbocharged 135 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 420i Gran Coupe (G24) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 420i Gran Coupe (G24) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 420i Gran Coupe (G24) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 420i Gran Coupe (G24) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 420i Gran Coupe (G24) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 135,
+        "max": 135
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-420i-gran-coupe-2025-a",
+        "batch17-bmw-420i-gran-coupe-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 420i Gran Coupe (G24) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-420i-gran-coupe-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 420i Gran Coupe (G24) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/24-420i-gran-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 135 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 420i Gran Coupe (G24) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-420i-gran-coupe-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 420i Gran Coupe (G24) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3312785/bmw_420i_gran_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 135,
+              "max": 135
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 135 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 420i Gran Coupe (G24) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mercedes-c180-w206-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 1.5 L Inline-4 turbocharged 125 kW / 250 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "1.5 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz C 180 (W206) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Mercedes-Benz C 180 (W206) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Mercedes-Benz C 180 (W206) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Mercedes-Benz C 180 (W206) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.5 L; Mercedes-Benz C 180 (W206) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 125,
+        "max": 125
+      },
+      "torqueNm": {
+        "min": 250,
+        "max": 250
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mercedes-c180-w206-2025-a",
+        "batch17-mercedes-c180-w206-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz C 180 (W206) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mercedes-c180-w206-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz C 180 (W206) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/mercedes/21-c-180-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 125 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C 180 (W206) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mercedes-c180-w206-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz C 180 (W206) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3004175/mercedes-benz_c_180.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 125,
+              "max": 125
+            },
+            "performance.torqueNm": {
+              "min": 250,
+              "max": 250
+            }
+          },
+          "pageNotes": [
+            "1.5 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 125 kW and 250 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz C 180 (W206) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-m235-xdrive-gran-coupe-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2.0 L Inline-4 turbocharged 220.5 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 220.5,
+        "max": 220.5
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-m235-xdrive-gran-coupe-2025-a",
+        "batch17-bmw-m235-xdrive-gran-coupe-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-m235-xdrive-gran-coupe-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW M235 xDrive Gran Coupe (F74) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/25-m235-xdrive-gran-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220.5,
+              "max": 220.5
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 220.5 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-m235-xdrive-gran-coupe-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW M235 xDrive Gran Coupe (F74) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3376820/bmw_m235_xdrive_gran_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 220.5,
+              "max": 220.5
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 220.5 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW M235 xDrive Gran Coupe (F74) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-220d-gran-coupe-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 2.0 L Inline-4 turbocharged 120 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 220d Gran Coupe (F74) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 220d Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 220d Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 220d Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; BMW 220d Gran Coupe (F74) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 120,
+        "max": 120
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-220d-gran-coupe-2025-a",
+        "batch17-bmw-220d-gran-coupe-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 220d Gran Coupe (F74) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-220d-gran-coupe-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 220d Gran Coupe (F74) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/25-220d-gran-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Diesel Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 220d Gran Coupe (F74) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-220d-gran-coupe-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 220d Gran Coupe (F74) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3376805/bmw_220d_gran_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 120,
+              "max": 120
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 120 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 220d Gran Coupe (F74) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mercedes-a200d-w177-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 1.9 L Inline-4 turbocharged 110 kW / 320 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "1.9 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 1.9 L; Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 110,
+        "max": 110
+      },
+      "torqueNm": {
+        "min": 320,
+        "max": 320
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mercedes-a200d-w177-2025-a",
+        "batch17-mercedes-a200d-w177-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mercedes-a200d-w177-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz A 200 d (W177) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/mercedes/23-a-200-d-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Diesel Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mercedes-a200d-w177-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz A 200 d (W177) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3132230/mercedes-benz_a_200_d.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 110,
+              "max": 110
+            },
+            "performance.torqueNm": {
+              "min": 320,
+              "max": 320
+            }
+          },
+          "pageNotes": [
+            "1.9 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 110 kW and 320 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 200 d (W177) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-mercedes-a220-4matic-w177-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Mercedes-Benz 2.0 L Inline-4 turbocharged 140 kW / 300 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Mercedes-Benz",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 140,
+        "max": 140
+      },
+      "torqueNm": {
+        "min": 300,
+        "max": 300
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-mercedes-a220-4matic-w177-2025-a",
+        "batch17-mercedes-a220-4matic-w177-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-mercedes-a220-4matic-w177-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz A 220 4MATIC (W177) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/mercedes/23-a-220-4matic-hatch",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 140 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-mercedes-a220-4matic-w177-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Mercedes-Benz A 220 4MATIC (W177) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3132185/mercedes-benz_a_220_4matic.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 140,
+              "max": 140
+            },
+            "performance.torqueNm": {
+              "min": 300,
+              "max": 300
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; petrol, turbocharged, directInjection; 140 kW and 300 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Mercedes-Benz A 220 4MATIC (W177) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-porsche-911-carrera-s-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Porsche 3.0 L Flat-6 twinTurbocharged 353 kW / 530 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Porsche",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "3.0 L",
+    "layout": "Flat-6 · DOHC · 24 valves · 4 camshafts total",
+    "fuelKey": "petrol",
+    "aspirationKey": "twinTurbocharged",
+    "injectionKey": "directInjection",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Flat-6 · DOHC · 24 valves · 4 camshafts total, 3.0 L; Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 353,
+        "max": 353
+      },
+      "torqueNm": {
+        "min": 530,
+        "max": 530
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-porsche-911-carrera-s-2025-a",
+        "batch17-porsche-911-carrera-s-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-porsche-911-carrera-s-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Porsche 911 Carrera S Coupe (992 II) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/porsche/25-911-carrera-s-coupe",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 353,
+              "max": 353
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "3.0 L Flat-6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 353 kW and 530 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Petrol Engine. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-porsche-911-carrera-s-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Porsche 911 Carrera S Coupe (992 II) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3429035/porsche_911_carrera_s_coupe.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 353,
+              "max": 353
+            },
+            "performance.torqueNm": {
+              "min": 530,
+              "max": 530
+            }
+          },
+          "pageNotes": [
+            "3.0 L Flat-6, DOHC, 24 valves and 4 total camshafts; petrol, twinTurbocharged, directInjection; 353 kW and 530 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Porsche 911 Carrera S Coupe (992 II) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-audi-a5-avant-tdi-150-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "Audi 2.0 L Inline-4 turbocharged 150 kW / 400 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "Audi",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "2.0 L",
+    "layout": "Inline-4 · DOHC · 16 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-4 · DOHC · 16 valves · 2 camshafts total, 2.0 L; Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 150,
+        "max": 150
+      },
+      "torqueNm": {
+        "min": 400,
+        "max": 400
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-audi-a5-avant-tdi-150-2025-a",
+        "batch17-audi-a5-avant-tdi-150-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-audi-a5-avant-tdi-150-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Audi A5 Avant TDI 150 MHEV plus technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/audi/24-a5-avant-tdi-150-mhev-plus-estate",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 150 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; Performance; Diesel Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-audi-a5-avant-tdi-150-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 Audi A5 Avant TDI 150 MHEV plus technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3343085/audi_a5_avant_tdi_204_mhev_plus.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 150,
+              "max": 150
+            },
+            "performance.torqueNm": {
+              "min": 400,
+              "max": 400
+            }
+          },
+          "pageNotes": [
+            "2.0 L Inline-4, DOHC, 16 valves and 2 total camshafts; diesel, turbocharged, commonRail; 150 kW and 400 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; Sales markets; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "Audi A5 Avant TDI 150 MHEV plus (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
+  },
+  {
+    "id": "batch17-bmw-740d-xdrive-g70-2025",
+    "identity": {
+      "type": "applicationScopedSpecification",
+      "value": "BMW 3.0 L Inline-6 turbocharged 223 kW / 670 Nm application specification",
+      "review": {
+        "manualReviewConfirmed": true,
+        "applicationScopeConfirmed": true,
+        "codeOrDesignationNotClaimed": true,
+        "materialVariantsSeparated": true,
+        "cosmeticVariantsConsolidated": true,
+        "notes": [
+          "Two independent editorial publications bind the exact application and mandatory technical specification.",
+          "Model, trim, body, transmission and drivetrain text is not used as an engine designation.",
+          "Similar model-family candidates remain separate only when the material calibration differs."
+        ]
+      }
+    },
+    "completeness": "core",
+    "aliases": [],
+    "maker": "BMW",
+    "regionKey": "europe",
+    "years": "2025",
+    "displacement": "3.0 L",
+    "layout": "Inline-6 · DOHC · 24 valves · 2 camshafts total",
+    "fuelKey": "diesel",
+    "aspirationKey": "turbocharged",
+    "injectionKey": "commonRail",
+    "blockKey": "notSpecified",
+    "timingKey": "notSpecified",
+    "applications": [
+      "BMW 740d xDrive (G70) (Europe market, 2025 specification)"
+    ],
+    "consumption": "Not specified in verified scope",
+    "declaredLifeKey": "notPublished",
+    "typicalLife": "Not specified in verified scope",
+    "oilRecord": "",
+    "statusKey": "starterReview",
+    "text": {
+      "en": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 740d xDrive (G70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "es": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 740d xDrive (G70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "fr": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 740d xDrive (G70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      },
+      "de": {
+        "construction": "Inline-6 · DOHC · 24 valves · 2 camshafts total, 3.0 L; BMW 740d xDrive (G70) (Europe market, 2025 specification).",
+        "issues": "Faults and service life are outside this specification record.",
+        "pros": "Two independent professional publications cover the required core specification.",
+        "cons": "Application-specific specification without an asserted code or designation; RPM is not stored."
+      }
+    },
+    "performance": {
+      "powerKw": {
+        "min": 223,
+        "max": 223
+      },
+      "torqueNm": {
+        "min": 670,
+        "max": 670
+      }
+    },
+    "verification": {
+      "status": "verified",
+      "evidenceBasis": "corroborated",
+      "sourceRefs": [
+        "batch17-bmw-740d-xdrive-g70-2025-a",
+        "batch17-bmw-740d-xdrive-g70-2025-b"
+      ],
+      "scope": {
+        "applications": [
+          "BMW 740d xDrive (G70) (Europe market, 2025 specification)"
+        ],
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "markets": [
+          "Europe"
+        ]
+      },
+      "sources": [
+        {
+          "id": "batch17-bmw-740d-xdrive-g70-2025-a",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 740d xDrive (G70) technical specification — encyCARpedia",
+          "publisher": "encyCARpedia",
+          "year": 2025,
+          "url": "https://www.encycarpedia.com/bmw/23-740d-xdrive-saloon",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 223,
+              "max": 223
+            },
+            "performance.torqueNm": {
+              "min": 670,
+              "max": 670
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 223 kW and 670 N·m. No shared engine code or stable public designation is claimed.",
+            "exact variant heading; 2025 model-year coverage; Performance; Diesel Engine - Mild Hybrid. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 740d xDrive (G70) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "encyCARpedia",
+          "editorialTeam": "encyCARpedia editorial team",
+          "contentRelationship": "originalEditorial"
+        },
+        {
+          "id": "batch17-bmw-740d-xdrive-g70-2025-b",
+          "type": "technicalReference",
+          "evidenceTier": "B",
+          "dataOrigin": "manufacturer-published-technical-specifications",
+          "independenceNotes": [
+            "The paired publishers, owners, editorial teams and domains are distinct; the pages are not mirrors, translations, syndicated copies or clients of one commercial database.",
+            "A common manufacturer origin for technical facts does not make the separate editorial publications dependent."
+          ],
+          "title": "2025 BMW 740d xDrive (G70) technical specification — Automobile-Catalog / ProfessCars",
+          "publisher": "Automobile-Catalog / ProfessCars",
+          "year": 2025,
+          "url": "https://www.automobile-catalog.com/car/2025/3121205/bmw_740d_xdrive.html",
+          "page": 1,
+          "checkedAt": "2026-10-12",
+          "fields": [
+            "maker",
+            "identity.applicationScopedSpecification",
+            "applications",
+            "years",
+            "displacement",
+            "layout",
+            "layout.valves",
+            "layout.camshaftsTotal",
+            "fuelKey",
+            "aspirationKey",
+            "injectionKey",
+            "performance.powerKw",
+            "performance.torqueNm"
+          ],
+          "claims": {
+            "performance.powerKw": {
+              "min": 223,
+              "max": 223
+            },
+            "performance.torqueNm": {
+              "min": 670,
+              "max": 670
+            }
+          },
+          "pageNotes": [
+            "3.0 L Inline-6, DOHC, 24 valves and 2 total camshafts; diesel, turbocharged, commonRail; 223 kW and 670 N·m. No shared engine code or stable public designation is claimed.",
+            "Identification data; 2025 Europe sales market; Engine specifications. Scope limitation: 2025 Europe exact application specification. RPM is intentionally omitted because no conflict-free common normalized RPM claim is stored."
+          ],
+          "scope": {
+            "level": "exactVariant",
+            "applications": [
+              "BMW 740d xDrive (G70) (Europe market, 2025 specification)"
+            ],
+            "years": {
+              "from": 2025,
+              "to": 2025
+            },
+            "markets": [
+              "Europe"
+            ]
+          },
+          "owner": "ProfessCars",
+          "editorialTeam": "ProfessCars editorial team",
+          "contentRelationship": "originalEditorial"
+        }
+      ]
+    }
   }
 ];
